@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5>;
+public <S> = fitbit__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5>);
 
 #PRECONDITION
 <WHEN> = if my weight goes over <WEIGHT>;
@@ -29,7 +29,6 @@ public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5>;
 <INTENT_4> = (log | record | make note of) my weight on fitbit;
 
 <INTENT_5> = <NOTIFY_VERB> me <WHEN>;
-
 
 #SLOTS
 <STEPS> = 1000 | 6000 | 10000;

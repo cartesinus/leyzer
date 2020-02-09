@@ -1,31 +1,48 @@
 #JSGF V1.0;
-public <S> = <WHEN>;
+public <S> = youtube__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10>);
 
-<WHEN> = when there is a new video from youtube channels I follow;
-<WHEN> = when there is a new video from youtube channel <CHANNEL_ID>;
-<WHEN> = when <CHANNEL_ID> uploads a video on youtube;
-<WHEN> = when <CHANNEL_ID> posts a new youtube video;
-<GET> = youtube videos in <CHANNEL_ID>;
-<GET> = youtube channel <CHANNEL_ID>;
-<GET> = channel <CHANNEL_ID> in youtube;
-<GET> = channels in category <CATEGORY_ID> on youtube;
-<GET> = youtube channels with category <CATEGORY_ID>;
-<GET> = <CATEGORY_ID> youtube channels;
-<GET> = <CATEGORY_ID> channels in youtube;
-<GET> = youtube 's <CATEGORY_ID> channels;
-<GET> = channels I am subscribed to on youtube;
-<GET> = channels I follow on youtube;
-<GET> = youtube channels i follow;
-<GET> = <QUERY> channels on youtube;
-<GET> = channels matching <QUERY> on youtube;
-<GET> = youtube channel <QUERY>;
-<GET> = a <QUERY> video on youtube;
-<GET> = a video matching <QUERY> on youtube;
-<GET> = <QUERY> from youtube;
-<GET> = <QUERY> videos from youtube;
-<GET> = youtube video <QUERY>;
-<GET> = a video from <CHANNEL_ID> matching <QUERY> on youtube;
-<GET> = a video published by <CHANNEL_ID> matching <QUERY> on youtube;
-<GET> = <COUNT> many videos matching <QUERY> on youtube;
+#PRECONDITIONS
+<WHEN_1> = when there is a new video from youtube channels I follow;
+<WHEN_2> = when (there is a new video from youtube channel <CHANNEL_ID> | <CHANNEL_ID> (uploads a video on youtube | posts a new youtube video));
+
+#INTENTS
+<INTENT_1> = open (yt | youtube);
+
+<INTENT_2> = (play | <FIND_VERB>) (<INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>);
+<INTENT_2_a> = <QUERY> video on youtube;
+<INTENT_2_b> = a video matching <QUERY> on youtube;
+<INTENT_2_c> = <QUERY> [video | videos] from youtube;
+<INTENT_2_d> = youtube video <QUERY>;
+
+<INTENT_3> = (show | play) (youtube (channel | videos in) <CHANNEL_ID> | channel <CHANNEL_ID> in youtube);
+
+<INTENT_4> = (show | play | display) (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
+<INTENT_4_a> = channels in category <CATEGORY_ID> on youtube;
+<INTENT_4_b> = youtube channels with category <CATEGORY_ID>;
+<INTENT_4_c> = <CATEGORY_ID> (youtube channels | channels in youtube);
+<INTENT_4_d> = youtube 's <CATEGORY_ID> channels;
+
+<INTENT_5> = show [me] channels I am subscribed to on youtube;
+
+<INTENT_6> = show [me] (channels I follow on youtube | youtube channels i follow);
+
+<INTENT_7> = <FIND_VERB> (<INTENT_7_a> | <INTENT_7_b> | <INTENT_7_c>);
+<INTENT_7_a> = <QUERY> channels on youtube;
+<INTENT_7_b> = channels matching <QUERY> on youtube;
+<INTENT_7_c> = youtube channel <QUERY>;
+
+<INTENT_8> = show [me] a (video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
+
+<INTENT_9> = notify me <WHEN_1>;
+
+<INTENT_10> = notify me <WHEN_2>;
+
+#SLOTS
+<CHANNEL_ID> = theneedledrop | justin bieber | team coco | cineamasin | dandmt | niki and gabi | wwe | unbox therapy | gordon ramsay;
+<CATEGORY_ID> = news and politics | cooking and health | tech | sports | beauty and fashion | gaming | comedy | music;
+<QUERY> = baby yoda | noom diet | joker | 7 rings | old town road | area 51 | stranger things | chernobyl | coronavirus;
+
+#LANG. COMPONENTS
+<FIND_VERB> = find | search for | look for;
 
 // "search youtube for videos"

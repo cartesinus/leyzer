@@ -1,26 +1,35 @@
 #JSGF V1.0;
-public <S> = <GET>;
+public <S> = translate__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7>);
 
-<GET> = the translation of <TEXT> to <TRG_LANG> with yandex;
-<GET> = the translation of <TEXT> to <TRG_LANG>;
-<GET> = translate <TEXT> to <TRG_LANG>;
-<GET> = translate to <TRG_LANG> <TEXT>;
-<GET> = <TEXT> in <TRG_LANG>;
-<GET> = <TEXT> translated to <TRG_LANG>;
-<GET> = the translation of <TEXT> from <SRC_LANG> to <TRG_LANG> with yandex;
-<GET> = the translation of <TEXT> from <SRC_LANG> to <TRG_LANG>;
-<GET> = the translation of <TEXT> to <TRG_LANG> from <SRC_LANG> with yandex;
-<GET> = the translation of <TEXT> to <TRG_LANG> from <SRC_LANG>;
-<GET> = translate <TEXT> from <SRC_LANG> to <TRG_LANG>;
-<GET> = translate to <TRG_LANG>;
-<GET> = a translation to <TRG_LANG>;
-<GET> = translate <TEXT>;
-<GET> = the translation of <TEXT>;
-<GET> = translate <TEXT> from <SRC_LANG>;
-<GET> = the translation of <TEXT> from <SRC_LANG>;
-<GET> = the translation of <SRC_LANG> sentence <TEXT>;
-<GET> = the language of <TEXT>;
-<GET> = the language <TEXT> is written in;
-<GET> = the language yandex detects <TEXT> as;
-<GET> = detect the language of <TEXT>;
-<GET> = detect what language <TEXT> is written in;
+#INTENTS
+<INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c> | <INTENT_1_d>;
+<INTENT_1_a> = [the] translation of <TEXT> to <TRG_LANG> with <TRANSLATOR>;
+<INTENT_1_b> = (translate | [the] translation of) <TEXT> to <TRG_LANG>;
+<INTENT_1_c> = translate to <TRG_LANG> <TEXT>;
+<INTENT_1_d> = <TEXT> (in | translated to) <TRG_LANG>;
+
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
+<INTENT_2_a> = (translate | [the] translation of) <TEXT> from <SRC_LANG> to <TRG_LANG>;
+<INTENT_2_b> = (translate | [the] translation of) <TEXT> to <TRG_LANG> from <SRC_LANG>;
+
+<INTENT_3> = <INTENT_3_a> | <INTENT_3_b>;
+<INTENT_3_a> = the translation of <TEXT> from <SRC_LANG> to <TRG_LANG> with <TRANSLATOR>;
+<INTENT_3_b> = the translation of <TEXT> to <TRG_LANG> from <SRC_LANG> with <TRANSLATOR>;
+
+<INTENT_4> = (translate to | a translation to) <TRG_LANG>;
+
+<INTENT_5> = (translate | [the] translation of) <TEXT>;
+
+<INTENT_6> = <INTENT_6_a> | <INTENT_6_b>;
+<INTENT_6_a> = (translate | [the] translation of) <TEXT> from <SRC_LANG>;
+<INTENT_6_b> = [the] translation of <SRC_LANG> sentence <TEXT>;
+
+<INTENT_7> = <INTENT_7_a> | <INTENT_7_b>;
+<INTENT_7_a> = [the] language of <TEXT> [is written in];
+<INTENT_7_b> = detect ([the] language of | what language) <TEXT> [is written in];
+
+#SLOTS
+<SRC_LANG> = italian | french | english | japanease | russian;
+<TRG_LANG> = polish | german | spanish | thai | czech | finish;
+<TEXT> = hi, how are you | where is airport | how much is that | can you help me | my name is nico | i am from germany;
+<TRANSLATOR> = yandex | google | microsoft | deepl;

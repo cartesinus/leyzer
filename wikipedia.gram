@@ -1,9 +1,12 @@
 #JSGF V1.0;
-public <S> = <GET>;
+public <S> = wikipedia__ (1__ <INTENT_1> | 2__ <INTENT_2>);
 
-<GET> = <QUERY> in wiki;
-<GET> = <QUERY> in wikipedia;
-<GET> = <QUERY> matching in wikipedia;
-<GET> = wikipedia;
-<GET> = wikipedia pages;
-<GET> = wikipedia definition;
+#INTENTS
+<INTENT_1> = open wikipedia [pages | definition];
+
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
+<INTENT_2_a> = (find | search) <QUERY> on (wiki | wikipedia);
+<INTENT_2_b> = <QUERY> [matching] in (wiki | wikipedia);
+
+#SLOTS
+<QUERY> = london | kate moss | london | big ben | coronavirus | poland | capital city of germany | wolf | nebraska | longes river on earth;

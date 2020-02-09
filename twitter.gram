@@ -1,6 +1,7 @@
 #JSGF V1.0;
-public <S> = <WHEN>;
+public <S> = twitter__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3>);
 
+#PRECONDITIONS
 <WHEN> = when someone i follow tweets;
 <WHEN> = when i receive a tweet;
 <WHEN> = when there is a new tweet in my timeline;
@@ -26,7 +27,19 @@ public <S> = <WHEN>;
 <WHEN> = when i reply to <IN_REPLY_TO> on twitter;
 <WHEN> = when i make a new tweet in reply to <IN_REPLY_TO> on twitter;
 <WHEN> = when i mention <IN_REPLY_TO> on twitter;
-<GET> = tweets matching <TEXT> on twitter;
+
+#INTENTS
+<INTENT_1> = <SHOW_VERB> (my ([recent] tweets | posts on twitter ) | tweets i made);
+
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>;
+<INTENT_2_a> = follow <USERNAME> on twitter;
+<INTENT_2_b> = become a follower of <USERNAME> on twitter;
+<INTENT_2_c> = become a twitter follower of <USERNAME>;
+<INTENT_2_d> = be a twitter follower of <USERNAME>;
+
+<INTENT_3> = (unfollow | stop following) <USERNAME> on twitter;
+
+<GET> = <SHOW_VERB> tweets matching <TEXT> on twitter;
 <GET> = <TEXT> tweets;
 <GET> = recent tweets about <TEXT>;
 <GET> = recent tweets;
@@ -52,10 +65,6 @@ public <S> = <WHEN>;
 <GET> = my twitter replies to <IN_REPLY_TO>;
 <GET> = my twitter mentions to <IN_REPLY_TO>;
 <GET> = my tweets that mention <IN_REPLY_TO>;
-<GET> = my tweets;
-<GET> = my posts on twitter;
-<GET> = my recent tweets;
-<GET> = tweets i made;
 <GET> = my twitter direct messages;
 <GET> = the direct messages i received on twitter;
 <GET> = the messages i got on twitter;
@@ -79,12 +88,6 @@ public <S> = <WHEN>;
 <DO> = post a picture on twitter saying <CAPTION>;
 <DO> = tweet a picture;
 <DO> = post a picture on twitter;
-<DO> = follow <USERNAME> on twitter;
-<DO> = become a follower of <USERNAME> on twitter;
-<DO> = be a twitter follower of <USERNAME>;
-<DO> = become a twitter follower of <USERNAME>;
-<DO> = unfollow <USERNAME> on twitter;
-<DO> = stop following <USERNAME> on twitter;
 <DO> = retweet <TWEED_ID>;
 <DO> = retweet <TWEED_ID> to my followers;
 <DO> = post <PICTURE_URL> on twitter;
@@ -102,5 +105,19 @@ public <S> = <WHEN>;
 <DO> = send a twitter direct message to <TO>;
 <DO> = send a twitter dm to <TO>;
 <DO> = dm <TO> on twitter;
+
+#SLOTS
+<CAPTION> = ;
+<STATUS> = ;
+<TO> = ;
+<MESSAGE> =;
+<USERNAME> = emnlp2020 | Kyunghyun Cho | Ilya Sutskever | AllenNLP | Ian Gooffellow | Andrew Ng | Yann LeCun;
+<IN_REPLY_TO> =;
+<HASHTAG> = ;
+<AUTHOR> =;
+<TEXT> ;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = show | display;
 
 //automatically retweet anyone i follow

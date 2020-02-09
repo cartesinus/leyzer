@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6>;
+public <S> = facebook__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6>);
 
 #PRECONDITIONS
 <WHEN> = when I upload a photo to my timeline on facebook;
@@ -8,7 +8,6 @@ public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <I
 <GET> = photos on facebook;
 <GET> = photos in album <ALBUM> on facebook;
 <GET> = posts on facebook;
-
 
 #INETNTS
 <INTENT_1> = (post something on facebook | make a new facebook post | update my facebook status | make a new post on facebook);
@@ -28,7 +27,6 @@ public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <I
 <INTENT_5> = (post <PICTURE_URL> on facebook | upload <PICTURE_URL> to facebook | upload to facebook <PICTURE_URL>);
 
 <INTENT_6> = ((post | put) <PICTURE_URL> on [my] facebook with caption <CAPTION>) | caption <PICTURE_URL> as <CAPTION> and (post | upload) it on facebook;
-
 
 #SLOTS
 <ALBUM> = holidays | cats | memes | holidays in jamaica | barcelona | my love;

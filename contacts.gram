@@ -1,21 +1,30 @@
 #JSGF V1.0;
-public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6> | <INTENT_7> | <INTENT_8> | <INTENT_9> | <INTENT_10> | <INTENT_11> | <INTENT_12>;
+public <S> = contacts__  (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11> | 12__ <INTENT_12>);
 
 #INTENTS
 <INTENT_1> = <SHOW_VERB> my contacts;
-<INTENT_2> = <SHOW_VERB> my contact's info;
-<INTENT_3> = <SHOW_VERB> my [google] contacts with email <EMAIL>;
-<INTENT_4> = <SHOW_VERB> my contacts with phone number <PHONE_NUMBER>;
-<INTENT_5> = <SHOW_VERB> my contacts with name <NAME>;
-<INTENT_6> = <SHOW_VERB> my contacts with phone number <PHONE_NUMBER> and email <EMAIL>;
-<INTENT_7> = create a new contact (and name it | using a name | and call it) <NAME> (with [a | the] number | and give it a number | and add the number) <PHONE_NUMBER> [as <PHONE_TYPE>];
-<INTENT_8> = edit my contact <NAME>;
-<INTENT_9> = open my contact <NAME> for edition;
-<INTENT_10> = change the name of my contact with number <PHONE_NUMBER>;
-<INTENT_11> = change the number of my contact <NAME>;
-<INTENT_12> = set the number <PHONE_NUMBER> in contact <NAME> as <PHONE_TYPE>;
 
-<INTENT_> = show my google contacts;
+<INTENT_2> = <SHOW_VERB> my contact's info;
+
+<INTENT_3> = <SHOW_VERB> my [google] contacts with email <EMAIL>;
+
+<INTENT_4> = <SHOW_VERB> my contacts with phone number <PHONE_NUMBER>;
+
+<INTENT_5> = <SHOW_VERB> my contacts with name <NAME>;
+
+<INTENT_6> = <SHOW_VERB> my contacts with phone number <PHONE_NUMBER> and email <EMAIL>;
+
+<INTENT_7> = create a new contact (and name it | using a name | and call it) <NAME> (with [a | the] number | and give it a number | and add the number) <PHONE_NUMBER> [as <PHONE_TYPE>];
+
+<INTENT_8> = edit my contact <NAME>;
+
+<INTENT_9> = open my contact <NAME> for edition;
+
+<INTENT_10> = change the name of my contact with number <PHONE_NUMBER>;
+
+<INTENT_11> = change the number of my contact <NAME>;
+
+<INTENT_12> = set the number <PHONE_NUMBER> in contact <NAME> as <PHONE_TYPE>;
 
 #SLOTS
 <EMAIL> = anne.hall@gmail.com | sales@company.com;

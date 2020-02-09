@@ -1,6 +1,7 @@
 #JSGF V1.0;
-public <S> = <WHEN>;
+public <S> = phone__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4>);
 
+#PRECONDITIONS
 <WHEN> = when i receive a sms;
 <WHEN> = when i get a text;
 <WHEN> = when i get at text from somebody;
@@ -15,7 +16,18 @@ public <S> = <WHEN>;
 <WHEN> = when <SENDER> texts me;
 <WHEN> = when <SENDER> sms me;
 <WHEN> = when <SENDER> sends me an sms;
-<GET> = my sms inbox;
+
+#INTENTS
+<INTENT_1> = (call | dial | phone) <NUMBER>;
+
+<INTENT_2> = call (911 | ambulance | fire department | police | emergency services);
+
+<INTENT_3> = (check | show | display) my sms inbox;
+
+<INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;
+<INTENT_4_a> = send a (text | message | sms) to <TO>;
+<INTENT_4_b> = (sms | text) <TO>;
+
 <GET> = sms in my phone;
 <GET> = texts i received;
 <GET> = my sms history;
@@ -37,18 +49,8 @@ public <S> = <WHEN>;
 <DO> = set my phone to <MODE>;
 <DO> = change my phone to <MODE>;
 <DO> = adjust my phone to <MODE>;
-<DO> = call <NUMBER>;
-<DO> = dial <NUMBER>;
-<DO> = phone <NUMBER>;
-<DO> = call 911;
-<DO> = call ambulance;
-<DO> = call fire department;
-<DO> = call police;
-<DO> = call emergency services;
-<DO> = send a text to <TO>;
-<DO> = send a message to <TO>;
-<DO> = sms <TO>;
-<DO> = text <TO>;
+
+
 <DO> = turn on vibration in my phone;
 <DO> = make my phone vibrate for calls;
 <DO> = enable vibration on my phone;
@@ -70,3 +72,9 @@ public <S> = <WHEN>;
 <DO> = insert <STR> here;
 <DO> = paste <STR>;
 <DO> = paste <STR> here;
+
+#SLOTS
+<TO> = mom | dad | love | mike | tom | alex;
+<MESSAGE> = call me | we need to talk | please answer;
+<NUMBER> = 34 678 09 94 | 22 590 01 45 | 00 589 999 000;
+<MODE> = silent | vibrating | sound;

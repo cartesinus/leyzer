@@ -1,6 +1,7 @@
 #JSGF V1.0;
-public <S> = <WHEN>;
+public <S> = weather__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10>);
 
+#PRECONDITIONS
 <WHEN> = when the temperature in <LOCATION> is below freezing;
 <WHEN> = when the humidity in <LOCATION> is below <HUMIDITY>;
 <WHEN> = when it starts raining in <LOCATION>;
@@ -28,21 +29,33 @@ public <S> = <WHEN>;
 <WHEN> = after sunrise;
 <WHEN> = when sunrise;
 <WHEN> = when sun rises;
-<GET> = moon phase for location <LOCATION>;
-<GET> = moon phase for location <LOCATION> on date <DATE>;
-<GET> = the weather outside;
-<GET> = the weather;
-<GET> = sunrise and sunset for location <LOCATION>;
-<GET> = sunrise at <LOCATION>;
-<GET> = sunset at <LOCATION>;
-<GET> = sunrise and sunset times at <LOCATION>;
-<GET> = sunrise and sunset for location <LOCATION> on date <DATE>;
-<GET> = sunrise and sunset times at <LOCATION> on date <DATE>;
-<GET> = the weather in <LOCATION>;
-<GET> = the current weather at <LOCATION>;
-<GET> = weather tomorrow;
-<GET> = what is the weather tomorrow;
-<GET> = weather in <LOCATION> tomorrow;
-<GET> = what is the weather in <LOCATION> tomorrow;
+
+#INTENTS
+<INTENT_1> = (the weather | what's the weather [like]) [outside];
+
+<INTENT_2> = (weather tomorrow | what's the weather tommorow [like] | tomorrow weather);
+
+<INTENT_3> = ([the] [current] weather (in | at) <LOCATION> | what is the wather [like] in <LOCATION>);
+
+<INTENT_4> = ([the] [current] weather (in | at) <LOCATION> | what is the wather [like] in <LOCATION>) tomorrow;
+
+<INTENT_5> = [when is] sunrise [time] at <LOCATION>;
+
+<INTENT_6> = [when is] sunset [time] at <LOCATION>;
+
+<INTENT_7> = sunrise and sunset (for location | times at) <LOCATION>;
+
+<INTENT_8> = sunrise and sunset (for location | times at) <LOCATION> on date <DATE>;
+
+<INTENT_9> = moon phase for [location] <LOCATION>;
+
+<INTENT_10> = moon phase for [location] <LOCATION> on date <DATE>;
+
+#SLOTS
+<LOCATION> = berlin | paris | tokyo | warsaw | new york | dubai | seul | dakar;
+<TEMPERATURE> = -2 degree | 0 | 5 degrees | 13 degrees | 21 degrees | 30 degrees;
+<HUMIDITY> = 20% | 40% | 60% | 80%;
+<DATE> = 30 january | 15 june | 7 september;
+<STATUS> = raining | sunny;
 
 //"today's weather"

@@ -1,6 +1,7 @@
 #JSGF V1.0;
-public <S> = <WHEN>;
+public <S> = speaker__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5>);
 
+#PRECONDITIONS
 <WHEN> = when my speaker changes state;
 <WHEN> = when my speaker turns <STATE>;
 <WHEN> = if my speaker switches <STATE>;
@@ -37,28 +38,27 @@ public <S> = <WHEN>;
 <WHEN> = the moment my <NAME> speaker becomes off;
 <WHEN> = if my <NAME> speaker is off;
 <WHEN> = when my <NAME> speaker gets turned off;
+
+#INTENTS
+<INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
+<INTENT_1_a> = [help me] (turn | switch) <POWER> (my | the) speaker;
+<INTENT_1_b> = (turn | switch) <POWER> (my | the) speaker [for me];
+
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
+<INTENT_2_a> = increase (the volume of the speaker | my speaker 's volume);
+<INTENT_2_b> = make (the | my) speaker louder;
+
+<INTENT_3> = (reduce | decrease) ([the] volume of [my] speaker | [my] speaker 's volume);
+
+<INTENT_4> = (silence | mute) [my | the] speaker;
+
+<INTENT_5> = unmute [my | the] speaker;
+
 <GET> = if my speaker is on or off;
 <GET> = whether my speaker is switched on or switched off;
 <GET> = if my <NAME> speaker is on or off;
 <GET> = whether my <NAME> speaker is switched on or switched off;
-<DO> = turn <POWER> my speaker;
-<DO> = switch <POWER> the speaker;
-<DO> = <POWER> the speaker;
-<DO> = turn on the speaker;
-<DO> = switch on my speaker;
-<DO> = help me turn on the speaker;
-<DO> = switch on the speaker for me;
-<DO> = turn off my speaker;
-<DO> = switch off the speaker;
-<DO> = turn off the speaker;
 <DO> = help to off the speaker;
-<DO> = increase the volume of the speaker;
-<DO> = increase my speaker 's volume;
-<DO> = make the speaker louder;
-<DO> = decrease the volume of my speaker;
-<DO> = decrease my speaker 's volume;
-<DO> = reduce the volume of the speaker;
-<DO> = reduce my speaker 's volume;
 <DO> = make the speaker softer;
 <DO> = mute my speaker;
 <DO> = silence my speaker 's volume;
@@ -117,6 +117,10 @@ public <S> = <WHEN>;
 <DO> = play something on my <NAME> bluetooth speaker;
 <DO> = play music on my <NAME> speaker;
 <DO> = play something on <NAME> my speaker;
+
+#SLOTS
+<NAME> = living room | kitchen | bedroom;
+<POWER> = on | off;
 
 /**
 is my speaker on?

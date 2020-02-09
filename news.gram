@@ -1,39 +1,10 @@
 #JSGF V1.0;
-public <S> = <GET>;
+public <S> = news__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4>);
 
-<GET> = articles about <KEYWORD> in nyt <SECTION> section;
-<GET> = articles in the new york times;
-<GET> = articles in the new york times <SECTION> section;
-<GET> = articles in the new york times <SECTION> section about <KEYWORD>;
-<GET> = cnn news top stories;
-<GET> = front page of huffington post;
-<GET> = front page of huffpost;
-<GET> = huffington posts;
-<GET> = latest techcrunch news;
-<GET> = new york times;
-<GET> = new york times articles published this week;
-<GET> = news on huffington post;
-<GET> = news on huffpost;
-<GET> = news on techcrunch;
-<GET> = ny times;
-<GET> = nyt;
-<GET> = techcrunch news;
-<GET> = the <SECTION> section of the new york times;
-<GET> = the front page of the new york times;
-<GET> = the new york times <SECTION> section;
-<GET> = the new york times front page;
-<GET> = the news from Fox News;
-<GET> = time magazine top stories;
-<GET> = today 's articles in the new york times;
-<GET> = top stories on cnn news;
-<GET> = top stories on time magazine;
-<GET> = top stories on wired news;
-<GET> = wired top stories;
-<WHEN> = when huffpost front page updates;
-<WHEN> = when new blog posted on techcrunch;
-<WHEN> = when techcrunch news updates;
+#PRECONDITIONS
+<WHEN_1> = when <PORTAL> (news | front page) updates;
+<WHEN_2> = when the <PORTAL> <SECTION> section publishes a new article;
 <WHEN> = when the front page of huffington post updates;
-<WHEN> = when the new york times <SECTION> section publishes a new article;
 <WHEN> = when the new york times <SECTION> section publishes a new article about <KEYWORD>;
 <WHEN> = when the new york times publishes a new article;
 <WHEN> = when the nyt publishes a new article;
@@ -45,3 +16,40 @@ public <S> = <GET>;
 <WHEN> = when top stories on cnn news update;
 <WHEN> = when top stories on time magazine update;
 <WHEN> = when top stories on wired update;
+
+#INTENTS
+<INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c>;
+<INTENT_1_a> = [open | read] <PORTAL>;
+<INTENT_1_b> = show [me] [the] news from <PORTAL>;
+<INTENT_1_c> = ([latest] news on <PORTAL> | latest <PORTAL> news);
+
+<INTENT_2> = (the <SECTION> section of the <PORTAL> | the <PORTAL> <SECTION> section);
+
+<INTENT_3> = notify me <WHEN_1>;
+
+<INTENT_4> = notify me <WHEN_2>;
+
+<GET> = articles about <KEYWORD> in <PORTAL> <SECTION> section;
+<GET> = articles in [the] <PORTAL>;
+<GET> = articles in [the] <PORTAL> in <SECTION> section;
+<GET> = articles in the new york times <SECTION> section about <KEYWORD>;
+<GET> = cnn news top stories;
+<GET> = front page of huffington post;
+<GET> = front page of huffpost;
+<GET> = huffington posts;
+<GET> = <new york times articles published this week;
+<GET> = techcrunch news;
+<GET> = the new york times front page;
+<GET> = the front page of the new york times;
+<GET> = the news from Fox News;
+<GET> = time magazine top stories;
+<GET> = today 's articles in the new york times;
+<GET> = top stories on cnn news;
+<GET> = top stories on <PORTAL>;
+<GET> = top stories on <PORTAL> news;
+<GET> = <PORTAL> top stories;
+
+#SLOTS
+<SECTION> = sport | politics | tech | health | celebrity;
+<PORTAL> = ((huffington post | huffington | huffpost) | techcrunch | (new york times | nyt | ny times) | wired | (time | time magazine) | fox news);
+<TIME> = today | this week | last week | last monday;

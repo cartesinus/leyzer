@@ -1,21 +1,25 @@
 JSGF V1.0;
-public <S> = <GET>;
+public <S> = websearch__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7>);
 
-<GET> = <QUERY> on bing;
-<GET> = bing <QUERY>;
-<GET> = websites matching <QUERY>;
-<GET> = web sites matching <QUERY>;
-<GET> = search on bing;
-<GET> = bing search;
-<GET> = web search;
-<GET> = <QUERY> images on bing;
-<GET> = images matching <QUERY> from bing;
-<GET> = search images on bing;
-<GET> = bing image search;
-<GET> = image search;
-<GET> = images from bing matching <QUERY> with size <WIDTH> x <HEIGHT>;
-<GET> = images from bing matching <QUERY> larger than <WIDTH> x <HEIGHT>;
-<GET> = images from bing matching <QUERY> wider than <WIDTH>;
-<GET> = images from bing matching <QUERY> larger than <WIDTH> x <HEIGHT> in either dimension;
-<GET> = images from bing matching <QUERY> taller than <HEIGHT>;
-<GET> = images from bing matching <QUERY> smaller than <WIDTH> x <HEIGHT>;
+#INTENTS
+<INTENT_1> = (search on <ENGINE> | <ENGINE> search | web search);
+
+<INTENT_2> = (<QUERY> on <ENGINE> | <ENGINE> <QUERY>);
+
+<INTENT_3> = (websites | web sites | pages) matching <QUERY>;
+
+<INTENT_4> = (images matching <IMG_QUERY> from <ENGINE> | <IMG_QUERY> images on <ENGINE>);
+
+<INTENT_5> = (image search | search images on <ENGINE> | <ENGINE> image search);
+
+<INTENT_6> = images from bing matching <IMG_QUERY> with size <WIDTH> x <HEIGHT>;
+
+<INTENT_7> = images from bing matching <IMG_QUERY> <IMG_COND> than <WIDTH> [x <HEIGHT>];
+
+#SLOTS
+<ENGINE> = bing | google | duckduckgo;
+<QUERY> = who is kate moss | where can i buy tofu | how much is 10 euro to dollars | billie eilish net worth | python type hints | upgrade ubuntu | ikea chairs | meme generator | ffmpeg how to convert mp3 to wav | elon musk twitter;
+<IMG_QUERY> = kate moss | cats | dog | burito hat | tallest man;
+<WIDTH> = 800;
+<HEIGHT> = 600;
+<IMG_COND> = wider | larger | taller | smaller;
