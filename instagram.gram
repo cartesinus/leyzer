@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6>;
+public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6> | <INTENT_7> | <INTENT_8> | <INTENT_9> | <INTENT_10>;
 
 #PRECONDITIONS
 <WHEN> = when I (upload | put up) a [new] picture on instagram;
@@ -28,18 +28,28 @@ public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <I
 <INTENT_4_b> = that have the <FILTER> filter [applied];
 
 <INTENT_5> = <SHOW_VERB> (the | my) instagram pictures (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
-<INTENT_5_a> = (i took | taken) [when i was] at;
+<INTENT_5_a> = (i took | taken) [when i was] in;
 <INTENT_5_b> = tagged with location;
 <INTENT_5_c> = with (location | geolocation | gps) tag;
 
 <INTENT_6> = <SHOW_VERB> my instagram pictures tagged <HASHTAG>;
 
+<INTENT_7> = create a [new] post on Instagram with all my photos taken in <LOCATION> (on the <DATE_DAY> | in <DATE_MONTH>) as a collage;
+
+<INTENT_8> = <SHOW_VERB> my (post | posts) from (the <DATE_DAY> | <DATE_MONTH>);
+
+<INTENT_9> = take a picture (using | with) Instagram;
+
+<INTENT_10> = create a [new] post on Instagram with the last photo from Gallery [(and a tag <LOCATION> | (and add | adding) (<FILTER> filter | <HASHTAG> hashtag))];
+
 #SLOTS
-<HASHTAG> = cute | fashion | selfie | summer | art | photo;
+<HASHTAG> = cute | fashion | selfie | summer | art | instagirl | instaboy | instadog | frenchie | cutepuppy | drawing | markers | fashionphoto | makeup | makeup_artist | newpalette | watercolors | portrait | nature | sundaywalk;
 <LOCATION> = berlin | new york | paris | london;
 <FILTER> = lark | juno | sierra | valencia | clarendon | gingham | crema | aden;
-<COUNT> = 2| 10;
+<COUNT> = 2 | 10;
+<DATE_DAY> = 2nd of June | 3rd of May | 16 of July | 30th of June | 12th of October | 20th of April;
+<DATE_MONTH> = January | February | March | April | May;
 
 #LANG. COMPONENTS
 <NOTIFY_VERB> = notify | tell;
-<SHOW_VERB> = show | display | list;
+<SHOW_VERB> = show | display | list | show me;

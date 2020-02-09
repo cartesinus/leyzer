@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6> | <INTENT_7> | <INTENT_8> | <INTENT_9>;
+public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6> | <INTENT_7> | <INTENT_8> | <INTENT_9> | <INTENT_10> | <INTENT_11> | <INTENT_12> | <INTENT_13>;
 
 #PRECONDITIONS
 <WHEN> = when the humidity changes;
@@ -59,6 +59,14 @@ public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <I
 <INTENT_8> = <SHOW_VERB> the humidity [level];
 
 <INTENT_9> = check (the state of my <AC> | whether it is humid | if it is humid | the state of the room temperature | the room temperature | how high the home temperature is | if the inside temperature is warm or cold | whether the home temperature is warm or cold | what the <NAME> home temperature sensor says | the temperature of the <NAME> room temperature sensor);
+
+<INTENT_10> = what temperature (do I have | do we have | is it) in here according to my <AC>?;
+
+<INTENT_11> = what is the indoor temperature [according to [my | the] <AC>]?;
+
+<INTENT_12> = (what is the level of | how high is) (humidity | [indoor] temperature) [according to my <AC> sensor]?;
+
+<INTENT_13> = what does the <NAME> indoor temperature sensor (say | show)?;
 
 #SLOTS
 <NAME> = living room | kitchen | hall | bedroom;

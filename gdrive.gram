@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6> | <INTENT_7> | <INTENT_8> | <INTENT_9>;
+public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6> | <INTENT_7> | <INTENT_8> | <INTENT_9> | <INTENT_10> | <INTENT_11>;
 
 #PRECONDITIONS
 <WHEN> = when a file is modified on google drive;
@@ -28,11 +28,16 @@ public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <I
 
 <INTENT_9> = <SHOW_VERB> my google drive files in [reverse] alphabetical order;
 
+<INTENT_10> = open my <FILE_NAME> for edition in google drive;
+
+<INTENT_11> = share my <FILE_NAME> with <MAIL> [and give a permission for (edition | reading | read and write)];
+
 #SLOTS
 <MIME_TYPE> = mp3 | txt | jpeg;
-<FILE_NAME> = new file | invoice | readme;
+<FILE_NAME> = new file | invoice | readme | vegetarian recipies | movies to see | my CV | project 1;
 <FILE_SIZE> = 1 mb | 1 gigabyte | 500 kb;
 <TIME> = this week | this month | today;
+<MAIL> = mary.lou@gmail.com | hahaha09@hotmail.com | sarah_odonnell@yahoo.com | selena.g@gmail.com | ghjk1209@hotmail.com;
 
 #LANG. COMPONENTS
 <SHOW_VERB> = show | display | list;
