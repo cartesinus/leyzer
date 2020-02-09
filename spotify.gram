@@ -1,6 +1,7 @@
 #JSGF V1.0;
-public <S> = <WHEN>;
+public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6> | <INTENT_7> | <INTENT_8> | <INTENT_9> | <INTENT_10> | <INTENT_11> | <INTENT_12> | <INTENT_13>;
 
+#PRECONDITIONS
 <WHEN> = when my top tracks changes;
 <WHEN> = when I have new favorite songs;
 <WHEN> = when a song is playing;
@@ -12,6 +13,62 @@ public <S> = <WHEN>;
 <WHEN> = when a song with liveness less than <LIVENESS> is playing;
 <WHEN> = when a song with energy greater than <ENERGY> is playing;
 <WHEN> = when a song with energy less than <ENERGY> is playing;
+
+#INTENTS
+<INTENT_1> = ((open | use) spotify [(and | to) play some music] | play some music on spotify);
+
+<INTENT_2> = (play [the (song | songs)] <SONG> [on spotify] | on spotify play <SONG>);
+
+<INTENT_3> = (play | pause | resume) my spotify;
+
+<INTENT_4> = (play [the] next song [on spotify] | skip this song [on spotify]);
+
+<INTENT_5> = (go back [to the last song] | play the (previous | last) song [on spotify]);
+
+<INTENT_6> = add [song] <SONG> to [my] <PLAYLIST> [on spotify];
+
+<INTENT_7> = save ([the] current track | whatever's playing [now] to my library | this song);
+
+<INTENT_8> = (seek to <TIME> seconds in | (skip | go) to <TIME> seconds);
+
+<INTENT_9> = turn (shuffle <STATE> | <STATE> shuffle);
+
+<INTENT_10> = shuffle my spotify;
+
+<INTENT_11> = turn <STATE> repeat;
+
+<INTENT_12> = [(create | make | add)] [a] new playlist;
+
+<INTENT_13> = [(create | make | add)] [a] new playlist (named | titled) <NAME>;
+
+<DO> = add <SONG> to my playlist;
+<DO> = add to playlist <PLAYLIST>;
+<DO> = add a song to my playlist <PLAYLIST>;
+<DO> = add a song to my playlist;
+<DO> = play the playlist <PLAYLIST>;
+<DO> = play a playlist;
+
+<DO> = add <SONG> to my playlist <PLAYLIST>;
+
+<DO> = play the artist <ARTIST>;
+<DO> = play <ARTIST>;
+<DO> = play an artist;
+<DO> = play the album <ALBUM>;
+<DO> = play an album;
+<DO> = play a song;
+<DO> = add this to my playlist <PLAYLIST>;
+<DO> = add this song to playlist <PLAYLIST>;
+<DO> = add the currently playing song to my playlist <PLAYLIST>;
+<DO> = add this to my playlist;
+<DO> = add this song to my playlist;
+<DO> = add whatever's playing to my playlist;
+<DO> = add an album to my playlist;
+<DO> = add the album <ALBUM> to my playlist;
+<DO> = add the album to my playlist <ALBUM>;
+<DO> = add the album <ALBUM> to my playlist <PLAYLIST>;
+<DO> = play my playlist <PLAYLIST>;
+<DO> = play my playlist;
+
 <GET> = how danceable is the current track;
 <GET> = the danceability of the current track;
 <GET> = the danceability of the current song;
@@ -22,11 +79,13 @@ public <S> = <WHEN>;
 <GET> = the danceability of the song <SONG>;
 <GET> = how dancey is <SONG>;
 <GET> = the danceability of <SONG>;
+
 <GET> = how loud is this song;
 <GET> = the loudness of the current song;
 <GET> = the loudness of the current track;
 <GET> = the loudness of <SONG>;
 <GET> = how loud is <SONG>;
+
 <GET> = is this song live;
 <GET> = the liveness of this song;
 <GET> = the liveness of the current song;
@@ -34,17 +93,20 @@ public <S> = <WHEN>;
 <GET> = is <SONG> live;
 <GET> = the liveness of <SONG>;
 <GET> = the liveness of <SONG>;
+
 <GET> = is this song acoustic;
 <GET> = the acousticness of the current track;
 <GET> = the acousticness of the current song;
 <GET> = the acousticness of the current song;
 <GET> = the acousticness of <SONG>;
 <GET> = the acousticness of <SONG>;
+
 <GET> = the key of the current song;
 <GET> = the key of the current track;
 <GET> = the key of this song;
 <GET> = the key of <SONG>;
 <GET> = the key of song <SONG>;
+
 <GET> = the energy of this song;
 <GET> = the energy of level the current track;
 <GET> = the energy of the current song;
@@ -103,72 +165,12 @@ public <S> = <WHEN>;
 <GET> = songs in my playlist <PLAYLIST>;
 <GET> = my favorite songs;
 <GET> = my top tracks;
-<DO> = play some music on spotify;
-<DO> = open spotify and play some music;
-<DO> = use spotify to play some music;
-<DO> = play <SONG> on spotify;
-<DO> = play the song <SONG> on spotify;
-<DO> = play the songs <SONG> on spotify;
-<DO> = on spotify play <SONG>;
-<DO> = play <SONG>;
-<DO> = play the song <SONG>;
-<DO> = pause my spotify;
-<DO> = play my spotify;
-<DO> = resume my spotify;
-<DO> = play the next song on spotify;
-<DO> = play the next song;
-<DO> = skip this song;
-<DO> = skip this song on spotify;
-<DO> = go back;
-<DO> = play the previous song;
-<DO> = play the last song on spotify;
-<DO> = go back to the last song;
-<DO> = add <SONG> to <PLAYLIST>;
-<DO> = add song <SONG> to <PLAYLIST>;
-<DO> = add song <SONG> to my playlist <PLAYLIST>;
-<DO> = add <SONG> to <PLAYLIST> on Spotify;
-<DO> = save the current track;
-<DO> = save whatever's playing to my library;
-<DO> = save this song;
-<DO> = seek to <TIME> seconds in;
-<DO> = skip to <TIME> seconds;
-<DO> = go to <TIME> seconds;
-<DO> = turn shuffle <STATE>;
-<DO> = turn <STATE> shuffle;
-<DO> = shuffle my spotify;
-<DO> = repeat this song;
-<DO> = turn on repeat;
-<DO> = turn off repeat;
-<DO> = create a new playlist;
-<DO> = make a new playlist;
-<DO> = new playlist;
-<DO> = add a new playlist;
-<DO> = create a playlist;
-<DO> = make a playlist;
-<DO> = create a new playlist named <NAME>;
-<DO> = create a new playlist titled <NAME>;
-<DO> = add <SONG> to my playlist <PLAYLIST>;
-<DO> = add <SONG> to my playlist;
-<DO> = add to playlist <PLAYLIST>;
-<DO> = add a song to my playlist <PLAYLIST>;
-<DO> = add a song to my playlist;
-<DO> = play the playlist <PLAYLIST>;
-<DO> = play a playlist;
-<DO> = play the artist <ARTIST>;
-<DO> = play <ARTIST>;
-<DO> = play an artist;
-<DO> = play the album <ALBUM>;
-<DO> = play an album;
-<DO> = play a song;
-<DO> = add this to my playlist <PLAYLIST>;
-<DO> = add this song to playlist <PLAYLIST>;
-<DO> = add the currently playing song to my playlist <PLAYLIST>;
-<DO> = add this to my playlist;
-<DO> = add this song to my playlist;
-<DO> = add whatever's playing to my playlist;
-<DO> = add an album to my playlist;
-<DO> = add the album <ALBUM> to my playlist;
-<DO> = add the album to my playlist <ALBUM>;
-<DO> = add the album <ALBUM> to my playlist <PLAYLIST>;
-<DO> = play my playlist <PLAYLIST>;
-<DO> = play my playlist;
+
+#SLOTS
+<SONG> = bad liar | move me | door man | deal with it | american idiot | bud guy | you should see me in a crown;
+<ARTIST> = billie eilish | selena gomez | justin bieber | the offspring | greenday | mura masa | slow thai;
+<ALBUM> = when we slow aslep | american idiot | mura masa | rare;
+<PLAYLIST> = wedding | chill | 2019 | party | winter chill | coffee and relax;
+<TIME> = 1 | 3 | 5 | 30;
+<NAME> = good vibe | starred | funny | daily mix;
+<STATE> = on | off;
