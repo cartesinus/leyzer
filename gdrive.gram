@@ -1,0 +1,38 @@
+#JSGF V1.0;
+public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6> | <INTENT_7> | <INTENT_8> | <INTENT_9>;
+
+#PRECONDITIONS
+<WHEN> = when a file is modified on google drive;
+<WHEN> = when a file changes in my google drive;
+<WHEN> = when a file is created in google drive;
+<WHEN> = when i create a new file on google drive;
+<WHEN> = when i make a new file in google drive;
+<WHEN> = when there is a new file in google drive;
+
+#INTENTS
+<INTENT_1> = <SHOW_VERB> (my google drive files | my files in google drive);
+
+<INTENT_2> = <SHOW_VERB> (my google drive files of type <MIME_TYPE> | my <MIME_TYPE> files in google drive);
+
+<INTENT_3> = <SHOW_VERB> (my starred google drive files | the google drive files i starred);
+
+<INTENT_4> = <SHOW_VERB> my google drive files (created | modified) <TIME>;
+
+<INTENT_5> = <SHOW_VERB> my google drive files (smaller | larger) than <FILE_SIZE>;
+
+<INTENT_6> = create (google drive file | a file in google drive);
+
+<INTENT_7> = create (a new file with name <FILE_NAME> on google drive | a file in google drive named <FILE_NAME>);
+
+<INTENT_8> = <SHOW_VERB> my ((newest | oldest) google drive files | google drive files that were created most recently);
+
+<INTENT_9> = <SHOW_VERB> my google drive files in [reverse] alphabetical order;
+
+#SLOTS
+<MIME_TYPE> = mp3 | txt | jpeg;
+<FILE_NAME> = new file | invoice | readme;
+<FILE_SIZE> = 1 mb | 1 gigabyte | 500 kb;
+<TIME> = this week | this month | today;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = show | display | list;

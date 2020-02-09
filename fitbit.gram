@@ -1,0 +1,41 @@
+#JSGF V1.0;
+public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5>;
+
+#PRECONDITION
+<WHEN> = if my weight goes over <WEIGHT>;
+<WHEN> = if i become fatter than <WEIGHT>;
+<WHEN> = when i am heavier than <WEIGHT>;
+<WHEN> = when i become heavier than <WEIGHT>;
+<WHEN> = when my weight changes on fitbit;
+<WHEN> = when i record a new weight on fitbit;
+<WHEN> = when i log a new weight value on fitbit;
+<WHEN> = when I walk more than <STEPS> steps;
+<WHEN> = when i walk more than <STEPS> steps in a day;
+<WHEN> = when i total more than <STEPS> steps in one day;
+<WHEN> = when i make more than <STEPS> steps in one day;
+<WHEN> = when my fitbit steps update;
+
+#INTENTS
+<INTENT_1> = [<RETRIEVE_VERB>] (<INTENT_1_a> | <INTENT_1_b>);
+<INTENT_1_a> = (my steps | the number of steps | the count of steps | the step count) from fitbit;
+<INTENT_1_b> = (the number of steps i took | my fitbit step count | the fitbit pedometer | the fitbit step counter | the steps i have taken);
+
+<INTENT_2> = [<RETRIEVE_VERB>] (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_a> = (my fitbit steps on | the number of steps i took on | the number of steps from fitbit on | my fitbit step count on | the fitbit pedometer on | the fitbit step counter on | the steps i have taken on) <DATE>;
+<INTENT_2_b> = (the count of steps | the step count) on <DATE> from fitbit;
+
+<INTENT_3> = [<RETRIEVE_VERB>] my (body measurements | bmi | weight) from fitbit;
+
+<INTENT_4> = (log | record | make note of) my weight on fitbit;
+
+<INTENT_5> = <NOTIFY_VERB> me <WHEN>;
+
+
+#SLOTS
+<STEPS> = 1000 | 6000 | 10000;
+<DATE> = 1st January | 15.02.2020;
+<WEIGHT> = 60 kg | 80 kg | 100 kg | 200 pounds;
+
+#LANG. COMPONENTS
+<RETRIEVE_VERB> = get;
+<NOTIFY_VERB> = notify | tell;

@@ -1,0 +1,48 @@
+#JSGF V1.0;
+public <S> = <WHEN>;
+
+<WHEN> = when the temperature in <LOCATION> is below freezing;
+<WHEN> = when the humidity in <LOCATION> is below <HUMIDITY>;
+<WHEN> = when it starts raining in <LOCATION>;
+<WHEN> = when it starts snowing in <LOCATION>;
+<WHEN> = when it stops raining in <LOCATION>;
+<WHEN> = when it stops snowing in <LOCATION>;
+<WHEN> = when the wind speed in <LOCATION> is above <WINDSPEED>;
+<WHEN> = when it's <STATUS> at location <LOCATION>;
+<WHEN> = when it becomes <STATUS> at <LOCATION>;
+<WHEN> = when the temperature in <LOCATION> is above <TEMPERATURE>;
+<WHEN> = when it 's hotter than <TEMPERATURE> in <LOCATION>;
+<WHEN> = when the temperature in <LOCATION> is below <TEMPERATURE>;
+<WHEN> = when it 's colder than <TEMPERATURE> in <LOCATION>;
+<WHEN> = when the temperature outside is above <TEMPERATURE>;
+<WHEN> = when it 's hotter outside than <TEMPERATURE>;
+<WHEN> = when the temperature outside is below <TEMPERATURE>;
+<WHEN> = when it 's colder outside than <TEMPERATURE>;
+<WHEN> = when the humidity in <LOCATION> is above <HUMIDITY>;
+<WHEN> = when it is more humid than <HUMIDITY> in <LOCATION>;
+<WHEN> = when sun goes down;
+<WHEN> = after sunset;
+<WHEN> = when sunset;
+<WHEN> = when sun sets;
+<WHEN> = when sun comes up;
+<WHEN> = after sunrise;
+<WHEN> = when sunrise;
+<WHEN> = when sun rises;
+<GET> = moon phase for location <LOCATION>;
+<GET> = moon phase for location <LOCATION> on date <DATE>;
+<GET> = the weather outside;
+<GET> = the weather;
+<GET> = sunrise and sunset for location <LOCATION>;
+<GET> = sunrise at <LOCATION>;
+<GET> = sunset at <LOCATION>;
+<GET> = sunrise and sunset times at <LOCATION>;
+<GET> = sunrise and sunset for location <LOCATION> on date <DATE>;
+<GET> = sunrise and sunset times at <LOCATION> on date <DATE>;
+<GET> = the weather in <LOCATION>;
+<GET> = the current weather at <LOCATION>;
+<GET> = weather tomorrow;
+<GET> = what is the weather tomorrow;
+<GET> = weather in <LOCATION> tomorrow;
+<GET> = what is the weather in <LOCATION> tomorrow;
+
+//"today's weather"

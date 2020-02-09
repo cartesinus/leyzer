@@ -1,0 +1,72 @@
+#JSGF V1.0;
+public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6> | <INTENT_7> | <INTENT_8> | <INTENT_9> | <INTENT_10> | <INTENT_11>;
+
+#PRECONDITIONS
+<WHEN> = when i receive an email on Gmail;
+<WHEN> = when somebody emails me;
+<WHEN> = when somebody sends me an email;
+<WHEN> = when somebody sends me an email on gmail;
+<WHEN> = when i receive an email from <SENDER_ADDRESS> on Gmail;
+<WHEN> = when <SENDER_ADDRESS> sends me an email;
+<WHEN> = when <SENDER_ADDRESS> emails me;
+<WHEN> = when i receive an email marked as important;
+<WHEN> = when i receive an important email;
+<WHEN> = when i receive an important email from <SENDER_ADDRESS>;
+<WHEN> = if i receive an email from <SENDER_ADDRESS> in category primary;
+
+#INTENTS
+<INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c>;
+<INTENT_1_a> = <CHECK_VERB> [my] (email | gmail) [inbox];
+<INTENT_1_b> = <CHECK_VERB> my primary category emails;
+<INTENT_1_c> = <CHECK_VERB> (my latest email | my emails | my emails on gmail | my gmail inbox);
+
+<INTENT_2> = <CHECK_VERB> [my] emails (from | i (got | received) from) <SENDER_ADDRESS>;
+
+<INTENT_3> = (show me | get) my emails (labelled | with label | that have label) <LABEL>;
+
+<INTENT_4> = (show me | get) emails [that] arrived <TIME>;
+
+<INTENT_5> = (show me | get) my emails with subject <SUBJECT>;
+
+<INTENT_6> = show me <PRIORITY> emails;
+
+<INTENT_7> = (send an email to <TO> with subject <SUBJECT> with message <MESSAGE> [using my gmail] | email <TO> with subject <SUBJECT> and message <MESSAGE>);
+
+<INTENT_8> = (send a picture to <TO> with subject <SUBJECT> [using my gmail] | email a picture to <TO> with subject <SUBJECT>);
+
+<INTENT_9> = send an email [to somebody];
+
+<INTENT_10> = (send an email to <TO> using my gmail | email <TO>);
+
+<INTENT_11> = reply to <TO>;
+
+<DO> = send an email with subject <SUBJECT>;
+<DO> = email a picture to <TO>;
+<DO> = send a picture to <TO>;
+<DO> = reply to <EMAIL_ID> saying <MESSAGE>;
+<DO> = reply to <EMAIL_ID> saying <MESSAGE> , add <SUBJECT> to the subject;
+<DO> = reply to <EMAIL_ID>;
+<DO> = reply to <TO> saying <MESSAGE>;
+<DO> = send <MESSAGE> to <TO>;
+<DO> = forward <EMAIL_ID> to <TO> saying <MESSAGE>;
+<DO> = forward <EMAIL_ID> to <TO>;
+<DO> = send <PIC_URL> to <TO> with subject <SUBJECT>;
+<DO> = send <PIC_URL> to <TO>;
+<DO> = send a picture via email;
+<DO> = send <MESSAGE> via email;
+<DO> = send <MESSAGE> via gmail;
+<DO> = send <PIC_URL> via email;
+<DO> = send <PIC_URL> via gmail;
+
+#SLOTS
+<SENDER_ADDRESS> = bob@gmail.com | elen;
+<LABEL> = spam | important;
+<SUBJECT> = offer | greetings | meeting;
+<TO> = alice@gmail.com | mom | edgar;
+<MESSAGE> = hi, how are you?;
+<PIC_URL> = tinyurl.com.vmkgtf9;
+<TIME> = today | yesterday | two days ago | in the last hour;
+<PRIORITY> = important | unimportant;
+
+#LANG. COMPONENTS
+<CHECK_VERB> = check | get;

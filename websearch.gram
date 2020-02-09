@@ -1,0 +1,21 @@
+JSGF V1.0;
+public <S> = <GET>;
+
+<GET> = <QUERY> on bing;
+<GET> = bing <QUERY>;
+<GET> = websites matching <QUERY>;
+<GET> = web sites matching <QUERY>;
+<GET> = search on bing;
+<GET> = bing search;
+<GET> = web search;
+<GET> = <QUERY> images on bing;
+<GET> = images matching <QUERY> from bing;
+<GET> = search images on bing;
+<GET> = bing image search;
+<GET> = image search;
+<GET> = images from bing matching <QUERY> with size <WIDTH> x <HEIGHT>;
+<GET> = images from bing matching <QUERY> larger than <WIDTH> x <HEIGHT>;
+<GET> = images from bing matching <QUERY> wider than <WIDTH>;
+<GET> = images from bing matching <QUERY> larger than <WIDTH> x <HEIGHT> in either dimension;
+<GET> = images from bing matching <QUERY> taller than <HEIGHT>;
+<GET> = images from bing matching <QUERY> smaller than <WIDTH> x <HEIGHT>;

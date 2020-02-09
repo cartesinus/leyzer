@@ -1,0 +1,134 @@
+#JSGF V1.0;
+public <S> = <WHEN>;
+
+<WHEN> = when my speaker changes state;
+<WHEN> = when my speaker turns <STATE>;
+<WHEN> = if my speaker switches <STATE>;
+<WHEN> = when the speaker becomes <STATE>;
+<WHEN> = if my speaker is <STATE>;
+<WHEN> = when my speaker changes to <STATE>;
+<WHEN> = when my speaker turns on;
+<WHEN> = when I switch on the speaker;
+<WHEN> = if the speaker becomes on;
+<WHEN> = when my speaker gets switched to on;
+<WHEN> = if my speaker is on;
+<WHEN> = when my speaker is turned on;
+<WHEN> = the moment my speaker is switched on;
+<WHEN> = when my speaker is turned off;
+<WHEN> = if my speaker switches off;
+<WHEN> = the moment my speaker becomes off;
+<WHEN> = if my speaker is off;
+<WHEN> = when my speaker gets turned off;
+<WHEN> = when my <NAME> speaker changes state;
+<WHEN> = when my <NAME> speaker turns <STATE>;
+<WHEN> = if my <NAME> speaker switches <STATE>;
+<WHEN> = when the <NAME> speaker becomes <STATE>;
+<WHEN> = if my <NAME> speaker is <STATE>;
+<WHEN> = when my <NAME> speaker changes to <STATE>;
+<WHEN> = when my <NAME> speaker turns on;
+<WHEN> = when I switch on the <NAME> speaker;
+<WHEN> = if the <NAME> speaker becomes on;
+<WHEN> = when my <NAME> speaker gets switched to on;
+<WHEN> = if my <NAME> speaker is on;
+<WHEN> = when my <NAME> speaker is turned on;
+<WHEN> = the moment my <NAME> speaker is switched on;
+<WHEN> = when my <NAME> speaker is turned off;
+<WHEN> = if my <NAME> speaker switches off;
+<WHEN> = the moment my <NAME> speaker becomes off;
+<WHEN> = if my <NAME> speaker is off;
+<WHEN> = when my <NAME> speaker gets turned off;
+<GET> = if my speaker is on or off;
+<GET> = whether my speaker is switched on or switched off;
+<GET> = if my <NAME> speaker is on or off;
+<GET> = whether my <NAME> speaker is switched on or switched off;
+<DO> = turn <POWER> my speaker;
+<DO> = switch <POWER> the speaker;
+<DO> = <POWER> the speaker;
+<DO> = turn on the speaker;
+<DO> = switch on my speaker;
+<DO> = help me turn on the speaker;
+<DO> = switch on the speaker for me;
+<DO> = turn off my speaker;
+<DO> = switch off the speaker;
+<DO> = turn off the speaker;
+<DO> = help to off the speaker;
+<DO> = increase the volume of the speaker;
+<DO> = increase my speaker 's volume;
+<DO> = make the speaker louder;
+<DO> = decrease the volume of my speaker;
+<DO> = decrease my speaker 's volume;
+<DO> = reduce the volume of the speaker;
+<DO> = reduce my speaker 's volume;
+<DO> = make the speaker softer;
+<DO> = mute my speaker;
+<DO> = silence my speaker 's volume;
+<DO> = turn off the volume of the speaker;
+<DO> = switch off the sound for my speaker;
+<DO> = mute my speaker 's sound;
+<DO> = make my speaker silent;
+<DO> = unmute my speaker;
+<DO> = unmute the speaker 's volume;
+<DO> = unmute my speaker 's sound;
+<DO> = turn on the speaker sound;
+<DO> = stop muting my speaker;
+<DO> = turn my speaker sound to <VOLUME>;
+<DO> = set the speaker 's volume to <VOLUME>;
+<DO> = set my bluetooth speaker as default;
+<DO> = set my speaker as default;
+<DO> = set my speaker as sink;
+<DO> = play something on my bluetooth speaker;
+<DO> = play music on my speaker;
+<DO> = play something on my speaker;
+<DO> = turn <POWER> my <NAME> speaker;
+<DO> = switch <POWER> the <NAME> speaker;
+<DO> = <POWER> the <NAME> speaker;
+<DO> = turn on the <NAME> speaker;
+<DO> = switch on my <NAME> speaker;
+<DO> = help me turn on the <NAME> speaker;
+<DO> = switch on the <NAME> speaker for me;
+<DO> = turn off my <NAME> speaker;
+<DO> = switch off the <NAME> speaker;
+<DO> = turn off the <NAME> speaker;
+<DO> = help to off the <NAME> speaker;
+<DO> = increase the volume of the <NAME> speaker;
+<DO> = increase my <NAME> speaker 's volume;
+<DO> = make the <NAME> speaker louder;
+<DO> = decrease the volume of my <NAME> speaker;
+<DO> = decrease my <NAME> speaker 's volume;
+<DO> = reduce the volume of the <NAME> speaker;
+<DO> = reduce my <NAME> speaker 's volume;
+<DO> = make the <NAME> speaker softer;
+<DO> = mute my <NAME> speaker;
+<DO> = silence my <NAME> speaker 's volume;
+<DO> = turn off the volume of the <NAME> speaker;
+<DO> = switch off the sound for my <NAME> speaker;
+<DO> = mute my <NAME> speaker 's sound;
+<DO> = make my <NAME> speaker silent;
+<DO> = unmute my <NAME> speaker;
+<DO> = unmute the <NAME> speaker 's volume;
+<DO> = unmute my <NAME> speaker 's sound;
+<DO> = turn on the <NAME> speaker sound;
+<DO> = stop muting my <NAME> speaker;
+<DO> = turn my <NAME> speaker sound to <VOLUME>;
+<DO> = set the <NAME> speaker 's volume to <VOLUME>;
+<DO> = set my <NAME> bluetooth speaker as default;
+<DO> = set my <NAME> speaker as default;
+<DO> = set my <NAME> speaker as sink;
+<DO> = play something on my <NAME> bluetooth speaker;
+<DO> = play music on my <NAME> speaker;
+<DO> = play something on <NAME> my speaker;
+
+/**
+is my speaker on?
+check if my speaker is off
+is the speaker turned on?
+check if my speaker is switched off
+check if my speaker is turned on or off
+check if my speaker is switched on or switched off
+is my <NAME> speaker on?
+check if my <NAME> speaker is off
+is the <NAME> speaker turned on?
+check if my <NAME> speaker is switched off
+check if my <NAME> speaker is turned on or off
+check if my <NAME> speaker is switched on or switched off
+*/

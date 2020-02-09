@@ -1,0 +1,31 @@
+#JSGF V1.0;
+public <S> = <WHEN>;
+
+<WHEN> = when there is a new video from youtube channels I follow;
+<WHEN> = when there is a new video from youtube channel <CHANNEL_ID>;
+<WHEN> = when <CHANNEL_ID> uploads a video on youtube;
+<WHEN> = when <CHANNEL_ID> posts a new youtube video;
+<GET> = youtube videos in <CHANNEL_ID>;
+<GET> = youtube channel <CHANNEL_ID>;
+<GET> = channel <CHANNEL_ID> in youtube;
+<GET> = channels in category <CATEGORY_ID> on youtube;
+<GET> = youtube channels with category <CATEGORY_ID>;
+<GET> = <CATEGORY_ID> youtube channels;
+<GET> = <CATEGORY_ID> channels in youtube;
+<GET> = youtube 's <CATEGORY_ID> channels;
+<GET> = channels I am subscribed to on youtube;
+<GET> = channels I follow on youtube;
+<GET> = youtube channels i follow;
+<GET> = <QUERY> channels on youtube;
+<GET> = channels matching <QUERY> on youtube;
+<GET> = youtube channel <QUERY>;
+<GET> = a <QUERY> video on youtube;
+<GET> = a video matching <QUERY> on youtube;
+<GET> = <QUERY> from youtube;
+<GET> = <QUERY> videos from youtube;
+<GET> = youtube video <QUERY>;
+<GET> = a video from <CHANNEL_ID> matching <QUERY> on youtube;
+<GET> = a video published by <CHANNEL_ID> matching <QUERY> on youtube;
+<GET> = <COUNT> many videos matching <QUERY> on youtube;
+
+// "search youtube for videos"

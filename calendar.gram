@@ -1,0 +1,83 @@
+#JSGF V1.0;
+public <S> = <WHEN>;
+
+<WHEN> = when an event on my calendar begins;
+<WHEN> = when an appointment on my calendar begins;
+<WHEN> = when a meeting on my calendar begins;
+<WHEN> = when a meeting starts;
+<WHEN> = when it is time for my appointment;
+<WHEN> = when an event on my calendar at location <LOCATION> begins;
+<WHEN> = when an event on my calendar organized by <ORGANIZER> begins;
+<WHEN> = when something changes on my icalendar;
+<WHEN> = when something changes on my calendar;
+<WHEN> = when events organized by <ORGANIZER> change;
+<WHEN> = when the location of some event changes on my icalendar;
+<WHEN> = when the time of some event changes on my icalendar;
+<WHEN> = when the time of some event changes on my calendar;
+<WHEN> = when the time of my meetings changes;
+<WHEN> = when an event is about to start on my icalendar;
+<WHEN> = when an event is about to start on my calendar;
+<WHEN> = when an event in my schedule is about to start;
+<WHEN> = when an event is about to start;
+<WHEN> = when an event on my calendar at location <LOCATION> is about to begin;
+<WHEN> = when an event on my calendar organized by <ORGANIZER> is about to begin;
+<WHEN> = when an event on my icalendar ends;
+<WHEN> = when an event on my calendar ends;
+<WHEN> = when a meeting ends;
+<WHEN> = when the meeting is over;
+<WHEN> = when my appointment ends;
+<WHEN> = when an event on my calendar at location <LOCATION> ends;
+<WHEN> = when an event on my calendar organized by <ORGANIZER> ends;
+<WHEN> = when it 's a holiday in <COUNTRY>;
+<WHEN> = when it 's a holiday;
+<GET> = my icalendar events;
+<GET> = my schedule on icalendar;
+<GET> = my calendar events;
+<GET> = my schedule;
+<GET> = my calendar schedule;
+<GET> = my meeting schedule;
+<GET> = my appointments;
+<GET> = my icalendar events organized by <ORGANIZER>;
+<GET> = my calendar events organized by <ORGANIZER>;
+<GET> = my icalendar events at <LOCATION>;
+<GET> = my calendar events at <LOCATION>;
+<GET> = the holidays in <COUNTRY>;
+<GET> = <COUNTRY> holidays;
+<GET> = the holidays;
+
+/**
+(en-US) "Show all my lists"
+"Show all the lists",
+        "Show all my lists",
+        "What are the lists?",
+        "What are my lists?"
+        "Rename the list to",
+        "Rename my list to"
+        "Delete the list",
+        "Delete my list"
+        "Add to the list",
+        "Add to my list"
+        "Check from the list",
+        "Check from my list",
+        "Complete from my list",
+        "Tick from my list"
+        "Uncheck from the list",
+        "Uncheck from my list",
+        "Untick from my list"
+
+
+(en-US) "Add 7 potatoes, 1kg of rice, bread to the shopping list"
+(en-US) "Complete rice from my shopping list"
+(en-US) "Check bread from the shopping list"
+(en-US) "What is in my shopping list?"
+(en-US) "Create a movies list"
+(en-US) "Add Captain America: Civil War to my movies list"
+(en-US) "What are my lists?"
+(en-US) "Rename the movies list to cinema"
+(en-US) "Check Captain America from the cinema list"
+(en-US) "What is in my cinema list?"
+(en-US) "Uncheck Captain America from my cinema list"
+(en-US) "Please tell me what is in my cinema list"
+(en-US) "Delete my cinema list"
+(en-US) "Show my lists"
+*/

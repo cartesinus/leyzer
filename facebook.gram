@@ -1,0 +1,40 @@
+#JSGF V1.0;
+public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6>;
+
+#PRECONDITIONS
+<WHEN> = when I upload a photo to my timeline on facebook;
+<WHEN> = when I upload a photo to album <ALBUM> on facebook;
+<WHEN> = when I post on facebook;
+<GET> = photos on facebook;
+<GET> = photos in album <ALBUM> on facebook;
+<GET> = posts on facebook;
+
+
+#INETNTS
+<INTENT_1> = (post something on facebook | make a new facebook post | update my facebook status | make a new post on facebook);
+
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>; 
+<INTENT_2_a> = post <STATUS> on facebook;
+<INTENT_2_b> = post on facebook (saying | that) <STATUS>;
+<INTENT_2_c> = update my facebook (status | page) saying <STATUS>;
+<INTENT_2_d> = make a new post (that says | containing) <STATUS> on facebook;
+
+<INTENT_3> = <POST_VERB> a picture (on | to) [my] facebook;
+
+<INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;  
+<INTENT_4_a> = post a picture (with caption <CAPTION> on facebook | on facebook with caption <CAPTION>);
+<INTENT_4_b> = upload a picture (on facebook with caption <CAPTION> | with caption <CAPTION> on facebook);
+
+<INTENT_5> = (post <PICTURE_URL> on facebook | upload <PICTURE_URL> to facebook | upload to facebook <PICTURE_URL>);
+
+<INTENT_6> = ((post | put) <PICTURE_URL> on [my] facebook with caption <CAPTION>) | caption <PICTURE_URL> as <CAPTION> and (post | upload) it on facebook;
+
+
+#SLOTS
+<ALBUM> = holidays | cats | memes | holidays in jamaica | barcelona | my love;
+<STATUS> = so tired today | calm morning with my dog and coffee | i am so happy right now | just bought two tickets to ibiza;
+<CAPTION> = with my dad;
+<PICTURE_URL> = tinyurl.com.vmkgtf9;
+
+#LANG. COMPONENTS
+<POST_VERB> = post | upload | add | put;

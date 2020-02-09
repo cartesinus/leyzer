@@ -1,0 +1,17 @@
+#JSGF V1.0;
+public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6>;
+
+#INTENTS
+<INTENT_1> = (show | display) my contacts;
+<INTENT_2> = my contact's info;
+<INTENT_3> = my [google] contacts with email <EMAIL>;
+<INTENT_4> = my contacts with phone number <PHONE_NUMBER>;
+<INTENT_5> = my contacts with name <NAME>;
+<INTENT_6> = my contacts with phone number <PHONE_NUMBER> and email <EMAIL>;
+
+<INTENT_> = show my google contacts;
+
+#SLOTS
+<EMAIL> = anne.hall@gmail.com | sales@company.com;
+<PHONE_NUMBER> = 111222333 | 666777888 | 1268706288 | 82 055 12;
+<NAME> = jake | kate | mike;
