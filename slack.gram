@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = <INTENT_1>;
+public <S> = <INTENT_1> | <INTENT_2> | <INTENT_3> | <INTENT_4> | <INTENT_5> | <INTENT_6> | <INTENT_7> | <INTENT_8> | <INTENT_9> | <INTENT_10> | <INTENT_11> | <INTENT_12> | <INTENT_13>;
 
 #PRECONDITIONS
 <WHEN> = when <USERNAME> is online on slack;
