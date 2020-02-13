@@ -1,0 +1,80 @@
+#JSGF V1.0;
+public <S> = translate__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9>);
+
+#INTENTS
+#method to set default target lang
+<INTENT_1> = (set | change) [default] [translation | output] language to <ALL_LANG>;
+
+#method to set default source lang
+<INTENT_2> = (set | change) [default] (input | source) language to <ALL_LANG>;
+
+#default target language is set, simply provide text for translation (here default is english)
+<INTENT_3> = <INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c>;
+<INTENT_3_a> = [what is the | the] translation of <TEXT_EN>;
+<INTENT_3_b> = (translate | [the] translation of) <TEXT_EN>;
+<INTENT_3_c> = how do (i | you) (say | translate) <TEXT_EN>;
+
+#translate text from english (default) to given lang
+<INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d> | <INTENT_4_e> | <INTENT_4_f>;
+<INTENT_4_a> = [what is the | the] translation of <TEXT_EN> to <TRG_LANG>;
+<INTENT_4_b> = (translate | [the] translation of) <TEXT_EN> (into | to) <TRG_LANG>;
+<INTENT_4_c> = translate to <TRG_LANG> <TEXT_EN>;
+<INTENT_4_d> = <TEXT_EN> (in | translated (to|into)) <TRG_LANG>;
+<INTENT_4_e> = how do (i | you) (say | translate) <TEXT_EN> in <TRG_LANG>;
+<INTENT_4_f> = say in <TRG_LANG> <TEXT_EN>;
+
+#both source and target languages are provided together with text to translate
+<INTENT_5> = <INTENT_5_en> | <INTENT_5_de> | <INTENT_5_pl> | <INTENT_5_it> | <INTENT_5_fr> | <INTENT_5_es>;
+<INTENT_5_en> = (translate | [the] translation of) <TEXT_EN> (from english to <TRG_LANG_NO_EN> | to <TRG_LANG_NO_EN> from english);
+<INTENT_5_de> = (translate | [the] translation of) <TEXT_DE> (from german to <TRG_LANG_NO_DE> | to <TRG_LANG_NO_DE> from german);
+<INTENT_5_pl> = (translate | [the] translation of) <TEXT_PL> (from polish to <TRG_LANG_NO_PL> | to <TRG_LANG_NO_PL> from polish);
+<INTENT_5_it> = (translate | [the] translation of) <TEXT_IT> (from italian to <TRG_LANG_NO_IT> | to <TRG_LANG_NO_IT> from italian);
+<INTENT_5_fr> = (translate | [the] translation of) <TEXT_FR> (from french to <TRG_LANG_NO_FR> | to <TRG_LANG_NO_FR> from french);
+<INTENT_5_es> = (translate | [the] translation of) <TEXT_ES> (from spanish to <TRG_LANG_NO_ES> | to <TRG_LANG_NO_ES> from spanish);
+
+#both source and target languages are provided together with text to translate additinaly translator is provided
+<INTENT_6> = <INTENT_6_en> | <INTENT_6_de> | <INTENT_6_pl> | <INTENT_6_it> | <INTENT_6_fr> | <INTENT_6_es>;
+<INTENT_6_en> = the translation of <TEXT_EN> (from english to <TRG_LANG_NO_EN> | to <TRG_LANG_NO_EN> from english) with <TRANSLATOR>;
+<INTENT_6_de> = the translation of <TEXT_DE> (from german to <TRG_LANG_NO_DE> | to <TRG_LANG_NO_DE> from german) with <TRANSLATOR>;
+<INTENT_6_pl> = the translation of <TEXT_PL> (from polish to <TRG_LANG_NO_PL> | to <TRG_LANG_NO_PL> from polish) with <TRANSLATOR>;
+<INTENT_6_it> = the translation of <TEXT_IT> (from italian to <TRG_LANG_NO_IT> | to <TRG_LANG_NO_IT> from italian) with <TRANSLATOR>;
+<INTENT_6_fr> = the translation of <TEXT_FR> (from french to <TRG_LANG_NO_FR> | to <TRG_LANG_NO_FR> from french) with <TRANSLATOR>;
+<INTENT_6_es> = the translation of <TEXT_ES> (from spanish to <TRG_LANG_NO_ES> | to <TRG_LANG_NO_ES> from spanish) with <TRANSLATOR>;
+
+#root command for followup action (where text is given)
+<INTENT_7> = (translate to | a translation to) <TRG_LANG>;
+
+#default target language is set but source is unknown. text is provided as well
+<INTENT_8> = <INTENT_8_en> | <INTENT_8_de> | <INTENT_8_pl> | <INTENT_8_it> | <INTENT_8_fr> | <INTENT_8_es>;
+<INTENT_8_en> = (translate | [the] translation of) (<TEXT_EN> from english | english sentence <TEXT>);
+<INTENT_8_de> = (translate | [the] translation of) (<TEXT_DE> from german | german sentence <TEXT>);
+<INTENT_8_pl> = (translate | [the] translation of) (<TEXT_PL> from polish | polish sentence <TEXT>);
+<INTENT_8_it> = (translate | [the] translation of) (<TEXT_IT> from italian | italian sentence <TEXT>);
+<INTENT_8_fr> = (translate | [the] translation of) (<TEXT_FR> from french | french sentence <TEXT>);
+<INTENT_8_es> = (translate | [the] translation of) (<TEXT_ES> from spanish | spanish sentence <TEXT>);
+
+#detect language of text
+<INTENT_9> = <INTENT_9_a> | <INTENT_9_b>;
+<INTENT_9_a> = [the] language of <TEXT_MULTI> [is written in];
+<INTENT_9_b> = detect ([the] language of | what language) <TEXT_MULTI> [is written in];
+
+
+#SLOTS
+<SRC_LANG> = italian | french | english | japanease | russian;
+<TRG_LANG> = polish | german | spanish | thai | czech | finish;
+<ALL_LANG> = italian | french | english | japanease | russian | polish | german | spanish | thai | czech | finish | esperanto | turkish | greek | mongolian | hawaiian | hindi | icelandic;
+<TRG_LANG_NO_EN> = polish | german | spanish | thai | czech | finish;
+<TRG_LANG_NO_DE> = polish | spanish | thai | czech | finish;
+<TRG_LANG_NO_PL> = german | spanish | thai | czech | finish;
+<TRG_LANG_NO_IT> = polish | german | spanish | thai | czech | finish;
+<TRG_LANG_NO_FR> = polish | german | spanish | thai | czech | finish;
+<TRG_LANG_NO_ES> = polish | german | thai | czech | finish;
+<TEXT_EN> = TRANSLATE.SLOT.TEXT.EN;
+<TEXT_DE> = TRANSLATE.SLOT.TEXT.DE;
+<TEXT_PL> = TRANSLATE.SLOT.TEXT.PL;
+<TEXT_ES> = TRANSLATE.SLOT.TEXT.ES;
+<TEXT_IT> = TRANSLATE.SLOT.TEXT.IT;
+<TEXT_FR> = TRANSLATE.SLOT.TEXT.FR;
+<TEXT_MULTI> = TRANSLATE.SLOT.TEXT.MULTI;
+<TEXT> = TRANSLATE.SLOT.TEXT;
+<TRANSLATOR> = yandex | google | microsoft | deepl;
