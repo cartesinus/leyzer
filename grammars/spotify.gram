@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = spotify__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11> | 12__ <INTENT_12> | 13__ <INTENT_13>);
+public <S> = spotify__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11> | 12__ <INTENT_12> | 13__ <INTENT_13> | 14__ <INTENT_14> | 15__ <INTENT_15> | 16__ <INTENT_16> | 17__ <INTENT_17> | 18__ <INTENT_18>);
 
 #PRECONDITIONS
 <WHEN> = when my top tracks changes;
@@ -15,38 +15,66 @@ public <S> = spotify__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <
 <WHEN> = when a song with energy less than <ENERGY> is playing;
 
 #INTENTS
+#open spotify
 <INTENT_1> = ((open | use) spotify [(and | to) play some music] | play some music on spotify);
 
-<INTENT_2> = (play [the (song | songs)] <SONG> [on spotify] | on spotify play <SONG>);
+#play given song
+<INTENT_2> = (play [(the | a) (song | songs)] <SONG> [on spotify] | on spotify play <SONG>);
 
-<INTENT_3> = (play | pause | resume) my spotify;
+#play given song of given artist
+<INTENT_3> = (play [(the | a) (song | songs)] <SONG> by <ARTIST> [on spotify] | on spotify play <SONG> by <ARTIST>);
 
-<INTENT_4> = (play [the] next song [on spotify] | skip this song [on spotify]);
+#play given album of given artist
+<INTENT_4> = (play [(the | a) (album | single | lp | long play)] <ALBUM> by <ARTIST> [on spotify] | on spotify play (album | single | lp | long play) <ALBUM> by <ARTIST>);
 
-<INTENT_5> = (go back [to the last song] | play the (previous | last) song [on spotify]);
+#'press' pause | resume | play | repeat button on current song
+<INTENT_5> = (play | pause | resume | repeat) ([my] spotify | (this | that) <SONG_NOUN>);
 
-<INTENT_6> = add [song] <SONG> to [my] <PLAYLIST> [on spotify];
+#next song
+<INTENT_6> = (play [the] next <SONG_NOUN> [on spotify] | skip (this | than) <SONG_NOUN> [on spotify]);
 
-<INTENT_7> = save ([the] current track | whatever's playing [now] to my library | this song);
+#previous song
+<INTENT_7> = (go back [to the last <SONG_NOUN>] | play the (previous | last) <SONG_NOUN> [on spotify]);
 
-<INTENT_8> = (seek to <TIME> seconds in | (skip | go) to <TIME> seconds);
+#play given playlist
+<INTENT_8> = play [the | a] ([my] playlist <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
 
-<INTENT_9> = turn (shuffle <STATE> | <STATE> shuffle);
+#add current song to given playlist
+<INTENT_9> = (add | save) [this | that | current | currently playing] [<SONG_NOUN>] to ([my] playlist <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
 
-<INTENT_10> = shuffle my spotify;
+#add given song to given playlist
+<INTENT_10> = (add | save) [the | a] [<SONG_NOUN>] <SONG> to ([my] playlist <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
 
-<INTENT_11> = turn <STATE> repeat;
+#add current album to playlist
+<INTENT_11> = (add | save) (this | that) (album | single | lp | long play) to [my] ([playlist] <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
 
-<INTENT_12> = [(create | make | add)] [a] new playlist;
+#create playlist root (no name is given)
+<INTENT_12> = (create | make | add) [a] [new] (playlist | list);
 
-<INTENT_13> = [(create | make | add)] [a] new playlist (named | titled) <NAME>;
+#create playlist with given name
+<INTENT_13> = (create | make | add) [a] [new] playlist (named | titled) <PLAYLIST>;
+
+#save song (to default playlist?)
+<INTENT_14> = save ([the] current <SONG_NOUN> | whatever's playing [now] to my library | (this | that) <SONG_NOUN>);
+
+#seek by given number of seconds
+<INTENT_15> = (seek to <TIME> seconds in | (skip | go) to <TIME> seconds);
+
+#shuffle on | off
+<INTENT_16> = turn (shuffle <STATE> | <STATE> shuffle);
+
+#repeat on | off
+<INTENT_17> = turn <STATE> repeat;
+
+#dencability of current song
+<INTENT_18> = <INTENT_18_a> | <INTENT_18_b>;
+<INTENT_18_a> = (how (danceable | dancey) is| [the] danceability of) [the] (current | this | that) <SONG_NOUN>;
+<INTENT_18_b> = is this <SONG_NOUN> dancey;
 
 <DO> = add <SONG> to my playlist;
 <DO> = add to playlist <PLAYLIST>;
 <DO> = add a song to my playlist <PLAYLIST>;
 <DO> = add a song to my playlist;
-<DO> = play the playlist <PLAYLIST>;
-<DO> = play a playlist;
 
 <DO> = add <SONG> to my playlist <PLAYLIST>;
 
@@ -69,16 +97,6 @@ public <S> = spotify__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <
 <DO> = play my playlist <PLAYLIST>;
 <DO> = play my playlist;
 
-<GET> = how danceable is the current track;
-<GET> = the danceability of the current track;
-<GET> = the danceability of the current song;
-<GET> = how dancey is this song;
-<GET> = how danceable is this song;
-<GET> = is this song dancey;
-<GET> = how dancey is the song <SONG>;
-<GET> = the danceability of the song <SONG>;
-<GET> = how dancey is <SONG>;
-<GET> = the danceability of <SONG>;
 
 <GET> = how loud is this song;
 <GET> = the loudness of the current song;
@@ -115,6 +133,7 @@ public <S> = spotify__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <
 <GET> = the energy of <SONG>;
 <GET> = the energy of song <SONG>;
 <GET> = how energetic is <SONG>;
+
 <GET> = the speechiness of this song;
 <GET> = the speechiness of the current track;
 <GET> = the speechiness of the current song;
@@ -167,10 +186,11 @@ public <S> = spotify__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <
 <GET> = my top tracks;
 
 #SLOTS
-<SONG> = bad liar | move me | door man | deal with it | american idiot | bud guy | you should see me in a crown;
-<ARTIST> = billie eilish | selena gomez | justin bieber | the offspring | greenday | mura masa | slow thai;
-<ALBUM> = when we slow aslep | american idiot | mura masa | rare;
-<PLAYLIST> = wedding | chill | 2019 | party | winter chill | coffee and relax;
+<SONG_NOUN> = song | track;
+<SONG> = SPOTIFY.SLOT.SONG;
+<ARTIST> = SPOTIFY.SLOT.ARTIST;
+<ALBUM> = SPOTIFY.SLOT.ALBUM;
+<PLAYLIST> = SPOTIFY.SLOT.PLAYLIST;
 <TIME> = 1 | 3 | 5 | 30;
-<NAME> = good vibe | starred | funny | daily mix;
 <STATE> = on | off;
+<GENRES> = hip hop | mood | pop | party | chill | indie | rock | focus | decades | romance | electronic | wellness | workout | dinner | sleep | travel | metal | latin | jazz | trending | gaming | punk | reggae | blues | folk | classical | soul | funk | country | comedy;
