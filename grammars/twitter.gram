@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = twitter__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3>);
+public <S> = twitter__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6>);
 
 #PRECONDITIONS
 <WHEN> = when someone i follow tweets;
@@ -29,15 +29,27 @@ public <S> = twitter__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3>);
 <WHEN> = when i mention <IN_REPLY_TO> on twitter;
 
 #INTENTS
+#show user tweets
 <INTENT_1> = <SHOW_VERB> (my ([recent] tweets | posts on twitter ) | tweets i made);
 
+#follow given user
 <INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>;
 <INTENT_2_a> = follow <USERNAME> on twitter;
 <INTENT_2_b> = become a follower of <USERNAME> on twitter;
 <INTENT_2_c> = become a twitter follower of <USERNAME>;
 <INTENT_2_d> = be a twitter follower of <USERNAME>;
 
+#unfollow given user
 <INTENT_3> = (unfollow | stop following) <USERNAME> on twitter;
+
+#send message to user
+<INTENT_4> = [send a] (message| dm | direct message) on twitter saying <MESSAGE>;
+
+#send message to user
+<INTENT_5> = [send a] (message| dm | direct message) on twitter to <USERNAME> saying <MESSAGE>;
+
+#find tweets with hashtags
+<INTENT_6> = [find | show | display] tweets (with hashtag | about) <HASHTAG> [on twitter];
 
 <GET> = <SHOW_VERB> tweets matching <TEXT> on twitter;
 <GET> = <TEXT> tweets;
@@ -50,9 +62,6 @@ public <S> = twitter__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3>);
 <GET> = recents posts on twitter from <AUTHOR> matching <TEXT>;
 <GET> = recent tweets in reply to <IN_REPLY_TO>;
 <GET> = recent tweets in reply to <IN_REPLY_TO> matching <TEXT>;
-<GET> = tweets with hashtag <HASHTAG> on twitter;
-<GET> = tweets with hashtag <HASHTAG>;
-<GET> = tweets about <HASHTAG>;
 <GET> = <COUNT> recent tweets with hashtag <HASHTAG>;
 <GET> = tweets from <AUTHOR> with hashtag <HASHTAG>;
 <GET> = posts on twitter from <AUTHOR> with hashtag <HASHTAG>;
@@ -80,10 +89,6 @@ public <S> = twitter__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3>);
 <DO> = tweet that <STATUS>;
 <DO> = make a post on twitter that says <STATUS>;
 <DO> = make a tweet on twitter that says <STATUS>;
-<DO> = send a dm on twitter to <TO> saying <MESSAGE>;
-<DO> = send a direct message on twitter to <TO> saying <MESSAGE>;
-<DO> = dm <TO> on twitter saying <MESSAGE>;
-<DO> = send a message on twitter to <TO> saying <MESSAGE>;
 <DO> = tweet a picture with caption <CAPTION>;
 <DO> = post a picture on twitter saying <CAPTION>;
 <DO> = tweet a picture;
@@ -109,11 +114,10 @@ public <S> = twitter__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3>);
 #SLOTS
 <CAPTION> = ;
 <STATUS> = ;
-<TO> = ;
-<MESSAGE> =;
-<USERNAME> = emnlp2020 | Kyunghyun Cho | Ilya Sutskever | AllenNLP | Ian Gooffellow | Andrew Ng | Yann LeCun;
+<USERNAME> = TWITTER.SLOT.USERNAME;
+<MESSAGE> = TWITTER.SLOT.MESSAGE;
 <IN_REPLY_TO> =;
-<HASHTAG> = ;
+<HASHTAG> = TWITTER.SLOT.HASHTAG;
 <AUTHOR> =;
 <TEXT> ;
 
