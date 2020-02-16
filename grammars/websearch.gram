@@ -12,9 +12,9 @@ public <S> = websearch__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__
 
 <INTENT_5> = (image search | search images on <ENGINE> | <ENGINE> image search);
 
-<INTENT_6> = images from bing matching <IMG_QUERY> with size <WIDTH> x <HEIGHT>;
+<INTENT_6> = images from <ENGINE> matching <IMG_QUERY> with size <WIDTH> x <HEIGHT>;
 
-<INTENT_7> = images from bing matching <IMG_QUERY> <IMG_COND> than <WIDTH> [x <HEIGHT>];
+<INTENT_7> = images from <ENGINE> matching <IMG_QUERY> <IMG_COND> than <WIDTH> [x <HEIGHT>];
 
 #SLOTS
 <ENGINE> = bing | google | duckduckgo;
