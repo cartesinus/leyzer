@@ -38,9 +38,9 @@ public <S> = youtube__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <
 <INTENT_10> = notify me <WHEN_2>;
 
 #SLOTS
-<CHANNEL_ID> = theneedledrop | justin bieber | team coco | cineamasin | dandmt | niki and gabi | wwe | unbox therapy | gordon ramsay;
+<CHANNEL_ID> = pewdiepie | theneedledrop | justin bieber | team coco | cineamasin | dandmt | niki and gabi | wwe | unbox therapy | gordon ramsay;
 <CATEGORY_ID> = news and politics | cooking and health | tech | sports | beauty and fashion | gaming | comedy | music;
-<QUERY> = baby yoda | noom diet | joker | 7 rings | old town road | area 51 | stranger things | chernobyl | coronavirus;
+<QUERY> = YOUTUBE.SLOT.QUERY;
 
 #LANG. COMPONENTS
 <FIND_VERB> = find | search for | look for;

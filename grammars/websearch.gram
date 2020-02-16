@@ -4,7 +4,7 @@ public <S> = websearch__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__
 #INTENTS
 <INTENT_1> = (search on <ENGINE> | <ENGINE> search | web search);
 
-<INTENT_2> = (<QUERY> on <ENGINE> | <ENGINE> <TXT_QUERY>);
+<INTENT_2> = (<TXT_QUERY> on <ENGINE> | <ENGINE> <TXT_QUERY>);
 
 <INTENT_3> = (websites | web sites | pages) matching <TXT_QUERY>;
 
