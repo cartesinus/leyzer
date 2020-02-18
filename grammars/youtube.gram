@@ -38,8 +38,8 @@ public <S> = youtube__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <
 <INTENT_10> = notify me <WHEN_2>;
 
 #SLOTS
-<CHANNEL_ID> = pewdiepie | theneedledrop | justin bieber | team coco | cineamasin | dandmt | niki and gabi | wwe | unbox therapy | gordon ramsay;
-<CATEGORY_ID> = news and politics | cooking and health | tech | sports | beauty and fashion | gaming | comedy | music;
+<CHANNEL_ID> = YOUTUBE.SLOT.CHANNEL_ID;
+<CATEGORY_ID> = YOUTUBE.SLOT.CATEGORY;
 <QUERY> = YOUTUBE.SLOT.QUERY;
 
 #LANG. COMPONENTS

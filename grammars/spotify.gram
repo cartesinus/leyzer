@@ -58,7 +58,7 @@ public <S> = spotify__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <
 <INTENT_14> = save ([the] current <SONG_NOUN> | whatever's playing [now] to my library | (this | that) <SONG_NOUN>);
 
 #seek by given number of seconds
-<INTENT_15> = (seek to <TIME> seconds in | (skip | go) to <TIME> seconds);
+<INTENT_15> = (seek to <SEEK_TIME> seconds in | (skip | go) to <SEEK_TIME> seconds);
 
 #shuffle on | off
 <INTENT_16> = turn (shuffle <STATE> | <STATE> shuffle);
@@ -186,11 +186,13 @@ public <S> = spotify__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <
 <GET> = my top tracks;
 
 #SLOTS
-<SONG_NOUN> = song | track;
 <SONG> = SPOTIFY.SLOT.SONG;
 <ARTIST> = SPOTIFY.SLOT.ARTIST;
 <ALBUM> = SPOTIFY.SLOT.ALBUM;
 <PLAYLIST> = SPOTIFY.SLOT.PLAYLIST;
-<TIME> = 1 | 3 | 5 | 30;
-<STATE> = on | off;
-<GENRES> = hip hop | mood | pop | party | chill | indie | rock | focus | decades | romance | electronic | wellness | workout | dinner | sleep | travel | metal | latin | jazz | trending | gaming | punk | reggae | blues | folk | classical | soul | funk | country | comedy;
+<SEEK_TIME> = SPOTIFY.SLOT.SEEK_TIME;
+<STATE> = SPOTIFY.SLOT.STATE;
+<GENRES> = SPOTIFY.SLOT.GENRES;
+
+#LANG. COMPONENTS
+<SONG_NOUN> = song | track;

@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = phone__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4>);
+public <S> = phone__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5>);
 
 #PRECONDITIONS
 <WHEN> = when i receive a sms;
@@ -28,6 +28,10 @@ public <S> = phone__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <IN
 <INTENT_4_a> = send a (text | message | sms) to <TO>;
 <INTENT_4_b> = (sms | text) <TO>;
 
+<INTENT_5> = <INTENT_5_a> | <INTENT_5_b>;
+<INTENT_5_a> = send (an sms [message] | a text | a message) to <TO> (saying | containing) <MESSAGE>;
+<INTENT_5_b> = (text | sms) <TO> (saying | containing) <MESSAGE>;
+
 <GET> = sms in my phone;
 <GET> = texts i received;
 <GET> = my sms history;
@@ -39,13 +43,6 @@ public <S> = phone__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <IN
 <GET> = sms from today;
 <GET> = texts i received in the last hour;
 <GET> = texts from the last hour;
-<DO> = send an sms to <TO> saying <MESSAGE>;
-<DO> = send an sms message to <TO> saying <MESSAGE>;
-<DO> = send a text to <TO> saying <MESSAGE>;
-<DO> = text <TO> saying <MESSAGE>;
-<DO> = send a text to <TO> containing <MESSAGE>;
-<DO> = send a message to <TO> containing <MESSAGE>;
-<DO> = sms <TO> saying <MESSAGE>;
 <DO> = set my phone to <MODE>;
 <DO> = change my phone to <MODE>;
 <DO> = adjust my phone to <MODE>;
@@ -74,7 +71,7 @@ public <S> = phone__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <IN
 <DO> = paste <STR> here;
 
 #SLOTS
-<TO> = mom | dad | love | mike | tom | alex;
-<MESSAGE> = call me | we need to talk | please answer;
-<NUMBER> = 34 678 09 94 | 22 590 01 45 | 00 589 999 000;
-<MODE> = silent | vibrating | sound;
+<TO> = PHONE.SLOT.TO;
+<MESSAGE> = PHONE.SLOT.MESSAGE;
+<NUMBER> = PHONE.SLOT.NUMBER;
+<MODE> = PHONE.SLOT.MODE;

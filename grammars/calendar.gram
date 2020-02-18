@@ -63,12 +63,12 @@ public <S> = calendar__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ 
 <GET> = the holidays;
 
 #SLOTS
-<DATE> = today | tomorrow | next friday;
-<EVENT_NAME> = 1on1 | hairdresser | mom birthday | meeting with anna | dinner with jon;
-<EVENT_DATE> = next friday | tomorrow | 1st of july;
-<LOCATION> = home | work;
-<ORGANIZER> = john | albert | mike;
-<COUNTRY> = italy | france;
+<DATE> = CALENDAR.SLOT.DATE;
+<EVENT_NAME> = CALENDAR.SLOT.EVENT_NAME;
+<EVENT_DATE> = CALENDAR.SLOT.EVENT_DATE;
+<LOCATION> = CALENDAR.SLOT.LOCATION;
+<ORGANIZER> = CALENDAR.SLOT.ORGANIZER;
+<COUNTRY> = CALENDAR.SLOT.COUNTRY;
 
 #LANG. COMPONENTS
 <SHOW_VERB> = show | display | open;

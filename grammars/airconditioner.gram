@@ -16,16 +16,16 @@ public <S> = aircondition__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 
 <WHEN> = if the humidity goes above <HUMIDITY_PERCENTAGE> percent;
 <WHEN> = when the humidity inside is lower than <HUMIDITY_PERCENTAGE>;
 <WHEN> = if the humidity in the area goes below <HUMIDITY_PERCENTAGE>;
-<WHEN> = when my <NAME> humidity sensor detects a change in the humidity;
-<WHEN> = when the <NAME> humidity sensor says it is <STATE>;
-<WHEN> = when my <NAME> humidity sensor says it is humid;
-<WHEN> = when the <NAME> sensor detects high humidity;
-<WHEN> = when my <NAME> humidity sensor says it is not humid;
-<WHEN> = when the <NAME> sensor detects regular humidity;
-<WHEN> = when the room 's humidity is higher than <HUMIDITY_PERCENTAGE> percent according to my <NAME> sensor;
-<WHEN> = if the humidity detected by my <NAME> sensor goes above <HUMIDITY_PERCENTAGE> percent;
-<WHEN> = when the humidity inside is lower than <HUMIDITY_PERCENTAGE> according to my <NAME> sensor;
-<WHEN> = if the humidity in the area detected by my <NAME> sensor goes above <HUMIDITY_PERCENTAGE> percent;
+<WHEN> = when my <DEVICE_NAME> humidity sensor detects a change in the humidity;
+<WHEN> = when the <DEVICE_NAME> humidity sensor says it is <STATE>;
+<WHEN> = when my <DEVICE_NAME> humidity sensor says it is humid;
+<WHEN> = when the <DEVICE_NAME> sensor detects high humidity;
+<WHEN> = when my <DEVICE_NAME> humidity sensor says it is not humid;
+<WHEN> = when the <DEVICE_NAME> sensor detects regular humidity;
+<WHEN> = when the room 's humidity is higher than <HUMIDITY_PERCENTAGE> percent according to my <DEVICE_NAME> sensor;
+<WHEN> = if the humidity detected by my <DEVICE_NAME> sensor goes above <HUMIDITY_PERCENTAGE> percent;
+<WHEN> = when the humidity inside is lower than <HUMIDITY_PERCENTAGE> according to my <DEVICE_NAME> sensor;
+<WHEN> = if the humidity in the area detected by my <DEVICE_NAME> sensor goes above <HUMIDITY_PERCENTAGE> percent;
 <WHEN> = when the home temperature changes;
 <WHEN> = when the sensor 's room temperature is hotter than <TEMPERATURE>;
 <WHEN> = if the room temperature of the sensor is higher than <TEMPERATURE>;
@@ -33,47 +33,47 @@ public <S> = aircondition__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 
 <WHEN> = when the sensor 's room temperature is colder than <TEMPERATURE>;
 <WHEN> = if the room temperature of the sensor is lower than <TEMPERATURE>;
 <WHEN> = when the inside temperature of the sensor goes below <TEMPERATURE>;
-<WHEN> = when the <NAME> room temperature changes;
-<WHEN> = when the <NAME> sensor 's room temperature is hotter than <TEMPERATURE>;
-<WHEN> = if the temperature inside of the <NAME> sensor is higher than <TEMPERATURE>;
-<WHEN> = when the temperature inside of the <NAME> sensor goes above <TEMPERATURE>;
-<WHEN> = when the <NAME> sensor 's indoor temperature is colder than <TEMPERATURE>;
-<WHEN> = if the temperature of the <NAME> room sensor is lower than <TEMPERATURE>;
-<WHEN> = when the temperature of the <NAME> home sensor goes below <TEMPERATURE>;
+<WHEN> = when the <DEVICE_NAME> room temperature changes;
+<WHEN> = when the <DEVICE_NAME> sensor 's room temperature is hotter than <TEMPERATURE>;
+<WHEN> = if the temperature inside of the <DEVICE_NAME> sensor is higher than <TEMPERATURE>;
+<WHEN> = when the temperature inside of the <DEVICE_NAME> sensor goes above <TEMPERATURE>;
+<WHEN> = when the <DEVICE_NAME> sensor 's indoor temperature is colder than <TEMPERATURE>;
+<WHEN> = if the temperature of the <DEVICE_NAME> room sensor is lower than <TEMPERATURE>;
+<WHEN> = when the temperature of the <DEVICE_NAME> home sensor goes below <TEMPERATURE>;
 
 #INTENTS
-<INTENT_1> = (turn the <AC> on) | (turn on the <AC>) | (switch (on the <AC> | the <AC> on));
+<INTENT_1> = (turn the <AV_ALIAS> on) | (turn on the <AV_ALIAS>) | (switch (on the <AV_ALIAS> | the <AV_ALIAS> on));
 
-<INTENT_2> = (turn the <AC> off) | (turn off the <AC>) | (switch (off the <AC> | the <AC> off));
+<INTENT_2> = (turn the <AV_ALIAS> off) | (turn off the <AV_ALIAS>) | (switch (off the <AV_ALIAS> | the <AV_ALIAS> off));
 
 <INTENT_3> = change the (temperature on my thermostat | minimum and maximum temperatures on my thermostat);
 
 <INTENT_4> = set (temperature on my thermostat to <VALUE> | the temperature to <VALUE> on my thermostat | set my thermostat to <VALUE>);
 
-<INTENT_5> = set ([temperature on] my <NAME> thermostat to <VALUE> | the temperature to <VALUE> on my <NAME> thermostat);
+<INTENT_5> = set ([temperature on] my <DEVICE_NAME> thermostat to <VALUE> | the temperature to <VALUE> on my <DEVICE_NAME> thermostat);
 
 <INTENT_6> = set (the temperature between <LOW> and <HIGH> on my thermostat | the low temperature to <LOW> on my thermostat , and the high to <HIGH>);
 
-<INTENT_7> = change the (temperature on my <NAME> thermostat | minimum and maximum temperatures on my <NAME> thermostat);
+<INTENT_7> = change the (temperature on my <DEVICE_NAME> thermostat | minimum and maximum temperatures on my <DEVICE_NAME> thermostat);
 
 <INTENT_8> = <SHOW_VERB> the humidity [level];
 
-<INTENT_9> = check (the state of my <AC> | whether it is humid | if it is humid | the state of the room temperature | the room temperature | how high the home temperature is | if the inside temperature is warm or cold | whether the home temperature is warm or cold | what the <NAME> home temperature sensor says | the temperature of the <NAME> room temperature sensor);
+<INTENT_9> = check (the state of my <AV_ALIAS> | whether it is humid | if it is humid | the state of the room temperature | the room temperature | how high the home temperature is | if the inside temperature is warm or cold | whether the home temperature is warm or cold | what the <DEVICE_NAME> home temperature sensor says | the temperature of the <DEVICE_NAME> room temperature sensor);
 
-<INTENT_10> = what temperature (do I have | do we have | is it) in here according to my <AC>?;
+<INTENT_10> = what temperature (do I have | do we have | is it) in here according to my <AV_ALIAS>?;
 
-<INTENT_11> = what is the indoor temperature [according to [my | the] <AC>]?;
+<INTENT_11> = what is the indoor temperature [according to [my | the] <AV_ALIAS>]?;
 
-<INTENT_12> = (what is the level of | how high is) (humidity | [indoor] temperature) [according to my <AC> sensor]?;
+<INTENT_12> = (what is the level of | how high is) (humidity | [indoor] temperature) [according to my <AV_ALIAS> sensor]?;
 
-<INTENT_13> = what does the <NAME> indoor temperature sensor (say | show)?;
+<INTENT_13> = what does the <DEVICE_NAME> indoor temperature sensor (say | show)?;
 
 #SLOTS
-<NAME> = living room | kitchen | hall | bedroom;
+<DEVICE_NAME> = AIRCONDITIONER.SLOT.DEVICE_NAME;
 <LOW> = 23 degree;
 <HIGH> = 29 degree;
-<VALUE> = 24 degree | 25 degree | off;
-<AC> = heating | ac | aircon | air conditioning | cooling system | hvac;
+<VALUE> = AIRCONDITIONER.SLOT.VALUE;
+<AV_ALIAS> = AIRCONDITIONER.SLOT.AV_ALIAS;
 
 #LANG. COMPONENTS
 <SHOW_VERB> = show | get | check;
@@ -85,9 +85,9 @@ what does my humidity sensor say?
 how humid is it?
 what is the level of humidity?
 how high is the humidity?
-check if my <NAME> humidity sensor says it is humid
-what does my <NAME> humidity sensor say?
-how humid is it according to my <NAME> sensor?
+check if my <DEVICE_NAME> humidity sensor says it is humid
+what does my <DEVICE_NAME> humidity sensor say?
+how humid is it according to my <DEVICE_NAME> sensor?
 is the indoor temperature warm?
 check if the indoor temperature is warm
 is the indoor temperature cold?
@@ -95,5 +95,5 @@ check if the home temperature is cold
 check if the room temperature is warm or cold
 what is the indoor temperature?
 how high is the indoor temperature?
-what does the <NAME> indoor temperature sensor say?
+what does the <DEVICE_NAME> indoor temperature sensor say?
 */

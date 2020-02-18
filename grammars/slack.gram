@@ -82,14 +82,14 @@ public <S> = slack__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <IN
 <INTENT_13_c> = change the (topic | purpose) of slack channel <CHANNEL>;
 
 #SLOTS
-<USERNAME> = jack | andrew | marry | jon | john black;
-<CHANNEL> = work | party | river | my fellas | jogging | class for physics;
-<CAPTION> = funny | 24 hours until exam;
-<PICTURE_URL> = tinyurl.com.vmkgtf9;
-<MESSAGE> = how are things | we need to talk | ok | brb;
-<SENDER> = mike | barry | xorgan;
-<PURPOSE> = decisions | bug fix | present for john;
-<TOPIC> = mona birthday | party;
+<USERNAME> = SLACK.SLOT.USERNAME;
+<CHANNEL> = SLACK.SLOT.CHANNEL;
+<CAPTION> = SLACK.SLOT.CAPTION;
+<PICTURE_URL> = SLACK.SLOT.PICTURE_URL;
+<MESSAGE> = SLACK.SLOT.MESSAGE;
+<SENDER> = SLACK.SLOT.SENDER;
+<PURPOSE> = SLACK.SLOT.PURPOSE;
+<TOPIC> = SLACK.SLOT.TOPIC;
 
 #LANG. COMPONENTS
 <CHECK_VERB> = check | get;

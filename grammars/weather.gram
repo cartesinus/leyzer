@@ -52,10 +52,10 @@ public <S> = weather__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <
 <INTENT_10> = moon phase for [location] <LOCATION> on date <DATE>;
 
 #SLOTS
-<LOCATION> = berlin | paris | tokyo | warsaw | new york | dubai | seul | dakar;
-<TEMPERATURE> = -2 degree | 0 | 5 degrees | 13 degrees | 21 degrees | 30 degrees;
-<HUMIDITY> = 20% | 40% | 60% | 80%;
-<DATE> = 30 january | 15 june | 7 september;
-<STATUS> = raining | sunny;
+<LOCATION> = WEATHER.SLOT.LOCATION;
+<TEMPERATURE> = WEATHER.SLOT.TEMPERATURE;
+<HUMIDITY> = WEATHER.SLOT.HUMIDITY;
+<DATE> = WEATHER.SLOT.DATE;
+<STATUS> = WEATHER.SLOT.STATUS;
 
 //"today's weather"

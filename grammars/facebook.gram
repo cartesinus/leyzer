@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = facebook__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6>);
+public <S> = facebook__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7>);
 
 #PRECONDITIONS
 <WHEN> = when I upload a photo to my timeline on facebook;
@@ -28,11 +28,13 @@ public <S> = facebook__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ 
 
 <INTENT_6> = ((post | put) <PICTURE_URL> on [my] facebook with caption <CAPTION>) | caption <PICTURE_URL> as <CAPTION> and (post | upload) it on facebook;
 
+<INTENT_7> = (show | diplay) photos in [my] album <ALBUM> [on facebook];
+
 #SLOTS
-<ALBUM> = holidays | cats | memes | holidays in jamaica | barcelona | my love;
-<STATUS> = so tired today | calm morning with my dog and coffee | i am so happy right now | just bought two tickets to ibiza;
-<CAPTION> = with my dad;
-<PICTURE_URL> = tinyurl.com.vmkgtf9;
+<ALBUM> = FACEBOOK.SLOT.ALBUM;
+<STATUS> = FACEBOOK.SLOT.STATUS;
+<CAPTION> = FACEBOOK.SLOT.CAPTION;
+<PICTURE_URL> = FACEBOOK.SLOT.PICTURE_URL;
 
 #LANG. COMPONENTS
 <POST_VERB> = post | upload | add | put;

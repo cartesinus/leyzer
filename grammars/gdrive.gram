@@ -33,11 +33,11 @@ public <S> = gdrive__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <I
 <INTENT_11> = share my <FILE_NAME> with <MAIL> [and give a permission for (edition | reading | read and write)];
 
 #SLOTS
-<MIME_TYPE> = mp3 | txt | jpeg;
-<FILE_NAME> = new file | invoice | readme | vegetarian recipies | movies to see | CV | project 1;
-<FILE_SIZE> = 1 mb | 1 gigabyte | 500 kb;
-<TIME> = this week | this month | today;
-<MAIL> = mary.lou@gmail.com | hahaha09@hotmail.com | sarah_odonnell@yahoo.com | selena.g@gmail.com | ghjk1209@hotmail.com;
+<MIME_TYPE> = GDRIVE.SLOT.MIME_TYPE;
+<FILE_NAME> = GDRIVE.SLOT.FILE_NAME;
+<FILE_SIZE> = GDRIVE.SLOT.FILE_SIZE;
+<TIME> = GDRIVE.SLOT.TIME;
+<MAIL> = GDRIVE.SLOT.MAIL;
 
 #LANG. COMPONENTS
 <SHOW_VERB> = show | display | list;

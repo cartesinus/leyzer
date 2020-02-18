@@ -50,6 +50,6 @@ public <S> = news__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INT
 <GET> = <PORTAL> top stories;
 
 #SLOTS
-<SECTION> = sport | politics | tech | health | celebrity;
-<PORTAL> = ((huffington post | huffington | huffpost) | techcrunch | (new york times | nyt | ny times) | wired | (time | time magazine) | fox news);
-<TIME> = today | this week | last week | last monday;
+<SECTION> = NEWS.SLOT.SECTION;
+<PORTAL> = NEWS.SLOT.PORTAL;
+<TIME> = NEWS.SLOT.TIME;

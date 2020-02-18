@@ -58,8 +58,8 @@ public <S> = yelp__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INT
 <GET> = most distant <QUERY> next to <LOCATION>;
 
 #SLOTS
-<LOCATION> = kreuzberg | soho | manhattan | plaza del sol | la rambla;
-<QUERY> = burger | coffee | pizza | sushi bar | pub;
-<REVIEW_COUNT> = 100 | 1000 | 10000;
-<RATING> = 4 | 5;
-<CATEGORY> = thai | japanease | american | italian | french;
+<LOCATION> = YELP.SLOT.LOCATION;
+<QUERY> = YELP.SLOT.QUERY;
+<REVIEW_COUNT> = YELP.SLOT.REVIEW_COUNT;
+<RATING> = YELP.SLOT.RATING;
+<CATEGORY> = YELP.SLOT.CATEGORY;

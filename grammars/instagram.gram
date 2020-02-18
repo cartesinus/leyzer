@@ -43,12 +43,12 @@ public <S> = instagram__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__
 <INTENT_10> = create a [new] post on Instagram with the last photo from Gallery [(and a tag <LOCATION> | (and add | adding) (<FILTER> filter | <HASHTAG> hashtag))];
 
 #SLOTS
-<HASHTAG> = cute | fashion | selfie | summer | art | instagirl | instaboy | instadog | frenchie | cutepuppy | drawing | markers | fashionphoto | makeup | makeup_artist | newpalette | watercolors | portrait | nature | sundaywalk;
-<LOCATION> = berlin | new york | paris | london;
-<FILTER> = lark | juno | sierra | valencia | clarendon | gingham | crema | aden;
-<COUNT> = 2 | 10;
-<DATE_DAY> = 2nd of June | 3rd of May | 16 of July | 30th of June | 12th of October | 20th of April;
-<DATE_MONTH> = January | February | March | April | May;
+<HASHTAG> = INSTAGRAM.SLOT.HASHTAG;
+<LOCATION> = INSTAGRAM.SLOT.LOCATION;
+<FILTER> = INSTAGRAM.SLOT.FILTER;
+<COUNT> = INSTAGRAM.SLOT.COUNT;
+<DATE_DAY> = INSTAGRAM.SLOT.DATE_DAY;
+<DATE_MONTH> = INSTAGRAM.SLOT.DATE_MONTH;
 
 #LANG. COMPONENTS
 <NOTIFY_VERB> = notify | tell;

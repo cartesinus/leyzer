@@ -59,14 +59,14 @@ public <S> = email__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <IN
 <DO> = send <PIC_URL> via gmail;
 
 #SLOTS
-<SENDER_ADDRESS> = bob@gmail.com | elen;
-<LABEL> = spam | important;
-<SUBJECT> = offer | greetings | meeting;
-<TO> = alice@gmail.com | mom | edgar;
-<MESSAGE> = hi, how are you?;
-<PIC_URL> = tinyurl.com.vmkgtf9;
-<TIME> = today | yesterday | two days ago | in the last hour;
-<PRIORITY> = important | unimportant;
+<SENDER_ADDRESS> = EMAIL.SLOT.SENDER_ADDRESS;
+<LABEL> = EMAIL.SLOT.LABEL;
+<SUBJECT> = EMAIL.SLOT.SUBJECT;
+<TO> = EMAIL.SLOT.TO;
+<MESSAGE> = EMAIL.SLOT.MESSAGE;
+<PIC_URL> = EMAIL.SLOT.PIC_URL
+<TIME> = EMAIL.SLOT.TIME;
+<PRIORITY> = EMAIL.SLOT.PRIORITY;
 
 #LANG. COMPONENTS
 <CHECK_VERB> = check | get;

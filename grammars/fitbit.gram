@@ -31,9 +31,9 @@ public <S> = fitbit__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <I
 <INTENT_5> = <NOTIFY_VERB> me <WHEN>;
 
 #SLOTS
-<STEPS> = 1000 | 6000 | 10000;
-<DATE> = 1st January | 15.02.2020;
-<WEIGHT> = 60 kg | 80 kg | 100 kg | 200 pounds;
+<STEPS> = FITBIT.SLOT.STEPS;
+<DATE> = FITBIT.SLOT.DATE;
+<WEIGHT> = FITBIT.SLOT.WEIGHT;
 
 #LANG. COMPONENTS
 <RETRIEVE_VERB> = get;

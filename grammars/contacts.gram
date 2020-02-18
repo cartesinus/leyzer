@@ -27,8 +27,10 @@ public <S> = contacts__  (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__
 <INTENT_12> = set the number <PHONE_NUMBER> in contact <NAME> as <PHONE_TYPE>;
 
 #SLOTS
-<EMAIL> = anne.hall@gmail.com | sales@company.com;
-<PHONE_NUMBER> = 111222333 | 666777888 | 1268706288 | 82 055 12;
-<NAME> = jake | kate | mike;
+<EMAIL> = CONTACTS.SLOT.EMAIL; 
+<PHONE_NUMBER> = CONTACTS.SLOT.PHONE_NUMBER;
+<NAME> = CONTACTS.SLOT.NAME;
+<PHONE_TYPE> = CONTACTS.SLOT.PHONE_TYPE;
+
+#LANG. COMPONENTS
 <SHOW_VERB> = show | display | open;
-<PHONE_TYPE> = home | work | private;
