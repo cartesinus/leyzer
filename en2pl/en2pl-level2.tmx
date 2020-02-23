@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.2.0_0_747fc65a" segtype="sentence" srclang="en-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>WEBSEARCH.SLOT.IMG_QUERY images on bing</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192504Z" creationid="cartesinus" creationdate="20200216T192504Z">
+        <seg>obrazy z WEBSEARCH.SLOT.IMG_QUERY na bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>WEBSEARCH.SLOT.IMG_QUERY images on duckduckgo</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192520Z" creationid="cartesinus" creationdate="20200216T192520Z">
+        <seg>obrazy z WEBSEARCH.SLOT.IMG_QUERY na duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>WEBSEARCH.SLOT.IMG_QUERY images on google</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192513Z" creationid="cartesinus" creationdate="20200216T192513Z">
+        <seg>obrazy z WEBSEARCH.SLOT.IMG_QUERY na google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>WEBSEARCH.SLOT.TXT_QUERY on bing</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192121Z" creationid="cartesinus" creationdate="20200216T192121Z">
+        <seg>WEBSEARCH.SLOT.TXT_QUERY w bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>WEBSEARCH.SLOT.TXT_QUERY on duckduckgo</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192127Z" creationid="cartesinus" creationdate="20200216T192127Z">
+        <seg>WEBSEARCH.SLOT.TXT_QUERY w duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>WEBSEARCH.SLOT.TXT_QUERY on google</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192124Z" creationid="cartesinus" creationdate="20200216T192124Z">
+        <seg>WEBSEARCH.SLOT.TXT_QUERY w google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>bing image search</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192727Z" creationid="cartesinus" creationdate="20200216T192727Z">
+        <seg>wyszukiwarka obrazów bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>bing search</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T191745Z" creationid="cartesinus" creationdate="20200216T191745Z">
+        <seg>wyszukiwarka bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>change the minimum and maximum temperatures on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142834Z" creationid="cartesinus" creationdate="20200223T142834Z">
+        <seg>zmień minimalną i maksymalną temperaturę na moim termostacie AIRCONDITIONER.SLOT.DEVICE_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>change the minimum and maximum temperatures on my thermostat</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142019Z" creationid="cartesinus" creationdate="20200223T142019Z">
+        <seg>zmień minimalną i maksymalną temperaturę na moim termostacie</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>change the temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142827Z" creationid="cartesinus" creationdate="20200223T142827Z">
+        <seg>zmień temperaturę na moim termostacie AIRCONDITIONER.SLOT.DEVICE_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>change the temperature on my thermostat</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142013Z" creationid="cartesinus" creationdate="20200223T142013Z">
+        <seg>zmień temperaturę na moim termostacie</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>check how high the home temperature is</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143023Z" creationid="cartesinus" creationdate="20200223T143023Z">
+        <seg>sprawdź jak wysoka jest temperatura w domu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>check if it is humid</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142951Z" creationid="cartesinus" creationdate="20200223T142951Z">
+        <seg>sprawdź czy jest wilgotno</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>check if the inside temperature is warm or cold</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143103Z" creationid="cartesinus" creationdate="20200223T143103Z">
+        <seg>sprawdź czy temperatura wewnątrz jest wysoka czy niska</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>check the humidity</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142904Z" creationid="cartesinus" creationdate="20200223T142904Z">
+        <seg>sprawdź wilgotność</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>check the humidity level</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142905Z" creationid="cartesinus" creationdate="20200223T142905Z">
+        <seg>sprawdź poziom wilgotności</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>check the room temperature</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143014Z" creationid="cartesinus" creationdate="20200223T143014Z">
+        <seg>sprawdź temperaturę pokojową</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>check the state of my AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142914Z" creationid="cartesinus" creationdate="20200223T142914Z">
+        <seg>sprawdź stan mojego AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>check the state of the room temperature</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143010Z" creationid="cartesinus" creationdate="20200223T143010Z">
+        <seg>sprawdź stan temperatury w pomieszczeniu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>check the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME room temperature sensor</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143145Z" creationid="cartesinus" creationdate="20200223T143145Z">
+        <seg>sprawdź temperaturę czujnika temperatury pokojowej AIRCONDITIONER.SLOT.DEVICE_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>check what the AIRCONDITIONER.SLOT.DEVICE_NAME home temperature sensor says</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143132Z" creationid="cartesinus" creationdate="20200223T143132Z">
+        <seg>sprawdź co mówi czujnik temperatury domowej AIRCONDITIONER.SLOT.DEVICE_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>check whether it is humid</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142927Z" creationid="cartesinus" creationdate="20200223T142927Z">
+        <seg>sprawdź czy jest wilgotno</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>check whether the home temperature is warm or cold</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143119Z" creationid="cartesinus" creationdate="20200223T143119Z">
+        <seg>sprawdź czy temperatura w domu jest wysoka czy niska</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>duckduckgo image search</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192745Z" creationid="cartesinus" creationdate="20200216T192745Z">
+        <seg>wyszukiwarka obrazów duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>duckduckgo search</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T191836Z" creationid="cartesinus" creationdate="20200216T191836Z">
+        <seg>wyszukiwarka duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>get the humidity</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142855Z" creationid="cartesinus" creationdate="20200223T142855Z">
+        <seg>podaj wilgotność</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>get the humidity level</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142900Z" creationid="cartesinus" creationdate="20200223T142900Z">
+        <seg>podaj poziom wilgotności</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>google WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192142Z" creationid="cartesinus" creationdate="20200216T192142Z">
+        <seg>wygoogluj WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>google image search</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192733Z" creationid="cartesinus" creationdate="20200216T192733Z">
+        <seg>wyszukiwarka obrazów google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>google search</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T191829Z" creationid="cartesinus" creationdate="20200216T191829Z">
+        <seg>wyszukiwarka google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>how high is humidity ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143316Z" creationid="cartesinus" creationdate="20200223T143316Z">
+        <seg>jak wysoka jest wilgotność?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>how high is humidity according to my AIRCONDITIONER.SLOT.AV_ALIAS sensor ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143317Z" creationid="cartesinus" creationdate="20200223T143317Z">
+        <seg>jak wysoka jest wilgotność według mojego czujnika AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>how high is indoor temperature ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143340Z" creationid="cartesinus" creationdate="20200223T143325Z">
+        <seg>jak wysoka jest temperatura wewnątrz?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>how high is indoor temperature according to my AIRCONDITIONER.SLOT.AV_ALIAS sensor ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143344Z" creationid="cartesinus" creationdate="20200223T143344Z">
+        <seg>jak wysoka jest temperatura w pomieszczeniu według mojego czujnika AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>how high is temperature ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143320Z" creationid="cartesinus" creationdate="20200223T143320Z">
+        <seg>jak wysoka jest temperatura</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>how high is temperature according to my AIRCONDITIONER.SLOT.AV_ALIAS sensor ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143322Z" creationid="cartesinus" creationdate="20200223T143322Z">
+        <seg>jak wysoka jest temperatura według mojego czujnika AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>image search</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192532Z" creationid="cartesinus" creationdate="20200216T192532Z">
+        <seg>wyszukiwanie obrazka</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193024Z" creationid="cartesinus" creationdate="20200216T193024Z">
+        <seg>obrazy w bing pasujące do WEBSEARCH.SLOT.IMG_QUERY większe niż 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193042Z" creationid="cartesinus" creationdate="20200216T193042Z">
+        <seg>obrazy w bing pasujące do WEBSEARCH.SLOT.IMG_QUERY większe niż 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193151Z" creationid="cartesinus" creationdate="20200216T193151Z">
+        <seg>obrazy w bing pasujące do WEBSEARCH.SLOT.IMG_QUERY mniejsze niż 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193159Z" creationid="cartesinus" creationdate="20200216T193159Z">
+        <seg>obrazy w bing pasujące do WEBSEARCH.SLOT.IMG_QUERY mniejsze niż 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193118Z" creationid="cartesinus" creationdate="20200216T193101Z">
+        <seg>obrazy w bing pasujące do WEBSEARCH.SLOT.IMG_QUERY wyższe niż 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193136Z" creationid="cartesinus" creationdate="20200216T193136Z">
+        <seg>obrazy w bing pasujące do WEBSEARCH.SLOT.IMG_QUERY wyższe niż 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192913Z" creationid="cartesinus" creationdate="20200216T192913Z">
+        <seg>obrazy w bing pasujące do WEBSEARCH.SLOT.IMG_QUERY szersze niż 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192933Z" creationid="cartesinus" creationdate="20200216T192933Z">
+        <seg>obrazy w bing pasujące do WEBSEARCH.SLOT.IMG_QUERY szersze niż 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192804Z" creationid="cartesinus" creationdate="20200216T192804Z">
+        <seg>obrazy w bing pasujące do WEBSEARCH.SLOT.IMG_QUERY o rozmiarze 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193414Z" creationid="cartesinus" creationdate="20200216T193414Z">
+        <seg>obrazy w duckduckgo pasujące do WEBSEARCH.SLOT.IMG_QUERY szersze niż 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193433Z" creationid="cartesinus" creationdate="20200216T193433Z">
+        <seg>obrazy w duckduckgo pasujące do WEBSEARCH.SLOT.IMG_QUERY większe niż 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193508Z" creationid="cartesinus" creationdate="20200216T193508Z">
+        <seg>obrazy w duckduckgo pasujące do WEBSEARCH.SLOT.IMG_QUERY mniejsze niż 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193517Z" creationid="cartesinus" creationdate="20200216T193517Z">
+        <seg>obrazy w duckduckgo pasujące do WEBSEARCH.SLOT.IMG_QUERY mniejsze niż 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193449Z" creationid="cartesinus" creationdate="20200216T193449Z">
+        <seg>obrazy w duckduckgo pasujące do WEBSEARCH.SLOT.IMG_QUERY wyższe niż 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193458Z" creationid="cartesinus" creationdate="20200216T193458Z">
+        <seg>obrazy w duckduckgo pasujące do WEBSEARCH.SLOT.IMG_QUERY wyższe niż 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193355Z" creationid="cartesinus" creationdate="20200216T193355Z">
+        <seg>obrazy w duckduckgo pasujące do WEBSEARCH.SLOT.IMG_QUERY szersze niż 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193404Z" creationid="cartesinus" creationdate="20200216T193404Z">
+        <seg>obrazy w duckduckgo pasujące do WEBSEARCH.SLOT.IMG_QUERY szersze niż 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192848Z" creationid="cartesinus" creationdate="20200216T192848Z">
+        <seg>obrazy w duckduckgo pasujące do WEBSEARCH.SLOT.IMG_QUERY o rozmiarze 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193222Z" creationid="cartesinus" creationdate="20200216T193222Z">
+        <seg>obrazy w google pasujące do WEBSEARCH.SLOT.IMG_QUERY większe niż 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193238Z" creationid="cartesinus" creationdate="20200216T193238Z">
+        <seg>obrazy w google pasujące do WEBSEARCH.SLOT.IMG_QUERY większe niż 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193340Z" creationid="cartesinus" creationdate="20200216T193340Z">
+        <seg>obrazy w google pasujące do WEBSEARCH.SLOT.IMG_QUERY mniejsze niż 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193346Z" creationid="cartesinus" creationdate="20200216T193346Z">
+        <seg>obrazy w google pasujące do WEBSEARCH.SLOT.IMG_QUERY mniejsze niż 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193246Z" creationid="cartesinus" creationdate="20200216T193246Z">
+        <seg>obrazy w google pasujące do WEBSEARCH.SLOT.IMG_QUERY szersze niż 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193627Z" creationid="cartesinus" creationdate="20200216T193254Z">
+        <seg>obrazy w google pasujące do WEBSEARCH.SLOT.IMG_QUERY wyższe niż 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193209Z" creationid="cartesinus" creationdate="20200216T193209Z">
+        <seg>obrazy w google pasujące do WEBSEARCH.SLOT.IMG_QUERY szersze niż 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T193216Z" creationid="cartesinus" creationdate="20200216T193216Z">
+        <seg>obrazy w google pasujące do WEBSEARCH.SLOT.IMG_QUERY szersze niż 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192815Z" creationid="cartesinus" creationdate="20200216T192815Z">
+        <seg>obrazy w google pasujące do WEBSEARCH.SLOT.IMG_QUERY o rozmiarze 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images matching WEBSEARCH.SLOT.IMG_QUERY from bing</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192447Z" creationid="cartesinus" creationdate="20200216T192330Z">
+        <seg>obrazy pasujące do WEBSEARCH.SLOT.IMG_QUERY w bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images matching WEBSEARCH.SLOT.IMG_QUERY from duckduckgo</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192434Z" creationid="cartesinus" creationdate="20200216T192434Z">
+        <seg>obrazy pasujące do WEBSEARCH.SLOT.IMG_QUERY w duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>images matching WEBSEARCH.SLOT.IMG_QUERY from google</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192441Z" creationid="cartesinus" creationdate="20200216T192338Z">
+        <seg>obrazy pasujące do WEBSEARCH.SLOT.IMG_QUERY w google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>pages matching WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192304Z" creationid="cartesinus" creationdate="20200216T192304Z">
+        <seg>strony na których znajdę WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>search images on bing</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192701Z" creationid="cartesinus" creationdate="20200216T192639Z">
+        <seg>wyszukaj obrazy na bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>search images on duckduckgo</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192714Z" creationid="cartesinus" creationdate="20200216T192714Z">
+        <seg>wyszukaj obrazy na duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>search images on google</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192709Z" creationid="cartesinus" creationdate="20200216T192709Z">
+        <seg>wyszukaj obrazy na google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>search on bing</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T191718Z" creationid="cartesinus" creationdate="20200216T191622Z">
+        <seg>wyszukaj w bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>search on duckduckgo</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T191732Z" creationid="cartesinus" creationdate="20200216T191650Z">
+        <seg>wyszukaj w duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>search on google</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T191638Z" creationid="cartesinus" creationdate="20200216T191638Z">
+        <seg>wyszukaj w google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>set my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142729Z" creationid="cartesinus" creationdate="20200223T142729Z">
+        <seg>ustaw mój termostat AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>set set my thermostat to AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142045Z" creationid="cartesinus" creationdate="20200223T142045Z">
+        <seg>ustaw mój termostat na AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>set temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142735Z" creationid="cartesinus" creationdate="20200223T142735Z">
+        <seg>ustaw temperaturę na moim termostacie AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>set temperature on my thermostat to AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142034Z" creationid="cartesinus" creationdate="20200223T142034Z">
+        <seg>ustaw temperaturę na moim termostacie na AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>set the low temperature to 23 degree on my thermostat , and the high to 29 degree</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142822Z" creationid="cartesinus" creationdate="20200223T142822Z">
+        <seg>ustaw minimalną temperaturę na 23 stopnie na moim termostacie, a maksymalną na 29 stopni</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>set the temperature between 23 degree and 29 degree on my thermostat</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142759Z" creationid="cartesinus" creationdate="20200223T142759Z">
+        <seg>ustaw temperaturę między 23 a 29 stopnie na moim termostacie</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>set the temperature to AIRCONDITIONER.SLOT.VALUE on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142741Z" creationid="cartesinus" creationdate="20200223T142741Z">
+        <seg>ustaw temperaturę na AIRCONDITIONER.SLOT.VALUE na moim termostacie AIRCONDITIONER.SLOT.DEVICE_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>set the temperature to AIRCONDITIONER.SLOT.VALUE on my thermostat</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142039Z" creationid="cartesinus" creationdate="20200223T142039Z">
+        <seg>ustaw temperaturę na AIRCONDITIONER.SLOT.VALUE na moim termostacie</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>show the humidity</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142836Z" creationid="cartesinus" creationdate="20200223T142836Z">
+        <seg>pokaż wilgotność</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>show the humidity level</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142839Z" creationid="cartesinus" creationdate="20200223T142839Z">
+        <seg>pokaż poziom wilgotności</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>switch off the AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T141957Z" creationid="cartesinus" creationdate="20200223T141905Z">
+        <seg>zatrzymaj AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>switch on the AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T141800Z" creationid="cartesinus" creationdate="20200223T141800Z">
+        <seg>uruchom AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>switch the AIRCONDITIONER.SLOT.AV_ALIAS off</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T142006Z" creationid="cartesinus" creationdate="20200223T141914Z">
+        <seg>zatrzymaj AIRCONDITIONER.SLOT.AV_ALIAS off</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>switch the AIRCONDITIONER.SLOT.AV_ALIAS on</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T141828Z" creationid="cartesinus" creationdate="20200223T141828Z">
+        <seg>uruchom AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>turn off the AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T141848Z" creationid="cartesinus" creationdate="20200223T141848Z">
+        <seg>wyłącz AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>turn on the AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T141750Z" creationid="cartesinus" creationdate="20200223T141750Z">
+        <seg>włącz AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>turn the AIRCONDITIONER.SLOT.AV_ALIAS off</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T141841Z" creationid="cartesinus" creationdate="20200223T141841Z">
+        <seg>wyłącz AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>turn the AIRCONDITIONER.SLOT.AV_ALIAS on</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T141729Z" creationid="cartesinus" creationdate="20200223T141729Z">
+        <seg>włącz AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>web search</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T191949Z" creationid="cartesinus" creationdate="20200216T191949Z">
+        <seg>wyszukiwarka internetowa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>web sites matching WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192249Z" creationid="cartesinus" creationdate="20200216T192249Z">
+        <seg>strony internetowe pasujące do WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>websites matching WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200216T192228Z" creationid="cartesinus" creationdate="20200216T192228Z">
+        <seg>witryny pasujące do WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what does the AIRCONDITIONER.SLOT.DEVICE_NAME indoor temperature sensor say ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143351Z" creationid="cartesinus" creationdate="20200223T143351Z">
+        <seg>co mówi czujnik temperatury wewnętrznej AIRCONDITIONER.SLOT.DEVICE_NAME?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what does the AIRCONDITIONER.SLOT.DEVICE_NAME indoor temperature sensor show ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143356Z" creationid="cartesinus" creationdate="20200223T143356Z">
+        <seg>co pokazuje czujnik temperatury wewnętrznej AIRCONDITIONER.SLOT.DEVICE_NAME?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what is the indoor temperature ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143232Z" creationid="cartesinus" creationdate="20200223T143232Z">
+        <seg>jaka jest temperatura wewnętrzna?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what is the indoor temperature according to AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143234Z" creationid="cartesinus" creationdate="20200223T143234Z">
+        <seg>jaka jest temperatura wewnętrzna według AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what is the indoor temperature according to my AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143237Z" creationid="cartesinus" creationdate="20200223T143237Z">
+        <seg>jaka jest temperatura wewnętrzna według mojego AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what is the indoor temperature according to the AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143239Z" creationid="cartesinus" creationdate="20200223T143239Z">
+        <seg>jaka jest temperatura wewnętrzna według AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what is the level of humidity ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143241Z" creationid="cartesinus" creationdate="20200223T143241Z">
+        <seg>jaki jest poziom wilgotności?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what is the level of humidity according to my AIRCONDITIONER.SLOT.AV_ALIAS sensor ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143245Z" creationid="cartesinus" creationdate="20200223T143245Z">
+        <seg>jaki jest poziom wilgotności według mojego czujnika AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what is the level of indoor temperature ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143309Z" creationid="cartesinus" creationdate="20200223T143309Z">
+        <seg>jaki jest poziom temperatury wewnętrznej?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what is the level of indoor temperature according to my AIRCONDITIONER.SLOT.AV_ALIAS sensor ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143312Z" creationid="cartesinus" creationdate="20200223T143312Z">
+        <seg>jaki jest poziom temperatury wewnętrznej zgodnie z moim czujnikiem AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what is the level of temperature ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143248Z" creationid="cartesinus" creationdate="20200223T143248Z">
+        <seg>jaki jest poziom temperatury?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what is the level of temperature according to my AIRCONDITIONER.SLOT.AV_ALIAS sensor ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143305Z" creationid="cartesinus" creationdate="20200223T143305Z">
+        <seg>jaki jest poziom temperatury według mojego czujnika AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what temperature do I have in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143157Z" creationid="cartesinus" creationdate="20200223T143157Z">
+        <seg>jaką mam tutaj temperaturę według mojego AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what temperature do we have in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143206Z" creationid="cartesinus" creationdate="20200223T143206Z">
+        <seg>jaką mamy tutaj temperaturę według mojego AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en-US">
+        <seg>what temperature is it in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
+      </tuv>
+      <tuv xml:lang="pl" changeid="cartesinus" changedate="20200223T143230Z" creationid="cartesinus" creationdate="20200223T143230Z">
+        <seg>jaka jest tutaj temperatura według mojego AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
