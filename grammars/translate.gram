@@ -24,34 +24,16 @@ public <S> = translate__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__
 <INTENT_4_f> = say in <TRG_LANG> <TEXT_EN>;
 
 #both source and target languages are provided together with text to translate
-<INTENT_5> = <INTENT_5_en> | <INTENT_5_de> | <INTENT_5_pl> | <INTENT_5_it> | <INTENT_5_fr> | <INTENT_5_es>;
-<INTENT_5_en> = (translate | [the] translation of) <TEXT_EN> (from english to <TRG_LANG_NO_EN> | to <TRG_LANG_NO_EN> from english);
-<INTENT_5_de> = (translate | [the] translation of) <TEXT_DE> (from german to <TRG_LANG_NO_DE> | to <TRG_LANG_NO_DE> from german);
-<INTENT_5_pl> = (translate | [the] translation of) <TEXT_PL> (from polish to <TRG_LANG_NO_PL> | to <TRG_LANG_NO_PL> from polish);
-<INTENT_5_it> = (translate | [the] translation of) <TEXT_IT> (from italian to <TRG_LANG_NO_IT> | to <TRG_LANG_NO_IT> from italian);
-<INTENT_5_fr> = (translate | [the] translation of) <TEXT_FR> (from french to <TRG_LANG_NO_FR> | to <TRG_LANG_NO_FR> from french);
-<INTENT_5_es> = (translate | [the] translation of) <TEXT_ES> (from spanish to <TRG_LANG_NO_ES> | to <TRG_LANG_NO_ES> from spanish);
+<INTENT_5> = (translate | [the] translation of) <TEXT> (from <SRC_LANG> to <TRG_LANG> | to <TRG_LANG> from <SRC_LANG>);
 
 #both source and target languages are provided together with text to translate additinaly translator is provided
-<INTENT_6> = <INTENT_6_en> | <INTENT_6_de> | <INTENT_6_pl> | <INTENT_6_it> | <INTENT_6_fr> | <INTENT_6_es>;
-<INTENT_6_en> = the translation of <TEXT_EN> (from english to <TRG_LANG_NO_EN> | to <TRG_LANG_NO_EN> from english) with <TRANSLATOR>;
-<INTENT_6_de> = the translation of <TEXT_DE> (from german to <TRG_LANG_NO_DE> | to <TRG_LANG_NO_DE> from german) with <TRANSLATOR>;
-<INTENT_6_pl> = the translation of <TEXT_PL> (from polish to <TRG_LANG_NO_PL> | to <TRG_LANG_NO_PL> from polish) with <TRANSLATOR>;
-<INTENT_6_it> = the translation of <TEXT_IT> (from italian to <TRG_LANG_NO_IT> | to <TRG_LANG_NO_IT> from italian) with <TRANSLATOR>;
-<INTENT_6_fr> = the translation of <TEXT_FR> (from french to <TRG_LANG_NO_FR> | to <TRG_LANG_NO_FR> from french) with <TRANSLATOR>;
-<INTENT_6_es> = the translation of <TEXT_ES> (from spanish to <TRG_LANG_NO_ES> | to <TRG_LANG_NO_ES> from spanish) with <TRANSLATOR>;
+<INTENT_6> = the translation of <TEXT> (from <SRC_LANG> to <TRG_LANG> | to <TRG_LANG> from <SRC_LANG>) with <TRANSLATOR>;
 
 #root command for followup action (where text is given)
 <INTENT_7> = (translate to | a translation to) <TRG_LANG>;
 
 #default target language is set but source is unknown. text is provided as well
-<INTENT_8> = <INTENT_8_en> | <INTENT_8_de> | <INTENT_8_pl> | <INTENT_8_it> | <INTENT_8_fr> | <INTENT_8_es>;
-<INTENT_8_en> = (translate | [the] translation of) (<TEXT_EN> from english | english sentence <TEXT>);
-<INTENT_8_de> = (translate | [the] translation of) (<TEXT_DE> from german | german sentence <TEXT>);
-<INTENT_8_pl> = (translate | [the] translation of) (<TEXT_PL> from polish | polish sentence <TEXT>);
-<INTENT_8_it> = (translate | [the] translation of) (<TEXT_IT> from italian | italian sentence <TEXT>);
-<INTENT_8_fr> = (translate | [the] translation of) (<TEXT_FR> from french | french sentence <TEXT>);
-<INTENT_8_es> = (translate | [the] translation of) (<TEXT_ES> from spanish | spanish sentence <TEXT>);
+<INTENT_8> = (translate | [the] translation of) (<TEXT> from <SRC_LANG> | <SRC_LANG> sentence <TEXT>);
 
 #detect language of text
 <INTENT_9> = <INTENT_9_a> | <INTENT_9_b>;
@@ -60,9 +42,9 @@ public <S> = translate__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__
 
 
 #SLOTS
-<SRC_LANG> = italian | french | english | japanease | russian;
-<TRG_LANG> = polish | german | spanish | thai | czech | finish;
-<ALL_LANG> = italian | french | english | japanease | russian | polish | german | spanish | thai | czech | finish | esperanto | turkish | greek | mongolian | hawaiian | hindi | icelandic;
+<SRC_LANG> = TRANSLATE.SLOT.SRC_LANG;
+<TRG_LANG> = TRANSLATE.SLOT.TRG_LANG;
+<ALL_LANG> = TRANSLATE.SLOT.ALL_LANG;
 <TRG_LANG_NO_EN> = polish | german | spanish | thai | czech | finish;
 <TRG_LANG_NO_DE> = polish | spanish | thai | czech | finish;
 <TRG_LANG_NO_PL> = german | spanish | thai | czech | finish;
@@ -77,4 +59,4 @@ public <S> = translate__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__
 <TEXT_FR> = TRANSLATE.SLOT.TEXT.FR;
 <TEXT_MULTI> = TRANSLATE.SLOT.TEXT.MULTI;
 <TEXT> = TRANSLATE.SLOT.TEXT;
-<TRANSLATOR> = yandex | google | microsoft | deepl;
+<TRANSLATOR> = TRANSLATE.SLOT.TRANSLATOR;
