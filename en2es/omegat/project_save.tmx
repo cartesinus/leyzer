@@ -1,0 +1,2745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmx SYSTEM "tmx11.dtd">
+<tmx version="1.1">
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.2.0_0_747fc65a" segtype="sentence" srclang="en-US"/>
+  <body>
+<!-- Default translations -->
+    <tu>
+      <tuv lang="en-US">
+        <seg>add a picture on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144004Z" creationid="cartesinus" creationdate="20200225T144004Z">
+        <seg>agrega una foto en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>add a picture on my facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144010Z" creationid="cartesinus" creationdate="20200225T144010Z">
+        <seg>agrega una foto en mi facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>add a picture to facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144012Z" creationid="cartesinus" creationdate="20200225T144012Z">
+        <seg>agrega una foto a facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>add a picture to my facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144017Z" creationid="cartesinus" creationdate="20200225T144017Z">
+        <seg>agrega una foto a mi facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>add an event called CALENDAR.SLOT.EVENT_NAME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112320Z" creationid="cartesinus" creationdate="20200225T112320Z">
+        <seg>agrega un evento llamado CALENDAR.SLOT.EVENT_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>add an event called CALENDAR.SLOT.EVENT_NAME on CALENDAR.SLOT.EVENT_DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112337Z" creationid="cartesinus" creationdate="20200225T112337Z">
+        <seg>agrega un evento llamado CALENDAR.SLOT.EVENT_NAME en CALENDAR.SLOT.EVENT_DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>add an event called CALENDAR.SLOT.EVENT_NAME to calendar</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112329Z" creationid="cartesinus" creationdate="20200225T112329Z">
+        <seg>agrega un evento llamado CALENDAR.SLOT.EVENT_NAME al calendario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>add an event called CALENDAR.SLOT.EVENT_NAME to calendar on CALENDAR.SLOT.EVENT_DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112414Z" creationid="cartesinus" creationdate="20200225T112414Z">
+        <seg>agrega un evento llamado CALENDAR.SLOT.EVENT_NAME al calendario en CALENDAR.SLOT.EVENT_DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>caption FACEBOOK.SLOT.PICTURE_URL as FACEBOOK.SLOT.CAPTION and post it on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144924Z" creationid="cartesinus" creationdate="20200225T144924Z">
+        <seg>da el título a FACEBOOK.SLOT.PICTURE_URL como FACEBOOK.SLOT.CAPTION y publícalo en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>caption FACEBOOK.SLOT.PICTURE_URL as FACEBOOK.SLOT.CAPTION and upload it on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144958Z" creationid="cartesinus" creationdate="20200225T144958Z">
+        <seg>titula FACEBOOK.SLOT.PICTURE_URL como FACEBOOK.SLOT.CAPTION y s'ubelo en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change the minimum and maximum temperatures on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T100958Z" creationid="cartesinus" creationdate="20200225T100958Z">
+        <seg>cambia las temperaturas mínimas y máximas en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change the minimum and maximum temperatures on my thermostat</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T095635Z" creationid="cartesinus" creationdate="20200225T095635Z">
+        <seg>cambia las temperaturas mínimas y máximas en mi termostato</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change the name of my contact with number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122554Z" creationid="cartesinus" creationdate="20200225T122554Z">
+        <seg>cambia el nombre de mi contacto con el número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change the number of my contact CONTACTS.SLOT.NAME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122605Z" creationid="cartesinus" creationdate="20200225T122605Z">
+        <seg>cambia el número de mi contacto CONTACTS.SLOT.NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change the temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T100946Z" creationid="cartesinus" creationdate="20200225T100946Z">
+        <seg>cambia la temperatura en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change the temperature on my thermostat</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T095044Z" creationid="cartesinus" creationdate="20200225T095044Z">
+        <seg>cambia la temperatura en mi termostato</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check email</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122658Z" creationid="cartesinus" creationdate="20200225T122658Z">
+        <seg>revisa correo electrónico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check email inbox</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123003Z" creationid="cartesinus" creationdate="20200225T123003Z">
+        <seg>verifica la bandeja de entrada del correo electrónico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check emails from EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123623Z" creationid="cartesinus" creationdate="20200225T123623Z">
+        <seg>consulta correos electrónicos de EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check emails i got from EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123632Z" creationid="cartesinus" creationdate="20200225T123632Z">
+        <seg>verifica los correos electrónicos que recibí de EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check emails i received from EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123648Z" creationid="cartesinus" creationdate="20200225T123648Z">
+        <seg>verifica los emails que recibí de EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check gmail</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123005Z" creationid="cartesinus" creationdate="20200225T123005Z">
+        <seg>revisa gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check gmail inbox</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123103Z" creationid="cartesinus" creationdate="20200225T123103Z">
+        <seg>revisa la bandeja de entrada de gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check how high the home temperature is</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101352Z" creationid="cartesinus" creationdate="20200225T101352Z">
+        <seg>comprueba cómo es la temperatura de la casa</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check if it is humid</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101225Z" creationid="cartesinus" creationdate="20200225T101225Z">
+        <seg>verifica si está húmedo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check if the inside temperature is warm or cold</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101450Z" creationid="cartesinus" creationdate="20200225T101450Z">
+        <seg>comprueba si la temperatura interior es cálida o fría</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my email</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123108Z" creationid="cartesinus" creationdate="20200225T123108Z">
+        <seg>revisa mi correo electrónico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my email inbox</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123110Z" creationid="cartesinus" creationdate="20200225T123110Z">
+        <seg>revisa mi correo electrónico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my emails</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123348Z" creationid="cartesinus" creationdate="20200225T123348Z">
+        <seg>revisa mis correos electrónicos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my emails from EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123826Z" creationid="cartesinus" creationdate="20200225T123826Z">
+        <seg>revisa mis correos electrónicos de EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my emails i got from EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123831Z" creationid="cartesinus" creationdate="20200225T123831Z">
+        <seg>revisa mis correos electrónicos que recibí de EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my emails i received from EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123842Z" creationid="cartesinus" creationdate="20200225T123842Z">
+        <seg>revisa los emails que recibí de EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my emails on gmail</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123403Z" creationid="cartesinus" creationdate="20200225T123403Z">
+        <seg>revisa mis mensajes en gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my gmail</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123113Z" creationid="cartesinus" creationdate="20200225T123113Z">
+        <seg>revisa mi gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my gmail inbox</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123117Z" creationid="cartesinus" creationdate="20200225T123117Z">
+        <seg>revisa mi bandeja de entrada de gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my latest email</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123341Z" creationid="cartesinus" creationdate="20200225T123341Z">
+        <seg>revisa mi último correo electrónico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my primary category emails</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123305Z" creationid="cartesinus" creationdate="20200225T123305Z">
+        <seg>revisa mis correos electrónicos de categoría principal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check the humidity</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101108Z" creationid="cartesinus" creationdate="20200225T101108Z">
+        <seg>comprueba la humedad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check the humidity level</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101117Z" creationid="cartesinus" creationdate="20200225T101117Z">
+        <seg>verifica el nivel de humedad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check the room temperature</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101308Z" creationid="cartesinus" creationdate="20200225T101308Z">
+        <seg>comprueba la temperatura ambiente</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check the state of my AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101155Z" creationid="cartesinus" creationdate="20200225T101155Z">
+        <seg>comprueba el estado de mi AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check the state of the room temperature</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101258Z" creationid="cartesinus" creationdate="20200225T101258Z">
+        <seg>verifica el estado de la temperatura ambiente</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME room temperature sensor</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T103417Z" creationid="cartesinus" creationdate="20200225T103417Z">
+        <seg>comprueba la temperatura del sensor de temperatura ambiente AIRCONDITIONER.SLOT.DEVICE_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check what the AIRCONDITIONER.SLOT.DEVICE_NAME home temperature sensor says</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101535Z" creationid="cartesinus" creationdate="20200225T101535Z">
+        <seg>comprueba lo que dice el sensor de temperatura del hogar AIRCONDITIONER.SLOT.DEVICE_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check whether it is humid</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101212Z" creationid="cartesinus" creationdate="20200225T101212Z">
+        <seg>comprueba si está húmedo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check whether the home temperature is warm or cold</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101512Z" creationid="cartesinus" creationdate="20200225T101512Z">
+        <seg>verifica si la temperatura de la casa es cálida o fría</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a file in google drive</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T155431Z" creationid="cartesinus" creationdate="20200225T155431Z">
+        <seg>crea un archivo en google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a file in google drive named GDRIVE.SLOT.FILE_NAME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T155837Z" creationid="cartesinus" creationdate="20200225T155837Z">
+        <seg>crea un archivo en google drive llamado GDRIVE.SLOT.FILE_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and call it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122447Z" creationid="cartesinus" creationdate="20200225T122447Z">
+        <seg>crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y agrega el número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and call it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122505Z" creationid="cartesinus" creationdate="20200225T122505Z">
+        <seg>crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y agrega el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and call it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122104Z" creationid="cartesinus" creationdate="20200225T122104Z">
+        <seg>crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y asígnale un número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and call it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122353Z" creationid="cartesinus" creationdate="20200225T122353Z">
+        <seg>crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y dale un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and call it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121923Z" creationid="cartesinus" creationdate="20200225T121923Z">
+        <seg>crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and call it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121937Z" creationid="cartesinus" creationdate="20200225T121937Z">
+        <seg>crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and call it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122108Z" creationid="cartesinus" creationdate="20200225T121852Z">
+        <seg>crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and call it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122111Z" creationid="cartesinus" creationdate="20200225T121906Z">
+        <seg>crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and call it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122028Z" creationid="cartesinus" creationdate="20200225T122028Z">
+        <seg>crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and call it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122043Z" creationid="cartesinus" creationdate="20200225T122043Z">
+        <seg>crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and name it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T120936Z" creationid="cartesinus" creationdate="20200225T120936Z">
+        <seg>crea un nuevo contacto y ll'amalo CONTACTS.SLOT.NAME y agrega el número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and name it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121012Z" creationid="cartesinus" creationdate="20200225T121003Z">
+        <seg>crea un nuevo contacto y ll'amalo CONTACTS.SLOT.NAME y agrega el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and name it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T120843Z" creationid="cartesinus" creationdate="20200225T120843Z">
+        <seg>crea un nuevo contacto y ll'amalo CONTACTS.SLOT.NAME y asígnale un número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and name it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T120919Z" creationid="cartesinus" creationdate="20200225T120919Z">
+        <seg>crea un nuevo contacto y ll'amalo CONTACTS.SLOT.NAME y asígnale un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and name it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T120427Z" creationid="cartesinus" creationdate="20200225T120427Z">
+        <seg>crea un nuevo contacto y dale el nombre CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and name it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T120443Z" creationid="cartesinus" creationdate="20200225T120443Z">
+        <seg>crea un nuevo contacto y dale el nombre CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and name it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T120244Z" creationid="cartesinus" creationdate="20200225T120244Z">
+        <seg>crea un nuevo contacto y dale el nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and name it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T120316Z" creationid="cartesinus" creationdate="20200225T120316Z">
+        <seg>crea un nuevo contacto y dale el nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and name it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T120647Z" creationid="cartesinus" creationdate="20200225T120647Z">
+        <seg>crea un nuevo contacto y ll'amalo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact and name it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T120701Z" creationid="cartesinus" creationdate="20200225T120701Z">
+        <seg>crea un nuevo contacto y ll'amalo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact using a name CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121815Z" creationid="cartesinus" creationdate="20200225T121815Z">
+        <seg>crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y agrega el número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact using a name CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121836Z" creationid="cartesinus" creationdate="20200225T121836Z">
+        <seg>crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y agrega el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact using a name CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121528Z" creationid="cartesinus" creationdate="20200225T121528Z">
+        <seg>crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y asígnale un número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact using a name CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121750Z" creationid="cartesinus" creationdate="20200225T121750Z">
+        <seg>crea un nuevo contacto usando un nombre CONTACTS.SLOT.NAME y asígnale un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact using a name CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121057Z" creationid="cartesinus" creationdate="20200225T121057Z">
+        <seg>crea un nuevo contacto con un nombre CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact using a name CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121108Z" creationid="cartesinus" creationdate="20200225T121108Z">
+        <seg>crea un nuevo contacto con un nombre CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact using a name CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121024Z" creationid="cartesinus" creationdate="20200225T121008Z">
+        <seg>crea un nuevo contacto con un nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact using a name CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121033Z" creationid="cartesinus" creationdate="20200225T121033Z">
+        <seg>crea un nuevo contacto con un nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact using a name CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121132Z" creationid="cartesinus" creationdate="20200225T121132Z">
+        <seg>crea un nuevo contacto usando un nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new contact using a name CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T121458Z" creationid="cartesinus" creationdate="20200225T121458Z">
+        <seg>crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new file with name GDRIVE.SLOT.FILE_NAME on google drive</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T155447Z" creationid="cartesinus" creationdate="20200225T155447Z">
+        <seg>crea un nuevo archivo con el nombre GDRIVE.SLOT.FILE_NAME en google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create google drive file</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154656Z" creationid="cartesinus" creationdate="20200225T154656Z">
+        <seg>crea archivo de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>diplay photos in album FACEBOOK.SLOT.ALBUM</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145116Z" creationid="cartesinus" creationdate="20200225T145116Z">
+        <seg>muestra fotos en el álbum FACEBOOK.SLOT.ALBUM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>diplay photos in album FACEBOOK.SLOT.ALBUM on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145136Z" creationid="cartesinus" creationdate="20200225T145136Z">
+        <seg>muestra fotos en el álbum FACEBOOK.SLOT.ALBUM en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>diplay photos in my album FACEBOOK.SLOT.ALBUM</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145141Z" creationid="cartesinus" creationdate="20200225T145141Z">
+        <seg>muestra fotos en mi álbum FACEBOOK.SLOT.ALBUM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>diplay photos in my album FACEBOOK.SLOT.ALBUM on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145151Z" creationid="cartesinus" creationdate="20200225T145151Z">
+        <seg>muestra fotos en mi álbum FACEBOOK.SLOT.ALBUM en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my GDRIVE.SLOT.MIME_TYPE files in google drive</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153535Z" creationid="cartesinus" creationdate="20200225T153535Z">
+        <seg>muestra mis archivos GDRIVE.SLOT.MIME_TYPE en google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my calendar</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112211Z" creationid="cartesinus" creationdate="20200225T112211Z">
+        <seg>muestra mi calendario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my contact's info</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113738Z" creationid="cartesinus" creationdate="20200225T113738Z">
+        <seg>muestra la información de mi contacto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my contacts</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113707Z" creationid="cartesinus" creationdate="20200225T113707Z">
+        <seg>muestra mis contactos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my contacts with email CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T114002Z" creationid="cartesinus" creationdate="20200225T114002Z">
+        <seg>muestra mis contactos con el correo electrónico CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my contacts with name CONTACTS.SLOT.NAME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T115637Z" creationid="cartesinus" creationdate="20200225T115637Z">
+        <seg>muestra mis contactos con el nombre CONTACTS.SLOT.NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T115155Z" creationid="cartesinus" creationdate="20200225T115155Z">
+        <seg>muestra mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T115747Z" creationid="cartesinus" creationdate="20200225T115747Z">
+        <seg>muestra mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y correo electrónico CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my files in google drive</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153212Z" creationid="cartesinus" creationdate="20200225T153212Z">
+        <seg>muestra mis archivos en google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my google contacts with email CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T114011Z" creationid="cartesinus" creationdate="20200225T114011Z">
+        <seg>muestra mis contactos de Google con el correo electrónico CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my google drive files</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153110Z" creationid="cartesinus" creationdate="20200225T153110Z">
+        <seg>muestra mis archivos de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my google drive files created GDRIVE.SLOT.TIME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154237Z" creationid="cartesinus" creationdate="20200225T154237Z">
+        <seg>muestra mis archivos de google drive creados GDRIVE.SLOT.TIME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my google drive files in alphabetical order</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160256Z" creationid="cartesinus" creationdate="20200225T160256Z">
+        <seg>muestra mis archivos de google drive en orden alfabético</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my google drive files in reverse alphabetical order</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160312Z" creationid="cartesinus" creationdate="20200225T160312Z">
+        <seg>muestra mis archivos de google drive en orden alfabético inverso</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my google drive files larger than GDRIVE.SLOT.FILE_SIZE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154623Z" creationid="cartesinus" creationdate="20200225T154623Z">
+        <seg>muestra mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my google drive files modified GDRIVE.SLOT.TIME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154248Z" creationid="cartesinus" creationdate="20200225T154248Z">
+        <seg>muestra mis archivos de google drive modificados GDRIVE.SLOT.TIME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my google drive files of type GDRIVE.SLOT.MIME_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153523Z" creationid="cartesinus" creationdate="20200225T153523Z">
+        <seg>muestra mis archivos de google drive del tipo GDRIVE.SLOT.MIME_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my google drive files smaller than GDRIVE.SLOT.FILE_SIZE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154610Z" creationid="cartesinus" creationdate="20200225T154610Z">
+        <seg>muestra mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my google drive files that were created most recently</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160141Z" creationid="cartesinus" creationdate="20200225T160141Z">
+        <seg>muestra mis archivos de google drive que se crearon más recientemente</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my newest google drive files</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T155943Z" creationid="cartesinus" creationdate="20200225T155943Z">
+        <seg>muestra mis archivos más recientes de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my oldest google drive files</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T155955Z" creationid="cartesinus" creationdate="20200225T155955Z">
+        <seg>muestra mis archivos de google drive más antiguos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my starred google drive files</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154019Z" creationid="cartesinus" creationdate="20200225T154019Z">
+        <seg>muestra mis archivos favoritos de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display the google drive files i starred</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154039Z" creationid="cartesinus" creationdate="20200225T154039Z">
+        <seg>muestra los archivos de google drive que destaqué</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>do not notify me when an appointment on my calendar at location CALENDAR.SLOT.LOCATION begins</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113447Z" creationid="cartesinus" creationdate="20200225T113447Z">
+        <seg>no me notifiques cuando comience una cita en mi calendario con la ubicación CALENDAR.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>do not notify me when an appointment on my calendar begins</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112525Z" creationid="cartesinus" creationdate="20200225T112525Z">
+        <seg>no me notifiques cuando comience una cita en mi calendario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>do not notify me when an event on my calendar at location CALENDAR.SLOT.LOCATION begins</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113632Z" creationid="cartesinus" creationdate="20200225T113632Z">
+        <seg>no me notifiques cuando comience un evento en mi calendario con la ubicación CALENDAR.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>do not notify me when an event on my calendar begins</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112531Z" creationid="cartesinus" creationdate="20200225T112531Z">
+        <seg>no me notifiques cuando comience un evento en mi calendario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>do not notify me when an meeting on my calendar at location CALENDAR.SLOT.LOCATION begins</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113306Z" creationid="cartesinus" creationdate="20200225T113306Z">
+        <seg>no me notifiques cuando comience una reunión en mi calendario con la ubicación CALENDAR.SLOOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>do not notify me when an meeting on my calendar begins</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112512Z" creationid="cartesinus" creationdate="20200225T112512Z">
+        <seg>no me notifiques cuando comience una reunión en mi calendario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>edit my contact CONTACTS.SLOT.NAME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122527Z" creationid="cartesinus" creationdate="20200225T122527Z">
+        <seg>edita mi contacto CONTACTOS.SLOT.NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>email EMAIL.SLOT.TO</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124938Z" creationid="cartesinus" creationdate="20200225T124938Z">
+        <seg>correo electrónico a EMAIL.SLOT.TO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124803Z" creationid="cartesinus" creationdate="20200225T124803Z">
+        <seg>un correo electrónico a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT y envía un mensaje EMAIL.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>email a picture to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124900Z" creationid="cartesinus" creationdate="20200225T124850Z">
+        <seg>envía una foto por correo electrónico a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get email</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123138Z" creationid="cartesinus" creationdate="20200225T123138Z">
+        <seg>baja correo electrónico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get email inbox</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123159Z" creationid="cartesinus" creationdate="20200225T123159Z">
+        <seg>baja correo electrónico en la bandeja de entrada</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get emails arrived EMAIL.SLOT.TIME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124541Z" creationid="cartesinus" creationdate="20200225T124530Z">
+        <seg>muestra correos electrónicos que llegaron EMAIL.SLOT.TIME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get emails from EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123936Z" creationid="cartesinus" creationdate="20200225T123936Z">
+        <seg>muestra correos electrónicos de EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get emails i got from EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123949Z" creationid="cartesinus" creationdate="20200225T123949Z">
+        <seg>muestra los emails que recibí de EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get emails i received from EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123957Z" creationid="cartesinus" creationdate="20200225T123957Z">
+        <seg>muestra correos electrónicos que recibí de EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get emails that arrived EMAIL.SLOT.TIME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124553Z" creationid="cartesinus" creationdate="20200225T124553Z">
+        <seg>muestra emails que llegaron EMAIL.SLOT.TIME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get gmail</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123204Z" creationid="cartesinus" creationdate="20200225T123204Z">
+        <seg>baja gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get gmail inbox</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123212Z" creationid="cartesinus" creationdate="20200225T123212Z">
+        <seg>baja la bandeja de entrada de gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my bmi from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152448Z" creationid="cartesinus" creationdate="20200225T152448Z">
+        <seg>muestra mi bmi de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my body measurements from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152442Z" creationid="cartesinus" creationdate="20200225T152442Z">
+        <seg>muestra las medidas de mi cuerpo de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my email</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123226Z" creationid="cartesinus" creationdate="20200225T123226Z">
+        <seg>muestra mi correo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my email inbox</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123236Z" creationid="cartesinus" creationdate="20200225T123236Z">
+        <seg>muestra mi bandeja de entrada de correo electrónico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my emails</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123559Z" creationid="cartesinus" creationdate="20200225T123559Z">
+        <seg>muestra mis emails</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my emails from EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124005Z" creationid="cartesinus" creationdate="20200225T124005Z">
+        <seg>muestra mis correos electrónicos de EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my emails i got from EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124021Z" creationid="cartesinus" creationdate="20200225T124021Z">
+        <seg>muestra mis emails que recibí de EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my emails i received from EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124030Z" creationid="cartesinus" creationdate="20200225T124030Z">
+        <seg>abre los correos electrónicos que recibí de EMAIL.SLOT.SENDER_ADDRESS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my emails labelled EMAIL.SLOT.LABEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124103Z" creationid="cartesinus" creationdate="20200225T124103Z">
+        <seg>muestra mis correos electrónicos etiquetados EMAIL.SLOT.LABEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my emails on gmail</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123611Z" creationid="cartesinus" creationdate="20200225T123611Z">
+        <seg>abre mis correos electrónicos en gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my emails that have label EMAIL.SLOT.LABEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124327Z" creationid="cartesinus" creationdate="20200225T124327Z">
+        <seg>muestra mis emails con la etiqueta EMAIL.SLOT.LABEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my emails with label EMAIL.SLOT.LABEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124316Z" creationid="cartesinus" creationdate="20200225T124316Z">
+        <seg>muestra mis correos electrónicos con la etiqueta EMAIL.SLOT.LABEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my emails with subject EMAIL.SLOT.SUBJECT</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124624Z" creationid="cartesinus" creationdate="20200225T124613Z">
+        <seg>muestra mis correos electrónicos con el tema EMAIL.SLOT.SUBJECT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my fitbit step count</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145605Z" creationid="cartesinus" creationdate="20200225T145605Z">
+        <seg>muestra mi conteo de pasos fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my fitbit step count on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T151631Z" creationid="cartesinus" creationdate="20200225T151631Z">
+        <seg>muestra mi conteo de pasos fitbit FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my fitbit steps on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T151459Z" creationid="cartesinus" creationdate="20200225T151459Z">
+        <seg>muestra mis pasos de fitbit FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my gmail</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123245Z" creationid="cartesinus" creationdate="20200225T123245Z">
+        <seg>baja mi gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my gmail inbox</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123256Z" creationid="cartesinus" creationdate="20200225T123256Z">
+        <seg>muestra mi bandeja de entrada de gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my latest email</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123547Z" creationid="cartesinus" creationdate="20200225T123547Z">
+        <seg>abre mi último email</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my primary category emails</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T123330Z" creationid="cartesinus" creationdate="20200225T123330Z">
+        <seg>muestra mis correos electrónicos de categoría principal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my steps from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145522Z" creationid="cartesinus" creationdate="20200225T145522Z">
+        <seg>muestra mis pasos de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get my weight from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152630Z" creationid="cartesinus" creationdate="20200225T152630Z">
+        <seg>muestra mi peso de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the count of steps from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145539Z" creationid="cartesinus" creationdate="20200225T145539Z">
+        <seg>muestra el recuento de pasos de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the count of steps on FITBIT.SLOT.DATE from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152326Z" creationid="cartesinus" creationdate="20200225T152326Z">
+        <seg>muestra el recuento de pasos FITBIT.SLOT.DATE de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the fitbit pedometer</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145613Z" creationid="cartesinus" creationdate="20200225T145613Z">
+        <seg>muestra el podómetro fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the fitbit pedometer on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T151645Z" creationid="cartesinus" creationdate="20200225T151645Z">
+        <seg>muestra el podómetro fitbit FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the fitbit step counter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145620Z" creationid="cartesinus" creationdate="20200225T145620Z">
+        <seg>muestra el contador de pasos fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the fitbit step counter on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152301Z" creationid="cartesinus" creationdate="20200225T152301Z">
+        <seg>muestra el contador de pasos fitbit FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the humidity</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101053Z" creationid="cartesinus" creationdate="20200225T101053Z">
+        <seg>pon la humedad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the humidity level</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101100Z" creationid="cartesinus" creationdate="20200225T101100Z">
+        <seg>pon el nivel de humedad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the number of steps from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145535Z" creationid="cartesinus" creationdate="20200225T145535Z">
+        <seg>muestra el número de pasos de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the number of steps from fitbit on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T151551Z" creationid="cartesinus" creationdate="20200225T151544Z">
+        <seg>muestra el número de pasos de fitbit FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the number of steps i took</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145558Z" creationid="cartesinus" creationdate="20200225T145551Z">
+        <seg>muestra el número de pasos que hice</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the number of steps i took on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T151547Z" creationid="cartesinus" creationdate="20200225T151526Z">
+        <seg>muestra la cantidad de pasos que hice FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the step count from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145545Z" creationid="cartesinus" creationdate="20200225T145545Z">
+        <seg>muestra el recuento de pasos de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the step count on FITBIT.SLOT.DATE from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152337Z" creationid="cartesinus" creationdate="20200225T152337Z">
+        <seg>muestra el recuento de pasos FITBIT.SLOT.DATE de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the steps i have taken</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145632Z" creationid="cartesinus" creationdate="20200225T145632Z">
+        <seg>muestra los pasos que he hecho</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get the steps i have taken on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152315Z" creationid="cartesinus" creationdate="20200225T152315Z">
+        <seg>muestra los pasos que he hecho FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how high is humidity ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T111812Z" creationid="cartesinus" creationdate="20200225T111812Z">
+        <seg>¿cómo es la humedad?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how high is humidity according to my AIRCONDITIONER.SLOT.AV_ALIAS sensor ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T111828Z" creationid="cartesinus" creationdate="20200225T111828Z">
+        <seg>¿cómo es la humedad según mi sensor AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how high is indoor temperature ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112029Z" creationid="cartesinus" creationdate="20200225T112029Z">
+        <seg>¿cómo es la temperatura interior?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how high is indoor temperature according to my AIRCONDITIONER.SLOT.AV_ALIAS sensor ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112048Z" creationid="cartesinus" creationdate="20200225T112048Z">
+        <seg>¿cómo es la temperatura interior según mi sensor AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how high is temperature ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T111839Z" creationid="cartesinus" creationdate="20200225T111839Z">
+        <seg>¿cómo es la temperatura?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how high is temperature according to my AIRCONDITIONER.SLOT.AV_ALIAS sensor ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T111913Z" creationid="cartesinus" creationdate="20200225T111913Z">
+        <seg>¿cómo es la temperatura según mi sensor AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my GDRIVE.SLOT.MIME_TYPE files in google drive</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153827Z" creationid="cartesinus" creationdate="20200225T153804Z">
+        <seg>enumera mis archivos GDRIVE.SLOT.MIME_TYPE en google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my files in google drive</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153233Z" creationid="cartesinus" creationdate="20200225T153233Z">
+        <seg>enumera mis archivos en google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my google drive files</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153225Z" creationid="cartesinus" creationdate="20200225T153225Z">
+        <seg>enumera mis archivos de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my google drive files created GDRIVE.SLOT.TIME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154258Z" creationid="cartesinus" creationdate="20200225T154258Z">
+        <seg>enumera mis archivos de google drive creados GDRIVE.SLOT.TIME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my google drive files in alphabetical order</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160322Z" creationid="cartesinus" creationdate="20200225T160322Z">
+        <seg>enumera mis archivos de google drive en orden alfabético</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my google drive files in reverse alphabetical order</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160331Z" creationid="cartesinus" creationdate="20200225T160331Z">
+        <seg>enumera mis archivos de google drive en orden alfabético inverso</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my google drive files larger than GDRIVE.SLOT.FILE_SIZE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154650Z" creationid="cartesinus" creationdate="20200225T154650Z">
+        <seg>enumera mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my google drive files modified GDRIVE.SLOT.TIME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154310Z" creationid="cartesinus" creationdate="20200225T154310Z">
+        <seg>enumera mis archivos de google drive modificados GDRIVE.SLOT.TIME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my google drive files of type GDRIVE.SLOT.MIME_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153815Z" creationid="cartesinus" creationdate="20200225T153815Z">
+        <seg>enumera mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my google drive files smaller than GDRIVE.SLOT.FILE_SIZE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154637Z" creationid="cartesinus" creationdate="20200225T154637Z">
+        <seg>enumera mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my google drive files that were created most recently</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160213Z" creationid="cartesinus" creationdate="20200225T160213Z">
+        <seg>enumera mis archivos de google drive que se crearon más recientemente</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my newest google drive files</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160153Z" creationid="cartesinus" creationdate="20200225T160153Z">
+        <seg>enumera mis archivos más recientes de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my oldest google drive files</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160204Z" creationid="cartesinus" creationdate="20200225T160204Z">
+        <seg>enumera mis archivos de google drive más antiguos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my starred google drive files</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154148Z" creationid="cartesinus" creationdate="20200225T154148Z">
+        <seg>enumera mis archivos favoritos de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list the google drive files i starred</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154204Z" creationid="cartesinus" creationdate="20200225T154204Z">
+        <seg>enumera los archivos de google drive que destaqué</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>log my weight on fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152638Z" creationid="cartesinus" creationdate="20200225T152634Z">
+        <seg>registra mi peso en fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>make a new facebook post</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143826Z" creationid="cartesinus" creationdate="20200225T143703Z">
+        <seg>haz una nueva publicación de facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>make a new post containing FACEBOOK.SLOT.STATUS on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143906Z" creationid="cartesinus" creationdate="20200225T143816Z">
+        <seg>haz una nueva publicación que contenga FACEBOOK.SLOT.STATUS en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>make a new post on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143833Z" creationid="cartesinus" creationdate="20200225T143711Z">
+        <seg>haz una nueva publicación en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>make a new post that says FACEBOOK.SLOT.STATUS on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143902Z" creationid="cartesinus" creationdate="20200225T143809Z">
+        <seg>haz una nueva publicación que diga FACEBOOK.SLOT.STATUS en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>make note of my weight on fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152721Z" creationid="cartesinus" creationdate="20200225T152721Z">
+        <seg>tomar nota de mi peso en fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>my bmi from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152433Z" creationid="cartesinus" creationdate="20200225T152433Z">
+        <seg>mi bmi de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>my body measurements from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152431Z" creationid="cartesinus" creationdate="20200225T152431Z">
+        <seg>las medidas de mi cuerpo de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>my fitbit step count</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145229Z" creationid="cartesinus" creationdate="20200225T145229Z">
+        <seg>mi cuenta de pasos fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>my fitbit step count on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T151243Z" creationid="cartesinus" creationdate="20200225T151243Z">
+        <seg>mi recuento de pasos de fitbit FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>my fitbit steps on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145647Z" creationid="cartesinus" creationdate="20200225T145637Z">
+        <seg>mis pasos de fitbit FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>my steps from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145159Z" creationid="cartesinus" creationdate="20200225T145159Z">
+        <seg>mis pasos de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>my weight from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152435Z" creationid="cartesinus" creationdate="20200225T152435Z">
+        <seg>mi peso de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me if my weight goes over FITBIT.SLOT.WEIGHT</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152752Z" creationid="cartesinus" creationdate="20200225T152752Z">
+        <seg>notifícame si mi peso sobrepasa FITBIT.SLOT.WEIGHT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when an appointment on my calendar at location CALENDAR.SLOT.LOCATION begins</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113231Z" creationid="cartesinus" creationdate="20200225T113231Z">
+        <seg>notifícame cuando comience una cita en mi calendario con la ubicación CALENDAR.SLOOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when an appointment on my calendar begins</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112446Z" creationid="cartesinus" creationdate="20200225T112446Z">
+        <seg>notifícame cuando comience una cita en mi calendario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when an event on my calendar at location CALENDAR.SLOT.LOCATION begins</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113255Z" creationid="cartesinus" creationdate="20200225T113255Z">
+        <seg>notifícame cuando comience un evento en mi calendario con la ubicación CALENDAR.SLOOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when an event on my calendar begins</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112502Z" creationid="cartesinus" creationdate="20200225T112502Z">
+        <seg>notifícame cuando comience un evento en mi calendario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when an meeting on my calendar at location CALENDAR.SLOT.LOCATION begins</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113216Z" creationid="cartesinus" creationdate="20200225T113216Z">
+        <seg>notifícame cuando comience una reunión en mi calendario con la ubicación CALENDAR.SLOOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when an meeting on my calendar begins</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112438Z" creationid="cartesinus" creationdate="20200225T112438Z">
+        <seg>notifícame cuando comience una reunión en mi calendario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open my GDRIVE.SLOT.FILE_NAME for edition in google drive</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160343Z" creationid="cartesinus" creationdate="20200225T160343Z">
+        <seg>abre mi GDRIVE.SLOT.FILE_NAME para su edición en google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open my calendar</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112214Z" creationid="cartesinus" creationdate="20200225T112214Z">
+        <seg>abre mi calendario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open my contact CONTACTS.SLOT.NAME for edition</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122541Z" creationid="cartesinus" creationdate="20200225T122541Z">
+        <seg>abre mi contacto CONTACTOS.SLOT.NAME para la edición</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open my contact's info</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113748Z" creationid="cartesinus" creationdate="20200225T113748Z">
+        <seg>abre la información de mi contacto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open my contacts</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113713Z" creationid="cartesinus" creationdate="20200225T113713Z">
+        <seg>abre mis contactos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open my contacts with email CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T114020Z" creationid="cartesinus" creationdate="20200225T114020Z">
+        <seg>abre mis contactos con el correo electrónico CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open my contacts with name CONTACTS.SLOT.NAME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T115645Z" creationid="cartesinus" creationdate="20200225T115645Z">
+        <seg>abre mis contactos con el nombre CONTACTS.SLOT.NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T115205Z" creationid="cartesinus" creationdate="20200225T115205Z">
+        <seg>abre mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T115928Z" creationid="cartesinus" creationdate="20200225T115928Z">
+        <seg>abre mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y env'ia un correo electrónico a CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open my google contacts with email CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T114750Z" creationid="cartesinus" creationdate="20200225T114750Z">
+        <seg>abre mis contactos de google con el correo electrónico CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post FACEBOOK.SLOT.PICTURE_URL on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144130Z" creationid="cartesinus" creationdate="20200225T144130Z">
+        <seg>publica FACEBOOK.SLOT.PICTURE_URL en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post FACEBOOK.SLOT.PICTURE_URL on facebook with caption FACEBOOK.SLOT.CAPTION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144752Z" creationid="cartesinus" creationdate="20200225T144730Z">
+        <seg>publica FACEBOOK.SLOT.PICTURE_URL en facebook con el subtítulo FACEBOOK.SLOT.CAPTION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post FACEBOOK.SLOT.PICTURE_URL on my facebook with caption FACEBOOK.SLOT.CAPTION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144817Z" creationid="cartesinus" creationdate="20200225T144733Z">
+        <seg>publica FACEBOOK.SLOT.PICTURE_URL en mi facebook con el título FACEBOOK.SLOT.CAPTION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post FACEBOOK.SLOT.STATUS on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143845Z" creationid="cartesinus" creationdate="20200225T143730Z">
+        <seg>publica FACEBOOK.SLOT.STATUS en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post a picture on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143915Z" creationid="cartesinus" creationdate="20200225T143821Z">
+        <seg>publica una foto en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post a picture on facebook with caption FACEBOOK.SLOT.CAPTION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144054Z" creationid="cartesinus" creationdate="20200225T144054Z">
+        <seg>publica una foto en facebook con el título FACEBOOK.SLOT.CAPTION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post a picture on my facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143921Z" creationid="cartesinus" creationdate="20200225T143921Z">
+        <seg>publica una foto en mi facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post a picture to facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143927Z" creationid="cartesinus" creationdate="20200225T143927Z">
+        <seg>publica una foto en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post a picture to my facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143934Z" creationid="cartesinus" creationdate="20200225T143934Z">
+        <seg>publica una foto en mi facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post a picture with caption FACEBOOK.SLOT.CAPTION on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144046Z" creationid="cartesinus" creationdate="20200225T144046Z">
+        <seg>publica una foto con el título FACEBOOK.SLOT.CAPTION en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post on facebook saying FACEBOOK.SLOT.STATUS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143848Z" creationid="cartesinus" creationdate="20200225T143736Z">
+        <seg>publica en facebook diciendo FACEBOOK.SLOT.STATUS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post on facebook that FACEBOOK.SLOT.STATUS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143851Z" creationid="cartesinus" creationdate="20200225T143748Z">
+        <seg>publica en Facebook que FACEBOOK.SLOT.STATUS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post something on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143823Z" creationid="cartesinus" creationdate="20200225T143700Z">
+        <seg>publica algo en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>put FACEBOOK.SLOT.PICTURE_URL on facebook with caption FACEBOOK.SLOT.CAPTION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144831Z" creationid="cartesinus" creationdate="20200225T144831Z">
+        <seg>pon FACEBOOK.SLOT.PICTURE_URL en facebook con el título FACEBOOK.SLOT.CAPTION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>put FACEBOOK.SLOT.PICTURE_URL on my facebook with caption FACEBOOK.SLOT.CAPTION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144839Z" creationid="cartesinus" creationdate="20200225T144839Z">
+        <seg>pon FACEBOOK.SLOT.PICTURE_URL en mi facebook con el título FACEBOOK.SLOT.CAPTION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>put a picture on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144026Z" creationid="cartesinus" creationdate="20200225T144026Z">
+        <seg>pon una foto en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>put a picture on my facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144031Z" creationid="cartesinus" creationdate="20200225T144031Z">
+        <seg>pon una foto en mi facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>put a picture to facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144036Z" creationid="cartesinus" creationdate="20200225T144036Z">
+        <seg>pon una foto en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>put a picture to my facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144040Z" creationid="cartesinus" creationdate="20200225T144040Z">
+        <seg>pon una foto a mi facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>record my weight on fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152717Z" creationid="cartesinus" creationdate="20200225T152643Z">
+        <seg>guarda mi peso en fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>reply to EMAIL.SLOT.TO</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124945Z" creationid="cartesinus" creationdate="20200225T124945Z">
+        <seg>responde a EMAIL.SLOT.TO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a picture to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124817Z" creationid="cartesinus" creationdate="20200225T124817Z">
+        <seg>manda una foto a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a picture to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT using my gmail</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124832Z" creationid="cartesinus" creationdate="20200225T124832Z">
+        <seg>manda una foto a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT usando mi gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send an email</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124907Z" creationid="cartesinus" creationdate="20200225T124854Z">
+        <seg>envía un correo electrónico</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send an email to EMAIL.SLOT.TO using my gmail</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124927Z" creationid="cartesinus" creationdate="20200225T124927Z">
+        <seg>envía un correo electrónico a EMAIL.SLOT.TO usando mi gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send an email to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124720Z" creationid="cartesinus" creationdate="20200225T124720Z">
+        <seg>envía un correo electrónico a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send an email to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124743Z" creationid="cartesinus" creationdate="20200225T124743Z">
+        <seg>envía un correo electrónico a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE usando mi gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send an email to somebody</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124917Z" creationid="cartesinus" creationdate="20200225T124917Z">
+        <seg>envía un email a alguien</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T100745Z" creationid="cartesinus" creationdate="20200225T100326Z">
+        <seg>establece mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME en AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set set my thermostat to AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T100220Z" creationid="cartesinus" creationdate="20200225T100220Z">
+        <seg>pon mi termostato a AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T100749Z" creationid="cartesinus" creationdate="20200225T100407Z">
+        <seg>establece la temperatura en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME en AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set temperature on my thermostat to AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T100121Z" creationid="cartesinus" creationdate="20200225T095704Z">
+        <seg>ajusta la temperatura en mi termostato a AIRCONDITIONER.SLOT.VALUE.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set the low temperature to 23 degree on my thermostat , and the high to 29 degree</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T100926Z" creationid="cartesinus" creationdate="20200225T100926Z">
+        <seg>establece la temperatura baja a 23 grados en mi termostato y la alta a 29 grados</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set the number CONTACTS.SLOT.PHONE_NUMBER in contact CONTACTS.SLOT.NAME as CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T122618Z" creationid="cartesinus" creationdate="20200225T122618Z">
+        <seg>establece el número CONTACTS.SLOT.PHONE_NUMBER en el contacto CONTACTS.SLOT.NAME como CONTACTS.SLOT.PHONE_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set the temperature between 23 degree and 29 degree on my thermostat</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T100839Z" creationid="cartesinus" creationdate="20200225T100839Z">
+        <seg>establece la temperatura entre 23 grados y 29 grados en mi termostato</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set the temperature to AIRCONDITIONER.SLOT.VALUE on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T100820Z" creationid="cartesinus" creationdate="20200225T100730Z">
+        <seg>establece la temperatura en AIRCONDITIONER.SLOT.VALUE en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set the temperature to AIRCONDITIONER.SLOT.VALUE on my thermostat</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T100132Z" creationid="cartesinus" creationdate="20200225T100132Z">
+        <seg>ajusta la temperatura a AIRCONDITIONER.SLOT.VALUE en mi termostato</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160433Z" creationid="cartesinus" creationdate="20200225T160433Z">
+        <seg>comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission for edition</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160547Z" creationid="cartesinus" creationdate="20200225T160547Z">
+        <seg>comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y da un permiso para la edición</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission for read and write</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160626Z" creationid="cartesinus" creationdate="20200225T160626Z">
+        <seg>comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y da permiso para leer y escribir</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission for reading</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160614Z" creationid="cartesinus" creationdate="20200225T160614Z">
+        <seg>comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y da un permiso para leer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me EMAIL.SLOT.PRIORITY emails</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124637Z" creationid="cartesinus" creationdate="20200225T124637Z">
+        <seg>muéstrame correos electrónicos EMAIL.SLOT.PRIORITY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me emails arrived EMAIL.SLOT.TIME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124517Z" creationid="cartesinus" creationdate="20200225T124517Z">
+        <seg>muéstrame correos electrónicos recibidos EMAIL.SLOT.TIME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me emails that arrived EMAIL.SLOT.TIME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124520Z" creationid="cartesinus" creationdate="20200225T124520Z">
+        <seg>muéstrame los correos electrónicos que llegaron EMAIL.SLOT.TIME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me my emails labelled EMAIL.SLOT.LABEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124035Z" creationid="cartesinus" creationdate="20200225T124035Z">
+        <seg>muéstrame mis correos electrónicos etiquetados EMAIL.SLOT.LABEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me my emails that have label EMAIL.SLOT.LABEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124054Z" creationid="cartesinus" creationdate="20200225T124054Z">
+        <seg>muéstrame mis emails que tengan la etiqueta EMAIL.SLOT.LABEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me my emails with label EMAIL.SLOT.LABEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124039Z" creationid="cartesinus" creationdate="20200225T124039Z">
+        <seg>muéstrame mis correos electrónicos con la etiqueta EMAIL.SLOT.LABEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me my emails with subject EMAIL.SLOT.SUBJECT</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T124616Z" creationid="cartesinus" creationdate="20200225T124600Z">
+        <seg>muéstrame mis emails con el tema EMAIL.SLOT.SUBJECT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my GDRIVE.SLOT.MIME_TYPE files in google drive</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153510Z" creationid="cartesinus" creationdate="20200225T153510Z">
+        <seg>muestra mis archivos GDRIVE.SLOT.MIME_TYPE en google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my calendar</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112119Z" creationid="cartesinus" creationdate="20200225T112119Z">
+        <seg>muestra mi calendario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my contact's info</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113727Z" creationid="cartesinus" creationdate="20200225T113727Z">
+        <seg>muestra la información de mi contacto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my contacts</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113650Z" creationid="cartesinus" creationdate="20200225T113645Z">
+        <seg>muestra mis contactos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my contacts with email CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113808Z" creationid="cartesinus" creationdate="20200225T113808Z">
+        <seg>muestra mis contactos con el correo electrónico CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my contacts with name CONTACTS.SLOT.NAME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T115218Z" creationid="cartesinus" creationdate="20200225T115218Z">
+        <seg>muestra mis contactos con el nombre CONTACTS.SLOT.NAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T115144Z" creationid="cartesinus" creationdate="20200225T115144Z">
+        <seg>muestra mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T120040Z" creationid="cartesinus" creationdate="20200225T115733Z">
+        <seg>muestra mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y env'ia un correo electrónico a CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my files in google drive</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153056Z" creationid="cartesinus" creationdate="20200225T153056Z">
+        <seg>muestra mis archivos en google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my google contacts with email CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T113914Z" creationid="cartesinus" creationdate="20200225T113914Z">
+        <seg>muestra mis contactos de Google con el correo electrónico CONTACTS.SLOT.EMAIL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my google drive files</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153049Z" creationid="cartesinus" creationdate="20200225T153049Z">
+        <seg>muestra mis archivos de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my google drive files created GDRIVE.SLOT.TIME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154214Z" creationid="cartesinus" creationdate="20200225T154214Z">
+        <seg>muestra mis archivos de google drive creados GDRIVE.SLOT.TIME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my google drive files in alphabetical order</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160228Z" creationid="cartesinus" creationdate="20200225T160228Z">
+        <seg>muestra mis archivos de google drive en orden alfabético</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my google drive files in reverse alphabetical order</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T160241Z" creationid="cartesinus" creationdate="20200225T160241Z">
+        <seg>muestra mis archivos de google drive en orden alfabético inverso</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my google drive files larger than GDRIVE.SLOT.FILE_SIZE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154549Z" creationid="cartesinus" creationdate="20200225T154549Z">
+        <seg>muestra mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my google drive files modified GDRIVE.SLOT.TIME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154225Z" creationid="cartesinus" creationdate="20200225T154225Z">
+        <seg>muestra mis archivos de google drive modificados GDRIVE.SLOT.TIME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my google drive files of type GDRIVE.SLOT.MIME_TYPE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153458Z" creationid="cartesinus" creationdate="20200225T153458Z">
+        <seg>muestra mis archivos de google drive del tipo GDRIVE.SLOT.MIME_TYPE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my google drive files smaller than GDRIVE.SLOT.FILE_SIZE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154535Z" creationid="cartesinus" creationdate="20200225T154528Z">
+        <seg>muestra mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my google drive files that were created most recently</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T155916Z" creationid="cartesinus" creationdate="20200225T155916Z">
+        <seg>muestra mis archivos de google drive que se crearon más recientemente</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my newest google drive files</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T155847Z" creationid="cartesinus" creationdate="20200225T155847Z">
+        <seg>muestra mis archivos de google drive más nuevos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my oldest google drive files</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T155900Z" creationid="cartesinus" creationdate="20200225T155900Z">
+        <seg>muestra mis archivos de google drive más antiguos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my starred google drive files</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T153843Z" creationid="cartesinus" creationdate="20200225T153843Z">
+        <seg>muestra mis archivos favoritos de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show photos in album FACEBOOK.SLOT.ALBUM</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145009Z" creationid="cartesinus" creationdate="20200225T145009Z">
+        <seg>muestra fotos en el álbum FACEBOOK.SLOT.ALBUM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show photos in album FACEBOOK.SLOT.ALBUM on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145017Z" creationid="cartesinus" creationdate="20200225T145017Z">
+        <seg>muestra fotos en el álbum FACEBOOK.SLOT.ALBUM en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show photos in my album FACEBOOK.SLOT.ALBUM</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145023Z" creationid="cartesinus" creationdate="20200225T145023Z">
+        <seg>muestra fotos en mi álbum FACEBOOK.SLOT.ALBUM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show photos in my album FACEBOOK.SLOT.ALBUM on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145037Z" creationid="cartesinus" creationdate="20200225T145037Z">
+        <seg>muestra fotos en mi álbum FACEBOOK.SLOT.ALBUM en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show the google drive files i starred</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T154007Z" creationid="cartesinus" creationdate="20200225T154007Z">
+        <seg>muestra los archivos de google drive que destaqué</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show the humidity</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101004Z" creationid="cartesinus" creationdate="20200225T101004Z">
+        <seg>muestra la humedad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show the humidity level</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T101006Z" creationid="cartesinus" creationdate="20200225T101006Z">
+        <seg>muestra el nivel de humedad</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>switch off the AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T095018Z" creationid="cartesinus" creationdate="20200225T095018Z">
+        <seg>desactiva el AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>switch on the AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T094921Z" creationid="cartesinus" creationdate="20200225T094921Z">
+        <seg>activa el AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>switch the AIRCONDITIONER.SLOT.AV_ALIAS off</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T095034Z" creationid="cartesinus" creationdate="20200225T095034Z">
+        <seg>apaga el AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>switch the AIRCONDITIONER.SLOT.AV_ALIAS on</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T094932Z" creationid="cartesinus" creationdate="20200225T094932Z">
+        <seg>activa el AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>tell me if my weight goes over FITBIT.SLOT.WEIGHT</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T152802Z" creationid="cartesinus" creationdate="20200225T152802Z">
+        <seg>dime si mi peso sobrepasa FITBIT.SLOT.WEIGHT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the count of steps from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145205Z" creationid="cartesinus" creationdate="20200225T145205Z">
+        <seg>el recuento de pasos de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the count of steps on FITBIT.SLOT.DATE from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T151419Z" creationid="cartesinus" creationdate="20200225T151413Z">
+        <seg>el recuento de pasos FITBIT.SLOT.DATE de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the fitbit pedometer</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145232Z" creationid="cartesinus" creationdate="20200225T145232Z">
+        <seg>el podómetro fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the fitbit pedometer on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T151249Z" creationid="cartesinus" creationdate="20200225T151249Z">
+        <seg>el podómetro fitbit FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the fitbit step counter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145237Z" creationid="cartesinus" creationdate="20200225T145237Z">
+        <seg>el contador de pasos fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the fitbit step counter on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T151308Z" creationid="cartesinus" creationdate="20200225T151308Z">
+        <seg>el contador de pasos fitbit FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the number of steps from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145201Z" creationid="cartesinus" creationdate="20200225T145201Z">
+        <seg>la cantidad de pasos de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the number of steps from fitbit on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145700Z" creationid="cartesinus" creationdate="20200225T145700Z">
+        <seg>la cantidad de pasos de fitbit FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the number of steps i took</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145225Z" creationid="cartesinus" creationdate="20200225T145225Z">
+        <seg>la cantidad de pasos que hice</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the number of steps i took on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145655Z" creationid="cartesinus" creationdate="20200225T145655Z">
+        <seg>la cantidad de pasos que hice FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the step count from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145213Z" creationid="cartesinus" creationdate="20200225T145213Z">
+        <seg>el recuento de pasos de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the step count on FITBIT.SLOT.DATE from fitbit</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T151439Z" creationid="cartesinus" creationdate="20200225T151439Z">
+        <seg>el recuento de pasos FITBIT.SLOT.DATE de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the steps i have taken</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T145242Z" creationid="cartesinus" creationdate="20200225T145242Z">
+        <seg>los pasos que he hecho</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the steps i have taken on FITBIT.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T151416Z" creationid="cartesinus" creationdate="20200225T151323Z">
+        <seg>los pasos que he hecho FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>turn off the AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T095003Z" creationid="cartesinus" creationdate="20200225T095003Z">
+        <seg>apaga el AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>turn on the AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T094819Z" creationid="cartesinus" creationdate="20200225T094819Z">
+        <seg>enciende el AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>turn the AIRCONDITIONER.SLOT.AV_ALIAS off</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T094948Z" creationid="cartesinus" creationdate="20200225T094948Z">
+        <seg>apaga el AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>turn the AIRCONDITIONER.SLOT.AV_ALIAS on</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T094822Z" creationid="cartesinus" creationdate="20200224T231019Z">
+        <seg>enciende el AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>update my facebook page saying FACEBOOK.SLOT.STATUS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143859Z" creationid="cartesinus" creationdate="20200225T143803Z">
+        <seg>actualiza mi página de facebook diciendo FACEBOOK.SLOT.STATUS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>update my facebook status</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143830Z" creationid="cartesinus" creationdate="20200225T143709Z">
+        <seg>actualiza mi estado de facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>update my facebook status saying FACEBOOK.SLOT.STATUS</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143854Z" creationid="cartesinus" creationdate="20200225T143756Z">
+        <seg>actualiza mi estado de facebook diciendo FACEBOOK.SLOT.STATUS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload FACEBOOK.SLOT.PICTURE_URL to facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144658Z" creationid="cartesinus" creationdate="20200225T144658Z">
+        <seg>sube FACEBOOK.SLOT.PICTURE_URL a facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload a picture on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143941Z" creationid="cartesinus" creationdate="20200225T143941Z">
+        <seg>sube una foto en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload a picture on facebook with caption FACEBOOK.SLOT.CAPTION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144111Z" creationid="cartesinus" creationdate="20200225T144111Z">
+        <seg>sube una imagen en facebook con el título FACEBOOK.SLOT.CAPTION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload a picture on my facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143947Z" creationid="cartesinus" creationdate="20200225T143947Z">
+        <seg>sube una foto en mi facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload a picture to facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143956Z" creationid="cartesinus" creationdate="20200225T143956Z">
+        <seg>sube una foto a facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload a picture to my facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T143959Z" creationid="cartesinus" creationdate="20200225T143959Z">
+        <seg>sube una foto a mi facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload a picture with caption FACEBOOK.SLOT.CAPTION on facebook</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144117Z" creationid="cartesinus" creationdate="20200225T144117Z">
+        <seg>sube una imagen con el subtítulo FACEBOOK.SLOT.CAPTION en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload to facebook FACEBOOK.SLOT.PICTURE_URL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T144708Z" creationid="cartesinus" creationdate="20200225T144708Z">
+        <seg>sube a facebook FACEBOOK.SLOT.PICTURE_URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what does the AIRCONDITIONER.SLOT.DEVICE_NAME indoor temperature sensor say ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112104Z" creationid="cartesinus" creationdate="20200225T112104Z">
+        <seg>¿qué dice el sensor de temperatura interior AIRCONDITIONER.SLOT.DEVICE_NAME?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what does the AIRCONDITIONER.SLOT.DEVICE_NAME indoor temperature sensor show ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112113Z" creationid="cartesinus" creationdate="20200225T112113Z">
+        <seg>¿qué muestra el sensor de temperatura interior AIRCONDITIONER.SLOT.DEVICE_NAME?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the indoor temperature ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T103821Z" creationid="cartesinus" creationdate="20200225T103821Z">
+        <seg>¿cuál es la temperatura interior?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the indoor temperature according to AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T103848Z" creationid="cartesinus" creationdate="20200225T103848Z">
+        <seg>¿cuál es la temperatura interior según AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the indoor temperature according to my AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T103902Z" creationid="cartesinus" creationdate="20200225T103902Z">
+        <seg>¿cuál es la temperatura interior según mi AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the indoor temperature according to the AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T110416Z" creationid="cartesinus" creationdate="20200225T110416Z">
+        <seg>¿cuál es la temperatura interior según el AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the level of humidity ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T110422Z" creationid="cartesinus" creationdate="20200225T110422Z">
+        <seg>¿cuál es el nivel de humedad?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the level of humidity according to my AIRCONDITIONER.SLOT.AV_ALIAS sensor ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T110441Z" creationid="cartesinus" creationdate="20200225T110431Z">
+        <seg>¿cuál es el nivel de humedad según mi sensor AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the level of indoor temperature ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T110504Z" creationid="cartesinus" creationdate="20200225T110504Z">
+        <seg>¿cuál es el nivel de temperatura interior?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the level of indoor temperature according to my AIRCONDITIONER.SLOT.AV_ALIAS sensor ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T111721Z" creationid="cartesinus" creationdate="20200225T111721Z">
+        <seg>¿cuál es el nivel de temperatura interior según mi sensor AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the level of temperature ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T110450Z" creationid="cartesinus" creationdate="20200225T110450Z">
+        <seg>¿cuál es el nivel de temperatura?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the level of temperature according to my AIRCONDITIONER.SLOT.AV_ALIAS sensor ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T110458Z" creationid="cartesinus" creationdate="20200225T110458Z">
+        <seg>¿cuál es el nivel de temperatura según mi sensor AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what temperature do I have in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T103750Z" creationid="cartesinus" creationdate="20200225T103432Z">
+        <seg>¿qué temperatura tengo aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what temperature do we have in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T103754Z" creationid="cartesinus" creationdate="20200225T103738Z">
+        <seg>¿qué temperatura tenemos aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what temperature is it in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T103747Z" creationid="cartesinus" creationdate="20200225T103747Z">
+        <seg>¿a qué temperatura está aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>whats on my schedule CALENDAR.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200225T112303Z" creationid="cartesinus" creationdate="20200225T112250Z">
+        <seg>qu'e hay en mi horario CALENDAR.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+<!-- Alternative translations -->
+  </body>
+</tmx>
