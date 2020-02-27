@@ -1,0 +1,40 @@
+#JSGF V1.0;
+public <S> = youtube__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10>);
+
+#PRECONDITIONS
+<WHEN_1> = kiedy pojawi się [nowe] (wideo | klip | film) na kanale który (śledzę | followuję | obserwuję | oglądam);
+<WHEN_2> = kiedy na kanale <CHANNEL_ID> pojawi się ([nowy] (klip | film) | [nowe] wideo);
+
+#INTENTS
+<INTENT_1> = otwórz (yt | youtube);
+
+<INTENT_2> = (odtwórz | <FIND_VERB>) (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_a> = <QUERY> na (yt | youtube);
+<INTENT_2_b> = <VIDEO> z <QUERY> [na (yt | youtube)];
+
+<INTENT_3> = [odtwórz | <FIND_VERB>] <VIDEO> (z kanału | na kanale) <CHANNEL_ID>;
+
+<INTENT_4> = (pokaż | wyświetl) kanały z kategorii <CATEGORY_ID> [na (yt | youtube)];
+
+<INTENT_5> = pokaż [mi] kanały które (subskrybuję) [na (yt | youtube)];
+
+<INTENT_6> = pokaż [mi] kanały które (śledzę | obserwuję | followuję) [na (yt | youtube)];
+
+<INTENT_7> = <FIND_VERB> kanały z <QUERY> [na (yt | youtube);
+
+<INTENT_8> = pokaż [mi] <VIDEO> (z | opublikowane) [kanału] <CHANNEL_ID> (pasujące | które pasuje) do <QUERY> [na (yt | youtube)];
+
+<INTENT_9> = (powiadom mnie | powiedz mi) <WHEN_1>;
+
+<INTENT_10> = (powiadom mnie | powiedz mi) <WHEN_2>;
+
+#SLOTS
+<CHANNEL_ID> = YOUTUBE.SLOT.CHANNEL_ID;
+<CATEGORY_ID> = YOUTUBE.SLOT.CATEGORY;
+<QUERY> = YOUTUBE.SLOT.QUERY;
+
+#LANG. COMPONENTS
+<FIND_VERB> = wyszukaj | szukaj | znajdź;
+<VIDEO> = wideo | klip | film;
+
+// "search youtube for videos"

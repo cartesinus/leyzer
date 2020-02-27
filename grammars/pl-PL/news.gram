@@ -1,0 +1,22 @@
+#JSGF V1.0;
+public <S> = news__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4>);
+
+#PRECONDITIONS
+<WHEN_1> = kiedy <PORTAL> (doda nowe (wiadomości | newsy) | się zaktualizuje);
+<WHEN_2> = kiedy <PORTAL> (w sekcji | w części) <SECTION> opublikuje [nowy] artykuł;
+
+#INTENTS
+<INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
+<INTENT_1_a> = [otwórz | czytaj | pokaż] <PORTAL>;
+<INTENT_1_b> = (wyświetl | pokaż) [mi] [najnowsze] wiadomości z <PORTAL>;
+
+<INTENT_2> = (wyświetl | pokaż) [mi] [najnowsze] <SECTION> (z | na) <PORTAL>;
+
+<INTENT_3> = (powiadom mnie | powiedz mi) <WHEN_1>;
+
+<INTENT_4> = (powiadom mnie | powiedz mi) <WHEN_2>;
+
+#SLOTS
+<SECTION> = NEWS.SLOT.SECTION;
+<PORTAL> = NEWS.SLOT.PORTAL;
+<TIME> = NEWS.SLOT.TIME;

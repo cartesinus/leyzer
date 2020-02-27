@@ -1,0 +1,35 @@
+#JSGF V1.0;
+public <S> = wikipedia__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8>);
+
+#INTENTS
+#open wikipedia page
+<INTENT_1> = otwórz wikipedię | otwórz stronę na wikipedii | definicja na wikipedii;
+
+#find given query on wikipedia
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
+<INTENT_2_a> = (szukaj | znajdź | wyszukaj) <QUERY> na (wiki | wikipedii);
+<INTENT_2_b> = <QUERY> na (wiki | wikipedii);
+
+#scroll down
+<INTENT_3> = ([strona | stronę] (w dół | niżej) | scrolluj [stronę] w dół | kawałek w dół); 
+
+#scroll up
+<INTENT_4> = ([strona | stronę] (w górę | wyżej) | scrolluj [stronę] do góry | kawałek do góry);
+
+#download page as pdf
+<INTENT_5> = (ściągnij | pobierz | zachowaj) (tą stronę | ten artukuł) jako pdf;
+
+#change language of page
+<INTENT_6> = (zmień język ([tej] strony | [tego] artykułu) na <LANGUAGE.LOCATIVE> | pokaż ([ten] artykuł | [tę] stronę) w języku <LANGUAGE.ACCUSATIVE>);
+
+#show random
+<INTENT_7> = ([pokaż] losową (stronę | artykuł) [na (wiki | wikipedii) | [wiki | wikipedia] surfing);
+
+#content navigation
+<INTENT_8> = przejdź do <ELEMENT> elementu ze spisu treści;
+
+#SLOTS
+<QUERY> = WIKIPEDIA.SLOT.QUERY;
+<LANGUAGE.ACCUSATIVE> = angielskim | polskim | niemieckim | francuskim | włoskim | hiszpańskim | rosyjskim | chińskim | ukraińskim | arabskim | portugalskim;
+<LANGUAGE.LOCATIVE> = angielski | polski | niemiecki | francuski | włoski | hiszpański | rosyjski | chiński | ukraiński | arabski | portugalski;
+<ELEMENT> = pierwszego | drugiego | trzeciego | czwartego | piątego | szóstego | siódmego | ósmego | dziewiątego | dziesiątego;

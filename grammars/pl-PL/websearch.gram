@@ -1,0 +1,29 @@
+JSGF V1.0;
+public <S> = websearch__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7>);
+
+#INTENTS
+<INTENT_1> = (szukaj | wyszukaj | poszukaj | chcę wyszukać) na <ENGINE> | <ENGINE> wyszukiwarka | wyszukiwarka);
+
+<INTENT_2> = (<TXT_QUERY> (w | na) <ENGINE> | <ENGINE> <TXT_QUERY>);
+
+<INTENT_3> = strony [internetowe | www] (na | w) których (znajdę | odnajdę) <TXT_QUERY>;
+
+<INTENT_4> = [<FIND>] <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> (w | na) <ENGINE>;
+
+<INTENT_5> = [<FIND>] <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY>;
+
+<INTENT_6> = [<FIND>] <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> o rozmiarze <WIDTH> na <HEIGHT>;
+
+<INTENT_7> = [<FIND>] <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> i <IMG_COND> niż <WIDTH> [na <HEIGHT>];
+
+#SLOTS
+<ENGINE> = bing | google | duckduckgo;
+<TXT_QUERY> = WEBSEARCH.SLOT.TXT_QUERY;
+<IMG_QUERY> = WEBSEARCH.SLOT.IMG_QUERY;
+<WIDTH> = 800;
+<HEIGHT> = 600;
+<IMG_COND> = szerszy | większy | węższy | mniejszy;
+
+#LANG. COMPONENTS
+<FIND> = pokaż | wyszukaj | szukaj | wyświetl | znajdź | chcę zobaczyć;
+<IMAGES> obrazy | obrazki | zdjęcia;

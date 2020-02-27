@@ -1,0 +1,22 @@
+#JSGF V1.0;
+public <S> = phone__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5>);
+
+#INTENTS
+<INTENT_1> = (<CALL> | wybierz) (na | do) <NUMBER>;
+
+<INTENT_2> = <CALL> ((na | po) (policję | straż pożarną | pogotowie) | na 112)
+
+<INTENT_3> = (sprawdź | wyświetl | pokaż) moje [przychodzące] (wiadomości | smsy);
+
+<INTENT_4> = (wyślij | nadaj) (sms | wiadomość) do <TO>;
+
+<INTENT_5> = [wyślij | nadaj] (sms | wiadomość) do <TO> o treści <MESSAGE>;
+
+#SLOTS
+<TO> = PHONE.SLOT.TO;
+<MESSAGE> = PHONE.SLOT.MESSAGE;
+<NUMBER> = PHONE.SLOT.NUMBER;
+<MODE> = PHONE.SLOT.MODE;
+
+#LANG. COMPONENTS
+<CALL> = dzwoń | zadzwoń | telefonuj | zatelefonuj;

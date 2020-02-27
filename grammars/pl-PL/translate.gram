@@ -1,0 +1,53 @@
+#JSGF V1.0;
+public <S> = translate__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9>);
+
+#INTENTS
+#method to set default target lang
+<INTENT_1> = (ustaw | nastaw | przełącz) [domyślny] język [tłumaczenia | docelowy | wyjścia] na <ALL_LANG>;
+
+#method to set default source lang
+<INTENT_2> = (ustaw | nastaw | przełącz) [domyślny] język (wejściowy | wejścia) na <ALL_LANG>;
+
+#default target language is set, simply provide text for translation (here default is english)
+<INTENT_3> = <INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c>;
+<INTENT_3_a> = [jakie jest] tłumaczenie <TEXT_EN>;
+<INTENT_3_b> = przetłumacz [zdanie | to] <TEXT_EN>;
+<INTENT_3_c> = jak [mogę | możesz] przetłumaczyć [to zdanie | to | zdanie] <TEXT_EN>;
+
+#translate text from english (default) to given lang
+<INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d> | <INTENT_4_e>;
+<INTENT_4_a> = jakie jest tłumaczenie na [język] <TEXT_EN> zdania <TRG_LANG>;
+<INTENT_4_b> = powiedz <TEXT_EN> (po | w języku) <TRG_LANG>;
+<INTENT_4_c> = (tłumacz | przetłumacz | tłumaczenie) <TEXT_EN> na <TRG_LANG>;
+<INTENT_4_d> = <TEXT_EN> (po | w języku) <TRG_LANG>;
+<INTENT_4_e> = jak (powiem | powiesz | przetłumaczysz) <TEXT_EN> (po | w języku) <TRG_LANG>;
+
+#both source and target languages are provided together with text to translate
+<INTENT_5> = [jakie jest] tłumaczenie <TEXT> z <SRC_LANG> na <TRG_LANG>;
+
+#both source and target languages are provided together with text to translate additinaly translator is provided
+<INTENT_6> = [jakie jest] tłumaczenie <TEXT> z <SRC_LANG> na <TRG_LANG> przy użyciu <TRANSLATOR>;
+
+#root command for followup action (where text is given)
+<INTENT_7> = (tłumacz | przetłumacz | [wykonaj] tłumaczenie) na [język] <TRG_LANG>;
+
+#default target language is set but source is unknown. text is provided as well
+<INTENT_8> = (tłumacz | przetłumacz | [wykonaj] tłumaczenie) ([zdania | tego] <TEXT> z [języka] <SRC_LANG> | z [języka] <SRC_LANG> (zdania | tego zdania | tego) <TEXT>);
+
+#detect language of text
+<INTENT_9> = [wykryj | powiedz [mi]] (w jakim to języku | jaki to język | co to za język) <TEXT_MULTI>;
+
+
+#SLOTS
+<SRC_LANG> = TRANSLATE.SLOT.SRC_LANG;
+<TRG_LANG> = TRANSLATE.SLOT.TRG_LANG;
+<ALL_LANG> = TRANSLATE.SLOT.ALL_LANG;
+<TEXT_EN> = TRANSLATE.SLOT.TEXT.EN;
+<TEXT_DE> = TRANSLATE.SLOT.TEXT.DE;
+<TEXT_PL> = TRANSLATE.SLOT.TEXT.PL;
+<TEXT_ES> = TRANSLATE.SLOT.TEXT.ES;
+<TEXT_IT> = TRANSLATE.SLOT.TEXT.IT;
+<TEXT_FR> = TRANSLATE.SLOT.TEXT.FR;
+<TEXT_MULTI> = TRANSLATE.SLOT.TEXT.MULTI;
+<TEXT> = TRANSLATE.SLOT.TEXT;
+<TRANSLATOR> = TRANSLATE.SLOT.TRANSLATOR;
