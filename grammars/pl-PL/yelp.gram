@@ -1,0 +1,42 @@
+#JSGF V1.0;
+public <S> = yelp__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11> | 12__ <INTENT_12>);
+
+#INTENTS
+<INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
+<INTENT_1_a> = <FIND> (restauracje | coś do jedzenia | jedzenie) [na yelpie | <AROUND>];
+<INTENT_1_b> = nabliższa restauracja <AROUND>;
+
+<INTENT_2> = <FIND> <QUERY> [<AROUND> | na yelpie];
+
+<INTENT_3> = (<FIND> (restauracje | jedzenie) z [przynajmniej] <RATING> gwiazdkami | (restauracje | jedzenie) <AROUND> z <RATING> gwiazdkami);
+
+<INTENT_4> = [<FIND>] (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND>;
+
+<INTENT_5> = <FIND> [jeszcze | ciągle] otwarte restauracje <AROUND>;
+
+<INTENT_6> = [<FIND>] restauracje <AROUND> które mają [przynajmniej] <REVIEW_COUNT> ocen od (użytkowników | ludzi);
+
+<INTENT_7> = [<FIND>] restauracje <AROUND> <LOCATION>;
+
+<INTENT_8> = [<FIND>] <QUERY> <AROUND> <LOCATION>;
+
+<INTENT_9> = <INTENT_9_a> | <INTENT_9_b>;
+<INTENT_9_a> = [<FIND>] (restauracje | jedzenie) z [przynajmniej] <RATING> gwiazdkami <AROUND> <LOCATION>;
+<INTENT_9_b> = [<FIND>] (restauracje | jedzenie) <AROUND> <LOCATION> z <RATING> gwiazdkami;
+
+<INTENT_10> = [<FIND>] (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND> <LOCATION>;
+
+<INTENT_11> = [<FIND>] restauracje <AROUND> <LOCATION> które mają [przynajmniej] <REVIEW_COUNT> ocen od (użytkowników | ludzi);
+
+<INTENT_12> = <FIND> [jeszcze | ciągle] otwarte restauracje <AROUND> <LOCATION>;
+
+#SLOTS
+<LOCATION> = YELP.SLOT.LOCATION;
+<QUERY> = YELP.SLOT.QUERY;
+<REVIEW_COUNT> = YELP.SLOT.REVIEW_COUNT;
+<RATING> = YELP.SLOT.RATING;
+<CATEGORY> = YELP.SLOT.CATEGORY;
+
+#LANG. COMPONENTS
+<AROUND> = w pobliżu | w okolicy;
+<FIND> = znajdź | wyszukaj | pokaż;
