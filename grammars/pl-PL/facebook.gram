@@ -1,0 +1,30 @@
+#JSGF V1.0;
+public <S> = facebook__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7>)
+
+#INETNTS
+<INTENT_1> = (<POST_VERB> coś na facebooku | stwórz nowy post na facebooka | zaktualizuj [mój] status na facebooku);
+
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>; 
+<INTENT_2_a> = (napisz | umieść) <STATUS> na facebooku;
+<INTENT_2_b> = (napisz | umieść) na facebooku [że] <STATUS>;
+<INTENT_2_c> = (zaktualizuaj | updateuj) [mojego] facebooka [o status [mówiący]] <STATUS>;
+<INTENT_2_d> = <POST_VERB> [nowy] post (że | który mówi [że] | o treści) <STATUS> [na facebooku];
+
+<INTENT_3> = <POST_VERB> zdjęcie (do | na) [mojego] facebooka;
+
+<INTENT_4> = <POST_VERB> zdjęcie [na facebooka] z (podpisem | opisem) <CAPTION>;
+
+<INTENT_5> = <POST_VERB> url <PICTURE_URL> [na facebooka];
+
+<INTENT_6> = <POST_VERB> url <PICTURE_URL> [na facebooka] z (podpisem | opisem) <CAPTION>
+
+<INTENT_7> = (pokaż | wyświetl) [na facebooku] [moje] zdjęcia z albumu <ALBUM>;
+
+#SLOTS
+<ALBUM> = FACEBOOK.SLOT.ALBUM;
+<STATUS> = FACEBOOK.SLOT.STATUS;
+<CAPTION> = FACEBOOK.SLOT.CAPTION;
+<PICTURE_URL> = FACEBOOK.SLOT.PICTURE_URL;
+
+#LANG. COMPONENTS
+<POST_VERB> = wyślij | uploaduj | dodaj | umieść;
