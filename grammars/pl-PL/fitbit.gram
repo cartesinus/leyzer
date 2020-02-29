@@ -1,0 +1,29 @@
+#JSGF V1.0;
+public <S> = fitbit__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5>);
+
+#PRECONDITION
+<WHEN> = kiedy moja waga (będzie większa niż | przekroczy) <WEIGHT>;
+
+#INTENTS
+<INTENT_1> = [<RETRIEVE_VERB> | policz] [mi] (<INTENT_1_a> | <INTENT_1_b>);
+<INTENT_1_a> = (moje kroki | ilośc kroków | liczbę kroków) (na | w) fitbicie;
+<INTENT_1_b> = (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków);
+
+<INTENT_2> = [<RETRIEVE_VERB> | policz] [mi] (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_a> = (moje kroki | ilośc kroków | liczbę kroków) [(na | w) fitbicie] w <DATE>;
+<INTENT_2_b> = (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków) w <DATE>;
+
+<INTENT_3> = [<RETRIEVE_VERB>] [mi] (mój bmi | moją wagę) (na | w) fitbicie;
+
+<INTENT_4> = (zanotuj | zapisz | zapamiętaj) moją wagę (na | w) fitbicie;
+
+<INTENT_5> = <NOTIFY_VERB> <WHEN_1>;
+
+#SLOTS
+<STEPS> = FITBIT.SLOT.STEPS;
+<DATE> = FITBIT.SLOT.DATE;
+<WEIGHT> = FITBIT.SLOT.WEIGHT;
+
+#LANG. COMPONENTS
+<RETRIEVE_VERB> = podaj | wyświetl | pokaż;
+<NOTIFY_VERB> = powiadom mnie | powiedz mi;
