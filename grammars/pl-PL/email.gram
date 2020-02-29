@@ -1,0 +1,44 @@
+#JSGF V1.0;
+public <S> = email__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11>);
+
+#INTENTS
+<INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
+<INTENT_1_a> = <CHECK_VERB> [moje] [ostatnie | najnowsze] (emaile | gmaile | maile);
+<INTENT_1_b> = <CHECK_VERB> czy (dostałem | dostałam) nowe (emaile | maile);
+
+<INTENT_2> = <SHOW_ME> [moje] (emaile | maile) które (otrzymałem | otrzymałam) od <SENDER_ADDRESS>;
+
+<INTENT_3> = <SHOW_ME> [moje] (emaile | maile) (z etykietą | zawierające etykietę) <LABEL>;
+
+<INTENT_4> = <SHOW_ME> [moje] (emaile | maile) które (przybyły | otrzymałem | otrzymałam) <TIME>;
+
+<INTENT_5> = <SHOW_ME> [moje] (emaile | maile) (o temacie | z tematem) <SUBJECT>;
+
+<INTENT_6> = <SHOW_ME> [moje] (emaile | maile) (o priorytecie | z priorytetem) <PRIORITY>;
+
+<INTENT_7> = <INTENT_7_a> | <INTENT_7_b>;
+<INTENT_7a> = (<SEND_EMAIL> do <TO> o temacie <SUBJECT> ([i] z treścią | w treści pisząc) <MESSAGE>);
+<INTENT_7b> = (<SEND_EMAIL> do <TO> o treści <MESSAGE> [i] z tematem <SUBJECT>);
+
+<INTENT_8> = <SEND_EMAIL> do <TO> o temacie <SUBJECT>;
+
+<INTENT_9> = <SEND_EMAIL> [do kogoś];
+
+<INTENT_10> = <SEND_EMAIL> do <TO> [używając gmaila];
+
+<INTENT_11> = (odpisz | odpowiedź) <TO>;
+
+#SLOTS
+<SENDER_ADDRESS> = EMAIL.SLOT.SENDER_ADDRESS;
+<LABEL> = EMAIL.SLOT.LABEL;
+<SUBJECT> = EMAIL.SLOT.SUBJECT;
+<TO> = EMAIL.SLOT.TO;
+<MESSAGE> = EMAIL.SLOT.MESSAGE;
+<PIC_URL> = EMAIL.SLOT.PIC_URL
+<TIME> = EMAIL.SLOT.TIME;
+<PRIORITY> = EMAIL.SLOT.PRIORITY;
+
+#LANG. COMPONENTS
+<CHECK_VERB> = sprawdź;
+<SEND_EMAIL> = wyślij (emaila | maila);
+<SHOW_ME> = (pokaż | wyświetl) mi;
