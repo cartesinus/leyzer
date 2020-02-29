@@ -1,0 +1,36 @@
+#JSGF V1.0;
+public <S> = gdrive__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11>);
+
+#INTENTS
+<INTENT_1> = <SHOW_VERB> <MY_GDRIVE_FILES>;
+
+<INTENT_2> = <SHOW_VERB> <MY_GDRIVE_FILES> (o typie | z typem) <MIME_TYPE>);
+
+<INTENT_3> = <SHOW_VERB> <MY_GDRIVE_FILES> (które oznaczyłem | oznaczone) gwiazdką;
+
+<INTENT_4> = <SHOW_VERB> <MY_GDRIVE_FILES> (stworzone | zmodyfikowane) <TIME>;
+
+<INTENT_5> = <SHOW_VERB> <MY_GDRIVE_FILES> (mniejsze | większe) niż <FILE_SIZE>;
+
+<INTENT_6> = (stwórz | utwórz | zrób) plik (na | w) [moim] (google drive | google drivie);
+
+<INTENT_7> = (stwórz | utwórz | zrób) plik (na | w) [moim] (google drive | google drivie) o nazwie <FILE_NAME>;
+
+<INTENT_8> = <SHOW_VERB> ([mój] (najnowszy | ostatni) plik na google drive | [moje] (najnowsze | ostatnie) pliki na google drive);
+
+<INTENT_9> = <SHOW_VERB> [moje] pliki (na | w) google drive w [odwrotnej] kolejności alfabetycznej;
+
+<INTENT_10> = otwórz [mój] plik <FILE_NAME> do edycji [na google drive];
+
+<INTENT_11> = udostępnij [mój] plik [o nazwie] <FILE_NAME> do <MAIL> [i nadaj uprawnienia do (edycji | odczytu | odczytu i zapisu)];
+
+#SLOTS
+<MIME_TYPE> = GDRIVE.SLOT.MIME_TYPE;
+<FILE_NAME> = GDRIVE.SLOT.FILE_NAME;
+<FILE_SIZE> = GDRIVE.SLOT.FILE_SIZE;
+<TIME> = GDRIVE.SLOT.TIME;
+<MAIL> = GDRIVE.SLOT.MAIL;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = pokaż | wyświetl | wylistuj;
+<MY_GDRIVE_FILES> = (moje pliki (z | na | w) google drive;
