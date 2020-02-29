@@ -1,0 +1,30 @@
+#JSGF V1.0;
+public <S> = weather__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10>);
+
+#INTENTS
+<INTENT_1> = (jaka (jest | będzie) [dziś] pogoda | pogoda na dziś | prognoza pogody [na dziś]);
+
+<INTENT_2> = (jaka (jest | będzie) [jutro] pogoda| pogoda na jutro | prognoza pogody na (jutro | następny dzień));
+
+<INTENT_3> = (jaka jest (obecnie | dziś) pogoda | powiedz mi jaka jest pogoda | chcę znać pogodę) w <LOCATION>;
+
+<INTENT_4> = (jaka będzie jutro pogoda | powiedz mi jaka jutro będzie pogoda | chcę wiedzieć jaka będzie jutro pogoda | jutrzejsza prognoza pogody) w <LOCATION>;
+
+<INTENT_5> = ([kiedy jest] wschód słońca (w | dla) | [podaj] czas wschodu słońca (w | dla)) <LOCATION>;
+
+<INTENT_6> = ([kiedy jest] zachód słońca (w | dla) | [podaj] czas zachodu słońca (w | dla)) <LOCATION>;
+
+<INTENT_7> = ([kiedy jest] wschód i zachód słońca (w | dla) | [podaj] czas wschodu i zachodu słońca (w | dla)) <LOCATION>;
+
+<INTENT_8> = ([kiedy jest] wschód i zachód słońca (w | dla) | [podaj] czas wschodu i zachodu słońca (w | dla)) <LOCATION> dla <DATE>;
+
+<INTENT_9> = faza księżyca w <LOCATION>;
+
+<INTENT_10> = faza księżyca w <LOCATION> dla <DATE>;
+
+#SLOTS
+<LOCATION> = WEATHER.SLOT.LOCATION;
+<TEMPERATURE> = WEATHER.SLOT.TEMPERATURE;
+<HUMIDITY> = WEATHER.SLOT.HUMIDITY;
+<DATE> = WEATHER.SLOT.DATE;
+<STATUS> = WEATHER.SLOT.STATUS;
