@@ -8,11 +8,11 @@ public <S> = calendar__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ 
 #INTENTS
 <INTENT_1> = <SHOW_VERB> [mój] kalendarz;
 
-<INTENT_2> = (<SHOW_VERB> (plany | wydarzenia) <DATE> | co jest zaplanowane <DATE> | (jakie | czy) mam (wydarzenia | spotkania) <DATE> | <SHOW_VERB> [moje] (spotkania | wydarzenia));
+<INTENT_2> = (<SHOW_VERB> (plany | wydarzenia) (na | w) <DATE> | co jest zaplanowane (na | w) <DATE> | (jakie | czy) mam (wydarzenia | spotkania) (na | w) <DATE> | <SHOW_VERB> [moje] (spotkania | wydarzenia));
 
 <INTENT_3> = dodaj wydarzenie [do kalendarza] o nazwie <EVENT_NAME> [to calendar];
 
-<INTENT_4> = (dodaj wydarzenie [do kalendarza] o nazwie <EVENT_NAME> <EVENT_DATE> | <EVENT_DATE> dodaj wydarzenie o nazwie <EVENT_NAME> [do kalendarza]);
+<INTENT_4> = (dodaj wydarzenie [do kalendarza] o nazwie <EVENT_NAME> (na | w ) <EVENT_DATE> | <EVENT_DATE> dodaj wydarzenie o nazwie <EVENT_NAME> [do kalendarza]);
 
 <INTENT_5> = (powiadom mnie | powiedz mi) <WHEN_1>;
 
