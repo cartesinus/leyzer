@@ -1,0 +1,39 @@
+#JSGF V1.0;
+public <S> = instagram__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10>);
+
+#INTENTS
+<INTENT_1> = otwórz [mój] instagram;
+
+<INTENT_2> = <SHOW_VERB> [moje] [ostatnie] zdjęcia na instagramie;
+
+<INTENT_3> = <SHOW_VERB> [moje] (ostatnie | najnowsze) <COUNT> zdjęć na [moim koncie na] instagramie;
+
+<INTENT_4> = <SHOW_VERB> [moje] zdjęcia na instagramie (<INTENT_4_a> | <INTENT_4_b>);
+<INTENT_4_a> = (z filtrem| które mają filtr | które używają filtra) <FILTER>;
+<INTENT_4_b> = (do których | gdzie) (dodałem | dodałam) filtr <FILTER>;
+
+<INTENT_5> = <SHOW_VERB> [moje] zdjęcia na instagramie (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
+<INTENT_5_a> = które (zrobiłem [(gdy | kiedy) byłem] | zrobiłam [(gdy | kiedy) byłam]);
+<INTENT_5_b> = oznaczone (lokalizacją | tagiem lokalizacji);
+<INTENT_5_c> = w których (lokalizacja | geolokalizacja | gps) ustawiony jest;
+
+<INTENT_6> = <SHOW_VERB> [moje] zdjęcia na instagramie (które mają tag | z tagiem) <HASHTAG>;
+
+<INTENT_7> = (stwórz | utwórz) [nowy] kolaż na (instagrama | instagramie) ze [wszystkimi] zdjęciami zrobionymi <LOCATION> (<DATE_DAY> | <DATE_MONTH>);
+
+<INTENT_8> = <SHOW_VERB> [moje] (zdjęcia | posty) zrobione (<DATE_DAY> | <DATE_MONTH>);
+
+<INTENT_9> = zrób zdjęcie (na instagrama | przy użyciu instagrama);
+
+<INTENT_10> = (stwórz | utwórz) [nowy] post na (instagrama | instagramie) z ostatniego zdjęcia z galerii [(i dodaj (tag lokalizacji | lokalizację) <LOCATION> | i dodaj filtr <FILTER> | i dodaj hashtag <HASHTAG>))];
+
+#SLOTS
+<HASHTAG> = INSTAGRAM.SLOT.HASHTAG;
+<LOCATION> = INSTAGRAM.SLOT.LOCATION;
+<FILTER> = INSTAGRAM.SLOT.FILTER;
+<COUNT> = INSTAGRAM.SLOT.COUNT;
+<DATE_DAY> = INSTAGRAM.SLOT.DATE_DAY;
+<DATE_MONTH> = INSTAGRAM.SLOT.DATE_MONTH;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = (pokaż | wyświetl | wylistuj | otwórz) [mi];

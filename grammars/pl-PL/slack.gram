@@ -1,0 +1,52 @@
+#JSGF V1.0;
+public <S> = slack__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11> | 12__ <INTENT_12> | 13__ <INTENT_13>);
+
+#INTENTS
+<INTENT_1> = otwórz slacka;
+
+<INTENT_2> = <CHECK_VERB> [moje] [ostatnie | najnowsze] (wiadomości | historię kanału) na slacku;
+
+<INTENT_3> = [powiedź [mi]] czy <USERNAME> jest [w tym momencie | w tej chwili] aktywny [na slacku];
+
+<INTENT_4> = <CHECK_VERB> [ostatnie | najnowsze] wiadomości [które otrzymałem] od <SENDER>;
+
+<INTENT_5> = <CHECK_VERB> (<INTENT_5_a> | <INTENT_5_b>);
+<INTENT_5_a> = (ostatnie | najnowsze) wiadomości [które otrzymałem] (w | na) kanale <CHANNEL>;
+<INTENT_5_b> = wiadomości na slackowym kanale <CHANNEL> (w ciągu ostatniej godziny | ostatnio);
+
+<INTENT_6> = <INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>;
+<INTENT_6_a> = <SEND_VERB> <MESSAGE> na [slackowy] kanał <CHANNEL>;
+<INTENT_6_b> = [<SEND_VERB>] wiadomość na [slackowy] kanał <CHANNEL> o treści <MESSAGE>;
+<INTENT_6_c> = (powiedz | napisz) na <CHANNEL> że <MESSAGE>;
+
+<INTENT_7> = (ustaw cel kanału <CHANNEL> na <PURPOSE> | niech <PURPOSE> będzie celem kanału <CHANNEL>);
+
+<INTENT_8> = (ustaw temat kanału <CHANNEL> na <TOPIC> | niech <TOPIC> będzie tematem kanału <CHANNEL>);
+
+<INTENT_9> = (ustaw mnie | oznacz mnie) jako (niedostępnego | niedostępną | nieobecnego | nieobecną) [na slacku];
+
+<INTENT_10> = <SEND_VERB> wiadomość [na slacku | na slacka];
+
+<INTENT_11> = <INTENT_11_a> | <INTENT_11_b>;
+<INTENT_11_a> = <SEND_VERB> (zdjęcie | filmik | coś) na kanał [na slacku | slackowy] <CHANNEL>;
+<INTENT_11_b> = post na kanał <CHANNEL>;
+
+<INTENT_12> = <SEND_VERB> zdjęcie na [slackowy] kanał <CHANNEL> (z podpisem | z opisem) <CAPTION>;
+
+<INTENT_13> = <INTENT_13_a> | <INTENT_13_b>;
+<INTENT_13_a> = <SEND_VERB> zdjęcie z <PICTURE_URL> na [slackowy] kanał <CHANNEL>;
+<INTENT_13_b> = umieść <PICTURE_URL> na kanale <CHANNEL>;
+
+#SLOTS
+<USERNAME> = SLACK.SLOT.USERNAME;
+<CHANNEL> = SLACK.SLOT.CHANNEL;
+<CAPTION> = SLACK.SLOT.CAPTION;
+<PICTURE_URL> = SLACK.SLOT.PICTURE_URL;
+<MESSAGE> = SLACK.SLOT.MESSAGE;
+<SENDER> = SLACK.SLOT.SENDER;
+<PURPOSE> = SLACK.SLOT.PURPOSE;
+<TOPIC> = SLACK.SLOT.TOPIC;
+
+#LANG. COMPONENTS
+<CHECK_VERB> = sprawdź | pokaż;
+<SEND_VERB> = wyślij | prześlij | napisz;

@@ -70,6 +70,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>call 911</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195034Z" creationid="cartesinus" creationdate="20200229T195034Z">
+        <seg>llama al 911</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>call PHONE.SLOT.NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195003Z" creationid="cartesinus" creationdate="20200229T195003Z">
+        <seg>llame al PHONE.SLOT.NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>call ambulance</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195037Z" creationid="cartesinus" creationdate="20200229T195037Z">
+        <seg>llamar a ambulancia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>call emergency services</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195046Z" creationid="cartesinus" creationdate="20200229T195046Z">
+        <seg>llamar a servicios de emergencia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>call fire department</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195043Z" creationid="cartesinus" creationdate="20200229T195043Z">
+        <seg>llamar al departamento de bomberos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>call police</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195044Z" creationid="cartesinus" creationdate="20200229T195044Z">
+        <seg>llama a la policía</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>caption FACEBOOK.SLOT.PICTURE_URL as FACEBOOK.SLOT.CAPTION and post it on facebook</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T144924Z" creationid="cartesinus" creationdate="20200225T144924Z">
@@ -118,6 +166,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>change the purpose of slack channel SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201938Z" creationid="cartesinus" creationdate="20200229T201938Z">
+        <seg>cambiar el propósito del canal de slack SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>change the temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T100946Z" creationid="cartesinus" creationdate="20200225T100946Z">
@@ -130,6 +186,14 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T095044Z" creationid="cartesinus" creationdate="20200225T095044Z">
         <seg>cambia la temperatura en mi termostato</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change the topic of slack channel SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201929Z" creationid="cartesinus" creationdate="20200229T201929Z">
+        <seg>cambiar el tema del canal de slack SLACK.SLOT.CHANNEL</seg>
       </tuv>
     </tu>
     <tu>
@@ -214,6 +278,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>check messages i received on slack from SLACK.SLOT.SENDER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200051Z" creationid="cartesinus" creationdate="20200229T200051Z">
+        <seg>verifique los mensajes que recibí en slack de SLACK.SLOT.SENDER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check messages i received on slack in SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200151Z" creationid="cartesinus" creationdate="20200229T200151Z">
+        <seg>verifique los mensajes que recibí en slack en SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>check my email</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T123108Z" creationid="cartesinus" creationdate="20200225T123108Z">
@@ -286,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>check my last slack messages</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195345Z" creationid="cartesinus" creationdate="20200229T195345Z">
+        <seg>revisa mis últimos mensajes de slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>check my latest email</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T123341Z" creationid="cartesinus" creationdate="20200225T123341Z">
@@ -298,6 +386,46 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T123305Z" creationid="cartesinus" creationdate="20200225T123305Z">
         <seg>revisa mis correos electrónicos de categoría principal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my slack channel history</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195400Z" creationid="cartesinus" creationdate="20200229T195400Z">
+        <seg>revisa mi historial de canales de slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check my sms inbox</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195051Z" creationid="cartesinus" creationdate="20200229T195051Z">
+        <seg>revisa mi bandeja de entrada de sms</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check recent messages from SLACK.SLOT.SENDER in slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200045Z" creationid="cartesinus" creationdate="20200229T200045Z">
+        <seg>verifique los mensajes recientes de SLACK.SLOT.SENDER en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check recent slack messages in SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200147Z" creationid="cartesinus" creationdate="20200229T200147Z">
+        <seg>verifique los mensajes recientes de slack en SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>check slack messages in SLACK.SLOT.CHANNEL i received in the last hour</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200222Z" creationid="cartesinus" creationdate="20200229T200222Z">
+        <seg>compruebe los mensajes de slack en SLACK.SLOT.CHANNEL que recibí en la última hora</seg>
       </tuv>
     </tu>
     <tu>
@@ -654,6 +782,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>create a new post on Instagram with the last photo from Gallery</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194647Z" creationid="cartesinus" creationdate="20200229T194647Z">
+        <seg>crea una nueva publicación en Instagram con la última foto de la Galería</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new post on Instagram with the last photo from Gallery adding INSTAGRAM.SLOT.FILTER filter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194709Z" creationid="cartesinus" creationdate="20200229T194709Z">
+        <seg>cree una nueva publicación en Instagram con la última foto de la Galería agregando el filtro INSTAGRAM.SLOT.FILTER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new post on Instagram with the last photo from Gallery adding INSTAGRAM.SLOT.HASHTAG hashtag</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194714Z" creationid="cartesinus" creationdate="20200229T194714Z">
+        <seg>cree una nueva publicación en Instagram con la última foto de la Galería agregando el hashtag INSTAGRAM.SLOT.HASHTAG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new post on Instagram with the last photo from Gallery and a tag INSTAGRAM.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194653Z" creationid="cartesinus" creationdate="20200229T194653Z">
+        <seg>cree una nueva publicación en Instagram con la última foto de la Galería y una etiqueta INSTAGRAM.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new post on Instagram with the last photo from Gallery and add INSTAGRAM.SLOT.FILTER filter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194701Z" creationid="cartesinus" creationdate="20200229T194701Z">
+        <seg>cree una nueva publicación en Instagram con la última foto de la Galería y agregue el filtro INSTAGRAM.SLOT.FILTER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a new post on Instagram with the last photo from Gallery and add INSTAGRAM.SLOT.HASHTAG hashtag</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194704Z" creationid="cartesinus" creationdate="20200229T194704Z">
+        <seg>cree una nueva publicación en Instagram con la última foto de la Galería y agregue el hashtag INSTAGRAM.SLOT.HASHTAG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>create a post on Instagram with all my photos taken in INSTAGRAM.SLOT.LOCATION in INSTAGRAM.SLOT.DATE_MONTH as a collage</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200226T174443Z" creationid="cartesinus" creationdate="20200226T174443Z">
@@ -670,10 +846,114 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>create a post on Instagram with the last photo from Gallery</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194446Z" creationid="cartesinus" creationdate="20200229T194446Z">
+        <seg>crea una publicación en Instagram con la última foto de la Galería</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a post on Instagram with the last photo from Gallery adding INSTAGRAM.SLOT.FILTER filter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194629Z" creationid="cartesinus" creationdate="20200229T194629Z">
+        <seg>cree una publicación en Instagram con la última foto de la Galería agregando el filtro INSTAGRAM.SLOT.FILTER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a post on Instagram with the last photo from Gallery adding INSTAGRAM.SLOT.HASHTAG hashtag</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194637Z" creationid="cartesinus" creationdate="20200229T194637Z">
+        <seg>cree una publicación en Instagram con la última foto de la Galería agregando el hashtag INSTAGRAM.SLOT.HASHTAG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a post on Instagram with the last photo from Gallery and a tag INSTAGRAM.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194551Z" creationid="cartesinus" creationdate="20200229T194551Z">
+        <seg>cree una publicación en Instagram con la última foto de la Galería y una etiqueta INSTAGRAM.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a post on Instagram with the last photo from Gallery and add INSTAGRAM.SLOT.FILTER filter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194616Z" creationid="cartesinus" creationdate="20200229T194616Z">
+        <seg>cree una publicación en Instagram con la última foto de la galería y agregue el filtro INSTAGRAM.SLOT.FILTER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create a post on Instagram with the last photo from Gallery and add INSTAGRAM.SLOT.HASHTAG hashtag</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194622Z" creationid="cartesinus" creationdate="20200229T194622Z">
+        <seg>cree una publicación en Instagram con la última foto de la Galería y agregue el hashtag INSTAGRAM.SLOT.HASHTAG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>create google drive file</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T154656Z" creationid="cartesinus" creationdate="20200225T154656Z">
         <seg>crea archivo de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>decrease my speaker 's volume</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211004Z" creationid="cartesinus" creationdate="20200229T211004Z">
+        <seg>disminuir el volumen de mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>decrease speaker 's volume</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211002Z" creationid="cartesinus" creationdate="20200229T211002Z">
+        <seg>disminuir el volumen del altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>decrease the volume of my speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210959Z" creationid="cartesinus" creationdate="20200229T210959Z">
+        <seg>bajar el volumen de mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>decrease the volume of speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210954Z" creationid="cartesinus" creationdate="20200229T210954Z">
+        <seg>disminuir el volumen del altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>decrease volume of my speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210945Z" creationid="cartesinus" creationdate="20200229T210945Z">
+        <seg>bajar el volumen de mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>decrease volume of speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210934Z" creationid="cartesinus" creationdate="20200229T210934Z">
+        <seg>disminuir el volumen del altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dial PHONE.SLOT.NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195017Z" creationid="cartesinus" creationdate="20200229T195017Z">
+        <seg>marque PHONE.SLOT.NUMBER</seg>
       </tuv>
     </tu>
     <tu>
@@ -1062,6 +1342,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>display my sms inbox</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195055Z" creationid="cartesinus" creationdate="20200229T195055Z">
+        <seg>mostrar mi bandeja de entrada de sms</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>display my starred google drive files</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T154019Z" creationid="cartesinus" creationdate="20200225T154019Z">
@@ -1294,6 +1582,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>get messages i received on slack from SLACK.SLOT.SENDER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200131Z" creationid="cartesinus" creationdate="20200229T200131Z">
+        <seg>muestra mensajes que recibí en slack de SLACK.SLOT.SENDER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get messages i received on slack in SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200246Z" creationid="cartesinus" creationdate="20200229T200246Z">
+        <seg>muestra mensajes que recibí en slack en SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>get my bmi from fitbit</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T152448Z" creationid="cartesinus" creationdate="20200225T152448Z">
@@ -1438,6 +1742,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>get my last slack messages</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195415Z" creationid="cartesinus" creationdate="20200229T195415Z">
+        <seg>muestra mis últimos mensajes de slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>get my latest email</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T123547Z" creationid="cartesinus" creationdate="20200225T123547Z">
@@ -1454,6 +1766,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>get my slack channel history</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195425Z" creationid="cartesinus" creationdate="20200229T195425Z">
+        <seg>muestra mi historial de canales de slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>get my steps from fitbit</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T145522Z" creationid="cartesinus" creationdate="20200225T145522Z">
@@ -1466,6 +1786,30 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T152630Z" creationid="cartesinus" creationdate="20200225T152630Z">
         <seg>muestra mi peso de fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get recent messages from SLACK.SLOT.SENDER in slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200122Z" creationid="cartesinus" creationdate="20200229T200122Z">
+        <seg>muestra mensajes recientes de SLACK.SLOT.SENDER en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get recent slack messages in SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200238Z" creationid="cartesinus" creationdate="20200229T200238Z">
+        <seg>muestra mensajes de slack recientes en SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>get slack messages in SLACK.SLOT.CHANNEL i received in the last hour</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200314Z" creationid="cartesinus" creationdate="20200229T200314Z">
+        <seg>muestra mensajes de slack en SLACK.SLOT.CHANNEL que recibí en la última hora</seg>
       </tuv>
     </tu>
     <tu>
@@ -1598,6 +1942,62 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>go back</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T214825Z" creationid="cartesinus" creationdate="20200229T214825Z">
+        <seg>vuelve</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go back to the last song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T215001Z" creationid="cartesinus" creationdate="20200229T215001Z">
+        <seg>vuelve a la última canción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go back to the last track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T215019Z" creationid="cartesinus" creationdate="20200229T215019Z">
+        <seg>volver a la última pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>help me switch SPEAKER.SLOT.POWER my speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T202416Z" creationid="cartesinus" creationdate="20200229T202416Z">
+        <seg>ayúdame a SPEAKER.SLOT.POWER mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>help me switch SPEAKER.SLOT.POWER the speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T202423Z" creationid="cartesinus" creationdate="20200229T202423Z">
+        <seg>ayúdame a SPEAKER.SLOT.POWER el altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>help me turn SPEAKER.SLOT.POWER my speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T202352Z" creationid="cartesinus" creationdate="20200229T202352Z">
+        <seg>ayúdame a SPEAKER.SLOT.POWER mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>help me turn SPEAKER.SLOT.POWER the speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T202408Z" creationid="cartesinus" creationdate="20200229T202408Z">
+        <seg>ayúdame a SPEAKER.SLOT.POWER el altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>how high is humidity ?</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T111812Z" creationid="cartesinus" creationdate="20200225T111812Z">
@@ -1642,6 +2042,46 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T111913Z" creationid="cartesinus" creationdate="20200225T111913Z">
         <seg>¿cómo es la temperatura según mi sensor AIRCONDITIONER.SLOT.AV_ALIAS?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>increase my speaker 's volume</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210741Z" creationid="cartesinus" creationdate="20200229T210741Z">
+        <seg>aumentar el volumen de mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>increase the volume of the speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210738Z" creationid="cartesinus" creationdate="20200229T210738Z">
+        <seg>aumentar el volumen del altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>latest NEWS.SLOT.PORTAL news</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194826Z" creationid="cartesinus" creationdate="20200229T194820Z">
+        <seg>últimas noticias de NEWS.SOT.PORTAL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>latest news on NEWS.SLOT.PORTAL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194818Z" creationid="cartesinus" creationdate="20200229T194818Z">
+        <seg>últimas noticias en NEWS.SLOT.PORTAL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>let slack channel SLACK.SLOT.CHANNEL know that SLACK.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200606Z" creationid="cartesinus" creationdate="20200229T200606Z">
+        <seg>deja que el canal de slack SLACK.SLOT.CHANNEL sepa que SLACK.SLOT.MESSAGE</seg>
       </tuv>
     </tu>
     <tu>
@@ -1894,6 +2334,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>list my post from INSTAGRAM.SLOT.DATE_MONTH</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194300Z" creationid="cartesinus" creationdate="20200229T194300Z">
+        <seg>lista mi publicación de INSTAGRAM.SLOT.DATE_MONTH</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my post from the INSTAGRAM.SLOT.DATE_DAY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194221Z" creationid="cartesinus" creationdate="20200229T194221Z">
+        <seg>enumerar mi publicación de INSTAGRAM.SLOT.DATE_DAY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my posts from INSTAGRAM.SLOT.DATE_MONTH</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194307Z" creationid="cartesinus" creationdate="20200229T194307Z">
+        <seg>enumerar mis publicaciones de INSTAGRAM.SLOT.DATE_MONTH</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list my posts from the INSTAGRAM.SLOT.DATE_DAY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194303Z" creationid="cartesinus" creationdate="20200229T194303Z">
+        <seg>enumerar mis publicaciones del INSTAGRAM.SLOT.DATE_DAY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>list my recent instagram pictures</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200226T164827Z" creationid="cartesinus" creationdate="20200226T164827Z">
@@ -2022,10 +2494,74 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>make my speaker louder</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210853Z" creationid="cartesinus" creationdate="20200229T210853Z">
+        <seg>hacer que mi altavoz sea más alto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>make note of my weight on fitbit</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T152721Z" creationid="cartesinus" creationdate="20200225T152721Z">
         <seg>tomar nota de mi peso en fitbit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>make the speaker louder</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210802Z" creationid="cartesinus" creationdate="20200229T210802Z">
+        <seg>hacer el altavoz más alto</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>mark me as away on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201043Z" creationid="cartesinus" creationdate="20200229T201043Z">
+        <seg>m'arcame como fuera en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>mark me as not away on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201109Z" creationid="cartesinus" creationdate="20200229T201109Z">
+        <seg>m'arcame como no fuera en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>message SLACK.SLOT.CHANNEL on slack saying SLACK.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200542Z" creationid="cartesinus" creationdate="20200229T200542Z">
+        <seg>mensaje SLACK.SLOT.CHANNEL en slack diciendo SLACK.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>mute my speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211201Z" creationid="cartesinus" creationdate="20200229T211201Z">
+        <seg>silenciar mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>mute speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211157Z" creationid="cartesinus" creationdate="20200229T211157Z">
+        <seg>altavoz en silencio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>mute the speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211202Z" creationid="cartesinus" creationdate="20200229T211202Z">
+        <seg>silenciar el altavoz</seg>
       </tuv>
     </tu>
     <tu>
@@ -2086,10 +2622,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>news on NEWS.SLOT.PORTAL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194816Z" creationid="cartesinus" creationdate="20200229T194816Z">
+        <seg>noticias en NEWS.SLOT.PORTAL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>notify me if my weight goes over FITBIT.SLOT.WEIGHT</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T152752Z" creationid="cartesinus" creationdate="20200225T152752Z">
         <seg>notifícame si mi peso sobrepasa FITBIT.SLOT.WEIGHT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when NEWS.SLOT.PORTAL front page updates</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194931Z" creationid="cartesinus" creationdate="20200229T194931Z">
+        <seg>notifíqueme cuando NEWS.SLOT.PORTAL actualice la página principal</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when NEWS.SLOT.PORTAL news updates</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194926Z" creationid="cartesinus" creationdate="20200229T194926Z">
+        <seg>notifíqueme cuando NEWS.SLOT.PORTAL actualice las noticias</seg>
       </tuv>
     </tu>
     <tu>
@@ -2138,6 +2698,46 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T112438Z" creationid="cartesinus" creationdate="20200225T112438Z">
         <seg>notifícame cuando comience una reunión en mi calendario</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section publishes a new article</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194938Z" creationid="cartesinus" creationdate="20200229T194938Z">
+        <seg>notifíqueme cuando la sección NEWS.SLOT.PORTAL NEWS.SLOT.SECTION publique un nuevo artículo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>on spotify play SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212232Z" creationid="cartesinus" creationdate="20200229T212232Z">
+        <seg>en spotify reproduce SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>on spotify play SPOTIFY.SLOT.SONG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211838Z" creationid="cartesinus" creationdate="20200229T211838Z">
+        <seg>en spotify reproduce SPOTIFY.SLOT.SONG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>on spotify play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212013Z" creationid="cartesinus" creationdate="20200229T212013Z">
+        <seg>en spotify reproduce SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open NEWS.SLOT.PORTAL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194733Z" creationid="cartesinus" creationdate="20200229T194733Z">
+        <seg>abrir NEWS.SLOT.PORTAL</seg>
       </tuv>
     </tu>
     <tu>
@@ -2238,6 +2838,422 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>open slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195331Z" creationid="cartesinus" creationdate="20200229T195331Z">
+        <seg>abre slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211229Z" creationid="cartesinus" creationdate="20200229T211229Z">
+        <seg>abrir spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open spotify and play some music</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211235Z" creationid="cartesinus" creationdate="20200229T211235Z">
+        <seg>abre spotify y reproduce música</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open spotify to play some music</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211238Z" creationid="cartesinus" creationdate="20200229T211238Z">
+        <seg>abrir spotify para reproducir música</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>pause my spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212427Z" creationid="cartesinus" creationdate="20200229T212427Z">
+        <seg>pausa mi spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>pause spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212425Z" creationid="cartesinus" creationdate="20200229T212425Z">
+        <seg>pausa spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>pause that song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212432Z" creationid="cartesinus" creationdate="20200229T212432Z">
+        <seg>pausa esa canción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>pause that track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212434Z" creationid="cartesinus" creationdate="20200229T212434Z">
+        <seg>pausa esa pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>pause this song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212429Z" creationid="cartesinus" creationdate="20200229T212429Z">
+        <seg>pausa esta canción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>pause this track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212430Z" creationid="cartesinus" creationdate="20200229T212430Z">
+        <seg>pausa esta pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>phone PHONE.SLOT.NUMBER</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195031Z" creationid="cartesinus" creationdate="20200229T195031Z">
+        <seg>teléfono PHONE.SLOT.NUMBER</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212023Z" creationid="cartesinus" creationdate="20200229T212023Z">
+        <seg>reproduce SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212038Z" creationid="cartesinus" creationdate="20200229T212038Z">
+        <seg>reproduce SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play SPOTIFY.SLOT.SONG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211602Z" creationid="cartesinus" creationdate="20200229T211602Z">
+        <seg>reproduce SPOTIFY.SLOT.SONG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211850Z" creationid="cartesinus" creationdate="20200229T211850Z">
+        <seg>reproduce SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211923Z" creationid="cartesinus" creationdate="20200229T211923Z">
+        <seg>reproduce SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play SPOTIFY.SLOT.SONG on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211613Z" creationid="cartesinus" creationdate="20200229T211613Z">
+        <seg>reproduce SPOTIFY.SLOT.SONG en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play a SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212127Z" creationid="cartesinus" creationdate="20200229T212127Z">
+        <seg>reproduce SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST-</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play a SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212143Z" creationid="cartesinus" creationdate="20200229T212143Z">
+        <seg>reproduce SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play a song SPOTIFY.SLOT.SONG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211805Z" creationid="cartesinus" creationdate="20200229T211805Z">
+        <seg>reproduce una canción SPOTIFY.SLOT.SONG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play a song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211952Z" creationid="cartesinus" creationdate="20200229T211952Z">
+        <seg>reproduce una canción SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play a song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212004Z" creationid="cartesinus" creationdate="20200229T212004Z">
+        <seg>reproduce una canción SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play a song SPOTIFY.SLOT.SONG on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211824Z" creationid="cartesinus" creationdate="20200229T211824Z">
+        <seg>reproduce una canción SPOTIFY.SLOT.SONG en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play my spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212308Z" creationid="cartesinus" creationdate="20200229T212308Z">
+        <seg>reproduce mi spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play next song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212531Z" creationid="cartesinus" creationdate="20200229T212531Z">
+        <seg>pon la siguiente canción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play next song on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212549Z" creationid="cartesinus" creationdate="20200229T212549Z">
+        <seg>reproduce la canción siguiente en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play next track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212601Z" creationid="cartesinus" creationdate="20200229T212601Z">
+        <seg>reproduce la siguiente pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play next track on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212609Z" creationid="cartesinus" creationdate="20200229T212609Z">
+        <seg>reproduce la siguiente pista en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play some music on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211506Z" creationid="cartesinus" creationdate="20200229T211351Z">
+        <seg>reproduce música en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212259Z" creationid="cartesinus" creationdate="20200229T212259Z">
+        <seg>reproduce spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play that song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212413Z" creationid="cartesinus" creationdate="20200229T212402Z">
+        <seg>reproduce esa canción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play that track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212422Z" creationid="cartesinus" creationdate="20200229T212422Z">
+        <seg>reproduce esa pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212055Z" creationid="cartesinus" creationdate="20200229T212044Z">
+        <seg>reproduce el SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212108Z" creationid="cartesinus" creationdate="20200229T212108Z">
+        <seg>reproduce el SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the last song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T215300Z" creationid="cartesinus" creationdate="20200229T215300Z">
+        <seg>reproduce la ultima cancion</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the last song on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T215307Z" creationid="cartesinus" creationdate="20200229T215307Z">
+        <seg>reproduce la última canción en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the last track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T215320Z" creationid="cartesinus" creationdate="20200229T215320Z">
+        <seg>reproduce la última pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the last track on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T215329Z" creationid="cartesinus" creationdate="20200229T215329Z">
+        <seg>reproduce la última pista en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the next song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212627Z" creationid="cartesinus" creationdate="20200229T212627Z">
+        <seg>reproduce la canción siguiente</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the next song on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212630Z" creationid="cartesinus" creationdate="20200229T212630Z">
+        <seg>reproduce la siguiente canción en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the next track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212634Z" creationid="cartesinus" creationdate="20200229T212634Z">
+        <seg>reproduce la siguiente pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the next track on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212641Z" creationid="cartesinus" creationdate="20200229T212641Z">
+        <seg>reproduce la siguiente pista en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the previous song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T215027Z" creationid="cartesinus" creationdate="20200229T215027Z">
+        <seg>reproduce la canción anterior</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the previous song on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T215034Z" creationid="cartesinus" creationdate="20200229T215034Z">
+        <seg>reproduce la canción anterior en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the previous track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T215247Z" creationid="cartesinus" creationdate="20200229T215247Z">
+        <seg>reproduce la pista anterior</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the previous track on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T215253Z" creationid="cartesinus" creationdate="20200229T215253Z">
+        <seg>reproduce la pista anterior en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the song SPOTIFY.SLOT.SONG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211746Z" creationid="cartesinus" creationdate="20200229T211746Z">
+        <seg>reproduce la canción SPOTIFY.SLOT.SONG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211934Z" creationid="cartesinus" creationdate="20200229T211934Z">
+        <seg>reproduce la canción SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211942Z" creationid="cartesinus" creationdate="20200229T211942Z">
+        <seg>reproduce la canción SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play the song SPOTIFY.SLOT.SONG on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211749Z" creationid="cartesinus" creationdate="20200229T211749Z">
+        <seg>reproduce la canción SPOTIFY.SLOT.SONG en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play this song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212408Z" creationid="cartesinus" creationdate="20200229T212316Z">
+        <seg>reproduce esta canción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play this track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212345Z" creationid="cartesinus" creationdate="20200229T212345Z">
+        <seg>reproduce esta pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>post FACEBOOK.SLOT.PICTURE_URL on facebook</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T144130Z" creationid="cartesinus" creationdate="20200225T144130Z">
@@ -2270,6 +3286,46 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>post SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200340Z" creationid="cartesinus" creationdate="20200229T200340Z">
+        <seg>publicar SLACK.SLOT.MESSAGE en SLACK.SLOT.CHANNEL en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201800Z" creationid="cartesinus" creationdate="20200229T201800Z">
+        <seg>publicar SLACK.SLOT.PICTURE_URL en SLACK.SLOT.CHANNEL en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post SLACK.SLOT.PICTURE_URL to slack channel SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201835Z" creationid="cartesinus" creationdate="20200229T201835Z">
+        <seg>publicar SLACK.SLOT.PICTURE_URL en el canal de slack SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post a message on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201119Z" creationid="cartesinus" creationdate="20200229T201119Z">
+        <seg>publicar un mensaje en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200418Z" creationid="cartesinus" creationdate="20200229T200418Z">
+        <seg>publicar un mensaje en slack en SLACK.SLOT.CHANNEL diciendo SLACK.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>post a picture on facebook</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T143915Z" creationid="cartesinus" creationdate="20200225T143821Z">
@@ -2294,6 +3350,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>post a picture on slack to SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201317Z" creationid="cartesinus" creationdate="20200229T201317Z">
+        <seg>publicar una imagen en slack en SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201643Z" creationid="cartesinus" creationdate="20200229T201643Z">
+        <seg>publicar una imagen en slack en SLACK.SLOT.CHANNEL con el título SLACK.SLOT.CAPTION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>post a picture to facebook</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T143927Z" creationid="cartesinus" creationdate="20200225T143927Z">
@@ -2306,6 +3378,14 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T143934Z" creationid="cartesinus" creationdate="20200225T143934Z">
         <seg>publica una foto en mi facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201653Z" creationid="cartesinus" creationdate="20200229T201653Z">
+        <seg>publicar una imagen en el canal de slack SLACK.SLOT.CHANNEL con el título SLACK.SLOT.CAPTION</seg>
       </tuv>
     </tu>
     <tu>
@@ -2330,6 +3410,30 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T143851Z" creationid="cartesinus" creationdate="20200225T143748Z">
         <seg>publica en Facebook que FACEBOOK.SLOT.STATUS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201115Z" creationid="cartesinus" creationdate="20200229T201115Z">
+        <seg>publicar en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post on slack channel SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201629Z" creationid="cartesinus" creationdate="20200229T201629Z">
+        <seg>publicar en el canal de slack SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>post on slack to SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201413Z" creationid="cartesinus" creationdate="20200229T201413Z">
+        <seg>publicar en slack en SLACK.SLOT.CHANNEL</seg>
       </tuv>
     </tu>
     <tu>
@@ -2390,6 +3494,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>read NEWS.SLOT.PORTAL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194801Z" creationid="cartesinus" creationdate="20200229T194801Z">
+        <seg>leer NEWS.SLOT.PORTAL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>record my weight on fitbit</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T152717Z" creationid="cartesinus" creationdate="20200225T152643Z">
@@ -2398,10 +3510,226 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>reduce my speaker 's volume</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210919Z" creationid="cartesinus" creationdate="20200229T210919Z">
+        <seg>reducir el volumen de mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>reduce speaker 's volume</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210917Z" creationid="cartesinus" creationdate="20200229T210917Z">
+        <seg>reducir el volumen del altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>reduce the volume of my speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210912Z" creationid="cartesinus" creationdate="20200229T210912Z">
+        <seg>reducir el volumen de mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>reduce the volume of speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210910Z" creationid="cartesinus" creationdate="20200229T210910Z">
+        <seg>reducir el volumen del altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>reduce volume of my speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210908Z" creationid="cartesinus" creationdate="20200229T210908Z">
+        <seg>reducir el volumen de mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>reduce volume of speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T210906Z" creationid="cartesinus" creationdate="20200229T210906Z">
+        <seg>reducir el volumen del altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>repeat my spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212514Z" creationid="cartesinus" creationdate="20200229T212514Z">
+        <seg>repite mi spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>repeat spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212512Z" creationid="cartesinus" creationdate="20200229T212512Z">
+        <seg>repite spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>repeat that song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212522Z" creationid="cartesinus" creationdate="20200229T212522Z">
+        <seg>repite esa canción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>repeat that track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212524Z" creationid="cartesinus" creationdate="20200229T212524Z">
+        <seg>repite esa pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>repeat this song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212517Z" creationid="cartesinus" creationdate="20200229T212517Z">
+        <seg>repite esta canción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>repeat this track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212520Z" creationid="cartesinus" creationdate="20200229T212520Z">
+        <seg>repite esta pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>reply to EMAIL.SLOT.TO</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T124945Z" creationid="cartesinus" creationdate="20200225T124945Z">
         <seg>responde a EMAIL.SLOT.TO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>resume my spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212459Z" creationid="cartesinus" creationdate="20200229T212459Z">
+        <seg>reanuda mi spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>resume spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212440Z" creationid="cartesinus" creationdate="20200229T212440Z">
+        <seg>reanuda spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>resume that song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212505Z" creationid="cartesinus" creationdate="20200229T212505Z">
+        <seg>reanudar esa canción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>resume that track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212506Z" creationid="cartesinus" creationdate="20200229T212506Z">
+        <seg>reanudar esa pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>resume this song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212503Z" creationid="cartesinus" creationdate="20200229T212503Z">
+        <seg>reanudar esta canción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>resume this track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212504Z" creationid="cartesinus" creationdate="20200229T212504Z">
+        <seg>reanudar esta pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200348Z" creationid="cartesinus" creationdate="20200229T200348Z">
+        <seg>enviar SLACK.SLOT.MESSAGE a SLACK.SLOT.CHANNEL en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201809Z" creationid="cartesinus" creationdate="20200229T201809Z">
+        <seg>enviar SLACK.SLOT.PICTURE_URL a SLACK.SLOT.CHANNEL en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a message on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201200Z" creationid="cartesinus" creationdate="20200229T201200Z">
+        <seg>enviar un mensaje en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200448Z" creationid="cartesinus" creationdate="20200229T200448Z">
+        <seg>envíe un mensaje de slack a SLACK.SLOT.CHANNEL diciendo SLACK.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a message to PHONE.SLOT.TO</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195124Z" creationid="cartesinus" creationdate="20200229T195124Z">
+        <seg>enviar un mensaje a PHONE.SLOT.TO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195239Z" creationid="cartesinus" creationdate="20200229T195239Z">
+        <seg>envíe un mensaje a PHONE.SLOT.TO que contenga PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195231Z" creationid="cartesinus" creationdate="20200229T195231Z">
+        <seg>envíe un mensaje a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a picture on slack to SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201329Z" creationid="cartesinus" creationdate="20200229T201329Z">
+        <seg>enviar una imagen en slack a SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201716Z" creationid="cartesinus" creationdate="20200229T201716Z">
+        <seg>envíe una imagen en slack a SLACK.SLOT.CHANNEL con el subtítulo SLACK.SLOT.CAPTION</seg>
       </tuv>
     </tu>
     <tu>
@@ -2418,6 +3746,46 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T124832Z" creationid="cartesinus" creationdate="20200225T124832Z">
         <seg>manda una foto a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT usando mi gmail</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201727Z" creationid="cartesinus" creationdate="20200229T201727Z">
+        <seg>enviar una imagen al canal de slack SLACK.SLOT.CHANNEL con el subtítulo SLACK.SLOT.CAPTION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a sms to PHONE.SLOT.TO</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195131Z" creationid="cartesinus" creationdate="20200229T195131Z">
+        <seg>enviar un sms a PHONE.SLOT.TO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a text to PHONE.SLOT.TO</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195121Z" creationid="cartesinus" creationdate="20200229T195121Z">
+        <seg>envíe un mensaje de texto a PHONE.SLOT.TO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a text to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195226Z" creationid="cartesinus" creationdate="20200229T195226Z">
+        <seg>envíe un mensaje de texto a PHONE.SLOT.TO que contenga PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a text to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195222Z" creationid="cartesinus" creationdate="20200229T195222Z">
+        <seg>envíe un mensaje de texto a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE</seg>
       </tuv>
     </tu>
     <tu>
@@ -2458,6 +3826,70 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T124917Z" creationid="cartesinus" creationdate="20200225T124917Z">
         <seg>envía un email a alguien</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send an sms message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195220Z" creationid="cartesinus" creationdate="20200229T195220Z">
+        <seg>envíe un mensaje SMS a PHONE.SLOT.TO que contenga PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send an sms message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195219Z" creationid="cartesinus" creationdate="20200229T195219Z">
+        <seg>envíe un mensaje SMS a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send an sms to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195216Z" creationid="cartesinus" creationdate="20200229T195216Z">
+        <seg>envíe un SMS a PHONE.SLOT.TO que contenga PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send an sms to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195203Z" creationid="cartesinus" creationdate="20200229T195203Z">
+        <seg>envíe un sms a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201146Z" creationid="cartesinus" creationdate="20200229T201146Z">
+        <seg>enviar en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send something to slack channel SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201404Z" creationid="cartesinus" creationdate="20200229T201404Z">
+        <seg>enviar algo al canal de slack SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set me as away on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200956Z" creationid="cartesinus" creationdate="20200229T200956Z">
+        <seg>ponme como fuera en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set me as not away on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201007Z" creationid="cartesinus" creationdate="20200229T201007Z">
+        <seg>ponme como no fuera en slack</seg>
       </tuv>
     </tu>
     <tu>
@@ -2510,6 +3942,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>set the purpose for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200922Z" creationid="cartesinus" creationdate="20200229T200616Z">
+        <seg>establece el propósito del canal SLACK.SLOT.CHANNEL a SLACK.SLOT.PURPOSE en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set the purpose for slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200916Z" creationid="cartesinus" creationdate="20200229T200845Z">
+        <seg>establezca el propósito para el canal de slack SLACK.SLOT.CHANNEL a SLACK.SLOT.PURPOSE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>set the temperature between 23 degree and 29 degree on my thermostat</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T100839Z" creationid="cartesinus" creationdate="20200225T100839Z">
@@ -2530,6 +3978,22 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T100132Z" creationid="cartesinus" creationdate="20200225T100132Z">
         <seg>ajusta la temperatura a AIRCONDITIONER.SLOT.VALUE en mi termostato</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set the topic for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200909Z" creationid="cartesinus" creationdate="20200229T200850Z">
+        <seg>establezca el tema para el canal SLACK.SLOT.CHANNEL a SLACK.SLOT.TOPIC en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set the topic of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200902Z" creationid="cartesinus" creationdate="20200229T200902Z">
+        <seg>establecer el tema del canal slack SLACK.SLOT.CHANNEL a SLACK.SLOT.TOPIC</seg>
       </tuv>
     </tu>
     <tu>
@@ -2766,10 +4230,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>show me my post from INSTAGRAM.SLOT.DATE_MONTH</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194325Z" creationid="cartesinus" creationdate="20200229T194325Z">
+        <seg>muéstrame mi publicación de INSTAGRAM.SLOT.DATE_MONTH</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me my post from the INSTAGRAM.SLOT.DATE_DAY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194312Z" creationid="cartesinus" creationdate="20200229T194312Z">
+        <seg>muéstrame mi publicación del INSTAGRAM.SLOT.DATE_DAY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me my posts from INSTAGRAM.SLOT.DATE_MONTH</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194342Z" creationid="cartesinus" creationdate="20200229T194342Z">
+        <seg>muéstrame mis publicaciones de INSTAGRAM.SLOT.DATE_MONTH</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me my posts from the INSTAGRAM.SLOT.DATE_DAY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194339Z" creationid="cartesinus" creationdate="20200229T194339Z">
+        <seg>muéstrame mis publicaciones del INSTAGRAM.SLOT.DATE_DAY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>show me my recent instagram pictures</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200226T164833Z" creationid="cartesinus" creationdate="20200226T164833Z">
         <seg>muéstrame mis fotos recientes de instagram</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me news from NEWS.SLOT.PORTAL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194812Z" creationid="cartesinus" creationdate="20200229T194812Z">
+        <seg>muéstrame noticias de NEWS.SLOT.PORTAL</seg>
       </tuv>
     </tu>
     <tu>
@@ -2834,6 +4338,14 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200226T174143Z" creationid="cartesinus" creationdate="20200226T174143Z">
         <seg>muéstrame las fotos de instagram con la etiqueta de ubicación INSTAGRAM.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me the news from NEWS.SLOT.PORTAL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194813Z" creationid="cartesinus" creationdate="20200229T194813Z">
+        <seg>muéstrame las noticias de NEWS.SLOT.PORTAL</seg>
       </tuv>
     </tu>
     <tu>
@@ -3190,10 +4702,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>show my sms inbox</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195053Z" creationid="cartesinus" creationdate="20200229T195053Z">
+        <seg>mostrar mi bandeja de entrada de sms</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>show my starred google drive files</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T153843Z" creationid="cartesinus" creationdate="20200225T153843Z">
         <seg>muestra mis archivos favoritos de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show news from NEWS.SLOT.PORTAL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194807Z" creationid="cartesinus" creationdate="20200229T194807Z">
+        <seg>mostrar noticias de NEWS.SLOT.PORTAL</seg>
       </tuv>
     </tu>
     <tu>
@@ -3318,6 +4846,150 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>show the news from NEWS.SLOT.PORTAL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194810Z" creationid="cartesinus" creationdate="20200229T194810Z">
+        <seg>mostrar las noticias de NEWS.SLOT.PORTAL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>silence my speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211136Z" creationid="cartesinus" creationdate="20200229T211136Z">
+        <seg>silenciar mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>silence speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211119Z" creationid="cartesinus" creationdate="20200229T211119Z">
+        <seg>altavoz en silencio</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>silence the speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211146Z" creationid="cartesinus" creationdate="20200229T211146Z">
+        <seg>silenciar el altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>skip than song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212728Z" creationid="cartesinus" creationdate="20200229T212723Z">
+        <seg>salta esa canción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>skip than song on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T214751Z" creationid="cartesinus" creationdate="20200229T214751Z">
+        <seg>salta esa canción en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>skip than track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T214804Z" creationid="cartesinus" creationdate="20200229T214804Z">
+        <seg>salta esa pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>skip than track on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T214820Z" creationid="cartesinus" creationdate="20200229T214820Z">
+        <seg>salta esa pista en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>skip this song</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212645Z" creationid="cartesinus" creationdate="20200229T212645Z">
+        <seg>salta esta canción</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>skip this song on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212647Z" creationid="cartesinus" creationdate="20200229T212647Z">
+        <seg>salta esta canción en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>skip this track</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212658Z" creationid="cartesinus" creationdate="20200229T212650Z">
+        <seg>salta esta pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>skip this track on spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T212706Z" creationid="cartesinus" creationdate="20200229T212706Z">
+        <seg>salta esta pista en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sms PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195312Z" creationid="cartesinus" creationdate="20200229T195312Z">
+        <seg>sms a PHONE.SLOT.TO que contiene PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sms PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195305Z" creationid="cartesinus" creationdate="20200229T195305Z">
+        <seg>sms a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>switch SPEAKER.SLOT.POWER my speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T202319Z" creationid="cartesinus" creationdate="20200229T202319Z">
+        <seg>SPEAKER.SLOT.POWER mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>switch SPEAKER.SLOT.POWER my speaker for me</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T203716Z" creationid="cartesinus" creationdate="20200229T203716Z">
+        <seg>SPEAKER.SLOT.POWER mi altavoz para mí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>switch SPEAKER.SLOT.POWER the speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T202329Z" creationid="cartesinus" creationdate="20200229T202329Z">
+        <seg>SPEAKER.SLOT.POWER el altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>switch SPEAKER.SLOT.POWER the speaker for me</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T203730Z" creationid="cartesinus" creationdate="20200229T203730Z">
+        <seg>SPEAKER.SLOT.POWER el altavoz para mí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>switch off the AIRCONDITIONER.SLOT.AV_ALIAS</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T095018Z" creationid="cartesinus" creationdate="20200225T095018Z">
@@ -3350,10 +5022,66 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>take a picture using Instagram</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194357Z" creationid="cartesinus" creationdate="20200229T194357Z">
+        <seg>tomar una foto usando Instagram</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>take a picture with Instagram</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194401Z" creationid="cartesinus" creationdate="20200229T194401Z">
+        <seg>toma una foto con Instagram</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>tell me if my weight goes over FITBIT.SLOT.WEIGHT</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T152802Z" creationid="cartesinus" creationdate="20200225T152802Z">
         <seg>dime si mi peso sobrepasa FITBIT.SLOT.WEIGHT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>text PHONE.SLOT.TO</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195151Z" creationid="cartesinus" creationdate="20200229T195151Z">
+        <seg>manda un mensaje a PHONE.SLOT.TO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>text PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195257Z" creationid="cartesinus" creationdate="20200229T195257Z">
+        <seg>mensaje a PHONE.SLOT.TO que contiene PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>text PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195247Z" creationid="cartesinus" creationdate="20200229T195247Z">
+        <seg>texto a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194858Z" creationid="cartesinus" creationdate="20200229T194832Z">
+        <seg>la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the NEWS.SLOT.SECTION section of the NEWS.SLOT.PORTAL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T194830Z" creationid="cartesinus" creationdate="20200229T194830Z">
+        <seg>la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL</seg>
       </tuv>
     </tu>
     <tu>
@@ -3438,6 +5166,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>the presence of SLACK.SLOT.USERNAME on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195433Z" creationid="cartesinus" creationdate="20200229T195433Z">
+        <seg>la presencia de SLACK.SLOT.USERNAME en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>the step count from fitbit</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T145213Z" creationid="cartesinus" creationdate="20200225T145213Z">
@@ -3466,6 +5202,38 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T151416Z" creationid="cartesinus" creationdate="20200225T151323Z">
         <seg>los pasos que he hecho FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>turn SPEAKER.SLOT.POWER my speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T202235Z" creationid="cartesinus" creationdate="20200229T202235Z">
+        <seg>SPEAKER.SLOT.POWER mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>turn SPEAKER.SLOT.POWER my speaker for me</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T202433Z" creationid="cartesinus" creationdate="20200229T202433Z">
+        <seg>SPEAKER.SLOT.POWER mi altavoz para mí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>turn SPEAKER.SLOT.POWER the speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T202247Z" creationid="cartesinus" creationdate="20200229T202247Z">
+        <seg>SPEAKER.SLOT.POWER el altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>turn SPEAKER.SLOT.POWER the speaker for me</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T202443Z" creationid="cartesinus" creationdate="20200229T202443Z">
+        <seg>SPEAKER.SLOT.POWER el altavoz para mí</seg>
       </tuv>
     </tu>
     <tu>
@@ -3502,6 +5270,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>unmute my speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211209Z" creationid="cartesinus" creationdate="20200229T211209Z">
+        <seg>activar mi altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>unmute speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211207Z" creationid="cartesinus" creationdate="20200229T211207Z">
+        <seg>activar el altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>unmute the speaker</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211223Z" creationid="cartesinus" creationdate="20200229T211223Z">
+        <seg>activar el altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>update my facebook page saying FACEBOOK.SLOT.STATUS</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T143859Z" creationid="cartesinus" creationdate="20200225T143803Z">
@@ -3534,6 +5326,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>upload SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200404Z" creationid="cartesinus" creationdate="20200229T200404Z">
+        <seg>subir SLACK.SLOT.MESSAGE a SLACK.SLOT.CHANNEL en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201825Z" creationid="cartesinus" creationdate="20200229T201825Z">
+        <seg>subir SLACK.SLOT.PICTURE_URL a SLACK.SLOT.CHANNEL en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload a message on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201308Z" creationid="cartesinus" creationdate="20200229T201308Z">
+        <seg>subir un mensaje en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T200457Z" creationid="cartesinus" creationdate="20200229T200457Z">
+        <seg>subir un mensaje en slack a SLACK.SLOT.CHANNEL diciendo SLACK.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>upload a picture on facebook</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T143941Z" creationid="cartesinus" creationdate="20200225T143941Z">
@@ -3558,6 +5382,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>upload a picture on slack to SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201342Z" creationid="cartesinus" creationdate="20200229T201342Z">
+        <seg>subir una imagen en slack a SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201741Z" creationid="cartesinus" creationdate="20200229T201741Z">
+        <seg>subir una imagen en slack a SLACK.SLOT.CHANNEL con el título SLACK.SLOT.CAPTION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>upload a picture to facebook</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T143956Z" creationid="cartesinus" creationdate="20200225T143956Z">
@@ -3574,6 +5414,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>upload a picture to slack channel SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201356Z" creationid="cartesinus" creationdate="20200229T201356Z">
+        <seg>subir una imagen al canal de slack SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201753Z" creationid="cartesinus" creationdate="20200229T201753Z">
+        <seg>subir una imagen al canal de slack SLACK.SLOT.CHANNEL con el subtítulo SLACK.SLOT.CAPTION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>upload a picture with caption FACEBOOK.SLOT.CAPTION on facebook</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T144117Z" creationid="cartesinus" creationdate="20200225T144117Z">
@@ -3582,10 +5438,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>upload on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T201204Z" creationid="cartesinus" creationdate="20200229T201204Z">
+        <seg>subir en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>upload to facebook FACEBOOK.SLOT.PICTURE_URL</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T144708Z" creationid="cartesinus" creationdate="20200225T144708Z">
         <seg>sube a facebook FACEBOOK.SLOT.PICTURE_URL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>use spotify</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211256Z" creationid="cartesinus" creationdate="20200229T211256Z">
+        <seg>usar spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>use spotify and play some music</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211258Z" creationid="cartesinus" creationdate="20200229T211258Z">
+        <seg>usa spotify y reproduce música</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>use spotify to play some music</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T211345Z" creationid="cartesinus" creationdate="20200229T211345Z">
+        <seg>usa spotify para reproducir música</seg>
       </tuv>
     </tu>
     <tu>
@@ -3714,6 +5602,22 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T112303Z" creationid="cartesinus" creationdate="20200225T112250Z">
         <seg>qué hay en mi horario CALENDAR.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>whether SLACK.SLOT.USERNAME is active on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195437Z" creationid="cartesinus" creationdate="20200229T195437Z">
+        <seg>si SLACK.SLOT.USERNAME está activo en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>whether SLACK.SLOT.USERNAME is away on slack</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200229T195452Z" creationid="cartesinus" creationdate="20200229T195452Z">
+        <seg>si SLACK.SLOT.USERNAME está fuera en slack</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->

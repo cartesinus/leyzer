@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = contacts__  (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11> | 12__ <INTENT_12>);
+public <S> = contacts__  (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11>);
 
 #INTENTS
 <INTENT_1> = <SHOW_VERB> my contacts;
@@ -16,15 +16,13 @@ public <S> = contacts__  (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__
 
 <INTENT_7> = create a new contact (and name it | using a name | and call it) <NAME> (with [a | the] number | and give it a number | and add the number) <PHONE_NUMBER> [as <PHONE_TYPE>];
 
-<INTENT_8> = edit my contact <NAME>;
+<INTENT_8> = (edit my contact <NAME> | open my contact <NAME> for edition);
 
-<INTENT_9> = open my contact <NAME> for edition;
+<INTENT_9> = change the name of my contact with number <PHONE_NUMBER>;
 
-<INTENT_10> = change the name of my contact with number <PHONE_NUMBER>;
+<INTENT_10> = change the number of my contact <NAME>;
 
-<INTENT_11> = change the number of my contact <NAME>;
-
-<INTENT_12> = set the number <PHONE_NUMBER> in contact <NAME> as <PHONE_TYPE>;
+<INTENT_11> = set the number <PHONE_NUMBER> in contact <NAME> as <PHONE_TYPE>;
 
 #SLOTS
 <EMAIL> = CONTACTS.SLOT.EMAIL; 

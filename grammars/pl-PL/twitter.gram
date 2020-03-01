@@ -1,0 +1,29 @@
+#JSGF V1.0;
+public <S> = twitter__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6>);
+
+#INTENTS
+#show user tweets
+<INTENT_1> = <SHOW_VERB> [moje] (twitty | posty na twitterze | twitty które napisałem);
+
+#follow given user
+<INTENT_2> = (obserwuj | zostań followersem | zacznij śledzić) <USERNAME>;
+
+#unfollow given user
+<INTENT_3> = przestań (obserować | śledzić) <USERNAME> na twitterze;
+
+#send message to user
+<INTENT_4> = [wyślij | napisz] (wiadomość | pw | prywatną wiadomość) [na twitterze] o treści <MESSAGE>;
+
+#send message to user
+<INTENT_5> = [wyślij | napisz] (wiadomość | pw | prywatną wiadomość) do <USERNAME> o treści <MESSAGE>;
+
+#find tweets with hashtags
+<INTENT_6> = [znajdź | <SHOW_VERB>] twitty z hashtagiem <HASHTAG>;
+
+#SLOTS
+<USERNAME> = TWITTER.SLOT.USERNAME;
+<MESSAGE> = TWITTER.SLOT.MESSAGE;
+<HASHTAG> = TWITTER.SLOT.HASHTAG;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = pokaż | wyświetl;

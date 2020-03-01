@@ -34,13 +34,13 @@ public <S> = instagram__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__
 
 <INTENT_6> = <SHOW_VERB> my instagram pictures tagged <HASHTAG>;
 
-<INTENT_7> = create a [new] post on Instagram with all my photos taken in <LOCATION> (on the <DATE_DAY> | in <DATE_MONTH>) as a collage;
+<INTENT_7> = create a [new] post on instagram with all my photos taken in <LOCATION> (on the <DATE_DAY> | in <DATE_MONTH>) as a collage;
 
 <INTENT_8> = <SHOW_VERB> my (post | posts) from (the <DATE_DAY> | <DATE_MONTH>);
 
-<INTENT_9> = take a picture (using | with) Instagram;
+<INTENT_9> = take a picture (using | with) instagram;
 
-<INTENT_10> = create a [new] post on Instagram with the last photo from Gallery [(and a tag <LOCATION> | (and add | adding) (<FILTER> filter | <HASHTAG> hashtag))];
+<INTENT_10> = create a [new] post on instagram with the last photo from Gallery [(and a tag <LOCATION> | (and add | adding) (<FILTER> filter | <HASHTAG> hashtag))];
 
 #SLOTS
 <HASHTAG> = INSTAGRAM.SLOT.HASHTAG;

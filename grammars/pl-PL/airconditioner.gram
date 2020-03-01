@@ -1,0 +1,36 @@
+#JSGF V1.0;
+public <S> = aircondition__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11>);
+
+#INTENTS
+<INTENT_1> = włącz <AV_ALIAS>;
+
+<INTENT_2> = (turn the <AV_ALIAS> off) | (turn off the <AV_ALIAS>) | (switch (off the <AV_ALIAS> | the <AV_ALIAS> off));
+
+<INTENT_3> = zmień temperaturę (na [moim] termostacie | minimalną i maksymalną na [moim] termostacie);
+
+<INTENT_4> = (ustaw | nastaw) (temperaturę na [moim] termostacie na <VALUE> | mój termostat na <VALUE>);
+
+<INTENT_5> = (ustaw | nastaw) ([temperaturę na] [moim] termostacie <DEVICE_NAME> na <VALUE> | temperaturę na <VALUE> na [moim] termostacie <DEVICE_NAME>);
+
+<INTENT_6> = (ustaw | nastaw) temperaturę [na [moim] termostacie] pomiędzy <LOW> a <HIGH>;
+
+<INTENT_7> = zmień temperaturę na [[moim] termostacie] <DEVICE_NAME>;
+
+<INTENT_8> = pokaż poziom wilgotności | [powiedz mi | pokaż mi] jaki jest poziom wilgotności;
+
+<INTENT_9> = jaka jest temperatura [według [mojego] termostatu <DEVICE_NAME>] | co termostat <DEVICE_NAME> mówi o temperaturze;
+
+<INTENT_10> = jaka jest temperatura [według [mojego] termostatu] | co termostat mówi o temperaturze;
+
+<INTENT_11> = (co [mój] termostat w <DEVICE_NAME> mówi o temperaturze | jaką temperaturę pokazuje [mój] termostat w <DEVICE_NAME>)?;
+
+#SLOTS
+<DEVICE_NAME> = AIRCONDITIONER.SLOT.DEVICE_NAME;
+<LOW> = 23 stopni;
+<HIGH> = 29 stopni;
+<VALUE> = AIRCONDITIONER.SLOT.VALUE;
+<AV_ALIAS> = AIRCONDITIONER.SLOT.AV_ALIAS;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = show | get | check;
+<NOTIFY_VERB> = notify | tell;

@@ -1,0 +1,34 @@
+#JSGF V1.0;
+public <S> = calendar__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8>);
+
+#PRECONDITIONS
+<WHEN_1> = kiedy (spotkanie | wydarzenie) w [moim] kalendarzu się (rozpocznie | zacznie);
+<WHEN_2> = kiedy (spotkanie | wydarzenie) w [moim] kalendarzu w <LOCATION> się (rozpocznie | zacznie);
+
+#INTENTS
+<INTENT_1> = <SHOW_VERB> [mój] kalendarz;
+
+<INTENT_2> = (<SHOW_VERB> (plany | wydarzenia) <DATE> | co jest zaplanowane <DATE> | (jakie | czy) mam (wydarzenia | spotkania) <DATE> | <SHOW_VERB> [moje] (spotkania | wydarzenia));
+
+<INTENT_3> = dodaj wydarzenie [do kalendarza] o nazwie <EVENT_NAME> [to calendar];
+
+<INTENT_4> = (dodaj wydarzenie [do kalendarza] o nazwie <EVENT_NAME> <EVENT_DATE> | <EVENT_DATE> dodaj wydarzenie o nazwie <EVENT_NAME> [do kalendarza]);
+
+<INTENT_5> = (powiadom mnie | powiedz mi) <WHEN_1>;
+
+<INTENT_6> = nie (powiadamiaj mnie | mów mi) <WHEN_1>;
+
+<INTENT_7> = (powiadom mnie | powiedz mi) <WHEN_2>;
+
+<INTENT_8> = nie (powiadamiaj mnie | mów mi) <WHEN_2>;
+
+#SLOTS
+<DATE> = CALENDAR.SLOT.DATE;
+<EVENT_NAME> = CALENDAR.SLOT.EVENT_NAME;
+<EVENT_DATE> = CALENDAR.SLOT.EVENT_DATE;
+<LOCATION> = CALENDAR.SLOT.LOCATION;
+<ORGANIZER> = CALENDAR.SLOT.ORGANIZER;
+<COUNTRY> = CALENDAR.SLOT.COUNTRY;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = pokaż | wyświetl | otwórz;

@@ -1,0 +1,73 @@
+#JSGF V1.0;
+public <S> = spotify__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11> | 12__ <INTENT_12> | 13__ <INTENT_13> | 14__ <INTENT_14> | 15__ <INTENT_15> | 16__ <INTENT_16> | 17__ <INTENT_17> | 18__ <INTENT_18>);
+
+#INTENTS
+#open spotify
+<INTENT_1> = ((otwórz | użyj) spotify [i zagraj [mi] [coś] | włącz [jakąś] muzykę | puść muzykę];
+
+#play given song
+<INTENT_2> = <PLAY> [piosenkę] <SONG> na spotify;
+
+#play given song of given artist
+<INTENT_3> = (<PLAY> [piosenkę] <SONG> [artysty | w wykonaniu] <ARTIST> [na spotify] | (zagraj | graj) <ARTIST> <SONG>);
+
+#play given album of given artist
+<INTENT_4> = (<PLAY> <ALBUM_TYPE> <ALBUM> [od | wykonawcy] <ARTIST> [na spotify];
+
+#'press' pause | resume | play | repeat button on current song
+<INTENT_5> = odtwarzaj | pauza | wznów | powtórz) <SONG_NOUN> [na spotify];
+
+#next song
+<INTENT_6> = [<PLAY> następną (piosenkę | utwór | kawałek) | następna (piosenka | utwór | kawałek)] [na spotify];
+
+#previous song
+<INTENT_7> = [<PLAY> poprzednią (piosenkę | utwór | kawałek) | poprzednia (piosenka | utwór | kawałek)] [na spotify];
+
+#play given playlist
+<INTENT_8> = <PLAY> [moją] (listę | playlistę | listę odtwarzania) <PLAYLIST> [na spotify];
+
+#add current song to given playlist
+<INTENT_9> = (dodaj | zapisz) (tę piosenkę | ten utwór | ten kawałek) do [mojej] (playlisty | listy odtwarzania | listy) [o nazwie | która się nazywa] <PLAYLIST>;
+
+#add given song to given playlist
+<INTENT_10> = (dodaj | zapisz) [piosenkę | utwór | kawałek] <SONG> do [mojej] (playlisty | listy odtwarzania | listy) [o nazwie | która się nazywa] <PLAYLIST>;
+
+#add current album to playlist
+<INTENT_11> = (dodaj | zapisz) <ALBUM_TYPE> do [mojej] (playlisty | listy odtwarzania | listy) [o nazwie | która się nazywa] <PLAYLIST>;
+
+#create playlist root (no name is given)
+<INTENT_12> = (stórz | zrób | dodaj) [nową] (playlistę | listę odtwarzania | listę);
+
+#create playlist with given name
+<INTENT_13> = (stórz | zrób | dodaj) [nową] (playlistę | listę odtwarzania | listę) [o tytule] <PLAYLIST>;
+
+#save song (to default playlist?)
+<INTENT_14> = zapisz (tę piosenkę | ten utór | ten kawałek | cokolwiek leci | cokolwiek jest grane) (na [mojej] playliscie | na [mojej] liście odtwarzania | w [mojej] bibliotece);
+
+#seek by given number of seconds
+<INTENT_15> = (przewiń | przesuń) [tę piosenkę | ten utwór | ten kawałek] o <SEEK_TIME> sekund (do przodu | w przód);
+
+#shuffle on | off
+<INTENT_16> = <STATE> (shuffle | losowe odtwarzanie | losowość);
+
+#repeat on | off
+<INTENT_17> = (<STATE> (powtarzanie | repeat) | na rypicie);
+
+#dencability of current song
+<INTENT_18> = <INTENT_18_a> | <INTENT_18_b>;
+<INTENT_18_a> = (jak [bardzo] (ta piosenka jest taneczna | ten (utwór | kawałek) jest taneczny) | [podaj] taneczność (tej piosenki | tego utworu | tego kawałka);
+<INTENT_18_b> = czy (ta piosenka | ten utwór | ten kawałek) jest taneczny;
+
+#SLOTS
+<SONG> = SPOTIFY.SLOT.SONG;
+<ARTIST> = SPOTIFY.SLOT.ARTIST;
+<ALBUM> = SPOTIFY.SLOT.ALBUM;
+<PLAYLIST> = SPOTIFY.SLOT.PLAYLIST;
+<SEEK_TIME> = SPOTIFY.SLOT.SEEK_TIME;
+<STATE> = SPOTIFY.SLOT.STATE;
+<GENRES> = SPOTIFY.SLOT.GENRES;
+<ALBUM_TYPE> = SPOTIFY.SLOT.ALBUM_TYPE;
+
+#LANG. COMPONENTS
+<SONG_NOUN> = tę posenkę | ten utwór | ten kawałek;
+<PLAY> = graj | zagraj;

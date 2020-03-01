@@ -1,0 +1,34 @@
+#JSGF V1.0;
+public <S> = contacts__  (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11>);
+
+#INTENTS
+<INTENT_1> = <SHOW_VERB> ([moje] kontakty | [moją] listę kontaktów);
+
+<INTENT_2> = <SHOW_VERB> moje informacje w kontaktach;
+
+<INTENT_3> = <SHOW_VERB> [mój] kontakt (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
+
+<INTENT_4> = <SHOW_VERB> [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER>;
+
+<INTENT_5> = <SHOW_VERB> [mój] kontakt (o nazwie | nazywający się) <NAME>;
+
+<INTENT_6> = <SHOW_VERB> [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (oraz | i) (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
+
+<INTENT_7> = stwórz [nowy] kontakt (o nazwie | nazywając go) <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> [jako [typ] <PHONE_TYPE>];
+
+<INTENT_8> = ((aktualizuj | edytuj | popraw | zmień) [mój] kontakt [o nazwie] <NAME> | otwórz [mój] kontakt <NAME> (do edycji | żeby go edytować));
+
+<INTENT_9> = (aktualizuj | edytuj | popraw | zmień) nazwę [mojego] kontaktu (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER>;
+
+<INTENT_10> = (aktualizuj | edytuj | popraw | zmień) numer [telefonu] [mojego] kontaktu (o nazwie | nazywający się) <NAME>;
+
+<INTENT_11> = ustaw numer [telefonu] <PHONE_NUMBER> jako [typ] <PHONE_TYPE> i nazwij go <NAME>;
+
+#SLOTS
+<EMAIL> = CONTACTS.SLOT.EMAIL; 
+<PHONE_NUMBER> = CONTACTS.SLOT.PHONE_NUMBER;
+<NAME> = CONTACTS.SLOT.NAME;
+<PHONE_TYPE> = CONTACTS.SLOT.PHONE_TYPE;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = pokaż | wyświetl | otwórz;
