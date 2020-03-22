@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = speaker__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5>);
+public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> | IncreaseVolumeByPercent__ <INTENT_3> | DecreaseVolume__ <INTENT_4> | DecreaseVolumeByPercent__ <INTENT_5>| MuteOn__ <INTENT_6> | MuteOff__ <INTENT_7>);
 
 #INTENTS
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
@@ -10,14 +10,19 @@ public <S> = speaker__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <
 <INTENT_2_a> = zwiększ głośność [mojego] głośnika;
 <INTENT_2_b> = zrób głośniej [mój] głośnik;
 
-<INTENT_3> = <INTENT_3_a> | <INTENT_3_b>;
-<INTENT_3_a> = zmniejsz głośność [mojego] głośnika;
-<INTENT_3_b> = zrób ciszej [mój] głośnik;
+<INTENT_3> = <INTENT_2> o <PERCENT> [procent];
 
-<INTENT_4> = wycisz [mój] głośnik;
+<INTENT_4> = <INTENT_3_a> | <INTENT_3_b>;
+<INTENT_4_a> = zmniejsz głośność [mojego] głośnika;
+<INTENT_4_b> = zrób ciszej [mój] głośnik;
 
-<INTENT_5> = (cofnij wyciszenie | włącz głos) [mojego] głośnika;
+<INTENT_5> = <INTENT_4> o <PERCENT> [procent];
+
+<INTENT_6> = wycisz [mój] głośnik;
+
+<INTENT_7> = (cofnij wyciszenie | włącz głos) [mojego] głośnika;
 
 #SLOTS
 <DEVICE_NAME> = SPEAKER.SLOT.DEVICE_NAME;
 <POWER> = SPEAKER.SLOT.POWER;
+<PERCENT> = SPEAKER.SLOT.PERCENT;

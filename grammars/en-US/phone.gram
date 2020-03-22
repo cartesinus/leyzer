@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = phone__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5>);
+public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5>);
 
 #PRECONDITIONS
 <WHEN> = when i receive a sms;

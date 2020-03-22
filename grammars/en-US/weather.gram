@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = weather__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10>);
+public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> | WeatherInLocation__ <INTENT_3> | WeatherTomorrowInLocation__ <INTENT_4> | SunriseInLocation__ <INTENT_5> | SunsetInLocation__ <INTENT_6> | SunriseAndSunsetInLocation__ <INTENT_7> | SunriseAndSunsetInLocationAndOnDate__ <INTENT_8> | MoonphaseInLocation__ <INTENT_9> | MoonphaseInLocationOnDate__ <INTENT_10>);
 
 #PRECONDITIONS
 <WHEN> = when the temperature in <LOCATION> is below freezing;

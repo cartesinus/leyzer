@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = twitter__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6>);
+public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | UnfollowUser__ <INTENT_3> | SendMessage__ <INTENT_4> | SendMessageToUser__ <INTENT_5> | ShowTwittsWithHashtag__ <INTENT_6>);
 
 #PRECONDITIONS
 <WHEN> = when someone i follow tweets;

@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = news__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4>);
+public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | NotifyWhenPortalUpdates__ <INTENT_3> | NotifyWhenPortalUpdatesInSection__ <INTENT_4>);
 
 #PRECONDITIONS
 <WHEN_1> = when <PORTAL> (news | front page) updates;

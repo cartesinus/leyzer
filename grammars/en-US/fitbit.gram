@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = fitbit__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5>);
+public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | ShowBMI__ <INTENT_3> | AddWeight__ <INTENT_4> | NotifyOnWeight__ <INTENT_5>);
 
 #PRECONDITION
 <WHEN> = if my weight goes over <WEIGHT>;

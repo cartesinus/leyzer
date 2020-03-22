@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = youtube__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10>);
+public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | ShowFollowing__ <INTENT_6> | FindChannelWithQuery__ <INTENT_7> | FindQueryOnChannel__ <INTENT_8> | NotifyOnNewFromFollowing__ <INTENT_9> | NotifyonNewOnChannel__ <INTENT_10>);
 
 #PRECONDITIONS
 <WHEN_1> = when there is a new video from youtube channels I follow;

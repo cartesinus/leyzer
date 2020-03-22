@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = translate__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9>);
+public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageToLanguage__ <INTENT_2> | TranslateText__ <INTENT_3> | TranslateTextToLanguage__ <INTENT_4> | TranslateTextFromLanguageToLanguage__ <INTENT_5> | TranslateTextFromLanguageToLanguageWithEngine__ <INTENT_6> | TranslateToLanguage__ <INTENT_7> | TranslateTextFromLanguage__ <INTENT_8> | DetectLanguage__ <INTENT_9>);
 
 #INTENTS
 #method to set default target lang

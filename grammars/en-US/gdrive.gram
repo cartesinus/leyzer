@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = gdrive__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11>);
+public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> | ShowFilesWithStar__ <INTENT_3> | ShowFilesFromTime__ <INTENT_4> | ShowFilesWithSize__ <INTENT_5> | CreateFile__ <INTENT_6> | CreateFileWithName__ <INTENT_7> | ShowOldestFiles__ <INTENT_8> | SortReverseAlphabetical__ <INTENT_9> | OpenFileWithName__ <INTENT_10> | ShareFileWithNameToAddress__ <INTENT_11>);
 
 #PRECONDITIONS
 <WHEN> = when a file is modified on google drive;

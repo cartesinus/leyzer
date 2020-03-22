@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = facebook__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7>);
+public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | PostPicture__ <INTENT_3> | PostPictureWithCaption__ <INTENT_4> | PostPictureWithUrl__ <INTENT_5> | PostPictureWithUrlAndWithCaption__ <INTENT_6> | ShowAlbumWithName__ <INTENT_7>);
 
 #PRECONDITIONS
 <WHEN> = when I upload a photo to my timeline on facebook;

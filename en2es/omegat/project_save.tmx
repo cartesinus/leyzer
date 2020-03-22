@@ -6,6 +6,334 @@
 <!-- Default translations -->
     <tu>
       <tuv lang="en-US">
+        <seg>TRANSLATE.SLOT.TEXT.EN in TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193040Z" creationid="cartesinus" creationdate="20200308T193040Z">
+        <seg>TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>TRANSLATE.SLOT.TEXT.EN translated into TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193054Z" creationid="cartesinus" creationdate="20200308T193054Z">
+        <seg>TRANSLATE.SLOT.TEXT.EN traducido a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>TRANSLATE.SLOT.TEXT.EN translated to TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193045Z" creationid="cartesinus" creationdate="20200308T193045Z">
+        <seg>TRANSLATE.SLOT.TEXT.EN traducido a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WEBSEARCH.SLOT.IMG_QUERY images on bing</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214623Z" creationid="cartesinus" creationdate="20200308T214623Z">
+        <seg>WEBSEARCH.SLOT.IMG_QUERY imágenes en bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WEBSEARCH.SLOT.IMG_QUERY images on duckduckgo</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214627Z" creationid="cartesinus" creationdate="20200308T214627Z">
+        <seg>WEBSEARCH.SLOT.IMG_QUERY imágenes en duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WEBSEARCH.SLOT.IMG_QUERY images on google</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214625Z" creationid="cartesinus" creationdate="20200308T214625Z">
+        <seg>WEBSEARCH.SLOT.IMG_QUERY imágenes en google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WEBSEARCH.SLOT.TXT_QUERY on bing</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T213444Z" creationid="cartesinus" creationdate="20200308T213444Z">
+        <seg>WEBSEARCH.SLOT.TXT_QUERY en bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WEBSEARCH.SLOT.TXT_QUERY on duckduckgo</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T213447Z" creationid="cartesinus" creationdate="20200308T213447Z">
+        <seg>WEBSEARCH.SLOT.TXT_QUERY en duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WEBSEARCH.SLOT.TXT_QUERY on google</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T213446Z" creationid="cartesinus" creationdate="20200308T213446Z">
+        <seg>WEBSEARCH.SLOT.TXT_QUERY en google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WIKIPEDIA.SLOT.QUERY in wiki</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T191624Z" creationid="cartesinus" creationdate="20200309T191624Z">
+        <seg>WIKIPEDIA.SLOT.QUERY en wiki</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WIKIPEDIA.SLOT.QUERY in wikipedia</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T191626Z" creationid="cartesinus" creationdate="20200309T191626Z">
+        <seg>WIKIPEDIA.SLOT.QUERY en wikipedia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WIKIPEDIA.SLOT.QUERY matching in wiki</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194530Z" creationid="cartesinus" creationdate="20200309T194530Z">
+        <seg>WIKIPEDIA.SLOT.QUERY coincidencia en wiki</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>WIKIPEDIA.SLOT.QUERY matching in wikipedia</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194533Z" creationid="cartesinus" creationdate="20200309T194533Z">
+        <seg>WIKIPEDIA.SLOT.QUERY coincidencia en wikipedia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.CATEGORY food</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200911Z" creationid="cartesinus" creationdate="20200309T200911Z">
+        <seg>comida YELP.SLOT.CATEGORY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.CATEGORY food around YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202306Z" creationid="cartesinus" creationdate="20200309T201922Z">
+        <seg>comida YELP.SLOT.CATEGORY por YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.CATEGORY food around here</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200921Z" creationid="cartesinus" creationdate="20200309T200921Z">
+        <seg>comida YELP.SLOT.CATEGORY por aquí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.CATEGORY food near YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201905Z" creationid="cartesinus" creationdate="20200309T201905Z">
+        <seg>comida YELP.SLOT.CATEGORY cerca de YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.CATEGORY food nearby</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200930Z" creationid="cartesinus" creationdate="20200309T200930Z">
+        <seg>comida YELP.SLOT.CATEGORY cerca</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.CATEGORY restaurants</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200949Z" creationid="cartesinus" creationdate="20200309T200949Z">
+        <seg>restaurantes YELP.SLOT.CATEGORY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.CATEGORY restaurants around YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202300Z" creationid="cartesinus" creationdate="20200309T201945Z">
+        <seg>restaurantes YELP.SLOT.CATEGORY por YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.CATEGORY restaurants around here</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201003Z" creationid="cartesinus" creationdate="20200309T201003Z">
+        <seg>restaurantes YELP.SLOT.CATEGORY por aquí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.CATEGORY restaurants near YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201930Z" creationid="cartesinus" creationdate="20200309T201930Z">
+        <seg>restaurantes de YELP.SLOT.CATEGORY cerca de YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.CATEGORY restaurants nearby</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201020Z" creationid="cartesinus" creationdate="20200309T201020Z">
+        <seg>restaurantes YELP.SLOT.CATEGORY cerca</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.QUERY around</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200601Z" creationid="cartesinus" creationdate="20200309T200601Z">
+        <seg>YELP.SLOT.QUERY por aquí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.QUERY around YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202333Z" creationid="cartesinus" creationdate="20200309T201326Z">
+        <seg>YELP.SLOT.QUERY por YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.QUERY around YELP.SLOT.LOCATION on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202328Z" creationid="cartesinus" creationdate="20200309T201332Z">
+        <seg>YELP.SLOT.QUERY por YELP.SLOT.LOCATION en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.QUERY at YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201449Z" creationid="cartesinus" creationdate="20200309T201449Z">
+        <seg>YELP.SLOT.QUERY en YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.QUERY at YELP.SLOT.LOCATION on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201451Z" creationid="cartesinus" creationdate="20200309T201451Z">
+        <seg>YELP.SLOT.QUERY en YELP.SLOT.LOCATION en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.QUERY in YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201314Z" creationid="cartesinus" creationdate="20200309T201314Z">
+        <seg>YELP.SLOT.QUERY en YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.QUERY in YELP.SLOT.LOCATION on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201315Z" creationid="cartesinus" creationdate="20200309T201315Z">
+        <seg>YELP.SLOT.QUERY en YELP.SLOT.LOCATION en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.QUERY near YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201316Z" creationid="cartesinus" creationdate="20200309T201316Z">
+        <seg>YELP.SLOT.QUERY cerca de YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.QUERY near YELP.SLOT.LOCATION on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201317Z" creationid="cartesinus" creationdate="20200309T201317Z">
+        <seg>YELP.SLOT.QUERY cerca de YELP.SLOT.LOCATION en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.QUERY nearby</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200605Z" creationid="cartesinus" creationdate="20200309T200605Z">
+        <seg>YELP.SLOT.QUERY cerca</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.QUERY on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200603Z" creationid="cartesinus" creationdate="20200309T200603Z">
+        <seg>YELP.SLOT.QUERY en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.RATING star restaurants</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200701Z" creationid="cartesinus" creationdate="20200309T200701Z">
+        <seg>restaurantes con YELP.SLOT.RATING estrellas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.RATING star restaurants around YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201523Z" creationid="cartesinus" creationdate="20200309T201523Z">
+        <seg>restaurantes con YELP.SLOT.RATING estrellas cerca de YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.RATING star restaurants around YELP.SLOT.LOCATION on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202316Z" creationid="cartesinus" creationdate="20200309T201717Z">
+        <seg>restaurantes con YELP.SLOT.RATING estrellas por YELP.SLOT.LOCATION en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.RATING star restaurants in YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201738Z" creationid="cartesinus" creationdate="20200309T201738Z">
+        <seg>restaurantes con YELP.SLOT.RATING estrellas en YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.RATING star restaurants in YELP.SLOT.LOCATION on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201812Z" creationid="cartesinus" creationdate="20200309T201812Z">
+        <seg>restaurantes con YELP.SLOT.RATING estrellas en YELP.SLOT.LOCATION en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>YELP.SLOT.RATING star restaurants on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200720Z" creationid="cartesinus" creationdate="20200309T200720Z">
+        <seg>restaurantes con YELP.SLOT.RATING estrellas en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>a translation to TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193519Z" creationid="cartesinus" creationdate="20200308T193519Z">
+        <seg>traducción a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>add a picture on facebook</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T144004Z" creationid="cartesinus" creationdate="20200225T144004Z">
@@ -66,6 +394,46 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T112414Z" creationid="cartesinus" creationdate="20200225T112414Z">
         <seg>agrega un evento llamado CALENDAR.SLOT.EVENT_NAME al calendario en CALENDAR.SLOT.EVENT_DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>be a twitter follower of TWITTER.SLOT.USERNAME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194341Z" creationid="cartesinus" creationdate="20200308T194341Z">
+        <seg>s'e seguidor de twitter de TWITTER.SLOT.USERNAME</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>become a follower of TWITTER.SLOT.USERNAME on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194220Z" creationid="cartesinus" creationdate="20200308T194220Z">
+        <seg>convertirse en un seguidor de TWITTER.SLOT.USERNAME en twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>become a twitter follower of TWITTER.SLOT.USERNAME</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194311Z" creationid="cartesinus" creationdate="20200308T194311Z">
+        <seg>convertirse en un seguidor de twitter de TWITTER.SLOT.USERNAME	</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bing image search</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214642Z" creationid="cartesinus" creationdate="20200308T214642Z">
+        <seg>búsqueda de imágenes bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>bing search</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T212520Z" creationid="cartesinus" creationdate="20200308T212413Z">
+        <seg>buscador bing</seg>
       </tuv>
     </tu>
     <tu>
@@ -134,6 +502,342 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>change default input language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192811Z" creationid="cartesinus" creationdate="20200308T192811Z">
+        <seg>cambiar el idioma de entrada predeterminado a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change default language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192408Z" creationid="cartesinus" creationdate="20200308T192408Z">
+        <seg>cambiar el idioma predeterminado a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change default output language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192425Z" creationid="cartesinus" creationdate="20200308T192425Z">
+        <seg>cambiar el idioma de salida predeterminado a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change default source language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192814Z" creationid="cartesinus" creationdate="20200308T192814Z">
+        <seg>cambiar el idioma de origen predeterminado a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change default translation language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192410Z" creationid="cartesinus" creationdate="20200308T192410Z">
+        <seg>cambiar el idioma de traducción predeterminado a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change input language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192806Z" creationid="cartesinus" creationdate="20200308T192806Z">
+        <seg>cambiar el idioma de entrada a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this article to arabic</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195239Z" creationid="cartesinus" creationdate="20200309T195239Z">
+        <seg>cambiar el idioma de este artículo a árabe</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this article to chinese</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195232Z" creationid="cartesinus" creationdate="20200309T195232Z">
+        <seg>cambiar el idioma de este artículo a chino</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this article to english</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195158Z" creationid="cartesinus" creationdate="20200309T195158Z">
+        <seg>cambiar el idioma de este artículo a inglés</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this article to french</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195214Z" creationid="cartesinus" creationdate="20200309T195214Z">
+        <seg>cambiar el idioma de este artículo a francés</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this article to german</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195202Z" creationid="cartesinus" creationdate="20200309T195202Z">
+        <seg>cambiar el idioma de este artículo a alemán</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this article to italian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195220Z" creationid="cartesinus" creationdate="20200309T195220Z">
+        <seg>cambiar el idioma de este artículo a italiano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this article to polish</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195208Z" creationid="cartesinus" creationdate="20200309T195208Z">
+        <seg>cambiar el idioma de este artículo a polaco</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this article to portuguese</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195242Z" creationid="cartesinus" creationdate="20200309T195242Z">
+        <seg>cambiar el idioma de este artículo a portugués</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this article to russian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195230Z" creationid="cartesinus" creationdate="20200309T195230Z">
+        <seg>cambiar el idioma de este artículo a ruso</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this article to spanish</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195226Z" creationid="cartesinus" creationdate="20200309T195226Z">
+        <seg>cambiar el idioma de este artículo a español</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this article to ukrainian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195237Z" creationid="cartesinus" creationdate="20200309T195237Z">
+        <seg>cambiar el idioma de este artículo a ucraniano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this page to arabic</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195120Z" creationid="cartesinus" creationdate="20200309T195120Z">
+        <seg>cambiar el idioma de esta página a árabe</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this page to chinese</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195116Z" creationid="cartesinus" creationdate="20200309T195116Z">
+        <seg>cambiar el idioma de esta página a chino</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this page to english</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195040Z" creationid="cartesinus" creationdate="20200309T195040Z">
+        <seg>cambiar el idioma de esta página a inglés</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this page to french</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195104Z" creationid="cartesinus" creationdate="20200309T195104Z">
+        <seg>cambiar el idioma de esta página a francés</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this page to german</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195147Z" creationid="cartesinus" creationdate="20200309T195044Z">
+        <seg>cambiar el idioma de esta página a alemán</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this page to italian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195106Z" creationid="cartesinus" creationdate="20200309T195106Z">
+        <seg>cambiar el idioma de esta página a italiano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this page to polish</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195101Z" creationid="cartesinus" creationdate="20200309T195101Z">
+        <seg>cambiar el idioma de esta página a polaco</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this page to portuguese</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195128Z" creationid="cartesinus" creationdate="20200309T195128Z">
+        <seg>cambiar el idioma de esta página a portugués</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this page to russian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195113Z" creationid="cartesinus" creationdate="20200309T195113Z">
+        <seg>cambiar el idioma de esta página a ruso</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this page to spanish</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195109Z" creationid="cartesinus" creationdate="20200309T195109Z">
+        <seg>cambiar el idioma de esta página a español</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language of this page to ukrainian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195118Z" creationid="cartesinus" creationdate="20200309T195118Z">
+        <seg>cambiar el idioma de esta página a ucraniano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192401Z" creationid="cartesinus" creationdate="20200308T192401Z">
+        <seg>cambiar el idioma a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language to arabic</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195141Z" creationid="cartesinus" creationdate="20200309T194947Z">
+        <seg>cambiar el idioma alárabe</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language to chinese</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195021Z" creationid="cartesinus" creationdate="20200309T194924Z">
+        <seg>cambiar el idioma a chino</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language to english</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194958Z" creationid="cartesinus" creationdate="20200309T194841Z">
+        <seg>cambiar el idioma a ingles</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language to french</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195003Z" creationid="cartesinus" creationdate="20200309T194916Z">
+        <seg>cambiar el idioma a francés</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language to german</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195134Z" creationid="cartesinus" creationdate="20200309T194843Z">
+        <seg>cambiar el idioma a alemán</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language to italian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195007Z" creationid="cartesinus" creationdate="20200309T194918Z">
+        <seg>cambiar el idioma a italiano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language to polish</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194913Z" creationid="cartesinus" creationdate="20200309T194913Z">
+        <seg>cambiar el idioma a polaco</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language to portuguese</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195035Z" creationid="cartesinus" creationdate="20200309T195035Z">
+        <seg>cambiar el idioma a portugués</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language to russian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195016Z" creationid="cartesinus" creationdate="20200309T194922Z">
+        <seg>cambiar el idioma a ruso</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language to spanish</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195012Z" creationid="cartesinus" creationdate="20200309T194920Z">
+        <seg>cambiar el idioma a español</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change language to ukrainian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195027Z" creationid="cartesinus" creationdate="20200309T194925Z">
+        <seg>cambiar el idioma a ucraniano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change output language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192407Z" creationid="cartesinus" creationdate="20200308T192407Z">
+        <seg>cambiar el idioma de salida a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change source language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192808Z" creationid="cartesinus" creationdate="20200308T192808Z">
+        <seg>cambiar el idioma de origen a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>change the minimum and maximum temperatures on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T100958Z" creationid="cartesinus" creationdate="20200225T100958Z">
@@ -194,6 +898,14 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T201929Z" creationid="cartesinus" creationdate="20200229T201929Z">
         <seg>cambiar el tema del canal de slack SLACK.SLOT.CHANNEL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>change translation language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192404Z" creationid="cartesinus" creationdate="20200308T192404Z">
+        <seg>cambiar el idioma de traducción a TRANSLATE.SLOT.ALL_LANG</seg>
       </tuv>
     </tu>
     <tu>
@@ -498,6 +1210,22 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T101512Z" creationid="cartesinus" creationdate="20200225T101512Z">
         <seg>verifica si la temperatura de la casa es cálida o fría</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>closest restaurant around</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200547Z" creationid="cartesinus" creationdate="20200309T200547Z">
+        <seg>restaurante más cercano por aquí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>closest restaurant nearby</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200534Z" creationid="cartesinus" creationdate="20200309T200534Z">
+        <seg>restaurante más cercano </seg>
       </tuv>
     </tu>
     <tu>
@@ -902,6 +1630,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>current weather at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203950Z" creationid="cartesinus" creationdate="20200308T203950Z">
+        <seg>tiempo actual en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>current weather at WEATHER.SLOT.LOCATION tomorrow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204539Z" creationid="cartesinus" creationdate="20200308T204539Z">
+        <seg>tiempo actual en WEATHER.SLOT.LOCATION mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>current weather in WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203948Z" creationid="cartesinus" creationdate="20200308T203948Z">
+        <seg>tiempo actual en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>current weather in WEATHER.SLOT.LOCATION tomorrow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204533Z" creationid="cartesinus" creationdate="20200308T204533Z">
+        <seg>tiempo actual en WEATHER.SLOT.LOCATION mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>decrease my speaker 's volume</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T211004Z" creationid="cartesinus" creationdate="20200229T211004Z">
@@ -950,6 +1710,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>detect language of TRANSLATE.SLOT.TEXT.MULTI</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193919Z" creationid="cartesinus" creationdate="20200308T193919Z">
+        <seg>detectar idioma de TRANSLATE.SLOT.TEXT.MULTI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>detect language of TRANSLATE.SLOT.TEXT.MULTI is written in</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193941Z" creationid="cartesinus" creationdate="20200308T193941Z">
+        <seg>detectar el idioma en que TRANSLATE.SLOT.TEXT.MULTI está escrito</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>detect the language of TRANSLATE.SLOT.TEXT.MULTI</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194045Z" creationid="cartesinus" creationdate="20200308T194045Z">
+        <seg>detectar el idioma de TRANSLATE.SLOT.TEXT.MULTI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>detect the language of TRANSLATE.SLOT.TEXT.MULTI is written in</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194058Z" creationid="cartesinus" creationdate="20200308T194058Z">
+        <seg>detectar el idioma en el que TRANSLATE.SLOT.TEXT.MULTI está escrito</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>detect what language TRANSLATE.SLOT.TEXT.MULTI</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194113Z" creationid="cartesinus" creationdate="20200308T194113Z">
+        <seg>detectar qué idioma TRANSLATE.SLOT.TEXT.MULTI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>detect what language TRANSLATE.SLOT.TEXT.MULTI is written in</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194125Z" creationid="cartesinus" creationdate="20200308T194125Z">
+        <seg>detectar en qué idioma está escrito TRANSLATE.SLOT.TEXT.MULTI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>dial PHONE.SLOT.NUMBER</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T195017Z" creationid="cartesinus" creationdate="20200229T195017Z">
@@ -986,6 +1794,46 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T145151Z" creationid="cartesinus" creationdate="20200225T145151Z">
         <seg>muestra fotos en mi álbum FACEBOOK.SLOT.ALBUM en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>direct message on twitter saying TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194538Z" creationid="cartesinus" creationdate="20200308T194538Z">
+        <seg>mensaje directo en twitter diciendo TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>direct message on twitter to TWITTER.SLOT.USERNAME saying TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T200124Z" creationid="cartesinus" creationdate="20200308T200124Z">
+        <seg>mensaje directo en twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display YOUTUBE.SLOT.CATEGORY channels in youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212228Z" creationid="cartesinus" creationdate="20200309T212228Z">
+        <seg>mostrar canales YOUTUBE.SLOT.CATEGORY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display YOUTUBE.SLOT.CATEGORY youtube channels</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212224Z" creationid="cartesinus" creationdate="20200309T212224Z">
+        <seg>muestra los canales de YouTube YOUTUBE.SLOT.CATEGORY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display channels in category YOUTUBE.SLOT.CATEGORY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210236Z" creationid="cartesinus" creationdate="20200309T210236Z">
+        <seg>mostrar canales en la categoría YOUTUBE.SLOT.CATEGORY en youtube</seg>
       </tuv>
     </tu>
     <tu>
@@ -1334,10 +2182,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>display my posts on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194147Z" creationid="cartesinus" creationdate="20200308T194147Z">
+        <seg>mostrar mis publicaciones en twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>display my recent instagram pictures</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200226T164802Z" creationid="cartesinus" creationdate="20200226T164802Z">
         <seg>muestra mis fotos recientes de instagram</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my recent tweets</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194145Z" creationid="cartesinus" creationdate="20200308T194145Z">
+        <seg>mostrar mis tweets recientes</seg>
       </tuv>
     </tu>
     <tu>
@@ -1354,6 +2218,14 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T154019Z" creationid="cartesinus" creationdate="20200225T154019Z">
         <seg>muestra mis archivos favoritos de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display my tweets</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194140Z" creationid="cartesinus" creationdate="20200308T194140Z">
+        <seg>mostrar mis tweets</seg>
       </tuv>
     </tu>
     <tu>
@@ -1430,6 +2302,78 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>display tweets about TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203533Z" creationid="cartesinus" creationdate="20200308T203533Z">
+        <seg>mostrar tweets sobre TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display tweets about TWITTER.SLOT.HASHTAG on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203559Z" creationid="cartesinus" creationdate="20200308T203559Z">
+        <seg>mostrar tweets sobre TWITTER.SLOT.HASHTAG en twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display tweets i made</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194150Z" creationid="cartesinus" creationdate="20200308T194150Z">
+        <seg>mostrar los tweets que hice</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display tweets with hashtag TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203512Z" creationid="cartesinus" creationdate="20200308T203512Z">
+        <seg>mostrar tweets con el hashtag TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display tweets with hashtag TWITTER.SLOT.HASHTAG on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203524Z" creationid="cartesinus" creationdate="20200308T203524Z">
+        <seg>mostrar tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display youtube 's YOUTUBE.SLOT.CATEGORY channels</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212232Z" creationid="cartesinus" creationdate="20200309T212232Z">
+        <seg>muestra los canales YOUTUBE.SLOT.CATEGORY de youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>display youtube channels with category YOUTUBE.SLOT.CATEGORY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210244Z" creationid="cartesinus" creationdate="20200309T210244Z">
+        <seg>mostrar canales de youtube con la categoría YOUTUBE.SLOT.CATEGORY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dm on twitter saying TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194534Z" creationid="cartesinus" creationdate="20200308T194534Z">
+        <seg>dm en twitter diciendo TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dm on twitter to TWITTER.SLOT.USERNAME saying TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T200119Z" creationid="cartesinus" creationdate="20200308T200119Z">
+        <seg>dm en twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>do not notify me when an appointment on my calendar at location CALENDAR.SLOT.LOCATION begins</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T113447Z" creationid="cartesinus" creationdate="20200225T113447Z">
@@ -1478,6 +2422,70 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>download article as pdf</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194821Z" creationid="cartesinus" creationdate="20200309T194821Z">
+        <seg>descargar artículo en pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>download page as pdf</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194804Z" creationid="cartesinus" creationdate="20200309T194804Z">
+        <seg>descarga la página como pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>download that article as pdf</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194831Z" creationid="cartesinus" creationdate="20200309T194831Z">
+        <seg>descarga ese artículo como pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>download that page as pdf</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194829Z" creationid="cartesinus" creationdate="20200309T194829Z">
+        <seg>descarga esa página como pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>download this article as pdf</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194826Z" creationid="cartesinus" creationdate="20200309T194826Z">
+        <seg>descarga este artículo como pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>download this page as pdf</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194824Z" creationid="cartesinus" creationdate="20200309T194824Z">
+        <seg>descarga esta página como pdf</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>duckduckgo image search</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214653Z" creationid="cartesinus" creationdate="20200308T214653Z">
+        <seg>búsqueda de imágenes duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>duckduckgo search</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T212645Z" creationid="cartesinus" creationdate="20200308T212645Z">
+        <seg>buscador duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>edit my contact CONTACTS.SLOT.NAME</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T122527Z" creationid="cartesinus" creationdate="20200225T122527Z">
@@ -1506,6 +2514,198 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T124900Z" creationid="cartesinus" creationdate="20200225T124850Z">
         <seg>envía una foto por correo electrónico a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find WIKIPEDIA.SLOT.QUERY on wiki</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T191610Z" creationid="cartesinus" creationdate="20200309T191610Z">
+        <seg>encontrar WIKIPEDIA.SLOT.QUERY en wiki</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find WIKIPEDIA.SLOT.QUERY on wikipedia</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T191612Z" creationid="cartesinus" creationdate="20200309T191612Z">
+        <seg>encontrar WIKIPEDIA.SLOT.QUERY en wikipedia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find YOUTUBE.SLOT.QUERY channels on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212555Z" creationid="cartesinus" creationdate="20200309T212555Z">
+        <seg>encontrar canales YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find YOUTUBE.SLOT.QUERY from youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202630Z" creationid="cartesinus" creationdate="20200309T202630Z">
+        <seg>encuentra YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find YOUTUBE.SLOT.QUERY video from youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202641Z" creationid="cartesinus" creationdate="20200309T202641Z">
+        <seg>encuentra el video YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find YOUTUBE.SLOT.QUERY video on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202621Z" creationid="cartesinus" creationdate="20200309T202621Z">
+        <seg>encontrar el video YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find YOUTUBE.SLOT.QUERY videos from youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202700Z" creationid="cartesinus" creationdate="20200309T202700Z">
+        <seg>encuentra videos YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find a video matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202624Z" creationid="cartesinus" creationdate="20200309T202624Z">
+        <seg>encontrar un video que coincida con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find channels matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212558Z" creationid="cartesinus" creationdate="20200309T212558Z">
+        <seg>encontrar canales que coincidan con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find restaurant</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200347Z" creationid="cartesinus" creationdate="20200309T200347Z">
+        <seg>encuentra un restaurante</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find restaurant around here</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200440Z" creationid="cartesinus" creationdate="20200309T200440Z">
+        <seg>encontrar un restaurante por aquí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find restaurant nearby</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200434Z" creationid="cartesinus" creationdate="20200309T200434Z">
+        <seg>encontrar un restaurante cercano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find restaurant on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200429Z" creationid="cartesinus" creationdate="20200309T200429Z">
+        <seg>encontrar un estaurante en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find restaurants</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200509Z" creationid="cartesinus" creationdate="20200309T200509Z">
+        <seg>encontrar restaurantes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find restaurants around here</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200516Z" creationid="cartesinus" creationdate="20200309T200516Z">
+        <seg>encontrar restaurantes por aquí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find restaurants nearby</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200513Z" creationid="cartesinus" creationdate="20200309T200513Z">
+        <seg>encontrar restaurantes cercanos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find restaurants on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200511Z" creationid="cartesinus" creationdate="20200309T200511Z">
+        <seg>encontrar restaurantes en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find tweets about TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203347Z" creationid="cartesinus" creationdate="20200308T203347Z">
+        <seg>busca tweets sobre TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find tweets about TWITTER.SLOT.HASHTAG on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203402Z" creationid="cartesinus" creationdate="20200308T203402Z">
+        <seg>busca tuits sobre TWITTER.SLOT.HASHTAG en twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find tweets with hashtag TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203316Z" creationid="cartesinus" creationdate="20200308T203316Z">
+        <seg>encontrar tuits con el hashtag TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find tweets with hashtag TWITTER.SLOT.HASHTAG on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203322Z" creationid="cartesinus" creationdate="20200308T203322Z">
+        <seg>encontrar tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find youtube channel YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212608Z" creationid="cartesinus" creationdate="20200309T212608Z">
+        <seg>encuentra el canal de youtube YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>find youtube video YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202714Z" creationid="cartesinus" creationdate="20200309T202714Z">
+        <seg>encuentra el video de youtube YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>follow TWITTER.SLOT.USERNAME on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194212Z" creationid="cartesinus" creationdate="20200308T194212Z">
+        <seg>siga TWITTER.SLOT.USERNAME en twitter</seg>
       </tuv>
     </tu>
     <tu>
@@ -1966,6 +3166,350 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>go to eight element from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200159Z" creationid="cartesinus" creationdate="20200309T200159Z">
+        <seg>ve a ocho elementos de contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to eight element in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200202Z" creationid="cartesinus" creationdate="20200309T200202Z">
+        <seg>ve a ocho elementos en los contenidos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to eight item from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200205Z" creationid="cartesinus" creationdate="20200309T200205Z">
+        <seg>ve a ocho elementos del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to eight item in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200209Z" creationid="cartesinus" creationdate="20200309T200209Z">
+        <seg>ve a ocho elementos en el contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to fifth element from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200110Z" creationid="cartesinus" creationdate="20200309T200110Z">
+        <seg>ve al quinto elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to fifth element in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200113Z" creationid="cartesinus" creationdate="20200309T200113Z">
+        <seg>ve al quinto elemento en los contenidos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to fifth item from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200117Z" creationid="cartesinus" creationdate="20200309T200117Z">
+        <seg>ve al quinto elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to fifth item in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200122Z" creationid="cartesinus" creationdate="20200309T200122Z">
+        <seg>ve al quinto elemento en el contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to first element from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195657Z" creationid="cartesinus" creationdate="20200309T195657Z">
+        <seg>ve al primer elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to first element in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195704Z" creationid="cartesinus" creationdate="20200309T195704Z">
+        <seg>ve al primer elemento en los contenidos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to first item from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195710Z" creationid="cartesinus" creationdate="20200309T195710Z">
+        <seg>ve al primer elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to first item in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195718Z" creationid="cartesinus" creationdate="20200309T195718Z">
+        <seg>ve al primer elemento en el contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to fourth element from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200048Z" creationid="cartesinus" creationdate="20200309T200048Z">
+        <seg>ve al cuarto elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to fourth element in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200055Z" creationid="cartesinus" creationdate="20200309T200055Z">
+        <seg>ve al cuarto elemento en los contenidos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to fourth item from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200103Z" creationid="cartesinus" creationdate="20200309T200103Z">
+        <seg>ve al cuarto elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to fourth item in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200106Z" creationid="cartesinus" creationdate="20200309T200106Z">
+        <seg>ve al cuarto elemento en el contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to ninth element from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200212Z" creationid="cartesinus" creationdate="20200309T200212Z">
+        <seg>ve al noveno elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to ninth element in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200215Z" creationid="cartesinus" creationdate="20200309T200215Z">
+        <seg>ve al noveno elemento en los contenidos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to ninth item from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200220Z" creationid="cartesinus" creationdate="20200309T200220Z">
+        <seg>ve al noveno elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to ninth item in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200226Z" creationid="cartesinus" creationdate="20200309T200226Z">
+        <seg>ve al noveno elemento en el contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to second element from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195753Z" creationid="cartesinus" creationdate="20200309T195753Z">
+        <seg>ve al segundo elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to second element in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195807Z" creationid="cartesinus" creationdate="20200309T195807Z">
+        <seg>ve al segundo elemento en los contenidos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to second item from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195818Z" creationid="cartesinus" creationdate="20200309T195818Z">
+        <seg>ve al segundo elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to second item in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195826Z" creationid="cartesinus" creationdate="20200309T195826Z">
+        <seg>ve al segundo elemento en el contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to seventh element from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200141Z" creationid="cartesinus" creationdate="20200309T200141Z">
+        <seg>ve al séptimo elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to seventh element in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200147Z" creationid="cartesinus" creationdate="20200309T200147Z">
+        <seg>ve al séptimo elemento en el contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to seventh item from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200151Z" creationid="cartesinus" creationdate="20200309T200151Z">
+        <seg>ve al séptimo elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to seventh item in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200154Z" creationid="cartesinus" creationdate="20200309T200154Z">
+        <seg>ve al séptimo elemento en el contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to sixth element from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200125Z" creationid="cartesinus" creationdate="20200309T200125Z">
+        <seg>ve al sexto elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to sixth element in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200129Z" creationid="cartesinus" creationdate="20200309T200129Z">
+        <seg>ve al sexto elemento en los contenidos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to sixth item from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200131Z" creationid="cartesinus" creationdate="20200309T200131Z">
+        <seg>ve al sexto elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to sixth item in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200136Z" creationid="cartesinus" creationdate="20200309T200136Z">
+        <seg>ve al sexto elemento en el contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to tenth element from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200231Z" creationid="cartesinus" creationdate="20200309T200231Z">
+        <seg>ve al décimo elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to tenth element in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200238Z" creationid="cartesinus" creationdate="20200309T200238Z">
+        <seg>ve al décimo elemento en el contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to tenth item from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200244Z" creationid="cartesinus" creationdate="20200309T200244Z">
+        <seg>ve al décimo elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to tenth item in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200251Z" creationid="cartesinus" creationdate="20200309T200251Z">
+        <seg>ve al décimo elemento en el contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to third element from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195832Z" creationid="cartesinus" creationdate="20200309T195832Z">
+        <seg>ve al tercer elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to third element in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200025Z" creationid="cartesinus" creationdate="20200309T200025Z">
+        <seg>ve al tercer elemento en los contenidos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to third item from contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200033Z" creationid="cartesinus" creationdate="20200309T200033Z">
+        <seg>ve al tercer elemento del contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>go to third item in contents</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200038Z" creationid="cartesinus" creationdate="20200309T200038Z">
+        <seg>ve al tercer elemento en el contenido</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>google WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T213457Z" creationid="cartesinus" creationdate="20200308T213457Z">
+        <seg>googlea WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>google image search</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214646Z" creationid="cartesinus" creationdate="20200308T214646Z">
+        <seg>búsqueda de imágenes de google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>google search</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T212531Z" creationid="cartesinus" creationdate="20200308T212531Z">
+        <seg>buscador google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>help me switch SPEAKER.SLOT.POWER my speaker</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T202416Z" creationid="cartesinus" creationdate="20200229T202416Z">
@@ -1994,6 +3538,70 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T202408Z" creationid="cartesinus" creationdate="20200229T202408Z">
         <seg>ayúdame a SPEAKER.SLOT.POWER el altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how do i say TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192914Z" creationid="cartesinus" creationdate="20200308T192914Z">
+        <seg>cómo digo TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how do i say TRANSLATE.SLOT.TEXT.EN in TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193101Z" creationid="cartesinus" creationdate="20200308T193101Z">
+        <seg>cómo digo TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how do i translate TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192924Z" creationid="cartesinus" creationdate="20200308T192924Z">
+        <seg>cómo traduzco TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how do i translate TRANSLATE.SLOT.TEXT.EN in TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193121Z" creationid="cartesinus" creationdate="20200308T193111Z">
+        <seg>cómo traduzco TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how do you say TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192932Z" creationid="cartesinus" creationdate="20200308T192932Z">
+        <seg>cómo se dice TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how do you say TRANSLATE.SLOT.TEXT.EN in TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193119Z" creationid="cartesinus" creationdate="20200308T193119Z">
+        <seg>cómo se dice TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how do you translate TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192943Z" creationid="cartesinus" creationdate="20200308T192943Z">
+        <seg>cómo se traduce TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how do you translate TRANSLATE.SLOT.TEXT.EN in TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193136Z" creationid="cartesinus" creationdate="20200308T193136Z">
+        <seg>cómo se traduce TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG</seg>
       </tuv>
     </tu>
     <tu>
@@ -2046,6 +3654,254 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>image search</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214630Z" creationid="cartesinus" creationdate="20200308T214630Z">
+        <seg>búsqueda de imágenes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214905Z" creationid="cartesinus" creationdate="20200308T214905Z">
+        <seg>imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214925Z" creationid="cartesinus" creationdate="20200308T214925Z">
+        <seg>imágenes de bing que cesan con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T215107Z" creationid="cartesinus" creationdate="20200308T215107Z">
+        <seg>imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T215534Z" creationid="cartesinus" creationdate="20200308T215534Z">
+        <seg>imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T215126Z" creationid="cartesinus" creationdate="20200308T215027Z">
+        <seg>imágenes de bing que cesan con WEBSEARCH.SLOT.IMG_QUERY más altas que 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T215130Z" creationid="cartesinus" creationdate="20200308T215040Z">
+        <seg>imágenes de bing que cesan con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T215113Z" creationid="cartesinus" creationdate="20200308T214815Z">
+        <seg>imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T215118Z" creationid="cartesinus" creationdate="20200308T214825Z">
+        <seg>imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from bing matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214703Z" creationid="cartesinus" creationdate="20200308T214703Z">
+        <seg>imágenes de bing que cesan con WEBSEARCH.SLOT.IMG_QUERY con un tamaño de 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T221313Z" creationid="cartesinus" creationdate="20200308T221258Z">
+        <seg>imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T221318Z" creationid="cartesinus" creationdate="20200308T221306Z">
+        <seg>imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T221348Z" creationid="cartesinus" creationdate="20200308T221348Z">
+        <seg>imágenes de duckduckgo que cesan con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T221353Z" creationid="cartesinus" creationdate="20200308T221353Z">
+        <seg>imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T221326Z" creationid="cartesinus" creationdate="20200308T221326Z">
+        <seg>imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T221338Z" creationid="cartesinus" creationdate="20200308T221338Z">
+        <seg>imágenes de duckduckgo que cesan con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T221235Z" creationid="cartesinus" creationdate="20200308T221235Z">
+        <seg>imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T221241Z" creationid="cartesinus" creationdate="20200308T221241Z">
+        <seg>imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214804Z" creationid="cartesinus" creationdate="20200308T214804Z">
+        <seg>imágenes de duckduckgo que cesan con WEBSEARCH.SLOT.IMG_QUERY de un tamaño de 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T215714Z" creationid="cartesinus" creationdate="20200308T215714Z">
+        <seg>imágenes de google que cesan con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T215736Z" creationid="cartesinus" creationdate="20200308T215736Z">
+        <seg>imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T221221Z" creationid="cartesinus" creationdate="20200308T221221Z">
+        <seg>imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T221227Z" creationid="cartesinus" creationdate="20200308T221227Z">
+        <seg>imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T215803Z" creationid="cartesinus" creationdate="20200308T215803Z">
+        <seg>imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T221215Z" creationid="cartesinus" creationdate="20200308T221215Z">
+        <seg>imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T215618Z" creationid="cartesinus" creationdate="20200308T215618Z">
+        <seg>imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T215630Z" creationid="cartesinus" creationdate="20200308T215630Z">
+        <seg>imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images from google matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214749Z" creationid="cartesinus" creationdate="20200308T214749Z">
+        <seg>imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY del tamaño de 800 x 600</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images matching WEBSEARCH.SLOT.IMG_QUERY from bing</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214505Z" creationid="cartesinus" creationdate="20200308T214505Z">
+        <seg>imágenes que coinciden con WEBSEARCH.SLOT.IMG_QUERY de bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images matching WEBSEARCH.SLOT.IMG_QUERY from duckduckgo</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214610Z" creationid="cartesinus" creationdate="20200308T214610Z">
+        <seg>imágenes que cesan con WEBSEARCH.SLOT.IMG_QUERY de duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>images matching WEBSEARCH.SLOT.IMG_QUERY from google</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214559Z" creationid="cartesinus" creationdate="20200308T214559Z">
+        <seg>imágenes que cesan con WEBSEARCH.SLOT.IMG_QUERY de google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>increase my speaker 's volume</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T210741Z" creationid="cartesinus" creationdate="20200229T210741Z">
@@ -2058,6 +3914,22 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T210738Z" creationid="cartesinus" creationdate="20200229T210738Z">
         <seg>aumentar el volumen del altavoz</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>language of TRANSLATE.SLOT.TEXT.MULTI</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193754Z" creationid="cartesinus" creationdate="20200308T193754Z">
+        <seg>idioma de TRANSLATE.SLOT.TEXT.MULTI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>language of TRANSLATE.SLOT.TEXT.MULTI is written in</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193835Z" creationid="cartesinus" creationdate="20200308T193835Z">
+        <seg>idioma en el que está escrito TRANSLATE.SLOT.TEXT.MULTI</seg>
       </tuv>
     </tu>
     <tu>
@@ -2462,6 +4334,78 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>look for YOUTUBE.SLOT.QUERY channels on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212619Z" creationid="cartesinus" creationdate="20200309T212619Z">
+        <seg>busque los canales YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>look for YOUTUBE.SLOT.QUERY from youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T203045Z" creationid="cartesinus" creationdate="20200309T203045Z">
+        <seg>busque YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>look for YOUTUBE.SLOT.QUERY video from youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T203058Z" creationid="cartesinus" creationdate="20200309T203058Z">
+        <seg>busque el video YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>look for YOUTUBE.SLOT.QUERY video on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T203029Z" creationid="cartesinus" creationdate="20200309T203029Z">
+        <seg>busque el video YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>look for YOUTUBE.SLOT.QUERY videos from youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T203105Z" creationid="cartesinus" creationdate="20200309T203105Z">
+        <seg>buscar videos de YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>look for a video matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T203037Z" creationid="cartesinus" creationdate="20200309T203037Z">
+        <seg>busque un video que coincida con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>look for channels matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212746Z" creationid="cartesinus" creationdate="20200309T212746Z">
+        <seg>busque canales que coincidan con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>look for youtube channel YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212749Z" creationid="cartesinus" creationdate="20200309T212749Z">
+        <seg>busque el canal de YouTube YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>look for youtube video YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T203128Z" creationid="cartesinus" creationdate="20200309T203128Z">
+        <seg>busque el video de youtube YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>make a new facebook post</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T143826Z" creationid="cartesinus" creationdate="20200225T143703Z">
@@ -2538,6 +4482,54 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T200542Z" creationid="cartesinus" creationdate="20200229T200542Z">
         <seg>mensaje SLACK.SLOT.CHANNEL en slack diciendo SLACK.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>message on twitter saying TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194527Z" creationid="cartesinus" creationdate="20200308T194527Z">
+        <seg>mensaje en twitter diciendo TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>message on twitter to TWITTER.SLOT.USERNAME saying TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T200116Z" creationid="cartesinus" creationdate="20200308T200116Z">
+        <seg>mensaje en twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>moon phase for WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205536Z" creationid="cartesinus" creationdate="20200308T205536Z">
+        <seg>fase lunar para WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>moon phase for WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205630Z" creationid="cartesinus" creationdate="20200308T205630Z">
+        <seg>fase lunar para WEATHER.SLOT.LOCATION en la fecha WEATHER.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>moon phase for location WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205626Z" creationid="cartesinus" creationdate="20200308T205626Z">
+        <seg>fase lunar para la ubicación WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>moon phase for location WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T211914Z" creationid="cartesinus" creationdate="20200308T211914Z">
+        <seg>fase lunar para la ubicación WEATHER.SLOT.LOCATION en la fecha WEATHER.SLOT.DATE</seg>
       </tuv>
     </tu>
     <tu>
@@ -2622,6 +4614,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>nearest restaurant around</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200555Z" creationid="cartesinus" creationdate="20200309T200555Z">
+        <seg>restaurante más cercano por aquí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>news on NEWS.SLOT.PORTAL</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T194816Z" creationid="cartesinus" creationdate="20200229T194816Z">
@@ -2650,6 +4650,22 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T194926Z" creationid="cartesinus" creationdate="20200229T194926Z">
         <seg>notifíqueme cuando NEWS.SLOT.PORTAL actualice las noticias</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when YOUTUBE.SLOT.CHANNEL_ID posts a new youtube video</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T213439Z" creationid="cartesinus" creationdate="20200309T213439Z">
+        <seg>notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un nuevo video de youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when YOUTUBE.SLOT.CHANNEL_ID uploads a video on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T213433Z" creationid="cartesinus" creationdate="20200309T213433Z">
+        <seg>notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un video en youtube</seg>
       </tuv>
     </tu>
     <tu>
@@ -2706,6 +4722,22 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T194938Z" creationid="cartesinus" creationdate="20200229T194938Z">
         <seg>notifíqueme cuando la sección NEWS.SLOT.PORTAL NEWS.SLOT.SECTION publique un nuevo artículo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when there is a new video from youtube channel YOUTUBE.SLOT.CHANNEL_ID</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T213412Z" creationid="cartesinus" creationdate="20200309T213412Z">
+        <seg>notifícame cuando haya un nuevo video del canal de youtube YOUTUBE.SLOT.CHANNEL_ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>notify me when there is a new video from youtube channels I follow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T213402Z" creationid="cartesinus" creationdate="20200309T213402Z">
+        <seg>notifícame cuando haya un nuevo video de los canales de youtube que sigo</seg>
       </tuv>
     </tu>
     <tu>
@@ -2838,6 +4870,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>open restaurants near YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202058Z" creationid="cartesinus" creationdate="20200309T202058Z">
+        <seg>restaurantes abiertos cerca de YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open restaurants nearby</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201022Z" creationid="cartesinus" creationdate="20200309T201022Z">
+        <seg>restaurantes abiertos cerca</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>open slack</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T195331Z" creationid="cartesinus" creationdate="20200229T195331Z">
@@ -2866,6 +4914,70 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T211238Z" creationid="cartesinus" creationdate="20200229T211238Z">
         <seg>abrir spotify para reproducir música</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open wikipedia</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T191543Z" creationid="cartesinus" creationdate="20200309T191543Z">
+        <seg>abrir wikipedia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open wikipedia definition</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T191559Z" creationid="cartesinus" creationdate="20200309T191559Z">
+        <seg>abre la definición de wikipedia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open wikipedia pages</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T191546Z" creationid="cartesinus" creationdate="20200309T191546Z">
+        <seg>abrir páginas de wikipedia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202434Z" creationid="cartesinus" creationdate="20200309T202434Z">
+        <seg>abre youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>open yt</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202431Z" creationid="cartesinus" creationdate="20200309T202431Z">
+        <seg>abre yt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>page down</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194612Z" creationid="cartesinus" creationdate="20200309T194612Z">
+        <seg>ve hacia abajo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>page up</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194655Z" creationid="cartesinus" creationdate="20200309T194655Z">
+        <seg>ve hacia arriba</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>pages matching WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T213514Z" creationid="cartesinus" creationdate="20200308T213514Z">
+        <seg>páginas que coinciden con WEBSEARCH.SLOT.TXT_QUERY</seg>
       </tuv>
     </tu>
     <tu>
@@ -2974,6 +5086,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>play YOUTUBE.SLOT.CATEGORY channels in youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210227Z" creationid="cartesinus" creationdate="20200309T210227Z">
+        <seg>reproducir canales YOUTUBE.SLOT.CATEGORY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play YOUTUBE.SLOT.CATEGORY youtube channels</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210222Z" creationid="cartesinus" creationdate="20200309T210222Z">
+        <seg>reproducir canales de youtube YOUTUBE.SLOT.CATEGORY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play YOUTUBE.SLOT.QUERY from youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202525Z" creationid="cartesinus" creationdate="20200309T202516Z">
+        <seg>reproduce YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play YOUTUBE.SLOT.QUERY video from youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202530Z" creationid="cartesinus" creationdate="20200309T202530Z">
+        <seg>reproducir el video YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play YOUTUBE.SLOT.QUERY video on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202457Z" creationid="cartesinus" creationdate="20200309T202457Z">
+        <seg>reproducir el video YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play YOUTUBE.SLOT.QUERY videos from youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202539Z" creationid="cartesinus" creationdate="20200309T202539Z">
+        <seg>reproducir videos de YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>play a SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T212127Z" creationid="cartesinus" creationdate="20200229T212127Z">
@@ -3018,6 +5178,30 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T211824Z" creationid="cartesinus" creationdate="20200229T211824Z">
         <seg>reproduce una canción SPOTIFY.SLOT.SONG en spotify</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play a video matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202503Z" creationid="cartesinus" creationdate="20200309T202503Z">
+        <seg>reproducir un video que coincida con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play channel YOUTUBE.SLOT.CHANNEL_ID in youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210019Z" creationid="cartesinus" creationdate="20200309T210019Z">
+        <seg>reproducir el canal YOUTUBE.SLOT.CHANNEL_ID en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play channels in category YOUTUBE.SLOT.CATEGORY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210207Z" creationid="cartesinus" creationdate="20200309T210207Z">
+        <seg>reproducir canales en la categoría YOUTUBE.SLOT.CATEGORY en youtube</seg>
       </tuv>
     </tu>
     <tu>
@@ -3250,6 +5434,46 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T212345Z" creationid="cartesinus" creationdate="20200229T212345Z">
         <seg>reproduce esta pista</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play youtube 's YOUTUBE.SLOT.CATEGORY channels</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210233Z" creationid="cartesinus" creationdate="20200309T210233Z">
+        <seg>reproducir los canales YOUTUBE.SLOT.CATEGORY de youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play youtube channel YOUTUBE.SLOT.CHANNEL_ID</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210001Z" creationid="cartesinus" creationdate="20200309T210001Z">
+        <seg>reproducir el canal de youtube YOUTUBE.SLOT.CHANNEL_ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play youtube channels with category YOUTUBE.SLOT.CATEGORY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210212Z" creationid="cartesinus" creationdate="20200309T210212Z">
+        <seg>reproducir canales de youtube con la categoría YOUTUBE.SLOT.CATEGORY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play youtube video YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202554Z" creationid="cartesinus" creationdate="20200309T202554Z">
+        <seg>reproducir el video de youtube YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>play youtube videos in YOUTUBE.SLOT.CHANNEL_ID</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210014Z" creationid="cartesinus" creationdate="20200309T210014Z">
+        <seg>reproducir videos de youtube en YOUTUBE.SLOT.CHANNEL_ID</seg>
       </tuv>
     </tu>
     <tu>
@@ -3494,6 +5718,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>random article</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195402Z" creationid="cartesinus" creationdate="20200309T195402Z">
+        <seg>artículo al azar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>random page</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195400Z" creationid="cartesinus" creationdate="20200309T195400Z">
+        <seg>página al azar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>read NEWS.SLOT.PORTAL</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T194801Z" creationid="cartesinus" creationdate="20200229T194801Z">
@@ -3614,6 +5854,254 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>restaurant</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200256Z" creationid="cartesinus" creationdate="20200309T200256Z">
+        <seg>restaurante</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurant around here</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200301Z" creationid="cartesinus" creationdate="20200309T200301Z">
+        <seg>restaurante por aquí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurant nearby</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200259Z" creationid="cartesinus" creationdate="20200309T200259Z">
+        <seg>restaurante cercano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurant on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200257Z" creationid="cartesinus" creationdate="20200309T200257Z">
+        <seg>restaurante en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200302Z" creationid="cartesinus" creationdate="20200309T200302Z">
+        <seg>restaurantes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants around YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202342Z" creationid="cartesinus" creationdate="20200309T201309Z">
+        <seg>restaurantes por YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants around YELP.SLOT.LOCATION reviewed by at least YELP.SLOT.REVIEW_COUNT people</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202253Z" creationid="cartesinus" creationdate="20200309T202003Z">
+        <seg>restaurantes por YELP.SLOT.LOCATION revisados por al menos YELP.SLOT.REVIEW_COUNT personas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants around YELP.SLOT.LOCATION reviewed by more than YELP.SLOT.REVIEW_COUNT people</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202247Z" creationid="cartesinus" creationdate="20200309T202017Z">
+        <seg>restaurantes por YELP.SLOT.LOCATION revisados por más de YELP.SLOT.REVIEW_COUNT personas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants around here</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200307Z" creationid="cartesinus" creationdate="20200309T200307Z">
+        <seg>restaurantes por aquí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants here reviewed by at least YELP.SLOT.REVIEW_COUNT people</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201156Z" creationid="cartesinus" creationdate="20200309T201135Z">
+        <seg>restaurantes por aquí revisados por al menos YELP.SLOT.REVIEW_COUNT personas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants here reviewed by at least YELP.SLOT.REVIEW_COUNT users</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201206Z" creationid="cartesinus" creationdate="20200309T201145Z">
+        <seg>restaurantes por aquí revisados por al menos YELP.SLOT.REVIEW_COUNT usuarios</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants here reviewed by more than YELP.SLOT.REVIEW_COUNT people</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201221Z" creationid="cartesinus" creationdate="20200309T201221Z">
+        <seg>restaurantes por aquí revisados por más de YELP.SLOT.REVIEW_COUNT personas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants here reviewed by more than YELP.SLOT.REVIEW_COUNT users</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201233Z" creationid="cartesinus" creationdate="20200309T201233Z">
+        <seg>restaurantes por aquí revisados por más de YELP.SLOT.REVIEW_COUNT usuarios</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants near YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201311Z" creationid="cartesinus" creationdate="20200309T201311Z">
+        <seg>restaurantes cerca de YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants near YELP.SLOT.LOCATION reviewed by at least YELP.SLOT.REVIEW_COUNT people</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202023Z" creationid="cartesinus" creationdate="20200309T202023Z">
+        <seg>restaurantes cerca de YELP.SLOT.LOCATION revisados por al menos YELP.SLOT.REVIEW_COUNT personas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants near YELP.SLOT.LOCATION reviewed by more than YELP.SLOT.REVIEW_COUNT people</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202039Z" creationid="cartesinus" creationdate="20200309T202039Z">
+        <seg>restaurantes en YELP.SLOT.LOCATION revisados por más de YELP.SLOT.REVIEW_COUNT personas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants nearby</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200304Z" creationid="cartesinus" creationdate="20200309T200304Z">
+        <seg>restaurantes cercanos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants nearby reviewed by at least YELP.SLOT.REVIEW_COUNT people</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201237Z" creationid="cartesinus" creationdate="20200309T201237Z">
+        <seg>restaurantes cercanos revisados por al menos YELP.SLOT.REVIEW_COUNT personas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants nearby reviewed by at least YELP.SLOT.REVIEW_COUNT users</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201240Z" creationid="cartesinus" creationdate="20200309T201240Z">
+        <seg>restaurantes cercanos revisados por al menos YELP.SLOT.REVIEW_COUNT usuarios</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants nearby reviewed by more than YELP.SLOT.REVIEW_COUNT people</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201245Z" creationid="cartesinus" creationdate="20200309T201245Z">
+        <seg>restaurantes cercanos revisados por más de YELP.SLOT.REVIEW_COUNT personas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants nearby reviewed by more than YELP.SLOT.REVIEW_COUNT users</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201248Z" creationid="cartesinus" creationdate="20200309T201248Z">
+        <seg>restaurantes cercanos revisados por más de YELP.SLOT.REVIEW_COUNT usuarios</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants nearby with at least YELP.SLOT.RATING star rating</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200644Z" creationid="cartesinus" creationdate="20200309T200644Z">
+        <seg>restaurantes cercanos con al menos YELP.SLOT.RATING estrellas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants nearby with at least YELP.SLOT.RATING star rating near YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201458Z" creationid="cartesinus" creationdate="20200309T201458Z">
+        <seg>restaurantes cercanos con al menos YELP.SLOT.RATING clasificación por estrellas cerca de YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants next to YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201252Z" creationid="cartesinus" creationdate="20200309T201252Z">
+        <seg>restaurantes al lado de YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200303Z" creationid="cartesinus" creationdate="20200309T200303Z">
+        <seg>restaurantes en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants open now</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201112Z" creationid="cartesinus" creationdate="20200309T201112Z">
+        <seg>restaurantes abiertos ahora</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants open now at YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202234Z" creationid="cartesinus" creationdate="20200309T202234Z">
+        <seg>restaurantes abiertos ahora en YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants rated higher than YELP.SLOT.RATING star</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200900Z" creationid="cartesinus" creationdate="20200309T200900Z">
+        <seg>restaurantes con una clasificación más alta que YELP.SLOT.RATING estrellas</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants rated higher than YELP.SLOT.RATING star in YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201853Z" creationid="cartesinus" creationdate="20200309T201853Z">
+        <seg>restaurantes clasificados con más de YELP.SLOT.RATING estrellas en YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants still open around YELP.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202228Z" creationid="cartesinus" creationdate="20200309T202228Z">
+        <seg>restaurantes todavía abiertos por YELP.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>restaurants still open around here</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T201110Z" creationid="cartesinus" creationdate="20200309T201110Z">
+        <seg>los restaurantes abiertos todav'ia por aquí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>resume my spotify</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T212459Z" creationid="cartesinus" creationdate="20200229T212459Z">
@@ -3662,6 +6150,230 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>say in TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193221Z" creationid="cartesinus" creationdate="20200308T193221Z">
+        <seg>dice en TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>scroll down</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194645Z" creationid="cartesinus" creationdate="20200309T194645Z">
+        <seg>avanza la p'agina</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>scroll up</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T194757Z" creationid="cartesinus" creationdate="20200309T194757Z">
+        <seg>despl'azate hacia arriba</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search WIKIPEDIA.SLOT.QUERY on wiki</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T191617Z" creationid="cartesinus" creationdate="20200309T191617Z">
+        <seg>buscar WIKIPEDIA.SLOT.QUERY en wiki</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search WIKIPEDIA.SLOT.QUERY on wikipedia</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T191622Z" creationid="cartesinus" creationdate="20200309T191622Z">
+        <seg>buscar WIKIPEDIA.SLOT.QUERY en wikipedia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search for YOUTUBE.SLOT.QUERY channels on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212613Z" creationid="cartesinus" creationdate="20200309T212613Z">
+        <seg>buscar canales YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search for YOUTUBE.SLOT.QUERY from youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202824Z" creationid="cartesinus" creationdate="20200309T202824Z">
+        <seg>buscar YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search for YOUTUBE.SLOT.QUERY video from youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202900Z" creationid="cartesinus" creationdate="20200309T202900Z">
+        <seg>buscar el video YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search for YOUTUBE.SLOT.QUERY video on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202719Z" creationid="cartesinus" creationdate="20200309T202719Z">
+        <seg>buscar el video YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search for YOUTUBE.SLOT.QUERY videos from youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202955Z" creationid="cartesinus" creationdate="20200309T202955Z">
+        <seg>buscar videos de YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search for a video matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202726Z" creationid="cartesinus" creationdate="20200309T202726Z">
+        <seg>buscar un video que coincida con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search for channels matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212615Z" creationid="cartesinus" creationdate="20200309T212615Z">
+        <seg>buscar canales que coincidan con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search for youtube channel YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212617Z" creationid="cartesinus" creationdate="20200309T212617Z">
+        <seg>buscar el canal de youtube YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search for youtube video YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T202959Z" creationid="cartesinus" creationdate="20200309T202959Z">
+        <seg>buscar el video de youtube YOUTUBE.SLOT.QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search images on bing</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214635Z" creationid="cartesinus" creationdate="20200308T214635Z">
+        <seg>buscar imágenes en bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search images on duckduckgo</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214639Z" creationid="cartesinus" creationdate="20200308T214639Z">
+        <seg>buscar imágenes en duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search images on google</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T214637Z" creationid="cartesinus" creationdate="20200308T214637Z">
+        <seg>buscar imágenes en google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search on bing</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T212402Z" creationid="cartesinus" creationdate="20200308T212402Z">
+        <seg>buscar en bing</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search on duckduckgo</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T212406Z" creationid="cartesinus" creationdate="20200308T212406Z">
+        <seg>buscar en duckduckgo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search on google</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T212418Z" creationid="cartesinus" creationdate="20200308T212405Z">
+        <seg>buscar en google</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search restaurant</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200352Z" creationid="cartesinus" creationdate="20200309T200319Z">
+        <seg>buscar un restaurante</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search restaurant around here</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200408Z" creationid="cartesinus" creationdate="20200309T200324Z">
+        <seg>buscar un  por aquí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search restaurant nearby</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200404Z" creationid="cartesinus" creationdate="20200309T200323Z">
+        <seg>buscar un restaurante cercano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search restaurant on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200356Z" creationid="cartesinus" creationdate="20200309T200321Z">
+        <seg>buscar un restaurante en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search restaurants</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200325Z" creationid="cartesinus" creationdate="20200309T200325Z">
+        <seg>buscar restaurantes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search restaurants around here</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200330Z" creationid="cartesinus" creationdate="20200309T200330Z">
+        <seg>busca restaurantes por aquí</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search restaurants nearby</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200329Z" creationid="cartesinus" creationdate="20200309T200329Z">
+        <seg>buscar restaurantes cercanos</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>search restaurants on yelp</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T200327Z" creationid="cartesinus" creationdate="20200309T200327Z">
+        <seg>buscar restaurantes en yelp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>send SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T200348Z" creationid="cartesinus" creationdate="20200229T200348Z">
@@ -3678,6 +6390,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>send a direct message on twitter saying TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T200107Z" creationid="cartesinus" creationdate="20200308T200107Z">
+        <seg>envíe un mensaje directo en Twitter diciendo TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a direct message on twitter to TWITTER.SLOT.USERNAME saying TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203238Z" creationid="cartesinus" creationdate="20200308T203238Z">
+        <seg>envíe un mensaje directo en Twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a dm on twitter saying TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T200104Z" creationid="cartesinus" creationdate="20200308T200104Z">
+        <seg>envíe un dm en Twitter diciendo TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a dm on twitter to TWITTER.SLOT.USERNAME saying TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203233Z" creationid="cartesinus" creationdate="20200308T203233Z">
+        <seg>envíe un dm en Twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>send a message on slack</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T201200Z" creationid="cartesinus" creationdate="20200229T201200Z">
@@ -3690,6 +6434,22 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T200448Z" creationid="cartesinus" creationdate="20200229T200448Z">
         <seg>envíe un mensaje de slack a SLACK.SLOT.CHANNEL diciendo SLACK.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a message on twitter saying TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T200018Z" creationid="cartesinus" creationdate="20200308T200018Z">
+        <seg>envíe un mensaje en twitter diciendo TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>send a message on twitter to TWITTER.SLOT.USERNAME saying TWITTER.SLOT.MESSAGE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T200130Z" creationid="cartesinus" creationdate="20200308T200130Z">
+        <seg>envíe un mensaje en Twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE</seg>
       </tuv>
     </tu>
     <tu>
@@ -3878,6 +6638,62 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>set default input language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192736Z" creationid="cartesinus" creationdate="20200308T192736Z">
+        <seg>pon el idioma de entrada predeterminado a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set default language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192315Z" creationid="cartesinus" creationdate="20200308T192315Z">
+        <seg>establece el idioma predeterminado a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set default output language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192338Z" creationid="cartesinus" creationdate="20200308T192338Z">
+        <seg>pon el idioma de salida predeterminado a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set default source language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192759Z" creationid="cartesinus" creationdate="20200308T192759Z">
+        <seg>establecer el idioma de origen predeterminado a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set default translation language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192324Z" creationid="cartesinus" creationdate="20200308T192324Z">
+        <seg>establece el idioma de traducción predeterminado a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set input language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192703Z" creationid="cartesinus" creationdate="20200308T192703Z">
+        <seg>pon el idioma de entrada a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T191832Z" creationid="cartesinus" creationdate="20200308T191832Z">
+        <seg>pon el idioma a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>set me as away on slack</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T200956Z" creationid="cartesinus" creationdate="20200229T200956Z">
@@ -3902,10 +6718,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>set output language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192259Z" creationid="cartesinus" creationdate="20200308T192259Z">
+        <seg>pon el idioma de salida a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>set set my thermostat to AIRCONDITIONER.SLOT.VALUE</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T100220Z" creationid="cartesinus" creationdate="20200225T100220Z">
         <seg>pon mi termostato a AIRCONDITIONER.SLOT.VALUE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>set source language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192722Z" creationid="cartesinus" creationdate="20200308T192722Z">
+        <seg>establece el idioma de origen a TRANSLATE.SLOT.ALL_LANG</seg>
       </tuv>
     </tu>
     <tu>
@@ -3998,6 +6830,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>set translation language to TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192158Z" creationid="cartesinus" creationdate="20200308T192158Z">
+        <seg>pon el idioma de traducción a TRANSLATE.SLOT.ALL_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T160433Z" creationid="cartesinus" creationdate="20200225T160433Z">
@@ -4030,10 +6870,138 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>show YOUTUBE.SLOT.CATEGORY channels in youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210152Z" creationid="cartesinus" creationdate="20200309T210152Z">
+        <seg>muestre los canales YOUTUBE.SLOT.CATEGORY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show YOUTUBE.SLOT.CATEGORY youtube channels</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210147Z" creationid="cartesinus" creationdate="20200309T210147Z">
+        <seg>muestre los canales YOUTUBE.SLOT.CATEGORY de youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show a video from YOUTUBE.SLOT.CHANNEL_ID matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212943Z" creationid="cartesinus" creationdate="20200309T212943Z">
+        <seg>mostrar un video de YOUTUBE.SLOT.CHANNEL_ID que coincida con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show a video published by YOUTUBE.SLOT.CHANNEL_ID matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T213144Z" creationid="cartesinus" creationdate="20200309T213144Z">
+        <seg>muestra un video publicado por YOUTUBE.SLOT.CHANNEL_ID que coincide con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show a videos from YOUTUBE.SLOT.CHANNEL_ID matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T213147Z" creationid="cartesinus" creationdate="20200309T213147Z">
+        <seg>muestra videos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show a videos published by YOUTUBE.SLOT.CHANNEL_ID matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T213212Z" creationid="cartesinus" creationdate="20200309T213212Z">
+        <seg>muestra videos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show channel YOUTUBE.SLOT.CHANNEL_ID in youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T203150Z" creationid="cartesinus" creationdate="20200309T203150Z">
+        <seg>muestra el canal YOUTUBE.SLOT.CHANNEL_ID en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show channels I am subscribed to on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212242Z" creationid="cartesinus" creationdate="20200309T212242Z">
+        <seg>mostrar canales a los que estoy suscrito en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show channels I follow on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212329Z" creationid="cartesinus" creationdate="20200309T212329Z">
+        <seg>mostrar canales que sigo en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show channels in category YOUTUBE.SLOT.CATEGORY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210022Z" creationid="cartesinus" creationdate="20200309T210022Z">
+        <seg>mostrar canales en la categoría YOUTUBE.SLOT.CATEGORY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>show me EMAIL.SLOT.PRIORITY emails</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T124637Z" creationid="cartesinus" creationdate="20200225T124637Z">
         <seg>muéstrame correos electrónicos EMAIL.SLOT.PRIORITY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me a video from YOUTUBE.SLOT.CHANNEL_ID matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T213218Z" creationid="cartesinus" creationdate="20200309T213218Z">
+        <seg>muéstrame un video de YOUTUBE.SLOT.CHANNEL_ID que coincida con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me a video published by YOUTUBE.SLOT.CHANNEL_ID matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T213229Z" creationid="cartesinus" creationdate="20200309T213229Z">
+        <seg>muéstrame un video publicado por YOUTUBE.SLOT.CHANNEL_ID que coincida con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me a videos from YOUTUBE.SLOT.CHANNEL_ID matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T213234Z" creationid="cartesinus" creationdate="20200309T213234Z">
+        <seg>muéstrame un video de YOUTUBE.SLOT.CHANNEL_ID que coincida con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me a videos published by YOUTUBE.SLOT.CHANNEL_ID matching YOUTUBE.SLOT.QUERY on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T213249Z" creationid="cartesinus" creationdate="20200309T213249Z">
+        <seg>muéstrame videos publicados por YOUTUBE.SLOT.CHANNEL_ID que coincidan con YOUTUBE.SLOT.QUERY en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me channels I am subscribed to on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212323Z" creationid="cartesinus" creationdate="20200309T212323Z">
+        <seg>muéstrame los canales a los que estoy suscrito en youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me channels I follow on youtube</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212543Z" creationid="cartesinus" creationdate="20200309T212543Z">
+        <seg>muéstrame los canales que sigo en youtube</seg>
       </tuv>
     </tu>
     <tu>
@@ -4346,6 +7314,14 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T194813Z" creationid="cartesinus" creationdate="20200229T194813Z">
         <seg>muéstrame las noticias de NEWS.SLOT.PORTAL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show me youtube channels i follow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212546Z" creationid="cartesinus" creationdate="20200309T212546Z">
+        <seg>muéstrame los canales de youtube que sigo</seg>
       </tuv>
     </tu>
     <tu>
@@ -4694,10 +7670,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>show my posts on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194135Z" creationid="cartesinus" creationdate="20200308T194135Z">
+        <seg>mostrar mis publicaciones en twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>show my recent instagram pictures</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200226T164314Z" creationid="cartesinus" creationdate="20200226T164314Z">
         <seg>muestra mis fotos recientes de instagram</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my recent tweets</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194132Z" creationid="cartesinus" creationdate="20200308T194132Z">
+        <seg>mostrar mis tweets recientes</seg>
       </tuv>
     </tu>
     <tu>
@@ -4714,6 +7706,14 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T153843Z" creationid="cartesinus" creationdate="20200225T153843Z">
         <seg>muestra mis archivos favoritos de google drive</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show my tweets</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194129Z" creationid="cartesinus" creationdate="20200308T194129Z">
+        <seg>mostrar mis tweets</seg>
       </tuv>
     </tu>
     <tu>
@@ -4754,6 +7754,22 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T145037Z" creationid="cartesinus" creationdate="20200225T145037Z">
         <seg>muestra fotos en mi álbum FACEBOOK.SLOT.ALBUM en facebook</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show random article</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195405Z" creationid="cartesinus" creationdate="20200309T195405Z">
+        <seg>mostrar artículo al azar</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show random page</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195403Z" creationid="cartesinus" creationdate="20200309T195403Z">
+        <seg>mostrar página al azar</seg>
       </tuv>
     </tu>
     <tu>
@@ -4850,6 +7866,262 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T194810Z" creationid="cartesinus" creationdate="20200229T194810Z">
         <seg>mostrar las noticias de NEWS.SLOT.PORTAL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this article in arabic</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195354Z" creationid="cartesinus" creationdate="20200309T195354Z">
+        <seg>muestra este artículo en árabe</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this article in chinese</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195346Z" creationid="cartesinus" creationdate="20200309T195346Z">
+        <seg>muestra este artículo en chino</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this article in english</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195331Z" creationid="cartesinus" creationdate="20200309T195331Z">
+        <seg>muestra este artículo en inglés</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this article in french</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195338Z" creationid="cartesinus" creationdate="20200309T195338Z">
+        <seg>muestra este artículo en francés</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this article in german</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195334Z" creationid="cartesinus" creationdate="20200309T195334Z">
+        <seg>muestra este artículo en alemán</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this article in italian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195340Z" creationid="cartesinus" creationdate="20200309T195340Z">
+        <seg>muestra este artículo en italiano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this article in polish</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195337Z" creationid="cartesinus" creationdate="20200309T195337Z">
+        <seg>muestra este artículo en polaco</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this article in portuguese</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195356Z" creationid="cartesinus" creationdate="20200309T195356Z">
+        <seg>muestra este artículo en portugués</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this article in russian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195344Z" creationid="cartesinus" creationdate="20200309T195344Z">
+        <seg>muestra este artículo en ruso</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this article in spanish</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195342Z" creationid="cartesinus" creationdate="20200309T195342Z">
+        <seg>muestra este artículo en español</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this article in ukrainian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195350Z" creationid="cartesinus" creationdate="20200309T195350Z">
+        <seg>muestra este artículo en ucraniano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this page in arabic</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195323Z" creationid="cartesinus" creationdate="20200309T195323Z">
+        <seg>muestra esta página en árabe</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this page in chinese</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195318Z" creationid="cartesinus" creationdate="20200309T195318Z">
+        <seg>muestra esta página en chino</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this page in english</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195254Z" creationid="cartesinus" creationdate="20200309T195254Z">
+        <seg>muestra esta página en inglés</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this page in french</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195310Z" creationid="cartesinus" creationdate="20200309T195310Z">
+        <seg>muestra esta página en francés</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this page in german</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195257Z" creationid="cartesinus" creationdate="20200309T195257Z">
+        <seg>muestra esta página en alemán</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this page in italian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195312Z" creationid="cartesinus" creationdate="20200309T195312Z">
+        <seg>muestra esta página en italiano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this page in polish</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195307Z" creationid="cartesinus" creationdate="20200309T195307Z">
+        <seg>muestra esta página en polaco</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this page in portuguese</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195325Z" creationid="cartesinus" creationdate="20200309T195325Z">
+        <seg>muestra esta página en portugués</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this page in russian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195316Z" creationid="cartesinus" creationdate="20200309T195316Z">
+        <seg>muestra esta página en ruso</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this page in spanish</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195314Z" creationid="cartesinus" creationdate="20200309T195314Z">
+        <seg>muestra esta página en español</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show this page in ukrainian</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195320Z" creationid="cartesinus" creationdate="20200309T195320Z">
+        <seg>muestra esta página en ucraniano</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show tweets about TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203457Z" creationid="cartesinus" creationdate="20200308T203457Z">
+        <seg>mostrar tweets sobre TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show tweets about TWITTER.SLOT.HASHTAG on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203507Z" creationid="cartesinus" creationdate="20200308T203507Z">
+        <seg>mostrar tuits sobre TWITTER.SLOT.HASHTAG en twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show tweets i made</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194137Z" creationid="cartesinus" creationdate="20200308T194137Z">
+        <seg>mostrar los tweets que hice</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show tweets with hashtag TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203406Z" creationid="cartesinus" creationdate="20200308T203406Z">
+        <seg>mostrar tweets con el hashtag TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show tweets with hashtag TWITTER.SLOT.HASHTAG on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203423Z" creationid="cartesinus" creationdate="20200308T203423Z">
+        <seg>mostrar tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show youtube 's YOUTUBE.SLOT.CATEGORY channels</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210201Z" creationid="cartesinus" creationdate="20200309T210201Z">
+        <seg>muestre los canales YOUTUBE.SLOT.CATEGORY de youtube</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show youtube channel YOUTUBE.SLOT.CHANNEL_ID</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T203139Z" creationid="cartesinus" creationdate="20200309T203139Z">
+        <seg>muestra el canal de youtube YOUTUBE.SLOT.CHANNEL_ID</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show youtube channels i follow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T212538Z" creationid="cartesinus" creationdate="20200309T212538Z">
+        <seg>mostrar canales de youtube que sigo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show youtube channels with category YOUTUBE.SLOT.CATEGORY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T210032Z" creationid="cartesinus" creationdate="20200309T210032Z">
+        <seg>muestra canales de youtube de la categoría YOUTUBE.SLOT.CATEGORY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>show youtube videos in YOUTUBE.SLOT.CHANNEL_ID</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T203143Z" creationid="cartesinus" creationdate="20200309T203143Z">
+        <seg>mostrar videos de youtube en YOUTUBE.SLOT.CHANNEL_ID</seg>
       </tuv>
     </tu>
     <tu>
@@ -4954,6 +8226,94 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T195305Z" creationid="cartesinus" creationdate="20200229T195305Z">
         <seg>sms a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>stop following TWITTER.SLOT.USERNAME on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194521Z" creationid="cartesinus" creationdate="20200308T194521Z">
+        <seg>dejar de seguir a TWITTER.SLOT.USERNAME en twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sunrise and sunset for location WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205453Z" creationid="cartesinus" creationdate="20200308T205453Z">
+        <seg>amanecer y atardecer para la ubicación WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sunrise and sunset for location WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205514Z" creationid="cartesinus" creationdate="20200308T205514Z">
+        <seg>amanecer y atardecer para la ubicación WEATHER.SLOT.LOCATION en la fecha WEATHER.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sunrise and sunset times at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205509Z" creationid="cartesinus" creationdate="20200308T205509Z">
+        <seg>horario de salida y puesta del sol en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sunrise and sunset times at WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205527Z" creationid="cartesinus" creationdate="20200308T205527Z">
+        <seg>horario de salida y puesta del sol en WEATHER.SLOT.LOCATION en la fecha WEATHER.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sunrise at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205150Z" creationid="cartesinus" creationdate="20200308T205150Z">
+        <seg>el amanecer en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sunrise time at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205154Z" creationid="cartesinus" creationdate="20200308T205154Z">
+        <seg>hora del amanecer en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sunset at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205351Z" creationid="cartesinus" creationdate="20200308T205351Z">
+        <seg>puesta de sol en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>sunset time at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205359Z" creationid="cartesinus" creationdate="20200308T205359Z">
+        <seg>hora del atardecer en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>surf</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195428Z" creationid="cartesinus" creationdate="20200309T195406Z">
+        <seg>navega</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>surfing</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195413Z" creationid="cartesinus" creationdate="20200309T195413Z">
+        <seg>navegación</seg>
       </tuv>
     </tu>
     <tu>
@@ -5102,6 +8462,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>the current weather at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204434Z" creationid="cartesinus" creationdate="20200308T204434Z">
+        <seg>el tiempo actual en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the current weather at WEATHER.SLOT.LOCATION tomorrow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204556Z" creationid="cartesinus" creationdate="20200308T204556Z">
+        <seg>el tiempo actual en WEATHER.SLOT.LOCATION mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the current weather in WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204356Z" creationid="cartesinus" creationdate="20200308T204338Z">
+        <seg>el tiempo actual en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the current weather in WEATHER.SLOT.LOCATION tomorrow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204554Z" creationid="cartesinus" creationdate="20200308T204554Z">
+        <seg>el tiempo actual en WEATHER.SLOT.LOCATION mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>the fitbit pedometer</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T145232Z" creationid="cartesinus" creationdate="20200225T145232Z">
@@ -5130,6 +8522,22 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T151308Z" creationid="cartesinus" creationdate="20200225T151308Z">
         <seg>el contador de pasos fitbit FITBIT.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the language of TRANSLATE.SLOT.TEXT.MULTI</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193848Z" creationid="cartesinus" creationdate="20200308T193848Z">
+        <seg>idioma de TRANSLATE.SLOT.TEXT.MULTI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the language of TRANSLATE.SLOT.TEXT.MULTI is written in</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193911Z" creationid="cartesinus" creationdate="20200308T193911Z">
+        <seg>idioma en que TRANSLATE.SLOT.TEXT.MULTI está escrito</seg>
       </tuv>
     </tu>
     <tu>
@@ -5206,6 +8614,262 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>the translation of TRANSLATE.SLOT.SRC_LANG sentence TRANSLATE.SLOT.TEXT</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193748Z" creationid="cartesinus" creationdate="20200308T193748Z">
+        <seg>la traducción de la frase TRANSLATE.SLOT.SRC_LANG TRANSLATE.SLOT.TEXT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the translation of TRANSLATE.SLOT.TEXT from TRANSLATE.SLOT.SRC_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193739Z" creationid="cartesinus" creationdate="20200308T193739Z">
+        <seg>la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the translation of TRANSLATE.SLOT.TEXT from TRANSLATE.SLOT.SRC_LANG to TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193438Z" creationid="cartesinus" creationdate="20200308T193438Z">
+        <seg>la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the translation of TRANSLATE.SLOT.TEXT from TRANSLATE.SLOT.SRC_LANG to TRANSLATE.SLOT.TRG_LANG with TRANSLATE.SLOT.TRANSLATOR</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193456Z" creationid="cartesinus" creationdate="20200308T193456Z">
+        <seg>la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the translation of TRANSLATE.SLOT.TEXT to TRANSLATE.SLOT.TRG_LANG from TRANSLATE.SLOT.SRC_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193444Z" creationid="cartesinus" creationdate="20200308T193444Z">
+        <seg>la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the translation of TRANSLATE.SLOT.TEXT to TRANSLATE.SLOT.TRG_LANG from TRANSLATE.SLOT.SRC_LANG with TRANSLATE.SLOT.TRANSLATOR</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193507Z" creationid="cartesinus" creationdate="20200308T193507Z">
+        <seg>la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the translation of TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192841Z" creationid="cartesinus" creationdate="20200308T192841Z">
+        <seg>la traducción de TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the translation of TRANSLATE.SLOT.TEXT.EN into TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193029Z" creationid="cartesinus" creationdate="20200308T193029Z">
+        <seg>la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the translation of TRANSLATE.SLOT.TEXT.EN to TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193003Z" creationid="cartesinus" creationdate="20200308T193003Z">
+        <seg>la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the weather</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203617Z" creationid="cartesinus" creationdate="20200308T203617Z">
+        <seg>el tiempo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the weather at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204346Z" creationid="cartesinus" creationdate="20200308T204329Z">
+        <seg>el tiempo en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the weather at WEATHER.SLOT.LOCATION tomorrow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204552Z" creationid="cartesinus" creationdate="20200308T204552Z">
+        <seg>el tiempo en WEATHER.SLOT.LOCATION mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the weather in WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203956Z" creationid="cartesinus" creationdate="20200308T203956Z">
+        <seg>el tiempo en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the weather in WEATHER.SLOT.LOCATION tomorrow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204543Z" creationid="cartesinus" creationdate="20200308T204543Z">
+        <seg>el tiempo en WEATHER.SLOT.LOCATION mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the weather outside</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203626Z" creationid="cartesinus" creationdate="20200308T203626Z">
+        <seg>el tiempo afuera</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>tomorrow weather</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203931Z" creationid="cartesinus" creationdate="20200308T203931Z">
+        <seg>mañana tiempo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translate TRANSLATE.SLOT.SRC_LANG sentence TRANSLATE.SLOT.TEXT</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193715Z" creationid="cartesinus" creationdate="20200308T193715Z">
+        <seg>traducir la frase TRANSLATE.SLOT.SRC_LANG TRANSLATE.SLOT.TEXT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translate TRANSLATE.SLOT.TEXT from TRANSLATE.SLOT.SRC_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193524Z" creationid="cartesinus" creationdate="20200308T193524Z">
+        <seg>traducir TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translate TRANSLATE.SLOT.TEXT from TRANSLATE.SLOT.SRC_LANG to TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193231Z" creationid="cartesinus" creationdate="20200308T193231Z">
+        <seg>traducir TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translate TRANSLATE.SLOT.TEXT to TRANSLATE.SLOT.TRG_LANG from TRANSLATE.SLOT.SRC_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193247Z" creationid="cartesinus" creationdate="20200308T193247Z">
+        <seg>traducir TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translate TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192857Z" creationid="cartesinus" creationdate="20200308T192857Z">
+        <seg>traducir TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translate TRANSLATE.SLOT.TEXT.EN into TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193013Z" creationid="cartesinus" creationdate="20200308T193013Z">
+        <seg>traducir TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translate TRANSLATE.SLOT.TEXT.EN to TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193016Z" creationid="cartesinus" creationdate="20200308T193016Z">
+        <seg>traducir TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translate to TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193511Z" creationid="cartesinus" creationdate="20200308T193511Z">
+        <seg>traducir a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translate to TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193036Z" creationid="cartesinus" creationdate="20200308T193036Z">
+        <seg>traducir a TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translation of TRANSLATE.SLOT.SRC_LANG sentence TRANSLATE.SLOT.TEXT</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193736Z" creationid="cartesinus" creationdate="20200308T193736Z">
+        <seg>traducción de la frase TRANSLATE.SLOT.SRC_LANG TRANSLATE.SLOT.TEXT</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translation of TRANSLATE.SLOT.TEXT from TRANSLATE.SLOT.SRC_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193723Z" creationid="cartesinus" creationdate="20200308T193723Z">
+        <seg>traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translation of TRANSLATE.SLOT.TEXT from TRANSLATE.SLOT.SRC_LANG to TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193259Z" creationid="cartesinus" creationdate="20200308T193259Z">
+        <seg>traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translation of TRANSLATE.SLOT.TEXT to TRANSLATE.SLOT.TRG_LANG from TRANSLATE.SLOT.SRC_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193432Z" creationid="cartesinus" creationdate="20200308T193432Z">
+        <seg>traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translation of TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192824Z" creationid="cartesinus" creationdate="20200308T192824Z">
+        <seg>traducción de TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translation of TRANSLATE.SLOT.TEXT.EN into TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T193021Z" creationid="cartesinus" creationdate="20200308T193021Z">
+        <seg>traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>translation of TRANSLATE.SLOT.TEXT.EN to TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192950Z" creationid="cartesinus" creationdate="20200308T192950Z">
+        <seg>traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>turn SPEAKER.SLOT.POWER my speaker</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T202235Z" creationid="cartesinus" creationdate="20200229T202235Z">
@@ -5266,6 +8930,46 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T094822Z" creationid="cartesinus" creationdate="20200224T231019Z">
         <seg>enciende el AIRCONDITIONER.SLOT.AV_ALIAS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>tweets about TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203257Z" creationid="cartesinus" creationdate="20200308T203257Z">
+        <seg>tuits sobre TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>tweets about TWITTER.SLOT.HASHTAG on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203307Z" creationid="cartesinus" creationdate="20200308T203307Z">
+        <seg>tuits sobre TWITTER.SLOT.HASHTAG en twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>tweets with hashtag TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203243Z" creationid="cartesinus" creationdate="20200308T203243Z">
+        <seg>tweets con el hashtag TWITTER.SLOT.HASHTAG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>tweets with hashtag TWITTER.SLOT.HASHTAG on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203249Z" creationid="cartesinus" creationdate="20200308T203249Z">
+        <seg>tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>unfollow TWITTER.SLOT.USERNAME on twitter</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T194356Z" creationid="cartesinus" creationdate="20200308T194356Z">
+        <seg>dejar de seguir a TWITTER.SLOT.USERNAME en twitter</seg>
       </tuv>
     </tu>
     <tu>
@@ -5478,6 +9182,70 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>weather at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203942Z" creationid="cartesinus" creationdate="20200308T203942Z">
+        <seg>tiempo en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>weather at WEATHER.SLOT.LOCATION tomorrow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204530Z" creationid="cartesinus" creationdate="20200308T204530Z">
+        <seg>el tiempo en WEATHER.SLOT.LOCATION mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>weather in WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203939Z" creationid="cartesinus" creationdate="20200308T203939Z">
+        <seg>tiempo en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>weather in WEATHER.SLOT.LOCATION tomorrow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204527Z" creationid="cartesinus" creationdate="20200308T204527Z">
+        <seg>el tiempo en WEATHER.SLOT.LOCATION mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>weather tomorrow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203846Z" creationid="cartesinus" creationdate="20200308T203846Z">
+        <seg>tiempo mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>web search</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T213438Z" creationid="cartesinus" creationdate="20200308T213438Z">
+        <seg>buscador web</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>web sites matching WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T213511Z" creationid="cartesinus" creationdate="20200308T213511Z">
+        <seg>sitios web que coinciden con WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>websites matching WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T213504Z" creationid="cartesinus" creationdate="20200308T213504Z">
+        <seg>sitios web que coinciden con WEBSEARCH.SLOT.TXT_QUERY</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>what does the AIRCONDITIONER.SLOT.DEVICE_NAME indoor temperature sensor say ?</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T112104Z" creationid="cartesinus" creationdate="20200225T112104Z">
@@ -5574,6 +9342,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>what is the translation of TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192834Z" creationid="cartesinus" creationdate="20200308T192834Z">
+        <seg>cuál es la traducción de TRANSLATE.SLOT.TEXT.EN</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the translation of TRANSLATE.SLOT.TEXT.EN to TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T192958Z" creationid="cartesinus" creationdate="20200308T192958Z">
+        <seg>cuál es la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the wather in WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204501Z" creationid="cartesinus" creationdate="20200308T204501Z">
+        <seg>cómo est'a el tiempo en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the wather in WEATHER.SLOT.LOCATION tomorrow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204611Z" creationid="cartesinus" creationdate="20200308T204611Z">
+        <seg>cómo est'a el tiempo en WEATHER.SLOT.LOCATION mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the wather like in WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T204524Z" creationid="cartesinus" creationdate="20200308T204524Z">
+        <seg>cómo est'a el tiempo en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what is the wather like in WEATHER.SLOT.LOCATION tomorrow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205139Z" creationid="cartesinus" creationdate="20200308T205139Z">
+        <seg>cómo ser'a el tiempo en WEATHER.SLOT.LOCATION mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>what temperature do I have in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T103750Z" creationid="cartesinus" creationdate="20200225T103432Z">
@@ -5598,10 +9414,90 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>what's the weather</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203654Z" creationid="cartesinus" creationdate="20200308T203654Z">
+        <seg>cómo est'a el tiempo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what's the weather like</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203738Z" creationid="cartesinus" creationdate="20200308T203738Z">
+        <seg>cómo está el tiempo</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what's the weather like outside</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203836Z" creationid="cartesinus" creationdate="20200308T203836Z">
+        <seg>qué tal el tiempo afuera</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what's the weather outside</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203704Z" creationid="cartesinus" creationdate="20200308T203704Z">
+        <seg>qué tiempo hace afuera</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what's the weather tommorow</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203909Z" creationid="cartesinus" creationdate="20200308T203909Z">
+        <seg>qué tiempo har'a mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>what's the weather tommorow like</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T203925Z" creationid="cartesinus" creationdate="20200308T203925Z">
+        <seg>cómo ser'a el tiempo mañana</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>whats on my schedule CALENDAR.SLOT.DATE</seg>
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200225T112303Z" creationid="cartesinus" creationdate="20200225T112250Z">
         <seg>qué hay en mi horario CALENDAR.SLOT.DATE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>when is sunrise at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205203Z" creationid="cartesinus" creationdate="20200308T205203Z">
+        <seg>cu'ando es el amanecer en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>when is sunrise time at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205210Z" creationid="cartesinus" creationdate="20200308T205210Z">
+        <seg>cu'ando es la hora del amanecer en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>when is sunset at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205407Z" creationid="cartesinus" creationdate="20200308T205407Z">
+        <seg>cu'ando es la puesta de sol en WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>when is sunset time at WEATHER.SLOT.LOCATION</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200308T205427Z" creationid="cartesinus" creationdate="20200308T205427Z">
+        <seg>cu'ando es la hora del atardecer en WEATHER.SLOT.LOCATION</seg>
       </tuv>
     </tu>
     <tu>
@@ -5618,6 +9514,38 @@
       </tuv>
       <tuv lang="es" changeid="cartesinus" changedate="20200229T195452Z" creationid="cartesinus" creationdate="20200229T195452Z">
         <seg>si SLACK.SLOT.USERNAME está fuera en slack</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>wiki surf</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195423Z" creationid="cartesinus" creationdate="20200309T195423Z">
+        <seg>navega en wiki</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>wiki surfing</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195437Z" creationid="cartesinus" creationdate="20200309T195437Z">
+        <seg>navega en wiki</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>wikipedia surf</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195445Z" creationid="cartesinus" creationdate="20200309T195445Z">
+        <seg>navega en wikipedia</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>wikipedia surfing</seg>
+      </tuv>
+      <tuv lang="es" changeid="cartesinus" changedate="20200309T195647Z" creationid="cartesinus" creationdate="20200309T195647Z">
+        <seg>navega en wikipedia</seg>
       </tuv>
     </tu>
 <!-- Alternative translations -->

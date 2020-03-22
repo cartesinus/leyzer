@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = contacts__  (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11>);
+public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2> | ShowContactWithEmail__ <INTENT_3> | ShowContactWithNumber__ <INTENT_4> | ShowContactWithName__ <INTENT_5> | ShowContactWithNumberAndWithEmail__ <INTENT_6> | ShowContactWithNameAndWithNumberAndWithType__ <INTENT_7> | EditContactWithName__ <INTENT_8> | EditContactWithNumber__ <INTENT_9> | EditNumberInContactWithName__ <INTENT_10> | EditNumberInContactWithNameToNumberAndToType__ <INTENT_11>);
 
 #INTENTS
 <INTENT_1> = <SHOW_VERB> ([moje] kontakty | [moją] listę kontaktów);

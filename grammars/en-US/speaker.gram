@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = speaker__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5>);
+public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> | IncreaseVolumeByPercent__ <INTENT_3> | DecreaseVolume__ <INTENT_4> | DecreaseVolumeByPercent__ <INTENT_5>| MuteOn__ <INTENT_6> | MuteOff__ <INTENT_7>);
 
 #PRECONDITIONS
 <WHEN> = when my speaker changes state;
@@ -48,11 +48,15 @@ public <S> = speaker__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <
 <INTENT_2_a> = increase (the volume of the speaker | my speaker 's volume);
 <INTENT_2_b> = make (the | my) speaker louder;
 
-<INTENT_3> = (reduce | decrease) ([the] volume of [my] speaker | [my] speaker 's volume);
+<INTENT_3> = <INTENT_2> by <PERCENT> [percent];
 
-<INTENT_4> = (silence | mute) [my | the] speaker;
+<INTENT_4> = (reduce | decrease) ([the] volume of [my] speaker | [my] speaker 's volume);
 
-<INTENT_5> = unmute [my | the] speaker;
+<INTENT_5> = <INTENT_4> by <PERCENT> [percent];
+
+<INTENT_6> = (silence | mute) [my | the] speaker;
+
+<INTENT_7> = unmute [my | the] speaker;
 
 <GET> = if my speaker is on or off;
 <GET> = whether my speaker is switched on or switched off;
@@ -121,6 +125,7 @@ public <S> = speaker__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <
 #SLOTS
 <DEVICE_NAME> = SPEAKER.SLOT.DEVICE_NAME;
 <POWER> = SPEAKER.SLOT.POWER;
+<PERCENT> = SPEAKER.SLOT.PERCENT;
 
 /**
 is my speaker on?

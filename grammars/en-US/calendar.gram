@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = calendar__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8>);
+public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithDate__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8>);
 
 #PRECONDITIONS
 <WHEN_1> = when an (meeting | appointment | event) on my calendar begins;

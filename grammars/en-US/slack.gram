@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = slack__ (1__ <INTENT_1> | 2__ <INTENT_2> | 3__ <INTENT_3> | 4__ <INTENT_4> | 5__ <INTENT_5> | 6__ <INTENT_6> | 7__ <INTENT_7> | 8__ <INTENT_8> | 9__ <INTENT_9> | 10__ <INTENT_10> | 11__ <INTENT_11> | 12__ <INTENT_12> | 13__ <INTENT_13>);
+public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | CheckUserStatus__ <INTENT_3> | CheckMessagesFromUser__ <INTENT_4> | CheckMessagesInChannel__ <INTENT_5> | SendMessageToChannel__ <INTENT_6> | SetPurposeOnChannel__ <INTENT_7> | SetTopicInChannel__ <INTENT_8> | SetStatusAway__ <INTENT_9> | SendMessage__ <INTENT_10> | SendMessageToChannel__ <INTENT_11> | SendPictureToChannelWithCaption__ <INTENT_12> | SendPictureWithUrlToChannel__ <INTENT_13>);
 
 #PRECONDITIONS
 <WHEN> = when <USERNAME> is online on slack;
