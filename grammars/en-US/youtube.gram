@@ -11,7 +11,7 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 <INTENT_2> = (play | <FIND_VERB>) (<INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>);
 <INTENT_2_a> = <QUERY> video on youtube;
 <INTENT_2_b> = a video matching <QUERY> on youtube;
-<INTENT_2_c> = <QUERY> [video | videos] from youtube;
+<INTENT_2_c> = <QUERY> [video | videos] on youtube;
 <INTENT_2_d> = youtube video <QUERY>;
 
 <INTENT_3> = (show | play) (youtube (channel | videos in) <CHANNEL_ID> | channel <CHANNEL_ID> in youtube);
