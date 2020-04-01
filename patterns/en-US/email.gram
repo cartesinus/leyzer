@@ -1,62 +1,62 @@
-email__ 1__ check email
-email__ 1__ check email inbox
-email__ 1__ check gmail
-email__ 1__ check gmail inbox
-email__ 1__ check my email
-email__ 1__ check my email inbox
-email__ 1__ check my gmail
-email__ 1__ check my gmail inbox
-email__ 1__ get email
-email__ 1__ get email inbox
-email__ 1__ get gmail
-email__ 1__ get gmail inbox
-email__ 1__ get my email
-email__ 1__ get my email inbox
-email__ 1__ get my gmail
-email__ 1__ get my gmail inbox
-email__ 1__ check my primary category emails
-email__ 1__ get my primary category emails
-email__ 1__ check my latest email
-email__ 1__ check my emails
-email__ 1__ check my emails on gmail
-email__ 1__ check my gmail inbox
-email__ 1__ get my latest email
-email__ 1__ get my emails
-email__ 1__ get my emails on gmail
-email__ 1__ get my gmail inbox
-email__ 2__ check emails from EMAIL.SLOT.SENDER_ADDRESS
-email__ 2__ check emails i got from EMAIL.SLOT.SENDER_ADDRESS
-email__ 2__ check emails i received from EMAIL.SLOT.SENDER_ADDRESS
-email__ 2__ check my emails from EMAIL.SLOT.SENDER_ADDRESS
-email__ 2__ check my emails i got from EMAIL.SLOT.SENDER_ADDRESS
-email__ 2__ check my emails i received from EMAIL.SLOT.SENDER_ADDRESS
-email__ 2__ get emails from EMAIL.SLOT.SENDER_ADDRESS
-email__ 2__ get emails i got from EMAIL.SLOT.SENDER_ADDRESS
-email__ 2__ get emails i received from EMAIL.SLOT.SENDER_ADDRESS
-email__ 2__ get my emails from EMAIL.SLOT.SENDER_ADDRESS
-email__ 2__ get my emails i got from EMAIL.SLOT.SENDER_ADDRESS
-email__ 2__ get my emails i received from EMAIL.SLOT.SENDER_ADDRESS
-email__ 3__ show me my emails labelled EMAIL.SLOT.LABEL
-email__ 3__ show me my emails with label EMAIL.SLOT.LABEL
-email__ 3__ show me my emails that have label EMAIL.SLOT.LABEL
-email__ 3__ get my emails labelled EMAIL.SLOT.LABEL
-email__ 3__ get my emails with label EMAIL.SLOT.LABEL
-email__ 3__ get my emails that have label EMAIL.SLOT.LABEL
-email__ 4__ show me emails arrived EMAIL.SLOT.TIME
-email__ 4__ show me emails that arrived EMAIL.SLOT.TIME
-email__ 4__ get emails arrived EMAIL.SLOT.TIME
-email__ 4__ get emails that arrived EMAIL.SLOT.TIME
-email__ 5__ show me my emails with subject EMAIL.SLOT.SUBJECT
-email__ 5__ get my emails with subject EMAIL.SLOT.SUBJECT
-email__ 6__ show me EMAIL.SLOT.PRIORITY emails
-email__ 7__ send an email to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
-email__ 7__ send an email to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
-email__ 7__ email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
-email__ 8__ send a picture to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT
-email__ 8__ send a picture to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT using my gmail
-email__ 8__ email a picture to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT
-email__ 9__ send an email
-email__ 9__ send an email to somebody
-email__ 10__ send an email to EMAIL.SLOT.TO using my gmail
-email__ 10__ email EMAIL.SLOT.TO
-email__ 11__ reply to EMAIL.SLOT.TO
+Email__ OpenEmail__ check email
+Email__ OpenEmail__ check email inbox
+Email__ OpenEmail__ check gmail
+Email__ OpenEmail__ check gmail inbox
+Email__ OpenEmail__ check my email
+Email__ OpenEmail__ check my email inbox
+Email__ OpenEmail__ check my gmail
+Email__ OpenEmail__ check my gmail inbox
+Email__ OpenEmail__ get email
+Email__ OpenEmail__ get email inbox
+Email__ OpenEmail__ get gmail
+Email__ OpenEmail__ get gmail inbox
+Email__ OpenEmail__ get my email
+Email__ OpenEmail__ get my email inbox
+Email__ OpenEmail__ get my gmail
+Email__ OpenEmail__ get my gmail inbox
+Email__ OpenEmail__ check my primary category emails
+Email__ OpenEmail__ get my primary category emails
+Email__ OpenEmail__ check my latest email
+Email__ OpenEmail__ check my emails
+Email__ OpenEmail__ check my emails on gmail
+Email__ OpenEmail__ check my gmail inbox
+Email__ OpenEmail__ get my latest email
+Email__ OpenEmail__ get my emails
+Email__ OpenEmail__ get my emails on gmail
+Email__ OpenEmail__ get my gmail inbox
+Email__ ShowEmailFromSender__ check emails from EMAIL.SLOT.SENDER_ADDRESS
+Email__ ShowEmailFromSender__ check emails i got from EMAIL.SLOT.SENDER_ADDRESS
+Email__ ShowEmailFromSender__ check emails i received from EMAIL.SLOT.SENDER_ADDRESS
+Email__ ShowEmailFromSender__ check my emails from EMAIL.SLOT.SENDER_ADDRESS
+Email__ ShowEmailFromSender__ check my emails i got from EMAIL.SLOT.SENDER_ADDRESS
+Email__ ShowEmailFromSender__ check my emails i received from EMAIL.SLOT.SENDER_ADDRESS
+Email__ ShowEmailFromSender__ get emails from EMAIL.SLOT.SENDER_ADDRESS
+Email__ ShowEmailFromSender__ get emails i got from EMAIL.SLOT.SENDER_ADDRESS
+Email__ ShowEmailFromSender__ get emails i received from EMAIL.SLOT.SENDER_ADDRESS
+Email__ ShowEmailFromSender__ get my emails from EMAIL.SLOT.SENDER_ADDRESS
+Email__ ShowEmailFromSender__ get my emails i got from EMAIL.SLOT.SENDER_ADDRESS
+Email__ ShowEmailFromSender__ get my emails i received from EMAIL.SLOT.SENDER_ADDRESS
+Email__ ShowEmailWithLabel__ show me my emails labelled EMAIL.SLOT.LABEL
+Email__ ShowEmailWithLabel__ show me my emails with label EMAIL.SLOT.LABEL
+Email__ ShowEmailWithLabel__ show me my emails that have label EMAIL.SLOT.LABEL
+Email__ ShowEmailWithLabel__ get my emails labelled EMAIL.SLOT.LABEL
+Email__ ShowEmailWithLabel__ get my emails with label EMAIL.SLOT.LABEL
+Email__ ShowEmailWithLabel__ get my emails that have label EMAIL.SLOT.LABEL
+Email__ ShowEmailFromTime__ show me emails arrived EMAIL.SLOT.TIME
+Email__ ShowEmailFromTime__ show me emails that arrived EMAIL.SLOT.TIME
+Email__ ShowEmailFromTime__ get emails arrived EMAIL.SLOT.TIME
+Email__ ShowEmailFromTime__ get emails that arrived EMAIL.SLOT.TIME
+Email__ ShowEmailWithSubject__ show me my emails with subject EMAIL.SLOT.SUBJECT
+Email__ ShowEmailWithSubject__ get my emails with subject EMAIL.SLOT.SUBJECT
+Email__ ShowEmailWithPriority__ show me EMAIL.SLOT.PRIORITY emails
+Email__ SendEmailToAddressWithSubjectAndWithMessage__ send an email to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
+Email__ SendEmailToAddressWithSubjectAndWithMessage__ send an email to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email__ SendEmailToAddressWithSubjectAndWithMessage__ email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
+Email__ SendPictureToAddressWithSubject__ send a picture to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT
+Email__ SendPictureToAddressWithSubject__ send a picture to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT using my gmail
+Email__ SendPictureToAddressWithSubject__ email a picture to EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT
+Email__ SendEmail__ send an email
+Email__ SendEmail__ send an email to somebody
+Email__ SendEmailToAddress__ send an email to EMAIL.SLOT.TO using my gmail
+Email__ SendEmailToAddress__ email EMAIL.SLOT.TO
+Email__ ReplyToEmailFromAddress__ reply to EMAIL.SLOT.TO

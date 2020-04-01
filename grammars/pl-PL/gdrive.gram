@@ -4,7 +4,7 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 #INTENTS
 <INTENT_1> = <SHOW_VERB> <MY_GDRIVE_FILES>;
 
-<INTENT_2> = <SHOW_VERB> <MY_GDRIVE_FILES> (o typie | z typem) <MIME_TYPE>);
+<INTENT_2> = <SHOW_VERB> <MY_GDRIVE_FILES> (o typie | z typem) <MIME_TYPE>;
 
 <INTENT_3> = <SHOW_VERB> <MY_GDRIVE_FILES> (które oznaczyłem | oznaczone) gwiazdką;
 
@@ -33,4 +33,4 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 
 #LANG. COMPONENTS
 <SHOW_VERB> = pokaż | wyświetl | wylistuj;
-<MY_GDRIVE_FILES> = (moje pliki (z | na | w) google drive;
+<MY_GDRIVE_FILES> = moje pliki (z | na | w) google drive;

@@ -12,10 +12,10 @@ public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | Unf
 <INTENT_3> = przestań (obserować | śledzić) <USERNAME> na twitterze;
 
 #send message to user
-<INTENT_4> = [wyślij | napisz] (wiadomość | pw | prywatną wiadomość) [na twitterze] o treści <MESSAGE>;
+<INTENT_4> = [wyślij | napisz] (wiadomość | pw | prywatną wiadomość) [na twitterze] o treści <MESSAGE>;
 
 #send message to user
-<INTENT_5> = [wyślij | napisz] (wiadomość | pw | prywatną wiadomość) do <USERNAME> o treści <MESSAGE>;
+<INTENT_5> = [wyślij | napisz] (wiadomość | pw | prywatną wiadomość) do <USERNAME> o treści <MESSAGE>;
 
 #find tweets with hashtags
 <INTENT_6> = [znajdź | <SHOW_VERB>] twitty z hashtagiem <HASHTAG>;

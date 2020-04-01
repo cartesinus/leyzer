@@ -1,56 +1,56 @@
-contacts__ 1__ show my contacts
-contacts__ 1__ display my contacts
-contacts__ 1__ open my contacts
-contacts__ 2__ show my contact's info
-contacts__ 2__ display my contact's info
-contacts__ 2__ open my contact's info
-contacts__ 3__ show my contacts with email CONTACTS.SLOT.EMAIL
-contacts__ 3__ show my google contacts with email CONTACTS.SLOT.EMAIL
-contacts__ 3__ display my contacts with email CONTACTS.SLOT.EMAIL
-contacts__ 3__ display my google contacts with email CONTACTS.SLOT.EMAIL
-contacts__ 3__ open my contacts with email CONTACTS.SLOT.EMAIL
-contacts__ 3__ open my google contacts with email CONTACTS.SLOT.EMAIL
-contacts__ 4__ show my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 4__ display my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 4__ open my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 5__ show my contacts with name CONTACTS.SLOT.NAME
-contacts__ 5__ display my contacts with name CONTACTS.SLOT.NAME
-contacts__ 5__ open my contacts with name CONTACTS.SLOT.NAME
-contacts__ 6__ show my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
-contacts__ 6__ display my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
-contacts__ 6__ open my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
-contacts__ 7__ create a new contact and name it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact and name it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact and name it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact and name it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact and name it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact and name it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact and name it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact and name it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact and name it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact and name it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact using a name CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact using a name CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact using a name CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact using a name CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact using a name CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact using a name CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact using a name CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact using a name CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact using a name CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact using a name CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact and call it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact and call it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact and call it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact and call it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact and call it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact and call it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact and call it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact and call it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 7__ create a new contact and call it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 7__ create a new contact and call it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
-contacts__ 8__ edit my contact CONTACTS.SLOT.NAME
-contacts__ 8__ open my contact CONTACTS.SLOT.NAME for edition
-contacts__ 9__ change the name of my contact with number CONTACTS.SLOT.PHONE_NUMBER
-contacts__ 10__ change the number of my contact CONTACTS.SLOT.NAME
-contacts__ 11__ set the number CONTACTS.SLOT.PHONE_NUMBER in contact CONTACTS.SLOT.NAME as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ OpenContacts__ show my contacts
+Contacts__ OpenContacts__ display my contacts
+Contacts__ OpenContacts__ open my contacts
+Contacts__ OpenMyContact__ show my contact's info
+Contacts__ OpenMyContact__ display my contact's info
+Contacts__ OpenMyContact__ open my contact's info
+Contacts__ ShowContactWithEmail__ show my contacts with email CONTACTS.SLOT.EMAIL
+Contacts__ ShowContactWithEmail__ show my google contacts with email CONTACTS.SLOT.EMAIL
+Contacts__ ShowContactWithEmail__ display my contacts with email CONTACTS.SLOT.EMAIL
+Contacts__ ShowContactWithEmail__ display my google contacts with email CONTACTS.SLOT.EMAIL
+Contacts__ ShowContactWithEmail__ open my contacts with email CONTACTS.SLOT.EMAIL
+Contacts__ ShowContactWithEmail__ open my google contacts with email CONTACTS.SLOT.EMAIL
+Contacts__ ShowContactWithNumber__ show my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNumber__ display my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNumber__ open my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithName__ show my contacts with name CONTACTS.SLOT.NAME
+Contacts__ ShowContactWithName__ display my contacts with name CONTACTS.SLOT.NAME
+Contacts__ ShowContactWithName__ open my contacts with name CONTACTS.SLOT.NAME
+Contacts__ ShowContactWithNumberAndWithEmail__ show my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
+Contacts__ ShowContactWithNumberAndWithEmail__ display my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
+Contacts__ ShowContactWithNumberAndWithEmail__ open my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and name it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and name it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and name it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and name it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and name it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and name it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and name it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and name it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and name it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and name it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact using a name CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact using a name CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact using a name CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact using a name CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact using a name CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact using a name CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact using a name CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact using a name CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact using a name CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact using a name CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and call it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and call it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and call it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and call it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and call it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and call it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and call it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and call it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and call it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ ShowContactWithNameAndWithNumberAndWithType__ create a new contact and call it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts__ EditContactWithName__ edit my contact CONTACTS.SLOT.NAME
+Contacts__ EditContactWithName__ open my contact CONTACTS.SLOT.NAME for edition
+Contacts__ EditContactWithNumber__ change the name of my contact with number CONTACTS.SLOT.PHONE_NUMBER
+Contacts__ EditNumberInContactWithName__ change the number of my contact CONTACTS.SLOT.NAME
+Contacts__ EditNumberInContactWithNameToNumberAndToType__ set the number CONTACTS.SLOT.PHONE_NUMBER in contact CONTACTS.SLOT.NAME as CONTACTS.SLOT.PHONE_TYPE

@@ -20,16 +20,16 @@ public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> 
 <INTENT_5> = (ściągnij | pobierz | zachowaj) (tą stronę | ten artukuł) jako pdf;
 
 #change language of page
-<INTENT_6> = (zmień język ([tej] strony | [tego] artykułu) na <LANGUAGE.LOCATIVE> | pokaż ([ten] artykuł | [tę] stronę) w języku <LANGUAGE.ACCUSATIVE>);
+<INTENT_6> = zmień język ([tej] strony | [tego] artykułu) na <LANGUAGE_LOCATIVE> | pokaż ([ten] artykuł | [tę] stronę) w języku <LANGUAGE_ACCUSATIVE>;
 
 #show random
-<INTENT_7> = ([pokaż] losową (stronę | artykuł) [na (wiki | wikipedii) | [wiki | wikipedia] surfing);
+<INTENT_7> = [pokaż] losową (stronę | artykuł) [na (wiki | wikipedii)] | [wiki | wikipedia] surfing;
 
 #content navigation
 <INTENT_8> = przejdź do <ELEMENT> elementu ze spisu treści;
 
 #SLOTS
 <QUERY> = WIKIPEDIA.SLOT.QUERY;
-<LANGUAGE.ACCUSATIVE> = angielskim | polskim | niemieckim | francuskim | włoskim | hiszpańskim | rosyjskim | chińskim | ukraińskim | arabskim | portugalskim;
-<LANGUAGE.LOCATIVE> = angielski | polski | niemiecki | francuski | włoski | hiszpański | rosyjski | chiński | ukraiński | arabski | portugalski;
+<LANGUAGE_ACCUSATIVE> = angielskim | polskim | niemieckim | francuskim | włoskim | hiszpańskim | rosyjskim | chińskim | ukraińskim | arabskim | portugalskim;
+<LANGUAGE_LOCATIVE> = angielski | polski | niemiecki | francuski | włoski | hiszpański | rosyjski | chiński | ukraiński | arabski | portugalski;
 <ELEMENT> = pierwszego | drugiego | trzeciego | czwartego | piątego | szóstego | siódmego | ósmego | dziewiątego | dziesiątego;

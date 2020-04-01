@@ -4,7 +4,7 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 #INTENTS
 <INTENT_1> = (<CALL> | wybierz) (na | do) <NUMBER>;
 
-<INTENT_2> = <CALL> ((na | po) (policję | straż pożarną | pogotowie) | na 112)
+<INTENT_2> = <CALL> ((na | po) (policję | straż pożarną | pogotowie) | na 112);
 
 <INTENT_3> = (sprawdź | wyświetl | pokaż) moje [przychodzące] (wiadomości | smsy);
 

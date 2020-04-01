@@ -2,7 +2,7 @@
 public <S> = Websearch__ (OpenEngine__ <INTENT_1> | SearchTextOnEngine__ <INTENT_2> | SearchText__ <INTENT_3> | SearchImagesWithTextOnEngine__ <INTENT_4> | SearchImagesOnEngine__ <INTENT_5> | SearchImagesWithTextOnEngineWithWidthAndWithHeight__ <INTENT_6> | SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__ <INTENT_7>);
 
 #INTENTS
-<INTENT_1> = (szukaj | wyszukaj | poszukaj | chcę wyszukać) na <ENGINE> | <ENGINE> wyszukiwarka | wyszukiwarka);
+<INTENT_1> = ((szukaj | wyszukaj | poszukaj | chcę wyszukać) na <ENGINE>) | <ENGINE> wyszukiwarka | wyszukiwarka;
 
 <INTENT_2> = (<TXT_QUERY> (w | na) <ENGINE> | <ENGINE> <TXT_QUERY>);
 
@@ -26,4 +26,4 @@ public <S> = Websearch__ (OpenEngine__ <INTENT_1> | SearchTextOnEngine__ <INTENT
 
 #LANG. COMPONENTS
 <FIND> = pokaż | wyszukaj | szukaj | wyświetl | znajdź | chcę zobaczyć;
-<IMAGES> obrazy | obrazki | zdjęcia;
+<IMAGES> = obrazy | obrazki | zdjęcia;

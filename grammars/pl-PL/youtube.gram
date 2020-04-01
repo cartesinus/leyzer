@@ -3,7 +3,7 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 
 #PRECONDITIONS
 <WHEN_1> = kiedy pojawi się [nowe] (wideo | klip | film) na kanale który (śledzę | followuję | obserwuję | oglądam);
-<WHEN_2> = kiedy na kanale <CHANNEL_ID> pojawi się ([nowy] (klip | film) | [nowe] wideo);
+<WHEN_2> = kiedy na kanale <CHANNEL_ID> pojawi się ([nowy] klip | [nowy] film | [nowe] wideo);
 
 #INTENTS
 <INTENT_1> = otwórz (yt | youtube);
@@ -20,7 +20,7 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 
 <INTENT_6> = pokaż [mi] kanały które (śledzę | obserwuję | followuję) [na (yt | youtube)];
 
-<INTENT_7> = <FIND_VERB> kanały z <QUERY> [na (yt | youtube);
+<INTENT_7> = <FIND_VERB> kanały z <QUERY> [na (yt | youtube)];
 
 <INTENT_8> = pokaż [mi] <VIDEO> (z | opublikowane) [kanału] <CHANNEL_ID> (pasujące | które pasuje) do <QUERY> [na (yt | youtube)];
 

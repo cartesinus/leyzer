@@ -1,57 +1,57 @@
-slack__ 1__ open slack
-slack__ 2__ check my last slack messages
-slack__ 2__ check my slack channel history
-slack__ 2__ get my last slack messages
-slack__ 2__ get my slack channel history
-slack__ 3__ the presence of SLACK.SLOT.USERNAME on slack
-slack__ 3__ whether SLACK.SLOT.USERNAME is active on slack
-slack__ 3__ whether SLACK.SLOT.USERNAME is away on slack
-slack__ 4__ check recent messages from SLACK.SLOT.SENDER in slack
-slack__ 4__ check messages i received on slack from SLACK.SLOT.SENDER
-slack__ 4__ get recent messages from SLACK.SLOT.SENDER in slack
-slack__ 4__ get messages i received on slack from SLACK.SLOT.SENDER
-slack__ 5__ check recent slack messages in SLACK.SLOT.CHANNEL
-slack__ 5__ check messages i received on slack in SLACK.SLOT.CHANNEL
-slack__ 5__ check slack messages in SLACK.SLOT.CHANNEL i received in the last hour
-slack__ 5__ get recent slack messages in SLACK.SLOT.CHANNEL
-slack__ 5__ get messages i received on slack in SLACK.SLOT.CHANNEL
-slack__ 5__ get slack messages in SLACK.SLOT.CHANNEL i received in the last hour
-slack__ 6__ post SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
-slack__ 6__ send SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
-slack__ 6__ upload SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
-slack__ 6__ post a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
-slack__ 6__ send a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
-slack__ 6__ upload a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
-slack__ 6__ message SLACK.SLOT.CHANNEL on slack saying SLACK.SLOT.MESSAGE
-slack__ 6__ let slack channel SLACK.SLOT.CHANNEL know that SLACK.SLOT.MESSAGE
-slack__ 7__ set the purpose for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
-slack__ 7__ set the purpose for slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-slack__ 8__ set the topic for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC on slack
-slack__ 8__ set the topic of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
-slack__ 9__ set me as away on slack
-slack__ 9__ set me as not away on slack
-slack__ 9__ mark me as away on slack
-slack__ 9__ mark me as not away on slack
-slack__ 10__ post on slack
-slack__ 10__ post a message on slack
-slack__ 10__ send on slack
-slack__ 10__ send a message on slack
-slack__ 10__ upload on slack
-slack__ 10__ upload a message on slack
-slack__ 11__ post a picture on slack to SLACK.SLOT.CHANNEL
-slack__ 11__ send a picture on slack to SLACK.SLOT.CHANNEL
-slack__ 11__ upload a picture on slack to SLACK.SLOT.CHANNEL
-slack__ 11__ upload a picture to slack channel SLACK.SLOT.CHANNEL
-slack__ 11__ send something to slack channel SLACK.SLOT.CHANNEL
-slack__ 11__ post on slack to SLACK.SLOT.CHANNEL
-slack__ 11__ post on slack channel SLACK.SLOT.CHANNEL
-slack__ 12__ post a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
-slack__ 12__ post a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
-slack__ 12__ send a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
-slack__ 12__ send a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
-slack__ 12__ upload a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
-slack__ 12__ upload a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
-slack__ 13__ post SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
-slack__ 13__ send SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
-slack__ 13__ upload SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
-slack__ 13__ post SLACK.SLOT.PICTURE_URL to slack channel SLACK.SLOT.CHANNEL
+Slack__ OpenSlack__ open slack
+Slack__ CheckLastMessages__ check my last slack messages
+Slack__ CheckLastMessages__ check my slack channel history
+Slack__ CheckLastMessages__ get my last slack messages
+Slack__ CheckLastMessages__ get my slack channel history
+Slack__ CheckUserStatus__ the presence of SLACK.SLOT.USERNAME on slack
+Slack__ CheckUserStatus__ whether SLACK.SLOT.USERNAME is active on slack
+Slack__ CheckUserStatus__ whether SLACK.SLOT.USERNAME is away on slack
+Slack__ CheckMessagesFromUser__ check recent messages from SLACK.SLOT.SENDER in slack
+Slack__ CheckMessagesFromUser__ check messages i received on slack from SLACK.SLOT.SENDER
+Slack__ CheckMessagesFromUser__ get recent messages from SLACK.SLOT.SENDER in slack
+Slack__ CheckMessagesFromUser__ get messages i received on slack from SLACK.SLOT.SENDER
+Slack__ CheckMessagesInChannel__ check recent slack messages in SLACK.SLOT.CHANNEL
+Slack__ CheckMessagesInChannel__ check messages i received on slack in SLACK.SLOT.CHANNEL
+Slack__ CheckMessagesInChannel__ check slack messages in SLACK.SLOT.CHANNEL i received in the last hour
+Slack__ CheckMessagesInChannel__ get recent slack messages in SLACK.SLOT.CHANNEL
+Slack__ CheckMessagesInChannel__ get messages i received on slack in SLACK.SLOT.CHANNEL
+Slack__ CheckMessagesInChannel__ get slack messages in SLACK.SLOT.CHANNEL i received in the last hour
+Slack__ SendMessageToChannel__ post SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
+Slack__ SendMessageToChannel__ send SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
+Slack__ SendMessageToChannel__ upload SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
+Slack__ SendMessageToChannel__ post a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
+Slack__ SendMessageToChannel__ send a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
+Slack__ SendMessageToChannel__ upload a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
+Slack__ SendMessageToChannel__ message SLACK.SLOT.CHANNEL on slack saying SLACK.SLOT.MESSAGE
+Slack__ SendMessageToChannel__ let slack channel SLACK.SLOT.CHANNEL know that SLACK.SLOT.MESSAGE
+Slack__ SetPurposeOnChannel__ set the purpose for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
+Slack__ SetPurposeOnChannel__ set the purpose for slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__ SetTopicInChannel__ set the topic for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC on slack
+Slack__ SetTopicInChannel__ set the topic of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
+Slack__ SetStatusAway__ set me as away on slack
+Slack__ SetStatusAway__ set me as not away on slack
+Slack__ SetStatusAway__ mark me as away on slack
+Slack__ SetStatusAway__ mark me as not away on slack
+Slack__ SendMessage__ post on slack
+Slack__ SendMessage__ post a message on slack
+Slack__ SendMessage__ send on slack
+Slack__ SendMessage__ send a message on slack
+Slack__ SendMessage__ upload on slack
+Slack__ SendMessage__ upload a message on slack
+Slack__ SendMessageToChannel__ post a picture on slack to SLACK.SLOT.CHANNEL
+Slack__ SendMessageToChannel__ send a picture on slack to SLACK.SLOT.CHANNEL
+Slack__ SendMessageToChannel__ upload a picture on slack to SLACK.SLOT.CHANNEL
+Slack__ SendMessageToChannel__ upload a picture to slack channel SLACK.SLOT.CHANNEL
+Slack__ SendMessageToChannel__ send something to slack channel SLACK.SLOT.CHANNEL
+Slack__ SendMessageToChannel__ post on slack to SLACK.SLOT.CHANNEL
+Slack__ SendMessageToChannel__ post on slack channel SLACK.SLOT.CHANNEL
+Slack__ SendPictureToChannelWithCaption__ post a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
+Slack__ SendPictureToChannelWithCaption__ post a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
+Slack__ SendPictureToChannelWithCaption__ send a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
+Slack__ SendPictureToChannelWithCaption__ send a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
+Slack__ SendPictureToChannelWithCaption__ upload a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
+Slack__ SendPictureToChannelWithCaption__ upload a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
+Slack__ SendPictureWithUrlToChannel__ post SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
+Slack__ SendPictureWithUrlToChannel__ send SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
+Slack__ SendPictureWithUrlToChannel__ upload SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
+Slack__ SendPictureWithUrlToChannel__ post SLACK.SLOT.PICTURE_URL to slack channel SLACK.SLOT.CHANNEL

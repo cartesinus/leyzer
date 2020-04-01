@@ -1,41 +1,73 @@
-speaker__ 1__ turn SPEAKER.SLOT.POWER my speaker
-speaker__ 1__ turn SPEAKER.SLOT.POWER the speaker
-speaker__ 1__ switch SPEAKER.SLOT.POWER my speaker
-speaker__ 1__ switch SPEAKER.SLOT.POWER the speaker
-speaker__ 1__ help me turn SPEAKER.SLOT.POWER my speaker
-speaker__ 1__ help me turn SPEAKER.SLOT.POWER the speaker
-speaker__ 1__ help me switch SPEAKER.SLOT.POWER my speaker
-speaker__ 1__ help me switch SPEAKER.SLOT.POWER the speaker
-speaker__ 1__ turn SPEAKER.SLOT.POWER my speaker
-speaker__ 1__ turn SPEAKER.SLOT.POWER my speaker for me
-speaker__ 1__ turn SPEAKER.SLOT.POWER the speaker
-speaker__ 1__ turn SPEAKER.SLOT.POWER the speaker for me
-speaker__ 1__ switch SPEAKER.SLOT.POWER my speaker
-speaker__ 1__ switch SPEAKER.SLOT.POWER my speaker for me
-speaker__ 1__ switch SPEAKER.SLOT.POWER the speaker
-speaker__ 1__ switch SPEAKER.SLOT.POWER the speaker for me
-speaker__ 2__ increase the volume of the speaker
-speaker__ 2__ increase my speaker 's volume
-speaker__ 2__ make the speaker louder
-speaker__ 2__ make my speaker louder
-speaker__ 3__ reduce volume of speaker
-speaker__ 3__ reduce volume of my speaker
-speaker__ 3__ reduce the volume of speaker
-speaker__ 3__ reduce the volume of my speaker
-speaker__ 3__ reduce speaker 's volume
-speaker__ 3__ reduce my speaker 's volume
-speaker__ 3__ decrease volume of speaker
-speaker__ 3__ decrease volume of my speaker
-speaker__ 3__ decrease the volume of speaker
-speaker__ 3__ decrease the volume of my speaker
-speaker__ 3__ decrease speaker 's volume
-speaker__ 3__ decrease my speaker 's volume
-speaker__ 4__ silence speaker
-speaker__ 4__ silence my speaker
-speaker__ 4__ silence the speaker
-speaker__ 4__ mute speaker
-speaker__ 4__ mute my speaker
-speaker__ 4__ mute the speaker
-speaker__ 5__ unmute speaker
-speaker__ 5__ unmute my speaker
-speaker__ 5__ unmute the speaker
+Speaker__ TurnOnOrOff__ turn SPEAKER.SLOT.POWER my speaker
+Speaker__ TurnOnOrOff__ turn SPEAKER.SLOT.POWER the speaker
+Speaker__ TurnOnOrOff__ switch SPEAKER.SLOT.POWER my speaker
+Speaker__ TurnOnOrOff__ switch SPEAKER.SLOT.POWER the speaker
+Speaker__ TurnOnOrOff__ help me turn SPEAKER.SLOT.POWER my speaker
+Speaker__ TurnOnOrOff__ help me turn SPEAKER.SLOT.POWER the speaker
+Speaker__ TurnOnOrOff__ help me switch SPEAKER.SLOT.POWER my speaker
+Speaker__ TurnOnOrOff__ help me switch SPEAKER.SLOT.POWER the speaker
+Speaker__ TurnOnOrOff__ turn SPEAKER.SLOT.POWER my speaker
+Speaker__ TurnOnOrOff__ turn SPEAKER.SLOT.POWER my speaker for me
+Speaker__ TurnOnOrOff__ turn SPEAKER.SLOT.POWER the speaker
+Speaker__ TurnOnOrOff__ turn SPEAKER.SLOT.POWER the speaker for me
+Speaker__ TurnOnOrOff__ switch SPEAKER.SLOT.POWER my speaker
+Speaker__ TurnOnOrOff__ switch SPEAKER.SLOT.POWER my speaker for me
+Speaker__ TurnOnOrOff__ switch SPEAKER.SLOT.POWER the speaker
+Speaker__ TurnOnOrOff__ switch SPEAKER.SLOT.POWER the speaker for me
+Speaker__ IncreaseVolume__ increase the volume of the speaker
+Speaker__ IncreaseVolume__ increase my speaker 's volume
+Speaker__ IncreaseVolume__ make the speaker louder
+Speaker__ IncreaseVolume__ make my speaker louder
+Speaker__ IncreaseVolumeByPercent__ increase the volume of the speaker by SPEAKER.SLOT.PERCENT
+Speaker__ IncreaseVolumeByPercent__ increase the volume of the speaker by SPEAKER.SLOT.PERCENT percent
+Speaker__ IncreaseVolumeByPercent__ increase my speaker 's volume by SPEAKER.SLOT.PERCENT
+Speaker__ IncreaseVolumeByPercent__ increase my speaker 's volume by SPEAKER.SLOT.PERCENT percent
+Speaker__ IncreaseVolumeByPercent__ make the speaker louder by SPEAKER.SLOT.PERCENT
+Speaker__ IncreaseVolumeByPercent__ make the speaker louder by SPEAKER.SLOT.PERCENT percent
+Speaker__ IncreaseVolumeByPercent__ make my speaker louder by SPEAKER.SLOT.PERCENT
+Speaker__ IncreaseVolumeByPercent__ make my speaker louder by SPEAKER.SLOT.PERCENT percent
+Speaker__ DecreaseVolume__ reduce volume of speaker
+Speaker__ DecreaseVolume__ reduce volume of my speaker
+Speaker__ DecreaseVolume__ reduce the volume of speaker
+Speaker__ DecreaseVolume__ reduce the volume of my speaker
+Speaker__ DecreaseVolume__ reduce speaker 's volume
+Speaker__ DecreaseVolume__ reduce my speaker 's volume
+Speaker__ DecreaseVolume__ decrease volume of speaker
+Speaker__ DecreaseVolume__ decrease volume of my speaker
+Speaker__ DecreaseVolume__ decrease the volume of speaker
+Speaker__ DecreaseVolume__ decrease the volume of my speaker
+Speaker__ DecreaseVolume__ decrease speaker 's volume
+Speaker__ DecreaseVolume__ decrease my speaker 's volume
+Speaker__ DecreaseVolumeByPercent__ reduce volume of speaker by SPEAKER.SLOT.PERCENT
+Speaker__ DecreaseVolumeByPercent__ reduce volume of speaker by SPEAKER.SLOT.PERCENT percent
+Speaker__ DecreaseVolumeByPercent__ reduce volume of my speaker by SPEAKER.SLOT.PERCENT
+Speaker__ DecreaseVolumeByPercent__ reduce volume of my speaker by SPEAKER.SLOT.PERCENT percent
+Speaker__ DecreaseVolumeByPercent__ reduce the volume of speaker by SPEAKER.SLOT.PERCENT
+Speaker__ DecreaseVolumeByPercent__ reduce the volume of speaker by SPEAKER.SLOT.PERCENT percent
+Speaker__ DecreaseVolumeByPercent__ reduce the volume of my speaker by SPEAKER.SLOT.PERCENT
+Speaker__ DecreaseVolumeByPercent__ reduce the volume of my speaker by SPEAKER.SLOT.PERCENT percent
+Speaker__ DecreaseVolumeByPercent__ reduce speaker 's volume by SPEAKER.SLOT.PERCENT
+Speaker__ DecreaseVolumeByPercent__ reduce speaker 's volume by SPEAKER.SLOT.PERCENT percent
+Speaker__ DecreaseVolumeByPercent__ reduce my speaker 's volume by SPEAKER.SLOT.PERCENT
+Speaker__ DecreaseVolumeByPercent__ reduce my speaker 's volume by SPEAKER.SLOT.PERCENT percent
+Speaker__ DecreaseVolumeByPercent__ decrease volume of speaker by SPEAKER.SLOT.PERCENT
+Speaker__ DecreaseVolumeByPercent__ decrease volume of speaker by SPEAKER.SLOT.PERCENT percent
+Speaker__ DecreaseVolumeByPercent__ decrease volume of my speaker by SPEAKER.SLOT.PERCENT
+Speaker__ DecreaseVolumeByPercent__ decrease volume of my speaker by SPEAKER.SLOT.PERCENT percent
+Speaker__ DecreaseVolumeByPercent__ decrease the volume of speaker by SPEAKER.SLOT.PERCENT
+Speaker__ DecreaseVolumeByPercent__ decrease the volume of speaker by SPEAKER.SLOT.PERCENT percent
+Speaker__ DecreaseVolumeByPercent__ decrease the volume of my speaker by SPEAKER.SLOT.PERCENT
+Speaker__ DecreaseVolumeByPercent__ decrease the volume of my speaker by SPEAKER.SLOT.PERCENT percent
+Speaker__ DecreaseVolumeByPercent__ decrease speaker 's volume by SPEAKER.SLOT.PERCENT
+Speaker__ DecreaseVolumeByPercent__ decrease speaker 's volume by SPEAKER.SLOT.PERCENT percent
+Speaker__ DecreaseVolumeByPercent__ decrease my speaker 's volume by SPEAKER.SLOT.PERCENT
+Speaker__ DecreaseVolumeByPercent__ decrease my speaker 's volume by SPEAKER.SLOT.PERCENT percent
+Speaker__ MuteOn__ silence speaker
+Speaker__ MuteOn__ silence my speaker
+Speaker__ MuteOn__ silence the speaker
+Speaker__ MuteOn__ mute speaker
+Speaker__ MuteOn__ mute my speaker
+Speaker__ MuteOn__ mute the speaker
+Speaker__ MuteOff__ unmute speaker
+Speaker__ MuteOff__ unmute my speaker
+Speaker__ MuteOff__ unmute the speaker

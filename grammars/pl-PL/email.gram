@@ -17,8 +17,8 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_6> = <SHOW_ME> [moje] (emaile | maile) (o priorytecie | z priorytetem) <PRIORITY>;
 
 <INTENT_7> = <INTENT_7_a> | <INTENT_7_b>;
-<INTENT_7a> = (<SEND_EMAIL> do <TO> o temacie <SUBJECT> ([i] z treścią | w treści pisząc) <MESSAGE>);
-<INTENT_7b> = (<SEND_EMAIL> do <TO> o treści <MESSAGE> [i] z tematem <SUBJECT>);
+<INTENT_7_a> = (<SEND_EMAIL> do <TO> o temacie <SUBJECT> ([i] z treścią | w treści pisząc) <MESSAGE>);
+<INTENT_7_b> = (<SEND_EMAIL> do <TO> o treści <MESSAGE> [i] z tematem <SUBJECT>);
 
 <INTENT_8> = <SEND_EMAIL> do <TO> o temacie <SUBJECT>;
 

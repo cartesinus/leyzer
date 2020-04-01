@@ -3,7 +3,7 @@ public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> |
 
 #INTENTS
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
-<INTENT_1_a> = (pomóż mi i | zrób coś dla mnie i | bądź tak miły i) <POWER> [mój] głośnik;
+<INTENT_1_a> = (pomóż mi i | zrób coś dla mnie i | bądź tak miły i) <POWER> [mój] głośnik;
 <INTENT_1_b> = <POWER> [mój] głośnik [dla mnie | za mnie];
 
 <INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
@@ -12,7 +12,7 @@ public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> |
 
 <INTENT_3> = <INTENT_2> o <PERCENT> [procent];
 
-<INTENT_4> = <INTENT_3_a> | <INTENT_3_b>;
+<INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;
 <INTENT_4_a> = zmniejsz głośność [mojego] głośnika;
 <INTENT_4_b> = zrób ciszej [mój] głośnik;
 

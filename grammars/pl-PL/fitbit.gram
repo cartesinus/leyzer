@@ -2,7 +2,7 @@
 public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | ShowBMI__ <INTENT_3> | AddWeight__ <INTENT_4> | NotifyOnWeight__ <INTENT_5>);
 
 #PRECONDITION
-<WHEN> = kiedy moja waga (będzie większa niż | przekroczy) <WEIGHT>;
+<WHEN_1> = kiedy moja waga (będzie większa niż | przekroczy) <WEIGHT>;
 
 #INTENTS
 <INTENT_1> = [<RETRIEVE_VERB> | policz] [mi] (<INTENT_1_a> | <INTENT_1_b>);
