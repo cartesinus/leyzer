@@ -2,9 +2,9 @@
 public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | ChangeTemperature__ <INTENT_3> | SetTemperatureToValue__ <INTENT_4> | SetTemperatureToValueOnDevice__ <INTENT_5> | SetTemperatureBetweenValues__ <INTENT_6> | SetTemperatureOnDevice__ <INTENT_7> | GetHumidity__ <INTENT_8> | GetTemperatureFromDevice__ <INTENT_9> | GetTemperature__ <INTENT_10>);
 
 #INTENTS
-<INTENT_1> = włącz <AV_ALIAS>;
+<INTENT_1> = (włącz | uruchom) <AV_ALIAS>;
 
-<INTENT_2> = (turn the <AV_ALIAS> off) | (turn off the <AV_ALIAS>) | (switch (off the <AV_ALIAS> | the <AV_ALIAS> off));
+<INTENT_2> = (wyłącz | wygaś | przestań używać | odetnij) <AV_ALIAS>;
 
 <INTENT_3> = zmień temperaturę (na [moim] termostacie | minimalną i maksymalną na [moim] termostacie);
 
