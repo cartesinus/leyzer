@@ -1,0 +1,15 @@
+News__	ShowNews__	huffington post 	 b-portal i-portal
+News__	ShowNews__	open huffington 	 o b-portal
+News__	ShowNews__	read huffpost 	 o b-portal
+News__	ShowNews__	show news from techcrunch 	 o o o b-portal
+News__	ShowNews__	show the news from new york times 	 o o o o b-portal i-portal i-portal
+News__	ShowNews__	show me news from nyt 	 o o o o b-portal
+News__	ShowNews__	show me the news from ny times 	 o o o o o b-portal i-portal
+News__	ShowNews__	news on wired 	 o o b-portal
+News__	ShowNews__	latest news on time 	 o o o b-portal
+News__	ShowNews__	latest time magazine news 	 o b-portal i-portal o
+News__	ShowNewsFromSection__	the sport section of the fox news 	 o b-section o o o b-portal i-portal
+News__	ShowNewsFromSection__	the huffington post politics section 	 o b-portal i-portal b-section o
+News__	NotifyWhenPortalUpdates__	notify me when huffington news updates 	 o o o b-portal o o
+News__	NotifyWhenPortalUpdates__	notify me when huffpost front page updates 	 o o o b-portal o o o
+News__	NotifyWhenPortalUpdatesInSection__	notify me when the techcrunch tech section publishes a new article 	 o o o o b-portal b-section o o o o o

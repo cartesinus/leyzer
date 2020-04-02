@@ -2,14 +2,16 @@
 
 ## Slot Values
 
-twitter values for messages has been extracted from [sentiment140](http://sentiment140.com/) corpora.
+- twitter values for messages has been extracted from [sentiment140](http://sentiment140.com/) corpora.
+- phone names, phone email, calendar organizer, email message, email sender address, email subject and
+  email to were taken from enron emails.
 
 ## Citation
 
 If you use this, please cite:
 ```
 @InProceedings{lejzer,
-    title     = {Lejzer: A Benchmark for Multilingual Virtual Assistants},
+    title     = {Lejzer: A Dataset for Multilingual Virtual Assistants},
     author    = {Sowa\'{n}ski, Marcin and Janicki, Artur},
     booktitle = {},
     pages     = {},

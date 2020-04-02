@@ -1,0 +1,62 @@
+Email__	OpenEmail__	check email 	 o o
+Email__	OpenEmail__	check email inbox 	 o o o
+Email__	OpenEmail__	check gmail 	 o o
+Email__	OpenEmail__	check gmail inbox 	 o o o
+Email__	OpenEmail__	check my email 	 o o o
+Email__	OpenEmail__	check my email inbox 	 o o o o
+Email__	OpenEmail__	check my gmail 	 o o o
+Email__	OpenEmail__	check my gmail inbox 	 o o o o
+Email__	OpenEmail__	get email 	 o o
+Email__	OpenEmail__	get email inbox 	 o o o
+Email__	OpenEmail__	get gmail 	 o o
+Email__	OpenEmail__	get gmail inbox 	 o o o
+Email__	OpenEmail__	get my email 	 o o o
+Email__	OpenEmail__	get my email inbox 	 o o o o
+Email__	OpenEmail__	get my gmail 	 o o o
+Email__	OpenEmail__	get my gmail inbox 	 o o o o
+Email__	OpenEmail__	check my primary category emails 	 o o o o o
+Email__	OpenEmail__	get my primary category emails 	 o o o o o
+Email__	OpenEmail__	check my latest email 	 o o o o
+Email__	OpenEmail__	check my emails 	 o o o
+Email__	OpenEmail__	check my emails on gmail 	 o o o o o
+Email__	OpenEmail__	check my gmail inbox 	 o o o o
+Email__	OpenEmail__	get my latest email 	 o o o o
+Email__	OpenEmail__	get my emails 	 o o o
+Email__	OpenEmail__	get my emails on gmail 	 o o o o o
+Email__	OpenEmail__	get my gmail inbox 	 o o o o
+Email__	ShowEmailFromSender__	check emails from bob@gmail.com 	 o o o b-sender_address
+Email__	ShowEmailFromSender__	check emails i got from elen 	 o o o o o b-sender_address
+Email__	ShowEmailFromSender__	check emails i received from mgeotherm@aol.com 	 o o o o o b-sender_address
+Email__	ShowEmailFromSender__	check my emails from pchung@haas.berkeley.edu 	 o o o o b-sender_address
+Email__	ShowEmailFromSender__	check my emails i got from wcheng8962@yahoo.com 	 o o o o o o b-sender_address
+Email__	ShowEmailFromSender__	check my emails i received from national.recruiting@mp 	 o o o o o o b-sender_address
+Email__	ShowEmailFromSender__	get emails from matt.hsu@interwoven.com 	 o o o b-sender_address
+Email__	ShowEmailFromSender__	get emails i got from rgrow@energy.state.ca.us 	 o o o o o b-sender_address
+Email__	ShowEmailFromSender__	get emails i received from petebaldwin1@mediaone.net 	 o o o o o b-sender_address
+Email__	ShowEmailFromSender__	get my emails from clickathome@enron.com 	 o o o o b-sender_address
+Email__	ShowEmailFromSender__	get my emails i got from tony.jarrett@enron.com 	 o o o o o o b-sender_address
+Email__	ShowEmailFromSender__	get my emails i received from syamane@marathon-com.com 	 o o o o o o b-sender_address
+Email__	ShowEmailWithLabel__	show me my emails labelled spam 	 o o o o o b-label
+Email__	ShowEmailWithLabel__	show me my emails with label important 	 o o o o o o b-label
+Email__	ShowEmailWithLabel__	show me my emails that have label team 	 o o o o o o o b-label
+Email__	ShowEmailWithLabel__	get my emails labelled work 	 o o o o b-label
+Email__	ShowEmailWithLabel__	get my emails with label todo 	 o o o o o b-label
+Email__	ShowEmailWithLabel__	get my emails that have label later 	 o o o o o o b-label
+Email__	ShowEmailFromTime__	show me emails arrived today 	 o o o o b-time
+Email__	ShowEmailFromTime__	show me emails that arrived yesterday 	 o o o o o b-time
+Email__	ShowEmailFromTime__	get emails arrived two days ago 	 o o o b-time i-time i-time
+Email__	ShowEmailFromTime__	get emails that arrived in the last hour 	 o o o o b-time i-time i-time i-time
+Email__	ShowEmailWithSubject__	show me my emails with subject offer 	 o o o o o o b-subject
+Email__	ShowEmailWithSubject__	get my emails with subject greetings 	 o o o o o b-subject
+Email__	ShowEmailWithPriority__	show me important emails 	 o o b-priority o
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	send an email to padilla@haas.berkeley.edu with subject meeting with message hi, how are you? 	 o o o o b-to o o b-subject o o b-message i-message i-message i-message
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	send an email to kim.perez@enron.com with subject re webcasting and congress with message thank you for contacting john using my gmail 	 o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message o o o
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	email michael.sullivan@enron.com with subject status of sb47x read this and message thanks for getting back to me 	 o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message
+Email__	SendPictureToAddressWithSubject__	send a picture to joan stransky with subject fw 4 month rolling forecast 	 o o o o b-to i-to o o b-subject i-subject i-subject i-subject i-subject
+Email__	SendPictureToAddressWithSubject__	send a picture to barbara a hueter with subject please rsvp using my gmail 	 o o o o b-to i-to i-to o o b-subject i-subject o o o
+Email__	SendPictureToAddressWithSubject__	email a picture to alice@gmail.com with subject vote in the haasweek survivor contest! 	 o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject
+Email__	SendEmail__	send an email 	 o o o
+Email__	SendEmail__	send an email to somebody 	 o o o o o
+Email__	SendEmailToAddress__	send an email to edgar zuleta using my gmail 	 o o o o b-to i-to o o o
+Email__	SendEmailToAddress__	email birdsey@haas.berkeley.edu 	 o b-to
+Email__	ReplyToEmailFromAddress__	reply to xi xi 	 o o b-to i-to

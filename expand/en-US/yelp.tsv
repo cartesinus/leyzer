@@ -1,0 +1,80 @@
+Yelp__	SearchRestaurant__	restaurant 	 o
+Yelp__	SearchRestaurant__	restaurant on yelp 	 o o o
+Yelp__	SearchRestaurant__	restaurant nearby 	 o o
+Yelp__	SearchRestaurant__	restaurant around here 	 o o o
+Yelp__	SearchRestaurant__	restaurants 	 o
+Yelp__	SearchRestaurant__	restaurants on yelp 	 o o o
+Yelp__	SearchRestaurant__	restaurants nearby 	 o o
+Yelp__	SearchRestaurant__	restaurants around here 	 o o o
+Yelp__	SearchRestaurant__	search restaurant 	 o o
+Yelp__	SearchRestaurant__	search restaurant on yelp 	 o o o o
+Yelp__	SearchRestaurant__	search restaurant nearby 	 o o o
+Yelp__	SearchRestaurant__	search restaurant around here 	 o o o o
+Yelp__	SearchRestaurant__	search restaurants 	 o o
+Yelp__	SearchRestaurant__	search restaurants on yelp 	 o o o o
+Yelp__	SearchRestaurant__	search restaurants nearby 	 o o o
+Yelp__	SearchRestaurant__	search restaurants around here 	 o o o o
+Yelp__	SearchRestaurant__	find restaurant 	 o o
+Yelp__	SearchRestaurant__	find restaurant on yelp 	 o o o o
+Yelp__	SearchRestaurant__	find restaurant nearby 	 o o o
+Yelp__	SearchRestaurant__	find restaurant around here 	 o o o o
+Yelp__	SearchRestaurant__	find restaurants 	 o o
+Yelp__	SearchRestaurant__	find restaurants on yelp 	 o o o o
+Yelp__	SearchRestaurant__	find restaurants nearby 	 o o o
+Yelp__	SearchRestaurant__	find restaurants around here 	 o o o o
+Yelp__	SearchRestaurant__	closest restaurant nearby 	 o o o
+Yelp__	SearchRestaurant__	closest restaurant around 	 o o o
+Yelp__	SearchRestaurant__	nearest restaurant around 	 o o o
+Yelp__	SearchByQuery__	burger 	 b-query
+Yelp__	SearchByQuery__	coffee around 	 b-query o
+Yelp__	SearchByQuery__	pizza on yelp 	 b-query o o
+Yelp__	SearchByQuery__	sushi bar nearby 	 b-query i-query o
+Yelp__	SearchByRating__	restaurants nearby with at least 4 star rating 	 o o o o o b-rating o o
+Yelp__	SearchByRating__	5 star restaurants 	 b-rating o o
+Yelp__	SearchByRating__	4 star restaurants on yelp 	 b-rating o o o o
+Yelp__	SearchByRating__	restaurants rated higher than 5 star 	 o o o o b-rating o
+Yelp__	SearchByCategory__	thai food 	 b-category o
+Yelp__	SearchByCategory__	japanease food around here 	 b-category o o o
+Yelp__	SearchByCategory__	american food nearby 	 b-category o o
+Yelp__	SearchByCategory__	italian restaurants 	 b-category o
+Yelp__	SearchByCategory__	french restaurants around here 	 b-category o o o
+Yelp__	SearchByCategory__	thai restaurants nearby 	 b-category o o
+Yelp__	OpenRestaurants__	open restaurants nearby 	 o o o
+Yelp__	OpenRestaurants__	restaurants still open around here 	 o o o o o
+Yelp__	OpenRestaurants__	restaurants open now 	 o o o
+Yelp__	SearchByReviewCount__	restaurants here reviewed by at least 100 people 	 o o o o o o b-review_count o
+Yelp__	SearchByReviewCount__	restaurants here reviewed by at least 1000 users 	 o o o o o o b-review_count o
+Yelp__	SearchByReviewCount__	restaurants here reviewed by more than 10000 people 	 o o o o o o b-review_count o
+Yelp__	SearchByReviewCount__	restaurants here reviewed by more than 100 users 	 o o o o o o b-review_count o
+Yelp__	SearchByReviewCount__	restaurants nearby reviewed by at least 1000 people 	 o o o o o o b-review_count o
+Yelp__	SearchByReviewCount__	restaurants nearby reviewed by at least 10000 users 	 o o o o o o b-review_count o
+Yelp__	SearchByReviewCount__	restaurants nearby reviewed by more than 100 people 	 o o o o o o b-review_count o
+Yelp__	SearchByReviewCount__	restaurants nearby reviewed by more than 1000 users 	 o o o o o o b-review_count o
+Yelp__	SearchInLocation__	restaurants next to kreuzberg 	 o o o b-location
+Yelp__	SearchInLocation__	restaurants around soho 	 o o b-location
+Yelp__	SearchInLocation__	restaurants near manhattan 	 o o b-location
+Yelp__	SearchByQueryInLocation__	pub in plaza del sol 	 b-query o b-location i-location i-location
+Yelp__	SearchByQueryInLocation__	burger in la rambla on yelp 	 b-query o b-location i-location o o
+Yelp__	SearchByQueryInLocation__	coffee near kreuzberg 	 b-query o b-location
+Yelp__	SearchByQueryInLocation__	pizza near soho on yelp 	 b-query o b-location o o
+Yelp__	SearchByQueryInLocation__	sushi bar around manhattan 	 b-query i-query o b-location
+Yelp__	SearchByQueryInLocation__	pub around plaza del sol on yelp 	 b-query o b-location i-location i-location o o
+Yelp__	SearchByQueryInLocation__	burger at la rambla 	 b-query o b-location i-location
+Yelp__	SearchByQueryInLocation__	coffee at kreuzberg on yelp 	 b-query o b-location o o
+Yelp__	SearchByRatingInLocation__	restaurants nearby with at least 4 star rating near soho 	 o o o o o b-rating o o o b-location
+Yelp__	SearchByRatingInLocation__	5 star restaurants around manhattan 	 b-rating o o o b-location
+Yelp__	SearchByRatingInLocation__	4 star restaurants around plaza del sol on yelp 	 b-rating o o o b-location i-location i-location o o
+Yelp__	SearchByRatingInLocation__	5 star restaurants in la rambla 	 b-rating o o o b-location i-location
+Yelp__	SearchByRatingInLocation__	4 star restaurants in kreuzberg on yelp 	 b-rating o o o b-location o o
+Yelp__	SearchByRatingInLocation__	restaurants rated higher than 5 star in soho 	 o o o o b-rating o o b-location
+Yelp__	SearchByCategoryInLocation__	japanease food near manhattan 	 b-category o o b-location
+Yelp__	SearchByCategoryInLocation__	american food around plaza del sol 	 b-category o o b-location i-location i-location
+Yelp__	SearchByCategoryInLocation__	italian restaurants near la rambla 	 b-category o o b-location i-location
+Yelp__	SearchByCategoryInLocation__	french restaurants around kreuzberg 	 b-category o o b-location
+Yelp__	SearchByReviewCountInLocation__	restaurants around soho reviewed by at least 10000 people 	 o o b-location o o o o b-review_count o
+Yelp__	SearchByReviewCountInLocation__	restaurants around manhattan reviewed by more than 100 people 	 o o b-location o o o o b-review_count o
+Yelp__	SearchByReviewCountInLocation__	restaurants near plaza del sol reviewed by at least 1000 people 	 o o b-location i-location i-location o o o o b-review_count o
+Yelp__	SearchByReviewCountInLocation__	restaurants near la rambla reviewed by more than 10000 people 	 o o b-location i-location o o o o b-review_count o
+Yelp__	OpenRestaurantsInLocation__	open restaurants near kreuzberg 	 o o o b-location
+Yelp__	OpenRestaurantsInLocation__	restaurants still open around soho 	 o o o o b-location
+Yelp__	OpenRestaurantsInLocation__	restaurants open now at manhattan 	 o o o o b-location

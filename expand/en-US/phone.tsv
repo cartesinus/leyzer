@@ -1,0 +1,28 @@
+Phone__	CallNumber__	call 34 678 09 94 	 o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone__	CallNumber__	dial 22 590 01 45 	 o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone__	CallNumber__	phone 00 589 999 000 	 o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone__	CallEmergency__	call 911 	 o o
+Phone__	CallEmergency__	call ambulance 	 o o
+Phone__	CallEmergency__	call fire department 	 o o o
+Phone__	CallEmergency__	call police 	 o o
+Phone__	CallEmergency__	call emergency services 	 o o o
+Phone__	ShowSMS__	check my sms inbox 	 o o o o
+Phone__	ShowSMS__	show my sms inbox 	 o o o o
+Phone__	ShowSMS__	display my sms inbox 	 o o o o
+Phone__	SMSToContact__	send a text to mom 	 o o o o b-to
+Phone__	SMSToContact__	send a message to dad 	 o o o o b-to
+Phone__	SMSToContact__	send a sms to love 	 o o o o b-to
+Phone__	SMSToContact__	sms mike 	 o b-to
+Phone__	SMSToContact__	text tom 	 o b-to
+Phone__	SMSToContactWithMessage__	send an sms to alex saying call me 	 o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	send an sms to mom containing we need to talk 	 o o o o b-to o b-message i-message i-message i-message
+Phone__	SMSToContactWithMessage__	send an sms message to dad saying please answer 	 o o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	send an sms message to love containing call me 	 o o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	send a text to mike saying we need to talk 	 o o o o b-to o b-message i-message i-message i-message
+Phone__	SMSToContactWithMessage__	send a text to tom containing please answer 	 o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	send a message to alex saying call me 	 o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	send a message to mom containing we need to talk 	 o o o o b-to o b-message i-message i-message i-message
+Phone__	SMSToContactWithMessage__	text dad saying please answer 	 o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	text love containing call me 	 o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	sms mike saying we need to talk 	 o b-to o b-message i-message i-message i-message
+Phone__	SMSToContactWithMessage__	sms tom containing please answer 	 o b-to o b-message i-message

@@ -1,0 +1,33 @@
+Airconditioner__	TurnOn__	turn the heating on 	 o o b-av_alias o
+Airconditioner__	TurnOn__	turn on the ac 	 o o o b-av_alias
+Airconditioner__	TurnOn__	switch on the aircon 	 o o o b-av_alias
+Airconditioner__	TurnOn__	switch the air conditioning on 	 o o b-av_alias i-av_alias o
+Airconditioner__	TurnOff__	turn the cooling system off 	 o o b-av_alias i-av_alias o
+Airconditioner__	TurnOff__	turn off the hvac 	 o o o b-av_alias
+Airconditioner__	TurnOff__	switch off the heating 	 o o o b-av_alias
+Airconditioner__	TurnOff__	switch the ac off 	 o o b-av_alias o
+Airconditioner__	ChangeTemperature__	change the temperature on my thermostat 	 o o o o o o
+Airconditioner__	ChangeTemperature__	change the minimum and maximum temperatures on my thermostat 	 o o o o o o o o o
+Airconditioner__	SetTemperatureToValue__	set temperature on my thermostat to 78 degrees fahrenheit 	 o o o o o o b-value i-value i-value
+Airconditioner__	SetTemperatureToValue__	set the temperature to 79 degrees fahrenheit on my thermostat 	 o o o o b-value i-value i-value o o o
+Airconditioner__	SetTemperatureToValue__	set set my thermostat to 25 degree 	 o o o o o b-value i-value
+Airconditioner__	SetTemperatureToValueOnDevice__	set my living room thermostat to 22 degrees celsius 	 o o b-device_name i-device_name o o b-value i-value i-value
+Airconditioner__	SetTemperatureToValueOnDevice__	set temperature on my kitchen thermostat to 24 degree 	 o o o o b-device_name o o b-value i-value
+Airconditioner__	SetTemperatureToValueOnDevice__	set the temperature to 80 degrees fahrenheit on my hall thermostat 	 o o o o b-value i-value i-value o o b-device_name o
+Airconditioner__	SetTemperatureBetweenValues__	set the temperature between 23 degree and 29 degree on my thermostat 	 o o o o o o o o o o o o
+Airconditioner__	SetTemperatureBetweenValues__	set the low temperature to 23 degree on my thermostat , and the high to 29 degree 	 o o o o o o o o o o o o o o o o o
+Airconditioner__	SetTemperatureOnDevice__	change the temperature on my bedroom thermostat 	 o o o o o b-device_name o
+Airconditioner__	SetTemperatureOnDevice__	change the minimum and maximum temperatures on my living room thermostat 	 o o o o o o o o b-device_name i-device_name o
+Airconditioner__	GetHumidity__	show the humidity 	 o o o
+Airconditioner__	GetHumidity__	show the humidity level 	 o o o o
+Airconditioner__	GetHumidity__	get the humidity 	 o o o
+Airconditioner__	GetHumidity__	get the humidity level 	 o o o o
+Airconditioner__	GetHumidity__	check the humidity 	 o o o
+Airconditioner__	GetHumidity__	check the humidity level 	 o o o o
+Airconditioner__	GetTemperatureFromDevice__	check what the kitchen home temperature sensor says 	 o o o b-device_name o o o o
+Airconditioner__	GetTemperatureFromDevice__	check the temperature of the hall room temperature sensor 	 o o o o o b-device_name o o o
+Airconditioner__	GetTemperatureFromDevice__	what does the bedroom indoor temperature sensor say ? 	 o o o b-device_name o o o o o
+Airconditioner__	GetTemperatureFromDevice__	what does the living room indoor temperature sensor show ? 	 o o o b-device_name i-device_name o o o o o
+Airconditioner__	GetTemperature__	what temperature do I have in here according to my aircon ? 	 o o o o o o o o o o b-av_alias o
+Airconditioner__	GetTemperature__	what temperature do we have in here according to my air conditioning ? 	 o o o o o o o o o o b-av_alias i-av_alias o
+Airconditioner__	GetTemperature__	what temperature is it in here according to my cooling system ? 	 o o o o o o o o o b-av_alias i-av_alias o
