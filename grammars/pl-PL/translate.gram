@@ -9,10 +9,12 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_2> = (ustaw | nastaw | przełącz) [domyślny] język (wejściowy | wejścia) na <ALL_LANG>;
 
 #default target language is set, simply provide text for translation (here default is english)
-<INTENT_3> = <INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c>;
-<INTENT_3_a> = [jakie jest] tłumaczenie <TEXT_EN>;
-<INTENT_3_b> = przetłumacz [zdanie | to] <TEXT_EN>;
-<INTENT_3_c> = jak [mogę | możesz] przetłumaczyć [to zdanie | to | zdanie] <TEXT_EN>;
+<INTENT_3> = <INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c> | <INTENT_3_d> | <INTENT_3_e>;
+<INTENT_3_a> = [jakie jest | wykonaj] tłumaczenie [tego zdania] <TEXT_EN>;
+<INTENT_3_b> = przetłumacz [mi] [zdanie | to] <TEXT_EN>;
+<INTENT_3_c> = jak [mogę | możesz] przetłumaczyć [mi] [to zdanie | to | zdanie] <TEXT_EN>;
+<INTENT_3_d> = chcę przetłumaczyć [to zdanie | to | zdanie] <TEXT_EN>;
+<INTENT_3_e> = <TEXT_EN> (przetłumacz [mi] to [zdanie] | tłumaczenie);
 
 #translate text from english (default) to given lang
 <INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d> | <INTENT_4_e>;

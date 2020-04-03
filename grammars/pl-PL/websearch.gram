@@ -4,9 +4,14 @@ public <S> = Websearch__ (OpenEngine__ <INTENT_1> | SearchTextOnEngine__ <INTENT
 #INTENTS
 <INTENT_1> = ((szukaj | wyszukaj | poszukaj | chcę wyszukać) na <ENGINE>) | <ENGINE> wyszukiwarka | wyszukiwarka;
 
-<INTENT_2> = (<TXT_QUERY> (w | na) <ENGINE> | <ENGINE> <TXT_QUERY>);
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c>;
+<INTENT_2_a> = (<TXT_QUERY> (w | na) <ENGINE> | <ENGINE> <TXT_QUERY>);
+<INTENT_2_b> = strony [internetowe | www] (na | w) których (znajdę | odnajdę) <TXT_QUERY> (w | na) <ENGINE>;
+<INTENT_2_c> = (szukaj [mi] | wyszukaj [mi] | znajdź [mi] | pokaż [mi] | chcę wyszukać) na <ENGINE> <TXT_QUERY>;
 
-<INTENT_3> = strony [internetowe | www] (na | w) których (znajdę | odnajdę) <TXT_QUERY>;
+<INTENT_3> = <INTENT_3_a> | <INTENT_3_b>;
+<INTENT_3_a> = strony [internetowe | www] (na | w) których (znajdę | odnajdę) <TXT_QUERY>;
+<INTENT_3_b> = (szukaj [mi] | wyszukaj [mi] | znajdź [mi] | pokaż [mi] | chcę wyszukać) <TXT_QUERY> [w internecie];
 
 <INTENT_4> = [<FIND>] <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> (w | na) <ENGINE>;
 

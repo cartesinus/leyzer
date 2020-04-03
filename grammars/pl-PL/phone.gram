@@ -2,15 +2,24 @@
 public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5>);
 
 #INTENTS
-<INTENT_1> = (<CALL> | wybierz) (na | do) <NUMBER>;
+<INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c> | <INTENT_1_d>;
+<INTENT_1_a> = <CALL> (na [numer] | do) <NUMBER>;
+<INTENT_1_b> = wybierz numer <NUMBER>;
+<INTENT_1_c> = wykonaj telefon (do | na numer) <NUMBER>;
+<INTENT_1_d> = połącz mnie z [numerem] <NUMBER>;
 
 <INTENT_2> = <CALL> ((na | po) (policję | straż pożarną | pogotowie) | na 112);
 
 <INTENT_3> = (sprawdź | wyświetl | pokaż) moje [przychodzące] (wiadomości | smsy);
 
-<INTENT_4> = (wyślij | nadaj) (sms | wiadomość) do <TO>;
+<INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c>;
+<INTENT_4_a> = (wyślij | nadaj | napisz | prześlij) (sms | wiadomość [tekstową]) do <TO>;
+<INTENT_4_b> = wiadomość [sms | tekstową] do <TO>;
+<INTENT_4_c> = napisz do <TO> (wiadomość [tekstową] | sms);
 
-<INTENT_5> = [wyślij | nadaj] (sms | wiadomość) do <TO> o treści <MESSAGE>;
+<INTENT_5> = <INTENT_5_a> | <INTENT_5_b>;
+<INTENT_5_a> = [wyślij | nadaj | napisz | prześlij] (sms | wiadomość [tekstową]) do <TO> o treści <MESSAGE>;
+<INTENT_5_b> = [wyślij | nadaj | napisz | prześlij] (sms | wiadomość [tekstową]) [o treści] <MESSAGE> do <TO>;
 
 #SLOTS
 <TO> = PHONE.SLOT.TO;
@@ -19,4 +28,4 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 <MODE> = PHONE.SLOT.MODE;
 
 #LANG. COMPONENTS
-<CALL> = dzwoń | zadzwoń | telefonuj | zatelefonuj;
+<CALL> = dzwoń | zadzwoń | telefonuj | zatelefonuj | przedzwoń;

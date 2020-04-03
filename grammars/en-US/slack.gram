@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | CheckUserStatus__ <INTENT_3> | CheckMessagesFromUser__ <INTENT_4> | CheckMessagesInChannel__ <INTENT_5> | SendMessageToChannel__ <INTENT_6> | SetPurposeOnChannel__ <INTENT_7> | SetTopicInChannel__ <INTENT_8> | SetStatusAway__ <INTENT_9> | SendMessage__ <INTENT_10> | SendMessageToChannel__ <INTENT_11> | SendPictureToChannelWithCaption__ <INTENT_12> | SendPictureWithUrlToChannel__ <INTENT_13>);
+public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | CheckUserStatus__ <INTENT_3> | CheckMessagesFromUser__ <INTENT_4> | CheckMessagesInChannel__ <INTENT_5> | SendMessageToChannel__ <INTENT_6> | SetPurposeOnChannel__ <INTENT_7> | SetTopicInChannel__ <INTENT_8> | SetStatusAway__ <INTENT_9> | SendMessage__ <INTENT_10> | SendPictureToChannel__ <INTENT_11> | SendPictureToChannelWithCaption__ <INTENT_12> | SendPictureWithUrlToChannel__ <INTENT_13>);
 
 #PRECONDITIONS
 <WHEN> = when <USERNAME> is online on slack;
@@ -59,8 +59,10 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 <INTENT_6_c> = message <CHANNEL> on slack saying <MESSAGE>; 
 <INTENT_6_d> = let slack channel <CHANNEL> know that <MESSAGE>;
 
+# channel's purpose is a short description of the channel's intended use
 <INTENT_7> = set the purpose for (channel <CHANNEL> to <PURPOSE> on slack | slack channel <CHANNEL> to <PURPOSE>);
 
+# channel's topic is a quick way to let people know what members in the channel are working on or important dates like project deadlines
 <INTENT_8> = set the topic (for channel <CHANNEL> to <TOPIC> on slack | of slack channel <CHANNEL> to <TOPIC>);
 
 <INTENT_9> = (set | mark) me as [not] away on slack;

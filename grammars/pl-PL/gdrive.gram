@@ -20,7 +20,10 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 
 <INTENT_9> = <SHOW_VERB> [moje] pliki (na | w) google drive w [odwrotnej] kolejności alfabetycznej;
 
-<INTENT_10> = otwórz [mój] plik <FILE_NAME> do edycji [na google drive];
+<INTENT_10> = <INTENT_10_a> | <INTENT_10_b> | <INTENT_10_c>;
+<INTENT_10_a> = otwórz [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> do edycji [na google drive];
+<INTENT_10_b> = (edytuj | zmień) [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> [na google drive];
+<INTENT_10_c> = [na google drive] (edytuj | zmień) [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> [na google drive];
 
 <INTENT_11> = udostępnij [mój] plik [o nazwie] <FILE_NAME> do <MAIL> [i nadaj uprawnienia do (edycji | odczytu | odczytu i zapisu)];
 

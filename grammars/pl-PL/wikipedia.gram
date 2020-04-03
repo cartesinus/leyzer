@@ -7,7 +7,7 @@ public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> 
 
 #find given query on wikipedia
 <INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
-<INTENT_2_a> = (szukaj | znajdź | wyszukaj) <QUERY> na (wiki | wikipedii);
+<INTENT_2_a> = (szukaj | znajdź [mi] | wyszukaj [mi] | pokaż [mi] | wyświetl [mi] | strona o) <QUERY> na (wiki | wikipedii);
 <INTENT_2_b> = <QUERY> na (wiki | wikipedii);
 
 #scroll down

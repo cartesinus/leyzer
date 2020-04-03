@@ -4,7 +4,7 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 #INTENTS
 <INTENT_1> = <SHOW_VERB> ([moje] kontakty | [moją] listę kontaktów);
 
-<INTENT_2> = <SHOW_VERB> moje informacje w kontaktach;
+<INTENT_2> = <SHOW_VERB> (moje informacje w kontaktach | mój wpis w kontaktach | moją wizytkówkę);
 
 <INTENT_3> = <SHOW_VERB> [mój] kontakt (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
 
@@ -12,7 +12,9 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 
 <INTENT_5> = <SHOW_VERB> [mój] kontakt (o nazwie | nazywający się) <NAME>;
 
-<INTENT_6> = <SHOW_VERB> [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (oraz | i) (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
+<INTENT_6> = <INTENT_6_a> | <INTENT_6_b>;
+<INTENT_6_a> = (<SHOW_VERB> | znajdź ) [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (oraz | i) (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
+<INTENT_6_b> = (znajdź | wyszukaj) kto ma numer [telefonu] <PHONE_NUMBER> i adres [email | mailowy] <EMAIL>;
 
 <INTENT_7> = stwórz [nowy] kontakt (o nazwie | nazywając go) <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> [jako [typ] <PHONE_TYPE>];
 
@@ -22,7 +24,10 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 
 <INTENT_10> = (aktualizuj | edytuj | popraw | zmień) numer [telefonu] [mojego] kontaktu (o nazwie | nazywający się) <NAME>;
 
-<INTENT_11> = ustaw numer [telefonu] <PHONE_NUMBER> jako [typ] <PHONE_TYPE> i nazwij go <NAME>;
+<INTENT_11> = <INTENT_11_a> | <INTENT_11_b> | <INTENT_11_c>;
+<INTENT_11_a> = (ustaw | zapisz | zachowaj) numer [telefonu] <PHONE_NUMBER> jako [typ] <PHONE_TYPE> i nazwij go <NAME>;
+<INTENT_11_b> = (dodaj | zapisz) [kontakt] <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (jako [typ] | o typie) <PHONE_TYPE>;
+<INTENT_11_c> = (dodaj | zapisz) [kontakt] <NAME> z numerem <PHONE_TYPE> <PHONE_NUMBER>;
 
 #SLOTS
 <EMAIL> = CONTACTS.SLOT.EMAIL; 

@@ -8,7 +8,7 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 #INTENTS
 <INTENT_1> = otwórz (yt | youtube);
 
-<INTENT_2> = (odtwórz | <FIND_VERB>) (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2> = (odtwórz | odtwarzaj | pokaż | wyświetl | chcę zobaczyć | <FIND_VERB>) (<INTENT_2_a> | <INTENT_2_b>);
 <INTENT_2_a> = <QUERY> na (yt | youtube);
 <INTENT_2_b> = <VIDEO> z <QUERY> [na (yt | youtube)];
 
@@ -20,7 +20,9 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 
 <INTENT_6> = pokaż [mi] kanały które (śledzę | obserwuję | followuję) [na (yt | youtube)];
 
-<INTENT_7> = <FIND_VERB> kanały z <QUERY> [na (yt | youtube)];
+<INTENT_7> = <INTENT_7_a> | <INTENT_7_b>;
+<INTENT_7_a> =  (<FIND_VERB> | pokaż | wyświetl | chcę zobaczyć) kanały z <QUERY> [na (yt | youtube)];
+<INTENT_7_b> =  na jakich kanałach na (yt | youtube) znajdę <QUERY>;
 
 <INTENT_8> = pokaż [mi] <VIDEO> (z | opublikowane) [kanału] <CHANNEL_ID> (pasujące | które pasuje) do <QUERY> [na (yt | youtube)];
 
@@ -35,6 +37,6 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 
 #LANG. COMPONENTS
 <FIND_VERB> = wyszukaj | szukaj | znajdź;
-<VIDEO> = wideo | klip | film;
+<VIDEO> = wideo | klip | film  | filmy | filmiki;
 
 // "search youtube for videos"

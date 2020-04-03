@@ -4,11 +4,13 @@ public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | P
 #INETNTS
 <INTENT_1> = (<POST_VERB> coś na facebooku | stwórz nowy post na facebooka | zaktualizuj [mój] status na facebooku);
 
-<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>; 
-<INTENT_2_a> = (napisz | umieść) <STATUS> na facebooku;
-<INTENT_2_b> = (napisz | umieść) na facebooku [że] <STATUS>;
-<INTENT_2_c> = (zaktualizuaj | updateuj) [mojego] facebooka [o status [mówiący]] <STATUS>;
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d> | <INTENT_2_e> | <INTENT_2_f>;
+<INTENT_2_a> = (napisz | umieść | stwórz | dodaj) [status] <STATUS> na facebooku;
+<INTENT_2_b> = (napisz | umieść | stwórz | dodaj) [status] na facebooku [o tym że] <STATUS>;
+<INTENT_2_c> = (zaktualizuj | updateuj | informuj) [mojego] facebooka o [status [mówiący]] <STATUS>;
 <INTENT_2_d> = <POST_VERB> [nowy] post (że | który mówi [że] | o treści) <STATUS> [na facebooku];
+<INTENT_2_e> = (napisz | umieść | stwórz | dodaj) na [mojej] tablicy na facebooku <STATUS>;
+<INTENT_2_f> = (napisz | umieść | stwórz | dodaj) <STATUS> na [mojej] tablicy na facebooku;
 
 <INTENT_3> = <POST_VERB> zdjęcie (do | na) [mojego] facebooka;
 

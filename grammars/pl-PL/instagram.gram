@@ -23,7 +23,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 
 <INTENT_8> = <SHOW_VERB> [moje] (zdjęcia | posty) zrobione (w <DATE_DAY> | <DATE_MONTH>);
 
-<INTENT_9> = zrób zdjęcie (na instagrama | przy użyciu instagrama);
+<INTENT_9> = (zrób [mi] | stwórz | utwórz) (zdjęcie | fotkę | selfie) (na instagrama | przy użyciu instagrama);
 
 <INTENT_10> = (stwórz | utwórz) [nowy] post na (instagrama | instagramie) z ostatniego zdjęcia z galerii [i dodaj (tag lokalizacji | lokalizację) w <LOCATION> | i dodaj filtr <FILTER> | i dodaj hashtag <HASHTAG>];
 

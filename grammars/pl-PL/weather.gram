@@ -6,13 +6,23 @@ public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> 
 
 <INTENT_2> = (jaka (jest | będzie) [jutro] pogoda| pogoda na jutro | prognoza pogody na (jutro | następny dzień));
 
-<INTENT_3> = (jaka jest (obecnie | dziś) pogoda | powiedz mi jaka jest pogoda | chcę znać pogodę) w <LOCATION>;
+<INTENT_3> = <INTENT_3_a> | <INTENT_3_b>;
+<INTENT_3_a> = ([powiedz [mi]] jaka jest [obecnie | dziś | teraz] pogoda | chcę (znać pogodę | wiedzieć jaka jest pogoda)) w <LOCATION>;
+<INTENT_3_b> = [dzisiejsza | obecna] prognoza pogody (dla | w) <LOCATION>;
 
-<INTENT_4> = (jaka będzie jutro pogoda | powiedz mi jaka jutro będzie pogoda | chcę wiedzieć jaka będzie jutro pogoda | jutrzejsza prognoza pogody) w <LOCATION>;
+<INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;
+<INTENT_4_a> = ([powiedz [mi]] jaka będzie jutro pogoda | chcę (znać prognozę | wiedzieć jaka będzie jutro pogoda)) w <LOCATION>;
+<INTENT_4_b> = ([jutrzejsza] prognoza pogody (dla | w) <LOCATION> | prognoza pogody (dla | w) <LOCATION> na jutro);
 
-<INTENT_5> = ([kiedy jest] wschód słońca (w | dla) | [podaj] czas wschodu słońca (w | dla)) <LOCATION>;
+<INTENT_5> = <INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>;
+<INTENT_5_a> = [[powiedz [mi] | chciałbym wiedzieć | chciałabym wiedzieć | czy mógłbyś [mi] powiedzieć | czy mogłabyś [mi] powiedzieć] kiedy jest] wschód słońca (w | dla) <LOCATION>;
+<INTENT_5_b> = [podaj [mi]] czas wschodu słońca (w | dla) <LOCATION>;
+<INTENT_5_c> = (o której jest wschód słońca w | (kiedy | o której) wschodzi słońce w) <LOCATION>;
 
-<INTENT_6> = ([kiedy jest] zachód słońca (w | dla) | [podaj] czas zachodu słońca (w | dla)) <LOCATION>;
+<INTENT_6> = <INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>;
+<INTENT_6_a> = [[powiedz [mi] | chciałbym wiedzieć | chciałabym wiedzieć | czy mógłbyś [mi] powiedzieć | czy mogłabyś [mi] powiedzieć] kiedy jest] zachód słońca (w | dla) <LOCATION>;
+<INTENT_6_b> = [podaj [mi]] czas zachodu słońca (w | dla) <LOCATION>;
+<INTENT_6_c> = (o której jest zachodu słońca w | (kiedy | o której) zachodzi słońce w) <LOCATION>;
 
 <INTENT_7> = ([kiedy jest] wschód i zachód słońca (w | dla) | [podaj] czas wschodu i zachodu słońca (w | dla)) <LOCATION>;
 

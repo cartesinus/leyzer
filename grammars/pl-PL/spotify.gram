@@ -6,10 +6,10 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_1> = (otwórz | użyj) spotify [i zagraj [mi] [coś] | włącz [jakąś] muzykę | puść muzykę];
 
 #play given song
-<INTENT_2> = <PLAY> [piosenkę] <SONG> na spotify;
+<INTENT_2> = (odtwarzaj | puść | włącz | <PLAY>) [piosenkę | utwór | kawałek] <SONG> [na spotify];
 
 #play given song of given artist
-<INTENT_3> = (<PLAY> [piosenkę] <SONG> [artysty | w wykonaniu] <ARTIST> [na spotify] | (zagraj | graj) <ARTIST> <SONG>);
+<INTENT_3> = ((odtwarzaj | puść | <PLAY>) [piosenkę | utwór | kawałek] <SONG> [artysty | w wykonaniu | stworzony przez | nagrany przez] <ARTIST> [na spotify] | (odtwarzaj | puść | zagraj | graj) <ARTIST> <SONG>);
 
 #play given album of given artist
 <INTENT_4> = <PLAY> <ALBUM_TYPE> <ALBUM> [od | wykonawcy] <ARTIST> [na spotify];
@@ -24,7 +24,9 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_7> = [<PLAY> poprzednią (piosenkę | utwór | kawałek) | poprzednia (piosenka | utwór | kawałek)] [na spotify];
 
 #play given playlist
-<INTENT_8> = <PLAY> [moją] (listę | playlistę | listę odtwarzania) <PLAYLIST> [na spotify];
+<INTENT_8> = <INTENT_8_a> | <INTENT_8_b>;
+<INTENT_8_a> = (odtwarzaj | puść | <PLAY>) [moją] (listę | playlistę | listę odtwarzania) <PLAYLIST> [na spotify];
+<INTENT_8_b> = (odtwarzaj | puść | <PLAY>) (utwory | piosenki | kawałki) [z mojej] (listy | playlisty | listy odtwarzania) <PLAYLIST>;
 
 #add current song to given playlist
 <INTENT_9> = (dodaj | zapisz) (tę piosenkę | ten utwór | ten kawałek) do [mojej] (playlisty | listy odtwarzania | listy) [o nazwie | która się nazywa] <PLAYLIST>;

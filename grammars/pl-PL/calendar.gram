@@ -10,9 +10,15 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_2> = (<SHOW_VERB> (plany | wydarzenia) (na | w) <DATE> | co jest zaplanowane (na | w) <DATE> | (jakie | czy) mam (wydarzenia | spotkania) (na | w) <DATE> | <SHOW_VERB> [moje] (spotkania | wydarzenia));
 
-<INTENT_3> = dodaj wydarzenie [do kalendarza] o nazwie <EVENT_NAME> [to calendar];
+<INTENT_3> = <INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c>;
+<INTENT_3_a> = dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) [do kalendarza] o nazwie <EVENT_NAME>;
+<INTENT_3_b> = (chcę | muszę) dodać [nowe] [wydarzenie | spotkanie | przypomnienie] <EVENT_NAME> do kalendarza;
+<INTENT_3_c> = (zapisz | zanotuj) <EVENT_NAME> w kalendarzu;
 
-<INTENT_4> = (dodaj wydarzenie [do kalendarza] o nazwie <EVENT_NAME> (na | w ) <EVENT_DATE> | <EVENT_DATE> dodaj wydarzenie o nazwie <EVENT_NAME> [do kalendarza]);
+<INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c>;
+<INTENT_4_a> = dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) [do kalendarza] o nazwie <EVENT_NAME> (na | w ) <EVENT_DATE>;
+<INTENT_4_b> = <EVENT_DATE> dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) o nazwie <EVENT_NAME> [do kalendarza];
+<INTENT_4_c> = <EVENT_DATE> (zapisz | zanotuj) [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
 
 <INTENT_5> = (powiadom mnie | powiedz mi) <WHEN_1>;
 
