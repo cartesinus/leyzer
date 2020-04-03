@@ -1,44 +1,31 @@
 #JSGF V1.0;
 public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> | ShowEmailWithLabel__ <INTENT_3> | ShowEmailFromTime__ <INTENT_4> | ShowEmailWithSubject__ <INTENT_5> | ShowEmailWithPriority__ <INTENT_6> | SendEmailToAddressWithSubjectAndWithMessage__ <INTENT_7> | SendEmailToAddressWithSubject__ <INTENT_8> | SendEmail__ <INTENT_9> | SendEmailToAddress__ <INTENT_10> | ReplyToEmailFromAddress__ <INTENT_11>);
 
-#PRECONDITIONS
-<WHEN> = when i receive an email on Gmail;
-<WHEN> = when somebody emails me;
-<WHEN> = when somebody sends me an email;
-<WHEN> = when somebody sends me an email on gmail;
-<WHEN> = when i receive an email from <SENDER_ADDRESS> on Gmail;
-<WHEN> = when <SENDER_ADDRESS> sends me an email;
-<WHEN> = when <SENDER_ADDRESS> emails me;
-<WHEN> = when i receive an email marked as important;
-<WHEN> = when i receive an important email;
-<WHEN> = when i receive an important email from <SENDER_ADDRESS>;
-<WHEN> = if i receive an email from <SENDER_ADDRESS> in category primary;
-
 #INTENTS
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c>;
-<INTENT_1_a> = <CHECK_VERB> [my] (email | gmail) [inbox];
-<INTENT_1_b> = <CHECK_VERB> my primary category emails;
-<INTENT_1_c> = <CHECK_VERB> (my latest email | my emails | my emails on gmail | my gmail inbox);
+<INTENT_1_a> = <CHECK_VERB> [[la] bandeja de entrada de] [mi] (email | gmail);
+<INTENT_1_b> = <CHECK_VERB> mis (emails | correos) de la categoría principal;
+<INTENT_1_c> = <CHECK_VERB> (mi email más reciente | mis (emails | mis emails en gmail | mi bandeja de entrada de gmail);
 
-<INTENT_2> = <CHECK_VERB> [my] emails (from | i (got | received) from) <SENDER_ADDRESS>;
+<INTENT_2> = <CHECK_VERB> [mis] emails (de | que recibí de) <SENDER_ADDRESS>;
 
-<INTENT_3> = (show me | get) my emails (labelled | with label | that have label) <LABEL>;
+<INTENT_3> = (muéstrame | dame) mis (emails | correos) (etiquetados | con la etiqueta | que tienen [la] etiqueta [de]) <LABEL>;
 
-<INTENT_4> = (show me | get) emails [that] arrived <TIME>;
+<INTENT_4> = (muéstrame | dame) (emails | correos) que (recibí | llegaron) <TIME>;
 
-<INTENT_5> = (show me | get) my emails with subject <SUBJECT>;
+<INTENT_5> = (muéstrame | dame) mis (emails | correos) con el tema <SUBJECT>;
 
-<INTENT_6> = show me <PRIORITY> emails;
+<INTENT_6> = (muéstrame | dame) los (emails | correos) de <PRIORITY>;
 
-<INTENT_7> = (<SEND_EMAIL> to <TO> with subject <SUBJECT> with message <MESSAGE> [using my gmail] | email <TO> with subject <SUBJECT> and message <MESSAGE>);
+<INTENT_7> = <SEND_EMAIL> a <TO> con el tema <SUBJECT> con el mensaje <MESSAGE> [usando mi gmail];
 
-<INTENT_8> = (<SEND_EMAIL> to <TO> with subject <SUBJECT> [using my gmail] | email to <TO> with subject <SUBJECT>);
+<INTENT_8> = <SEND_EMAIL> a <TO> con el tema <SUBJECT> [usando mi gmail];
 
-<INTENT_9> = <SEND_EMAIL> [to somebody];
+<INTENT_9> = <SEND_EMAIL> [a alguien];
 
-<INTENT_10> = (send an email to <TO> using my gmail | email <TO>);
+<INTENT_10> = envía un (email | correo) a <TO> usando mi gmail;
 
-<INTENT_11> = reply to <TO>;
+<INTENT_11> = responde a <TO>;
 
 
 #SLOTS
@@ -52,5 +39,5 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <PRIORITY> = EMAIL.SLOT.PRIORITY;
 
 #LANG. COMPONENTS
-<CHECK_VERB> = check | get;
-<SEND_EMAIL> = (send | forward) an email;
+<CHECK_VERB> = verifica | dame;
+<SEND_EMAIL> = (envía | reenvía | manda) un email;
