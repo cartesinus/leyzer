@@ -1,0 +1,143 @@
+#JSGF V1.0;
+public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> | IncreaseVolumeByPercent__ <INTENT_3> | DecreaseVolume__ <INTENT_4> | DecreaseVolumeByPercent__ <INTENT_5>| MuteOn__ <INTENT_6> | MuteOff__ <INTENT_7>);
+
+#PRECONDITIONS
+<WHEN> = when my speaker changes state;
+<WHEN> = when my speaker turns <STATE>;
+<WHEN> = if my speaker switches <STATE>;
+<WHEN> = when the speaker becomes <STATE>;
+<WHEN> = if my speaker is <STATE>;
+<WHEN> = when my speaker changes to <STATE>;
+<WHEN> = when my speaker turns on;
+<WHEN> = when I switch on the speaker;
+<WHEN> = if the speaker becomes on;
+<WHEN> = when my speaker gets switched to on;
+<WHEN> = if my speaker is on;
+<WHEN> = when my speaker is turned on;
+<WHEN> = the moment my speaker is switched on;
+<WHEN> = when my speaker is turned off;
+<WHEN> = if my speaker switches off;
+<WHEN> = the moment my speaker becomes off;
+<WHEN> = if my speaker is off;
+<WHEN> = when my speaker gets turned off;
+<WHEN> = when my <DEVICE_NAME> speaker changes state;
+<WHEN> = when my <DEVICE_NAME> speaker turns <STATE>;
+<WHEN> = if my <DEVICE_NAME> speaker switches <STATE>;
+<WHEN> = when the <DEVICE_NAME> speaker becomes <STATE>;
+<WHEN> = if my <DEVICE_NAME> speaker is <STATE>;
+<WHEN> = when my <DEVICE_NAME> speaker changes to <STATE>;
+<WHEN> = when my <DEVICE_NAME> speaker turns on;
+<WHEN> = when I switch on the <DEVICE_NAME> speaker;
+<WHEN> = if the <DEVICE_NAME> speaker becomes on;
+<WHEN> = when my <DEVICE_NAME> speaker gets switched to on;
+<WHEN> = if my <DEVICE_NAME> speaker is on;
+<WHEN> = when my <DEVICE_NAME> speaker is turned on;
+<WHEN> = the moment my <DEVICE_NAME> speaker is switched on;
+<WHEN> = when my <DEVICE_NAME> speaker is turned off;
+<WHEN> = if my <DEVICE_NAME> speaker switches off;
+<WHEN> = the moment my <DEVICE_NAME> speaker becomes off;
+<WHEN> = if my <DEVICE_NAME> speaker is off;
+<WHEN> = when my <DEVICE_NAME> speaker gets turned off;
+
+#INTENTS
+<INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
+<INTENT_1_a> = [help me] (turn | switch) <POWER> (my | the) speaker;
+<INTENT_1_b> = (turn | switch) <POWER> (my | the) speaker [for me];
+
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
+<INTENT_2_a> = increase (the volume of the speaker | my speaker 's volume);
+<INTENT_2_b> = make (the | my) speaker louder;
+
+<INTENT_3> = <INTENT_2> by <PERCENT> [percent];
+
+<INTENT_4> = (reduce | decrease) ([the] volume of [my] speaker | [my] speaker 's volume);
+
+<INTENT_5> = <INTENT_4> by <PERCENT> [percent];
+
+<INTENT_6> = (silence | mute) [my | the] speaker;
+
+<INTENT_7> = unmute [my | the] speaker;
+
+<GET> = if my speaker is on or off;
+<GET> = whether my speaker is switched on or switched off;
+<GET> = if my <DEVICE_NAME> speaker is on or off;
+<GET> = whether my <DEVICE_NAME> speaker is switched on or switched off;
+<DO> = help to off the speaker;
+<DO> = make the speaker softer;
+<DO> = mute my speaker;
+<DO> = silence my speaker 's volume;
+<DO> = turn off the volume of the speaker;
+<DO> = switch off the sound for my speaker;
+<DO> = mute my speaker 's sound;
+<DO> = make my speaker silent;
+<DO> = unmute my speaker;
+<DO> = unmute the speaker 's volume;
+<DO> = unmute my speaker 's sound;
+<DO> = turn on the speaker sound;
+<DO> = stop muting my speaker;
+<DO> = turn my speaker sound to <VOLUME>;
+<DO> = set the speaker 's volume to <VOLUME>;
+<DO> = set my bluetooth speaker as default;
+<DO> = set my speaker as default;
+<DO> = set my speaker as sink;
+<DO> = play something on my bluetooth speaker;
+<DO> = play music on my speaker;
+<DO> = play something on my speaker;
+<DO> = turn <POWER> my <DEVICE_NAME> speaker;
+<DO> = switch <POWER> the <DEVICE_NAME> speaker;
+<DO> = <POWER> the <DEVICE_NAME> speaker;
+<DO> = turn on the <DEVICE_NAME> speaker;
+<DO> = switch on my <DEVICE_NAME> speaker;
+<DO> = help me turn on the <DEVICE_NAME> speaker;
+<DO> = switch on the <DEVICE_NAME> speaker for me;
+<DO> = turn off my <DEVICE_NAME> speaker;
+<DO> = switch off the <DEVICE_NAME> speaker;
+<DO> = turn off the <DEVICE_NAME> speaker;
+<DO> = help to off the <DEVICE_NAME> speaker;
+<DO> = increase the volume of the <DEVICE_NAME> speaker;
+<DO> = increase my <DEVICE_NAME> speaker 's volume;
+<DO> = make the <DEVICE_NAME> speaker louder;
+<DO> = decrease the volume of my <DEVICE_NAME> speaker;
+<DO> = decrease my <DEVICE_NAME> speaker 's volume;
+<DO> = reduce the volume of the <DEVICE_NAME> speaker;
+<DO> = reduce my <DEVICE_NAME> speaker 's volume;
+<DO> = make the <DEVICE_NAME> speaker softer;
+<DO> = mute my <DEVICE_NAME> speaker;
+<DO> = silence my <DEVICE_NAME> speaker 's volume;
+<DO> = turn off the volume of the <DEVICE_NAME> speaker;
+<DO> = switch off the sound for my <DEVICE_NAME> speaker;
+<DO> = mute my <DEVICE_NAME> speaker 's sound;
+<DO> = make my <DEVICE_NAME> speaker silent;
+<DO> = unmute my <DEVICE_NAME> speaker;
+<DO> = unmute the <DEVICE_NAME> speaker 's volume;
+<DO> = unmute my <DEVICE_NAME> speaker 's sound;
+<DO> = turn on the <DEVICE_NAME> speaker sound;
+<DO> = stop muting my <DEVICE_NAME> speaker;
+<DO> = turn my <DEVICE_NAME> speaker sound to <VOLUME>;
+<DO> = set the <DEVICE_NAME> speaker 's volume to <VOLUME>;
+<DO> = set my <DEVICE_NAME> bluetooth speaker as default;
+<DO> = set my <DEVICE_NAME> speaker as default;
+<DO> = set my <DEVICE_NAME> speaker as sink;
+<DO> = play something on my <DEVICE_NAME> bluetooth speaker;
+<DO> = play music on my <DEVICE_NAME> speaker;
+<DO> = play something on <DEVICE_NAME> my speaker;
+
+#SLOTS
+<DEVICE_NAME> = SPEAKER.SLOT.DEVICE_NAME;
+<POWER> = SPEAKER.SLOT.POWER;
+<PERCENT> = SPEAKER.SLOT.PERCENT;
+
+/**
+is my speaker on?
+check if my speaker is off
+is the speaker turned on?
+check if my speaker is switched off
+check if my speaker is turned on or off
+check if my speaker is switched on or switched off
+is my <DEVICE_NAME> speaker on?
+check if my <DEVICE_NAME> speaker is off
+is the <DEVICE_NAME> speaker turned on?
+check if my <DEVICE_NAME> speaker is switched off
+check if my <DEVICE_NAME> speaker is turned on or off
+check if my <DEVICE_NAME> speaker is switched on or switched off
+*/

@@ -1,0 +1,34 @@
+#JSGF V1.0;
+public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> | ScrollDown__ <INTENT_3> | ScrollUp__ <INTENT_4> | DownloadAsPdf__ <INTENT_5> | ChangeLanguageToLanguage__ <INTENT_6> | RandomPage__ <INTENT_7> | GoToElementNumber__ <INTENT_8>);
+
+#INTENTS
+#open wikipedia page
+<INTENT_1> = open wikipedia [pages | definition];
+
+#find given query on wikipedia
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
+<INTENT_2_a> = (find | search) <QUERY> on (wiki | wikipedia);
+<INTENT_2_b> = <QUERY> [matching] in (wiki | wikipedia);
+
+#scroll down
+<INTENT_3> = page down | scroll down;
+
+#scroll up
+<INTENT_4> = page up | scroll up;
+
+#download page as pdf
+<INTENT_5> = download [this | that] (page | article) as pdf;
+
+#change language of page
+<INTENT_6> = (change language [of this (page | article)] to | show this (page | article) in) <LANGUAGE>;
+
+#show random
+<INTENT_7> = ([show] random (page | article) | [wiki | wikipedia] (surf | surfing));
+
+#content navigation
+<INTENT_8> = go to <ELEMENT> (element | item) (from | in) contents;
+
+#SLOTS
+<QUERY> = WIKIPEDIA.SLOT.QUERY;
+<LANGUAGE> = english | german | polish | french | italian | spanish | russian | chinese | ukrainian | arabic | portuguese;
+<ELEMENT> = first | second | third | fourth | fifth | sixth | seventh | eight | ninth | tenth;

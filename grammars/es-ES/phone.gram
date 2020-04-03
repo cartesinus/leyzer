@@ -1,0 +1,77 @@
+#JSGF V1.0;
+public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5>);
+
+#PRECONDITIONS
+<WHEN> = when i receive a sms;
+<WHEN> = when i get a text;
+<WHEN> = when i get at text from somebody;
+<WHEN> = when i receive a sms from somebody;
+<WHEN> = when somebody sends me a text;
+<WHEN> = when somebody texts me;
+<WHEN> = when somebody sms me;
+<WHEN> = when somebody sends me an sms;
+<WHEN> = when i receive a sms from <SENDER>;
+<WHEN> = when i get at text from <SENDER>;
+<WHEN> = when <SENDER> sends me a text;
+<WHEN> = when <SENDER> texts me;
+<WHEN> = when <SENDER> sms me;
+<WHEN> = when <SENDER> sends me an sms;
+
+#INTENTS
+<INTENT_1> = (call | dial | phone) <NUMBER>;
+
+<INTENT_2> = call (911 | ambulance | fire department | police | emergency services);
+
+<INTENT_3> = (check | show | display) my sms inbox;
+
+<INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;
+<INTENT_4_a> = send a (text | message | sms) to <TO>;
+<INTENT_4_b> = (sms | text) <TO>;
+
+<INTENT_5> = <INTENT_5_a> | <INTENT_5_b>;
+<INTENT_5_a> = send (an sms [message] | a text | a message) to <TO> (saying | containing) <MESSAGE>;
+<INTENT_5_b> = (text | sms) <TO> (saying | containing) <MESSAGE>;
+
+<GET> = sms in my phone;
+<GET> = texts i received;
+<GET> = my sms history;
+<GET> = sms;
+<GET> = texts;
+<GET> = texts from <SENDER>;
+<GET> = texts i received today;
+<GET> = sms i received today;
+<GET> = sms from today;
+<GET> = texts i received in the last hour;
+<GET> = texts from the last hour;
+<DO> = set my phone to <MODE>;
+<DO> = change my phone to <MODE>;
+<DO> = adjust my phone to <MODE>;
+
+
+<DO> = turn on vibration in my phone;
+<DO> = make my phone vibrate for calls;
+<DO> = enable vibration on my phone;
+<DO> = turn off ringer and vibration in my phone;
+<DO> = make my phone silent;
+<DO> = mute my phone;
+<DO> = silence my phone;
+<DO> = disable ringer and vibration on my phone;
+<DO> = place a phone call;
+<DO> = call somebody;
+<DO> = call my friend;
+<DO> = make a phone call;
+<DO> = make a call;
+<DO> = call <NUMBER>;
+<DO> = make a call to <NUMBER>;
+<DO> = dial <NUMBER>;
+<DO> = put <STR> here;
+<DO> = insert <STR>;
+<DO> = insert <STR> here;
+<DO> = paste <STR>;
+<DO> = paste <STR> here;
+
+#SLOTS
+<TO> = PHONE.SLOT.TO;
+<MESSAGE> = PHONE.SLOT.MESSAGE;
+<NUMBER> = PHONE.SLOT.PHONE_NUMBER;
+<MODE> = PHONE.SLOT.MODE;

@@ -1,0 +1,48 @@
+#JSGF V1.0;
+public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | ShowFollowing__ <INTENT_6> | FindChannelWithQuery__ <INTENT_7> | FindQueryOnChannel__ <INTENT_8> | NotifyOnNewFromFollowing__ <INTENT_9> | NotifyonNewOnChannel__ <INTENT_10>);
+
+#PRECONDITIONS
+<WHEN_1> = when there is a new video from youtube channels I follow;
+<WHEN_2> = when (there is a new video from youtube channel <CHANNEL_ID> | <CHANNEL_ID> (uploads a video on youtube | posts a new youtube video));
+
+#INTENTS
+<INTENT_1> = open (yt | youtube);
+
+<INTENT_2> = (play | <FIND_VERB>) (<INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>);
+<INTENT_2_a> = <QUERY> video on youtube;
+<INTENT_2_b> = a video matching <QUERY> on youtube;
+<INTENT_2_c> = <QUERY> [video | videos] on youtube;
+<INTENT_2_d> = youtube video <QUERY>;
+
+<INTENT_3> = (show | play) (youtube (channel | videos in) <CHANNEL_ID> | channel <CHANNEL_ID> in youtube);
+
+<INTENT_4> = (show | play | display) (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
+<INTENT_4_a> = channels in category <CATEGORY_ID> on youtube;
+<INTENT_4_b> = youtube channels with category <CATEGORY_ID>;
+<INTENT_4_c> = <CATEGORY_ID> (youtube channels | channels in youtube);
+<INTENT_4_d> = youtube 's <CATEGORY_ID> channels;
+
+<INTENT_5> = show [me] channels I am subscribed to on youtube;
+
+<INTENT_6> = show [me] (channels I follow on youtube | youtube channels i follow);
+
+<INTENT_7> = <FIND_VERB> (<INTENT_7_a> | <INTENT_7_b> | <INTENT_7_c>);
+<INTENT_7_a> = <QUERY> channels on youtube;
+<INTENT_7_b> = channels matching <QUERY> on youtube;
+<INTENT_7_c> = youtube channel <QUERY>;
+
+<INTENT_8> = show [me] a (video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
+
+<INTENT_9> = notify me <WHEN_1>;
+
+<INTENT_10> = notify me <WHEN_2>;
+
+#SLOTS
+<CHANNEL_ID> = YOUTUBE.SLOT.CHANNEL_ID;
+<CATEGORY_ID> = YOUTUBE.SLOT.CATEGORY;
+<QUERY> = YOUTUBE.SLOT.QUERY;
+
+#LANG. COMPONENTS
+<FIND_VERB> = find | search for | look for;
+
+// "search youtube for videos"

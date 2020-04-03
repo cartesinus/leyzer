@@ -1,0 +1,55 @@
+#JSGF V1.0;
+public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2> | ShowLastNumberPictures__ <INTENT_3> | ShowPicturesWithFilter__ <INTENT_4> | ShowPicturesWithLocation__ <INTENT_5> | ShowPicturesWithHashtag__ <INTENT_6> | PostWithPicturesFromDateAndWithLocation__ <INTENT_7> | ShowPicturesFromDate__ <INTENT_8> | TakePicture__ <INTENT_9> | PostWithLastPictureWithLocationAndWithHashtag__ <INTENT_10>);
+
+#PRECONDITIONS
+<WHEN> = when I (upload | put up) a [new] picture on instagram;
+<WHEN> = when i instagram a picture;
+<WHEN> = when i update my instagram;
+<WHEN> = if i update my instagram;
+<WHEN> = if i upload a picture on instagram;
+<WHEN> = if there is a new picture on my instagram;
+<WHEN> = when I upload a picture with filter <FILTER> on instagram;
+<WHEN> = when i upload a picture that has filter <FILTER> on instagram;
+<WHEN> = when i upload a picture on instagram that uses filter <FILTER>;
+<WHEN> = when i upload a picture on instagram that uses the <FILTER> filter;
+<WHEN> = when i put up a picture with filter <FILTER> on instagram;
+<WHEN> = when i upload a instagram picture tagged <HASHTAG>;
+<WHEN> = when i tag a picture <HASHTAG> on instagram;
+
+#INTENTS
+<INTENT_1> = open [my] instagram;
+
+<INTENT_2> = <SHOW_VERB> my [recent] instagram pictures;
+
+<INTENT_3> = <SHOW_VERB> my <COUNT> (recent | latest) instagram pictures [on my account];
+
+<INTENT_4> = <SHOW_VERB> my instagram pictures (<INTENT_4_a> | <INTENT_4_b>);
+<INTENT_4_a> = (with | that use) filter <FILTER>;
+<INTENT_4_b> = that have the <FILTER> filter [applied];
+
+<INTENT_5> = <SHOW_VERB> (the | my) instagram pictures (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
+<INTENT_5_a> = (i took | taken) [when i was] in;
+<INTENT_5_b> = tagged with location;
+<INTENT_5_c> = with (location | geolocation | gps) tag;
+
+<INTENT_6> = <SHOW_VERB> my instagram pictures tagged <HASHTAG>;
+
+<INTENT_7> = create a [new] post on instagram with all my photos taken in <LOCATION> (on the <DATE_DAY> | in <DATE_MONTH>) as a collage;
+
+<INTENT_8> = <SHOW_VERB> my (post | posts) from (the <DATE_DAY> | <DATE_MONTH>);
+
+<INTENT_9> = take a picture (using | with) instagram;
+
+<INTENT_10> = create a [new] post on instagram with the last photo from Gallery [(and a tag <LOCATION> | (and add | adding) (<FILTER> filter | <HASHTAG> hashtag))];
+
+#SLOTS
+<HASHTAG> = INSTAGRAM.SLOT.HASHTAG;
+<LOCATION> = INSTAGRAM.SLOT.LOCATION;
+<FILTER> = INSTAGRAM.SLOT.FILTER;
+<COUNT> = INSTAGRAM.SLOT.COUNT;
+<DATE_DAY> = INSTAGRAM.SLOT.DATE_DAY;
+<DATE_MONTH> = INSTAGRAM.SLOT.DATE_MONTH;
+
+#LANG. COMPONENTS
+<NOTIFY_VERB> = notify | tell;
+<SHOW_VERB> = show | display | list | show me;

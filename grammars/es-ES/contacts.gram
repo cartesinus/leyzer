@@ -1,0 +1,34 @@
+#JSGF V1.0;
+public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2> | ShowContactWithEmail__ <INTENT_3> | ShowContactWithNumber__ <INTENT_4> | ShowContactWithName__ <INTENT_5> | ShowContactWithNumberAndWithEmail__ <INTENT_6> | ShowContactWithNameAndWithNumberAndWithType__ <INTENT_7> | EditContactWithName__ <INTENT_8> | EditContactWithNumber__ <INTENT_9> | EditNumberInContactWithName__ <INTENT_10> | EditNumberInContactWithNameToNumberAndToType__ <INTENT_11>);
+
+#INTENTS
+<INTENT_1> = <SHOW_VERB> mis contactos;
+
+<INTENT_2> = <SHOW_VERB> la información de mi contacto;
+
+<INTENT_3> = <SHOW_VERB> mis contactos [de google] con (el email | el correo [electrónico]) <EMAIL>;
+
+<INTENT_4> = <SHOW_VERB> mis contactos con el n'umero [de tel'efono] <PHONE_NUMBER>;
+
+<INTENT_5> = <SHOW_VERB> mis contactos con el nombre [de] <NAME>;
+
+<INTENT_6> = <SHOW_VERB> mis contactos con el n'umero [de tel'efono] <PHONE_NUMBER> y (el email | el correo [electrónico]) <EMAIL>;
+
+<INTENT_7> = (crea | cr'eame) un nuevo contacto (y ll'amalo | usando el nombre [de] | y nómbralo) <NAME> (con [un | el] n'umero | y pónle el n'umero | y a'nade el n'umero [de]) <PHONE_NUMBER> [como <PHONE_TYPE>];
+
+<INTENT_8> = (edita mi contacto <NAME> | abre mi contacto <NAME> para editar);
+
+<INTENT_9> = cambia el nombre de mi contacto con el n'umero <PHONE_NUMBER>;
+
+<INTENT_10> = cambia el n'umero de mi contacto <NAME>;
+
+<INTENT_11> = establece el n'umero <PHONE_NUMBER> en el contacto <NAME> como <PHONE_TYPE>;
+
+#SLOTS
+<EMAIL> = CONTACTS.SLOT.EMAIL; 
+<PHONE_NUMBER> = CONTACTS.SLOT.PHONE_NUMBER;
+<NAME> = CONTACTS.SLOT.NAME;
+<PHONE_TYPE> = CONTACTS.SLOT.PHONE_TYPE;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = abre | 'abreme | muestra | mu'estrame;

@@ -1,0 +1,55 @@
+#JSGF V1.0;
+public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | NotifyWhenPortalUpdates__ <INTENT_3> | NotifyWhenPortalUpdatesInSection__ <INTENT_4>);
+
+#PRECONDITIONS
+<WHEN_1> = when <PORTAL> (news | front page) updates;
+<WHEN_2> = when the <PORTAL> <SECTION> section publishes a new article;
+<WHEN> = when the front page of huffington post updates;
+<WHEN> = when the new york times <SECTION> section publishes a new article about <KEYWORD>;
+<WHEN> = when the new york times publishes a new article;
+<WHEN> = when the nyt publishes a new article;
+<WHEN> = when there are new articles about <KEYWORD> in <SECTION> section of the new york times;
+<WHEN> = when there are new articles in <SECTION> section of the new york times;
+<WHEN> = when there is a new top stories on cnn news;
+<WHEN> = when there is a new top stories on time magazine;
+<WHEN> = when there is a new top stories on wired news;
+<WHEN> = when top stories on cnn news update;
+<WHEN> = when top stories on time magazine update;
+<WHEN> = when top stories on wired update;
+
+#INTENTS
+<INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c>;
+<INTENT_1_a> = [open | read] <PORTAL>;
+<INTENT_1_b> = show [me] [the] news from <PORTAL>;
+<INTENT_1_c> = ([latest] news on <PORTAL> | latest <PORTAL> news);
+
+<INTENT_2> = (the <SECTION> section of the <PORTAL> | the <PORTAL> <SECTION> section);
+
+<INTENT_3> = notify me <WHEN_1>;
+
+<INTENT_4> = notify me <WHEN_2>;
+
+<GET> = articles about <KEYWORD> in <PORTAL> <SECTION> section;
+<GET> = articles in [the] <PORTAL>;
+<GET> = articles in [the] <PORTAL> in <SECTION> section;
+<GET> = articles in the new york times <SECTION> section about <KEYWORD>;
+<GET> = cnn news top stories;
+<GET> = front page of huffington post;
+<GET> = front page of huffpost;
+<GET> = huffington posts;
+<GET> = <new york times articles published this week;
+<GET> = techcrunch news;
+<GET> = the new york times front page;
+<GET> = the front page of the new york times;
+<GET> = the news from Fox News;
+<GET> = time magazine top stories;
+<GET> = today 's articles in the new york times;
+<GET> = top stories on cnn news;
+<GET> = top stories on <PORTAL>;
+<GET> = top stories on <PORTAL> news;
+<GET> = <PORTAL> top stories;
+
+#SLOTS
+<SECTION> = NEWS.SLOT.SECTION;
+<PORTAL> = NEWS.SLOT.PORTAL;
+<TIME> = NEWS.SLOT.TIME;

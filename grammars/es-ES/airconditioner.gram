@@ -1,0 +1,35 @@
+#JSGF V1.0;
+public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | ChangeTemperature__ <INTENT_3> | SetTemperatureToValue__ <INTENT_4> | SetTemperatureToValueOnDevice__ <INTENT_5> | SetTemperatureBetweenValues__ <INTENT_6> | SetTemperatureOnDevice__ <INTENT_7> | GetHumidity__ <INTENT_8> | GetTemperatureFromDevice__ <INTENT_9> | GetTemperature__ <INTENT_10>);
+
+#INTENTS
+<INTENT_1> = enciende <AV_ALIAS> | (activa <AV_ALIAS>;
+
+<INTENT_2> = apaga <AV_ALIAS> | desactiva <AV_ALIAS>;
+
+<INTENT_3> = cambia la (temperatura en mi termostato| temperatura m'axima y m'inima en mi termostato);
+
+<INTENT_4> = establece (la temperatura en mi termostato a <VALUE> | la temperatura a <VALUE> en mi termostato | mi termostato a <VALUE>);
+
+<INTENT_5> = establece ([la temperatura en] mi termostato <DEVICE_NAME> a <VALUE> | la temperatura a <VALUE> en mi <DEVICE_NAME> termostato);
+
+<INTENT_6> = establece (la temperatura entre <LOW> y <HIGH> en mi termostato | la temperatura baja <LOW> en mi termostato , y la temperatura alta a <HIGH>);
+
+<INTENT_7> = cambia la (temperatura en mi termostato <DEVICE_NAME> | temperatura m'inima y m'axima en mi termostato <DEVICE_NAME>);
+
+<INTENT_8> = <SHOW_VERB> [el nivel de] la humedad;
+
+<INTENT_9> = verifica (qu'e dice el sensor de la temperatura <DEVICE_NAME> | la temperatura del sensor de temperatura <DEVICE_NAME> en el cuarto) | qu'e (dice | muestra) el sensor de temperatura del interior <DEVICE_NAME>?;
+
+<INTENT_10> = qu'e temperatura (tengo | tenemos | hay) aqu'i seg'un mi <AV_ALIAS>?;
+
+#SLOTS
+<DEVICE_NAME> = AIRCONDITIONER.SLOT.DEVICE_NAME;
+<LOW> = 23 grados;
+<HIGH> = 29 grados;
+<VALUE> = AIRCONDITIONER.SLOT.VALUE;
+<AV_ALIAS> = AIRCONDITIONER.SLOT.AV_ALIAS;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = verifica | muestra | mu'estrame | verif'icame;
+<NOTIFY_VERB> = notif'icame | dime;
+

@@ -1,0 +1,25 @@
+#JSGF V1.0;
+public <S> = Websearch__ (OpenEngine__ <INTENT_1> | SearchTextOnEngine__ <INTENT_2> | SearchText__ <INTENT_3> | SearchImagesWithTextOnEngine__ <INTENT_4> | SearchImagesOnEngine__ <INTENT_5> | SearchImagesWithTextOnEngineWithWidthAndWithHeight__ <INTENT_6> | SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__ <INTENT_7>);
+
+#INTENTS
+<INTENT_1> = (search on <ENGINE> | <ENGINE> search | web search);
+
+<INTENT_2> = (<TXT_QUERY> on <ENGINE> | <ENGINE> <TXT_QUERY>);
+
+<INTENT_3> = (websites | web sites | pages) matching <TXT_QUERY>;
+
+<INTENT_4> = (images matching <IMG_QUERY> from <ENGINE> | <IMG_QUERY> images on <ENGINE>);
+
+<INTENT_5> = (image search | search images on <ENGINE> | <ENGINE> image search);
+
+<INTENT_6> = images from <ENGINE> matching <IMG_QUERY> with size <WIDTH> x <HEIGHT>;
+
+<INTENT_7> = images from <ENGINE> matching <IMG_QUERY> <IMG_COND> than <WIDTH> [x <HEIGHT>];
+
+#SLOTS
+<ENGINE> = bing | google | duckduckgo;
+<TXT_QUERY> = WEBSEARCH.SLOT.TXT_QUERY;
+<IMG_QUERY> = WEBSEARCH.SLOT.IMG_QUERY;
+<WIDTH> = 800;
+<HEIGHT> = 600;
+<IMG_COND> = wider | larger | taller | smaller;

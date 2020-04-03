@@ -1,0 +1,97 @@
+#JSGF V1.0;
+public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | CheckUserStatus__ <INTENT_3> | CheckMessagesFromUser__ <INTENT_4> | CheckMessagesInChannel__ <INTENT_5> | SendMessageToChannel__ <INTENT_6> | SetPurposeOnChannel__ <INTENT_7> | SetTopicInChannel__ <INTENT_8> | SetStatusAway__ <INTENT_9> | SendMessage__ <INTENT_10> | SendPictureToChannel__ <INTENT_11> | SendPictureToChannelWithCaption__ <INTENT_12> | SendPictureWithUrlToChannel__ <INTENT_13>);
+
+#PRECONDITIONS
+<WHEN> = when <USERNAME> is online on slack;
+<WHEN> = when <USERNAME> is active on slack;
+<WHEN> = when <USERNAME> connects to slack;
+<WHEN> = when <USERNAME> logins to slack;
+<WHEN> = when <USERNAME> logs in on slack;
+<WHEN> = when slack user <USERNAME> is online;
+<WHEN> = when slack user <USERNAME> is active;
+<WHEN> = when <USERNAME> goes online on slack;
+<WHEN> = when <USERNAME> becomes active on slack;
+<WHEN> = when <USERNAME> is away on slack;
+<WHEN> = when <USERNAME> is inactive on slack;
+<WHEN> = when <USERNAME> is offline on slack;
+<WHEN> = when <USERNAME> is off from slack;
+<WHEN> = when <USERNAME> disconnects from slack;
+<WHEN> = when <USERNAME> logs out off slack;
+<WHEN> = when <USERNAME> logs out from slack;
+<WHEN> = when slack user <USERNAME> is offline;
+<WHEN> = when slack user <USERNAME> is away;
+<WHEN> = when <USERNAME> goes offline on slack;
+<WHEN> = when <USERNAME> goes away on slack;
+<WHEN> = when <USERNAME> goes away from slack;
+<WHEN> = when <USERNAME> becomes inactive on slack;
+<WHEN> = when i receive a message on slack;
+<WHEN> = when somebody sends a message to slack;
+<WHEN> = when somebody messages slack;
+<WHEN> = when there is a new slack message;
+<WHEN> = when a new message is posted on slack;
+<WHEN> = when a new message is sent on slack;
+<WHEN> = when somebody posts a message to slack;
+<WHEN> = when i receive a message from <SENDER> on slack;
+<WHEN> = when <SENDER> messages me on slack;
+<WHEN> = when <SENDER> sends a message on slack;
+<WHEN> = when i receive a message in channel <CHANNEL> on slack;
+<WHEN> = when there is a new message in the slack channel <CHANNEL>;
+<WHEN> = when somebody sends a message to the slack channel <CHANNEL>;
+<WHEN> = when somebody posts to the slack channel <CHANNEL>;
+<WHEN> = when there is a new post in the slack channel <CHANNEL>;
+
+#INTENTS
+<INTENT_1> = open slack;
+
+<INTENT_2> = <CHECK_VERB> my (last slack messages | slack channel history);
+
+<INTENT_3> = (the presence of <USERNAME> | whether <USERNAME> is (active | away)) on slack;
+
+<INTENT_4> = <CHECK_VERB> (recent messages from <SENDER> in slack | messages i received on slack from <SENDER>);
+
+<INTENT_5> = <CHECK_VERB> (<INTENT_5_a> | <INTENT_5_b>);
+<INTENT_5_a> = (recent slack messages | messages i received on slack) in <CHANNEL>;
+<INTENT_5_b> = slack messages in <CHANNEL> i received in the last hour;
+
+<INTENT_6> = <INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c> | <INTENT_6_d>;
+<INTENT_6_a> = <SEND_VERB> <MESSAGE> to <CHANNEL> on slack;
+<INTENT_6_b> = <SEND_VERB> a message on slack to <CHANNEL> saying <MESSAGE>;
+<INTENT_6_c> = message <CHANNEL> on slack saying <MESSAGE>; 
+<INTENT_6_d> = let slack channel <CHANNEL> know that <MESSAGE>;
+
+# channel's purpose is a short description of the channel's intended use
+<INTENT_7> = set the purpose for (channel <CHANNEL> to <PURPOSE> on slack | slack channel <CHANNEL> to <PURPOSE>);
+
+# channel's topic is a quick way to let people know what members in the channel are working on or important dates like project deadlines
+<INTENT_8> = set the topic (for channel <CHANNEL> to <TOPIC> on slack | of slack channel <CHANNEL> to <TOPIC>);
+
+<INTENT_9> = (set | mark) me as [not] away on slack;
+
+<INTENT_10> = <SEND_VERB> [a message] on slack;
+
+<INTENT_11> = <INTENT_11_a> | <INTENT_11_b> | <INTENT_11_c> | <INTENT_11_d> | <INTENT_11_e>;
+<INTENT_11_a> = <SEND_VERB> a picture on slack to <CHANNEL>;
+<INTENT_11_b> = upload a picture to slack channel <CHANNEL>;
+<INTENT_11_c> = send something to slack channel <CHANNEL>;
+<INTENT_11_d> = post on slack to <CHANNEL>;
+<INTENT_11_e> = post on slack channel <CHANNEL>;
+
+<INTENT_12> = <SEND_VERB> a picture (on slack to | to slack channel) <CHANNEL> with caption <CAPTION>;
+
+<INTENT_13> = <INTENT_13_a> | <INTENT_13_b>;
+<INTENT_13_a> = <SEND_VERB> <PICTURE_URL> to <CHANNEL> on slack;
+<INTENT_13_b> = post <PICTURE_URL> to slack channel <CHANNEL>;
+
+#SLOTS
+<USERNAME> = SLACK.SLOT.USERNAME;
+<CHANNEL> = SLACK.SLOT.CHANNEL;
+<CAPTION> = SLACK.SLOT.CAPTION;
+<PICTURE_URL> = SLACK.SLOT.PICTURE_URL;
+<MESSAGE> = SLACK.SLOT.MESSAGE;
+<SENDER> = SLACK.SLOT.SENDER;
+<PURPOSE> = SLACK.SLOT.PURPOSE;
+<TOPIC> = SLACK.SLOT.TOPIC;
+
+#LANG. COMPONENTS
+<CHECK_VERB> = check | get;
+<SEND_VERB> = post | send | upload;

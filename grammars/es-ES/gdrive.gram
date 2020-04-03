@@ -1,0 +1,43 @@
+#JSGF V1.0;
+public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> | ShowFilesWithStar__ <INTENT_3> | ShowFilesFromTime__ <INTENT_4> | ShowFilesWithSize__ <INTENT_5> | CreateFile__ <INTENT_6> | CreateFileWithName__ <INTENT_7> | ShowOldestFiles__ <INTENT_8> | SortReverseAlphabetical__ <INTENT_9> | OpenFileWithName__ <INTENT_10> | ShareFileWithNameToAddress__ <INTENT_11>);
+
+#PRECONDITIONS
+<WHEN> = when a file is modified on google drive;
+<WHEN> = when a file changes in my google drive;
+<WHEN> = when a file is created in google drive;
+<WHEN> = when i create a new file on google drive;
+<WHEN> = when i make a new file in google drive;
+<WHEN> = when there is a new file in google drive;
+
+#INTENTS
+<INTENT_1> = <SHOW_VERB> (my google drive files | my files in google drive);
+
+<INTENT_2> = <SHOW_VERB> (my google drive files of type <MIME_TYPE> | my <MIME_TYPE> files in google drive);
+
+<INTENT_3> = <SHOW_VERB> (my starred google drive files | the google drive files i starred);
+
+<INTENT_4> = <SHOW_VERB> my google drive files (created | modified) <TIME>;
+
+<INTENT_5> = <SHOW_VERB> my google drive files (smaller | larger) than <FILE_SIZE>;
+
+<INTENT_6> = create (google drive file | a file in google drive);
+
+<INTENT_7> = create (a new file with name <FILE_NAME> on google drive | a file in google drive named <FILE_NAME>);
+
+<INTENT_8> = <SHOW_VERB> my ((newest | oldest) google drive files | google drive files that were created most recently);
+
+<INTENT_9> = <SHOW_VERB> my google drive files in [reverse] alphabetical order;
+
+<INTENT_10> = open my <FILE_NAME> for edition in google drive;
+
+<INTENT_11> = share my <FILE_NAME> with <MAIL> [and give a permission for (edition | reading | read and write)];
+
+#SLOTS
+<MIME_TYPE> = GDRIVE.SLOT.MIME_TYPE;
+<FILE_NAME> = GDRIVE.SLOT.FILE_NAME;
+<FILE_SIZE> = GDRIVE.SLOT.FILE_SIZE;
+<TIME> = GDRIVE.SLOT.TIME;
+<MAIL> = GDRIVE.SLOT.MAIL;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = show | display | list;

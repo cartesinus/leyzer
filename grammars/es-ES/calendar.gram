@@ -1,0 +1,50 @@
+#JSGF V1.0;
+public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithDate__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8>);
+
+#PRECONDITIONS
+<WHEN_1> = cu'ando empieza (el m'itin | el evento | la cita) en mi calendario;
+
+<WHEN_2> = cu'ando empieza (el m'itin | el evento | la cita) en mi calendario en la ubicación <LOCATION>;
+
+#INTENTS
+<INTENT_1> = <SHOW_VERB> mi calendario;
+
+<INTENT_2> = qu'e hay en mi agenda <DATE>?;
+
+<INTENT_3> = a'nade un evento llamado <EVENT_NAME> [a calendario];
+
+<INTENT_4> = a'nade un evento llamado <EVENT_NAME> [a calendario] el <EVENT_DATE>;
+
+<INTENT_5> = notif'icame <WHEN_1>;
+
+<INTENT_6> = no me notifiques <WHEN_1>;
+
+<INTENT_7> = notif'icame <WHEN_2>;
+
+<INTENT_8> = no me notifiques <WHEN_2>;
+
+<GET> = my icalendar events;
+<GET> = my schedule on icalendar;
+<GET> = my calendar events;
+<GET> = my schedule;
+<GET> = my calendar schedule;
+<GET> = my meeting schedule;
+<GET> = my appointments;
+<GET> = my icalendar events organized by <ORGANIZER>;
+<GET> = my calendar events organized by <ORGANIZER>;
+<GET> = my icalendar events at <LOCATION>;
+<GET> = my calendar events at <LOCATION>;
+<GET> = the holidays in <COUNTRY>;
+<GET> = <COUNTRY> holidays;
+<GET> = the holidays;
+
+#SLOTS
+<DATE> = CALENDAR.SLOT.DATE;
+<EVENT_NAME> = CALENDAR.SLOT.EVENT_NAME;
+<EVENT_DATE> = CALENDAR.SLOT.EVENT_DATE;
+<LOCATION> = CALENDAR.SLOT.LOCATION;
+<ORGANIZER> = CALENDAR.SLOT.ORGANIZER;
+<COUNTRY> = CALENDAR.SLOT.COUNTRY;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = abre | 'abreme | muestra | mu'estrame;
