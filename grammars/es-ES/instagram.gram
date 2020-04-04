@@ -17,30 +17,30 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 <WHEN> = when i tag a picture <HASHTAG> on instagram;
 
 #INTENTS
-<INTENT_1> = open [my] instagram;
+<INTENT_1> = abre [(mi | el)] instagram;
 
-<INTENT_2> = <SHOW_VERB> my [recent] instagram pictures;
+<INTENT_2> = <SHOW_VERB> mis imágenes de instagram [más recientes];
 
-<INTENT_3> = <SHOW_VERB> my <COUNT> (recent | latest) instagram pictures [on my account];
+<INTENT_3> = <SHOW_VERB> mis <COUNT> imágenes de instagram (más recientes | más nuevos) [en mi cuenta];
 
-<INTENT_4> = <SHOW_VERB> my instagram pictures (<INTENT_4_a> | <INTENT_4_b>);
-<INTENT_4_a> = (with | that use) filter <FILTER>;
-<INTENT_4_b> = that have the <FILTER> filter [applied];
+<INTENT_4> = <SHOW_VERB> mis (fotos | imágenes) de instagram (<INTENT_4_a> | <INTENT_4_b>);
+<INTENT_4_a> = (con | que usan) el filtro <FILTER>;
+<INTENT_4_b> = que tienen el filtro <FILTER> [aplicado];
 
-<INTENT_5> = <SHOW_VERB> (the | my) instagram pictures (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
-<INTENT_5_a> = (i took | taken) [when i was] in;
-<INTENT_5_b> = tagged with location;
-<INTENT_5_c> = with (location | geolocation | gps) tag;
+<INTENT_5> = <SHOW_VERB> (las | mis) (fotos | imágenes) de instagram (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
+<INTENT_5_a> = (que tomé | tomadas) [cuando estuve] en;
+<INTENT_5_b> = etiquetadas con la ubicación;
+<INTENT_5_c> = con [la] etiqueta de ubicación;
 
-<INTENT_6> = <SHOW_VERB> my instagram pictures tagged <HASHTAG>;
+<INTENT_6> = <SHOW_VERB> mis (fotos | imágenes) etiquetadas <HASHTAG>;
 
-<INTENT_7> = create a [new] post on instagram with all my photos taken in <LOCATION> (on the <DATE_DAY> | in <DATE_MONTH>) as a collage;
+<INTENT_7> = crea una [nueva] publicación en [el] instagram con todas mis fotos tomadas en <LOCATION> (el <DATE_DAY> | en <DATE_MONTH>) como un collage;
 
-<INTENT_8> = <SHOW_VERB> my (post | posts) from (the <DATE_DAY> | <DATE_MONTH>);
+<INTENT_8> = <SHOW_VERB> (mi publicación | mis publicaciones) (del <DATE_DAY> | de <DATE_MONTH>);
 
-<INTENT_9> = take a picture (using | with) instagram;
+<INTENT_9> = toma una foto (usando | con) [el] instagram;
 
-<INTENT_10> = create a [new] post on instagram with the last photo from Gallery [(and a tag <LOCATION> | (and add | adding) (<FILTER> filter | <HASHTAG> hashtag))];
+<INTENT_10> = crea una [nueva] publicación en [el] instagram con la última foto de galería [(y una etiqueta <LOCATION> | (y añade | añadiendo) (el filtro <FILTER> | un hashtag <HASHTAG>))];
 
 #SLOTS
 <HASHTAG> = INSTAGRAM.SLOT.HASHTAG;
@@ -51,5 +51,5 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 <DATE_MONTH> = INSTAGRAM.SLOT.DATE_MONTH;
 
 #LANG. COMPONENTS
-<NOTIFY_VERB> = notify | tell;
-<SHOW_VERB> = show | display | list | show me;
+<NOTIFY_VERB> = notifícame | dime;
+<SHOW_VERB> = muestra | muéstrame | dame | enséñame;
