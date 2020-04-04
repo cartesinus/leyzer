@@ -1,189 +1,62 @@
 #JSGF V1.0;
 public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlaySongByArtist__ <INTENT_3> | PlayAlbumOfTypeByArtist__ <INTENT_4> | Pause__ <INTENT_5> | NextSong__ <INTENT_6> | PreviousSong__ <INTENT_7> | PlayPlaylist__ <INTENT_8> | AddSongToPlaylistWithName__ <INTENT_9> | AddSongWithNameToPlaylistWithName__ <INTENT_10> | AddAlbumToPlaylist__ <INTENT_11> | CreatePlaylist__ <INTENT_12> | CreatePlaylistWithName__ <INTENT_13> | AddSongToPlaylist__ <INTENT_14> | SeekByTime__ <INTENT_15> | ShuffleOnOff__ <INTENT_16> | RepeatOnOff__ <INTENT_17> | ShowDencability__ <INTENT_18>);
 
-#PRECONDITIONS
-<WHEN> = when my top tracks changes;
-<WHEN> = when I have new favorite songs;
-<WHEN> = when a song is playing;
-<WHEN> = when a song with tempo greater than <TEMPO> is playing;
-<WHEN> = when a song with tempo less than <TEMPO> is playing;
-<WHEN> = when a song with danceability greater than <DANCEBILITY> is playing;
-<WHEN> = when a song with danceability less than <DANCEBILITY> is playing;
-<WHEN> = when a song with liveness greater than <LIVENESS> is playing;
-<WHEN> = when a song with liveness less than <LIVENESS> is playing;
-<WHEN> = when a song with energy greater than <ENERGY> is playing;
-<WHEN> = when a song with energy less than <ENERGY> is playing;
-
 #INTENTS
 #open spotify
-<INTENT_1> = ((open | use) spotify [(and | to) play some music] | play some music on spotify);
+<INTENT_1> = ((abre | usa) spotify [(y | para) reproducir alguna música] | reproduce alguna música en spotify);
 
 #play given song
-<INTENT_2> = (play [(the | a) song] <SONG> [on spotify] | on spotify play <SONG>);
+<INTENT_2> = (reproduce [la canción] <SONG> [en spotify] | en spotify reproduce <SONG>);
 
 #play given song of given artist
-<INTENT_3> = (play [(the | a) song] <SONG> by <ARTIST> [on spotify] | on spotify play <SONG> by <ARTIST>);
+<INTENT_3> = (reproduce [la canción] <SONG> de <ARTIST> [en spotify] | en spotify reproduce <SONG> de <ARTIST>);
 
 #play given album of given artist
-<INTENT_4> = (play [(the | a) <ALBUM_TYPE>] <ALBUM> by <ARTIST> [on spotify] | on spotify play <ALBUM_TYPE> <ALBUM> by <ARTIST>);
+<INTENT_4> = (reproduce [el <ALBUM_TYPE>] <ALBUM> de <ARTIST> [en spotify] | en spotify reproduce <ALBUM_TYPE> <ALBUM> de <ARTIST>);
 
 #'press' pause | resume | play | repeat button on current song
-<INTENT_5> = (play | pause | resume | repeat) ([my] spotify | (this | that) <SONG_NOUN>);
+<INTENT_5> = (reproduce | pausa | reanuda | repite) ([mi] spotify | (esta | esa) <SONG_NOUN>);
 
 #next song
-<INTENT_6> = (play [the] next <SONG_NOUN> [on spotify] | skip (this | than) <SONG_NOUN> [on spotify]);
+<INTENT_6> = (reproduce [la] <SONG_NOUN> siguiente [en spotify] | salta (esta | esa) <SONG_NOUN> [en spotify]);
 
 #previous song
-<INTENT_7> = (go back [to the last <SONG_NOUN>] | play the (previous | last) <SONG_NOUN> [on spotify]);
+<INTENT_7> = (vuelve [a la última <SONG_NOUN>] | reproduce la última <SONG_NOUN> [en spotify] | reproduce la <SONG_NOUN> anterior [en spotify]);
 
 #play given playlist
-<INTENT_8> = play [the | a] ([my] playlist <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
+<INTENT_8> = reproduce ([mi] playlist | [(mi | la)] lista de reproducción) <PLAYLIST> [en spotify];
 
 #add current song to given playlist
-<INTENT_9> = (add | save) [this | that | currently playing] [<SONG_NOUN>] to ([my] playlist <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
+<INTENT_9> = (añade | guarda) ([esta | esa] [<SONG_NOUN>] a ([mi] playlist | [(mi | la)] lista de reproducción) <PLAYLIST> | la [<SONG_NOUN>] que se está reproduciendo a ([mi] playlist | [(mi | la)] lista de reproducción) <PLAYLIST>) [on spotify];
 
 #add given song to given playlist
-<INTENT_10> = (add | save) [the | a] [<SONG_NOUN>] <SONG> to ([my] playlist <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
+<INTENT_10> = (añade | guarda) [[la] <SONG_NOUN>] <SONG> a ([mi] playlist | [(mi | la)] lista de reproducción) <PLAYLIST> [en spotify];
 
 #add current album to playlist
-<INTENT_11> = (add | save) (this | that) <ALBUM_TYPE> to [my] ([playlist] <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
+<INTENT_11> = (añade | guarda) (este | ese) <ALBUM_TYPE> a [([mi] playlist | [(mi | la)] lista de reproducción)] <PLAYLIST> [en spotify];
 
 #create playlist root (no name is given)
-<INTENT_12> = (create | make | add) [a] [new] (playlist | list);
+<INTENT_12> = (crea | añade) [una] [nueva] (playlist | lista [de reproducción]);
 
 #create playlist with given name
-<INTENT_13> = (create | make | add) [a] [new] playlist (named | titled) <PLAYLIST>;
+<INTENT_13> = (crea | añade) [una] [nueva] (playlist | lista [de reproducción]) (llamada | titulada) <PLAYLIST>;
 
 #save song (to default playlist?)
-<INTENT_14> = save ([the] current <SONG_NOUN> | whatever's playing [now] to my library | (this | that) <SONG_NOUN>);
+<INTENT_14> = guarda ([la] <SONG_NOUN> corriente| lo que se está reproduciendo [ahora] a mi biblioteca | (esta | esa) <SONG_NOUN>);
 
 #seek by given number of seconds
-<INTENT_15> = (seek to <SEEK_TIME> seconds in | (skip | go) to <SEEK_TIME> seconds);
+<INTENT_15> = (salta | ve) (hasta | al) segundo <SEEK_TIME>;
 
 #shuffle on | off
-<INTENT_16> = turn (shuffle <STATE> | <STATE> shuffle);
+<INTENT_16> = (activa | enciende | desactiva | apaga) (barajar | mezclar);
 
 #repeat on | off
-<INTENT_17> = turn <STATE> repeat;
+<INTENT_17> = (activa | enciende | desactiva | apaga) repetir
 
 #dencability of current song
 <INTENT_18> = <INTENT_18_a> | <INTENT_18_b>;
-<INTENT_18_a> = (how (danceable | dancey) is| [the] danceability of) [the] (current | this | that) <SONG_NOUN>;
-<INTENT_18_b> = is this <SONG_NOUN> dancey;
-
-<DO> = add <SONG> to my playlist;
-<DO> = add to playlist <PLAYLIST>;
-<DO> = add a song to my playlist <PLAYLIST>;
-<DO> = add a song to my playlist;
-
-<DO> = add <SONG> to my playlist <PLAYLIST>;
-
-<DO> = play the artist <ARTIST>;
-<DO> = play <ARTIST>;
-<DO> = play an artist;
-<DO> = play the album <ALBUM>;
-<DO> = play an album;
-<DO> = play a song;
-<DO> = add this to my playlist <PLAYLIST>;
-<DO> = add this song to playlist <PLAYLIST>;
-<DO> = add the currently playing song to my playlist <PLAYLIST>;
-<DO> = add this to my playlist;
-<DO> = add this song to my playlist;
-<DO> = add whatever's playing to my playlist;
-<DO> = add an album to my playlist;
-<DO> = add the album <ALBUM> to my playlist;
-<DO> = add the album to my playlist <ALBUM>;
-<DO> = add the album <ALBUM> to my playlist <PLAYLIST>;
-<DO> = play my playlist <PLAYLIST>;
-<DO> = play my playlist;
-
-
-<GET> = how loud is this song;
-<GET> = the loudness of the current song;
-<GET> = the loudness of the current track;
-<GET> = the loudness of <SONG>;
-<GET> = how loud is <SONG>;
-
-<GET> = is this song live;
-<GET> = the liveness of this song;
-<GET> = the liveness of the current song;
-<GET> = the liveness of the current track;
-<GET> = is <SONG> live;
-<GET> = the liveness of <SONG>;
-<GET> = the liveness of <SONG>;
-
-<GET> = is this song acoustic;
-<GET> = the acousticness of the current track;
-<GET> = the acousticness of the current song;
-<GET> = the acousticness of the current song;
-<GET> = the acousticness of <SONG>;
-<GET> = the acousticness of <SONG>;
-
-<GET> = the key of the current song;
-<GET> = the key of the current track;
-<GET> = the key of this song;
-<GET> = the key of <SONG>;
-<GET> = the key of song <SONG>;
-
-<GET> = the energy of this song;
-<GET> = the energy of level the current track;
-<GET> = the energy of the current song;
-<GET> = the energy of the current song;
-<GET> = how energetic is the current song;
-<GET> = the energy of <SONG>;
-<GET> = the energy of song <SONG>;
-<GET> = how energetic is <SONG>;
-
-<GET> = the speechiness of this song;
-<GET> = the speechiness of the current track;
-<GET> = the speechiness of the current song;
-<GET> = the speechiness of the current song;
-<GET> = how speechlike is the current song;
-<GET> = the speechiness of <SONG>;
-<GET> = the speechiness of song <SONG>;
-<GET> = how speechlike is <SONG>;
-<GET> = the instrumentalness of this song;
-<GET> = the instrumentalness of the current track;
-<GET> = the instrumentalness of the current song;
-<GET> = the instrumentalness of the current song;
-<GET> = is the current song an instrumental;
-<GET> = the instrumentalness of <SONG>;
-<GET> = the instrumentalness of song <SONG>;
-<GET> = is <SONG> instrumental;
-<GET> = the time signature of the current song;
-<GET> = the time signature of the current track;
-<GET> = the time signature;
-<GET> = the time signature of <SONG>;
-<GET> = the time signature of song <SONG>;
-<GET> = how upbeat is this song;
-<GET> = how positive is this song;
-<GET> = the valence of this song;
-<GET> = the upbeatness of this track;
-<GET> = the positivity of this song;
-<GET> = the upbeatness;
-<GET> = the valence of this track;
-<GET> = the valence of <SONG>;
-<GET> = how positive is <SONG>;
-<GET> = how upbeat is <SONG>;
-<GET> = the tempo of the current song;
-<GET> = the bpm of the current song;
-<GET> = the BPM of the current track;
-<GET> = the tempo;
-<GET> = the tempo of the current song;
-<GET> = the bpm of the current track;
-<GET> = the tempo of <SONG>;
-<GET> = the tempo of song <SONG>;
-<GET> = the bpm of <SONG>;
-<GET> = the bpm of song <SONG>;
-<GET> = what song is currently playing;
-<GET> = what's on right now;
-<GET> = what song is currently playing;
-<GET> = the currently playing song;
-<GET> = my playlist;
-<GET> = songs in my playlist;
-<GET> = songs in my playlist <PLAYLIST>;
-<GET> = my favorite songs;
-<GET> = my top tracks;
+<INTENT_18_a> = se puede bailar a (esta | esa) <SONG_NOUN>;
+<INTENT_18_b> = es (esta | esa) <SONG_NOUN> buena para bailar;
 
 #SLOTS
 <SONG> = SPOTIFY.SLOT.SONG;
@@ -196,4 +69,4 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <ALBUM_TYPE> = SPOTIFY.SLOT.ALBUM_TYPE;
 
 #LANG. COMPONENTS
-<SONG_NOUN> = song | track;
+<SONG_NOUN> = canción | pista;
