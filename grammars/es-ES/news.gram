@@ -2,32 +2,20 @@
 public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | NotifyWhenPortalUpdates__ <INTENT_3> | NotifyWhenPortalUpdatesInSection__ <INTENT_4>);
 
 #PRECONDITIONS
-<WHEN_1> = when <PORTAL> (news | front page) updates;
-<WHEN_2> = when the <PORTAL> <SECTION> section publishes a new article;
-<WHEN> = when the front page of huffington post updates;
-<WHEN> = when the new york times <SECTION> section publishes a new article about <KEYWORD>;
-<WHEN> = when the new york times publishes a new article;
-<WHEN> = when the nyt publishes a new article;
-<WHEN> = when there are new articles about <KEYWORD> in <SECTION> section of the new york times;
-<WHEN> = when there are new articles in <SECTION> section of the new york times;
-<WHEN> = when there is a new top stories on cnn news;
-<WHEN> = when there is a new top stories on time magazine;
-<WHEN> = when there is a new top stories on wired news;
-<WHEN> = when top stories on cnn news update;
-<WHEN> = when top stories on time magazine update;
-<WHEN> = when top stories on wired update;
+<WHEN_1> = cuando <PORTAL> actualice (las noticias | la página principal);
+<WHEN_2> = cuando la sección <SECTION> de <PORTAL> publique un nuevo artículo;
 
 #INTENTS
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c>;
-<INTENT_1_a> = [open | read] <PORTAL>;
-<INTENT_1_b> = show [me] [the] news from <PORTAL>;
-<INTENT_1_c> = ([latest] news on <PORTAL> | latest <PORTAL> news);
+<INTENT_1_a> = [abre | lee] <PORTAL>;
+<INTENT_1_b> = (muestra | muéstrame) [las] noticias de <PORTAL>;
+<INTENT_1_c> = noticias [[más] recientes] (en | de) <PORTAL>;
 
-<INTENT_2> = (the <SECTION> section of the <PORTAL> | the <PORTAL> <SECTION> section);
+<INTENT_2> = la sección [de] <SECTION> de <PORTAL>;
 
-<INTENT_3> = notify me <WHEN_1>;
+<INTENT_3> = notifícame <WHEN_1>;
 
-<INTENT_4> = notify me <WHEN_2>;
+<INTENT_4> = notifícame <WHEN_2>;
 
 <GET> = articles about <KEYWORD> in <PORTAL> <SECTION> section;
 <GET> = articles in [the] <PORTAL>;
