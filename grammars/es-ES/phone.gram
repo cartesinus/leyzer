@@ -18,19 +18,19 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 <WHEN> = when <SENDER> sends me an sms;
 
 #INTENTS
-<INTENT_1> = (call | dial | phone) <NUMBER>;
+<INTENT_1> = llama a <NUMBER>;
 
-<INTENT_2> = call (911 | ambulance | fire department | police | emergency services);
+<INTENT_2> = llama a (112 | ambulancia | [los] bomberos | policía | emergencias);
 
-<INTENT_3> = (check | show | display) my sms inbox;
+<INTENT_3> = (verifica | muestra | muéstrame) mi bandea de entrada de (mensajes | sms);
 
 <INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;
-<INTENT_4_a> = send a (text | message | sms) to <TO>;
-<INTENT_4_b> = (sms | text) <TO>;
+<INTENT_4_a> = (manda | envía) un (mensaje | sms) a <TO>;
+<INTENT_4_b> = (sms | mensaje) a <TO>;
 
 <INTENT_5> = <INTENT_5_a> | <INTENT_5_b>;
-<INTENT_5_a> = send (an sms [message] | a text | a message) to <TO> (saying | containing) <MESSAGE>;
-<INTENT_5_b> = (text | sms) <TO> (saying | containing) <MESSAGE>;
+<INTENT_5_a> = (manda | envía) (un message | un sms) a <TO> (diciendo | que diga) <MESSAGE>;
+<INTENT_5_b> = [un] (mensaje | sms) a <TO> (diciendo | que diga) <MESSAGE>;
 
 <GET> = sms in my phone;
 <GET> = texts i received;
