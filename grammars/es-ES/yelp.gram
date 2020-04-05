@@ -3,63 +3,39 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 
 #INTENTS
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
-<INTENT_1_a> = [search | find] (restaurant | restaurants) [on yelp | nearby | around here];
-<INTENT_1_b> = (closest restaurant nearby | closest restaurant around | nearest restaurant around);
+<INTENT_1_a> = [busca | encuentra] (restaurante | restaurantes) [en yelp | por aquí | cerca [de aquí]];
+<INTENT_1_b> = (restaurantes más cercanos por aquí | restaurantes más cerca de aquí);
 
-<INTENT_2> = <QUERY> [around | on yelp | nearby];
+<INTENT_2> = <QUERY> [por aquí | en yelp | cerca];
 
-<INTENT_3> = (restaurants nearby with at least <RATING> star rating | <RATING> star restaurants [on yelp] | restaurants rated higher than <RATING> star);
+<INTENT_3> = (restaurantes cerca con por lo menos <RATING> estrellas de clasificación | <RATING> star restaurants [on yelp] | restaurants rated higher than <RATING> star);
 
-<INTENT_4> = <CATEGORY> (food | restaurants) [around here | nearby];
+<INTENT_4> = (comida <CATEGORY_F> | restaurantes <CATEGORY_MPL) [por aquí | cerca];
 
-<INTENT_5> = (open restaurants nearby | restaurants still open around here | restaurants open now);
+<INTENT_5> = (restaurantes [todavía] abiertos por aquí | restaurantes abiertos hasta ahora cerca [de aquí] | restaurantes abiertos ahora);
 
-<INTENT_6> = restaurants (here | nearby) reviewed by (at least | more than) <REVIEW_COUNT> (people | users);
+<INTENT_6> = restaurantes (cerca de aquí | por aquí) con opiniones de (por lo menos | más de | al menos) <REVIEW_COUNT> (personas | usuarios);
 
-<INTENT_7> = restaurants (next to | around | near) <LOCATION>;
+<INTENT_7> = restaurantes (al lado de | cerca de) <LOCATION>;
 
-<INTENT_8> = <QUERY> (in | near | around | at) <LOCATION> [on yelp];
+<INTENT_8> = <QUERY> (en | cerca de) <LOCATION> [en yelp];
 
 <INTENT_9> = <INTENT_9_a> | <INTENT_9_b> | <INTENT_9_c>;
-<INTENT_9_a> = restaurants nearby with at least <RATING> star rating near <LOCATION>;
-<INTENT_9_b> = <RATING> star restaurants (around | in) <LOCATION> [on yelp];
-<INTENT_9_c> = restaurants rated higher than <RATING> star in <LOCATION>;
+<INTENT_9_a> = restaurantes cercanos co al menos <RATING> estrellas [de clasificación] cerca de <LOCATION>;
+<INTENT_9_b> = restaurantes de <RATING> estrellas (cerca de | en) <LOCATION> [en yelp];
+<INTENT_9_c> = restaurantes clasificados con más de <RATING> estrellas en <LOCATION>;
 
-<INTENT_10> = <CATEGORY> (food | restaurants) (near | around) <LOCATION>;
+<INTENT_10> = (comida <CATEGORY_F> | restaurantes <CATEGORY_MPL) (cerca | en) <LOCATION>;
 
-<INTENT_11> = restaurants (around | near) <LOCATION> reviewed by (at least | more than) <REVIEW_COUNT> people;
+<INTENT_11> = restaurantes <CATEGORY_MPL (por aquí | cerca de) <LOCATION> con opiniones de (por lo menos | más de | al menos) <REVIEW_COUNT> (personas | usuarios);
 
-<INTENT_12> = (open restaurants near <LOCATION> | restaurants still open around <LOCATION> | restaurants open now at <LOCATION>);
+<INTENT_12> = (restaurantes abiertos cerca de <LOCATION> | restaurantes todavía abiertos en <LOCATION> | restaurantes abiertos ahora en <LOCATION>);
 
-<GET> = closest restaurants near <LOCATION>;
-<GET> = closest restaurants next to <LOCATION>;
-<GET> = nearest restaurants around <LOCATION>;
-<GET> = nearest restaurants next to <LOCATION>;
-<GET> = closest <QUERY> nearby;
-<GET> = closest <QUERY> around;
-<GET> = nearest <QUERY> around;
-<GET> = closest <QUERY> near <LOCATION>;
-<GET> = closest <QUERY> next to <LOCATION>;
-<GET> = nearest <QUERY> around <LOCATION>;
-<GET> = nearest <QUERY> next to <LOCATION>;
-<GET> = farthest restaurant nearby;
-<GET> = farthest restaurant around;
-<GET> = most distant restaurant around;
-<GET> = farthest restaurants near <LOCATION>;
-<GET> = farthest restaurants next to <LOCATION>;
-<GET> = most distant restaurants around <LOCATION>;
-<GET> = most distant restaurants next to <LOCATION>;
-<GET> = farthest <QUERY> nearby;
-<GET> = farthest <QUERY> around;
-<GET> = most distant <QUERY> around;
-<GET> = farthest <QUERY> near <LOCATION>;
-<GET> = farthest <QUERY> next to <LOCATION>;
-<GET> = most distant <QUERY> around <LOCATION>;
-<GET> = most distant <QUERY> next to <LOCATION>;
 
 #SLOTS
 <LOCATION> = YELP.SLOT.LOCATION;
 <QUERY> = YELP.SLOT.QUERY;
 <REVIEW_COUNT> = YELP.SLOT.REVIEW_COUNT;
 <RATING> = YELP.SLOT.RATING;
-<CATEGORY> = YELP.SLOT.CATEGORY;
+<CATEGORY_F> = YELP.SLOT.CATEGORY.F;
+<CATEGORY_MPL> = YELP.SLOT.CATEGORY.MPL;
