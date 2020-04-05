@@ -1,0 +1,130 @@
+Phone	CallNumber	False	dzwoń na PHONE.SLOT.NUMBER
+Phone	CallNumber	False	dzwoń na numer PHONE.SLOT.NUMBER
+Phone	CallNumber	True	dzwoń do PHONE.SLOT.NUMBER
+Phone	CallNumber	False	zadzwoń na PHONE.SLOT.NUMBER
+Phone	CallNumber	False	zadzwoń na numer PHONE.SLOT.NUMBER
+Phone	CallNumber	True	zadzwoń do PHONE.SLOT.NUMBER
+Phone	CallNumber	True	telefonuj na PHONE.SLOT.NUMBER
+Phone	CallNumber	False	telefonuj na numer PHONE.SLOT.NUMBER
+Phone	CallNumber	False	telefonuj do PHONE.SLOT.NUMBER
+Phone	CallNumber	True	zatelefonuj na PHONE.SLOT.NUMBER
+Phone	CallNumber	False	zatelefonuj na numer PHONE.SLOT.NUMBER
+Phone	CallNumber	False	zatelefonuj do PHONE.SLOT.NUMBER
+Phone	CallNumber	False	przedzwoń na PHONE.SLOT.NUMBER
+Phone	CallNumber	False	przedzwoń na numer PHONE.SLOT.NUMBER
+Phone	CallNumber	False	przedzwoń do PHONE.SLOT.NUMBER
+Phone	CallNumber	False	wybierz numer PHONE.SLOT.NUMBER
+Phone	CallNumber	False	wykonaj telefon do PHONE.SLOT.NUMBER
+Phone	CallNumber	False	wykonaj telefon na numer PHONE.SLOT.NUMBER
+Phone	CallNumber	False	połącz mnie z PHONE.SLOT.NUMBER
+Phone	CallNumber	False	połącz mnie z numerem PHONE.SLOT.NUMBER
+Phone	CallEmergency	True	dzwoń na policję
+Phone	CallEmergency	True	dzwoń na straż pożarną
+Phone	CallEmergency	False	dzwoń na pogotowie
+Phone	CallEmergency	False	dzwoń po policję
+Phone	CallEmergency	False	dzwoń po straż pożarną
+Phone	CallEmergency	True	dzwoń po pogotowie
+Phone	CallEmergency	True	dzwoń na 112
+Phone	CallEmergency	True	zadzwoń na policję
+Phone	CallEmergency	True	zadzwoń na straż pożarną
+Phone	CallEmergency	False	zadzwoń na pogotowie
+Phone	CallEmergency	False	zadzwoń po policję
+Phone	CallEmergency	False	zadzwoń po straż pożarną
+Phone	CallEmergency	True	zadzwoń po pogotowie
+Phone	CallEmergency	True	zadzwoń na 112
+Phone	CallEmergency	False	telefonuj na policję
+Phone	CallEmergency	False	telefonuj na straż pożarną
+Phone	CallEmergency	False	telefonuj na pogotowie
+Phone	CallEmergency	False	telefonuj po policję
+Phone	CallEmergency	False	telefonuj po straż pożarną
+Phone	CallEmergency	False	telefonuj po pogotowie
+Phone	CallEmergency	False	telefonuj na 112
+Phone	CallEmergency	False	zatelefonuj na policję
+Phone	CallEmergency	False	zatelefonuj na straż pożarną
+Phone	CallEmergency	False	zatelefonuj na pogotowie
+Phone	CallEmergency	False	zatelefonuj po policję
+Phone	CallEmergency	False	zatelefonuj po straż pożarną
+Phone	CallEmergency	False	zatelefonuj po pogotowie
+Phone	CallEmergency	False	zatelefonuj na 112
+Phone	CallEmergency	False	przedzwoń na policję
+Phone	CallEmergency	False	przedzwoń na straż pożarną
+Phone	CallEmergency	False	przedzwoń na pogotowie
+Phone	CallEmergency	False	przedzwoń po policję
+Phone	CallEmergency	False	przedzwoń po straż pożarną
+Phone	CallEmergency	False	przedzwoń po pogotowie
+Phone	CallEmergency	False	przedzwoń na 112
+Phone	ShowSMS	False	sprawdź moje wiadomości
+Phone	ShowSMS	False	sprawdź moje smsy
+Phone	ShowSMS	False	sprawdź moje przychodzące wiadomości
+Phone	ShowSMS	False	sprawdź moje przychodzące smsy
+Phone	ShowSMS	False	wyświetl moje wiadomości
+Phone	ShowSMS	False	wyświetl moje smsy
+Phone	ShowSMS	False	wyświetl moje przychodzące wiadomości
+Phone	ShowSMS	False	wyświetl moje przychodzące smsy
+Phone	ShowSMS	False	pokaż moje wiadomości
+Phone	ShowSMS	False	pokaż moje smsy
+Phone	ShowSMS	False	pokaż moje przychodzące wiadomości
+Phone	ShowSMS	False	pokaż moje przychodzące smsy
+Phone	SMSToContact	False	wyślij sms do PHONE.SLOT.TO
+Phone	SMSToContact	True	wyślij wiadomość do PHONE.SLOT.TO
+Phone	SMSToContact	False	wyślij wiadomość tekstową do PHONE.SLOT.TO
+Phone	SMSToContact	False	nadaj sms do PHONE.SLOT.TO
+Phone	SMSToContact	False	nadaj wiadomość do PHONE.SLOT.TO
+Phone	SMSToContact	False	nadaj wiadomość tekstową do PHONE.SLOT.TO
+Phone	SMSToContact	False	napisz sms do PHONE.SLOT.TO
+Phone	SMSToContact	True	napisz wiadomość do PHONE.SLOT.TO
+Phone	SMSToContact	False	napisz wiadomość tekstową do PHONE.SLOT.TO
+Phone	SMSToContact	False	prześlij sms do PHONE.SLOT.TO
+Phone	SMSToContact	False	prześlij wiadomość do PHONE.SLOT.TO
+Phone	SMSToContact	False	prześlij wiadomość tekstową do PHONE.SLOT.TO
+Phone	SMSToContact	True	wiadomość do PHONE.SLOT.TO
+Phone	SMSToContact	False	wiadomość sms do PHONE.SLOT.TO
+Phone	SMSToContact	False	wiadomość tekstową do PHONE.SLOT.TO
+Phone	SMSToContact	False	napisz do PHONE.SLOT.TO wiadomość
+Phone	SMSToContact	False	napisz do PHONE.SLOT.TO wiadomość tekstową
+Phone	SMSToContact	False	napisz do PHONE.SLOT.TO sms
+Phone	SMSToContactWithMessage	True	sms do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	True	wiadomość do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	wiadomość tekstową do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	wyślij sms do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	True	wyślij wiadomość do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	wyślij wiadomość tekstową do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	nadaj sms do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	nadaj wiadomość do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	nadaj wiadomość tekstową do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	napisz sms do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	napisz wiadomość do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	napisz wiadomość tekstową do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	prześlij sms do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	prześlij wiadomość do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	prześlij wiadomość tekstową do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	True	sms PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	sms o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	True	wiadomość PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	wiadomość o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	wiadomość tekstową PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	wiadomość tekstową o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	wyślij sms PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	wyślij sms o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	True	wyślij wiadomość PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	wyślij wiadomość o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	wyślij wiadomość tekstową PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	wyślij wiadomość tekstową o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	nadaj sms PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	nadaj sms o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	nadaj wiadomość PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	nadaj wiadomość o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	nadaj wiadomość tekstową PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	nadaj wiadomość tekstową o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	napisz sms PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	napisz sms o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	napisz wiadomość PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	napisz wiadomość o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	napisz wiadomość tekstową PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	napisz wiadomość tekstową o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	prześlij sms PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	prześlij sms o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	prześlij wiadomość PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	prześlij wiadomość o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	prześlij wiadomość tekstową PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	prześlij wiadomość tekstową o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO

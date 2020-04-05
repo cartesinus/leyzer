@@ -1,0 +1,20 @@
+Calendar	OpenCalendar	-	show my calendar
+Calendar	OpenCalendar	-	display my calendar
+Calendar	OpenCalendar	-	open my calendar
+Calendar	CheckCalendarOnDate	-	whats on my schedule CALENDAR.SLOT.DATE
+Calendar	AddEventWithName	-	add an event called CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	add an event called CALENDAR.SLOT.EVENT_NAME to calendar
+Calendar	AddEventOnDateWithDate	-	add an event called CALENDAR.SLOT.EVENT_NAME on CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	add an event called CALENDAR.SLOT.EVENT_NAME to calendar on CALENDAR.SLOT.EVENT_DATE
+Calendar	NotifyOnEventStart	-	notify me when an meeting on my calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an appointment on my calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an event on my calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an meeting on my calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an appointment on my calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an event on my calendar begins
+Calendar	NotifyOnEventInLocation	-	notify me when an meeting on my calendar at location CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an appointment on my calendar at location CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an event on my calendar at location CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an meeting on my calendar at location CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an appointment on my calendar at location CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an event on my calendar at location CALENDAR.SLOT.LOCATION begins

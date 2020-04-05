@@ -1,0 +1,80 @@
+Yelp	SearchRestaurant	-	restaurant
+Yelp	SearchRestaurant	-	restaurant on yelp
+Yelp	SearchRestaurant	-	restaurant nearby
+Yelp	SearchRestaurant	-	restaurant around here
+Yelp	SearchRestaurant	-	restaurants
+Yelp	SearchRestaurant	-	restaurants on yelp
+Yelp	SearchRestaurant	-	restaurants nearby
+Yelp	SearchRestaurant	-	restaurants around here
+Yelp	SearchRestaurant	-	search restaurant
+Yelp	SearchRestaurant	-	search restaurant on yelp
+Yelp	SearchRestaurant	-	search restaurant nearby
+Yelp	SearchRestaurant	-	search restaurant around here
+Yelp	SearchRestaurant	-	search restaurants
+Yelp	SearchRestaurant	-	search restaurants on yelp
+Yelp	SearchRestaurant	-	search restaurants nearby
+Yelp	SearchRestaurant	-	search restaurants around here
+Yelp	SearchRestaurant	-	find restaurant
+Yelp	SearchRestaurant	-	find restaurant on yelp
+Yelp	SearchRestaurant	-	find restaurant nearby
+Yelp	SearchRestaurant	-	find restaurant around here
+Yelp	SearchRestaurant	-	find restaurants
+Yelp	SearchRestaurant	-	find restaurants on yelp
+Yelp	SearchRestaurant	-	find restaurants nearby
+Yelp	SearchRestaurant	-	find restaurants around here
+Yelp	SearchRestaurant	-	closest restaurant nearby
+Yelp	SearchRestaurant	-	closest restaurant around
+Yelp	SearchRestaurant	-	nearest restaurant around
+Yelp	SearchByQuery	-	YELP.SLOT.QUERY
+Yelp	SearchByQuery	-	YELP.SLOT.QUERY around
+Yelp	SearchByQuery	-	YELP.SLOT.QUERY on yelp
+Yelp	SearchByQuery	-	YELP.SLOT.QUERY nearby
+Yelp	SearchByRating	-	restaurants nearby with at least YELP.SLOT.RATING star rating
+Yelp	SearchByRating	-	YELP.SLOT.RATING star restaurants
+Yelp	SearchByRating	-	YELP.SLOT.RATING star restaurants on yelp
+Yelp	SearchByRating	-	restaurants rated higher than YELP.SLOT.RATING star
+Yelp	SearchByCategory	-	YELP.SLOT.CATEGORY food
+Yelp	SearchByCategory	-	YELP.SLOT.CATEGORY food around here
+Yelp	SearchByCategory	-	YELP.SLOT.CATEGORY food nearby
+Yelp	SearchByCategory	-	YELP.SLOT.CATEGORY restaurants
+Yelp	SearchByCategory	-	YELP.SLOT.CATEGORY restaurants around here
+Yelp	SearchByCategory	-	YELP.SLOT.CATEGORY restaurants nearby
+Yelp	OpenRestaurants	-	open restaurants nearby
+Yelp	OpenRestaurants	-	restaurants still open around here
+Yelp	OpenRestaurants	-	restaurants open now
+Yelp	SearchByReviewCount	-	restaurants here reviewed by at least YELP.SLOT.REVIEW_COUNT people
+Yelp	SearchByReviewCount	-	restaurants here reviewed by at least YELP.SLOT.REVIEW_COUNT users
+Yelp	SearchByReviewCount	-	restaurants here reviewed by more than YELP.SLOT.REVIEW_COUNT people
+Yelp	SearchByReviewCount	-	restaurants here reviewed by more than YELP.SLOT.REVIEW_COUNT users
+Yelp	SearchByReviewCount	-	restaurants nearby reviewed by at least YELP.SLOT.REVIEW_COUNT people
+Yelp	SearchByReviewCount	-	restaurants nearby reviewed by at least YELP.SLOT.REVIEW_COUNT users
+Yelp	SearchByReviewCount	-	restaurants nearby reviewed by more than YELP.SLOT.REVIEW_COUNT people
+Yelp	SearchByReviewCount	-	restaurants nearby reviewed by more than YELP.SLOT.REVIEW_COUNT users
+Yelp	SearchInLocation	-	restaurants next to YELP.SLOT.LOCATION
+Yelp	SearchInLocation	-	restaurants around YELP.SLOT.LOCATION
+Yelp	SearchInLocation	-	restaurants near YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY in YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY in YELP.SLOT.LOCATION on yelp
+Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY near YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY near YELP.SLOT.LOCATION on yelp
+Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY around YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY around YELP.SLOT.LOCATION on yelp
+Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY at YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY at YELP.SLOT.LOCATION on yelp
+Yelp	SearchByRatingInLocation	-	restaurants nearby with at least YELP.SLOT.RATING star rating near YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	YELP.SLOT.RATING star restaurants around YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	YELP.SLOT.RATING star restaurants around YELP.SLOT.LOCATION on yelp
+Yelp	SearchByRatingInLocation	-	YELP.SLOT.RATING star restaurants in YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	YELP.SLOT.RATING star restaurants in YELP.SLOT.LOCATION on yelp
+Yelp	SearchByRatingInLocation	-	restaurants rated higher than YELP.SLOT.RATING star in YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	YELP.SLOT.CATEGORY food near YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	YELP.SLOT.CATEGORY food around YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	YELP.SLOT.CATEGORY restaurants near YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	YELP.SLOT.CATEGORY restaurants around YELP.SLOT.LOCATION
+Yelp	SearchByReviewCountInLocation	-	restaurants around YELP.SLOT.LOCATION reviewed by at least YELP.SLOT.REVIEW_COUNT people
+Yelp	SearchByReviewCountInLocation	-	restaurants around YELP.SLOT.LOCATION reviewed by more than YELP.SLOT.REVIEW_COUNT people
+Yelp	SearchByReviewCountInLocation	-	restaurants near YELP.SLOT.LOCATION reviewed by at least YELP.SLOT.REVIEW_COUNT people
+Yelp	SearchByReviewCountInLocation	-	restaurants near YELP.SLOT.LOCATION reviewed by more than YELP.SLOT.REVIEW_COUNT people
+Yelp	OpenRestaurantsInLocation	-	open restaurants near YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	restaurants still open around YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	restaurants open now at YELP.SLOT.LOCATION

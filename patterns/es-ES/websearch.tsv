@@ -1,0 +1,55 @@
+Websearch	OpenEngine	False	busca en bing
+Websearch	OpenEngine	False	busca en google
+Websearch	OpenEngine	False	busca en duckduckgo
+Websearch	OpenEngine	False	búsqueda en bing
+Websearch	OpenEngine	False	búsqueda en google
+Websearch	OpenEngine	False	búsqueda en duckduckgo
+Websearch	OpenEngine	False	busca en la red
+Websearch	SearchTextOnEngine	True	WEBSEARCH.SLOT.TXT_QUERY en bing
+Websearch	SearchTextOnEngine	True	WEBSEARCH.SLOT.TXT_QUERY en google
+Websearch	SearchTextOnEngine	True	WEBSEARCH.SLOT.TXT_QUERY en duckduckgo
+Websearch	SearchTextOnEngine	False	bing WEBSEARCH.SLOT.TXT_QUERY
+Websearch	SearchTextOnEngine	True	google WEBSEARCH.SLOT.TXT_QUERY
+Websearch	SearchTextOnEngine	False	duckduckgo WEBSEARCH.SLOT.TXT_QUERY
+Websearch	SearchText	True	páginas que coinciden con WEBSEARCH.SLOT.TXT_QUERY
+Websearch	SearchText	False	páginas web que coinciden con WEBSEARCH.SLOT.TXT_QUERY
+Websearch	SearchImagesWithTextOnEngine	True	imágenes que coinciden con WEBSEARCH.SLOT.IMG_QUERY de bing
+Websearch	SearchImagesWithTextOnEngine	False	imágenes que coinciden con WEBSEARCH.SLOT.IMG_QUERY de google
+Websearch	SearchImagesWithTextOnEngine	False	imágenes que coinciden con WEBSEARCH.SLOT.IMG_QUERY de duckduckgo
+Websearch	SearchImagesWithTextOnEngine	False	imágenes WEBSEARCH.SLOT.IMG_QUERY en bing
+Websearch	SearchImagesWithTextOnEngine	False	imágenes WEBSEARCH.SLOT.IMG_QUERY en google
+Websearch	SearchImagesWithTextOnEngine	False	imágenes WEBSEARCH.SLOT.IMG_QUERY en duckduckgo
+Websearch	SearchImagesOnEngine	True	búsqueda de imágenes
+Websearch	SearchImagesOnEngine	False	busca imágenes en bing
+Websearch	SearchImagesOnEngine	False	busca imágenes en google
+Websearch	SearchImagesOnEngine	False	busca imágenes en duckduckgo
+Websearch	SearchImagesOnEngine	False	bing búsqueda de imágenes
+Websearch	SearchImagesOnEngine	False	google búsqueda de imágenes
+Websearch	SearchImagesOnEngine	False	duckduckgo búsqueda de imágenes
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	False	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY de tamaño 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	False	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY de tamaño 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	False	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY de tamaño 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	False	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	False	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	False	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	False	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	True	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 x 600

@@ -1,0 +1,31 @@
+Airconditioner	TurnOn	False	enciende AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	TurnOn	False	activa AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	TurnOff	False	apaga AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	TurnOff	False	desactiva AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	ChangeTemperature	True	cambia la temperatura en mi termostato
+Airconditioner	ChangeTemperature	False	cambia la temperatura máxima y mínima en mi termostato
+Airconditioner	SetTemperatureToValue	False	establece la temperatura en mi termostato a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	False	establece la temperatura a AIRCONDITIONER.SLOT.VALUE en mi termostato
+Airconditioner	SetTemperatureToValue	False	establece mi termostato a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValueOnDevice	False	establece mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValueOnDevice	False	establece la temperatura en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValueOnDevice	False	establece la temperatura a AIRCONDITIONER.SLOT.VALUE en mi AIRCONDITIONER.SLOT.DEVICE_NAME termostato
+Airconditioner	SetTemperatureBetweenValues	True	establece la temperatura entre 23 grados y 29 grados en mi termostato
+Airconditioner	SetTemperatureBetweenValues	False	establece la temperatura baja 23 grados en mi termostato , y la temperatura alta a 29 grados
+Airconditioner	SetTemperatureOnDevice	True	cambia la temperatura en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureOnDevice	False	cambia la temperatura mínima y máxima en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	GetHumidity	False	verifica la humedad
+Airconditioner	GetHumidity	False	verifica el nivel de la humedad
+Airconditioner	GetHumidity	True	muestra la humedad
+Airconditioner	GetHumidity	False	muestra el nivel de la humedad
+Airconditioner	GetHumidity	False	muéstrame la humedad
+Airconditioner	GetHumidity	False	muéstrame el nivel de la humedad
+Airconditioner	GetHumidity	False	verifícame la humedad
+Airconditioner	GetHumidity	False	verifícame el nivel de la humedad
+Airconditioner	GetTemperatureFromDevice	False	verifica qué dice el sensor de la temperatura AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	GetTemperatureFromDevice	False	verifica la temperatura del sensor de temperatura AIRCONDITIONER.SLOT.DEVICE_NAME en el cuarto
+Airconditioner	GetTemperatureFromDevice	False	¿ qué dice el sensor de temperatura del interior AIRCONDITIONER.SLOT.DEVICE_NAME ?
+Airconditioner	GetTemperatureFromDevice	False	¿ qué muestra el sensor de temperatura del interior AIRCONDITIONER.SLOT.DEVICE_NAME ?
+Airconditioner	GetTemperature	False	¿ qué temperatura tengo aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner	GetTemperature	False	¿ qué temperatura tenemos aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner	GetTemperature	False	¿ qué temperatura hay aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS ?

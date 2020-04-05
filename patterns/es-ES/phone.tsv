@@ -1,0 +1,35 @@
+Phone	CallNumber	False	llama a PHONE.SLOT.PHONE_NUMBER
+Phone	CallEmergency	False	llama a 112
+Phone	CallEmergency	False	llama a ambulancia
+Phone	CallEmergency	False	llama a bomberos
+Phone	CallEmergency	False	llama a los bomberos
+Phone	CallEmergency	False	llama a policía
+Phone	CallEmergency	False	llama a emergencias
+Phone	ShowSMS	False	verifica mi bandea de entrada de mensajes
+Phone	ShowSMS	False	verifica mi bandea de entrada de sms
+Phone	ShowSMS	False	muestra mi bandea de entrada de mensajes
+Phone	ShowSMS	False	muestra mi bandea de entrada de sms
+Phone	ShowSMS	False	muéstrame mi bandea de entrada de mensajes
+Phone	ShowSMS	False	muéstrame mi bandea de entrada de sms
+Phone	SMSToContact	True	manda un mensaje a PHONE.SLOT.TO
+Phone	SMSToContact	False	manda un sms a PHONE.SLOT.TO
+Phone	SMSToContact	False	envía un mensaje a PHONE.SLOT.TO
+Phone	SMSToContact	False	envía un sms a PHONE.SLOT.TO
+Phone	SMSToContact	True	sms a PHONE.SLOT.TO
+Phone	SMSToContact	True	mensaje a PHONE.SLOT.TO
+Phone	SMSToContactWithMessage	False	manda un message a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	manda un message a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	manda un sms a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	manda un sms a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	envía un message a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	envía un message a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	envía un sms a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	envía un sms a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	True	mensaje a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	mensaje a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	True	sms a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	sms a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	True	un mensaje a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	un mensaje a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	True	un sms a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	False	un sms a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
