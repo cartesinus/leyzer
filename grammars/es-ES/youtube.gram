@@ -2,40 +2,40 @@
 public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | ShowFollowing__ <INTENT_6> | FindChannelWithQuery__ <INTENT_7> | FindQueryOnChannel__ <INTENT_8> | NotifyOnNewFromFollowing__ <INTENT_9> | NotifyonNewOnChannel__ <INTENT_10>);
 
 #PRECONDITIONS
-<WHEN_1> = when there is a new video from youtube channels I follow;
-<WHEN_2> = when (there is a new video from youtube channel <CHANNEL_ID> | <CHANNEL_ID> (uploads a video on youtube | posts a new youtube video));
+<WHEN_1> = cuando aparezca un nuevo (vídeo | video) en canales que sigo;
+<WHEN_2> = cuando aparezca un nuevo (vídeo | video) en el canal <CHANNEL_ID> | cuando <CHANNEL_ID> ((suba | publique) un [nuevo] (vídeo | video) en youtube));
 
 #INTENTS
-<INTENT_1> = open (yt | youtube);
+<INTENT_1> = abre (yt | youtube);
 
-<INTENT_2> = (play | <FIND_VERB>) (<INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>);
-<INTENT_2_a> = <QUERY> video on youtube;
-<INTENT_2_b> = a video matching <QUERY> on youtube;
-<INTENT_2_c> = <QUERY> [video | videos] on youtube;
-<INTENT_2_d> = youtube video <QUERY>;
+<INTENT_2> = (reproduce | <FIND_VERB>) (<INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>);
+<INTENT_2_a> = [el] (vídeo | video) <QUERY> en youtube;
+<INTENT_2_b> = un (vídeo | video) <QUERY> en youtube;
+<INTENT_2_c> = <QUERY> [(vídeo | video | videos | vídeos)] en youtube;
+<INTENT_2_d> = (vídeo | video) de youtube <QUERY>;
 
-<INTENT_3> = (show | play) (youtube (channel | videos in) <CHANNEL_ID> | channel <CHANNEL_ID> in youtube);
+<INTENT_3> = (muestra | reproduce | muéstrame) (([el] canal de| (videos | vídeos) en) youtube <CHANNEL_ID> | canal <CHANNEL_ID> en youtube);
 
-<INTENT_4> = (show | play | display) (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
-<INTENT_4_a> = channels in category <CATEGORY_ID> on youtube;
-<INTENT_4_b> = youtube channels with category <CATEGORY_ID>;
-<INTENT_4_c> = <CATEGORY_ID> (youtube channels | channels in youtube);
-<INTENT_4_d> = youtube 's <CATEGORY_ID> channels;
+<INTENT_4> = (muestra | reproduce | muéstrame) (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
+<INTENT_4_a> = canales de categoría <CATEGORY_ID> en youtube;
+<INTENT_4_b> = canales de youtube de categoría <CATEGORY_ID>;
+<INTENT_4_c> = <CATEGORY_ID> (canales (de | en) youtube);
+<INTENT_4_d> = (canales (de | en) youtube) <CATEGORY_ID>;
 
-<INTENT_5> = show [me] channels I am subscribed to on youtube;
+<INTENT_5> = (muestra | muéstrame) canales a que me he suscrito en youtube;
 
-<INTENT_6> = show [me] (channels I follow on youtube | youtube channels i follow);
+<INTENT_6> = (muestra | muéstrame) (canales que sigo en youtube | canales de youtube que sigo);
 
 <INTENT_7> = <FIND_VERB> (<INTENT_7_a> | <INTENT_7_b> | <INTENT_7_c>);
-<INTENT_7_a> = <QUERY> channels on youtube;
-<INTENT_7_b> = channels matching <QUERY> on youtube;
-<INTENT_7_c> = youtube channel <QUERY>;
+<INTENT_7_a> = canales <QUERY> en youtube;
+<INTENT_7_b> = canales que coinciden con <QUERY> en youtube;
+<INTENT_7_c> = canal de youtube <QUERY>;
 
-<INTENT_8> = show [me] a (video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
+<INTENT_8> = (muestra | muéstrame) un (vídeo | video | videos | vídeos) (de | publicados por) <CHANNEL_ID> [que coinciden con <QUERY> en youtube];
 
-<INTENT_9> = notify me <WHEN_1>;
+<INTENT_9> = notifícame <WHEN_1>;
 
-<INTENT_10> = notify me <WHEN_2>;
+<INTENT_10> = notifícame <WHEN_2>;
 
 #SLOTS
 <CHANNEL_ID> = YOUTUBE.SLOT.CHANNEL_ID;
@@ -43,6 +43,6 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 <QUERY> = YOUTUBE.SLOT.QUERY;
 
 #LANG. COMPONENTS
-<FIND_VERB> = find | search for | look for;
+<FIND_VERB> = busca | encuentra | búscame;
 
 // "search youtube for videos"
