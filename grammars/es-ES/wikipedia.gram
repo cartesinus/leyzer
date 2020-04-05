@@ -3,32 +3,32 @@ public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> 
 
 #INTENTS
 #open wikipedia page
-<INTENT_1> = open wikipedia [pages | definition];
+<INTENT_1> = abre [páginas | definiciones] de wikipedia;
 
 #find given query on wikipedia
 <INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
-<INTENT_2_a> = (find | search) <QUERY> on (wiki | wikipedia);
-<INTENT_2_b> = <QUERY> [matching] in (wiki | wikipedia);
+<INTENT_2_a> = (encuentra | busca) <QUERY> en (wiki | wikipedia);
+<INTENT_2_b> = <QUERY> en (wiki | wikipedia);
 
 #scroll down
-<INTENT_3> = page down | scroll down;
+<INTENT_3> = ([(ve | desplaza | mueve | desplázate | muévete)] hacia abajo | avanza [la] página);
 
 #scroll up
-<INTENT_4> = page up | scroll up;
+<INTENT_4> = ([(ve | desplaza | mueve | desplázate | muévete)] hacia arriba | retrocede [la] página);
 
 #download page as pdf
-<INTENT_5> = download [this | that] (page | article) as pdf;
+<INTENT_5> = baja ([esta | esa] página | [este | ese] article) como [un] pdf;
 
 #change language of page
-<INTENT_6> = (change language [of this (page | article)] to | show this (page | article) in) <LANGUAGE>;
+<INTENT_6> = (cambia el idioma [(de esta página | de este artículo)] a | muestra (esta página | este artículo) en) <LANGUAGE>;
 
 #show random
-<INTENT_7> = ([show] random (page | article) | [wiki | wikipedia] (surf | surfing));
+<INTENT_7> = ([(muestra | muéstrame)] (una página (al azar | aleatoria) | un artículo (al azal | aleatorio)) | (navega | navegar) por [wiki | wikipedia]);
 
 #content navigation
-<INTENT_8> = go to <ELEMENT> (element | item) (from | in) contents;
+<INTENT_8> = ve al <ELEMENT> (element | item) (de | en) contenidos;
 
 #SLOTS
 <QUERY> = WIKIPEDIA.SLOT.QUERY;
-<LANGUAGE> = english | german | polish | french | italian | spanish | russian | chinese | ukrainian | arabic | portuguese;
-<ELEMENT> = first | second | third | fourth | fifth | sixth | seventh | eight | ninth | tenth;
+<LANGUAGE> = inglés | alemán | polaco | francés | italiano | español | ruso | chino | ucraniano | árabe | portugués;
+<ELEMENT> = primer | segundo | tercer | cuarto | quinto | sexto | séptimo | octavo | noveno | décimo;
