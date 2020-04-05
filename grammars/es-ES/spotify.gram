@@ -51,7 +51,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_16> = (activa | enciende | desactiva | apaga) (barajar | mezclar);
 
 #repeat on | off
-<INTENT_17> = (activa | enciende | desactiva | apaga) repetir
+<INTENT_17> = (activa | enciende | desactiva | apaga) repetir;
 
 #dencability of current song
 <INTENT_18> = <INTENT_18_a> | <INTENT_18_b>;

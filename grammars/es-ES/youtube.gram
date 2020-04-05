@@ -3,7 +3,7 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 
 #PRECONDITIONS
 <WHEN_1> = cuando aparezca un nuevo (vídeo | video) en canales que sigo;
-<WHEN_2> = cuando aparezca un nuevo (vídeo | video) en el canal <CHANNEL_ID> | cuando <CHANNEL_ID> ((suba | publique) un [nuevo] (vídeo | video) en youtube));
+<WHEN_2> = cuando aparezca un nuevo (vídeo | video) en el canal <CHANNEL_ID> | cuando <CHANNEL_ID> ((suba | publique) un [nuevo] (vídeo | video) en youtube);
 
 #INTENTS
 <INTENT_1> = abre (yt | youtube);

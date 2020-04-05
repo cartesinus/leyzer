@@ -5,7 +5,7 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c>;
 <INTENT_1_a> = <CHECK_VERB> [[la] bandeja de entrada de] [mi] (email | gmail);
 <INTENT_1_b> = <CHECK_VERB> mis (emails | correos) de la categoría principal;
-<INTENT_1_c> = <CHECK_VERB> (mi email más reciente | mis (emails | mis emails en gmail | mi bandeja de entrada de gmail);
+<INTENT_1_c> = <CHECK_VERB> (mi email más reciente | mis (emails | mis emails en gmail | mi bandeja de entrada de gmail));
 
 <INTENT_2> = <CHECK_VERB> [mis] emails (de | que recibí de) <SENDER_ADDRESS>;
 

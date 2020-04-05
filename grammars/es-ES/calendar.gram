@@ -2,24 +2,24 @@
 public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithDate__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8>);
 
 #PRECONDITIONS
-<WHEN_1> = cu'ando empieza (el m'itin | el evento | la cita) en mi calendario;
+<WHEN_1> = cuándo empieza (el mítin | el evento | la cita) en mi calendario;
 
-<WHEN_2> = cu'ando empieza (el m'itin | el evento | la cita) en mi calendario en la ubicación <LOCATION>;
+<WHEN_2> = cuándo empieza (el mítin | el evento | la cita) en mi calendario en la ubicación <LOCATION>;
 
 #INTENTS
 <INTENT_1> = <SHOW_VERB> mi calendario;
 
-<INTENT_2> = qu'e hay en mi agenda <DATE>?;
+<INTENT_2> = qué hay en mi agenda <DATE>?;
 
-<INTENT_3> = a'nade un evento llamado <EVENT_NAME> [a calendario];
+<INTENT_3> = añade un evento llamado <EVENT_NAME> [a calendario];
 
-<INTENT_4> = a'nade un evento llamado <EVENT_NAME> [a calendario] el <EVENT_DATE>;
+<INTENT_4> = añade un evento llamado <EVENT_NAME> [a calendario] el <EVENT_DATE>;
 
-<INTENT_5> = notif'icame <WHEN_1>;
+<INTENT_5> = notifícame <WHEN_1>;
 
 <INTENT_6> = no me notifiques <WHEN_1>;
 
-<INTENT_7> = notif'icame <WHEN_2>;
+<INTENT_7> = notifícame <WHEN_2>;
 
 <INTENT_8> = no me notifiques <WHEN_2>;
 
@@ -47,4 +47,4 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <COUNTRY> = CALENDAR.SLOT.COUNTRY;
 
 #LANG. COMPONENTS
-<SHOW_VERB> = abre | 'abreme | muestra | mu'estrame;
+<SHOW_VERB> = abre | ábreme | muestra | muéstrame;

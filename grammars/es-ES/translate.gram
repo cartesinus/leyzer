@@ -40,3 +40,22 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_9_a> = [el] idioma de <TEXT_MULTI> | [el] idioma en [el] que <TEXT_MULTI> [está escrito];
 <INTENT_9_b> = detecta ([el] idioma de <TEXT_MULTI> | en qué idioma <TEXT_MULTI> [está escrito]);
 
+#SLOTS
+<SRC_LANG> = TRANSLATE.SLOT.SRC_LANG;
+<TRG_LANG> = TRANSLATE.SLOT.TRG_LANG;
+<ALL_LANG> = TRANSLATE.SLOT.ALL_LANG;
+<TRG_LANG_NO_EN> = polish | german | spanish | thai | czech | finish;
+<TRG_LANG_NO_DE> = polish | spanish | thai | czech | finish;
+<TRG_LANG_NO_PL> = german | spanish | thai | czech | finish;
+<TRG_LANG_NO_IT> = polish | german | spanish | thai | czech | finish;
+<TRG_LANG_NO_FR> = polish | german | spanish | thai | czech | finish;
+<TRG_LANG_NO_ES> = polish | german | thai | czech | finish;
+<TEXT_EN> = TRANSLATE.SLOT.TEXT.EN;
+<TEXT_DE> = TRANSLATE.SLOT.TEXT.DE;
+<TEXT_PL> = TRANSLATE.SLOT.TEXT.PL;
+<TEXT_ES> = TRANSLATE.SLOT.TEXT.ES;
+<TEXT_IT> = TRANSLATE.SLOT.TEXT.IT;
+<TEXT_FR> = TRANSLATE.SLOT.TEXT.FR;
+<TEXT_MULTI> = TRANSLATE.SLOT.TEXT.MULTI;
+<TEXT> = TRANSLATE.SLOT.TEXT;
+<TRANSLATOR> = TRANSLATE.SLOT.TRANSLATOR;
