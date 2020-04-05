@@ -1,55 +1,26 @@
 #JSGF V1.0;
 public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> | WeatherInLocation__ <INTENT_3> | WeatherTomorrowInLocation__ <INTENT_4> | SunriseInLocation__ <INTENT_5> | SunsetInLocation__ <INTENT_6> | SunriseAndSunsetInLocation__ <INTENT_7> | SunriseAndSunsetInLocationAndOnDate__ <INTENT_8> | MoonphaseInLocation__ <INTENT_9> | MoonphaseInLocationOnDate__ <INTENT_10>);
 
-#PRECONDITIONS
-<WHEN> = when the temperature in <LOCATION> is below freezing;
-<WHEN> = when the humidity in <LOCATION> is below <HUMIDITY>;
-<WHEN> = when it starts raining in <LOCATION>;
-<WHEN> = when it starts snowing in <LOCATION>;
-<WHEN> = when it stops raining in <LOCATION>;
-<WHEN> = when it stops snowing in <LOCATION>;
-<WHEN> = when the wind speed in <LOCATION> is above <WINDSPEED>;
-<WHEN> = when it's <STATUS> at location <LOCATION>;
-<WHEN> = when it becomes <STATUS> at <LOCATION>;
-<WHEN> = when the temperature in <LOCATION> is above <TEMPERATURE>;
-<WHEN> = when it 's hotter than <TEMPERATURE> in <LOCATION>;
-<WHEN> = when the temperature in <LOCATION> is below <TEMPERATURE>;
-<WHEN> = when it 's colder than <TEMPERATURE> in <LOCATION>;
-<WHEN> = when the temperature outside is above <TEMPERATURE>;
-<WHEN> = when it 's hotter outside than <TEMPERATURE>;
-<WHEN> = when the temperature outside is below <TEMPERATURE>;
-<WHEN> = when it 's colder outside than <TEMPERATURE>;
-<WHEN> = when the humidity in <LOCATION> is above <HUMIDITY>;
-<WHEN> = when it is more humid than <HUMIDITY> in <LOCATION>;
-<WHEN> = when sun goes down;
-<WHEN> = after sunset;
-<WHEN> = when sunset;
-<WHEN> = when sun sets;
-<WHEN> = when sun comes up;
-<WHEN> = after sunrise;
-<WHEN> = when sunrise;
-<WHEN> = when sun rises;
-
 #INTENTS
-<INTENT_1> = (the weather | what's the weather [like]) [outside];
+<INTENT_1> = (el tiempo | cómo está el tiempo) [fuera];
 
-<INTENT_2> = (weather tomorrow | what's the weather tommorow [like] | tomorrow weather);
+<INTENT_2> = (el tiempo mañana | cómo estará el tiempo mañana | el tiempo mañana);
 
-<INTENT_3> = ([the] [current] weather (in | at) <LOCATION> | what is the wather [like] in <LOCATION>);
+<INTENT_3> = ([el] tiempo [actual] en <LOCATION> | cómo está el tiempo en <LOCATION>);
 
-<INTENT_4> = ([the] [current] weather (in | at) <LOCATION> | what is the wather [like] in <LOCATION>) tomorrow;
+<INTENT_4> = ([el] tiempo [actual] en <LOCATION> | cómo está el tiempo en <LOCATION>) para mañana;
 
-<INTENT_5> = [when is] sunrise [time] at <LOCATION>;
+<INTENT_5> = [cuándo es] [el] [tiempo del] amanecer en <LOCATION>;
 
-<INTENT_6> = [when is] sunset [time] at <LOCATION>;
+<INTENT_6> = [cuándo es] [el tiempo de] [la] puesta del sol en <LOCATION>;
 
-<INTENT_7> = sunrise and sunset (for location | times at) <LOCATION>;
+<INTENT_7> = [el] amanecer y [la] puesta del sol (para la ubicación | en) <LOCATION>;
 
-<INTENT_8> = sunrise and sunset (for location | times at) <LOCATION> on date <DATE>;
+<INTENT_8> = [el] amanecer y [la] puesta del sol (para la ubicación | en) <LOCATION> para la fecha <DATE>;
 
-<INTENT_9> = moon phase for [location] <LOCATION>;
+<INTENT_9> = fase de la luna para [la ubicación] <LOCATION>;
 
-<INTENT_10> = moon phase for [location] <LOCATION> on date <DATE>;
+<INTENT_10> = fase de la luna para [la ubicación] <LOCATION> el <DATE>;
 
 #SLOTS
 <LOCATION> = WEATHER.SLOT.LOCATION;
