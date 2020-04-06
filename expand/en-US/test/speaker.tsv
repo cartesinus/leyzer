@@ -1,0 +1,10 @@
+domain	intent	utterance	bio
+Speaker	TurnOnOrOff	switch off the speaker	o b-power o o
+Speaker	TurnOnOrOff	switch on my speaker for me	o b-power o o o o
+Speaker	IncreaseVolume	make my speaker louder	o o o o
+Speaker	IncreaseVolumeByPercent	increase the volume of the speaker by 5	o o o o o o o b-percent
+Speaker	DecreaseVolume	decrease my speaker 's volume	o o o o o
+Speaker	DecreaseVolumeByPercent	reduce volume of speaker by 50	o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	decrease my speaker 's volume by 10 percent	o o o o o o b-percent o
+Speaker	MuteOn	silence speaker	o o
+Speaker	MuteOff	unmute speaker	o o

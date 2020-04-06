@@ -1,0 +1,39 @@
+domain	intent	utterance	bio
+Facebook	OpenFacebook	post something on facebook	o o o o
+Facebook	OpenFacebook	make a new facebook post	o o o o o
+Facebook	OpenFacebook	update my facebook status	o o o o
+Facebook	PostStatus	post on facebook saying calm morning with my dog and coffee	o o o o b-status i-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	post on facebook that i am so happy right now	o o o o b-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	update my facebook status saying just bought two tickets to ibiza	o o o o o b-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	update my facebook page saying so tired today	o o o o o b-status i-status i-status
+Facebook	PostStatus	make a new post that says calm morning with my dog and coffee on facebook	o o o o o o b-status i-status i-status i-status i-status i-status i-status o o
+Facebook	PostPicture	post a picture on my facebook	o o o o o o
+Facebook	PostPicture	post a picture to facebook	o o o o o
+Facebook	PostPicture	post a picture to my facebook	o o o o o o
+Facebook	PostPicture	upload a picture on facebook	o o o o o
+Facebook	PostPicture	upload a picture on my facebook	o o o o o o
+Facebook	PostPicture	upload a picture to facebook	o o o o o
+Facebook	PostPicture	add a picture on facebook	o o o o o
+Facebook	PostPicture	add a picture on my facebook	o o o o o o
+Facebook	PostPicture	add a picture to facebook	o o o o o
+Facebook	PostPicture	add a picture to my facebook	o o o o o o
+Facebook	PostPicture	put a picture on facebook	o o o o o
+Facebook	PostPicture	put a picture on my facebook	o o o o o o
+Facebook	PostPicture	put a picture to facebook	o o o o o
+Facebook	PostPictureWithCaption	post a picture on facebook with caption with my dad	o o o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithCaption	upload a picture on facebook with caption with my dad	o o o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithCaption	upload a picture with caption with my dad on facebook	o o o o o b-caption i-caption i-caption o o
+Facebook	PostPictureWithUrl	upload www.tinyurl.com/vmkgtf9 to facebook	o b-picture_url o o
+Facebook	PostPictureWithUrl	upload to facebook www.tinyurl.com/vmkgtf9	o o o b-picture_url
+Facebook	PostPictureWithUrlAndWithCaption	post www.tinyurl.com/vmkgtf9 on my facebook with caption with my dad	o b-picture_url o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	put www.tinyurl.com/vmkgtf9 on facebook with caption with my dad	o b-picture_url o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	put www.tinyurl.com/vmkgtf9 on my facebook with caption with my dad	o b-picture_url o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	caption www.tinyurl.com/vmkgtf9 as with my dad and post it on facebook	o b-picture_url o b-caption i-caption i-caption o o o o o
+Facebook	PostPictureWithUrlAndWithCaption	caption www.tinyurl.com/vmkgtf9 as with my dad and upload it on facebook	o b-picture_url o b-caption i-caption i-caption o o o o o
+Facebook	ShowAlbumWithName	show photos in album cats on facebook	o o o o b-album o o
+Facebook	ShowAlbumWithName	show photos in my album memes	o o o o o b-album
+Facebook	ShowAlbumWithName	show photos in my album holidays in jamaica on facebook	o o o o o b-album i-album i-album o o
+Facebook	ShowAlbumWithName	diplay photos in album barcelona	o o o o b-album
+Facebook	ShowAlbumWithName	diplay photos in album my love on facebook	o o o o b-album i-album o o
+Facebook	ShowAlbumWithName	diplay photos in my album holidays	o o o o o b-album
+Facebook	ShowAlbumWithName	diplay photos in my album cats on facebook	o o o o o b-album o o

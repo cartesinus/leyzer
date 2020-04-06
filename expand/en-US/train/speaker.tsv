@@ -1,0 +1,65 @@
+domain	intent	utterance	bio
+Speaker	TurnOnOrOff	turn on my speaker	o b-power o o
+Speaker	TurnOnOrOff	turn off the speaker	o b-power o o
+Speaker	TurnOnOrOff	switch on my speaker	o b-power o o
+Speaker	TurnOnOrOff	help me turn on my speaker	o o o b-power o o
+Speaker	TurnOnOrOff	help me turn off the speaker	o o o b-power o o
+Speaker	TurnOnOrOff	help me switch on my speaker	o o o b-power o o
+Speaker	TurnOnOrOff	help me switch off the speaker	o o o b-power o o
+Speaker	TurnOnOrOff	turn on my speaker	o b-power o o
+Speaker	TurnOnOrOff	turn off my speaker for me	o b-power o o o o
+Speaker	TurnOnOrOff	turn on the speaker	o b-power o o
+Speaker	TurnOnOrOff	turn off the speaker for me	o b-power o o o o
+Speaker	TurnOnOrOff	switch on my speaker	o b-power o o
+Speaker	TurnOnOrOff	switch on the speaker	o b-power o o
+Speaker	TurnOnOrOff	switch off the speaker for me	o b-power o o o o
+Speaker	IncreaseVolume	increase the volume of the speaker	o o o o o o
+Speaker	IncreaseVolume	increase my speaker 's volume	o o o o o
+Speaker	IncreaseVolume	make the speaker louder	o o o o
+Speaker	IncreaseVolumeByPercent	increase the volume of the speaker by 10 percent	o o o o o o o b-percent o
+Speaker	IncreaseVolumeByPercent	increase my speaker 's volume by 15	o o o o o o b-percent
+Speaker	IncreaseVolumeByPercent	increase my speaker 's volume by 50 percent	o o o o o o b-percent o
+Speaker	IncreaseVolumeByPercent	make the speaker louder by 100	o o o o o b-percent
+Speaker	IncreaseVolumeByPercent	make the speaker louder by 5 percent	o o o o o b-percent o
+Speaker	IncreaseVolumeByPercent	make my speaker louder by 10	o o o o o b-percent
+Speaker	IncreaseVolumeByPercent	make my speaker louder by 15 percent	o o o o o b-percent o
+Speaker	DecreaseVolume	reduce volume of speaker	o o o o
+Speaker	DecreaseVolume	reduce volume of my speaker	o o o o o
+Speaker	DecreaseVolume	reduce the volume of speaker	o o o o o
+Speaker	DecreaseVolume	reduce the volume of my speaker	o o o o o o
+Speaker	DecreaseVolume	reduce speaker 's volume	o o o o
+Speaker	DecreaseVolume	reduce my speaker 's volume	o o o o o
+Speaker	DecreaseVolume	decrease volume of speaker	o o o o
+Speaker	DecreaseVolume	decrease volume of my speaker	o o o o o
+Speaker	DecreaseVolume	decrease the volume of speaker	o o o o o
+Speaker	DecreaseVolume	decrease the volume of my speaker	o o o o o o
+Speaker	DecreaseVolume	decrease speaker 's volume	o o o o
+Speaker	DecreaseVolumeByPercent	reduce volume of speaker by 100 percent	o o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	reduce volume of my speaker by 5	o o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	reduce volume of my speaker by 10 percent	o o o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	reduce the volume of speaker by 15	o o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	reduce the volume of speaker by 50 percent	o o o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	reduce the volume of my speaker by 100	o o o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	reduce the volume of my speaker by 5 percent	o o o o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	reduce speaker 's volume by 10	o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	reduce speaker 's volume by 15 percent	o o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	reduce my speaker 's volume by 50	o o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	reduce my speaker 's volume by 100 percent	o o o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	decrease volume of speaker by 5	o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	decrease volume of speaker by 10 percent	o o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	decrease volume of my speaker by 15	o o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	decrease volume of my speaker by 50 percent	o o o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	decrease the volume of speaker by 100	o o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	decrease the volume of speaker by 5 percent	o o o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	decrease the volume of my speaker by 10	o o o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	decrease the volume of my speaker by 15 percent	o o o o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	decrease speaker 's volume by 50	o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	decrease speaker 's volume by 100 percent	o o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	decrease my speaker 's volume by 5	o o o o o o b-percent
+Speaker	MuteOn	silence my speaker	o o o
+Speaker	MuteOn	silence the speaker	o o o
+Speaker	MuteOn	mute speaker	o o
+Speaker	MuteOn	mute my speaker	o o o
+Speaker	MuteOn	mute the speaker	o o o
+Speaker	MuteOff	unmute my speaker	o o o
+Speaker	MuteOff	unmute the speaker	o o o

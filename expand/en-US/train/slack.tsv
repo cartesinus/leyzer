@@ -1,0 +1,47 @@
+domain	intent	utterance	bio
+Slack	OpenSlack	open slack	o o
+Slack	CheckLastMessages	check my last slack messages	o o o o o
+Slack	CheckLastMessages	check my slack channel history	o o o o o
+Slack	CheckLastMessages	get my last slack messages	o o o o o
+Slack	CheckUserStatus	whether andrew is active on slack	o b-username o o o o
+Slack	CheckUserStatus	whether marry is away on slack	o b-username o o o o
+Slack	CheckMessagesFromUser	check recent messages from mike in slack	o o o o b-sender o o
+Slack	CheckMessagesFromUser	check messages i received on slack from barry	o o o o o o o b-sender
+Slack	CheckMessagesFromUser	get recent messages from xorgan in slack	o o o o b-sender o o
+Slack	CheckMessagesInChannel	check messages i received on slack in party	o o o o o o o b-channel
+Slack	CheckMessagesInChannel	check slack messages in river i received in the last hour	o o o o b-channel o o o o o o
+Slack	CheckMessagesInChannel	get recent slack messages in my fellas	o o o o o b-channel i-channel
+Slack	CheckMessagesInChannel	get messages i received on slack in jogging	o o o o o o o b-channel
+Slack	CheckMessagesInChannel	get slack messages in class for physics i received in the last hour	o o o o b-channel i-channel i-channel o o o o o o
+Slack	SendMessageToChannel	post how are things to work on slack	o b-message i-message i-message o b-channel o o
+Slack	SendMessageToChannel	send we need to talk to party on slack	o b-message i-message i-message i-message o b-channel o o
+Slack	SendMessageToChannel	upload ok to river on slack	o b-message o b-channel o o
+Slack	SendMessageToChannel	post a message on slack to my fellas saying brb	o o o o o o b-channel i-channel o b-message
+Slack	SendMessageToChannel	send a message on slack to jogging saying how are things	o o o o o o b-channel o b-message i-message i-message
+Slack	SendMessageToChannel	upload a message on slack to class for physics saying we need to talk	o o o o o o b-channel i-channel i-channel o b-message i-message i-message i-message
+Slack	SendMessageToChannel	message work on slack saying ok	o b-channel o o o b-message
+Slack	SetPurposeOnChannel	set the purpose for slack channel my fellas to bug fix	o o o o o o b-channel i-channel o b-purpose i-purpose
+Slack	SetTopicInChannel	set the topic for channel jogging to mona birthday on slack	o o o o o b-channel o b-topic i-topic o o
+Slack	SetTopicInChannel	set the topic of slack channel class for physics to party	o o o o o o b-channel i-channel i-channel o b-topic
+Slack	SetStatusAway	set me as away on slack	o o o o o o
+Slack	SetStatusAway	set me as not away on slack	o o o o o o o
+Slack	SetStatusAway	mark me as away on slack	o o o o o o
+Slack	SendMessage	post a message on slack	o o o o o
+Slack	SendMessage	send on slack	o o o
+Slack	SendMessage	send a message on slack	o o o o o
+Slack	SendMessage	upload on slack	o o o
+Slack	SendMessage	upload a message on slack	o o o o o
+Slack	SendMessageToChannel	post a picture on slack to work	o o o o o o b-channel
+Slack	SendMessageToChannel	send a picture on slack to party	o o o o o o b-channel
+Slack	SendMessageToChannel	upload a picture on slack to river	o o o o o o b-channel
+Slack	SendMessageToChannel	upload a picture to slack channel my fellas	o o o o o o b-channel i-channel
+Slack	SendMessageToChannel	send something to slack channel jogging	o o o o o b-channel
+Slack	SendMessageToChannel	post on slack to class for physics	o o o o b-channel i-channel i-channel
+Slack	SendPictureToChannelWithCaption	post a picture to slack channel river with caption 24 hours until exam	o o o o o o b-channel o o b-caption i-caption i-caption i-caption
+Slack	SendPictureToChannelWithCaption	send a picture on slack to my fellas with caption funny	o o o o o o b-channel i-channel o o b-caption
+Slack	SendPictureToChannelWithCaption	send a picture to slack channel jogging with caption 24 hours until exam	o o o o o o b-channel o o b-caption i-caption i-caption i-caption
+Slack	SendPictureToChannelWithCaption	upload a picture on slack to class for physics with caption funny	o o o o o o b-channel i-channel i-channel o o b-caption
+Slack	SendPictureToChannelWithCaption	upload a picture to slack channel work with caption 24 hours until exam	o o o o o o b-channel o o b-caption i-caption i-caption i-caption
+Slack	SendPictureWithUrlToChannel	post www.tinyurl.com/vmkgtf9 to party on slack	o b-picture_url o b-channel o o
+Slack	SendPictureWithUrlToChannel	send www.tinyurl.com/vmkgtf9 to river on slack	o b-picture_url o b-channel o o
+Slack	SendPictureWithUrlToChannel	upload www.tinyurl.com/vmkgtf9 to my fellas on slack	o b-picture_url o b-channel i-channel o o

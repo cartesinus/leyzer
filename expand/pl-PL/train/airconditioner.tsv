@@ -1,0 +1,41 @@
+domain	intent	utterance	bio
+Airconditioner	TurnOn	włącz klimatyzator	o b-av_alias
+Airconditioner	TurnOn	uruchom klimatyzacja	o b-av_alias
+Airconditioner	TurnOff	wyłącz klima	o b-av_alias
+Airconditioner	TurnOff	wygaś system chłodzenia	o b-av_alias i-av_alias
+Airconditioner	TurnOff	przestań używać klimatyzator	o o b-av_alias
+Airconditioner	TurnOff	odetnij klimatyzacja	o b-av_alias
+Airconditioner	ChangeTemperature	zmień temperaturę na moim termostacie	o o o o o
+Airconditioner	ChangeTemperature	zmień temperaturę minimalną i maksymalną na termostacie	o o o o o o o
+Airconditioner	ChangeTemperature	zmień temperaturę minimalną i maksymalną na moim termostacie	o o o o o o o o
+Airconditioner	SetTemperatureToValue	ustaw temperaturę na termostacie na 22 stopnie	o o o o o b-value i-value
+Airconditioner	SetTemperatureToValue	ustaw temperaturę na moim termostacie na 23 stopnie	o o o o o o b-value i-value
+Airconditioner	SetTemperatureToValue	ustaw mój termostat na 24 stopnie	o o o o b-value i-value
+Airconditioner	SetTemperatureToValue	nastaw temperaturę na termostacie na 25 stopnie	o o o o o b-value i-value
+Airconditioner	SetTemperatureToValue	nastaw temperaturę na moim termostacie na 26 stopnie	o o o o o o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	ustaw moim termostacie w kuchnii na 23 stopnie	o o o o b-device_name o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	ustaw temperaturę na termostacie w przedpokoju na 24 stopnie	o o o o o b-device_name o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	ustaw temperaturę na moim termostacie w łazience na 25 stopnie	o o o o o o b-device_name o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	ustaw temperaturę na 26 stopnie na termostacie w sypialnii	o o o b-value i-value o o o b-device_name
+Airconditioner	SetTemperatureToValueOnDevice	ustaw temperaturę na 27 stopnie na moim termostacie w salonie	o o o b-value i-value o o o o b-device_name
+Airconditioner	SetTemperatureToValueOnDevice	nastaw termostacie w kuchnii na 22 stopnie	o o o b-device_name o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	nastaw moim termostacie w przedpokoju na 23 stopnie	o o o o b-device_name o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	nastaw temperaturę na termostacie w łazience na 24 stopnie	o o o o o b-device_name o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	nastaw temperaturę na moim termostacie w sypialnii na 25 stopnie	o o o o o o b-device_name o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	nastaw temperaturę na 26 stopnie na termostacie w salonie	o o o b-value i-value o o o b-device_name
+Airconditioner	SetTemperatureBetweenValues	ustaw temperaturę na termostacie pomiędzy 23 stopni a 29 stopni	o o o o o o o o o o
+Airconditioner	SetTemperatureBetweenValues	ustaw temperaturę na moim termostacie pomiędzy 23 stopni a 29 stopni	o o o o o o o o o o o
+Airconditioner	SetTemperatureBetweenValues	nastaw temperaturę pomiędzy 23 stopni a 29 stopni	o o o o o o o o
+Airconditioner	SetTemperatureBetweenValues	nastaw temperaturę na termostacie pomiędzy 23 stopni a 29 stopni	o o o o o o o o o o
+Airconditioner	SetTemperatureBetweenValues	nastaw temperaturę na moim termostacie pomiędzy 23 stopni a 29 stopni	o o o o o o o o o o o
+Airconditioner	SetTemperatureOnDevice	zmień temperaturę na w przedpokoju	o o o o b-device_name
+Airconditioner	SetTemperatureOnDevice	zmień temperaturę na termostacie w łazience	o o o o o b-device_name
+Airconditioner	GetHumidity	jaki jest poziom wilgotności	o o o o
+Airconditioner	GetHumidity	powiedz mi jaki jest poziom wilgotności	o o o o o o
+Airconditioner	GetHumidity	pokaż mi jaki jest poziom wilgotności	o o o o o o
+Airconditioner	GetTemperatureFromDevice	jaka jest temperatura	o o o
+Airconditioner	GetTemperatureFromDevice	jaka jest temperatura według termostatu w salonie	o o o o o o b-device_name
+Airconditioner	GetTemperatureFromDevice	jaka jest temperatura według mojego termostatu w kuchnii	o o o o o o o b-device_name
+Airconditioner	GetTemperature	jaka jest temperatura według termostatu	o o o o o
+Airconditioner	GetTemperature	jaka jest temperatura według mojego termostatu	o o o o o o
+Airconditioner	GetTemperature	co termostat mówi o temperaturze	o o o o o

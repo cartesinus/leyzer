@@ -1,0 +1,16 @@
+domain	intent	utterance	bio
+Calendar	OpenCalendar	otwórz mój kalendarz	o o o
+Calendar	CheckCalendarOnDate	pokaż plany na czwartek	o o o b-date
+Calendar	CheckCalendarOnDate	czy mam wydarzenia na poniedziałek 9	o o o o b-date i-date
+Calendar	CheckCalendarOnDate	otwórz moje wydarzenia	o o o
+Calendar	AddEventWithName	dodaj wydarzenie o nazwie 1on1	o o o o b-event_name
+Calendar	AddEventWithName	chcę dodać dzień ojca do kalendarza	o o b-event_name i-event_name o o
+Calendar	AddEventWithName	muszę dodać nowe przypomnienie dzień ojca do kalendarza	o o o o b-event_name i-event_name o o
+Calendar	AddEventOnDateWithDate	dodaj wydarzenie o nazwie 1on1 na piątek	o o o o b-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	tę środę dodaj przypomnienie o nazwie wstęp do filozofii do kalendarza	b-event_date i-event_date o o o o b-event_name i-event_name i-event_name o o
+Calendar	AddEventOnDateWithDate	czwartek 21 zanotuj w kalendarzu przypomnienie o nazwie walentynki	b-event_date i-event_date o o o o o o b-event_name
+Calendar	NotifyOnEventStart	powiadom mnie kiedy spotkanie w kalendarzu się rozpocznie	o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie mów mi kiedy spotkanie w kalendarzu się rozpocznie	o o o o o o o o o
+Calendar	NotifyOnEventInLocation	powiadom mnie kiedy spotkanie w moim kalendarzu w domu się zacznie	o o o o o o o o b-location o o
+Calendar	NotifyOnEventInLocation	powiedz mi kiedy wydarzenie w kalendarzu w pracy się zacznie	o o o o o o o b-location o o
+Calendar	NotNotifyOnEventInLocation	nie powiadamiaj mnie kiedy wydarzenie w moim kalendarzu w domu magdy się zacznie	o o o o o o o o o b-location i-location o o

@@ -1,0 +1,13 @@
+domain	intent	utterance	bio
+Weather	OpenWeather	the weather outside	o o o
+Weather	WeatherTomorrow	tomorrow weather	o o
+Weather	MoonphaseInLocation	moon phase for location dakar	o o o o b-location
+Weather	MoonphaseInLocationOnDate	moon phase for barnsdall on date 30 january	o o o b-location o o b-date i-date
+Weather	SunriseAndSunsetInLocation	sunrise and sunset times at east fultonham	o o o o o b-location i-location
+Weather	SunriseAndSunsetInLocationAndOnDate	sunrise and sunset for location dos rios on date 7 september	o o o o o b-location i-location o o b-date i-date
+Weather	SunriseInLocation	sunrise at jonas ridge	o o b-location i-location
+Weather	SunsetInLocation	sunset time at great lakes	o o o b-location i-location
+Weather	WeatherInLocation	current weather at tangipahoa	o o o b-location
+Weather	WeatherInLocation	the current weather at kinston	o o o o b-location
+Weather	WeatherTomorrowInLocation	current weather at pebble beach tomorrow	o o o b-location i-location o
+Weather	WeatherTomorrowInLocation	weather at french camp tomorrow	o o b-location i-location o

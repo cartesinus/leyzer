@@ -1,0 +1,7 @@
+domain	intent	utterance	bio
+News	ShowNews	otwórz tvn24	o b-portal
+News	ShowNews	pokaż mi najnowsze wiadomości z asz dziennik	o o o o o b-portal i-portal
+News	ShowNewsFromSection	wyświetl sport z wp.pl	o b-section o b-portal
+News	ShowNewsFromSection	pokaż mi najnowsze sport na onet.pl	o o o b-section o b-portal
+News	NotifyWhenPortalUpdates	powiadom mnie kiedy times polska doda nowe wiadomości	o o o b-portal i-portal o o o
+News	NotifyWhenPortalUpdatesInSection	powiedz mi kiedy asz dziennik w części zdrowie opublikuje nowy artykuł	o o o b-portal i-portal o o b-section o o o

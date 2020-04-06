@@ -1,0 +1,13 @@
+domain	intent	utterance	bio
+Twitter	OpenTwitter	wyświetl moje twitty	o o o
+Twitter	FollowUser	zacznij śledzić anannaal	o o b-username
+Twitter	UnfollowUser	przestań obserować adeklaee_pl na twitterze	o o b-username o o
+Twitter	SendMessage	wyślij na twitterze wiadomość rząd stwierdził że przed koronawirusem uchronić nas mogą tylko czyste ręce	o o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	napisz na twitterze prywatną wiadomość o treści a co po zrobilo w czerwcu ? kto mieczem itd	o o o o o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	prześlij na twitterze pw o treści może i mocny ale piskliwy	o o o o o o b-message i-message i-message i-message i-message
+Twitter	SendMessage	napisz wiadomość na twitterze o treści irena jest nikim i tak powinno pozostać	o o o o o o b-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	stwórz prywatną wiadomość na twitterze o treści a gdzie macie biuro w poznaniu ?	o o o o o o o b-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	na twitterze do xsassyxo o treści meysztowicz juz dawno nie w po	o o o b-username o o b-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	na twitterze prześlij pw do piotrus_pan9 o treści a feministki ? też niech zabiorą ze sobą	o o o o o b-username o o b-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	napisz ochotnicze rezerwy platfotmy obywatelskiej do mikieee182 na twitterze	o b-message i-message i-message i-message o b-username o o
+Twitter	ShowTwittsWithHashtag	twitty z hashtagiem prawdziwaprezydent	o o o b-hashtag

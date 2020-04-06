@@ -1,0 +1,11 @@
+domain	intent	utterance	bio
+Facebook	OpenFacebook	make a new post on facebook	o o o o o o
+Facebook	PostStatus	post so tired today on facebook	o b-status i-status i-status o o
+Facebook	PostStatus	make a new post containing i am so happy right now on facebook	o o o o o b-status i-status i-status i-status i-status i-status o o
+Facebook	PostPicture	post a picture on facebook	o o o o o
+Facebook	PostPicture	upload a picture to my facebook	o o o o o o
+Facebook	PostPicture	put a picture to my facebook	o o o o o o
+Facebook	PostPictureWithCaption	post a picture with caption with my dad on facebook	o o o o o b-caption i-caption i-caption o o
+Facebook	PostPictureWithUrl	post www.tinyurl.com/vmkgtf9 on facebook	o b-picture_url o o
+Facebook	PostPictureWithUrlAndWithCaption	post www.tinyurl.com/vmkgtf9 on facebook with caption with my dad	o b-picture_url o o o o b-caption i-caption i-caption
+Facebook	ShowAlbumWithName	show photos in album holidays	o o o o b-album

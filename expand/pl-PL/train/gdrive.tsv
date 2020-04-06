@@ -1,0 +1,286 @@
+domain	intent	utterance	bio
+Gdrive	OpenGdrive	pokaż moje pliki z google drive	o o o o o o
+Gdrive	OpenGdrive	pokaż moje pliki na google drive	o o o o o o
+Gdrive	OpenGdrive	wyświetl moje pliki na google drive	o o o o o o
+Gdrive	OpenGdrive	wyświetl moje pliki w google drive	o o o o o o
+Gdrive	OpenGdrive	wylistuj moje pliki z google drive	o o o o o o
+Gdrive	OpenGdrive	wylistuj moje pliki na google drive	o o o o o o
+Gdrive	OpenGdrive	wylistuj moje pliki w google drive	o o o o o o
+Gdrive	ShowFilesWithType	pokaż moje pliki z google drive o typie mp3	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	pokaż moje pliki z google drive z typem txt	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	pokaż moje pliki na google drive o typie jpeg	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	pokaż moje pliki na google drive z typem mp3	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	pokaż moje pliki w google drive o typie txt	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	wyświetl moje pliki z google drive z typem txt	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	wyświetl moje pliki na google drive o typie jpeg	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	wyświetl moje pliki na google drive z typem mp3	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	wyświetl moje pliki w google drive o typie txt	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	wyświetl moje pliki w google drive z typem jpeg	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	wylistuj moje pliki z google drive o typie mp3	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	wylistuj moje pliki z google drive z typem txt	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	wylistuj moje pliki na google drive o typie jpeg	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	wylistuj moje pliki na google drive z typem mp3	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	wylistuj moje pliki w google drive o typie txt	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	wylistuj moje pliki w google drive z typem jpeg	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithStar	pokaż moje pliki z google drive które oznaczyłem gwiazdką	o o o o o o o o o
+Gdrive	ShowFilesWithStar	pokaż moje pliki z google drive oznaczone gwiazdką	o o o o o o o o
+Gdrive	ShowFilesWithStar	pokaż moje pliki na google drive które oznaczyłem gwiazdką	o o o o o o o o o
+Gdrive	ShowFilesWithStar	pokaż moje pliki na google drive oznaczone gwiazdką	o o o o o o o o
+Gdrive	ShowFilesWithStar	pokaż moje pliki w google drive które oznaczyłem gwiazdką	o o o o o o o o o
+Gdrive	ShowFilesWithStar	pokaż moje pliki w google drive oznaczone gwiazdką	o o o o o o o o
+Gdrive	ShowFilesWithStar	wyświetl moje pliki z google drive które oznaczyłem gwiazdką	o o o o o o o o o
+Gdrive	ShowFilesWithStar	wyświetl moje pliki z google drive oznaczone gwiazdką	o o o o o o o o
+Gdrive	ShowFilesWithStar	wyświetl moje pliki na google drive które oznaczyłem gwiazdką	o o o o o o o o o
+Gdrive	ShowFilesWithStar	wyświetl moje pliki na google drive oznaczone gwiazdką	o o o o o o o o
+Gdrive	ShowFilesWithStar	wyświetl moje pliki w google drive które oznaczyłem gwiazdką	o o o o o o o o o
+Gdrive	ShowFilesWithStar	wyświetl moje pliki w google drive oznaczone gwiazdką	o o o o o o o o
+Gdrive	ShowFilesWithStar	wylistuj moje pliki z google drive które oznaczyłem gwiazdką	o o o o o o o o o
+Gdrive	ShowFilesWithStar	wylistuj moje pliki z google drive oznaczone gwiazdką	o o o o o o o o
+Gdrive	ShowFilesWithStar	wylistuj moje pliki na google drive które oznaczyłem gwiazdką	o o o o o o o o o
+Gdrive	ShowFilesWithStar	wylistuj moje pliki w google drive które oznaczyłem gwiazdką	o o o o o o o o o
+Gdrive	ShowFilesWithStar	wylistuj moje pliki w google drive oznaczone gwiazdką	o o o o o o o o
+Gdrive	ShowFilesFromTime	pokaż moje pliki z google drive stworzone dziś	o o o o o o o b-time
+Gdrive	ShowFilesFromTime	pokaż moje pliki z google drive zmodyfikowane wczoraj	o o o o o o o b-time
+Gdrive	ShowFilesFromTime	pokaż moje pliki na google drive stworzone w zeszły weekend	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	pokaż moje pliki na google drive zmodyfikowane w zeszłym miesiącu	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	pokaż moje pliki w google drive stworzone w tym miesiącu	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	pokaż moje pliki w google drive zmodyfikowane 2 godziny temu	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	wyświetl moje pliki z google drive stworzone 15 minut temu	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	wyświetl moje pliki z google drive zmodyfikowane dziś	o o o o o o o b-time
+Gdrive	ShowFilesFromTime	wyświetl moje pliki na google drive stworzone wczoraj	o o o o o o o b-time
+Gdrive	ShowFilesFromTime	wyświetl moje pliki na google drive zmodyfikowane w zeszły weekend	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	wyświetl moje pliki w google drive stworzone w zeszłym miesiącu	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	wyświetl moje pliki w google drive zmodyfikowane w tym miesiącu	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	wylistuj moje pliki z google drive stworzone 2 godziny temu	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	wylistuj moje pliki z google drive zmodyfikowane 15 minut temu	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	wylistuj moje pliki na google drive stworzone dziś	o o o o o o o b-time
+Gdrive	ShowFilesFromTime	wylistuj moje pliki na google drive zmodyfikowane wczoraj	o o o o o o o b-time
+Gdrive	ShowFilesFromTime	wylistuj moje pliki w google drive stworzone w zeszły weekend	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	wylistuj moje pliki w google drive zmodyfikowane w zeszłym miesiącu	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesWithSize	pokaż moje pliki z google drive mniejsze niż 1 mb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	pokaż moje pliki z google drive większe niż 1 gigabajt	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	pokaż moje pliki na google drive mniejsze niż 500 kb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	pokaż moje pliki na google drive większe niż 1 mb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	pokaż moje pliki w google drive mniejsze niż 1 gigabajt	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	pokaż moje pliki w google drive większe niż 500 kb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wyświetl moje pliki z google drive mniejsze niż 1 mb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wyświetl moje pliki z google drive większe niż 1 gigabajt	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wyświetl moje pliki na google drive mniejsze niż 500 kb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wyświetl moje pliki na google drive większe niż 1 mb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wyświetl moje pliki w google drive mniejsze niż 1 gigabajt	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wyświetl moje pliki w google drive większe niż 500 kb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wylistuj moje pliki z google drive mniejsze niż 1 mb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wylistuj moje pliki z google drive większe niż 1 gigabajt	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wylistuj moje pliki na google drive mniejsze niż 500 kb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wylistuj moje pliki na google drive większe niż 1 mb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wylistuj moje pliki w google drive mniejsze niż 1 gigabajt	o o o o o o o o b-file_size i-file_size
+Gdrive	CreateFile	stwórz plik na google drivie	o o o o o
+Gdrive	CreateFile	stwórz plik na moim google drive	o o o o o o
+Gdrive	CreateFile	stwórz plik na moim google drivie	o o o o o o
+Gdrive	CreateFile	stwórz plik w google drive	o o o o o
+Gdrive	CreateFile	stwórz plik w google drivie	o o o o o
+Gdrive	CreateFile	stwórz plik w moim google drive	o o o o o o
+Gdrive	CreateFile	stwórz plik w moim google drivie	o o o o o o
+Gdrive	CreateFile	utwórz plik na google drive	o o o o o
+Gdrive	CreateFile	utwórz plik na google drivie	o o o o o
+Gdrive	CreateFile	utwórz plik na moim google drive	o o o o o o
+Gdrive	CreateFile	utwórz plik na moim google drivie	o o o o o o
+Gdrive	CreateFile	utwórz plik w google drive	o o o o o
+Gdrive	CreateFile	utwórz plik w google drivie	o o o o o
+Gdrive	CreateFile	utwórz plik w moim google drive	o o o o o o
+Gdrive	CreateFile	utwórz plik w moim google drivie	o o o o o o
+Gdrive	CreateFile	zrób plik na google drive	o o o o o
+Gdrive	CreateFile	zrób plik na google drivie	o o o o o
+Gdrive	CreateFile	zrób plik na moim google drive	o o o o o o
+Gdrive	CreateFile	zrób plik na moim google drivie	o o o o o o
+Gdrive	CreateFile	zrób plik w google drive	o o o o o
+Gdrive	CreateFile	zrób plik w google drivie	o o o o o
+Gdrive	CreateFile	zrób plik w moim google drive	o o o o o o
+Gdrive	CreateFileWithName	stwórz plik na google drivie o nazwie nowa lazienka	o o o o o o o b-file_name i-file_name
+Gdrive	CreateFileWithName	stwórz plik na moim google drive o nazwie przepis na kotlety	o o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	CreateFileWithName	stwórz plik na moim google drivie o nazwie nowy plik 2	o o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	CreateFileWithName	stwórz plik w google drive o nazwie nowy plik 4	o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	CreateFileWithName	stwórz plik w google drivie o nazwie readme	o o o o o o o b-file_name
+Gdrive	CreateFileWithName	stwórz plik w moim google drive o nazwie faktura	o o o o o o o o b-file_name
+Gdrive	CreateFileWithName	stwórz plik w moim google drivie o nazwie projekt 1	o o o o o o o o b-file_name i-file_name
+Gdrive	CreateFileWithName	utwórz plik na google drive o nazwie filmy	o o o o o o o b-file_name
+Gdrive	CreateFileWithName	utwórz plik na google drivie o nazwie nowy plik	o o o o o o o b-file_name i-file_name
+Gdrive	CreateFileWithName	utwórz plik na moim google drive o nazwie CV	o o o o o o o o b-file_name
+Gdrive	CreateFileWithName	utwórz plik na moim google drivie o nazwie wazne	o o o o o o o o b-file_name
+Gdrive	CreateFileWithName	utwórz plik w google drive o nazwie nowy plik 3	o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	CreateFileWithName	utwórz plik w google drivie o nazwie mp3	o o o o o o o b-file_name
+Gdrive	CreateFileWithName	utwórz plik w moim google drivie o nazwie przepis na kotlety	o o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	CreateFileWithName	zrób plik na google drive o nazwie nowy plik 2	o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	CreateFileWithName	zrób plik na google drivie o nazwie nowy plik 4	o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	CreateFileWithName	zrób plik na moim google drive o nazwie readme	o o o o o o o o b-file_name
+Gdrive	CreateFileWithName	zrób plik na moim google drivie o nazwie faktura	o o o o o o o o b-file_name
+Gdrive	CreateFileWithName	zrób plik w google drive o nazwie projekt 1	o o o o o o o b-file_name i-file_name
+Gdrive	CreateFileWithName	zrób plik w google drivie o nazwie filmy	o o o o o o o b-file_name
+Gdrive	CreateFileWithName	zrób plik w moim google drive o nazwie nowy plik	o o o o o o o o b-file_name i-file_name
+Gdrive	ShowOldestFiles	pokaż ostatni plik na google drive	o o o o o o
+Gdrive	ShowOldestFiles	pokaż mój najnowszy plik na google drive	o o o o o o o
+Gdrive	ShowOldestFiles	pokaż mój ostatni plik na google drive	o o o o o o o
+Gdrive	ShowOldestFiles	pokaż najnowsze pliki na google drive	o o o o o o
+Gdrive	ShowOldestFiles	pokaż ostatnie pliki na google drive	o o o o o o
+Gdrive	ShowOldestFiles	pokaż moje najnowsze pliki na google drive	o o o o o o o
+Gdrive	ShowOldestFiles	pokaż moje ostatnie pliki na google drive	o o o o o o o
+Gdrive	ShowOldestFiles	wyświetl najnowszy plik na google drive	o o o o o o
+Gdrive	ShowOldestFiles	wyświetl ostatni plik na google drive	o o o o o o
+Gdrive	ShowOldestFiles	wyświetl mój najnowszy plik na google drive	o o o o o o o
+Gdrive	ShowOldestFiles	wyświetl mój ostatni plik na google drive	o o o o o o o
+Gdrive	ShowOldestFiles	wyświetl najnowsze pliki na google drive	o o o o o o
+Gdrive	ShowOldestFiles	wyświetl ostatnie pliki na google drive	o o o o o o
+Gdrive	ShowOldestFiles	wyświetl moje najnowsze pliki na google drive	o o o o o o o
+Gdrive	ShowOldestFiles	wyświetl moje ostatnie pliki na google drive	o o o o o o o
+Gdrive	ShowOldestFiles	wylistuj najnowszy plik na google drive	o o o o o o
+Gdrive	ShowOldestFiles	wylistuj ostatni plik na google drive	o o o o o o
+Gdrive	ShowOldestFiles	wylistuj mój najnowszy plik na google drive	o o o o o o o
+Gdrive	ShowOldestFiles	wylistuj mój ostatni plik na google drive	o o o o o o o
+Gdrive	ShowOldestFiles	wylistuj najnowsze pliki na google drive	o o o o o o
+Gdrive	ShowOldestFiles	wylistuj ostatnie pliki na google drive	o o o o o o
+Gdrive	ShowOldestFiles	wylistuj moje najnowsze pliki na google drive	o o o o o o o
+Gdrive	SortReverseAlphabetical	pokaż pliki na google drive w odwrotnej kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	pokaż pliki w google drive w kolejności alfabetycznej	o o o o o o o o
+Gdrive	SortReverseAlphabetical	pokaż pliki w google drive w odwrotnej kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	pokaż moje pliki na google drive w kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	pokaż moje pliki na google drive w odwrotnej kolejności alfabetycznej	o o o o o o o o o o
+Gdrive	SortReverseAlphabetical	pokaż moje pliki w google drive w kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	pokaż moje pliki w google drive w odwrotnej kolejności alfabetycznej	o o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wyświetl pliki na google drive w kolejności alfabetycznej	o o o o o o o o
+Gdrive	SortReverseAlphabetical	wyświetl pliki na google drive w odwrotnej kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wyświetl pliki w google drive w kolejności alfabetycznej	o o o o o o o o
+Gdrive	SortReverseAlphabetical	wyświetl pliki w google drive w odwrotnej kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wyświetl moje pliki na google drive w kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wyświetl moje pliki na google drive w odwrotnej kolejności alfabetycznej	o o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wyświetl moje pliki w google drive w kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wyświetl moje pliki w google drive w odwrotnej kolejności alfabetycznej	o o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wylistuj pliki na google drive w kolejności alfabetycznej	o o o o o o o o
+Gdrive	SortReverseAlphabetical	wylistuj pliki na google drive w odwrotnej kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wylistuj pliki w google drive w kolejności alfabetycznej	o o o o o o o o
+Gdrive	SortReverseAlphabetical	wylistuj pliki w google drive w odwrotnej kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wylistuj moje pliki na google drive w kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wylistuj moje pliki na google drive w odwrotnej kolejności alfabetycznej	o o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wylistuj moje pliki w google drive w kolejności alfabetycznej	o o o o o o o o o
+Gdrive	OpenFileWithName	otwórz plik nowy plik 3 do edycji na google drive	o o b-file_name i-file_name i-file_name o o o o o
+Gdrive	OpenFileWithName	otwórz plik o nazwie mp3 do edycji	o o o o b-file_name o o
+Gdrive	OpenFileWithName	otwórz plik o nazwie nowa lazienka do edycji na google drive	o o o o b-file_name i-file_name o o o o o
+Gdrive	OpenFileWithName	otwórz plik który nazywa się przepis na kotlety do edycji	o o o o o b-file_name i-file_name i-file_name o o
+Gdrive	OpenFileWithName	otwórz plik który nazywa się nowy plik 2 do edycji na google drive	o o o o o b-file_name i-file_name i-file_name o o o o o
+Gdrive	OpenFileWithName	otwórz plik nazywający się nowy plik 4 do edycji	o o o o b-file_name i-file_name i-file_name o o
+Gdrive	OpenFileWithName	otwórz plik nazywający się readme do edycji na google drive	o o o o b-file_name o o o o o
+Gdrive	OpenFileWithName	otwórz mój plik faktura do edycji	o o o b-file_name o o
+Gdrive	OpenFileWithName	otwórz mój plik projekt 1 do edycji na google drive	o o o b-file_name i-file_name o o o o o
+Gdrive	OpenFileWithName	otwórz mój plik o nazwie filmy do edycji	o o o o o b-file_name o o
+Gdrive	OpenFileWithName	otwórz mój plik o nazwie nowy plik do edycji na google drive	o o o o o b-file_name i-file_name o o o o o
+Gdrive	OpenFileWithName	otwórz mój plik który nazywa się CV do edycji	o o o o o o b-file_name o o
+Gdrive	OpenFileWithName	otwórz mój plik który nazywa się wazne do edycji na google drive	o o o o o o b-file_name o o o o o
+Gdrive	OpenFileWithName	otwórz mój plik nazywający się nowy plik 3 do edycji	o o o o o b-file_name i-file_name i-file_name o o
+Gdrive	OpenFileWithName	otwórz mój plik nazywający się mp3 do edycji na google drive	o o o o o b-file_name o o o o o
+Gdrive	OpenFileWithName	edytuj plik nowa lazienka	o o b-file_name i-file_name
+Gdrive	OpenFileWithName	edytuj plik przepis na kotlety na google drive	o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	edytuj plik o nazwie nowy plik 2	o o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	edytuj plik o nazwie nowy plik 4 na google drive	o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	edytuj plik który nazywa się readme	o o o o o b-file_name
+Gdrive	OpenFileWithName	edytuj plik który nazywa się faktura na google drive	o o o o o b-file_name o o o
+Gdrive	OpenFileWithName	edytuj plik nazywający się projekt 1	o o o o b-file_name i-file_name
+Gdrive	OpenFileWithName	edytuj plik nazywający się filmy na google drive	o o o o b-file_name o o o
+Gdrive	OpenFileWithName	edytuj mój plik nowy plik	o o o b-file_name i-file_name
+Gdrive	OpenFileWithName	edytuj mój plik CV na google drive	o o o b-file_name o o o
+Gdrive	OpenFileWithName	edytuj mój plik o nazwie wazne	o o o o o b-file_name
+Gdrive	OpenFileWithName	edytuj mój plik o nazwie nowy plik 3 na google drive	o o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	edytuj mój plik który nazywa się mp3	o o o o o o b-file_name
+Gdrive	OpenFileWithName	edytuj mój plik który nazywa się nowa lazienka na google drive	o o o o o o b-file_name i-file_name o o o
+Gdrive	OpenFileWithName	edytuj mój plik nazywający się przepis na kotlety	o o o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	edytuj mój plik nazywający się nowy plik 2 na google drive	o o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	zmień plik nowy plik 4	o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	zmień plik readme na google drive	o o b-file_name o o o
+Gdrive	OpenFileWithName	zmień plik o nazwie faktura	o o o o b-file_name
+Gdrive	OpenFileWithName	zmień plik o nazwie projekt 1 na google drive	o o o o b-file_name i-file_name o o o
+Gdrive	OpenFileWithName	zmień plik który nazywa się filmy	o o o o o b-file_name
+Gdrive	OpenFileWithName	zmień plik nazywający się CV	o o o o b-file_name
+Gdrive	OpenFileWithName	zmień plik nazywający się wazne na google drive	o o o o b-file_name o o o
+Gdrive	OpenFileWithName	zmień mój plik nowy plik 3	o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	zmień mój plik mp3 na google drive	o o o b-file_name o o o
+Gdrive	OpenFileWithName	zmień mój plik o nazwie nowa lazienka	o o o o o b-file_name i-file_name
+Gdrive	OpenFileWithName	zmień mój plik o nazwie przepis na kotlety na google drive	o o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	zmień mój plik który nazywa się nowy plik 2	o o o o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	zmień mój plik który nazywa się nowy plik 4 na google drive	o o o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	zmień mój plik nazywający się readme	o o o o o b-file_name
+Gdrive	OpenFileWithName	zmień mój plik nazywający się faktura na google drive	o o o o o b-file_name o o o
+Gdrive	OpenFileWithName	edytuj plik projekt 1	o o b-file_name i-file_name
+Gdrive	OpenFileWithName	edytuj plik filmy na google drive	o o b-file_name o o o
+Gdrive	OpenFileWithName	edytuj plik o nazwie nowy plik	o o o o b-file_name i-file_name
+Gdrive	OpenFileWithName	edytuj plik o nazwie CV na google drive	o o o o b-file_name o o o
+Gdrive	OpenFileWithName	edytuj plik który nazywa się wazne	o o o o o b-file_name
+Gdrive	OpenFileWithName	edytuj plik który nazywa się nowy plik 3 na google drive	o o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	edytuj plik nazywający się mp3	o o o o b-file_name
+Gdrive	OpenFileWithName	edytuj plik nazywający się nowa lazienka na google drive	o o o o b-file_name i-file_name o o o
+Gdrive	OpenFileWithName	edytuj mój plik przepis na kotlety	o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	edytuj mój plik nowy plik 2 na google drive	o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	edytuj mój plik o nazwie nowy plik 4	o o o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	edytuj mój plik o nazwie readme na google drive	o o o o o b-file_name o o o
+Gdrive	OpenFileWithName	edytuj mój plik który nazywa się faktura	o o o o o o b-file_name
+Gdrive	OpenFileWithName	edytuj mój plik który nazywa się projekt 1 na google drive	o o o o o o b-file_name i-file_name o o o
+Gdrive	OpenFileWithName	edytuj mój plik nazywający się filmy	o o o o o b-file_name
+Gdrive	OpenFileWithName	edytuj mój plik nazywający się nowy plik na google drive	o o o o o b-file_name i-file_name o o o
+Gdrive	OpenFileWithName	zmień plik CV	o o b-file_name
+Gdrive	OpenFileWithName	zmień plik wazne na google drive	o o b-file_name o o o
+Gdrive	OpenFileWithName	zmień plik o nazwie nowy plik 3	o o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	zmień plik o nazwie mp3 na google drive	o o o o b-file_name o o o
+Gdrive	OpenFileWithName	zmień plik który nazywa się nowa lazienka	o o o o o b-file_name i-file_name
+Gdrive	OpenFileWithName	zmień plik który nazywa się przepis na kotlety na google drive	o o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	zmień plik nazywający się nowy plik 2	o o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	zmień plik nazywający się nowy plik 4 na google drive	o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	zmień mój plik readme	o o o b-file_name
+Gdrive	OpenFileWithName	zmień mój plik faktura na google drive	o o o b-file_name o o o
+Gdrive	OpenFileWithName	zmień mój plik o nazwie projekt 1	o o o o o b-file_name i-file_name
+Gdrive	OpenFileWithName	zmień mój plik o nazwie filmy na google drive	o o o o o b-file_name o o o
+Gdrive	OpenFileWithName	zmień mój plik który nazywa się nowy plik	o o o o o o b-file_name i-file_name
+Gdrive	OpenFileWithName	zmień mój plik który nazywa się CV na google drive	o o o o o o b-file_name o o o
+Gdrive	OpenFileWithName	zmień mój plik nazywający się wazne	o o o o o b-file_name
+Gdrive	OpenFileWithName	zmień mój plik nazywający się nowy plik 3 na google drive	o o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	na google drive edytuj plik mp3	o o o o o b-file_name
+Gdrive	OpenFileWithName	na google drive edytuj plik nowa lazienka na google drive	o o o o o b-file_name i-file_name o o o
+Gdrive	OpenFileWithName	na google drive edytuj plik o nazwie przepis na kotlety	o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	na google drive edytuj plik o nazwie nowy plik 2 na google drive	o o o o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	na google drive edytuj plik który nazywa się nowy plik 4	o o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	na google drive edytuj plik który nazywa się readme na google drive	o o o o o o o o b-file_name o o o
+Gdrive	OpenFileWithName	na google drive edytuj plik nazywający się faktura	o o o o o o o b-file_name
+Gdrive	OpenFileWithName	na google drive edytuj plik nazywający się projekt 1 na google drive	o o o o o o o b-file_name i-file_name o o o
+Gdrive	OpenFileWithName	na google drive edytuj mój plik filmy	o o o o o o b-file_name
+Gdrive	OpenFileWithName	na google drive edytuj mój plik o nazwie CV	o o o o o o o o b-file_name
+Gdrive	OpenFileWithName	na google drive edytuj mój plik o nazwie wazne na google drive	o o o o o o o o b-file_name o o o
+Gdrive	OpenFileWithName	na google drive edytuj mój plik który nazywa się nowy plik 3	o o o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	na google drive edytuj mój plik który nazywa się mp3 na google drive	o o o o o o o o o b-file_name o o o
+Gdrive	OpenFileWithName	na google drive edytuj mój plik nazywający się nowa lazienka	o o o o o o o o b-file_name i-file_name
+Gdrive	OpenFileWithName	na google drive edytuj mój plik nazywający się przepis na kotlety na google drive	o o o o o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	na google drive zmień plik nowy plik 2	o o o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	na google drive zmień plik nowy plik 4 na google drive	o o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	na google drive zmień plik o nazwie readme	o o o o o o o b-file_name
+Gdrive	OpenFileWithName	na google drive zmień plik o nazwie faktura na google drive	o o o o o o o b-file_name o o o
+Gdrive	OpenFileWithName	na google drive zmień plik który nazywa się projekt 1	o o o o o o o o b-file_name i-file_name
+Gdrive	OpenFileWithName	na google drive zmień plik który nazywa się filmy na google drive	o o o o o o o o b-file_name o o o
+Gdrive	OpenFileWithName	na google drive zmień plik nazywający się nowy plik	o o o o o o o b-file_name i-file_name
+Gdrive	OpenFileWithName	na google drive zmień plik nazywający się CV na google drive	o o o o o o o b-file_name o o o
+Gdrive	OpenFileWithName	na google drive zmień mój plik wazne	o o o o o o b-file_name
+Gdrive	OpenFileWithName	na google drive zmień mój plik nowy plik 3 na google drive	o o o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	na google drive zmień mój plik o nazwie mp3	o o o o o o o o b-file_name
+Gdrive	OpenFileWithName	na google drive zmień mój plik o nazwie nowa lazienka na google drive	o o o o o o o o b-file_name i-file_name o o o
+Gdrive	OpenFileWithName	na google drive zmień mój plik który nazywa się przepis na kotlety	o o o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	OpenFileWithName	na google drive zmień mój plik który nazywa się nowy plik 2 na google drive	o o o o o o o o o b-file_name i-file_name i-file_name o o o
+Gdrive	OpenFileWithName	na google drive zmień mój plik nazywający się nowy plik 4	o o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	ShareFileWithNameToAddress	udostępnij plik projekt 1 do andrzej.duda@gov.pl i nadaj uprawnienia do edycji	o o b-file_name i-file_name o b-mail o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij plik filmy do donald.tusk@gov.pl i nadaj uprawnienia do odczytu	o o b-file_name o b-mail o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij plik nowy plik do maciek.nowak21@gmail.com i nadaj uprawnienia do odczytu i zapisu	o o b-file_name i-file_name o b-mail o o o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij plik o nazwie CV do aniamania123@gmail.com	o o o o b-file_name o b-mail
+Gdrive	ShareFileWithNameToAddress	udostępnij plik o nazwie wazne do mariusz.wegrow@gmail.com i nadaj uprawnienia do edycji	o o o o b-file_name o b-mail o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij plik o nazwie nowy plik 3 do h4ckyou22@wp.pl i nadaj uprawnienia do odczytu	o o o o b-file_name i-file_name i-file_name o b-mail o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij plik o nazwie mp3 do ahahaha1235@gmail.com i nadaj uprawnienia do odczytu i zapisu	o o o o b-file_name o b-mail o o o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij mój plik nowa lazienka do andrzej.duda@gov.pl	o o o b-file_name i-file_name o b-mail
+Gdrive	ShareFileWithNameToAddress	udostępnij mój plik przepis na kotlety do donald.tusk@gov.pl i nadaj uprawnienia do edycji	o o o b-file_name i-file_name i-file_name o b-mail o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij mój plik nowy plik 2 do maciek.nowak21@gmail.com i nadaj uprawnienia do odczytu	o o o b-file_name i-file_name i-file_name o b-mail o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij mój plik nowy plik 4 do aniamania123@gmail.com i nadaj uprawnienia do odczytu i zapisu	o o o b-file_name i-file_name i-file_name o b-mail o o o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij mój plik o nazwie readme do mariusz.wegrow@gmail.com	o o o o o b-file_name o b-mail
+Gdrive	ShareFileWithNameToAddress	udostępnij mój plik o nazwie faktura do h4ckyou22@wp.pl i nadaj uprawnienia do edycji	o o o o o b-file_name o b-mail o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij mój plik o nazwie projekt 1 do ahahaha1235@gmail.com i nadaj uprawnienia do odczytu	o o o o o b-file_name i-file_name o b-mail o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij mój plik o nazwie filmy do andrzej.duda@gov.pl i nadaj uprawnienia do odczytu i zapisu	o o o o o b-file_name o b-mail o o o o o o o

@@ -1,0 +1,32 @@
+domain	intent	utterance	bio
+Instagram	OpenInstagram	otwórz mi mój instagram	o o o o
+Instagram	ShowPictures	pokaż mi moje ostatnie zdjęcia na instagramie	o o o o o o o
+Instagram	ShowPictures	wyświetl zdjęcia na instagramie	o o o o
+Instagram	ShowPictures	otwórz mi moje ostatnie zdjęcia na instagramie	o o o o o o o
+Instagram	ShowLastNumberPictures	pokaż ostatnie 13 zdjęć na instagramie	o o b-count o o o
+Instagram	ShowLastNumberPictures	wyświetl mi moje najnowsze 10 zdjęć na moim koncie na instagramie	o o o o b-count o o o o o o
+Instagram	ShowPicturesWithFilter	pokaż moje zdjęcia na instagramie gdzie dodałam filtr gingham	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	pokaż mi zdjęcia na instagramie z filtrem crema	o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	wyświetl moje zdjęcia na instagramie gdzie dodałam filtr juno	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	wyświetl mi zdjęcia na instagramie z filtrem sierra	o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	otwórz mi moje zdjęcia na instagramie gdzie dodałam filtr aden	o o o o o o o o o b-filter
+Instagram	ShowPicturesWithLocation	pokaż zdjęcia na instagramie które zrobiłem w pune	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi moje zdjęcia na instagramie w których gps ustawiony jest w wrocławiu	o o o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl zdjęcia na instagramie które zrobiłem w elbląg	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl mi moje zdjęcia na instagramie w których gps ustawiony jest w krakowie	o o o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wylistuj zdjęcia na instagramie które zrobiłem w detroit	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	otwórz mi moje zdjęcia na instagramie w których gps ustawiony jest w ostrzeszów	o o o o o o o o o o o o b-location
+Instagram	ShowPicturesWithHashtag	pokaż zdjęcia na instagramie które mają tag pieski	o o o o o o o b-hashtag
+Instagram	ShowPicturesWithHashtag	otwórz mi moje zdjęcia na instagramie z tagiem fashion	o o o o o o o o b-hashtag
+Instagram	PostWithPicturesFromDateAndWithLocation	stwórz kolaż na instagrama ze zdjęciami zrobionymi w são paulo w poniedziałek	o o o o o o o o b-location i-location o b-date_day
+Instagram	PostWithPicturesFromDateAndWithLocation	utwórz nowy kolaż na instagramie ze wszystkimi zdjęciami zrobionymi w buenos aires lutym	o o o o o o o o o o b-location i-location b-date_month
+Instagram	ShowPicturesFromDate	pokaż zdjęcia zrobione w czwartek	o o o o b-date_day
+Instagram	ShowPicturesFromDate	pokaż mi moje posty zrobione marcu	o o o o o b-date_month
+Instagram	ShowPicturesFromDate	wyświetl zdjęcia zrobione w poniedziałek	o o o o b-date_day
+Instagram	ShowPicturesFromDate	wylistuj mi moje posty zrobione lipcu	o o o o o b-date_month
+Instagram	ShowPicturesFromDate	otwórz zdjęcia zrobione w czwartek	o o o o b-date_day
+Instagram	ShowPicturesFromDate	otwórz mi moje posty zrobione sierpniu	o o o o o b-date_month
+Instagram	TakePicture	zrób zdjęcie na instagrama	o o o o
+Instagram	TakePicture	utwórz selfie przy użyciu instagrama	o o o o o
+Instagram	PostWithLastPictureWithLocationAndWithHashtag	stwórz post na instagrama z ostatniego zdjęcia z galerii	o o o o o o o o o
+Instagram	PostWithLastPictureWithLocationAndWithHashtag	utwórz nowy post na instagramie z ostatniego zdjęcia z galerii i dodaj hashtag kuchnia	o o o o o o o o o o o o o b-hashtag

@@ -1,0 +1,6 @@
+domain	intent	utterance	bio
+News	ShowNews	latest news on nyt	o o o b-portal
+News	ShowNews	show the news from time	o o o o b-portal
+News	ShowNewsFromSection	the time magazine sport section	o b-portal i-portal b-section o
+News	NotifyWhenPortalUpdates	notify me when nyt news updates	o o o b-portal o o
+News	NotifyWhenPortalUpdatesInSection	notify me when the ny times celebrity section publishes a new article	o o o o b-portal i-portal b-section o o o o o

@@ -1,0 +1,157 @@
+domain	intent	utterance	bio
+Websearch	OpenEngine	search on bing	o o o
+Websearch	OpenEngine	search on google	o o o
+Websearch	OpenEngine	search on duckduckgo	o o o
+Websearch	OpenEngine	bing search	o o
+Websearch	OpenEngine	google search	o o
+Websearch	OpenEngine	duckduckgo search	o o
+Websearch	SearchText	pages matching skype-a-thon	o o b-txt_query
+Websearch	SearchText	pages matching jamf eau claire wi	o o b-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchText	pages matching mla	o o b-txt_query
+Websearch	SearchText	pages matching cargo	o o b-txt_query
+Websearch	SearchText	pages matching hair	o o b-txt_query
+Websearch	SearchText	pages matching google docs	o o b-txt_query i-txt_query
+Websearch	SearchText	pages matching kill	o o b-txt_query
+Websearch	SearchText	pages matching forever 21 returns	o o b-txt_query i-txt_query i-txt_query
+Websearch	SearchText	pages matching crosssite	o o b-txt_query
+Websearch	SearchText	web sites matching storeassociate	o o o b-txt_query
+Websearch	SearchText	web sites matching cozy 2-bedroom in centralia	o o o b-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchText	web sites matching international council of aids service organizations	o o o b-txt_query i-txt_query i-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchText	web sites matching health diet exercise app	o o o b-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchText	web sites matching craigslist	o o o b-txt_query
+Websearch	SearchText	web sites matching gas stations near me	o o o b-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchText	web sites matching beef cuts diagram	o o o b-txt_query i-txt_query i-txt_query
+Websearch	SearchText	web sites matching nhl scores	o o o b-txt_query i-txt_query
+Websearch	SearchText	web sites matching spectrum	o o o b-txt_query
+Websearch	SearchText	web sites matching forecast	o o o b-txt_query
+Websearch	SearchText	websites matching inexpensive internet device	o o b-txt_query i-txt_query i-txt_query
+Websearch	SearchText	websites matching okc thunder	o o b-txt_query i-txt_query
+Websearch	SearchText	websites matching weight loss	o o b-txt_query i-txt_query
+Websearch	SearchText	websites matching gopro	o o b-txt_query
+Websearch	SearchText	websites matching small and medium size businesses	o o b-txt_query i-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchText	websites matching soc biz	o o b-txt_query i-txt_query
+Websearch	SearchText	websites matching how to be an awesome interviewee.	o o b-txt_query i-txt_query i-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchText	websites matching harry potter	o o b-txt_query i-txt_query
+Websearch	SearchText	websites matching how to fold a paper airplane	o o b-txt_query i-txt_query i-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	vegan recipes on bing	b-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	x box bundles on bing	b-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	fanfiction on bing	b-txt_query o o
+Websearch	SearchTextOnEngine	infrastructure automation on bing	b-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	how to set up an aquaponics system on bing	b-txt_query i-txt_query i-txt_query i-txt_query i-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	rotator cuff injury on bing	b-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	cheap iphone on bing	b-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	baked ziti recipe on bing	b-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	kik on bing	b-txt_query o o
+Websearch	SearchTextOnEngine	ipod touch on bing	b-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	automatic cash back apps on duckduckgo	b-txt_query i-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	yoga on duckduckgo	b-txt_query o o
+Websearch	SearchTextOnEngine	cheap parking downtown toronto on duckduckgo	b-txt_query i-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	ambient internet on duckduckgo	b-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	p90x on duckduckgo	b-txt_query o o
+Websearch	SearchTextOnEngine	how to build a good ux portfolio on duckduckgo	b-txt_query i-txt_query i-txt_query i-txt_query i-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	quotes by sylvia plath on duckduckgo	b-txt_query i-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	best health app on duckduckgo	b-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	barber shop near me on duckduckgo	b-txt_query i-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	hair salon near me on duckduckgo	b-txt_query i-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	post office on google	b-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	systems on google	b-txt_query o o
+Websearch	SearchTextOnEngine	barcamp münchen on google	b-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	sacramento events and attractions on google	b-txt_query i-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	house of on google	b-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	ikea chairs on google	b-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	macbook pro on google	b-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	reduction on google	b-txt_query o o
+Websearch	SearchTextOnEngine	cream danish recipes on google	b-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	bing 25 miljarder	o b-txt_query i-txt_query
+Websearch	SearchTextOnEngine	bing journeys	o b-txt_query
+Websearch	SearchTextOnEngine	bing goalsetting app	o b-txt_query i-txt_query
+Websearch	SearchTextOnEngine	bing google docs	o b-txt_query i-txt_query
+Websearch	SearchTextOnEngine	bing google image search	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	bing elon musk twitter	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	bing osper	o b-txt_query
+Websearch	SearchTextOnEngine	bing hydroponics system diy	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	bing rihanna	o b-txt_query
+Websearch	SearchTextOnEngine	duckduckgo asian visa details	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	duckduckgo fitness nutrition results	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	duckduckgo easy vegan recipes	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	duckduckgo compare streaming devices	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	duckduckgo email from joe	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	duckduckgo olympic training behind scenes	o b-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	duckduckgo google classroom	o b-txt_query i-txt_query
+Websearch	SearchTextOnEngine	duckduckgo son of citations	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	duckduckgo hiking trails app	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	duckduckgo sarah sparks, indiana	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	google interview process for wellstar inc	o b-txt_query i-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	google john doe portsmouth nike	o b-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	google oracle customer experience	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	google walmart	o b-txt_query
+Websearch	SearchTextOnEngine	google skepta social media pages?	o b-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	google memes	o b-txt_query
+Websearch	SearchTextOnEngine	google weightloss	o b-txt_query
+Websearch	SearchTextOnEngine	google adp portal	o b-txt_query i-txt_query
+Websearch	SearchTextOnEngine	google url detonation	o b-txt_query i-txt_query
+Websearch	SearchImagesWithTextOnEngine	samsung galaxy s5 images on bing	b-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	iphone 6 images on bing	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	joker images images on bing	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	mike trout images on bing	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	adele weight loss images on bing	b-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	atari breakout images on bing	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	heisenberg images on duckduckgo	b-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	nintendo switch images on duckduckgo	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	wallpaper free fire images on duckduckgo	b-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	earl sweatshirt images on duckduckgo	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	trippy drawings images on duckduckgo	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	2020 quotes images on duckduckgo	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	slope formula images on google	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	qr code images on google	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	kd shoes images on google	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	50 shades of grey images on google	b-img_query i-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	cute drawings images on google	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	images matching running meme from bing	o o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching pizza hut menu from bing	o o b-img_query i-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching munchkin cat from bing	o o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching fluttershy from bing	o o b-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching multiplication chart from bing	o o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching nikki bella from duckduckgo	o o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching love quotes for him from duckduckgo	o o b-img_query i-img_query i-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching nike free run from duckduckgo	o o b-img_query i-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching burito hat from duckduckgo	o o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching old songs from duckduckgo	o o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching random drawing generator from duckduckgo	o o b-img_query i-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching black hole image from google	o o b-img_query i-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching nebulae from google	o o b-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching gordon ramsay from google	o o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching people of wallmart from google	o o b-img_query i-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching april fool images from google	o o b-img_query i-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching pentagon shape from google	o o b-img_query i-img_query o o
+Websearch	SearchImagesOnEngine	image search	o o
+Websearch	SearchImagesOnEngine	search images on bing	o o o o
+Websearch	SearchImagesOnEngine	search images on google	o o o o
+Websearch	SearchImagesOnEngine	bing image search	o o o
+Websearch	SearchImagesOnEngine	google image search	o o o
+Websearch	SearchImagesOnEngine	duckduckgo image search	o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	images from bing matching coolmath with size 800 x 600	o o o o b-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	images from google matching angry birds with size 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching windows 7 wider than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching tallest man larger than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching billie eilish drawing larger than 800 x 600	o o o o b-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching lebron 12 taller than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching tibetan mastiff taller than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching teacup pig smaller than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching iphone 7 plus smaller than 800 x 600	o o o o b-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching south of france haircut wider than 800	o o o o b-img_query i-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching bed bugs bites wider than 800 x 600	o o o o b-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching satellite image larger than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching the rachel larger than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching 2020 calendar taller than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching beats by dre taller than 800 x 600	o o o o b-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching 2020 olympics logo smaller than 800	o o o o b-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching human centipede smaller than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching stranger things logo wider than 800	o o o o b-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching relationship quotes wider than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching kate moss larger than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching selfie larger than 800 x 600	o o o o b-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching open floor plans taller than 800	o o o o b-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching blue waffles taller than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching cat memes smaller than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching drone smaller than 800 x 600	o o o o b-img_query o o o o o

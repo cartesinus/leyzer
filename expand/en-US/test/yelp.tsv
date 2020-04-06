@@ -1,0 +1,21 @@
+domain	intent	utterance	bio
+Yelp	SearchRestaurant	find restaurant nearby	o o o
+Yelp	SearchRestaurant	search restaurants on yelp	o o o o
+Yelp	SearchByQuery	coffee shop	b-query i-query
+Yelp	SearchByRating	3 star restaurants on yelp	b-rating o o o o
+Yelp	SearchByCategory	french restaurants around here	b-category o o o
+Yelp	OpenRestaurants	restaurants open now	o o o
+Yelp	SearchByReviewCount	restaurants here reviewed by at least 100 people	o o o o o o b-review_count o
+Yelp	OpenRestaurantsInLocation	open restaurants near kreuzberg	o o o b-location
+Yelp	OpenRestaurantsInLocation	restaurants still open around ravenden springs	o o o o b-location i-location
+Yelp	SearchByCategoryInLocation	japanease food around hanlontown	b-category o o b-location
+Yelp	SearchByCategoryInLocation	french restaurants near west leyden	b-category o o b-location i-location
+Yelp	SearchByQueryInLocation	lorain county sushi around nelsonia	b-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	pizza near evart on yelp	b-query o b-location o o
+Yelp	SearchByRatingInLocation	3 star restaurants around schofield barracks	b-rating o o o b-location i-location
+Yelp	SearchByRatingInLocation	4 star restaurants in mount lemmon	b-rating o o o b-location i-location
+Yelp	SearchByRatingInLocation	restaurants nearby with at least 3 star rating near cincinnatus	o o o o o b-rating o o o b-location
+Yelp	SearchByReviewCountInLocation	restaurants around tokio reviewed by at least 1000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near inarajan reviewed by more than 1000 people	o o b-location o o o o b-review_count o
+Yelp	SearchInLocation	restaurants around mill run	o o b-location i-location
+Yelp	SearchInLocation	restaurants next to santa rita park	o o o b-location i-location i-location

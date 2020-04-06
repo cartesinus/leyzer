@@ -1,0 +1,18 @@
+domain	intent	utterance	bio
+Youtube	OpenYT	open youtube app	o o o
+Youtube	FindQuery	find jacksepticeye on youtube	o b-query o o
+Youtube	FindQuery	find a video matching china crowded pics on youtube	o o o o b-query i-query i-query o o
+Youtube	FindQuery	look for 1995 jeep radio repair videos videos on youtube	o o b-query i-query i-query i-query i-query o o o
+Youtube	FindQuery	play unfreezing frozen pipes video on youtube	o b-query i-query i-query o o o
+Youtube	FindQuery	search for youtube video dubstep	o o o o b-query
+Youtube	ShowChannelWithName	show youtube channel pewdiepie	o o o b-channel_id
+Youtube	ShowChannelWithCategory	display youtube 's comedy channels	o o o b-category o
+Youtube	ShowSubscribedChannels	show me channels I am subscribed to on youtube app	o o o o o o o o o o
+Youtube	ShowFollowing	show me youtube channels i follow	o o o o o o
+Youtube	FindChannelWithQuery	look for rockabye baby rockabye baby song channels on youtube	o o b-query i-query i-query i-query i-query o o o
+Youtube	FindChannelWithQuery	search for youtube channel taylor swift	o o o o b-query i-query
+Youtube	FindQueryOnChannel	show a video from niki and gabi matching seinfeld on youtube	o o o o b-channel_id i-channel_id i-channel_id o b-query o o
+Youtube	FindQueryOnChannel	show me a video from cineamasin matching lipstick on youtube	o o o o o b-channel_id o b-query o o
+Youtube	FindQueryOnChannel	show me a videos published by wwe matching great gatsby on youtube	o o o o o o b-channel_id o b-query i-query o o
+Youtube	NotifyOnNewFromFollowing	notify me when there is new video from youtube channels I follow	o o o o o o o o o o o o
+Youtube	NotifyonNewOnChannel	notify me when there is new video from youtube channel unbox therapy	o o o o o o o o o o b-channel_id i-channel_id

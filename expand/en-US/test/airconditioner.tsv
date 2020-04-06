@@ -1,0 +1,16 @@
+domain	intent	utterance	bio
+Airconditioner	TurnOff	switch the air conditioning off	o o b-av_alias i-av_alias o
+Airconditioner	TurnOff	turn the ac off	o o b-av_alias o
+Airconditioner	TurnOn	switch on the aircon	o o o b-av_alias
+Airconditioner	TurnOn	turn the aircon on	o o b-av_alias o
+Airconditioner	ChangeTemperature	change the minimum and maximum temperatures on my thermostat	o o o o o o o o o
+Airconditioner	SetTemperatureToValue	set set my thermostat to 25 degree	o o o o o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	set the temperature to 80 degrees fahrenheit on my hall thermostat	o o o o b-value i-value i-value o o b-device_name o
+Airconditioner	SetTemperatureBetweenValues	set the low temperature to 23 degree on my thermostat , and the high to 29 degree	o o o o o o o o o o o o o o o o o
+Airconditioner	SetTemperatureOnDevice	change the minimum and maximum temperatures on my living room thermostat	o o o o o o o o b-device_name i-device_name o
+Airconditioner	GetHumidity	show the humidity level	o o o o
+Airconditioner	GetHumidity	check the humidity level	o o o o
+Airconditioner	GetTemperature	what temperature do I have in here according to my cooling system ?	o o o o o o o o o o b-av_alias i-av_alias o
+Airconditioner	GetTemperature	what temperature is it in here according to my air conditioning ?	o o o o o o o o o b-av_alias i-av_alias o
+Airconditioner	GetTemperatureFromDevice	check the temperature of the kitchen room temperature sensor	o o o o o b-device_name o o o
+Airconditioner	GetTemperatureFromDevice	what does the living room indoor temperature sensor show ?	o o o b-device_name i-device_name o o o o o

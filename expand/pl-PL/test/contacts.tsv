@@ -1,0 +1,30 @@
+domain	intent	utterance	bio
+Contacts	OpenContacts	pokaż moją listę kontaktów	o o o o
+Contacts	OpenMyContact	wyświetl mój wpis w kontaktach	o o o o o
+Contacts	ShowContactWithEmail	pokaż kontakt z adresem email bartosz.majewski@gazeta.pl	o o o o o b-email
+Contacts	ShowContactWithEmail	pokaż mój kontakt z emailem florian342@gazeta.pl	o o o o o b-email
+Contacts	ShowContactWithEmail	wyświetl mój kontakt z mailem andrzej.nowak@onet.pl	o o o o o b-email
+Contacts	ShowContactWithNumber	wyświetl mój kontakt o numerze 573 571 750	o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	otwórz mój kontakt o numerze telefonu +48 22 529 47 38	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithName	pokaż kontakt o nazwie jacek chruszczewski	o o o o b-name i-name
+Contacts	ShowContactWithNumberAndWithEmail	pokaż kontakt z numerem 82 546 33 53 oraz z mailem jakub18981@o2.pl	o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	pokaż kontakt o numerze telefonu 32 452 58 47 i z mailem michał.szulc@gazeta.pl	o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	pokaż mój kontakt z numerem 91 126 14 51 oraz z adresem email liliana.wiśniewski@gazeta.pl	o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	wyświetl kontakt z numerem telefonu 779 569 656 oraz o adresie email rozalia.małecki@interia.pl	o o o o o b-phone_number i-phone_number i-phone_number o o o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	wyświetl kontakt o numerze telefonu 752 970 507 i z mailem zofia21912@gmail.com	o o o o o b-phone_number i-phone_number i-phone_number o o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	wyświetl mój kontakt z numerem 67 884 26 57 oraz z adresem email julita.przybysz@o2.pl	o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	otwórz kontakt o numerze 528 215 488 oraz z mailem eugeniusz.jakubowski@gmail.com	o o o o b-phone_number i-phone_number i-phone_number o o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	znajdź kto ma numer telefonu 501 893 846 i adres marek21037@gazeta.pl	o o o o o b-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNameAndWithNumberAndWithType	stwórz kontakt o nazwie oskar kozłowski z numerem 44 687 98 68	o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	stwórz kontakt nazywając go bolesław o numerze 713 564 555 jako typ pracowy	o o o o b-name o o b-phone_number i-phone_number i-phone_number o o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	stwórz nowy kontakt nazywając go konrad mazur o numerze 85 413 72 21	o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	EditContactWithName	aktualizuj kontakt o nazwie magdalena niedzielski	o o o o b-name i-name
+Contacts	EditContactWithName	popraw kontakt filip hoffmann	o o b-name i-name
+Contacts	EditContactWithName	otwórz mój kontakt alina grec żeby go edytować	o o o b-name i-name o o o
+Contacts	EditContactWithNumber	aktualizuj nazwę kontaktu z numerem +48 686 975 916	o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	EditContactWithNumber	popraw nazwę kontaktu z numerem 624 899 863	o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	EditNumberInContactWithName	aktualizuj numer mojego kontaktu o nazwie paula kałuża	o o o o o o b-name i-name
+Contacts	EditNumberInContactWithName	popraw numer mojego kontaktu o nazwie małpa	o o o o o o b-name
+Contacts	EditNumberInContactWithName	zmień numer telefonu mojego kontaktu nazywający się celina	o o o o o o o b-name
+Contacts	EditNumberInContactWithNameToNumberAndToType	ustaw numer 22 124 47 90 jako domowy i nazwij go ludwik przybysz	o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type o o o b-name i-name
+Contacts	EditNumberInContactWithNameToNumberAndToType	zapisz anatol z numerem 62 531 65 46 jako typ pracowy	o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-phone_type

@@ -1,0 +1,12 @@
+domain	intent	utterance	bio
+Gdrive	OpenGdrive	list my files in google drive	o o o o o o
+Gdrive	ShowFilesWithType	show my google drive files of type mp3	o o o o o o o b-mime_type
+Gdrive	ShowFilesWithStar	list the google drive files i starred	o o o o o o o
+Gdrive	ShowFilesFromTime	list my google drive files modified today	o o o o o o b-time
+Gdrive	ShowFilesWithSize	list my google drive files larger than 500 kb	o o o o o o o b-file_size i-file_size
+Gdrive	CreateFile	create a file in google drive	o o o o o o
+Gdrive	CreateFileWithName	create a file in google drive named invoice	o o o o o o o b-file_name
+Gdrive	ShowOldestFiles	list my google drive files that were created most recently	o o o o o o o o o o
+Gdrive	SortReverseAlphabetical	list my google drive files in reverse alphabetical order	o o o o o o o o o
+Gdrive	OpenFileWithName	open my newfile for edition in google drive	o o b-file_name o o o o o
+Gdrive	ShareFileWithNameToAddress	share my vegetarian recipies with mary.lou@gmail.com	o o b-file_name i-file_name o b-mail

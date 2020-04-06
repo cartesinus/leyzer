@@ -1,0 +1,143 @@
+domain	intent	utterance	bio
+Weather	OpenWeather	the weather	o o
+Weather	OpenWeather	what's the weather	o o o
+Weather	OpenWeather	what's the weather outside	o o o o
+Weather	OpenWeather	what's the weather like	o o o o
+Weather	OpenWeather	what's the weather like outside	o o o o o
+Weather	WeatherTomorrow	weather tomorrow	o o
+Weather	WeatherTomorrow	what's the weather tommorow	o o o o
+Weather	WeatherTomorrow	what's the weather tommorow like	o o o o o
+Weather	MoonphaseInLocation	moon phase for berlin	o o o b-location
+Weather	MoonphaseInLocation	moon phase for paris	o o o b-location
+Weather	MoonphaseInLocation	moon phase for tokyo	o o o b-location
+Weather	MoonphaseInLocation	moon phase for warsaw	o o o b-location
+Weather	MoonphaseInLocation	moon phase for location new york	o o o o b-location i-location
+Weather	MoonphaseInLocation	moon phase for location dubai	o o o o b-location
+Weather	MoonphaseInLocation	moon phase for location seul	o o o o b-location
+Weather	MoonphaseInLocationOnDate	moon phase for summit on date 15 june	o o o b-location o o b-date i-date
+Weather	MoonphaseInLocationOnDate	moon phase for ringsted on date 7 september	o o o b-location o o b-date i-date
+Weather	MoonphaseInLocationOnDate	moon phase for nixon on date 30 january	o o o b-location o o b-date i-date
+Weather	MoonphaseInLocationOnDate	moon phase for location sussex on date 15 june	o o o o b-location o o b-date i-date
+Weather	MoonphaseInLocationOnDate	moon phase for location saint robert on date 7 september	o o o o b-location i-location o o b-date i-date
+Weather	MoonphaseInLocationOnDate	moon phase for location east berkshire on date 30 january	o o o o b-location i-location o o b-date i-date
+Weather	MoonphaseInLocationOnDate	moon phase for location toyah on date 15 june	o o o o b-location o o b-date i-date
+Weather	SunriseAndSunsetInLocation	sunrise and sunset for location shawano	o o o o o b-location
+Weather	SunriseAndSunsetInLocation	sunrise and sunset for location terrace park	o o o o o b-location i-location
+Weather	SunriseAndSunsetInLocation	sunrise and sunset for location rockhouse	o o o o o b-location
+Weather	SunriseAndSunsetInLocation	sunrise and sunset for location south international falls	o o o o o b-location i-location i-location
+Weather	SunriseAndSunsetInLocation	sunrise and sunset times at fairlee	o o o o o b-location
+Weather	SunriseAndSunsetInLocation	sunrise and sunset times at erin	o o o o o b-location
+Weather	SunriseAndSunsetInLocation	sunrise and sunset times at jayess	o o o o o b-location
+Weather	SunriseAndSunsetInLocationAndOnDate	sunrise and sunset for location beaman on date 30 january	o o o o o b-location o o b-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	sunrise and sunset for location copalis crossing on date 15 june	o o o o o b-location i-location o o b-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	sunrise and sunset for location kraemer on date 7 september	o o o o o b-location o o b-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	sunrise and sunset times at michael on date 30 january	o o o o o b-location o o b-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	sunrise and sunset times at mount orab on date 15 june	o o o o o b-location i-location o o b-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	sunrise and sunset times at index on date 7 september	o o o o o b-location o o b-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	sunrise and sunset times at center moriches on date 30 january	o o o o o b-location i-location o o b-date i-date
+Weather	SunriseInLocation	sunrise at gerton	o o b-location
+Weather	SunriseInLocation	sunrise at midland city	o o b-location i-location
+Weather	SunriseInLocation	sunrise at round rock	o o b-location i-location
+Weather	SunriseInLocation	sunrise time at kaneohe	o o o b-location
+Weather	SunriseInLocation	sunrise time at high bridge	o o o b-location i-location
+Weather	SunriseInLocation	sunrise time at east fairfield	o o o b-location i-location
+Weather	SunriseInLocation	sunrise time at wynne	o o o b-location
+Weather	SunriseInLocation	when is sunrise at newkirk	o o o o b-location
+Weather	SunriseInLocation	when is sunrise at wheeling	o o o o b-location
+Weather	SunriseInLocation	when is sunrise at ewen	o o o o b-location
+Weather	SunriseInLocation	when is sunrise at mass city	o o o o b-location i-location
+Weather	SunriseInLocation	when is sunrise time at lynndyl	o o o o o b-location
+Weather	SunriseInLocation	when is sunrise time at coppell	o o o o o b-location
+Weather	SunriseInLocation	when is sunrise time at ridgefield	o o o o o b-location
+Weather	SunriseInLocation	when is sunrise time at kellyton	o o o o o b-location
+Weather	SunsetInLocation	sunset at mount judea	o o b-location i-location
+Weather	SunsetInLocation	sunset at johnson	o o b-location
+Weather	SunsetInLocation	sunset at bluff	o o b-location
+Weather	SunsetInLocation	sunset at alfred station	o o b-location i-location
+Weather	SunsetInLocation	sunset time at dinwiddie	o o o b-location
+Weather	SunsetInLocation	sunset time at cana	o o o b-location
+Weather	SunsetInLocation	sunset time at estherville	o o o b-location
+Weather	SunsetInLocation	when is sunset at dunfermline	o o o o b-location
+Weather	SunsetInLocation	when is sunset at north lakewood	o o o o b-location i-location
+Weather	SunsetInLocation	when is sunset at hume	o o o o b-location
+Weather	SunsetInLocation	when is sunset at french creek	o o o o b-location i-location
+Weather	SunsetInLocation	when is sunset time at conetoe	o o o o o b-location
+Weather	SunsetInLocation	when is sunset time at minster	o o o o o b-location
+Weather	SunsetInLocation	when is sunset time at dalbo	o o o o o b-location
+Weather	SunsetInLocation	when is sunset time at reed	o o o o o b-location
+Weather	WeatherInLocation	current weather at indian head	o o o b-location i-location
+Weather	WeatherInLocation	current weather at mitchellsburg	o o o b-location
+Weather	WeatherInLocation	current weather at yeagertown	o o o b-location
+Weather	WeatherInLocation	current weather in ashland city	o o o b-location i-location
+Weather	WeatherInLocation	current weather in treadwell	o o o b-location
+Weather	WeatherInLocation	current weather in ohkay owingeh	o o o b-location i-location
+Weather	WeatherInLocation	current weather in whiteville	o o o b-location
+Weather	WeatherInLocation	the current weather at skaneateles	o o o o b-location
+Weather	WeatherInLocation	the current weather at avon by the sea	o o o o b-location i-location i-location i-location
+Weather	WeatherInLocation	the current weather at jim falls	o o o o b-location i-location
+Weather	WeatherInLocation	the current weather in ninety six	o o o o b-location i-location
+Weather	WeatherInLocation	the current weather in maury	o o o o b-location
+Weather	WeatherInLocation	the current weather in church rock	o o o o b-location i-location
+Weather	WeatherInLocation	the current weather in sekiu	o o o o b-location
+Weather	WeatherInLocation	the weather at west memphis	o o o b-location i-location
+Weather	WeatherInLocation	the weather at huletts landing	o o o b-location i-location
+Weather	WeatherInLocation	the weather at agenda	o o o b-location
+Weather	WeatherInLocation	the weather at taconite	o o o b-location
+Weather	WeatherInLocation	the weather in ordinary	o o o b-location
+Weather	WeatherInLocation	the weather in granite springs	o o o b-location i-location
+Weather	WeatherInLocation	the weather in manitowish waters	o o o b-location i-location
+Weather	WeatherInLocation	the weather in green	o o o b-location
+Weather	WeatherInLocation	weather at fountaintown	o o b-location
+Weather	WeatherInLocation	weather at melissa	o o b-location
+Weather	WeatherInLocation	weather at smith	o o b-location
+Weather	WeatherInLocation	weather at footville	o o b-location
+Weather	WeatherInLocation	weather in shell	o o b-location
+Weather	WeatherInLocation	weather in mechanicville	o o b-location
+Weather	WeatherInLocation	weather in maple view	o o b-location i-location
+Weather	WeatherInLocation	weather in fort wayne	o o b-location i-location
+Weather	WeatherInLocation	what is the wather in pennville	o o o o o b-location
+Weather	WeatherInLocation	what is the wather in falcon heights	o o o o o b-location i-location
+Weather	WeatherInLocation	what is the wather in holder	o o o o o b-location
+Weather	WeatherInLocation	what is the wather in oscoda	o o o o o b-location
+Weather	WeatherInLocation	what is the wather like in king ferry	o o o o o o b-location i-location
+Weather	WeatherInLocation	what is the wather like in au gres	o o o o o o b-location i-location
+Weather	WeatherInLocation	what is the wather like in new berlinville	o o o o o o b-location i-location
+Weather	WeatherInLocation	what is the wather like in candor	o o o o o o b-location
+Weather	WeatherTomorrowInLocation	current weather at mc callsburg tomorrow	o o o b-location i-location o
+Weather	WeatherTomorrowInLocation	current weather at pickrell tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	current weather at burke tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	current weather in zenia tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	current weather in la crosse tomorrow	o o o b-location i-location o
+Weather	WeatherTomorrowInLocation	current weather in lizella tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	current weather in hoffman tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	the current weather at koleen tomorrow	o o o o b-location o
+Weather	WeatherTomorrowInLocation	the current weather at creola tomorrow	o o o o b-location o
+Weather	WeatherTomorrowInLocation	the current weather at chouteau tomorrow	o o o o b-location o
+Weather	WeatherTomorrowInLocation	the current weather at blountstown tomorrow	o o o o b-location o
+Weather	WeatherTomorrowInLocation	the current weather in jonesborough tomorrow	o o o o b-location o
+Weather	WeatherTomorrowInLocation	the current weather in tad tomorrow	o o o o b-location o
+Weather	WeatherTomorrowInLocation	the current weather in earlville tomorrow	o o o o b-location o
+Weather	WeatherTomorrowInLocation	the current weather in lucan tomorrow	o o o o b-location o
+Weather	WeatherTomorrowInLocation	the weather at jameson tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	the weather at estill tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	the weather at heyburn tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	the weather at pleasant hall tomorrow	o o o b-location i-location o
+Weather	WeatherTomorrowInLocation	the weather in bracey tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	the weather in pinehurst tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	the weather in scotts tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	the weather in eudora tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	weather at frazer tomorrow	o o b-location o
+Weather	WeatherTomorrowInLocation	weather at eldorado tomorrow	o o b-location o
+Weather	WeatherTomorrowInLocation	weather at curran tomorrow	o o b-location o
+Weather	WeatherTomorrowInLocation	weather in stearns tomorrow	o o b-location o
+Weather	WeatherTomorrowInLocation	weather in labelle tomorrow	o o b-location o
+Weather	WeatherTomorrowInLocation	weather in elka park tomorrow	o o b-location i-location o
+Weather	WeatherTomorrowInLocation	weather in lusk tomorrow	o o b-location o
+Weather	WeatherTomorrowInLocation	what is the wather in shady point tomorrow	o o o o o b-location i-location o
+Weather	WeatherTomorrowInLocation	what is the wather in beggs tomorrow	o o o o o b-location o
+Weather	WeatherTomorrowInLocation	what is the wather in cushing tomorrow	o o o o o b-location o
+Weather	WeatherTomorrowInLocation	what is the wather in isle of palms tomorrow	o o o o o b-location i-location i-location o
+Weather	WeatherTomorrowInLocation	what is the wather like in elkhorn tomorrow	o o o o o o b-location o
+Weather	WeatherTomorrowInLocation	what is the wather like in lowndesboro tomorrow	o o o o o o b-location o
+Weather	WeatherTomorrowInLocation	what is the wather like in dice tomorrow	o o o o o o b-location o
+Weather	WeatherTomorrowInLocation	what is the wather like in west babylon tomorrow	o o o o o o b-location i-location o

@@ -1,0 +1,268 @@
+domain	intent	utterance	bio
+Slack	OpenSlack	otwórz slacka	o o
+Slack	OpenSlack	otwórz aplikację slacka	o o o
+Slack	OpenSlack	uruchom slacka	o o
+Slack	CheckLastMessages	sprawdź historię kanału na slacku	o o o o o
+Slack	CheckLastMessages	sprawdź ostatnie wiadomości na slacku	o o o o o
+Slack	CheckLastMessages	sprawdź ostatnie historię kanału na slacku	o o o o o o
+Slack	CheckLastMessages	sprawdź najnowsze wiadomości na slacku	o o o o o
+Slack	CheckLastMessages	sprawdź najnowsze historię kanału na slacku	o o o o o o
+Slack	CheckLastMessages	sprawdź moje wiadomości na slacku	o o o o o
+Slack	CheckLastMessages	sprawdź moje historię kanału na slacku	o o o o o o
+Slack	CheckLastMessages	sprawdź moje ostatnie wiadomości na slacku	o o o o o o
+Slack	CheckLastMessages	sprawdź moje ostatnie historię kanału na slacku	o o o o o o o
+Slack	CheckLastMessages	sprawdź moje najnowsze wiadomości na slacku	o o o o o o
+Slack	CheckLastMessages	pokaż historię kanału na slacku	o o o o o
+Slack	CheckLastMessages	pokaż ostatnie wiadomości na slacku	o o o o o
+Slack	CheckLastMessages	pokaż ostatnie historię kanału na slacku	o o o o o o
+Slack	CheckLastMessages	pokaż najnowsze wiadomości na slacku	o o o o o
+Slack	CheckLastMessages	pokaż najnowsze historię kanału na slacku	o o o o o o
+Slack	CheckLastMessages	pokaż moje wiadomości na slacku	o o o o o
+Slack	CheckLastMessages	pokaż moje historię kanału na slacku	o o o o o o
+Slack	CheckLastMessages	pokaż moje ostatnie wiadomości na slacku	o o o o o o
+Slack	CheckLastMessages	pokaż moje ostatnie historię kanału na slacku	o o o o o o o
+Slack	CheckLastMessages	pokaż moje najnowsze wiadomości na slacku	o o o o o o
+Slack	CheckUserStatus	czy bogumił kaczmarek jest aktywny na slacku	o b-username i-username o o o o
+Slack	CheckUserStatus	czy wiktoria krawczyk jest w tym momencie aktywny	o b-username i-username o o o o o
+Slack	CheckUserStatus	czy marianna skiba jest w tym momencie aktywny na slacku	o b-username i-username o o o o o o o
+Slack	CheckUserStatus	czy a.wojciechowski jest w tej chwili aktywny	o b-username o o o o o
+Slack	CheckUserStatus	czy aurelia jest w tej chwili aktywny na slacku	o b-username o o o o o o o
+Slack	CheckUserStatus	powiedź czy z.kłossowski jest aktywny na slacku	o o b-username o o o o
+Slack	CheckUserStatus	powiedź czy miłosz pasternak jest w tym momencie aktywny	o o b-username i-username o o o o o
+Slack	CheckUserStatus	powiedź czy p.duda jest w tym momencie aktywny na slacku	o o b-username o o o o o o o
+Slack	CheckUserStatus	powiedź czy a.niewiadomski jest w tej chwili aktywny	o o b-username o o o o o
+Slack	CheckUserStatus	powiedź czy z.borkowski jest w tej chwili aktywny na slacku	o o b-username o o o o o o o
+Slack	CheckUserStatus	powiedź mi czy e.czarnecki jest aktywny	o o o b-username o o
+Slack	CheckUserStatus	powiedź mi czy alina grec jest aktywny na slacku	o o o b-username i-username o o o o
+Slack	CheckUserStatus	powiedź mi czy e.wesołowski jest w tym momencie aktywny	o o o b-username o o o o o
+Slack	CheckUserStatus	powiedź mi czy fabian stawecki jest w tym momencie aktywny na slacku	o o o b-username i-username o o o o o o o
+Slack	CheckUserStatus	powiedź mi czy l.piątek jest w tej chwili aktywny	o o o b-username o o o o o
+Slack	CheckUserStatus	powiedź mi czy zenona skiba jest w tej chwili aktywny na slacku	o o o b-username i-username o o o o o o o
+Slack	CheckMessagesFromUser	sprawdź wiadomości które otrzymałem od wilhelm gawroński	o o o o o b-sender i-sender
+Slack	CheckMessagesFromUser	sprawdź ostatnie wiadomości od rajmund stawecki	o o o o b-sender i-sender
+Slack	CheckMessagesFromUser	sprawdź ostatnie wiadomości które otrzymałem od teodozja	o o o o o o b-sender
+Slack	CheckMessagesFromUser	sprawdź najnowsze wiadomości od wioletta woźniak	o o o o b-sender i-sender
+Slack	CheckMessagesFromUser	sprawdź najnowsze wiadomości które otrzymałem od józef	o o o o o o b-sender
+Slack	CheckMessagesFromUser	pokaż wiadomości od arnold	o o o b-sender
+Slack	CheckMessagesFromUser	pokaż wiadomości które otrzymałem od henryk topolski	o o o o o b-sender i-sender
+Slack	CheckMessagesFromUser	pokaż ostatnie wiadomości od monika jasna	o o o o b-sender i-sender
+Slack	CheckMessagesFromUser	pokaż ostatnie wiadomości które otrzymałem od ilona	o o o o o o b-sender
+Slack	CheckMessagesFromUser	pokaż najnowsze wiadomości od lucjan kałuża	o o o o b-sender i-sender
+Slack	CheckMessagesInChannel	sprawdź ostatnie wiadomości na kanale hiszpański 2020-2025	o o o o o b-channel i-channel
+Slack	CheckMessagesInChannel	sprawdź ostatnie wiadomości które otrzymałem w kanale wstęp do językoznastwa 2 rok	o o o o o o o b-channel i-channel i-channel i-channel i-channel
+Slack	CheckMessagesInChannel	sprawdź ostatnie wiadomości które otrzymałem na kanale heheszki	o o o o o o o b-channel
+Slack	CheckMessagesInChannel	sprawdź najnowsze wiadomości w kanale ai krafty	o o o o o b-channel i-channel
+Slack	CheckMessagesInChannel	sprawdź najnowsze wiadomości na kanale curly girls polska	o o o o o b-channel i-channel i-channel
+Slack	CheckMessagesInChannel	sprawdź najnowsze wiadomości które otrzymałem w kanale impreza	o o o o o o o b-channel
+Slack	CheckMessagesInChannel	sprawdź najnowsze wiadomości które otrzymałem na kanale urodziny andrzeja	o o o o o o o b-channel i-channel
+Slack	CheckMessagesInChannel	sprawdź wiadomości na slackowym kanale joga w ciągu ostatniej godziny	o o o o o b-channel o o o o
+Slack	CheckMessagesInChannel	sprawdź wiadomości na slackowym kanale frontend ostatnio	o o o o o b-channel o
+Slack	CheckMessagesInChannel	pokaż ostatnie wiadomości w kanale praca	o o o o o b-channel
+Slack	CheckMessagesInChannel	pokaż ostatnie wiadomości na kanale hiszpański 2020-2025	o o o o o b-channel i-channel
+Slack	CheckMessagesInChannel	pokaż ostatnie wiadomości które otrzymałem w kanale wstęp do językoznastwa 2 rok	o o o o o o o b-channel i-channel i-channel i-channel i-channel
+Slack	CheckMessagesInChannel	pokaż ostatnie wiadomości które otrzymałem na kanale heheszki	o o o o o o o b-channel
+Slack	CheckMessagesInChannel	pokaż najnowsze wiadomości w kanale ai krafty	o o o o o b-channel i-channel
+Slack	CheckMessagesInChannel	pokaż najnowsze wiadomości na kanale curly girls polska	o o o o o b-channel i-channel i-channel
+Slack	CheckMessagesInChannel	pokaż najnowsze wiadomości które otrzymałem w kanale impreza	o o o o o o o b-channel
+Slack	CheckMessagesInChannel	pokaż najnowsze wiadomości które otrzymałem na kanale urodziny andrzeja	o o o o o o o b-channel i-channel
+Slack	CheckMessagesInChannel	pokaż wiadomości na slackowym kanale joga w ciągu ostatniej godziny	o o o o o b-channel o o o o
+Slack	SendMessageToChannel	wyślij kiedy skończycie na slackowy kanał hiszpański 2020-2025	o b-message i-message o o o b-channel i-channel
+Slack	SendMessageToChannel	wyślij juz do was idę na kanale wstęp do językoznastwa 2 rok	o b-message i-message i-message i-message o o b-channel i-channel i-channel i-channel i-channel
+Slack	SendMessageToChannel	wyślij przepraszam za spóżnienie na slackowym kanale heheszki	o b-message i-message i-message o o o b-channel
+Slack	SendMessageToChannel	prześlij będę później na kanał ai krafty	o b-message o o b-channel i-channel
+Slack	SendMessageToChannel	prześlij spóźnie się 5 minut na slackowy kanał curly girls polska	o b-message i-message i-message o o o b-channel i-channel i-channel
+Slack	SendMessageToChannel	prześlij musimy porozmawiać na kanale impreza	o b-message i-message o o b-channel
+Slack	SendMessageToChannel	prześlij dobrze na slackowym kanale urodziny andrzeja	o b-message o o o b-channel i-channel
+Slack	SendMessageToChannel	napisz tak na kanał joga	o b-message o o b-channel
+Slack	SendMessageToChannel	napisz nie na slackowy kanał frontend	o b-message o o o b-channel
+Slack	SendMessageToChannel	napisz zaraz wracam na kanale praca	o b-message i-message o o b-channel
+Slack	SendMessageToChannel	napisz prześlij mi proszę arkusz z wynikami na slackowym kanale hiszpański 2020-2025	o b-message i-message i-message i-message i-message i-message o o o b-channel i-channel
+Slack	SendMessageToChannel	wiadomość na wstęp do językoznastwa 2 rok o treści jakie są wyniki	o o b-channel i-channel i-channel i-channel i-channel o o b-message i-message
+Slack	SendMessageToChannel	wiadomość na kanał heheszki o treści ile to będzie kosztowało	o o o b-channel o o b-message i-message i-message i-message
+Slack	SendMessageToChannel	wiadomość na slackowy kanał ai krafty o treści nie jem nie chcą mnie	o o o o b-channel i-channel o o b-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	wiadomość na kanale curly girls polska o treści popieram wyszczekany przywódca	o o o b-channel i-channel i-channel o o b-message i-message i-message
+Slack	SendMessageToChannel	wiadomość na slackowym kanale impreza o treści trzeba szykować wodę święconą	o o o o b-channel o o b-message i-message i-message i-message
+Slack	SendMessageToChannel	wyślij wiadomość na kanał joga o treści dziękujemy za muchę	o o o o b-channel o o b-message i-message i-message
+Slack	SendMessageToChannel	wyślij wiadomość na slackowy kanał frontend o treści będzie grać orkiestra z titanica ?	o o o o o b-channel o o b-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	wyślij wiadomość na kanale praca o treści co z opolem ? też mamy niedaleko prószków	o o o o b-channel o o b-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	wyślij wiadomość na slackowym kanale hiszpański 2020-2025 o treści musi to na rusi a w pl jak kto chce	o o o o o b-channel i-channel o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	prześlij wiadomość na wstęp do językoznastwa 2 rok o treści możliwe ale oni chyba coś innego biorą	o o o b-channel i-channel i-channel i-channel i-channel o o b-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	prześlij wiadomość na kanał heheszki o treści mhm w polskim wydaniu czy w amerykańskim ?	o o o o b-channel o o b-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	prześlij wiadomość na slackowy kanał ai krafty o treści ewuniu po co twe słowa one polacy nie dadzą	o o o o o b-channel i-channel o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	prześlij wiadomość na kanale curly girls polska o treści jakieś fakt i liczby?	o o o o b-channel i-channel i-channel o o b-message i-message i-message i-message
+Slack	SendMessageToChannel	prześlij wiadomość na slackowym kanale impreza o treści wielka stopa bezrobocia	o o o o o b-channel o o b-message i-message i-message
+Slack	SendMessageToChannel	napisz wiadomość na urodziny andrzeja o treści hehe rzund na uchodźctwie jednem słowem	o o o b-channel i-channel o o b-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	napisz wiadomość na kanał joga o treści to ten petru od kredytów we frankach ?	o o o o b-channel o o b-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	napisz wiadomość na slackowy kanał frontend o treści damy radę nie martwić się	o o o o o b-channel o o b-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	napisz wiadomość na slackowym kanale hiszpański 2020-2025 o treści aż szkoda że skończy jak partia palikota	o o o o o b-channel i-channel o o b-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	powiedz na wstęp do językoznastwa 2 rok że widzę że pan z pisu a to przepraszam	o o b-channel i-channel i-channel i-channel i-channel o b-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	napisz na heheszki że jakbyście zgłosili to byście znali	o o b-channel o b-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	poinformuj na ai krafty że chyba po ajfony	o o b-channel i-channel o b-message i-message i-message
+Slack	SendMessageToChannel	post na curly girls polska że pięknie pan znokautował girzyńskiego	o o b-channel i-channel i-channel o b-message i-message i-message i-message
+Slack	SetPurposeOnChannel	ustaw cel kanału urodziny andrzeja na prezentacja	o o o b-channel i-channel o b-purpose
+Slack	SetPurposeOnChannel	ustaw cel slackowego kanału joga na demo	o o o o b-channel o b-purpose
+Slack	SetPurposeOnChannel	zmień cel frontend na prezent dla kamili	o o b-channel o b-purpose i-purpose i-purpose
+Slack	SetPurposeOnChannel	zmień cel kanału praca na bug fix	o o o b-channel o b-purpose i-purpose
+Slack	SetPurposeOnChannel	zmień cel slackowego kanału hiszpański 2020-2025 na prezentacja	o o o o b-channel i-channel o b-purpose
+Slack	SetPurposeOnChannel	niech demo będzie celem wstęp do językoznastwa 2 rok	o b-purpose o o b-channel i-channel i-channel i-channel i-channel
+Slack	SetPurposeOnChannel	niech prezent dla kamili będzie celem kanału heheszki	o b-purpose i-purpose i-purpose o o o b-channel
+Slack	SetPurposeOnChannel	niech bug fix będzie celem slackowego kanału ai krafty	o b-purpose i-purpose o o o o b-channel i-channel
+Slack	SetPurposeOnChannel	celem kanału curly girls polska jest prezentacja	o o b-channel i-channel i-channel o b-purpose
+Slack	SetTopicInChannel	ustaw temat kanału urodziny andrzeja na impreza	o o o b-channel i-channel o b-topic
+Slack	SetTopicInChannel	ustaw temat slackowego kanału joga na przeprowadzka	o o o o b-channel o b-topic
+Slack	SetTopicInChannel	niech zmiana wymagań będzie tematem frontend	o b-topic i-topic o o b-channel
+Slack	SetTopicInChannel	niech deadline będzie tematem kanału praca	o b-topic o o o b-channel
+Slack	SetTopicInChannel	niech party będzie tematem slackowego kanału hiszpański 2020-2025	o b-topic o o o o b-channel i-channel
+Slack	SetTopicInChannel	tematem kanału wstęp do językoznastwa 2 rok jest demo	o o b-channel i-channel i-channel i-channel i-channel o b-purpose
+Slack	SetStatusAway	ustaw mnie jako niedostępnego na slacku	o o o o o o
+Slack	SetStatusAway	ustaw mnie jako niedostępną	o o o o
+Slack	SetStatusAway	ustaw mnie jako niedostępną na slacku	o o o o o o
+Slack	SetStatusAway	ustaw mnie jako nieobecnego	o o o o
+Slack	SetStatusAway	ustaw mnie jako nieobecnego na slacku	o o o o o o
+Slack	SetStatusAway	ustaw mnie jako nieobecną	o o o o
+Slack	SetStatusAway	ustaw mnie jako nieobecną na slacku	o o o o o o
+Slack	SetStatusAway	oznacz mnie jako niedostępnego	o o o o
+Slack	SetStatusAway	oznacz mnie jako niedostępnego na slacku	o o o o o o
+Slack	SetStatusAway	oznacz mnie jako niedostępną	o o o o
+Slack	SetStatusAway	oznacz mnie jako niedostępną na slacku	o o o o o o
+Slack	SetStatusAway	oznacz mnie jako nieobecnego	o o o o
+Slack	SetStatusAway	oznacz mnie jako nieobecnego na slacku	o o o o o o
+Slack	SetStatusAway	oznacz mnie jako nieobecną	o o o o
+Slack	SetStatusAway	oznacz mnie jako nieobecną na slacku	o o o o o o
+Slack	SendMessage	wyślij wiadomość	o o
+Slack	SendMessage	wyślij wiadomość na slacka	o o o o
+Slack	SendMessage	prześlij wiadomość	o o
+Slack	SendMessage	prześlij wiadomość na slacku	o o o o
+Slack	SendMessage	prześlij wiadomość na slacka	o o o o
+Slack	SendMessage	napisz wiadomość	o o
+Slack	SendMessage	napisz wiadomość na slacku	o o o o
+Slack	SendMessage	napisz wiadomość na slacka	o o o o
+Slack	SendPictureToChannel	wyślij zdjęcie na kanał na slacku ai krafty	o o o o o o b-channel i-channel
+Slack	SendPictureToChannel	wyślij zdjęcie na kanał slackowy curly girls polska	o o o o o b-channel i-channel i-channel
+Slack	SendPictureToChannel	wyślij film na kanał impreza	o o o o b-channel
+Slack	SendPictureToChannel	wyślij film na kanał na slacku urodziny andrzeja	o o o o o o b-channel i-channel
+Slack	SendPictureToChannel	wyślij film na kanał slackowy joga	o o o o o b-channel
+Slack	SendPictureToChannel	wyślij filmik na kanał frontend	o o o o b-channel
+Slack	SendPictureToChannel	wyślij filmik na kanał na slacku praca	o o o o o o b-channel
+Slack	SendPictureToChannel	wyślij filmik na kanał slackowy hiszpański 2020-2025	o o o o o b-channel i-channel
+Slack	SendPictureToChannel	wyślij gif na kanał wstęp do językoznastwa 2 rok	o o o o b-channel i-channel i-channel i-channel i-channel
+Slack	SendPictureToChannel	wyślij gif na kanał na slacku heheszki	o o o o o o b-channel
+Slack	SendPictureToChannel	wyślij gif na kanał slackowy ai krafty	o o o o o b-channel i-channel
+Slack	SendPictureToChannel	wyślij coś na kanał curly girls polska	o o o o b-channel i-channel i-channel
+Slack	SendPictureToChannel	wyślij coś na kanał na slacku impreza	o o o o o o b-channel
+Slack	SendPictureToChannel	prześlij zdjęcie na kanał joga	o o o o b-channel
+Slack	SendPictureToChannel	prześlij zdjęcie na kanał na slacku frontend	o o o o o o b-channel
+Slack	SendPictureToChannel	prześlij zdjęcie na kanał slackowy praca	o o o o o b-channel
+Slack	SendPictureToChannel	prześlij film na kanał hiszpański 2020-2025	o o o o b-channel i-channel
+Slack	SendPictureToChannel	prześlij film na kanał na slacku wstęp do językoznastwa 2 rok	o o o o o o b-channel i-channel i-channel i-channel i-channel
+Slack	SendPictureToChannel	prześlij film na kanał slackowy heheszki	o o o o o b-channel
+Slack	SendPictureToChannel	prześlij filmik na kanał ai krafty	o o o o b-channel i-channel
+Slack	SendPictureToChannel	prześlij filmik na kanał na slacku curly girls polska	o o o o o o b-channel i-channel i-channel
+Slack	SendPictureToChannel	prześlij filmik na kanał slackowy impreza	o o o o o b-channel
+Slack	SendPictureToChannel	prześlij gif na kanał urodziny andrzeja	o o o o b-channel i-channel
+Slack	SendPictureToChannel	prześlij gif na kanał na slacku joga	o o o o o o b-channel
+Slack	SendPictureToChannel	prześlij gif na kanał slackowy frontend	o o o o o b-channel
+Slack	SendPictureToChannel	prześlij coś na kanał praca	o o o o b-channel
+Slack	SendPictureToChannel	prześlij coś na kanał na slacku hiszpański 2020-2025	o o o o o o b-channel i-channel
+Slack	SendPictureToChannel	prześlij coś na kanał slackowy wstęp do językoznastwa 2 rok	o o o o o b-channel i-channel i-channel i-channel i-channel
+Slack	SendPictureToChannel	udostępnij zdjęcie na kanał heheszki	o o o o b-channel
+Slack	SendPictureToChannel	udostępnij zdjęcie na kanał na slacku ai krafty	o o o o o o b-channel i-channel
+Slack	SendPictureToChannel	udostępnij zdjęcie na kanał slackowy curly girls polska	o o o o o b-channel i-channel i-channel
+Slack	SendPictureToChannel	udostępnij film na kanał impreza	o o o o b-channel
+Slack	SendPictureToChannel	udostępnij film na kanał na slacku urodziny andrzeja	o o o o o o b-channel i-channel
+Slack	SendPictureToChannel	udostępnij film na kanał slackowy joga	o o o o o b-channel
+Slack	SendPictureToChannel	udostępnij filmik na kanał frontend	o o o o b-channel
+Slack	SendPictureToChannel	udostępnij filmik na kanał na slacku praca	o o o o o o b-channel
+Slack	SendPictureToChannel	udostępnij filmik na kanał slackowy hiszpański 2020-2025	o o o o o b-channel i-channel
+Slack	SendPictureToChannel	udostępnij gif na kanał wstęp do językoznastwa 2 rok	o o o o b-channel i-channel i-channel i-channel i-channel
+Slack	SendPictureToChannel	udostępnij gif na kanał na slacku heheszki	o o o o o o b-channel
+Slack	SendPictureToChannel	udostępnij gif na kanał slackowy ai krafty	o o o o o b-channel i-channel
+Slack	SendPictureToChannel	udostępnij coś na kanał curly girls polska	o o o o b-channel i-channel i-channel
+Slack	SendPictureToChannel	udostępnij coś na kanał slackowy urodziny andrzeja	o o o o o b-channel i-channel
+Slack	SendPictureToChannel	wyślij na joga zdjęcie	o o b-channel o
+Slack	SendPictureToChannel	wyślij na frontend film	o o b-channel o
+Slack	SendPictureToChannel	wyślij na praca filmik	o o b-channel o
+Slack	SendPictureToChannel	wyślij na hiszpański 2020-2025 gif	o o b-channel i-channel o
+Slack	SendPictureToChannel	wyślij na wstęp do językoznastwa 2 rok coś	o o b-channel i-channel i-channel i-channel i-channel o
+Slack	SendPictureToChannel	wyślij na kanał heheszki zdjęcie	o o o b-channel o
+Slack	SendPictureToChannel	wyślij na kanał ai krafty film	o o o b-channel i-channel o
+Slack	SendPictureToChannel	wyślij na kanał curly girls polska filmik	o o o b-channel i-channel i-channel o
+Slack	SendPictureToChannel	wyślij na kanał impreza gif	o o o b-channel o
+Slack	SendPictureToChannel	wyślij na kanał urodziny andrzeja coś	o o o b-channel i-channel o
+Slack	SendPictureToChannel	wyślij na slackowy kanał joga zdjęcie	o o o o b-channel o
+Slack	SendPictureToChannel	wyślij na slackowy kanał frontend film	o o o o b-channel o
+Slack	SendPictureToChannel	wyślij na slackowy kanał praca filmik	o o o o b-channel o
+Slack	SendPictureToChannel	wyślij na slackowy kanał hiszpański 2020-2025 gif	o o o o b-channel i-channel o
+Slack	SendPictureToChannel	wyślij na kanale heheszki zdjęcie	o o o b-channel o
+Slack	SendPictureToChannel	wyślij na kanale ai krafty film	o o o b-channel i-channel o
+Slack	SendPictureToChannel	wyślij na kanale curly girls polska filmik	o o o b-channel i-channel i-channel o
+Slack	SendPictureToChannel	wyślij na kanale impreza gif	o o o b-channel o
+Slack	SendPictureToChannel	wyślij na kanale urodziny andrzeja coś	o o o b-channel i-channel o
+Slack	SendPictureToChannel	wyślij na slackowym kanale joga zdjęcie	o o o o b-channel o
+Slack	SendPictureToChannel	wyślij na slackowym kanale frontend film	o o o o b-channel o
+Slack	SendPictureToChannel	wyślij na slackowym kanale praca filmik	o o o o b-channel o
+Slack	SendPictureToChannel	wyślij na slackowym kanale hiszpański 2020-2025 gif	o o o o b-channel i-channel o
+Slack	SendPictureToChannel	wyślij na slackowym kanale wstęp do językoznastwa 2 rok coś	o o o o b-channel i-channel i-channel i-channel i-channel o
+Slack	SendPictureToChannel	prześlij na heheszki zdjęcie	o o b-channel o
+Slack	SendPictureToChannel	prześlij na ai krafty film	o o b-channel i-channel o
+Slack	SendPictureToChannel	prześlij na curly girls polska filmik	o o b-channel i-channel i-channel o
+Slack	SendPictureToChannel	prześlij na impreza gif	o o b-channel o
+Slack	SendPictureToChannel	prześlij na urodziny andrzeja coś	o o b-channel i-channel o
+Slack	SendPictureToChannel	prześlij na kanał joga zdjęcie	o o o b-channel o
+Slack	SendPictureToChannel	prześlij na kanał frontend film	o o o b-channel o
+Slack	SendPictureToChannel	prześlij na kanał praca filmik	o o o b-channel o
+Slack	SendPictureToChannel	prześlij na kanał hiszpański 2020-2025 gif	o o o b-channel i-channel o
+Slack	SendPictureToChannel	prześlij na kanał wstęp do językoznastwa 2 rok coś	o o o b-channel i-channel i-channel i-channel i-channel o
+Slack	SendPictureToChannel	prześlij na slackowy kanał heheszki zdjęcie	o o o o b-channel o
+Slack	SendPictureToChannel	prześlij na slackowy kanał ai krafty film	o o o o b-channel i-channel o
+Slack	SendPictureToChannel	prześlij na slackowy kanał curly girls polska filmik	o o o o b-channel i-channel i-channel o
+Slack	SendPictureToChannel	prześlij na slackowy kanał impreza gif	o o o o b-channel o
+Slack	SendPictureToChannel	prześlij na slackowy kanał urodziny andrzeja coś	o o o o b-channel i-channel o
+Slack	SendPictureToChannel	prześlij na kanale joga zdjęcie	o o o b-channel o
+Slack	SendPictureToChannel	prześlij na kanale frontend film	o o o b-channel o
+Slack	SendPictureToChannel	prześlij na kanale praca filmik	o o o b-channel o
+Slack	SendPictureToChannel	prześlij na kanale hiszpański 2020-2025 gif	o o o b-channel i-channel o
+Slack	SendPictureToChannel	prześlij na kanale wstęp do językoznastwa 2 rok coś	o o o b-channel i-channel i-channel i-channel i-channel o
+Slack	SendPictureToChannel	prześlij na slackowym kanale heheszki zdjęcie	o o o o b-channel o
+Slack	SendPictureToChannel	prześlij na slackowym kanale ai krafty film	o o o o b-channel i-channel o
+Slack	SendPictureToChannel	prześlij na slackowym kanale curly girls polska filmik	o o o o b-channel i-channel i-channel o
+Slack	SendPictureToChannel	prześlij na slackowym kanale impreza gif	o o o o b-channel o
+Slack	SendPictureToChannel	udostępnij na frontend film	o o b-channel o
+Slack	SendPictureToChannel	udostępnij na praca filmik	o o b-channel o
+Slack	SendPictureToChannel	udostępnij na hiszpański 2020-2025 gif	o o b-channel i-channel o
+Slack	SendPictureToChannel	udostępnij na wstęp do językoznastwa 2 rok coś	o o b-channel i-channel i-channel i-channel i-channel o
+Slack	SendPictureToChannel	udostępnij na kanał heheszki zdjęcie	o o o b-channel o
+Slack	SendPictureToChannel	udostępnij na kanał ai krafty film	o o o b-channel i-channel o
+Slack	SendPictureToChannel	udostępnij na kanał curly girls polska filmik	o o o b-channel i-channel i-channel o
+Slack	SendPictureToChannel	udostępnij na kanał impreza gif	o o o b-channel o
+Slack	SendPictureToChannel	udostępnij na kanał urodziny andrzeja coś	o o o b-channel i-channel o
+Slack	SendPictureToChannel	udostępnij na slackowy kanał joga zdjęcie	o o o o b-channel o
+Slack	SendPictureToChannel	udostępnij na slackowy kanał frontend film	o o o o b-channel o
+Slack	SendPictureToChannel	udostępnij na slackowy kanał praca filmik	o o o o b-channel o
+Slack	SendPictureToChannel	udostępnij na slackowy kanał hiszpański 2020-2025 gif	o o o o b-channel i-channel o
+Slack	SendPictureToChannel	udostępnij na slackowy kanał wstęp do językoznastwa 2 rok coś	o o o o b-channel i-channel i-channel i-channel i-channel o
+Slack	SendPictureToChannel	udostępnij na kanale heheszki zdjęcie	o o o b-channel o
+Slack	SendPictureToChannel	udostępnij na kanale ai krafty film	o o o b-channel i-channel o
+Slack	SendPictureToChannel	udostępnij na kanale curly girls polska filmik	o o o b-channel i-channel i-channel o
+Slack	SendPictureToChannel	udostępnij na kanale impreza gif	o o o b-channel o
+Slack	SendPictureToChannel	udostępnij na kanale urodziny andrzeja coś	o o o b-channel i-channel o
+Slack	SendPictureToChannel	udostępnij na slackowym kanale joga zdjęcie	o o o o b-channel o
+Slack	SendPictureToChannel	udostępnij na slackowym kanale frontend film	o o o o b-channel o
+Slack	SendPictureToChannel	udostępnij na slackowym kanale praca filmik	o o o o b-channel o
+Slack	SendPictureToChannel	udostępnij na slackowym kanale hiszpański 2020-2025 gif	o o o o b-channel i-channel o
+Slack	SendPictureToChannelWithCaption	wyślij zdjęcie na kanał ai krafty z opisem mam horom curke	o o o o b-channel i-channel o o b-caption i-caption i-caption
+Slack	SendPictureToChannelWithCaption	wyślij zdjęcie na slackowy kanał curly girls polska z podpisem nie wierze	o o o o o b-channel i-channel i-channel o o b-caption i-caption
+Slack	SendPictureToChannelWithCaption	wyślij zdjęcie na slackowy kanał impreza z opisem mam dość	o o o o o b-channel o o b-caption i-caption
+Slack	SendPictureToChannelWithCaption	prześlij zdjęcie na kanał urodziny andrzeja z podpisem zobacz to	o o o o b-channel i-channel o o b-caption i-caption
+Slack	SendPictureToChannelWithCaption	prześlij zdjęcie na kanał joga z opisem no hejka	o o o o b-channel o o b-caption i-caption
+Slack	SendPictureToChannelWithCaption	prześlij zdjęcie na slackowy kanał frontend z podpisem coffee	o o o o o b-channel o o b-caption
+Slack	SendPictureToChannelWithCaption	prześlij zdjęcie na slackowy kanał praca z opisem zobacz jaki hipster	o o o o o b-channel o o b-caption i-caption i-caption
+Slack	SendPictureToChannelWithCaption	napisz zdjęcie na kanał hiszpański 2020-2025 z podpisem corpo life	o o o o b-channel i-channel o o b-caption i-caption
+Slack	SendPictureToChannelWithCaption	napisz zdjęcie na kanał wstęp do językoznastwa 2 rok z opisem śmieszne	o o o o b-channel i-channel i-channel i-channel i-channel o o b-caption
+Slack	SendPictureToChannelWithCaption	napisz zdjęcie na slackowy kanał heheszki z podpisem mam horom curke	o o o o o b-channel o o b-caption i-caption i-caption
+Slack	SendPictureWithUrlToChannel	wyślij zdjęcie z www.tinyurl.com/vmkgtf9 na slackowy kanał impreza	o o o b-picture_url o o o b-channel
+Slack	SendPictureWithUrlToChannel	prześlij zdjęcie z www.tinyurl.com/vmkgtf9 na kanał urodziny andrzeja	o o o b-picture_url o o b-channel i-channel
+Slack	SendPictureWithUrlToChannel	prześlij zdjęcie z www.tinyurl.com/vmkgtf9 na slackowy kanał joga	o o o b-picture_url o o o b-channel
+Slack	SendPictureWithUrlToChannel	napisz zdjęcie z www.tinyurl.com/vmkgtf9 na kanał frontend	o o o b-picture_url o o b-channel
+Slack	SendPictureWithUrlToChannel	napisz zdjęcie z www.tinyurl.com/vmkgtf9 na slackowy kanał praca	o o o b-picture_url o o o b-channel
+Slack	SendPictureWithUrlToChannel	umieść www.tinyurl.com/vmkgtf9 na kanale hiszpański 2020-2025	o b-picture_url o o b-channel i-channel

@@ -1,0 +1,272 @@
+domain	intent	utterance	bio
+Contacts	OpenContacts	show my contacts	o o o
+Contacts	OpenContacts	display my contacts	o o o
+Contacts	OpenMyContact	display my contact's info	o o o o
+Contacts	OpenMyContact	open my contact's info	o o o o
+Contacts	EditContactWithName	edit my contact felicdad	o o o b-name
+Contacts	EditContactWithName	edit my contact steven moses	o o o b-name i-name
+Contacts	EditContactWithName	edit my contact ruby	o o o b-name
+Contacts	EditContactWithName	edit my contact liu	o o o b-name
+Contacts	EditContactWithName	edit my contact shay	o o o b-name
+Contacts	EditContactWithName	edit my contact dyana	o o o b-name
+Contacts	EditContactWithName	open my contact matthews for edition	o o o b-name o o
+Contacts	EditContactWithName	open my contact tressia for edition	o o o b-name o o
+Contacts	EditContactWithName	open my contact pamelina for edition	o o o b-name o o
+Contacts	EditContactWithNumber	change the name of my contact with number 615 555 0179	o o o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	EditContactWithNumber	change the name of my contact with number 518 555 0188	o o o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	EditContactWithNumber	change the name of my contact with number +1 202 555 0175	o o o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	EditContactWithNumber	change the name of my contact with number 615 555 0175	o o o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	EditContactWithNumber	change the name of my contact with number +1 803 555 0171	o o o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	EditNumberInContactWithName	change the number of my contact sandie	o o o o o o b-name
+Contacts	EditNumberInContactWithName	change the number of my contact diane-marie	o o o o o o b-name
+Contacts	EditNumberInContactWithName	change the number of my contact william	o o o o o o b-name
+Contacts	EditNumberInContactWithName	change the number of my contact gabie	o o o o o o b-name
+Contacts	EditNumberInContactWithName	change the number of my contact beutler	o o o o o o b-name
+Contacts	EditNumberInContactWithNameToNumberAndToType	set the number +1 701 555 0194 in contact garrity as work	o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-name o b-phone_type
+Contacts	EditNumberInContactWithNameToNumberAndToType	set the number 617 555 0135 in contact donna fulton as private	o o o b-phone_number i-phone_number i-phone_number o o b-name i-name o b-phone_type
+Contacts	EditNumberInContactWithNameToNumberAndToType	set the number 803 555 0171 in contact jaf as home	o o o b-phone_number i-phone_number i-phone_number o o b-name o b-phone_type
+Contacts	EditNumberInContactWithNameToNumberAndToType	set the number +1 605 555 0184 in contact sublett as work	o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-name o b-phone_type
+Contacts	EditNumberInContactWithNameToNumberAndToType	set the number 617 555 0112 in contact lezlie as private	o o o b-phone_number i-phone_number i-phone_number o o b-name o b-phone_type
+Contacts	ShowContactWithEmail	display my contacts with email adda.gurl@outlook.com	o o o o o b-email
+Contacts	ShowContactWithEmail	display my contacts with email jordan.dilisio@hotmail.com	o o o o o b-email
+Contacts	ShowContactWithEmail	display my contacts with email claresta@schwab.com	o o o o o b-email
+Contacts	ShowContactWithEmail	display my contacts with email candice@fqnet.com	o o o o o b-email
+Contacts	ShowContactWithEmail	display my contacts with email adam.sagan@gmail.com	o o o o o b-email
+Contacts	ShowContactWithEmail	display my google contacts with email nessy@pacbell.net	o o o o o o b-email
+Contacts	ShowContactWithEmail	display my google contacts with email ivonne.jonie@outlook.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	display my google contacts with email dredi.sankey@cts.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	display my google contacts with email tybi.hitoshi@gmail.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	display my google contacts with email gonca@elektro.com.br	o o o o o o b-email
+Contacts	ShowContactWithEmail	display my google contacts with email debbi.meadow@thermoecotek.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	open my contacts with email bill williams@enron_development	o o o o o b-email i-email
+Contacts	ShowContactWithEmail	open my contacts with email katharyn@outlook.com	o o o o o b-email
+Contacts	ShowContactWithEmail	open my contacts with email marilyn.canice@cts.com	o o o o o b-email
+Contacts	ShowContactWithEmail	open my contacts with email kimmie.lisan@gedaz.com	o o o o o b-email
+Contacts	ShowContactWithEmail	open my contacts with email andrew.wu@enron.com	o o o o o b-email
+Contacts	ShowContactWithEmail	open my google contacts with email lottie@gmail.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	open my google contacts with email netta@hotmail.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	open my google contacts with email ortensia@cts.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	open my google contacts with email belle@gmail.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	open my google contacts with email marcelia.loftis@yahoo.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	open my google contacts with email crystal.mellicent@aol.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	show my contacts with email hatti.sly@yahoo.com	o o o o o b-email
+Contacts	ShowContactWithEmail	show my contacts with email philipa@fwc.com	o o o o o b-email
+Contacts	ShowContactWithEmail	show my contacts with email ella@yahoo.com	o o o o o b-email
+Contacts	ShowContactWithEmail	show my contacts with email tabbi.colman@gmail.com	o o o o o b-email
+Contacts	ShowContactWithEmail	show my contacts with email veronique.senn@cpuc.ca.gov	o o o o o b-email
+Contacts	ShowContactWithEmail	show my contacts with email ann@outlook.com	o o o o o b-email
+Contacts	ShowContactWithEmail	show my google contacts with email idelle.baun@gmail.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	show my google contacts with email dore.watt@elektro.com.br	o o o o o o b-email
+Contacts	ShowContactWithEmail	show my google contacts with email marjorie.nilla@gedaz.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	show my google contacts with email myrna@aol.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	show my google contacts with email cherry@neg.pge.com	o o o o o o b-email
+Contacts	ShowContactWithName	display my contacts with name alix	o o o o o b-name
+Contacts	ShowContactWithName	display my contacts with name gabriell	o o o o o b-name
+Contacts	ShowContactWithName	display my contacts with name sagan	o o o o o b-name
+Contacts	ShowContactWithName	display my contacts with name maureen mcvicker	o o o o o b-name i-name
+Contacts	ShowContactWithName	display my contacts with name todd peikert	o o o o o b-name i-name
+Contacts	ShowContactWithName	open my contacts with name fiester	o o o o o b-name
+Contacts	ShowContactWithName	open my contacts with name susanetta	o o o o o b-name
+Contacts	ShowContactWithName	open my contacts with name buerger	o o o o o b-name
+Contacts	ShowContactWithName	open my contacts with name dru	o o o o o b-name
+Contacts	ShowContactWithName	open my contacts with name mellisa	o o o o o b-name
+Contacts	ShowContactWithName	open my contacts with name mollie	o o o o o b-name
+Contacts	ShowContactWithName	show my contacts with name holly bradford-nelson	o o o o o b-name i-name
+Contacts	ShowContactWithName	show my contacts with name richard ingersoll	o o o o o b-name i-name
+Contacts	ShowContactWithName	show my contacts with name dotti	o o o o o b-name
+Contacts	ShowContactWithName	show my contacts with name elsinore	o o o o o b-name
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it rahm and add the number +1 202 555 0148	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it leanor and add the number +1 225 555 0136	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it felicia and add the number 202 555 0176	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it misti and add the number +1 225 555 0168	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it ronda and add the number +1 602 555 0111	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it arthur and add the number +1 202 555 0142	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it klecka and add the number 512 555 0178 as home	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it croner and add the number +1 207 555 0128 as work	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it dotson and add the number 617 555 0108 as private	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it swarts and add the number 303 555 0129 as home	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it korella and add the number +1 225 555 0164 as work	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it nabala and add the number +1 602 555 0159 as private	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it melissa and give it a number 803 555 0129	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it somerset and give it a number 602 555 0111	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it ellery and give it a number +1 512 555 0140	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it bocock and give it a number +1 202 555 0174	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it munniks and give it a number +1 615 555 0103	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it nicolina and give it a number 701 555 0168	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it katy lomax and give it a number +1 605 555 0109 as home	o o o o o o o b-name i-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it alvin and give it a number +1 502 555 0156 as work	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it gard and give it a number +1 605 555 0134 as private	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it biondo and give it a number +1 202 555 0106 as home	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it teddy and give it a number 202 555 0147 as work	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it harry kingerski and give it a number +1 202 555 0146 as private	o o o o o o o b-name i-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it mickelson with a number 605 555 0132	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it rather with a number +1 207 555 0129	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it chloris with a number 502 555 0122	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it molly magee with a number +1 518 555 0188	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it alys with a number 605 555 0106	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it kavita with a number 605 555 0184	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it zollie with a number +1 202 555 0145 as home	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it emerald with a number +1 615 555 0153 as work	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it scott watson with a number 701 555 0125 as private	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it giulia with a number 860 555 0191 as home	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it bruno gaillard with a number 303 555 0117 as work	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it estell with a number +1 803 555 0141 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it erle with number 225 555 0135	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it joe kolb with number 860 555 0198	o o o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it burrus with number 518 555 0190	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it wendy fincher with number 502 555 0183	o o o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it marc phillips with number +1 502 555 0139	o o o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it michele with number +1 701 555 0185	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it vanny with number 202 555 0146 as home	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it mezoff with number +1 860 555 0191 as work	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it rianon with number 202 555 0105 as private	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it elora with number 303 555 0162 as home	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it david maldonado with number +1 207 555 0134 as work	o o o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it noll with number +1 202 555 0197 as private	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it othilie with the number +1 602 555 0146	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it darbee with the number +1 207 555 0198	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it ozen with the number +1 512 555 0178	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it mattland with the number +1 617 555 0112 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it ulrikaumeko with the number +1 303 555 0145 as home	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it gwyn with the number 303 555 0143 as work	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it bryna with the number 701 555 0194 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it jean ryall and add the number 225 555 0152	o o o o o o o b-name i-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it gwenneth and add the number 303 555 0198	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it ag and add the number 518 555 0181	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it danaher and add the number 512 555 0140	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it shena and add the number 202 555 0163	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it christin and add the number +1 602 555 0172	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it charlotta and add the number 202 555 0144 as home	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it felita and add the number 202 555 0169 as work	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it marti and add the number +1 303 555 0117 as private	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it paul trieschman and add the number 617 555 0159 as home	o o o o o o o b-name i-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it rizika and add the number 207 555 0179 as work	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it ozzy and add the number 202 555 0186 as private	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it gloria ogenyi and give it a number +1 701 555 0196	o o o o o o o b-name i-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it cynthy and give it a number +1 512 555 0198	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it nate and give it a number 602 555 0159	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it zeta and give it a number 602 555 0158	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it gersham and give it a number 602 555 0172	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it francyne and give it a number 502 555 0156	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it burke and give it a number +1 701 555 0168 as home	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it sheridan and give it a number 512 555 0129 as work	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it flanigan and give it a number 605 555 0134 as private	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it miriam and give it a number +1 617 555 0182 as home	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it meredith and give it a number +1 803 555 0129 as work	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it arabeila and give it a number 202 555 0142 as private	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it michael terraso with a number 303 555 0145	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it kimbra with a number +1 303 555 0162	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it simpkins with a number 518 555 0152	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it andrew morrison with a number +1 803 555 0116	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it susan carrera with a number +1 202 555 0165	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it swisher with a number 202 555 0145	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it estella with a number 803 555 0178 as home	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it jez with a number 512 555 0149 as work	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it daisy with a number +1 518 555 0192 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it teodorico with a number 803 555 0121 as home	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it tobiah with a number +1 617 555 0159 as work	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it gustaf with a number +1 701 555 0125 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it mignonne with number +1 502 555 0182	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it carmelita with number +1 701 555 0155	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it gloria alvarez with number +1 303 555 0129	o o o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it brynne with number 803 555 0109	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it candide with number 860 555 0143	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it maude with number 602 555 0146	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it elaina with number 518 555 0192 as home	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it pammie with number +1 615 555 0175 as work	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it peg with number 202 555 0165 as private	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it jannelle with number 202 555 0103 as home	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it vinita with number 803 555 0199 as work	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it deckert with number +1 303 555 0106 as private	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it marybelle with the number 202 555 0148	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it roxanna with the number 207 555 0134	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it constancy with the number 303 555 0131	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it gerta with the number 502 555 0139	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it ammamaria with the number +1 202 555 0183	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it ilene with the number +1 225 555 0130	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it barbara taylor with the number +1 202 555 0186 as home	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name martha and add the number 615 555 0196	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name pedro and add the number +1 860 555 0190	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name bock and add the number 615 555 0103	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name vania and add the number +1 202 555 0112	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name garfinkel and add the number 605 555 0137	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name john hayes and add the number 860 555 0149	o o o o o o o b-name i-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name joycelin and add the number +1 512 555 0149 as home	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name bianka and add the number +1 605 555 0106 as work	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name kary and add the number +1 803 555 0109 as private	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name alurta and add the number +1 518 555 0181 as home	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name etan and add the number 512 555 0193 as work	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name mike and add the number +1 502 555 0120 as private	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name livvie and give it a number 803 555 0176	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name karil and give it a number +1 602 555 0122	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name maidy and give it a number 518 555 0159	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name jake and give it a number +1 605 555 0132	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name odetta and give it a number +1 518 555 0190	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name karrah and give it a number +1 202 555 0105	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name welsh and give it a number 701 555 0185 as home	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name miguela and give it a number +1 202 555 0103 as work	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name stovall and give it a number +1 202 555 0185 as private	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name douglas and give it a number +1 617 555 0135 as home	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name biddy and give it a number 502 555 0182 as work	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name aubry and give it a number +1 202 555 0107 as private	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name arjan with a number 803 555 0141	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name dolloff with a number 512 555 0198	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name kathleen sullivan with a number 615 555 0153	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name melinda pharms with a number 860 555 0115	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name aubrey with a number 701 555 0196	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name gustie with a number +1 512 555 0193	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name paul with a number 701 555 0155 as home	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name henry van with a number 615 555 0106 as work	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name eachern with a number 202 555 0197 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name prady with a number +1 207 555 0179 as home	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name christie patrick with a number +1 202 555 0163 as work	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name reinhardt with a number +1 225 555 0152 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name winny with number 202 555 0175	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name dita with number +1 303 555 0194	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name joe hillings with number 225 555 0130	o o o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name keeley with number 617 555 0182	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name timi with number +1 207 555 0175	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name joletta with number 502 555 0120	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name daegal with number 207 555 0129 as home	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name gretel with number 303 555 0106 as work	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name elizabeth with number +1 225 555 0135 as private	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name courtney votaw with number +1 803 555 0193 as home	o o o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name mada with number +1 303 555 0131 as work	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name shue with number +1 303 555 0197 as private	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name rory bonafe with the number +1 518 555 0159	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name alvera with the number +1 803 555 0176	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name lea with the number 202 555 0183	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name grace garcia with the number +1 617 555 0108	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name montana with the number 207 555 0175	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name vitoria with the number 225 555 0164	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name florine with the number +1 615 555 0196 as home	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNumber	display my contacts with phone number +1 202 555 0169	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	display my contacts with phone number +1 602 555 0158	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	display my contacts with phone number +1 518 555 0152	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	display my contacts with phone number 225 555 0168	o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	display my contacts with phone number +1 615 555 0106	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	open my contacts with phone number +1 860 555 0143	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	open my contacts with phone number +1 860 555 0149	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	open my contacts with phone number +1 202 555 0147	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	open my contacts with phone number 225 555 0136	o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	show my contacts with phone number +1 605 555 0137	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	show my contacts with phone number 207 555 0198	o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	show my contacts with phone number 207 555 0128	o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	show my contacts with phone number 303 555 0171	o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	show my contacts with phone number +1 512 555 0129	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	show my contacts with phone number +1 860 555 0115	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumberAndWithEmail	display my contacts with phone number +1 803 555 0114 and email heidi.izaak@proton.com	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	display my contacts with phone number +1 860 555 0198 and email berti.o'shee@kpmg.com	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	display my contacts with phone number 202 555 0112 and email claudia.jermaine@yahoo.com	o o o o o o b-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	display my contacts with phone number 202 555 0185 and email shellie@schwab.com	o o o o o o b-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	display my contacts with phone number +1 502 555 0183 and email tresa@gmail.com	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	open my contacts with phone number 518 555 0188 and email leonanie.gamal@gmail.com	o o o o o o b-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	open my contacts with phone number +1 202 555 0175 and email audy@hotmail.com	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	open my contacts with phone number 615 555 0175 and email denice.luann@yahoo.com	o o o o o o b-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	open my contacts with phone number +1 803 555 0171 and email adam.driver@proton.com	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	open my contacts with phone number +1 803 555 0199 and email farah@thermoecotek.com	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	show my contacts with phone number +1 701 555 0194 and email eadie@outlook.com	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	show my contacts with phone number 617 555 0135 and email rhodie.hoppe@hotmail.com	o o o o o o b-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	show my contacts with phone number 803 555 0171 and email lona@enron_development	o o o o o o b-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	show my contacts with phone number +1 605 555 0184 and email remy.felten@yahoo.com	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	show my contacts with phone number 617 555 0112 and email laura.lantefield@enron.com	o o o o o o b-phone_number i-phone_number i-phone_number o o b-email

@@ -1,0 +1,27 @@
+domain	intent	utterance	bio
+News	ShowNews	huffington post	b-portal i-portal
+News	ShowNews	huffington	b-portal
+News	ShowNews	latest huffpost news	o b-portal o
+News	ShowNews	latest techcrunch news	o b-portal o
+News	ShowNews	latest news on new york times	o o o b-portal i-portal i-portal
+News	ShowNews	news on ny times	o o b-portal i-portal
+News	ShowNews	news on wired	o o b-portal
+News	ShowNews	open time	o b-portal
+News	ShowNews	open time magazine	o b-portal i-portal
+News	ShowNews	read fox news	o b-portal i-portal
+News	ShowNews	read huffington post	o b-portal i-portal
+News	ShowNews	show me news from huffington	o o o o b-portal
+News	ShowNews	show me news from huffpost	o o o o b-portal
+News	ShowNews	show me the news from techcrunch	o o o o o b-portal
+News	ShowNews	show me the news from new york times	o o o o o b-portal i-portal i-portal
+News	ShowNews	show news from nyt	o o o b-portal
+News	ShowNews	show news from ny times	o o o b-portal i-portal
+News	ShowNews	show the news from wired	o o o o b-portal
+News	ShowNewsFromSection	the fox news politics section	o b-portal i-portal b-section o
+News	ShowNewsFromSection	the tech section of the huffington post	o b-section o o o b-portal i-portal
+News	ShowNewsFromSection	the health section of the huffington	o b-section o o o b-portal
+News	NotifyWhenPortalUpdates	notify me when huffpost front page updates	o o o b-portal o o o
+News	NotifyWhenPortalUpdates	notify me when techcrunch front page updates	o o o b-portal o o o
+News	NotifyWhenPortalUpdates	notify me when new york times news updates	o o o b-portal i-portal i-portal o o
+News	NotifyWhenPortalUpdatesInSection	notify me when the wired sport section publishes a new article	o o o o b-portal b-section o o o o o
+News	NotifyWhenPortalUpdatesInSection	notify me when the time politics section publishes a new article	o o o o b-portal b-section o o o o o

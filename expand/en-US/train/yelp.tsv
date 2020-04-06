@@ -1,0 +1,203 @@
+domain	intent	utterance	bio
+Yelp	SearchRestaurant	restaurant	o
+Yelp	SearchRestaurant	restaurant on yelp	o o o
+Yelp	SearchRestaurant	restaurant nearby	o o
+Yelp	SearchRestaurant	restaurant around here	o o o
+Yelp	SearchRestaurant	restaurants	o
+Yelp	SearchRestaurant	restaurants on yelp	o o o
+Yelp	SearchRestaurant	restaurants nearby	o o
+Yelp	SearchRestaurant	restaurants around here	o o o
+Yelp	SearchRestaurant	search restaurant	o o
+Yelp	SearchRestaurant	search restaurant on yelp	o o o o
+Yelp	SearchRestaurant	search restaurant nearby	o o o
+Yelp	SearchRestaurant	search restaurant around here	o o o o
+Yelp	SearchRestaurant	search restaurants	o o
+Yelp	SearchRestaurant	search restaurants nearby	o o o
+Yelp	SearchRestaurant	search restaurants around here	o o o o
+Yelp	SearchRestaurant	find restaurant	o o
+Yelp	SearchRestaurant	find restaurant on yelp	o o o o
+Yelp	SearchRestaurant	find restaurant around here	o o o o
+Yelp	SearchRestaurant	find restaurants	o o
+Yelp	SearchRestaurant	find restaurants on yelp	o o o o
+Yelp	SearchRestaurant	find restaurants nearby	o o o
+Yelp	SearchRestaurant	find restaurants around here	o o o o
+Yelp	SearchRestaurant	closest restaurant nearby	o o o
+Yelp	SearchRestaurant	closest restaurant around	o o o
+Yelp	SearchRestaurant	nearest restaurant around	o o o
+Yelp	SearchByQuery	downtown redmond parking garage around	b-query i-query i-query i-query o
+Yelp	SearchByQuery	best craft brews and local eateries on yelp	b-query i-query i-query i-query i-query i-query o o
+Yelp	SearchByQuery	perkins restruant nearby	b-query i-query o
+Yelp	SearchByRating	restaurants nearby with at least 4 star rating	o o o o o b-rating o o
+Yelp	SearchByRating	5 star restaurants	b-rating o o
+Yelp	SearchByRating	4 star restaurants on yelp	b-rating o o o o
+Yelp	SearchByRating	restaurants rated higher than 5 star	o o o o b-rating o
+Yelp	SearchByCategory	thai food	b-category o
+Yelp	SearchByCategory	japanease food around here	b-category o o o
+Yelp	SearchByCategory	american food nearby	b-category o o
+Yelp	SearchByCategory	italian restaurants	b-category o
+Yelp	SearchByCategory	thai restaurants nearby	b-category o o
+Yelp	OpenRestaurants	open restaurants nearby	o o o
+Yelp	OpenRestaurants	restaurants still open around here	o o o o o
+Yelp	SearchByReviewCount	restaurants here reviewed by at least 1000 users	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants here reviewed by more than 10000 people	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants here reviewed by more than 100 users	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants nearby reviewed by at least 1000 people	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants nearby reviewed by at least 10000 users	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants nearby reviewed by more than 100 people	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants nearby reviewed by more than 1000 users	o o o o o o b-review_count o
+Yelp	OpenRestaurantsInLocation	open restaurants near soho	o o o b-location
+Yelp	OpenRestaurantsInLocation	open restaurants near manhattan	o o o b-location
+Yelp	OpenRestaurantsInLocation	open restaurants near plaza del sol	o o o b-location i-location i-location
+Yelp	OpenRestaurantsInLocation	open restaurants near la rambla	o o o b-location i-location
+Yelp	OpenRestaurantsInLocation	open restaurants near van horne	o o o b-location i-location
+Yelp	OpenRestaurantsInLocation	restaurants open now at westmont	o o o o b-location
+Yelp	OpenRestaurantsInLocation	restaurants open now at grass lake	o o o o b-location i-location
+Yelp	OpenRestaurantsInLocation	restaurants open now at auburn hills	o o o o b-location i-location
+Yelp	OpenRestaurantsInLocation	restaurants open now at terreton	o o o o b-location
+Yelp	OpenRestaurantsInLocation	restaurants open now at cecil	o o o o b-location
+Yelp	OpenRestaurantsInLocation	restaurants open now at fittstown	o o o o b-location
+Yelp	OpenRestaurantsInLocation	restaurants still open around allakaket	o o o o b-location
+Yelp	OpenRestaurantsInLocation	restaurants still open around monticello	o o o o b-location
+Yelp	OpenRestaurantsInLocation	restaurants still open around cornell	o o o o b-location
+Yelp	OpenRestaurantsInLocation	restaurants still open around mayport	o o o o b-location
+Yelp	OpenRestaurantsInLocation	restaurants still open around lordsburg	o o o o b-location
+Yelp	SearchByCategoryInLocation	american food around cid	b-category o o b-location
+Yelp	SearchByCategoryInLocation	italian food around moccasin	b-category o o b-location
+Yelp	SearchByCategoryInLocation	french food around momence	b-category o o b-location
+Yelp	SearchByCategoryInLocation	thai food around ralls	b-category o o b-location
+Yelp	SearchByCategoryInLocation	japanease food around kaneohe	b-category o o b-location
+Yelp	SearchByCategoryInLocation	american food near east thetford	b-category o o b-location i-location
+Yelp	SearchByCategoryInLocation	italian food near diggins	b-category o o b-location
+Yelp	SearchByCategoryInLocation	french food near wildwood	b-category o o b-location
+Yelp	SearchByCategoryInLocation	thai food near pompey	b-category o o b-location
+Yelp	SearchByCategoryInLocation	japanease food near elizabethport	b-category o o b-location
+Yelp	SearchByCategoryInLocation	american food near laguna niguel	b-category o o b-location i-location
+Yelp	SearchByCategoryInLocation	italian restaurants around north ridgeville	b-category o o b-location i-location
+Yelp	SearchByCategoryInLocation	french restaurants around jarales	b-category o o b-location
+Yelp	SearchByCategoryInLocation	thai restaurants around ellicott city	b-category o o b-location i-location
+Yelp	SearchByCategoryInLocation	japanease restaurants around lapaz	b-category o o b-location
+Yelp	SearchByCategoryInLocation	american restaurants around hallandale	b-category o o b-location
+Yelp	SearchByCategoryInLocation	italian restaurants around pine mountain	b-category o o b-location i-location
+Yelp	SearchByCategoryInLocation	french restaurants near vulcan	b-category o o b-location
+Yelp	SearchByCategoryInLocation	thai restaurants near bunceton	b-category o o b-location
+Yelp	SearchByCategoryInLocation	japanease restaurants near collettsville	b-category o o b-location
+Yelp	SearchByCategoryInLocation	american restaurants near saint bernard	b-category o o b-location i-location
+Yelp	SearchByCategoryInLocation	italian restaurants near pocomoke city	b-category o o b-location i-location
+Yelp	SearchByQueryInLocation	canton ri brewery restaurant around donahue	b-query i-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	best restaurants with a view toronto around grenola	b-query i-query i-query i-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	vancouver steakhouse meat entrees around tooele	b-query i-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	best coffee shops portland or around broadford	b-query i-query i-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	german food around gilbertsville	b-query i-query o b-location
+Yelp	SearchByQueryInLocation	pizza around klemme on yelp	b-query o b-location o o
+Yelp	SearchByQueryInLocation	european food around ocklawaha on yelp	b-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	restaurant that serves mac and cheese around bivalve on yelp	b-query i-query i-query i-query i-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	sushi bar around red bud on yelp	b-query i-query o b-location i-location o o
+Yelp	SearchByQueryInLocation	craft breweries and pubs around bridge city on yelp	b-query i-query i-query i-query o b-location i-location o o
+Yelp	SearchByQueryInLocation	burgers around pigeon on yelp	b-query o b-location o o
+Yelp	SearchByQueryInLocation	best thai food at savery	b-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	best italian restaurants with nice view at east aurora	b-query i-query i-query i-query i-query i-query o b-location i-location
+Yelp	SearchByQueryInLocation	pub at hoskinston	b-query o b-location
+Yelp	SearchByQueryInLocation	gyro at derry	b-query o b-location
+Yelp	SearchByQueryInLocation	best pizza with view at joinerville	b-query i-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	french food at lake spring	b-query i-query o b-location i-location
+Yelp	SearchByQueryInLocation	book food party restaurants at duplessis on yelp	b-query i-query i-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	somerville cafe children's menu at thompson ridge on yelp	b-query i-query i-query i-query o b-location i-location o o
+Yelp	SearchByQueryInLocation	dive bars at new melle on yelp	b-query i-query o b-location i-location o o
+Yelp	SearchByQueryInLocation	coffee at wind ridge on yelp	b-query o b-location i-location o o
+Yelp	SearchByQueryInLocation	asian sushi at wyalusing on yelp	b-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	best coffeeshop philadelphia at merrillan on yelp	b-query i-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	seasons 52 restruant in startex	b-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	burger in benezett	b-query o b-location
+Yelp	SearchByQueryInLocation	bar and grill with craft beers in triplett	b-query i-query i-query i-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	kids restaurant in south haven	b-query i-query o b-location i-location
+Yelp	SearchByQueryInLocation	fast food in jessieville	b-query i-query o b-location
+Yelp	SearchByQueryInLocation	rustic old english pub reviews in needham	b-query i-query i-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	springfield il cafe kids diner in saint paris on yelp	b-query i-query i-query i-query i-query o b-location i-location o o
+Yelp	SearchByQueryInLocation	sushi restaurants lorain county in knightsen on yelp	b-query i-query i-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	brewery in rumford on yelp	b-query o b-location o o
+Yelp	SearchByQueryInLocation	best restaurants with view buffalo ny in kewaunee on yelp	b-query i-query i-query i-query i-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	mexican restaurant with the best margaritas in machias on yelp	b-query i-query i-query i-query i-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	local craft breweries in chetopa on yelp	b-query i-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	bars near breesport	b-query o b-location
+Yelp	SearchByQueryInLocation	coffee shop near hernandez	b-query i-query o b-location
+Yelp	SearchByQueryInLocation	downtown redmond parking garage near mcdaniel	b-query i-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	best craft brews and local eateries near french settlement	b-query i-query i-query i-query i-query i-query o b-location i-location
+Yelp	SearchByQueryInLocation	perkins restruant near mc dermott	b-query i-query o b-location i-location
+Yelp	SearchByQueryInLocation	lorain county sushi near cold spring	b-query i-query i-query o b-location i-location
+Yelp	SearchByQueryInLocation	canton ri brewery restaurant near knowlesville on yelp	b-query i-query i-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	best restaurants with a view toronto near bybee on yelp	b-query i-query i-query i-query i-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	vancouver steakhouse meat entrees near feeding hills on yelp	b-query i-query i-query i-query o b-location i-location o o
+Yelp	SearchByQueryInLocation	best coffee shops portland or near mobeetie on yelp	b-query i-query i-query i-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	german food near mountain grove on yelp	b-query i-query o b-location i-location o o
+Yelp	SearchByRatingInLocation	4 star restaurants around peshastin	b-rating o o o b-location
+Yelp	SearchByRatingInLocation	5 star restaurants around schofield barracks	b-rating o o o b-location i-location
+Yelp	SearchByRatingInLocation	4 star restaurants around sheppard afb	b-rating o o o b-location i-location
+Yelp	SearchByRatingInLocation	5 star restaurants around milwaukee	b-rating o o o b-location
+Yelp	SearchByRatingInLocation	4 star restaurants around grenora	b-rating o o o b-location
+Yelp	SearchByRatingInLocation	5 star restaurants around shasta lake	b-rating o o o b-location i-location
+Yelp	SearchByRatingInLocation	4 star restaurants around furlong on yelp	b-rating o o o b-location o o
+Yelp	SearchByRatingInLocation	5 star restaurants around matinicus on yelp	b-rating o o o b-location o o
+Yelp	SearchByRatingInLocation	4 star restaurants around normangee on yelp	b-rating o o o b-location o o
+Yelp	SearchByRatingInLocation	5 star restaurants around north pomfret on yelp	b-rating o o o b-location i-location o o
+Yelp	SearchByRatingInLocation	4 star restaurants around sinton on yelp	b-rating o o o b-location o o
+Yelp	SearchByRatingInLocation	5 star restaurants around cherry plain on yelp	b-rating o o o b-location i-location o o
+Yelp	SearchByRatingInLocation	5 star restaurants in claremore	b-rating o o o b-location
+Yelp	SearchByRatingInLocation	4 star restaurants in heisson	b-rating o o o b-location
+Yelp	SearchByRatingInLocation	5 star restaurants in south newbury	b-rating o o o b-location i-location
+Yelp	SearchByRatingInLocation	4 star restaurants in rowland heights	b-rating o o o b-location i-location
+Yelp	SearchByRatingInLocation	5 star restaurants in burgin	b-rating o o o b-location
+Yelp	SearchByRatingInLocation	4 star restaurants in guttenberg on yelp	b-rating o o o b-location o o
+Yelp	SearchByRatingInLocation	5 star restaurants in old forge on yelp	b-rating o o o b-location i-location o o
+Yelp	SearchByRatingInLocation	4 star restaurants in mogadore on yelp	b-rating o o o b-location o o
+Yelp	SearchByRatingInLocation	5 star restaurants in lake dallas on yelp	b-rating o o o b-location i-location o o
+Yelp	SearchByRatingInLocation	4 star restaurants in celeste on yelp	b-rating o o o b-location o o
+Yelp	SearchByRatingInLocation	5 star restaurants in osterburg on yelp	b-rating o o o b-location o o
+Yelp	SearchByRatingInLocation	restaurants nearby with at least 4 star rating near albany	o o o o o b-rating o o o b-location
+Yelp	SearchByRatingInLocation	restaurants nearby with at least 5 star rating near chicota	o o o o o b-rating o o o b-location
+Yelp	SearchByRatingInLocation	restaurants nearby with at least 4 star rating near jacumba	o o o o o b-rating o o o b-location
+Yelp	SearchByRatingInLocation	restaurants nearby with at least 4 star rating near lytton	o o o o o b-rating o o o b-location
+Yelp	SearchByRatingInLocation	restaurants nearby with at least 5 star rating near camuy	o o o o o b-rating o o o b-location
+Yelp	SearchByRatingInLocation	restaurants rated higher than 4 star in simla	o o o o b-rating o o b-location
+Yelp	SearchByRatingInLocation	restaurants rated higher than 5 star in kerrick	o o o o b-rating o o b-location
+Yelp	SearchByRatingInLocation	restaurants rated higher than 4 star in elizabethton	o o o o b-rating o o b-location
+Yelp	SearchByRatingInLocation	restaurants rated higher than 5 star in solebury	o o o o b-rating o o b-location
+Yelp	SearchByRatingInLocation	restaurants rated higher than 4 star in tawas city	o o o o b-rating o o b-location i-location
+Yelp	SearchByRatingInLocation	restaurants rated higher than 5 star in samoa	o o o o b-rating o o b-location
+Yelp	SearchByReviewCountInLocation	restaurants around cross hill reviewed by at least 10000 people	o o b-location i-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants around polkton reviewed by at least 100 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants around quail reviewed by at least 10000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants around pittsburg reviewed by at least 100 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants around pinch reviewed by at least 1000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants around gervais reviewed by more than 10000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants around peytona reviewed by more than 100 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants around gallupville reviewed by more than 1000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants around isle of palms reviewed by more than 10000 people	o o b-location i-location i-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants around amasa reviewed by more than 100 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants around haynes reviewed by more than 1000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near poplar branch reviewed by at least 10000 people	o o b-location i-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near camp crook reviewed by at least 100 people	o o b-location i-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near davey reviewed by at least 1000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near glasford reviewed by at least 10000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near larsen bay reviewed by at least 100 people	o o b-location i-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near granite quarry reviewed by at least 1000 people	o o b-location i-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near richmond reviewed by more than 10000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near palatine reviewed by more than 100 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near bluefield reviewed by more than 1000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near ambrose reviewed by more than 10000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near supply reviewed by more than 100 people	o o b-location o o o o b-review_count o
+Yelp	SearchInLocation	restaurants around pattonville	o o b-location
+Yelp	SearchInLocation	restaurants around veblen	o o b-location
+Yelp	SearchInLocation	restaurants around osco	o o b-location
+Yelp	SearchInLocation	restaurants around ontario center	o o b-location i-location
+Yelp	SearchInLocation	restaurants around saint james city	o o b-location i-location i-location
+Yelp	SearchInLocation	restaurants near conner	o o b-location
+Yelp	SearchInLocation	restaurants near alder	o o b-location
+Yelp	SearchInLocation	restaurants near villa rica	o o b-location i-location
+Yelp	SearchInLocation	restaurants near florien	o o b-location
+Yelp	SearchInLocation	restaurants near uneeda	o o b-location
+Yelp	SearchInLocation	restaurants near lapeer	o o b-location
+Yelp	SearchInLocation	restaurants next to branchport	o o o b-location
+Yelp	SearchInLocation	restaurants next to neon	o o o b-location
+Yelp	SearchInLocation	restaurants next to centerville	o o o b-location
+Yelp	SearchInLocation	restaurants next to south hampton	o o o b-location i-location
+Yelp	SearchInLocation	restaurants next to navajo dam	o o o b-location i-location

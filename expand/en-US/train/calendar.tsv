@@ -1,0 +1,56 @@
+domain	intent	utterance	bio
+Calendar	OpenCalendar	show my calendar	o o o
+Calendar	OpenCalendar	display my calendar	o o o
+Calendar	CheckCalendarOnDate	whats on my schedule in 1 hour	o o o o b-date i-date i-date
+Calendar	CheckCalendarOnDate	whats on my schedule on 15th may	o o o o b-date i-date i-date
+Calendar	CheckCalendarOnDate	whats on my schedule today	o o o o b-date
+Calendar	CheckCalendarOnDate	whats on my schedule next wednesday	o o o o b-date i-date
+Calendar	CheckCalendarOnDate	whats on my schedule in 4 hours	o o o o b-date i-date i-date
+Calendar	CheckCalendarOnDate	whats on my schedule in 45 minutes	o o o o b-date i-date i-date
+Calendar	AddEventWithName	add an event called hairdresser	o o o o b-event_name
+Calendar	AddEventWithName	add an event called mom birthday	o o o o b-event_name i-event_name
+Calendar	AddEventWithName	add an event called meeting with anna	o o o o b-event_name i-event_name i-event_name
+Calendar	AddEventWithName	add an event called dinner with jon	o o o o b-event_name i-event_name i-event_name
+Calendar	AddEventWithName	add an event called press conference to calendar	o o o o b-event_name i-event_name o o
+Calendar	AddEventWithName	add an event called fair to calendar	o o o o b-event_name o o
+Calendar	AddEventWithName	add an event called dedication to calendar	o o o o b-event_name o o
+Calendar	AddEventWithName	add an event called groundbreaking to calendar	o o o o b-event_name o o
+Calendar	AddEventOnDateWithDate	add an event called conference on tomorrow	o o o o b-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	add an event called health on tuesday	o o o o b-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	add an event called consumer show on 1st march	o o o o b-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	add an event called business on monday	o o o o b-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	add an event called party on wednesday	o o o o b-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	add an event called meeting - council to calendar on 15th may	o o o o b-event_name i-event_name i-event_name o o o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	add an event called education to calendar on friday	o o o o b-event_name o o o b-event_date
+Calendar	AddEventOnDateWithDate	add an event called networking event to calendar on 30th may	o o o o b-event_name i-event_name o o o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	add an event called hackathon to calendar on 23 march	o o o o b-event_name o o o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	add an event called grand opening to calendar on next friday	o o o o b-event_name i-event_name o o o b-event_date i-event_date
+Calendar	NotifyOnEventStart	notify me when an appointment on my calendar begins	o o o o o o o o o
+Calendar	NotifyOnEventStart	notify me when an event on my calendar begins	o o o o o o o o o
+Calendar	NotNotifyOnEventStart	do not notify me when an meeting on my calendar begins	o o o o o o o o o o o
+Calendar	NotNotifyOnEventStart	do not notify me when an appointment on my calendar begins	o o o o o o o o o o o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an appointment on my calendar at location home begins	o o o o o o o o o o o o b-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an appointment on my calendar at location building b begins	o o o o o o o o o o o o b-location i-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an appointment on my calendar at location slack begins	o o o o o o o o o o o o b-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an appointment on my calendar at location work begins	o o o o o o o o o o o o b-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an event on my calendar at location facebook begins	o o o o o o o o o o o o b-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an event on my calendar at location orion conference room begins	o o o o o o o o o o o o b-location i-location i-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an event on my calendar at location university begins	o o o o o o o o o o o o b-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an event on my calendar at location capus begins	o o o o o o o o o o o o b-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an event on my calendar at location lemon conference room begins	o o o o o o o o o o o o b-location i-location i-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an meeting on my calendar at location floor 12 begins	o o o o o o o o o o o o b-location i-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an meeting on my calendar at location nettie begins	o o o o o o o o o o o o b-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an meeting on my calendar at location blountstown begins	o o o o o o o o o o o o b-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an meeting on my calendar at location sunrise beach begins	o o o o o o o o o o o o b-location i-location o
+Calendar	NotifyOnEventInLocation	notify me when an appointment on my calendar at location shacklefords begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an appointment on my calendar at location molena begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an appointment on my calendar at location sutter begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an appointment on my calendar at location cragford begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an event on my calendar at location aydlett begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an event on my calendar at location brill begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an event on my calendar at location parachute begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an event on my calendar at location nemacolin begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an event on my calendar at location shippensburg begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an meeting on my calendar at location pine mountain club begins	o o o o o o o o o o b-location i-location i-location o
+Calendar	NotifyOnEventInLocation	notify me when an meeting on my calendar at location helen begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an meeting on my calendar at location boxholm begins	o o o o o o o o o o b-location o

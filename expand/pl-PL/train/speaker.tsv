@@ -1,0 +1,37 @@
+domain	intent	utterance	bio
+Speaker	TurnOnOrOff	pomóż mi i włącz głośnik	o o o b-power o
+Speaker	TurnOnOrOff	pomóż mi i wyłącz mój głośnik	o o o b-power o o
+Speaker	TurnOnOrOff	zrób coś dla mnie i włącz głośnik	o o o o o b-power o
+Speaker	TurnOnOrOff	zrób coś dla mnie i wyłącz mój głośnik	o o o o o b-power o o
+Speaker	TurnOnOrOff	bądź tak miły i włącz głośnik	o o o o b-power o
+Speaker	TurnOnOrOff	bądź tak miły i wyłącz mój głośnik	o o o o b-power o o
+Speaker	TurnOnOrOff	włącz głośnik	b-power o
+Speaker	TurnOnOrOff	wyłącz głośnik dla mnie	b-power o o o
+Speaker	TurnOnOrOff	wyłącz mój głośnik	b-power o o
+Speaker	TurnOnOrOff	włącz mój głośnik dla mnie	b-power o o o o
+Speaker	TurnOnOrOff	wyłącz mój głośnik za mnie	b-power o o o o
+Speaker	IncreaseVolume	zwiększ głośność głośnika	o o o
+Speaker	IncreaseVolume	zwiększ głośność mojego głośnika	o o o o
+Speaker	IncreaseVolume	zrób głośniej głośnik	o o o
+Speaker	IncreaseVolumeByPercent	zwiększ głośność głośnika o 10 procent	o o o o b-percent o
+Speaker	IncreaseVolumeByPercent	zwiększ głośność mojego głośnika o 15	o o o o o b-percent
+Speaker	IncreaseVolumeByPercent	zwiększ głośność mojego głośnika o 50 procent	o o o o o b-percent o
+Speaker	IncreaseVolumeByPercent	zrób głośniej głośnik o 100	o o o o b-percent
+Speaker	IncreaseVolumeByPercent	zrób głośniej głośnik o 5 procent	o o o o b-percent o
+Speaker	IncreaseVolumeByPercent	zrób głośniej mój głośnik o 10	o o o o o b-percent
+Speaker	IncreaseVolumeByPercent	zrób głośniej mój głośnik o 15 procent	o o o o o b-percent o
+Speaker	DecreaseVolume	zmniejsz głośność głośnika	o o o
+Speaker	DecreaseVolume	zmniejsz głośność mojego głośnika	o o o o
+Speaker	DecreaseVolume	zrób ciszej głośnik	o o o
+Speaker	DecreaseVolumeByPercent	zmniejsz głośność głośnika o 100 procent	o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	zmniejsz głośność mojego głośnika o 5	o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	zmniejsz głośność mojego głośnika o 10 procent	o o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	zrób ciszej głośnik o 15	o o o o b-percent
+Speaker	DecreaseVolumeByPercent	zrób ciszej głośnik o 50 procent	o o o o b-percent o
+Speaker	DecreaseVolumeByPercent	zrób ciszej mój głośnik o 100	o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	zrób ciszej mój głośnik o 5 procent	o o o o o b-percent o
+Speaker	MuteOn	wycisz głośnik	o o
+Speaker	MuteOn	wycisz mój głośnik	o o o
+Speaker	MuteOff	cofnij wyciszenie głośnika	o o o
+Speaker	MuteOff	cofnij wyciszenie mojego głośnika	o o o o
+Speaker	MuteOff	włącz głos mojego głośnika	o o o o

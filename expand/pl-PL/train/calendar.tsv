@@ -1,0 +1,176 @@
+domain	intent	utterance	bio
+Calendar	OpenCalendar	pokaż kalendarz	o o
+Calendar	OpenCalendar	pokaż mój kalendarz	o o o
+Calendar	OpenCalendar	wyświetl kalendarz	o o
+Calendar	OpenCalendar	wyświetl mój kalendarz	o o o
+Calendar	OpenCalendar	otwórz kalendarz	o o
+Calendar	CheckCalendarOnDate	pokaż plany w środę 17	o o o b-date i-date
+Calendar	CheckCalendarOnDate	pokaż wydarzenia na wtorek 14	o o o b-date i-date
+Calendar	CheckCalendarOnDate	pokaż wydarzenia w piątek	o o o b-date
+Calendar	CheckCalendarOnDate	wyświetl plany na ten czwartek	o o o b-date i-date
+Calendar	CheckCalendarOnDate	wyświetl plany w poniedziałek 11	o o o b-date i-date
+Calendar	CheckCalendarOnDate	wyświetl wydarzenia na następny poniedziałek	o o o b-date i-date
+Calendar	CheckCalendarOnDate	wyświetl wydarzenia w wtorek 15	o o o b-date i-date
+Calendar	CheckCalendarOnDate	otwórz plany na środę	o o o b-date
+Calendar	CheckCalendarOnDate	otwórz plany w piątek 22	o o o b-date i-date
+Calendar	CheckCalendarOnDate	otwórz wydarzenia na czwartek 20	o o o b-date i-date
+Calendar	CheckCalendarOnDate	otwórz wydarzenia w następny czwartek	o o o b-date i-date
+Calendar	CheckCalendarOnDate	co jest zaplanowane na ten piątek	o o o o b-date i-date
+Calendar	CheckCalendarOnDate	co jest zaplanowane w tę środę	o o o o b-date i-date
+Calendar	CheckCalendarOnDate	jakie mam wydarzenia na następną środę	o o o o b-date i-date
+Calendar	CheckCalendarOnDate	jakie mam wydarzenia w następną sobotę	o o o o b-date i-date
+Calendar	CheckCalendarOnDate	jakie mam spotkania na środę 19	o o o o b-date i-date
+Calendar	CheckCalendarOnDate	jakie mam spotkania w ten wtorek	o o o o b-date i-date
+Calendar	CheckCalendarOnDate	czy mam wydarzenia w następny piątek	o o o o b-date i-date
+Calendar	CheckCalendarOnDate	czy mam spotkania na ten poniedziałek	o o o o b-date i-date
+Calendar	CheckCalendarOnDate	czy mam spotkania w wtorek	o o o o b-date
+Calendar	CheckCalendarOnDate	pokaż spotkania	o o
+Calendar	CheckCalendarOnDate	pokaż wydarzenia	o o
+Calendar	CheckCalendarOnDate	pokaż moje spotkania	o o o
+Calendar	CheckCalendarOnDate	pokaż moje wydarzenia	o o o
+Calendar	CheckCalendarOnDate	wyświetl spotkania	o o
+Calendar	CheckCalendarOnDate	wyświetl wydarzenia	o o
+Calendar	CheckCalendarOnDate	wyświetl moje spotkania	o o o
+Calendar	CheckCalendarOnDate	wyświetl moje wydarzenia	o o o
+Calendar	CheckCalendarOnDate	otwórz spotkania	o o
+Calendar	CheckCalendarOnDate	otwórz wydarzenia	o o
+Calendar	CheckCalendarOnDate	otwórz moje spotkania	o o o
+Calendar	AddEventWithName	dodaj wydarzenie do kalendarza o nazwie fryzjer	o o o o o o b-event_name
+Calendar	AddEventWithName	dodaj spotkanie o nazwie spotkanie z anią	o o o o b-event_name i-event_name i-event_name
+Calendar	AddEventWithName	dodaj spotkanie do kalendarza o nazwie urodziny magdy	o o o o o o b-event_name i-event_name
+Calendar	AddEventWithName	dodaj przypomnienie o nazwie urodziny taty	o o o o b-event_name i-event_name
+Calendar	AddEventWithName	dodaj przypomnienie do kalendarza o nazwie spotkanie z kubą	o o o o o o b-event_name i-event_name i-event_name
+Calendar	AddEventWithName	dodaj nowe wydarzenie o nazwie kolacja z eweliną	o o o o o b-event_name i-event_name i-event_name
+Calendar	AddEventWithName	dodaj nowe wydarzenie do kalendarza o nazwie kolacja z andrzejem	o o o o o o o b-event_name i-event_name i-event_name
+Calendar	AddEventWithName	dodaj nowe spotkanie o nazwie perkusja	o o o o o b-event_name
+Calendar	AddEventWithName	dodaj nowe spotkanie do kalendarza o nazwie strzyżenie męskie	o o o o o o o b-event_name i-event_name
+Calendar	AddEventWithName	dodaj nowe przypomnienie o nazwie walentynki	o o o o o b-event_name
+Calendar	AddEventWithName	dodaj nowe przypomnienie do kalendarza o nazwie dzień matki	o o o o o o o b-event_name i-event_name
+Calendar	AddEventWithName	chcę dodać wydarzenie wakacje do kalendarza	o o o b-event_name o o
+Calendar	AddEventWithName	chcę dodać spotkanie wstęp do filozofii do kalendarza	o o o b-event_name i-event_name i-event_name o o
+Calendar	AddEventWithName	chcę dodać przypomnienie 1on1 do kalendarza	o o o b-event_name o o
+Calendar	AddEventWithName	chcę dodać nowe fryzjer do kalendarza	o o o b-event_name o o
+Calendar	AddEventWithName	chcę dodać nowe wydarzenie spotkanie z anią do kalendarza	o o o o b-event_name i-event_name i-event_name o o
+Calendar	AddEventWithName	chcę dodać nowe spotkanie urodziny magdy do kalendarza	o o o o b-event_name i-event_name o o
+Calendar	AddEventWithName	chcę dodać nowe przypomnienie urodziny taty do kalendarza	o o o o b-event_name i-event_name o o
+Calendar	AddEventWithName	muszę dodać spotkanie z kubą do kalendarza	o o b-event_name i-event_name i-event_name o o
+Calendar	AddEventWithName	muszę dodać wydarzenie kolacja z eweliną do kalendarza	o o o b-event_name i-event_name i-event_name o o
+Calendar	AddEventWithName	muszę dodać spotkanie kolacja z andrzejem do kalendarza	o o o b-event_name i-event_name i-event_name o o
+Calendar	AddEventWithName	muszę dodać przypomnienie perkusja do kalendarza	o o o b-event_name o o
+Calendar	AddEventWithName	muszę dodać nowe strzyżenie męskie do kalendarza	o o o b-event_name i-event_name o o
+Calendar	AddEventWithName	muszę dodać nowe wydarzenie walentynki do kalendarza	o o o o b-event_name o o
+Calendar	AddEventWithName	muszę dodać nowe spotkanie dzień matki do kalendarza	o o o o b-event_name i-event_name o o
+Calendar	AddEventWithName	zapisz wakacje w kalendarzu	o b-event_name o o
+Calendar	AddEventWithName	zanotuj wstęp do filozofii w kalendarzu	o b-event_name i-event_name i-event_name o o
+Calendar	AddEventOnDateWithDate	dodaj wydarzenie o nazwie fryzjer w środę 17	o o o o b-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj wydarzenie do kalendarza o nazwie spotkanie z anią na ten wtorek	o o o o o o b-event_name i-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj wydarzenie do kalendarza o nazwie urodziny magdy w następny piątek	o o o o o o b-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj spotkanie o nazwie urodziny taty na tę środę	o o o o b-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj spotkanie o nazwie spotkanie z kubą w czwartek 21	o o o o b-event_name i-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj spotkanie do kalendarza o nazwie kolacja z eweliną na poniedziałek 9	o o o o o o b-event_name i-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj spotkanie do kalendarza o nazwie kolacja z andrzejem w piątek 25	o o o o o o b-event_name i-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj przypomnienie o nazwie perkusja na ten piątek	o o o o b-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj przypomnienie o nazwie strzyżenie męskie w ten poniedziałek	o o o o b-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj przypomnienie do kalendarza o nazwie walentynki na środę 19	o o o o o o b-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj przypomnienie do kalendarza o nazwie dzień matki w piątek 22	o o o o o o b-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj nowe wydarzenie o nazwie dzień ojca na czwartek 20	o o o o o b-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj nowe wydarzenie o nazwie wakacje w następny czwartek	o o o o o b-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj nowe wydarzenie do kalendarza o nazwie wstęp do filozofii na ten czwartek	o o o o o o o b-event_name i-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj nowe wydarzenie do kalendarza o nazwie 1on1 w czwartek	o o o o o o o b-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	dodaj nowe spotkanie o nazwie fryzjer na następną sobotę	o o o o o b-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj nowe spotkanie o nazwie spotkanie z anią w środę	o o o o o b-event_name i-event_name i-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	dodaj nowe spotkanie do kalendarza o nazwie urodziny magdy na poniedziałek 11	o o o o o o o b-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj nowe spotkanie do kalendarza o nazwie urodziny taty w następny poniedziałek	o o o o o o o b-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj nowe przypomnienie o nazwie spotkanie z kubą na wtorek	o o o o o b-event_name i-event_name i-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	dodaj nowe przypomnienie o nazwie kolacja z eweliną w wtorek 15	o o o o o b-event_name i-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	dodaj nowe przypomnienie do kalendarza o nazwie kolacja z andrzejem na poniedziałek	o o o o o o o b-event_name i-event_name i-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	dodaj nowe przypomnienie do kalendarza o nazwie perkusja w następną środę	o o o o o o o b-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	wtorek 14 dodaj wydarzenie o nazwie strzyżenie męskie	b-event_date i-event_date o o o o b-event_name i-event_name
+Calendar	AddEventOnDateWithDate	piątek dodaj wydarzenie o nazwie walentynki do kalendarza	b-event_date o o o o b-event_name o o
+Calendar	AddEventOnDateWithDate	środę 17 dodaj spotkanie o nazwie dzień matki	b-event_date i-event_date o o o o b-event_name i-event_name
+Calendar	AddEventOnDateWithDate	ten wtorek dodaj spotkanie o nazwie dzień ojca do kalendarza	b-event_date i-event_date o o o o b-event_name i-event_name o o
+Calendar	AddEventOnDateWithDate	następny piątek dodaj przypomnienie o nazwie wakacje	b-event_date i-event_date o o o o b-event_name
+Calendar	AddEventOnDateWithDate	czwartek 21 dodaj nowe wydarzenie o nazwie 1on1	b-event_date i-event_date o o o o o b-event_name
+Calendar	AddEventOnDateWithDate	poniedziałek 9 dodaj nowe wydarzenie o nazwie fryzjer do kalendarza	b-event_date i-event_date o o o o o b-event_name o o
+Calendar	AddEventOnDateWithDate	piątek 25 dodaj nowe spotkanie o nazwie spotkanie z anią	b-event_date i-event_date o o o o o b-event_name i-event_name i-event_name
+Calendar	AddEventOnDateWithDate	ten piątek dodaj nowe spotkanie o nazwie urodziny magdy do kalendarza	b-event_date i-event_date o o o o o b-event_name i-event_name o o
+Calendar	AddEventOnDateWithDate	ten poniedziałek dodaj nowe przypomnienie o nazwie urodziny taty	b-event_date i-event_date o o o o o b-event_name i-event_name
+Calendar	AddEventOnDateWithDate	środę 19 dodaj nowe przypomnienie o nazwie spotkanie z kubą do kalendarza	b-event_date i-event_date o o o o o b-event_name i-event_name i-event_name o o
+Calendar	AddEventOnDateWithDate	piątek 22 zapisz kolacja z eweliną	b-event_date i-event_date o b-event_name i-event_name i-event_name
+Calendar	AddEventOnDateWithDate	czwartek 20 zapisz o nazwie kolacja z andrzejem	b-event_date i-event_date o o o b-event_name i-event_name i-event_name
+Calendar	AddEventOnDateWithDate	następny czwartek zapisz wydarzenie o nazwie perkusja	b-event_date i-event_date o o o o b-event_name
+Calendar	AddEventOnDateWithDate	ten czwartek zapisz spotkanie o nazwie strzyżenie męskie	b-event_date i-event_date o o o o b-event_name i-event_name
+Calendar	AddEventOnDateWithDate	czwartek zapisz przypomnienie o nazwie walentynki	b-event_date o o o o b-event_name
+Calendar	AddEventOnDateWithDate	następną sobotę zapisz w kalendarzu dzień matki	b-event_date i-event_date o o o b-event_name i-event_name
+Calendar	AddEventOnDateWithDate	środę zapisz w kalendarzu o nazwie dzień ojca	b-event_date o o o o o b-event_name i-event_name
+Calendar	AddEventOnDateWithDate	poniedziałek 11 zapisz w kalendarzu wydarzenie o nazwie wakacje	b-event_date i-event_date o o o o o o b-event_name
+Calendar	AddEventOnDateWithDate	następny poniedziałek zapisz w kalendarzu spotkanie o nazwie wstęp do filozofii	b-event_date i-event_date o o o o o o b-event_name i-event_name i-event_name
+Calendar	AddEventOnDateWithDate	wtorek zapisz w kalendarzu przypomnienie o nazwie 1on1	b-event_date o o o o o o b-event_name
+Calendar	AddEventOnDateWithDate	wtorek 15 zanotuj fryzjer	b-event_date i-event_date o b-event_name
+Calendar	AddEventOnDateWithDate	poniedziałek zanotuj o nazwie spotkanie z anią	b-event_date o o o b-event_name i-event_name i-event_name
+Calendar	AddEventOnDateWithDate	następną środę zanotuj wydarzenie o nazwie urodziny magdy	b-event_date i-event_date o o o o b-event_name i-event_name
+Calendar	AddEventOnDateWithDate	wtorek 14 zanotuj spotkanie o nazwie urodziny taty	b-event_date i-event_date o o o o b-event_name i-event_name
+Calendar	AddEventOnDateWithDate	piątek zanotuj przypomnienie o nazwie spotkanie z kubą	b-event_date o o o o b-event_name i-event_name i-event_name
+Calendar	AddEventOnDateWithDate	środę 17 zanotuj w kalendarzu kolacja z eweliną	b-event_date i-event_date o o o b-event_name i-event_name i-event_name
+Calendar	AddEventOnDateWithDate	ten wtorek zanotuj w kalendarzu o nazwie kolacja z andrzejem	b-event_date i-event_date o o o o o b-event_name i-event_name i-event_name
+Calendar	AddEventOnDateWithDate	następny piątek zanotuj w kalendarzu wydarzenie o nazwie perkusja	b-event_date i-event_date o o o o o o b-event_name
+Calendar	AddEventOnDateWithDate	tę środę zanotuj w kalendarzu spotkanie o nazwie strzyżenie męskie	b-event_date i-event_date o o o o o o b-event_name i-event_name
+Calendar	NotifyOnEventStart	powiadom mnie kiedy spotkanie w kalendarzu się zacznie	o o o o o o o o
+Calendar	NotifyOnEventStart	powiadom mnie kiedy spotkanie w moim kalendarzu się rozpocznie	o o o o o o o o o
+Calendar	NotifyOnEventStart	powiadom mnie kiedy spotkanie w moim kalendarzu się zacznie	o o o o o o o o o
+Calendar	NotifyOnEventStart	powiadom mnie kiedy wydarzenie w kalendarzu się rozpocznie	o o o o o o o o
+Calendar	NotifyOnEventStart	powiadom mnie kiedy wydarzenie w kalendarzu się zacznie	o o o o o o o o
+Calendar	NotifyOnEventStart	powiadom mnie kiedy wydarzenie w moim kalendarzu się rozpocznie	o o o o o o o o o
+Calendar	NotifyOnEventStart	powiadom mnie kiedy wydarzenie w moim kalendarzu się zacznie	o o o o o o o o o
+Calendar	NotifyOnEventStart	powiedz mi kiedy spotkanie w kalendarzu się rozpocznie	o o o o o o o o
+Calendar	NotifyOnEventStart	powiedz mi kiedy spotkanie w kalendarzu się zacznie	o o o o o o o o
+Calendar	NotifyOnEventStart	powiedz mi kiedy spotkanie w moim kalendarzu się rozpocznie	o o o o o o o o o
+Calendar	NotifyOnEventStart	powiedz mi kiedy spotkanie w moim kalendarzu się zacznie	o o o o o o o o o
+Calendar	NotifyOnEventStart	powiedz mi kiedy wydarzenie w kalendarzu się rozpocznie	o o o o o o o o
+Calendar	NotifyOnEventStart	powiedz mi kiedy wydarzenie w kalendarzu się zacznie	o o o o o o o o
+Calendar	NotifyOnEventStart	powiedz mi kiedy wydarzenie w moim kalendarzu się rozpocznie	o o o o o o o o o
+Calendar	NotifyOnEventStart	powiedz mi kiedy wydarzenie w moim kalendarzu się zacznie	o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie powiadamiaj mnie kiedy spotkanie w kalendarzu się rozpocznie	o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie powiadamiaj mnie kiedy spotkanie w kalendarzu się zacznie	o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie powiadamiaj mnie kiedy spotkanie w moim kalendarzu się rozpocznie	o o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie powiadamiaj mnie kiedy spotkanie w moim kalendarzu się zacznie	o o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie powiadamiaj mnie kiedy wydarzenie w kalendarzu się rozpocznie	o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie powiadamiaj mnie kiedy wydarzenie w kalendarzu się zacznie	o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie powiadamiaj mnie kiedy wydarzenie w moim kalendarzu się rozpocznie	o o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie powiadamiaj mnie kiedy wydarzenie w moim kalendarzu się zacznie	o o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie mów mi kiedy spotkanie w kalendarzu się zacznie	o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie mów mi kiedy spotkanie w moim kalendarzu się rozpocznie	o o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie mów mi kiedy spotkanie w moim kalendarzu się zacznie	o o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie mów mi kiedy wydarzenie w kalendarzu się rozpocznie	o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie mów mi kiedy wydarzenie w kalendarzu się zacznie	o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie mów mi kiedy wydarzenie w moim kalendarzu się rozpocznie	o o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie mów mi kiedy wydarzenie w moim kalendarzu się zacznie	o o o o o o o o o o
+Calendar	NotifyOnEventInLocation	powiadom mnie kiedy spotkanie w kalendarzu w domu się rozpocznie	o o o o o o o b-location o o
+Calendar	NotifyOnEventInLocation	powiadom mnie kiedy spotkanie w kalendarzu w pracy się zacznie	o o o o o o o b-location o o
+Calendar	NotifyOnEventInLocation	powiadom mnie kiedy spotkanie w moim kalendarzu w domu magdy się rozpocznie	o o o o o o o o b-location i-location o o
+Calendar	NotifyOnEventInLocation	powiadom mnie kiedy wydarzenie w kalendarzu w pracy się rozpocznie	o o o o o o o b-location o o
+Calendar	NotifyOnEventInLocation	powiadom mnie kiedy wydarzenie w kalendarzu w domu magdy się zacznie	o o o o o o o b-location i-location o o
+Calendar	NotifyOnEventInLocation	powiadom mnie kiedy wydarzenie w moim kalendarzu w domu się rozpocznie	o o o o o o o o b-location o o
+Calendar	NotifyOnEventInLocation	powiadom mnie kiedy wydarzenie w moim kalendarzu w pracy się zacznie	o o o o o o o o b-location o o
+Calendar	NotifyOnEventInLocation	powiedz mi kiedy spotkanie w kalendarzu w domu magdy się rozpocznie	o o o o o o o b-location i-location o o
+Calendar	NotifyOnEventInLocation	powiedz mi kiedy spotkanie w kalendarzu w domu się zacznie	o o o o o o o b-location o o
+Calendar	NotifyOnEventInLocation	powiedz mi kiedy spotkanie w moim kalendarzu w pracy się rozpocznie	o o o o o o o o b-location o o
+Calendar	NotifyOnEventInLocation	powiedz mi kiedy spotkanie w moim kalendarzu w domu magdy się zacznie	o o o o o o o o b-location i-location o o
+Calendar	NotifyOnEventInLocation	powiedz mi kiedy wydarzenie w kalendarzu w domu się rozpocznie	o o o o o o o b-location o o
+Calendar	NotifyOnEventInLocation	powiedz mi kiedy wydarzenie w moim kalendarzu w domu magdy się rozpocznie	o o o o o o o o b-location i-location o o
+Calendar	NotifyOnEventInLocation	powiedz mi kiedy wydarzenie w moim kalendarzu w domu się zacznie	o o o o o o o o b-location o o
+Calendar	NotNotifyOnEventInLocation	nie powiadamiaj mnie kiedy spotkanie w kalendarzu w pracy się rozpocznie	o o o o o o o o b-location o o
+Calendar	NotNotifyOnEventInLocation	nie powiadamiaj mnie kiedy spotkanie w kalendarzu w domu magdy się zacznie	o o o o o o o o b-location i-location o o
+Calendar	NotNotifyOnEventInLocation	nie powiadamiaj mnie kiedy spotkanie w moim kalendarzu w domu się rozpocznie	o o o o o o o o o b-location o o
+Calendar	NotNotifyOnEventInLocation	nie powiadamiaj mnie kiedy spotkanie w moim kalendarzu w pracy się zacznie	o o o o o o o o o b-location o o
+Calendar	NotNotifyOnEventInLocation	nie powiadamiaj mnie kiedy wydarzenie w kalendarzu w domu magdy się rozpocznie	o o o o o o o o b-location i-location o o
+Calendar	NotNotifyOnEventInLocation	nie powiadamiaj mnie kiedy wydarzenie w kalendarzu w domu się zacznie	o o o o o o o o b-location o o
+Calendar	NotNotifyOnEventInLocation	nie powiadamiaj mnie kiedy wydarzenie w moim kalendarzu w pracy się rozpocznie	o o o o o o o o o b-location o o
+Calendar	NotNotifyOnEventInLocation	nie mów mi kiedy spotkanie w kalendarzu w domu się rozpocznie	o o o o o o o o b-location o o
+Calendar	NotNotifyOnEventInLocation	nie mów mi kiedy spotkanie w kalendarzu w pracy się zacznie	o o o o o o o o b-location o o
+Calendar	NotNotifyOnEventInLocation	nie mów mi kiedy spotkanie w moim kalendarzu w domu magdy się rozpocznie	o o o o o o o o o b-location i-location o o
+Calendar	NotNotifyOnEventInLocation	nie mów mi kiedy spotkanie w moim kalendarzu w domu się zacznie	o o o o o o o o o b-location o o
+Calendar	NotNotifyOnEventInLocation	nie mów mi kiedy wydarzenie w kalendarzu w pracy się rozpocznie	o o o o o o o o b-location o o
+Calendar	NotNotifyOnEventInLocation	nie mów mi kiedy wydarzenie w kalendarzu w domu magdy się zacznie	o o o o o o o o b-location i-location o o
+Calendar	NotNotifyOnEventInLocation	nie mów mi kiedy wydarzenie w moim kalendarzu w domu się rozpocznie	o o o o o o o o o b-location o o
+Calendar	NotNotifyOnEventInLocation	nie mów mi kiedy wydarzenie w moim kalendarzu w pracy się zacznie	o o o o o o o o o b-location o o

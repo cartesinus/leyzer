@@ -1,0 +1,778 @@
+domain	intent	utterance	bio
+Spotify	OpenSpotify	otwórz spotify	o o
+Spotify	OpenSpotify	otwórz spotify i zagraj	o o o o
+Spotify	OpenSpotify	otwórz spotify i zagraj coś	o o o o o
+Spotify	OpenSpotify	otwórz spotify i zagraj mi	o o o o o
+Spotify	OpenSpotify	otwórz spotify i zagraj mi coś	o o o o o o
+Spotify	OpenSpotify	otwórz spotify włącz muzykę	o o o o
+Spotify	OpenSpotify	otwórz spotify włącz jakąś muzykę	o o o o o
+Spotify	OpenSpotify	użyj spotify	o o
+Spotify	OpenSpotify	użyj spotify i zagraj	o o o o
+Spotify	OpenSpotify	użyj spotify i zagraj coś	o o o o o
+Spotify	OpenSpotify	użyj spotify i zagraj mi	o o o o o
+Spotify	OpenSpotify	użyj spotify i zagraj mi coś	o o o o o o
+Spotify	OpenSpotify	użyj spotify włącz muzykę	o o o o
+Spotify	OpenSpotify	użyj spotify włącz jakąś muzykę	o o o o o
+Spotify	PlaySong	odtwarzaj flow na spotify	o b-song o o
+Spotify	PlaySong	odtwarzaj piosenkę paper boy	o o b-song i-song
+Spotify	PlaySong	odtwarzaj piosenkę 74 na spotify	o o b-song o o
+Spotify	PlaySong	odtwarzaj utwór neony	o o b-song
+Spotify	PlaySong	odtwarzaj utwór touch that space na spotify	o o b-song i-song i-song o o
+Spotify	PlaySong	odtwarzaj kawałek panie inżynierze	o o b-song i-song
+Spotify	PlaySong	odtwarzaj kawałek memory loop na spotify	o o b-song i-song o o
+Spotify	PlaySong	puść zew	o b-song
+Spotify	PlaySong	puść bad liar na spotify	o b-song i-song o o
+Spotify	PlaySong	puść piosenkę norman fucking rockwell	o o b-song i-song i-song
+Spotify	PlaySong	puść utwór list of boys	o o b-song i-song i-song
+Spotify	PlaySong	puść utwór dom stamina na spotify	o o b-song i-song o o
+Spotify	PlaySong	puść kawałek moments of flow	o o b-song i-song i-song
+Spotify	PlaySong	puść kawałek good day na spotify	o o b-song i-song o o
+Spotify	PlaySong	włącz the crossing guard	o b-song i-song i-song
+Spotify	PlaySong	włącz of the past na spotify	o b-song i-song i-song o o
+Spotify	PlaySong	włącz piosenkę aż po horyzont	o o b-song i-song
+Spotify	PlaySong	włącz piosenkę the fool you need na spotify	o o b-song i-song i-song i-song o o
+Spotify	PlaySong	włącz utwór blow to the head	o o b-song i-song i-song i-song
+Spotify	PlaySong	włącz utwór twist na spotify	o o b-song o o
+Spotify	PlaySong	włącz kawałek schematy	o o b-song
+Spotify	PlaySong	włącz kawałek wróć na spotify	o o b-song o o
+Spotify	PlaySong	graj ostatni raz	o b-song i-song
+Spotify	PlaySong	graj od tańca na spotify	o b-song i-song o o
+Spotify	PlaySong	graj piosenkę osiem to za mało na spotify	o o b-song i-song i-song i-song o o
+Spotify	PlaySong	graj utwór wędrówka	o o b-song
+Spotify	PlaySong	graj utwór polska na spotify	o o b-song o o
+Spotify	PlaySong	graj kawałek all spies	o o b-song i-song
+Spotify	PlaySong	graj kawałek hej panie na spotify	o o b-song i-song o o
+Spotify	PlaySong	zagraj niepewność	o b-song
+Spotify	PlaySong	zagraj odds against tomorrow na spotify	o b-song i-song i-song o o
+Spotify	PlaySong	zagraj piosenkę nie ma nas	o o b-song i-song i-song
+Spotify	PlaySong	zagraj piosenkę what a time to be alive na spotify	o o b-song i-song i-song i-song i-song i-song o o
+Spotify	PlaySong	zagraj utwór run to me	o o b-song i-song i-song
+Spotify	PlaySong	zagraj utwór moscow na spotify	o o b-song o o
+Spotify	PlaySong	zagraj kawałek door man	o o b-song i-song
+Spotify	PlaySongByArtist	odtwarzaj żmijowisko łona na spotify	o b-song b-artist o o
+Spotify	PlaySongByArtist	odtwarzaj paco artysty magic dirt	o b-song o b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj król życia artysty boy harsher na spotify	o b-song i-song o b-artist i-artist o o
+Spotify	PlaySongByArtist	odtwarzaj na drugim brzegu tęczy w wykonaniu lingua ignota	o b-song i-song i-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj nieboskłon w wykonaniu spelling na spotify	o b-song o o b-artist o o
+Spotify	PlaySongByArtist	odtwarzaj you are here stworzony przez trupa trupa	o b-song i-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj miasto stworzony przez matmos na spotify	o b-song o o b-artist o o
+Spotify	PlaySongByArtist	odtwarzaj mgła 3 nagrany przez mata	o b-song i-song o o b-artist
+Spotify	PlaySongByArtist	odtwarzaj you should see me in a crown nagrany przez natalia przybysz na spotify	o b-song i-song i-song i-song i-song i-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	odtwarzaj piosenkę we will marcelina szlachcic	o o b-song i-song b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj piosenkę bud guy amyl and the sniffers na spotify	o o b-song i-song b-artist i-artist i-artist i-artist o o
+Spotify	PlaySongByArtist	odtwarzaj piosenkę koń na białym rycerzu artysty marcin sójka na spotify	o o b-song i-song i-song i-song o b-artist i-artist o o
+Spotify	PlaySongByArtist	odtwarzaj piosenkę aura w wykonaniu happysad	o o b-song o o b-artist
+Spotify	PlaySongByArtist	odtwarzaj piosenkę we are surrounded w wykonaniu alicja na spotify	o o b-song i-song i-song o o b-artist o o
+Spotify	PlaySongByArtist	odtwarzaj piosenkę think about what you love stworzony przez metronomy	o o b-song i-song i-song i-song i-song o o b-artist
+Spotify	PlaySongByArtist	odtwarzaj piosenkę zamki na piasku stworzony przez mura masa na spotify	o o b-song i-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	odtwarzaj piosenkę nienawiść 100% nagrany przez bon iver	o o b-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj piosenkę a survey nagrany przez laurie anderson na spotify	o o b-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	odtwarzaj utwór nie mamy nic krzysztof krawczyk	o o b-song i-song i-song b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj utwór from julia jacklin na spotify	o o b-song b-artist i-artist o o
+Spotify	PlaySongByArtist	odtwarzaj utwór obiecaj mi artysty mike krol	o o b-song i-song o b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj utwór lajki artysty żabson na spotify	o o b-song o b-artist o o
+Spotify	PlaySongByArtist	odtwarzaj utwór goodbye pork pie hat w wykonaniu kacper blonsky	o o b-song i-song i-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj utwór the dark cloud is comming w wykonaniu hunter na spotify	o o b-song i-song i-song i-song i-song o o b-artist o o
+Spotify	PlaySongByArtist	odtwarzaj utwór visions stworzony przez the drums	o o b-song o o b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj utwór from a distance stworzony przez mac demarco na spotify	o o b-song i-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	odtwarzaj utwór perfume nagrany przez białas	o o b-song o o b-artist
+Spotify	PlaySongByArtist	odtwarzaj utwór gold dust nagrany przez floating points na spotify	o o b-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	odtwarzaj kawałek esp ion age flying lotus	o o b-song i-song i-song b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj kawałek wisła destroyer na spotify	o o b-song b-artist o o
+Spotify	PlaySongByArtist	odtwarzaj kawałek faktoria artysty julien chang	o o b-song o b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj kawałek proszę pana artysty pezet na spotify	o o b-song i-song o b-artist o o
+Spotify	PlaySongByArtist	odtwarzaj kawałek what is she waring w wykonaniu fka twigs	o o b-song i-song i-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj kawałek narodzeni na nowo w wykonaniu brodka na spotify	o o b-song i-song i-song o o b-artist o o
+Spotify	PlaySongByArtist	odtwarzaj kawałek gra się do końca stworzony przez ostr	o o b-song i-song i-song o o b-artist
+Spotify	PlaySongByArtist	odtwarzaj kawałek fantas stworzony przez pond na spotify	o o b-song o o b-artist o o
+Spotify	PlaySongByArtist	odtwarzaj kawałek pali się nagrany przez lee gamble	o o b-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj kawałek aaron nagrany przez justin bieber na spotify	o o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść die unknown mortal orchestra	o b-song b-artist i-artist i-artist
+Spotify	PlaySongByArtist	puść long time ago chelsea wolfe na spotify	o b-song i-song i-song b-artist i-artist o o
+Spotify	PlaySongByArtist	puść wściekłe psy artysty grimes	o b-song i-song o b-artist
+Spotify	PlaySongByArtist	puść jak gdyby nigdy nic artysty thom yorke na spotify	o b-song i-song i-song i-song o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść czerń w wykonaniu tool	o b-song o o b-artist
+Spotify	PlaySongByArtist	puść piloci w wykonaniu wand na spotify	o b-song o o b-artist o o
+Spotify	PlaySongByArtist	puść to nie miało prawa się stać stworzony przez king gizzard and the lizard wizard	o b-song i-song i-song i-song i-song o o b-artist i-artist i-artist i-artist i-artist i-artist
+Spotify	PlaySongByArtist	puść sobie i wam stworzony przez fennesz na spotify	o b-song i-song i-song o o b-artist o o
+Spotify	PlaySongByArtist	puść chant nagrany przez slow thai	o b-song o o b-artist i-artist
+Spotify	PlaySongByArtist	puść umarł mój wróg nagrany przez modest mouse na spotify	o b-song i-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść piosenkę kochaj mnie xiu xiu	o o b-song i-song b-artist i-artist
+Spotify	PlaySongByArtist	puść piosenkę będzie lepiej sean mccann na spotify	o o b-song i-song b-artist i-artist o o
+Spotify	PlaySongByArtist	puść piosenkę new years eve artysty talking heads	o o b-song i-song i-song o b-artist i-artist
+Spotify	PlaySongByArtist	puść piosenkę irato artysty richard dawson na spotify	o o b-song o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść piosenkę 1800 grmów w wykonaniu dj nigga fox	o o b-song i-song o o b-artist i-artist i-artist
+Spotify	PlaySongByArtist	puść piosenkę słoni w wykonaniu bartek królik na spotify	o o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść piosenkę climbing the walls stworzony przez andras	o o b-song i-song i-song o o b-artist
+Spotify	PlaySongByArtist	puść piosenkę vortex stworzony przez antek smykiewicz na spotify	o o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść piosenkę follow you nagrany przez patrycja markowska	o o b-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	puść piosenkę intro nagrany przez paweł domagała na spotify	o o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść utwór nothing has to be true małpa	o o b-song i-song i-song i-song i-song b-artist
+Spotify	PlaySongByArtist	puść utwór any human friend lao che na spotify	o o b-song i-song i-song b-artist i-artist o o
+Spotify	PlaySongByArtist	puść utwór glue artysty pidżama porno na spotify	o o b-song o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść utwór pająki w wykonaniu niemen	o o b-song o o b-artist
+Spotify	PlaySongByArtist	puść utwór ołów w wykonaniu taco hemingway na spotify	o o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść utwór hawudepe stworzony przez kelly moran	o o b-song o o b-artist i-artist
+Spotify	PlaySongByArtist	puść utwór prawie my stworzony przez matana roberts na spotify	o o b-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść utwór pełnia nagrany przez shellac	o o b-song o o b-artist
+Spotify	PlaySongByArtist	puść utwór kurier nagrany przez ty segall na spotify	o o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść kawałek move me big thief	o o b-song i-song b-artist i-artist
+Spotify	PlaySongByArtist	puść kawałek król afromental na spotify	o o b-song b-artist o o
+Spotify	PlaySongByArtist	puść kawałek choo choo artysty organek	o o b-song i-song o b-artist
+Spotify	PlaySongByArtist	puść kawałek rakiety artysty william basinski na spotify	o o b-song o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść kawałek turn me down w wykonaniu gang starr	o o b-song i-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	puść kawałek dzieci duchy w wykonaniu sokół na spotify	o o b-song i-song o o b-artist o o
+Spotify	PlaySongByArtist	puść kawałek end of my bloodline stworzony przez mafia gang	o o b-song i-song i-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	puść kawałek moon in the water stworzony przez trójkąt warszawski na spotify	o o b-song i-song i-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	puść kawałek raj nagrany przez hey	o o b-song o o b-artist
+Spotify	PlaySongByArtist	puść kawałek sprzedawca jutra nagrany przez james blake na spotify	o o b-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	graj missing cleo	o b-song b-artist
+Spotify	PlaySongByArtist	graj birth of violence ash koosha na spotify	o b-song i-song i-song b-artist i-artist o o
+Spotify	PlaySongByArtist	graj no people to person artysty margaret	o b-song i-song i-song i-song o b-artist
+Spotify	PlaySongByArtist	graj co się z nami stało artysty jan-rapowanie na spotify	o b-song i-song i-song i-song o b-artist o o
+Spotify	PlaySongByArtist	graj twoje motylki w wykonaniu black midi	o b-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	graj traffic w wykonaniu daniel avery na spotify	o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	graj się poruszam 1 stworzony przez dumplings	o b-song i-song i-song o o b-artist
+Spotify	PlaySongByArtist	graj ciemność stworzony przez mela koteluk na spotify	o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	graj american idiot nagrany przez lightning bolt	o b-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	graj związek x nagrany przez mosses sumney na spotify	o b-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	graj piosenkę the city of roses de mono	o o b-song i-song i-song i-song b-artist i-artist
+Spotify	PlaySongByArtist	graj piosenkę got you tim hecker na spotify	o o b-song i-song b-artist i-artist o o
+Spotify	PlaySongByArtist	graj piosenkę ej chłopaku artysty myslovitz	o o b-song i-song o b-artist
+Spotify	PlaySongByArtist	graj piosenkę niemiłość artysty american football na spotify	o o b-song o b-artist i-artist o o
+Spotify	PlaySongByArtist	graj piosenkę szkło w wykonaniu the black keys	o o b-song o o b-artist i-artist i-artist
+Spotify	PlaySongByArtist	graj piosenkę trofea w wykonaniu greenday na spotify	o o b-song o o b-artist o o
+Spotify	PlaySongByArtist	graj piosenkę plastic stworzony przez nils frahm	o o b-song o o b-artist i-artist
+Spotify	PlaySongByArtist	graj piosenkę hit man stworzony przez coma na spotify	o o b-song i-song o o b-artist o o
+Spotify	PlaySongByArtist	graj piosenkę monster nagrany przez szpaku	o o b-song o o b-artist
+Spotify	PlaySongByArtist	graj piosenkę zabawawa nagrany przez dawid podsiadło na spotify	o o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	graj utwór jupiter 4 noże	o o b-song i-song b-artist
+Spotify	PlaySongByArtist	graj utwór an ambulance marika hackman na spotify	o o b-song i-song b-artist i-artist o o
+Spotify	PlaySongByArtist	graj utwór na osiedlu artysty enej	o o b-song i-song o b-artist
+Spotify	PlaySongByArtist	graj utwór hokejowy zamek artysty mrozu na spotify	o o b-song i-song o b-artist o o
+Spotify	PlaySongByArtist	graj utwór the arrow of our youth w wykonaniu radiohead	o o b-song i-song i-song i-song i-song o o b-artist
+Spotify	PlaySongByArtist	graj utwór najnowszy klip w wykonaniu toro y moi na spotify	o o b-song i-song o o b-artist i-artist i-artist o o
+Spotify	PlaySongByArtist	graj utwór wake up next to god stworzony przez rrose	o o b-song i-song i-song i-song i-song o o b-artist
+Spotify	PlaySongByArtist	graj utwór do ani nagrany przez andy stott	o o b-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	graj utwór wonder nagrany przez peja na spotify	o o b-song o o b-artist o o
+Spotify	PlaySongByArtist	graj kawałek body mateusz ziółko	o o b-song b-artist i-artist
+Spotify	PlaySongByArtist	graj kawałek w piątki leżę w wannie car seat headrest na spotify	o o b-song i-song i-song i-song i-song b-artist i-artist i-artist o o
+Spotify	PlaySongByArtist	graj kawałek bezczelnie artysty jeff parker	o o b-song o b-artist i-artist
+Spotify	PlaySongByArtist	graj kawałek cały artysty muniek staszczyk na spotify	o o b-song o b-artist i-artist o o
+Spotify	PlaySongByArtist	graj kawałek skarbie w wykonaniu glass beach	o o b-song o o b-artist i-artist
+Spotify	PlaySongByArtist	graj kawałek slowboat w wykonaniu angel olsen na spotify	o o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	graj kawałek necromania stworzony przez pup	o o b-song o o b-artist
+Spotify	PlaySongByArtist	graj kawałek not this time stworzony przez purple mountains na spotify	o o b-song i-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	graj kawałek prosto w serce nagrany przez charlotte gainsbourg	o o b-song i-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	graj kawałek flow nagrany przez andy shauf na spotify	o o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj paper boy nosowska	o b-song i-song b-artist
+Spotify	PlaySongByArtist	zagraj 74 the offspring na spotify	o b-song b-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj touch that space artysty piotr cugowski na spotify	o b-song i-song i-song o b-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj panie inżynierze w wykonaniu michał szczygieł	o b-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	zagraj memory loop w wykonaniu the black thunder na spotify	o b-song i-song o o b-artist i-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj zew stworzony przez desire marea	o b-song o o b-artist i-artist
+Spotify	PlaySongByArtist	zagraj bad liar stworzony przez gesaffelstein na spotify	o b-song i-song o o b-artist o o
+Spotify	PlaySongByArtist	zagraj norman fucking rockwell nagrany przez tropical fuck storm	o b-song i-song i-song o o b-artist i-artist i-artist
+Spotify	PlaySongByArtist	zagraj king of the castle nagrany przez girl band na spotify	o b-song i-song i-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj piosenkę list of boys billie eilish	o o b-song i-song i-song b-artist i-artist
+Spotify	PlaySongByArtist	zagraj piosenkę dom stamina electric wizard na spotify	o o b-song i-song b-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj piosenkę moments of flow artysty autoclave	o o b-song i-song i-song o b-artist
+Spotify	PlaySongByArtist	zagraj piosenkę good day artysty mac miller na spotify	o o b-song i-song o b-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj piosenkę the crossing guard w wykonaniu kult	o o b-song i-song i-song o o b-artist
+Spotify	PlaySongByArtist	zagraj piosenkę of the past w wykonaniu felicia atkinson na spotify	o o b-song i-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj piosenkę aż po horyzont stworzony przez kwestia 07	o o b-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	zagraj piosenkę the fool you need stworzony przez miuosh na spotify	o o b-song i-song i-song i-song o o b-artist o o
+Spotify	PlaySongByArtist	zagraj piosenkę blow to the head nagrany przez dawid podsiadlo	o o b-song i-song i-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	zagraj piosenkę twist nagrany przez alex cameron na spotify	o o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj utwór schematy oso oso	o o b-song b-artist i-artist
+Spotify	PlaySongByArtist	zagraj utwór wróć swain na spotify	o o b-song b-artist o o
+Spotify	PlaySongByArtist	zagraj utwór ostatni raz artysty molesta ewenement	o o b-song i-song o b-artist i-artist
+Spotify	PlaySongByArtist	zagraj utwór od tańca artysty holly herndon na spotify	o o b-song i-song o b-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj utwór daj mi żyć w wykonaniu caterina barbieri	o o b-song i-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	zagraj utwór osiem to za mało w wykonaniu john roberts na spotify	o o b-song i-song i-song i-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj utwór wędrówka stworzony przez baranovski	o o b-song o o b-artist
+Spotify	PlaySongByArtist	zagraj utwór polska stworzony przez artur rojek na spotify	o o b-song o o b-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj utwór all spies nagrany przez felt	o o b-song i-song o o b-artist
+Spotify	PlaySongByArtist	zagraj utwór hej panie nagrany przez water from your eyes na spotify	o o b-song i-song o o b-artist i-artist i-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj kawałek niepewność pro8l3m	o o b-song b-artist
+Spotify	PlaySongByArtist	zagraj kawałek odds against tomorrow duster na spotify	o o b-song i-song i-song b-artist o o
+Spotify	PlaySongByArtist	zagraj kawałek nie ma nas artysty resavoir	o o b-song i-song i-song o b-artist
+Spotify	PlaySongByArtist	zagraj kawałek what a time to be alive artysty cate le bon na spotify	o o b-song i-song i-song i-song i-song i-song o b-artist i-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj kawałek run to me w wykonaniu the comet is comming	o o b-song i-song i-song o o b-artist i-artist i-artist i-artist
+Spotify	PlaySongByArtist	zagraj kawałek moscow w wykonaniu dezerter na spotify	o o b-song o o b-artist o o
+Spotify	PlaySongByArtist	zagraj kawałek door man stworzony przez t.love	o o b-song i-song o o b-artist
+Spotify	PlaySongByArtist	zagraj kawałek aurora stworzony przez thee oh sees na spotify	o o b-song o o b-artist i-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj kawałek the man with no heart or brain nagrany przez jacek sienkiewicz	o o b-song i-song i-song i-song i-song i-song i-song o o b-artist i-artist
+Spotify	PlaySongByArtist	zagraj kawałek żmijowisko nagrany przez the flaming lips na spotify	o o b-song o o b-artist i-artist i-artist o o
+Spotify	PlaySongByArtist	odtwarzaj łona paco	o b-artist b-song
+Spotify	PlaySongByArtist	puść magic dirt król życia	o b-artist i-artist b-song i-song
+Spotify	PlaySongByArtist	zagraj boy harsher na drugim brzegu tęczy	o b-artist i-artist b-song i-song i-song i-song
+Spotify	PlayAlbumOfTypeByArtist	graj capsule losing contact}_TYPE face stabber trupa trupa na spotify	o b-album i-album i-album b-album i-album b-artist i-artist o o
+Spotify	PlayAlbumOfTypeByArtist	graj pełnia}_TYPE data horde od matmos	o b-album b-album i-album o b-artist
+Spotify	PlayAlbumOfTypeByArtist	graj black friday}_TYPE hymn to moisture od mata na spotify	o b-album i-album b-album i-album i-album o b-artist o o
+Spotify	PlayAlbumOfTypeByArtist	graj family party}_TYPE fudge sandwich wykonawcy natalia przybysz	o b-album i-album b-album i-album o b-artist i-artist
+Spotify	PlayAlbumOfTypeByArtist	graj to believe}_TYPE resavoir wykonawcy marcelina szlachcic na spotify	o b-album i-album b-album o b-artist i-artist o o
+Spotify	PlayAlbumOfTypeByArtist	zagraj rakiety}_TYPE agora amyl and the sniffers	o b-album b-album b-artist i-artist i-artist i-artist
+Spotify	PlayAlbumOfTypeByArtist	zagraj hyperion}_TYPE braindrops zuza jabłońska na spotify	o b-album b-album b-artist i-artist o o
+Spotify	PlayAlbumOfTypeByArtist	zagraj american idiot}_TYPE sen o 7 szklankach od marcin sójka	o b-album i-album b-album i-album i-album i-album o b-artist i-artist
+Spotify	PlayAlbumOfTypeByArtist	zagraj złe wychowanie}_TYPE reset od happysad na spotify	o b-album i-album b-album o b-artist o o
+Spotify	PlayAlbumOfTypeByArtist	zagraj prosto w serce}_TYPE basking in the glow wykonawcy alicja	o b-album i-album i-album b-album i-album i-album i-album o b-artist
+Spotify	Pause	odtwarzaj tę posenkę na spotify	o o o o o
+Spotify	Pause	odtwarzaj ten utwór	o o o
+Spotify	Pause	odtwarzaj ten utwór na spotify	o o o o o
+Spotify	Pause	odtwarzaj ten kawałek	o o o
+Spotify	Pause	odtwarzaj ten kawałek na spotify	o o o o o
+Spotify	Pause	pauza tę posenkę	o o o
+Spotify	Pause	pauza tę posenkę na spotify	o o o o o
+Spotify	Pause	pauza ten utwór	o o o
+Spotify	Pause	pauza ten utwór na spotify	o o o o o
+Spotify	Pause	pauza ten kawałek	o o o
+Spotify	Pause	pauza ten kawałek na spotify	o o o o o
+Spotify	Pause	wznów tę posenkę	o o o
+Spotify	Pause	wznów tę posenkę na spotify	o o o o o
+Spotify	Pause	wznów ten utwór na spotify	o o o o o
+Spotify	Pause	wznów ten kawałek	o o o
+Spotify	Pause	wznów ten kawałek na spotify	o o o o o
+Spotify	Pause	powtórz tę posenkę	o o o
+Spotify	Pause	powtórz tę posenkę na spotify	o o o o o
+Spotify	Pause	powtórz ten utwór	o o o
+Spotify	Pause	powtórz ten kawałek	o o o
+Spotify	Pause	powtórz ten kawałek na spotify	o o o o o
+Spotify	NextSong	graj następną piosenkę	o o o
+Spotify	NextSong	graj następną piosenkę na spotify	o o o o o
+Spotify	NextSong	graj następną utwór	o o o
+Spotify	NextSong	graj następną utwór na spotify	o o o o o
+Spotify	NextSong	graj następną kawałek	o o o
+Spotify	NextSong	graj następną kawałek na spotify	o o o o o
+Spotify	NextSong	zagraj następną piosenkę	o o o
+Spotify	NextSong	zagraj następną piosenkę na spotify	o o o o o
+Spotify	NextSong	zagraj następną utwór	o o o
+Spotify	NextSong	zagraj następną utwór na spotify	o o o o o
+Spotify	NextSong	zagraj następną kawałek	o o o
+Spotify	NextSong	zagraj następną kawałek na spotify	o o o o o
+Spotify	NextSong	następna piosenka	o o
+Spotify	NextSong	następna piosenka na spotify	o o o o
+Spotify	NextSong	następna utwór	o o
+Spotify	NextSong	następna utwór na spotify	o o o o
+Spotify	NextSong	następna kawałek na spotify	o o o o
+Spotify	PreviousSong	graj poprzednią piosenkę	o o o
+Spotify	PreviousSong	graj poprzednią piosenkę na spotify	o o o o o
+Spotify	PreviousSong	graj poprzednią utwór	o o o
+Spotify	PreviousSong	graj poprzednią utwór na spotify	o o o o o
+Spotify	PreviousSong	graj poprzednią kawałek	o o o
+Spotify	PreviousSong	graj poprzednią kawałek na spotify	o o o o o
+Spotify	PreviousSong	zagraj poprzednią piosenkę	o o o
+Spotify	PreviousSong	zagraj poprzednią utwór	o o o
+Spotify	PreviousSong	zagraj poprzednią utwór na spotify	o o o o o
+Spotify	PreviousSong	zagraj poprzednią kawałek	o o o
+Spotify	PreviousSong	zagraj poprzednią kawałek na spotify	o o o o o
+Spotify	PreviousSong	poprzednia piosenka	o o
+Spotify	PreviousSong	poprzednia piosenka na spotify	o o o o
+Spotify	PreviousSong	poprzednia utwór	o o
+Spotify	PreviousSong	poprzednia utwór na spotify	o o o o
+Spotify	PreviousSong	poprzednia kawałek	o o
+Spotify	PlayPlaylist	odtwarzaj listę techono 90s na spotify	o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	odtwarzaj playlistę disco polo hity	o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj playlistę chill ze znajomymi na spotify	o o b-playlist i-playlist i-playlist o o
+Spotify	PlayPlaylist	odtwarzaj listę odtwarzania letni chill	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj listę odtwarzania modern chill rock na spotify	o o o b-playlist i-playlist i-playlist o o
+Spotify	PlayPlaylist	odtwarzaj moją listę trap strefa	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj moją listę do biegania na spotify	o o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	odtwarzaj moją playlistę mint	o o o b-playlist
+Spotify	PlayPlaylist	odtwarzaj moją playlistę deep house na spotify	o o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	odtwarzaj moją listę odtwarzania all about that brass	o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj moją listę odtwarzania scenic drive na spotify	o o o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	puść listę zimowy chill	o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść listę polski pop na spotify	o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	puść playlistę do sprzątania	o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść playlistę alternatywna polska na spotify	o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	puść listę odtwarzania do pracy	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść listę odtwarzania evening groove na spotify	o o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	puść moją listę tylko polski rock	o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	puść moją listę muzyka na pocieszenie na spotify	o o o b-playlist i-playlist i-playlist o o
+Spotify	PlayPlaylist	puść moją playlistę wiosenny chill	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść moją playlistę imprezka na spotify	o o o b-playlist o o
+Spotify	PlayPlaylist	puść moją listę odtwarzania do jedzenia	o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść moją listę odtwarzania generacja hip hop na spotify	o o o o b-playlist i-playlist i-playlist o o
+Spotify	PlayPlaylist	graj listę top hits polska	o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	graj listę polskie hity na spotify	o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	graj playlistę top 50 polska	o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	graj playlistę zimowy power na spotify	o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	graj listę odtwarzania punk unleashed	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	graj moją listę do seksu	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	graj moją listę billboard hot 100 na spotify	o o o b-playlist i-playlist i-playlist o o
+Spotify	PlayPlaylist	graj moją playlistę need for speed	o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	graj moją playlistę poranna kawa na spotify	o o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	graj moją listę odtwarzania muzyka do kościoła	o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	graj moją listę odtwarzania power hour na spotify	o o o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	zagraj listę inspirational walk	o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj listę sad indie na spotify	o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	zagraj playlistę feelin myself	o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj playlistę rage beats na spotify	o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	zagraj listę odtwarzania country coffeehouse	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj listę odtwarzania hot country na spotify	o o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	zagraj moją listę piano study	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj moją listę undercurrents na spotify	o o o b-playlist o o
+Spotify	PlayPlaylist	zagraj moją playlistę blues origins	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj moją playlistę retrowave na spotify	o o o b-playlist o o
+Spotify	PlayPlaylist	zagraj moją listę odtwarzania cardio	o o o o b-playlist
+Spotify	PlayPlaylist	zagraj moją listę odtwarzania get turnt na spotify	o o o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	odtwarzaj utwory listy your daily routine	o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj utwory playlisty damily road trip	o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj utwory listy odtwarzania texas music now	o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj utwory z mojej listy homage	o o o o o b-playlist
+Spotify	PlayPlaylist	odtwarzaj utwory z mojej playlisty iconic soundtracks	o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj utwory z mojej listy odtwarzania kickass metal	o o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj piosenki listy friday cratediggers	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj piosenki playlisty piano in the background	o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj piosenki listy odtwarzania bass arcade	o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj piosenki z mojej listy ocean escapes	o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj piosenki z mojej playlisty heavy queens	o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj piosenki z mojej listy odtwarzania rap uk	o o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj kawałki listy alternative beats	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj kawałki playlisty blues classics	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj kawałki listy odtwarzania love pop	o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj kawałki z mojej listy mind and body	o o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj kawałki z mojej playlisty classical romance	o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	odtwarzaj kawałki z mojej listy odtwarzania metal empire	o o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść utwory listy 100 uplifting songs	o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	puść utwory playlisty romantic ballads	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść utwory listy odtwarzania workday lounge	o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść utwory z mojej listy floating through space	o o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	puść utwory z mojej playlisty cinematic indie folk	o o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	puść utwory z mojej listy odtwarzania signed xoxo	o o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść piosenki listy metalcore classics	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść piosenki playlisty all 80s out	o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	puść piosenki listy odtwarzania beach music	o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść piosenki z mojej listy electronic focus	o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść piosenki z mojej playlisty push button funk	o o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	puść piosenki z mojej listy odtwarzania pacefull meditation	o o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść kawałki listy badass women	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść kawałki listy odtwarzania rock ballads	o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść kawałki z mojej listy evening stroll	o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść kawałki z mojej playlisty kitchen swagger	o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	puść kawałki z mojej listy odtwarzania grime shutdown	o o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	graj utwory listy synths and strings	o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	graj utwory playlisty reading and chill out	o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	graj utwory listy odtwarzania new noise	o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	graj utwory z mojej listy detox	o o o o o b-playlist
+Spotify	PlayPlaylist	graj utwory z mojej playlisty jukebox joint	o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	graj utwory z mojej listy odtwarzania short and sweet	o o o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	graj piosenki listy sleep	o o o b-playlist
+Spotify	PlayPlaylist	graj piosenki playlisty top gaming tracks	o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	graj piosenki listy odtwarzania off the strength	o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	graj piosenki z mojej listy hit dancefloor	o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	graj piosenki z mojej playlisty love me	o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	graj piosenki z mojej listy odtwarzania readn and unwind	o o o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	graj kawałki listy rock party	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	graj kawałki playlisty paceful piano	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	graj kawałki listy odtwarzania old school metal	o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	graj kawałki z mojej listy reading soundtrack	o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	graj kawałki z mojej playlisty classical music explained	o o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	graj kawałki z mojej listy odtwarzania sub low	o o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj utwory listy soulfull disco	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj utwory playlisty riffs and runs	o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	zagraj utwory listy odtwarzania country rocks	o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj utwory z mojej listy songs to sing in the shower	o o o o o b-playlist i-playlist i-playlist i-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	zagraj utwory z mojej listy odtwarzania piano dinner	o o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj piosenki listy daydreamer	o o o b-playlist
+Spotify	PlayPlaylist	zagraj piosenki playlisty fantasy board gaming	o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	zagraj piosenki listy odtwarzania reading adventure	o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj piosenki z mojej listy next from nashville	o o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	zagraj piosenki z mojej playlisty mega hit mix	o o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	zagraj piosenki z mojej listy odtwarzania forever country	o o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj kawałki listy summer reading	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj kawałki playlisty legendary women of country	o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	zagraj kawałki listy odtwarzania massive drum and bass	o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	zagraj kawałki z mojej listy push ups	o o o o o b-playlist i-playlist
+Spotify	PlayPlaylist	zagraj kawałki z mojej playlisty beer and wings	o o o o o b-playlist i-playlist i-playlist
+Spotify	PlayPlaylist	zagraj kawałki z mojej listy odtwarzania lets get funky	o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do playlisty o nazwie weekend	o o o o o o o b-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do playlisty która się nazywa nature sounds	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do listy odtwarzania work	o o o o o o b-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do listy odtwarzania o nazwie early alternatives	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do listy odtwarzania która się nazywa baby sleep	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do listy wine and dine	o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do listy o nazwie anti valentine's day	o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do listy która się nazywa stripped down	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do mojej playlisty funk outta here	o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do mojej playlisty o nazwie your office stereo	o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do mojej playlisty która się nazywa piano variations	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do mojej listy odtwarzania rise up	o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do mojej listy odtwarzania o nazwie totally stress free	o o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do mojej listy odtwarzania która się nazywa greatest songs ever	o o o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do mojej listy o nazwie garage rock revival	o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do mojej listy która się nazywa the cookout	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do playlisty cozy acoustic morning	o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do playlisty o nazwie new music nashville	o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do playlisty która się nazywa rock classics	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do listy odtwarzania classical reading	o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do listy odtwarzania o nazwie northern spirits	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do listy odtwarzania która się nazywa country nights	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do listy house focus	o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do listy o nazwie daily lift	o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do listy która się nazywa nightstorms	o o o o o o o o b-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do mojej playlisty knitting party	o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do mojej playlisty która się nazywa sunny beats	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do mojej listy odtwarzania lofi hip hop	o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do mojej listy odtwarzania o nazwie pitch black techno	o o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do mojej listy odtwarzania która się nazywa country rock	o o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do mojej listy domino sound system	o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do mojej listy o nazwie have a great day	o o o o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do mojej listy która się nazywa acoustic concentration	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do playlisty i love my rnb	o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do playlisty o nazwie shuffle syndrome	o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do playlisty która się nazywa all the rage	o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do listy odtwarzania keep calm	o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do listy odtwarzania o nazwie rock gaming	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do listy odtwarzania która się nazywa wake up happy	o o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do listy one more rap	o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do listy o nazwie lute music for alchemists	o o o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do listy która się nazywa garage jams	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do mojej playlisty cry yourself to sleep	o o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do mojej playlisty o nazwie bottomless brunch	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do mojej playlisty która się nazywa new boots	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do mojej listy odtwarzania eats and beats	o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do mojej listy odtwarzania o nazwie folk feast	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do mojej listy odtwarzania która się nazywa drum mania	o o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do mojej listy atmospheric calm	o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do mojej listy o nazwie new music wednesday	o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten kawałek do mojej listy która się nazywa classical meets electronica	o o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do playlisty dance rising	o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do playlisty o nazwie rave classics	o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do playlisty która się nazywa classical wedding	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do listy odtwarzania runnig	o o o o o o b-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do listy odtwarzania która się nazywa stargazer	o o o o o o o o o b-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do listy covered in punk	o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do listy o nazwie metropolis	o o o o o o o b-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do listy która się nazywa music for concentration	o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do mojej playlisty tgif	o o o o o o b-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do mojej playlisty o nazwie neo classical lounge	o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do mojej playlisty która się nazywa the new alt	o o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do mojej listy odtwarzania modernism 50	o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do mojej listy odtwarzania o nazwie classical feast	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do mojej listy odtwarzania która się nazywa chill tracks	o o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do mojej listy global viral 50	o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do mojej listy o nazwie winter chill	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do mojej listy która się nazywa crash course	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do playlisty i hate my job	o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do playlisty o nazwie spread the gospel	o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do playlisty która się nazywa bittersweet symphony	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do listy odtwarzania book club	o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do listy odtwarzania o nazwie rockabilly mania	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do listy odtwarzania która się nazywa swag house	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do listy unlimite indie	o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do listy która się nazywa feeling blue	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do mojej playlisty back porch	o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do mojej playlisty o nazwie power ballads	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do mojej playlisty która się nazywa french indie pop	o o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do mojej listy odtwarzania queens of disco	o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do mojej listy odtwarzania o nazwie reading	o o o o o o o o o b-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do mojej listy odtwarzania która się nazywa a perfect day	o o o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do mojej listy classical british countryside	o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do mojej listy o nazwie fierce femmes	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do mojej listy która się nazywa totally alt	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do playlisty new punk tracks	o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do playlisty o nazwie classical music for metalheads	o o o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do playlisty która się nazywa new blood	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do listy odtwarzania true black metal	o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do listy odtwarzania o nazwie california rock state	o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do listy odtwarzania która się nazywa asmr winder sounds	o o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do listy underground hits	o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do listy o nazwie your coffee break	o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do listy która się nazywa gym mood	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do mojej playlisty metal ballads	o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do mojej playlisty o nazwie nipple music	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do mojej playlisty która się nazywa brain food	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do mojej listy odtwarzania indie roadtrip	o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do mojej listy odtwarzania o nazwie sounds of the rain forest	o o o o o o o o o b-playlist i-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do mojej listy odtwarzania która się nazywa jazz rap	o o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do mojej listy new core	o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do mojej listy o nazwie dance hits	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten kawałek do mojej listy która się nazywa teen party	o o o o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj you are here do playlisty your favorite coffeehouse	o b-song i-song i-song o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj miasto do playlisty o nazwie deathcore	o b-song o o o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj mgła 3 do playlisty która się nazywa post grunge	o b-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj you should see me in a crown do listy odtwarzania cma fest 2019	o b-song i-song i-song i-song i-song i-song i-song o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj we will do listy odtwarzania o nazwie comfort zone	o b-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj bud guy do listy odtwarzania która się nazywa beats and rhymes	o b-song i-song o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj błyski do listy alt hip hop	o b-song o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj koń na białym rycerzu do listy o nazwie valentine's day	o b-song i-song i-song i-song o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj aura do listy która się nazywa shoegaze and beyond	o b-song o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj we are surrounded do mojej playlisty dreampop	o b-song i-song i-song o o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj zamki na piasku do mojej playlisty która się nazywa skatepark punks	o b-song i-song i-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj nienawiść 100% do mojej listy odtwarzania techno bunker	o b-song i-song o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj a survey do mojej listy odtwarzania o nazwie soft instrumental	o b-song i-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj nie mamy nic do mojej listy odtwarzania która się nazywa focus now	o b-song i-song i-song o o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj from do mojej listy morning walk	o b-song o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj obiecaj mi do mojej listy o nazwie grime instrumentals	o b-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj lajki do mojej listy która się nazywa massive dance hits	o b-song o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę goodbye pork pie hat do playlisty souvenirs	o o b-song i-song i-song i-song o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę the dark cloud is comming do playlisty o nazwie morning coffee	o o b-song i-song i-song i-song i-song o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę visions do playlisty która się nazywa weekend hangouts	o o b-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę from a distance do listy odtwarzania serenity	o o b-song i-song i-song o o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę perfume do listy odtwarzania o nazwie gentle classical	o o b-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę gold dust do listy odtwarzania która się nazywa noises after dark	o o b-song i-song o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę esp ion age do listy a sudden rainstorm	o o b-song i-song i-song o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę wisła do listy o nazwie women of rock	o o b-song o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę faktoria do listy która się nazywa soft rock	o o b-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę proszę pana do mojej playlisty brit blues	o o b-song i-song o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę what is she waring do mojej playlisty o nazwie bassline bangers	o o b-song i-song i-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę narodzeni na nowo do mojej playlisty która się nazywa disco forever	o o b-song i-song i-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę gra się do końca do mojej listy odtwarzania sleep tight	o o b-song i-song i-song o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę fantas do mojej listy odtwarzania o nazwie k indie picks	o o b-song o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę pali się do mojej listy odtwarzania która się nazywa funky jams	o o b-song i-song o o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę aaron do mojej listy easy 80s	o o b-song o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę die do mojej listy o nazwie hush little darlings	o o b-song o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj piosenkę long time ago do mojej listy która się nazywa gentle rains	o o b-song i-song i-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór wściekłe psy do playlisty discover weekly	o o b-song i-song o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór jak gdyby nigdy nic do playlisty o nazwie mellow morning	o o b-song i-song i-song i-song o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór czerń do playlisty która się nazywa dance classics	o o b-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór piloci do listy odtwarzania essence of renaissanve	o o b-song o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór to nie miało prawa się stać do listy odtwarzania o nazwie old school hip hop	o o b-song i-song i-song i-song i-song o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór sobie i wam do listy odtwarzania która się nazywa instrumental madness	o o b-song i-song i-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór chant do listy fresh morning	o o b-song o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór umarł mój wróg do listy o nazwie minimalism	o o b-song i-song i-song o o o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór kochaj mnie do listy która się nazywa party mix	o o b-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór będzie lepiej do mojej playlisty drunk and hangover	o o b-song i-song o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór new years eve do mojej playlisty o nazwie electronic circus	o o b-song i-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór irato do mojej playlisty która się nazywa hangover friendly	o o b-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór 1800 grmów do mojej listy odtwarzania hot rods and horror shows	o o b-song i-song o o o o b-playlist i-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór słoni do mojej listy odtwarzania o nazwie surprise yoga	o o b-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór climbing the walls do mojej listy odtwarzania która się nazywa release radar	o o b-song i-song i-song o o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór vortex do mojej listy timeless love songs	o o b-song o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór follow you do mojej listy o nazwie acoustic lounge	o o b-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj utwór intro do mojej listy która się nazywa the other list	o o b-song o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek nothing has to be true do playlisty songwriters	o o b-song i-song i-song i-song i-song o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek any human friend do playlisty o nazwie tokyo rising	o o b-song i-song i-song o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek lśnienie do playlisty która się nazywa lone star blues	o o b-song o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek glue do listy odtwarzania deep focus	o o b-song o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek pająki do listy odtwarzania o nazwie the magnificent piano	o o b-song o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek hawudepe do listy avant-garde	o o b-song o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek prawie my do listy o nazwie morning rhythm	o o b-song i-song o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek pełnia do listy która się nazywa fresh dance tracks	o o b-song o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek kurier do mojej playlisty all 00s out	o o b-song o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek move me do mojej playlisty o nazwie epic classical	o o b-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek król do mojej playlisty która się nazywa chillin on a dirty road	o o b-song o o o o o o b-playlist i-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek choo choo do mojej listy odtwarzania wedding	o o b-song i-song o o o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek rakiety do mojej listy odtwarzania o nazwie trap mojito	o o b-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek turn me down do mojej listy odtwarzania która się nazywa got djent	o o b-song i-song i-song o o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek dzieci duchy do mojej listy the newness	o o b-song i-song o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek end of my bloodline do mojej listy o nazwie solid rock	o o b-song i-song i-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek moon in the water do mojej listy która się nazywa hawaiian dreams	o o b-song i-song i-song i-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz raj do playlisty bathtub soak	o b-song o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz sprzedawca jutra do playlisty o nazwie time to get high	o b-song i-song o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz missing do playlisty która się nazywa retro gaming	o b-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz birth of violence do listy odtwarzania feel good indie rock	o b-song i-song i-song o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz no people to person do listy odtwarzania o nazwie mellow dinner	o b-song i-song i-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz co się z nami stało do listy odtwarzania która się nazywa extreme metal workout	o b-song i-song i-song i-song o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz twoje motylki do listy global top 50	o b-song i-song o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz traffic do listy o nazwie most necessary	o b-song o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz się poruszam 1 do listy która się nazywa power workout	o b-song i-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz ciemność do mojej playlisty punk unplugged	o b-song o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz american idiot do mojej playlisty o nazwie the sweet suite	o b-song i-song o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz związek x do mojej playlisty która się nazywa classic rock now	o b-song i-song o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz the city of roses do mojej listy odtwarzania binatural beats	o b-song i-song i-song i-song o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz got you do mojej listy odtwarzania o nazwie pilates	o b-song i-song o o o o o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz ej chłopaku do mojej listy odtwarzania która się nazywa dinner with friends	o b-song i-song o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz niemiłość do mojej listy jazzy morning	o b-song o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz szkło do mojej listy o nazwie the essential ska	o b-song o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz trofea do mojej listy która się nazywa bach switched on	o b-song o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę plastic do playlisty workday soul	o o b-song o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę hit man do playlisty o nazwie sweat	o o b-song i-song o o o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę monster do playlisty która się nazywa peaceful piano	o o b-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę zabawawa do listy odtwarzania pure rock and roll	o o b-song o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę jupiter 4 do listy odtwarzania o nazwie indie india	o o b-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę an ambulance do listy odtwarzania która się nazywa opera 100	o o b-song i-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę na osiedlu do listy you and me	o o b-song i-song o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę hokejowy zamek do listy o nazwie dirty rock	o o b-song i-song o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę the arrow of our youth do listy która się nazywa dinner for one	o o b-song i-song i-song i-song i-song o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę najnowszy klip do mojej playlisty emo forever	o o b-song i-song o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę wake up next to god do mojej playlisty o nazwie crossroad blues	o o b-song i-song i-song i-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę czułe miejsce do mojej playlisty która się nazywa duo mix	o o b-song i-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę do ani do mojej listy odtwarzania pop 4 kids	o o b-song i-song o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę wonder do mojej listy odtwarzania o nazwie punk japan	o o b-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę body do mojej listy odtwarzania która się nazywa music box	o o b-song o o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę w piątki leżę w wannie do mojej listy indie folk for focus	o o b-song i-song i-song i-song i-song o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę bezczelnie do mojej listy o nazwie death metal and beyond	o o b-song o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz piosenkę cały do mojej listy która się nazywa classical essentials	o o b-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór skarbie do playlisty trance mission	o o b-song o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór slowboat do playlisty o nazwie discovery	o o b-song o o o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór not this time do listy odtwarzania hype	o o b-song i-song i-song o o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór prosto w serce do listy odtwarzania o nazwie viral hits	o o b-song i-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór flow do listy odtwarzania która się nazywa rockin vibes	o o b-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór paper boy do listy rap caviar	o o b-song i-song o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór 74 do listy o nazwie strings for sleeping	o o b-song o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór neony do listy która się nazywa warm hearts feel good	o o b-song o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór touch that space do mojej playlisty alone again	o o b-song i-song i-song o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór panie inżynierze do mojej playlisty o nazwie mind right	o o b-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór memory loop do mojej playlisty która się nazywa road trip to tokyo	o o b-song i-song o o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór zew do mojej listy odtwarzania acid blues	o o b-song o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór bad liar do mojej listy odtwarzania o nazwie very nearly nashville	o o b-song i-song o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór norman fucking rockwell do mojej listy odtwarzania która się nazywa soft focus	o o b-song i-song i-song o o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór king of the castle do mojej listy string quartet 101	o o b-song i-song i-song i-song o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór list of boys do mojej listy o nazwie prog rock monsters	o o b-song i-song i-song o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór dom stamina do mojej listy która się nazywa perfect concentration	o o b-song i-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek moments of flow do playlisty nudisco	o o b-song i-song i-song o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek good day do playlisty o nazwie legendary	o o b-song i-song o o o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek the crossing guard do playlisty która się nazywa all new indie	o o b-song i-song i-song o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek of the past do listy odtwarzania cloud rap	o o b-song i-song i-song o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek aż po horyzont do listy odtwarzania o nazwie rock this	o o b-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek the fool you need do listy odtwarzania która się nazywa lullaby baby	o o b-song i-song i-song i-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek blow to the head do listy modern psychedelia	o o b-song i-song i-song i-song o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek twist do listy o nazwie all funked up	o o b-song o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek schematy do listy która się nazywa not quite classical	o o b-song o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek wróć do mojej playlisty sunrise yoga	o o b-song o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek ostatni raz do mojej playlisty o nazwie progressive metal	o o b-song i-song o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek od tańca do mojej playlisty która się nazywa nature noise	o o b-song i-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek daj mi żyć do mojej listy odtwarzania heart beats	o o b-song i-song i-song o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek osiem to za mało do mojej listy odtwarzania o nazwie nu metal generation	o o b-song i-song i-song i-song o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek wędrówka do mojej listy odtwarzania która się nazywa sew jammin	o o b-song o o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek polska do mojej listy bottom up	o o b-song o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek all spies do mojej listy o nazwie 60s rock anthems	o o b-song i-song o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz kawałek hej panie do mojej listy która się nazywa 90s love songs	o o b-song i-song o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj new rain duets}_TYPE do playlisty adrenaline workout	o b-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj się poruszam 1}_TYPE do playlisty o nazwie industrial metal	o b-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj randka w ciemno}_TYPE do playlisty która się nazywa cali fire	o b-album i-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj zbiór}_TYPE do listy odtwarzania dance is universal	o b-album i-album i-album i-album b-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj take 2}_TYPE do listy odtwarzania o nazwie pure mellow jazz	o b-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj wisła}_TYPE do listy odtwarzania która się nazywa short and bitter	o b-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj rekordowo letnie lato}_TYPE do listy relax millenial unwind	o b-album i-album i-album i-album i-album b-playlist b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj aura}_TYPE do listy o nazwie relaxing chopin	o b-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj derretirse}_TYPE do listy która się nazywa new metal tracks	o b-album i-album i-album i-album i-album i-album b-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj crushing}_TYPE do mojej playlisty on repeat	o b-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj power chords}_TYPE do mojej playlisty o nazwie late night	o b-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj nothing great about britain}_TYPE do mojej playlisty która się nazywa rock hits	o b-album i-album i-album i-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj nienawisć 100%}_TYPE do mojej listy odtwarzania housewerk	o b-album i-album i-album i-album i-album i-album b-playlist
+Spotify	AddAlbumToPlaylist	dodaj malomiasteczkowy}_TYPE do mojej listy odtwarzania o nazwie bittersweet	o b-album i-album i-album i-album i-album i-album i-album b-playlist
+Spotify	AddAlbumToPlaylist	dodaj resonance}_TYPE do mojej listy odtwarzania która się nazywa country gold	o b-album i-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj mura masa}_TYPE do mojej listy kids workout	o b-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj eraserland}_TYPE do mojej listy o nazwie easy 90s	o b-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz pielgrzym}_TYPE do playlisty rock covers	o b-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz the end of radio}_TYPE do playlisty o nazwie yacht rock	o b-album i-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz brutalism}_TYPE do playlisty która się nazywa ballet and beyond	o b-album i-album i-album i-album i-album i-album b-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz garden party}_TYPE do listy odtwarzania all-nighter	o b-album i-album i-album i-album i-album b-playlist
+Spotify	AddAlbumToPlaylist	zapisz what we say in private}_TYPE do listy odtwarzania o nazwie a shot of indie	o b-album i-album i-album i-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz somebody else's song}_TYPE do listy odtwarzania która się nazywa apply yourself	o b-album i-album i-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz trzy słońca}_TYPE do listy breakout country	o b-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz commit yourself completly}_TYPE do listy o nazwie the bechelor party	o b-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz obiecaj mi}_TYPE do listy która się nazywa dinner music	o b-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz sirens}_TYPE do mojej playlisty classical moments in the movies	o b-album i-album i-album i-album b-playlist i-playlist i-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz szampan}_TYPE do mojej playlisty o nazwie fall asleep	o b-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz nieony}_TYPE do mojej playlisty która się nazywa powerwalk	o b-album i-album i-album i-album i-album i-album i-album b-playlist
+Spotify	AddAlbumToPlaylist	zapisz rare}_TYPE do mojej listy odtwarzania jazz for study	o b-album i-album i-album i-album i-album b-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz młodość}_TYPE do mojej listy odtwarzania o nazwie atmospheric sci-fi soundtracks	o b-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz love fuzz}_TYPE do mojej listy odtwarzania która się nazywa 90s country	o b-album i-album i-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz the talkies}_TYPE do mojej listy southern rock 101	o b-album i-album i-album i-album i-album b-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz sprzedawca jutra}_TYPE do mojej listy o nazwie tropical house	o b-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	CreatePlaylist	stórz listę odtwarzania	o o o
+Spotify	CreatePlaylist	stórz listę	o o
+Spotify	CreatePlaylist	stórz nową playlistę	o o o
+Spotify	CreatePlaylist	stórz nową listę odtwarzania	o o o o
+Spotify	CreatePlaylist	stórz nową listę	o o o
+Spotify	CreatePlaylist	zrób playlistę	o o
+Spotify	CreatePlaylist	zrób listę odtwarzania	o o o
+Spotify	CreatePlaylist	zrób listę	o o
+Spotify	CreatePlaylist	zrób nową playlistę	o o o
+Spotify	CreatePlaylist	zrób nową listę odtwarzania	o o o o
+Spotify	CreatePlaylist	zrób nową listę	o o o
+Spotify	CreatePlaylist	dodaj playlistę	o o
+Spotify	CreatePlaylist	dodaj listę odtwarzania	o o o
+Spotify	CreatePlaylist	dodaj listę	o o
+Spotify	CreatePlaylist	dodaj nową playlistę	o o o
+Spotify	CreatePlaylist	dodaj nową listę odtwarzania	o o o o
+Spotify	CreatePlaylistWithName	stórz playlistę o tytule pop goes classical	o o o o b-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	stórz listę odtwarzania gentle piano concertos	o o o b-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	stórz listę odtwarzania o tytule morning classical	o o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	stórz listę 2021	o o b-playlist
+Spotify	CreatePlaylistWithName	stórz nową playlistę pop study	o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	stórz nową playlistę o tytule feel good winter	o o o o o b-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	stórz nową listę odtwarzania nasty bits	o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	stórz nową listę odtwarzania o tytule all things post	o o o o o o b-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	stórz nową listę party up	o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	stórz nową listę o tytule country kind of love	o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	zrób playlistę road trip to kyoto	o o b-playlist i-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	zrób playlistę o tytule broken heart	o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	zrób listę odtwarzania popco	o o o b-playlist
+Spotify	CreatePlaylistWithName	zrób listę odtwarzania o tytule making babies	o o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	zrób listę women od indie	o o b-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	zrób listę o tytule white noise	o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	zrób nową playlistę lava lamp	o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	zrób nową playlistę o tytule political punks	o o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	zrób nową listę odtwarzania repeat rewind	o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	zrób nową listę odtwarzania o tytule study soundtrack	o o o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	zrób nową listę yoga and meditation	o o o b-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	zrób nową listę o tytule classical running	o o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	dodaj playlistę funk evolution	o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	dodaj playlistę o tytule pop rock shot	o o o o b-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	dodaj listę odtwarzania chicago blues	o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	dodaj listę odtwarzania o tytule xoxo	o o o o o b-playlist
+Spotify	CreatePlaylistWithName	dodaj listę the perfect crafternoon	o o b-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	dodaj listę o tytule gym and drinking	o o o o b-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	dodaj nową playlistę acoustic blues	o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	dodaj nową playlistę o tytule slightly haunted	o o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	dodaj nową listę odtwarzania indie covers	o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	dodaj nową listę odtwarzania o tytule complete chaos	o o o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	dodaj nową listę young music city	o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylist	zapisz tę piosenkę na mojej playliscie	o o o o o o
+Spotify	AddSongToPlaylist	zapisz tę piosenkę na liście odtwarzania	o o o o o o
+Spotify	AddSongToPlaylist	zapisz tę piosenkę na mojej liście odtwarzania	o o o o o o o
+Spotify	AddSongToPlaylist	zapisz tę piosenkę w bibliotece	o o o o o
+Spotify	AddSongToPlaylist	zapisz tę piosenkę w mojej bibliotece	o o o o o o
+Spotify	AddSongToPlaylist	zapisz ten utór na playliscie	o o o o o
+Spotify	AddSongToPlaylist	zapisz ten utór na mojej playliscie	o o o o o o
+Spotify	AddSongToPlaylist	zapisz ten utór na liście odtwarzania	o o o o o o
+Spotify	AddSongToPlaylist	zapisz ten utór na mojej liście odtwarzania	o o o o o o o
+Spotify	AddSongToPlaylist	zapisz ten utór w bibliotece	o o o o o
+Spotify	AddSongToPlaylist	zapisz ten kawałek na playliscie	o o o o o
+Spotify	AddSongToPlaylist	zapisz ten kawałek na mojej playliscie	o o o o o o
+Spotify	AddSongToPlaylist	zapisz ten kawałek na liście odtwarzania	o o o o o o
+Spotify	AddSongToPlaylist	zapisz ten kawałek na mojej liście odtwarzania	o o o o o o o
+Spotify	AddSongToPlaylist	zapisz ten kawałek w bibliotece	o o o o o
+Spotify	AddSongToPlaylist	zapisz ten kawałek w mojej bibliotece	o o o o o o
+Spotify	AddSongToPlaylist	zapisz cokolwiek leci na playliscie	o o o o o
+Spotify	AddSongToPlaylist	zapisz cokolwiek leci na mojej playliscie	o o o o o o
+Spotify	AddSongToPlaylist	zapisz cokolwiek leci na liście odtwarzania	o o o o o o
+Spotify	AddSongToPlaylist	zapisz cokolwiek leci na mojej liście odtwarzania	o o o o o o o
+Spotify	AddSongToPlaylist	zapisz cokolwiek leci w bibliotece	o o o o o
+Spotify	AddSongToPlaylist	zapisz cokolwiek leci w mojej bibliotece	o o o o o o
+Spotify	AddSongToPlaylist	zapisz cokolwiek jest grane na playliscie	o o o o o o
+Spotify	AddSongToPlaylist	zapisz cokolwiek jest grane na mojej playliscie	o o o o o o o
+Spotify	AddSongToPlaylist	zapisz cokolwiek jest grane na liście odtwarzania	o o o o o o o
+Spotify	AddSongToPlaylist	zapisz cokolwiek jest grane na mojej liście odtwarzania	o o o o o o o o
+Spotify	AddSongToPlaylist	zapisz cokolwiek jest grane w bibliotece	o o o o o o
+Spotify	SeekByTime	przewiń o 3 sekund w przód	o o b-seek_time o o o
+Spotify	SeekByTime	przewiń tę piosenkę o 5 sekund do przodu	o o o o b-seek_time o o o
+Spotify	SeekByTime	przewiń tę piosenkę o 30 sekund w przód	o o o o b-seek_time o o o
+Spotify	SeekByTime	przewiń ten utwór o 1 sekund do przodu	o o o o b-seek_time o o o
+Spotify	SeekByTime	przewiń ten utwór o 3 sekund w przód	o o o o b-seek_time o o o
+Spotify	SeekByTime	przewiń ten kawałek o 5 sekund do przodu	o o o o b-seek_time o o o
+Spotify	SeekByTime	przewiń ten kawałek o 30 sekund w przód	o o o o b-seek_time o o o
+Spotify	SeekByTime	przesuń o 1 sekund do przodu	o o b-seek_time o o o
+Spotify	SeekByTime	przesuń o 3 sekund w przód	o o b-seek_time o o o
+Spotify	SeekByTime	przesuń tę piosenkę o 5 sekund do przodu	o o o o b-seek_time o o o
+Spotify	SeekByTime	przesuń tę piosenkę o 30 sekund w przód	o o o o b-seek_time o o o
+Spotify	SeekByTime	przesuń ten utwór o 1 sekund do przodu	o o o o b-seek_time o o o
+Spotify	SeekByTime	przesuń ten utwór o 3 sekund w przód	o o o o b-seek_time o o o
+Spotify	SeekByTime	przesuń ten kawałek o 5 sekund do przodu	o o o o b-seek_time o o o
+Spotify	SeekByTime	przesuń ten kawałek o 30 sekund w przód	o o o o b-seek_time o o o
+Spotify	ShuffleOnOff	włącz shuffle	b-state o
+Spotify	ShuffleOnOff	wyłącz losowe odtwarzanie	b-state o o
+Spotify	ShuffleOnOff	włącz losowość	b-state o
+Spotify	RepeatOnOff	wyłącz powtarzanie	b-state o
+Spotify	RepeatOnOff	włącz repeat	b-state o
+Spotify	RepeatOnOff	na rypicie	o o
+Spotify	ShowDencability	jak ten utwór jest taneczny	o o o o o
+Spotify	ShowDencability	jak ten kawałek jest taneczny	o o o o o
+Spotify	ShowDencability	jak bardzo ta piosenka jest taneczna	o o o o o o
+Spotify	ShowDencability	jak bardzo ten utwór jest taneczny	o o o o o o
+Spotify	ShowDencability	jak bardzo ten kawałek jest taneczny	o o o o o o
+Spotify	ShowDencability	taneczność tej piosenki	o o o
+Spotify	ShowDencability	taneczność tego utworu	o o o
+Spotify	ShowDencability	taneczność tego kawałka	o o o
+Spotify	ShowDencability	podaj taneczność tej piosenki	o o o o
+Spotify	ShowDencability	podaj taneczność tego utworu	o o o o
+Spotify	ShowDencability	podaj taneczność tego kawałka	o o o o
+Spotify	ShowDencability	czy ta piosenka jest taneczny	o o o o o
+Spotify	ShowDencability	czy ten utwór jest taneczny	o o o o o
+Spotify	ShowDencability	czy ten kawałek jest taneczny	o o o o o

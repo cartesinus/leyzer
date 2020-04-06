@@ -1,0 +1,20 @@
+domain	intent	utterance	bio
+Translate	SetDefaultLanguage	ustaw język na włoski	o o o b-all_lang
+Translate	SetDefaultLanguage	nastaw domyślny język wyjścia na hawajski	o o o o o b-all_lang
+Translate	SetDefaultLanguage	przełącz język na hindi	o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	ustaw język wejścia na hiszpański	o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	przełącz domyślny język wejścia na islandzki	o o o o o b-all_lang
+Translate	TranslateText	tłumaczenie do you have this in my size	o b-text.en i-text.en i-text.en i-text.en i-text.en i-text.en i-text.en
+Translate	TranslateText	przetłumacz mi zdanie i am an american citizen	o o o b-text.en i-text.en i-text.en i-text.en i-text.en
+Translate	TranslateText	jak przetłumaczyć mi i don't understand	o o o b-text.en i-text.en i-text.en
+Translate	TranslateText	jak możesz przetłumaczyć to zdanie hi how are you	o o o o o b-text.en i-text.en i-text.en i-text.en
+Translate	TranslateText	where are you taking me tłumaczenie	b-text.en i-text.en i-text.en i-text.en i-text.en o
+Translate	TranslateTextToLanguage	jakie jest tłumaczenie na i'll call the police zdania polski	o o o o b-text.en i-text.en i-text.en i-text.en o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT z francuski na czeski	o o o o o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguageWithEngine	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT z japoński na polski przy użyciu google	o o o o o b-src_lang o b-trg_lang o o b-translator
+Translate	TranslateToLanguage	przetłumacz na tajski	o o b-trg_lang
+Translate	TranslateTextFromLanguage	tłumacz TRANSLATE.SLOT.TEXT z rosyjski	o o o b-src_lang
+Translate	TranslateTextFromLanguage	przetłumacz zdania TRANSLATE.SLOT.TEXT z japoński	o o o o b-src_lang
+Translate	TranslateTextFromLanguage	tłumaczenie tego TRANSLATE.SLOT.TEXT z języka japoński	o o o o o b-src_lang
+Translate	TranslateTextFromLanguage	wykonaj tłumaczenie tego TRANSLATE.SLOT.TEXT z rosyjski	o o o o o b-src_lang
+Translate	DetectLanguage	w jakim to języku i want to rent a car	o o o o b-text.multi i-text.multi i-text.multi i-text.multi i-text.multi i-text.multi

@@ -1,0 +1,214 @@
+domain	intent	utterance	bio
+Email	OpenEmail	check email	o o
+Email	OpenEmail	check email inbox	o o o
+Email	OpenEmail	check gmail	o o
+Email	OpenEmail	check my email	o o o
+Email	OpenEmail	check my email inbox	o o o o
+Email	OpenEmail	check my gmail	o o o
+Email	OpenEmail	get email inbox	o o o
+Email	OpenEmail	get gmail	o o
+Email	OpenEmail	get gmail inbox	o o o
+Email	OpenEmail	get my email	o o o
+Email	OpenEmail	get my email inbox	o o o o
+Email	OpenEmail	get my gmail	o o o
+Email	OpenEmail	get my gmail inbox	o o o o
+Email	OpenEmail	check my latest email	o o o o
+Email	OpenEmail	check my emails	o o o
+Email	OpenEmail	check my emails on gmail	o o o o o
+Email	OpenEmail	check my gmail inbox	o o o o
+Email	OpenEmail	get my latest email	o o o o
+Email	OpenEmail	get my emails	o o o
+Email	OpenEmail	get my emails on gmail	o o o o o
+Email	OpenEmail	get my gmail inbox	o o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	email tally@houston.rr.com with subject greetings and message thank you for contacting john	o b-to o o b-subject o o b-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	email virginia@outlook.com with subject meeting and message thanks for getting back to me	o b-to o o b-subject o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	email marron with subject re webcasting and congress and message thank you for your prompt reply	o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	email cynar with subject status of sb47x read this and message thank you	o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	email manton with subject fw 4 month rolling forecast and message i look forward to hearing from you	o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to cindy olson with subject fw litigation with message you can't unsubscribe from this list	o o o o b-to i-to o o b-subject i-subject o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to arlinda@gmail.com with subject the original advantage #e10806 with message well, first of all that goes beyond our guidelines	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to heida@schwab.com with subject re pulp with message disabilities can effect fine and gross motor skills	o o o o b-to o o b-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to lerea pharr with subject tw roundtable with message there have been a couple of possiblities raised	o o o o b-to i-to o o b-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to calvert with subject eventresources with message sorry, i thought we had until the end of the week using my gmail	o o o o b-to o o b-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to nicky@gmail.com with subject fw new erisa case against enron with message why should she suffer for his problem or failing using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to schube10@pilot.msu.edu with subject osu announces bowl game ticket policy with message tried to move it but that was just not possible using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to helli with subject re greetings from san diego with message i hope to have a summary sheet available shortly using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to anna-diana with subject murkowski electricity legislation with message business is not disrupted using my gmail	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to jodie with subject new edison advice letter with message survived by not paying many of its bills using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendPictureToAddressWithSubject	email a picture to rosanne@pacbell.net with subject urg gas securitization agreements	o o o o b-to o o b-subject i-subject i-subject i-subject
+Email	SendPictureToAddressWithSubject	email a picture to hhsaxon@aol.com with subject information requests	o o o o b-to o o b-subject i-subject
+Email	SendPictureToAddressWithSubject	email a picture to milena@fqnet.com with subject re proposed edits to nda	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject
+Email	SendPictureToAddressWithSubject	send a picture to barbara a hueter with subject additional ferc actions likely on monday	o o o o b-to i-to i-to o o b-subject i-subject i-subject i-subject i-subject i-subject
+Email	SendPictureToAddressWithSubject	send a picture to kim@gmail.com with subject fw org chart	o o o o b-to o o b-subject i-subject i-subject
+Email	SendPictureToAddressWithSubject	send a picture to corrine with subject re pg{SUBJECT:re: sales to california  }e article in wsj	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject
+Email	SendPictureToAddressWithSubject	send a picture to lathrop with subject new bpa account numbers using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o o
+Email	SendPictureToAddressWithSubject	send a picture to laurianne@aol.com with subject hr warehouse is here! using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o o
+Email	SendPictureToAddressWithSubject	send a picture to jackquelin@proton.com with subject re lunch using my gmail	o o o o b-to o o b-subject i-subject o o o
+Email	SendPictureToAddressWithSubject	send a picture to elliott with subject re employment using my gmail	o o o o b-to o o b-subject i-subject o o o
+Email	ShowEmailFromSender	check emails from paul.quilkey@enron.com	o o o b-sender_address
+Email	ShowEmailFromSender	check emails from janelle@outlook.com	o o o b-sender_address
+Email	ShowEmailFromSender	check emails from orella.samanthia@yahoo.com	o o o b-sender_address
+Email	ShowEmailFromSender	check emails from megen@yahoo.com	o o o b-sender_address
+Email	ShowEmailFromSender	check emails i got from wendy.whitworth@turner.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i got from neda@outlook.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i got from latia@gmail.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i got from mersey@outlook.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i got from willy@aol.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i received from adelina@haas.berkeley.edu	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i received from batsheva@cpuc.ca.gov	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i received from edythe@kpmg.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i received from malissia@edelman.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i received from lissa@enron.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails from zaneta.padraig@gmail.com	o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails from karisa.ingeborg@thestreet.com	o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails from denny@gmail.com	o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails from arline@schwab.com	o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails from noella.messere@fwc.com	o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails from allene.jairia@gmail.com	o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i got from raf.jeannette@chase.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i got from enron.environmental@enron.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i got from shayna.hyman@yahoo.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i got from evonne.rocker@outlook.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i got from nelli@elektro.com.br	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i received from joyan.randal@prince.hmma.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i received from grazia.osber@cts.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i received from desiree@enron.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i received from sean.dyun@proton.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i received from carmelle.holt@hotmail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i received from suzette.candida@outlook.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails from eva.bremen@neg.pge.com	o o o b-sender_address
+Email	ShowEmailFromSender	get emails from douglass@arterhadden.com.	o o o b-sender_address
+Email	ShowEmailFromSender	get emails from christye@gmail.com	o o o b-sender_address
+Email	ShowEmailFromSender	get emails from kuhlman@kdlog.com	o o o b-sender_address
+Email	ShowEmailFromSender	get emails from teresa@yahoo.com	o o o b-sender_address
+Email	ShowEmailFromSender	get emails from charleen@thestreet.com	o o o b-sender_address
+Email	ShowEmailFromSender	get emails i got from ulrika@enron_development	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i got from tallia.ruffi@gmail.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i got from emalee@outlook.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i got from shelby.gayla@gmail.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i got from terese.fuchs@dwt.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i got from haley@edelman.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i received from creilly@columbiaenergygroup.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i received from imogene@prince.hmma.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i received from audie@hotmail.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i received from adaline@outlook.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails from jacqui@gmail.com	o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails from sharyl.ocker@aol.com	o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails from chelsae.heater@texaco.com	o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails from corie@proton.com	o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i got from sallyanne@hotmail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i got from matt.hsu@interwoven.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i got from maybelle.japha@enron_development	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i got from dode@aol.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i got from kai@itu.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i got from denys.armillda@aol.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i received from leelah@aol.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i received from jillayne@hotmail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i received from candie@gmail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i received from zorah@aol.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i received from page.erdda@hotmail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i received from steve.kleb@enron.com	o o o o o o b-sender_address
+Email	ShowEmailFromTime	get emails arrived two days ago	o o o b-time i-time i-time
+Email	ShowEmailFromTime	get emails arrived in the last hour	o o o b-time i-time i-time i-time
+Email	ShowEmailFromTime	get emails arrived today	o o o b-time
+Email	ShowEmailFromTime	get emails arrived yesterday	o o o b-time
+Email	ShowEmailFromTime	get emails that arrived two days ago	o o o o b-time i-time i-time
+Email	ShowEmailFromTime	get emails that arrived in the last hour	o o o o b-time i-time i-time i-time
+Email	ShowEmailFromTime	get emails that arrived today	o o o o b-time
+Email	ShowEmailFromTime	get emails that arrived yesterday	o o o o b-time
+Email	ShowEmailFromTime	get emails that arrived two days ago	o o o o b-time i-time i-time
+Email	ShowEmailFromTime	get emails that arrived in the last hour	o o o o b-time i-time i-time i-time
+Email	ShowEmailFromTime	show me emails arrived yesterday	o o o o b-time
+Email	ShowEmailFromTime	show me emails arrived two days ago	o o o o b-time i-time i-time
+Email	ShowEmailFromTime	show me emails arrived in the last hour	o o o o b-time i-time i-time i-time
+Email	ShowEmailFromTime	show me emails arrived today	o o o o b-time
+Email	ShowEmailFromTime	show me emails arrived yesterday	o o o o b-time
+Email	ShowEmailFromTime	show me emails that arrived two days ago	o o o o o b-time i-time i-time
+Email	ShowEmailFromTime	show me emails that arrived in the last hour	o o o o o b-time i-time i-time i-time
+Email	ShowEmailFromTime	show me emails that arrived today	o o o o o b-time
+Email	ShowEmailFromTime	show me emails that arrived yesterday	o o o o o b-time
+Email	ShowEmailFromTime	show me emails that arrived two days ago	o o o o o b-time i-time i-time
+Email	ShowEmailWithLabel	get my emails labelled important	o o o o b-label
+Email	ShowEmailWithLabel	get my emails labelled team	o o o o b-label
+Email	ShowEmailWithLabel	get my emails labelled work	o o o o b-label
+Email	ShowEmailWithLabel	get my emails labelled todo	o o o o b-label
+Email	ShowEmailWithLabel	get my emails labelled later	o o o o b-label
+Email	ShowEmailWithLabel	get my emails that have label official	o o o o o o b-label
+Email	ShowEmailWithLabel	get my emails that have label notifications	o o o o o o b-label
+Email	ShowEmailWithLabel	get my emails that have label spam	o o o o o o b-label
+Email	ShowEmailWithLabel	get my emails that have label important	o o o o o o b-label
+Email	ShowEmailWithLabel	get my emails that have label team	o o o o o o b-label
+Email	ShowEmailWithLabel	get my emails with label work	o o o o o b-label
+Email	ShowEmailWithLabel	get my emails with label todo	o o o o o b-label
+Email	ShowEmailWithLabel	get my emails with label later	o o o o o b-label
+Email	ShowEmailWithLabel	get my emails with label papers	o o o o o b-label
+Email	ShowEmailWithLabel	get my emails with label official	o o o o o b-label
+Email	ShowEmailWithLabel	get my emails with label notifications	o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails labelled important	o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails labelled team	o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails labelled work	o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails labelled todo	o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails labelled later	o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails that have label papers	o o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails that have label official	o o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails that have label notifications	o o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails that have label spam	o o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails that have label important	o o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails that have label team	o o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails with label work	o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails with label todo	o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails with label later	o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails with label papers	o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails with label official	o o o o o o b-label
+Email	ShowEmailWithPriority	show me unimportant emails	o o b-priority o
+Email	ShowEmailWithPriority	show me important emails	o o b-priority o
+Email	ShowEmailWithPriority	show me unimportant emails	o o b-priority o
+Email	ShowEmailWithPriority	show me important emails	o o b-priority o
+Email	ShowEmailWithPriority	show me unimportant emails	o o b-priority o
+Email	ShowEmailWithSubject	get my emails with subject free lunch on friday!	o o o o o b-subject i-subject i-subject i-subject
+Email	ShowEmailWithSubject	get my emails with subject special meeting this afternoon	o o o o o b-subject i-subject i-subject i-subject
+Email	ShowEmailWithSubject	get my emails with subject pulp summary for july	o o o o o b-subject i-subject i-subject i-subject
+Email	ShowEmailWithSubject	get my emails with subject re meeting today on gas strategy	o o o o o b-subject i-subject i-subject i-subject i-subject i-subject
+Email	ShowEmailWithSubject	get my emails with subject turn's rate stabilizaton proposal	o o o o o b-subject i-subject i-subject i-subject
+Email	ShowEmailWithSubject	show me my emails with subject re last night	o o o o o o b-subject i-subject i-subject
+Email	ShowEmailWithSubject	show me my emails with subject re enjoyed meeting you	o o o o o o b-subject i-subject i-subject i-subject
+Email	ShowEmailWithSubject	show me my emails with subject re electric copies of presentations	o o o o o o b-subject i-subject i-subject i-subject i-subject
+Email	ShowEmailWithSubject	show me my emails with subject governors press conference	o o o o o o b-subject i-subject i-subject
+Email	ShowEmailWithSubject	show me my emails with subject re fresno sub project	o o o o o o b-subject i-subject i-subject i-subject
+Email	SendEmail	send an email	o o o
+Email	SendEmail	send an email to somebody	o o o o o
+Email	ReplyToEmailFromAddress	reply to susan.scott@enron.com	o o b-to
+Email	ReplyToEmailFromAddress	reply to annemarie allex	o o b-to i-to
+Email	ReplyToEmailFromAddress	reply to nelle@gmail.com	o o b-to
+Email	ReplyToEmailFromAddress	reply to kim.perez@enron.com	o o b-to
+Email	ReplyToEmailFromAddress	reply to denys	o o b-to
+Email	ReplyToEmailFromAddress	reply to sandra a maldonado	o o b-to i-to i-to
+Email	ReplyToEmailFromAddress	reply to sigrid@proton.com	o o b-to
+Email	ReplyToEmailFromAddress	reply to dora.trevino@enron.com	o o b-to
+Email	ReplyToEmailFromAddress	reply to clareta@thestreet.com	o o b-to
+Email	ReplyToEmailFromAddress	reply to philippe.bibi@enron.com	o o b-to
+Email	ReplyToEmailFromAddress	reply to merline@gmail.com	o o b-to
+Email	SendEmailToAddress	email koral@cpuc.ca.gov	o b-to
+Email	SendEmailToAddress	email sascha@gmail.com	o b-to
+Email	SendEmailToAddress	email leeanne	o b-to
+Email	SendEmailToAddress	email lorrin@chase.com	o b-to
+Email	SendEmailToAddress	email joseph alamo	o b-to i-to
+Email	SendEmailToAddress	email kayley@neg.pge.com	o b-to
+Email	SendEmailToAddress	email bevvy	o b-to
+Email	SendEmailToAddress	email neely	o b-to
+Email	SendEmailToAddress	email jckyle@dow.com	o b-to
+Email	SendEmailToAddress	email kathy mcmahon	o b-to i-to
+Email	SendEmailToAddress	email faydra@hotmail.com	o b-to
+Email	SendEmailToAddress	email diena@texaco.com	o b-to
+Email	SendEmailToAddress	send an email to kordula using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to sibeal using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to stephen d burns using my gmail	o o o o b-to i-to i-to o o o
+Email	SendEmailToAddress	send an email to dorotea using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to cordi using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to bili using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to edmondo using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to derek anderson using my gmail	o o o o b-to i-to o o o
+Email	SendEmailToAddress	send an email to floris using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to gertrudis using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to ros using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to cammy@proton.com using my gmail	o o o o b-to o o o

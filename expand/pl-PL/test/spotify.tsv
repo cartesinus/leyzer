@@ -1,0 +1,47 @@
+domain	intent	utterance	bio
+Spotify	OpenSpotify	otwórz spotify puść muzykę	o o o o
+Spotify	OpenSpotify	użyj spotify puść muzykę	o o o o
+Spotify	PlaySong	odtwarzaj prosto w serce	o b-song i-song i-song
+Spotify	PlaySong	puść piosenkę king of the castle na spotify	o o b-song i-song i-song i-song o o
+Spotify	PlaySong	graj piosenkę daj mi żyć	o o b-song i-song i-song
+Spotify	PlaySong	zagraj kawałek aurora na spotify	o o b-song o o
+Spotify	PlaySongByArtist	odtwarzaj the man with no heart or brain the flaming lips	o b-song i-song i-song i-song i-song i-song i-song b-artist i-artist i-artist
+Spotify	PlaySongByArtist	odtwarzaj piosenkę błyski artysty zuza jabłońska	o o b-song o b-artist i-artist
+Spotify	PlaySongByArtist	puść utwór lśnienie artysty 21 savage	o o b-song o b-artist i-artist
+Spotify	PlaySongByArtist	graj utwór czułe miejsce stworzony przez lana del rey na spotify	o o b-song i-song o o b-artist i-artist i-artist o o
+Spotify	PlaySongByArtist	zagraj neony artysty selena gomez	o b-song o b-artist i-artist
+Spotify	PlaySongByArtist	graj lingua ignota nieboskłon	o b-artist i-artist b-song
+Spotify	PlayAlbumOfTypeByArtist	graj proto}_TYPE of the sun spelling	o b-album b-album i-album i-album b-artist
+Spotify	PlayAlbumOfTypeByArtist	zagraj kurier}_TYPE r.y.c wykonawcy metronomy na spotify	o b-album b-album o b-artist o o
+Spotify	Pause	odtwarzaj tę posenkę	o o o
+Spotify	Pause	wznów ten utwór	o o o
+Spotify	Pause	powtórz ten utwór na spotify	o o o o o
+Spotify	NextSong	następna kawałek	o o
+Spotify	PreviousSong	zagraj poprzednią piosenkę na spotify	o o o o o
+Spotify	PreviousSong	poprzednia kawałek na spotify	o o o o
+Spotify	PlayPlaylist	odtwarzaj listę domówka	o o b-playlist
+Spotify	PlayPlaylist	puść kawałki playlisty anti pop	o o o b-playlist i-playlist
+Spotify	PlayPlaylist	graj listę odtwarzania idę spać na spotify	o o o b-playlist o o
+Spotify	PlayPlaylist	zagraj utwory z mojej playlisty walk like a badass	o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do playlisty calming acoustic	o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj tę piosenkę do mojej listy acoustic love	o o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	dodaj ten utwór do mojej playlisty o nazwie funk soul disco	o o o o o o o o b-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	zapisz tę piosenkę do listy odtwarzania o nazwie sunburn	o o o o o o o o b-playlist
+Spotify	AddSongToPlaylistWithName	zapisz ten utwór do listy o nazwie gold school	o o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj think about what you love do mojej playlisty o nazwie lullabells	o b-song i-song i-song i-song i-song o o o o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	dodaj kawałek ołów do listy odtwarzania która się nazywa dance alert	o o b-song o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	zapisz utwór necromania do playlisty która się nazywa quiet moment	o o b-song o o o o o b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	dodaj emily alone}_TYPE do mojej listy która się nazywa wild country	o b-album i-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	zapisz miami memory}_TYPE do mojej listy która się nazywa sad beats	o b-album i-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	CreatePlaylist	stórz playlistę	o o
+Spotify	CreatePlaylist	dodaj nową listę	o o o
+Spotify	CreatePlaylistWithName	stórz playlistę feel good dinner	o o b-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	stórz listę o tytule black history salute	o o o o b-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	dodaj nową listę o tytule still hot	o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylist	zapisz tę piosenkę na playliscie	o o o o o
+Spotify	AddSongToPlaylist	zapisz ten utór w mojej bibliotece	o o o o o o
+Spotify	AddSongToPlaylist	zapisz cokolwiek jest grane w mojej bibliotece	o o o o o o o
+Spotify	SeekByTime	przewiń o 1 sekund do przodu	o o b-seek_time o o o
+Spotify	ShuffleOnOff	wyłącz losowe mi odtwarzanie	b-state o o o
+Spotify	RepeatOnOff	wyłącz mi powtarzanie	b-state o o
+Spotify	ShowDencability	jak ta piosenka jest taneczna	o o o o o
