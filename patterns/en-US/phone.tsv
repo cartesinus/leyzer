@@ -1,4 +1,4 @@
-domain	intent	parallel	utterance
+domain	intent	parallel	pattern
 Phone	CallNumber	-	call PHONE.SLOT.PHONE_NUMBER
 Phone	CallNumber	-	dial PHONE.SLOT.PHONE_NUMBER
 Phone	CallNumber	-	phone PHONE.SLOT.PHONE_NUMBER

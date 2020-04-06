@@ -1,4 +1,4 @@
-domain	intent	parallel	utterance
+domain	intent	parallel	pattern
 Phone	CallNumber	False	llama a PHONE.SLOT.PHONE_NUMBER
 Phone	CallEmergency	False	llama a 112
 Phone	CallEmergency	False	llama a ambulancia
