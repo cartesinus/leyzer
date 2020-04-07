@@ -1,0 +1,28 @@
+domain	intent	utterance	bio
+Twitter	OpenTwitter	muestra tweets que he publicado	o o o o o
+Twitter	OpenTwitter	muéstrame mis tuits	o o o
+Twitter	FollowUser	empieza a seguir a renelae en twitter	o o o o b-username o o
+Twitter	FollowUser	empieza a seguir en twitter a muertenthesnw	o o o o o o b-username
+Twitter	FollowUser	empieza a ser el seguidor de twitter de xxlucyh	o o o o o o o o b-username
+Twitter	FollowUser	sigue a lynnloca en twitter	o o b-username o o
+Twitter	UnfollowUser	dea de seguir a christastique en twitter	o o o o b-username o o
+Twitter	SendMessage	envía un dm en twitter diciendo la gente se ve más linda cuando no me rompe las pelotas	o o o o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	envía un mensaje directo en twitter diciendo nose que quiere flashar amistad esta	o o o o o o o b-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	envía un mensaje en twitter diciendo soy un nene de mama	o o o o o o b-message i-message i-message i-message i-message
+Twitter	SendMessage	dm en twitter diciendo quiero volver a murcia	o o o o b-message i-message i-message i-message
+Twitter	SendMessage	mensaje directo en twitter diciendo puto juego de mesa con navecitas de star wars	o o o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	mensaje en twitter diciendo san canuto son los padres	o o o o b-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	envía un mensaje directo en twitter a thelateliz diciendo soy el más feliz del mundo mundial	o o o o o o o b-username o b-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	envía un mensaje dm en twitter a nbomb diciendo eramos los unicos locos afuera	o o o o o o o b-username o b-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	mensaje dm en twitter a annemariefod diciendo para cuándo poder dar fav a los favs	o o o o o b-username o b-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	mensaje directo en twitter a jfrankenstein diciendo mas lentos que los md de tw	o o o o o b-username o b-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	mensaje en twitter a missbreesq diciendo mi mamá ya vio un vestido para mis 15	o o o o b-username o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	ShowTwittsWithHashtag	tuits sobre dublinbus en twitter	o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	tweets con hashtag jugglecon	o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	busca tuits sobre dialoguesthatsux en twitter	o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	busca tweets con hashtag myweakness	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	muestra tuits sobre tbyg en twitter	o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	muestra tweets con hashtag saintjohn	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	muéstrame tuits sobre rofl en twitter	o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	muéstrame tweets con hashtag kolkata	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	encuentra tweets con el hashtag chitellmsft en twitter	o o o o o b-hashtag o o

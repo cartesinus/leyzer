@@ -1,0 +1,26 @@
+domain	intent	utterance	bio
+Gdrive	OpenGdrive	enséñame mis archivos en google drive	o o o o o o
+Gdrive	ShowFilesWithType	enseña mis archivos png en google drive	o o o b-mime_type o o o
+Gdrive	ShowFilesWithType	enseña mis archivos de google drive de tipo csv	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	enséñame mis archivos png en google drive	o o o b-mime_type o o o
+Gdrive	ShowFilesWithType	enséñame mis archivos de google drive de tipo wmv	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	muestra mis archivos de google drive de tipo csv	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	muéstrame mis archivos png en google drive	o o o b-mime_type o o o
+Gdrive	ShowFilesWithType	muéstrame mis archivos de google drive de tipo jpeg	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	muestra mis archivos png en google drive	o o o b-mime_type o o o
+Gdrive	ShowFilesWithStar	muestra mis archivos de google drive marcados	o o o o o o o
+Gdrive	ShowFilesWithStar	enséñame los archivos de google drive que marqué	o o o o o o o o
+Gdrive	ShowFilesFromTime	enseña mis archivos de google drive creados esta semana	o o o o o o o b-time i-time
+Gdrive	ShowFilesFromTime	muestra mis archivos de google drive modificados esta semana	o o o o o o o b-time i-time
+Gdrive	ShowFilesWithSize	enseña mis archivos de google drive más grandes que 10 mb	o o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	muéstrame mis archivos de google drive más pequeños que 5 mb	o o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	muestra mis archivos de google drive más grandes que 700 mb	o o o o o o o o o b-file_size i-file_size
+Gdrive	CreateFile	hazme un archivo en google drive	o o o o o o
+Gdrive	CreateFileWithName	crea un archivo de google drive llamado pelis para ver	o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	CreateFileWithName	crea un nuevo archivo con el título CV en google drive	o o o o o o o b-file_name o o o
+Gdrive	ShowOldestFiles	muéstrame mis archivos de google drive creados recientemente	o o o o o o o o
+Gdrive	ShowOldestFiles	enseña mis archivos de google drive más nuevos	o o o o o o o o
+Gdrive	SortReverseAlphabetical	muestra mis archivos de google drive en la órden alfabética	o o o o o o o o o o
+Gdrive	SortReverseAlphabetical	enséñame mis archivos de google drive en una órden alfabética reversa	o o o o o o o o o o o
+Gdrive	OpenFileWithName	abre mi arvicho examen de literatura para editar en google drive	o o o b-file_name i-file_name i-file_name o o o o o
+Gdrive	ShareFileWithNameToAddress	comparte mi archivo nuevo con artiñano@gmx.es y dale el permiso para leer y escribir	o o b-file_name i-file_name o b-mail o o o o o o o o

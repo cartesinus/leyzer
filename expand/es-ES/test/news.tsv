@@ -1,0 +1,6 @@
+domain	intent	utterance	bio
+News	ShowNews	muéstrame las noticias de marca	o o o o b-portal
+News	ShowNews	noticias en la voz de galicia	o o b-portal i-portal i-portal i-portal
+News	ShowNewsFromSection	la sección deporte de el periódico	o o b-section o b-portal i-portal
+News	NotifyWhenPortalUpdates	notifícame cuando faro de vigo actualice la página principal	o o b-portal i-portal i-portal o o o o
+News	NotifyWhenPortalUpdatesInSection	notifícame cuando la sección salud de la voz de galicia publique un nuevo artículo	o o o o b-section o b-portal i-portal i-portal i-portal o o o o

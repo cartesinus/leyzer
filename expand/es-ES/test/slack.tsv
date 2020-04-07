@@ -1,0 +1,23 @@
+domain	intent	utterance	bio
+Slack	CheckLastMessages	dame mi historia de canal de slack	o o o o o o o
+Slack	CheckUserStatus	el estado de juanma mendive en slack	o o o b-username i-username o o
+Slack	CheckUserStatus	el estado de p.darrieussecq en slack	o o o b-username o o
+Slack	CheckUserStatus	el estado de juanle cano en slack	o o o b-username i-username o o
+Slack	CheckUserStatus	si de morales está activo en slack	o b-username i-username o o o o
+Slack	CheckUserStatus	si manuel etcheverry está activo en slack	o b-username i-username o o o o
+Slack	CheckUserStatus	si marimili solarte está fuera en slack	o b-username i-username o o o o
+Slack	CheckMessagesFromUser	dame mensajes que recibí en slack de míner perurena	o o o o o o o b-sender i-sender
+Slack	CheckMessagesFromUser	dame mensajes recientes de magüi gabarain en slack	o o o o b-sender i-sender o o
+Slack	CheckMessagesFromUser	verifica mensajes que recibí en slack de juanlu	o o o o o o o b-sender
+Slack	CheckMessagesFromUser	verifica mensajes recientes de luis lizárraga en slack	o o o o b-sender i-sender o o
+Slack	CheckMessagesInChannel	dame mensajes de slack en trabajo que recibí durante la última hora	o o o o o b-channel o o o o o o
+Slack	CheckMessagesInChannel	verifica mensajes recientes de slack en clase de física	o o o o o o b-channel i-channel i-channel
+Slack	SendMessageToChannel	envía que buena noche pase anoche a trabajo en slack	o b-message i-message i-message i-message i-message o b-channel o o
+Slack	SendMessageToChannel	sube un mensaje en slack a amigos diciendo las cosas no serán ya más como antes	o o o o o o b-channel o b-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SetPurposeOnChannel	establece el propósito del canal de slack jogging a decisiones	o o o o o o o b-channel o b-purpose
+Slack	SetTopicInChannel	establece el tema del canal de slack fiesta a fiesta	o o o o o o o b-channel o b-topic
+Slack	SetStatusAway	establece mi estado como fuera en slack	o o o o o o o
+Slack	SendMessage	sube un mensaje en slack	o o o o o
+Slack	SendPictureToChannel	publica una foto en slack a lago	o o o o o o b-channel
+Slack	SendPictureToChannelWithCaption	sube una imagen a un canal de slack lago con el título 24 horas para el examen	o o o o o o o o b-channel o o o b-caption i-caption i-caption i-caption i-caption
+Slack	SendPictureWithUrlToChannel	publica cutt.ly/WsKzevf a amigos en slack	o b-picture_url o b-channel o o

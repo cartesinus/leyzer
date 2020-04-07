@@ -1,0 +1,25 @@
+domain	intent	utterance	bio
+Phone	CallNumber	llama a 959 293 407	o o b-phone_number i-phone_number i-phone_number
+Phone	CallNumber	llama a +34 646 268 667	o o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone	CallNumber	llama a 644 721 813	o o b-phone_number i-phone_number i-phone_number
+Phone	CallEmergency	llama a emergencias	o o o
+Phone	ShowSMS	verifica mi bandea de entrada de mensajes	o o o o o o o
+Phone	SMSToContact	envía un mensaje a carmina	o o o o b-to
+Phone	SMSToContact	envía un sms a esmeralda	o o o o b-to
+Phone	SMSToContact	manda un sms a bela	o o o o b-to
+Phone	SMSToContact	manda un mensaje a josema	o o o o b-to
+Phone	SMSToContact	mensaje a quico	o o b-to
+Phone	SMSToContact	sms a jade	o o b-to
+Phone	SMSToContact	mensaje a quico	o o b-to
+Phone	SMSToContact	sms a jade	o o b-to
+Phone	SMSToContactWithMessage	envía un message a savion diciendo da si lo reconozco pero vos tenias una idea y yo otra	o o o o b-to o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	envía un sms a perico diciendo rael da rima no esquenta	o o o o b-to o b-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	manda un message a juanfran iturbide diciendo de los errores se aprenden	o o o o b-to i-to o b-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	manda un sms a reynaldo diciendo si lees esto que sepas que me caes mal	o o o o b-to o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	mensaje a primitivo mariátegui que diga a las ernestolovers no se pierdan hoy el programa	o o b-to i-to o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	sms a conchita que diga clase dormida batería al 100	o o b-to o o b-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	un mensaje a montserrat que diga fnatic cercas de quedar campeón	o o o b-to o o b-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	un sms a gorge que diga que lindo no ir lunes y marte a la escuela	o o o b-to o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	sms a jandro mariñelarena diciendo es necesario que exista un día entre el domingo y el lunes	o o b-to i-to o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	un mensaje a lenita diciendo voy a vivir en nueva colonia	o o o b-to o b-message i-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	un sms a pilarín diciendo mañana la veo denuevo	o o o b-to o b-message i-message i-message i-message

@@ -1,0 +1,108 @@
+domain	intent	utterance	bio
+Calendar	OpenCalendar	abre mi calendario	o o o
+Calendar	OpenCalendar	ábreme mi calendario	o o o
+Calendar	OpenCalendar	muestra mi calendario	o o o
+Calendar	CheckCalendarOnDate	¿ qué hay en mi agenda dentro de 1 hora ?	o o o o o o b-date i-date i-date i-date o
+Calendar	CheckCalendarOnDate	¿ qué hay en mi agenda el 15 de mayo ?	o o o o o o b-date i-date i-date i-date o
+Calendar	CheckCalendarOnDate	¿ qué hay en mi agenda hoy ?	o o o o o o b-date o
+Calendar	CheckCalendarOnDate	¿ qué hay en mi agenda el próximo miércoles ?	o o o o o o b-date i-date i-date o
+Calendar	CheckCalendarOnDate	¿ qué hay en mi agenda en 4 horas ?	o o o o o o b-date i-date i-date o
+Calendar	CheckCalendarOnDate	¿ qué hay en mi agenda dentro de 45 minutos ?	o o o o o o b-date i-date i-date i-date o
+Calendar	CheckCalendarOnDate	¿ qué hay en mi agenda el 13 de marzo ?	o o o o o o b-date i-date i-date i-date o
+Calendar	CheckCalendarOnDate	¿ qué hay en mi agenda el viernes ?	o o o o o o b-date i-date o
+Calendar	CheckCalendarOnDate	¿ qué hay en mi agenda el próximo martes ?	o o o o o o b-date i-date i-date o
+Calendar	AddEventWithName	añade un evento llamado 1on1	o o o o b-event_name
+Calendar	AddEventWithName	añade un evento llamado peluquero	o o o o b-event_name
+Calendar	AddEventWithName	añade un evento llamado el cumple de mamá	o o o o b-event_name i-event_name i-event_name i-event_name
+Calendar	AddEventWithName	añade un evento llamado cita con ana	o o o o b-event_name i-event_name i-event_name
+Calendar	AddEventWithName	añade un evento llamado cena con juan	o o o o b-event_name i-event_name i-event_name
+Calendar	AddEventWithName	añade un evento llamado 1on1 a calendario	o o o o b-event_name o o
+Calendar	AddEventWithName	añade un evento llamado peluquero a calendario	o o o o b-event_name o o
+Calendar	AddEventWithName	añade un evento llamado el cumple de mamá a calendario	o o o o b-event_name i-event_name i-event_name i-event_name o o
+Calendar	AddEventWithName	añade un evento llamado cita con ana a calendario	o o o o b-event_name i-event_name i-event_name o o
+Calendar	AddEventOnDateWithDate	añade un evento llamado peluquero el martes	o o o o b-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado el cumple de mamá el lunes	o o o o b-event_name i-event_name i-event_name i-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado cita con ana el 1 de marzo	o o o o b-event_name i-event_name i-event_name o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado cena con juan el miércoles	o o o o b-event_name i-event_name i-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado 1on1 el jueves	o o o o b-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado peluquero el 15 de septiembre	o o o o b-event_name o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado el cumple de mamá el viernes	o o o o b-event_name i-event_name i-event_name i-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado cita con ana el 30 de octubre	o o o o b-event_name i-event_name i-event_name o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado cena con juan el 23 de diciembre	o o o o b-event_name i-event_name i-event_name o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado 1on1 el 1 de mayo	o o o o b-event_name o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado peluquero el martes	o o o o b-event_name o b-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado el cumple de mamá a calendario el lunes	o o o o b-event_name i-event_name i-event_name i-event_name o o o b-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado cita con ana a calendario el 1 de marzo	o o o o b-event_name i-event_name i-event_name o o o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado cena con juan a calendario el miércoles	o o o o b-event_name i-event_name i-event_name o o o b-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado 1on1 a calendario el jueves	o o o o b-event_name o o o b-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado peluquero a calendario el 15 de septiembre	o o o o b-event_name o o o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado el cumple de mamá a calendario el viernes	o o o o b-event_name i-event_name i-event_name i-event_name o o o b-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado cita con ana a calendario el 30 de octubre	o o o o b-event_name i-event_name i-event_name o o o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado cena con juan a calendario el 23 de diciembre	o o o o b-event_name i-event_name i-event_name o o o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado 1on1 a calendario el 1 de mayo	o o o o b-event_name o o o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado peluquero a calendario el martes	o o o o b-event_name o o o b-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado el cumple de mamá a calendario el lunes	o o o o b-event_name i-event_name i-event_name i-event_name o o o b-event_date
+Calendar	NotifyOnEventStart	notifícame cuándo empieza el evento en mi calendario	o o o o o o o o
+Calendar	NotifyOnEventStart	notifícame cuándo empieza la cita en mi calendario	o o o o o o o o
+Calendar	NotNotifyOnEventStart	no me notifiques cuándo empieza el mítin en mi calendario	o o o o o o o o o o
+Calendar	NotNotifyOnEventStart	no me notifiques cuándo empieza el evento en mi calendario	o o o o o o o o o o
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el mítin en mi calendario en la ubicación casa	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el mítin en mi calendario en la ubicación edificio b	o o o o o o o o o o o b-location i-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el mítin en mi calendario en la ubicación slack	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el mítin en mi calendario en la ubicación trabajo	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el mítin en mi calendario en la ubicación facebook	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el mítin en mi calendario en la ubicación sala de conferencias orion	o o o o o o o o o o o b-location i-location i-location i-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el mítin en mi calendario en la ubicación universidad	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el mítin en mi calendario en la ubicación capus	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el mítin en mi calendario en la ubicación lemon conference room	o o o o o o o o o o o b-location i-location i-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el mítin en mi calendario en la ubicación piso 12	o o o o o o o o o o o b-location i-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el evento en mi calendario en la ubicación alquézar	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el evento en mi calendario en la ubicación galende	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el evento en mi calendario en la ubicación orrios	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el evento en mi calendario en la ubicación bisimbre	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el evento en mi calendario en la ubicación boada	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el evento en mi calendario en la ubicación aljucén	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el evento en mi calendario en la ubicación berberana	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el evento en mi calendario en la ubicación migueláñez	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el evento en mi calendario en la ubicación ocón	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el evento en mi calendario en la ubicación escañuela	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza la cita en mi calendario en la ubicación cantavieja	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza la cita en mi calendario en la ubicación alcanadre	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza la cita en mi calendario en la ubicación ludiente	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza la cita en mi calendario en la ubicación almiserà	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza la cita en mi calendario en la ubicación víllora	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza la cita en mi calendario en la ubicación betanzos	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza la cita en mi calendario en la ubicación ardón	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza la cita en mi calendario en la ubicación quismondo	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza la cita en mi calendario en la ubicación benimuslem	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza la cita en mi calendario en la ubicación portilla	o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación bimenes	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación benarrabá	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación bagüés	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación yémeda	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación carmonita	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación villafeliche	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación fombellida	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación vilasantar	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación ceclavín	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación onís	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el evento en mi calendario en la ubicación fontcoberta	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el evento en mi calendario en la ubicación alaquàs	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el evento en mi calendario en la ubicación algemesí	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el evento en mi calendario en la ubicación alcalalí	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el evento en mi calendario en la ubicación etxebarria	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el evento en mi calendario en la ubicación puçol	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el evento en mi calendario en la ubicación cava	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el evento en mi calendario en la ubicación gotarrendura	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el evento en mi calendario en la ubicación benisuera	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el evento en mi calendario en la ubicación cádiz	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza la cita en mi calendario en la ubicación sebúlcor	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza la cita en mi calendario en la ubicación tramacastilla	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza la cita en mi calendario en la ubicación figueruelas	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza la cita en mi calendario en la ubicación salorino	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza la cita en mi calendario en la ubicación nueva york	o o o o o o o o o o o o o b-location i-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza la cita en mi calendario en la ubicación abaltzisketa	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza la cita en mi calendario en la ubicación laboratorio	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza la cita en mi calendario en la ubicación casa	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza la cita en mi calendario en la ubicación edificio b	o o o o o o o o o o o o o b-location i-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza la cita en mi calendario en la ubicación slack	o o o o o o o o o o o o o b-location

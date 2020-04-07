@@ -1,0 +1,53 @@
+domain	intent	utterance	bio
+Airconditioner	TurnOn	activa la calefacción	o b-av_alias i-av_alias
+Airconditioner	TurnOn	activa el aire acondicionado	o b-av_alias i-av_alias i-av_alias
+Airconditioner	TurnOn	enciende la refrigeración	o b-av_alias i-av_alias
+Airconditioner	TurnOff	apaga el sistema de refrigeración	o b-av_alias i-av_alias i-av_alias i-av_alias
+Airconditioner	TurnOff	apaga la calefacción	o b-av_alias i-av_alias
+Airconditioner	TurnOff	desactiva el aire acondicionado	o b-av_alias i-av_alias i-av_alias
+Airconditioner	ChangeTemperature	cambia la temperatura en mi termostato	o o o o o o
+Airconditioner	ChangeTemperature	cambia la temperatura máxima y mínima en mi termostato	o o o o o o o o o
+Airconditioner	SetTemperatureToValue	establece la temperatura a 79 grados fahrenheit en mi termostato	o o o o b-value i-value i-value o o o
+Airconditioner	SetTemperatureToValue	establece la temperatura a 25 grados en mi termostato	o o o o b-value i-value o o o
+Airconditioner	SetTemperatureToValue	establece la temperatura en mi termostato a 22 grados celsius	o o o o o o o b-value i-value i-value
+Airconditioner	SetTemperatureToValue	establece la temperatura en mi termostato a 24 grados	o o o o o o o b-value i-value
+Airconditioner	SetTemperatureToValue	establece la temperatura en mi termostato a 80 grados fahrenheit	o o o o o o o b-value i-value i-value
+Airconditioner	SetTemperatureToValue	establece mi termostato a desactivado	o o o o b-value
+Airconditioner	SetTemperatureToValue	establece mi termostato a 29 grados celsius	o o o o b-value i-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	establece la temperatura a 79 grados fahrenheit en mi cocina termostato	o o o o b-value i-value i-value o o b-device_name o
+Airconditioner	SetTemperatureToValueOnDevice	establece la temperatura a 25 grados en mi corredor termostato	o o o o b-value i-value o o b-device_name o
+Airconditioner	SetTemperatureToValueOnDevice	establece la temperatura en mi termostato dormitorio a 22 grados celsius	o o o o o o b-device_name o b-value i-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	establece la temperatura en mi termostato salón a 24 grados	o o o o o o b-device_name o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	establece la temperatura en mi termostato cocina a 80 grados fahrenheit	o o o o o o b-device_name o b-value i-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	establece mi termostato corredor a desactivado	o o o b-device_name o b-value
+Airconditioner	SetTemperatureToValueOnDevice	establece mi termostato dormitorio a 29 grados celsius	o o o b-device_name o b-value i-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	establece mi termostato salón a 23 grados celsius	o o o b-device_name o b-value i-value i-value
+Airconditioner	SetTemperatureBetweenValues	establece la temperatura entre 23 grados y 29 grados en mi termostato	o o o o o o o o o o o o
+Airconditioner	SetTemperatureBetweenValues	establece la temperatura baja 23 grados en mi termostato , y la temperatura alta a 29 grados	o o o o o o o o o o o o o o o o o
+Airconditioner	SetTemperatureOnDevice	cambia la temperatura mínima y máxima en mi termostato cocina	o o o o o o o o o b-device_name
+Airconditioner	SetTemperatureOnDevice	cambia la temperatura mínima y máxima en mi termostato corredor	o o o o o o o o o b-device_name
+Airconditioner	SetTemperatureOnDevice	cambia la temperatura mínima y máxima en mi termostato dormitorio	o o o o o o o o o b-device_name
+Airconditioner	SetTemperatureOnDevice	cambia la temperatura en mi termostato salón	o o o o o o b-device_name
+Airconditioner	SetTemperatureOnDevice	cambia la temperatura en mi termostato cocina	o o o o o o b-device_name
+Airconditioner	GetHumidity	verifica la humedad	o o o
+Airconditioner	GetHumidity	verifica el nivel de la humedad	o o o o o o
+Airconditioner	GetHumidity	muestra la humedad	o o o
+Airconditioner	GetHumidity	muestra el nivel de la humedad	o o o o o o
+Airconditioner	GetHumidity	muéstrame la humedad	o o o
+Airconditioner	GetHumidity	muéstrame el nivel de la humedad	o o o o o o
+Airconditioner	GetHumidity	verifícame la humedad	o o o
+Airconditioner	GetTemperature	¿ qué temperatura tengo aquí según mi el sistema calefactiorio ?	o o o o o o o b-av_alias i-av_alias i-av_alias o
+Airconditioner	GetTemperatureFromDevice	verifica la temperatura del sensor de temperatura dormitorio en el cuarto	o o o o o o o b-device_name o o o
+Airconditioner	GetTemperatureFromDevice	verifica la temperatura del sensor de temperatura salón en el cuarto	o o o o o o o b-device_name o o o
+Airconditioner	GetTemperatureFromDevice	verifica qué dice el sensor de la temperatura cocina	o o o o o o o o b-device_name
+Airconditioner	GetTemperatureFromDevice	verifica qué dice el sensor de la temperatura corredor	o o o o o o o o b-device_name
+Airconditioner	GetTemperatureFromDevice	¿ qué dice el sensor de temperatura del interior dormitorio ?	o o o o o o o o o b-device_name o
+Airconditioner	GetTemperatureFromDevice	¿ qué dice el sensor de temperatura del interior salón ?	o o o o o o o o o b-device_name o
+Airconditioner	GetTemperatureFromDevice	¿ qué muestra el sensor de temperatura del interior cocina ?	o o o o o o o o o b-device_name o
+Airconditioner	GetTemperature	¿ qué temperatura hay aquí según mi la calefacción ?	o o o o o o o b-av_alias i-av_alias o
+Airconditioner	GetTemperature	¿ qué temperatura hay aquí según mi el aire acondicionado ?	o o o o o o o b-av_alias i-av_alias i-av_alias o
+Airconditioner	GetTemperature	¿ qué temperatura hay aquí según mi la refrigeración ?	o o o o o o o b-av_alias i-av_alias o
+Airconditioner	GetTemperature	¿ qué temperatura tenemos aquí según mi el sistema calefactiorio ?	o o o o o o o b-av_alias i-av_alias i-av_alias o
+Airconditioner	GetTemperature	¿ qué temperatura tenemos aquí según mi el sistema de refrigeración ?	o o o o o o o b-av_alias i-av_alias i-av_alias i-av_alias o
+Airconditioner	GetTemperature	¿ qué temperatura tenemos aquí según mi la calefacción ?	o o o o o o o b-av_alias i-av_alias o
+Airconditioner	GetTemperature	¿ qué temperatura tenemos aquí según mi el aire acondicionado ?	o o o o o o o b-av_alias i-av_alias i-av_alias o

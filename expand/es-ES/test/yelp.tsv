@@ -1,0 +1,17 @@
+domain	intent	utterance	bio
+Yelp	SearchRestaurant	restaurantes cerca de aquí	o o o o
+Yelp	SearchRestaurant	busca restaurante	o o
+Yelp	SearchRestaurant	encuentra restaurantes	o o
+Yelp	SearchByQuery	restaurante en Perkins cerca	b-query i-query i-query o
+Yelp	SearchByRating	restaurantes cerca con por lo menos 3 estrellas de clasificación	o o o o o o b-rating o o o
+Yelp	SearchByCategory	restaurantes españoles cerca	o b-category.mpl o
+Yelp	OpenRestaurants	restaurantes abiertos por aquí	o o o o
+Yelp	SearchByReviewCount	restaurantes cerca de aquí con opiniones de por lo menos 950 usuarios	o o o o o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurantes por aquí con opiniones de al menos 7000 usuarios	o o o o o o o o b-review_count o
+Yelp	SearchInLocation	restaurantes al lado de kreuzberg	o o o o b-location
+Yelp	SearchInLocation	restaurantes cerca de salinas	o o o b-location
+Yelp	SearchByQueryInLocation	sushi yoko cerca de periana	b-query i-query o o b-location
+Yelp	SearchByRatingInLocation	restaurantes clasificados con más de 4 estrellas en daimús	o o o o o b-rating o o b-location
+Yelp	SearchByCategoryInLocation	comida alemana cerca buñol	o b-category.f o b-location
+Yelp	SearchByReviewCountInLocation	restaurantes alemanes cerca de peñaparda con opiniones de al menos 10000 usuarios	o b-category.mpl o o b-location o o o o o b-review_count o
+Yelp	OpenRestaurantsInLocation	restaurantes todavía abiertos en sebúlcor	o o o o b-location

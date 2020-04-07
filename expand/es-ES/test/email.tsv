@@ -1,0 +1,28 @@
+domain	intent	utterance	bio
+Email	OpenEmail	verifica bandeja de entrada de gmail	o o o o o o
+Email	OpenEmail	dame bandeja de entrada de mi email	o o o o o o o
+Email	OpenEmail	verifica mis correos de la categoría principal	o o o o o o o
+Email	OpenEmail	dame mis emails	o o o
+Email	ShowEmailFromSender	dame emails de jomi@zoho.mail.eu	o o o b-sender_address
+Email	ShowEmailFromSender	dame emails que recibí de pato@mail.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	dame mis emails que recibí de mendia@mail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	verifica emails de iturbide@zoho.mail.eu	o o o b-sender_address
+Email	ShowEmailFromSender	verifica mis emails de ruiz@proton.com	o o o o b-sender_address
+Email	ShowEmailFromSender	verifica mis emails que recibí de chemari@gmx.es	o o o o o o b-sender_address
+Email	ShowEmailWithLabel	muéstrame mis emails etiquetados spam	o o o o b-label
+Email	ShowEmailWithLabel	dame mis emails que tienen etiqueta para después	o o o o o o b-label i-label
+Email	ShowEmailFromTime	muéstrame emails que llegaron ayer	o o o o b-time
+Email	ShowEmailWithSubject	dame mis correos con el tema ¿Te gustaría vivir la mejor experiencia de tu vida?	o o o o o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject
+Email	ShowEmailWithSubject	dame mis emails con el tema Descubre cual es la opinión de nuestros clientes	o o o o o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject
+Email	ShowEmailWithSubject	muéstrame mis correos con el tema Termina hoy: Tome 20% de descuento en su pedido completo.	o o o o o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject
+Email	ShowEmailWithPriority	dame los correos de no importantes	o o o o b-priority i-priority
+Email	SendEmailToAddressWithSubjectAndWithMessage	envía un email a berenice con el tema explosión del teléfono con el mensaje time golo jate sas na hoy	o o o o b-to o o o b-subject i-subject i-subject o o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	manda un email a pera con el tema ¡vote en el concurso de sobrevivientes de haasweek! con el mensaje que tu sonrisa sea mas grande que tus problemas	o o o o b-to o o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	reenvía un email a mariluisa ramos con el tema re tema de llamada de conferencia con el mensaje tengo ganas de llorar un rato	o o o o b-to i-to o o o b-subject i-subject i-subject i-subject i-subject i-subject o o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubject	envía un email a conchi@outlook.com con el tema ¿Conoces los 10 motivos para no vender tu auto?	o o o o b-to o o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	reenvía un email a mari@gmx.es con el tema Eres el único que no ha visto esto	o o o o b-to o o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject
+Email	SendEmail	envía un email	o o o
+Email	SendEmailToAddress	envía un correo a juan@gmx.es usando mi gmail	o o o o b-to o o o
+Email	SendEmailToAddress	envía un email a genita usando mi gmail	o o o o b-to o o o
+Email	ReplyToEmailFromAddress	responde a chuyita	o o b-to
+Email	ReplyToEmailFromAddress	responde a maria@gmx.es	o o b-to

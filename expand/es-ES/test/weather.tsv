@@ -1,0 +1,20 @@
+domain	intent	utterance	bio
+Weather	OpenWeather	cómo está el tiempo fuera	o o o o o
+Weather	WeatherTomorrow	el tiempo mañana	o o o
+Weather	WeatherInLocation	cómo está el tiempo en samaniego	o o o o o b-location
+Weather	WeatherInLocation	el tiempo actual en riópar	o o o o b-location
+Weather	WeatherInLocation	el tiempo actual en yésero	o o o o b-location
+Weather	WeatherInLocation	el tiempo en benalauría	o o o b-location
+Weather	WeatherInLocation	tiempo actual en calatayud	o o o b-location
+Weather	WeatherTomorrowInLocation	cómo está el tiempo en gimialcón para mañana	o o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo actual en mura para mañana	o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo en centenera para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo actual en cobeta para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo en reina para mañana	o o b-location o o
+Weather	SunriseInLocation	amanecer en benetússer	o o b-location
+Weather	SunriseInLocation	cuándo es el tiempo del amanecer en tardienta	o o o o o o o b-location
+Weather	SunsetInLocation	puesta del sol en robledo	o o o o b-location
+Weather	SunriseAndSunsetInLocation	el amanecer y la puesta del sol en òrrius	o o o o o o o o b-location
+Weather	SunriseAndSunsetInLocationAndOnDate	amanecer y puesta del sol para la ubicación benaoján para la fecha 30 de enero	o o o o o o o o b-location o o o b-date i-date i-date
+Weather	MoonphaseInLocation	fase de la luna para la ubicación allepuz	o o o o o o o b-location
+Weather	MoonphaseInLocationOnDate	fase de la luna para muntanyola el 7 de septiembre	o o o o o b-location o b-date i-date i-date

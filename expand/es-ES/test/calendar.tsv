@@ -1,0 +1,14 @@
+domain	intent	utterance	bio
+Calendar	OpenCalendar	muéstrame mi calendario	o o o
+Calendar	CheckCalendarOnDate	¿ qué hay en mi agenda el ueves ?	o o o o o o b-date i-date o
+Calendar	AddEventWithName	añade un evento llamado cena con juan a calendario	o o o o b-event_name i-event_name i-event_name o o
+Calendar	AddEventOnDateWithDate	añade un evento llamado 1on1 el 1 de mayo	o o o o b-event_name o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado cita con ana a calendario el 1 de marzo	o o o o b-event_name i-event_name i-event_name o o o b-event_date i-event_date i-event_date
+Calendar	NotifyOnEventStart	notifícame cuándo empieza el mítin en mi calendario	o o o o o o o o
+Calendar	NotNotifyOnEventStart	no me notifiques cuándo empieza la cita en mi calendario	o o o o o o o o o o
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el mítin en mi calendario en la ubicación laboratorio	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el evento en mi calendario en la ubicación tordellego	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza la cita en mi calendario en la ubicación fornalutx	o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación navahondilla	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el evento en mi calendario en la ubicación olvena	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza la cita en mi calendario en la ubicación trabajo	o o o o o o o o o o o o o b-location

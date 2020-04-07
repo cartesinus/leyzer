@@ -1,0 +1,13 @@
+domain	intent	utterance	bio
+Airconditioner	TurnOn	enciende el sistema calefactiorio	o b-av_alias i-av_alias i-av_alias
+Airconditioner	TurnOff	desactiva la refrigeración	o b-av_alias i-av_alias
+Airconditioner	ChangeTemperature	establece la temperatura en mi termostato	o o o o o o
+Airconditioner	SetTemperatureToValue	establece la temperatura a 78 grados fahrenheit en mi termostato	o o o o b-value i-value i-value o o o
+Airconditioner	SetTemperatureToValue	establece mi termostato a 23 grados celsius	o o o o b-value i-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	establece la temperatura a 78 grados fahrenheit en mi salón termostato	o o o o b-value i-value i-value o o b-device_name o
+Airconditioner	SetTemperatureBetweenValues	cambia la temperatura a una entre 24 grados y 30 grados en mi termostato	o o o o o o o o o o o o
+Airconditioner	SetTemperatureOnDevice	cambia la temperatura en mi termostato corredor	o o o o o o b-device_name
+Airconditioner	GetHumidity	verifícame el nivel de la humedad	o o o o o o
+Airconditioner	GetTemperature	¿ qué temperatura tengo aquí según mi sistema calefactiorio ?	o o o o o o b-av_alias i-av_alias i-av_alias o
+Airconditioner	GetTemperatureFromDevice	¿ qué muestra el sensor de temperatura del interior corredor ?	o o o o o o o o o b-device_name o
+Airconditioner	GetTemperature	¿ qué temperatura hay aquí según mi el sistema de refrigeración ?	o o o o o o o b-av_alias i-av_alias i-av_alias i-av_alias o

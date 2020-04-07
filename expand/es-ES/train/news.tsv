@@ -1,0 +1,26 @@
+domain	intent	utterance	bio
+News	ShowNews	el país	b-portal i-portal
+News	ShowNews	abre abc	o b-portal
+News	ShowNews	lee la vanguardia	o b-portal i-portal
+News	ShowNews	muestra noticias de el mundo	o o o b-portal i-portal
+News	ShowNews	muestra las noticias de mundo deportivo	o o o o b-portal i-portal
+News	ShowNews	muéstrame noticias de forbes	o o o b-portal
+News	ShowNews	noticias de el periódico	o o b-portal i-portal
+News	ShowNews	noticias recientes en faro de vigo	o o o b-portal i-portal i-portal
+News	ShowNews	noticias recientes de el país	o o o b-portal i-portal
+News	ShowNews	noticias más recientes en abc	o o o o b-portal
+News	ShowNews	noticias más recientes de la vanguardia	o o o o b-portal i-portal
+News	ShowNewsFromSection	la sección de deporte de el mundo	o o o b-section o b-portal i-portal
+News	ShowNewsFromSection	la sección de política de mundo deportivo	o o o b-section o b-portal i-portal
+News	ShowNewsFromSection	la sección de tecnología de forbes	o o o b-section o b-portal
+News	ShowNewsFromSection	la sección salud de marca	o o b-section o b-portal
+News	ShowNewsFromSection	la sección celebridades de la voz de galicia	o o b-section o b-portal i-portal i-portal i-portal
+News	NotifyWhenPortalUpdates	notifícame cuando el país actualice la página principal	o o b-portal i-portal o o o o
+News	NotifyWhenPortalUpdates	notifícame cuando abc actualice la página principal	o o b-portal o o o o
+News	NotifyWhenPortalUpdates	notifícame cuando la vanguardia actualice las noticias	o o b-portal i-portal o o o
+News	NotifyWhenPortalUpdates	notifícame cuando el mundo actualice las noticias	o o b-portal i-portal o o o
+News	NotifyWhenPortalUpdates	notifícame cuando mundo deportivo actualice las noticias	o o b-portal i-portal o o o
+News	NotifyWhenPortalUpdatesInSection	notifícame cuando la sección política de forbes publique un nuevo artículo	o o o o b-section o b-portal o o o o
+News	NotifyWhenPortalUpdatesInSection	notifícame cuando la sección tecnología de marca publique un nuevo artículo	o o o o b-section o b-portal o o o o
+News	NotifyWhenPortalUpdatesInSection	notifícame cuando la sección celebridades de el periódico publique un nuevo artículo	o o o o b-section o b-portal i-portal o o o o
+News	NotifyWhenPortalUpdatesInSection	notifícame cuando la sección deporte de faro de vigo publique un nuevo artículo	o o o o b-section o b-portal i-portal i-portal o o o o

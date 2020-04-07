@@ -1,0 +1,141 @@
+domain	intent	utterance	bio
+Weather	OpenWeather	el tiempo	o o
+Weather	OpenWeather	el tiempo fuera	o o o
+Weather	OpenWeather	cómo está el tiempo	o o o o
+Weather	WeatherTomorrow	cómo estará el tiempo mañana	o o o o o
+Weather	WeatherTomorrow	el tiempo mañana	o o o
+Weather	WeatherInLocation	cómo está el tiempo en berlín	o o o o o b-location
+Weather	WeatherInLocation	cómo está el tiempo en parís	o o o o o b-location
+Weather	WeatherInLocation	cómo está el tiempo en tokyo	o o o o o b-location
+Weather	WeatherInLocation	cómo está el tiempo en villoruebo	o o o o o b-location
+Weather	WeatherInLocation	cómo está el tiempo en férez	o o o o o b-location
+Weather	WeatherInLocation	cómo está el tiempo en isábena	o o o o o b-location
+Weather	WeatherInLocation	cómo está el tiempo en vallés	o o o o o b-location
+Weather	WeatherInLocation	cómo está el tiempo en fombellida	o o o o o b-location
+Weather	WeatherInLocation	cómo está el tiempo en valderredible	o o o o o b-location
+Weather	WeatherInLocation	el tiempo actual en fuentecén	o o o o b-location
+Weather	WeatherInLocation	el tiempo actual en palafolls	o o o o b-location
+Weather	WeatherInLocation	el tiempo actual en cazorla	o o o o b-location
+Weather	WeatherInLocation	el tiempo actual en alfafar	o o o o b-location
+Weather	WeatherInLocation	el tiempo actual en rialp	o o o o b-location
+Weather	WeatherInLocation	el tiempo actual en torrebaja	o o o o b-location
+Weather	WeatherInLocation	el tiempo actual en biscarrués	o o o o b-location
+Weather	WeatherInLocation	el tiempo actual en manacor	o o o o b-location
+Weather	WeatherInLocation	el tiempo en fombuena	o o o b-location
+Weather	WeatherInLocation	el tiempo en almazán	o o o b-location
+Weather	WeatherInLocation	el tiempo en alcalalí	o o o b-location
+Weather	WeatherInLocation	el tiempo en marín	o o o b-location
+Weather	WeatherInLocation	el tiempo en maranchón	o o o b-location
+Weather	WeatherInLocation	el tiempo en siruela	o o o b-location
+Weather	WeatherInLocation	el tiempo en báguena	o o o b-location
+Weather	WeatherInLocation	el tiempo en riudecols	o o o b-location
+Weather	WeatherInLocation	el tiempo en husillos	o o o b-location
+Weather	WeatherInLocation	tiempo actual en piloña	o o o b-location
+Weather	WeatherInLocation	tiempo actual en acebo	o o o b-location
+Weather	WeatherInLocation	tiempo actual en boada	o o o b-location
+Weather	WeatherInLocation	tiempo actual en barbadás	o o o b-location
+Weather	WeatherInLocation	tiempo actual en torrellas	o o o b-location
+Weather	WeatherInLocation	tiempo actual en almenara	o o o b-location
+Weather	WeatherInLocation	tiempo actual en alfacar	o o o b-location
+Weather	WeatherInLocation	tiempo actual en sanchidrián	o o o b-location
+Weather	WeatherInLocation	tiempo actual en legarda	o o o b-location
+Weather	WeatherInLocation	tiempo en villambistia	o o b-location
+Weather	WeatherInLocation	tiempo en pol	o o b-location
+Weather	WeatherInLocation	tiempo en almargen	o o b-location
+Weather	WeatherInLocation	tiempo en berastegi	o o b-location
+Weather	WeatherInLocation	tiempo en alcanadre	o o b-location
+Weather	WeatherInLocation	tiempo en campotéjar	o o b-location
+Weather	WeatherInLocation	tiempo en portilla	o o b-location
+Weather	WeatherInLocation	tiempo en aspa	o o b-location
+Weather	WeatherInLocation	tiempo en trevélez	o o b-location
+Weather	WeatherInLocation	tiempo en totanés	o o b-location
+Weather	WeatherTomorrowInLocation	cómo está el tiempo en albons para mañana	o o o o o b-location o o
+Weather	WeatherTomorrowInLocation	cómo está el tiempo en gilbuena para mañana	o o o o o b-location o o
+Weather	WeatherTomorrowInLocation	cómo está el tiempo en bullas para mañana	o o o o o b-location o o
+Weather	WeatherTomorrowInLocation	cómo está el tiempo en laspaúles para mañana	o o o o o b-location o o
+Weather	WeatherTomorrowInLocation	cómo está el tiempo en bèlgida para mañana	o o o o o b-location o o
+Weather	WeatherTomorrowInLocation	cómo está el tiempo en bisimbre para mañana	o o o o o b-location o o
+Weather	WeatherTomorrowInLocation	cómo está el tiempo en etxebarri para mañana	o o o o o b-location o o
+Weather	WeatherTomorrowInLocation	cómo está el tiempo en algarinejo para mañana	o o o o o b-location o o
+Weather	WeatherTomorrowInLocation	cómo está el tiempo en berberana para mañana	o o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo actual en verín para mañana	o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo actual en muruzábal para mañana	o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo actual en argañín para mañana	o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo actual en villarmayor para mañana	o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo actual en rillo para mañana	o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo actual en aljucén para mañana	o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo actual en navamorcuende para mañana	o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo actual en villasandino para mañana	o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo actual en sarria para mañana	o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo en vallclara para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo en zafra para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo en fondón para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo en caldearenas para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo en candasnos para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo en benacazón para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo en siles para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo en terzaga para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo en potes para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo actual en renera para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo actual en celrà para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo actual en íscar para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo actual en villalobón para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo actual en lleida para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo actual en boecillo para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo actual en valderrobres para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo actual en bañuelos para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo actual en mallabia para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo en herbés para mañana	o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo en bonansa para mañana	o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo en rugat para mañana	o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo en grañén para mañana	o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo en vilajuïga para mañana	o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo en mirabueno para mañana	o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo en royuela para mañana	o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo en ardón para mañana	o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo en villaviciosa para mañana	o o b-location o o
+Weather	SunriseInLocation	tiempo del amanecer en elorrio	o o o o b-location
+Weather	SunriseInLocation	el amanecer en gisclareny	o o o b-location
+Weather	SunriseInLocation	el tiempo del amanecer en ezcaray	o o o o o b-location
+Weather	SunriseInLocation	cuándo es amanecer en fuentelisendo	o o o o b-location
+Weather	SunriseInLocation	cuándo es tiempo del amanecer en cebreros	o o o o o o b-location
+Weather	SunriseInLocation	cuándo es el amanecer en cárcheles	o o o o o b-location
+Weather	SunsetInLocation	la puesta del sol en torrevieja	o o o o o b-location
+Weather	SunsetInLocation	el tiempo de puesta del sol en golosalvo	o o o o o o o b-location
+Weather	SunsetInLocation	el tiempo de la puesta del sol en moríñigo	o o o o o o o o b-location
+Weather	SunsetInLocation	cuándo es puesta del sol en jasa	o o o o o o b-location
+Weather	SunsetInLocation	cuándo es la puesta del sol en azuébar	o o o o o o o b-location
+Weather	SunsetInLocation	cuándo es el tiempo de puesta del sol en vinaròs	o o o o o o o o o b-location
+Weather	SunsetInLocation	cuándo es el tiempo de la puesta del sol en ventosa	o o o o o o o o o o b-location
+Weather	SunriseAndSunsetInLocation	amanecer y puesta del sol para la ubicación alcantud	o o o o o o o o b-location
+Weather	SunriseAndSunsetInLocation	amanecer y puesta del sol en tábara	o o o o o o b-location
+Weather	SunriseAndSunsetInLocation	amanecer y la puesta del sol para la ubicación almogía	o o o o o o o o o b-location
+Weather	SunriseAndSunsetInLocation	amanecer y la puesta del sol en cambados	o o o o o o o b-location
+Weather	SunriseAndSunsetInLocation	el amanecer y puesta del sol para la ubicación espirdo	o o o o o o o o o b-location
+Weather	SunriseAndSunsetInLocation	el amanecer y puesta del sol en valdemaqueda	o o o o o o o b-location
+Weather	SunriseAndSunsetInLocation	el amanecer y la puesta del sol para la ubicación treviana	o o o o o o o o o o b-location
+Weather	SunriseAndSunsetInLocationAndOnDate	amanecer y puesta del sol en olvena para la fecha 15 de junio	o o o o o o b-location o o o b-date i-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	amanecer y la puesta del sol para la ubicación rubí para la fecha 7 de septiembre	o o o o o o o o o b-location o o o b-date i-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	amanecer y la puesta del sol en campisábalos para la fecha 30 de enero	o o o o o o o b-location o o o b-date i-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	el amanecer y puesta del sol para la ubicación vilardevós para la fecha 15 de junio	o o o o o o o o o b-location o o o b-date i-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	el amanecer y puesta del sol en brañosera para la fecha 7 de septiembre	o o o o o o o b-location o o o b-date i-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	el amanecer y la puesta del sol para la ubicación pradales para la fecha 30 de enero	o o o o o o o o o o b-location o o o b-date i-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	el amanecer y la puesta del sol en guesálaz para la fecha 15 de junio	o o o o o o o o b-location o o o b-date i-date i-date
+Weather	MoonphaseInLocation	fase de la luna para oleiros	o o o o o b-location
+Weather	MoonphaseInLocation	fase de la luna para peralveche	o o o o o b-location
+Weather	MoonphaseInLocation	fase de la luna para cerbón	o o o o o b-location
+Weather	MoonphaseInLocation	fase de la luna para aldeatejada	o o o o o b-location
+Weather	MoonphaseInLocation	fase de la luna para bonastre	o o o o o b-location
+Weather	MoonphaseInLocation	fase de la luna para la ubicación campllong	o o o o o o o b-location
+Weather	MoonphaseInLocation	fase de la luna para la ubicación sayalonga	o o o o o o o b-location
+Weather	MoonphaseInLocation	fase de la luna para la ubicación valderrábano	o o o o o o o b-location
+Weather	MoonphaseInLocation	fase de la luna para la ubicación moclín	o o o o o o o b-location
+Weather	MoonphaseInLocationOnDate	fase de la luna para gistaín el 30 de enero	o o o o o b-location o b-date i-date i-date
+Weather	MoonphaseInLocationOnDate	fase de la luna para galisancho el 15 de junio	o o o o o b-location o b-date i-date i-date
+Weather	MoonphaseInLocationOnDate	fase de la luna para mestanza el 7 de septiembre	o o o o o b-location o b-date i-date i-date
+Weather	MoonphaseInLocationOnDate	fase de la luna para sesma el 30 de enero	o o o o o b-location o b-date i-date i-date
+Weather	MoonphaseInLocationOnDate	fase de la luna para la ubicación escalonilla el 15 de junio	o o o o o o o b-location o b-date i-date i-date
+Weather	MoonphaseInLocationOnDate	fase de la luna para la ubicación alcóntar el 7 de septiembre	o o o o o o o b-location o b-date i-date i-date
+Weather	MoonphaseInLocationOnDate	fase de la luna para la ubicación benarrabá el 30 de enero	o o o o o o o b-location o b-date i-date i-date
+Weather	MoonphaseInLocationOnDate	fase de la luna para la ubicación valhermoso el 15 de junio	o o o o o o o b-location o b-date i-date i-date
+Weather	MoonphaseInLocationOnDate	fase de la luna para la ubicación benalauría el 7 de septiembre	o o o o o o o b-location o b-date i-date i-date

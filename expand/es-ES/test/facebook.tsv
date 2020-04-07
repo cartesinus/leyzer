@@ -1,0 +1,40 @@
+domain	intent	utterance	bio
+Facebook	OpenFacebook	actualiza mi estado de facebook	o o o o o
+Facebook	PostStatus	crea una nueva publicación que dice por la plata baila el mono en el facebook	o o o o o o b-status i-status i-status i-status i-status i-status o o o
+Facebook	PostStatus	crea una nueva publicación que dice mañana voy a morir en el facebook	o o o o o o b-status i-status i-status i-status o o o
+Facebook	PostStatus	crea una nueva publicación que dice puse para mirar ted 2 en facebook	o o o o o o b-status i-status i-status i-status i-status o o
+Facebook	PostStatus	crea una nueva publicación que diga cuando sea obeso llamadme big d en facebook	o o o o o o b-status i-status i-status i-status i-status i-status o o
+Facebook	PostStatus	publica una crepa dulce ahorita en el facebook	o b-status i-status i-status i-status o o o
+Facebook	PostStatus	publica buenos pinches días amiguitos en el facebook	o b-status i-status i-status i-status o o o
+Facebook	PostStatus	publica me encanta dejar en visto a las personas en el facebook	o b-status i-status i-status i-status i-status i-status i-status i-status o o o
+Facebook	PostStatus	publica extraño los abrazos de guille en el facebook	o b-status i-status i-status i-status i-status o o o
+Facebook	PostStatus	publica en el facebook diciendo que esto para tu fue un juego	o o o o o o b-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	publica en el facebook diciendo que que bien que estoy	o o o o o o b-status i-status i-status i-status
+Facebook	PostStatus	publica en el facebook diciendo que severo que no me conteste s e v e r o	o o o o o o b-status i-status i-status i-status i-status i-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	publica en el facebook diciendo que me re colgue y ni estudie para mañana	o o o o o o b-status i-status i-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	publica en facebook que hoy son errores mañana son experiencias	o o o o b-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	publica en facebook que gta aburre hora de comprar un nuevo juego	o o o o b-status i-status i-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	publica en facebook que clase dormida batería al 100	o o o o b-status i-status i-status i-status i-status
+Facebook	PostStatus	publica en facebook que haber a ncis los angles	o o o o b-status i-status i-status i-status i-status
+Facebook	PostStatus	actualiza mi estado de facebook diciendo que bien se siente que te ignoren	o o o o o o b-status i-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	actualiza mi estado de facebook diciendo salieron pizzas con la prima	o o o o o o b-status i-status i-status i-status i-status
+Facebook	PostStatus	actualiza mi estado de facebook diciendo día para cogerlo y tirarlo a la basura	o o o o o o b-status i-status i-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	actualiza mi estado de facebook diciendo teneis que recordadme que lea	o o o o o o b-status i-status i-status i-status i-status
+Facebook	PostPicture	publica una imagen en facebook	o o o o o
+Facebook	PostPictureWithCaption	publica una imagen con el título el mejor amigo perro en facebook	o o o o o o b-caption i-caption i-caption i-caption o o
+Facebook	PostPictureWithCaption	publica una imagen en el facebook con el título con mi papá	o o o o o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithCaption	sube una imagen con el título el mejor amigo perro en el facebook	o o o o o o b-caption i-caption i-caption i-caption o o o
+Facebook	PostPictureWithCaption	sube una imagen con un título el mejor amigo perro en facebook	o o o o o o b-caption i-caption i-caption i-caption o o
+Facebook	PostPictureWithCaption	sube una imagen en el facebook con el título con mi papá	o o o o o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithCaption	sube una imagen en el facebook con un título el mejor amigo perro	o o o o o o o o o b-caption i-caption i-caption i-caption
+Facebook	PostPictureWithCaption	sube una imagen en facebook con título con mi papá	o o o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrl	publica bit.ly/BFjbddV en el facebook	o b-picture_url o o o
+Facebook	PostPictureWithUrl	sube www.tinyurl.com/IgCQSvc a facebook	o b-picture_url o o
+Facebook	PostPictureWithUrlAndWithCaption	pon cutt.ly/WsKzevf en facebook con título con mi papá	o b-picture_url o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	publica cutt.ly/dHwnxca en facebook con el título el mejor amigo perro	o b-picture_url o o o o o b-caption i-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	titula cutt.ly/eqzfmL0 como el mejor amigo perro y públicalo en facebook	o b-picture_url o b-caption i-caption i-caption i-caption o o o o
+Facebook	PostPictureWithUrlAndWithCaption	pon shorturl.at/1UPJJUw en facebook con el título con mi papá	o b-picture_url o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	publica www.tinyurl.com/7wE53yt en mi facebook con el título el mejor amigo perro	o b-picture_url o o o o o o b-caption i-caption i-caption i-caption
+Facebook	ShowAlbumWithName	muestra imágenes en mi álbum vacaciones	o o o o o b-album
+Facebook	ShowAlbumWithName	muéstrame imágenes en mi álbum mi amor en facebook	o o o o o b-album i-album o o
+Facebook	ShowAlbumWithName	muéstrame imágenes en álbum vacaciones	o o o o b-album
