@@ -1,20 +1,31 @@
 domain	intent	utterance	bio
-Translate	SetDefaultLanguage	ustaw język na włoski	o o o b-all_lang
-Translate	SetDefaultLanguage	nastaw domyślny język wyjścia na hawajski	o o o o o b-all_lang
-Translate	SetDefaultLanguage	przełącz język na hindi	o o o b-all_lang
-Translate	SetDefaultLanguageToLanguage	ustaw język wejścia na hiszpański	o o o o b-all_lang
-Translate	SetDefaultLanguageToLanguage	przełącz domyślny język wejścia na islandzki	o o o o o b-all_lang
-Translate	TranslateText	tłumaczenie do you have this in my size	o b-text.en i-text.en i-text.en i-text.en i-text.en i-text.en i-text.en
-Translate	TranslateText	przetłumacz mi zdanie i am an american citizen	o o o b-text.en i-text.en i-text.en i-text.en i-text.en
-Translate	TranslateText	jak przetłumaczyć mi i don't understand	o o o b-text.en i-text.en i-text.en
-Translate	TranslateText	jak możesz przetłumaczyć to zdanie hi how are you	o o o o o b-text.en i-text.en i-text.en i-text.en
-Translate	TranslateText	where are you taking me tłumaczenie	b-text.en i-text.en i-text.en i-text.en i-text.en o
-Translate	TranslateTextToLanguage	jakie jest tłumaczenie na i'll call the police zdania polski	o o o o b-text.en i-text.en i-text.en i-text.en o b-trg_lang
-Translate	TranslateTextFromLanguageToLanguage	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT z francuski na czeski	o o o o o b-src_lang o b-trg_lang
-Translate	TranslateTextFromLanguageToLanguageWithEngine	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT z japoński na polski przy użyciu google	o o o o o b-src_lang o b-trg_lang o o b-translator
-Translate	TranslateToLanguage	przetłumacz na tajski	o o b-trg_lang
-Translate	TranslateTextFromLanguage	tłumacz TRANSLATE.SLOT.TEXT z rosyjski	o o o b-src_lang
-Translate	TranslateTextFromLanguage	przetłumacz zdania TRANSLATE.SLOT.TEXT z japoński	o o o o b-src_lang
-Translate	TranslateTextFromLanguage	tłumaczenie tego TRANSLATE.SLOT.TEXT z języka japoński	o o o o o b-src_lang
-Translate	TranslateTextFromLanguage	wykonaj tłumaczenie tego TRANSLATE.SLOT.TEXT z rosyjski	o o o o o b-src_lang
-Translate	DetectLanguage	w jakim to języku i want to rent a car	o o o o b-text.multi i-text.multi i-text.multi i-text.multi i-text.multi i-text.multi
+Translate	SetDefaultLanguage	False	ustaw język wyjścia na japoński 	 o o o o b-all_lang
+Translate	SetDefaultLanguage	False	nastaw język na tajski 	 o o o b-all_lang
+Translate	SetDefaultLanguage	False	przełącz język wyjścia na francuski 	 o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	False	ustaw domyślny język wejściowy na tajski 	 o o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	False	przełącz język wejścia na hawajski 	 o o o o b-all_lang
+Translate	TranslateText	False	tłumaczenie do you have this in my size 	 o b-text i-text i-text i-text i-text i-text i-text
+Translate	TranslateText	False	przetłumacz zdanie dark 	 o o b-text
+Translate	TranslateText	False	jak przetłumaczyć mi i don't understand 	 o o o b-text i-text i-text
+Translate	TranslateText	False	jak mogę przetłumaczyć mi zdanie is breakfast included 	 o o o o o b-text i-text i-text
+Translate	TranslateText	False	jak możesz przetłumaczyć i need an english-language newspaper 	 o o o b-text i-text i-text i-text i-text
+Translate	TranslateText	False	chcę przetłumaczyć zdanie good day 	 o o o b-text i-text
+Translate	TranslateTextToLanguage	False	jakie jest tłumaczenie na język niemiecki zdania red wine 	 o o o o o b-trg_lang o b-text i-text
+Translate	TranslateTextToLanguage	False	jak powiem please clear the plates po tajsku 	 o o b-text i-text i-text i-text o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie i don't eat pork z angielskiego na polski 	 o b-text i-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie i need a doctor z angielskiego na polski 	 o o o b-text i-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie pane z włoskiego na niemiecki 	 o o o b-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie what is the exchange rate z angielskiego na włoski przy użyciu microsoft 	 o b-text i-text i-text i-text i-text o b-src_lang o b-trg_lang o o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie el jamón z hiszpańskiego na angielski przy użyciu google 	 o b-text i-text o b-src_lang o b-trg_lang o o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie am i under arrest z angielskiego na polski przy użyciu microsoft 	 o o o b-text i-text i-text i-text o b-src_lang o b-trg_lang o o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie my name is nico z angielskiego na niemiecki przy użyciu deepl 	 o o o b-text i-text i-text i-text o b-src_lang o b-trg_lang o o b-translator
+Translate	TranslateToLanguage	False	przetłumacz na język polski 	 o o o b-trg_lang
+Translate	TranslateTextFromLanguage	False	tłumacz i need a toothbrush z języka angielskiego 	 o b-text i-text i-text i-text o o b-src_lang
+Translate	TranslateTextFromLanguage	False	tłumacz to café z języka hiszpańskiego 	 o o b-text o o b-src_lang
+Translate	TranslateTextFromLanguage	False	przetłumacz chicken z angielskiego 	 o b-text o b-src_lang
+Translate	TranslateTextFromLanguage	False	przetłumacz where can i get money changed z języka angielskiego 	 o b-text i-text i-text i-text i-text i-text o o b-src_lang
+Translate	TranslateTextFromLanguage	False	tłumacz z języka angielskiego zdania where can i get a traveler's check changed 	 o o o b-src_lang o b-text i-text i-text i-text i-text i-text i-text i-text
+Translate	TranslateTextFromLanguage	False	tłumacz z języka angielskiego zdania where can i get a traveler's check changed 	 o o o b-src_lang o b-text i-text i-text i-text i-text i-text i-text i-text
+Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka angielskiego tego leave me alone 	 o o o o b-src_lang o b-text i-text i-text
+Translate	DetectLanguage	False	wykryj co to za język podría usted hablar más lento por favor 	 o o o o o b-text i-text i-text i-text i-text i-text i-text
+Translate	DetectLanguage	False	powiedz w jakim to języku grigio 	 o o o o o b-text

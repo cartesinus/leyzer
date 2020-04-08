@@ -41,11 +41,11 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 <WHEN> = when there is a new post in the slack channel <CHANNEL>;
 
 #INTENTS
-<INTENT_1> = open slack;
+<INTENT_1> = (open | launch) [the] slack [app];
 
 <INTENT_2> = <CHECK_VERB> my (last slack messages | slack channel history);
 
-<INTENT_3> = (the presence of <USERNAME> | whether <USERNAME> is (active | away)) on slack;
+<INTENT_3> = check (the presence of <USERNAME> | whether <USERNAME> is (active | away)) on slack;
 
 <INTENT_4> = <CHECK_VERB> (recent messages from <SENDER> in slack | messages i received on slack from <SENDER>);
 

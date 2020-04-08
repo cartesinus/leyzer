@@ -1,12 +1,19 @@
 domain	intent	parallel	pattern
 Slack	OpenSlack	-	open slack
+Slack	OpenSlack	-	open slack app
+Slack	OpenSlack	-	open the slack
+Slack	OpenSlack	-	open the slack app
+Slack	OpenSlack	-	launch slack
+Slack	OpenSlack	-	launch slack app
+Slack	OpenSlack	-	launch the slack
+Slack	OpenSlack	-	launch the slack app
 Slack	CheckLastMessages	-	check my last slack messages
 Slack	CheckLastMessages	-	check my slack channel history
 Slack	CheckLastMessages	-	get my last slack messages
 Slack	CheckLastMessages	-	get my slack channel history
-Slack	CheckUserStatus	-	the presence of SLACK.SLOT.USERNAME on slack
-Slack	CheckUserStatus	-	whether SLACK.SLOT.USERNAME is active on slack
-Slack	CheckUserStatus	-	whether SLACK.SLOT.USERNAME is away on slack
+Slack	CheckUserStatus	-	check the presence of SLACK.SLOT.USERNAME on slack
+Slack	CheckUserStatus	-	check whether SLACK.SLOT.USERNAME is active on slack
+Slack	CheckUserStatus	-	check whether SLACK.SLOT.USERNAME is away on slack
 Slack	CheckMessagesFromUser	-	check recent messages from SLACK.SLOT.SENDER in slack
 Slack	CheckMessagesFromUser	-	check messages i received on slack from SLACK.SLOT.SENDER
 Slack	CheckMessagesFromUser	-	get recent messages from SLACK.SLOT.SENDER in slack
@@ -39,13 +46,13 @@ Slack	SendMessage	-	send on slack
 Slack	SendMessage	-	send a message on slack
 Slack	SendMessage	-	upload on slack
 Slack	SendMessage	-	upload a message on slack
-Slack	SendMessageToChannel	-	post a picture on slack to SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	send a picture on slack to SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	upload a picture on slack to SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	upload a picture to slack channel SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	send something to slack channel SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	post on slack to SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	post on slack channel SLACK.SLOT.CHANNEL
+Slack	SendPictureToChannel	-	post a picture on slack to SLACK.SLOT.CHANNEL
+Slack	SendPictureToChannel	-	send a picture on slack to SLACK.SLOT.CHANNEL
+Slack	SendPictureToChannel	-	upload a picture on slack to SLACK.SLOT.CHANNEL
+Slack	SendPictureToChannel	-	upload a picture to slack channel SLACK.SLOT.CHANNEL
+Slack	SendPictureToChannel	-	send something to slack channel SLACK.SLOT.CHANNEL
+Slack	SendPictureToChannel	-	post on slack to SLACK.SLOT.CHANNEL
+Slack	SendPictureToChannel	-	post on slack channel SLACK.SLOT.CHANNEL
 Slack	SendPictureToChannelWithCaption	-	post a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
 Slack	SendPictureToChannelWithCaption	-	post a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
 Slack	SendPictureToChannelWithCaption	-	send a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION

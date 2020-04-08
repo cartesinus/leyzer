@@ -2,6 +2,7 @@ domain	intent	utterance	bio
 Email	OpenEmail	check email	o o
 Email	OpenEmail	check email inbox	o o o
 Email	OpenEmail	check gmail	o o
+Email	OpenEmail	check gmail inbox	o o o
 Email	OpenEmail	check my email	o o o
 Email	OpenEmail	check my email inbox	o o o o
 Email	OpenEmail	check my gmail	o o o
@@ -12,203 +13,249 @@ Email	OpenEmail	get my email	o o o
 Email	OpenEmail	get my email inbox	o o o o
 Email	OpenEmail	get my gmail	o o o
 Email	OpenEmail	get my gmail inbox	o o o o
+Email	OpenEmail	check my primary category emails	o o o o o
+Email	OpenEmail	get my primary category emails	o o o o o
 Email	OpenEmail	check my latest email	o o o o
 Email	OpenEmail	check my emails	o o o
 Email	OpenEmail	check my emails on gmail	o o o o o
-Email	OpenEmail	check my gmail inbox	o o o o
-Email	OpenEmail	get my latest email	o o o o
 Email	OpenEmail	get my emails	o o o
 Email	OpenEmail	get my emails on gmail	o o o o o
 Email	OpenEmail	get my gmail inbox	o o o o
-Email	SendEmailToAddressWithSubjectAndWithMessage	email tally@houston.rr.com with subject greetings and message thank you for contacting john	o b-to o o b-subject o o b-message i-message i-message i-message i-message
-Email	SendEmailToAddressWithSubjectAndWithMessage	email virginia@outlook.com with subject meeting and message thanks for getting back to me	o b-to o o b-subject o o b-message i-message i-message i-message i-message i-message
-Email	SendEmailToAddressWithSubjectAndWithMessage	email marron with subject re webcasting and congress and message thank you for your prompt reply	o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message
-Email	SendEmailToAddressWithSubjectAndWithMessage	email cynar with subject status of sb47x read this and message thank you	o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message
-Email	SendEmailToAddressWithSubjectAndWithMessage	email manton with subject fw 4 month rolling forecast and message i look forward to hearing from you	o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message
-Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to cindy olson with subject fw litigation with message you can't unsubscribe from this list	o o o o b-to i-to o o b-subject i-subject o o b-message i-message i-message i-message i-message i-message
-Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to arlinda@gmail.com with subject the original advantage #e10806 with message well, first of all that goes beyond our guidelines	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
-Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to heida@schwab.com with subject re pulp with message disabilities can effect fine and gross motor skills	o o o o b-to o o b-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message
-Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to lerea pharr with subject tw roundtable with message there have been a couple of possiblities raised	o o o o b-to i-to o o b-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message
-Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to calvert with subject eventresources with message sorry, i thought we had until the end of the week using my gmail	o o o o b-to o o b-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
-Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to nicky@gmail.com with subject fw new erisa case against enron with message why should she suffer for his problem or failing using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
-Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to schube10@pilot.msu.edu with subject osu announces bowl game ticket policy with message tried to move it but that was just not possible using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
-Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to helli with subject re greetings from san diego with message i hope to have a summary sheet available shortly using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
-Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to anna-diana with subject murkowski electricity legislation with message business is not disrupted using my gmail	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message o o o
-Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to jodie with subject new edison advice letter with message survived by not paying many of its bills using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message o o o
-Email	SendPictureToAddressWithSubject	email a picture to rosanne@pacbell.net with subject urg gas securitization agreements	o o o o b-to o o b-subject i-subject i-subject i-subject
-Email	SendPictureToAddressWithSubject	email a picture to hhsaxon@aol.com with subject information requests	o o o o b-to o o b-subject i-subject
-Email	SendPictureToAddressWithSubject	email a picture to milena@fqnet.com with subject re proposed edits to nda	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject
-Email	SendPictureToAddressWithSubject	send a picture to barbara a hueter with subject additional ferc actions likely on monday	o o o o b-to i-to i-to o o b-subject i-subject i-subject i-subject i-subject i-subject
-Email	SendPictureToAddressWithSubject	send a picture to kim@gmail.com with subject fw org chart	o o o o b-to o o b-subject i-subject i-subject
-Email	SendPictureToAddressWithSubject	send a picture to corrine with subject re pg{SUBJECT:re: sales to california  }e article in wsj	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject
-Email	SendPictureToAddressWithSubject	send a picture to lathrop with subject new bpa account numbers using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o o
-Email	SendPictureToAddressWithSubject	send a picture to laurianne@aol.com with subject hr warehouse is here! using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o o
-Email	SendPictureToAddressWithSubject	send a picture to jackquelin@proton.com with subject re lunch using my gmail	o o o o b-to o o b-subject i-subject o o o
-Email	SendPictureToAddressWithSubject	send a picture to elliott with subject re employment using my gmail	o o o o b-to o o b-subject i-subject o o o
+Email	ShowEmailFromSender	check emails from carrissa@texaco.com	o o o b-sender_address
+Email	ShowEmailFromSender	check emails from adiana.sarene@gmail.com	o o o b-sender_address
 Email	ShowEmailFromSender	check emails from paul.quilkey@enron.com	o o o b-sender_address
 Email	ShowEmailFromSender	check emails from janelle@outlook.com	o o o b-sender_address
 Email	ShowEmailFromSender	check emails from orella.samanthia@yahoo.com	o o o b-sender_address
-Email	ShowEmailFromSender	check emails from megen@yahoo.com	o o o b-sender_address
+Email	ShowEmailFromSender	check emails i got from megen@yahoo.com	o o o o o b-sender_address
 Email	ShowEmailFromSender	check emails i got from wendy.whitworth@turner.com	o o o o o b-sender_address
 Email	ShowEmailFromSender	check emails i got from neda@outlook.com	o o o o o b-sender_address
 Email	ShowEmailFromSender	check emails i got from latia@gmail.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	check emails i got from mersey@outlook.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	check emails i got from willy@aol.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i got from clickathome@enron.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i received from mersey@outlook.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i received from willy@aol.com	o o o o o b-sender_address
 Email	ShowEmailFromSender	check emails i received from adelina@haas.berkeley.edu	o o o o o b-sender_address
 Email	ShowEmailFromSender	check emails i received from batsheva@cpuc.ca.gov	o o o o o b-sender_address
-Email	ShowEmailFromSender	check emails i received from edythe@kpmg.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	check emails i received from malissia@edelman.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	check emails i received from lissa@enron.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails from lissa@enron.com	o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails from ernaline@edelman.com	o o o o b-sender_address
 Email	ShowEmailFromSender	check my emails from zaneta.padraig@gmail.com	o o o o b-sender_address
 Email	ShowEmailFromSender	check my emails from karisa.ingeborg@thestreet.com	o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails from denny@gmail.com	o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails from arline@schwab.com	o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails from noella.messere@fwc.com	o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails from allene.jairia@gmail.com	o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails i got from raf.jeannette@chase.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails i got from enron.environmental@enron.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails i got from shayna.hyman@yahoo.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails i got from evonne.rocker@outlook.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails i got from nelli@elektro.com.br	o o o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails i received from joyan.randal@prince.hmma.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails i received from grazia.osber@cts.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails i received from desiree@enron.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails i received from sean.dyun@proton.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails i received from carmelle.holt@hotmail.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	check my emails i received from suzette.candida@outlook.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	get emails from eva.bremen@neg.pge.com	o o o b-sender_address
-Email	ShowEmailFromSender	get emails from douglass@arterhadden.com.	o o o b-sender_address
-Email	ShowEmailFromSender	get emails from christye@gmail.com	o o o b-sender_address
-Email	ShowEmailFromSender	get emails from kuhlman@kdlog.com	o o o b-sender_address
-Email	ShowEmailFromSender	get emails from teresa@yahoo.com	o o o b-sender_address
-Email	ShowEmailFromSender	get emails from charleen@thestreet.com	o o o b-sender_address
-Email	ShowEmailFromSender	get emails i got from ulrika@enron_development	o o o o o b-sender_address
-Email	ShowEmailFromSender	get emails i got from tallia.ruffi@gmail.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	get emails i got from emalee@outlook.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	get emails i got from shelby.gayla@gmail.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	get emails i got from terese.fuchs@dwt.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	get emails i got from haley@edelman.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	get emails i received from creilly@columbiaenergygroup.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	get emails i received from imogene@prince.hmma.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	get emails i received from audie@hotmail.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	get emails i received from adaline@outlook.com	o o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails from jacqui@gmail.com	o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails from sharyl.ocker@aol.com	o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails from chelsae.heater@texaco.com	o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails from corie@proton.com	o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails i got from sallyanne@hotmail.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails i got from matt.hsu@interwoven.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails i got from maybelle.japha@enron_development	o o o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails i got from dode@aol.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails i got from kai@itu.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails i got from denys.armillda@aol.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails i received from leelah@aol.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails i received from jillayne@hotmail.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails i received from candie@gmail.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails i received from zorah@aol.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails i received from page.erdda@hotmail.com	o o o o o o b-sender_address
-Email	ShowEmailFromSender	get my emails i received from steve.kleb@enron.com	o o o o o o b-sender_address
-Email	ShowEmailFromTime	get emails arrived two days ago	o o o b-time i-time i-time
-Email	ShowEmailFromTime	get emails arrived in the last hour	o o o b-time i-time i-time i-time
-Email	ShowEmailFromTime	get emails arrived today	o o o b-time
-Email	ShowEmailFromTime	get emails arrived yesterday	o o o b-time
-Email	ShowEmailFromTime	get emails that arrived two days ago	o o o o b-time i-time i-time
+Email	ShowEmailFromSender	check my emails i got from denny@gmail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i got from arline@schwab.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i got from noella.messere@fwc.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i got from allene.jairia@gmail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i got from shae@fwc.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i received from raf.jeannette@chase.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i received from shayna.hyman@yahoo.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i received from evonne.rocker@outlook.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i received from nelli@elektro.com.br	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails from joyan.randal@prince.hmma.com	o o o b-sender_address
+Email	ShowEmailFromSender	get emails from grazia.osber@cts.com	o o o b-sender_address
+Email	ShowEmailFromSender	get emails from desiree@enron.com	o o o b-sender_address
+Email	ShowEmailFromSender	get emails from sean.dyun@proton.com	o o o b-sender_address
+Email	ShowEmailFromSender	get emails from carmelle.holt@hotmail.com	o o o b-sender_address
+Email	ShowEmailFromSender	get emails i got from eva.bremen@neg.pge.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i got from douglass@arterhadden.com.	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i got from christye@gmail.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i got from kuhlman@kdlog.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i received from teresa@yahoo.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i received from charleen@thestreet.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i received from ulrika@enron_development	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i received from tallia.ruffi@gmail.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails from terese.fuchs@dwt.com	o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails from haley@edelman.com	o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails from creilly@columbiaenergygroup.com	o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails from imogene@prince.hmma.com	o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i got from audie@hotmail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i got from adaline@outlook.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i got from alvira.borrell@hotmail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i got from daphna@haas.berkeley.edu	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i got from kerb@rbfalcon.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i received from linette.murton@yahoogroups.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i received from jacqui@gmail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i received from sharyl.ocker@aol.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i received from chelsae.heater@texaco.com	o o o o o o b-sender_address
+Email	ShowEmailWithLabel	show me emails with label later	o o o o o b-label
+Email	ShowEmailWithLabel	show me emails that have label books	o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails labelled notifications	o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails with label ai	o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails that have label nlp	o o o o o o o b-label
+Email	ShowEmailWithLabel	get emails labelled study	o o o b-label
+Email	ShowEmailWithLabel	get emails that have label family	o o o o o b-label
+Email	ShowEmailWithLabel	get my emails labelled official	o o o o b-label
+Email	ShowEmailWithLabel	get my emails with label spam	o o o o o b-label
+Email	ShowEmailWithLabel	get my emails that have label papers	o o o o o o b-label
+Email	ShowEmailWithLabel	display emails labelled memo	o o o b-label
+Email	ShowEmailWithLabel	display emails with label news	o o o o b-label
+Email	ShowEmailWithLabel	display emails that have label tech	o o o o o b-label
+Email	ShowEmailWithLabel	display my emails labelled new topic	o o o o b-label i-label
+Email	ShowEmailWithLabel	display my emails that have label hobby	o o o o o o b-label
+Email	ShowEmailWithLabel	find emails labelled recipe	o o o b-label
+Email	ShowEmailWithLabel	find emails with label food	o o o o b-label
+Email	ShowEmailWithLabel	find emails that have label after work	o o o o o b-label i-label
+Email	ShowEmailWithLabel	find my emails labelled photos	o o o o b-label
+Email	ShowEmailWithLabel	find my emails with label important	o o o o o b-label
+Email	ShowEmailFromTime	show me emails arrived in the last two hours	o o o o b-time i-time i-time i-time i-time
+Email	ShowEmailFromTime	show me emails that arrived on friday	o o o o o b-time i-time
+Email	ShowEmailFromTime	show me my emails arrived today	o o o o o b-time
+Email	ShowEmailFromTime	get emails arrived on sunday	o o o b-time i-time
 Email	ShowEmailFromTime	get emails that arrived in the last hour	o o o o b-time i-time i-time i-time
-Email	ShowEmailFromTime	get emails that arrived today	o o o o b-time
-Email	ShowEmailFromTime	get emails that arrived yesterday	o o o o b-time
-Email	ShowEmailFromTime	get emails that arrived two days ago	o o o o b-time i-time i-time
-Email	ShowEmailFromTime	get emails that arrived in the last hour	o o o o b-time i-time i-time i-time
-Email	ShowEmailFromTime	show me emails arrived yesterday	o o o o b-time
-Email	ShowEmailFromTime	show me emails arrived two days ago	o o o o b-time i-time i-time
-Email	ShowEmailFromTime	show me emails arrived in the last hour	o o o o b-time i-time i-time i-time
-Email	ShowEmailFromTime	show me emails arrived today	o o o o b-time
-Email	ShowEmailFromTime	show me emails arrived yesterday	o o o o b-time
-Email	ShowEmailFromTime	show me emails that arrived two days ago	o o o o o b-time i-time i-time
-Email	ShowEmailFromTime	show me emails that arrived in the last hour	o o o o o b-time i-time i-time i-time
-Email	ShowEmailFromTime	show me emails that arrived today	o o o o o b-time
-Email	ShowEmailFromTime	show me emails that arrived yesterday	o o o o o b-time
-Email	ShowEmailFromTime	show me emails that arrived two days ago	o o o o o b-time i-time i-time
-Email	ShowEmailWithLabel	get my emails labelled important	o o o o b-label
-Email	ShowEmailWithLabel	get my emails labelled team	o o o o b-label
-Email	ShowEmailWithLabel	get my emails labelled work	o o o o b-label
-Email	ShowEmailWithLabel	get my emails labelled todo	o o o o b-label
-Email	ShowEmailWithLabel	get my emails labelled later	o o o o b-label
-Email	ShowEmailWithLabel	get my emails that have label official	o o o o o o b-label
-Email	ShowEmailWithLabel	get my emails that have label notifications	o o o o o o b-label
-Email	ShowEmailWithLabel	get my emails that have label spam	o o o o o o b-label
-Email	ShowEmailWithLabel	get my emails that have label important	o o o o o o b-label
-Email	ShowEmailWithLabel	get my emails that have label team	o o o o o o b-label
-Email	ShowEmailWithLabel	get my emails with label work	o o o o o b-label
-Email	ShowEmailWithLabel	get my emails with label todo	o o o o o b-label
-Email	ShowEmailWithLabel	get my emails with label later	o o o o o b-label
-Email	ShowEmailWithLabel	get my emails with label papers	o o o o o b-label
-Email	ShowEmailWithLabel	get my emails with label official	o o o o o b-label
-Email	ShowEmailWithLabel	get my emails with label notifications	o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails labelled important	o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails labelled team	o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails labelled work	o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails labelled todo	o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails labelled later	o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails that have label papers	o o o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails that have label official	o o o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails that have label notifications	o o o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails that have label spam	o o o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails that have label important	o o o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails that have label team	o o o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails with label work	o o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails with label todo	o o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails with label later	o o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails with label papers	o o o o o o b-label
-Email	ShowEmailWithLabel	show me my emails with label official	o o o o o o b-label
-Email	ShowEmailWithPriority	show me unimportant emails	o o b-priority o
-Email	ShowEmailWithPriority	show me important emails	o o b-priority o
-Email	ShowEmailWithPriority	show me unimportant emails	o o b-priority o
-Email	ShowEmailWithPriority	show me important emails	o o b-priority o
-Email	ShowEmailWithPriority	show me unimportant emails	o o b-priority o
-Email	ShowEmailWithSubject	get my emails with subject free lunch on friday!	o o o o o b-subject i-subject i-subject i-subject
-Email	ShowEmailWithSubject	get my emails with subject special meeting this afternoon	o o o o o b-subject i-subject i-subject i-subject
-Email	ShowEmailWithSubject	get my emails with subject pulp summary for july	o o o o o b-subject i-subject i-subject i-subject
-Email	ShowEmailWithSubject	get my emails with subject re meeting today on gas strategy	o o o o o b-subject i-subject i-subject i-subject i-subject i-subject
-Email	ShowEmailWithSubject	get my emails with subject turn's rate stabilizaton proposal	o o o o o b-subject i-subject i-subject i-subject
-Email	ShowEmailWithSubject	show me my emails with subject re last night	o o o o o o b-subject i-subject i-subject
-Email	ShowEmailWithSubject	show me my emails with subject re enjoyed meeting you	o o o o o o b-subject i-subject i-subject i-subject
-Email	ShowEmailWithSubject	show me my emails with subject re electric copies of presentations	o o o o o o b-subject i-subject i-subject i-subject i-subject
-Email	ShowEmailWithSubject	show me my emails with subject governors press conference	o o o o o o b-subject i-subject i-subject
-Email	ShowEmailWithSubject	show me my emails with subject re fresno sub project	o o o o o o b-subject i-subject i-subject i-subject
+Email	ShowEmailFromTime	get my emails arrived on thursday	o o o o b-time i-time
+Email	ShowEmailFromTime	get my emails that arrived yesterday	o o o o o b-time
+Email	ShowEmailFromTime	display emails arrived on monday	o o o b-time i-time
+Email	ShowEmailFromTime	display my emails arrived on wednesday	o o o o b-time i-time
+Email	ShowEmailFromTime	display my emails that arrived two days ago	o o o o o b-time i-time i-time
+Email	ShowEmailFromTime	find emails that arrived in the last three hours	o o o o b-time i-time i-time i-time i-time
+Email	ShowEmailFromTime	find my emails arrived in the last two hours	o o o o b-time i-time i-time i-time i-time
+Email	ShowEmailFromTime	find my emails that arrived on friday	o o o o o b-time i-time
+Email	ShowEmailWithSubject	show me emails with subject offer	o o o o o b-subject
+Email	ShowEmailWithSubject	show me my emails with subject greetings	o o o o o o b-subject
+Email	ShowEmailWithSubject	get emails with subject meeting	o o o o b-subject
+Email	ShowEmailWithSubject	display my emails with subject re lunch	o o o o o b-subject i-subject
+Email	ShowEmailWithSubject	find emails with subject re dan temple	o o o o b-subject i-subject i-subject
+Email	ShowEmailWithSubject	find my emails with subject fw enron demo recap	o o o o o b-subject i-subject i-subject i-subject
+Email	ShowEmailWithPriority	display important emails	o b-priority o
+Email	ShowEmailWithPriority	get my high emails	o o b-priority o
+Email	ShowEmailWithPriority	show me ongoing emails	o o b-priority o
+Email	SendEmailToAddressWithSubjectAndWithMessage	email papagena@enron.com with subject re employment and message hi, how are you?	o b-to o o b-subject i-subject o o b-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	email tally@houston.rr.com with subject enrononline developers and message thank you for contacting john	o b-to o o b-subject i-subject o o b-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	email marron with subject turbine export issue and message thank you for your prompt reply	o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	email cynar with subject status of sb47x read this and message thank you	o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	email manton with subject california power problem articles and message i look forward to hearing from you	o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	email shandeigh with subject fw weekend duty and message thank you for your patience and cooperation	o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	email flossi@kpmg.com with subject california rate changes and message i've been accused of and called things	o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	email cindy olson with subject re meeting today on gas strategy and message you can't unsubscribe from this list	o b-to i-to o o b-subject i-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	email arlinda@gmail.com with subject fw anthony sexton and message well, first of all that goes beyond our guidelines	o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to heida@schwab.com with subject re greetings from san diego with message disabilities can effect fine and gross motor skills	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to lerea pharr with subject re fw: anthony sexton with message there have been a couple of possiblities raised	o o o o b-to i-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to nicky@gmail.com with subject webcasting and congress with message why should she suffer for his problem or failing	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to schube10@pilot.msu.edu with subject enjoyed meeting you with message tried to move it but that was just not possible	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to helli with subject fw translated documents with message i hope to have a summary sheet available shortly	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to anna-diana with subject meeting today on gas strategy with message business is not disrupted	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to jodie with subject special meeting this afternoon with message survived by not paying many of its bills	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to merridie@dwt.com with subject governors press conference with message received $5 million from internet capital	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to alejandrina@gmail.com with subject urg gas securitization agreements with message in its third round	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to jelene@gmail.com with subject fw org chart with message meeting moved again today using my gmail	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to rosanne@pacbell.net with subject pulp summary for july with message headquarters are located in philadelphia using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to hhsaxon@aol.com with subject fw litigation with message tomlinson will carry the running game like most weeks using my gmail	o o o o b-to o o b-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to milena@fqnet.com with subject mountian energy corporation update with message senate's lower price could toss edison into bankruptcy using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to melba@gmail.com with subject dan temple with message held by korean refiner lg international using my gmail	o o o o b-to o o b-subject i-subject o o b-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to wheaton with subject greetings from san diego with message mentioned in the past using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to beitris@gmail.com with subject fresno sub project with message to make sure of your place using my gmail	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to barbara a hueter with subject please rsvp with message government is uncaring using my gmail	o o o o b-to i-to i-to o o b-subject i-subject o o b-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to kim@gmail.com with subject new bpa account numbers with message one megawatt is enough power for about 1,000 households using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to corrine with subject turn's rate stabilizaton proposal with message forward this on to ted if he is interested using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to lathrop with subject air force talking paper of direct access with message participate, please sign up now by calling	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to laurianne@aol.com with subject murkowski electricity legislation with message its seventh board member	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to jackquelin@proton.com with subject electric copies of presentations with message on petrobras taking over currency costs	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to elliott with subject emprical study on high prices with message tod nielsen, who is the new company's chief executive	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to rebeca@hotmail.com with subject sales to california   with message it's an easy way for you to stay	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to lilli with subject re enjoyed meeting you with message consultants do not say when they purchased the shares	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to llorenz@socalgas.com with subject missing deals with message hurry, you must purchase your tickets	o o o o b-to o o b-subject i-subject o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to susan.scott@enron.com with subject re pulp with message we will also highlight the key matchups	o o o o b-to o o b-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to annemarie allex with subject re changes to our infinity contract with message two eyes and a nose and i can see that something stinks	o o o o b-to i-to o o b-subject i-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to nelle@gmail.com with subject indonesia pulp capacity with message if you want to take one last look that would be great	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to kim.perez@enron.com with subject important dsl information with message extremely cold weather in the west has brought rockies using my gmail	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to sandra a maldonado with subject re webcasting and congress with message chief marketing officer for juno online services using my gmail	o o o o b-to i-to i-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to sigrid@proton.com with subject dunn with message the company said the funds will be used to expand using my gmail	o o o o b-to o o b-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to dora.trevino@enron.com with subject california risk group contact list with message it's an idea regulators want to see more of using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to clareta@thestreet.com with subject bordeaux event! with message has done nothing in his last four games using my gmail	o o o o b-to o o b-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to philippe.bibi@enron.com with subject fw new erisa case against enron with message benson has been promoted to principal using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to merline@gmail.com with subject conference call topic with message access devices the company is backed by individual using my gmail	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to donald lassere with subject wine tasting with message additional savings on select favorites using my gmail	o o o o b-to i-to o o b-subject i-subject o o b-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubject	email to sascha@gmail.com with subject last night	o o b-to o o b-subject i-subject
+Email	SendEmailToAddressWithSubject	email to leeanne with subject tw roundtable	o o b-to o o b-subject i-subject
+Email	SendEmailToAddressWithSubject	email to lorrin@chase.com with subject re gspp on the forefront	o o b-to o o b-subject i-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	email to joseph alamo with subject subscription renewal	o o b-to i-to o o b-subject i-subject
+Email	SendEmailToAddressWithSubject	email to kayley@neg.pge.com with subject eventresources	o o b-to o o b-subject
+Email	SendEmailToAddressWithSubject	email to bevvy with subject fw 4 month rolling forecast	o o b-to o o b-subject i-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	email to neely with subject re important dsl information	o o b-to o o b-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	email to jckyle@dow.com with subject ceo letter	o o b-to o o b-subject i-subject
+Email	SendEmailToAddressWithSubject	email to kathy mcmahon with subject changes to our infinity contract	o o b-to i-to o o b-subject i-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	forward an email to diena@texaco.com with subject vote in the haasweek survivor contest!	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	forward an email to kordula with subject re removed from crawler list	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	forward an email to sibeal with subject re fw: translated documents	o o o o b-to o o b-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	forward an email to stephen d burns with subject training on march 7	o o o o b-to i-to i-to o o b-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	forward an email to dorotea with subject phone burst	o o o o b-to o o b-subject i-subject
+Email	SendEmailToAddressWithSubject	forward an email to cordi with subject re phone burst	o o o o b-to o o b-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	forward an email to bili with subject hr warehouse is here!	o o o o b-to o o b-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	forward an email to edmondo with subject allocation	o o o o b-to o o b-subject
+Email	SendEmailToAddressWithSubject	forward an email to derek anderson with subject additional ferc actions likely on monday	o o o o b-to i-to o o b-subject i-subject i-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	forward an email to floris with subject osu announces bowl game ticket policy using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	forward an email to gertrudis with subject fw meeting with john lavorato using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	forward an email to ros with subject today's energy committee meeting info using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	forward an email to cammy@proton.com with subject ferc filings using my gmail	o o o o b-to o o b-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	forward an email to teodora with subject re sales to california   using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	forward an email to michael b rosen with subject top level energy person using my gmail	o o o o b-to i-to i-to o o b-subject i-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	forward an email to celle@gmail.com with subject re missing deals using my gmail	o o o o b-to o o b-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	forward an email to josie with subject lunch using my gmail	o o o o b-to o o b-subject o o o
+Email	SendEmailToAddressWithSubject	forward an email to jolee@aol.com with subject re proposed edits to nda using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	forward an email to lorraine with subject employment using my gmail	o o o o b-to o o b-subject o o o
+Email	SendEmailToAddressWithSubject	send an email to dotti@outlook.com with subject re mountian energy corporation update	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	send an email to deni@enron_development with subject re fresno sub project	o o o o b-to o o b-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	send an email to veronike@yahoo.com with subject blazer ticket specials for ena employees	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	send an email to lauren iannarone with subject re electric copies of presentations	o o o o b-to i-to o o b-subject i-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	send an email to nicolle@aol.com with subject re wine tasting	o o o o b-to o o b-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	send an email to sue nord with subject pulp	o o o o b-to i-to o o b-subject
+Email	SendEmailToAddressWithSubject	send an email to kristopher with subject june 7th cec workshop follow up	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	send an email to tallulah@gmail.com with subject holiday	o o o o b-to o o b-subject
+Email	SendEmailToAddressWithSubject	send an email to albina@hotmail.com with subject gspp on the forefront	o o o o b-to o o b-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	send an email to libenson with subject removed from crawler list	o o o o b-to o o b-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	send an email to allx@yahoogroups.com with subject re dunn using my gmail	o o o o b-to o o b-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	send an email to paine with subject proposed naruc resolution on hedging using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	send an email to xi xi with subject jan vacation day using my gmail	o o o o b-to i-to o o b-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	send an email to birdsey@haas.berkeley.edu with subject venturewire, monday, october 23, 2000 using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	send an email to jemie@company.com with subject fw wedding photos using my gmail	o o o o b-to o o b-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	send an email to cleopatra with subject draft of ken's itinerary using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	send an email to jolee with subject re elm course offering using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	send an email to ethelda@neg.pge.com with subject flight options using my gmail	o o o o b-to o o b-subject i-subject o o o
+Email	SendEmailToAddressWithSubject	send an email to marc eichmann with subject fw ward herring using my gmail	o o o o b-to i-to o o b-subject i-subject i-subject o o o
 Email	SendEmail	send an email	o o o
 Email	SendEmail	send an email to somebody	o o o o o
-Email	ReplyToEmailFromAddress	reply to susan.scott@enron.com	o o b-to
-Email	ReplyToEmailFromAddress	reply to annemarie allex	o o b-to i-to
-Email	ReplyToEmailFromAddress	reply to nelle@gmail.com	o o b-to
-Email	ReplyToEmailFromAddress	reply to kim.perez@enron.com	o o b-to
-Email	ReplyToEmailFromAddress	reply to denys	o o b-to
-Email	ReplyToEmailFromAddress	reply to sandra a maldonado	o o b-to i-to i-to
-Email	ReplyToEmailFromAddress	reply to sigrid@proton.com	o o b-to
-Email	ReplyToEmailFromAddress	reply to dora.trevino@enron.com	o o b-to
-Email	ReplyToEmailFromAddress	reply to clareta@thestreet.com	o o b-to
-Email	ReplyToEmailFromAddress	reply to philippe.bibi@enron.com	o o b-to
-Email	ReplyToEmailFromAddress	reply to merline@gmail.com	o o b-to
-Email	SendEmailToAddress	email koral@cpuc.ca.gov	o b-to
-Email	SendEmailToAddress	email sascha@gmail.com	o b-to
-Email	SendEmailToAddress	email leeanne	o b-to
-Email	SendEmailToAddress	email lorrin@chase.com	o b-to
-Email	SendEmailToAddress	email joseph alamo	o b-to i-to
-Email	SendEmailToAddress	email kayley@neg.pge.com	o b-to
-Email	SendEmailToAddress	email bevvy	o b-to
-Email	SendEmailToAddress	email neely	o b-to
-Email	SendEmailToAddress	email jckyle@dow.com	o b-to
-Email	SendEmailToAddress	email kathy mcmahon	o b-to i-to
-Email	SendEmailToAddress	email faydra@hotmail.com	o b-to
-Email	SendEmailToAddress	email diena@texaco.com	o b-to
-Email	SendEmailToAddress	send an email to kordula using my gmail	o o o o b-to o o o
-Email	SendEmailToAddress	send an email to sibeal using my gmail	o o o o b-to o o o
-Email	SendEmailToAddress	send an email to stephen d burns using my gmail	o o o o b-to i-to i-to o o o
-Email	SendEmailToAddress	send an email to dorotea using my gmail	o o o o b-to o o o
-Email	SendEmailToAddress	send an email to cordi using my gmail	o o o o b-to o o o
-Email	SendEmailToAddress	send an email to bili using my gmail	o o o o b-to o o o
-Email	SendEmailToAddress	send an email to edmondo using my gmail	o o o o b-to o o o
-Email	SendEmailToAddress	send an email to derek anderson using my gmail	o o o o b-to i-to o o o
-Email	SendEmailToAddress	send an email to floris using my gmail	o o o o b-to o o o
-Email	SendEmailToAddress	send an email to gertrudis using my gmail	o o o o b-to o o o
-Email	SendEmailToAddress	send an email to ros using my gmail	o o o o b-to o o o
-Email	SendEmailToAddress	send an email to cammy@proton.com using my gmail	o o o o b-to o o o
+Email	SendEmail	send an email somewhere	o o o o
+Email	SendEmail	forward an email to somebody	o o o o o
+Email	SendEmail	forward an email somewhere	o o o o
+Email	SendEmailToAddress	email marlow anderson	o b-to i-to
+Email	SendEmailToAddress	email vania	o b-to
+Email	SendEmailToAddress	email hildagarde@houston.rr.com	o b-to
+Email	SendEmailToAddress	email alice@gmail.com	o b-to
+Email	SendEmailToAddress	email ursulina	o b-to
+Email	SendEmailToAddress	email shell@company.com	o b-to
+Email	SendEmailToAddress	email hedwig@yahoo.com	o b-to
+Email	SendEmailToAddress	email jeff_walker@i2.com	o b-to
+Email	SendEmailToAddress	email deny@outlook.com	o b-to
+Email	SendEmailToAddress	send an email to joe kolb using my gmail	o o o o b-to i-to o o o
+Email	SendEmailToAddress	send an email to dasya using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to tana@gmail.com using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to frances using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to christen@prince.hmma.com using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to meghann@proton.com using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to lexie@yahoo.com using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to oralle@dwt.com using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send an email to starla@yahoo.com using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send email to holcman using my gmail	o o o b-to o o o
+Email	SendEmailToAddress	send email to faline using my gmail	o o o b-to o o o
+Email	SendEmailToAddress	send email to marget using my gmail	o o o b-to o o o
+Email	SendEmailToAddress	send email to constancy@thestreet.com using my gmail	o o o b-to o o o
+Email	SendEmailToAddress	send email to alida@gmail.com using my gmail	o o o b-to o o o
+Email	SendEmailToAddress	send email to kore using my gmail	o o o b-to o o o
+Email	SendEmailToAddress	send email to teena@texaco.com using my gmail	o o o b-to o o o
+Email	SendEmailToAddress	send email to aura@haas.berkeley.edu using my gmail	o o o b-to o o o
+Email	SendEmailToAddress	send email to cherilynn@pgn.com using my gmail	o o o b-to o o o
+Email	ReplyToEmailFromAddress	answer kariotta	o b-to
+Email	ReplyToEmailFromAddress	answer vere	o b-to
+Email	ReplyToEmailFromAddress	answer randene@gedaz.com	o b-to
+Email	ReplyToEmailFromAddress	answer charmion	o b-to
+Email	ReplyToEmailFromAddress	answer cher@hotmail.com	o b-to
+Email	ReplyToEmailFromAddress	answer demetra	o b-to
+Email	ReplyToEmailFromAddress	answer pega	o b-to
+Email	ReplyToEmailFromAddress	answer rois@cpuc.ca.gov	o b-to
+Email	ReplyToEmailFromAddress	answer annalise	o b-to
+Email	ReplyToEmailFromAddress	reply to cheryl ingstad	o o b-to i-to
+Email	ReplyToEmailFromAddress	reply to zuylen@haas.berkeley.edu	o o b-to
+Email	ReplyToEmailFromAddress	reply to amalee@neg.pge.com	o o b-to
+Email	ReplyToEmailFromAddress	reply to jerusalem	o o b-to
+Email	ReplyToEmailFromAddress	reply to somnath.viswanath@amd.com	o o b-to
+Email	ReplyToEmailFromAddress	reply to shaina@yahoogroups.com	o o b-to
+Email	ReplyToEmailFromAddress	reply to happy@gmail.com	o o b-to
+Email	ReplyToEmailFromAddress	reply to marika@fqnet.com	o o b-to
+Email	ReplyToEmailFromAddress	reply to clarkson	o o b-to

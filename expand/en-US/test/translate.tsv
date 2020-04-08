@@ -1,0 +1,39 @@
+domain	intent	utterance	bio
+Translate	SetDefaultLanguage	set default output language to polish	o o o o o b-all_lang
+Translate	SetDefaultLanguage	change language to german	o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	set default source language to hawaiian	o o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	change input language to hindi	o o o o b-all_lang
+Translate	TranslateText	the translation of do you have anything quieter	o o o b-text i-text i-text i-text i-text
+Translate	TranslateText	how do you say i lost my bag	o o o o b-text i-text i-text i-text
+Translate	TranslateTextToLanguage	translation of how much is that into finish	o o b-text i-text i-text i-text o b-trg_lang
+Translate	TranslateTextToLanguage	how do you say saturday in thai	o o o o b-text o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translate do you speak english from english to italian	o b-text i-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translate zakaz parkowania from polish to spanish	o b-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translate ich heiße karl from german to italian	o b-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translate no lo quiero from spanish to italian	o b-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translate sera from italian to french	o b-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translate un demi s'il-vous-plaît from french to italian	o b-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translation of is there someone here who speaks english to polish from english	o o b-text i-text i-text i-text i-text i-text i-text o b-trg_lang o b-src_lang
+Translate	TranslateTextFromLanguageToLanguage	translation of las to french from polish	o o b-text o b-trg_lang o b-src_lang
+Translate	TranslateTextFromLanguageToLanguage	translation of che cos'è to german from italian	o o b-text i-text o b-trg_lang o b-src_lang
+Translate	TranslateTextFromLanguageToLanguage	the translation of zachód to french from polish	o o o b-text o b-trg_lang o b-src_lang
+Translate	TranslateTextFromLanguageToLanguage	the translation of dónde puedo obtener un talón de viajero cambiado from spanish to italian	o o o b-text i-text i-text i-text i-text i-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	the translation of fais de beaux reves from french to german	o o o b-text i-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translate you're welcome from english to french with yandex	o b-text i-text o b-src_lang o b-trg_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translate nie mówię po polsku to english from polish with deepl	o b-text i-text i-text i-text o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translate märz to italian from german with yandex	o b-text o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translate venerdì to polish from italian with google	o b-text o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translation of half a liter please from english to italian with deepl	o o b-text i-text i-text i-text o b-src_lang o b-trg_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translation of lipiec to english from polish with deepl	o o b-text o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translation of aceptan tarjetas de crédito to english from spanish with google	o o b-text i-text i-text i-text o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translation of où puis-je faire le change to polish from french with deepl	o o b-text i-text i-text i-text i-text o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	the translation of kurczaka from polish to italian with google	o o o b-text o b-src_lang o b-trg_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	the translation of cuando es la hora de cerrar from spanish to french with microsoft	o o o b-text i-text i-text i-text i-text i-text o b-src_lang o b-trg_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	the translation of à quelle heure fermez-vous from french to english with microsoft	o o o b-text i-text i-text i-text o b-src_lang o b-trg_lang o b-translator
+Translate	TranslateToLanguage	translate to russian	o o b-trg_lang
+Translate	TranslateToLanguage	translate to italian	o o b-trg_lang
+Translate	TranslateTextFromLanguage	the translation of italian sentence ho una domanda	o o o b-src_lang o b-text i-text i-text
+Translate	TranslateTextFromLanguage	translation of german sentence bier	o o b-src_lang o b-text
+Translate	TranslateTextFromLanguage	translate pouvez-vous me faire le change sur un traveler's chèque from french	o b-text i-text i-text i-text i-text i-text i-text i-text i-text o b-src_lang
+Translate	DetectLanguage	language of adiós is written in	o o b-text o o o
+Translate	DetectLanguage	detect what language mille is written in	o o o b-text o o o

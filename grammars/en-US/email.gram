@@ -22,23 +22,23 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 
 <INTENT_2> = <CHECK_VERB> [my] emails (from | i (got | received) from) <SENDER_ADDRESS>;
 
-<INTENT_3> = (show me | get) my emails (labelled | with label | that have label) <LABEL>;
+<INTENT_3> = (show me | get | display | find) [my] emails (labelled | with label | that have label) <LABEL>;
 
-<INTENT_4> = (show me | get) emails [that] arrived <TIME>;
+<INTENT_4> = (show me | get | display | find) [my] emails [that] arrived <TIME>;
 
-<INTENT_5> = (show me | get) my emails with subject <SUBJECT>;
+<INTENT_5> = (show me | get | display | find) [my] emails with subject <SUBJECT>;
 
-<INTENT_6> = show me <PRIORITY> emails;
+<INTENT_6> = (display | get (me | my) | show me) <PRIORITY> emails;
 
 <INTENT_7> = (<SEND_EMAIL> to <TO> with subject <SUBJECT> with message <MESSAGE> [using my gmail] | email <TO> with subject <SUBJECT> and message <MESSAGE>);
 
 <INTENT_8> = (<SEND_EMAIL> to <TO> with subject <SUBJECT> [using my gmail] | email to <TO> with subject <SUBJECT>);
 
-<INTENT_9> = <SEND_EMAIL> [to somebody];
+<INTENT_9> = <SEND_EMAIL> [to somebody | somewhere];
 
-<INTENT_10> = (send an email to <TO> using my gmail | email <TO>);
+<INTENT_10> = (send [an] email to <TO> using my gmail | email <TO>);
 
-<INTENT_11> = reply to <TO>;
+<INTENT_11> = (reply to | answer) <TO>;
 
 <DO> = send an email with subject <SUBJECT>;
 <DO> = email a picture to <TO>;
