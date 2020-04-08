@@ -1,4 +1,14 @@
-# Lejzer
+# Leyzer
+
+## Patterns
+
+### Pattern generation
+
+You will need [JSGFTools](https://github.com/syntactic/JSGFTools) to expand grammars to patterns:
+```bash
+cd JSGFTools
+python DeterministicGenerator.py ../leyzer/grammars/${lang}/${domain}.gram > ../leyzer/patterns/${lang}/${domain}.tsv
+```
 
 ## Slot Values
 
@@ -11,7 +21,7 @@
 If you use this, please cite:
 ```
 @InProceedings{lejzer,
-    title     = {Lejzer: A Dataset for Multilingual Virtual Assistants},
+    title     = {Leyzer: A Dataset for Multilingual Virtual Assistants},
     author    = {Sowa\'{n}ski, Marcin and Janicki, Artur},
     booktitle = {},
     pages     = {},
