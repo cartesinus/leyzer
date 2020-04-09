@@ -1,0 +1,460 @@
+domain	intent	utterance	bio
+Airconditioner	TurnOn	enciende el sistema calefactiorio	o b-av_alias i-av_alias i-av_alias
+Airconditioner	TurnOff	desactiva la refrigeración	o b-av_alias i-av_alias
+Airconditioner	ChangeTemperature	establece la temperatura en mi termostato	o o o o o o
+Airconditioner	SetTemperatureToValue	establece la temperatura a 78 grados fahrenheit en mi termostato	o o o o b-value i-value i-value o o o
+Airconditioner	SetTemperatureToValue	establece mi termostato a 23 grados celsius	o o o o b-value i-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	establece la temperatura a 78 grados fahrenheit en mi salón termostato	o o o o b-value i-value i-value o o b-device_name o
+Airconditioner	SetTemperatureBetweenValues	cambia la temperatura a una entre 24 grados y 30 grados en mi termostato	o o o o o o o o o o o o
+Airconditioner	SetTemperatureOnDevice	cambia la temperatura en mi termostato corredor	o o o o o o b-device_name
+Airconditioner	GetHumidity	verifícame el nivel de la humedad	o o o o o o
+Airconditioner	GetTemperature	¿ qué temperatura tengo aquí según mi sistema calefactiorio ?	o o o o o o b-av_alias i-av_alias i-av_alias o
+Airconditioner	GetTemperatureFromDevice	¿ qué muestra el sensor de temperatura del interior corredor ?	o o o o o o o o o b-device_name o
+Airconditioner	GetTemperature	¿ qué temperatura hay aquí según mi el sistema de refrigeración ?	o o o o o o o b-av_alias i-av_alias i-av_alias i-av_alias o
+Calendar	OpenCalendar	muéstrame mi calendario	o o o
+Calendar	CheckCalendarOnDate	¿ qué hay en mi agenda el ueves ?	o o o o o o b-date i-date o
+Calendar	AddEventWithName	añade un evento llamado cena con juan a calendario	o o o o b-event_name i-event_name i-event_name o o
+Calendar	AddEventOnDateWithDate	añade un evento llamado 1on1 el 1 de mayo	o o o o b-event_name o b-event_date i-event_date i-event_date
+Calendar	AddEventOnDateWithDate	añade un evento llamado cita con ana a calendario el 1 de marzo	o o o o b-event_name i-event_name i-event_name o o o b-event_date i-event_date i-event_date
+Calendar	NotifyOnEventStart	notifícame cuándo empieza el mítin en mi calendario	o o o o o o o o
+Calendar	NotNotifyOnEventStart	no me notifiques cuándo empieza la cita en mi calendario	o o o o o o o o o o
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el mítin en mi calendario en la ubicación laboratorio	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza el evento en mi calendario en la ubicación tordellego	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	notifícame cuándo empieza la cita en mi calendario en la ubicación fornalutx	o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación navahondilla	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza el evento en mi calendario en la ubicación olvena	o o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	no me notifiques cuándo empieza la cita en mi calendario en la ubicación trabajo	o o o o o o o o o o o o o b-location
+Contacts	OpenContacts	muéstrame mis contactos	o o o
+Contacts	OpenMyContact	abre la información de mi contacto	o o o o o o
+Contacts	ShowContactWithEmail	abre mis contactos con el correo gonza@gmail.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	muestra mis contactos con el email ramón_izaguirre@gmx.es	o o o o o o b-email
+Contacts	ShowContactWithEmail	muéstrame mis contactos con el correo lourditas_@proton.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	muéstrame mis contactos de google con el correo salomón@outlook.com	o o o o o o o o b-email
+Contacts	ShowContactWithEmail	ábreme mis contactos con el correo hortensia@mail.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	ábreme mis contactos de google con el email tiago@outlook.com	o o o o o o o o b-email
+Contacts	ShowContactWithEmail	abre mis contactos con el correo electrónico josema@proton.com	o o o o o o o b-email
+Contacts	ShowContactWithNumber	muéstrame mis contactos con el número de teléfono 918 278 226	o o o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithName	abre mis contactos con el nombre de magda serrano	o o o o o o o b-name i-name
+Contacts	ShowContactWithName	muestra mis contactos con el nombre de gabri	o o o o o o o b-name
+Contacts	ShowContactWithName	muestra mis contactos con el nombre de gabri	o o o o o o o b-name
+Contacts	ShowContactWithNumberAndWithEmail	abre mis contactos con el número +34 335 100 464 y el correo electrónico fede@yahoo.es	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	muestra mis contactos con el número 556 723 354 y el correo diego@gmail.com	o o o o o o b-phone_number i-phone_number i-phone_number o o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	muéstrame mis contactos con el número 338 232 293 y el email pilar@yahoo.es	o o o o o o b-phone_number i-phone_number i-phone_number o o o b-email
+Contacts	ShowContactWithNameAndWithNumberAndWithType	crea un nuevo contacto usando el nombre gabrielita y añade el número 601 569 622	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	crea un nuevo contacto y llámalo paco y pónle el número 530 728 968 como privado	o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	créame un nuevo contacto usando el nombre juanma con un número +34 983 749 993 como casa	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	crea un nuevo contacto y nómbralo yeni carrera y añade el número de 142 420 237 como trabajo	o o o o o o b-name i-name o o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	créame un nuevo contacto usando el nombre horten y pónle el número 174 940 554 como privado	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	créame un nuevo contacto y llámalo ramón con número 517 305 740 como casa	o o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	créame un nuevo contacto y nómbralo meme y pónle el número 708 557 611 como privado	o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	crea un nuevo contacto y llámalo manu aráoz con un número +34 217 871 469 como privado	o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	EditContactWithName	edita mi contacto santi guerrero	o o o b-name i-name
+Contacts	EditContactWithName	abre mi contacto raul para editar	o o o b-name o o
+Contacts	EditContactWithName	edita mi contacto valentina zamarripa	o o o b-name i-name
+Contacts	EditContactWithNumber	cambia el nombre de mi contacto con el número +34 499 598 380	o o o o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	EditContactWithNumber	cambia el nombre de mi contacto con el número 541 206 741	o o o o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	EditNumberInContactWithName	cambia el número de mi contacto cristian	o o o o o o b-name
+Contacts	EditNumberInContactWithName	cambia el número de mi contacto mausi	o o o o o o b-name
+Contacts	EditNumberInContactWithNameToNumberAndToType	establece el número +34 691 944 824 en el contacto mayka como trabajo	o o o b-phone_number i-phone_number i-phone_number i-phone_number o o o b-name o b-phone_type
+Contacts	EditNumberInContactWithNameToNumberAndToType	establece el número +34 416 929 218 en el contacto fael como trabajo	o o o b-phone_number i-phone_number i-phone_number i-phone_number o o o b-name o b-phone_type
+Contacts	EditNumberInContactWithNameToNumberAndToType	establece el número 746 507 991 en el contacto rolando como casa	o o o b-phone_number i-phone_number i-phone_number o o o b-name o b-phone_type
+Email	OpenEmail	verifica bandeja de entrada de gmail	o o o o o o
+Email	OpenEmail	dame bandeja de entrada de mi email	o o o o o o o
+Email	OpenEmail	verifica mis correos de la categoría principal	o o o o o o o
+Email	OpenEmail	dame mis emails	o o o
+Email	ShowEmailFromSender	dame emails de jomi@zoho.mail.eu	o o o b-sender_address
+Email	ShowEmailFromSender	dame emails que recibí de pato@mail.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	dame mis emails que recibí de mendia@mail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	verifica emails de iturbide@zoho.mail.eu	o o o b-sender_address
+Email	ShowEmailFromSender	verifica mis emails de ruiz@proton.com	o o o o b-sender_address
+Email	ShowEmailFromSender	verifica mis emails que recibí de chemari@gmx.es	o o o o o o b-sender_address
+Email	ShowEmailWithLabel	muéstrame mis emails etiquetados spam	o o o o b-label
+Email	ShowEmailWithLabel	dame mis emails que tienen etiqueta para después	o o o o o o b-label i-label
+Email	ShowEmailFromTime	muéstrame emails que llegaron ayer	o o o o b-time
+Email	ShowEmailWithSubject	dame mis correos con el tema ¿Te gustaría vivir la mejor experiencia de tu vida?	o o o o o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject
+Email	ShowEmailWithSubject	dame mis emails con el tema Descubre cual es la opinión de nuestros clientes	o o o o o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject
+Email	ShowEmailWithSubject	muéstrame mis correos con el tema Termina hoy: Tome 20% de descuento en su pedido completo.	o o o o o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject
+Email	ShowEmailWithPriority	dame los correos de no importantes	o o o o b-priority i-priority
+Email	SendEmailToAddressWithSubjectAndWithMessage	envía un email a berenice con el tema explosión del teléfono con el mensaje time golo jate sas na hoy	o o o o b-to o o o b-subject i-subject i-subject o o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	manda un email a pera con el tema ¡vote en el concurso de sobrevivientes de haasweek! con el mensaje que tu sonrisa sea mas grande que tus problemas	o o o o b-to o o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	reenvía un email a mariluisa ramos con el tema re tema de llamada de conferencia con el mensaje tengo ganas de llorar un rato	o o o o b-to i-to o o o b-subject i-subject i-subject i-subject i-subject i-subject o o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubject	envía un email a conchi@outlook.com con el tema ¿Conoces los 10 motivos para no vender tu auto?	o o o o b-to o o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	reenvía un email a mari@gmx.es con el tema Eres el único que no ha visto esto	o o o o b-to o o o b-subject i-subject i-subject i-subject i-subject i-subject i-subject i-subject
+Email	SendEmail	envía un email	o o o
+Email	SendEmailToAddress	envía un correo a juan@gmx.es usando mi gmail	o o o o b-to o o o
+Email	SendEmailToAddress	envía un email a genita usando mi gmail	o o o o b-to o o o
+Email	ReplyToEmailFromAddress	responde a chuyita	o o b-to
+Email	ReplyToEmailFromAddress	responde a maria@gmx.es	o o b-to
+Facebook	OpenFacebook	actualiza mi estado de facebook	o o o o o
+Facebook	PostStatus	crea una nueva publicación que dice por la plata baila el mono en el facebook	o o o o o o b-status i-status i-status i-status i-status i-status o o o
+Facebook	PostStatus	crea una nueva publicación que dice mañana voy a morir en el facebook	o o o o o o b-status i-status i-status i-status o o o
+Facebook	PostStatus	crea una nueva publicación que dice puse para mirar ted 2 en facebook	o o o o o o b-status i-status i-status i-status i-status o o
+Facebook	PostStatus	crea una nueva publicación que diga cuando sea obeso llamadme big d en facebook	o o o o o o b-status i-status i-status i-status i-status i-status o o
+Facebook	PostStatus	publica una crepa dulce ahorita en el facebook	o b-status i-status i-status i-status o o o
+Facebook	PostStatus	publica buenos pinches días amiguitos en el facebook	o b-status i-status i-status i-status o o o
+Facebook	PostStatus	publica me encanta dejar en visto a las personas en el facebook	o b-status i-status i-status i-status i-status i-status i-status i-status o o o
+Facebook	PostStatus	publica extraño los abrazos de guille en el facebook	o b-status i-status i-status i-status i-status o o o
+Facebook	PostStatus	publica en el facebook diciendo que esto para tu fue un juego	o o o o o o b-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	publica en el facebook diciendo que que bien que estoy	o o o o o o b-status i-status i-status i-status
+Facebook	PostStatus	publica en el facebook diciendo que severo que no me conteste s e v e r o	o o o o o o b-status i-status i-status i-status i-status i-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	publica en el facebook diciendo que me re colgue y ni estudie para mañana	o o o o o o b-status i-status i-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	publica en facebook que hoy son errores mañana son experiencias	o o o o b-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	publica en facebook que gta aburre hora de comprar un nuevo juego	o o o o b-status i-status i-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	publica en facebook que clase dormida batería al 100	o o o o b-status i-status i-status i-status i-status
+Facebook	PostStatus	publica en facebook que haber a ncis los angles	o o o o b-status i-status i-status i-status i-status
+Facebook	PostStatus	actualiza mi estado de facebook diciendo que bien se siente que te ignoren	o o o o o o b-status i-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	actualiza mi estado de facebook diciendo salieron pizzas con la prima	o o o o o o b-status i-status i-status i-status i-status
+Facebook	PostStatus	actualiza mi estado de facebook diciendo día para cogerlo y tirarlo a la basura	o o o o o o b-status i-status i-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	actualiza mi estado de facebook diciendo teneis que recordadme que lea	o o o o o o b-status i-status i-status i-status i-status
+Facebook	PostPicture	publica una imagen en facebook	o o o o o
+Facebook	PostPictureWithCaption	publica una imagen con el título el mejor amigo perro en facebook	o o o o o o b-caption i-caption i-caption i-caption o o
+Facebook	PostPictureWithCaption	publica una imagen en el facebook con el título con mi papá	o o o o o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithCaption	sube una imagen con el título el mejor amigo perro en el facebook	o o o o o o b-caption i-caption i-caption i-caption o o o
+Facebook	PostPictureWithCaption	sube una imagen con un título el mejor amigo perro en facebook	o o o o o o b-caption i-caption i-caption i-caption o o
+Facebook	PostPictureWithCaption	sube una imagen en el facebook con el título con mi papá	o o o o o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithCaption	sube una imagen en el facebook con un título el mejor amigo perro	o o o o o o o o o b-caption i-caption i-caption i-caption
+Facebook	PostPictureWithCaption	sube una imagen en facebook con título con mi papá	o o o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrl	publica bit.ly/BFjbddV en el facebook	o b-picture_url o o o
+Facebook	PostPictureWithUrl	sube www.tinyurl.com/IgCQSvc a facebook	o b-picture_url o o
+Facebook	PostPictureWithUrlAndWithCaption	pon cutt.ly/WsKzevf en facebook con título con mi papá	o b-picture_url o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	publica cutt.ly/dHwnxca en facebook con el título el mejor amigo perro	o b-picture_url o o o o o b-caption i-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	titula cutt.ly/eqzfmL0 como el mejor amigo perro y públicalo en facebook	o b-picture_url o b-caption i-caption i-caption i-caption o o o o
+Facebook	PostPictureWithUrlAndWithCaption	pon shorturl.at/1UPJJUw en facebook con el título con mi papá	o b-picture_url o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	publica www.tinyurl.com/7wE53yt en mi facebook con el título el mejor amigo perro	o b-picture_url o o o o o o b-caption i-caption i-caption i-caption
+Facebook	ShowAlbumWithName	muestra imágenes en mi álbum vacaciones	o o o o o b-album
+Facebook	ShowAlbumWithName	muéstrame imágenes en mi álbum mi amor en facebook	o o o o o b-album i-album o o
+Facebook	ShowAlbumWithName	muéstrame imágenes en álbum vacaciones	o o o o b-album
+Fitbit	ShowSteps	los pasos que hice	o o o o
+Fitbit	ShowSteps	dame mis pasos de fitbit	o o o o o
+Fitbit	ShowStepsOnDate	dame el contador de pasos de fitbit el 1 de enero	o o o o o o o o b-date i-date i-date
+Fitbit	ShowStepsOnDate	dame el pedómetro de fitbit el 28.06	o o o o o o b-date
+Fitbit	ShowStepsOnDate	dame los pasos que hice el 1 de enero	o o o o o o b-date i-date i-date
+Fitbit	ShowStepsOnDate	dame mis pasos de fitbit el 28.06	o o o o o o b-date
+Fitbit	ShowStepsOnDate	el contador de pasos de fitbit el 1 de enero	o o o o o o o b-date i-date i-date
+Fitbit	ShowStepsOnDate	mi número de pasos el 28.06	o o o o o b-date
+Fitbit	ShowStepsOnDate	mis pasos de fitbit el 1 de enero	o o o o o b-date i-date i-date
+Fitbit	ShowBMI	dame mi peso de fitbit	o o o o o
+Fitbit	AddWeight	apunta mi peso de fitbit	o o o o o
+Fitbit	NotifyOnWeight	dime si mi peso supera 63 kg	o o o o o b-weight i-weight
+Fitbit	NotifyOnWeight	notifícame si mi peso supera 71 kg	o o o o o b-weight i-weight
+Gdrive	OpenGdrive	enséñame mis archivos en google drive	o o o o o o
+Gdrive	ShowFilesWithType	enseña mis archivos png en google drive	o o o b-mime_type o o o
+Gdrive	ShowFilesWithType	enseña mis archivos de google drive de tipo csv	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	enséñame mis archivos png en google drive	o o o b-mime_type o o o
+Gdrive	ShowFilesWithType	enséñame mis archivos de google drive de tipo wmv	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	muestra mis archivos de google drive de tipo csv	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	muéstrame mis archivos png en google drive	o o o b-mime_type o o o
+Gdrive	ShowFilesWithType	muéstrame mis archivos de google drive de tipo jpeg	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	muestra mis archivos png en google drive	o o o b-mime_type o o o
+Gdrive	ShowFilesWithStar	muestra mis archivos de google drive marcados	o o o o o o o
+Gdrive	ShowFilesWithStar	enséñame los archivos de google drive que marqué	o o o o o o o o
+Gdrive	ShowFilesFromTime	enseña mis archivos de google drive creados esta semana	o o o o o o o b-time i-time
+Gdrive	ShowFilesFromTime	muestra mis archivos de google drive modificados esta semana	o o o o o o o b-time i-time
+Gdrive	ShowFilesWithSize	enseña mis archivos de google drive más grandes que 10 mb	o o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	muéstrame mis archivos de google drive más pequeños que 5 mb	o o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	muestra mis archivos de google drive más grandes que 700 mb	o o o o o o o o o b-file_size i-file_size
+Gdrive	CreateFile	hazme un archivo en google drive	o o o o o o
+Gdrive	CreateFileWithName	crea un archivo de google drive llamado pelis para ver	o o o o o o o b-file_name i-file_name i-file_name
+Gdrive	CreateFileWithName	crea un nuevo archivo con el título CV en google drive	o o o o o o o b-file_name o o o
+Gdrive	ShowOldestFiles	muéstrame mis archivos de google drive creados recientemente	o o o o o o o o
+Gdrive	ShowOldestFiles	enseña mis archivos de google drive más nuevos	o o o o o o o o
+Gdrive	SortReverseAlphabetical	muestra mis archivos de google drive en la órden alfabética	o o o o o o o o o o
+Gdrive	SortReverseAlphabetical	enséñame mis archivos de google drive en una órden alfabética reversa	o o o o o o o o o o o
+Gdrive	OpenFileWithName	abre mi arvicho examen de literatura para editar en google drive	o o o b-file_name i-file_name i-file_name o o o o o
+Gdrive	ShareFileWithNameToAddress	comparte mi archivo nuevo con artiñano@gmx.es y dale el permiso para leer y escribir	o o b-file_name i-file_name o b-mail o o o o o o o o
+Instagram	OpenInstagram	inicia el instagram	o o o
+Instagram	ShowPictures	muéstrame mis imágenes de instagram más recientes	o o o o o o o
+Instagram	ShowPictures	dame mis imágenes de instagram	o o o o o
+Instagram	ShowLastNumberPictures	dame mis 5 imágenes de instagram más nuevos	o o b-count o o o o o
+Instagram	ShowLastNumberPictures	dame mis 4 imágenes de instagram más recientes en mi cuenta	o o b-count o o o o o o o o
+Instagram	ShowLastNumberPictures	enséñame mis 3 imágenes de instagram más nuevos	o o b-count o o o o o
+Instagram	ShowLastNumberPictures	muestra mis 2 imágenes de instagram más nuevos en mi cuenta	o o b-count o o o o o o o o
+Instagram	ShowLastNumberPictures	muéstrame mis 14 imágenes de instagram más nuevos	o o b-count o o o o o
+Instagram	ShowPicturesWithFilter	muestra mis imágenes de instagram que tienen el filtro aden aplicado	o o o o o o o o o b-filter o
+Instagram	ShowPicturesWithFilter	muéstrame mis fotos de instagram con el filtro lark	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	dame mis imágenes de instagram que tienen el filtro aden aplicado	o o o o o o o o o b-filter o
+Instagram	ShowPicturesWithFilter	enséñame mis fotos de instagram con el filtro lark	o o o o o o o o b-filter
+Instagram	ShowPicturesWithLocation	dame las fotos de instagram con etiqueta de ubicación alquézar	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	dame mis imágenes de instagram tomadas en carmonita	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	enséñame las fotos de instagram con etiqueta de ubicación villafeliche	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	muestra mis imágenes de instagram tomadas en parla	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	muéstrame las fotos de instagram con etiqueta de ubicación dodro	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	muéstrame mis imágenes de instagram tomadas en new york	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	muestra las fotos de instagram que tomé en pedrezuela	o o o o o o o o b-location
+Instagram	ShowPicturesWithHashtag	enséñame mis imágenes etiquetadas fitspo	o o o o b-hashtag
+Instagram	PostWithPicturesFromDateAndWithLocation	crea una nueva publicación en el instagram con todas mis fotos tomadas en talayuelas el 2 de junio como un collage	o o o o o o o o o o o o o b-location o b-date_day i-date_day i-date_day o o o
+Instagram	PostWithPicturesFromDateAndWithLocation	crea una publicación en instagram con todas mis fotos tomadas en quinto en febrero como un collage	o o o o o o o o o o o b-location o b-date_month o o o
+Instagram	PostWithPicturesFromDateAndWithLocation	crea una nueva publicación en instagram con todas mis fotos tomadas en pontós el 16 de septiembre como un collage	o o o o o o o o o o o o b-location o b-date_day i-date_day i-date_day o o o
+Instagram	ShowPicturesFromDate	muestra mis publicaciones de marzo	o o o o b-date_month
+Instagram	ShowPicturesFromDate	muéstrame mi publicación del 2 de junio	o o o o b-date_day i-date_day i-date_day
+Instagram	TakePicture	toma una foto con el instagram	o o o o o o
+Instagram	PostWithLastPictureWithLocationAndWithHashtag	crea una nueva publicación en el instagram con la última foto de galería añadiendo el filtro juno	o o o o o o o o o o o o o o o o b-filter
+Instagram	PostWithLastPictureWithLocationAndWithHashtag	crea una nueva publicación en el instagram con la última foto de galería y una etiqueta bullas	o o o o o o o o o o o o o o o o b-location
+Instagram	PostWithLastPictureWithLocationAndWithHashtag	crea una publicación en instagram con la última foto de galería añadiendo el filtro gingham	o o o o o o o o o o o o o o b-filter
+Instagram	PostWithLastPictureWithLocationAndWithHashtag	crea una publicación en instagram con la última foto de galería y una etiqueta cobeja	o o o o o o o o o o o o o o b-location
+News	ShowNews	muéstrame las noticias de marca	o o o o b-portal
+News	ShowNews	noticias en la voz de galicia	o o b-portal i-portal i-portal i-portal
+News	ShowNewsFromSection	la sección deporte de el periódico	o o b-section o b-portal i-portal
+News	NotifyWhenPortalUpdates	notifícame cuando faro de vigo actualice la página principal	o o b-portal i-portal i-portal o o o o
+News	NotifyWhenPortalUpdatesInSection	notifícame cuando la sección salud de la voz de galicia publique un nuevo artículo	o o o o b-section o b-portal i-portal i-portal i-portal o o o o
+Phone	CallNumber	llama a 959 293 407	o o b-phone_number i-phone_number i-phone_number
+Phone	CallNumber	llama a +34 646 268 667	o o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone	CallNumber	llama a 644 721 813	o o b-phone_number i-phone_number i-phone_number
+Phone	CallEmergency	llama a emergencias	o o o
+Phone	ShowSMS	verifica mi bandea de entrada de mensajes	o o o o o o o
+Phone	SMSToContact	envía un mensaje a carmina	o o o o b-to
+Phone	SMSToContact	envía un sms a esmeralda	o o o o b-to
+Phone	SMSToContact	manda un sms a bela	o o o o b-to
+Phone	SMSToContact	manda un mensaje a josema	o o o o b-to
+Phone	SMSToContact	mensaje a quico	o o b-to
+Phone	SMSToContact	sms a jade	o o b-to
+Phone	SMSToContact	mensaje a quico	o o b-to
+Phone	SMSToContact	sms a jade	o o b-to
+Phone	SMSToContactWithMessage	envía un message a savion diciendo da si lo reconozco pero vos tenias una idea y yo otra	o o o o b-to o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	envía un sms a perico diciendo rael da rima no esquenta	o o o o b-to o b-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	manda un message a juanfran iturbide diciendo de los errores se aprenden	o o o o b-to i-to o b-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	manda un sms a reynaldo diciendo si lees esto que sepas que me caes mal	o o o o b-to o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	mensaje a primitivo mariátegui que diga a las ernestolovers no se pierdan hoy el programa	o o b-to i-to o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	sms a conchita que diga clase dormida batería al 100	o o b-to o o b-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	un mensaje a montserrat que diga fnatic cercas de quedar campeón	o o o b-to o o b-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	un sms a gorge que diga que lindo no ir lunes y marte a la escuela	o o o b-to o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	sms a jandro mariñelarena diciendo es necesario que exista un día entre el domingo y el lunes	o o b-to i-to o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	un mensaje a lenita diciendo voy a vivir en nueva colonia	o o o b-to o b-message i-message i-message i-message i-message i-message
+Phone	SMSToContactWithMessage	un sms a pilarín diciendo mañana la veo denuevo	o o o b-to o b-message i-message i-message i-message
+Slack	CheckLastMessages	dame mi historia de canal de slack	o o o o o o o
+Slack	CheckUserStatus	el estado de juanma mendive en slack	o o o b-username i-username o o
+Slack	CheckUserStatus	el estado de p.darrieussecq en slack	o o o b-username o o
+Slack	CheckUserStatus	el estado de juanle cano en slack	o o o b-username i-username o o
+Slack	CheckUserStatus	si de morales está activo en slack	o b-username i-username o o o o
+Slack	CheckUserStatus	si manuel etcheverry está activo en slack	o b-username i-username o o o o
+Slack	CheckUserStatus	si marimili solarte está fuera en slack	o b-username i-username o o o o
+Slack	CheckMessagesFromUser	dame mensajes que recibí en slack de míner perurena	o o o o o o o b-sender i-sender
+Slack	CheckMessagesFromUser	dame mensajes recientes de magüi gabarain en slack	o o o o b-sender i-sender o o
+Slack	CheckMessagesFromUser	verifica mensajes que recibí en slack de juanlu	o o o o o o o b-sender
+Slack	CheckMessagesFromUser	verifica mensajes recientes de luis lizárraga en slack	o o o o b-sender i-sender o o
+Slack	CheckMessagesInChannel	dame mensajes de slack en trabajo que recibí durante la última hora	o o o o o b-channel o o o o o o
+Slack	CheckMessagesInChannel	verifica mensajes recientes de slack en clase de física	o o o o o o b-channel i-channel i-channel
+Slack	SendMessageToChannel	envía que buena noche pase anoche a trabajo en slack	o b-message i-message i-message i-message i-message o b-channel o o
+Slack	SendMessageToChannel	sube un mensaje en slack a amigos diciendo las cosas no serán ya más como antes	o o o o o o b-channel o b-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SetPurposeOnChannel	establece el propósito del canal de slack jogging a decisiones	o o o o o o o b-channel o b-purpose
+Slack	SetTopicInChannel	establece el tema del canal de slack fiesta a fiesta	o o o o o o o b-channel o b-topic
+Slack	SetStatusAway	establece mi estado como fuera en slack	o o o o o o o
+Slack	SendMessage	sube un mensaje en slack	o o o o o
+Slack	SendPictureToChannel	publica una foto en slack a lago	o o o o o o b-channel
+Slack	SendPictureToChannelWithCaption	sube una imagen a un canal de slack lago con el título 24 horas para el examen	o o o o o o o o b-channel o o o b-caption i-caption i-caption i-caption i-caption
+Slack	SendPictureWithUrlToChannel	publica cutt.ly/WsKzevf a amigos en slack	o b-picture_url o b-channel o o
+Speaker	TurnOnOrOff	ayúdame a apagar el altavoz	o o o o o
+Speaker	TurnOnOrOff	activa mi altavoz	o o o
+Speaker	TurnOnOrOff	apágame el altavoz	o o o
+Speaker	IncreaseVolume	sube el volumen del altavoz	o o o o o
+Speaker	IncreaseVolumeByPercent	sube el volumen de mi altavoz por 30 por ciento	o o o o o o o b-percent o o
+Speaker	IncreaseVolumeByPercent	aumenta en sonido de altavoz por 35	o o o o o o b-percent
+Speaker	DecreaseVolume	reduce el volumen de mi altavoz	o o o o o o
+Speaker	DecreaseVolume	disminuye volumen de altavoz	o o o o
+Speaker	DecreaseVolumeByPercent	reduce volumen de mi altavoz por 70 por ciento	o o o o o o b-percent o o
+Speaker	DecreaseVolumeByPercent	reduce el volumen de altavoz por 75	o o o o o o b-percent
+Speaker	MuteOn	silencia el altavoz	o o o
+Speaker	MuteOn	pon en silencio altavoz	o o o o
+Speaker	MuteOff	activa el sonido del altavoz	o o o o o
+Spotify	OpenSpotify	abre spotify para reproducir alguna música	o o o o o o
+Spotify	OpenSpotify	usa spotify	o o
+Spotify	PlaySong	en spotify reproduce bad liar	o o o b-song i-song
+Spotify	PlaySong	reproduce the man with no heart or brain	o b-song i-song i-song i-song i-song i-song i-song
+Spotify	PlaySong	reproduce la canción we will	o o o b-song i-song
+Spotify	PlaySong	reproduce la canción she works out too much en spotify	o o o b-song i-song i-song i-song i-song o o
+Spotify	PlaySongByArtist	en spotify reproduce numb de angel olsen	o o o b-song o b-artist i-artist
+Spotify	PlaySongByArtist	reproduce human nature de william basinski	o b-song i-song o b-artist i-artist
+Spotify	PlaySongByArtist	reproduce la canción what a time to be alive de the flaming lips	o o o b-song i-song i-song i-song i-song i-song o b-artist i-artist i-artist
+Spotify	PlaySongByArtist	reproduce la canción you are here de jacek sienkiewicz en spotify	o o o b-song i-song i-song o b-artist i-artist o o
+Spotify	PlayAlbumOfTypeByArtist	en spotify reproduce this is how you smile}_TYPE stamina de angel olsen	o o o b-album i-album i-album i-album i-album b-album o b-artist i-artist
+Spotify	PlayAlbumOfTypeByArtist	reproduce on time out of time de electric wizard en spotify	o b-album i-album i-album i-album i-album o b-artist i-artist o o
+Spotify	Pause	reproduce esta canción	o o o
+Spotify	Pause	pausa esa canción	o o o
+Spotify	Pause	reanuda esta pista	o o o
+Spotify	Pause	repite esa pista	o o o
+Spotify	NextSong	reproduce canción siguiente	o o o
+Spotify	NextSong	salta esta canción	o o o
+Spotify	PreviousSong	vuelve a la última pista	o o o o o
+Spotify	PreviousSong	reproduce la última canción	o o o o
+Spotify	PlayPlaylist	reproduce la lista de reproducción modern chill rock en spotify	o o o o o b-playlist i-playlist i-playlist o o
+Spotify	PlayPlaylist	reproduce lista de reproducción mint	o o o o b-playlist
+Spotify	PlayPlaylist	reproduce mi lista de reproducción friday cratediggers en spotify	o o o o o b-playlist i-playlist o o
+Spotify	PlayPlaylist	reproduce mi playlist piano in the background	o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	añade a la lista de reproducción synths and strings on spotify	o o o o o o b-playlist i-playlist i-playlist o o
+Spotify	AddSongToPlaylistWithName	añade canción a playlist reading and chill out	o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	añade pista a la lista de reproducción country rocks on spotify	o o o o o o o b-playlist i-playlist o o
+Spotify	AddSongToPlaylistWithName	añade esta a playlist songs to sing in the shower	o o o o b-playlist i-playlist i-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	añade esa canción a la lista de reproducción have a great day on spotify	o o o o o o o o b-playlist i-playlist i-playlist i-playlist o o
+Spotify	AddSongToPlaylistWithName	añade esa pista a playlist acoustic concentration	o o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	añade la pista que se está reproduciendo a la lista de reproducción bittersweet symphony on spotify	o o o o o o o o o o o o b-playlist i-playlist o o
+Spotify	AddSongToPlaylistWithName	guarda a playlist book club	o o o b-playlist i-playlist
+Spotify	AddSongToPlaylistWithName	guarda esa pista a la lista de reproducción lone star blues on spotify	o o o o o o o o b-playlist i-playlist i-playlist o o
+Spotify	AddSongToPlaylistWithName	guarda la que se está reproduciendo a playlist deep focus	o o o o o o o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	añade monster a mi playlist bach switched on	o b-song o o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	añade pista under the talles arch a la lista de reproducción warm hearts feel good en spotify	o o b-song i-song i-song i-song o o o o o b-playlist i-playlist i-playlist i-playlist o o
+Spotify	AddSongWithNameToPlaylistWithName	añade la canción mercury a playlist alone again	o o o b-song o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	añade la pista track 19 a la lista de reproducción progressive metal en spotify	o o o b-song i-song o o o o o b-playlist i-playlist o o
+Spotify	AddSongWithNameToPlaylistWithName	guarda bullet proof cupid a playlist nature noise	o b-song i-song i-song o o b-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	guarda la canción paco a la lista de reproducción 90s country en spotify	o o o b-song o o o o o b-playlist i-playlist o o
+Spotify	AddSongWithNameToPlaylistWithName	guarda la pista new years eve a playlist southern rock 101	o o o b-song i-song i-song o o b-playlist i-playlist i-playlist
+Spotify	AddAlbumToPlaylist	añade este what we say in private}_TYPE a la lista de reproducción lava lamp en spotify	o o b-album i-album i-album i-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist o o
+Spotify	AddAlbumToPlaylist	añade ese eraserland}_TYPE a political punks	o o b-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	guarda este malomiasteczkowy}_TYPE a la lista de reproducción party en spotify	o o b-album i-album i-album i-album i-album i-album b-playlist o o
+Spotify	AddAlbumToPlaylist	guarda ese here comes the cowboy}_TYPE a classical yoga	o o b-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	CreatePlaylist	crea una nueva lista de reproducción	o o o o o o
+Spotify	CreatePlaylist	añade playlist	o o
+Spotify	CreatePlaylistWithName	crea nueva lista de reproducción titulada pink noise	o o o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	crea una playlist llamada smooth morning	o o o o b-playlist i-playlist
+Spotify	CreatePlaylistWithName	añade nueva lista de reproducción titulada in a past live	o o o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	añade una playlist llamada pop punk's not dead	o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	AddSongToPlaylist	guarda lo que se está reproduciendo ahora a mi biblioteca	o o o o o o o o o o
+Spotify	SeekByTime	ve al segundo 10	o o o b-seek_time
+Spotify	ShuffleOnOff	activa barajar	o o
+Spotify	RepeatOnOff	apaga repetir	o o
+Spotify	ShowDencability	se puede bailar a esta canción	o o o o o o
+Translate	SetDefaultLanguage	establece el idioma estándar de la salida a checo	o o o o o o o o b-all_lang
+Translate	SetDefaultLanguage	cambia el idioma a finlandés	o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	establece el idioma estándar de entrada a polaco	o o o o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	cambia el idioma a alemán	o o o o b-all_lang
+Translate	TranslateText	la traducción de in the afternoon	o o o b-text.en i-text.en i-text.en
+Translate	TranslateText	cómo se dice january	o o o b-text.en
+Translate	TranslateTextToLanguage	traduce how much is that a tailandés	o b-text.en i-text.en i-text.en i-text.en o b-trg_lang
+Translate	TranslateTextToLanguage	dime en checo i need an english-language newspaper	o o b-trg_lang b-text.en i-text.en i-text.en i-text.en i-text.en
+Translate	TranslateTextFromLanguageToLanguage	traduce TRANSLATE.SLOT.TEXT de italiano a finlandés	o o o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguageWithEngine	traducción de TRANSLATE.SLOT.TEXT a español de russo usando deepl	o o o o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	la traducción de TRANSLATE.SLOT.TEXT de italiano a tailandés con yandex	o o o o o b-src_lang o b-trg_lang o b-translator
+Translate	TranslateToLanguage	traduce a finlandés	o o b-trg_lang
+Translate	TranslateToLanguage	una traducción a polaco	o o o b-trg_lang
+Translate	TranslateToLanguage	traducción a tailandés	o o b-trg_lang
+Translate	TranslateTextFromLanguage	traduce TRANSLATE.SLOT.TEXT de russo	o o o b-src_lang
+Translate	DetectLanguage	idioma en el que podría usted hablar más lento por favor está escrito	o o o o b-text.multi i-text.multi i-text.multi i-text.multi i-text.multi i-text.multi i-text.multi o o
+Translate	DetectLanguage	el idioma en que grigio	o o o o b-text.multi
+Twitter	OpenTwitter	muestra tweets que he publicado	o o o o o
+Twitter	OpenTwitter	muéstrame mis tuits	o o o
+Twitter	FollowUser	empieza a seguir a renelae en twitter	o o o o b-username o o
+Twitter	FollowUser	empieza a seguir en twitter a muertenthesnw	o o o o o o b-username
+Twitter	FollowUser	empieza a ser el seguidor de twitter de xxlucyh	o o o o o o o o b-username
+Twitter	FollowUser	sigue a lynnloca en twitter	o o b-username o o
+Twitter	UnfollowUser	dea de seguir a christastique en twitter	o o o o b-username o o
+Twitter	SendMessage	envía un dm en twitter diciendo la gente se ve más linda cuando no me rompe las pelotas	o o o o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	envía un mensaje directo en twitter diciendo nose que quiere flashar amistad esta	o o o o o o o b-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	envía un mensaje en twitter diciendo soy un nene de mama	o o o o o o b-message i-message i-message i-message i-message
+Twitter	SendMessage	dm en twitter diciendo quiero volver a murcia	o o o o b-message i-message i-message i-message
+Twitter	SendMessage	mensaje directo en twitter diciendo puto juego de mesa con navecitas de star wars	o o o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	mensaje en twitter diciendo san canuto son los padres	o o o o b-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	envía un mensaje directo en twitter a thelateliz diciendo soy el más feliz del mundo mundial	o o o o o o o b-username o b-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	envía un mensaje dm en twitter a nbomb diciendo eramos los unicos locos afuera	o o o o o o o b-username o b-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	mensaje dm en twitter a annemariefod diciendo para cuándo poder dar fav a los favs	o o o o o b-username o b-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	mensaje directo en twitter a jfrankenstein diciendo mas lentos que los md de tw	o o o o o b-username o b-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	mensaje en twitter a missbreesq diciendo mi mamá ya vio un vestido para mis 15	o o o o b-username o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	ShowTwittsWithHashtag	tuits sobre dublinbus en twitter	o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	tweets con hashtag jugglecon	o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	busca tuits sobre dialoguesthatsux en twitter	o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	busca tweets con hashtag myweakness	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	muestra tuits sobre tbyg en twitter	o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	muestra tweets con hashtag saintjohn	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	muéstrame tuits sobre rofl en twitter	o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	muéstrame tweets con hashtag kolkata	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	encuentra tweets con el hashtag chitellmsft en twitter	o o o o o b-hashtag o o
+Weather	OpenWeather	cómo está el tiempo fuera	o o o o o
+Weather	WeatherTomorrow	el tiempo mañana	o o o
+Weather	WeatherInLocation	cómo está el tiempo en samaniego	o o o o o b-location
+Weather	WeatherInLocation	el tiempo actual en riópar	o o o o b-location
+Weather	WeatherInLocation	el tiempo actual en yésero	o o o o b-location
+Weather	WeatherInLocation	el tiempo en benalauría	o o o b-location
+Weather	WeatherInLocation	tiempo actual en calatayud	o o o b-location
+Weather	WeatherTomorrowInLocation	cómo está el tiempo en gimialcón para mañana	o o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo actual en mura para mañana	o o o o b-location o o
+Weather	WeatherTomorrowInLocation	el tiempo en centenera para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo actual en cobeta para mañana	o o o b-location o o
+Weather	WeatherTomorrowInLocation	tiempo en reina para mañana	o o b-location o o
+Weather	SunriseInLocation	amanecer en benetússer	o o b-location
+Weather	SunriseInLocation	cuándo es el tiempo del amanecer en tardienta	o o o o o o o b-location
+Weather	SunsetInLocation	puesta del sol en robledo	o o o o b-location
+Weather	SunriseAndSunsetInLocation	el amanecer y la puesta del sol en òrrius	o o o o o o o o b-location
+Weather	SunriseAndSunsetInLocationAndOnDate	amanecer y puesta del sol para la ubicación benaoján para la fecha 30 de enero	o o o o o o o o b-location o o o b-date i-date i-date
+Weather	MoonphaseInLocation	fase de la luna para la ubicación allepuz	o o o o o o o b-location
+Weather	MoonphaseInLocationOnDate	fase de la luna para muntanyola el 7 de septiembre	o o o o o b-location o b-date i-date i-date
+Websearch	OpenEngine	busca en la red	o o o o
+Websearch	SearchTextOnEngine	bing eci	o b-txt_query
+Websearch	SearchTextOnEngine	duckduckgo facebook en español	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	moodle en duckduckgo	b-txt_query o o
+Websearch	SearchTextOnEngine	google mindhunter	o b-txt_query
+Websearch	SearchText	páginas web que coinciden con perros	o o o o o b-txt_query
+Websearch	SearchText	páginas web que coinciden con agencia tributaria renta 2019	o o o o o b-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchText	páginas que coinciden con español ingles	o o o o b-txt_query i-txt_query
+Websearch	SearchText	páginas que coinciden con peugeot	o o o o b-txt_query
+Websearch	SearchImagesWithTextOnEngine	imágenes donald trump en bing	o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	imágenes que coinciden con cola de caballo ordesa de duckduckgo	o o o o b-img_query i-img_query i-img_query i-img_query o o
+Websearch	SearchImagesOnEngine	bing búsqueda de imágenes	o o o o
+Websearch	SearchImagesOnEngine	busca imágenes en bing	o o o o
+Websearch	SearchImagesOnEngine	busca imágenes en duckduckgo	o o o o
+Websearch	SearchImagesOnEngine	duckduckgo búsqueda de imágenes	o o o o
+Websearch	SearchImagesOnEngine	google búsqueda de imágenes	o o o o
+Websearch	SearchImagesOnEngine	búsqueda de imágenes	o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	imágenes de bing que coinciden con cielo de tamaño 800 x 600	o o o o o o b-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	imágenes de duckduckgo que coinciden con cole sprouse de tamaño 800 x 600	o o o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	imágenes de google que coinciden con cortes de pelo 2020 de tamaño 800 x 600	o o o o o o b-img_query i-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	imágenes de bing que coinciden con fitness más altas que 800 x 600	o o o o o o b-img_query o o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	imágenes de duckduckgo que coinciden con aprilia rs 50 más pequeñas que 800 x 600	o o o o o o b-img_query i-img_query i-img_query o o o o o o
+Wikipedia	OpenWikipedia	muestra definiciones de wikipedia	o o o o
+Wikipedia	SearchQuery	busca idioma guaraní en wiki	o b-query i-query o o
+Wikipedia	SearchQuery	busca joaquín lavín infante en wiki	o b-query i-query i-query o o
+Wikipedia	SearchQuery	encuentra 10 de junio en wiki	o b-query i-query i-query o o
+Wikipedia	SearchQuery	encuentra megan fox en wiki	o b-query i-query o o
+Wikipedia	SearchQuery	manchester united f.c. en wiki	b-query i-query i-query o o
+Wikipedia	SearchQuery	calendario de aniversarios en wiki	b-query i-query i-query o o
+Wikipedia	ScrollDown	avanza la página	o o o
+Wikipedia	ScrollUp	hacia arriba	o o
+Wikipedia	DownloadAsPdf	baja ese article como un pdf	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	cambia el idioma a inglés	o o o o o
+Wikipedia	ChangeLanguageToLanguage	cambia el idioma de esta página a español	o o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	muestra esta página en portugués	o o o o o
+Wikipedia	ChangeLanguageToLanguage	muestra este artículo en inglés	o o o o o
+Wikipedia	RandomPage	un artículo aleatorio	o o o
+Wikipedia	RandomPage	muestra una página al azar	o o o o o
+Wikipedia	RandomPage	navegar por wikipedia	o o o
+Wikipedia	GoToElementNumber	ve al primer element de contenidos	o o o o o o
+Wikipedia	GoToElementNumber	ve al sexto item en contenidos	o o o o o o
+Wikipedia	GoToElementNumber	ve al décimo item en contenidos	o o o o o o
+Yelp	SearchRestaurant	restaurantes cerca de aquí	o o o o
+Yelp	SearchRestaurant	busca restaurante	o o
+Yelp	SearchRestaurant	encuentra restaurantes	o o
+Yelp	SearchByQuery	restaurante en Perkins cerca	b-query i-query i-query o
+Yelp	SearchByRating	restaurantes cerca con por lo menos 3 estrellas de clasificación	o o o o o o b-rating o o o
+Yelp	SearchByCategory	restaurantes españoles cerca	o b-category.mpl o
+Yelp	OpenRestaurants	restaurantes abiertos por aquí	o o o o
+Yelp	SearchByReviewCount	restaurantes cerca de aquí con opiniones de por lo menos 950 usuarios	o o o o o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurantes por aquí con opiniones de al menos 7000 usuarios	o o o o o o o o b-review_count o
+Yelp	SearchInLocation	restaurantes al lado de kreuzberg	o o o o b-location
+Yelp	SearchInLocation	restaurantes cerca de salinas	o o o b-location
+Yelp	SearchByQueryInLocation	sushi yoko cerca de periana	b-query i-query o o b-location
+Yelp	SearchByRatingInLocation	restaurantes clasificados con más de 4 estrellas en daimús	o o o o o b-rating o o b-location
+Yelp	SearchByCategoryInLocation	comida alemana cerca buñol	o b-category.f o b-location
+Yelp	SearchByReviewCountInLocation	restaurantes alemanes cerca de peñaparda con opiniones de al menos 10000 usuarios	o b-category.mpl o o b-location o o o o o b-review_count o
+Yelp	OpenRestaurantsInLocation	restaurantes todavía abiertos en sebúlcor	o o o o b-location
+Youtube	OpenYT	abre youtube app	o o o
+Youtube	FindQuery	busca a70 samsung vídeos en youtube	o b-query i-query o o o
+Youtube	FindQuery	busca video pio pio en youtube	o o b-query i-query o o
+Youtube	FindQuery	busca un vídeo musica para tiendas 2019 en youtube	o o o b-query i-query i-query i-query o o
+Youtube	FindQuery	busca el video twenty one pilots en youtube	o o o b-query i-query i-query o o
+Youtube	FindQuery	búscame james charles subscriber count vídeos en youtube	o b-query i-query i-query i-query o o o
+Youtube	FindQuery	búscame el video bebe en youtube	o o o b-query o o
+Youtube	FindQuery	búscame vídeo de youtube yoga	o o o o b-query
+Youtube	FindQuery	encuentra tuzsa video en youtube	o b-query o o o
+Youtube	FindQuery	encuentra vídeo de youtube suave y duro	o o o o b-query i-query i-query
+Youtube	FindQuery	reproduce alocao video en youtube	o b-query o o o
+Youtube	FindQuery	reproduce vídeo de youtube bad bunny	o o o o b-query i-query
+Youtube	FindQuery	encuentra overwatch sigma en youtube	o b-query i-query o o
+Youtube	ShowChannelWithName	muestra canal cineamasin en youtube	o o b-channel_id o o
+Youtube	ShowChannelWithName	reproduce canal de youtube dandmt	o o o o b-channel_id
+Youtube	ShowChannelWithCategory	muestra canales en youtube gaming	o o o o b-category
+Youtube	ShowChannelWithCategory	reproduce canales de categoría comedía en youtube	o o o o b-category o o
+Youtube	ShowChannelWithCategory	muéstrame canales de youtube noticias y política	o o o o b-category i-category i-category
+Youtube	ShowSubscribedChannels	muéstra canales a que me he suscrito en youtube	o o o o o o o o o
+Youtube	ShowFollowing	muéstrame canales de youtube que sigo	o o o o o o
+Youtube	FindChannelWithQuery	busca canales cama en youtube	o o b-query o o
+Youtube	FindQueryOnChannel	muestra un video de gordon ramsay	o o o o b-channel_id i-channel_id
+Youtube	FindQueryOnChannel	muéstrame un vídeo de theneedledrop	o o o o b-channel_id
+Youtube	NotifyOnNewFromFollowing	notifícame cuando haya un nuevo video en el canal que sigo	o o o o o o o o o o o
+Youtube	NotifyonNewOnChannel	notifícame cuando theneedledrop suba un nuevo vídeo en youtube	o o b-channel_id o o o o o o

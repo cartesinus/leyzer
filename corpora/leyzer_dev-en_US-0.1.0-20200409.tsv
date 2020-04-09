@@ -1,0 +1,386 @@
+domain	intent	utterance	bio
+Airconditioner	TurnOff	switch the air conditioning off	o o b-av_alias i-av_alias o
+Airconditioner	TurnOff	turn the ac off	o o b-av_alias o
+Airconditioner	TurnOn	switch on the aircon	o o o b-av_alias
+Airconditioner	TurnOn	turn the aircon on	o o b-av_alias o
+Airconditioner	ChangeTemperature	change the minimum and maximum temperatures on my thermostat	o o o o o o o o o
+Airconditioner	SetTemperatureToValue	set set my thermostat to 25 degree	o o o o o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	set the temperature to 80 degrees fahrenheit on my hall thermostat	o o o o b-value i-value i-value o o b-device_name o
+Airconditioner	SetTemperatureBetweenValues	set the low temperature to 23 degree on my thermostat , and the high to 29 degree	o o o o o o o o o o o o o o o o o
+Airconditioner	SetTemperatureOnDevice	change the minimum and maximum temperatures on my living room thermostat	o o o o o o o o b-device_name i-device_name o
+Airconditioner	GetHumidity	show the humidity level	o o o o
+Airconditioner	GetHumidity	check the humidity level	o o o o
+Airconditioner	GetTemperature	what temperature do I have in here according to my cooling system ?	o o o o o o o o o o b-av_alias i-av_alias o
+Airconditioner	GetTemperature	what temperature is it in here according to my air conditioning ?	o o o o o o o o o b-av_alias i-av_alias o
+Airconditioner	GetTemperatureFromDevice	check the temperature of the kitchen room temperature sensor	o o o o o b-device_name o o o
+Airconditioner	GetTemperatureFromDevice	what does the living room indoor temperature sensor show ?	o o o b-device_name i-device_name o o o o o
+Calendar	OpenCalendar	open my calendar	o o o
+Calendar	CheckCalendarOnDate	whats on my schedule on thursday	o o o o b-date i-date
+Calendar	CheckCalendarOnDate	whats on my schedule on 13th march	o o o o b-date i-date i-date
+Calendar	AddEventWithName	add an event called 1on1	o o o o b-event_name
+Calendar	AddEventWithName	add an event called neighborhood council to calendar	o o o o b-event_name i-event_name o o
+Calendar	AddEventOnDateWithDate	add an event called great streets on 1st may	o o o o b-event_name i-event_name o b-event_date i-event_date
+Calendar	AddEventOnDateWithDate	add an event called library to calendar on 1st of july	o o o o b-event_name o o o b-event_date i-event_date i-event_date
+Calendar	NotifyOnEventStart	notify me when an meeting on my calendar begins	o o o o o o o o o
+Calendar	NotNotifyOnEventStart	do not notify me when an event on my calendar begins	o o o o o o o o o o o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an appointment on my calendar at location lab begins	o o o o o o o o o o o o b-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an meeting on my calendar at location wawarsing begins	o o o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an appointment on my calendar at location west louisville begins	o o o o o o o o o o b-location i-location o
+Calendar	NotifyOnEventInLocation	notify me when an meeting on my calendar at location ouray begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an meeting on my calendar at location johns island begins	o o o o o o o o o o b-location i-location o
+Contacts	OpenContacts	open my contacts	o o o
+Contacts	OpenMyContact	show my contact's info	o o o o
+Contacts	EditContactWithName	open my contact miquela for edition	o o o b-name o o
+Contacts	EditContactWithName	open my contact chastity for edition	o o o b-name o o
+Contacts	EditContactWithName	open my contact hadria for edition	o o o b-name o o
+Contacts	EditContactWithNumber	change the name of my contact with number +1 803 555 0121	o o o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	EditNumberInContactWithName	change the number of my contact quintina	o o o o o o b-name
+Contacts	EditNumberInContactWithNameToNumberAndToType	set the number +1 803 555 0199 in contact head as home	o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-name o b-phone_type
+Contacts	ShowContactWithEmail	display my contacts with email helsa@yahoo.com	o o o o o b-email
+Contacts	ShowContactWithEmail	open my contacts with email gabriell.walliw@enron_development	o o o o o b-email
+Contacts	ShowContactWithEmail	show my google contacts with email karin.lepine@schwab.com	o o o o o o b-email
+Contacts	ShowContactWithName	display my contacts with name plantagenet	o o o o o b-name
+Contacts	ShowContactWithName	show my contacts with name bernita	o o o o o b-name
+Contacts	ShowContactWithName	show my contacts with name marchris robinson	o o o o o b-name i-name
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it lenna with the number +1 202 555 0176	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it umeh with the number 860 555 0190	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it glennis with the number 602 555 0122	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it marty chrisman with the number 803 555 0193 as home	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it claude with the number +1 303 555 0198 as work	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it thane with the number +1 803 555 0178 as work	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it linnell with the number 303 555 0194 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it chester with the number +1 202 555 0144 as home	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it joana with the number 605 555 0109 as work	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it bertina with the number 803 555 0116 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name guinevere with the number +1 502 555 0122 as work	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name nike with the number +1 615 555 0179 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name jennifer walker with the number +1 303 555 0171 as home	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name vicki with the number 202 555 0106 as work	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name kass with the number 803 555 0114 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNumber	display my contacts with phone number +1 303 555 0143	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	open my contacts with phone number 202 555 0174	o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	open my contacts with phone number 202 555 0107	o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumberAndWithEmail	display my contacts with phone number +1 803 555 0121 and email murky@outlook.com	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	open my contacts with phone number 615 555 0179 and email erma.kurys@gedaz.com	o o o o o o b-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	show my contacts with phone number +1 202 555 0148 and email pakk@yahoogroups.com	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-email
+Email	OpenEmail	check my gmail inbox	o o o o
+Email	OpenEmail	get email	o o
+Email	OpenEmail	check my gmail inbox	o o o o
+Email	OpenEmail	get my latest email	o o o o
+Email	ShowEmailFromSender	check emails i received from edythe@kpmg.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails from malissia@edelman.com	o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i received from enron.environmental@enron.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i got from suzette.candida@outlook.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i received from emalee@outlook.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails from shelby.gayla@gmail.com	o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i received from corie@proton.com	o o o o o o b-sender_address
+Email	ShowEmailWithLabel	show me emails labelled offers	o o o o b-label
+Email	ShowEmailWithLabel	get emails with label music	o o o o b-label
+Email	ShowEmailWithLabel	display my emails with label sport	o o o o o b-label
+Email	ShowEmailWithLabel	find my emails that have label holidays	o o o o o o b-label
+Email	ShowEmailFromTime	show me my emails that arrived in the last 30 minutes	o o o o o o b-time i-time i-time i-time i-time
+Email	ShowEmailFromTime	display emails that arrived in the last 15 minutes	o o o o b-time i-time i-time i-time i-time
+Email	ShowEmailFromTime	find emails arrived on tuesday	o o o b-time i-time
+Email	ShowEmailWithSubject	get my emails with subject information requests	o o o o o b-subject i-subject
+Email	ShowEmailWithSubject	display emails with subject the original advantage	o o o o b-subject i-subject i-subject
+Email	ShowEmailWithPriority	get me unimportant emails	o o b-priority o
+Email	SendEmailToAddressWithSubjectAndWithMessage	email virginia@outlook.com with subject re last night and message thanks for getting back to me	o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	forward an email to calvert with subject axia energy, lp with message sorry, i thought we had until the end of the week	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to denys with subject free lunch on friday! with message improve their career prospects and increase their value using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to timothy.j.detmering@enron.com with subject proposed edits to nda with message advent international dolphin communications and using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject o o b-message i-message i-message i-message i-message o o o
+Email	SendEmailToAddressWithSubject	email to koral@cpuc.ca.gov with subject new edison advice letter	o o b-to o o b-subject i-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	forward an email to faydra@hotmail.com with subject one more thing	o o o o b-to o o b-subject i-subject i-subject
+Email	SendEmailToAddressWithSubject	send an email to laura schwartz with subject draft of ken's itinerary using my gmail	o o o o b-to i-to o o b-subject i-subject i-subject i-subject o o o
+Email	SendEmail	forward an email	o o o
+Email	SendEmailToAddress	email darran binns	o b-to i-to
+Email	SendEmailToAddress	send an email to jonis@hotmail.com using my gmail	o o o o b-to o o o
+Email	SendEmailToAddress	send email to juta using my gmail	o o o b-to o o o
+Email	ReplyToEmailFromAddress	answer ina	o b-to
+Email	ReplyToEmailFromAddress	reply to jo@haas.berkeley.edu	o o b-to
+Facebook	OpenFacebook	make a new post on facebook	o o o o o o
+Facebook	PostStatus	post so tired today on facebook	o b-status i-status i-status o o
+Facebook	PostStatus	make a new post containing i am so happy right now on facebook	o o o o o b-status i-status i-status i-status i-status i-status o o
+Facebook	PostPicture	post a picture on facebook	o o o o o
+Facebook	PostPicture	upload a picture to my facebook	o o o o o o
+Facebook	PostPicture	put a picture to my facebook	o o o o o o
+Facebook	PostPictureWithCaption	post a picture with caption with my dad on facebook	o o o o o b-caption i-caption i-caption o o
+Facebook	PostPictureWithUrl	post www.tinyurl.com/vmkgtf9 on facebook	o b-picture_url o o
+Facebook	PostPictureWithUrlAndWithCaption	post www.tinyurl.com/vmkgtf9 on facebook with caption with my dad	o b-picture_url o o o o b-caption i-caption i-caption
+Facebook	ShowAlbumWithName	show photos in album holidays	o o o o b-album
+Fitbit	ShowSteps	my steps from fitbit	o o o o
+Fitbit	ShowSteps	the fitbit step counter	o o o o
+Fitbit	ShowSteps	get the steps i have taken	o o o o o o
+Fitbit	ShowStepsOnDate	get my fitbit step count on 1st January	o o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	get the count of steps on 1st January from fitbit	o o o o o o b-date i-date o o
+Fitbit	ShowStepsOnDate	get the steps i have taken on 1st January	o o o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	my fitbit steps on 1st January	o o o o b-date i-date
+Fitbit	ShowStepsOnDate	the steps i have taken on 15.02.2020	o o o o o o b-date
+Fitbit	ShowBMI	my body measurements from fitbit	o o o o o
+Fitbit	AddWeight	make note of my weight on fitbit	o o o o o o o
+Fitbit	NotifyOnWeight	notify me if my weight goes over 60 kg	o o o o o o o b-weight i-weight
+Gdrive	OpenGdrive	list my files in google drive	o o o o o o
+Gdrive	ShowFilesWithType	show my google drive files of type mp3	o o o o o o o b-mime_type
+Gdrive	ShowFilesWithStar	list the google drive files i starred	o o o o o o o
+Gdrive	ShowFilesFromTime	list my google drive files modified today	o o o o o o b-time
+Gdrive	ShowFilesWithSize	list my google drive files larger than 500 kb	o o o o o o o b-file_size i-file_size
+Gdrive	CreateFile	create a file in google drive	o o o o o o
+Gdrive	CreateFileWithName	create a file in google drive named invoice	o o o o o o o b-file_name
+Gdrive	ShowOldestFiles	list my google drive files that were created most recently	o o o o o o o o o o
+Gdrive	SortReverseAlphabetical	list my google drive files in reverse alphabetical order	o o o o o o o o o
+Gdrive	OpenFileWithName	open my newfile for edition in google drive	o o b-file_name o o o o o
+Gdrive	ShareFileWithNameToAddress	share my vegetarian recipies with mary.lou@gmail.com	o o b-file_name i-file_name o b-mail
+Instagram	OpenInstagram	open my instagram	o o o
+Instagram	ShowPictures	show me my recent instagram pictures	o o o o o o
+Instagram	ShowLastNumberPictures	show my 2 recent instagram pictures	o o b-count o o o
+Instagram	ShowLastNumberPictures	show me my 10 latest instagram pictures on my account	o o o b-count o o o o o o
+Instagram	ShowPicturesWithFilter	show my instagram pictures with filter lark	o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	show me my instagram pictures that have the aden filter applied	o o o o o o o o b-filter o o
+Instagram	ShowPicturesWithLocation	show the instagram pictures i took in berlin	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	display my instagram pictures tagged with location douds	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me the instagram pictures i took in north tonawanda	o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	show me my instagram pictures with gps tag searsboro	o o o o o o o o b-location
+Instagram	ShowPicturesWithHashtag	show my instagram pictures tagged fashionphoto	o o o o o b-hashtag
+Instagram	PostWithPicturesFromDateAndWithLocation	create a new post on instagram with all my photos taken in traer in February as a collage	o o o o o o o o o o o o b-location o b-date_month o o o
+Instagram	ShowPicturesFromDate	show my post from the 16 of July	o o o o o b-date_day i-date_day i-date_day
+Instagram	TakePicture	take a picture with instagram	o o o o o
+Instagram	PostWithLastPictureWithLocationAndWithHashtag	create a post on instagram with the last photo from Gallery	o o o o o o o o o o o
+Instagram	PostWithLastPictureWithLocationAndWithHashtag	create a new post on instagram with the last photo from Gallery adding fitspo hashtag	o o o o o o o o o o o o o b-hashtag o
+News	ShowNews	latest news on nyt	o o o b-portal
+News	ShowNews	show the news from time	o o o o b-portal
+News	ShowNewsFromSection	the time magazine sport section	o b-portal i-portal b-section o
+News	NotifyWhenPortalUpdates	notify me when nyt news updates	o o o b-portal o o
+News	NotifyWhenPortalUpdatesInSection	notify me when the ny times celebrity section publishes a new article	o o o o b-portal i-portal b-section o o o o o
+Phone	CallNumber	call 34 678 09 94	o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone	CallNumber	dial 34 678 09 94	o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone	CallNumber	phone 22 590 01 45	o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone	CallNumber	phone 00 589 999 000	o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone	CallEmergency	call emergency services	o o o
+Phone	ShowSMS	check my sms inbox	o o o o
+Phone	SMSToContact	send a message to valli	o o o o b-to
+Phone	SMSToContact	sms simonetta	o b-to
+Phone	SMSToContact	text tedra	o b-to
+Phone	SMSToContactWithMessage	send a message to renate containing call me	o o o o b-to o b-message i-message
+Phone	SMSToContactWithMessage	send an sms message to maiga containing call me	o o o o o b-to o b-message i-message
+Phone	SMSToContactWithMessage	send an sms to luella containing please answer	o o o o b-to o b-message i-message
+Phone	SMSToContactWithMessage	text helli containing please answer	o b-to o b-message i-message
+Slack	OpenSlackopen the slack app	o o o o
+Slack	OpenSlacklaunch slack app	o o o
+Slack	CheckLastMessagesget my slack channel history	o o o o o
+Slack	CheckUserStatuscheck the presence of john black on slack	o o o o b-username i-username o o
+Slack	CheckUserStatuscheck whether b.joris is active on slack	o o b-username o o o o
+Slack	CheckMessagesFromUsercheck messages i received on slack from laurence	o o o o o o o b-sender
+Slack	CheckMessagesFromUsercheck recent messages from dickon in slack	o o o o b-sender o o
+Slack	CheckMessagesFromUserget messages i received on slack from d.hookfin	o o o o o o o b-sender
+Slack	CheckMessagesFromUserget recent messages from carroll in slack	o o o o b-sender o o
+Slack	CheckMessagesInChannelget slack messages in class for physics i received in the last hour	o o o o b-channel i-channel i-channel o o o o o o
+Slack	SendMessageToChannellet slack channel services know that information about phillip and mercer	o o o b-channel o o b-message i-message i-message i-message i-message
+Slack	SendMessageToChannelmessage speculate on slack saying o job site wayfaircom prepares to launch on monday	o b-channel o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannelpost can anyone print this for tomorrow ? to concerned on slack	o b-message i-message i-message i-message i-message i-message i-message o b-channel o o
+Slack	SendMessageToChannelpost has not actually walked out of the project  to class for physics on slack	o b-message i-message i-message i-message i-message i-message i-message i-message i-message o b-channel i-channel i-channel o o
+Slack	SendMessageToChannelpost a message on slack to transportation saying terms of the deal were undisclosed steve lingeman	o o o o o o b-channel o b-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannelsend new power plants and encourage consumption to trader on slack	o b-message i-message i-message i-message i-message i-message o b-channel o o
+Slack	SendMessageToChannelsend a message on slack to editorial saying meetings with minimal guidance or supervision	o o o o o o b-channel o b-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannelupload northeast independent transmission company proponents to services on slack	o b-message i-message i-message i-message i-message o b-channel o o
+Slack	SendMessageToChannelupload a message on slack to speculate saying office of the assembly republican leader	o o o o o o b-channel o b-message i-message i-message i-message i-message i-message i-message
+Slack	SetPurposeOnChannelset the purpose for slack channel class for physics to scrum	o o o o o o b-channel i-channel i-channel o b-purpose
+Slack	SetTopicInChannelset the topic for channel transportation to mona birthday on slack	o o o o o b-channel o b-topic i-topic o o
+Slack	SetTopicInChannelset the topic of slack channel services to news	o o o o o o b-channel o b-topic
+Slack	SetStatusAwayset me as away on slack	o o o o o o
+Slack	SendMessageupload a message on slack	o o o o o
+Slack	SendPictureToChannelpost a picture on slack to speculate	o o o o o o b-channel
+Slack	SendPictureToChannelpost on slack to work	o o o o b-channel
+Slack	SendPictureToChannelsend a picture on slack to party	o o o o o o b-channel
+Slack	SendPictureToChannelupload a picture on slack to helicopters	o o o o o o b-channel
+Slack	SendPictureToChannelWithCaptionpost a picture on slack to confidentially with caption minal	o o o o o o b-channel o o b-caption
+Slack	SendPictureToChannelWithCaptionsend a picture to slack channel possibilities with caption create	o o o o o o b-channel o o b-caption
+Slack	SendPictureToChannelWithCaptionupload a picture on slack to steps with caption cents	o o o o o o b-channel o o b-caption
+Slack	SendPictureWithUrlToChannelpost shorturl.at/B8SEzeV to slack channel work	o b-picture_url o o o b-channel
+Slack	SendPictureWithUrlToChannelsend www.tinyurl.com/vFizsaY to party on slack	o b-picture_url o b-channel o o
+Slack	SendPictureWithUrlToChannelupload cutt.ly/PG2yIDH to possibilities on slack	o b-picture_url o b-channel o o
+Speaker	TurnOnOrOff	switch off the speaker	o b-power o o
+Speaker	TurnOnOrOff	switch on my speaker for me	o b-power o o o o
+Speaker	IncreaseVolume	make my speaker louder	o o o o
+Speaker	IncreaseVolumeByPercent	increase the volume of the speaker by 5	o o o o o o o b-percent
+Speaker	DecreaseVolume	decrease my speaker 's volume	o o o o o
+Speaker	DecreaseVolumeByPercent	reduce volume of speaker by 50	o o o o o b-percent
+Speaker	DecreaseVolumeByPercent	decrease my speaker 's volume by 10 percent	o o o o o o b-percent o
+Speaker	MuteOn	silence speaker	o o
+Speaker	MuteOff	unmute speaker	o o
+Spotify	OpenSpotify	use spotify to play some music	o o o o o o
+Spotify	OpenSpotify	play some music on spotify	o o o o o
+Spotify	PlaySong	on spotify play choo choo	o o o b-song i-song
+Spotify	PlaySong	play the arrow of our youth	o b-song i-song i-song i-song i-song
+Spotify	PlaySong	play a song moscow on spotify	o o o b-song o o
+Spotify	PlaySong	play the song trofea	o o o b-song
+Spotify	PlaySongByArtist	on spotify play die by tool	o o o b-song o b-artist
+Spotify	PlaySongByArtist	play norman fucking rockwell by alex cameron	o b-song i-song i-song o b-artist i-artist
+Spotify	PlaySongByArtist	play the song venus in furs by thee oh sees on spotify	o o o b-song i-song i-song o b-artist i-artist i-artist o o
+Spotify	PlayAlbumOfTypeByArtist	on spotify play this is how you smile stamina by andy stott	o o o b-album i-album i-album i-album i-album b-album o b-artist i-artist
+Spotify	PlayAlbumOfTypeByArtist	play the careful return to center by unknown mortal orchestra on spotify	o o b-album b-album i-album i-album o b-artist i-artist i-artist o o
+Spotify	Pause	play spotify	o o
+Spotify	Pause	play that track	o o o
+Spotify	Pause	pause this track	o o o
+Spotify	Pause	repeat that track	o o o
+Spotify	NextSong	play the next track on spotify	o o o o o o
+Spotify	NextSong	skip this song	o o o
+Spotify	PreviousSong	go back to the last track	o o o o o o
+Spotify	PreviousSong	play the previous song	o o o o
+Spotify	PlayPlaylist	play the my playlist modern chill rock on spotify	o o o o b-playlist i-playlist i-playlist o o
+Spotify	PlayPlaylist	play a piano study playlist on spotify	o o b-playlist i-playlist o o o
+Spotify	AddSongToPlaylistWithName	add to playlist undercurrents	o o o b-playlist
+Spotify	AddSongToPlaylistWithName	add that song to my playlist jukebox joint on spotify	o o o o o o b-playlist i-playlist o o
+Spotify	AddSongToPlaylistWithName	add currently playing to soulfull disco playlist on spotify	o o o o b-playlist i-playlist o o o
+Spotify	AddSongToPlaylistWithName	save track to my playlist your office stereo on spotify	o o o o o b-playlist i-playlist i-playlist o o
+Spotify	AddSongToPlaylistWithName	save currently playing track to modernism 50 playlist on spotify	o o o o o b-playlist i-playlist o o o
+Spotify	AddSongWithNameToPlaylistWithName	add track custom concern to playlist feeling blue on spotify	o o b-song i-song o o b-playlist i-playlist o o
+Spotify	AddSongWithNameToPlaylistWithName	add the track fantas to playlist your coffee break	o o o b-song o o b-playlist i-playlist i-playlist
+Spotify	AddSongWithNameToPlaylistWithName	add a track of the past to my playlist dreampop	o o o b-song i-song i-song o o o b-playlist
+Spotify	AddSongWithNameToPlaylistWithName	save a track hit man to playlist fresh dance tracks on spotify	o o o b-song i-song o o b-playlist i-playlist i-playlist o o
+Spotify	AddAlbumToPlaylist	add that desire to my playlist the essential ska on spotify	o o b-album i-album i-album i-album b-playlist i-playlist i-playlist o o
+Spotify	AddAlbumToPlaylist	add that girl with basket of fruits to my bach switched on playlist	o o b-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist i-playlist o
+Spotify	AddAlbumToPlaylist	add that data horde to my workday soul playlist on spotify	o o b-album i-album i-album i-album b-playlist i-playlist o o o
+Spotify	AddAlbumToPlaylist	save this sirens to sweat	o o b-album i-album b-playlist
+Spotify	AddAlbumToPlaylist	save this heard of a dog to peaceful piano on spotify	o o b-album i-album i-album i-album i-album b-playlist i-playlist o o
+Spotify	AddAlbumToPlaylist	save this fear inoculum to playlist pure rock and roll	o o b-album i-album i-album i-album b-playlist i-playlist i-playlist i-playlist
+Spotify	CreatePlaylist	create a new list	o o o o
+Spotify	CreatePlaylist	make new list	o o o
+Spotify	CreatePlaylist	add a new playlist	o o o o
+Spotify	CreatePlaylistWithName	create a playlist named road trip to tokyo	o o o o b-playlist i-playlist i-playlist i-playlist
+Spotify	CreatePlaylistWithName	make a playlist named legendary	o o o o b-playlist
+Spotify	CreatePlaylistWithName	add a playlist named sunrise yoga	o o o o b-playlist i-playlist
+Spotify	AddSongToPlaylist	save current track	o o o
+Spotify	SeekByTime	skip to 3 seconds	o o b-seek_time o
+Spotify	ShuffleOnOff	turn shuffle off	o o b-state
+Spotify	RepeatOnOff	turn repeat on	o o b-state
+Spotify	ShowDencability	how danceable is current song	o o o o o
+Spotify	ShowDencability	how dancey is this track	o o o o o
+Spotify	ShowDencability	danceability of this song	o o o o
+Spotify	ShowDencability	the danceability of that track	o o o o o
+Translate	SetDefaultLanguage	set default output language to polish	o o o o o b-all_lang
+Translate	SetDefaultLanguage	change language to german	o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	set default source language to hawaiian	o o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	change input language to hindi	o o o o b-all_lang
+Translate	TranslateText	the translation of do you have anything quieter	o o o b-text i-text i-text i-text i-text
+Translate	TranslateText	how do you say i lost my bag	o o o o b-text i-text i-text i-text
+Translate	TranslateTextToLanguage	translation of how much is that into finish	o o b-text i-text i-text i-text o b-trg_lang
+Translate	TranslateTextToLanguage	how do you say saturday in thai	o o o o b-text o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translate do you speak english from english to italian	o b-text i-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translate zakaz parkowania from polish to spanish	o b-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translate ich heiße karl from german to italian	o b-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translate no lo quiero from spanish to italian	o b-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translate sera from italian to french	o b-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translate un demi s'il-vous-plaît from french to italian	o b-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	translation of is there someone here who speaks english to polish from english	o o b-text i-text i-text i-text i-text i-text i-text o b-trg_lang o b-src_lang
+Translate	TranslateTextFromLanguageToLanguage	translation of las to french from polish	o o b-text o b-trg_lang o b-src_lang
+Translate	TranslateTextFromLanguageToLanguage	translation of che cos'è to german from italian	o o b-text i-text o b-trg_lang o b-src_lang
+Translate	TranslateTextFromLanguageToLanguage	the translation of zachód to french from polish	o o o b-text o b-trg_lang o b-src_lang
+Translate	TranslateTextFromLanguageToLanguage	the translation of dónde puedo obtener un talón de viajero cambiado from spanish to italian	o o o b-text i-text i-text i-text i-text i-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguage	the translation of fais de beaux reves from french to german	o o o b-text i-text i-text i-text o b-src_lang o b-trg_lang
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translate you're welcome from english to french with yandex	o b-text i-text o b-src_lang o b-trg_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translate nie mówię po polsku to english from polish with deepl	o b-text i-text i-text i-text o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translate märz to italian from german with yandex	o b-text o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translate venerdì to polish from italian with google	o b-text o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translation of half a liter please from english to italian with deepl	o o b-text i-text i-text i-text o b-src_lang o b-trg_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translation of lipiec to english from polish with deepl	o o b-text o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translation of aceptan tarjetas de crédito to english from spanish with google	o o b-text i-text i-text i-text o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	translation of où puis-je faire le change to polish from french with deepl	o o b-text i-text i-text i-text i-text o b-trg_lang o b-src_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	the translation of kurczaka from polish to italian with google	o o o b-text o b-src_lang o b-trg_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	the translation of cuando es la hora de cerrar from spanish to french with microsoft	o o o b-text i-text i-text i-text i-text i-text o b-src_lang o b-trg_lang o b-translator
+Translate	TranslateTextFromLanguageToLanguageWithEngine	the translation of à quelle heure fermez-vous from french to english with microsoft	o o o b-text i-text i-text i-text o b-src_lang o b-trg_lang o b-translator
+Translate	TranslateToLanguage	translate to russian	o o b-trg_lang
+Translate	TranslateToLanguage	translate to italian	o o b-trg_lang
+Translate	TranslateTextFromLanguage	the translation of italian sentence ho una domanda	o o o b-src_lang o b-text i-text i-text
+Translate	TranslateTextFromLanguage	translation of german sentence bier	o o b-src_lang o b-text
+Translate	TranslateTextFromLanguage	translate pouvez-vous me faire le change sur un traveler's chèque from french	o b-text i-text i-text i-text i-text i-text i-text i-text i-text o b-src_lang
+Translate	DetectLanguage	language of adiós is written in	o o b-text o o o
+Translate	DetectLanguage	detect what language mille is written in	o o o b-text o o o
+Twitter	OpenTwitter	show tweets i made	o o o o
+Twitter	OpenTwitter	display my tweets	o o o
+Twitter	FollowUser	be a twitter follower of myntmag	o o o o o b-username
+Twitter	UnfollowUser	stop following convalid1 on twitter	o o b-username o o
+Twitter	SendMessage	direct message on twitter saying think of me think of me fondly	o o o o o b-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	message on twitter saying i lost two followers	o o o o b-message i-message i-message i-message
+Twitter	SendMessage	send a direct message on twitter saying for me to be so tired	o o o o o o o b-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	message on twitter to summerbabe16 saying rip clevland	o o o o b-username o b-message i-message
+Twitter	SendMessageToUser	send a message on twitter to valovanity saying omg now it's leaving on a jet plane	o o o o o o b-username o b-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	ShowTwittsWithHashtag	display tweets about salsa4change	o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	display tweets with hashtag bloodymarytime on twitter	o o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	display tweets with hashtag dialoguesthatsux on twitter	o o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	find tweets about myweakness	o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	find tweets with hashtag saintjohn	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	show tweets with hashtag weightwatchers on twitter	o o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	tweets about crocsfeelgood01	o o b-hashtag
+Weather	OpenWeather	the weather outside	o o o
+Weather	WeatherTomorrow	tomorrow weather	o o
+Weather	MoonphaseInLocation	moon phase for location dakar	o o o o b-location
+Weather	MoonphaseInLocationOnDate	moon phase for barnsdall on date 30 january	o o o b-location o o b-date i-date
+Weather	SunriseAndSunsetInLocation	sunrise and sunset times at east fultonham	o o o o o b-location i-location
+Weather	SunriseAndSunsetInLocationAndOnDate	sunrise and sunset for location dos rios on date 7 september	o o o o o b-location i-location o o b-date i-date
+Weather	SunriseInLocation	sunrise at jonas ridge	o o b-location i-location
+Weather	SunsetInLocation	sunset time at great lakes	o o o b-location i-location
+Weather	WeatherInLocation	current weather at tangipahoa	o o o b-location
+Weather	WeatherInLocation	the current weather at kinston	o o o o b-location
+Weather	WeatherTomorrowInLocation	current weather at pebble beach tomorrow	o o o b-location i-location o
+Weather	WeatherTomorrowInLocation	weather at french camp tomorrow	o o b-location i-location o
+Websearch	OpenEngine	web search	o o
+Websearch	SearchText	pages matching progress book	o o b-txt_query i-txt_query
+Websearch	SearchText	websites matching repackaging fan	o o b-txt_query i-txt_query
+Websearch	SearchTextOnEngine	cast of game of thrones on google	b-txt_query i-txt_query i-txt_query i-txt_query i-txt_query o o
+Websearch	SearchTextOnEngine	bing agario	o b-txt_query
+Websearch	SearchTextOnEngine	google dollar shave club	o b-txt_query i-txt_query i-txt_query
+Websearch	SearchImagesWithTextOnEngine	images matching joker wallpaper from bing	o o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	cats images on google	b-img_query o o o
+Websearch	SearchImagesOnEngine	search images on duckduckgo	o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	images from duckduckgo matching reflection nebula with size 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching lebron 11 wider than 800	o o o o b-img_query i-img_query o o o
+Wikipedia	OpenWikipedia	open wikipedia definition	o o o
+Wikipedia	SearchQuery	statue of zeus at olympia in wiki	b-query i-query i-query i-query i-query o o
+Wikipedia	SearchQuery	kanye west in wikipedia	b-query i-query o o
+Wikipedia	SearchQuery	find the art of war on wiki	o b-query i-query i-query i-query o o
+Wikipedia	ScrollDown	scroll one page down	o o o o
+Wikipedia	ScrollUp	scroll one page up	o o o o
+Wikipedia	DownloadAsPdf	download that article as pdf	o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language to english	o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this page to portuguese	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this page in italian	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this article in portuguese	o o o o o
+Wikipedia	RandomPage	random page	o o
+Wikipedia	GoToElementNumber	go to second item from contents	o o o o o o
+Wikipedia	GoToElementNumber	go to tenth item in contents	o o o o o o
+Yelp	SearchRestaurant	find restaurant nearby	o o o
+Yelp	SearchRestaurant	search restaurants on yelp	o o o o
+Yelp	SearchByQuery	coffee shop	b-query i-query
+Yelp	SearchByRating	3 star restaurants on yelp	b-rating o o o o
+Yelp	SearchByCategory	french restaurants around here	b-category o o o
+Yelp	OpenRestaurants	restaurants open now	o o o
+Yelp	SearchByReviewCount	restaurants here reviewed by at least 100 people	o o o o o o b-review_count o
+Yelp	OpenRestaurantsInLocation	open restaurants near kreuzberg	o o o b-location
+Yelp	OpenRestaurantsInLocation	restaurants still open around ravenden springs	o o o o b-location i-location
+Yelp	SearchByCategoryInLocation	japanease food around hanlontown	b-category o o b-location
+Yelp	SearchByCategoryInLocation	french restaurants near west leyden	b-category o o b-location i-location
+Yelp	SearchByQueryInLocation	lorain county sushi around nelsonia	b-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	pizza near evart on yelp	b-query o b-location o o
+Yelp	SearchByRatingInLocation	3 star restaurants around schofield barracks	b-rating o o o b-location i-location
+Yelp	SearchByRatingInLocation	4 star restaurants in mount lemmon	b-rating o o o b-location i-location
+Yelp	SearchByRatingInLocation	restaurants nearby with at least 3 star rating near cincinnatus	o o o o o b-rating o o o b-location
+Yelp	SearchByReviewCountInLocation	restaurants around tokio reviewed by at least 1000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near inarajan reviewed by more than 1000 people	o o b-location o o o o b-review_count o
+Yelp	SearchInLocation	restaurants around mill run	o o b-location i-location
+Yelp	SearchInLocation	restaurants next to santa rita park	o o o b-location i-location i-location
+Youtube	OpenYT	open youtube app	o o o
+Youtube	FindQuery	find jacksepticeye on youtube	o b-query o o
+Youtube	FindQuery	find a video matching china crowded pics on youtube	o o o o b-query i-query i-query o o
+Youtube	FindQuery	look for 1995 jeep radio repair videos videos on youtube	o o b-query i-query i-query i-query i-query o o o
+Youtube	FindQuery	play unfreezing frozen pipes video on youtube	o b-query i-query i-query o o o
+Youtube	FindQuery	search for youtube video dubstep	o o o o b-query
+Youtube	ShowChannelWithName	show youtube channel pewdiepie	o o o b-channel_id
+Youtube	ShowChannelWithCategory	display youtube 's comedy channels	o o o b-category o
+Youtube	ShowSubscribedChannels	show me channels I am subscribed to on youtube app	o o o o o o o o o o
+Youtube	ShowFollowing	show me youtube channels i follow	o o o o o o
+Youtube	FindChannelWithQuery	look for rockabye baby rockabye baby song channels on youtube	o o b-query i-query i-query i-query i-query o o o
+Youtube	FindChannelWithQuery	search for youtube channel taylor swift	o o o o b-query i-query
+Youtube	FindQueryOnChannel	show a video from niki and gabi matching seinfeld on youtube	o o o o b-channel_id i-channel_id i-channel_id o b-query o o
+Youtube	FindQueryOnChannel	show me a video from cineamasin matching lipstick on youtube	o o o o o b-channel_id o b-query o o
+Youtube	FindQueryOnChannel	show me a videos published by wwe matching great gatsby on youtube	o o o o o o b-channel_id o b-query i-query o o
+Youtube	NotifyOnNewFromFollowing	notify me when there is new video from youtube channels I follow	o o o o o o o o o o o o
+Youtube	NotifyonNewOnChannel	notify me when there is new video from youtube channel unbox therapy	o o o o o o o o o o b-channel_id i-channel_id
