@@ -1,25 +1,106 @@
 domain	intent	parallel	pattern
+Contacts	OpenContacts	-	show contacts
 Contacts	OpenContacts	-	show my contacts
+Contacts	OpenContacts	-	display contacts
 Contacts	OpenContacts	-	display my contacts
+Contacts	OpenContacts	-	open contacts
 Contacts	OpenContacts	-	open my contacts
+Contacts	OpenContacts	-	find contacts
+Contacts	OpenContacts	-	find my contacts
+Contacts	OpenMyContact	-	show contact's info
 Contacts	OpenMyContact	-	show my contact's info
+Contacts	OpenMyContact	-	display contact's info
 Contacts	OpenMyContact	-	display my contact's info
+Contacts	OpenMyContact	-	open contact's info
 Contacts	OpenMyContact	-	open my contact's info
+Contacts	OpenMyContact	-	find contact's info
+Contacts	OpenMyContact	-	find my contact's info
+Contacts	ShowContactWithEmail	-	show contacts with email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	show google contacts with email CONTACTS.SLOT.EMAIL
 Contacts	ShowContactWithEmail	-	show my contacts with email CONTACTS.SLOT.EMAIL
 Contacts	ShowContactWithEmail	-	show my google contacts with email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	display contacts with email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	display google contacts with email CONTACTS.SLOT.EMAIL
 Contacts	ShowContactWithEmail	-	display my contacts with email CONTACTS.SLOT.EMAIL
 Contacts	ShowContactWithEmail	-	display my google contacts with email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	open contacts with email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	open google contacts with email CONTACTS.SLOT.EMAIL
 Contacts	ShowContactWithEmail	-	open my contacts with email CONTACTS.SLOT.EMAIL
 Contacts	ShowContactWithEmail	-	open my google contacts with email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumber	-	show my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	-	display my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	-	open my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithName	-	show my contacts with name CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	-	display my contacts with name CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	-	open my contacts with name CONTACTS.SLOT.NAME
-Contacts	ShowContactWithNumberAndWithEmail	-	show my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	-	display my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	-	open my contacts with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	find contacts with email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	find google contacts with email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	find my contacts with email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	find my google contacts with email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumber	-	show contact with the phone number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	show my contact with the phone number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	display contact with the phone number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	display my contact with the phone number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	open contact with the phone number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	open my contact with the phone number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	find contact with the phone number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	find my contact with the phone number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithName	-	show contact called CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	show contact named CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	show contact with the name CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	show my contact called CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	show my contact named CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	show my contact with the name CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	display contact called CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	display contact named CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	display contact with the name CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	display my contact called CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	display my contact named CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	display my contact with the name CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	open contact called CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	open contact named CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	open contact with the name CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	open my contact called CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	open my contact named CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	open my contact with the name CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	find contact called CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	find contact named CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	find contact with the name CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	find my contact called CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	find my contact named CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	find my contact with the name CONTACTS.SLOT.NAME
+Contacts	ShowContactWithNumberAndWithEmail	-	show contact with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	show my contact with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	display contact with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	display my contact with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	open contact with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	open my contact with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	find contact with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	find my contact with phone number CONTACTS.SLOT.PHONE_NUMBER and email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and name it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and name it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and name it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and name it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and name it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and name it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and name it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and name it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and name it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and name it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact using a name CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact using a name CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact using a name CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact using a name CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact using a name CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact using a name CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact using a name CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact using a name CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact using a name CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact using a name CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and call it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and call it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and call it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and call it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and call it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and call it CONTACTS.SLOT.NAME with the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and call it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and call it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and call it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	add a new contact and call it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
 Contacts	ShowContactWithNameAndWithNumberAndWithType	-	create a new contact and name it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER
 Contacts	ShowContactWithNameAndWithNumberAndWithType	-	create a new contact and name it CONTACTS.SLOT.NAME with number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
 Contacts	ShowContactWithNameAndWithNumberAndWithType	-	create a new contact and name it CONTACTS.SLOT.NAME with a number CONTACTS.SLOT.PHONE_NUMBER
@@ -50,8 +131,20 @@ Contacts	ShowContactWithNameAndWithNumberAndWithType	-	create a new contact and 
 Contacts	ShowContactWithNameAndWithNumberAndWithType	-	create a new contact and call it CONTACTS.SLOT.NAME and give it a number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
 Contacts	ShowContactWithNameAndWithNumberAndWithType	-	create a new contact and call it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER
 Contacts	ShowContactWithNameAndWithNumberAndWithType	-	create a new contact and call it CONTACTS.SLOT.NAME and add the number CONTACTS.SLOT.PHONE_NUMBER as CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditContactWithName	-	edit contact CONTACTS.SLOT.NAME
 Contacts	EditContactWithName	-	edit my contact CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	modify contact CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	modify my contact CONTACTS.SLOT.NAME
 Contacts	EditContactWithName	-	open my contact CONTACTS.SLOT.NAME for edition
-Contacts	EditContactWithNumber	-	change the name of my contact with number CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditNumberInContactWithName	-	change the number of my contact CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	-	set the number CONTACTS.SLOT.PHONE_NUMBER in contact CONTACTS.SLOT.NAME as CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditContactWithNumber	-	change the name of my contact with the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	change the name of the contact with the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	modify the name of my contact with the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	modify the name of the contact with the number CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditNumberInContactWithName	-	change the number of my contact called CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	change the number of the contact called CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	set the number CONTACTS.SLOT.PHONE_NUMBER for CONTACTS.SLOT.NAME as CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	set the number CONTACTS.SLOT.PHONE_NUMBER for the contact CONTACTS.SLOT.NAME as CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	add the number CONTACTS.SLOT.PHONE_NUMBER for CONTACTS.SLOT.NAME as CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	add the number CONTACTS.SLOT.PHONE_NUMBER for the contact CONTACTS.SLOT.NAME as CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	modify the number CONTACTS.SLOT.PHONE_NUMBER for CONTACTS.SLOT.NAME as CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	modify the number CONTACTS.SLOT.PHONE_NUMBER for the contact CONTACTS.SLOT.NAME as CONTACTS.SLOT.PHONE_TYPE

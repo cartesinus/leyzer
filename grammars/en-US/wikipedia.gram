@@ -7,8 +7,8 @@ public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> 
 
 #find given query on wikipedia
 <INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
-<INTENT_2_a> = (find | search) <QUERY> on (wiki | wikipedia);
-<INTENT_2_b> = <QUERY> [matching] in (wiki | wikipedia);
+<INTENT_2_a> = (find | search for) <QUERY> on (wiki | wikipedia);
+<INTENT_2_b> = <QUERY> [matching] on (wiki | wikipedia);
 
 #scroll down
 <INTENT_3> = page down | scroll down;

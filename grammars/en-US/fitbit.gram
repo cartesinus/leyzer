@@ -36,5 +36,5 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 <WEIGHT> = FITBIT.SLOT.WEIGHT;
 
 #LANG. COMPONENTS
-<RETRIEVE_VERB> = get;
+<RETRIEVE_VERB> = get | find | show;
 <NOTIFY_VERB> = notify | tell;

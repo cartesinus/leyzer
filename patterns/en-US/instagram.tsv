@@ -9,6 +9,10 @@ Instagram	ShowPictures	-	list my instagram pictures
 Instagram	ShowPictures	-	list my recent instagram pictures
 Instagram	ShowPictures	-	show me my instagram pictures
 Instagram	ShowPictures	-	show me my recent instagram pictures
+Instagram	ShowPictures	-	find my instagram pictures
+Instagram	ShowPictures	-	find my recent instagram pictures
+Instagram	ShowPictures	-	search for my instagram pictures
+Instagram	ShowPictures	-	search for my recent instagram pictures
 Instagram	ShowLastNumberPictures	-	show my INSTAGRAM.SLOT.COUNT recent instagram pictures
 Instagram	ShowLastNumberPictures	-	show my INSTAGRAM.SLOT.COUNT recent instagram pictures on my account
 Instagram	ShowLastNumberPictures	-	show my INSTAGRAM.SLOT.COUNT latest instagram pictures
@@ -25,6 +29,14 @@ Instagram	ShowLastNumberPictures	-	show me my INSTAGRAM.SLOT.COUNT recent instag
 Instagram	ShowLastNumberPictures	-	show me my INSTAGRAM.SLOT.COUNT recent instagram pictures on my account
 Instagram	ShowLastNumberPictures	-	show me my INSTAGRAM.SLOT.COUNT latest instagram pictures
 Instagram	ShowLastNumberPictures	-	show me my INSTAGRAM.SLOT.COUNT latest instagram pictures on my account
+Instagram	ShowLastNumberPictures	-	find my INSTAGRAM.SLOT.COUNT recent instagram pictures
+Instagram	ShowLastNumberPictures	-	find my INSTAGRAM.SLOT.COUNT recent instagram pictures on my account
+Instagram	ShowLastNumberPictures	-	find my INSTAGRAM.SLOT.COUNT latest instagram pictures
+Instagram	ShowLastNumberPictures	-	find my INSTAGRAM.SLOT.COUNT latest instagram pictures on my account
+Instagram	ShowLastNumberPictures	-	search for my INSTAGRAM.SLOT.COUNT recent instagram pictures
+Instagram	ShowLastNumberPictures	-	search for my INSTAGRAM.SLOT.COUNT recent instagram pictures on my account
+Instagram	ShowLastNumberPictures	-	search for my INSTAGRAM.SLOT.COUNT latest instagram pictures
+Instagram	ShowLastNumberPictures	-	search for my INSTAGRAM.SLOT.COUNT latest instagram pictures on my account
 Instagram	ShowPicturesWithFilter	-	show my instagram pictures with filter INSTAGRAM.SLOT.FILTER
 Instagram	ShowPicturesWithFilter	-	show my instagram pictures that use filter INSTAGRAM.SLOT.FILTER
 Instagram	ShowPicturesWithFilter	-	show my instagram pictures that have the INSTAGRAM.SLOT.FILTER filter
@@ -41,6 +53,14 @@ Instagram	ShowPicturesWithFilter	-	show me my instagram pictures with filter INS
 Instagram	ShowPicturesWithFilter	-	show me my instagram pictures that use filter INSTAGRAM.SLOT.FILTER
 Instagram	ShowPicturesWithFilter	-	show me my instagram pictures that have the INSTAGRAM.SLOT.FILTER filter
 Instagram	ShowPicturesWithFilter	-	show me my instagram pictures that have the INSTAGRAM.SLOT.FILTER filter applied
+Instagram	ShowPicturesWithFilter	-	find my instagram pictures with filter INSTAGRAM.SLOT.FILTER
+Instagram	ShowPicturesWithFilter	-	find my instagram pictures that use filter INSTAGRAM.SLOT.FILTER
+Instagram	ShowPicturesWithFilter	-	find my instagram pictures that have the INSTAGRAM.SLOT.FILTER filter
+Instagram	ShowPicturesWithFilter	-	find my instagram pictures that have the INSTAGRAM.SLOT.FILTER filter applied
+Instagram	ShowPicturesWithFilter	-	search for my instagram pictures with filter INSTAGRAM.SLOT.FILTER
+Instagram	ShowPicturesWithFilter	-	search for my instagram pictures that use filter INSTAGRAM.SLOT.FILTER
+Instagram	ShowPicturesWithFilter	-	search for my instagram pictures that have the INSTAGRAM.SLOT.FILTER filter
+Instagram	ShowPicturesWithFilter	-	search for my instagram pictures that have the INSTAGRAM.SLOT.FILTER filter applied
 Instagram	ShowPicturesWithLocation	-	show the instagram pictures i took in INSTAGRAM.SLOT.LOCATION
 Instagram	ShowPicturesWithLocation	-	show the instagram pictures i took when i was in INSTAGRAM.SLOT.LOCATION
 Instagram	ShowPicturesWithLocation	-	show the instagram pictures taken in INSTAGRAM.SLOT.LOCATION
@@ -105,10 +125,44 @@ Instagram	ShowPicturesWithLocation	-	show me my instagram pictures tagged with l
 Instagram	ShowPicturesWithLocation	-	show me my instagram pictures with location tag INSTAGRAM.SLOT.LOCATION
 Instagram	ShowPicturesWithLocation	-	show me my instagram pictures with geolocation tag INSTAGRAM.SLOT.LOCATION
 Instagram	ShowPicturesWithLocation	-	show me my instagram pictures with gps tag INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find the instagram pictures i took in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find the instagram pictures i took when i was in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find the instagram pictures taken in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find the instagram pictures taken when i was in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find the instagram pictures tagged with location INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find the instagram pictures with location tag INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find the instagram pictures with geolocation tag INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find the instagram pictures with gps tag INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find my instagram pictures i took in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find my instagram pictures i took when i was in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find my instagram pictures taken in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find my instagram pictures taken when i was in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find my instagram pictures tagged with location INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find my instagram pictures with location tag INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find my instagram pictures with geolocation tag INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	find my instagram pictures with gps tag INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for the instagram pictures i took in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for the instagram pictures i took when i was in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for the instagram pictures taken in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for the instagram pictures taken when i was in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for the instagram pictures tagged with location INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for the instagram pictures with location tag INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for the instagram pictures with geolocation tag INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for the instagram pictures with gps tag INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for my instagram pictures i took in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for my instagram pictures i took when i was in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for my instagram pictures taken in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for my instagram pictures taken when i was in INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for my instagram pictures tagged with location INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for my instagram pictures with location tag INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for my instagram pictures with geolocation tag INSTAGRAM.SLOT.LOCATION
+Instagram	ShowPicturesWithLocation	-	search for my instagram pictures with gps tag INSTAGRAM.SLOT.LOCATION
 Instagram	ShowPicturesWithHashtag	-	show my instagram pictures tagged INSTAGRAM.SLOT.HASHTAG
 Instagram	ShowPicturesWithHashtag	-	display my instagram pictures tagged INSTAGRAM.SLOT.HASHTAG
 Instagram	ShowPicturesWithHashtag	-	list my instagram pictures tagged INSTAGRAM.SLOT.HASHTAG
 Instagram	ShowPicturesWithHashtag	-	show me my instagram pictures tagged INSTAGRAM.SLOT.HASHTAG
+Instagram	ShowPicturesWithHashtag	-	find my instagram pictures tagged INSTAGRAM.SLOT.HASHTAG
+Instagram	ShowPicturesWithHashtag	-	search for my instagram pictures tagged INSTAGRAM.SLOT.HASHTAG
 Instagram	PostWithPicturesFromDateAndWithLocation	-	create a post on instagram with all my photos taken in INSTAGRAM.SLOT.LOCATION on the INSTAGRAM.SLOT.DATE_DAY as a collage
 Instagram	PostWithPicturesFromDateAndWithLocation	-	create a post on instagram with all my photos taken in INSTAGRAM.SLOT.LOCATION in INSTAGRAM.SLOT.DATE_MONTH as a collage
 Instagram	PostWithPicturesFromDateAndWithLocation	-	create a new post on instagram with all my photos taken in INSTAGRAM.SLOT.LOCATION on the INSTAGRAM.SLOT.DATE_DAY as a collage
@@ -129,6 +183,14 @@ Instagram	ShowPicturesFromDate	-	show me my post from the INSTAGRAM.SLOT.DATE_DA
 Instagram	ShowPicturesFromDate	-	show me my post from INSTAGRAM.SLOT.DATE_MONTH
 Instagram	ShowPicturesFromDate	-	show me my posts from the INSTAGRAM.SLOT.DATE_DAY
 Instagram	ShowPicturesFromDate	-	show me my posts from INSTAGRAM.SLOT.DATE_MONTH
+Instagram	ShowPicturesFromDate	-	find my post from the INSTAGRAM.SLOT.DATE_DAY
+Instagram	ShowPicturesFromDate	-	find my post from INSTAGRAM.SLOT.DATE_MONTH
+Instagram	ShowPicturesFromDate	-	find my posts from the INSTAGRAM.SLOT.DATE_DAY
+Instagram	ShowPicturesFromDate	-	find my posts from INSTAGRAM.SLOT.DATE_MONTH
+Instagram	ShowPicturesFromDate	-	search for my post from the INSTAGRAM.SLOT.DATE_DAY
+Instagram	ShowPicturesFromDate	-	search for my post from INSTAGRAM.SLOT.DATE_MONTH
+Instagram	ShowPicturesFromDate	-	search for my posts from the INSTAGRAM.SLOT.DATE_DAY
+Instagram	ShowPicturesFromDate	-	search for my posts from INSTAGRAM.SLOT.DATE_MONTH
 Instagram	TakePicture	-	take a picture using instagram
 Instagram	TakePicture	-	take a picture with instagram
 Instagram	PostWithLastPictureWithLocationAndWithHashtag	-	create a post on instagram with the last photo from Gallery

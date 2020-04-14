@@ -13,8 +13,8 @@ public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | P
 <INTENT_1> = (post something on facebook | make a new facebook post | update my facebook status | make a new post on facebook);
 
 <INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>; 
-<INTENT_2_a> = post <STATUS> on facebook;
-<INTENT_2_b> = post on facebook (saying | that) <STATUS>;
+<INTENT_2_a> = (write | post) a status <STATUS> on facebook;
+<INTENT_2_b> = (write | post) on facebook [saying | that] <STATUS>;
 <INTENT_2_c> = update my facebook (status | page) saying <STATUS>;
 <INTENT_2_d> = make a new post (that says | containing) <STATUS> on facebook;
 
@@ -28,7 +28,7 @@ public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | P
 
 <INTENT_6> = ((post | put) <PICTURE_URL> on [my] facebook with caption <CAPTION>) | caption <PICTURE_URL> as <CAPTION> and (post | upload) it on facebook;
 
-<INTENT_7> = (show | diplay) photos in [my] album <ALBUM> [on facebook];
+<INTENT_7> = (show | diplay | find | search for) [my] photos in [my] album <ALBUM> [on facebook];
 
 #SLOTS
 <ALBUM> = FACEBOOK.SLOT.ALBUM;

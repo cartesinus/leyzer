@@ -61,6 +61,12 @@ Email	ShowEmailWithLabel	-	find emails that have label EMAIL.SLOT.LABEL
 Email	ShowEmailWithLabel	-	find my emails labelled EMAIL.SLOT.LABEL
 Email	ShowEmailWithLabel	-	find my emails with label EMAIL.SLOT.LABEL
 Email	ShowEmailWithLabel	-	find my emails that have label EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	search for emails labelled EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	search for emails with label EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	search for emails that have label EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	search for my emails labelled EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	search for my emails with label EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	search for my emails that have label EMAIL.SLOT.LABEL
 Email	ShowEmailFromTime	-	show me emails arrived EMAIL.SLOT.TIME
 Email	ShowEmailFromTime	-	show me emails that arrived EMAIL.SLOT.TIME
 Email	ShowEmailFromTime	-	show me my emails arrived EMAIL.SLOT.TIME
@@ -77,6 +83,10 @@ Email	ShowEmailFromTime	-	find emails arrived EMAIL.SLOT.TIME
 Email	ShowEmailFromTime	-	find emails that arrived EMAIL.SLOT.TIME
 Email	ShowEmailFromTime	-	find my emails arrived EMAIL.SLOT.TIME
 Email	ShowEmailFromTime	-	find my emails that arrived EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	search for emails arrived EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	search for emails that arrived EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	search for my emails arrived EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	search for my emails that arrived EMAIL.SLOT.TIME
 Email	ShowEmailWithSubject	-	show me emails with subject EMAIL.SLOT.SUBJECT
 Email	ShowEmailWithSubject	-	show me my emails with subject EMAIL.SLOT.SUBJECT
 Email	ShowEmailWithSubject	-	get emails with subject EMAIL.SLOT.SUBJECT
@@ -85,6 +95,8 @@ Email	ShowEmailWithSubject	-	display emails with subject EMAIL.SLOT.SUBJECT
 Email	ShowEmailWithSubject	-	display my emails with subject EMAIL.SLOT.SUBJECT
 Email	ShowEmailWithSubject	-	find emails with subject EMAIL.SLOT.SUBJECT
 Email	ShowEmailWithSubject	-	find my emails with subject EMAIL.SLOT.SUBJECT
+Email	ShowEmailWithSubject	-	search for emails with subject EMAIL.SLOT.SUBJECT
+Email	ShowEmailWithSubject	-	search for my emails with subject EMAIL.SLOT.SUBJECT
 Email	ShowEmailWithPriority	-	display EMAIL.SLOT.PRIORITY emails
 Email	ShowEmailWithPriority	-	get me EMAIL.SLOT.PRIORITY emails
 Email	ShowEmailWithPriority	-	get my EMAIL.SLOT.PRIORITY emails

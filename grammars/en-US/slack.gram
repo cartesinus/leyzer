@@ -93,5 +93,5 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 <TOPIC> = SLACK.SLOT.TOPIC;
 
 #LANG. COMPONENTS
-<CHECK_VERB> = check | get;
+<CHECK_VERB> = check | get | find (my | the) | search for (my | the);
 <SEND_VERB> = post | send | upload;

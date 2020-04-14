@@ -11,6 +11,14 @@ Slack	CheckLastMessages	-	check my last slack messages
 Slack	CheckLastMessages	-	check my slack channel history
 Slack	CheckLastMessages	-	get my last slack messages
 Slack	CheckLastMessages	-	get my slack channel history
+Slack	CheckLastMessages	-	find my my last slack messages
+Slack	CheckLastMessages	-	find my my slack channel history
+Slack	CheckLastMessages	-	find the my last slack messages
+Slack	CheckLastMessages	-	find the my slack channel history
+Slack	CheckLastMessages	-	search for my my last slack messages
+Slack	CheckLastMessages	-	search for my my slack channel history
+Slack	CheckLastMessages	-	search for the my last slack messages
+Slack	CheckLastMessages	-	search for the my slack channel history
 Slack	CheckUserStatus	-	check the presence of SLACK.SLOT.USERNAME on slack
 Slack	CheckUserStatus	-	check whether SLACK.SLOT.USERNAME is active on slack
 Slack	CheckUserStatus	-	check whether SLACK.SLOT.USERNAME is away on slack
@@ -18,12 +26,32 @@ Slack	CheckMessagesFromUser	-	check recent messages from SLACK.SLOT.SENDER in sl
 Slack	CheckMessagesFromUser	-	check messages i received on slack from SLACK.SLOT.SENDER
 Slack	CheckMessagesFromUser	-	get recent messages from SLACK.SLOT.SENDER in slack
 Slack	CheckMessagesFromUser	-	get messages i received on slack from SLACK.SLOT.SENDER
+Slack	CheckMessagesFromUser	-	find my recent messages from SLACK.SLOT.SENDER in slack
+Slack	CheckMessagesFromUser	-	find my messages i received on slack from SLACK.SLOT.SENDER
+Slack	CheckMessagesFromUser	-	find the recent messages from SLACK.SLOT.SENDER in slack
+Slack	CheckMessagesFromUser	-	find the messages i received on slack from SLACK.SLOT.SENDER
+Slack	CheckMessagesFromUser	-	search for my recent messages from SLACK.SLOT.SENDER in slack
+Slack	CheckMessagesFromUser	-	search for my messages i received on slack from SLACK.SLOT.SENDER
+Slack	CheckMessagesFromUser	-	search for the recent messages from SLACK.SLOT.SENDER in slack
+Slack	CheckMessagesFromUser	-	search for the messages i received on slack from SLACK.SLOT.SENDER
 Slack	CheckMessagesInChannel	-	check recent slack messages in SLACK.SLOT.CHANNEL
 Slack	CheckMessagesInChannel	-	check messages i received on slack in SLACK.SLOT.CHANNEL
 Slack	CheckMessagesInChannel	-	check slack messages in SLACK.SLOT.CHANNEL i received in the last hour
 Slack	CheckMessagesInChannel	-	get recent slack messages in SLACK.SLOT.CHANNEL
 Slack	CheckMessagesInChannel	-	get messages i received on slack in SLACK.SLOT.CHANNEL
 Slack	CheckMessagesInChannel	-	get slack messages in SLACK.SLOT.CHANNEL i received in the last hour
+Slack	CheckMessagesInChannel	-	find my recent slack messages in SLACK.SLOT.CHANNEL
+Slack	CheckMessagesInChannel	-	find my messages i received on slack in SLACK.SLOT.CHANNEL
+Slack	CheckMessagesInChannel	-	find my slack messages in SLACK.SLOT.CHANNEL i received in the last hour
+Slack	CheckMessagesInChannel	-	find the recent slack messages in SLACK.SLOT.CHANNEL
+Slack	CheckMessagesInChannel	-	find the messages i received on slack in SLACK.SLOT.CHANNEL
+Slack	CheckMessagesInChannel	-	find the slack messages in SLACK.SLOT.CHANNEL i received in the last hour
+Slack	CheckMessagesInChannel	-	search for my recent slack messages in SLACK.SLOT.CHANNEL
+Slack	CheckMessagesInChannel	-	search for my messages i received on slack in SLACK.SLOT.CHANNEL
+Slack	CheckMessagesInChannel	-	search for my slack messages in SLACK.SLOT.CHANNEL i received in the last hour
+Slack	CheckMessagesInChannel	-	search for the recent slack messages in SLACK.SLOT.CHANNEL
+Slack	CheckMessagesInChannel	-	search for the messages i received on slack in SLACK.SLOT.CHANNEL
+Slack	CheckMessagesInChannel	-	search for the slack messages in SLACK.SLOT.CHANNEL i received in the last hour
 Slack	SendMessageToChannel	-	post SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
 Slack	SendMessageToChannel	-	send SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
 Slack	SendMessageToChannel	-	upload SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack

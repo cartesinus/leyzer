@@ -33,11 +33,11 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 #INTENTS
 <INTENT_1> = <SHOW_VERB> my calendar;
 
-<INTENT_2> = whats on my schedule <DATE>;
+<INTENT_2> = whats (on my schedule | in my agenda | happening on) <DATE>;
 
-<INTENT_3> = add an event called <EVENT_NAME> [to calendar];
+<INTENT_3> = (add | create) an event [called] <EVENT_NAME> [to [my] calendar];
 
-<INTENT_4> = add an event called <EVENT_NAME> [to calendar] on <EVENT_DATE>;
+<INTENT_4> = (add | create) an event [called] <EVENT_NAME> [to [my] calendar] on <EVENT_DATE>;
 
 <INTENT_5> = notify me <WHEN_1>;
 

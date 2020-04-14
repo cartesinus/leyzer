@@ -3,10 +3,32 @@ Calendar	OpenCalendar	-	show my calendar
 Calendar	OpenCalendar	-	display my calendar
 Calendar	OpenCalendar	-	open my calendar
 Calendar	CheckCalendarOnDate	-	whats on my schedule CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	whats in my agenda CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	whats happening on CALENDAR.SLOT.DATE
+Calendar	AddEventWithName	-	add an event CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	add an event CALENDAR.SLOT.EVENT_NAME to calendar
+Calendar	AddEventWithName	-	add an event CALENDAR.SLOT.EVENT_NAME to my calendar
 Calendar	AddEventWithName	-	add an event called CALENDAR.SLOT.EVENT_NAME
 Calendar	AddEventWithName	-	add an event called CALENDAR.SLOT.EVENT_NAME to calendar
+Calendar	AddEventWithName	-	add an event called CALENDAR.SLOT.EVENT_NAME to my calendar
+Calendar	AddEventWithName	-	create an event CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	create an event CALENDAR.SLOT.EVENT_NAME to calendar
+Calendar	AddEventWithName	-	create an event CALENDAR.SLOT.EVENT_NAME to my calendar
+Calendar	AddEventWithName	-	create an event called CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	create an event called CALENDAR.SLOT.EVENT_NAME to calendar
+Calendar	AddEventWithName	-	create an event called CALENDAR.SLOT.EVENT_NAME to my calendar
+Calendar	AddEventOnDateWithDate	-	add an event CALENDAR.SLOT.EVENT_NAME on CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	add an event CALENDAR.SLOT.EVENT_NAME to calendar on CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	add an event CALENDAR.SLOT.EVENT_NAME to my calendar on CALENDAR.SLOT.EVENT_DATE
 Calendar	AddEventOnDateWithDate	-	add an event called CALENDAR.SLOT.EVENT_NAME on CALENDAR.SLOT.EVENT_DATE
 Calendar	AddEventOnDateWithDate	-	add an event called CALENDAR.SLOT.EVENT_NAME to calendar on CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	add an event called CALENDAR.SLOT.EVENT_NAME to my calendar on CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	create an event CALENDAR.SLOT.EVENT_NAME on CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	create an event CALENDAR.SLOT.EVENT_NAME to calendar on CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	create an event CALENDAR.SLOT.EVENT_NAME to my calendar on CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	create an event called CALENDAR.SLOT.EVENT_NAME on CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	create an event called CALENDAR.SLOT.EVENT_NAME to calendar on CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	create an event called CALENDAR.SLOT.EVENT_NAME to my calendar on CALENDAR.SLOT.EVENT_DATE
 Calendar	NotifyOnEventStart	-	notify me when an meeting on my calendar begins
 Calendar	NotifyOnEventStart	-	notify me when an appointment on my calendar begins
 Calendar	NotifyOnEventStart	-	notify me when an event on my calendar begins
