@@ -2,10 +2,10 @@
 public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithDate__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8>);
 
 #PRECONDITIONS
-<WHEN_1> = when an (meeting | appointment | event) on my calendar begins;
+<WHEN_1> = when an (meeting | appointment | event) (in | from) (my | the) calendar begins;
 <WHEN> = when a meeting starts;
 <WHEN> = when it is time for my appointment;
-<WHEN_2> = when an (meeting | appointment | event) on my calendar at location <LOCATION> begins;
+<WHEN_2> = when an (meeting | appointment | event) in (my | the) calendar in [location] <LOCATION> begins;
 <WHEN> = when an event on my calendar organized by <ORGANIZER> begins;
 <WHEN> = when something changes on my icalendar;
 <WHEN> = when something changes on my calendar;
@@ -33,11 +33,14 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 #INTENTS
 <INTENT_1> = <SHOW_VERB> my calendar;
 
-<INTENT_2> = whats (on my schedule | in my agenda | happening on) <DATE>;
+<INTENT_2> = whats (on my schedule | in my agenda | happening) <DATE>;
 
-<INTENT_3> = (add | create) an event [called] <EVENT_NAME> [to [my] calendar];
+<INTENT_3> = (add an event [called] <EVENT_NAME> [to (my | the) calendar] | create and event [called] <EVENT_NAME> [in (my | the) calendar]);
 
-<INTENT_4> = (add | create) an event [called] <EVENT_NAME> [to [my] calendar] on <EVENT_DATE>;
+<INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c>;
+<INTENT_4_a> = add an event [called] <EVENT_NAME> [to (my | the) calendar] <EVENT_DATE>;
+<INTENT_4_b> = create an event [called] <EVENT_NAME> [in (my | the) calendar] <EVENT_DATE>;
+<INTENT_4_c> = (add an event [to (my | the) calendar] | create an event [in (my | the) calendar]) <EVENT_DATE> and (call it | name it | give it a title) <EVENT_NAME>;
 
 <INTENT_5> = notify me <WHEN_1>;
 

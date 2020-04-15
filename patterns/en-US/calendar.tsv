@@ -4,40 +4,94 @@ Calendar	OpenCalendar	-	display my calendar
 Calendar	OpenCalendar	-	open my calendar
 Calendar	CheckCalendarOnDate	-	whats on my schedule CALENDAR.SLOT.DATE
 Calendar	CheckCalendarOnDate	-	whats in my agenda CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	-	whats happening on CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	whats happening CALENDAR.SLOT.DATE
 Calendar	AddEventWithName	-	add an event CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	add an event CALENDAR.SLOT.EVENT_NAME to calendar
 Calendar	AddEventWithName	-	add an event CALENDAR.SLOT.EVENT_NAME to my calendar
+Calendar	AddEventWithName	-	add an event CALENDAR.SLOT.EVENT_NAME to the calendar
 Calendar	AddEventWithName	-	add an event called CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	add an event called CALENDAR.SLOT.EVENT_NAME to calendar
 Calendar	AddEventWithName	-	add an event called CALENDAR.SLOT.EVENT_NAME to my calendar
-Calendar	AddEventWithName	-	create an event CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	create an event CALENDAR.SLOT.EVENT_NAME to calendar
-Calendar	AddEventWithName	-	create an event CALENDAR.SLOT.EVENT_NAME to my calendar
-Calendar	AddEventWithName	-	create an event called CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	create an event called CALENDAR.SLOT.EVENT_NAME to calendar
-Calendar	AddEventWithName	-	create an event called CALENDAR.SLOT.EVENT_NAME to my calendar
-Calendar	AddEventOnDateWithDate	-	add an event CALENDAR.SLOT.EVENT_NAME on CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	-	add an event CALENDAR.SLOT.EVENT_NAME to calendar on CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	-	add an event CALENDAR.SLOT.EVENT_NAME to my calendar on CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	-	add an event called CALENDAR.SLOT.EVENT_NAME on CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	-	add an event called CALENDAR.SLOT.EVENT_NAME to calendar on CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	-	add an event called CALENDAR.SLOT.EVENT_NAME to my calendar on CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	-	create an event CALENDAR.SLOT.EVENT_NAME on CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	-	create an event CALENDAR.SLOT.EVENT_NAME to calendar on CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	-	create an event CALENDAR.SLOT.EVENT_NAME to my calendar on CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	-	create an event called CALENDAR.SLOT.EVENT_NAME on CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	-	create an event called CALENDAR.SLOT.EVENT_NAME to calendar on CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	-	create an event called CALENDAR.SLOT.EVENT_NAME to my calendar on CALENDAR.SLOT.EVENT_DATE
-Calendar	NotifyOnEventStart	-	notify me when an meeting on my calendar begins
-Calendar	NotifyOnEventStart	-	notify me when an appointment on my calendar begins
-Calendar	NotifyOnEventStart	-	notify me when an event on my calendar begins
-Calendar	NotNotifyOnEventStart	-	do not notify me when an meeting on my calendar begins
-Calendar	NotNotifyOnEventStart	-	do not notify me when an appointment on my calendar begins
-Calendar	NotNotifyOnEventStart	-	do not notify me when an event on my calendar begins
-Calendar	NotifyOnEventInLocation	-	notify me when an meeting on my calendar at location CALENDAR.SLOT.LOCATION begins
-Calendar	NotifyOnEventInLocation	-	notify me when an appointment on my calendar at location CALENDAR.SLOT.LOCATION begins
-Calendar	NotifyOnEventInLocation	-	notify me when an event on my calendar at location CALENDAR.SLOT.LOCATION begins
-Calendar	NotNotifyOnEventInLocation	-	do not notify me when an meeting on my calendar at location CALENDAR.SLOT.LOCATION begins
-Calendar	NotNotifyOnEventInLocation	-	do not notify me when an appointment on my calendar at location CALENDAR.SLOT.LOCATION begins
-Calendar	NotNotifyOnEventInLocation	-	do not notify me when an event on my calendar at location CALENDAR.SLOT.LOCATION begins
+Calendar	AddEventWithName	-	add an event called CALENDAR.SLOT.EVENT_NAME to the calendar
+Calendar	AddEventWithName	-	create and event CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	create and event CALENDAR.SLOT.EVENT_NAME in my calendar
+Calendar	AddEventWithName	-	create and event CALENDAR.SLOT.EVENT_NAME in the calendar
+Calendar	AddEventWithName	-	create and event called CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	create and event called CALENDAR.SLOT.EVENT_NAME in my calendar
+Calendar	AddEventWithName	-	create and event called CALENDAR.SLOT.EVENT_NAME in the calendar
+Calendar	AddEventOnDateWithDate	-	add an event CALENDAR.SLOT.EVENT_NAME CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	add an event CALENDAR.SLOT.EVENT_NAME to my calendar CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	add an event CALENDAR.SLOT.EVENT_NAME to the calendar CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	add an event called CALENDAR.SLOT.EVENT_NAME CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	add an event called CALENDAR.SLOT.EVENT_NAME to my calendar CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	add an event called CALENDAR.SLOT.EVENT_NAME to the calendar CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	create an event CALENDAR.SLOT.EVENT_NAME CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	create an event CALENDAR.SLOT.EVENT_NAME in my calendar CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	create an event CALENDAR.SLOT.EVENT_NAME in the calendar CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	create an event called CALENDAR.SLOT.EVENT_NAME CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	create an event called CALENDAR.SLOT.EVENT_NAME in my calendar CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	create an event called CALENDAR.SLOT.EVENT_NAME in the calendar CALENDAR.SLOT.EVENT_DATE
+Calendar	AddEventOnDateWithDate	-	add an event CALENDAR.SLOT.EVENT_DATE and call it CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	add an event CALENDAR.SLOT.EVENT_DATE and name it CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	add an event CALENDAR.SLOT.EVENT_DATE and give it a title CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	add an event to my calendar CALENDAR.SLOT.EVENT_DATE and call it CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	add an event to my calendar CALENDAR.SLOT.EVENT_DATE and name it CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	add an event to my calendar CALENDAR.SLOT.EVENT_DATE and give it a title CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	add an event to the calendar CALENDAR.SLOT.EVENT_DATE and call it CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	add an event to the calendar CALENDAR.SLOT.EVENT_DATE and name it CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	add an event to the calendar CALENDAR.SLOT.EVENT_DATE and give it a title CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	create an event CALENDAR.SLOT.EVENT_DATE and call it CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	create an event CALENDAR.SLOT.EVENT_DATE and name it CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	create an event CALENDAR.SLOT.EVENT_DATE and give it a title CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	create an event in my calendar CALENDAR.SLOT.EVENT_DATE and call it CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	create an event in my calendar CALENDAR.SLOT.EVENT_DATE and name it CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	create an event in my calendar CALENDAR.SLOT.EVENT_DATE and give it a title CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	create an event in the calendar CALENDAR.SLOT.EVENT_DATE and call it CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	create an event in the calendar CALENDAR.SLOT.EVENT_DATE and name it CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	create an event in the calendar CALENDAR.SLOT.EVENT_DATE and give it a title CALENDAR.SLOT.EVENT_NAME
+Calendar	NotifyOnEventStart	-	notify me when an meeting in my calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an meeting in the calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an meeting from my calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an meeting from the calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an appointment in my calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an appointment in the calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an appointment from my calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an appointment from the calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an event in my calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an event in the calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an event from my calendar begins
+Calendar	NotifyOnEventStart	-	notify me when an event from the calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an meeting in my calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an meeting in the calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an meeting from my calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an meeting from the calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an appointment in my calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an appointment in the calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an appointment from my calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an appointment from the calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an event in my calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an event in the calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an event from my calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when an event from the calendar begins
+Calendar	NotifyOnEventInLocation	-	notify me when an meeting in my calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an meeting in my calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an meeting in the calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an meeting in the calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an appointment in my calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an appointment in my calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an appointment in the calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an appointment in the calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an event in my calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an event in my calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an event in the calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when an event in the calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an meeting in my calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an meeting in my calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an meeting in the calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an meeting in the calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an appointment in my calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an appointment in my calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an appointment in the calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an appointment in the calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an event in my calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an event in my calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an event in the calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when an event in the calendar in location CALENDAR.SLOT.LOCATION begins

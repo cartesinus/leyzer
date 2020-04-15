@@ -4,25 +4,25 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 #INTENTS
 <INTENT_1> = <SHOW_VERB> [my] contacts;
 
-<INTENT_2> = <SHOW_VERB> [my] contact's info;
+<INTENT_2> = <SHOW_VERB> my (contact's info | profile info | personal info | business card);
 
-<INTENT_3> = <SHOW_VERB> [my] [google] contacts with email <EMAIL>;
+<INTENT_3> = <SHOW_VERB> [my] [google] contact (with | that has) an email <EMAIL>;
 
-<INTENT_4> = <SHOW_VERB> [my] contact with the phone number <PHONE_NUMBER>;
+<INTENT_4> = <SHOW_VERB> [my] contact with the phone number <PHONE_NUMBER> | whose number is <PHONE_NUMBER>;
 
 <INTENT_5> = <SHOW_VERB> [my] contact (called | named | with the name) <NAME>;
 
-<INTENT_6> = <SHOW_VERB> [my] contact with phone number <PHONE_NUMBER> and email <EMAIL>;
+<INTENT_6> = <SHOW_VERB> [my] contact with the phone number <PHONE_NUMBER> and an email <EMAIL> | do i have (a | any) contact with [phone] number <PHONE_NUMBER> and an email <EMAIL>;
 
 <INTENT_7> = (add | create) a new contact (and name it | using a name | and call it) <NAME> (with [a | the] number | and give it a number | and add the number) <PHONE_NUMBER> [as <PHONE_TYPE>];
 
-<INTENT_8> = ((edit | modify) [my] contact <NAME> | open my contact <NAME> for edition);
+<INTENT_8> = ((edit | modify) [my] contact <NAME> | open the contact <NAME> for edition);
 
 <INTENT_9> = (change | modify) the name of (my | the) contact with the number <PHONE_NUMBER>;
 
-<INTENT_10> = change the number of (my | the) contact called <NAME>;
+<INTENT_10> = change the number of (my | the) contact (called | named) <NAME>;
 
-<INTENT_11> = (set | add | modify) the number <PHONE_NUMBER> for [the contact] <NAME> as <PHONE_TYPE>;
+<INTENT_11> = (set | add | modify) the [phone] number <PHONE_NUMBER> for [the contact] <NAME> as <PHONE_TYPE>;
 
 #SLOTS
 <EMAIL> = CONTACTS.SLOT.EMAIL; 
@@ -31,4 +31,4 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 <PHONE_TYPE> = CONTACTS.SLOT.PHONE_TYPE;
 
 #LANG. COMPONENTS
-<SHOW_VERB> = show | display | open | find;
+<SHOW_VERB> = show [me] | display | open | find;

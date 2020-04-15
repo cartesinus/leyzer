@@ -16,23 +16,23 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 
 #INTENTS
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c>;
-<INTENT_1_a> = <CHECK_VERB> [my] (email | gmail) [inbox];
-<INTENT_1_b> = <CHECK_VERB> my primary category emails;
-<INTENT_1_c> = <CHECK_VERB> (my latest email | my emails | my emails on gmail | my gmail inbox);
+<INTENT_1_a> = (check [out] | refresh) [my] (email | gmail) [inbox] | check [out] [my] emails;
+<INTENT_1_b> = check [out] my primary category emails;
+<INTENT_1_c> = check [out] ((my latest email | my emails | my emails on gmail | my gmail inbox) | if i (have | got) [some | any] new (emails | email messages) [in my inbox]);
 
-<INTENT_2> = <CHECK_VERB> [my] emails (from | i (got | received) from) <SENDER_ADDRESS>;
+<INTENT_2> = check [out] [my] emails (from | i (got | received) from) <SENDER_ADDRESS>;
 
-<INTENT_3> = (show me | get | display | find | search for) [my] emails (labelled | with label | that have label) <LABEL>;
+<INTENT_3> = (show me | get | display | find | search for) [my] emails (labelled | with a label | that have a label) <LABEL>;
 
-<INTENT_4> = (show me | get | display | find | search for) [my] emails [that] arrived <TIME>;
+<INTENT_4> = (show me | get | display | find | search for) [my] emails (that arrived | received) <TIME>;
 
-<INTENT_5> = (show me | get | display | find | search for) [my] emails with subject <SUBJECT>;
+<INTENT_5> = (show me | get | display | find | search for) [my] emails with a subject <SUBJECT>;
 
 <INTENT_6> = (display | get (me | my) | show me) <PRIORITY> emails;
 
-<INTENT_7> = (<SEND_EMAIL> to <TO> with subject <SUBJECT> with message <MESSAGE> [using my gmail] | email <TO> with subject <SUBJECT> and message <MESSAGE>);
+<INTENT_7> = (<SEND_EMAIL> to <TO> with a subject <SUBJECT> with message <MESSAGE> [using my gmail] | email <TO> with subject <SUBJECT> and message <MESSAGE>);
 
-<INTENT_8> = (<SEND_EMAIL> to <TO> with subject <SUBJECT> [using my gmail] | email to <TO> with subject <SUBJECT>);
+<INTENT_8> = (<SEND_EMAIL> to <TO> with a subject <SUBJECT> [using my gmail] | email to <TO> with a subject <SUBJECT>);
 
 <INTENT_9> = <SEND_EMAIL> [to somebody | somewhere];
 
@@ -69,5 +69,4 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <PRIORITY> = EMAIL.SLOT.PRIORITY;
 
 #LANG. COMPONENTS
-<CHECK_VERB> = check | get;
-<SEND_EMAIL> = (send | forward) an email;
+<SEND_EMAIL> = (send | forward | resend) an email;
