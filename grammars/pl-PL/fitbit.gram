@@ -5,15 +5,15 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 <WHEN_1> = kiedy moja waga (będzie większa niż | przekroczy) <WEIGHT>;
 
 #INTENTS
-<INTENT_1> = [<RETRIEVE_VERB> | policz] [mi] (<INTENT_1_a> | <INTENT_1_b>);
+<INTENT_1> = <RETRIEVE_VERB> [mi] (<INTENT_1_a> | <INTENT_1_b>);
 <INTENT_1_a> = (moje kroki | ilośc kroków | liczbę kroków) (na | w) fitbicie;
 <INTENT_1_b> = (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków);
 
-<INTENT_2> = [<RETRIEVE_VERB> | policz] [mi] (<INTENT_2_a> | <INTENT_2_b>);
-<INTENT_2_a> = (moje kroki | ilośc kroków | liczbę kroków) [(na | w) fitbicie] w <DATE>;
-<INTENT_2_b> = (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków) w <DATE>;
+<INTENT_2> = <RETRIEVE_VERB> [mi] (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_a> = (moje kroki | ilośc kroków | liczbę kroków) [(na | w) fitbicie] (dla | które zrobiłem) <DATE>;
+<INTENT_2_b> = (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków) (dla | które zrobiłem) <DATE>;
 
-<INTENT_3> = [<RETRIEVE_VERB>] [mi] (mój bmi | moją wagę) (na | w) fitbicie;
+<INTENT_3> = <RETRIEVE_VERB> [mi] (mój bmi | moją wagę) (na | w) fitbicie;
 
 <INTENT_4> = (zanotuj | zapisz | zapamiętaj) moją wagę (na | w) fitbicie;
 
@@ -25,5 +25,5 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 <WEIGHT> = FITBIT.SLOT.WEIGHT;
 
 #LANG. COMPONENTS
-<RETRIEVE_VERB> = podaj | wyświetl | pokaż;
+<RETRIEVE_VERB> = policz | wyświetl | pokaż;
 <NOTIFY_VERB> = powiadom mnie | powiedz mi;

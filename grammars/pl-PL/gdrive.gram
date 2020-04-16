@@ -12,9 +12,9 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 
 <INTENT_5> = <SHOW_VERB> <MY_GDRIVE_FILES> (mniejsze | większe) niż <FILE_SIZE>;
 
-<INTENT_6> = (stwórz | utwórz | zrób) plik (na | w) [moim] (google drive | google drivie);
+<INTENT_6> = (stwórz | utwórz) plik (na | w) [moim] (google drive | google drivie);
 
-<INTENT_7> = (stwórz | utwórz | zrób) plik (na | w) [moim] (google drive | google drivie) o nazwie <FILE_NAME>;
+<INTENT_7> = (stwórz | utwórz) plik (na | w) [moim] (google drive | google drivie) o nazwie <FILE_NAME>;
 
 <INTENT_8> = <SHOW_VERB> ([mój] (najnowszy | ostatni) plik na google drive | [moje] (najnowsze | ostatnie) pliki na google drive);
 

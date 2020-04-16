@@ -13,7 +13,7 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_3> = añade un evento llamado <EVENT_NAME> [a calendario];
 
-<INTENT_4> = añade un evento llamado <EVENT_NAME> [a calendario] el <EVENT_DATE>;
+<INTENT_4> = añade un evento llamado <EVENT_NAME> [a calendario] el <DATE>;
 
 <INTENT_5> = notifícame <WHEN_1>;
 
@@ -41,7 +41,6 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 #SLOTS
 <DATE> = CALENDAR.SLOT.DATE;
 <EVENT_NAME> = CALENDAR.SLOT.EVENT_NAME;
-<EVENT_DATE> = CALENDAR.SLOT.EVENT_DATE;
 <LOCATION> = CALENDAR.SLOT.LOCATION;
 <ORGANIZER> = CALENDAR.SLOT.ORGANIZER;
 <COUNTRY> = CALENDAR.SLOT.COUNTRY;

@@ -1,306 +1,290 @@
 domain	intent	parallel	pattern
-Gdrive	OpenGdrive	False	pokaż moje pliki z google drive
-Gdrive	OpenGdrive	False	pokaż moje pliki na google drive
-Gdrive	OpenGdrive	False	pokaż moje pliki w google drive
-Gdrive	OpenGdrive	True	wyświetl moje pliki z google drive
-Gdrive	OpenGdrive	False	wyświetl moje pliki na google drive
-Gdrive	OpenGdrive	False	wyświetl moje pliki w google drive
-Gdrive	OpenGdrive	False	wylistuj moje pliki z google drive
-Gdrive	OpenGdrive	False	wylistuj moje pliki na google drive
-Gdrive	OpenGdrive	False	wylistuj moje pliki w google drive
-Gdrive	ShowFilesWithType	False	pokaż moje pliki z google drive o typie GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	pokaż moje pliki z google drive z typem GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	pokaż moje pliki na google drive o typie GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	pokaż moje pliki na google drive z typem GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	pokaż moje pliki w google drive o typie GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	pokaż moje pliki w google drive z typem GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	wyświetl moje pliki z google drive o typie GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	wyświetl moje pliki z google drive z typem GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	wyświetl moje pliki na google drive o typie GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	wyświetl moje pliki na google drive z typem GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	wyświetl moje pliki w google drive o typie GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	wyświetl moje pliki w google drive z typem GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	wylistuj moje pliki z google drive o typie GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	wylistuj moje pliki z google drive z typem GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	wylistuj moje pliki na google drive o typie GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	wylistuj moje pliki na google drive z typem GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	wylistuj moje pliki w google drive o typie GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	False	wylistuj moje pliki w google drive z typem GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithStar	False	pokaż moje pliki z google drive które oznaczyłem gwiazdką
-Gdrive	ShowFilesWithStar	False	pokaż moje pliki z google drive oznaczone gwiazdką
-Gdrive	ShowFilesWithStar	False	pokaż moje pliki na google drive które oznaczyłem gwiazdką
-Gdrive	ShowFilesWithStar	False	pokaż moje pliki na google drive oznaczone gwiazdką
-Gdrive	ShowFilesWithStar	False	pokaż moje pliki w google drive które oznaczyłem gwiazdką
-Gdrive	ShowFilesWithStar	False	pokaż moje pliki w google drive oznaczone gwiazdką
-Gdrive	ShowFilesWithStar	False	wyświetl moje pliki z google drive które oznaczyłem gwiazdką
-Gdrive	ShowFilesWithStar	False	wyświetl moje pliki z google drive oznaczone gwiazdką
-Gdrive	ShowFilesWithStar	False	wyświetl moje pliki na google drive które oznaczyłem gwiazdką
-Gdrive	ShowFilesWithStar	False	wyświetl moje pliki na google drive oznaczone gwiazdką
-Gdrive	ShowFilesWithStar	False	wyświetl moje pliki w google drive które oznaczyłem gwiazdką
-Gdrive	ShowFilesWithStar	False	wyświetl moje pliki w google drive oznaczone gwiazdką
-Gdrive	ShowFilesWithStar	False	wylistuj moje pliki z google drive które oznaczyłem gwiazdką
-Gdrive	ShowFilesWithStar	False	wylistuj moje pliki z google drive oznaczone gwiazdką
-Gdrive	ShowFilesWithStar	False	wylistuj moje pliki na google drive które oznaczyłem gwiazdką
-Gdrive	ShowFilesWithStar	False	wylistuj moje pliki na google drive oznaczone gwiazdką
-Gdrive	ShowFilesWithStar	False	wylistuj moje pliki w google drive które oznaczyłem gwiazdką
-Gdrive	ShowFilesWithStar	False	wylistuj moje pliki w google drive oznaczone gwiazdką
-Gdrive	ShowFilesFromTime	False	pokaż moje pliki z google drive stworzone GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	pokaż moje pliki z google drive zmodyfikowane GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	pokaż moje pliki na google drive stworzone GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	pokaż moje pliki na google drive zmodyfikowane GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	pokaż moje pliki w google drive stworzone GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	pokaż moje pliki w google drive zmodyfikowane GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	wyświetl moje pliki z google drive stworzone GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	wyświetl moje pliki z google drive zmodyfikowane GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	wyświetl moje pliki na google drive stworzone GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	wyświetl moje pliki na google drive zmodyfikowane GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	wyświetl moje pliki w google drive stworzone GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	wyświetl moje pliki w google drive zmodyfikowane GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	wylistuj moje pliki z google drive stworzone GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	wylistuj moje pliki z google drive zmodyfikowane GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	wylistuj moje pliki na google drive stworzone GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	wylistuj moje pliki na google drive zmodyfikowane GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	wylistuj moje pliki w google drive stworzone GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	False	wylistuj moje pliki w google drive zmodyfikowane GDRIVE.SLOT.TIME
-Gdrive	ShowFilesWithSize	False	pokaż moje pliki z google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	pokaż moje pliki z google drive większe niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	pokaż moje pliki na google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	pokaż moje pliki na google drive większe niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	pokaż moje pliki w google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	pokaż moje pliki w google drive większe niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	wyświetl moje pliki z google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	wyświetl moje pliki z google drive większe niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	wyświetl moje pliki na google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	wyświetl moje pliki na google drive większe niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	wyświetl moje pliki w google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	wyświetl moje pliki w google drive większe niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	wylistuj moje pliki z google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	wylistuj moje pliki z google drive większe niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	wylistuj moje pliki na google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	wylistuj moje pliki na google drive większe niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	wylistuj moje pliki w google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	False	wylistuj moje pliki w google drive większe niż GDRIVE.SLOT.FILE_SIZE
-Gdrive	CreateFile	False	stwórz plik na google drive
-Gdrive	CreateFile	False	stwórz plik na google drivie
-Gdrive	CreateFile	False	stwórz plik na moim google drive
-Gdrive	CreateFile	False	stwórz plik na moim google drivie
-Gdrive	CreateFile	False	stwórz plik w google drive
-Gdrive	CreateFile	False	stwórz plik w google drivie
-Gdrive	CreateFile	False	stwórz plik w moim google drive
-Gdrive	CreateFile	False	stwórz plik w moim google drivie
-Gdrive	CreateFile	False	utwórz plik na google drive
-Gdrive	CreateFile	False	utwórz plik na google drivie
-Gdrive	CreateFile	False	utwórz plik na moim google drive
-Gdrive	CreateFile	False	utwórz plik na moim google drivie
-Gdrive	CreateFile	False	utwórz plik w google drive
-Gdrive	CreateFile	False	utwórz plik w google drivie
-Gdrive	CreateFile	False	utwórz plik w moim google drive
-Gdrive	CreateFile	False	utwórz plik w moim google drivie
-Gdrive	CreateFile	False	zrób plik na google drive
-Gdrive	CreateFile	False	zrób plik na google drivie
-Gdrive	CreateFile	False	zrób plik na moim google drive
-Gdrive	CreateFile	False	zrób plik na moim google drivie
-Gdrive	CreateFile	False	zrób plik w google drive
-Gdrive	CreateFile	False	zrób plik w google drivie
-Gdrive	CreateFile	False	zrób plik w moim google drive
-Gdrive	CreateFile	False	zrób plik w moim google drivie
-Gdrive	CreateFileWithName	False	stwórz plik na google drive o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	stwórz plik na google drivie o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	stwórz plik na moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	stwórz plik na moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	stwórz plik w google drive o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	stwórz plik w google drivie o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	stwórz plik w moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	stwórz plik w moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	utwórz plik na google drive o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	utwórz plik na google drivie o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	utwórz plik na moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	utwórz plik na moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	utwórz plik w google drive o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	utwórz plik w google drivie o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	utwórz plik w moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	utwórz plik w moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	zrób plik na google drive o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	zrób plik na google drivie o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	zrób plik na moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	zrób plik na moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	zrób plik w google drive o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	zrób plik w google drivie o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	zrób plik w moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	False	zrób plik w moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	ShowOldestFiles	False	pokaż najnowszy plik na google drive
-Gdrive	ShowOldestFiles	False	pokaż ostatni plik na google drive
-Gdrive	ShowOldestFiles	False	pokaż mój najnowszy plik na google drive
-Gdrive	ShowOldestFiles	False	pokaż mój ostatni plik na google drive
-Gdrive	ShowOldestFiles	False	pokaż najnowsze pliki na google drive
-Gdrive	ShowOldestFiles	False	pokaż ostatnie pliki na google drive
-Gdrive	ShowOldestFiles	False	pokaż moje najnowsze pliki na google drive
-Gdrive	ShowOldestFiles	False	pokaż moje ostatnie pliki na google drive
-Gdrive	ShowOldestFiles	False	wyświetl najnowszy plik na google drive
-Gdrive	ShowOldestFiles	False	wyświetl ostatni plik na google drive
-Gdrive	ShowOldestFiles	False	wyświetl mój najnowszy plik na google drive
-Gdrive	ShowOldestFiles	False	wyświetl mój ostatni plik na google drive
-Gdrive	ShowOldestFiles	False	wyświetl najnowsze pliki na google drive
-Gdrive	ShowOldestFiles	False	wyświetl ostatnie pliki na google drive
-Gdrive	ShowOldestFiles	False	wyświetl moje najnowsze pliki na google drive
-Gdrive	ShowOldestFiles	False	wyświetl moje ostatnie pliki na google drive
-Gdrive	ShowOldestFiles	False	wylistuj najnowszy plik na google drive
-Gdrive	ShowOldestFiles	False	wylistuj ostatni plik na google drive
-Gdrive	ShowOldestFiles	False	wylistuj mój najnowszy plik na google drive
-Gdrive	ShowOldestFiles	False	wylistuj mój ostatni plik na google drive
-Gdrive	ShowOldestFiles	False	wylistuj najnowsze pliki na google drive
-Gdrive	ShowOldestFiles	False	wylistuj ostatnie pliki na google drive
-Gdrive	ShowOldestFiles	False	wylistuj moje najnowsze pliki na google drive
-Gdrive	ShowOldestFiles	False	wylistuj moje ostatnie pliki na google drive
-Gdrive	SortReverseAlphabetical	False	pokaż pliki na google drive w kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	pokaż pliki na google drive w odwrotnej kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	pokaż pliki w google drive w kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	pokaż pliki w google drive w odwrotnej kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	pokaż moje pliki na google drive w kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	pokaż moje pliki na google drive w odwrotnej kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	pokaż moje pliki w google drive w kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	pokaż moje pliki w google drive w odwrotnej kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wyświetl pliki na google drive w kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wyświetl pliki na google drive w odwrotnej kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wyświetl pliki w google drive w kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wyświetl pliki w google drive w odwrotnej kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wyświetl moje pliki na google drive w kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wyświetl moje pliki na google drive w odwrotnej kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wyświetl moje pliki w google drive w kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wyświetl moje pliki w google drive w odwrotnej kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wylistuj pliki na google drive w kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wylistuj pliki na google drive w odwrotnej kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wylistuj pliki w google drive w kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wylistuj pliki w google drive w odwrotnej kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wylistuj moje pliki na google drive w kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wylistuj moje pliki na google drive w odwrotnej kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wylistuj moje pliki w google drive w kolejności alfabetycznej
-Gdrive	SortReverseAlphabetical	False	wylistuj moje pliki w google drive w odwrotnej kolejności alfabetycznej
-Gdrive	OpenFileWithName	False	otwórz plik GDRIVE.SLOT.FILE_NAME do edycji
-Gdrive	OpenFileWithName	False	otwórz plik GDRIVE.SLOT.FILE_NAME do edycji na google drive
-Gdrive	OpenFileWithName	False	otwórz plik o nazwie GDRIVE.SLOT.FILE_NAME do edycji
-Gdrive	OpenFileWithName	False	otwórz plik o nazwie GDRIVE.SLOT.FILE_NAME do edycji na google drive
-Gdrive	OpenFileWithName	False	otwórz plik który nazywa się GDRIVE.SLOT.FILE_NAME do edycji
-Gdrive	OpenFileWithName	False	otwórz plik który nazywa się GDRIVE.SLOT.FILE_NAME do edycji na google drive
-Gdrive	OpenFileWithName	False	otwórz plik nazywający się GDRIVE.SLOT.FILE_NAME do edycji
-Gdrive	OpenFileWithName	False	otwórz plik nazywający się GDRIVE.SLOT.FILE_NAME do edycji na google drive
-Gdrive	OpenFileWithName	False	otwórz mój plik GDRIVE.SLOT.FILE_NAME do edycji
-Gdrive	OpenFileWithName	False	otwórz mój plik GDRIVE.SLOT.FILE_NAME do edycji na google drive
-Gdrive	OpenFileWithName	False	otwórz mój plik o nazwie GDRIVE.SLOT.FILE_NAME do edycji
-Gdrive	OpenFileWithName	False	otwórz mój plik o nazwie GDRIVE.SLOT.FILE_NAME do edycji na google drive
-Gdrive	OpenFileWithName	False	otwórz mój plik który nazywa się GDRIVE.SLOT.FILE_NAME do edycji
-Gdrive	OpenFileWithName	False	otwórz mój plik który nazywa się GDRIVE.SLOT.FILE_NAME do edycji na google drive
-Gdrive	OpenFileWithName	False	otwórz mój plik nazywający się GDRIVE.SLOT.FILE_NAME do edycji
-Gdrive	OpenFileWithName	False	otwórz mój plik nazywający się GDRIVE.SLOT.FILE_NAME do edycji na google drive
-Gdrive	OpenFileWithName	False	edytuj plik GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj plik GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj plik o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj plik który nazywa się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj plik nazywający się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj mój plik GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj mój plik GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj mój plik o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj mój plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj mój plik który nazywa się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj mój plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj mój plik nazywający się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj mój plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień plik GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień plik GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień plik o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień plik który nazywa się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień plik nazywający się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień mój plik GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień mój plik GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień mój plik o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień mój plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień mój plik który nazywa się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień mój plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień mój plik nazywający się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień mój plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj plik GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj plik GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj plik o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj plik który nazywa się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj plik nazywający się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj mój plik GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj mój plik GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj mój plik o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj mój plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj mój plik który nazywa się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj mój plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	edytuj mój plik nazywający się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	edytuj mój plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień plik GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień plik GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień plik o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień plik który nazywa się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień plik nazywający się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień mój plik GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień mój plik GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień mój plik o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień mój plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień mój plik który nazywa się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień mój plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	zmień mój plik nazywający się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	zmień mój plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive edytuj plik GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive edytuj plik GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive edytuj plik o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive edytuj plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive edytuj plik który nazywa się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive edytuj plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive edytuj plik nazywający się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive edytuj plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive edytuj mój plik GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive edytuj mój plik GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive edytuj mój plik o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive edytuj mój plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive edytuj mój plik który nazywa się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive edytuj mój plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive edytuj mój plik nazywający się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive edytuj mój plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive zmień plik GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive zmień plik GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive zmień plik o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive zmień plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive zmień plik który nazywa się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive zmień plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive zmień plik nazywający się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive zmień plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive zmień mój plik GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive zmień mój plik GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive zmień mój plik o nazwie GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive zmień mój plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive zmień mój plik który nazywa się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive zmień mój plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	OpenFileWithName	False	na google drive zmień mój plik nazywający się GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	False	na google drive zmień mój plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
-Gdrive	ShareFileWithNameToAddress	False	udostępnij plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL
-Gdrive	ShareFileWithNameToAddress	False	udostępnij plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do edycji
-Gdrive	ShareFileWithNameToAddress	False	udostępnij plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu
-Gdrive	ShareFileWithNameToAddress	False	udostępnij plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu i zapisu
-Gdrive	ShareFileWithNameToAddress	False	udostępnij plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL
-Gdrive	ShareFileWithNameToAddress	False	udostępnij plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do edycji
-Gdrive	ShareFileWithNameToAddress	False	udostępnij plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu
-Gdrive	ShareFileWithNameToAddress	False	udostępnij plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu i zapisu
-Gdrive	ShareFileWithNameToAddress	False	udostępnij mój plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL
-Gdrive	ShareFileWithNameToAddress	False	udostępnij mój plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do edycji
-Gdrive	ShareFileWithNameToAddress	False	udostępnij mój plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu
-Gdrive	ShareFileWithNameToAddress	False	udostępnij mój plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu i zapisu
-Gdrive	ShareFileWithNameToAddress	False	udostępnij mój plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL
-Gdrive	ShareFileWithNameToAddress	False	udostępnij mój plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do edycji
-Gdrive	ShareFileWithNameToAddress	False	udostępnij mój plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu
-Gdrive	ShareFileWithNameToAddress	False	udostępnij mój plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu i zapisu
+Gdrive	OpenGdrive	-	pokaż moje pliki z google drive
+Gdrive	OpenGdrive	-	pokaż moje pliki na google drive
+Gdrive	OpenGdrive	-	pokaż moje pliki w google drive
+Gdrive	OpenGdrive	-	wyświetl moje pliki z google drive
+Gdrive	OpenGdrive	-	wyświetl moje pliki na google drive
+Gdrive	OpenGdrive	-	wyświetl moje pliki w google drive
+Gdrive	OpenGdrive	-	wylistuj moje pliki z google drive
+Gdrive	OpenGdrive	-	wylistuj moje pliki na google drive
+Gdrive	OpenGdrive	-	wylistuj moje pliki w google drive
+Gdrive	ShowFilesWithType	-	pokaż moje pliki z google drive o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	pokaż moje pliki z google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	pokaż moje pliki na google drive o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	pokaż moje pliki na google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	pokaż moje pliki w google drive o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	pokaż moje pliki w google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wyświetl moje pliki z google drive o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wyświetl moje pliki z google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wyświetl moje pliki na google drive o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wyświetl moje pliki na google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wyświetl moje pliki w google drive o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wyświetl moje pliki w google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wylistuj moje pliki z google drive o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wylistuj moje pliki z google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wylistuj moje pliki na google drive o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wylistuj moje pliki na google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wylistuj moje pliki w google drive o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wylistuj moje pliki w google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithStar	-	pokaż moje pliki z google drive które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	pokaż moje pliki z google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	pokaż moje pliki na google drive które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	pokaż moje pliki na google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	pokaż moje pliki w google drive które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	pokaż moje pliki w google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	wyświetl moje pliki z google drive które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	wyświetl moje pliki z google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	wyświetl moje pliki na google drive które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	wyświetl moje pliki na google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	wyświetl moje pliki w google drive które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	wyświetl moje pliki w google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	wylistuj moje pliki z google drive które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	wylistuj moje pliki z google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	wylistuj moje pliki na google drive które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	wylistuj moje pliki na google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	wylistuj moje pliki w google drive które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	wylistuj moje pliki w google drive oznaczone gwiazdką
+Gdrive	ShowFilesFromTime	-	pokaż moje pliki z google drive stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	pokaż moje pliki z google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	pokaż moje pliki na google drive stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	pokaż moje pliki na google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	pokaż moje pliki w google drive stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	pokaż moje pliki w google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wyświetl moje pliki z google drive stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wyświetl moje pliki z google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wyświetl moje pliki na google drive stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wyświetl moje pliki na google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wyświetl moje pliki w google drive stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wyświetl moje pliki w google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wylistuj moje pliki z google drive stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wylistuj moje pliki z google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wylistuj moje pliki na google drive stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wylistuj moje pliki na google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wylistuj moje pliki w google drive stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wylistuj moje pliki w google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesWithSize	-	pokaż moje pliki z google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	pokaż moje pliki z google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	pokaż moje pliki na google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	pokaż moje pliki na google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	pokaż moje pliki w google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	pokaż moje pliki w google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wyświetl moje pliki z google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wyświetl moje pliki z google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wyświetl moje pliki na google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wyświetl moje pliki na google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wyświetl moje pliki w google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wyświetl moje pliki w google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wylistuj moje pliki z google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wylistuj moje pliki z google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wylistuj moje pliki na google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wylistuj moje pliki na google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wylistuj moje pliki w google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wylistuj moje pliki w google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	CreateFile	-	stwórz plik na google drive
+Gdrive	CreateFile	-	stwórz plik na google drivie
+Gdrive	CreateFile	-	stwórz plik na moim google drive
+Gdrive	CreateFile	-	stwórz plik na moim google drivie
+Gdrive	CreateFile	-	stwórz plik w google drive
+Gdrive	CreateFile	-	stwórz plik w google drivie
+Gdrive	CreateFile	-	stwórz plik w moim google drive
+Gdrive	CreateFile	-	stwórz plik w moim google drivie
+Gdrive	CreateFile	-	utwórz plik na google drive
+Gdrive	CreateFile	-	utwórz plik na google drivie
+Gdrive	CreateFile	-	utwórz plik na moim google drive
+Gdrive	CreateFile	-	utwórz plik na moim google drivie
+Gdrive	CreateFile	-	utwórz plik w google drive
+Gdrive	CreateFile	-	utwórz plik w google drivie
+Gdrive	CreateFile	-	utwórz plik w moim google drive
+Gdrive	CreateFile	-	utwórz plik w moim google drivie
+Gdrive	CreateFileWithName	-	stwórz plik na google drive o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	stwórz plik na google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	stwórz plik na moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	stwórz plik na moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	stwórz plik w google drive o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	stwórz plik w google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	stwórz plik w moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	stwórz plik w moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	utwórz plik na google drive o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	utwórz plik na google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	utwórz plik na moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	utwórz plik na moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	utwórz plik w google drive o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	utwórz plik w google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	utwórz plik w moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	utwórz plik w moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	ShowOldestFiles	-	pokaż najnowszy plik na google drive
+Gdrive	ShowOldestFiles	-	pokaż ostatni plik na google drive
+Gdrive	ShowOldestFiles	-	pokaż mój najnowszy plik na google drive
+Gdrive	ShowOldestFiles	-	pokaż mój ostatni plik na google drive
+Gdrive	ShowOldestFiles	-	pokaż najnowsze pliki na google drive
+Gdrive	ShowOldestFiles	-	pokaż ostatnie pliki na google drive
+Gdrive	ShowOldestFiles	-	pokaż moje najnowsze pliki na google drive
+Gdrive	ShowOldestFiles	-	pokaż moje ostatnie pliki na google drive
+Gdrive	ShowOldestFiles	-	wyświetl najnowszy plik na google drive
+Gdrive	ShowOldestFiles	-	wyświetl ostatni plik na google drive
+Gdrive	ShowOldestFiles	-	wyświetl mój najnowszy plik na google drive
+Gdrive	ShowOldestFiles	-	wyświetl mój ostatni plik na google drive
+Gdrive	ShowOldestFiles	-	wyświetl najnowsze pliki na google drive
+Gdrive	ShowOldestFiles	-	wyświetl ostatnie pliki na google drive
+Gdrive	ShowOldestFiles	-	wyświetl moje najnowsze pliki na google drive
+Gdrive	ShowOldestFiles	-	wyświetl moje ostatnie pliki na google drive
+Gdrive	ShowOldestFiles	-	wylistuj najnowszy plik na google drive
+Gdrive	ShowOldestFiles	-	wylistuj ostatni plik na google drive
+Gdrive	ShowOldestFiles	-	wylistuj mój najnowszy plik na google drive
+Gdrive	ShowOldestFiles	-	wylistuj mój ostatni plik na google drive
+Gdrive	ShowOldestFiles	-	wylistuj najnowsze pliki na google drive
+Gdrive	ShowOldestFiles	-	wylistuj ostatnie pliki na google drive
+Gdrive	ShowOldestFiles	-	wylistuj moje najnowsze pliki na google drive
+Gdrive	ShowOldestFiles	-	wylistuj moje ostatnie pliki na google drive
+Gdrive	SortReverseAlphabetical	-	pokaż pliki na google drive w kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	pokaż pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	pokaż pliki w google drive w kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	pokaż pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	pokaż moje pliki na google drive w kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	pokaż moje pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	pokaż moje pliki w google drive w kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	pokaż moje pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wyświetl pliki na google drive w kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wyświetl pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wyświetl pliki w google drive w kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wyświetl pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wyświetl moje pliki na google drive w kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wyświetl moje pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wyświetl moje pliki w google drive w kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wyświetl moje pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wylistuj pliki na google drive w kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wylistuj pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wylistuj pliki w google drive w kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wylistuj pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wylistuj moje pliki na google drive w kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wylistuj moje pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wylistuj moje pliki w google drive w kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wylistuj moje pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	OpenFileWithName	-	otwórz plik GDRIVE.SLOT.FILE_NAME do edycji
+Gdrive	OpenFileWithName	-	otwórz plik GDRIVE.SLOT.FILE_NAME do edycji na google drive
+Gdrive	OpenFileWithName	-	otwórz plik o nazwie GDRIVE.SLOT.FILE_NAME do edycji
+Gdrive	OpenFileWithName	-	otwórz plik o nazwie GDRIVE.SLOT.FILE_NAME do edycji na google drive
+Gdrive	OpenFileWithName	-	otwórz plik który nazywa się GDRIVE.SLOT.FILE_NAME do edycji
+Gdrive	OpenFileWithName	-	otwórz plik który nazywa się GDRIVE.SLOT.FILE_NAME do edycji na google drive
+Gdrive	OpenFileWithName	-	otwórz plik nazywający się GDRIVE.SLOT.FILE_NAME do edycji
+Gdrive	OpenFileWithName	-	otwórz plik nazywający się GDRIVE.SLOT.FILE_NAME do edycji na google drive
+Gdrive	OpenFileWithName	-	otwórz mój plik GDRIVE.SLOT.FILE_NAME do edycji
+Gdrive	OpenFileWithName	-	otwórz mój plik GDRIVE.SLOT.FILE_NAME do edycji na google drive
+Gdrive	OpenFileWithName	-	otwórz mój plik o nazwie GDRIVE.SLOT.FILE_NAME do edycji
+Gdrive	OpenFileWithName	-	otwórz mój plik o nazwie GDRIVE.SLOT.FILE_NAME do edycji na google drive
+Gdrive	OpenFileWithName	-	otwórz mój plik który nazywa się GDRIVE.SLOT.FILE_NAME do edycji
+Gdrive	OpenFileWithName	-	otwórz mój plik który nazywa się GDRIVE.SLOT.FILE_NAME do edycji na google drive
+Gdrive	OpenFileWithName	-	otwórz mój plik nazywający się GDRIVE.SLOT.FILE_NAME do edycji
+Gdrive	OpenFileWithName	-	otwórz mój plik nazywający się GDRIVE.SLOT.FILE_NAME do edycji na google drive
+Gdrive	OpenFileWithName	-	edytuj plik GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj plik GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj plik o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj plik który nazywa się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj plik nazywający się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj mój plik GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj mój plik GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj mój plik o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj mój plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj mój plik który nazywa się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj mój plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj mój plik nazywający się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj mój plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień plik GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień plik GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień plik o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień plik który nazywa się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień plik nazywający się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień mój plik GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień mój plik GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień mój plik o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień mój plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień mój plik który nazywa się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień mój plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień mój plik nazywający się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień mój plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj plik GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj plik GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj plik o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj plik który nazywa się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj plik nazywający się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj mój plik GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj mój plik GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj mój plik o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj mój plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj mój plik który nazywa się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj mój plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	edytuj mój plik nazywający się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edytuj mój plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień plik GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień plik GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień plik o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień plik który nazywa się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień plik nazywający się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień mój plik GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień mój plik GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień mój plik o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień mój plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień mój plik który nazywa się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień mój plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	zmień mój plik nazywający się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	zmień mój plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive edytuj plik GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive edytuj plik GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive edytuj plik o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive edytuj plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive edytuj plik który nazywa się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive edytuj plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive edytuj plik nazywający się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive edytuj plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive edytuj mój plik GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive edytuj mój plik GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive edytuj mój plik o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive edytuj mój plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive edytuj mój plik który nazywa się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive edytuj mój plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive edytuj mój plik nazywający się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive edytuj mój plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive zmień plik GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive zmień plik GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive zmień plik o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive zmień plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive zmień plik który nazywa się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive zmień plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive zmień plik nazywający się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive zmień plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive zmień mój plik GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive zmień mój plik GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive zmień mój plik o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive zmień mój plik o nazwie GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive zmień mój plik który nazywa się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive zmień mój plik który nazywa się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	OpenFileWithName	-	na google drive zmień mój plik nazywający się GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	na google drive zmień mój plik nazywający się GDRIVE.SLOT.FILE_NAME na google drive
+Gdrive	ShareFileWithNameToAddress	-	udostępnij plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL
+Gdrive	ShareFileWithNameToAddress	-	udostępnij plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do edycji
+Gdrive	ShareFileWithNameToAddress	-	udostępnij plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu
+Gdrive	ShareFileWithNameToAddress	-	udostępnij plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu i zapisu
+Gdrive	ShareFileWithNameToAddress	-	udostępnij plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL
+Gdrive	ShareFileWithNameToAddress	-	udostępnij plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do edycji
+Gdrive	ShareFileWithNameToAddress	-	udostępnij plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu
+Gdrive	ShareFileWithNameToAddress	-	udostępnij plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu i zapisu
+Gdrive	ShareFileWithNameToAddress	-	udostępnij mój plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL
+Gdrive	ShareFileWithNameToAddress	-	udostępnij mój plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do edycji
+Gdrive	ShareFileWithNameToAddress	-	udostępnij mój plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu
+Gdrive	ShareFileWithNameToAddress	-	udostępnij mój plik GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu i zapisu
+Gdrive	ShareFileWithNameToAddress	-	udostępnij mój plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL
+Gdrive	ShareFileWithNameToAddress	-	udostępnij mój plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do edycji
+Gdrive	ShareFileWithNameToAddress	-	udostępnij mój plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu
+Gdrive	ShareFileWithNameToAddress	-	udostępnij mój plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu i zapisu

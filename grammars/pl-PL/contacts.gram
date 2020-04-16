@@ -26,8 +26,8 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 
 <INTENT_11> = <INTENT_11_a> | <INTENT_11_b> | <INTENT_11_c>;
 <INTENT_11_a> = (ustaw | zapisz | zachowaj) numer [telefonu] <PHONE_NUMBER> jako [typ] <PHONE_TYPE> i nazwij go <NAME>;
-<INTENT_11_b> = (dodaj | zapisz) [kontakt] <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (jako [typ] | o typie) <PHONE_TYPE>;
-<INTENT_11_c> = (dodaj | zapisz) [kontakt] <NAME> z numerem <PHONE_TYPE> <PHONE_NUMBER>;
+<INTENT_11_b> = (dodaj | zapisz) kontakt <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (jako [typ] | o typie) <PHONE_TYPE>;
+<INTENT_11_c> = (dodaj | zapisz) kontakt <NAME> z numerem <PHONE_TYPE> <PHONE_NUMBER>;
 
 #SLOTS
 <EMAIL> = CONTACTS.SLOT.EMAIL; 

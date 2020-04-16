@@ -1,616 +1,590 @@
 domain	intent	parallel	pattern
-Contacts	OpenContacts	False	pokaż kontakty
-Contacts	OpenContacts	True	pokaż moje kontakty
-Contacts	OpenContacts	False	pokaż listę kontaktów
-Contacts	OpenContacts	False	pokaż moją listę kontaktów
-Contacts	OpenContacts	False	wyświetl kontakty
-Contacts	OpenContacts	True	wyświetl moje kontakty
-Contacts	OpenContacts	False	wyświetl listę kontaktów
-Contacts	OpenContacts	False	wyświetl moją listę kontaktów
-Contacts	OpenContacts	False	otwórz kontakty
-Contacts	OpenContacts	True	otwórz moje kontakty
-Contacts	OpenContacts	False	otwórz listę kontaktów
-Contacts	OpenContacts	False	otwórz moją listę kontaktów
-Contacts	OpenMyContact	False	pokaż moje informacje w kontaktach
-Contacts	OpenMyContact	False	pokaż mój wpis w kontaktach
-Contacts	OpenMyContact	False	pokaż moją wizytkówkę
-Contacts	OpenMyContact	False	wyświetl moje informacje w kontaktach
-Contacts	OpenMyContact	False	wyświetl mój wpis w kontaktach
-Contacts	OpenMyContact	False	wyświetl moją wizytkówkę
-Contacts	OpenMyContact	False	otwórz moje informacje w kontaktach
-Contacts	OpenMyContact	False	otwórz mój wpis w kontaktach
-Contacts	OpenMyContact	False	otwórz moją wizytkówkę
-Contacts	ShowContactWithEmail	False	pokaż kontakt z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	pokaż kontakt o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	pokaż kontakt o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	pokaż kontakt z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	pokaż kontakt z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	pokaż mój kontakt z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	pokaż mój kontakt o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	pokaż mój kontakt o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	pokaż mój kontakt z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	pokaż mój kontakt z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	wyświetl kontakt z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	wyświetl kontakt o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	wyświetl kontakt o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	wyświetl kontakt z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	wyświetl kontakt z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	wyświetl mój kontakt z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	wyświetl mój kontakt o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	wyświetl mój kontakt o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	wyświetl mój kontakt z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	wyświetl mój kontakt z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	otwórz kontakt z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	otwórz kontakt o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	otwórz kontakt o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	otwórz kontakt z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	otwórz kontakt z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	otwórz mój kontakt z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	otwórz mój kontakt o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	otwórz mój kontakt o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	otwórz mój kontakt z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	otwórz mój kontakt z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumber	False	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithName	False	pokaż kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	pokaż kontakt nazywający się CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	pokaż mój kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	pokaż mój kontakt nazywający się CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	wyświetl kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	wyświetl kontakt nazywający się CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	wyświetl mój kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	wyświetl mój kontakt nazywający się CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	otwórz kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	otwórz kontakt nazywający się CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	otwórz mój kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	otwórz mój kontakt nazywający się CONTACTS.SLOT.NAME
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kto ma numer CONTACTS.SLOT.PHONE_NUMBER i adres CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kto ma numer CONTACTS.SLOT.PHONE_NUMBER i adres email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kto ma numer CONTACTS.SLOT.PHONE_NUMBER i adres mailowy CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kto ma numer telefonu CONTACTS.SLOT.PHONE_NUMBER i adres CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kto ma numer telefonu CONTACTS.SLOT.PHONE_NUMBER i adres email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	znajdź kto ma numer telefonu CONTACTS.SLOT.PHONE_NUMBER i adres mailowy CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyszukaj kto ma numer CONTACTS.SLOT.PHONE_NUMBER i adres CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyszukaj kto ma numer CONTACTS.SLOT.PHONE_NUMBER i adres email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyszukaj kto ma numer CONTACTS.SLOT.PHONE_NUMBER i adres mailowy CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyszukaj kto ma numer telefonu CONTACTS.SLOT.PHONE_NUMBER i adres CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyszukaj kto ma numer telefonu CONTACTS.SLOT.PHONE_NUMBER i adres email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	wyszukaj kto ma numer telefonu CONTACTS.SLOT.PHONE_NUMBER i adres mailowy CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt o nazwie CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt o nazwie CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt o nazwie CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt o nazwie CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt o nazwie CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt o nazwie CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt o nazwie CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt o nazwie CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt o nazwie CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt o nazwie CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt o nazwie CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt o nazwie CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt nazywając go CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt nazywając go CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt nazywając go CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt nazywając go CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt nazywając go CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt nazywając go CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt nazywając go CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt nazywając go CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt nazywając go CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt nazywając go CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt nazywając go CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz kontakt nazywając go CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditContactWithName	False	aktualizuj kontakt CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	aktualizuj kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	aktualizuj mój kontakt CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	aktualizuj mój kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	edytuj kontakt CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	edytuj kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	True	edytuj mój kontakt CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	edytuj mój kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	popraw kontakt CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	popraw kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	popraw mój kontakt CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	popraw mój kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	zmień kontakt CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	zmień kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	zmień mój kontakt CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	zmień mój kontakt o nazwie CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	otwórz kontakt CONTACTS.SLOT.NAME do edycji
-Contacts	EditContactWithName	False	otwórz kontakt CONTACTS.SLOT.NAME żeby go edytować
-Contacts	EditContactWithName	True	otwórz mój kontakt CONTACTS.SLOT.NAME do edycji
-Contacts	EditContactWithName	False	otwórz mój kontakt CONTACTS.SLOT.NAME żeby go edytować
-Contacts	EditContactWithNumber	False	aktualizuj nazwę kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	aktualizuj nazwę kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	aktualizuj nazwę kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	aktualizuj nazwę kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	aktualizuj nazwę mojego kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	aktualizuj nazwę mojego kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	aktualizuj nazwę mojego kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	aktualizuj nazwę mojego kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	edytuj nazwę kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	edytuj nazwę kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	edytuj nazwę kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	edytuj nazwę kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	edytuj nazwę mojego kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	edytuj nazwę mojego kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	edytuj nazwę mojego kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	edytuj nazwę mojego kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	popraw nazwę kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	popraw nazwę kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	popraw nazwę kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	popraw nazwę kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	popraw nazwę mojego kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	popraw nazwę mojego kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	popraw nazwę mojego kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	popraw nazwę mojego kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	zmień nazwę kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	zmień nazwę kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	zmień nazwę kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	zmień nazwę kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	zmień nazwę mojego kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	zmień nazwę mojego kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	True	zmień nazwę mojego kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditContactWithNumber	False	zmień nazwę mojego kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditNumberInContactWithName	False	aktualizuj numer kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	aktualizuj numer kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	aktualizuj numer mojego kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	aktualizuj numer mojego kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	aktualizuj numer telefonu kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	aktualizuj numer telefonu kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	aktualizuj numer telefonu mojego kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	aktualizuj numer telefonu mojego kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	edytuj numer kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	edytuj numer kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	edytuj numer mojego kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	edytuj numer mojego kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	edytuj numer telefonu kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	edytuj numer telefonu kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	edytuj numer telefonu mojego kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	edytuj numer telefonu mojego kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	popraw numer kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	popraw numer kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	popraw numer mojego kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	popraw numer mojego kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	popraw numer telefonu kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	popraw numer telefonu kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	popraw numer telefonu mojego kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	popraw numer telefonu mojego kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	zmień numer kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	zmień numer kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	zmień numer mojego kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	zmień numer mojego kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	zmień numer telefonu kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	zmień numer telefonu kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	zmień numer telefonu mojego kontaktu o nazwie CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithName	False	zmień numer telefonu mojego kontaktu nazywający się CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	ustaw numer CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	ustaw numer CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	ustaw numer telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	ustaw numer telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz numer CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz numer CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz numer telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz numer telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zachowaj numer CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zachowaj numer CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zachowaj numer telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zachowaj numer telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_TYPE CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	dodaj kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_TYPE CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_TYPE CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditNumberInContactWithNameToNumberAndToType	False	zapisz kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_TYPE CONTACTS.SLOT.PHONE_NUMBER
+Contacts	OpenContacts	-	pokaż kontakty
+Contacts	OpenContacts	-	pokaż moje kontakty
+Contacts	OpenContacts	-	pokaż listę kontaktów
+Contacts	OpenContacts	-	pokaż moją listę kontaktów
+Contacts	OpenContacts	-	wyświetl kontakty
+Contacts	OpenContacts	-	wyświetl moje kontakty
+Contacts	OpenContacts	-	wyświetl listę kontaktów
+Contacts	OpenContacts	-	wyświetl moją listę kontaktów
+Contacts	OpenContacts	-	otwórz kontakty
+Contacts	OpenContacts	-	otwórz moje kontakty
+Contacts	OpenContacts	-	otwórz listę kontaktów
+Contacts	OpenContacts	-	otwórz moją listę kontaktów
+Contacts	OpenMyContact	-	pokaż moje informacje w kontaktach
+Contacts	OpenMyContact	-	pokaż mój wpis w kontaktach
+Contacts	OpenMyContact	-	pokaż moją wizytkówkę
+Contacts	OpenMyContact	-	wyświetl moje informacje w kontaktach
+Contacts	OpenMyContact	-	wyświetl mój wpis w kontaktach
+Contacts	OpenMyContact	-	wyświetl moją wizytkówkę
+Contacts	OpenMyContact	-	otwórz moje informacje w kontaktach
+Contacts	OpenMyContact	-	otwórz mój wpis w kontaktach
+Contacts	OpenMyContact	-	otwórz moją wizytkówkę
+Contacts	ShowContactWithEmail	-	pokaż kontakt z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	pokaż kontakt o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	pokaż kontakt o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	pokaż kontakt z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	pokaż kontakt z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	pokaż mój kontakt z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	pokaż mój kontakt o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	pokaż mój kontakt o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	pokaż mój kontakt z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	pokaż mój kontakt z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	wyświetl kontakt z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	wyświetl kontakt o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	wyświetl kontakt o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	wyświetl kontakt z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	wyświetl kontakt z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	wyświetl mój kontakt z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	wyświetl mój kontakt o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	wyświetl mój kontakt o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	wyświetl mój kontakt z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	wyświetl mój kontakt z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	otwórz kontakt z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	otwórz kontakt o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	otwórz kontakt o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	otwórz kontakt z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	otwórz kontakt z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	otwórz mój kontakt z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	otwórz mój kontakt o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	otwórz mój kontakt o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	otwórz mój kontakt z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	otwórz mój kontakt z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumber	-	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithName	-	pokaż kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	pokaż kontakt nazywający się CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	pokaż mój kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	pokaż mój kontakt nazywający się CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	wyświetl kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	wyświetl kontakt nazywający się CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	wyświetl mój kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	wyświetl mój kontakt nazywający się CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	otwórz kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	otwórz kontakt nazywający się CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	otwórz mój kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	otwórz mój kontakt nazywający się CONTACTS.SLOT.NAME
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	pokaż mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyświetl mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	otwórz mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER oraz z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z adresem email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i o adresie mailowym CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z emailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź mój kontakt o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER i z mailem CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kto ma numer CONTACTS.SLOT.PHONE_NUMBER i adres CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kto ma numer CONTACTS.SLOT.PHONE_NUMBER i adres email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kto ma numer CONTACTS.SLOT.PHONE_NUMBER i adres mailowy CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kto ma numer telefonu CONTACTS.SLOT.PHONE_NUMBER i adres CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kto ma numer telefonu CONTACTS.SLOT.PHONE_NUMBER i adres email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	znajdź kto ma numer telefonu CONTACTS.SLOT.PHONE_NUMBER i adres mailowy CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyszukaj kto ma numer CONTACTS.SLOT.PHONE_NUMBER i adres CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyszukaj kto ma numer CONTACTS.SLOT.PHONE_NUMBER i adres email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyszukaj kto ma numer CONTACTS.SLOT.PHONE_NUMBER i adres mailowy CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyszukaj kto ma numer telefonu CONTACTS.SLOT.PHONE_NUMBER i adres CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyszukaj kto ma numer telefonu CONTACTS.SLOT.PHONE_NUMBER i adres email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	wyszukaj kto ma numer telefonu CONTACTS.SLOT.PHONE_NUMBER i adres mailowy CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt o nazwie CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt o nazwie CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt o nazwie CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt o nazwie CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt o nazwie CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt o nazwie CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt o nazwie CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt o nazwie CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt o nazwie CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt o nazwie CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt o nazwie CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt o nazwie CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt nazywając go CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt nazywając go CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt nazywając go CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt nazywając go CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt nazywając go CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt nazywając go CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt nazywając go CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt nazywając go CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt nazywając go CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt nazywając go CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt nazywając go CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz kontakt nazywając go CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt o nazwie CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	stwórz nowy kontakt nazywając go CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditContactWithName	-	aktualizuj kontakt CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	aktualizuj kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	aktualizuj mój kontakt CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	aktualizuj mój kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	edytuj kontakt CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	edytuj kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	edytuj mój kontakt CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	edytuj mój kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	popraw kontakt CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	popraw kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	popraw mój kontakt CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	popraw mój kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	zmień kontakt CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	zmień kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	zmień mój kontakt CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	zmień mój kontakt o nazwie CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	otwórz kontakt CONTACTS.SLOT.NAME do edycji
+Contacts	EditContactWithName	-	otwórz kontakt CONTACTS.SLOT.NAME żeby go edytować
+Contacts	EditContactWithName	-	otwórz mój kontakt CONTACTS.SLOT.NAME do edycji
+Contacts	EditContactWithName	-	otwórz mój kontakt CONTACTS.SLOT.NAME żeby go edytować
+Contacts	EditContactWithNumber	-	aktualizuj nazwę kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	aktualizuj nazwę kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	aktualizuj nazwę kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	aktualizuj nazwę kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	aktualizuj nazwę mojego kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	aktualizuj nazwę mojego kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	aktualizuj nazwę mojego kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	aktualizuj nazwę mojego kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	edytuj nazwę kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	edytuj nazwę kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	edytuj nazwę kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	edytuj nazwę kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	edytuj nazwę mojego kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	edytuj nazwę mojego kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	edytuj nazwę mojego kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	edytuj nazwę mojego kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	popraw nazwę kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	popraw nazwę kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	popraw nazwę kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	popraw nazwę kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	popraw nazwę mojego kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	popraw nazwę mojego kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	popraw nazwę mojego kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	popraw nazwę mojego kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	zmień nazwę kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	zmień nazwę kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	zmień nazwę kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	zmień nazwę kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	zmień nazwę mojego kontaktu z numerem CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	zmień nazwę mojego kontaktu z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	zmień nazwę mojego kontaktu o numerze CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditContactWithNumber	-	zmień nazwę mojego kontaktu o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditNumberInContactWithName	-	aktualizuj numer kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	aktualizuj numer kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	aktualizuj numer mojego kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	aktualizuj numer mojego kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	aktualizuj numer telefonu kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	aktualizuj numer telefonu kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	aktualizuj numer telefonu mojego kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	aktualizuj numer telefonu mojego kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	edytuj numer kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	edytuj numer kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	edytuj numer mojego kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	edytuj numer mojego kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	edytuj numer telefonu kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	edytuj numer telefonu kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	edytuj numer telefonu mojego kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	edytuj numer telefonu mojego kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	popraw numer kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	popraw numer kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	popraw numer mojego kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	popraw numer mojego kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	popraw numer telefonu kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	popraw numer telefonu kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	popraw numer telefonu mojego kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	popraw numer telefonu mojego kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	zmień numer kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	zmień numer kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	zmień numer mojego kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	zmień numer mojego kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	zmień numer telefonu kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	zmień numer telefonu kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	zmień numer telefonu mojego kontaktu o nazwie CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithName	-	zmień numer telefonu mojego kontaktu nazywający się CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	ustaw numer CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	ustaw numer CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	ustaw numer telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	ustaw numer telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz numer CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz numer CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz numer telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz numer telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zachowaj numer CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zachowaj numer CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zachowaj numer telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zachowaj numer telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE i nazwij go CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME z numerem telefonu CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME o numerze CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER jako typ CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME o numerze telefonu CONTACTS.SLOT.PHONE_NUMBER o typie CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	dodaj kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_TYPE CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	zapisz kontakt CONTACTS.SLOT.NAME z numerem CONTACTS.SLOT.PHONE_TYPE CONTACTS.SLOT.PHONE_NUMBER

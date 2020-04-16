@@ -6,19 +6,22 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 
 <INTENT_2> = (wyłącz | wygaś | przestań używać | odetnij) <AV_ALIAS>;
 
-<INTENT_3> = zmień temperaturę (na [moim] termostacie | minimalną i maksymalną na [moim] termostacie);
+<INTENT_3> = zmień temperaturę (<INTENT_3_a> | <INTENT_3_b>);
+<INTENT_3_a> = na [moim] termostacie;
+<INTENT_3_b> = (minimalną | maksymalną | minimalną i maksymalną) na [moim] termostacie;
+<INTENT_3_c> = na mojej klimatyzacji | na moim klimatyzatorze;
 
 <INTENT_4> = (ustaw | nastaw) (temperaturę na [moim] termostacie na <VALUE> | mój termostat na <VALUE>);
 
-<INTENT_5> = (ustaw | nastaw) ([temperaturę na] [moim] termostacie w <DEVICE_NAME> na <VALUE> | temperaturę na <VALUE> na [moim] termostacie w <DEVICE_NAME>);
+<INTENT_5> = (ustaw | nastaw) (temperaturę na [moim] termostacie w <DEVICE_NAME> na <VALUE> | temperaturę na <VALUE> na [moim] termostacie w <DEVICE_NAME>);
 
 <INTENT_6> = (ustaw | nastaw) temperaturę [na [moim] termostacie] pomiędzy <LOW> a <HIGH>;
 
-<INTENT_7> = zmień temperaturę na [[moim] termostacie] w <DEVICE_NAME>;
+<INTENT_7> = zmień temperaturę [na [moim] termostacie] w <DEVICE_NAME>;
 
 <INTENT_8> = pokaż poziom wilgotności | [powiedz mi | pokaż mi] jaki jest poziom wilgotności;
 
-<INTENT_9> = jaka jest temperatura [według [mojego] termostatu w <DEVICE_NAME>] | co termostat w <DEVICE_NAME> mówi o temperaturze;
+<INTENT_9> = jaka jest temperatura [według [mojego] termostatu] w <DEVICE_NAME> | co termostat w <DEVICE_NAME> mówi o temperaturze;
 
 <INTENT_10> = jaka jest temperatura [według [mojego] termostatu] | co termostat mówi o temperaturze;
 
@@ -26,8 +29,8 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 
 #SLOTS
 <DEVICE_NAME> = AIRCONDITIONER.SLOT.DEVICE_NAME;
-<LOW> = 23 stopni;
-<HIGH> = 29 stopni;
+<LOW> = 23 | 24;
+<HIGH> = (28 | 29) stopni;
 <VALUE> = AIRCONDITIONER.SLOT.VALUE;
 <AV_ALIAS> = AIRCONDITIONER.SLOT.AV_ALIAS;
 

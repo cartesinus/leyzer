@@ -8,30 +8,31 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 #INTENTS
 <INTENT_1> = <SHOW_VERB> [mój] kalendarz;
 
-<INTENT_2> = (<SHOW_VERB> (plany | wydarzenia) (na | w) <DATE> | co jest zaplanowane (na | w) <DATE> | (jakie | czy) mam (wydarzenia | spotkania) (na | w) <DATE> | <SHOW_VERB> [moje] (spotkania | wydarzenia));
+<INTENT_2> = (<SHOW_VERB> (plany | wydarzenia) (na <DATE> | w <DATE_W> | we <DATE_WE>) | co jest zaplanowane (na <DATE>| w <DATE_W> | we <DATE_WE>) | (jakie | czy) mam (wydarzenia | spotkania) (na <DATE> | w <DATE_W> | we <DATE_WE>) | <SHOW_VERB> [moje] (spotkania | wydarzenia));
 
 <INTENT_3> = <INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c>;
 <INTENT_3_a> = dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) [do kalendarza] o nazwie <EVENT_NAME>;
-<INTENT_3_b> = (chcę | muszę) dodać [nowe] [wydarzenie | spotkanie | przypomnienie] <EVENT_NAME> do kalendarza;
+<INTENT_3_b> = (chcę | muszę) dodać [nowe] [wydarzenie | spotkanie | przypomnienie] <EVENT_NAME> do [mojego] kalendarza;
 <INTENT_3_c> = (zapisz | zanotuj) <EVENT_NAME> w kalendarzu;
 
 <INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c>;
-<INTENT_4_a> = dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) [do kalendarza] o nazwie <EVENT_NAME> (na | w ) <EVENT_DATE>;
-<INTENT_4_b> = <EVENT_DATE> dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) o nazwie <EVENT_NAME> [do kalendarza];
-<INTENT_4_c> = <EVENT_DATE> (zapisz | zanotuj) [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
+<INTENT_4_a> = dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) [do kalendarza] o nazwie <EVENT_NAME> (na <DATE> | w <DATE_W> | we <DATE_WE>);
+<INTENT_4_b> = <DATE> dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) o nazwie <EVENT_NAME> [do kalendarza];
+<INTENT_4_c> = <DATE> (zapisz | zanotuj) [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
 
-<INTENT_5> = (powiadom mnie | powiedz mi) <WHEN_1>;
+<INTENT_5> = (powiadom mnie | powiedz mi | przypomnij mi) <WHEN_1>;
 
-<INTENT_6> = nie (powiadamiaj mnie | mów mi) <WHEN_1>;
+<INTENT_6> = nie (powiadamiaj mnie | mów mi | przypominaj mi) <WHEN_1>;
 
-<INTENT_7> = (powiadom mnie | powiedz mi) <WHEN_2>;
+<INTENT_7> = (powiadom mnie | powiedz mi | przypomnij mi) <WHEN_2>;
 
-<INTENT_8> = nie (powiadamiaj mnie | mów mi) <WHEN_2>;
+<INTENT_8> = nie (powiadamiaj mnie | mów mi | przypominaj mi) <WHEN_2>;
 
 #SLOTS
 <DATE> = CALENDAR.SLOT.DATE;
+<DATE_W> = CALENDAR.SLOT.DATE_W;
+<DATE_WE> = CALENDAR.SLOT.DATE_WE;
 <EVENT_NAME> = CALENDAR.SLOT.EVENT_NAME;
-<EVENT_DATE> = CALENDAR.SLOT.EVENT_DATE;
 <LOCATION> = CALENDAR.SLOT.LOCATION;
 <ORGANIZER> = CALENDAR.SLOT.ORGANIZER;
 <COUNTRY> = CALENDAR.SLOT.COUNTRY;

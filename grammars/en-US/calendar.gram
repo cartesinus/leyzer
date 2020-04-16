@@ -38,9 +38,9 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <INTENT_3> = (add an event [called] <EVENT_NAME> [to (my | the) calendar] | create and event [called] <EVENT_NAME> [in (my | the) calendar]);
 
 <INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c>;
-<INTENT_4_a> = add an event [called] <EVENT_NAME> [to (my | the) calendar] <EVENT_DATE>;
-<INTENT_4_b> = create an event [called] <EVENT_NAME> [in (my | the) calendar] <EVENT_DATE>;
-<INTENT_4_c> = (add an event [to (my | the) calendar] | create an event [in (my | the) calendar]) <EVENT_DATE> and (call it | name it | give it a title) <EVENT_NAME>;
+<INTENT_4_a> = add an event [called] <EVENT_NAME> [to (my | the) calendar] <DATE>;
+<INTENT_4_b> = create an event [called] <EVENT_NAME> [in (my | the) calendar] <DATE>;
+<INTENT_4_c> = (add an event [to (my | the) calendar] | create an event [in (my | the) calendar]) <DATE> and (call it | name it | give it a title) <EVENT_NAME>;
 
 <INTENT_5> = notify me <WHEN_1>;
 
@@ -68,7 +68,6 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 #SLOTS
 <DATE> = CALENDAR.SLOT.DATE;
 <EVENT_NAME> = CALENDAR.SLOT.EVENT_NAME;
-<EVENT_DATE> = CALENDAR.SLOT.EVENT_DATE;
 <LOCATION> = CALENDAR.SLOT.LOCATION;
 <ORGANIZER> = CALENDAR.SLOT.ORGANIZER;
 <COUNTRY> = CALENDAR.SLOT.COUNTRY;

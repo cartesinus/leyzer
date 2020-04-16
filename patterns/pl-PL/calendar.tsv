@@ -1,191 +1,262 @@
 domain	intent	parallel	pattern
-Calendar	OpenCalendar	False	pokaż kalendarz
-Calendar	OpenCalendar	True	pokaż mój kalendarz
-Calendar	OpenCalendar	False	wyświetl kalendarz
-Calendar	OpenCalendar	True	wyświetl mój kalendarz
-Calendar	OpenCalendar	False	otwórz kalendarz
-Calendar	OpenCalendar	True	otwórz mój kalendarz
-Calendar	CheckCalendarOnDate	False	pokaż plany na CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	pokaż plany w CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	pokaż wydarzenia na CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	pokaż wydarzenia w CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	wyświetl plany na CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	wyświetl plany w CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	wyświetl wydarzenia na CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	wyświetl wydarzenia w CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	otwórz plany na CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	otwórz plany w CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	otwórz wydarzenia na CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	otwórz wydarzenia w CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	co jest zaplanowane na CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	co jest zaplanowane w CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	jakie mam wydarzenia na CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	jakie mam wydarzenia w CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	jakie mam spotkania na CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	jakie mam spotkania w CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	czy mam wydarzenia na CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	czy mam wydarzenia w CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	czy mam spotkania na CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	czy mam spotkania w CALENDAR.SLOT.DATE
-Calendar	CheckCalendarOnDate	False	pokaż spotkania
-Calendar	CheckCalendarOnDate	False	pokaż wydarzenia
-Calendar	CheckCalendarOnDate	False	pokaż moje spotkania
-Calendar	CheckCalendarOnDate	False	pokaż moje wydarzenia
-Calendar	CheckCalendarOnDate	False	wyświetl spotkania
-Calendar	CheckCalendarOnDate	False	wyświetl wydarzenia
-Calendar	CheckCalendarOnDate	False	wyświetl moje spotkania
-Calendar	CheckCalendarOnDate	False	wyświetl moje wydarzenia
-Calendar	CheckCalendarOnDate	False	otwórz spotkania
-Calendar	CheckCalendarOnDate	False	otwórz wydarzenia
-Calendar	CheckCalendarOnDate	False	otwórz moje spotkania
-Calendar	CheckCalendarOnDate	False	otwórz moje wydarzenia
-Calendar	AddEventWithName	True	dodaj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	dodaj wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	dodaj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	dodaj spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	dodaj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	dodaj przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	dodaj nowe wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	dodaj nowe wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	dodaj nowe spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	dodaj nowe spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	dodaj nowe przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	dodaj nowe przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	chcę dodać CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	chcę dodać wydarzenie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	chcę dodać spotkanie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	chcę dodać przypomnienie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	chcę dodać nowe CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	chcę dodać nowe wydarzenie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	chcę dodać nowe spotkanie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	chcę dodać nowe przypomnienie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	muszę dodać CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	muszę dodać wydarzenie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	muszę dodać spotkanie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	muszę dodać przypomnienie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	muszę dodać nowe CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	muszę dodać nowe wydarzenie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	muszę dodać nowe spotkanie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	muszę dodać nowe przypomnienie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventWithName	False	zapisz CALENDAR.SLOT.EVENT_NAME w kalendarzu
-Calendar	AddEventWithName	False	zanotuj CALENDAR.SLOT.EVENT_NAME w kalendarzu
-Calendar	AddEventOnDateWithDate	False	dodaj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj nowe wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj nowe wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj nowe wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj nowe wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj nowe spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj nowe spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj nowe spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj nowe spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj nowe przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj nowe przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj nowe przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	dodaj nowe przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE dodaj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE dodaj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE dodaj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE dodaj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE dodaj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE dodaj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE dodaj nowe wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE dodaj nowe wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE dodaj nowe spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE dodaj nowe spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE dodaj nowe przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE dodaj nowe przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME do kalendarza
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zapisz CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zapisz o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zapisz wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zapisz spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zapisz przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zapisz w kalendarzu CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zapisz w kalendarzu o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zapisz w kalendarzu wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zapisz w kalendarzu spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zapisz w kalendarzu przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zanotuj CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zanotuj o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zanotuj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zanotuj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zanotuj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zanotuj w kalendarzu CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zanotuj w kalendarzu o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zanotuj w kalendarzu wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zanotuj w kalendarzu spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventOnDateWithDate	False	CALENDAR.SLOT.EVENT_DATE zanotuj w kalendarzu przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
-Calendar	NotifyOnEventStart	False	powiadom mnie kiedy spotkanie w kalendarzu się rozpocznie
-Calendar	NotifyOnEventStart	False	powiadom mnie kiedy spotkanie w kalendarzu się zacznie
-Calendar	NotifyOnEventStart	False	powiadom mnie kiedy spotkanie w moim kalendarzu się rozpocznie
-Calendar	NotifyOnEventStart	False	powiadom mnie kiedy spotkanie w moim kalendarzu się zacznie
-Calendar	NotifyOnEventStart	False	powiadom mnie kiedy wydarzenie w kalendarzu się rozpocznie
-Calendar	NotifyOnEventStart	False	powiadom mnie kiedy wydarzenie w kalendarzu się zacznie
-Calendar	NotifyOnEventStart	False	powiadom mnie kiedy wydarzenie w moim kalendarzu się rozpocznie
-Calendar	NotifyOnEventStart	False	powiadom mnie kiedy wydarzenie w moim kalendarzu się zacznie
-Calendar	NotifyOnEventStart	False	powiedz mi kiedy spotkanie w kalendarzu się rozpocznie
-Calendar	NotifyOnEventStart	False	powiedz mi kiedy spotkanie w kalendarzu się zacznie
-Calendar	NotifyOnEventStart	False	powiedz mi kiedy spotkanie w moim kalendarzu się rozpocznie
-Calendar	NotifyOnEventStart	False	powiedz mi kiedy spotkanie w moim kalendarzu się zacznie
-Calendar	NotifyOnEventStart	False	powiedz mi kiedy wydarzenie w kalendarzu się rozpocznie
-Calendar	NotifyOnEventStart	False	powiedz mi kiedy wydarzenie w kalendarzu się zacznie
-Calendar	NotifyOnEventStart	False	powiedz mi kiedy wydarzenie w moim kalendarzu się rozpocznie
-Calendar	NotifyOnEventStart	False	powiedz mi kiedy wydarzenie w moim kalendarzu się zacznie
-Calendar	NotNotifyOnEventStart	False	nie powiadamiaj mnie kiedy spotkanie w kalendarzu się rozpocznie
-Calendar	NotNotifyOnEventStart	False	nie powiadamiaj mnie kiedy spotkanie w kalendarzu się zacznie
-Calendar	NotNotifyOnEventStart	False	nie powiadamiaj mnie kiedy spotkanie w moim kalendarzu się rozpocznie
-Calendar	NotNotifyOnEventStart	False	nie powiadamiaj mnie kiedy spotkanie w moim kalendarzu się zacznie
-Calendar	NotNotifyOnEventStart	False	nie powiadamiaj mnie kiedy wydarzenie w kalendarzu się rozpocznie
-Calendar	NotNotifyOnEventStart	False	nie powiadamiaj mnie kiedy wydarzenie w kalendarzu się zacznie
-Calendar	NotNotifyOnEventStart	False	nie powiadamiaj mnie kiedy wydarzenie w moim kalendarzu się rozpocznie
-Calendar	NotNotifyOnEventStart	False	nie powiadamiaj mnie kiedy wydarzenie w moim kalendarzu się zacznie
-Calendar	NotNotifyOnEventStart	False	nie mów mi kiedy spotkanie w kalendarzu się rozpocznie
-Calendar	NotNotifyOnEventStart	False	nie mów mi kiedy spotkanie w kalendarzu się zacznie
-Calendar	NotNotifyOnEventStart	False	nie mów mi kiedy spotkanie w moim kalendarzu się rozpocznie
-Calendar	NotNotifyOnEventStart	False	nie mów mi kiedy spotkanie w moim kalendarzu się zacznie
-Calendar	NotNotifyOnEventStart	False	nie mów mi kiedy wydarzenie w kalendarzu się rozpocznie
-Calendar	NotNotifyOnEventStart	False	nie mów mi kiedy wydarzenie w kalendarzu się zacznie
-Calendar	NotNotifyOnEventStart	False	nie mów mi kiedy wydarzenie w moim kalendarzu się rozpocznie
-Calendar	NotNotifyOnEventStart	False	nie mów mi kiedy wydarzenie w moim kalendarzu się zacznie
-Calendar	NotifyOnEventInLocation	False	powiadom mnie kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotifyOnEventInLocation	False	powiadom mnie kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotifyOnEventInLocation	False	powiadom mnie kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotifyOnEventInLocation	False	powiadom mnie kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotifyOnEventInLocation	False	powiadom mnie kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotifyOnEventInLocation	False	powiadom mnie kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotifyOnEventInLocation	False	powiadom mnie kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotifyOnEventInLocation	False	powiadom mnie kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotifyOnEventInLocation	False	powiedz mi kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotifyOnEventInLocation	False	powiedz mi kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotifyOnEventInLocation	False	powiedz mi kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotifyOnEventInLocation	False	powiedz mi kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotifyOnEventInLocation	False	powiedz mi kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotifyOnEventInLocation	False	powiedz mi kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotifyOnEventInLocation	False	powiedz mi kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotifyOnEventInLocation	False	powiedz mi kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotNotifyOnEventInLocation	False	nie powiadamiaj mnie kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotNotifyOnEventInLocation	False	nie powiadamiaj mnie kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotNotifyOnEventInLocation	False	nie powiadamiaj mnie kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotNotifyOnEventInLocation	False	nie powiadamiaj mnie kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotNotifyOnEventInLocation	False	nie powiadamiaj mnie kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotNotifyOnEventInLocation	False	nie powiadamiaj mnie kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotNotifyOnEventInLocation	False	nie powiadamiaj mnie kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotNotifyOnEventInLocation	False	nie powiadamiaj mnie kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotNotifyOnEventInLocation	False	nie mów mi kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotNotifyOnEventInLocation	False	nie mów mi kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotNotifyOnEventInLocation	False	nie mów mi kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotNotifyOnEventInLocation	False	nie mów mi kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotNotifyOnEventInLocation	False	nie mów mi kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotNotifyOnEventInLocation	False	nie mów mi kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
-Calendar	NotNotifyOnEventInLocation	False	nie mów mi kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
-Calendar	NotNotifyOnEventInLocation	False	nie mów mi kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	OpenCalendar	-	pokaż kalendarz
+Calendar	OpenCalendar	-	pokaż mój kalendarz
+Calendar	OpenCalendar	-	wyświetl kalendarz
+Calendar	OpenCalendar	-	wyświetl mój kalendarz
+Calendar	OpenCalendar	-	otwórz kalendarz
+Calendar	OpenCalendar	-	otwórz mój kalendarz
+Calendar	CheckCalendarOnDate	-	pokaż plany na CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	pokaż plany w CALENDAR.SLOT.DATE_W
+Calendar	CheckCalendarOnDate	-	pokaż plany we CALENDAR.SLOT.DATE_WE
+Calendar	CheckCalendarOnDate	-	pokaż wydarzenia na CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	pokaż wydarzenia w CALENDAR.SLOT.DATE_W
+Calendar	CheckCalendarOnDate	-	pokaż wydarzenia we CALENDAR.SLOT.DATE_WE
+Calendar	CheckCalendarOnDate	-	wyświetl plany na CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	wyświetl plany w CALENDAR.SLOT.DATE_W
+Calendar	CheckCalendarOnDate	-	wyświetl plany we CALENDAR.SLOT.DATE_WE
+Calendar	CheckCalendarOnDate	-	wyświetl wydarzenia na CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	wyświetl wydarzenia w CALENDAR.SLOT.DATE_W
+Calendar	CheckCalendarOnDate	-	wyświetl wydarzenia we CALENDAR.SLOT.DATE_WE
+Calendar	CheckCalendarOnDate	-	otwórz plany na CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	otwórz plany w CALENDAR.SLOT.DATE_W
+Calendar	CheckCalendarOnDate	-	otwórz plany we CALENDAR.SLOT.DATE_WE
+Calendar	CheckCalendarOnDate	-	otwórz wydarzenia na CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	otwórz wydarzenia w CALENDAR.SLOT.DATE_W
+Calendar	CheckCalendarOnDate	-	otwórz wydarzenia we CALENDAR.SLOT.DATE_WE
+Calendar	CheckCalendarOnDate	-	co jest zaplanowane na CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	co jest zaplanowane w CALENDAR.SLOT.DATE_W
+Calendar	CheckCalendarOnDate	-	co jest zaplanowane we CALENDAR.SLOT.DATE_WE
+Calendar	CheckCalendarOnDate	-	jakie mam wydarzenia na CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	jakie mam wydarzenia w CALENDAR.SLOT.DATE_W
+Calendar	CheckCalendarOnDate	-	jakie mam wydarzenia we CALENDAR.SLOT.DATE_WE
+Calendar	CheckCalendarOnDate	-	jakie mam spotkania na CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	jakie mam spotkania w CALENDAR.SLOT.DATE_W
+Calendar	CheckCalendarOnDate	-	jakie mam spotkania we CALENDAR.SLOT.DATE_WE
+Calendar	CheckCalendarOnDate	-	czy mam wydarzenia na CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	czy mam wydarzenia w CALENDAR.SLOT.DATE_W
+Calendar	CheckCalendarOnDate	-	czy mam wydarzenia we CALENDAR.SLOT.DATE_WE
+Calendar	CheckCalendarOnDate	-	czy mam spotkania na CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	czy mam spotkania w CALENDAR.SLOT.DATE_W
+Calendar	CheckCalendarOnDate	-	czy mam spotkania we CALENDAR.SLOT.DATE_WE
+Calendar	CheckCalendarOnDate	-	pokaż spotkania
+Calendar	CheckCalendarOnDate	-	pokaż wydarzenia
+Calendar	CheckCalendarOnDate	-	pokaż moje spotkania
+Calendar	CheckCalendarOnDate	-	pokaż moje wydarzenia
+Calendar	CheckCalendarOnDate	-	wyświetl spotkania
+Calendar	CheckCalendarOnDate	-	wyświetl wydarzenia
+Calendar	CheckCalendarOnDate	-	wyświetl moje spotkania
+Calendar	CheckCalendarOnDate	-	wyświetl moje wydarzenia
+Calendar	CheckCalendarOnDate	-	otwórz spotkania
+Calendar	CheckCalendarOnDate	-	otwórz wydarzenia
+Calendar	CheckCalendarOnDate	-	otwórz moje spotkania
+Calendar	CheckCalendarOnDate	-	otwórz moje wydarzenia
+Calendar	AddEventWithName	-	dodaj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	dodaj wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	dodaj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	dodaj spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	dodaj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	dodaj przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	dodaj nowe wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	dodaj nowe wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	dodaj nowe spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	dodaj nowe spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	dodaj nowe przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	dodaj nowe przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	chcę dodać CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	chcę dodać CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	chcę dodać wydarzenie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	chcę dodać wydarzenie CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	chcę dodać spotkanie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	chcę dodać spotkanie CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	chcę dodać przypomnienie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	chcę dodać przypomnienie CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	chcę dodać nowe CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	chcę dodać nowe CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	chcę dodać nowe wydarzenie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	chcę dodać nowe wydarzenie CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	chcę dodać nowe spotkanie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	chcę dodać nowe spotkanie CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	chcę dodać nowe przypomnienie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	chcę dodać nowe przypomnienie CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	muszę dodać CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	muszę dodać CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	muszę dodać wydarzenie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	muszę dodać wydarzenie CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	muszę dodać spotkanie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	muszę dodać spotkanie CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	muszę dodać przypomnienie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	muszę dodać przypomnienie CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	muszę dodać nowe CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	muszę dodać nowe CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	muszę dodać nowe wydarzenie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	muszę dodać nowe wydarzenie CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	muszę dodać nowe spotkanie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	muszę dodać nowe spotkanie CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	muszę dodać nowe przypomnienie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventWithName	-	muszę dodać nowe przypomnienie CALENDAR.SLOT.EVENT_NAME do mojego kalendarza
+Calendar	AddEventWithName	-	zapisz CALENDAR.SLOT.EVENT_NAME w kalendarzu
+Calendar	AddEventWithName	-	zanotuj CALENDAR.SLOT.EVENT_NAME w kalendarzu
+Calendar	AddEventOnDateWithDate	-	dodaj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	dodaj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.DATE_W
+Calendar	AddEventOnDateWithDate	-	dodaj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME we CALENDAR.SLOT.DATE_WE
+Calendar	AddEventOnDateWithDate	-	dodaj wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	dodaj wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.DATE_W
+Calendar	AddEventOnDateWithDate	-	dodaj wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME we CALENDAR.SLOT.DATE_WE
+Calendar	AddEventOnDateWithDate	-	dodaj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	dodaj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.DATE_W
+Calendar	AddEventOnDateWithDate	-	dodaj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME we CALENDAR.SLOT.DATE_WE
+Calendar	AddEventOnDateWithDate	-	dodaj spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	dodaj spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.DATE_W
+Calendar	AddEventOnDateWithDate	-	dodaj spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME we CALENDAR.SLOT.DATE_WE
+Calendar	AddEventOnDateWithDate	-	dodaj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	dodaj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.DATE_W
+Calendar	AddEventOnDateWithDate	-	dodaj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME we CALENDAR.SLOT.DATE_WE
+Calendar	AddEventOnDateWithDate	-	dodaj przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	dodaj przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.DATE_W
+Calendar	AddEventOnDateWithDate	-	dodaj przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME we CALENDAR.SLOT.DATE_WE
+Calendar	AddEventOnDateWithDate	-	dodaj nowe wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	dodaj nowe wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.DATE_W
+Calendar	AddEventOnDateWithDate	-	dodaj nowe wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME we CALENDAR.SLOT.DATE_WE
+Calendar	AddEventOnDateWithDate	-	dodaj nowe wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	dodaj nowe wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.DATE_W
+Calendar	AddEventOnDateWithDate	-	dodaj nowe wydarzenie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME we CALENDAR.SLOT.DATE_WE
+Calendar	AddEventOnDateWithDate	-	dodaj nowe spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	dodaj nowe spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.DATE_W
+Calendar	AddEventOnDateWithDate	-	dodaj nowe spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME we CALENDAR.SLOT.DATE_WE
+Calendar	AddEventOnDateWithDate	-	dodaj nowe spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	dodaj nowe spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.DATE_W
+Calendar	AddEventOnDateWithDate	-	dodaj nowe spotkanie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME we CALENDAR.SLOT.DATE_WE
+Calendar	AddEventOnDateWithDate	-	dodaj nowe przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	dodaj nowe przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.DATE_W
+Calendar	AddEventOnDateWithDate	-	dodaj nowe przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME we CALENDAR.SLOT.DATE_WE
+Calendar	AddEventOnDateWithDate	-	dodaj nowe przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME na CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	dodaj nowe przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME w CALENDAR.SLOT.DATE_W
+Calendar	AddEventOnDateWithDate	-	dodaj nowe przypomnienie do kalendarza o nazwie CALENDAR.SLOT.EVENT_NAME we CALENDAR.SLOT.DATE_WE
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE dodaj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE dodaj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE dodaj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE dodaj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE dodaj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE dodaj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE dodaj nowe wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE dodaj nowe wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE dodaj nowe spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE dodaj nowe spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE dodaj nowe przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE dodaj nowe przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME do kalendarza
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zapisz CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zapisz o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zapisz wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zapisz spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zapisz przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zapisz w kalendarzu CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zapisz w kalendarzu o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zapisz w kalendarzu wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zapisz w kalendarzu spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zapisz w kalendarzu przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zanotuj CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zanotuj o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zanotuj wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zanotuj spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zanotuj przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zanotuj w kalendarzu CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zanotuj w kalendarzu o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zanotuj w kalendarzu wydarzenie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zanotuj w kalendarzu spotkanie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventOnDateWithDate	-	CALENDAR.SLOT.DATE zanotuj w kalendarzu przypomnienie o nazwie CALENDAR.SLOT.EVENT_NAME
+Calendar	NotifyOnEventStart	-	powiadom mnie kiedy spotkanie w kalendarzu się rozpocznie
+Calendar	NotifyOnEventStart	-	powiadom mnie kiedy spotkanie w kalendarzu się zacznie
+Calendar	NotifyOnEventStart	-	powiadom mnie kiedy spotkanie w moim kalendarzu się rozpocznie
+Calendar	NotifyOnEventStart	-	powiadom mnie kiedy spotkanie w moim kalendarzu się zacznie
+Calendar	NotifyOnEventStart	-	powiadom mnie kiedy wydarzenie w kalendarzu się rozpocznie
+Calendar	NotifyOnEventStart	-	powiadom mnie kiedy wydarzenie w kalendarzu się zacznie
+Calendar	NotifyOnEventStart	-	powiadom mnie kiedy wydarzenie w moim kalendarzu się rozpocznie
+Calendar	NotifyOnEventStart	-	powiadom mnie kiedy wydarzenie w moim kalendarzu się zacznie
+Calendar	NotifyOnEventStart	-	powiedz mi kiedy spotkanie w kalendarzu się rozpocznie
+Calendar	NotifyOnEventStart	-	powiedz mi kiedy spotkanie w kalendarzu się zacznie
+Calendar	NotifyOnEventStart	-	powiedz mi kiedy spotkanie w moim kalendarzu się rozpocznie
+Calendar	NotifyOnEventStart	-	powiedz mi kiedy spotkanie w moim kalendarzu się zacznie
+Calendar	NotifyOnEventStart	-	powiedz mi kiedy wydarzenie w kalendarzu się rozpocznie
+Calendar	NotifyOnEventStart	-	powiedz mi kiedy wydarzenie w kalendarzu się zacznie
+Calendar	NotifyOnEventStart	-	powiedz mi kiedy wydarzenie w moim kalendarzu się rozpocznie
+Calendar	NotifyOnEventStart	-	powiedz mi kiedy wydarzenie w moim kalendarzu się zacznie
+Calendar	NotifyOnEventStart	-	przypomnij mi kiedy spotkanie w kalendarzu się rozpocznie
+Calendar	NotifyOnEventStart	-	przypomnij mi kiedy spotkanie w kalendarzu się zacznie
+Calendar	NotifyOnEventStart	-	przypomnij mi kiedy spotkanie w moim kalendarzu się rozpocznie
+Calendar	NotifyOnEventStart	-	przypomnij mi kiedy spotkanie w moim kalendarzu się zacznie
+Calendar	NotifyOnEventStart	-	przypomnij mi kiedy wydarzenie w kalendarzu się rozpocznie
+Calendar	NotifyOnEventStart	-	przypomnij mi kiedy wydarzenie w kalendarzu się zacznie
+Calendar	NotifyOnEventStart	-	przypomnij mi kiedy wydarzenie w moim kalendarzu się rozpocznie
+Calendar	NotifyOnEventStart	-	przypomnij mi kiedy wydarzenie w moim kalendarzu się zacznie
+Calendar	NotNotifyOnEventStart	-	nie powiadamiaj mnie kiedy spotkanie w kalendarzu się rozpocznie
+Calendar	NotNotifyOnEventStart	-	nie powiadamiaj mnie kiedy spotkanie w kalendarzu się zacznie
+Calendar	NotNotifyOnEventStart	-	nie powiadamiaj mnie kiedy spotkanie w moim kalendarzu się rozpocznie
+Calendar	NotNotifyOnEventStart	-	nie powiadamiaj mnie kiedy spotkanie w moim kalendarzu się zacznie
+Calendar	NotNotifyOnEventStart	-	nie powiadamiaj mnie kiedy wydarzenie w kalendarzu się rozpocznie
+Calendar	NotNotifyOnEventStart	-	nie powiadamiaj mnie kiedy wydarzenie w kalendarzu się zacznie
+Calendar	NotNotifyOnEventStart	-	nie powiadamiaj mnie kiedy wydarzenie w moim kalendarzu się rozpocznie
+Calendar	NotNotifyOnEventStart	-	nie powiadamiaj mnie kiedy wydarzenie w moim kalendarzu się zacznie
+Calendar	NotNotifyOnEventStart	-	nie mów mi kiedy spotkanie w kalendarzu się rozpocznie
+Calendar	NotNotifyOnEventStart	-	nie mów mi kiedy spotkanie w kalendarzu się zacznie
+Calendar	NotNotifyOnEventStart	-	nie mów mi kiedy spotkanie w moim kalendarzu się rozpocznie
+Calendar	NotNotifyOnEventStart	-	nie mów mi kiedy spotkanie w moim kalendarzu się zacznie
+Calendar	NotNotifyOnEventStart	-	nie mów mi kiedy wydarzenie w kalendarzu się rozpocznie
+Calendar	NotNotifyOnEventStart	-	nie mów mi kiedy wydarzenie w kalendarzu się zacznie
+Calendar	NotNotifyOnEventStart	-	nie mów mi kiedy wydarzenie w moim kalendarzu się rozpocznie
+Calendar	NotNotifyOnEventStart	-	nie mów mi kiedy wydarzenie w moim kalendarzu się zacznie
+Calendar	NotNotifyOnEventStart	-	nie przypominaj mi kiedy spotkanie w kalendarzu się rozpocznie
+Calendar	NotNotifyOnEventStart	-	nie przypominaj mi kiedy spotkanie w kalendarzu się zacznie
+Calendar	NotNotifyOnEventStart	-	nie przypominaj mi kiedy spotkanie w moim kalendarzu się rozpocznie
+Calendar	NotNotifyOnEventStart	-	nie przypominaj mi kiedy spotkanie w moim kalendarzu się zacznie
+Calendar	NotNotifyOnEventStart	-	nie przypominaj mi kiedy wydarzenie w kalendarzu się rozpocznie
+Calendar	NotNotifyOnEventStart	-	nie przypominaj mi kiedy wydarzenie w kalendarzu się zacznie
+Calendar	NotNotifyOnEventStart	-	nie przypominaj mi kiedy wydarzenie w moim kalendarzu się rozpocznie
+Calendar	NotNotifyOnEventStart	-	nie przypominaj mi kiedy wydarzenie w moim kalendarzu się zacznie
+Calendar	NotifyOnEventInLocation	-	powiadom mnie kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotifyOnEventInLocation	-	powiadom mnie kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotifyOnEventInLocation	-	powiadom mnie kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotifyOnEventInLocation	-	powiadom mnie kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotifyOnEventInLocation	-	powiadom mnie kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotifyOnEventInLocation	-	powiadom mnie kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotifyOnEventInLocation	-	powiadom mnie kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotifyOnEventInLocation	-	powiadom mnie kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotifyOnEventInLocation	-	powiedz mi kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotifyOnEventInLocation	-	powiedz mi kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotifyOnEventInLocation	-	powiedz mi kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotifyOnEventInLocation	-	powiedz mi kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotifyOnEventInLocation	-	powiedz mi kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotifyOnEventInLocation	-	powiedz mi kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotifyOnEventInLocation	-	powiedz mi kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotifyOnEventInLocation	-	powiedz mi kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotifyOnEventInLocation	-	przypomnij mi kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotifyOnEventInLocation	-	przypomnij mi kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotifyOnEventInLocation	-	przypomnij mi kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotifyOnEventInLocation	-	przypomnij mi kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotifyOnEventInLocation	-	przypomnij mi kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotifyOnEventInLocation	-	przypomnij mi kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotifyOnEventInLocation	-	przypomnij mi kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotifyOnEventInLocation	-	przypomnij mi kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotNotifyOnEventInLocation	-	nie powiadamiaj mnie kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotNotifyOnEventInLocation	-	nie powiadamiaj mnie kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotNotifyOnEventInLocation	-	nie powiadamiaj mnie kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotNotifyOnEventInLocation	-	nie powiadamiaj mnie kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotNotifyOnEventInLocation	-	nie powiadamiaj mnie kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotNotifyOnEventInLocation	-	nie powiadamiaj mnie kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotNotifyOnEventInLocation	-	nie powiadamiaj mnie kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotNotifyOnEventInLocation	-	nie powiadamiaj mnie kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotNotifyOnEventInLocation	-	nie mów mi kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotNotifyOnEventInLocation	-	nie mów mi kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotNotifyOnEventInLocation	-	nie mów mi kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotNotifyOnEventInLocation	-	nie mów mi kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotNotifyOnEventInLocation	-	nie mów mi kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotNotifyOnEventInLocation	-	nie mów mi kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotNotifyOnEventInLocation	-	nie mów mi kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotNotifyOnEventInLocation	-	nie mów mi kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotNotifyOnEventInLocation	-	nie przypominaj mi kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotNotifyOnEventInLocation	-	nie przypominaj mi kiedy spotkanie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotNotifyOnEventInLocation	-	nie przypominaj mi kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotNotifyOnEventInLocation	-	nie przypominaj mi kiedy spotkanie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotNotifyOnEventInLocation	-	nie przypominaj mi kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotNotifyOnEventInLocation	-	nie przypominaj mi kiedy wydarzenie w kalendarzu w CALENDAR.SLOT.LOCATION się zacznie
+Calendar	NotNotifyOnEventInLocation	-	nie przypominaj mi kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się rozpocznie
+Calendar	NotNotifyOnEventInLocation	-	nie przypominaj mi kiedy wydarzenie w moim kalendarzu w CALENDAR.SLOT.LOCATION się zacznie

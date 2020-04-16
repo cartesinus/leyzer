@@ -1,22 +1,22 @@
 domain	intent	parallel	pattern
-Calendar	OpenCalendar	True	abre mi calendario
-Calendar	OpenCalendar	False	ábreme mi calendario
-Calendar	OpenCalendar	True	muestra mi calendario
-Calendar	OpenCalendar	False	muéstrame mi calendario
-Calendar	CheckCalendarOnDate	False	¿ qué hay en mi agenda CALENDAR.SLOT.DATE ?
-Calendar	AddEventWithName	False	añade un evento llamado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	False	añade un evento llamado CALENDAR.SLOT.EVENT_NAME a calendario
-Calendar	AddEventOnDateWithDate	False	añade un evento llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.EVENT_DATE
-Calendar	AddEventOnDateWithDate	False	añade un evento llamado CALENDAR.SLOT.EVENT_NAME a calendario el CALENDAR.SLOT.EVENT_DATE
-Calendar	NotifyOnEventStart	False	notifícame cuándo empieza el mítin en mi calendario
-Calendar	NotifyOnEventStart	False	notifícame cuándo empieza el evento en mi calendario
-Calendar	NotifyOnEventStart	False	notifícame cuándo empieza la cita en mi calendario
-Calendar	NotNotifyOnEventStart	False	no me notifiques cuándo empieza el mítin en mi calendario
-Calendar	NotNotifyOnEventStart	False	no me notifiques cuándo empieza el evento en mi calendario
-Calendar	NotNotifyOnEventStart	False	no me notifiques cuándo empieza la cita en mi calendario
-Calendar	NotifyOnEventInLocation	False	notifícame cuándo empieza el mítin en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	NotifyOnEventInLocation	False	notifícame cuándo empieza el evento en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	NotifyOnEventInLocation	False	notifícame cuándo empieza la cita en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	NotNotifyOnEventInLocation	False	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	NotNotifyOnEventInLocation	False	no me notifiques cuándo empieza el evento en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	NotNotifyOnEventInLocation	False	no me notifiques cuándo empieza la cita en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar	OpenCalendar	-	abre mi calendario
+Calendar	OpenCalendar	-	ábreme mi calendario
+Calendar	OpenCalendar	-	muestra mi calendario
+Calendar	OpenCalendar	-	muéstrame mi calendario
+Calendar	CheckCalendarOnDate	-	qué hay en mi agenda CALENDAR.SLOT.DATE ?
+Calendar	AddEventWithName	-	añade un evento llamado CALENDAR.SLOT.EVENT_NAME
+Calendar	AddEventWithName	-	añade un evento llamado CALENDAR.SLOT.EVENT_NAME a calendario
+Calendar	AddEventOnDateWithDate	-	añade un evento llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar	AddEventOnDateWithDate	-	añade un evento llamado CALENDAR.SLOT.EVENT_NAME a calendario el CALENDAR.SLOT.DATE
+Calendar	NotifyOnEventStart	-	notifícame cuándo empieza el mítin en mi calendario
+Calendar	NotifyOnEventStart	-	notifícame cuándo empieza el evento en mi calendario
+Calendar	NotifyOnEventStart	-	notifícame cuándo empieza la cita en mi calendario
+Calendar	NotNotifyOnEventStart	-	no me notifiques cuándo empieza el mítin en mi calendario
+Calendar	NotNotifyOnEventStart	-	no me notifiques cuándo empieza el evento en mi calendario
+Calendar	NotNotifyOnEventStart	-	no me notifiques cuándo empieza la cita en mi calendario
+Calendar	NotifyOnEventInLocation	-	notifícame cuándo empieza el mítin en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar	NotifyOnEventInLocation	-	notifícame cuándo empieza el evento en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar	NotifyOnEventInLocation	-	notifícame cuándo empieza la cita en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar	NotNotifyOnEventInLocation	-	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar	NotNotifyOnEventInLocation	-	no me notifiques cuándo empieza el evento en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar	NotNotifyOnEventInLocation	-	no me notifiques cuándo empieza la cita en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
