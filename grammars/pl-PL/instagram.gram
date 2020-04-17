@@ -2,11 +2,11 @@
 public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2> | ShowLastNumberPictures__ <INTENT_3> | ShowPicturesWithFilter__ <INTENT_4> | ShowPicturesWithLocation__ <INTENT_5> | ShowPicturesWithHashtag__ <INTENT_6> | PostWithPicturesFromDateAndWithLocation__ <INTENT_7> | ShowPicturesFromDate__ <INTENT_8> | TakePicture__ <INTENT_9> | PostWithLastPictureWithLocationAndWithHashtag__ <INTENT_10>);
 
 #INTENTS
-<INTENT_1> = otwórz [mój] instagram;
+<INTENT_1> = otwórz [mój] (instagram | insta);
 
-<INTENT_2> = <SHOW_VERB> [moje] [ostatnie] zdjęcia na instagramie;
+<INTENT_2> = <SHOW_VERB> [moje] [ostatnie] zdjęcia (na (instagramie | insta) | z (instagrama | insta));
 
-<INTENT_3> = <SHOW_VERB> [moje] (ostatnie | najnowsze) <COUNT> zdjęć na [moim koncie na] instagramie;
+<INTENT_3> = <SHOW_VERB> [moje] (ostatnie | najnowsze) <COUNT> zdjęć na [moim koncie na] (instagramie | insta);
 
 <INTENT_4> = <SHOW_VERB> [moje] zdjęcia na instagramie (<INTENT_4_a> | <INTENT_4_b>);
 <INTENT_4_a> = (z filtrem| które mają filtr | które używają filtra) <FILTER>;
@@ -17,11 +17,11 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 <INTENT_5_b> = oznaczone (lokalizacją | tagiem lokalizacji);
 <INTENT_5_c> = w których (lokalizacja | geolokalizacja | gps) ustawiony jest;
 
-<INTENT_6> = <SHOW_VERB> [moje] zdjęcia na instagramie (które mają tag | z tagiem) <HASHTAG>;
+<INTENT_6> = <SHOW_VERB> [moje] zdjęcia na instagramie (które mają (hashtag | tag) | z (hashtagiem | tagiem)) <HASHTAG>;
 
-<INTENT_7> = (stwórz | utwórz) [nowy] kolaż na (instagrama | instagramie) ze [wszystkimi] zdjęciami zrobionymi w <LOCATION> (w <DATE_DAY> | <DATE_MONTH>);
+<INTENT_7> = (stwórz | utwórz | zrób) [nowy] kolaż na (instagrama | instagramie | insta) ze [wszystkimi] zdjęciami zrobionymi (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>) w <LOCATION>;
 
-<INTENT_8> = <SHOW_VERB> [moje] (zdjęcia | posty) zrobione (w <DATE_DAY> | <DATE_MONTH>);
+<INTENT_8> = <SHOW_VERB> [moje] (zdjęcia | posty) zrobione (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>);
 
 <INTENT_9> = (zrób [mi] | stwórz | utwórz) (zdjęcie | fotkę | selfie) (na instagrama | przy użyciu instagrama);
 
@@ -34,6 +34,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 <COUNT> = INSTAGRAM.SLOT.COUNT;
 <DATE_DAY> = INSTAGRAM.SLOT.DATE_DAY;
 <DATE_MONTH> = INSTAGRAM.SLOT.DATE_MONTH;
+<DATE_MONTH_A> = INSTAGRAM.SLOT.DATE_MONTH_A;
 
 #LANG. COMPONENTS
-<SHOW_VERB> = (pokaż | wyświetl | wylistuj | otwórz) [mi];
+<SHOW_VERB> = (pokaż | wyświetl | otwórz) [mi];

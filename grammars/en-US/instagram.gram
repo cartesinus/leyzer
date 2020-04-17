@@ -17,30 +17,30 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 <WHEN> = when i tag a picture <HASHTAG> on instagram;
 
 #INTENTS
-<INTENT_1> = open [my] instagram;
+<INTENT_1> = open [my] (instagram | insta);
 
-<INTENT_2> = <SHOW_VERB> my [recent] instagram pictures;
+<INTENT_2> = <SHOW_VERB> my [recent] (instagram | insta) pictures;
 
-<INTENT_3> = <SHOW_VERB> my <COUNT> (recent | latest) instagram pictures [on my account];
+<INTENT_3> = <SHOW_VERB> my <COUNT> (recent | latest) (instagram | insta) pictures [on my account];
 
-<INTENT_4> = <SHOW_VERB> my instagram pictures (<INTENT_4_a> | <INTENT_4_b>);
+<INTENT_4> = <SHOW_VERB> my (instagram | insta) pictures (<INTENT_4_a> | <INTENT_4_b>);
 <INTENT_4_a> = (with | that use) filter <FILTER>;
 <INTENT_4_b> = that have the <FILTER> filter [applied];
 
-<INTENT_5> = <SHOW_VERB> (the | my) instagram pictures (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
+<INTENT_5> = <SHOW_VERB> (the | my) (instagram | insta) pictures (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
 <INTENT_5_a> = (i took | taken) [when i was] in;
 <INTENT_5_b> = tagged with location;
 <INTENT_5_c> = with (location | geolocation | gps) tag;
 
-<INTENT_6> = <SHOW_VERB> my instagram pictures tagged <HASHTAG>;
+<INTENT_6> = <SHOW_VERB> my (instagram | insta) pictures tagged <HASHTAG>;
 
-<INTENT_7> = create a [new] post on instagram with all my photos taken in <LOCATION> (on the <DATE_DAY> | in <DATE_MONTH>) as a collage;
+<INTENT_7> = create a [new] post on (instagram | insta) with all my photos taken in <LOCATION> (on the <DATE_DAY> of <DATE_MONTH> | in <DATE_MONTH>) as a collage;
 
-<INTENT_8> = <SHOW_VERB> my (post | posts) from (the <DATE_DAY> | <DATE_MONTH>);
+<INTENT_8> = <SHOW_VERB> my (post | posts) from (the <DATE_DAY> of <DATE_MONTH> | <DATE_MONTH>);
 
-<INTENT_9> = take a picture (using | with) instagram;
+<INTENT_9> = take a picture (using | with) (instagram | insta);
 
-<INTENT_10> = create a [new] post on instagram with the last photo from Gallery [(and a tag <LOCATION> | (and add | adding) (<FILTER> filter | <HASHTAG> hashtag))];
+<INTENT_10> = create a [new] post on (instagram | insta) with the last photo from Gallery [(and a tag <LOCATION> | (and add | adding) (<FILTER> filter | <HASHTAG> hashtag))];
 
 #SLOTS
 <HASHTAG> = INSTAGRAM.SLOT.HASHTAG;

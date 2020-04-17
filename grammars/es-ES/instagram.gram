@@ -34,9 +34,9 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 
 <INTENT_6> = <SHOW_VERB> mis (fotos | imágenes) etiquetadas <HASHTAG>;
 
-<INTENT_7> = crea una [nueva] publicación en [el] instagram con todas mis fotos tomadas en <LOCATION> (el <DATE_DAY> | en <DATE_MONTH>) como un collage;
+<INTENT_7> = crea una [nueva] publicación en [el] instagram con todas mis fotos tomadas en <LOCATION> (el <DATE_DAY> <DATE_MONTH> | en <DATE_MONTH>) como un collage;
 
-<INTENT_8> = <SHOW_VERB> (mi publicación | mis publicaciones) (del <DATE_DAY> | de <DATE_MONTH>);
+<INTENT_8> = <SHOW_VERB> (mi publicación | mis publicaciones) (del <DATE_DAY> <DATE_MONTH> | de <DATE_MONTH>);
 
 <INTENT_9> = toma una foto (usando | con) [el] instagram;
 
