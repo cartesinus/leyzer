@@ -1,43 +1,57 @@
 domain	intent	parallel	pattern
-News	ShowNews	True	NEWS.SLOT.PORTAL
-News	ShowNews	True	otwórz NEWS.SLOT.PORTAL
-News	ShowNews	True	czytaj NEWS.SLOT.PORTAL
-News	ShowNews	True	pokaż NEWS.SLOT.PORTAL
-News	ShowNews	False	wyświetl wiadomości z NEWS.SLOT.PORTAL
-News	ShowNews	False	wyświetl najnowsze wiadomości z NEWS.SLOT.PORTAL
-News	ShowNews	False	wyświetl mi wiadomości z NEWS.SLOT.PORTAL
-News	ShowNews	False	wyświetl mi najnowsze wiadomości z NEWS.SLOT.PORTAL
-News	ShowNews	True	pokaż wiadomości z NEWS.SLOT.PORTAL
-News	ShowNews	False	pokaż najnowsze wiadomości z NEWS.SLOT.PORTAL
-News	ShowNews	True	pokaż mi wiadomości z NEWS.SLOT.PORTAL
-News	ShowNews	False	pokaż mi najnowsze wiadomości z NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	wyświetl NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	wyświetl NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	wyświetl najnowsze NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	wyświetl najnowsze NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	wyświetl mi NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	wyświetl mi NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	wyświetl mi najnowsze NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	wyświetl mi najnowsze NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	True	pokaż NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	pokaż NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	pokaż najnowsze NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	pokaż najnowsze NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	pokaż mi NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	pokaż mi NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	pokaż mi najnowsze NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	False	pokaż mi najnowsze NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
-News	NotifyWhenPortalUpdates	False	powiadom mnie kiedy NEWS.SLOT.PORTAL doda nowe wiadomości
-News	NotifyWhenPortalUpdates	False	powiadom mnie kiedy NEWS.SLOT.PORTAL doda nowe newsy
-News	NotifyWhenPortalUpdates	False	powiadom mnie kiedy NEWS.SLOT.PORTAL się zaktualizuje
-News	NotifyWhenPortalUpdates	False	powiedz mi kiedy NEWS.SLOT.PORTAL doda nowe wiadomości
-News	NotifyWhenPortalUpdates	False	powiedz mi kiedy NEWS.SLOT.PORTAL doda nowe newsy
-News	NotifyWhenPortalUpdates	False	powiedz mi kiedy NEWS.SLOT.PORTAL się zaktualizuje
-News	NotifyWhenPortalUpdatesInSection	False	powiadom mnie kiedy NEWS.SLOT.PORTAL w sekcji NEWS.SLOT.SECTION opublikuje artykuł
-News	NotifyWhenPortalUpdatesInSection	False	powiadom mnie kiedy NEWS.SLOT.PORTAL w sekcji NEWS.SLOT.SECTION opublikuje nowy artykuł
-News	NotifyWhenPortalUpdatesInSection	False	powiadom mnie kiedy NEWS.SLOT.PORTAL w części NEWS.SLOT.SECTION opublikuje artykuł
-News	NotifyWhenPortalUpdatesInSection	False	powiadom mnie kiedy NEWS.SLOT.PORTAL w części NEWS.SLOT.SECTION opublikuje nowy artykuł
-News	NotifyWhenPortalUpdatesInSection	False	powiedz mi kiedy NEWS.SLOT.PORTAL w sekcji NEWS.SLOT.SECTION opublikuje artykuł
-News	NotifyWhenPortalUpdatesInSection	False	powiedz mi kiedy NEWS.SLOT.PORTAL w sekcji NEWS.SLOT.SECTION opublikuje nowy artykuł
-News	NotifyWhenPortalUpdatesInSection	False	powiedz mi kiedy NEWS.SLOT.PORTAL w części NEWS.SLOT.SECTION opublikuje artykuł
-News	NotifyWhenPortalUpdatesInSection	False	powiedz mi kiedy NEWS.SLOT.PORTAL w części NEWS.SLOT.SECTION opublikuje nowy artykuł
+News	ShowNews	-	otwórz NEWS.SLOT.PORTAL
+News	ShowNews	-	czytaj NEWS.SLOT.PORTAL
+News	ShowNews	-	pokaż NEWS.SLOT.PORTAL
+News	ShowNews	-	wyświetl wiadomości z NEWS.SLOT.PORTAL
+News	ShowNews	-	wyświetl najnowsze wiadomości z NEWS.SLOT.PORTAL
+News	ShowNews	-	wyświetl mi wiadomości z NEWS.SLOT.PORTAL
+News	ShowNews	-	wyświetl mi najnowsze wiadomości z NEWS.SLOT.PORTAL
+News	ShowNews	-	pokaż wiadomości z NEWS.SLOT.PORTAL
+News	ShowNews	-	pokaż najnowsze wiadomości z NEWS.SLOT.PORTAL
+News	ShowNews	-	pokaż mi wiadomości z NEWS.SLOT.PORTAL
+News	ShowNews	-	pokaż mi najnowsze wiadomości z NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	wyświetl artykuły z kategori NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	wyświetl artykuły z kategori NEWS.SLOT.SECTION w NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	wyświetl artykuły z kategori NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	wyświetl najnowsze artykuły z kategori NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	wyświetl najnowsze artykuły z kategori NEWS.SLOT.SECTION w NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	wyświetl najnowsze artykuły z kategori NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	wyświetl mi artykuły z kategori NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	wyświetl mi artykuły z kategori NEWS.SLOT.SECTION w NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	wyświetl mi artykuły z kategori NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	wyświetl mi najnowsze artykuły z kategori NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	wyświetl mi najnowsze artykuły z kategori NEWS.SLOT.SECTION w NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	wyświetl mi najnowsze artykuły z kategori NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	pokaż artykuły z kategori NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	pokaż artykuły z kategori NEWS.SLOT.SECTION w NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	pokaż artykuły z kategori NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	pokaż najnowsze artykuły z kategori NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	pokaż najnowsze artykuły z kategori NEWS.SLOT.SECTION w NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	pokaż najnowsze artykuły z kategori NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	pokaż mi artykuły z kategori NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	pokaż mi artykuły z kategori NEWS.SLOT.SECTION w NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	pokaż mi artykuły z kategori NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	pokaż mi najnowsze artykuły z kategori NEWS.SLOT.SECTION z NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	pokaż mi najnowsze artykuły z kategori NEWS.SLOT.SECTION w NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	pokaż mi najnowsze artykuły z kategori NEWS.SLOT.SECTION na NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	powiadom mnie kiedy NEWS.SLOT.PORTAL doda nowe wiadomości
+News	NotifyWhenPortalUpdates	-	powiadom mnie kiedy NEWS.SLOT.PORTAL doda nowe newsy
+News	NotifyWhenPortalUpdates	-	powiadom mnie kiedy NEWS.SLOT.PORTAL się zaktualizuje
+News	NotifyWhenPortalUpdates	-	powiedz mi kiedy NEWS.SLOT.PORTAL doda nowe wiadomości
+News	NotifyWhenPortalUpdates	-	powiedz mi kiedy NEWS.SLOT.PORTAL doda nowe newsy
+News	NotifyWhenPortalUpdates	-	powiedz mi kiedy NEWS.SLOT.PORTAL się zaktualizuje
+News	NotifyWhenPortalUpdates	-	daj znać kiedy NEWS.SLOT.PORTAL doda nowe wiadomości
+News	NotifyWhenPortalUpdates	-	daj znać kiedy NEWS.SLOT.PORTAL doda nowe newsy
+News	NotifyWhenPortalUpdates	-	daj znać kiedy NEWS.SLOT.PORTAL się zaktualizuje
+News	NotifyWhenPortalUpdatesInSection	-	powiadom mnie kiedy NEWS.SLOT.PORTAL w sekcji NEWS.SLOT.SECTION opublikuje artykuł
+News	NotifyWhenPortalUpdatesInSection	-	powiadom mnie kiedy NEWS.SLOT.PORTAL w sekcji NEWS.SLOT.SECTION opublikuje nowy artykuł
+News	NotifyWhenPortalUpdatesInSection	-	powiadom mnie kiedy NEWS.SLOT.PORTAL w części NEWS.SLOT.SECTION opublikuje artykuł
+News	NotifyWhenPortalUpdatesInSection	-	powiadom mnie kiedy NEWS.SLOT.PORTAL w części NEWS.SLOT.SECTION opublikuje nowy artykuł
+News	NotifyWhenPortalUpdatesInSection	-	powiedz mi kiedy NEWS.SLOT.PORTAL w sekcji NEWS.SLOT.SECTION opublikuje artykuł
+News	NotifyWhenPortalUpdatesInSection	-	powiedz mi kiedy NEWS.SLOT.PORTAL w sekcji NEWS.SLOT.SECTION opublikuje nowy artykuł
+News	NotifyWhenPortalUpdatesInSection	-	powiedz mi kiedy NEWS.SLOT.PORTAL w części NEWS.SLOT.SECTION opublikuje artykuł
+News	NotifyWhenPortalUpdatesInSection	-	powiedz mi kiedy NEWS.SLOT.PORTAL w części NEWS.SLOT.SECTION opublikuje nowy artykuł
+News	NotifyWhenPortalUpdatesInSection	-	daj znać kiedy NEWS.SLOT.PORTAL w sekcji NEWS.SLOT.SECTION opublikuje artykuł
+News	NotifyWhenPortalUpdatesInSection	-	daj znać kiedy NEWS.SLOT.PORTAL w sekcji NEWS.SLOT.SECTION opublikuje nowy artykuł
+News	NotifyWhenPortalUpdatesInSection	-	daj znać kiedy NEWS.SLOT.PORTAL w części NEWS.SLOT.SECTION opublikuje artykuł
+News	NotifyWhenPortalUpdatesInSection	-	daj znać kiedy NEWS.SLOT.PORTAL w części NEWS.SLOT.SECTION opublikuje nowy artykuł

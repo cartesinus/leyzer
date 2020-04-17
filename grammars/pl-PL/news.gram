@@ -7,14 +7,14 @@ public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | 
 
 #INTENTS
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
-<INTENT_1_a> = [otwórz | czytaj | pokaż] <PORTAL>;
+<INTENT_1_a> = (otwórz | czytaj | pokaż) <PORTAL>;
 <INTENT_1_b> = (wyświetl | pokaż) [mi] [najnowsze] wiadomości z <PORTAL>;
 
-<INTENT_2> = (wyświetl | pokaż) [mi] [najnowsze] <SECTION> (z | na) <PORTAL>;
+<INTENT_2> = (wyświetl | pokaż) [mi] [najnowsze] artykuły z kategori <SECTION> (z | w | na) <PORTAL>;
 
-<INTENT_3> = (powiadom mnie | powiedz mi) <WHEN_1>;
+<INTENT_3> = (powiadom mnie | powiedz mi | daj znać) <WHEN_1>;
 
-<INTENT_4> = (powiadom mnie | powiedz mi) <WHEN_2>;
+<INTENT_4> = (powiadom mnie | powiedz mi | daj znać) <WHEN_2>;
 
 #SLOTS
 <SECTION> = NEWS.SLOT.SECTION;
