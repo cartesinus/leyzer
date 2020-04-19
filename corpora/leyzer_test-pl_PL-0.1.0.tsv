@@ -1,0 +1,1031 @@
+domain	intent	utterance	bio
+Airconditioner	ChangeTemperature	zmień minimalną i maksymalną temperaturę na moim termostacie	o o o o o o o o
+Airconditioner	ChangeTemperature	zmień temperaturę na moim termostacie	o o o o o
+Airconditioner	GetHumidity	sprawdź wilgotność	o o
+Airconditioner	GetHumidity	sprawdź poziom wilgotności	o o o
+Airconditioner	GetHumidity	podaj wilgotność	o o
+Airconditioner	GetHumidity	podaj poziom wilgotności	o o o
+Airconditioner	GetHumidity	pokaż wilgotność	o o
+Airconditioner	GetHumidity	pokaż poziom wilgotności	o o o
+Airconditioner	GetTemperature	jaką mam tutaj temperaturę według mojego klimatyzator?	o o o o o o b-av_alias
+Airconditioner	GetTemperature	jaką mamy tutaj temperaturę według mojego klimatyzacja?	o o o o o o b-av_alias
+Airconditioner	GetTemperature	jaka jest tutaj temperatura według mojego klima?	o o o o o o b-av_alias
+Airconditioner	GetTemperatureFromDevice	sprawdź temperaturę czujnika temperatury pokojowej salonie	o o o o o b-device_name
+Airconditioner	GetTemperatureFromDevice	sprawdź co mówi czujnik temperatury domowej kuchnii	o o o o o o b-device_name
+Airconditioner	GetTemperatureFromDevice	co mówi czujnik temperatury wewnętrznej przedpokoju?	o o o o o b-device_name
+Airconditioner	GetTemperatureFromDevice	co pokazuje czujnik temperatury wewnętrznej łazience?	o o o o o b-device_name
+Airconditioner	SetTemperatureBetweenValues	ustaw minimalną temperaturę na 23 stopnie na moim termostacie, a maksymalną na 29 stopni	o o o o o o o o o o o o o o
+Airconditioner	SetTemperatureBetweenValues	ustaw temperaturę między 23 a 29 stopnie na moim termostacie	o o o o o o o o o o
+Airconditioner	SetTemperatureOnDevice	zmień minimalną i maksymalną temperaturę na moim termostacie sypialnii	o o o o o o o o b-device_name
+Airconditioner	SetTemperatureOnDevice	zmień temperaturę na moim termostacie salonie	o o o o o b-device_name
+Airconditioner	SetTemperatureToValue	ustaw mój termostat na 22 stopnie	o o o o b-value i-value
+Airconditioner	SetTemperatureToValue	ustaw temperaturę na moim termostacie na 23 stopnie	o o o o o o b-value i-value
+Airconditioner	SetTemperatureToValue	ustaw temperaturę na 24 stopnie na moim termostacie	o o o b-value i-value o o o
+Airconditioner	SetTemperatureToValueOnDevice	ustaw mój termostat kuchnii na 25 stopnie	o o o b-device_name o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	ustaw temperaturę na moim termostacie przedpokoju na 26 stopnie	o o o o o b-device_name o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	ustaw temperaturę na 27 stopnie na moim termostacie łazience	o o o b-value i-value o o o b-device_name
+Airconditioner	TurnOff	zatrzymaj system chłodzenia	o b-av_alias i-av_alias
+Airconditioner	TurnOff	zatrzymaj klimatyzator off	o b-av_alias o
+Airconditioner	TurnOff	wyłącz klimatyzacja	o b-av_alias
+Airconditioner	TurnOn	uruchom klima	o b-av_alias
+Airconditioner	TurnOn	uruchom system chłodzenia	o b-av_alias i-av_alias
+Airconditioner	TurnOn	włącz klimatyzator	o b-av_alias
+Calendar	CheckCalendarOnDate	co jest w moim harmonogramie czwartek	o o o o o b-date
+Calendar	NotNotifyOnEventInLocation	nie powiadamiaj mnie gdy rozpocznie się spotkanie w moim kalendarzu w lokalizacji domu	o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	nie powiadamiaj mnie gdy rozpocznie się wydarzenie w moim kalendarzu w lokalizacji pracy	o o o o o o o o o o o o b-location
+Calendar	NotNotifyOnEventInLocation	nie powiadamiaj mnie gdy rozpocznie się spotkanie w moim kalendarzu w lokalizacji domu magdy	o o o o o o o o o o o o b-location i-location
+Calendar	NotNotifyOnEventStart	nie powiadamiaj mnie gdy rozpocznie się spotkanie w moim kalendarzu	o o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie powiadamiaj mnie o rozpoczęciu wydarzenia w moim kalendarzu	o o o o o o o o o
+Calendar	NotNotifyOnEventStart	nie powiadamiaj mnie gdy rozpocznie się spotkanie w moim kalendarzu	o o o o o o o o o o
+Calendar	NotifyOnEventInLocation	powiadom mnie gdy rozpocznie się spotkanie w moim kalendarzu w lokalizacji domu	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	powiadom mnie gdy rozpocznie się wydarzenie w moim kalendarzu w lokalizacji pracy	o o o o o o o o o o o b-location
+Calendar	NotifyOnEventInLocation	powiadom mnie gdy rozpocznie się spotkanie w moim kalendarzu w lokalizacji domu magdy	o o o o o o o o o o o b-location i-location
+Calendar	NotifyOnEventStart	powiadom mnie gdy rozpocznie się spotkanie w moim kalendarzu	o o o o o o o o o
+Calendar	NotifyOnEventStart	powiadom mnie gdy rozpocznie się wydarzenie w moim kalendarzu	o o o o o o o o o
+Calendar	NotifyOnEventStart	powiadom mnie gdy rozpocznie się spotkanie w moim kalendarzu	o o o o o o o o o
+Calendar	OpenCalendar	wyświetl mój kalendarz	o o o
+Calendar	OpenCalendar	otwórz mój kalendarz	o o o
+Calendar	OpenCalendar	pokaż mój kalendarz	o o o
+Contacts	EditContactWithName	edytuj mój kontakt jacek chruszczewski	o o o b-name i-name
+Contacts	EditContactWithName	otwórz mój kontakt alfreda czech do edycji	o o o b-name i-name o o
+Contacts	EditContactWithNumber	zmień nazwę mojego kontaktu o numerze 671 304 866	o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	EditNumberInContactWithName	zmień numer mojego kontaktu norbert	o o o o b-name
+Contacts	EditNumberInContactWithNameToNumberAndToType	ustaw numer 520 390 563 w kontakcie małgorzata jako numer domowy	o o b-phone_number i-phone_number i-phone_number o o b-name o o b-phone_type
+Contacts	OpenContacts	wyświetl moje kontakty	o o o
+Contacts	OpenContacts	otwórz moje kontakty	o o o
+Contacts	OpenContacts	pokaż moje kontakty	o o o
+Contacts	OpenMyContact	wyświetl informacje o moim kontakcie	o o o o o
+Contacts	OpenMyContact	otwórz dane mojego kontaktu	o o o o
+Contacts	OpenMyContact	pokaż informacje o moim kontakcie	o o o o o
+Contacts	ShowContactWithEmail	wyświetl moje kontakty z e-mailem bartosz.majewski@gazeta.pl	o o o o o b-email
+Contacts	ShowContactWithEmail	wyświetl moje kontakty google z e-mailem radosław.kędzierski@gazeta.pl	o o o o o o b-email
+Contacts	ShowContactWithEmail	otwórz moje kontakty z e-mailem benedykt11208@onet.pl	o o o o o b-email
+Contacts	ShowContactWithEmail	otwórz moje kontakty google z e-mailem mariola28364@o2.pl	o o o o o o b-email
+Contacts	ShowContactWithEmail	pokaż moje kontakty z e-mailem stanisław.towarek@wpl.pl	o o o o o b-email
+Contacts	ShowContactWithEmail	pokaż moje kontakty google z e-mailem janusz32171@wpl.pl	o o o o o o b-email
+Contacts	ShowContactWithName	wyświetl moje kontakty o nazwie mariusz mazur	o o o o o b-name i-name
+Contacts	ShowContactWithName	otwórz moje kontakty o nazwie wiktor	o o o o o b-name
+Contacts	ShowContactWithName	pokaż moje kontakty o nazwie grzegorz	o o o o o b-name
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go tata i dodaj numer 33 389 29 68	o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go marta i dodaj numer 18 739 39 97 jako numer pracowy	o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go joachim kwiecień i nadaj mu numer +48 74 365 20 28	o o o o o o b-name i-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go józef i nadaj mu numer 756 996 702 jako numer komórkowy	o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number o o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt nazywając go jakub lange z numerem 63 265 32 65	o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt nazywając go oskar kozłowski z numerem 68 854 33 78 jako numer stacjonarny	o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go babcia ewelina z numerem 84 328 53 59	o o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt nazywając go edward z numerem 777 794 969 jako numer domowy	o o o o o b-name o o b-phone_number i-phone_number i-phone_number o o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt nazywając go skarb o numerze 778 345 580	o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt nazywając go seweryn fogiel o numerze 77 950 98 17 jako numer pracowy	o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go dziadek eugeniusz i dodaj numer 48 985 94 67	o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go waldemar i dodaj numer 68 277 87 18 jako komórkowy	o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go aneta szewczyk i nadaj mu numer 573 571 750	o o o o o o b-name i-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go rozalia i nadaj mu numer 68 910 27 25 jako stacjonarny	o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go maja z numerem 657 296 506	o o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go kuba wesołowski z numerem 756 130 895 jako domowy	o o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go olga z numerem telefonu 548 318 510	o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go brunon szulc z numerem telefonu 594 144 898 jako pracowy	o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go marzenna pasternak z numerem 77 814 67 33	o o o o o o b-name i-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt i nazwij go mama z numerem +48 29 872 27 46 jako komórkowy	o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt używając nazwy lidia szymański i dodaj numer 15 401 22 91	o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt używając nazwy mirosława lewicki i dodaj numer +48 22 529 47 38 jako stacjonarny	o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt używając nazwy mania i nadaj mu numer 24 437 14 63	o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt używając nazwy laura wiśniewski i nadaj mu numer 526 273 765 jako domowy	o o o o o b-name i-name o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt używając nazwy anatol z numerem 775 231 918	o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt używając nazwy bolesław z numerem 568 759 156 jako pracowy	o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt używając nazwy krystian z numerem 82 546 33 53	o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt używając nazwy fryderyk z numerem +48 13 759 37 99 jako komórkowy	o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt używając nazwy rudolf z numerem 583 417 380	o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	utwórz nowy kontakt używając nazwy sandra z numerem 545 969 829 jako stacjonarny	o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNumber	wyświetl moje kontakty z numerem telefonu 701 853 191	o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	otwórz moje kontakty o numerze telefonu 13 721 41 95	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	pokaż moje kontakty z numerem telefonu 52 680 46 98	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumberAndWithEmail	wyświetl moje kontakty z numerem telefonu 518 164 740 i napisz email liliana11637@wpl.pl	o o o o o o b-phone_number i-phone_number i-phone_number o o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	otwórz moje kontakty z numerem telefonu 576 645 717 i napisz email alfons25866@gazeta.pl	o o o o o o b-phone_number i-phone_number i-phone_number o o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	pokaż moje kontakty z numerem telefonu 768 632 816 i napisz email florian342@gazeta.pl	o o o o o o b-phone_number i-phone_number i-phone_number o o o b-email
+Email	OpenEmail	sprawdź email	o o
+Email	OpenEmail	sprawdź skrzynkę odbiorczą	o o o
+Email	OpenEmail	sprawdź gmail	o o
+Email	OpenEmail	sprawdź skrzynkę odbiorczą gmaila	o o o o
+Email	OpenEmail	sprawdź moje emaile	o o o
+Email	OpenEmail	sprawdź moją skrzynkę odbiorczą	o o o o
+Email	OpenEmail	sprawdź moje e-maile	o o o
+Email	OpenEmail	sprawdź moje e-maile na gmailu	o o o o o
+Email	OpenEmail	sprawdź mojego gmaila	o o o
+Email	OpenEmail	sprawdź moją skrzynkę odbiorczą gmail	o o o o o
+Email	OpenEmail	sprawdź mój najnowsze e-maile	o o o o
+Email	OpenEmail	sprawdź moje e-maile z kategorii główne	o o o o o o
+Email	OpenEmail	pobierz e-maile	o o
+Email	OpenEmail	pobierz emaile do skrzynki odbiorczej	o o o o o
+Email	OpenEmail	pobierz z gmaila	o o o
+Email	OpenEmail	odśwież skrzynkę odbiorczą gmaila	o o o o
+Email	OpenEmail	pobierz mój emaile	o o o
+Email	OpenEmail	pobierz z mojej skrzynki odbiorczej	o o o o o
+Email	OpenEmail	pobierz moje emaile	o o o
+Email	OpenEmail	pobierz moje emaile na gmail	o o o o o
+Email	OpenEmail	pobierz emaile z gmaila	o o o o
+Email	OpenEmail	pobierz z mojej skrzynki odbriorczej gmaila	o o o o o o
+Email	OpenEmail	pobierz móje najnowsze e-maile	o o o o
+Email	OpenEmail	pobierz moje e-maile z kategorii główne	o o o o o o
+Email	ReplyToEmailFromAddress	odpowiedz na e-maila marzena chruszczewski	o o o b-to i-to
+Email	SendEmail	wyślij e-mail	o o
+Email	SendEmail	wyślij do kogoś e-mail	o o o o
+Email	SendEmailToAddress	email do franciszka	o o b-to
+Email	SendEmailToAddress	wyślij e-mail do edmund.wojciechowski@o2.pl używając mojego gmaila	o o o b-to o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	email do roman23640@wpl.pl o temacie spotkanie i treści cześć, co u ciebie słychać?	o o b-to o o b-subject o o b-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	wyślij e-maila na adres emilian25590@gmail.com o temacie urodziny marka i treści w załączeniu przesyłam raport z ubiegłego tygodnia	o o o o b-to o o b-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	wyślij e-maila na adres antoni.wyrzykowski@o2.pl o temacie musisz to zobaczyć i treści pamiętaj o tym że musimy to skończyć do piątku używając gmaila	o o o o b-to o o b-subject i-subject i-subject o o b-message i-message i-message i-message i-message i-message i-message i-message i-message o o
+Email	ShowEmailFromSender	sprawdź e-maile od emilian25590@gmail.com	o o o b-sender_address
+Email	ShowEmailFromSender	sprawdź e-maile które dostałem od alfreda.majewski@onet.pl	o o o o o b-sender_address
+Email	ShowEmailFromSender	sprawdź e-maile które otrzymałem od ilona1010@gmail.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	sprawdź moje e-maile od agata.kalinowski@gazeta.pl	o o o o b-sender_address
+Email	ShowEmailFromSender	sprawdź moje e-maile które dostałem od marcin.zięba@gazeta.pl	o o o o o o b-sender_address
+Email	ShowEmailFromSender	sprawdź moje e-maile które otrzymałem od daniel21175@gmail.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	pobierz e-maile od rozalia29474@o2.pl	o o o b-sender_address
+Email	ShowEmailFromSender	pobierz e-maile które dostałem od maciej199@onet.pl	o o o o o b-sender_address
+Email	ShowEmailFromSender	pobierz e-maile które otrzymałem od bogusława30727@gmail.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	pobierz moje e-maile od janusz32171@wpl.pl	o o o o b-sender_address
+Email	ShowEmailFromSender	pobierz moje e-maile które dostałem od benedykt11208@onet.pl	o o o o o o b-sender_address
+Email	ShowEmailFromSender	pobierz moje e-maile które otrzymałem od joachim.hoffmann@gazeta.pl	o o o o o o b-sender_address
+Email	ShowEmailFromTime	pobierz emaile które dotarły do mnie dziś	o o o o o o b-time
+Email	ShowEmailFromTime	pobierz e-maile które otrzymałem wczoraj	o o o o b-time
+Email	ShowEmailFromTime	pokaż mi e-maile które dotarły do mnie dwa dni temu	o o o o o o o b-time i-time i-time
+Email	ShowEmailFromTime	pokaż mi e-maile które otrzymałem osiem godzin temu	o o o o o b-time i-time i-time
+Email	ShowEmailWithLabel	pobierz moje e-maile oznaczone jako spam	o o o o o b-label
+Email	ShowEmailWithLabel	pobierz moje e-maile które mają etykietkę ważne	o o o o o o b-label
+Email	ShowEmailWithLabel	pobierz moje e-maile z etykietą spam	o o o o o b-label
+Email	ShowEmailWithLabel	pokaż mi moje e-maile oznaczone jako ważne	o o o o o o b-label
+Email	ShowEmailWithLabel	pokaż mi moje e-maile które mają etykietkę spam	o o o o o o o b-label
+Email	ShowEmailWithLabel	pokaż mi moje e-maile z etykietą ważne	o o o o o o b-label
+Email	ShowEmailWithPriority	pokaż mi e-maile o priorytecie ważne	o o o o o b-priority
+Email	ShowEmailWithSubject	pobierz moje e-maile o temacie propozycja stabilizacji kursu obrotu	o o o o o b-subject i-subject i-subject i-subject
+Email	ShowEmailWithSubject	pokaż mi moje e-maile z tematem seria telefonu	o o o o o o b-subject i-subject
+Facebook	OpenFacebook	stwórz nowy post na facebooka	o o o o o
+Facebook	OpenFacebook	utwórz nowy post na facebookuka	o o o o o
+Facebook	OpenFacebook	opublikuj coś na facebooku	o o o o
+Facebook	OpenFacebook	zupdateuj mój status na facebooku	o o o o o
+Facebook	PostPicture	opublikuj zdjęcie na facebooku	o o o o
+Facebook	PostPicture	opublikuj zdjęcie na moim facebooku	o o o o o
+Facebook	PostPicture	wyślij zdjęcie na facebooka	o o o o
+Facebook	PostPicture	opublikuj zdjęcie na moim facebooku	o o o o o
+Facebook	PostPicture	umieść zdjęcie na facebooku	o o o o
+Facebook	PostPicture	umieść zdjęcie na moim facebooku	o o o o o
+Facebook	PostPicture	udostępnij zdjęcie na facebooka	o o o o
+Facebook	PostPicture	udostępnij zdjęcię na mojego facebooka	o o o o o
+Facebook	PostPicture	wyślij zdjęcie na facebooka	o o o o
+Facebook	PostPicture	wyślij zdjęcie na mojego facebooka	o o o o o
+Facebook	PostPicture	wyślij zdjęcie do facebooka	o o o o
+Facebook	PostPicture	wyślij zdjęcie do mojego facebooka	o o o o o
+Facebook	PostPictureWithCaption	opublikuj zdjęcie na facebooku z podpisem z mamą	o o o o o o b-caption i-caption
+Facebook	PostPictureWithCaption	opublikuj zdjęcie z podpisem z justinem bieberem na facebooku	o o o o b-caption i-caption i-caption o o
+Facebook	PostPictureWithCaption	wyślij zdjęcie na facebooku z podpisem piękni !	o o o o o o b-caption i-caption
+Facebook	PostPictureWithCaption	wyślij zdjęcie z podpisem ewa okopacz na facebooku	o o o o b-caption i-caption o o
+Facebook	PostPictureWithUrl	opublikuj bit.ly/cqtNpby na facebooku	o b-picture_url o o
+Facebook	PostPictureWithUrl	wyślij www.tinyurl.com/RwsE4r1 na facebooka	o b-picture_url o o
+Facebook	PostPictureWithUrl	wyślij na facebooka cutt.ly/gJpzL2R	o o o b-picture_url
+Facebook	PostPictureWithUrlAndWithCaption	dodaj podpis do www.tinyurl.com/IgCQSvc o treści wina pisu i wyślij na facebooka	o o o b-picture_url o o b-caption i-caption o o o o
+Facebook	PostPictureWithUrlAndWithCaption	dodaj podpis do bit.ly/BFjbddV o treści damy radę i umieść na facebooku	o o o b-picture_url o o b-caption i-caption o o o o
+Facebook	PostPictureWithUrlAndWithCaption	wyślij bit.ly/RJR0aqL na facebooka z podpisem pełna zgoda	o b-picture_url o o o o b-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	wyślij www.tinyurl.com/7wE53yt na mojego facebooka z podpisem aż tak źle	o b-picture_url o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	umieść shorturl.at/6L0RWEo na facebooku z podpisem klasyka pis	o b-picture_url o o o o b-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	umieść www.tinyurl.com/vmkgtf9 na mojego facebooka z podpisem najgorzej	o b-picture_url o o o o o b-caption
+Facebook	PostStatus	stwórz nowy post o treści to jeden z tych uczonych po na facebooku	o o o o o b-status i-status i-status i-status i-status i-status o o
+Facebook	PostStatus	opublikuj nowy post o treści co za język taki nowoczesn ! na facebooku	o o o o o b-status i-status i-status i-status i-status i-status o o
+Facebook	PostStatus	opublikuj wstyd mi za wpisy powyzej na facebooku	o b-status i-status i-status i-status i-status o o
+Facebook	PostStatus	opublikuj na facebooku post o treści za 4 lata z większością	o o o o o o b-status i-status i-status i-status i-status
+Facebook	PostStatus	opublikuj na facebooku że proszę być z nam !	o o o o b-status i-status i-status i-status i-status
+Facebook	PostStatus	zaktualizuj moją stronę na facebooku o haha potem powtórka	o o o o o o b-status i-status i-status
+Facebook	PostStatus	zaktualizuj mój status na Facebooku na co to za ściema	o o o o o o b-status i-status i-status i-status
+Facebook	ShowAlbumWithName	wyświetl zdjęcia z albumu wakacje	o o o o b-album
+Facebook	ShowAlbumWithName	pokaż zdjęcia z albumu kotki i pieski na facebooku	o o o o b-album i-album i-album o o
+Facebook	ShowAlbumWithName	wyświetl zdjęcia z mojego albumu komunia	o o o o o b-album
+Facebook	ShowAlbumWithName	pokaż zdjęcia z mojego albumu memy na facebooku	o o o o o b-album o o
+Facebook	ShowAlbumWithName	pokaż zdjęcia w albumie moja ukochana	o o o o b-album i-album
+Facebook	ShowAlbumWithName	pokaż zdjęcia z albumu wakacje na facebooku	o o o o b-album o o
+Facebook	ShowAlbumWithName	pokaż zdjęcia w moim albumie kotki i pieski	o o o o o b-album i-album i-album
+Facebook	ShowAlbumWithName	pokaż zdjęcia z mojego albumu komunia na facebooku	o o o o o b-album o o
+Fitbit	AddWeight	dodaj moją wagę w fitbitcie	o o o o o
+Fitbit	AddWeight	zanotuj moją wagę w fitbitcie	o o o o o
+Fitbit	AddWeight	zapisz moją wagę w fitbitcie	o o o o
+Fitbit	NotifyOnWeight	powiadom mnie jeśli moja waga przekroczy 60 kg	o o o o o o b-weight i-weight
+Fitbit	NotifyOnWeight	powiedz mi kiedy moja waga przekroczy 61 kg	o o o o o o b-weight i-weight
+Fitbit	ShowBMI	podaj moj bmi w fitbit	o o o o o
+Fitbit	ShowBMI	podaj wymiary mojego ciała w fitbit	o o o o o o
+Fitbit	ShowBMI	podaj moją wagę w fitbitcie	o o o
+Fitbit	ShowBMI	moje bmi w fitbit	o o o o
+Fitbit	ShowBMI	moje wymiary ciała w fitbit	o o o o o
+Fitbit	ShowBMI	moja waga w fitbit	o o o o
+Fitbit	ShowSteps	podaj moją liczbę kroków na fitbitcie	o o o o o o
+Fitbit	ShowSteps	pokaż moje kroki w fitbitcie	o o o o
+Fitbit	ShowSteps	podaj liczbę kroków na fitbicie	o o o o o
+Fitbit	ShowSteps	pokaż krokomierze na fitbicie	o o o o
+Fitbit	ShowSteps	podaj fitbitowy licznik kroków	o o o o
+Fitbit	ShowSteps	pokaż liczbę kroków w fitbicie	o o o o o
+Fitbit	ShowSteps	podaj liczbę kroków którą zrobiłem	o o o o o
+Fitbit	ShowSteps	uzyskaj liczbę kroków od fitbit	o o o o o
+Fitbit	ShowSteps	podaj liczbę kroków którą zrobiłem	o o o o o
+Fitbit	ShowSteps	mój fitbitowy licznik kroków	o o o o
+Fitbit	ShowSteps	moje kroki w fitbitcie	o o o o
+Fitbit	ShowSteps	policz ilość kroków w fitbitcie	o o o o o
+Fitbit	ShowSteps	krokomierz w fitbitcie	o o o
+Fitbit	ShowSteps	fitbitowy licznik kroków	o o o
+Fitbit	ShowSteps	liczba kroków w fitbitcie	o o o o
+Fitbit	ShowSteps	liczba kroków które zrobiłem	o o o o
+Fitbit	ShowSteps	licznik kroków w fitbitcie	o o o o
+Fitbit	ShowSteps	ilość kroków którą przeszedłem	o o o o
+Fitbit	ShowStepsOnDate	podaj moją liczbę kroków w fitbit dla 1szy stycznia	o o o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	pokaż moje kroki z fitbita dla 15.02.2020	o o o o o o b-date
+Fitbit	ShowStepsOnDate	podaj liczbę kroków 13 stycznia zaznaczoną na fitbitcie	o o o b-date i-date o o o
+Fitbit	ShowStepsOnDate	uzyskaj krokomierz pFitbit na 17 stycznia	o o o o b-date i-date
+Fitbit	ShowStepsOnDate	pobierz liczbę kroków fitbit dla 3 lutego	o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	podaj liczbę kroków w fitbit dla 17 lutego	o o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	podaj liczbę kroków które wykonałem 3 czerwca	o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	oblicz liczbę kroków 11 październik na fitbit	o o o b-date i-date o o
+Fitbit	ShowStepsOnDate	podaj liczbę kroków którą zrobiłem 9 listopad	o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	licznik kroków 1szy stycznia	o o b-date i-date
+Fitbit	ShowStepsOnDate	ilość kroków 15.02.2020 na fitbitcie	o o b-date o o
+Fitbit	ShowStepsOnDate	liczba kroków 13 stycznia na fitbitcie	o o b-date i-date o o
+Fitbit	ShowStepsOnDate	krokomierz dla 17 stycznia	o o b-date i-date
+Fitbit	ShowStepsOnDate	licznik kroków fitbit dla 3 lutego	o o o o b-date i-date
+Fitbit	ShowStepsOnDate	ilość kroków na fitbitcie którą zrobiłem 17 lutego	o o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	ilość kroków którą zrobiłem 3 czerwca	o o o o b-date i-date
+Fitbit	ShowStepsOnDate	liczba kroków liczona 11 październik na fitbitcie	o o o b-date i-date o o
+Fitbit	ShowStepsOnDate	kroki które zrobiłem 9 listopad	o o o b-date i-date
+Gdrive	CreateFile	utwórz plik na dysku google	o o o o o
+Gdrive	CreateFile	utwórz plik dysku google	o o o o
+Gdrive	CreateFileWithName	utwórz plik na dysku google o nazwie mp3	o o o o o o o b-file_name
+Gdrive	CreateFileWithName	utwórz nowy plik o nazwie nowa lazienka na dysku google	o o o o o b-file_name i-file_name o o o
+Gdrive	OpenFileWithName	otwórz mój przepis na kotlety do edycji na dysku google	o o b-file_name i-file_name i-file_name o o o o o
+Gdrive	OpenGdrive	wyświetl moje pliki na dysku google	o o o o o o
+Gdrive	OpenGdrive	wyświetl moje pliki na dysku google	o o o o o o
+Gdrive	OpenGdrive	wyświetl moje pliki na dysku google	o o o o o o
+Gdrive	OpenGdrive	wyświetl moje pliki z google drive	o o o o o o
+Gdrive	OpenGdrive	pokaż moje pliki na dysku google	o o o o o o
+Gdrive	OpenGdrive	pokaż moje pliki na dysku google	o o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij mój nowy plik 2 z adela.miller@o2.pl	o o b-file_name i-file_name i-file_name o b-mail
+Gdrive	ShareFileWithNameToAddress	udostępnij mój nowy plik 4 z michalina.sikora@o2.pl i pozwól na edycję	o o b-file_name i-file_name i-file_name o b-mail o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij mój readme z eleonora.grec@gmail.com i pozwól na odczyt i zapis	o o b-file_name o b-mail o o o o o o
+Gdrive	ShareFileWithNameToAddress	udostępnij mój faktura z bogumił.miller@gmail.com i daj zgodę na czytanie	o o b-file_name o b-mail o o o o o
+Gdrive	ShowFilesFromTime	wyświetl moje pliki na dysku google utworzone dziś	o o o o o o o b-time
+Gdrive	ShowFilesFromTime	wyświetl moje pliki na dysku google zmodyfikowane wczoraj	o o o o o o o b-time
+Gdrive	ShowFilesFromTime	wyświetl listę moich plików dysku google utworzonych w zeszły weekend	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	wyświetl moje pliki na dysku google zmodyfikowane w zeszłym miesiącu	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	pokaż moje pliki na dysku google utworzone w tym miesiącu	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesFromTime	pokaż moje pliki na dysku google zmodyfikowane 2 godziny temu	o o o o o o o b-time i-time i-time
+Gdrive	ShowFilesWithSize	wyświetl moje pliki na dysku google większe niż 1 mb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wyświetl moje pliki na dysku google mniejsze niż 3 mb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wyświetl moje pliki na dysku google większe niż 5 mb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	wypisz moje pliki na dysku google mniejsze niż 500 kb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	pokaż moje pliki na dysku google większe niż 300 kb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	pokaż moje pliki na dysku google mniejsze niż 720 kb	o o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithStar	wyświetl moje pliki google oznaczone gwiazdką	o o o o o o
+Gdrive	ShowFilesWithStar	wyświetl pliki z google drive które oznaczyłem gwiazdką	o o o o o o o o
+Gdrive	ShowFilesWithStar	wyświetl listę moich ulubionych plików na dysku google	o o o o o o o o
+Gdrive	ShowFilesWithStar	wyświetl listę plików google które oznaczyłem gwiazdką	o o o o o o o
+Gdrive	ShowFilesWithStar	pokaż moje pliki google oznaczone gwiazdką	o o o o o o
+Gdrive	ShowFilesWithStar	pokaż pliki z dysku google które oznaczyłem gwiazdką	o o o o o o o o
+Gdrive	ShowFilesWithType	wyświetl moje pliki mp3 na dysku google	o o o b-mime_type o o o
+Gdrive	ShowFilesWithType	wyświetl moje pliki na dysku google z typem txt	o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	wyświetl moje pliki jpeg z dysku google	o o o b-mime_type o o o
+Gdrive	ShowFilesWithType	wyświetl listę moich plików na dysku google o typie png	o o o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	pokaż moje pliki gif na dyskugGoogle	o o o b-mime_type o o
+Gdrive	ShowFilesWithType	pokaż moje pliki na dysku google o typie mp4	o o o o o o o o b-mime_type
+Gdrive	ShowOldestFiles	wyświetl moje pliki z google które zostały ostatnio utworzone	o o o o o o o o o
+Gdrive	ShowOldestFiles	wyświetl moje najnowsze pliki z google drive	o o o o o o o
+Gdrive	ShowOldestFiles	wyświetl moje najstarsze pliki na dysku google	o o o o o o o
+Gdrive	ShowOldestFiles	wyświetl listę moich plików z google które zostały ostatnio utworzone	o o o o o o o o o o
+Gdrive	ShowOldestFiles	wyświetl listę moich najnowszych plików z google drive	o o o o o o o
+Gdrive	ShowOldestFiles	wyświetl listę moich najstarszych plików z google drive	o o o o o o o o
+Gdrive	ShowOldestFiles	pokaż moje pliki z google które zostały ostatnio utworzone	o o o o o o o o o
+Gdrive	ShowOldestFiles	pokaż moje najnowsze pliki z google drive	o o o o o o o
+Gdrive	ShowOldestFiles	pokaż moje najstarsze pliki na dysku google	o o o o o o o
+Gdrive	SortReverseAlphabetical	wyświetl moje pliki na dysku google w kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wyświetl moje pliki na dysku google w odwrotnej kolejności alfabetycznej	o o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wyświetl listę moich plików na dysku google w kolejności alfabetycznej	o o o o o o o o o o
+Gdrive	SortReverseAlphabetical	wyświetl listę moich plików na dysku google w odwrotnej kolejności alfabetycznej	o o o o o o o o o o
+Gdrive	SortReverseAlphabetical	pokaż moje pliki na dysku google w kolejności alfabetycznej	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	pokaż moje pliki na dysku google w odwrotnej kolejności alfabetycznej	o o o o o o o o o o
+Instagram	OpenInstagram	otwórz instagram	o o
+Instagram	OpenInstagram	otwórz mój instagram	o o o
+Instagram	ShowLastNumberPictures	wyświetl 13 moich ostatnich zdjęć	o b-count o o o
+Instagram	ShowLastNumberPictures	wyświetl INSTARAM.SLOT.COUNT moich najnowszych zdjęć na moim koncie	o o o o o o o o
+Instagram	ShowLastNumberPictures	wyświetl dziesięć moich ostatnich zdjęc na instagramie	o b-count o o o o o
+Instagram	ShowLastNumberPictures	wyświetl 100 moich najnowszych zdjęć na moim koncie	o b-count o o o o o o
+Instagram	ShowLastNumberPictures	wyświetl listę 8 najnowszych zdjęć	o o b-count o o
+Instagram	ShowLastNumberPictures	wyświetl listę pięć najnowszych zdjęć na moim koncie	o o b-count o o o o o
+Instagram	ShowLastNumberPictures	wyświetl listę osiemnaście ostatnich zdjęć	o o b-count o o
+Instagram	ShowLastNumberPictures	wyświetl listę dwa ostatnich zdjęć z instagrama na moim koncie	o o b-count o o o o o o o
+Instagram	ShowLastNumberPictures	pokaż mi moje 10 najnowszych zdjęcć na instagramie	o o o b-count o o o o
+Instagram	ShowLastNumberPictures	pokaż mi moje sto najnowszych zdjęć instagramowych na moim koncie	o o o b-count o o o o o o
+Instagram	ShowLastNumberPictures	pokaż mi 4 moich ostatnich zdjęć na instagramie	o o b-count o o o o o
+Instagram	ShowLastNumberPictures	pokaż mi 6 moich ostatnich zdjęć z instagrama na moim koncie	o o b-count o o o o o o o o
+Instagram	ShowLastNumberPictures	pokaż moje 2 ostatnich zdjęć na instagramie	o o b-count o o o o
+Instagram	ShowLastNumberPictures	pokaż INSTARAM.SLOT.COUNT moich najnowszych zdjęć instagramowych na moim koncie	o o o o o o o o o
+Instagram	ShowLastNumberPictures	pokaż mi 13 moich ostatnich zdjęc na instagramie	o o b-count o o o o o
+Instagram	ShowLastNumberPictures	pokaż mi dziesięć moich ostatnich zdjęć z instagrama na moim koncie	o o b-count o o o o o o o o
+Instagram	ShowPictures	wyświetl moje zdjęcia na instagramie	o o o o o
+Instagram	ShowPictures	wyświetl moje ostatnie zdjęcia na instagramie	o o o o o o
+Instagram	ShowPictures	wypisz moje zdjęcia na instagramie	o o o o o
+Instagram	ShowPictures	wypisz moje ostatnie zdjęcia na instagramie	o o o o o o
+Instagram	ShowPictures	pokaż mi moje zdjęcia na instagramie	o o o o o o
+Instagram	ShowPictures	pokaż mi moje ostatnie zdjęcia z instagrama	o o o o o o o
+Instagram	ShowPictures	pokaż moje zdjęcia na instagramie	o o o o o
+Instagram	ShowPictures	pokaż moje ostatnie zdjęcia na instagramie	o o o o o o
+Instagram	ShowPicturesFromDate	wyświetl mój post z styczniu	o o o o b-date_month
+Instagram	ShowPicturesFromDate	wyświetl mój post z poniedziałek	o o o o b-date_day
+Instagram	ShowPicturesFromDate	wyświetl moje posty z lutym	o o o o b-date_month
+Instagram	ShowPicturesFromDate	wyświetl moje posty z wtorek	o o o o b-date_day
+Instagram	ShowPicturesFromDate	wylistuj mój post z marcu	o o o o b-date_month
+Instagram	ShowPicturesFromDate	wylistuj mój post z środę	o o o o b-date_day
+Instagram	ShowPicturesFromDate	wylistuj moje posty z kwietniu	o o o o b-date_month
+Instagram	ShowPicturesFromDate	wylistuj moje posty z piątek	o o o o b-date_day
+Instagram	ShowPicturesFromDate	pokaż mi mój post z lipcu	o o o o o b-date_month
+Instagram	ShowPicturesFromDate	pokaż mi swój post z czwartek	o o o o o b-date_day
+Instagram	ShowPicturesFromDate	pokaż mi moje posty z sierpniu	o o o o o b-date_month
+Instagram	ShowPicturesFromDate	pokaż mi moje posty z sobotę	o o o o o b-date_day
+Instagram	ShowPicturesFromDate	pokaż mój post z wrześniu	o o o o b-date_month
+Instagram	ShowPicturesFromDate	pokaż mój post z niedzielę	o o o o b-date_day
+Instagram	ShowPicturesFromDate	pokaż moje posty z styczniu	o o o o b-date_month
+Instagram	ShowPicturesFromDate	pokaż moje posty z 2 czerwca	o o o o b-date_day i-date_day
+Instagram	ShowPicturesWithFilter	wyświetl moje zdjęcia na instagramie które mają filtr lark	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	wyświetl moje zdjęcia na instagramie z zastosowanym filtrem juno	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	wyświetl moje zdjęcia na instagramie które używają filtra sierra	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	wyświetl moje zdjęcia na instagramie z filtrem valencia	o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	wyświetl moje zdjęcia na instagramie które mają filtr clarendon	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	wyświetl moje zdjęcia na instagramie na których zastosowano filtr gingham	o o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	wyświetl moje zdjęcia na instagramie które używają filtra crema	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	wyświetl moje zdjęcia na instagramie z filtrem aden	o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	pokaż mi moje zdjęcia na instagramie które mają filtr lark	o o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	pokaż mi moje zdjęcia na instagramie z zastosowanym filtrem juno	o o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	pokaż mi moje zdjęcia na instagramie które używają filtra sierra	o o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	pokaż mi moje zdjęcia na instagramie z filtrem valencia	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	pokaż moje zdjęcia na instagramie które mają filtr clarendon	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	pokaż moje zdjęcia na instagramie z zastosowanym filtrem gingham	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	pokaż moje zdjęcia na instagramie które używają filtra crema	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	pokaż moje zdjęcia na instagramie z filtrem aden	o o o o o o o b-filter
+Instagram	ShowPicturesWithHashtag	wyświetl moje zdjęcia na instagramie oznaczone jako pieski	o o o o o o o b-hashtag
+Instagram	ShowPicturesWithHashtag	wyświetl moje zdjęcia na instagramie oznaczone jako sesja	o o o o o o o b-hashtag
+Instagram	ShowPicturesWithHashtag	pokaż mi moje zdjęcia na instagramie oznaczone tagiem polityka	o o o o o o o o b-hashtag
+Instagram	ShowPicturesWithHashtag	pokaż moje zdjęcia na instagramie oznaczone jako kuchnia	o o o o o o o b-hashtag
+Instagram	ShowPicturesWithLocation	wyświetl moje zdjęcia z instagrama które zrobiłem w pune	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl moje zdjęcia z instagrama które zrobiłem gdy byłem w nowym jorku	o o o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	wyświetl moje zdjęcia na instagramie oznaczone lokalizacją z stambuł	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl moje zdjęcia z instagrama wykonane w pekin	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl moje zdjęcia z instagrama zrobione gdy byłem w police	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl moje zdjęcia na instagramie z tagiem geolokalizacji w bogota	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl moje zdjęcia na instagramie z tagiem gps w chongqing	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl moje zdjęcia na instagramie ze znacznikiem lokalizacji w giecz	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl zdjęcia z instagrama które zrobiłem w ahmadabad	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl zdjęcia z instagrama które zrobiłem gdy byłem w pusan	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl zdjęcia na instagramie oznaczone lokalizacją z rangun	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl zdjęcia z instagrama wykonane w zakopane	o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetlaj zdjęcia z instagrama zrobione gdy byłem w sankt petersburg	o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	wyświetl zdjęcia na instagramie z tagiem geolokalizacji w santiago	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl zdjęcia na instagramie z tagiem gps w bangalore	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl zdjęcia na instagramie ze znacznikiem lokalizacji w hongkong	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama które zrobiłem w mumbaj	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama które zrobiłem gdy byłem w kanpur	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama oznaczonych lokalizacją w ułan bator	o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama wykonanych w bagdad	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama zrobionych gdy byłem w nairobi	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama  z tagiem geolokalizacji w kanton	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama  z tagiem gps w tiencin	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama z tagiem lokalizacji w stargard	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama które zrobiłem w lublin	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama które zrobiłem gdy byłem w poznań	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama oznaczone lokalizacją w pjongjang	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama wykonane w karaczi	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama zrobione gdy byłem w chartum	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama z tagiem geolokalizacji w świeradów-zdrój	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama z tagiem gps w piotrków trybunalski	o o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	wyświetl listę zdjęć z instagrama ze znacznikiem lokalizacji w nowy jork	o o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	pokaż mi moje zdjęcia na instagramie które zrobiłem w parczew	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi moje zdjęcia na instagramie które zrobiłem gdy byłem w warszawie	o o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi moje zdjęcia na instagramie oznaczone lokalizacją w bangkok	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi moje zdjęcia z instagrama wykonane w ankara	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi moje zdjęcia na instagramie zrobione gdy byłem w jaipur	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi moje zdjęcia na instagramie z tagiem geolokalizacji w lagos	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi moje zdjęcia na instagramie z tagiem gps w pyrzyce	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi moje zdjęcia na instagramie z tagiem lokalizacji w kudowa-zdrój	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi zdjęcia na instagramie które zrobiłem w opoczno	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi zdjęcia na instagramie które zrobiłem gdy byłem w dżakarta	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi zdjęcia na instagramie oznaczone lokalizacją w berlin	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi zdjęcia z instagrama wykonane w wrocławiu	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi zdjęcia na instagramie zrobione gdy byłem w elbląg	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi zdjęcia na instagramie z tagiem geolokalizacji w baku	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi zdjęcia na instagramie z tagiem gps w teheran	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż mi zdjęcia na instagramie z tagiem lokalizacji w surat	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż moje zdjęcia na instagramie które zrobiłem w gniezno	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż moje zdjęcia na instagramie które zrobiłem gdy byłem w durban	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż moje zdjęcia na instagramie oznaczone lokalizacją moskwa	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż moje zdjęcia z instagrama wykonane w szanghaj	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż moje zdjęcia z instagrama zrobione gdy byłem w wolin	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż moje zdjęcia na instagramie z tagiem geolokalizacyjnym w delhi	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż moje zdjęcia na instagramie z tagiem gps los angeles	o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	pokaż moje zdjęcia na instagramie z tagiem lokalizacji dhaka	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż zdjęcia z instagrama które zrobiłem w łowicz	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż zdjęcia z instagrama które zrobiłem gdy byłem w olkusz	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż zdjęcia na instagramie oznaczone lokalizacją ostrzeszów	o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż zdjęcia z instagrama wykonane w são paulo	o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	pokaż zdjęcia z instagrama zrobione gdy byłem w krosno odrzańskie	o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	pokaż zdjęcia na instagramie z tagiem geolokalizacyjnym w łódź	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż zdjęcia na instagramie z tagiem gps w katowice	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	pokaż zdjęcia na instagramie ze znacznikiem lokalizacji sulejów	o o o o o o o b-location
+News	NotifyWhenPortalUpdates	powiadom mnie gdy strona wp.pl zostanie zaktualizowana	o o o o b-portal o o
+News	NotifyWhenPortalUpdates	powiadom mnie o nowych wiadomościach na tvn24	o o o o o o b-portal
+News	NotifyWhenPortalUpdatesInSection	powiadom mnie gdy sekcja sport na tvp info opublikuje nowy artykuł	o o o o b-section o b-portal i-portal o o o
+News	ShowNews	ostatnie onet.pl wiadomości	o b-portal o
+News	ShowNews	ostatnie wiadomości na times polska	o o o b-portal i-portal
+News	ShowNews	wiadomości na asz dziennik	o o b-portal i-portal
+News	ShowNews	otwórz wp.pl	o b-portal
+News	ShowNews	przeczytaj tvn24	o b-portal
+News	ShowNews	pokaż mi wiadomości z tvp info	o o o o b-portal i-portal
+News	ShowNews	pokaż mi wiadomości na onet.pl	o o o o b-portal
+News	ShowNews	pokaż wiadomości na times polska	o o o b-portal i-portal
+News	ShowNews	pokaż wiadomości z asz dziennik	o o o b-portal i-portal
+News	ShowNewsFromSection	pokaż wp.pl w zakładce polityka	o b-portal o o b-section
+News	ShowNewsFromSection	pokaż technologia z tvn24	o b-section o b-portal
+Phone	CallEmergency	zadzwoń na 112	o o o
+Phone	CallEmergency	zadzwoń po pogotowie	o o o
+Phone	CallEmergency	zadzwoń na numer alarmowy	o o o o
+Phone	CallEmergency	zadzwoń na straż pożarną	o o o o
+Phone	CallEmergency	zadzwoń na policję	o o o
+Phone	SMSToContact	napisz wiadomość do prosiaka	o o o b-to
+Phone	SMSToContact	wyślij smsa do mamy	o o o b-to
+Phone	SMSToContact	wyślij wiadomość do taty	o o o b-to
+Phone	SMSToContact	wiadomość do ukochaniej	o o b-to
+Phone	SMSToContactWithMessage	do męża wyślij wiadomość zadzwoń do mnie	o b-to o o b-message i-message i-message
+Phone	SMSToContactWithMessage	wyślij wiadomość co się z tobą dzieje do erwin	o o b-message i-message i-message o b-to
+Phone	SMSToContactWithMessage	wyślij wiadomość do roman małecki o treści umówisz się ze mną	o o o b-to i-to o o b-message i-message i-message i-message
+Phone	SMSToContactWithMessage	wyślij wiadomość do karol niedzielski mówiącego co u ciebie słychać	o o o b-to i-to o b-message i-message i-message i-message
+Phone	SMSToContactWithMessage	wyślij wiadomość sms czy wszytko jest ok do walentyna	o o b-message i-message i-message i-message o b-to
+Phone	SMSToContactWithMessage	wyślij wiadomość sms do lechosław lewicki o treści chyba nie	o o o b-to i-to o o b-message i-message
+Phone	SMSToContactWithMessage	wyślij smsa do krystyna szewczyk zawierającego dobra	o o o b-to i-to o b-message
+Phone	SMSToContactWithMessage	wyślij smsa do daniel nowak o treści juz biegnę	o o o b-to i-to o o b-message i-message
+Phone	SMSToContactWithMessage	sms do eugeniusz o treści zaraz będę	o o b-to o o b-message i-message
+Phone	SMSToContactWithMessage	sms do szymon małecki przepraszam	o o b-to i-to b-message
+Phone	SMSToContactWithMessage	wiadomość do roland o treści zapomniałem o tym	o o b-to o o b-message i-message i-message
+Phone	SMSToContactWithMessage	wiadomość do sławomir pc też się średnio powiodło	o o b-to b-message i-message i-message i-message i-message
+Phone	ShowSMS	sprawdź moją skrzynkę sms	o o o o
+Phone	ShowSMS	wyświetl moją skrzynkę sms	o o o o
+Phone	ShowSMS	pokaż moją skrzynkę sms	o o o o
+Slack	CheckLastMessages	sprawdź moje ostatnie wiadomości na slacku	o o o o o o
+Slack	CheckLastMessages	sprawdź historię mojego kanału na slacku	o o o o o o
+Slack	CheckLastMessages	pokaż moje ostatnie wiadomości na slacku	o o o o o o
+Slack	CheckLastMessages	pokaż historię mojego kanału na slacku	o o o o o o
+Slack	CheckMessagesFromUser	pokaż wiadomości które otrzymałem na slacku od angelika	o o o o o o o b-sender
+Slack	CheckMessagesFromUser	sprawdź najnowsze wiadomości od wilhelm gawroński na slacku	o o o o b-sender i-sender o o
+Slack	CheckMessagesFromUser	otwórz wiadomości które otrzymałem na slacku od rajmund stawecki	o o o o o o o b-sender i-sender
+Slack	CheckMessagesFromUser	pokaż ostatnie wiadomości od teodozja na slacku	o o o o b-sender o o
+Slack	CheckMessagesInChannel	sprawdź wiadomości które otrzymałem na slacku w kanale praca	o o o o o o o o b-channel
+Slack	CheckMessagesInChannel	sprawdź ostatnie wiadomości na slackowym kanale hiszpański 2020-2025	o o o o o o b-channel i-channel
+Slack	CheckMessagesInChannel	sprawdź wiadomości slackowe z kanału wstęp do językoznastwa 2 rok który otrzymałem w ciągu ostatniej godziny	o o o o o b-channel i-channel i-channel i-channel i-channel o o o o o o
+Slack	CheckMessagesInChannel	sprawdź wiadomości które otrzymałem na slackowym kanale heheszki	o o o o o o o b-channel
+Slack	CheckMessagesInChannel	sprawdź najnowsze wiadomości na slackowym kanale ai krafty	o o o o o o b-channel i-channel
+Slack	CheckMessagesInChannel	pokaż wiadomości slackowe z kanału curly girls polska który otrzymałem w ciągu ostatniej godziny	o o o o o b-channel i-channel i-channel o o o o o o
+Slack	OpenSlack	otwórz slacka	o o
+Slack	SendMessage	wyślij wiadomość na slacka	o o o o
+Slack	SendMessage	post na slacka	o o o
+Slack	SendMessage	wyślij wiadomość na slacka	o o o o
+Slack	SendMessage	wyślij na slacka	o o o
+Slack	SendMessage	zamieść wiadomość na slacku	o o
+Slack	SendMessage	zamieść na slacku	o o o
+Slack	SendMessageToChannel	daj znać kanałowi impreza że jaki jest status	o o o b-channel o b-message i-message i-message
+Slack	SendMessageToChannel	wiadomość na kanale urodziny andrzeja o treści kiedy skończycie	o o o b-channel i-channel o o b-message i-message
+Slack	SendMessageToChannel	opublikuj juz do was idę na slackowym kanale joga	o b-message i-message i-message i-message o o o b-channel
+Slack	SendMessageToChannel	opublikuj wiadomość na slackowy na frontend z informacją przepraszam za spóżnienie	o o o o o b-channel o o b-message i-message i-message
+Slack	SendMessageToChannel	wyślij będę później na slackowym kanale praca	o b-message o o o b-channel
+Slack	SendMessageToChannel	wyślij wiadomość na slacka hiszpański 2020-2025 z informacją spóźnie się 5 minut	o o o o b-channel i-channel o o b-message i-message i-message
+Slack	SendMessageToChannel	prześlij musimy porozmawiać do wstęp do językoznastwa 2 rok na slack	o b-message i-message o b-channel i-channel i-channel i-channel i-channel o o
+Slack	SendMessageToChannel	prześlij wiadomość na slacka heheszki z informacją dobrze	o o o o b-channel o o b-message
+Slack	SendPictureToChannel	wyślij wiadomość na slackowy kanał ai krafty	o o o o o b-channel i-channel
+Slack	SendPictureToChannel	wyślij na slackowy kanał curly girls polska	o o o o b-channel i-channel i-channel
+Slack	SendPictureToChannel	wyślij do slackowego kanału impreza	o o o o b-channel
+Slack	SendPictureToChannel	wyślij zdjęcie na slackowy kanał urodziny andrzeja	o o o o o b-channel i-channel
+Slack	SendPictureToChannel	wyślij coś na slackowy kanał joga	o o o o b-channel
+Slack	SendPictureToChannel	załącz zdjęcie na slackowy kanał frontend	o o o o o b-channel
+Slack	SendPictureToChannel	załącz zdjęcie na praca	o o o b-channel
+Slack	SendPictureToChannelWithCaption	opublikuj zdjęcie na slacku hiszpański 2020-2025 z podpisem śmieszne	o o o o b-channel i-channel o o b-caption
+Slack	SendPictureToChannelWithCaption	opublikuj zdjęcie na slackowym kanale wstęp do językoznastwa 2 rok z podpisem mam horom curke	o o o o o b-channel i-channel i-channel i-channel i-channel o o b-caption i-caption i-caption
+Slack	SendPictureToChannelWithCaption	wyślij zdjęcie na slack heheszki z podpisem nie wierze	o o o o b-channel o o b-caption i-caption
+Slack	SendPictureToChannelWithCaption	wyślij zdjęcie na slackowy kanał ai krafty z podpisem mam dość	o o o o o b-channel i-channel o o b-caption i-caption
+Slack	SendPictureToChannelWithCaption	zamieść zdjęcie na slacku curly girls polska z podpisem zobacz to	o o o o b-channel i-channel i-channel o o b-caption i-caption
+Slack	SendPictureToChannelWithCaption	zamieść zdjęcie na slackowym kanale impreza z podpisem no hejka	o o o o o b-channel o o b-caption i-caption
+Slack	SendPictureWithUrlToChannel	opublikuj bit.ly/C4VaE3L na slacku urodziny andrzeja	o b-picture_url o o b-channel i-channel
+Slack	SendPictureWithUrlToChannel	opublikuj www.tinyurl.com/vmkgtf9 na kanał joga	o b-picture_url o o b-channel
+Slack	SendPictureWithUrlToChannel	wyślij bit.ly/5RTHNrw na slacku frontend	o b-picture_url o o b-channel
+Slack	SendPictureWithUrlToChannel	zamieść bit.ly/RJR0aqL na slacku praca	o b-picture_url o o b-channel
+Slack	SetPurposeOnChannel	ustaw przeznaczenie kanału hiszpański 2020-2025 na bug fix na slack	o o o b-channel i-channel o b-purpose i-purpose o o
+Slack	SetPurposeOnChannel	ustaw cel dla kanału wstęp do językoznastwa 2 rok na prezentacja	o o o o b-channel i-channel i-channel i-channel i-channel o b-purpose
+Slack	SetStatusAway	oznacz mnie jako nieobecnego na slacku	o o o o o o
+Slack	SetStatusAway	odznacz mnie jako nieobecnego na slacku	o o o o o o
+Slack	SetStatusAway	ustaw mój stan na slacku na niedostępny	o o o o o o o
+Slack	SetStatusAway	ustaw mnie jako niedostępny na slacku	o o o o o o
+Slack	SetTopicInChannel	ustaw temat kanału heheszki na party	o o o b-channel o b-topic
+Slack	SetTopicInChannel	ustaw temat kanału slackowego ai krafty na impreza	o o o o b-channel i-channel o b-topic
+Speaker	DecreaseVolume	zmniejsz moją głośność	o o
+Speaker	DecreaseVolume	zmniejsz głośność	o o
+Speaker	DecreaseVolume	zmniejsz głośność	o o
+Speaker	DecreaseVolume	zcisz głośność	o o
+Speaker	DecreaseVolume	zcisz głośność mojego głośnika	o o o o
+Speaker	DecreaseVolume	zcisz głośność głośnika	o o o
+Speaker	DecreaseVolume	obniż głośność mojego głośnika	o o o o
+Speaker	DecreaseVolume	zmniejsz głośność głośnika	o o o
+Speaker	DecreaseVolume	zredukuj głośność mojego głośnika	o o o o
+Speaker	DecreaseVolume	zrób ciszej	o o
+Speaker	DecreaseVolume	zmniejsz głośność mojego głośnika	o o o o
+Speaker	DecreaseVolume	zmniejsz głośność głośnika	o o o
+Speaker	IncreaseVolume	zwiększ głośność mojego głośnika	o o o o
+Speaker	IncreaseVolume	zwiększyć głośność głośnika	o o o
+Speaker	IncreaseVolume	zrób głośniej na moim głośniku	o o o o o
+Speaker	IncreaseVolume	zrób głośniej	o o
+Speaker	MuteOff	wyłącz wyciszenie mojego głośnika	o o o o
+Speaker	MuteOff	wyłącz wyciszenie głośnika	o o o
+Speaker	MuteOff	przywróc dzwięk na głośniku	o o o o
+Speaker	MuteOn	wstrzymaj głośnik	o o
+Speaker	MuteOn	cisza w głośniku	o o o
+Speaker	MuteOn	ucisz ten głośnik	o o o
+Speaker	MuteOn	ucisz mój głośnik	o o o
+Speaker	MuteOn	wycisz głośnik	o o
+Speaker	MuteOn	zrób cicho głośnik	o o o
+Speaker	TurnOnOrOff	pomóż mi włącz na moim głośniku	o o b-power o o o
+Speaker	TurnOnOrOff	pomóż mi zmienić głośnik na wyłącz	o o o o o b-power
+Speaker	TurnOnOrOff	pomóż mi ustawić włącz na moim głośniku	o o o b-power o o o
+Speaker	TurnOnOrOff	pomóż mi wyłącz głośnik	o o b-power o
+Speaker	TurnOnOrOff	mój głośnik włącz	o o b-power
+Speaker	TurnOnOrOff	wciśnij wyłącz na moim głośniku	o b-power o o o
+Speaker	TurnOnOrOff	przełącz głośnik na włącz	o o o b-power
+Speaker	TurnOnOrOff	wciśnij wyłącz na głośniku	o b-power o o
+Speaker	TurnOnOrOff	włącz mój głośnik	b-power o o
+Speaker	TurnOnOrOff	wyłącz dla mnie mój głośnik	b-power o o o o
+Speaker	TurnOnOrOff	włącz głośnik	b-power o
+Speaker	TurnOnOrOff	wyłącz dla mnie głośnik	b-power o o o
+Spotify	NextSong	zagraj następną piosenkę	o o o
+Spotify	NextSong	zagraj następny utwór na spotify	o o o o o
+Spotify	NextSong	odtworz następny utwór	o o o
+Spotify	NextSong	odtwórz następny utwór na spotify	o o o o o
+Spotify	NextSong	pomiń tę piosenkę	o o o
+Spotify	NextSong	pomiń tę piosenkę w spotify	o o o o o
+Spotify	NextSong	pomiń ten utwór	o o o
+Spotify	NextSong	pomiń ten utwór w spotify	o o o o o
+Spotify	NextSong	pomiń tę piosenkę	o o o
+Spotify	NextSong	pomiń tę piosenkę w spotify	o o o o o
+Spotify	NextSong	pomiń ten utwór	o o o
+Spotify	NextSong	pomiń ten utwór w spotify	o o o o o
+Spotify	OpenSpotify	otwórz spotify	o o
+Spotify	OpenSpotify	otwórz spotify i zagraj muzykę	o o o o o
+Spotify	OpenSpotify	otwórz spotify żeby zagrać jakąś muzykę	o o o o o
+Spotify	OpenSpotify	odtwórz muzykę na spotify	o o o o
+Spotify	OpenSpotify	użyj spotify	o o
+Spotify	OpenSpotify	użyj spotify i odtwarzaj muzykę	o o o o o
+Spotify	OpenSpotify	użyj spotif aby odtworzyć jakąś muzykę	o o o o o o
+Spotify	Pause	wstrzymaj moje spotify	o o o
+Spotify	Pause	pauza spotify	o o
+Spotify	Pause	zatrzymaj tę piosenkę	o o o
+Spotify	Pause	wstrzymaj ten utwór	o o o
+Spotify	Pause	wstrzymaj tę piosenkę	o o o
+Spotify	Pause	wstrzymaj ten utwór	o o o
+Spotify	Pause	odtwórz mój spotify	o o o
+Spotify	Pause	graj spotify	o o
+Spotify	Pause	graj tę piosenkę	o o o
+Spotify	Pause	zagraj ten utwór	o o o
+Spotify	Pause	zagraj tę piosenkę	o o o
+Spotify	Pause	zagraj ten utwór	o o o
+Spotify	Pause	powtórz moje spotify	o o o
+Spotify	Pause	powtórz spotify	o o
+Spotify	Pause	jeszcze raz tę piosenkę	o o o o
+Spotify	Pause	jeszcze raz ten utwór	o o o o
+Spotify	Pause	powtórz tę piosenkę	o o o
+Spotify	Pause	powtórz ten utwór	o o o
+Spotify	Pause	wznów moje spotify	o o o
+Spotify	Pause	wznów spotify	o o
+Spotify	Pause	wznów tę piosenkę	o o o
+Spotify	Pause	wznów ten utwór	o o o
+Spotify	Pause	wznów tę piosenkę	o o o
+Spotify	Pause	wznów ten utwór	o o o
+Spotify	PlayAlbumOfTypeByArtist	na spotify zagraj proto of the sun wykonawcy the flaming lips	o o o b-album b-album i-album i-album o b-artist i-artist i-artist
+Spotify	PlayAlbumOfTypeByArtist	zagraj capsule losing contact łona	o b-album i-album i-album b-artist
+Spotify	PlayAlbumOfTypeByArtist	grak face stabber magic dirt w Spotify	o b-album i-album b-artist i-artist o o
+Spotify	PlayAlbumOfTypeByArtist	zagraj pełnia data horde boy harsher	o b-album b-album i-album b-artist i-artist
+Spotify	PlayAlbumOfTypeByArtist	zagraj black friday hymn to moisture od lingua ignota w Spotify	o b-album i-album b-album i-album i-album o b-artist i-artist o o
+Spotify	PlayAlbumOfTypeByArtist	graj family party fudge sandwich wykonawcy spelling	o b-album i-album b-album i-album o b-artist
+Spotify	PlayAlbumOfTypeByArtist	zagraj to believe resavoir wykonawcy trupa trupa w Spotify	o b-album i-album b-album o b-artist i-artist o o
+Spotify	PlaySong	na spotify zagraj prosto w serce	o o o b-song i-song i-song
+Spotify	PlaySong	graj flow	o b-song
+Spotify	PlaySong	graj w paper boy w spotify	o o b-song i-song o o
+Spotify	PlaySongByArtist	na spotify zagraj 74 od matmos	o o o b-song o b-artist
+Spotify	PlaySongByArtist	zagraj neony mata	o b-song b-artist
+Spotify	PlaySongByArtist	zagraj touch that space natalia przybysz na spotify	o b-song i-song i-song b-artist i-artist o o
+Spotify	PreviousSong	wróć	o
+Spotify	PreviousSong	wróć do ostatniej piosenki	o o o o
+Spotify	PreviousSong	wróć do ostatniego utworu	o o o o
+Translate	DetectLanguage	wykryj język TRANSLATE.SLOT.TEXT.MULTI	o o o
+Translate	DetectLanguage	wykryj w jakim to języku TRANSLATE.SLOT.TEXT.MULTI	o o o o o o
+Translate	DetectLanguage	odkryj język TRANSLATE.SLOT.TEXT.MULTI	o o o
+Translate	DetectLanguage	odkryj w jakim to języku TRANSLATE.SLOT.TEXT.MULTI	o o o o o o
+Translate	DetectLanguage	poznaj język TRANSLATE.SLOT.TEXT.MULTI	o o o
+Translate	DetectLanguage	wykryj w jakim języku jest to napisane TRANSLATE.SLOT.TEXT.MULTI	o o o o o o o o
+Translate	DetectLanguage	język TRANSLATE.SLOT.TEXT.MULTI	o o
+Translate	DetectLanguage	język w jakim to napisano TRANSLATE.SLOT.TEXT.MULTI	o o o o o o
+Translate	DetectLanguage	język TRANSLATE.SLOT.TEXT.MULTI	o o
+Translate	DetectLanguage	język w jakim TRANSLATE.SLOT.TEXT.MULTI jest napisane	o o o o o o
+Translate	SetDefaultLanguage	zmień domyślny język na włoski	o o o o b-all_lang
+Translate	SetDefaultLanguage	zmień domyślny język wyjściowy na francuski	o o o o o b-all_lang
+Translate	SetDefaultLanguage	zmień domyślny język tłumaczenia na angielski	o o o o o b-all_lang
+Translate	SetDefaultLanguage	zmień język na japoński	o o o b-all_lang
+Translate	SetDefaultLanguage	zmień język wyjściowy na rosyjski	o o o o b-all_lang
+Translate	SetDefaultLanguage	zmień język tłumaczenia na polski	o o o o b-all_lang
+Translate	SetDefaultLanguage	ustaw domyślny język na niemiecki	o o o o b-all_lang
+Translate	SetDefaultLanguage	ustaw domyślny język wyjściowy na hiszpański	o o o o o b-all_lang
+Translate	SetDefaultLanguage	ustaw domyślny język tłumaczenia na tajski	o o o o o b-all_lang
+Translate	SetDefaultLanguage	ustaw język na czeski	o o o b-all_lang
+Translate	SetDefaultLanguage	ustaw język wyjściowy na fiński	o o o o b-all_lang
+Translate	SetDefaultLanguage	ustaw język tłumaczenia na esperanto	o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	zmień domyślny język wprowadzania na turecki	o o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	zmień domyślny język źródłowy na grecki	o o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	zmień język wprowadzania na mongolski	o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	zmień język źródłowy na hawajski	o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	ustaw domyślny język wprowadzania na hindi	o o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	ustaw domyślny język źródłowy na islandzki	o o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	ustaw język wprowadzania na włoski	o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	ustaw język źródłowy na francuski	o o o o b-all_lang
+Translate	TranslateText	jak powiedzieć TRANSLATE.SLOT.TEXT.EN	o o o
+Translate	TranslateText	jak tłumaczyć TRANSLATE.SLOT.TEXT.EN	o o o
+Translate	TranslateText	jak wymówić TRANSLATE.SLOT.TEXT.EN	o o o
+Translate	TranslateText	jak tłumaczysz TRANSLATE.SLOT.TEXT.EN	o o o
+Translate	TranslateText	tłumaczenie TRANSLATE.SLOT.TEXT.EN	o o
+Translate	TranslateText	tłumacz TRANSLATE.SLOT.TEXT.EN	o o
+Translate	TranslateText	tłumaczenie TRANSLATE.SLOT.TEXT.EN	o o
+Translate	TranslateText	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT.EN	o o o o
+Twitter	FollowUser	zacznij śledzić slonka17	o o b-username
+Twitter	FollowUser	zostań obserwatorem kamil_miklaszew na twitterze	o o b-username o o
+Twitter	FollowUser		o
+Twitter	FollowUser	śledź usiduspl na twitterze	o b-username o o
+Twitter	OpenTwitter	wyświetl moje posty na twitterze	o o o o o
+Twitter	OpenTwitter	wyświetl moje ostatnie tweety	o o o o
+Twitter	OpenTwitter	wyświetl moje tweety	o o o
+Twitter	OpenTwitter	wyświetl tweety które stworzyłem	o o o o
+Twitter	OpenTwitter	pokaż moje posty na twitterze	o o o o o
+Twitter	OpenTwitter	pokaż moje ostatnie tweety	o o o o
+Twitter	OpenTwitter	pokaż moje tweety	o o o
+Twitter	OpenTwitter	pokaż tweety które wysłałem	o o o o
+Twitter	SendMessage	bezpośrednia wiadomość na twitterze mówiąca rząd stwierdził że przed koronawirusem uchronić nas mogą tylko czyste ręce	o o o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	bw na twitterze mówiące kto wie może przed nami też piękne lata dwudzieste	o o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	wiadomość na twitterze wobec bezczelnych kłamstw prezydenta putina i rosyjskiej propagandy potrzebne jest wspólne stanowisko polskich władz i opozycji	o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	wyślij bezpośrednią wiadomość na twitterze o treści tu nie ma miejsca i czasu na wewnętrzny spór	o o o o o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	wyślij dm na twitterze z wiadomością kobiety mają prawo decydować o swoim życiu i zdrowiu	o o o o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	wyślij wiadomość na twitterze o treści dolepić śmierć jolanty brzeskiej do @andrzejduda to juz wyzszy stopień podłości	o o o o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	bezpośrednia wiadomość na twitterze do pawelt_pl o treści najwyższy czas żeby skończyć z polską pogardy	o o o o o b-username o o b-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	dm na twitterze do piotrus_pan9 mówiąca istnieje przypuszczenie że rząd wie o przypadku #koronowirus o którym nie informuje opinii publicznej	o o o o b-username o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	wiadomość na twitterze do xsassyxo z informacją nadmierny strach przed #koronowirus i śmiercią to efekt rosnącej ateizacji	o o o o b-username o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	wyślij bezpośrednią wiadomość na twitterze do conectum_pl dawno się nie odzywałem wiadomo życie praca	o o o o o o b-username b-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	wyślij dm na twitterze do amilee110 mówiąc dobry artykuł do niedzielnej kawy dający szerszą perspektywę	o o o o o b-username o b-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	wyślij wiadomość na twitterze do emilyclaiborne mówiącą a co po zrobilo w czerwcu ? kto mieczem itd	o o o o o b-username o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	ShowTwittsWithHashtag	wyświetl tweety o prawdziwaprezydent	o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	wyświetl tweety o kosiniak2020 na twitterze	o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	wyświetl tweety z hashtagiem fitmarzec	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	wyświetl tweety z hashtagiem 1marca na twitterze	o o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	znajdź tweety o salsa4change	o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	znajdź tweety o weather na twitterze	o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	znajdź tweety z hashtagiem pentax	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	znajdź tweety z hashtagiem koronawirus na twitterze	o o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	pokaż tweety o airchina	o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	pokaż tweety o rządpis na twitterze	o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	pokaż tweety z hashtagiem tvp	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	pokaż tweety z hashtagiem duda na twitterze	o o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	tweety o prawdziwaprezydent	o o b-hashtag
+Twitter	ShowTwittsWithHashtag	tweety o kosiniak2020 na twitterze	o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	tweety z hashtagiem fitmarzec	o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	tweety z hashtagiem 1marca na twitterze	o o o b-hashtag o o
+Twitter	UnfollowUser	przestań śledzić kmore na twitterze	o o b-username o o
+Twitter	UnfollowUser	przestań obserwować myntmag na twitterze	o o b-username o o
+Weather	MoonphaseInLocation	faza księżyca dla jokohama	o o o b-location
+Weather	MoonphaseInLocation	faza księżyca dla lokalizacji poznaniu	o o o o b-location
+Weather	MoonphaseInLocationOnDate	faza księżyca dla bochnia w dniu piątku	o o o b-location o o b-date
+Weather	MoonphaseInLocationOnDate	faza księżyca dla lokalizacji sajgon w dniu 13 stycznia	o o o o b-location o o b-date i-date
+Weather	OpenWeather	pogoda	o
+Weather	OpenWeather	pogoda na zewnątrz	o o o
+Weather	OpenWeather	jaka jest pogoda	o o o
+Weather	OpenWeather	jaka jest pogoda	o o o
+Weather	OpenWeather	jaka jest pogoda na zewnątrz	o o o o o
+Weather	OpenWeather	jaka jest pogoda na zewnątrz	o o o o o
+Weather	SunriseAndSunsetInLocation	wschód i zachód słońca dla lokalizacji surat	o o o o o o b-location
+Weather	SunriseAndSunsetInLocation	godziny wschodu i zachodu słońca w ahmadabad	o o o o o o b-location
+Weather	SunriseAndSunsetInLocationAndOnDate	wschód i zachód słońca dla lokalizacji durban w dniu następnej środy	o o o o o o b-location o o b-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	godziny wschodu i zachodu słońca w wuhan w dniu jutra	o o o o o o b-location o o b-date
+Weather	SunriseInLocation	wschód słońca w bangkok	o o o b-location
+Weather	SunriseInLocation	czas wschodu słońca w bangalore	o o o o b-location
+Weather	SunriseInLocation	kiedy jest wschód słońca w lahaur	o o o o o b-location
+Weather	SunriseInLocation	kiedy jest wschód słońca w olkusz	o o o o o b-location
+Weather	SunsetInLocation	zachód słońca w chartum	o o o b-location
+Weather	SunsetInLocation	czas zachodu słońca w szczecinek	o o o o b-location
+Weather	SunsetInLocation	kiedy jest zachód słońca w moskwa	o o o o o b-location
+Weather	SunsetInLocation	kiedy jest zachód słońca w londyn	o o o o o b-location
+Weather	WeatherInLocation	aktualna pogoda dla łódź	o o o b-location
+Weather	WeatherInLocation	aktualna pogoda w lublin	o o o b-location
+Weather	WeatherInLocation	aktualna pogoda w świeradów-zdrój	o o o b-location
+Weather	WeatherInLocation	aktualna pogoda w toruń	o o o b-location
+Weather	WeatherInLocation	pogoda dla katowice	o o b-location
+Weather	WeatherInLocation	pogoda w singapur	o o b-location
+Weather	WeatherInLocation	pogoda dla dhaka	o o b-location
+Weather	WeatherInLocation	pogoda w bratysława	o o b-location
+Weather	WeatherInLocation	jaka jest pogoda w opoczno	o o o o b-location
+Weather	WeatherInLocation	jak wygląda pogoda w łowicz	o o o o b-location
+Weather	WeatherTomorrow	jutrzejsza pogoda	o o
+Weather	WeatherTomorrow	jutro na pogoda	o o o
+Weather	WeatherTomorrow	jaka będzie jutro pogoda	o o o o
+Weather	WeatherTomorrow	jaka może być jutro pogoda	o o o o
+Weather	WeatherTomorrowInLocation	aktualna pogoda na jutro w szanghaj	o o o o o b-location
+Weather	WeatherTomorrowInLocation	aktualna pogoda w donieck jutro	o o o b-location o
+Weather	WeatherTomorrowInLocation	aktualna jutrzejsza pogoda dla bydgoszcz	o o o o b-location
+Weather	WeatherTomorrowInLocation	aktualna jutrzejsza pogoda w bytom	o o o o b-location
+Weather	WeatherTomorrowInLocation	jutro pogoda dla paryż	o o o b-location
+Weather	WeatherTomorrowInLocation	jutro pogoda w pusan	o o o b-location
+Weather	WeatherTomorrowInLocation	jutrzejsza pogoda dla radom	o o o b-location
+Weather	WeatherTomorrowInLocation	jutrzejsza pogoda w buenos aires	o o o b-location i-location
+Weather	WeatherTomorrowInLocation	jaka jest pogoda jutro w wrocław	o o o o o b-location
+Weather	WeatherTomorrowInLocation	jak będzie jutro w berlin	o o o o b-location
+Websearch	OpenEngine	wyszukiwarka google	o o
+Websearch	OpenEngine	wyszukaj w bing	o o o
+Websearch	OpenEngine	wyszukaj w duckduckgo	o o o
+Websearch	OpenEngine	wyszukaj w google	o o o
+Websearch	OpenEngine	wyszukiwarka internetowa	o o
+Websearch	SearchImagesOnEngine	wyszukiwarka obrazów google	o o o
+Websearch	SearchImagesOnEngine	wyszukiwanie obrazka	o o
+Websearch	SearchImagesOnEngine	wyszukaj obrazy na bing	o o o o
+Websearch	SearchImagesOnEngine	wyszukaj obrazy na duckduckgo	o o o o
+Websearch	SearchImagesOnEngine	wyszukaj obrazy na google	o o o o
+Websearch	SearchImagesWithTextOnEngine	obrazy z wilk na bing	o o b-img_query o o
+Websearch	SearchImagesWithTextOnEngine	obrazy z księgowa na duckduckgo	o o b-img_query o o
+Websearch	SearchImagesWithTextOnEngine	obrazy z cyfry rzymskie na google	o o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	obrazy pasujące do wentylator w bing	o o o b-img_query o o
+Websearch	SearchImagesWithTextOnEngine	obrazy pasujące do choinka w duckduckgo	o o o b-img_query o o
+Websearch	SearchImagesWithTextOnEngine	obrazy pasujące do francisco goya w google	o o o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	obrazy w bing pasujące do szafka łazienkowa o rozmiarze 800 x 600	o o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	obrazy w duckduckgo pasujące do szkoła podstawowa nr 2 o rozmiarze 800 x 600	o o o o o b-img_query i-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	obrazy w google pasujące do dzuma o rozmiarze 800 x 600	o o o o o b-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w bing pasujące do rasy psow większe niż 800	o o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w bing pasujące do nakaz jazdy prosto większe niż 800 x 600	o o o o o b-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w bing pasujące do nike air max mniejsze niż 800	o o o o o b-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w bing pasujące do tapety tumblr mniejsze niż 800 x 600	o o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w bing pasujące do obrazy na płótnie wyższe niż 800	o o o o o b-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w bing pasujące do cytaty o miłości smutne wyższe niż 800 x 600	o o o o o b-img_query i-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w bing pasujące do dieta szersze niż 800	o o o o o b-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w bing pasujące do fryzura na wesele włosy do ramion szersze niż 800 x 600	o o o o o b-img_query i-img_query i-img_query i-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w duckduckgo pasujące do rick and morty wallpaper szersze niż 800	o o o o o b-img_query i-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w duckduckgo pasujące do nike air max 270 większe niż 800 x 600	o o o o o b-img_query i-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w duckduckgo pasujące do pepco gazetka mniejsze niż 800	o o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w duckduckgo pasujące do papuga rysunek mniejsze niż 800 x 600	o o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w duckduckgo pasujące do telewizor wyższe niż 800	o o o o o b-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w duckduckgo pasujące do cat wyższe niż 800 x 600	o o o o o b-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w duckduckgo pasujące do sałatka na imprezę szersze niż 800	o o o o o b-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w duckduckgo pasujące do tapety na komputer szersze niż 800 x 600	o o o o o b-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w google pasujące do poczta większe niż 800	o o o o o b-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w google pasujące do kia większe niż 800 x 600	o o o o o b-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w google pasujące do zdrowe żywienie mniejsze niż 800	o o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w google pasujące do gif mniejsze niż 800 x 600	o o o o o b-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w google pasujące do ford szersze niż 800	o o o o o b-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w google pasujące do speed test wyższe niż 800 x 600	o o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w google pasujące do nails szersze niż 800	o o o o o b-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	obrazy w google pasujące do pasowanie na przedszkolaka szersze niż 800 x 600	o o o o o b-img_query i-img_query i-img_query o o o o o
+Websearch	SearchText	strony na których znajdę ztm	o o o o b-txt_query
+Websearch	SearchText	strony internetowe pasujące do castorama	o o o o b-txt_query
+Websearch	SearchText	witryny pasujące do onet	o o o b-txt_query
+Websearch	SearchTextOnEngine	youtube w bing	b-txt_query o o
+Websearch	SearchTextOnEngine	wp w duckduckgo	b-txt_query o o
+Websearch	SearchTextOnEngine	facebook w google	b-txt_query o o
+Websearch	SearchTextOnEngine	wygoogluj pudelek	o b-txt_query
+Wikipedia	ChangeLanguageToLanguage	zmień język tego artykułu na arabski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tego artykułu na chiński	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tego artykułu na angielski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tego artykułu na francuski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tego artykułu na niemiecki	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tego artykułu na włoski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tego artykułu na polski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tego artykułu na portugalski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tego artykułu na rosyjski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tego artykułu na hiszpański	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tego artykułu na ukraiński	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tej strony na arabski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tej strony na chiński	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tej strony na angielski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tej strony na francuski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tej strony na niemiecki	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tej strony na włoski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tej strony na polski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tej strony na portugalski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tej strony na rosyjski	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tej strony na hiszpański	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język tej strony na ukraiński	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język na arabski	o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język na chiński	o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język na angielski	o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język na francuski	o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język na niemiecki	o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język na włoski	o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język na polski	o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język na portugalski	o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język na rosyjski	o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język na hiszpański	o o o o
+Wikipedia	ChangeLanguageToLanguage	zmień język na ukraiński	o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż ten artykuł w języku arabskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż ten artykuł po chińsku	o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż ten artykuł w języku angielskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż ten artykuł w języku francuskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż ten artykuł w języku niemieckim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż ten artykuł w języku włoskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż ten artykuł po polsku	o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż ten artykuł w języku portugalskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż ten artykuł w języku rosyjskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż ten artykuł w języku hiszpańskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż ten artykuł w języku ukraińskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż tę stronę po arabsku	o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż tę stronę po chińsku	o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż tę stronę w języku angielskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż tę stronę w języku francuskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż tę stronę w języku niemieckim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż tę stronę w języku włoskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż tę stronę po polsku	o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż tę stronę w języku portugalskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż tę stronę po rosyjsku	o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż tę stronę w języku hiszpańskim	o o o o o o
+Wikipedia	ChangeLanguageToLanguage	pokaż tę stronę po ukraińsku	o o o o o
+Wikipedia	DownloadAsPdf	pobierz artykuł w formacie pdf	o o o o o
+Wikipedia	DownloadAsPdf	pobierz stronę jako pdf	o o o o
+Wikipedia	DownloadAsPdf	pobierz ten artykuł jako pdf	o o o o o
+Wikipedia	DownloadAsPdf	pobierz tę stronę jako pdf	o o o o o
+Wikipedia	DownloadAsPdf	pobierz ten artykuł jako pdf	o o o o o
+Wikipedia	DownloadAsPdf	pobierz tę stronę jako pdf	o o o o o
+Wikipedia	GoToElementNumber	przejdź do dziesiątego elementu ze spisu treści	o o o o o o o
+Wikipedia	GoToElementNumber	przejdź do dziesiątego elementu w spisie treści	o o o o o o o
+Wikipedia	GoToElementNumber	przejdź do dziesiątego punktu ze spisu treści	o o o o o o o
+Wikipedia	GoToElementNumber	przejdź do dziesiątego punktu w spisie treści	o o o o o o o
+Wikipedia	GoToElementNumber	przejdź do trzeciego elementu ze spisu treści	o o o o o o o
+Wikipedia	GoToElementNumber	przejdź do trzeciego elementu w spisie treści	o o o o o o o
+Wikipedia	GoToElementNumber	przejdź do trzeciego punktu ze spisu treści	o o o o o o o
+Wikipedia	GoToElementNumber	przejdź do trzeciego punktu w spisie treści	o o o o o o o
+Wikipedia	OpenWikipedia	otwórz wikipedię	o o
+Wikipedia	OpenWikipedia	otwórz definicję w wikipedii	o o o o
+Wikipedia	OpenWikipedia	otwórz stronę wikipedii	o o o
+Wikipedia	RandomPage	losowy artykuł	o o
+Wikipedia	RandomPage	losowa strona	o o
+Wikipedia	RandomPage	pokaż losowy artykuł	o o o
+Wikipedia	RandomPage	pokaż losową stronę	o o o
+Wikipedia	RandomPage	surfuj	o
+Wikipedia	RandomPage	surfowanie	o
+Wikipedia	RandomPage	serfuj na wiki	o o o
+Wikipedia	RandomPage	serfowanie na wiki	o o o
+Wikipedia	RandomPage	serfuj na wikipedii	o o o
+Wikipedia	RandomPage	serfowanie na wikipedii	o o o
+Wikipedia	ScrollDown	strona w dół	o o o
+Wikipedia	ScrollDown	scrolluj w dół	o o o
+Wikipedia	ScrollUp	strona do góry	o o o
+Wikipedia	ScrollUp	scrolluj do góry	o o o
+Wikipedia	SearchQuery	WIKIPEDIA.SLOT.QUERY na wiki	o o o
+Wikipedia	SearchQuery	WIKIPEDIA.SLOT.QUERY na wikipedia	o o o
+Wikipedia	SearchQuery	wyniki dla WIKIPEDIA.SLOT.QUERY na wiki	o o o o o
+Wikipedia	SearchQuery	wyniki dla WIKIPEDIA.SLOT.QUERY na wikipedii	o o o o o
+Wikipedia	SearchQuery	znajdź WIKIPEDIA.SLOT.QUERY na wiki	o o o o
+Wikipedia	SearchQuery	znajdź WIKIPEDIA.SLOT.QUERY na wikipedii	o o o o
+Wikipedia	SearchQuery	szukaj WIKIPEDIA.SLOT.QUERY na wiki	o o o o
+Wikipedia	SearchQuery	szukaj WIKIPEDIA.SLOT.QUERY na wikipedii	o o o o
+Yelp	OpenRestaurants	otwarte restauracje w okolicy	o o o o
+Yelp	OpenRestaurants	otwarte restauracje	o o
+Yelp	OpenRestaurants	restauracje wciąż otwarte w okolicy	o o o o o
+Yelp	OpenRestaurantsInLocation	otwarte restauracje w pobliżu praga	o o o o b-location
+Yelp	OpenRestaurantsInLocation	restauracje wciąż otwarte w oliwa	o o o o b-location
+Yelp	OpenRestaurantsInLocation	wciąż otwarte restauracje w pobliżu saska kępa	o o o o o b-location i-location
+Yelp	SearchByCategory	kuchnia tajskie	o b-category
+Yelp	SearchByCategory	japońskie kuchnia w pobliżu	b-category o o o
+Yelp	SearchByCategory	kuchnia polskie w pobliżu	o b-category o o
+Yelp	SearchByCategory	włoskie restauracje	b-category o
+Yelp	SearchByCategory	restauracje francuskie w okolicy	o b-category o o
+Yelp	SearchByCategory	restauracje nepalskie w pobliżu	o b-category o o
+Yelp	SearchByCategoryInLocation	tajskie jedzenie w okolicy śródmieście	b-category o o o b-location
+Yelp	SearchByCategoryInLocation	japońskie jedzenie w pobliżu wola	b-category o o o b-location
+Yelp	SearchByCategoryInLocation	polskie restauracje w okolicy sopot	b-category o o o b-location
+Yelp	SearchByCategoryInLocation	włoskie restauracje w pobliżu łazarz	b-category o o o b-location
+Yelp	SearchByQuery	kawiarnię w pobliżu	b-query o o
+Yelp	SearchByQuery	pub w okolicy	b-query o o
+Yelp	SearchByQuery	bar na yelpie	b-query o o
+Yelp	SearchByQueryInLocation	bar suchi w okoliocy wawel	b-query i-query o o b-location
+Yelp	SearchByQueryInLocation	pizzerię w okolicy stare miasto na yelpie	b-query o o b-location i-location o o
+Yelp	SearchByQueryInLocation	subwaya na praga	b-query o b-location
+Yelp	SearchByQueryInLocation	kebaba na oliwa na yelpie	b-query o b-location o o
+Yelp	SearchByQueryInLocation	kawiarnię w saska kępa	b-query o b-location i-location
+Yelp	SearchByQueryInLocation	pub w śródmieście na yelpie	b-query o b-location o o
+Yelp	SearchByQueryInLocation	bar w pobliżu wola	b-query o o b-location
+Yelp	SearchByQueryInLocation	bar suchi w pobliżu sopot na yelpie	b-query i-query o o b-location o o
+Yelp	SearchByRating	restauracje z 4 gwiazdkami	o o b-rating o
+Yelp	SearchByRating	restauracje z 5 gwiazdkami na yelpie	o o b-rating o o o
+Yelp	SearchByRating	pobliskie restauracje z oceną co najmniej 4	o o o o o o b-rating
+Yelp	SearchByRating	restauracje ocenione lepiej niż 5 gwiazdek	o o o o b-rating o
+Yelp	SearchByRatingInLocation	4 gwiazdkowe restauracje w okolicy łazarz	b-rating o o o o b-location
+Yelp	SearchByRatingInLocation	5 gwiazdkowe restauracje w okolicy wawel na yelpie	b-rating o o o o b-location o o
+Yelp	SearchByRatingInLocation	4 gwiazdkowe restauracje w stare miasto	b-rating o o o b-location i-location
+Yelp	SearchByRatingInLocation	5 gwiazdkowe restauracje w praga na yelpie	b-rating o o o b-location o o
+Yelp	SearchByRatingInLocation	restauracje w pobliżu z oceną co najmniej 4 w pobliżu oliwa	o o o o o o o b-rating o o b-location
+Yelp	SearchByRatingInLocation	restauracje ocenione wyżej niż 5 gwiazdek na saska kępa	o o o o b-rating o o b-location i-location
+Yelp	SearchByReviewCount	restauracje w pobliżu ocenione przez co najmniej 100 osób	o o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restauracje w pobliżu ocenione przez co najmniej 1000 użytkowników	o o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restauracje w pobliżu ocenione przez więcej niż {REVIEW_COUNT:10000 osób	o o o o o o i- o
+Yelp	SearchByReviewCount	restauracje w pobliżu ocenione przez więcej niż {REVIEW_COUNT:100 użytkowników	o o o o o o i- o
+Yelp	SearchByReviewCount	restauracje w okolicy ocenione przez co najmniej 1000 osób	o o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restauracje w okolicy ocenione przez co najmniej 10000 użytkowników	o o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restauracje w okolicy ocenione przez więcej niż {REVIEW_COUNT:100 osób	o o o o o o i- o
+Yelp	SearchByReviewCount	restauracje w okolicy ocenione przez więcej niż {REVIEW_COUNT:1000 użytkowników	o o o o o o i- o
+Yelp	SearchByReviewCountInLocation	restauracje w okolicy śródmieście ocenione przez co najmniej 10000 osób	o o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restauracje w okolicy wola ocenione przez co najmniej 100 osób	o o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restauracje w pobliżu sopot ocenione przez co najmniej 1000 osób	o o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restauracje w pobliżu łazarz ocenione przez co najmniej 10000 osób	o o o b-location o o o o b-review_count o
+Yelp	SearchInLocation	restauracje wokół wawel	o o b-location
+Yelp	SearchInLocation	restauracje w pobliżu stare miasto	o o o b-location i-location
+Yelp	SearchInLocation	restauracje obok praga	o o b-location
+Yelp	SearchRestaurant	najbliższa restauracja w okolicy	o o o o
+Yelp	SearchRestaurant	znajdź restaurację w pobliżu	o o o o
+Yelp	SearchRestaurant	znajdź restaurację	o o
+Yelp	SearchRestaurant	znajdź restaurację w okolicy	o o o o
+Yelp	SearchRestaurant	znajdź restaurację w pobliżu	o o o o
+Yelp	SearchRestaurant	znajdź resaturację na yelpie	o o o
+Yelp	SearchRestaurant	znajdź restauracje	o o
+Yelp	SearchRestaurant	znajdź restauracje w okolicy	o o o o
+Yelp	SearchRestaurant	znajdź restauracje w pobliżu	o o o o
+Yelp	SearchRestaurant	znajdź resaturacje na yelpie	o o o o
+Yelp	SearchRestaurant	najbliższa restauracja	o o
+Yelp	SearchRestaurant	restauracja	o
+Yelp	SearchRestaurant	restauracja w okolicy	o o o
+Yelp	SearchRestaurant	restauracja w pobliżu	o o o
+Yelp	SearchRestaurant	restauracja na yelpie	o o o
+Yelp	SearchRestaurant	restauracje	o
+Yelp	SearchRestaurant	restauracje w okolicy	o o o
+Yelp	SearchRestaurant	restauracje w pobliżu	o o o
+Yelp	SearchRestaurant	restauracje na yelpie	o o o
+Yelp	SearchRestaurant	wyszukaj restaurację	o o
+Yelp	SearchRestaurant	wyszukaj restaurację w pobliżu	o o o o
+Yelp	SearchRestaurant	wyszukaj restaurację w pobliżu	o o o o
+Yelp	SearchRestaurant	wyszukaj restaurację na yelpie	o o o o
+Yelp	SearchRestaurant	wyszukaj restauracje	o o
+Yelp	SearchRestaurant	wyszukaj restaurację w pobliżu	o o o o
+Yelp	SearchRestaurant	wyszukaj restauracje w pobliżu	o o o o
+Yelp	SearchRestaurant	wyszukaj restauracje na yelpie	o o o o
+Youtube	FindChannelWithQuery	znajdź kanały major spz na youtube	o o b-query i-query o o
+Youtube	FindChannelWithQuery	znajdź kanały pasujące do pan tadeusz na youtube	o o o o b-query i-query o o
+Youtube	FindChannelWithQuery	znajdź kanał na youtube young policja	o o o o b-query i-query
+Youtube	FindChannelWithQuery	poszukaj kanałów bor crew na youtube	o o b-query i-query o o
+Youtube	FindChannelWithQuery	poszukaj kanałów pasujących do f1 na youtube	o o o o b-query o o
+Youtube	FindChannelWithQuery	poszukaj kanału youtube bad boys blue	o o o b-query i-query i-query
+Youtube	FindChannelWithQuery	wyszukaj kanały eurovision junior 2019 na youtube	o o b-query i-query i-query o o
+Youtube	FindChannelWithQuery	wyszukaj kanały pasujące do witcher na youtube	o o o o b-query o o
+Youtube	FindChannelWithQuery	wyszukaj kanał youtube jestem sobie przedszkolaczek piosenka dla dzieci	o o o b-query i-query i-query i-query i-query i-query
+Youtube	FindQuery	znajdź film chelsea eintracht frankfurt na youtube	o o b-query i-query i-query o o
+Youtube	FindQuery	znajdź film pasujący do kwiatkowski na youtube	o o o o b-query o o
+Youtube	FindQuery	znajdź wideo na youtube bts dna	o o o o b-query i-query
+Youtube	FindQuery	poszukaj wideo ajax tottenham na youtube	o o b-query i-query o o
+Youtube	FindQuery	poszukaj na youtube filmu pasującego do manchester city vs tottenham	o o o o o o b-query i-query i-query i-query
+Youtube	FindQuery	poszukaj filmu na youtube sonic trailer	o o o o b-query i-query
+Youtube	FindQuery	odtwarzaj wideo otomoto na youtube	o o b-query o o
+Youtube	FindQuery	odtworzyć wideo pasujące do news na youtube	o o o o b-query o o
+Youtube	FindQuery	odtwarzaj wideo z youtube tamagotchi	o o o o b-query
+Youtube	FindQuery	wyszukaj film nikon d750 na youtube	o o b-query i-query o o
+Youtube	FindQuery	wyszukaj wideo pasujące do baby yoda na youtube	o o o o b-query i-query o o
+Youtube	FindQuery	wyszukaj film na youtube fame mma 5 konferencja	o o o o b-query i-query i-query i-query
+Youtube	FindQueryOnChannel	pokaż wideo z gordon ramsay pasujące do napraw na youtube	o o o b-channel_id i-channel_id o o b-query o o
+Youtube	FindQueryOnChannel	pokaż film opublikowany przez rosanna pansino pasujący do traktory na youtube	o o o o b-channel_id i-channel_id o o b-query o o
+Youtube	FindQueryOnChannel	pokaż filmy z władek beauty boy pasujące do days gone na youtube	o o o b-channel_id i-channel_id i-channel_id o o b-query i-query o o
+Youtube	FindQueryOnChannel	pokaż filmy wideo opublikowane przez z krwi i kości pasujące do ksw na youtube	o o o o o b-channel_id i-channel_id i-channel_id i-channel_id o o b-query o o
+Youtube	FindQueryOnChannel	pokaż mi film z stanowo pasujący do autocentrum na youtube	o o o o b-channel_id o o b-query o o
+Youtube	FindQueryOnChannel	pokaż mi film opublikowany przez theneedledrop pasujący do delfin na youtube	o o o o o b-channel_id o o b-query o o
+Youtube	FindQueryOnChannel	pokaż mi filmy z unbox therapy pasujące do kamerzysta na youtube	o o o o b-channel_id i-channel_id o o b-query o o
+Youtube	FindQueryOnChannel	pokaż mi filmy opublikowane przez primitive technology pasujące do doki doki literature club na youtube	o o o o o b-channel_id i-channel_id o o b-query i-query i-query i-query o o
+Youtube	NotifyOnNewFromFollowing	powiadom mnie gdy pojawi się nowy film z kanałów youtube które obserwuję	o o o o o o o o o o o o
+Youtube	NotifyonNewOnChannel	powiadom mnie gdy easy german opublikuje nowy film na youtube	o o o b-channel_id i-channel_id o o o o o
+Youtube	NotifyonNewOnChannel	powiadom mnie gdy kexp prześle film na youtube	o o o b-channel_id o o o o
+Youtube	NotifyonNewOnChannel	powiadom mnie gdy pojawi się nowy film z kanału tensorflow na youtube	o o o o o o o o o b-channel_id o o
+Youtube	OpenYT	otwórz youtube	o o
+Youtube	OpenYT	otwórz yt	o o
+Youtube	ShowChannelWithCategory	wyświetlaj kanały wybrane dla ciebie w youtube	o o b-category i-category i-category o o
+Youtube	ShowChannelWithCategory	wyświetl muzyka kanały youtube	o b-category o o
+Youtube	ShowChannelWithCategory	wyświetlaj kanały w kategorii komedie na youtube	o o o o b-category o o
+Youtube	ShowChannelWithCategory	wyświetlaj kanały najlepsze w youtube w youtube	o o b-category i-category i-category o o
+Youtube	ShowChannelWithCategory	wyświetlaj kanały youtube z kategorią film i rozrywka	o o o o o b-category i-category i-category
+Youtube	ShowChannelWithCategory	odtwarzaj kanały gry na youtube	o o b-category o o
+Youtube	ShowChannelWithCategory	odtwarzaj youtube kanały moda i uroda	o o o b-category i-category i-category
+Youtube	ShowChannelWithCategory	odtwarzaj kanały w kategorii sport na youtube	o o o o b-category o o
+Youtube	ShowChannelWithCategory	odtwarzaj kanały technologie w youtube	o o b-category o o
+Youtube	ShowChannelWithCategory	odtwarzaj kanały youtube z kategorią kuchnia i zdrowie	o o o o o b-category i-category i-category
+Youtube	ShowChannelWithCategory	pokaż kanały polityka na youtube	o o b-category o o
+Youtube	ShowChannelWithCategory	pokaż wybrane dla ciebie kanały na youtube	o b-category i-category i-category o o o
+Youtube	ShowChannelWithCategory	pokaż kanały z kategorii muzyka na youtube	o o o o b-category o o
+Youtube	ShowChannelWithCategory	pokaż kanały komedie w youtube	o o b-category o o
+Youtube	ShowChannelWithCategory	pokaż kanały z kategorią najlepsze w youtube na youtube	o o o o b-category i-category i-category o o
+Youtube	ShowChannelWithName	odtwarzaj kanał pitchfork w youtube	o o b-channel_id o o
+Youtube	ShowChannelWithName	odtwarzaj kanał gordon ramsay na youtube	o o b-channel_id i-channel_id o o
+Youtube	ShowChannelWithName	odtwarzaj filmy z rosanna pansino na youtube	o o o b-channel_id i-channel_id o o
+Youtube	ShowChannelWithName	pokaż kanał władek beauty boy w youtube	o o b-channel_id i-channel_id i-channel_id o o
+Youtube	ShowChannelWithName	pokaż kanał z krwi i kości	o o b-channel_id i-channel_id i-channel_id i-channel_id
+Youtube	ShowChannelWithName	pokaż filmy z kanału stanowo na youtube	o o o o b-channel_id o o
+Youtube	ShowFollowing	pokaż kanały które obserwuję na youtube	o o o o o o
+Youtube	ShowFollowing	pokaż mi kanały które obserwuję na youtube	o o o o o o o
+Youtube	ShowFollowing	pokaż mi kanały youtube które obserwuję	o o o o o o
+Youtube	ShowFollowing	pokaż kanały youtube które obserwuję	o o o o o
+Youtube	ShowSubscribedChannels	pokaż kanały które subskrybuję na youtube	o o o o o o
+Youtube	ShowSubscribedChannels	pokaż mi kanały które subskrybuję na youtube	o o o o o o o
