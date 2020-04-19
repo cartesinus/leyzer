@@ -1,4 +1,4 @@
-#JSGF V1.0;
+ #JSGF V1.0;
 public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> | ScrollDown__ <INTENT_3> | ScrollUp__ <INTENT_4> | DownloadAsPdf__ <INTENT_5> | ChangeLanguageToLanguage__ <INTENT_6> | RandomPage__ <INTENT_7> | GoToElementNumber__ <INTENT_8>);
 
 #INTENTS
@@ -8,7 +8,7 @@ public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> 
 #find given query on wikipedia
 <INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
 <INTENT_2_a> = (find | search for) <QUERY> on (wiki | wikipedia);
-<INTENT_2_b> = <QUERY> [matching] on (wiki | wikipedia);
+<INTENT_2_b> = [pages matching] <QUERY> on (wiki | wikipedia);
 
 #scroll down
 <INTENT_3> = page down | scroll down;

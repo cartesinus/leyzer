@@ -22,11 +22,16 @@ Spotify	PlaySongByArtist	-	play a song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST 
 Spotify	PlaySongByArtist	-	on spotify play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
 Spotify	PlayAlbumOfTypeByArtist	-	play SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
 Spotify	PlayAlbumOfTypeByArtist	-	play SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
-Spotify	PlayAlbumOfTypeByArtist	-	play the SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	play the SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
-Spotify	PlayAlbumOfTypeByArtist	-	play a SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	play a SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
-Spotify	PlayAlbumOfTypeByArtist	-	on spotify play SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify	PlayAlbumOfTypeByArtist	-	play the SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify	PlayAlbumOfTypeByArtist	-	play the SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
+Spotify	PlayAlbumOfTypeByArtist	-	play the SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify	PlayAlbumOfTypeByArtist	-	play the SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
+Spotify	PlayAlbumOfTypeByArtist	-	play a SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify	PlayAlbumOfTypeByArtist	-	play a SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
+Spotify	PlayAlbumOfTypeByArtist	-	play an SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify	PlayAlbumOfTypeByArtist	-	play an SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
+Spotify	PlayAlbumOfTypeByArtist	-	on spotify play a SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify	PlayAlbumOfTypeByArtist	-	on spotify play an SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
 Spotify	Pause	-	play spotify
 Spotify	Pause	-	play my spotify
 Spotify	Pause	-	play this song
@@ -348,54 +353,102 @@ Spotify	AddSongWithNameToPlaylistWithName	-	save a track SPOTIFY.SLOT.SONG to my
 Spotify	AddSongWithNameToPlaylistWithName	-	save a track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
 Spotify	AddSongWithNameToPlaylistWithName	-	save a track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
 Spotify	AddSongWithNameToPlaylistWithName	-	save a track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
 Spotify	CreatePlaylist	-	create playlist
 Spotify	CreatePlaylist	-	create list
 Spotify	CreatePlaylist	-	create new playlist

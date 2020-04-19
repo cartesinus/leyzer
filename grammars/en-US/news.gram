@@ -2,7 +2,7 @@
 public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | NotifyWhenPortalUpdates__ <INTENT_3> | NotifyWhenPortalUpdatesInSection__ <INTENT_4>);
 
 #PRECONDITIONS
-<WHEN_1> = when <PORTAL> (news | front page) updates;
+<WHEN_1> = when there is an update on <PORTAL> (news | front page);
 <WHEN_2> = when the <PORTAL> <SECTION> section publishes a new article;
 <WHEN> = when the front page of huffington post updates;
 <WHEN> = when the new york times <SECTION> section publishes a new article about <KEYWORD>;

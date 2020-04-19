@@ -9,8 +9,8 @@ public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> 
 <WHEN> = when it stops raining in <LOCATION>;
 <WHEN> = when it stops snowing in <LOCATION>;
 <WHEN> = when the wind speed in <LOCATION> is above <WINDSPEED>;
-<WHEN> = when it's <STATUS> at location <LOCATION>;
-<WHEN> = when it becomes <STATUS> at <LOCATION>;
+<WHEN> = when it's <STATUS> in location <LOCATION>;
+<WHEN> = when it becomes <STATUS> in <LOCATION>;
 <WHEN> = when the temperature in <LOCATION> is above <TEMPERATURE>;
 <WHEN> = when it 's hotter than <TEMPERATURE> in <LOCATION>;
 <WHEN> = when the temperature in <LOCATION> is below <TEMPERATURE>;
@@ -35,17 +35,17 @@ public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> 
 
 <INTENT_2> = (weather tomorrow | what's the weather tommorow [like] | tomorrow weather);
 
-<INTENT_3> = ([the] [current] weather (in | at) <LOCATION> | what is the wather [like] in <LOCATION>);
+<INTENT_3> = ([the] ([current] weather in <LOCATION> | weather in <LOCATION> today) | what is the wather [like] [today] in <LOCATION>);
 
-<INTENT_4> = ([the] [current] weather (in | at) <LOCATION> | what is the wather [like] in <LOCATION>) tomorrow;
+<INTENT_4> = ([the] ([current] weather in <LOCATION> | weather in <LOCATION> today) | what is the wather [like] in <LOCATION>) tomorrow;
 
-<INTENT_5> = [when is] sunrise [time] at <LOCATION>;
+<INTENT_5> = [when is] sunrise [time] in <LOCATION>;
 
-<INTENT_6> = [when is] sunset [time] at <LOCATION>;
+<INTENT_6> = [when is] sunset [time] in <LOCATION>;
 
-<INTENT_7> = sunrise and sunset (for location | times at) <LOCATION>;
+<INTENT_7> = sunrise and sunset (for location | times in) <LOCATION>;
 
-<INTENT_8> = sunrise and sunset (for location | times at) <LOCATION> on date <DATE>;
+<INTENT_8> = sunrise and sunset (for location | times in) <LOCATION> on date <DATE>;
 
 <INTENT_9> = moon phase for [location] <LOCATION>;
 

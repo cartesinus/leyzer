@@ -30,7 +30,7 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 
 <INTENT_10> = open my <FILE_NAME> for edition in google drive;
 
-<INTENT_11> = share my <FILE_NAME> with <MAIL> [and give a permission for (edition | reading | read and write)];
+<INTENT_11> = share my <FILE_NAME> with <MAIL> [and give a permission (for edition | for reading | to read and write)];
 
 #SLOTS
 <MIME_TYPE> = GDRIVE.SLOT.MIME_TYPE;

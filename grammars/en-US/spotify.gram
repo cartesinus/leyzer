@@ -25,7 +25,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_3> = (play [(the | a) song] <SONG> by <ARTIST> [on spotify] | on spotify play <SONG> by <ARTIST>);
 
 #play given album of given artist
-<INTENT_4> = (play [(the | a) <ALBUM_TYPE>] <ALBUM> by <ARTIST> [on spotify] | on spotify play <ALBUM_TYPE> <ALBUM> by <ARTIST>);
+<INTENT_4> = (play [(the (<ALBUM_TYPE_A> | <ALBUM_TYPE_AN>) | a <ALBUM_TYPE_A> | an <ALBUM_TYPE_AN>)] <ALBUM> by <ARTIST> [on spotify] | on spotify play (a <ALBUM_TYPE_A> | an <ALBUM_TYPE_AN>) <ALBUM> by <ARTIST>);
 
 #'press' pause | resume | play | repeat button on current song
 <INTENT_5> = (play | pause | resume | repeat) ([my] spotify | (this | that) <SONG_NOUN>);
@@ -46,7 +46,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_10> = (add | save) [the | a] [<SONG_NOUN>] <SONG> to ([my] playlist <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
 
 #add current album to playlist
-<INTENT_11> = (add | save) (this | that) <ALBUM_TYPE> to [my] ([playlist] <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
+<INTENT_11> = (add | save) (this | that) (<ALBUM_TYPE_A> | <ALBUM_TYPE_AN>) to [my] ([playlist] <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
 
 #create playlist root (no name is given)
 <INTENT_12> = (create | make | add) [a] [new] (playlist | list);
@@ -193,7 +193,8 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <SEEK_TIME> = SPOTIFY.SLOT.SEEK_TIME;
 <STATE> = SPOTIFY.SLOT.STATE;
 <GENRES> = SPOTIFY.SLOT.GENRES;
-<ALBUM_TYPE> = SPOTIFY.SLOT.ALBUM_TYPE;
+<ALBUM_TYPE_A> = SPOTIFY.SLOT.ALBUM_TYPE_A;
+<ALBUM_TYPE_AN> = SPOTIFY.SLOT.ALBUM_TYPE_AN;
 
 #LANG. COMPONENTS
 <SONG_NOUN> = song | track;

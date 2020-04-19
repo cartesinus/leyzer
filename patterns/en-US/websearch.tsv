@@ -2,6 +2,9 @@ domain	intent	parallel	pattern
 Websearch	OpenEngine	-	search on bing
 Websearch	OpenEngine	-	search on google
 Websearch	OpenEngine	-	search on duckduckgo
+Websearch	OpenEngine	-	search using bing
+Websearch	OpenEngine	-	search using google
+Websearch	OpenEngine	-	search using duckduckgo
 Websearch	OpenEngine	-	bing search
 Websearch	OpenEngine	-	google search
 Websearch	OpenEngine	-	duckduckgo search
@@ -9,6 +12,9 @@ Websearch	OpenEngine	-	web search
 Websearch	SearchTextOnEngine	-	WEBSEARCH.SLOT.TXT_QUERY on bing
 Websearch	SearchTextOnEngine	-	WEBSEARCH.SLOT.TXT_QUERY on google
 Websearch	SearchTextOnEngine	-	WEBSEARCH.SLOT.TXT_QUERY on duckduckgo
+Websearch	SearchTextOnEngine	-	WEBSEARCH.SLOT.TXT_QUERY using bing
+Websearch	SearchTextOnEngine	-	WEBSEARCH.SLOT.TXT_QUERY using google
+Websearch	SearchTextOnEngine	-	WEBSEARCH.SLOT.TXT_QUERY using duckduckgo
 Websearch	SearchTextOnEngine	-	bing WEBSEARCH.SLOT.TXT_QUERY
 Websearch	SearchTextOnEngine	-	google WEBSEARCH.SLOT.TXT_QUERY
 Websearch	SearchTextOnEngine	-	duckduckgo WEBSEARCH.SLOT.TXT_QUERY
@@ -21,10 +27,16 @@ Websearch	SearchImagesWithTextOnEngine	-	images matching WEBSEARCH.SLOT.IMG_QUER
 Websearch	SearchImagesWithTextOnEngine	-	WEBSEARCH.SLOT.IMG_QUERY images on bing
 Websearch	SearchImagesWithTextOnEngine	-	WEBSEARCH.SLOT.IMG_QUERY images on google
 Websearch	SearchImagesWithTextOnEngine	-	WEBSEARCH.SLOT.IMG_QUERY images on duckduckgo
+Websearch	SearchImagesWithTextOnEngine	-	WEBSEARCH.SLOT.IMG_QUERY images using bing
+Websearch	SearchImagesWithTextOnEngine	-	WEBSEARCH.SLOT.IMG_QUERY images using google
+Websearch	SearchImagesWithTextOnEngine	-	WEBSEARCH.SLOT.IMG_QUERY images using duckduckgo
 Websearch	SearchImagesOnEngine	-	image search
 Websearch	SearchImagesOnEngine	-	search images on bing
 Websearch	SearchImagesOnEngine	-	search images on google
 Websearch	SearchImagesOnEngine	-	search images on duckduckgo
+Websearch	SearchImagesOnEngine	-	search images using bing
+Websearch	SearchImagesOnEngine	-	search images using google
+Websearch	SearchImagesOnEngine	-	search images using duckduckgo
 Websearch	SearchImagesOnEngine	-	bing image search
 Websearch	SearchImagesOnEngine	-	google image search
 Websearch	SearchImagesOnEngine	-	duckduckgo image search

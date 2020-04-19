@@ -3,14 +3,14 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 
 #INTENTS
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
-<INTENT_1_a> = [search | find] (restaurant | restaurants) [on yelp | nearby | around here];
+<INTENT_1_a> = [search | find] (restaurant | restaurants) [nearby | around here] (on | using) yelp;
 <INTENT_1_b> = (closest restaurant nearby | closest restaurant around | nearest restaurant around);
 
-<INTENT_2> = <QUERY> [around | on yelp | nearby];
+<INTENT_2> = <QUERY> ((on | using) yelp | nearby | around here);
 
 <INTENT_3> = (restaurants nearby with at least <RATING> star rating | <RATING> star restaurants [on yelp] | restaurants rated higher than <RATING> star);
 
-<INTENT_4> = <CATEGORY> (food | restaurants) [around here | nearby];
+<INTENT_4> = <CATEGORY> (food | restaurants) (around here | nearby);
 
 <INTENT_5> = (open restaurants nearby | restaurants still open around here | restaurants open now);
 
@@ -18,7 +18,7 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 
 <INTENT_7> = restaurants (next to | around | near) <LOCATION>;
 
-<INTENT_8> = <QUERY> (in | near | around | at) <LOCATION> [on yelp];
+<INTENT_8> = <QUERY> (in | near | around) <LOCATION> [on yelp];
 
 <INTENT_9> = <INTENT_9_a> | <INTENT_9_b> | <INTENT_9_c>;
 <INTENT_9_a> = restaurants nearby with at least <RATING> star rating near <LOCATION>;
@@ -29,7 +29,7 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 
 <INTENT_11> = restaurants (around | near) <LOCATION> reviewed by (at least | more than) <REVIEW_COUNT> people;
 
-<INTENT_12> = (open restaurants near <LOCATION> | restaurants still open around <LOCATION> | restaurants open now at <LOCATION>);
+<INTENT_12> = (open restaurants near <LOCATION> | restaurants still open around <LOCATION> | restaurants open now in <LOCATION>);
 
 <GET> = closest restaurants near <LOCATION>;
 <GET> = closest restaurants next to <LOCATION>;

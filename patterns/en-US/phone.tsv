@@ -12,15 +12,15 @@ Phone	ShowSMS	-	show my sms inbox
 Phone	ShowSMS	-	display my sms inbox
 Phone	SMSToContact	-	send a text to PHONE.SLOT.TO
 Phone	SMSToContact	-	send a message to PHONE.SLOT.TO
-Phone	SMSToContact	-	send a sms to PHONE.SLOT.TO
+Phone	SMSToContact	-	send an sms to PHONE.SLOT.TO
 Phone	SMSToContact	-	sms PHONE.SLOT.TO
 Phone	SMSToContact	-	text PHONE.SLOT.TO
 Phone	SMSToContactWithMessage	-	send an sms to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
 Phone	SMSToContactWithMessage	-	send an sms to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	send an sms message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	send an sms message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
 Phone	SMSToContactWithMessage	-	send a text to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
 Phone	SMSToContactWithMessage	-	send a text to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	-	send a text message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
+Phone	SMSToContactWithMessage	-	send a text message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
 Phone	SMSToContactWithMessage	-	send a message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
 Phone	SMSToContactWithMessage	-	send a message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
 Phone	SMSToContactWithMessage	-	text PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE

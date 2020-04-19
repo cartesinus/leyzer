@@ -1,24 +1,20 @@
 domain	intent	parallel	pattern
 Slack	OpenSlack	-	open slack
-Slack	OpenSlack	-	open slack app
-Slack	OpenSlack	-	open the slack
 Slack	OpenSlack	-	open the slack app
 Slack	OpenSlack	-	launch slack
-Slack	OpenSlack	-	launch slack app
-Slack	OpenSlack	-	launch the slack
 Slack	OpenSlack	-	launch the slack app
-Slack	CheckLastMessages	-	check my last slack messages
-Slack	CheckLastMessages	-	check my slack channel history
-Slack	CheckLastMessages	-	get my last slack messages
-Slack	CheckLastMessages	-	get my slack channel history
-Slack	CheckLastMessages	-	find my my last slack messages
-Slack	CheckLastMessages	-	find my my slack channel history
-Slack	CheckLastMessages	-	find the my last slack messages
-Slack	CheckLastMessages	-	find the my slack channel history
-Slack	CheckLastMessages	-	search for my my last slack messages
-Slack	CheckLastMessages	-	search for my my slack channel history
-Slack	CheckLastMessages	-	search for the my last slack messages
-Slack	CheckLastMessages	-	search for the my slack channel history
+Slack	CheckLastMessages	-	check last slack messages
+Slack	CheckLastMessages	-	check slack channel history
+Slack	CheckLastMessages	-	get last slack messages
+Slack	CheckLastMessages	-	get slack channel history
+Slack	CheckLastMessages	-	find my last slack messages
+Slack	CheckLastMessages	-	find my slack channel history
+Slack	CheckLastMessages	-	find the last slack messages
+Slack	CheckLastMessages	-	find the slack channel history
+Slack	CheckLastMessages	-	search for my last slack messages
+Slack	CheckLastMessages	-	search for my slack channel history
+Slack	CheckLastMessages	-	search for the last slack messages
+Slack	CheckLastMessages	-	search for the slack channel history
 Slack	CheckUserStatus	-	check the presence of SLACK.SLOT.USERNAME on slack
 Slack	CheckUserStatus	-	check whether SLACK.SLOT.USERNAME is active on slack
 Slack	CheckUserStatus	-	check whether SLACK.SLOT.USERNAME is away on slack
@@ -60,10 +56,15 @@ Slack	SendMessageToChannel	-	send a message on slack to SLACK.SLOT.CHANNEL sayin
 Slack	SendMessageToChannel	-	upload a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
 Slack	SendMessageToChannel	-	message SLACK.SLOT.CHANNEL on slack saying SLACK.SLOT.MESSAGE
 Slack	SendMessageToChannel	-	let slack channel SLACK.SLOT.CHANNEL know that SLACK.SLOT.MESSAGE
+Slack	SendMessageToChannel	-	let SLACK.SLOT.CHANNEL slack channel know that SLACK.SLOT.MESSAGE
 Slack	SetPurposeOnChannel	-	set the purpose for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
+Slack	SetPurposeOnChannel	-	set the purpose for SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
 Slack	SetPurposeOnChannel	-	set the purpose for slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack	SetPurposeOnChannel	-	set the purpose for SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
 Slack	SetTopicInChannel	-	set the topic for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC on slack
+Slack	SetTopicInChannel	-	set the topic for SLACK.SLOT.CHANNEL channel to SLACK.SLOT.TOPIC on slack
 Slack	SetTopicInChannel	-	set the topic of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
+Slack	SetTopicInChannel	-	set the topic of SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.TOPIC
 Slack	SetStatusAway	-	set me as away on slack
 Slack	SetStatusAway	-	set me as not away on slack
 Slack	SetStatusAway	-	mark me as away on slack
@@ -78,9 +79,12 @@ Slack	SendPictureToChannel	-	post a picture on slack to SLACK.SLOT.CHANNEL
 Slack	SendPictureToChannel	-	send a picture on slack to SLACK.SLOT.CHANNEL
 Slack	SendPictureToChannel	-	upload a picture on slack to SLACK.SLOT.CHANNEL
 Slack	SendPictureToChannel	-	upload a picture to slack channel SLACK.SLOT.CHANNEL
+Slack	SendPictureToChannel	-	upload a picture to SLACK.SLOT.CHANNEL slack channel
 Slack	SendPictureToChannel	-	send something to slack channel SLACK.SLOT.CHANNEL
+Slack	SendPictureToChannel	-	send something to SLACK.SLOT.CHANNEL slack channel
 Slack	SendPictureToChannel	-	post on slack to SLACK.SLOT.CHANNEL
 Slack	SendPictureToChannel	-	post on slack channel SLACK.SLOT.CHANNEL
+Slack	SendPictureToChannel	-	post on SLACK.SLOT.CHANNEL slack channel
 Slack	SendPictureToChannelWithCaption	-	post a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
 Slack	SendPictureToChannelWithCaption	-	post a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
 Slack	SendPictureToChannelWithCaption	-	send a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
@@ -91,3 +95,4 @@ Slack	SendPictureWithUrlToChannel	-	post SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CH
 Slack	SendPictureWithUrlToChannel	-	send SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
 Slack	SendPictureWithUrlToChannel	-	upload SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
 Slack	SendPictureWithUrlToChannel	-	post SLACK.SLOT.PICTURE_URL to slack channel SLACK.SLOT.CHANNEL
+Slack	SendPictureWithUrlToChannel	-	post SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL slack channel

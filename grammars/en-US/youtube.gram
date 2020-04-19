@@ -3,7 +3,7 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 
 #PRECONDITIONS
 <WHEN_1> = when there is a new video from youtube channels I follow;
-<WHEN_2> = when (there is a new video from youtube channel <CHANNEL_ID> | <CHANNEL_ID> (uploads a video on youtube | posts a new youtube video));
+<WHEN_2> = when (there is a new video from youtube channel <CHANNEL_ID> | <CHANNEL_ID> [channel] (uploads a video on youtube | posts a new youtube video));
 
 #INTENTS
 <INTENT_1> = open (yt | youtube);
@@ -14,12 +14,12 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 <INTENT_2_c> = <QUERY> [video | videos] on youtube;
 <INTENT_2_d> = youtube video <QUERY>;
 
-<INTENT_3> = (show | play) (youtube (channel | videos in) <CHANNEL_ID> | channel <CHANNEL_ID> in youtube);
+<INTENT_3> = (show | play) (youtube (channel | videos on) <CHANNEL_ID> | channel <CHANNEL_ID> on youtube);
 
 <INTENT_4> = (show | play | display) (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
 <INTENT_4_a> = channels in category <CATEGORY_ID> on youtube;
 <INTENT_4_b> = youtube channels with category <CATEGORY_ID>;
-<INTENT_4_c> = <CATEGORY_ID> (youtube channels | channels in youtube);
+<INTENT_4_c> = <CATEGORY_ID> (youtube channels | channels on youtube);
 <INTENT_4_d> = youtube 's <CATEGORY_ID> channels;
 
 <INTENT_5> = show [me] channels I am subscribed to on youtube;
@@ -31,7 +31,7 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 <INTENT_7_b> = channels matching <QUERY> on youtube;
 <INTENT_7_c> = youtube channel <QUERY>;
 
-<INTENT_8> = show [me] a (video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
+<INTENT_8> = show [me] (a video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
 
 <INTENT_9> = notify me <WHEN_1>;
 

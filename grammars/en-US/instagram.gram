@@ -19,7 +19,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 #INTENTS
 <INTENT_1> = open [my] (instagram | insta);
 
-<INTENT_2> = <SHOW_VERB> my [recent] (instagram | insta) pictures;
+<INTENT_2> = <SHOW_VERB> my [recent] (instagram | insta) (pictures | photos);
 
 <INTENT_3> = <SHOW_VERB> my <COUNT> (recent | latest) (instagram | insta) pictures [on my account];
 

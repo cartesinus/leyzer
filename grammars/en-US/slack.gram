@@ -41,9 +41,9 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 <WHEN> = when there is a new post in the slack channel <CHANNEL>;
 
 #INTENTS
-<INTENT_1> = (open | launch) [the] slack [app];
+<INTENT_1> = (open | launch) (slack | the slack app);
 
-<INTENT_2> = <CHECK_VERB> my (last slack messages | slack channel history);
+<INTENT_2> = <CHECK_VERB> (last slack messages | slack channel history);
 
 <INTENT_3> = check (the presence of <USERNAME> | whether <USERNAME> is (active | away)) on slack;
 
@@ -57,13 +57,13 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 <INTENT_6_a> = <SEND_VERB> <MESSAGE> to <CHANNEL> on slack;
 <INTENT_6_b> = <SEND_VERB> a message on slack to <CHANNEL> saying <MESSAGE>;
 <INTENT_6_c> = message <CHANNEL> on slack saying <MESSAGE>; 
-<INTENT_6_d> = let slack channel <CHANNEL> know that <MESSAGE>;
+<INTENT_6_d> = let (slack channel <CHANNEL> | <CHANNEL> slack channel) know that <MESSAGE>;
 
 # channel's purpose is a short description of the channel's intended use
-<INTENT_7> = set the purpose for (channel <CHANNEL> to <PURPOSE> on slack | slack channel <CHANNEL> to <PURPOSE>);
+<INTENT_7> = set the purpose for ((channel <CHANNEL> | <CHANNEL> channel) to <PURPOSE> on slack | (slack channel <CHANNEL> | <CHANNEL> slack channel) to <PURPOSE>);
 
 # channel's topic is a quick way to let people know what members in the channel are working on or important dates like project deadlines
-<INTENT_8> = set the topic (for channel <CHANNEL> to <TOPIC> on slack | of slack channel <CHANNEL> to <TOPIC>);
+<INTENT_8> = set the topic (for (channel <CHANNEL> | <CHANNEL> channel) to <TOPIC> on slack | of (slack channel <CHANNEL> | <CHANNEL> slack channel) to <TOPIC>);
 
 <INTENT_9> = (set | mark) me as [not] away on slack;
 
@@ -71,16 +71,16 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 
 <INTENT_11> = <INTENT_11_a> | <INTENT_11_b> | <INTENT_11_c> | <INTENT_11_d> | <INTENT_11_e>;
 <INTENT_11_a> = <SEND_VERB> a picture on slack to <CHANNEL>;
-<INTENT_11_b> = upload a picture to slack channel <CHANNEL>;
-<INTENT_11_c> = send something to slack channel <CHANNEL>;
+<INTENT_11_b> = upload a picture to (slack channel <CHANNEL> | <CHANNEL> slack channel);
+<INTENT_11_c> = send something to (slack channel <CHANNEL> | <CHANNEL> slack channel);
 <INTENT_11_d> = post on slack to <CHANNEL>;
-<INTENT_11_e> = post on slack channel <CHANNEL>;
+<INTENT_11_e> = post on (slack channel <CHANNEL> | <CHANNEL> slack channel);
 
 <INTENT_12> = <SEND_VERB> a picture (on slack to | to slack channel) <CHANNEL> with caption <CAPTION>;
 
 <INTENT_13> = <INTENT_13_a> | <INTENT_13_b>;
 <INTENT_13_a> = <SEND_VERB> <PICTURE_URL> to <CHANNEL> on slack;
-<INTENT_13_b> = post <PICTURE_URL> to slack channel <CHANNEL>;
+<INTENT_13_b> = post <PICTURE_URL> to (slack channel <CHANNEL> | <CHANNEL> slack channel);
 
 #SLOTS
 <USERNAME> = SLACK.SLOT.USERNAME;

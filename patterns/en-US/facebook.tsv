@@ -1,8 +1,8 @@
 domain	intent	parallel	pattern
 Facebook	OpenFacebook	-	post something on facebook
-Facebook	OpenFacebook	-	make a new facebook post
+Facebook	OpenFacebook	-	create a new facebook post
 Facebook	OpenFacebook	-	update my facebook status
-Facebook	OpenFacebook	-	make a new post on facebook
+Facebook	OpenFacebook	-	create a new post on facebook
 Facebook	PostStatus	-	write a status FACEBOOK.SLOT.STATUS on facebook
 Facebook	PostStatus	-	post a status FACEBOOK.SLOT.STATUS on facebook
 Facebook	PostStatus	-	write on facebook FACEBOOK.SLOT.STATUS
@@ -12,9 +12,9 @@ Facebook	PostStatus	-	post on facebook FACEBOOK.SLOT.STATUS
 Facebook	PostStatus	-	post on facebook saying FACEBOOK.SLOT.STATUS
 Facebook	PostStatus	-	post on facebook that FACEBOOK.SLOT.STATUS
 Facebook	PostStatus	-	update my facebook status saying FACEBOOK.SLOT.STATUS
-Facebook	PostStatus	-	update my facebook page saying FACEBOOK.SLOT.STATUS
-Facebook	PostStatus	-	make a new post that says FACEBOOK.SLOT.STATUS on facebook
-Facebook	PostStatus	-	make a new post containing FACEBOOK.SLOT.STATUS on facebook
+Facebook	PostStatus	-	update my facebook wall saying FACEBOOK.SLOT.STATUS
+Facebook	PostStatus	-	create a new post that says FACEBOOK.SLOT.STATUS on facebook
+Facebook	PostStatus	-	create a new post containing FACEBOOK.SLOT.STATUS on facebook
 Facebook	PostPicture	-	post a picture on facebook
 Facebook	PostPicture	-	post a picture on my facebook
 Facebook	PostPicture	-	post a picture to facebook
@@ -44,35 +44,35 @@ Facebook	PostPictureWithUrlAndWithCaption	-	put FACEBOOK.SLOT.PICTURE_URL on fac
 Facebook	PostPictureWithUrlAndWithCaption	-	put FACEBOOK.SLOT.PICTURE_URL on my facebook with caption FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	caption FACEBOOK.SLOT.PICTURE_URL as FACEBOOK.SLOT.CAPTION and post it on facebook
 Facebook	PostPictureWithUrlAndWithCaption	-	caption FACEBOOK.SLOT.PICTURE_URL as FACEBOOK.SLOT.CAPTION and upload it on facebook
-Facebook	ShowAlbumWithName	-	show photos in album FACEBOOK.SLOT.ALBUM
-Facebook	ShowAlbumWithName	-	show photos in album FACEBOOK.SLOT.ALBUM on facebook
 Facebook	ShowAlbumWithName	-	show photos in my album FACEBOOK.SLOT.ALBUM
 Facebook	ShowAlbumWithName	-	show photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook	ShowAlbumWithName	-	show my photos in album FACEBOOK.SLOT.ALBUM
-Facebook	ShowAlbumWithName	-	show my photos in album FACEBOOK.SLOT.ALBUM on facebook
+Facebook	ShowAlbumWithName	-	show photos in the album FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	show photos in the album FACEBOOK.SLOT.ALBUM on facebook
 Facebook	ShowAlbumWithName	-	show my photos in my album FACEBOOK.SLOT.ALBUM
 Facebook	ShowAlbumWithName	-	show my photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook	ShowAlbumWithName	-	diplay photos in album FACEBOOK.SLOT.ALBUM
-Facebook	ShowAlbumWithName	-	diplay photos in album FACEBOOK.SLOT.ALBUM on facebook
-Facebook	ShowAlbumWithName	-	diplay photos in my album FACEBOOK.SLOT.ALBUM
-Facebook	ShowAlbumWithName	-	diplay photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook	ShowAlbumWithName	-	diplay my photos in album FACEBOOK.SLOT.ALBUM
-Facebook	ShowAlbumWithName	-	diplay my photos in album FACEBOOK.SLOT.ALBUM on facebook
-Facebook	ShowAlbumWithName	-	diplay my photos in my album FACEBOOK.SLOT.ALBUM
-Facebook	ShowAlbumWithName	-	diplay my photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook	ShowAlbumWithName	-	find photos in album FACEBOOK.SLOT.ALBUM
-Facebook	ShowAlbumWithName	-	find photos in album FACEBOOK.SLOT.ALBUM on facebook
+Facebook	ShowAlbumWithName	-	show my photos in the album FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	show my photos in the album FACEBOOK.SLOT.ALBUM on facebook
+Facebook	ShowAlbumWithName	-	display photos in my album FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	display photos in my album FACEBOOK.SLOT.ALBUM on facebook
+Facebook	ShowAlbumWithName	-	display photos in the album FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	display photos in the album FACEBOOK.SLOT.ALBUM on facebook
+Facebook	ShowAlbumWithName	-	display my photos in my album FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	display my photos in my album FACEBOOK.SLOT.ALBUM on facebook
+Facebook	ShowAlbumWithName	-	display my photos in the album FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	display my photos in the album FACEBOOK.SLOT.ALBUM on facebook
 Facebook	ShowAlbumWithName	-	find photos in my album FACEBOOK.SLOT.ALBUM
 Facebook	ShowAlbumWithName	-	find photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook	ShowAlbumWithName	-	find my photos in album FACEBOOK.SLOT.ALBUM
-Facebook	ShowAlbumWithName	-	find my photos in album FACEBOOK.SLOT.ALBUM on facebook
+Facebook	ShowAlbumWithName	-	find photos in the album FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	find photos in the album FACEBOOK.SLOT.ALBUM on facebook
 Facebook	ShowAlbumWithName	-	find my photos in my album FACEBOOK.SLOT.ALBUM
 Facebook	ShowAlbumWithName	-	find my photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook	ShowAlbumWithName	-	search for photos in album FACEBOOK.SLOT.ALBUM
-Facebook	ShowAlbumWithName	-	search for photos in album FACEBOOK.SLOT.ALBUM on facebook
+Facebook	ShowAlbumWithName	-	find my photos in the album FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	find my photos in the album FACEBOOK.SLOT.ALBUM on facebook
 Facebook	ShowAlbumWithName	-	search for photos in my album FACEBOOK.SLOT.ALBUM
 Facebook	ShowAlbumWithName	-	search for photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook	ShowAlbumWithName	-	search for my photos in album FACEBOOK.SLOT.ALBUM
-Facebook	ShowAlbumWithName	-	search for my photos in album FACEBOOK.SLOT.ALBUM on facebook
+Facebook	ShowAlbumWithName	-	search for photos in the album FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	search for photos in the album FACEBOOK.SLOT.ALBUM on facebook
 Facebook	ShowAlbumWithName	-	search for my photos in my album FACEBOOK.SLOT.ALBUM
 Facebook	ShowAlbumWithName	-	search for my photos in my album FACEBOOK.SLOT.ALBUM on facebook
+Facebook	ShowAlbumWithName	-	search for my photos in the album FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	search for my photos in the album FACEBOOK.SLOT.ALBUM on facebook
