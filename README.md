@@ -17,7 +17,7 @@ python DeterministicGenerator.py ../leyzer/grammars/${lang}/${domain}.gram > ../
 
 If you use this corpus, please cite:
 ```
-@InProceedings{lejzer,
+@InProceedings{leyzer,
     title     = {Leyzer: A Dataset for Multilingual Virtual Assistants},
     author    = {Sowa\'{n}ski, Marcin and Janicki, Artur},
 }

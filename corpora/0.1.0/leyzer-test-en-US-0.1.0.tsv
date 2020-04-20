@@ -618,16 +618,8 @@ Spotify	PlaySongByArtist	play the city of roses by xiu xiu on spotify	o b-song i
 Spotify	PreviousSong	go back	o o
 Spotify	PreviousSong	go back to the last song	o o o o o o
 Spotify	PreviousSong	go back to the last track	o o o o o o
-Translate	DetectLanguage	detect language of TRANSLATE.SLOT.TEXT.MULTI	o o o o
-Translate	DetectLanguage	detect language of TRANSLATE.SLOT.TEXT.MULTI is written in	o o o o o o o
-Translate	DetectLanguage	detect the language of TRANSLATE.SLOT.TEXT.MULTI	o o o o o
-Translate	DetectLanguage	detect the language of TRANSLATE.SLOT.TEXT.MULTI is written in	o o o o o o o o
-Translate	DetectLanguage	detect what language TRANSLATE.SLOT.TEXT.MULTI	o o o o
-Translate	DetectLanguage	detect what language TRANSLATE.SLOT.TEXT.MULTI is written in	o o o o o o o
-Translate	DetectLanguage	language of TRANSLATE.SLOT.TEXT.MULTI	o o o
-Translate	DetectLanguage	language of TRANSLATE.SLOT.TEXT.MULTI is written in	o o o o o o
-Translate	DetectLanguage	the language of TRANSLATE.SLOT.TEXT.MULTI	o o o o
-Translate	DetectLanguage	the language of TRANSLATE.SLOT.TEXT.MULTI is written in	o o o o o o o
+Translate	DetectLanguage	detect language of gdzie ja jestem	o o o b-text i-text i-text
+Translate	DetectLanguage	detect language of what is going on is written in	o o o o o o b-text i-text i-text i-text
 Translate	SetDefaultLanguage	change default language to italian	o o o o b-all_lang
 Translate	SetDefaultLanguage	change default output language to french	o o o o o b-all_lang
 Translate	SetDefaultLanguage	change default translation language to english	o o o o o b-all_lang
@@ -648,14 +640,6 @@ Translate	SetDefaultLanguageToLanguage	set default input language to hindi	o o o
 Translate	SetDefaultLanguageToLanguage	set default source language to icelandic	o o o o o b-all_lang
 Translate	SetDefaultLanguageToLanguage	set input language to italian	o o o o b-all_lang
 Translate	SetDefaultLanguageToLanguage	set source language to french	o o o o b-all_lang
-Translate	TranslateText	how do i say TRANSLATE.SLOT.TEXT.EN	o o o o o
-Translate	TranslateText	how do i translate TRANSLATE.SLOT.TEXT.EN	o o o o o
-Translate	TranslateText	how do you say TRANSLATE.SLOT.TEXT.EN	o o o o o
-Translate	TranslateText	how do you translate TRANSLATE.SLOT.TEXT.EN	o o o o o
-Translate	TranslateText	the translation of TRANSLATE.SLOT.TEXT.EN	o o o o
-Translate	TranslateText	translate TRANSLATE.SLOT.TEXT.EN	o o
-Translate	TranslateText	translation of TRANSLATE.SLOT.TEXT.EN	o o o
-Translate	TranslateText	what is the translation of TRANSLATE.SLOT.TEXT.EN	o o o o o o
 Twitter	FollowUser	be a twitter follower of amilee110	o o o o o b-username
 Twitter	FollowUser	become a follower of emilyclaiborne on twitter	o o o o b-username o o
 Twitter	FollowUser	become a twitter follower of kmore	o o o o o b-username
