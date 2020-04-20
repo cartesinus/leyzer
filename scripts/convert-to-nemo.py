@@ -90,9 +90,9 @@ def main(argv=None):  # IGNORE:C0111
                 df = pd.read_csv(filename, sep='\t', header=0)
                 i, t, s = create_dict(df, i, t, s)
 
-            save(i, args.output_path+'leyzer.dict.intent.csv')
-            save(t, args.output_path+'leyzer.dict.vocab.csv')
-            save(s, args.output_path+'leyzer.dict.slots.csv')
+            save(i, args.output_path+'dict.intents.csv')
+            save(t, args.output_path+'dict.vocab.csv')
+            save(s, args.output_path+'dict.slots.csv')
 
         if args.input and args.output_path:
             intent_dict = read_dict(args.intent_dict)
