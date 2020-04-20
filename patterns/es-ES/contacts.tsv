@@ -1,174 +1,146 @@
 domain	intent	parallel	pattern
-Contacts	OpenContacts	True	abre mis contactos
-Contacts	OpenContacts	False	ábreme mis contactos
-Contacts	OpenContacts	True	muestra mis contactos
-Contacts	OpenContacts	False	muéstrame mis contactos
-Contacts	OpenMyContact	True	abre la información de mi contacto
-Contacts	OpenMyContact	False	ábreme la información de mi contacto
-Contacts	OpenMyContact	True	muestra la información de mi contacto
-Contacts	OpenMyContact	False	muéstrame la información de mi contacto
-Contacts	ShowContactWithEmail	False	abre mis contactos con el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	abre mis contactos con el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	True	abre mis contactos con el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	abre mis contactos de google con el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	abre mis contactos de google con el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	True	abre mis contactos de google con el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	ábreme mis contactos con el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	ábreme mis contactos con el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	ábreme mis contactos con el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	ábreme mis contactos de google con el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	ábreme mis contactos de google con el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	ábreme mis contactos de google con el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	muestra mis contactos con el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	muestra mis contactos con el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	True	muestra mis contactos con el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	muestra mis contactos de google con el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	muestra mis contactos de google con el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	muestra mis contactos de google con el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	muéstrame mis contactos con el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	muéstrame mis contactos con el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	muéstrame mis contactos con el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	muéstrame mis contactos de google con el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	muéstrame mis contactos de google con el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithEmail	False	muéstrame mis contactos de google con el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumber	False	abre mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	True	abre mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	ábreme mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	ábreme mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	muestra mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	True	muestra mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	muéstrame mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNumber	False	muéstrame mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithName	True	abre mis contactos con el nombre CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	abre mis contactos con el nombre de CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	ábreme mis contactos con el nombre CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	ábreme mis contactos con el nombre de CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	True	muestra mis contactos con el nombre CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	muestra mis contactos con el nombre de CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	muéstrame mis contactos con el nombre CONTACTS.SLOT.NAME
-Contacts	ShowContactWithName	False	muéstrame mis contactos con el nombre de CONTACTS.SLOT.NAME
-Contacts	ShowContactWithNumberAndWithEmail	False	abre mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	abre mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	abre mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	abre mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	abre mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	abre mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	ábreme mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	ábreme mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	ábreme mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	ábreme mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	ábreme mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	ábreme mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	muestra mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	muestra mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	muestra mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	muestra mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	muestra mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	muestra mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	muéstrame mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	muéstrame mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	muéstrame mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	muéstrame mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	muéstrame mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNumberAndWithEmail	False	muéstrame mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
-Contacts	ShowContactWithNameAndWithNumberAndWithType	True	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	True	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	True	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	True	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	True	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	True	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	True	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	True	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto usando el nombre de CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER
-Contacts	ShowContactWithNameAndWithNumberAndWithType	False	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y añade el número de CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
-Contacts	EditContactWithName	False	edita mi contacto CONTACTS.SLOT.NAME
-Contacts	EditContactWithName	False	abre mi contacto CONTACTS.SLOT.NAME para editar
-Contacts	EditContactWithNumber	True	cambia el nombre de mi contacto con el número CONTACTS.SLOT.PHONE_NUMBER
-Contacts	EditNumberInContactWithName	True	cambia el número de mi contacto CONTACTS.SLOT.NAME
-Contacts	EditNumberInContactWithNameToNumberAndToType	True	establece el número CONTACTS.SLOT.PHONE_NUMBER en el contacto CONTACTS.SLOT.NAME como CONTACTS.SLOT.PHONE_TYPE
+Contacts	OpenContacts	-	abre mis contactos
+Contacts	OpenContacts	-	ábreme mis contactos
+Contacts	OpenContacts	-	muestra mis contactos
+Contacts	OpenContacts	-	muéstrame mis contactos
+Contacts	OpenMyContact	-	abre la información de mi perfil
+Contacts	OpenMyContact	-	abre la información de mi tarjeta comercial
+Contacts	OpenMyContact	-	abre la información personal
+Contacts	OpenMyContact	-	ábreme la información de mi perfil
+Contacts	OpenMyContact	-	ábreme la información de mi tarjeta comercial
+Contacts	OpenMyContact	-	ábreme la información personal
+Contacts	OpenMyContact	-	muestra la información de mi perfil
+Contacts	OpenMyContact	-	muestra la información de mi tarjeta comercial
+Contacts	OpenMyContact	-	muestra la información personal
+Contacts	OpenMyContact	-	muéstrame la información de mi perfil
+Contacts	OpenMyContact	-	muéstrame la información de mi tarjeta comercial
+Contacts	OpenMyContact	-	muéstrame la información personal
+Contacts	ShowContactWithEmail	-	abre mis contactos con el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	abre mis contactos con el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	abre mis contactos con el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	abre mis contactos de google con el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	abre mis contactos de google con el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	abre mis contactos de google con el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	ábreme mis contactos con el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	ábreme mis contactos con el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	ábreme mis contactos con el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	ábreme mis contactos de google con el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	ábreme mis contactos de google con el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	ábreme mis contactos de google con el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	muestra mis contactos con el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	muestra mis contactos con el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	muestra mis contactos con el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	muestra mis contactos de google con el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	muestra mis contactos de google con el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	muestra mis contactos de google con el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	muéstrame mis contactos con el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	muéstrame mis contactos con el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	muéstrame mis contactos con el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	muéstrame mis contactos de google con el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	muéstrame mis contactos de google con el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithEmail	-	muéstrame mis contactos de google con el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumber	-	abre mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	abre mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	ábreme mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	ábreme mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	muestra mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	muestra mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	muéstrame mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNumber	-	muéstrame mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithName	-	abre mis contactos con el nombre CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	abre mis contactos con el nombre de CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	ábreme mis contactos con el nombre CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	ábreme mis contactos con el nombre de CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	muestra mis contactos con el nombre CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	muestra mis contactos con el nombre de CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	muéstrame mis contactos con el nombre CONTACTS.SLOT.NAME
+Contacts	ShowContactWithName	-	muéstrame mis contactos con el nombre de CONTACTS.SLOT.NAME
+Contacts	ShowContactWithNumberAndWithEmail	-	abre mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	abre mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	abre mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	abre mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	abre mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	abre mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	ábreme mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	ábreme mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	ábreme mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	ábreme mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	ábreme mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	ábreme mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	muestra mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	muestra mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	muestra mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	muestra mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	muestra mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	muestra mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	muéstrame mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	muéstrame mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	muéstrame mis contactos con el número CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	muéstrame mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el email CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	muéstrame mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNumberAndWithEmail	-	muéstrame mis contactos con el número de teléfono CONTACTS.SLOT.PHONE_NUMBER y el correo electrónico CONTACTS.SLOT.EMAIL
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y llámalo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	crea un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y llámalo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto usando el nombre CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con un número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME con el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y pónle el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	ShowContactWithNameAndWithNumberAndWithType	-	créame un nuevo contacto y nómbralo CONTACTS.SLOT.NAME y añade el número CONTACTS.SLOT.PHONE_NUMBER como CONTACTS.SLOT.PHONE_TYPE
+Contacts	EditContactWithName	-	edita mi contacto CONTACTS.SLOT.NAME
+Contacts	EditContactWithName	-	abre mi contacto CONTACTS.SLOT.NAME para editar
+Contacts	EditContactWithNumber	-	cambia el nombre de mi contacto con el número CONTACTS.SLOT.PHONE_NUMBER
+Contacts	EditNumberInContactWithName	-	cambia el número de mi contacto CONTACTS.SLOT.NAME
+Contacts	EditNumberInContactWithNameToNumberAndToType	-	establece el número CONTACTS.SLOT.PHONE_NUMBER en el contacto CONTACTS.SLOT.NAME como CONTACTS.SLOT.PHONE_TYPE

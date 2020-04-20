@@ -7,13 +7,13 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <WHEN_2> = cuándo empieza (el mítin | el evento | la cita) en mi calendario en la ubicación <LOCATION>;
 
 #INTENTS
-<INTENT_1> = <SHOW_VERB> mi calendario;
+<INTENT_1> = <SHOW_VERB> (mi | el) calendario;
 
 <INTENT_2> = qué hay en mi agenda <DATE>?;
 
-<INTENT_3> = añade un evento llamado <EVENT_NAME> [a calendario];
+<INTENT_3> = añade un evento llamado <EVENT_NAME> [(al | a mi) calendario];
 
-<INTENT_4> = añade un evento llamado <EVENT_NAME> [a calendario] el <DATE>;
+<INTENT_4> = añade un evento llamado <EVENT_NAME> [(al | a mi) calendario] el <DATE>;
 
 <INTENT_5> = notifícame <WHEN_1>;
 

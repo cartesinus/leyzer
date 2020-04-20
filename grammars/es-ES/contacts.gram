@@ -4,7 +4,7 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 #INTENTS
 <INTENT_1> = <SHOW_VERB> mis contactos;
 
-<INTENT_2> = <SHOW_VERB> la información de mi contacto;
+<INTENT_2> = <SHOW_VERB> la información (de mi (perfil | tarjeta comercial) | personal) ;
 
 <INTENT_3> = <SHOW_VERB> mis contactos [de google] con (el email | el correo [electrónico]) <EMAIL>;
 
@@ -14,7 +14,7 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 
 <INTENT_6> = <SHOW_VERB> mis contactos con el número [de teléfono] <PHONE_NUMBER> y (el email | el correo [electrónico]) <EMAIL>;
 
-<INTENT_7> = (crea | créame) un nuevo contacto (y llámalo | usando el nombre [de] | y nómbralo) <NAME> (con [un | el] número | y pónle el número | y añade el número [de]) <PHONE_NUMBER> [como <PHONE_TYPE>];
+<INTENT_7> = (crea | créame) un nuevo contacto (y llámalo | usando el nombre | y nómbralo) <NAME> (con [un | el] número | y pónle el número | y añade el número) <PHONE_NUMBER> [como <PHONE_TYPE>];
 
 <INTENT_8> = (edita mi contacto <NAME> | abre mi contacto <NAME> para editar);
 

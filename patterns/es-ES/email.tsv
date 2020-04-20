@@ -1,106 +1,150 @@
 domain	intent	parallel	pattern
-Email	OpenEmail	False	verifica email
-Email	OpenEmail	False	verifica gmail
-Email	OpenEmail	False	verifica mi email
-Email	OpenEmail	False	verifica mi gmail
-Email	OpenEmail	False	verifica bandeja de entrada de email
-Email	OpenEmail	False	verifica bandeja de entrada de gmail
-Email	OpenEmail	False	verifica bandeja de entrada de mi email
-Email	OpenEmail	False	verifica bandeja de entrada de mi gmail
-Email	OpenEmail	False	verifica la bandeja de entrada de email
-Email	OpenEmail	False	verifica la bandeja de entrada de gmail
-Email	OpenEmail	False	verifica la bandeja de entrada de mi email
-Email	OpenEmail	False	verifica la bandeja de entrada de mi gmail
-Email	OpenEmail	False	dame email
-Email	OpenEmail	False	dame gmail
-Email	OpenEmail	False	dame mi email
-Email	OpenEmail	False	dame mi gmail
-Email	OpenEmail	False	dame bandeja de entrada de email
-Email	OpenEmail	False	dame bandeja de entrada de gmail
-Email	OpenEmail	False	dame bandeja de entrada de mi email
-Email	OpenEmail	False	dame bandeja de entrada de mi gmail
-Email	OpenEmail	False	dame la bandeja de entrada de email
-Email	OpenEmail	False	dame la bandeja de entrada de gmail
-Email	OpenEmail	False	dame la bandeja de entrada de mi email
-Email	OpenEmail	False	dame la bandeja de entrada de mi gmail
-Email	OpenEmail	False	verifica mis emails de la categoría principal
-Email	OpenEmail	False	verifica mis correos de la categoría principal
-Email	OpenEmail	False	dame mis emails de la categoría principal
-Email	OpenEmail	False	dame mis correos de la categoría principal
-Email	OpenEmail	False	verifica mi email más reciente
-Email	OpenEmail	False	verifica mis emails
-Email	OpenEmail	False	verifica mis mis emails en gmail
-Email	OpenEmail	False	verifica mis mi bandeja de entrada de gmail
-Email	OpenEmail	False	dame mi email más reciente
-Email	OpenEmail	False	dame mis emails
-Email	OpenEmail	False	dame mis mis emails en gmail
-Email	OpenEmail	False	dame mis mi bandeja de entrada de gmail
-Email	ShowEmailFromSender	False	verifica emails de EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	False	verifica emails que recibí de EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	False	verifica mis emails de EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	False	verifica mis emails que recibí de EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	False	dame emails de EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	False	dame emails que recibí de EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	False	dame mis emails de EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	False	dame mis emails que recibí de EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailWithLabel	False	muéstrame mis emails etiquetados EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	muéstrame mis emails con la etiqueta EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	muéstrame mis emails que tienen etiqueta EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	muéstrame mis emails que tienen etiqueta de EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	muéstrame mis emails que tienen la etiqueta EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	muéstrame mis emails que tienen la etiqueta de EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	muéstrame mis correos etiquetados EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	muéstrame mis correos con la etiqueta EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	muéstrame mis correos que tienen etiqueta EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	muéstrame mis correos que tienen etiqueta de EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	muéstrame mis correos que tienen la etiqueta EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	muéstrame mis correos que tienen la etiqueta de EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	dame mis emails etiquetados EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	dame mis emails con la etiqueta EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	dame mis emails que tienen etiqueta EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	dame mis emails que tienen etiqueta de EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	dame mis emails que tienen la etiqueta EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	dame mis emails que tienen la etiqueta de EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	dame mis correos etiquetados EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	dame mis correos con la etiqueta EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	dame mis correos que tienen etiqueta EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	dame mis correos que tienen etiqueta de EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	dame mis correos que tienen la etiqueta EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	False	dame mis correos que tienen la etiqueta de EMAIL.SLOT.LABEL
-Email	ShowEmailFromTime	False	muéstrame emails que recibí EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	False	muéstrame emails que llegaron EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	False	muéstrame correos que recibí EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	False	muéstrame correos que llegaron EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	False	dame emails que recibí EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	False	dame emails que llegaron EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	False	dame correos que recibí EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	False	dame correos que llegaron EMAIL.SLOT.TIME
-Email	ShowEmailWithSubject	True	muéstrame mis emails con el tema EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	False	muéstrame mis correos con el tema EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	False	dame mis emails con el tema EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	False	dame mis correos con el tema EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithPriority	False	muéstrame los emails de EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	False	muéstrame los correos de EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	False	dame los emails de EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	False	dame los correos de EMAIL.SLOT.PRIORITY
-Email	SendEmailToAddressWithSubjectAndWithMessage	False	envía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	False	envía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE usando mi gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	False	reenvía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	False	reenvía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE usando mi gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	False	manda un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	False	manda un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE usando mi gmail
-Email	SendEmailToAddressWithSubject	False	envía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	False	envía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT usando mi gmail
-Email	SendEmailToAddressWithSubject	False	reenvía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	False	reenvía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT usando mi gmail
-Email	SendEmailToAddressWithSubject	False	manda un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	False	manda un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT usando mi gmail
-Email	SendEmail	True	envía un email
-Email	SendEmail	True	envía un email a alguien
-Email	SendEmail	False	reenvía un email
-Email	SendEmail	False	reenvía un email a alguien
-Email	SendEmail	False	manda un email
-Email	SendEmail	False	manda un email a alguien
-Email	SendEmailToAddress	False	envía un email a EMAIL.SLOT.TO usando mi gmail
-Email	SendEmailToAddress	False	envía un correo a EMAIL.SLOT.TO usando mi gmail
-Email	ReplyToEmailFromAddress	True	responde a EMAIL.SLOT.TO
+Email	OpenEmail	-	verifica email
+Email	OpenEmail	-	verifica gmail
+Email	OpenEmail	-	verifica mi email
+Email	OpenEmail	-	verifica mi gmail
+Email	OpenEmail	-	verifica bandeja de entrada de email
+Email	OpenEmail	-	verifica bandeja de entrada de gmail
+Email	OpenEmail	-	verifica bandeja de entrada de mi email
+Email	OpenEmail	-	verifica bandeja de entrada de mi gmail
+Email	OpenEmail	-	verifica la bandeja de entrada de email
+Email	OpenEmail	-	verifica la bandeja de entrada de gmail
+Email	OpenEmail	-	verifica la bandeja de entrada de mi email
+Email	OpenEmail	-	verifica la bandeja de entrada de mi gmail
+Email	OpenEmail	-	consulta email
+Email	OpenEmail	-	consulta gmail
+Email	OpenEmail	-	consulta mi email
+Email	OpenEmail	-	consulta mi gmail
+Email	OpenEmail	-	consulta bandeja de entrada de email
+Email	OpenEmail	-	consulta bandeja de entrada de gmail
+Email	OpenEmail	-	consulta bandeja de entrada de mi email
+Email	OpenEmail	-	consulta bandeja de entrada de mi gmail
+Email	OpenEmail	-	consulta la bandeja de entrada de email
+Email	OpenEmail	-	consulta la bandeja de entrada de gmail
+Email	OpenEmail	-	consulta la bandeja de entrada de mi email
+Email	OpenEmail	-	consulta la bandeja de entrada de mi gmail
+Email	OpenEmail	-	verifica mis emails de la categoría principal
+Email	OpenEmail	-	verifica mis correos de la categoría principal
+Email	OpenEmail	-	consulta mis emails de la categoría principal
+Email	OpenEmail	-	consulta mis correos de la categoría principal
+Email	OpenEmail	-	verifica mi email más reciente
+Email	OpenEmail	-	verifica mis emails
+Email	OpenEmail	-	verifica mis mis emails en gmail
+Email	OpenEmail	-	verifica mis mi bandeja de entrada de gmail
+Email	OpenEmail	-	consulta mi email más reciente
+Email	OpenEmail	-	consulta mis emails
+Email	OpenEmail	-	consulta mis mis emails en gmail
+Email	OpenEmail	-	consulta mis mi bandeja de entrada de gmail
+Email	ShowEmailFromSender	-	verifica emails de EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	verifica emails que recibí de EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	verifica mis emails de EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	verifica mis emails que recibí de EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	consulta emails de EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	consulta emails que recibí de EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	consulta mis emails de EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	consulta mis emails que recibí de EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailWithLabel	-	muéstrame los emails etiquetados EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame los emails con la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame los emails que tienen etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame los emails que tienen etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame los emails que tienen la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame los emails que tienen la etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame los correos etiquetados EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame los correos con la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame los correos que tienen etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame los correos que tienen etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame los correos que tienen la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame los correos que tienen la etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame mis emails etiquetados EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame mis emails con la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame mis emails que tienen etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame mis emails que tienen etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame mis emails que tienen la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame mis emails que tienen la etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame mis correos etiquetados EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame mis correos con la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame mis correos que tienen etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame mis correos que tienen etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame mis correos que tienen la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	muéstrame mis correos que tienen la etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver los emails etiquetados EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver los emails con la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver los emails que tienen etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver los emails que tienen etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver los emails que tienen la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver los emails que tienen la etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver los correos etiquetados EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver los correos con la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver los correos que tienen etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver los correos que tienen etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver los correos que tienen la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver los correos que tienen la etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver mis emails etiquetados EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver mis emails con la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver mis emails que tienen etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver mis emails que tienen etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver mis emails que tienen la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver mis emails que tienen la etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver mis correos etiquetados EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver mis correos con la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver mis correos que tienen etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver mis correos que tienen etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver mis correos que tienen la etiqueta EMAIL.SLOT.LABEL
+Email	ShowEmailWithLabel	-	quiero ver mis correos que tienen la etiqueta de EMAIL.SLOT.LABEL
+Email	ShowEmailFromTime	-	muéstrame los emails que recibí EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	muéstrame los emails que llegaron EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	muéstrame los correos que recibí EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	muéstrame los correos que llegaron EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	muéstrame mis emails que recibí EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	muéstrame mis emails que llegaron EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	muéstrame mis correos que recibí EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	muéstrame mis correos que llegaron EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	quiero ver los emails que recibí EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	quiero ver los emails que llegaron EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	quiero ver los correos que recibí EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	quiero ver los correos que llegaron EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	quiero ver mis emails que recibí EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	quiero ver mis emails que llegaron EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	quiero ver mis correos que recibí EMAIL.SLOT.TIME
+Email	ShowEmailFromTime	-	quiero ver mis correos que llegaron EMAIL.SLOT.TIME
+Email	ShowEmailWithSubject	-	muéstrame los emails con el tema EMAIL.SLOT.SUBJECT
+Email	ShowEmailWithSubject	-	muéstrame los correos con el tema EMAIL.SLOT.SUBJECT
+Email	ShowEmailWithSubject	-	muéstrame mis emails con el tema EMAIL.SLOT.SUBJECT
+Email	ShowEmailWithSubject	-	muéstrame mis correos con el tema EMAIL.SLOT.SUBJECT
+Email	ShowEmailWithSubject	-	quiero ver los emails con el tema EMAIL.SLOT.SUBJECT
+Email	ShowEmailWithSubject	-	quiero ver los correos con el tema EMAIL.SLOT.SUBJECT
+Email	ShowEmailWithSubject	-	quiero ver mis emails con el tema EMAIL.SLOT.SUBJECT
+Email	ShowEmailWithSubject	-	quiero ver mis correos con el tema EMAIL.SLOT.SUBJECT
+Email	ShowEmailWithPriority	-	muéstrame los emails de EMAIL.SLOT.PRIORITY
+Email	ShowEmailWithPriority	-	muéstrame los correos de EMAIL.SLOT.PRIORITY
+Email	ShowEmailWithPriority	-	muéstrame mis emails de EMAIL.SLOT.PRIORITY
+Email	ShowEmailWithPriority	-	muéstrame mis correos de EMAIL.SLOT.PRIORITY
+Email	ShowEmailWithPriority	-	quiero ver los emails de EMAIL.SLOT.PRIORITY
+Email	ShowEmailWithPriority	-	quiero ver los correos de EMAIL.SLOT.PRIORITY
+Email	ShowEmailWithPriority	-	quiero ver mis emails de EMAIL.SLOT.PRIORITY
+Email	ShowEmailWithPriority	-	quiero ver mis correos de EMAIL.SLOT.PRIORITY
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	envía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	envía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE usando mi gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	reenvía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	reenvía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE usando mi gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	manda un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	manda un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT con el mensaje EMAIL.SLOT.MESSAGE usando mi gmail
+Email	SendEmailToAddressWithSubject	-	envía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	envía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT usando mi gmail
+Email	SendEmailToAddressWithSubject	-	reenvía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	reenvía un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT usando mi gmail
+Email	SendEmailToAddressWithSubject	-	manda un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	manda un email a EMAIL.SLOT.TO con el tema EMAIL.SLOT.SUBJECT usando mi gmail
+Email	SendEmail	-	envía un email
+Email	SendEmail	-	envía un email a alguien
+Email	SendEmail	-	reenvía un email
+Email	SendEmail	-	reenvía un email a alguien
+Email	SendEmail	-	manda un email
+Email	SendEmail	-	manda un email a alguien
+Email	SendEmailToAddress	-	envía un email a EMAIL.SLOT.TO usando mi gmail
+Email	SendEmailToAddress	-	envía un email a EMAIL.SLOT.TO usando mi aplicación gmail
+Email	SendEmailToAddress	-	envía un email a EMAIL.SLOT.TO usando mi aplicación de gmail
+Email	SendEmailToAddress	-	envía un correo a EMAIL.SLOT.TO usando mi gmail
+Email	SendEmailToAddress	-	envía un correo a EMAIL.SLOT.TO usando mi aplicación gmail
+Email	SendEmailToAddress	-	envía un correo a EMAIL.SLOT.TO usando mi aplicación de gmail
+Email	ReplyToEmailFromAddress	-	responde a EMAIL.SLOT.TO

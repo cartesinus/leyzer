@@ -11,7 +11,7 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 
 <INTENT_2> = [<RETRIEVE_VERB>] (<INTENT_2_a> | <INTENT_2_b>);
 <INTENT_2_a> = (mis pasos de fitbit el | el número de pasos [de fitbit] que hice el | mi número de pasos [de fitbit] el | el pedómetro de fitbit el | el contador de pasos de fitbit el | los pasos que hice el) <DATE>;
-<INTENT_2_b> = el número de pasos el <DATE> de fitbit;
+<INTENT_2_b> = el número de pasos de fitbit el <DATE>;
 
 <INTENT_3> = [<RETRIEVE_VERB>] (mis medidas de cuerpo | mi bmi | mi peso) de fitbit;
 
@@ -25,5 +25,5 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 <WEIGHT> = FITBIT.SLOT.WEIGHT;
 
 #LANG. COMPONENTS
-<RETRIEVE_VERB> = dame;
+<RETRIEVE_VERB> = quiero ver | muéstrame;
 <NOTIFY_VERB> = notifícame | dime;
