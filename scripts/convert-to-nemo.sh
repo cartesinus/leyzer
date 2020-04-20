@@ -1,6 +1,6 @@
 #!/bin/bash -ex
 
-LASER_PATH=$1
+LEYZER_PATH=$1
 OUTPUT_PATH=$2
 
 for lang in "en-US" "es-ES" "pl-PL"; do
