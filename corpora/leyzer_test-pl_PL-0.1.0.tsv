@@ -307,7 +307,7 @@ Gdrive	SortReverseAlphabetical	pokaż moje pliki na dysku google w odwrotnej kol
 Instagram	OpenInstagram	otwórz instagram	o o
 Instagram	OpenInstagram	otwórz mój instagram	o o o
 Instagram	ShowLastNumberPictures	wyświetl 13 moich ostatnich zdjęć	o b-count o o o
-Instagram	ShowLastNumberPictures	wyświetl INSTARAM.SLOT.COUNT moich najnowszych zdjęć na moim koncie	o o o o o o o o
+Instagram	ShowLastNumberPictures	wyświetl 9 moich najnowszych zdjęć na moim koncie	o o o o o o o o
 Instagram	ShowLastNumberPictures	wyświetl dziesięć moich ostatnich zdjęc na instagramie	o b-count o o o o o
 Instagram	ShowLastNumberPictures	wyświetl 100 moich najnowszych zdjęć na moim koncie	o b-count o o o o o o
 Instagram	ShowLastNumberPictures	wyświetl listę 8 najnowszych zdjęć	o o b-count o o
@@ -319,7 +319,7 @@ Instagram	ShowLastNumberPictures	pokaż mi moje sto najnowszych zdjęć instagra
 Instagram	ShowLastNumberPictures	pokaż mi 4 moich ostatnich zdjęć na instagramie	o o b-count o o o o o
 Instagram	ShowLastNumberPictures	pokaż mi 6 moich ostatnich zdjęć z instagrama na moim koncie	o o b-count o o o o o o o o
 Instagram	ShowLastNumberPictures	pokaż moje 2 ostatnich zdjęć na instagramie	o o b-count o o o o
-Instagram	ShowLastNumberPictures	pokaż INSTARAM.SLOT.COUNT moich najnowszych zdjęć instagramowych na moim koncie	o o o o o o o o o
+Instagram	ShowLastNumberPictures	pokaż 5 moich najnowszych zdjęć instagramowych na moim koncie	o o o o o o o o o
 Instagram	ShowLastNumberPictures	pokaż mi 13 moich ostatnich zdjęc na instagramie	o o b-count o o o o o
 Instagram	ShowLastNumberPictures	pokaż mi dziesięć moich ostatnich zdjęć z instagrama na moim koncie	o o b-count o o o o o o o o
 Instagram	ShowPictures	wyświetl moje zdjęcia na instagramie	o o o o o
@@ -618,8 +618,8 @@ Spotify	PlaySongByArtist	zagraj touch that space natalia przybysz na spotify	o b
 Spotify	PreviousSong	wróć	o
 Spotify	PreviousSong	wróć do ostatniej piosenki	o o o o
 Spotify	PreviousSong	wróć do ostatniego utworu	o o o o
-Translate	DetectLanguage	wykryj język TRANSLATE.SLOT.TEXT.MULTI	o o o
-Translate	DetectLanguage	wykryj w jakim to języku TRANSLATE.SLOT.TEXT.MULTI	o o o o o o
+Translate	DetectLanguage	wykryj język who is this	o o b-text i-text i-text
+Translate	DetectLanguage	wykryj w jakim to języku kim jesteś	o o o o o b-text i-text
 Translate	DetectLanguage	odkryj język TRANSLATE.SLOT.TEXT.MULTI	o o o
 Translate	DetectLanguage	odkryj w jakim to języku TRANSLATE.SLOT.TEXT.MULTI	o o o o o o
 Translate	DetectLanguage	poznaj język TRANSLATE.SLOT.TEXT.MULTI	o o o
@@ -653,12 +653,11 @@ Translate	TranslateText	jak tłumaczyć TRANSLATE.SLOT.TEXT.EN	o o o
 Translate	TranslateText	jak wymówić TRANSLATE.SLOT.TEXT.EN	o o o
 Translate	TranslateText	jak tłumaczysz TRANSLATE.SLOT.TEXT.EN	o o o
 Translate	TranslateText	tłumaczenie TRANSLATE.SLOT.TEXT.EN	o o
-Translate	TranslateText	tłumacz TRANSLATE.SLOT.TEXT.EN	o o
-Translate	TranslateText	tłumaczenie TRANSLATE.SLOT.TEXT.EN	o o
-Translate	TranslateText	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT.EN	o o o o
+Translate	TranslateText	tłumacz i hate you	o b-text i-text i-text
+Translate	TranslateText	tłumaczenie how are you	o b-text i-text i-text
+Translate	TranslateText	jakie jest tłumaczenie please leave	o o o b-text i-text
 Twitter	FollowUser	zacznij śledzić slonka17	o o b-username
 Twitter	FollowUser	zostań obserwatorem kamil_miklaszew na twitterze	o o b-username o o
-Twitter	FollowUser		o
 Twitter	FollowUser	śledź usiduspl na twitterze	o b-username o o
 Twitter	OpenTwitter	wyświetl moje posty na twitterze	o o o o o
 Twitter	OpenTwitter	wyświetl moje ostatnie tweety	o o o o
@@ -927,12 +926,12 @@ Yelp	SearchByRatingInLocation	restauracje w pobliżu z oceną co najmniej 4 w po
 Yelp	SearchByRatingInLocation	restauracje ocenione wyżej niż 5 gwiazdek na saska kępa	o o o o b-rating o o b-location i-location
 Yelp	SearchByReviewCount	restauracje w pobliżu ocenione przez co najmniej 100 osób	o o o o o o o b-review_count o
 Yelp	SearchByReviewCount	restauracje w pobliżu ocenione przez co najmniej 1000 użytkowników	o o o o o o o b-review_count o
-Yelp	SearchByReviewCount	restauracje w pobliżu ocenione przez więcej niż {REVIEW_COUNT:10000 osób	o o o o o o i- o
-Yelp	SearchByReviewCount	restauracje w pobliżu ocenione przez więcej niż {REVIEW_COUNT:100 użytkowników	o o o o o o i- o
+Yelp	SearchByReviewCount	restauracje w pobliżu ocenione przez więcej niż 10000 osób	o o o o o o i- o
+Yelp	SearchByReviewCount	restauracje w pobliżu ocenione przez więcej niż 100 użytkowników	o o o o o o i- o
 Yelp	SearchByReviewCount	restauracje w okolicy ocenione przez co najmniej 1000 osób	o o o o o o o b-review_count o
 Yelp	SearchByReviewCount	restauracje w okolicy ocenione przez co najmniej 10000 użytkowników	o o o o o o o b-review_count o
-Yelp	SearchByReviewCount	restauracje w okolicy ocenione przez więcej niż {REVIEW_COUNT:100 osób	o o o o o o i- o
-Yelp	SearchByReviewCount	restauracje w okolicy ocenione przez więcej niż {REVIEW_COUNT:1000 użytkowników	o o o o o o i- o
+Yelp	SearchByReviewCount	restauracje w okolicy ocenione przez więcej niż 100 osób	o o o o o o i- o
+Yelp	SearchByReviewCount	restauracje w okolicy ocenione przez więcej niż 1000 użytkowników	o o o o o o i- o
 Yelp	SearchByReviewCountInLocation	restauracje w okolicy śródmieście ocenione przez co najmniej 10000 osób	o o o b-location o o o o b-review_count o
 Yelp	SearchByReviewCountInLocation	restauracje w okolicy wola ocenione przez co najmniej 100 osób	o o o b-location o o o o b-review_count o
 Yelp	SearchByReviewCountInLocation	restauracje w pobliżu sopot ocenione przez co najmniej 1000 osób	o o o b-location o o o o b-review_count o

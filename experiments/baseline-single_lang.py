@@ -3,6 +3,8 @@
 
 This script, designed to be run on colab, will convert leyzer corpora to atis format and train
 3 baseline models.
+
+To convert this script to ipynb you can use https://pypi.org/project/ipynb-py-convert/.
 """
 
 !pip install nemo-nlp
@@ -14,26 +16,27 @@ This script, designed to be run on colab, will convert leyzer corpora to atis fo
 !git clone https://github.com/cartesinus/leyzer
 
 for lang in ["en-US", "es-ES", "pl-PL"]:
-    !mkdir data/baseline/"$lang"
+    lang_under = lang.replace('-', '_')
+    !mkdir -p data/baseline/"$lang"
     # create dictionary
-    !./scripts/convert-to-nemo.py --create_dictionary \
-        ../corpora/leyzer_dev-en_US-0.1.0.tsv \
-        ../corpora/leyzer_train-en_US-0.1.0.tsv --output data/baseline/"$lang"/
+    !../scripts/convert-to-nemo.py --create_dictionary \
+        ../corpora/leyzer_test-"$lang_under"-0.1.0.tsv \
+        ../corpora/leyzer_train-"$lang_under"-0.1.0.tsv --output data/baseline/"$lang"/
 
     # create trainset in atis format
-    !./convert-to-nemo.py --input ../corpora/leyzer_train-"$lang"-0.1.0.tsv \
+    !../scripts/convert-to-nemo.py --input ../corpora/leyzer_train-"$lang_under"-0.1.0.tsv \
         -n data/baseline/leyzer.dict.intent.csv \
         -t data/baseline/leyzer.dict.vocab.csv \
         -s data/baseline/leyzer.dict.slots.csv \
-        --part train
+        --part train \
         --output data/baseline/"$lang"/
 
     # create testset in atis format
-    !./convert-to-nemo.py --input ../corpora/leyzer_test-"$lang"-0.1.0.tsv \
+    !../scripts/convert-to-nemo.py --input ../corpora/leyzer_test-"$lang_under"-0.1.0.tsv \
         -n data/baseline/leyzer.dict.intent.csv \
         -t data/baseline/leyzer.dict.vocab.csv \
         -s data/baseline/leyzer.dict.slots.csv \
-        --part test
+        --part test \
         --output data/baseline/"$lang"/
 
     # train baseline
