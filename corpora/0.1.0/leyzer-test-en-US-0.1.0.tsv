@@ -1,0 +1,1031 @@
+domain	intent	utterance	bio
+Airconditioner	ChangeTemperature	change the minimum and maximum temperatures on my thermostat	o o o o o o o o o
+Airconditioner	ChangeTemperature	change the temperature on my thermostat	o o o o o o
+Airconditioner	GetHumidity	check the humidity	o o o
+Airconditioner	GetHumidity	check the humidity level	o o o o
+Airconditioner	GetHumidity	get the humidity	o o o
+Airconditioner	GetHumidity	get the humidity level	o o o o
+Airconditioner	GetHumidity	show the humidity	o o o
+Airconditioner	GetHumidity	show the humidity level	o o o o
+Airconditioner	GetTemperature	what temperature do I have in here according to my heating ?	o o o o o o o o o o b-av_alias o
+Airconditioner	GetTemperature	what temperature do we have in here according to my ac ?	o o o o o o o o o o b-av_alias o
+Airconditioner	GetTemperature	what temperature is it in here according to my aircon ?	o o o o o o o o o b-av_alias o
+Airconditioner	GetTemperatureFromDevice	check the temperature of the living room room temperature sensor	o o o o o b-device_name i-device_name o o o
+Airconditioner	GetTemperatureFromDevice	check what the kitchen home temperature sensor says	o o o b-device_name o o o o
+Airconditioner	GetTemperatureFromDevice	what does the hall indoor temperature sensor say ?	o o o b-device_name o o o o o
+Airconditioner	GetTemperatureFromDevice	what does the bedroom indoor temperature sensor show ?	o o o b-device_name o o o o o
+Airconditioner	SetTemperatureBetweenValues	set the low temperature to 23 degree on my thermostat , and the high to 29 degree	o o o o o o o o o o o o o o o o o
+Airconditioner	SetTemperatureBetweenValues	set the temperature between 23 degree and 29 degree on my thermostat	o o o o o o o o o o o o
+Airconditioner	SetTemperatureOnDevice	change the minimum and maximum temperatures on my living room thermostat	o o o o o o o o b-device_name i-device_name o
+Airconditioner	SetTemperatureOnDevice	change the temperature on my kitchen thermostat	o o o o o b-device_name o
+Airconditioner	SetTemperatureToValue	set set my thermostat to 78 degrees fahrenheit	o o o o o b-value i-value i-value
+Airconditioner	SetTemperatureToValue	set temperature on my thermostat to 79 degrees fahrenheit	o o o o o o b-value i-value i-value
+Airconditioner	SetTemperatureToValue	set the temperature to 25 degree on my thermostat	o o o o b-value i-value o o o
+Airconditioner	SetTemperatureToValueOnDevice	set my hall thermostat to 22 degrees celsius	o o b-device_name o o b-value i-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	set temperature on my bedroom thermostat to 24 degree	o o o o b-device_name o o b-value i-value
+Airconditioner	SetTemperatureToValueOnDevice	set the temperature to 80 degrees fahrenheit on my living room thermostat	o o o o b-value i-value i-value o o b-device_name i-device_name o
+Airconditioner	TurnOff	switch off the air conditioning	o o o b-av_alias i-av_alias
+Airconditioner	TurnOff	switch the cooling system off	o o b-av_alias i-av_alias o
+Airconditioner	TurnOff	turn the hvac off	o o b-av_alias o
+Airconditioner	TurnOn	switch on the heating	o o o b-av_alias
+Airconditioner	TurnOn	switch the ac on	o o b-av_alias o
+Airconditioner	TurnOn	turn the aircon on	o o b-av_alias o
+Calendar	CheckCalendarOnDate	whats on my schedule on thursday	o o o o b-date i-date
+Calendar	NotNotifyOnEventInLocation	do not notify me when an appointment on my calendar at location lab begins	o o o o o o o o o o o o b-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an event on my calendar at location home begins	o o o o o o o o o o o o b-location o
+Calendar	NotNotifyOnEventInLocation	do not notify me when an meeting on my calendar at location building b begins	o o o o o o o o o o o o b-location i-location o
+Calendar	NotNotifyOnEventStart	do not notify me when an appointment on my calendar begins	o o o o o o o o o o o
+Calendar	NotNotifyOnEventStart	do not notify me when an event on my calendar begins	o o o o o o o o o o o
+Calendar	NotNotifyOnEventStart	do not notify me when an meeting on my calendar begins	o o o o o o o o o o o
+Calendar	NotifyOnEventInLocation	notify me when an appointment on my calendar at location slack begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an event on my calendar at location work begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventInLocation	notify me when an meeting on my calendar at location facebook begins	o o o o o o o o o o b-location o
+Calendar	NotifyOnEventStart	notify me when an appointment on my calendar begins	o o o o o o o o o
+Calendar	NotifyOnEventStart	notify me when an event on my calendar begins	o o o o o o o o o
+Calendar	NotifyOnEventStart	notify me when an meeting on my calendar begins	o o o o o o o o o
+Calendar	OpenCalendar	display my calendar	o o o
+Calendar	OpenCalendar	open my calendar	o o o
+Calendar	OpenCalendar	show my calendar	o o o
+Contacts	EditContactWithName	edit my contact felicdad	o o o b-name
+Contacts	EditContactWithName	open my contact steven moses for edition	o o o b-name i-name o o
+Contacts	EditContactWithNumber	change the name of my contact with number +1 803 555 0121	o o o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	EditNumberInContactWithName	change the number of my contact ruby	o o o o o o b-name
+Contacts	EditNumberInContactWithNameToNumberAndToType	set the number 615 555 0179 in contact liu as home	o o o b-phone_number i-phone_number i-phone_number o o b-name o b-phone_type
+Contacts	OpenContacts	display my contacts	o o o
+Contacts	OpenContacts	open my contacts	o o o
+Contacts	OpenContacts	show my contacts	o o o
+Contacts	OpenMyContact	display my contact's info	o o o o
+Contacts	OpenMyContact	open my contact's info	o o o o
+Contacts	OpenMyContact	show my contact's info	o o o o
+Contacts	ShowContactWithEmail	display my contacts with email helsa@yahoo.com	o o o o o b-email
+Contacts	ShowContactWithEmail	display my google contacts with email adda.gurl@outlook.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	open my contacts with email jordan.dilisio@hotmail.com	o o o o o b-email
+Contacts	ShowContactWithEmail	open my google contacts with email claresta@schwab.com	o o o o o o b-email
+Contacts	ShowContactWithEmail	show my contacts with email candice@fqnet.com	o o o o o b-email
+Contacts	ShowContactWithEmail	show my google contacts with email adam.sagan@gmail.com	o o o o o o b-email
+Contacts	ShowContactWithName	display my contacts with name shay	o o o o o b-name
+Contacts	ShowContactWithName	open my contacts with name dyana	o o o o o b-name
+Contacts	ShowContactWithName	show my contacts with name matthews	o o o o o b-name
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it tressia and add the number 518 555 0188	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it pamelina and add the number +1 202 555 0175 as work	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it miquela and give it a number 615 555 0175	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it chastity and give it a number +1 803 555 0171 as private	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it hadria with a number +1 803 555 0199	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it sandie with a number +1 701 555 0194 as home	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it diane-marie with number 617 555 0135	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it william with number 803 555 0171 as work	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it gabie with the number +1 605 555 0184	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and call it beutler with the number 617 555 0112 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it quintina and add the number +1 202 555 0148	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it head and add the number +1 225 555 0136 as home	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it garrity and give it a number 202 555 0176	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it donna fulton and give it a number +1 225 555 0168 as work	o o o o o o o b-name i-name o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it jaf with a number +1 602 555 0111	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it sublett with a number +1 202 555 0142 as private	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it lezlie with number 512 555 0178	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it plantagenet with number +1 207 555 0128 as home	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it alix with the number 617 555 0108	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact and name it gabriell with the number 303 555 0129 as work	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name sagan and add the number +1 225 555 0164	o o o o o o o b-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name maureen mcvicker and add the number +1 602 555 0159 as private	o o o o o o o b-name i-name o o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name todd peikert and give it a number 803 555 0129	o o o o o o o b-name i-name o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name fiester and give it a number 602 555 0111 as home	o o o o o o o b-name o o o o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name susanetta with a number +1 512 555 0140	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name buerger with a number +1 202 555 0174 as work	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name dru with number +1 615 555 0103	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name mellisa with number 701 555 0168 as private	o o o o o o o b-name o o b-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name mollie with the number +1 605 555 0109	o o o o o o o b-name o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNameAndWithNumberAndWithType	create a new contact using a name holly bradford-nelson with the number +1 502 555 0156 as home	o o o o o o o b-name i-name o o o b-phone_number i-phone_number i-phone_number i-phone_number o b-phone_type
+Contacts	ShowContactWithNumber	display my contacts with phone number +1 605 555 0134	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	open my contacts with phone number +1 202 555 0106	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumber	show my contacts with phone number 202 555 0147	o o o o o o b-phone_number i-phone_number i-phone_number
+Contacts	ShowContactWithNumberAndWithEmail	display my contacts with phone number +1 202 555 0146 and email nessy@pacbell.net	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	open my contacts with phone number 605 555 0132 and email ivonne.jonie@outlook.com	o o o o o o b-phone_number i-phone_number i-phone_number o o b-email
+Contacts	ShowContactWithNumberAndWithEmail	show my contacts with phone number +1 207 555 0129 and email dredi.sankey@cts.com	o o o o o o b-phone_number i-phone_number i-phone_number i-phone_number o o b-email
+Email	OpenEmail	check email	o o
+Email	OpenEmail	check email inbox	o o o
+Email	OpenEmail	check gmail	o o
+Email	OpenEmail	check gmail inbox	o o o
+Email	OpenEmail	check my email	o o o
+Email	OpenEmail	check my email inbox	o o o o
+Email	OpenEmail	check my emails	o o o
+Email	OpenEmail	check my emails on gmail	o o o o o
+Email	OpenEmail	check my gmail	o o o
+Email	OpenEmail	check my gmail inbox	o o o o
+Email	OpenEmail	check my latest email	o o o o
+Email	OpenEmail	check my primary category emails	o o o o o
+Email	OpenEmail	get email	o o
+Email	OpenEmail	get email inbox	o o o
+Email	OpenEmail	get gmail	o o
+Email	OpenEmail	get gmail inbox	o o o
+Email	OpenEmail	get my email	o o o
+Email	OpenEmail	get my email inbox	o o o o
+Email	OpenEmail	get my emails	o o o
+Email	OpenEmail	get my emails on gmail	o o o o o
+Email	OpenEmail	get my gmail	o o o
+Email	OpenEmail	get my gmail inbox	o o o o
+Email	OpenEmail	get my latest email	o o o o
+Email	OpenEmail	get my primary category emails	o o o o o
+Email	ReplyToEmailFromAddress	reply to papagena@enron.com	o o b-to
+Email	SendEmail	send an email	o o o
+Email	SendEmail	send an email to somebody	o o o o o
+Email	SendEmailToAddress	email tally@houston.rr.com	o b-to
+Email	SendEmailToAddress	send an email to virginia@outlook.com using my gmail	o o o o b-to o o o
+Email	SendEmailToAddressWithSubjectAndWithMessage	email marron with subject offer and message hi, how are you?	o b-to o o b-subject o o b-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to cynar with subject greetings with message thank you for contacting john	o o o o b-to o o b-subject o o b-message i-message i-message i-message i-message
+Email	SendEmailToAddressWithSubjectAndWithMessage	send an email to manton with subject meeting with message thanks for getting back to me using my gmail	o o o o b-to o o b-subject o o b-message i-message i-message i-message i-message i-message o o o
+Email	ShowEmailFromSender	check emails from carrissa@texaco.com	o o o b-sender_address
+Email	ShowEmailFromSender	check emails i got from adiana.sarene@gmail.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check emails i received from paul.quilkey@enron.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails from janelle@outlook.com	o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i got from orella.samanthia@yahoo.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	check my emails i received from megen@yahoo.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails from wendy.whitworth@turner.com	o o o b-sender_address
+Email	ShowEmailFromSender	get emails i got from neda@outlook.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get emails i received from latia@gmail.com	o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails from clickathome@enron.com	o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i got from mersey@outlook.com	o o o o o o b-sender_address
+Email	ShowEmailFromSender	get my emails i received from willy@aol.com	o o o o o o b-sender_address
+Email	ShowEmailFromTime	get emails arrived in the last two hours	o o o b-time i-time i-time i-time i-time
+Email	ShowEmailFromTime	get emails that arrived on friday	o o o o b-time i-time
+Email	ShowEmailFromTime	show me emails arrived today	o o o o b-time
+Email	ShowEmailFromTime	show me emails that arrived in the last 30 minutes	o o o o o b-time i-time i-time i-time i-time
+Email	ShowEmailWithLabel	get my emails labelled offers	o o o o b-label
+Email	ShowEmailWithLabel	get my emails that have label later	o o o o o o b-label
+Email	ShowEmailWithLabel	get my emails with label books	o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails labelled notifications	o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails that have label ai	o o o o o o o b-label
+Email	ShowEmailWithLabel	show me my emails with label nlp	o o o o o o b-label
+Email	ShowEmailWithPriority	show me important emails	o o b-priority o
+Email	ShowEmailWithSubject	get my emails with subject information requests	o o o o o b-subject i-subject
+Email	ShowEmailWithSubject	show me my emails with subject the original advantage	o o o o o o b-subject i-subject i-subject
+Facebook	OpenFacebook	make a new facebook post	o o o o o
+Facebook	OpenFacebook	make a new post on facebook	o o o o o o
+Facebook	OpenFacebook	post something on facebook	o o o o
+Facebook	OpenFacebook	update my facebook status	o o o o
+Facebook	PostPicture	post a picture on facebook	o o o o o
+Facebook	PostPicture	post a picture on my facebook	o o o o o o
+Facebook	PostPicture	post a picture to facebook	o o o o o
+Facebook	PostPicture	post a picture to my facebook	o o o o o o
+Facebook	PostPicture	put a picture on facebook	o o o o o
+Facebook	PostPicture	put a picture on my facebook	o o o o o o
+Facebook	PostPicture	put a picture to facebook	o o o o o
+Facebook	PostPicture	put a picture to my facebook	o o o o o o
+Facebook	PostPicture	upload a picture on facebook	o o o o o
+Facebook	PostPicture	upload a picture on my facebook	o o o o o o
+Facebook	PostPicture	upload a picture to facebook	o o o o o
+Facebook	PostPicture	upload a picture to my facebook	o o o o o o
+Facebook	PostPictureWithCaption	post a picture on facebook with caption with my dad	o o o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithCaption	post a picture with caption with my dad on facebook	o o o o o b-caption i-caption i-caption o o
+Facebook	PostPictureWithCaption	upload a picture on facebook with caption with my dad	o o o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithCaption	upload a picture with caption with my dad on facebook	o o o o o b-caption i-caption i-caption o o
+Facebook	PostPictureWithUrl	post www.tinyurl.com/vmkgtf9 on facebook	o b-picture_url o o
+Facebook	PostPictureWithUrl	upload www.tinyurl.com/vmkgtf9 to facebook	o b-picture_url o o
+Facebook	PostPictureWithUrl	upload to facebook www.tinyurl.com/vmkgtf9	o o o b-picture_url
+Facebook	PostPictureWithUrlAndWithCaption	caption www.tinyurl.com/vmkgtf9 as with my dad and post it on facebook	o b-picture_url o b-caption i-caption i-caption o o o o o
+Facebook	PostPictureWithUrlAndWithCaption	caption www.tinyurl.com/vmkgtf9 as with my dad and upload it on facebook	o b-picture_url o b-caption i-caption i-caption o o o o o
+Facebook	PostPictureWithUrlAndWithCaption	post www.tinyurl.com/vmkgtf9 on facebook with caption with my dad	o b-picture_url o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	post www.tinyurl.com/vmkgtf9 on my facebook with caption with my dad	o b-picture_url o o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	put www.tinyurl.com/vmkgtf9 on facebook with caption with my dad	o b-picture_url o o o o b-caption i-caption i-caption
+Facebook	PostPictureWithUrlAndWithCaption	put www.tinyurl.com/vmkgtf9 on my facebook with caption with my dad	o b-picture_url o o o o o b-caption i-caption i-caption
+Facebook	PostStatus	make a new post containing so tired today on facebook	o o o o o b-status i-status i-status o o
+Facebook	PostStatus	make a new post that says calm morning with my dog and coffee on facebook	o o o o o o b-status i-status i-status i-status i-status i-status i-status o o
+Facebook	PostStatus	post i am so happy right now on facebook	o b-status i-status i-status i-status i-status i-status o o
+Facebook	PostStatus	post on facebook saying just bought two tickets to ibiza	o o o o b-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	post on facebook that so tired today	o o o o b-status i-status i-status
+Facebook	PostStatus	update my facebook page saying calm morning with my dog and coffee	o o o o o b-status i-status i-status i-status i-status i-status i-status
+Facebook	PostStatus	update my facebook status saying i am so happy right now	o o o o o b-status i-status i-status i-status i-status i-status
+Facebook	ShowAlbumWithName	diplay photos in album holidays	o o o o b-album
+Facebook	ShowAlbumWithName	diplay photos in album cats on facebook	o o o o b-album o o
+Facebook	ShowAlbumWithName	diplay photos in my album memes	o o o o o b-album
+Facebook	ShowAlbumWithName	diplay photos in my album holidays in jamaica on facebook	o o o o o b-album i-album i-album o o
+Facebook	ShowAlbumWithName	show photos in album barcelona	o o o o b-album
+Facebook	ShowAlbumWithName	show photos in album my love on facebook	o o o o b-album i-album o o
+Facebook	ShowAlbumWithName	show photos in my album holidays	o o o o o b-album
+Facebook	ShowAlbumWithName	show photos in my album cats on facebook	o o o o o b-album o o
+Fitbit	AddWeight	log my weight on fitbit	o o o o o
+Fitbit	AddWeight	make note of my weight on fitbit	o o o o o o o
+Fitbit	AddWeight	record my weight on fitbit	o o o o o
+Fitbit	NotifyOnWeight	notify me if my weight goes over 60 kg	o o o o o o o b-weight i-weight
+Fitbit	NotifyOnWeight	tell me if my weight goes over 80 kg	o o o o o o o b-weight i-weight
+Fitbit	ShowBMI	get my bmi from fitbit	o o o o o
+Fitbit	ShowBMI	get my body measurements from fitbit	o o o o o o
+Fitbit	ShowBMI	get my weight from fitbit	o o o o o
+Fitbit	ShowBMI	my bmi from fitbit	o o o o
+Fitbit	ShowBMI	my body measurements from fitbit	o o o o o
+Fitbit	ShowBMI	my weight from fitbit	o o o o
+Fitbit	ShowSteps	get my fitbit step count	o o o o o
+Fitbit	ShowSteps	get my steps from fitbit	o o o o o
+Fitbit	ShowSteps	get the count of steps from fitbit	o o o o o o o
+Fitbit	ShowSteps	get the fitbit pedometer	o o o o
+Fitbit	ShowSteps	get the fitbit step counter	o o o o o
+Fitbit	ShowSteps	get the number of steps from fitbit	o o o o o o o
+Fitbit	ShowSteps	get the number of steps i took	o o o o o o o
+Fitbit	ShowSteps	get the step count from fitbit	o o o o o o
+Fitbit	ShowSteps	get the steps i have taken	o o o o o o
+Fitbit	ShowSteps	my fitbit step count	o o o o
+Fitbit	ShowSteps	my steps from fitbit	o o o o
+Fitbit	ShowSteps	the count of steps from fitbit	o o o o o o
+Fitbit	ShowSteps	the fitbit pedometer	o o o
+Fitbit	ShowSteps	the fitbit step counter	o o o o
+Fitbit	ShowSteps	the number of steps from fitbit	o o o o o o
+Fitbit	ShowSteps	the number of steps i took	o o o o o o
+Fitbit	ShowSteps	the step count from fitbit	o o o o o
+Fitbit	ShowSteps	the steps i have taken	o o o o o
+Fitbit	ShowStepsOnDate	get my fitbit step count on 1st January	o o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	get my fitbit steps on 15.02.2020	o o o o o b-date
+Fitbit	ShowStepsOnDate	get the count of steps on 1st January from fitbit	o o o o o o b-date i-date o o
+Fitbit	ShowStepsOnDate	get the fitbit pedometer on 15.02.2020	o o o o o b-date
+Fitbit	ShowStepsOnDate	get the fitbit step counter on 1st January	o o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	get the number of steps from fitbit on 15.02.2020	o o o o o o o o b-date
+Fitbit	ShowStepsOnDate	get the number of steps i took on 1st January	o o o o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	get the step count on 15.02.2020 from fitbit	o o o o o b-date o o
+Fitbit	ShowStepsOnDate	get the steps i have taken on 1st January	o o o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	my fitbit step count on 15.02.2020	o o o o o b-date
+Fitbit	ShowStepsOnDate	my fitbit steps on 1st January	o o o o b-date i-date
+Fitbit	ShowStepsOnDate	the count of steps on 15.02.2020 from fitbit	o o o o o b-date o o
+Fitbit	ShowStepsOnDate	the fitbit pedometer on 1st January	o o o o b-date i-date
+Fitbit	ShowStepsOnDate	the fitbit step counter on 15.02.2020	o o o o o b-date
+Fitbit	ShowStepsOnDate	the number of steps from fitbit on 1st January	o o o o o o o b-date i-date
+Fitbit	ShowStepsOnDate	the number of steps i took on 15.02.2020	o o o o o o o b-date
+Fitbit	ShowStepsOnDate	the step count on 1st January from fitbit	o o o o b-date i-date o o
+Fitbit	ShowStepsOnDate	the steps i have taken on 15.02.2020	o o o o o o b-date
+Gdrive	CreateFile	create a file in google drive	o o o o o o
+Gdrive	CreateFile	create google drive file	o o o o
+Gdrive	CreateFileWithName	create a file in google drive named new file	o o o o o o o b-file_name i-file_name
+Gdrive	CreateFileWithName	create a new file with name invoice on google drive	o o o o o o b-file_name o o o
+Gdrive	OpenFileWithName	open my readme for edition in google drive	o o b-file_name o o o o o
+Gdrive	OpenGdrive	display my files in google drive	o o o o o o
+Gdrive	OpenGdrive	display my google drive files	o o o o o
+Gdrive	OpenGdrive	list my files in google drive	o o o o o o
+Gdrive	OpenGdrive	list my google drive files	o o o o o
+Gdrive	OpenGdrive	show my files in google drive	o o o o o o
+Gdrive	OpenGdrive	show my google drive files	o o o o o
+Gdrive	ShareFileWithNameToAddress	share my vegetarian recipies with mary.lou@gmail.com	o o b-file_name i-file_name o b-mail
+Gdrive	ShareFileWithNameToAddress	share my movies to see with hahaha09@hotmail.com and give a permission for edition	o o b-file_name i-file_name i-file_name o b-mail o o o o o o
+Gdrive	ShareFileWithNameToAddress	share my CV with sarah_odonnell@yahoo.com and give a permission for read and write	o o b-file_name o b-mail o o o o o o o o
+Gdrive	ShareFileWithNameToAddress	share my project 1 with selena.g@gmail.com and give a permission for reading	o o b-file_name i-file_name o b-mail o o o o o o
+Gdrive	ShowFilesFromTime	display my google drive files created this week	o o o o o o b-time i-time
+Gdrive	ShowFilesFromTime	display my google drive files modified this month	o o o o o o b-time i-time
+Gdrive	ShowFilesFromTime	list my google drive files created today	o o o o o o b-time
+Gdrive	ShowFilesFromTime	list my google drive files modified this week	o o o o o o b-time i-time
+Gdrive	ShowFilesFromTime	show my google drive files created this month	o o o o o o b-time i-time
+Gdrive	ShowFilesFromTime	show my google drive files modified today	o o o o o o b-time
+Gdrive	ShowFilesWithSize	display my google drive files larger than 1 mb	o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	display my google drive files smaller than 1 gigabyte	o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	list my google drive files larger than 500 kb	o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	list my google drive files smaller than 1 mb	o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	show my google drive files larger than 1 gigabyte	o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithSize	show my google drive files smaller than 500 kb	o o o o o o o b-file_size i-file_size
+Gdrive	ShowFilesWithStar	display my starred google drive files	o o o o o o
+Gdrive	ShowFilesWithStar	display the google drive files i starred	o o o o o o o
+Gdrive	ShowFilesWithStar	list my starred google drive files	o o o o o o
+Gdrive	ShowFilesWithStar	list the google drive files i starred	o o o o o o o
+Gdrive	ShowFilesWithStar	show my starred google drive files	o o o o o o
+Gdrive	ShowFilesWithStar	show the google drive files i starred	o o o o o o o
+Gdrive	ShowFilesWithType	display my mp3 files in google drive	o o b-mime_type o o o o
+Gdrive	ShowFilesWithType	display my google drive files of type txt	o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	list my jpeg files in google drive	o o b-mime_type o o o o
+Gdrive	ShowFilesWithType	list my google drive files of type mp3	o o o o o o o b-mime_type
+Gdrive	ShowFilesWithType	show my txt files in google drive	o o b-mime_type o o o o
+Gdrive	ShowFilesWithType	show my google drive files of type jpeg	o o o o o o o b-mime_type
+Gdrive	ShowOldestFiles	display my google drive files that were created most recently	o o o o o o o o o o
+Gdrive	ShowOldestFiles	display my newest google drive files	o o o o o o
+Gdrive	ShowOldestFiles	display my oldest google drive files	o o o o o o
+Gdrive	ShowOldestFiles	list my google drive files that were created most recently	o o o o o o o o o o
+Gdrive	ShowOldestFiles	list my newest google drive files	o o o o o o
+Gdrive	ShowOldestFiles	list my oldest google drive files	o o o o o o
+Gdrive	ShowOldestFiles	show my google drive files that were created most recently	o o o o o o o o o o
+Gdrive	ShowOldestFiles	show my newest google drive files	o o o o o o
+Gdrive	ShowOldestFiles	show my oldest google drive files	o o o o o o
+Gdrive	SortReverseAlphabetical	display my google drive files in alphabetical order	o o o o o o o o
+Gdrive	SortReverseAlphabetical	display my google drive files in reverse alphabetical order	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	list my google drive files in alphabetical order	o o o o o o o o
+Gdrive	SortReverseAlphabetical	list my google drive files in reverse alphabetical order	o o o o o o o o o
+Gdrive	SortReverseAlphabetical	show my google drive files in alphabetical order	o o o o o o o o
+Gdrive	SortReverseAlphabetical	show my google drive files in reverse alphabetical order	o o o o o o o o o
+Instagram	OpenInstagram	open instagram	o o
+Instagram	OpenInstagram	open my instagram	o o o
+Instagram	ShowLastNumberPictures	display my 2 latest instagram pictures	o o b-count o o o
+Instagram	ShowLastNumberPictures	display my 10 latest instagram pictures on my account	o o b-count o o o o o o
+Instagram	ShowLastNumberPictures	display my 2 recent instagram pictures	o o b-count o o o
+Instagram	ShowLastNumberPictures	display my 10 recent instagram pictures on my account	o o b-count o o o o o o
+Instagram	ShowLastNumberPictures	list my 2 latest instagram pictures	o o b-count o o o
+Instagram	ShowLastNumberPictures	list my 10 latest instagram pictures on my account	o o b-count o o o o o o
+Instagram	ShowLastNumberPictures	list my 2 recent instagram pictures	o o b-count o o o
+Instagram	ShowLastNumberPictures	list my 10 recent instagram pictures on my account	o o b-count o o o o o o
+Instagram	ShowLastNumberPictures	show me my 2 latest instagram pictures	o o o b-count o o o
+Instagram	ShowLastNumberPictures	show me my 10 latest instagram pictures on my account	o o o b-count o o o o o o
+Instagram	ShowLastNumberPictures	show me my 2 recent instagram pictures	o o o b-count o o o
+Instagram	ShowLastNumberPictures	show me my 10 recent instagram pictures on my account	o o o b-count o o o o o o
+Instagram	ShowLastNumberPictures	show my 2 latest instagram pictures	o o b-count o o o
+Instagram	ShowLastNumberPictures	show my 10 latest instagram pictures on my account	o o b-count o o o o o o
+Instagram	ShowLastNumberPictures	show my 2 recent instagram pictures	o o b-count o o o
+Instagram	ShowLastNumberPictures	show my 10 recent instagram pictures on my account	o o b-count o o o o o o
+Instagram	ShowPictures	display my instagram pictures	o o o o
+Instagram	ShowPictures	display my recent instagram pictures	o o o o o
+Instagram	ShowPictures	list my instagram pictures	o o o o
+Instagram	ShowPictures	list my recent instagram pictures	o o o o o
+Instagram	ShowPictures	show me my instagram pictures	o o o o o
+Instagram	ShowPictures	show me my recent instagram pictures	o o o o o o
+Instagram	ShowPictures	show my instagram pictures	o o o o
+Instagram	ShowPictures	show my recent instagram pictures	o o o o o
+Instagram	ShowPicturesFromDate	display my post from January	o o o o b-date_month
+Instagram	ShowPicturesFromDate	display my post from the 2nd of June	o o o o o b-date_day i-date_day i-date_day
+Instagram	ShowPicturesFromDate	display my posts from February	o o o o b-date_month
+Instagram	ShowPicturesFromDate	display my posts from the 3rd of May	o o o o o b-date_day i-date_day i-date_day
+Instagram	ShowPicturesFromDate	list my post from March	o o o o b-date_month
+Instagram	ShowPicturesFromDate	list my post from the 16 of July	o o o o o b-date_day i-date_day i-date_day
+Instagram	ShowPicturesFromDate	list my posts from April	o o o o b-date_month
+Instagram	ShowPicturesFromDate	list my posts from the 30th of June	o o o o o b-date_day i-date_day i-date_day
+Instagram	ShowPicturesFromDate	show me my post from May	o o o o o b-date_month
+Instagram	ShowPicturesFromDate	show me my post from the 12th of October	o o o o o o b-date_day i-date_day i-date_day
+Instagram	ShowPicturesFromDate	show me my posts from January	o o o o o b-date_month
+Instagram	ShowPicturesFromDate	show me my posts from the 20th of April	o o o o o o b-date_day i-date_day i-date_day
+Instagram	ShowPicturesFromDate	show my post from February	o o o o b-date_month
+Instagram	ShowPicturesFromDate	show my post from the 2nd of June	o o o o o b-date_day i-date_day i-date_day
+Instagram	ShowPicturesFromDate	show my posts from March	o o o o b-date_month
+Instagram	ShowPicturesFromDate	show my posts from the 3rd of May	o o o o o b-date_day i-date_day i-date_day
+Instagram	ShowPicturesWithFilter	display my instagram pictures that have the lark filter	o o o o o o o b-filter o
+Instagram	ShowPicturesWithFilter	display my instagram pictures that have the juno filter applied	o o o o o o o b-filter o o
+Instagram	ShowPicturesWithFilter	display my instagram pictures that use filter sierra	o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	display my instagram pictures with filter valencia	o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	list my instagram pictures that have the clarendon filter	o o o o o o o b-filter o
+Instagram	ShowPicturesWithFilter	list my instagram pictures that have the gingham filter applied	o o o o o o o b-filter o o
+Instagram	ShowPicturesWithFilter	list my instagram pictures that use filter crema	o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	list my instagram pictures with filter aden	o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	show me my instagram pictures that have the lark filter	o o o o o o o o b-filter o
+Instagram	ShowPicturesWithFilter	show me my instagram pictures that have the juno filter applied	o o o o o o o o b-filter o o
+Instagram	ShowPicturesWithFilter	show me my instagram pictures that use filter sierra	o o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	show me my instagram pictures with filter valencia	o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	show my instagram pictures that have the clarendon filter	o o o o o o o b-filter o
+Instagram	ShowPicturesWithFilter	show my instagram pictures that have the gingham filter applied	o o o o o o o b-filter o o
+Instagram	ShowPicturesWithFilter	show my instagram pictures that use filter crema	o o o o o o o b-filter
+Instagram	ShowPicturesWithFilter	show my instagram pictures with filter aden	o o o o o o b-filter
+Instagram	ShowPicturesWithHashtag	display my instagram pictures tagged fashionphoto	o o o o o b-hashtag
+Instagram	ShowPicturesWithHashtag	list my instagram pictures tagged instadog	o o o o o b-hashtag
+Instagram	ShowPicturesWithHashtag	show me my instagram pictures tagged resinjewelry	o o o o o o b-hashtag
+Instagram	ShowPicturesWithHashtag	show my instagram pictures tagged frenchie	o o o o o b-hashtag
+Instagram	ShowPicturesWithLocation	display my instagram pictures i took in berlin	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	display my instagram pictures i took when i was in new york	o o o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	display my instagram pictures tagged with location paris	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	display my instagram pictures taken in london	o o o o o o b-location
+Instagram	ShowPicturesWithLocation	display my instagram pictures taken when i was in corral	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	display my instagram pictures with geolocation tag hartly	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	display my instagram pictures with gps tag magalia	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	display my instagram pictures with location tag aldie	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	display the instagram pictures i took in woodland mills	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	display the instagram pictures i took when i was in martins ferry	o o o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	display the instagram pictures tagged with location hildreth	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	display the instagram pictures taken in madbury	o o o o o o b-location
+Instagram	ShowPicturesWithLocation	display the instagram pictures taken when i was in westland	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	display the instagram pictures with geolocation tag pine ridge	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	display the instagram pictures with gps tag revloc	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	display the instagram pictures with location tag mantachie	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	list my instagram pictures i took in still river	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	list my instagram pictures i took when i was in fontana dam	o o o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	list my instagram pictures tagged with location mount storm	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	list my instagram pictures taken in arona	o o o o o o b-location
+Instagram	ShowPicturesWithLocation	list my instagram pictures taken when i was in willisville	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	list my instagram pictures with geolocation tag ahmeek	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	list my instagram pictures with gps tag lovely	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	list my instagram pictures with location tag valley center	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	list the instagram pictures i took in white river junction	o o o o o o o b-location i-location i-location
+Instagram	ShowPicturesWithLocation	list the instagram pictures i took when i was in orgas	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	list the instagram pictures tagged with location cerrillos	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	list the instagram pictures taken in stoutsville	o o o o o o b-location
+Instagram	ShowPicturesWithLocation	list the instagram pictures taken when i was in douds	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	list the instagram pictures with geolocation tag aberdeen	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	list the instagram pictures with gps tag waynesboro	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	list the instagram pictures with location tag ellwood city	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	show me my instagram pictures i took in saddle river	o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	show me my instagram pictures i took when i was in killawog	o o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me my instagram pictures tagged with location shepherdstown	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me my instagram pictures taken in hettinger	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me my instagram pictures taken when i was in carlin	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me my instagram pictures with geolocation tag dows	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me my instagram pictures with gps tag buckeye lake	o o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	show me my instagram pictures with location tag brainardsville	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me the instagram pictures i took in chicago	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me the instagram pictures i took when i was in ellamore	o o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me the instagram pictures tagged with location cedarvale	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me the instagram pictures taken in welling	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me the instagram pictures taken when i was in tennga	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me the instagram pictures with geolocation tag sabetha	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me the instagram pictures with gps tag paicines	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show me the instagram pictures with location tag easley	o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show my instagram pictures i took in north tonawanda	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	show my instagram pictures i took when i was in islandia	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show my instagram pictures tagged with location dothan	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show my instagram pictures taken in pond creek	o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	show my instagram pictures taken when i was in yeaddiss	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show my instagram pictures with geolocation tag new freedom	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	show my instagram pictures with gps tag de graff	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	show my instagram pictures with location tag park valley	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	show the instagram pictures i took in iowa park	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	show the instagram pictures i took when i was in drytown	o o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show the instagram pictures tagged with location margate city	o o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	show the instagram pictures taken in sutter creek	o o o o o o b-location i-location
+Instagram	ShowPicturesWithLocation	show the instagram pictures taken when i was in taylorstown	o o o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show the instagram pictures with geolocation tag steen	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show the instagram pictures with gps tag elmwood	o o o o o o o b-location
+Instagram	ShowPicturesWithLocation	show the instagram pictures with location tag searsboro	o o o o o o o b-location
+News	NotifyWhenPortalUpdates	notify me when huffington post front page updates	o o o b-portal i-portal o o o
+News	NotifyWhenPortalUpdates	notify me when huffington news updates	o o o b-portal o o
+News	NotifyWhenPortalUpdatesInSection	notify me when the huffpost sport section publishes a new article	o o o o b-portal b-section o o o o o
+News	ShowNews	latest techcrunch news	o b-portal o
+News	ShowNews	latest news on new york times	o o o b-portal i-portal i-portal
+News	ShowNews	news on nyt	o o b-portal
+News	ShowNews	open ny times	o b-portal i-portal
+News	ShowNews	read wired	o b-portal
+News	ShowNews	show me news from time	o o o o b-portal
+News	ShowNews	show me the news from time magazine	o o o o o b-portal i-portal
+News	ShowNews	show news from fox news	o o o b-portal i-portal
+News	ShowNews	show the news from huffington post	o o o o b-portal i-portal
+News	ShowNewsFromSection	the huffington politics section	o b-portal b-section o
+News	ShowNewsFromSection	the tech section of the huffpost	o b-section o o o b-portal
+Phone	CallEmergency	call 911	o o
+Phone	CallEmergency	call ambulance	o o
+Phone	CallEmergency	call emergency services	o o o
+Phone	CallEmergency	call fire department	o o o
+Phone	CallEmergency	call police	o o
+Phone	SMSToContact	send a message to valli	o o o o b-to
+Phone	SMSToContact	send a sms to rhett	o o o o b-to
+Phone	SMSToContact	send a text to charo	o o o o b-to
+Phone	SMSToContact	text sonnie	o b-to
+Phone	SMSToContactWithMessage	send a message to anagnos containing call me	o o o o b-to o b-message i-message
+Phone	SMSToContactWithMessage	send a message to aurea saying we need to talk	o o o o b-to o b-message i-message i-message i-message
+Phone	SMSToContactWithMessage	send a text to jereme containing please answer	o o o o b-to o b-message i-message
+Phone	SMSToContactWithMessage	send a text to electra saying call me	o o o o b-to o b-message i-message
+Phone	SMSToContactWithMessage	send an sms message to felice containing we need to talk	o o o o o b-to o b-message i-message i-message i-message
+Phone	SMSToContactWithMessage	send an sms message to jasmin saying please answer	o o o o o b-to o b-message i-message
+Phone	SMSToContactWithMessage	send an sms to darryl containing call me	o o o o b-to o b-message i-message
+Phone	SMSToContactWithMessage	send an sms to jezebel saying we need to talk	o o o o b-to o b-message i-message i-message i-message
+Phone	SMSToContactWithMessage	sms goldfarb containing please answer	o b-to o b-message i-message
+Phone	SMSToContactWithMessage	sms leanna saying call me	o b-to o b-message i-message
+Phone	SMSToContactWithMessage	text malvie containing we need to talk	o b-to o b-message i-message i-message i-message
+Phone	SMSToContactWithMessage	text anjanette saying please answer	o b-to o b-message i-message
+Phone	ShowSMS	check my sms inbox	o o o o
+Phone	ShowSMS	display my sms inbox	o o o o
+Phone	ShowSMS	show my sms inbox	o o o o
+Slack	CheckLastMessages	check my last slack messages	o o o o o
+Slack	CheckLastMessages	check my slack channel history	o o o o o
+Slack	CheckLastMessages	get my last slack messages	o o o o o
+Slack	CheckLastMessages	get my slack channel history	o o o o o
+Slack	CheckMessagesFromUser	check messages i received on slack from mike	o o o o o o o b-sender
+Slack	CheckMessagesFromUser	check recent messages from barry in slack	o o o o b-sender o o
+Slack	CheckMessagesFromUser	get messages i received on slack from xorgan	o o o o o o o b-sender
+Slack	CheckMessagesFromUser	get recent messages from astrid in slack	o o o o b-sender o o
+Slack	CheckMessagesInChannel	check messages i received on slack in work	o o o o o o o b-channel
+Slack	CheckMessagesInChannel	check recent slack messages in party	o o o o o b-channel
+Slack	CheckMessagesInChannel	check slack messages in river i received in the last hour	o o o o b-channel o o o o o o
+Slack	CheckMessagesInChannel	get messages i received on slack in my fellas	o o o o o o o b-channel i-channel
+Slack	CheckMessagesInChannel	get recent slack messages in jogging	o o o o o b-channel
+Slack	CheckMessagesInChannel	get slack messages in class for physics i received in the last hour	o o o o b-channel i-channel i-channel o o o o o o
+Slack	OpenSlack	open slack	o o
+Slack	SendMessage	post a message on slack	o o o o o
+Slack	SendMessage	post on slack	o o o
+Slack	SendMessage	send a message on slack	o o o o o
+Slack	SendMessage	send on slack	o o o
+Slack	SendMessage	upload a message on slack	o o o o o
+Slack	SendMessage	upload on slack	o o o
+Slack	SendMessageToChannel	let slack channel transportation know that are we providing testimony to the contrary  ?	o o o b-channel o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	message timeline on slack saying by carrie peyton dale kasler and john hill	o b-channel o o o b-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	post start talks with venture capital firms in other to fundamentally on slack	o b-message i-message i-message i-message i-message i-message i-message i-message o b-channel o o
+Slack	SendMessageToChannel	post a message on slack to memorandum saying to sell to california during shortages	o o o o o o b-channel o b-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	send been a little out of the loop lately to possibilities on slack	o b-message i-message i-message i-message i-message i-message i-message i-message o b-channel o o
+Slack	SendMessageToChannel	send a message on slack to steps saying prices at which it will buy and sell electricity	o o o o o o b-channel o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
+Slack	SendMessageToChannel	upload for incumbent carriers the fund will invest between to kobra on slack	o b-message i-message i-message i-message i-message i-message i-message i-message o b-channel o o
+Slack	SendMessageToChannel	upload a message on slack to helicopters saying release its conclusions on dabhol today	o o o o o o b-channel o b-message i-message i-message i-message i-message i-message i-message
+Slack	SendPictureToChannel	post a picture on slack to porter	o o o o o o b-channel
+Slack	SendPictureToChannel	post on slack channel services	o o o o b-channel
+Slack	SendPictureToChannel	post on slack to speculate	o o o o b-channel
+Slack	SendPictureToChannel	send a picture on slack to teamsters	o o o o o o b-channel
+Slack	SendPictureToChannel	send something to slack channel baking	o o o o o b-channel
+Slack	SendPictureToChannel	upload a picture on slack to featuring	o o o o o o b-channel
+Slack	SendPictureToChannel	upload a picture to slack channel citibank	o o o o o o b-channel
+Slack	SendPictureToChannelWithCaption	post a picture on slack to sellers with caption funny	o o o o o o b-channel o o b-caption
+Slack	SendPictureToChannelWithCaption	post a picture to slack channel megawatts with caption 24 hours until exam	o o o o o o b-channel o o b-caption i-caption i-caption i-caption
+Slack	SendPictureToChannelWithCaption	send a picture on slack to confidentially with caption minal	o o o o o o b-channel o o b-caption
+Slack	SendPictureToChannelWithCaption	send a picture to slack channel costs with caption arkansas	o o o o o o b-channel o o b-caption
+Slack	SendPictureToChannelWithCaption	upload a picture on slack to trader with caption decision	o o o o o o b-channel o o b-caption
+Slack	SendPictureToChannelWithCaption	upload a picture to slack channel editorial with caption crash	o o o o o o b-channel o o b-caption
+Slack	SendPictureWithUrlToChannel	post shorturl.at/C71eDmb to network on slack	o b-picture_url o b-channel o o
+Slack	SendPictureWithUrlToChannel	post shorturl.at/1UPJJUw to slack channel concerned	o b-picture_url o o o b-channel
+Slack	SendPictureWithUrlToChannel	send bit.ly/5RTHNrw to grocery on slack	o b-picture_url o b-channel o o
+Slack	SendPictureWithUrlToChannel	upload bit.ly/wQ9fQMD to work on slack	o b-picture_url o b-channel o o
+Slack	SetPurposeOnChannel	set the purpose for channel party to decisions on slack	o o o o o b-channel o b-purpose o o
+Slack	SetPurposeOnChannel	set the purpose for slack channel river to bug fix	o o o o o o b-channel o b-purpose i-purpose
+Slack	SetStatusAway	mark me as away on slack	o o o o o o
+Slack	SetStatusAway	mark me as not away on slack	o o o o o o o
+Slack	SetStatusAway	set me as away on slack	o o o o o o
+Slack	SetStatusAway	set me as not away on slack	o o o o o o o
+Slack	SetTopicInChannel	set the topic for channel my fellas to mona birthday on slack	o o o o o b-channel i-channel o b-topic i-topic o o
+Slack	SetTopicInChannel	set the topic of slack channel jogging to party	o o o o o o b-channel o b-topic
+Speaker	DecreaseVolume	decrease my speaker 's volume	o o o o o
+Speaker	DecreaseVolume	decrease speaker 's volume	o o o o
+Speaker	DecreaseVolume	decrease the volume of my speaker	o o o o o o
+Speaker	DecreaseVolume	decrease the volume of speaker	o o o o o
+Speaker	DecreaseVolume	decrease volume of my speaker	o o o o o
+Speaker	DecreaseVolume	decrease volume of speaker	o o o o
+Speaker	DecreaseVolume	reduce my speaker 's volume	o o o o o
+Speaker	DecreaseVolume	reduce speaker 's volume	o o o o
+Speaker	DecreaseVolume	reduce the volume of my speaker	o o o o o o
+Speaker	DecreaseVolume	reduce the volume of speaker	o o o o o
+Speaker	DecreaseVolume	reduce volume of my speaker	o o o o o
+Speaker	DecreaseVolume	reduce volume of speaker	o o o o
+Speaker	IncreaseVolume	increase my speaker 's volume	o o o o o
+Speaker	IncreaseVolume	increase the volume of the speaker	o o o o o o
+Speaker	IncreaseVolume	make my speaker louder	o o o o
+Speaker	IncreaseVolume	make the speaker louder	o o o o
+Speaker	MuteOff	unmute my speaker	o o o
+Speaker	MuteOff	unmute speaker	o o
+Speaker	MuteOff	unmute the speaker	o o o
+Speaker	MuteOn	mute my speaker	o o o
+Speaker	MuteOn	mute speaker	o o
+Speaker	MuteOn	mute the speaker	o o o
+Speaker	MuteOn	silence my speaker	o o o
+Speaker	MuteOn	silence speaker	o o
+Speaker	MuteOn	silence the speaker	o o o
+Speaker	TurnOnOrOff	help me switch on my speaker	o o o b-power o o
+Speaker	TurnOnOrOff	help me switch off the speaker	o o o b-power o o
+Speaker	TurnOnOrOff	help me turn on my speaker	o o o b-power o o
+Speaker	TurnOnOrOff	help me turn off the speaker	o o o b-power o o
+Speaker	TurnOnOrOff	switch on my speaker	o b-power o o
+Speaker	TurnOnOrOff	switch off my speaker for me	o b-power o o o o
+Speaker	TurnOnOrOff	switch on the speaker	o b-power o o
+Speaker	TurnOnOrOff	switch off the speaker for me	o b-power o o o o
+Speaker	TurnOnOrOff	turn on my speaker	o b-power o o
+Speaker	TurnOnOrOff	turn off my speaker for me	o b-power o o o o
+Speaker	TurnOnOrOff	turn on the speaker	o b-power o o
+Speaker	TurnOnOrOff	turn off the speaker for me	o b-power o o o o
+Spotify	NextSong	play next song	o o o
+Spotify	NextSong	play next song on spotify	o o o o o
+Spotify	NextSong	play next track	o o o
+Spotify	NextSong	play next track on spotify	o o o o o
+Spotify	NextSong	skip than song	o o o
+Spotify	NextSong	skip than song on spotify	o o o o o
+Spotify	NextSong	skip than track	o o o
+Spotify	NextSong	skip than track on spotify	o o o o o
+Spotify	NextSong	skip this song	o o o
+Spotify	NextSong	skip this song on spotify	o o o o o
+Spotify	NextSong	skip this track	o o o
+Spotify	NextSong	skip this track on spotify	o o o o o
+Spotify	OpenSpotify	open spotify	o o
+Spotify	OpenSpotify	open spotify and play some music	o o o o o o
+Spotify	OpenSpotify	open spotify to play some music	o o o o o o
+Spotify	OpenSpotify	play some music on spotify	o o o o o
+Spotify	OpenSpotify	use spotify	o o
+Spotify	OpenSpotify	use spotify and play some music	o o o o o o
+Spotify	OpenSpotify	use spotify to play some music	o o o o o o
+Spotify	Pause	pause my spotify	o o o
+Spotify	Pause	pause spotify	o o
+Spotify	Pause	pause that song	o o o
+Spotify	Pause	pause that track	o o o
+Spotify	Pause	pause this song	o o o
+Spotify	Pause	pause this track	o o o
+Spotify	Pause	play my spotify	o o o
+Spotify	Pause	play spotify	o o
+Spotify	Pause	play that song	o o o
+Spotify	Pause	play that track	o o o
+Spotify	Pause	play this song	o o o
+Spotify	Pause	play this track	o o o
+Spotify	Pause	repeat my spotify	o o o
+Spotify	Pause	repeat spotify	o o
+Spotify	Pause	repeat that song	o o o
+Spotify	Pause	repeat that track	o o o
+Spotify	Pause	repeat this song	o o o
+Spotify	Pause	repeat this track	o o o
+Spotify	Pause	resume my spotify	o o o
+Spotify	Pause	resume spotify	o o
+Spotify	Pause	resume that song	o o o
+Spotify	Pause	resume that track	o o o
+Spotify	Pause	resume this song	o o o
+Spotify	Pause	resume this track	o o o
+Spotify	PlayAlbumOfTypeByArtist	on spotify play this is how you smile stamina by angel olsen	o o o b-album i-album i-album i-album i-album b-album o b-artist i-artist
+Spotify	PlayAlbumOfTypeByArtist	play anima by lightning bolt	o b-album o b-artist i-artist
+Spotify	PlayAlbumOfTypeByArtist	play first taste by boy harsher on spotify	o b-album i-album o b-artist i-artist o o
+Spotify	PlayAlbumOfTypeByArtist	play a of the sun norman fucking rockwell by metronomy	o o b-album i-album i-album b-album i-album i-album o b-artist
+Spotify	PlayAlbumOfTypeByArtist	play a igor autoclave by fennesz on spotify	o o b-album b-album o b-artist o o
+Spotify	PlayAlbumOfTypeByArtist	play the year one demos black friday by tool	o o b-album i-album i-album b-album i-album o b-artist
+Spotify	PlayAlbumOfTypeByArtist	play the agora 1000 gecs by alex cameron on spotify	o o b-album b-album i-album o b-artist i-artist o o
+Spotify	PlaySong	on spotify play missing	o o o b-song
+Spotify	PlaySong	play body	o b-song
+Spotify	PlaySong	play wake up next to god on spotify	o b-song i-song i-song i-song i-song o o
+Spotify	PlaySongByArtist	on spotify play got you by slow thai	o o o b-song i-song o b-artist i-artist
+Spotify	PlaySongByArtist	play what is she waring by shellac	o b-song i-song i-song i-song o b-artist
+Spotify	PlaySongByArtist	play the city of roses by xiu xiu on spotify	o b-song i-song i-song i-song o b-artist i-artist o o
+Spotify	PreviousSong	go back	o o
+Spotify	PreviousSong	go back to the last song	o o o o o o
+Spotify	PreviousSong	go back to the last track	o o o o o o
+Translate	DetectLanguage	detect language of TRANSLATE.SLOT.TEXT.MULTI	o o o o
+Translate	DetectLanguage	detect language of TRANSLATE.SLOT.TEXT.MULTI is written in	o o o o o o o
+Translate	DetectLanguage	detect the language of TRANSLATE.SLOT.TEXT.MULTI	o o o o o
+Translate	DetectLanguage	detect the language of TRANSLATE.SLOT.TEXT.MULTI is written in	o o o o o o o o
+Translate	DetectLanguage	detect what language TRANSLATE.SLOT.TEXT.MULTI	o o o o
+Translate	DetectLanguage	detect what language TRANSLATE.SLOT.TEXT.MULTI is written in	o o o o o o o
+Translate	DetectLanguage	language of TRANSLATE.SLOT.TEXT.MULTI	o o o
+Translate	DetectLanguage	language of TRANSLATE.SLOT.TEXT.MULTI is written in	o o o o o o
+Translate	DetectLanguage	the language of TRANSLATE.SLOT.TEXT.MULTI	o o o o
+Translate	DetectLanguage	the language of TRANSLATE.SLOT.TEXT.MULTI is written in	o o o o o o o
+Translate	SetDefaultLanguage	change default language to italian	o o o o b-all_lang
+Translate	SetDefaultLanguage	change default output language to french	o o o o o b-all_lang
+Translate	SetDefaultLanguage	change default translation language to english	o o o o o b-all_lang
+Translate	SetDefaultLanguage	change language to japanease	o o o b-all_lang
+Translate	SetDefaultLanguage	change output language to russian	o o o o b-all_lang
+Translate	SetDefaultLanguage	change translation language to polish	o o o o b-all_lang
+Translate	SetDefaultLanguage	set default language to german	o o o o b-all_lang
+Translate	SetDefaultLanguage	set default output language to spanish	o o o o o b-all_lang
+Translate	SetDefaultLanguage	set default translation language to thai	o o o o o b-all_lang
+Translate	SetDefaultLanguage	set language to czech	o o o b-all_lang
+Translate	SetDefaultLanguage	set output language to finnish	o o o o b-all_lang
+Translate	SetDefaultLanguage	set translation language to esperanto	o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	change default input language to turkish	o o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	change default source language to greek	o o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	change input language to mongolian	o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	change source language to hawaiian	o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	set default input language to hindi	o o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	set default source language to icelandic	o o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	set input language to italian	o o o o b-all_lang
+Translate	SetDefaultLanguageToLanguage	set source language to french	o o o o b-all_lang
+Translate	TranslateText	how do i say TRANSLATE.SLOT.TEXT.EN	o o o o o
+Translate	TranslateText	how do i translate TRANSLATE.SLOT.TEXT.EN	o o o o o
+Translate	TranslateText	how do you say TRANSLATE.SLOT.TEXT.EN	o o o o o
+Translate	TranslateText	how do you translate TRANSLATE.SLOT.TEXT.EN	o o o o o
+Translate	TranslateText	the translation of TRANSLATE.SLOT.TEXT.EN	o o o o
+Translate	TranslateText	translate TRANSLATE.SLOT.TEXT.EN	o o
+Translate	TranslateText	translation of TRANSLATE.SLOT.TEXT.EN	o o o
+Translate	TranslateText	what is the translation of TRANSLATE.SLOT.TEXT.EN	o o o o o o
+Twitter	FollowUser	be a twitter follower of amilee110	o o o o o b-username
+Twitter	FollowUser	become a follower of emilyclaiborne on twitter	o o o o b-username o o
+Twitter	FollowUser	become a twitter follower of kmore	o o o o o b-username
+Twitter	FollowUser	follow myntmag on twitter	o b-username o o
+Twitter	OpenTwitter	display my posts on twitter	o o o o o
+Twitter	OpenTwitter	display my recent tweets	o o o o
+Twitter	OpenTwitter	display my tweets	o o o
+Twitter	OpenTwitter	display tweets i made	o o o o
+Twitter	OpenTwitter	show my posts on twitter	o o o o o
+Twitter	OpenTwitter	show my recent tweets	o o o o
+Twitter	OpenTwitter	show my tweets	o o o
+Twitter	OpenTwitter	show tweets i made	o o o o
+Twitter	SendMessage	direct message on twitter saying think of me think of me fondly	o o o o o b-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	dm on twitter saying tom hanks is on tomorrow sweet	o o o o b-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	message on twitter saying will tweet later peace	o o o o b-message i-message i-message i-message
+Twitter	SendMessage	send a direct message on twitter saying waiting on that chat link	o o o o o o o b-message i-message i-message i-message i-message
+Twitter	SendMessage	send a dm on twitter saying i just failed my biology final	o o o o o o b-message i-message i-message i-message i-message i-message
+Twitter	SendMessage	send a message on twitter saying ob in class last day of it	o o o o o o b-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	direct message on twitter to mikieee182 saying sleep over with coco pheobe merideth and genivive	o o o o o b-username o b-message i-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	dm on twitter to dirtysouth777 saying is off to burrs todayy	o o o o b-username o b-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	message on twitter to ohsnapitscatie saying i lost two followers	o o o o b-username o b-message i-message i-message i-message
+Twitter	SendMessageToUser	send a direct message on twitter to chunkyface saying for me to be so tired	o o o o o o o b-username o b-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	send a dm on twitter to jonradical saying outside readinghopefully i don't get burned again	o o o o o o b-username o b-message i-message i-message i-message i-message i-message i-message
+Twitter	SendMessageToUser	send a message on twitter to renelae saying its been raining like all month	o o o o o o b-username o b-message i-message i-message i-message i-message i-message
+Twitter	ShowTwittsWithHashtag	display tweets about salsa4change	o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	display tweets about weather on twitter	o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	display tweets with hashtag pentax	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	display tweets with hashtag farrahfawcettrip on twitter	o o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	find tweets about stumble	o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	find tweets about bcleed09 on twitter	o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	find tweets with hashtag qgoogle	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	find tweets with hashtag dublinbus on twitter	o o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	show tweets about jugglecon	o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	show tweets about fastfood on twitter	o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	show tweets with hashtag masheu09	o o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	show tweets with hashtag backgroundimage on twitter	o o o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	tweets about gopensgo	o o b-hashtag
+Twitter	ShowTwittsWithHashtag	tweets about pcatl on twitter	o o b-hashtag o o
+Twitter	ShowTwittsWithHashtag	tweets with hashtag su2c	o o o b-hashtag
+Twitter	ShowTwittsWithHashtag	tweets with hashtag rbleipzig on twitter	o o o b-hashtag o o
+Twitter	UnfollowUser	stop following muertenthesnw on twitter	o o b-username o o
+Twitter	UnfollowUser	unfollow luvmyrandomness on twitter	o b-username o o
+Weather	MoonphaseInLocation	moon phase for berlin	o o o b-location
+Weather	MoonphaseInLocation	moon phase for location paris	o o o o b-location
+Weather	MoonphaseInLocationOnDate	moon phase for tokyo on date 30 january	o o o b-location o o b-date i-date
+Weather	MoonphaseInLocationOnDate	moon phase for location warsaw on date 15 june	o o o o b-location o o b-date i-date
+Weather	OpenWeather	the weather	o o
+Weather	OpenWeather	the weather outside	o o o
+Weather	OpenWeather	what's the weather	o o o
+Weather	OpenWeather	what's the weather like	o o o o
+Weather	OpenWeather	what's the weather like outside	o o o o o
+Weather	OpenWeather	what's the weather outside	o o o o
+Weather	SunriseAndSunsetInLocation	sunrise and sunset for location new york	o o o o o b-location i-location
+Weather	SunriseAndSunsetInLocation	sunrise and sunset times at dubai	o o o o o b-location
+Weather	SunriseAndSunsetInLocationAndOnDate	sunrise and sunset for location seul on date 7 september	o o o o o b-location o o b-date i-date
+Weather	SunriseAndSunsetInLocationAndOnDate	sunrise and sunset times at dakar on date 30 january	o o o o o b-location o o b-date i-date
+Weather	SunriseInLocation	sunrise at barnsdall	o o b-location
+Weather	SunriseInLocation	sunrise time at summit	o o o b-location
+Weather	SunriseInLocation	when is sunrise at ringsted	o o o o b-location
+Weather	SunriseInLocation	when is sunrise time at nixon	o o o o o b-location
+Weather	SunsetInLocation	sunset at sussex	o o b-location
+Weather	SunsetInLocation	sunset time at saint robert	o o o b-location i-location
+Weather	SunsetInLocation	when is sunset at east berkshire	o o o o b-location i-location
+Weather	SunsetInLocation	when is sunset time at toyah	o o o o o b-location
+Weather	WeatherInLocation	current weather at shawano	o o o b-location
+Weather	WeatherInLocation	current weather in terrace park	o o o b-location i-location
+Weather	WeatherInLocation	the current weather at rockhouse	o o o o b-location
+Weather	WeatherInLocation	the current weather in south international falls	o o o o b-location i-location i-location
+Weather	WeatherInLocation	the weather at fairlee	o o o b-location
+Weather	WeatherInLocation	the weather in erin	o o o b-location
+Weather	WeatherInLocation	weather at jayess	o o b-location
+Weather	WeatherInLocation	weather in east fultonham	o o b-location i-location
+Weather	WeatherInLocation	what is the wather in dos rios	o o o o o b-location i-location
+Weather	WeatherInLocation	what is the wather like in beaman	o o o o o o b-location
+Weather	WeatherTomorrow	tomorrow weather	o o
+Weather	WeatherTomorrow	weather tomorrow	o o
+Weather	WeatherTomorrow	what's the weather tommorow	o o o o
+Weather	WeatherTomorrow	what's the weather tommorow like	o o o o o
+Weather	WeatherTomorrowInLocation	current weather at copalis crossing tomorrow	o o o b-location i-location o
+Weather	WeatherTomorrowInLocation	current weather in kraemer tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	the current weather at michael tomorrow	o o o o b-location o
+Weather	WeatherTomorrowInLocation	the current weather in mount orab tomorrow	o o o o b-location i-location o
+Weather	WeatherTomorrowInLocation	the weather at index tomorrow	o o o b-location o
+Weather	WeatherTomorrowInLocation	the weather in center moriches tomorrow	o o o b-location i-location o
+Weather	WeatherTomorrowInLocation	weather at gerton tomorrow	o o b-location o
+Weather	WeatherTomorrowInLocation	weather in midland city tomorrow	o o b-location i-location o
+Weather	WeatherTomorrowInLocation	what is the wather in jonas ridge tomorrow	o o o o o b-location i-location o
+Weather	WeatherTomorrowInLocation	what is the wather like in round rock tomorrow	o o o o o o b-location i-location o
+Websearch	OpenEngine	google search	o o
+Websearch	OpenEngine	search on bing	o o o
+Websearch	OpenEngine	search on duckduckgo	o o o
+Websearch	OpenEngine	search on google	o o o
+Websearch	OpenEngine	web search	o o
+Websearch	SearchImagesOnEngine	google image search	o o o
+Websearch	SearchImagesOnEngine	image search	o o
+Websearch	SearchImagesOnEngine	search images on bing	o o o o
+Websearch	SearchImagesOnEngine	search images on duckduckgo	o o o o
+Websearch	SearchImagesOnEngine	search images on google	o o o o
+Websearch	SearchImagesWithTextOnEngine	samsung galaxy s5 images on bing	b-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	iphone 6 images on duckduckgo	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	joker images images on google	b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngine	images matching mike trout from bing	o o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching adele weight loss from duckduckgo	o o b-img_query i-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngine	images matching atari breakout from google	o o b-img_query i-img_query o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	images from bing matching heisenberg with size 800 x 600	o o o o b-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	images from duckduckgo matching nintendo switch with size 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	images from google matching wallpaper free fire with size 800 x 600	o o o o b-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching earl sweatshirt larger than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching trippy drawings larger than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching 2020 quotes smaller than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching cats smaller than 800 x 600	o o o o b-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching slope formula taller than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching qr code taller than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching kd shoes wider than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from bing matching 50 shades of grey wider than 800 x 600	o o o o b-img_query i-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching cute drawings larger than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching running meme larger than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching pizza hut menu smaller than 800	o o o o b-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching munchkin cat smaller than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching joker wallpaper taller than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching fluttershy taller than 800 x 600	o o o o b-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching multiplication chart wider than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from duckduckgo matching nikki bella wider than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching love quotes for him larger than 800	o o o o b-img_query i-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching nike free run larger than 800 x 600	o o o o b-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching burito hat smaller than 800	o o o o b-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching old songs smaller than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching random drawing generator taller than 800	o o o o b-img_query i-img_query i-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching black hole image taller than 800 x 600	o o o o b-img_query i-img_query i-img_query o o o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching nebulae wider than 800	o o o o b-img_query o o o
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	images from google matching gordon ramsay wider than 800 x 600	o o o o b-img_query i-img_query o o o o o
+Websearch	SearchText	pages matching progress book	o o b-txt_query i-txt_query
+Websearch	SearchText	web sites matching skype-a-thon	o o o b-txt_query
+Websearch	SearchText	websites matching jamf eau claire wi	o o b-txt_query i-txt_query i-txt_query i-txt_query
+Websearch	SearchTextOnEngine	mla on bing	b-txt_query o o
+Websearch	SearchTextOnEngine	cargo on duckduckgo	b-txt_query o o
+Websearch	SearchTextOnEngine	hair on google	b-txt_query o o
+Websearch	SearchTextOnEngine	google google docs	o b-txt_query i-txt_query
+Wikipedia	ChangeLanguageToLanguage	change language of this article to arabic	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this article to chinese	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this article to english	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this article to french	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this article to german	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this article to italian	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this article to polish	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this article to portuguese	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this article to russian	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this article to spanish	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this article to ukrainian	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this page to arabic	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this page to chinese	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this page to english	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this page to french	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this page to german	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this page to italian	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this page to polish	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this page to portuguese	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this page to russian	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this page to spanish	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language of this page to ukrainian	o o o o o o o
+Wikipedia	ChangeLanguageToLanguage	change language to arabic	o o o o
+Wikipedia	ChangeLanguageToLanguage	change language to chinese	o o o o
+Wikipedia	ChangeLanguageToLanguage	change language to english	o o o o
+Wikipedia	ChangeLanguageToLanguage	change language to french	o o o o
+Wikipedia	ChangeLanguageToLanguage	change language to german	o o o o
+Wikipedia	ChangeLanguageToLanguage	change language to italian	o o o o
+Wikipedia	ChangeLanguageToLanguage	change language to polish	o o o o
+Wikipedia	ChangeLanguageToLanguage	change language to portuguese	o o o o
+Wikipedia	ChangeLanguageToLanguage	change language to russian	o o o o
+Wikipedia	ChangeLanguageToLanguage	change language to spanish	o o o o
+Wikipedia	ChangeLanguageToLanguage	change language to ukrainian	o o o o
+Wikipedia	ChangeLanguageToLanguage	show this article in arabic	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this article in chinese	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this article in english	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this article in french	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this article in german	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this article in italian	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this article in polish	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this article in portuguese	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this article in russian	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this article in spanish	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this article in ukrainian	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this page in arabic	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this page in chinese	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this page in english	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this page in french	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this page in german	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this page in italian	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this page in polish	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this page in portuguese	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this page in russian	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this page in spanish	o o o o o
+Wikipedia	ChangeLanguageToLanguage	show this page in ukrainian	o o o o o
+Wikipedia	DownloadAsPdf	download article as pdf	o o o o
+Wikipedia	DownloadAsPdf	download page as pdf	o o o o
+Wikipedia	DownloadAsPdf	download that article as pdf	o o o o o
+Wikipedia	DownloadAsPdf	download that page as pdf	o o o o o
+Wikipedia	DownloadAsPdf	download this article as pdf	o o o o o
+Wikipedia	DownloadAsPdf	download this page as pdf	o o o o o
+Wikipedia	GoToElementNumber	go to tenth element from contents	o o o o o o
+Wikipedia	GoToElementNumber	go to tenth element in contents	o o o o o o
+Wikipedia	GoToElementNumber	go to tenth item from contents	o o o o o o
+Wikipedia	GoToElementNumber	go to tenth item in contents	o o o o o o
+Wikipedia	GoToElementNumber	go to third element from contents	o o o o o o
+Wikipedia	GoToElementNumber	go to third element in contents	o o o o o o
+Wikipedia	GoToElementNumber	go to third item from contents	o o o o o o
+Wikipedia	GoToElementNumber	go to third item in contents	o o o o o o
+Wikipedia	OpenWikipedia	open wikipedia	o o
+Wikipedia	OpenWikipedia	open wikipedia definition	o o o
+Wikipedia	OpenWikipedia	open wikipedia pages	o o o
+Wikipedia	RandomPage	random article	o o
+Wikipedia	RandomPage	random page	o o
+Wikipedia	RandomPage	show random article	o o o
+Wikipedia	RandomPage	show random page	o o o
+Wikipedia	RandomPage	surf	o
+Wikipedia	RandomPage	surfing	o
+Wikipedia	RandomPage	wiki surf	o o
+Wikipedia	RandomPage	wiki surfing	o o
+Wikipedia	RandomPage	wikipedia surf	o o
+Wikipedia	RandomPage	wikipedia surfing	o o
+Wikipedia	ScrollDown	page down	o o
+Wikipedia	ScrollDown	scroll down	o o
+Wikipedia	ScrollUp	page up	o o
+Wikipedia	ScrollUp	scroll up	o o
+Wikipedia	SearchQuery	statue of zeus at olympia in wiki	b-query i-query i-query i-query i-query o o
+Wikipedia	SearchQuery	rms titanic in wikipedia	b-query i-query o o
+Wikipedia	SearchQuery	led zeppelin iv matching in wiki	b-query i-query i-query o o o
+Wikipedia	SearchQuery	gillette stadium matching in wikipedia	b-query i-query o o o
+Wikipedia	SearchQuery	find mariah carey on wiki	o b-query i-query o o
+Wikipedia	SearchQuery	find los angeles international airport on wikipedia	o b-query i-query i-query i-query o o
+Wikipedia	SearchQuery	search berlin wall on wiki	o b-query i-query o o
+Wikipedia	SearchQuery	search mark wahlberg on wikipedia	o b-query i-query o o
+Yelp	OpenRestaurants	open restaurants nearby	o o o
+Yelp	OpenRestaurants	restaurants open now	o o o
+Yelp	OpenRestaurants	restaurants still open around here	o o o o o
+Yelp	OpenRestaurantsInLocation	open restaurants near kreuzberg	o o o b-location
+Yelp	OpenRestaurantsInLocation	restaurants open now at soho	o o o o b-location
+Yelp	OpenRestaurantsInLocation	restaurants still open around manhattan	o o o o b-location
+Yelp	SearchByCategory	thai food	b-category o
+Yelp	SearchByCategory	japanease food around here	b-category o o o
+Yelp	SearchByCategory	american food nearby	b-category o o
+Yelp	SearchByCategory	italian restaurants	b-category o
+Yelp	SearchByCategory	french restaurants around here	b-category o o o
+Yelp	SearchByCategory	thai restaurants nearby	b-category o o
+Yelp	SearchByCategoryInLocation	japanease food around plaza del sol	b-category o o b-location i-location i-location
+Yelp	SearchByCategoryInLocation	american food near la rambla	b-category o o b-location i-location
+Yelp	SearchByCategoryInLocation	italian restaurants around van horne	b-category o o b-location i-location
+Yelp	SearchByCategoryInLocation	french restaurants near westmont	b-category o o b-location
+Yelp	SearchByQuery	coffee shop around	b-query i-query o
+Yelp	SearchByQuery	downtown redmond parking garage nearby	b-query i-query i-query i-query o
+Yelp	SearchByQuery	best craft brews and local eateries on yelp	b-query i-query i-query i-query i-query i-query o o
+Yelp	SearchByQueryInLocation	perkins restruant around grass lake	b-query i-query o b-location i-location
+Yelp	SearchByQueryInLocation	lorain county sushi around auburn hills on yelp	b-query i-query i-query o b-location i-location o o
+Yelp	SearchByQueryInLocation	canton ri brewery restaurant at terreton	b-query i-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	best restaurants with a view toronto at cecil on yelp	b-query i-query i-query i-query i-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	vancouver steakhouse meat entrees in fittstown	b-query i-query i-query i-query o b-location
+Yelp	SearchByQueryInLocation	best coffee shops portland or in allakaket on yelp	b-query i-query i-query i-query i-query o b-location o o
+Yelp	SearchByQueryInLocation	german food near monticello	b-query i-query o b-location
+Yelp	SearchByQueryInLocation	pizza near cornell on yelp	b-query o b-location o o
+Yelp	SearchByRating	4 star restaurants	b-rating o o
+Yelp	SearchByRating	5 star restaurants on yelp	b-rating o o o o
+Yelp	SearchByRating	restaurants nearby with at least 4 star rating	o o o o o b-rating o o
+Yelp	SearchByRating	restaurants rated higher than 5 star	o o o o b-rating o
+Yelp	SearchByRatingInLocation	4 star restaurants around mayport	b-rating o o o b-location
+Yelp	SearchByRatingInLocation	5 star restaurants around lordsburg on yelp	b-rating o o o b-location o o
+Yelp	SearchByRatingInLocation	4 star restaurants in ravenden springs	b-rating o o o b-location i-location
+Yelp	SearchByRatingInLocation	5 star restaurants in hanlontown on yelp	b-rating o o o b-location o o
+Yelp	SearchByRatingInLocation	restaurants nearby with at least 4 star rating near cid	o o o o o b-rating o o o b-location
+Yelp	SearchByRatingInLocation	restaurants rated higher than 5 star in moccasin	o o o o b-rating o o b-location
+Yelp	SearchByReviewCount	restaurants here reviewed by at least 100 people	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants here reviewed by at least 1000 users	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants here reviewed by more than 10000 people	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants here reviewed by more than 100 users	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants nearby reviewed by at least 1000 people	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants nearby reviewed by at least 10000 users	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants nearby reviewed by more than 100 people	o o o o o o b-review_count o
+Yelp	SearchByReviewCount	restaurants nearby reviewed by more than 1000 users	o o o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants around momence reviewed by at least 10000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants around ralls reviewed by more than 100 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near kaneohe reviewed by at least 1000 people	o o b-location o o o o b-review_count o
+Yelp	SearchByReviewCountInLocation	restaurants near east thetford reviewed by more than 10000 people	o o b-location i-location o o o o b-review_count o
+Yelp	SearchInLocation	restaurants around diggins	o o b-location
+Yelp	SearchInLocation	restaurants near wildwood	o o b-location
+Yelp	SearchInLocation	restaurants next to pompey	o o o b-location
+Yelp	SearchRestaurant	closest restaurant around	o o o
+Yelp	SearchRestaurant	closest restaurant nearby	o o o
+Yelp	SearchRestaurant	find restaurant	o o
+Yelp	SearchRestaurant	find restaurant around here	o o o o
+Yelp	SearchRestaurant	find restaurant nearby	o o o
+Yelp	SearchRestaurant	find restaurant on yelp	o o o o
+Yelp	SearchRestaurant	find restaurants	o o
+Yelp	SearchRestaurant	find restaurants around here	o o o o
+Yelp	SearchRestaurant	find restaurants nearby	o o o
+Yelp	SearchRestaurant	find restaurants on yelp	o o o o
+Yelp	SearchRestaurant	nearest restaurant around	o o o
+Yelp	SearchRestaurant	restaurant	o
+Yelp	SearchRestaurant	restaurant around here	o o o
+Yelp	SearchRestaurant	restaurant nearby	o o
+Yelp	SearchRestaurant	restaurant on yelp	o o o
+Yelp	SearchRestaurant	restaurants	o
+Yelp	SearchRestaurant	restaurants around here	o o o
+Yelp	SearchRestaurant	restaurants nearby	o o
+Yelp	SearchRestaurant	restaurants on yelp	o o o
+Yelp	SearchRestaurant	search restaurant	o o
+Yelp	SearchRestaurant	search restaurant around here	o o o o
+Yelp	SearchRestaurant	search restaurant nearby	o o o
+Yelp	SearchRestaurant	search restaurant on yelp	o o o o
+Yelp	SearchRestaurant	search restaurants	o o
+Yelp	SearchRestaurant	search restaurants around here	o o o o
+Yelp	SearchRestaurant	search restaurants nearby	o o o
+Yelp	SearchRestaurant	search restaurants on yelp	o o o o
+Youtube	FindChannelWithQuery	find jacksepticeye channels on youtube	o b-query o o o
+Youtube	FindChannelWithQuery	find channels matching cats sneezing in boxes on youtube	o o o b-query i-query i-query i-query o o
+Youtube	FindChannelWithQuery	find youtube channel play bone thugz n harmony	o o o b-query i-query i-query i-query i-query
+Youtube	FindChannelWithQuery	look for make a paper airplane channels on youtube	o o b-query i-query i-query i-query o o o
+Youtube	FindChannelWithQuery	look for channels matching yoga class videos on youtube	o o o o b-query i-query i-query o o
+Youtube	FindChannelWithQuery	look for youtube channel bruno mars	o o o o b-query i-query
+Youtube	FindChannelWithQuery	search for norris nuts channels on youtube	o o b-query i-query o o o
+Youtube	FindChannelWithQuery	search for channels matching shimmer and shine on youtube	o o o o b-query i-query i-query o o
+Youtube	FindChannelWithQuery	search for youtube channel michael jackson	o o o o b-query i-query
+Youtube	FindQuery	find jon snow video on youtube	o b-query i-query o o o
+Youtube	FindQuery	find a video matching dragon ball fight on youtube	o o o o b-query i-query i-query o o
+Youtube	FindQuery	find youtube video playlist hits 2017	o o o b-query i-query i-query
+Youtube	FindQuery	look for stretching routine video on youtube	o o b-query i-query o o o
+Youtube	FindQuery	look for a video matching ozuna on youtube	o o o o o b-query o o
+Youtube	FindQuery	look for youtube video china crowded pics	o o o o b-query i-query i-query
+Youtube	FindQuery	play how to make jolluf rice video on youtube	o b-query i-query i-query i-query i-query o o o
+Youtube	FindQuery	play a video matching fiesta brake pad change diy on youtube	o o o o b-query i-query i-query i-query i-query o o
+Youtube	FindQuery	play youtube video pink	o o o b-query
+Youtube	FindQuery	search for ed sheeran new song video on youtube	o o b-query i-query i-query i-query o o o
+Youtube	FindQuery	search for a video matching monster hunter world game play on youtube	o o o o o b-query i-query i-query i-query i-query o o
+Youtube	FindQuery	search for youtube video conan best moments	o o o o b-query i-query i-query
+Youtube	FindQueryOnChannel	show a video from pewdiepie matching billie eilish on youtube	o o o o b-channel_id o b-query i-query o o
+Youtube	FindQueryOnChannel	show a video published by theneedledrop matching magic school bus on youtube	o o o o o b-channel_id o b-query i-query i-query o o
+Youtube	FindQueryOnChannel	show a videos from justin bieber matching black sabboth 13 full album on youtube	o o o o b-channel_id i-channel_id o b-query i-query i-query i-query i-query o o
+Youtube	FindQueryOnChannel	show a videos published by team coco matching how to disassemble a fan on youtube	o o o o o b-channel_id i-channel_id o b-query i-query i-query i-query i-query o o
+Youtube	FindQueryOnChannel	show me a video from cineamasin matching queen on youtube	o o o o o b-channel_id o b-query o o
+Youtube	FindQueryOnChannel	show me a video published by dandmt matching heavy metal 2017 top hits on youtube	o o o o o o b-channel_id o b-query i-query i-query i-query i-query o o
+Youtube	FindQueryOnChannel	show me a videos from niki and gabi matching katy perry on youtube	o o o o o b-channel_id i-channel_id i-channel_id o b-query i-query o o
+Youtube	FindQueryOnChannel	show me a videos published by wwe matching 1995 jeep radio repair videos on youtube	o o o o o o b-channel_id o b-query i-query i-query i-query i-query o o
+Youtube	NotifyOnNewFromFollowing	notify me when there is a new video from youtube channels I follow	o o o o o o o o o o o o o
+Youtube	NotifyonNewOnChannel	notify me when unbox therapy posts a new youtube video	o o o b-channel_id i-channel_id o o o o o
+Youtube	NotifyonNewOnChannel	notify me when gordon ramsay uploads a video on youtube	o o o b-channel_id i-channel_id o o o o o
+Youtube	NotifyonNewOnChannel	notify me when there is a new video from youtube channel pewdiepie	o o o o o o o o o o o b-channel_id
+Youtube	OpenYT	open youtube	o o
+Youtube	OpenYT	open yt	o o
+Youtube	ShowChannelWithCategory	display news and politics channels in youtube	o b-category i-category i-category o o o
+Youtube	ShowChannelWithCategory	display cooking and health youtube channels	o b-category i-category i-category o o
+Youtube	ShowChannelWithCategory	display channels in category tech on youtube	o o o o b-category o o
+Youtube	ShowChannelWithCategory	display youtube 's sports channels	o o o b-category o
+Youtube	ShowChannelWithCategory	display youtube channels with category beauty and fashion	o o o o o b-category i-category i-category
+Youtube	ShowChannelWithCategory	play gaming channels in youtube	o b-category o o o
+Youtube	ShowChannelWithCategory	play comedy youtube channels	o b-category o o
+Youtube	ShowChannelWithCategory	play channels in category music on youtube	o o o o b-category o o
+Youtube	ShowChannelWithCategory	play youtube 's news and politics channels	o o o b-category i-category i-category o
+Youtube	ShowChannelWithCategory	play youtube channels with category cooking and health	o o o o o b-category i-category i-category
+Youtube	ShowChannelWithCategory	show tech channels in youtube	o b-category o o o
+Youtube	ShowChannelWithCategory	show sports youtube channels	o b-category o o
+Youtube	ShowChannelWithCategory	show channels in category beauty and fashion on youtube	o o o o b-category i-category i-category o o
+Youtube	ShowChannelWithCategory	show youtube 's gaming channels	o o o b-category o
+Youtube	ShowChannelWithCategory	show youtube channels with category comedy	o o o o o b-category
+Youtube	ShowChannelWithName	play channel theneedledrop in youtube	o o b-channel_id o o
+Youtube	ShowChannelWithName	play youtube channel justin bieber	o o o b-channel_id i-channel_id
+Youtube	ShowChannelWithName	play youtube videos in team coco	o o o o b-channel_id i-channel_id
+Youtube	ShowChannelWithName	show channel cineamasin in youtube	o o b-channel_id o o
+Youtube	ShowChannelWithName	show youtube channel dandmt	o o o b-channel_id
+Youtube	ShowChannelWithName	show youtube videos in niki and gabi	o o o o b-channel_id i-channel_id i-channel_id
+Youtube	ShowFollowing	show channels I follow on youtube	o o o o o o
+Youtube	ShowFollowing	show me channels I follow on youtube	o o o o o o o
+Youtube	ShowFollowing	show me youtube channels i follow	o o o o o o
+Youtube	ShowFollowing	show youtube channels i follow	o o o o o
+Youtube	ShowSubscribedChannels	show channels I am subscribed to on youtube	o o o o o o o o
+Youtube	ShowSubscribedChannels	show me channels I am subscribed to on youtube	o o o o o o o o o
