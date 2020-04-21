@@ -315,15 +315,15 @@ Translate	SetDefaultLanguage	establece el idioma estándar de la salida a checo	
 Translate	SetDefaultLanguage	cambia el idioma a finlandés	o o o o b-all_lang
 Translate	SetDefaultLanguageToLanguage	establece el idioma estándar de entrada a polaco	o o o o o o o b-all_lang
 Translate	SetDefaultLanguageToLanguage	cambia el idioma a alemán	o o o o b-all_lang
-Translate	TranslateText	la traducción de in the afternoon	o o o b-text.en i-text.en i-text.en
-Translate	TranslateText	cómo se dice january	o o o b-text.en
-Translate	TranslateTextToLanguage	traduce how much is that a tailandés	o b-text.en i-text.en i-text.en i-text.en o b-trg_lang
-Translate	TranslateTextToLanguage	dime en checo i need an english-language newspaper	o o b-trg_lang b-text.en i-text.en i-text.en i-text.en i-text.en
+Translate	TranslateText	la traducción de in the afternoon	o o o b-text i-text i-text
+Translate	TranslateText	cómo se dice january	o o o b-text
+Translate	TranslateTextToLanguage	traduce how much is that a tailandés	o b-text i-text i-text i-text o b-trg_lang
+Translate	TranslateTextToLanguage	dime en checo i need an english-language newspaper	o o b-trg_lang b-text i-text i-text i-text i-text
 Translate	TranslateToLanguage	traduce a finlandés	o o b-trg_lang
 Translate	TranslateToLanguage	una traducción a polaco	o o o b-trg_lang
 Translate	TranslateToLanguage	traducción a tailandés	o o b-trg_lang
-Translate	DetectLanguage	idioma en el que podría usted hablar más lento por favor está escrito	o o o o b-text.multi i-text.multi i-text.multi i-text.multi i-text.multi i-text.multi i-text.multi o o
-Translate	DetectLanguage	el idioma en que grigio	o o o o b-text.multi
+Translate	DetectLanguage	idioma en el que podría usted hablar más lento por favor está escrito	o o o o b-text i-text i-text i-text i-text i-text i-text o o
+Translate	DetectLanguage	el idioma en que grigio	o o o o b-text
 Twitter	OpenTwitter	muestra tweets que he publicado	o o o o o
 Twitter	OpenTwitter	muéstrame mis tuits	o o o
 Twitter	FollowUser	empieza a seguir a renelae en twitter	o o o o b-username o o
@@ -417,7 +417,7 @@ Yelp	SearchRestaurant	busca restaurante	o o
 Yelp	SearchRestaurant	encuentra restaurantes	o o
 Yelp	SearchByQuery	restaurante en Perkins cerca	b-query i-query i-query o
 Yelp	SearchByRating	restaurantes cerca con por lo menos 3 estrellas de clasificación	o o o o o o b-rating o o o
-Yelp	SearchByCategory	restaurantes españoles cerca	o b-category.mpl o
+Yelp	SearchByCategory	restaurantes españoles cerca	o b-category o
 Yelp	OpenRestaurants	restaurantes abiertos por aquí	o o o o
 Yelp	SearchByReviewCount	restaurantes cerca de aquí con opiniones de por lo menos 950 usuarios	o o o o o o o o o o b-review_count o
 Yelp	SearchByReviewCount	restaurantes por aquí con opiniones de al menos 7000 usuarios	o o o o o o o o b-review_count o
@@ -425,8 +425,8 @@ Yelp	SearchInLocation	restaurantes al lado de kreuzberg	o o o o b-location
 Yelp	SearchInLocation	restaurantes cerca de salinas	o o o b-location
 Yelp	SearchByQueryInLocation	sushi yoko cerca de periana	b-query i-query o o b-location
 Yelp	SearchByRatingInLocation	restaurantes clasificados con más de 4 estrellas en daimús	o o o o o b-rating o o b-location
-Yelp	SearchByCategoryInLocation	comida alemana cerca buñol	o b-category.f o b-location
-Yelp	SearchByReviewCountInLocation	restaurantes alemanes cerca de peñaparda con opiniones de al menos 10000 usuarios	o b-category.mpl o o b-location o o o o o b-review_count o
+Yelp	SearchByCategoryInLocation	comida alemana cerca buñol	o b-category o b-location
+Yelp	SearchByReviewCountInLocation	restaurantes alemanes cerca de peñaparda con opiniones de al menos 10000 usuarios	o b-category o o b-location o o o o o b-review_count o
 Yelp	OpenRestaurantsInLocation	restaurantes todavía abiertos en sebúlcor	o o o o b-location
 Youtube	OpenYT	abre youtube app	o o o
 Youtube	FindQuery	busca a70 samsung vídeos en youtube	o b-query i-query o o o

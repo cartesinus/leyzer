@@ -23,12 +23,12 @@ for lang in ["en-US", "es-ES", "pl-PL"]:
         --output /content/data/baseline/"$lang"/
 
     for mode in ["train", "test", "dev"]:
-    !./leyzer/scripts/convert-to-atis.py --input \
-        /content/leyzer/corpora/0.1.0/leyzer-"$mode"-"$lang"-0.1.0.tsv \
-        --output /content/data/baseline/"$lang"/ \
-        -n /content/data/baseline/"$lang"/atis.dict.intent.csv \
-        -t /content/data/baseline/"$lang"/atis.dict.vocab.csv \
-        -s /content/data/baseline/en-US/atis.dict.slots.csv --part "$mode"
+        !./leyzer/scripts/convert-to-atis.py --input \
+            /content/leyzer/corpora/0.1.0/leyzer-"$mode"-"$lang"-0.1.0.tsv \
+            --output /content/data/baseline/"$lang"/ \
+            -n /content/data/baseline/"$lang"/atis.dict.intent.csv \
+            -t /content/data/baseline/"$lang"/atis.dict.vocab.csv \
+            -s /content/data/baseline/en-US/atis.dict.slots.csv --part "$mode"
 
     !mkdir -p data/baseline/"$lang"/nemo/
     !cd NeMo/examples/nlp/intent_detection_slot_tagging/data/ && python import_datasets.py \
