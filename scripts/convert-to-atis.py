@@ -90,9 +90,9 @@ def main(argv=None):  # IGNORE:C0111
                 df = pd.read_csv(filename, sep='\t', header=0)
                 i, t, s = create_dict(df, i, t, s)
 
-            save(i, args.output_path+'dict.intents.csv')
-            save(t, args.output_path+'dict.vocab.csv')
-            save(s, args.output_path+'dict.slots.csv')
+            save(i, args.output_path+'atis.dict.intent.csv')
+            save(t, args.output_path+'atis.dict.vocab.csv')
+            save(s, args.output_path+'atis.dict.slots.csv')
 
         if args.input and args.output_path:
             intent_dict = read_dict(args.intent_dict)
@@ -102,9 +102,9 @@ def main(argv=None):  # IGNORE:C0111
             intent_ = create_train(df['intent'], intent_dict)
             query_ = create_train(df['utterance'], vocab_dict)
             slot_ = create_train(df['bio'], slot_dict, True)
-            save(intent_, args.output_path+'leyzer.'+args.part+'.intent.csv')
-            save(query_, args.output_path+'leyzer.'+args.part+'.query.csv')
-            save(slot_, args.output_path+'leyzer.'+args.part+'.slot.csv')
+            save(intent_, args.output_path+'atis.'+args.part+'.intent.csv')
+            save(query_, args.output_path+'atis.'+args.part+'.query.csv')
+            save(slot_, args.output_path+'atis.'+args.part+'.slots.csv')
 
     except KeyboardInterrupt:
         # handle keyboard interrupt ###
