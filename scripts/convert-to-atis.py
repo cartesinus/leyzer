@@ -8,7 +8,9 @@ import pandas as pd
 
 def create_dict(df, i, t, s):
     """Crate dictionary for all columns in ATIS format."""
-    i.extend(df['intent'].unique().tolist())
+    for intent in df['intent'].tolist():
+        if intent not in i:
+            i.extend([intent])
 
     for line in df['bio'].tolist():
         for slot in line.split(' '):
