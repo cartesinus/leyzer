@@ -44,7 +44,6 @@ Calendar	AddEventOnDateWithDate	add an event called party on wednesday	o o o o b
 Calendar	AddEventOnDateWithDate	add an event called meeting - council to calendar on 15th may	o o o o b-event_name i-event_name i-event_name o o o b-event_date i-event_date
 Calendar	AddEventOnDateWithDate	add an event called education to calendar on friday	o o o o b-event_name o o o b-event_date
 Calendar	AddEventOnDateWithDate	add an event called networking event to calendar on 30th may	o o o o b-event_name i-event_name o o o b-event_date i-event_date
-Calendar	AddEventOnDateWithDate	add an event called hackathon to calendar on 23 march	o o o o b-event_name o o o b-event_date i-event_date i-event_date
 Calendar	AddEventOnDateWithDate	add an event called grand opening to calendar on next friday	o o o o b-event_name i-event_name o o o b-event_date i-event_date
 Calendar	NotNotifyOnEventInLocation	do not notify me when an appointment on my calendar at location home begins	o o o o o o o o o o o o b-location o
 Calendar	NotNotifyOnEventInLocation	do not notify me when an appointment on my calendar at location building b begins	o o o o o o o o o o o o b-location i-location o
@@ -355,7 +354,6 @@ Email	SendEmailToAddressWithSubject	forward an email to floris with subject osu 
 Email	SendEmailToAddressWithSubject	forward an email to gertrudis with subject fw meeting with john lavorato using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o o
 Email	SendEmailToAddressWithSubject	forward an email to ros with subject today's energy committee meeting info using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject o o o
 Email	SendEmailToAddressWithSubject	forward an email to cammy@proton.com with subject ferc filings using my gmail	o o o o b-to o o b-subject i-subject o o o
-Email	SendEmailToAddressWithSubject	forward an email to teodora with subject re sales to california   using my gmail	o o o o b-to o o b-subject i-subject i-subject i-subject i-subject i-subject o o o
 Email	SendEmailToAddressWithSubject	forward an email to michael b rosen with subject top level energy person using my gmail	o o o o b-to i-to i-to o o b-subject i-subject i-subject i-subject o o o
 Email	SendEmailToAddressWithSubject	forward an email to celle@gmail.com with subject re missing deals using my gmail	o o o o b-to o o b-subject i-subject i-subject o o o
 Email	SendEmailToAddressWithSubject	forward an email to josie with subject lunch using my gmail	o o o o b-to o o b-subject o o o
@@ -738,14 +736,11 @@ Slack	SendMessageToChannel	let slack channel timeline know that by carrie peyton
 Slack	SendMessageToChannel	let slack channel fundamentally know that start talks with venture capital firms in other	o o o b-channel o o b-message i-message i-message i-message i-message i-message i-message i-message
 Slack	SendMessageToChannel	let slack channel memorandum know that to sell to california during shortages	o o o b-channel o o b-message i-message i-message i-message i-message i-message
 Slack	SendMessageToChannel	let slack channel possibilities know that been a little out of the loop lately	o o o b-channel o o b-message i-message i-message i-message i-message i-message i-message i-message
-Slack	SendMessageToChannel	let slack channel steps know that prices at which it will buy and sell electricity	o o o b-channel o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
 Slack	SendMessageToChannel	let slack channel kobra know that for incumbent carriers the fund will invest between	o o o b-channel o o b-message i-message i-message i-message i-message i-message i-message i-message
-Slack	SendMessageToChannel	let slack channel helicopters know that release its conclusions on dabhol today	o o o b-channel o o b-message i-message i-message i-message i-message i-message i-message
 Slack	SendMessageToChannel	let slack channel porter know that include internet application development web site	o o o b-channel o o b-message i-message i-message i-message i-message i-message
 Slack	SendMessageToChannel	message teamsters on slack saying personalizes web sites and portals; and mediaprise	o b-channel o o o b-message i-message i-message i-message i-message i-message i-message
 Slack	SendMessageToChannel	message baking on slack saying members including gatc european technology ventures	o b-channel o o o b-message i-message i-message i-message i-message i-message
 Slack	SendMessageToChannel	message featuring on slack saying forward that along for folks review later today	o b-channel o o o b-message i-message i-message i-message i-message i-message i-message i-message
-Slack	SendMessageToChannel	message citibank on slack saying group will not expose company to any such charges	o b-channel o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message
 Slack	SendMessageToChannel	message sellers on slack saying no idea let me know if you hear something	o b-channel o o o b-message i-message i-message i-message i-message i-message i-message i-message i-message
 Slack	SendMessageToChannel	message megawatts on slack saying sector nth power technologies is a venture capital	o b-channel o o o b-message i-message i-message i-message i-message i-message i-message i-message
 Slack	SendMessageToChannel	message confidentially on slack saying declare power alerts on several days last month	o b-channel o o o b-message i-message i-message i-message i-message i-message i-message i-message
@@ -756,7 +751,6 @@ Slack	SendMessageToChannel	post ceo scott p peters and president andrew r moore 
 Slack	SendMessageToChannel	post settlements discrepancies as well to grocery on slack	o b-message i-message i-message i-message o b-channel o o
 Slack	SendMessageToChannel	post contact your hr representative to work on slack	o b-message i-message i-message i-message o b-channel o o
 Slack	SendMessageToChannel	post said it closed its series a round of funding with to party on slack	o b-message i-message i-message i-message i-message i-message i-message i-message i-message i-message o b-channel o o
-Slack	SendMessageToChannel	post non conventional energy sources  to river on slack	o b-message i-message i-message i-message i-message o b-channel o o
 Slack	SendMessageToChannel	post that automatically update contact information among to my fellas on slack	o b-message i-message i-message i-message i-message i-message o b-channel i-channel o o
 Slack	SendMessageToChannel	post we need to talk to jogging on slack	o b-message i-message i-message i-message o b-channel o o
 Slack	SendMessageToChannel	send harold morrow would serve as a third tailback to speculate on slack	o b-message i-message i-message i-message i-message i-message i-message i-message o b-channel o o
@@ -2463,7 +2457,6 @@ Youtube	FindChannelWithQuery	look for channels matching popular opinion of ovech
 Youtube	FindChannelWithQuery	look for channels matching how to videos for kids on youtube	o o o o b-query i-query i-query i-query i-query o o
 Youtube	FindChannelWithQuery	look for channels matching turbo on youtube	o o o o b-query o o
 Youtube	FindChannelWithQuery	look for channels matching reggae latest on youtube	o o o o b-query i-query o o
-Youtube	FindChannelWithQuery	look for youtube channel kareena's  hairstyle	o o o o b-query i-query i-query
 Youtube	FindChannelWithQuery	look for youtube channel nandootan	o o o o b-query
 Youtube	FindChannelWithQuery	look for youtube channel fitness program to customize	o o o o b-query i-query i-query i-query
 Youtube	FindChannelWithQuery	look for youtube channel hair tutorial	o o o o b-query i-query
