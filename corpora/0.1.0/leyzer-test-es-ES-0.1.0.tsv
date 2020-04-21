@@ -46,8 +46,6 @@ Calendar	NotifyOnEventStart	notifícame cuando comience una reunión en mi calen
 Calendar	OpenCalendar	muestra mi calendario	o o o
 Calendar	OpenCalendar	abre mi calendario	o o o
 Calendar	OpenCalendar	muestra mi calendario	o o o
-Contacts	EditContactWithName	edita mi contacto CONTACTOS.SLOT.NAME	o o o o
-Contacts	EditContactWithName	abre mi contacto CONTACTOS.SLOT.NAME para la edición	o o o o o o o
 Contacts	EditContactWithNumber	cambia el nombre de mi contacto con el número 267 319 722	o o o o o o o o o b-phone_number i-phone_number i-phone_number
 Contacts	EditNumberInContactWithName	cambia el número de mi contacto belen chávez	o o o o o o b-name i-name
 Contacts	EditNumberInContactWithNameToNumberAndToType	establece el número 437 140 862 en el contacto maica como casa	o o o b-phone_number i-phone_number i-phone_number o o o b-name o b-phone_type
@@ -547,18 +545,6 @@ Speaker	MuteOn	silenciar el altavoz	o o o
 Speaker	MuteOn	silenciar mi altavoz	o o o
 Speaker	MuteOn	altavoz en silencio	o o o
 Speaker	MuteOn	silenciar el altavoz	o o o
-Speaker	TurnOnOrOff	ayúdame a SPEAKER.SLOT.POWER mi altavoz	o o o o o
-Speaker	TurnOnOrOff	ayúdame a SPEAKER.SLOT.POWER el altavoz	o o o o o
-Speaker	TurnOnOrOff	ayúdame a SPEAKER.SLOT.POWER mi altavoz	o o o o o
-Speaker	TurnOnOrOff	ayúdame a SPEAKER.SLOT.POWER el altavoz	o o o o o
-Speaker	TurnOnOrOff	SPEAKER.SLOT.POWER mi altavoz	o o o
-Speaker	TurnOnOrOff	SPEAKER.SLOT.POWER mi altavoz para mí	o o o o o
-Speaker	TurnOnOrOff	SPEAKER.SLOT.POWER el altavoz	o o o
-Speaker	TurnOnOrOff	SPEAKER.SLOT.POWER el altavoz para mí	o o o o o
-Speaker	TurnOnOrOff	SPEAKER.SLOT.POWER mi altavoz	o o o
-Speaker	TurnOnOrOff	SPEAKER.SLOT.POWER mi altavoz para mí	o o o o o
-Speaker	TurnOnOrOff	SPEAKER.SLOT.POWER el altavoz	o o o
-Speaker	TurnOnOrOff	SPEAKER.SLOT.POWER el altavoz para mí	o o o o o
 Spotify	NextSong	pon la siguiente canción	o o o o
 Spotify	NextSong	reproduce la canción siguiente en spotify	o o o o o o
 Spotify	NextSong	reproduce la siguiente pista	o o o o
@@ -894,16 +880,6 @@ Yelp	OpenRestaurants	los restaurantes abiertos todav'ia por aquí	o o o o o o
 Yelp	OpenRestaurantsInLocation	restaurantes abiertos cerca de kreuzberg	o o o o b-location
 Yelp	OpenRestaurantsInLocation	restaurantes abiertos ahora en soho	o o o o b-location
 Yelp	OpenRestaurantsInLocation	restaurantes todavía abiertos por manhattan	o o o o b-location
-Yelp	SearchByCategory	comida YELP.SLOT.CATEGORY	o o
-Yelp	SearchByCategory	comida YELP.SLOT.CATEGORY por aquí	o o o o
-Yelp	SearchByCategory	comida YELP.SLOT.CATEGORY cerca	o o o
-Yelp	SearchByCategory	restaurantes YELP.SLOT.CATEGORY	o o
-Yelp	SearchByCategory	restaurantes YELP.SLOT.CATEGORY por aquí	o o o o
-Yelp	SearchByCategory	restaurantes YELP.SLOT.CATEGORY cerca	o o o
-Yelp	SearchByCategoryInLocation	comida YELP.SLOT.CATEGORY por plaza del sol	o o o b-location i-location i-location
-Yelp	SearchByCategoryInLocation	comida YELP.SLOT.CATEGORY cerca de la rambla	o o o o b-location i-location
-Yelp	SearchByCategoryInLocation	restaurantes YELP.SLOT.CATEGORY por torvizcón	o o o b-location
-Yelp	SearchByCategoryInLocation	restaurantes de YELP.SLOT.CATEGORY cerca de ujados	o o o o o b-location
 Yelp	SearchByQuery	cafetería por aquí	b-query o o
 Yelp	SearchByQuery	estacionamiento del centro de redmond cerca	b-query i-query i-query i-query i-query o
 Yelp	SearchByQuery	mejores cervezas artesanales y restaurantes locales en yelp	b-query i-query i-query i-query i-query i-query o o
@@ -941,7 +917,7 @@ Yelp	SearchInLocation	restaurantes por miguelturra	o o b-location
 Yelp	SearchInLocation	restaurantes cerca de valtiendas	o o o b-location
 Yelp	SearchInLocation	restaurantes al lado de chóvar	o o o o b-location
 Yelp	SearchRestaurant	restaurante más cercano por aquí	o o o o o
-Yelp	SearchRestaurant	restaurante más cercano	o o o o
+Yelp	SearchRestaurant	restaurante más cercano	o o o
 Yelp	SearchRestaurant	encuentra un restaurante	o o o
 Yelp	SearchRestaurant	encontrar un restaurante por aquí	o o o o o
 Yelp	SearchRestaurant	encontrar un restaurante cercano	o o o o
@@ -960,7 +936,7 @@ Yelp	SearchRestaurant	restaurantes por aquí	o o o
 Yelp	SearchRestaurant	restaurantes cercanos	o o
 Yelp	SearchRestaurant	restaurantes en yelp	o o o
 Yelp	SearchRestaurant	buscar un restaurante	o o o
-Yelp	SearchRestaurant	buscar un  por aquí	o o o o o
+Yelp	SearchRestaurant	buscar un  por aquí	o o o o
 Yelp	SearchRestaurant	buscar un restaurante cercano	o o o o
 Yelp	SearchRestaurant	buscar un restaurante en yelp	o o o o o
 Yelp	SearchRestaurant	buscar restaurantes	o o

@@ -5,7 +5,6 @@ Airconditioner	ChangeTemperature	establece la temperatura en mi termostato	o o o
 Airconditioner	SetTemperatureToValue	establece la temperatura a 78 grados fahrenheit en mi termostato	o o o o b-value i-value i-value o o o
 Airconditioner	SetTemperatureToValue	establece mi termostato a 23 grados celsius	o o o o b-value i-value i-value
 Airconditioner	SetTemperatureToValueOnDevice	establece la temperatura a 78 grados fahrenheit en mi salón termostato	o o o o b-value i-value i-value o o b-device_name o
-Airconditioner	SetTemperatureBetweenValues	cambia la temperatura a una entre 24 grados y 30 grados en mi termostato	o o o o o o o o o o o o
 Airconditioner	SetTemperatureOnDevice	cambia la temperatura en mi termostato corredor	o o o o o o b-device_name
 Airconditioner	GetHumidity	verifícame el nivel de la humedad	o o o o o o
 Airconditioner	GetTemperature	¿ qué temperatura tengo aquí según mi sistema calefactiorio ?	o o o o o o b-av_alias i-av_alias i-av_alias o
@@ -266,7 +265,7 @@ Spotify	PlaySongByArtist	en spotify reproduce numb de angel olsen	o o o b-song o
 Spotify	PlaySongByArtist	reproduce human nature de william basinski	o b-song i-song o b-artist i-artist
 Spotify	PlaySongByArtist	reproduce la canción what a time to be alive de the flaming lips	o o o b-song i-song i-song i-song i-song i-song o b-artist i-artist i-artist
 Spotify	PlaySongByArtist	reproduce la canción you are here de jacek sienkiewicz en spotify	o o o b-song i-song i-song o b-artist i-artist o o
-Spotify	PlayAlbumOfTypeByArtist	en spotify reproduce this is how you smile}_TYPE stamina de angel olsen	o o o b-album i-album i-album i-album i-album b-album o b-artist i-artist
+Spotify	PlayAlbumOfTypeByArtist	en spotify reproduce this is how you smile stamina de angel olsen	o o o b-album i-album i-album i-album i-album b-album o b-artist i-artist
 Spotify	PlayAlbumOfTypeByArtist	reproduce on time out of time de electric wizard en spotify	o b-album i-album i-album i-album i-album o b-artist i-artist o o
 Spotify	Pause	reproduce esta canción	o o o
 Spotify	Pause	pausa esa canción	o o o
@@ -297,10 +296,10 @@ Spotify	AddSongWithNameToPlaylistWithName	añade la pista track 19 a la lista de
 Spotify	AddSongWithNameToPlaylistWithName	guarda bullet proof cupid a playlist nature noise	o b-song i-song i-song o o b-playlist i-playlist
 Spotify	AddSongWithNameToPlaylistWithName	guarda la canción paco a la lista de reproducción 90s country en spotify	o o o b-song o o o o o b-playlist i-playlist o o
 Spotify	AddSongWithNameToPlaylistWithName	guarda la pista new years eve a playlist southern rock 101	o o o b-song i-song i-song o o b-playlist i-playlist i-playlist
-Spotify	AddAlbumToPlaylist	añade este what we say in private}_TYPE a la lista de reproducción lava lamp en spotify	o o b-album i-album i-album i-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist o o
-Spotify	AddAlbumToPlaylist	añade ese eraserland}_TYPE a political punks	o o b-album i-album b-playlist i-playlist
-Spotify	AddAlbumToPlaylist	guarda este malomiasteczkowy}_TYPE a la lista de reproducción party en spotify	o o b-album i-album i-album i-album i-album i-album b-playlist o o
-Spotify	AddAlbumToPlaylist	guarda ese here comes the cowboy}_TYPE a classical yoga	o o b-album i-album i-album i-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	añade este what we say in private a la lista de reproducción lava lamp en spotify	o o b-album i-album i-album i-album i-album i-album i-album i-album i-album i-album b-playlist i-playlist o o
+Spotify	AddAlbumToPlaylist	añade ese eraserland a political punks	o o b-album i-album b-playlist i-playlist
+Spotify	AddAlbumToPlaylist	guarda este malomiasteczkowy a la lista de reproducción party en spotify	o o b-album i-album i-album i-album i-album i-album b-playlist o o
+Spotify	AddAlbumToPlaylist	guarda ese here comes the cowboy a classical yoga	o o b-album i-album i-album i-album i-album b-playlist i-playlist
 Spotify	CreatePlaylist	crea una nueva lista de reproducción	o o o o o o
 Spotify	CreatePlaylist	añade playlist	o o
 Spotify	CreatePlaylistWithName	crea nueva lista de reproducción titulada pink noise	o o o o o o b-playlist i-playlist
@@ -320,13 +319,9 @@ Translate	TranslateText	la traducción de in the afternoon	o o o b-text.en i-tex
 Translate	TranslateText	cómo se dice january	o o o b-text.en
 Translate	TranslateTextToLanguage	traduce how much is that a tailandés	o b-text.en i-text.en i-text.en i-text.en o b-trg_lang
 Translate	TranslateTextToLanguage	dime en checo i need an english-language newspaper	o o b-trg_lang b-text.en i-text.en i-text.en i-text.en i-text.en
-Translate	TranslateTextFromLanguageToLanguage	traduce TRANSLATE.SLOT.TEXT de italiano a finlandés	o o o b-src_lang o b-trg_lang
-Translate	TranslateTextFromLanguageToLanguageWithEngine	traducción de TRANSLATE.SLOT.TEXT a español de russo usando deepl	o o o o b-trg_lang o b-src_lang o b-translator
-Translate	TranslateTextFromLanguageToLanguageWithEngine	la traducción de TRANSLATE.SLOT.TEXT de italiano a tailandés con yandex	o o o o o b-src_lang o b-trg_lang o b-translator
 Translate	TranslateToLanguage	traduce a finlandés	o o b-trg_lang
 Translate	TranslateToLanguage	una traducción a polaco	o o o b-trg_lang
 Translate	TranslateToLanguage	traducción a tailandés	o o b-trg_lang
-Translate	TranslateTextFromLanguage	traduce TRANSLATE.SLOT.TEXT de russo	o o o b-src_lang
 Translate	DetectLanguage	idioma en el que podría usted hablar más lento por favor está escrito	o o o o b-text.multi i-text.multi i-text.multi i-text.multi i-text.multi i-text.multi i-text.multi o o
 Translate	DetectLanguage	el idioma en que grigio	o o o o b-text.multi
 Twitter	OpenTwitter	muestra tweets que he publicado	o o o o o
