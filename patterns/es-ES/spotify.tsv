@@ -1,578 +1,580 @@
 domain	intent	parallel	pattern
-Spotify	OpenSpotify	True	abre spotify
-Spotify	OpenSpotify	False	abre spotify y reproducir alguna música
-Spotify	OpenSpotify	False	abre spotify para reproducir alguna música
-Spotify	OpenSpotify	True	usa spotify
-Spotify	OpenSpotify	False	usa spotify y reproducir alguna música
-Spotify	OpenSpotify	False	usa spotify para reproducir alguna música
-Spotify	OpenSpotify	False	reproduce alguna música en spotify
-Spotify	PlaySong	True	reproduce SPOTIFY.SLOT.SONG
-Spotify	PlaySong	True	reproduce SPOTIFY.SLOT.SONG en spotify
-Spotify	PlaySong	True	reproduce la canción SPOTIFY.SLOT.SONG
-Spotify	PlaySong	True	reproduce la canción SPOTIFY.SLOT.SONG en spotify
-Spotify	PlaySong	True	en spotify reproduce SPOTIFY.SLOT.SONG
-Spotify	PlaySongByArtist	True	reproduce SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	True	reproduce SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST en spotify
-Spotify	PlaySongByArtist	True	reproduce la canción SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	True	reproduce la canción SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST en spotify
-Spotify	PlaySongByArtist	True	en spotify reproduce SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	True	reproduce SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	True	reproduce SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST en spotify
-Spotify	PlayAlbumOfTypeByArtist	True	reproduce el SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	True	reproduce el SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST en spotify
-Spotify	PlayAlbumOfTypeByArtist	True	en spotify reproduce SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST
-Spotify	Pause	True	reproduce spotify
-Spotify	Pause	True	reproduce mi spotify
-Spotify	Pause	True	reproduce esta canción
-Spotify	Pause	True	reproduce esta pista
-Spotify	Pause	True	reproduce esa canción
-Spotify	Pause	True	reproduce esa pista
-Spotify	Pause	True	pausa spotify
-Spotify	Pause	True	pausa mi spotify
-Spotify	Pause	True	pausa esta canción
-Spotify	Pause	True	pausa esta pista
-Spotify	Pause	True	pausa esa canción
-Spotify	Pause	True	pausa esa pista
-Spotify	Pause	True	reanuda spotify
-Spotify	Pause	True	reanuda mi spotify
-Spotify	Pause	False	reanuda esta canción
-Spotify	Pause	False	reanuda esta pista
-Spotify	Pause	False	reanuda esa canción
-Spotify	Pause	False	reanuda esa pista
-Spotify	Pause	True	repite spotify
-Spotify	Pause	True	repite mi spotify
-Spotify	Pause	True	repite esta canción
-Spotify	Pause	True	repite esta pista
-Spotify	Pause	True	repite esa canción
-Spotify	Pause	True	repite esa pista
-Spotify	NextSong	False	reproduce canción siguiente
-Spotify	NextSong	False	reproduce canción siguiente en spotify
-Spotify	NextSong	False	reproduce pista siguiente
-Spotify	NextSong	False	reproduce pista siguiente en spotify
-Spotify	NextSong	True	reproduce la canción siguiente
-Spotify	NextSong	True	reproduce la canción siguiente en spotify
-Spotify	NextSong	False	reproduce la pista siguiente
-Spotify	NextSong	False	reproduce la pista siguiente en spotify
-Spotify	NextSong	True	salta esta canción
-Spotify	NextSong	True	salta esta canción en spotify
-Spotify	NextSong	True	salta esta pista
-Spotify	NextSong	True	salta esta pista en spotify
-Spotify	NextSong	True	salta esa canción
-Spotify	NextSong	True	salta esa canción en spotify
-Spotify	NextSong	True	salta esa pista
-Spotify	NextSong	True	salta esa pista en spotify
-Spotify	PreviousSong	True	vuelve
-Spotify	PreviousSong	True	vuelve a la última canción
-Spotify	PreviousSong	False	vuelve a la última pista
-Spotify	PreviousSong	True	reproduce la última canción
-Spotify	PreviousSong	True	reproduce la última canción en spotify
-Spotify	PreviousSong	True	reproduce la última pista
-Spotify	PreviousSong	True	reproduce la última pista en spotify
-Spotify	PreviousSong	True	reproduce la canción anterior
-Spotify	PreviousSong	True	reproduce la canción anterior en spotify
-Spotify	PreviousSong	True	reproduce la pista anterior
-Spotify	PreviousSong	True	reproduce la pista anterior en spotify
-Spotify	PlayPlaylist	False	reproduce playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	False	reproduce playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	PlayPlaylist	False	reproduce mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	False	reproduce mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	PlayPlaylist	False	reproduce lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	False	reproduce lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	PlayPlaylist	False	reproduce mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	False	reproduce mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	PlayPlaylist	False	reproduce la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	False	reproduce la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongToPlaylistWithName	False	añade a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade canción a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade canción a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade canción a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade canción a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade pista a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade pista a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade pista a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade pista a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta canción a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta canción a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta canción a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta canción a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta pista a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta pista a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta pista a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta pista a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esta pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esta pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa canción a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa canción a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa canción a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa canción a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa pista a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa pista a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa pista a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa pista a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade esa pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade esa pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la canción que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la canción que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la canción que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la canción que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la canción que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la canción que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la canción que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la canción que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la canción que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la canción que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la pista que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la pista que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la pista que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la pista que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la pista que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la pista que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la pista que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la pista que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	añade la pista que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	añade la pista que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda canción a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda canción a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda canción a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda canción a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda pista a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda pista a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda pista a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda pista a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta canción a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta canción a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta canción a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta canción a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta pista a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta pista a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta pista a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta pista a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esta pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esta pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa canción a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa canción a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa canción a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa canción a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa pista a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa pista a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa pista a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa pista a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda esa pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda esa pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la canción que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la canción que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la canción que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la canción que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la canción que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la canción que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la canción que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la canción que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la canción que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la canción que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la pista que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la pista que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la pista que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la pista que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la pista que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la pista que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la pista que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la pista que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	False	guarda la pista que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	False	guarda la pista que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	añade la pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	False	guarda la pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	añade este SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	añade este SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	añade este SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	añade este SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	añade este SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	añade este SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	añade este SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	añade este SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	añade este SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	añade este SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	añade este SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	añade este SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	añade ese SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	añade ese SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	añade ese SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	añade ese SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	añade ese SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	añade ese SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	añade ese SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	añade ese SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	añade ese SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	añade ese SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	añade ese SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	añade ese SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	guarda este SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	guarda este SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	guarda este SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	guarda este SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	guarda este SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	guarda este SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	guarda este SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	guarda este SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	guarda este SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	guarda este SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	guarda este SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	guarda este SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	AddAlbumToPlaylist	False	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	False	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
-Spotify	CreatePlaylist	False	crea playlist
-Spotify	CreatePlaylist	False	crea lista
-Spotify	CreatePlaylist	False	crea lista de reproducción
-Spotify	CreatePlaylist	False	crea nueva playlist
-Spotify	CreatePlaylist	False	crea nueva lista
-Spotify	CreatePlaylist	False	crea nueva lista de reproducción
-Spotify	CreatePlaylist	False	crea una playlist
-Spotify	CreatePlaylist	False	crea una lista
-Spotify	CreatePlaylist	False	crea una lista de reproducción
-Spotify	CreatePlaylist	False	crea una nueva playlist
-Spotify	CreatePlaylist	False	crea una nueva lista
-Spotify	CreatePlaylist	False	crea una nueva lista de reproducción
-Spotify	CreatePlaylist	False	añade playlist
-Spotify	CreatePlaylist	False	añade lista
-Spotify	CreatePlaylist	False	añade lista de reproducción
-Spotify	CreatePlaylist	False	añade nueva playlist
-Spotify	CreatePlaylist	False	añade nueva lista
-Spotify	CreatePlaylist	False	añade nueva lista de reproducción
-Spotify	CreatePlaylist	False	añade una playlist
-Spotify	CreatePlaylist	False	añade una lista
-Spotify	CreatePlaylist	False	añade una lista de reproducción
-Spotify	CreatePlaylist	False	añade una nueva playlist
-Spotify	CreatePlaylist	False	añade una nueva lista
-Spotify	CreatePlaylist	False	añade una nueva lista de reproducción
-Spotify	CreatePlaylistWithName	False	crea playlist llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea playlist titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea lista llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea lista titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea nueva playlist llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea nueva playlist titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea nueva lista llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea nueva lista titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea nueva lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea nueva lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea una playlist llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea una playlist titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea una lista llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea una lista titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea una lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea una lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea una nueva playlist llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea una nueva playlist titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea una nueva lista llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea una nueva lista titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea una nueva lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	crea una nueva lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade playlist llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade playlist titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade lista llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade lista titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade nueva playlist llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade nueva playlist titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade nueva lista llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade nueva lista titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade nueva lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade nueva lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade una playlist llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade una playlist titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade una lista llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade una lista titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade una lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade una lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade una nueva playlist llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade una nueva playlist titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade una nueva lista llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade una nueva lista titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade una nueva lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	False	añade una nueva lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylist	False	guarda canción corriente
-Spotify	AddSongToPlaylist	False	guarda pista corriente
-Spotify	AddSongToPlaylist	False	guarda la canción corriente
-Spotify	AddSongToPlaylist	False	guarda la pista corriente
-Spotify	AddSongToPlaylist	False	guarda lo que se está reproduciendo a mi biblioteca
-Spotify	AddSongToPlaylist	False	guarda lo que se está reproduciendo ahora a mi biblioteca
-Spotify	AddSongToPlaylist	False	guarda esta canción
-Spotify	AddSongToPlaylist	False	guarda esta pista
-Spotify	AddSongToPlaylist	False	guarda esa canción
-Spotify	AddSongToPlaylist	False	guarda esa pista
-Spotify	SeekByTime	False	salta hasta segundo SPOTIFY.SLOT.SEEK_TIME
-Spotify	SeekByTime	False	salta al segundo SPOTIFY.SLOT.SEEK_TIME
-Spotify	SeekByTime	False	ve hasta segundo SPOTIFY.SLOT.SEEK_TIME
-Spotify	SeekByTime	False	ve al segundo SPOTIFY.SLOT.SEEK_TIME
-Spotify	ShuffleOnOff	False	activa barajar
-Spotify	ShuffleOnOff	False	activa mezclar
-Spotify	ShuffleOnOff	False	enciende barajar
-Spotify	ShuffleOnOff	False	enciende mezclar
-Spotify	ShuffleOnOff	False	desactiva barajar
-Spotify	ShuffleOnOff	False	desactiva mezclar
-Spotify	ShuffleOnOff	False	apaga barajar
-Spotify	ShuffleOnOff	False	apaga mezclar
-Spotify	RepeatOnOff	False	activa repetir
-Spotify	RepeatOnOff	False	enciende repetir
-Spotify	RepeatOnOff	False	desactiva repetir
-Spotify	RepeatOnOff	False	apaga repetir
-Spotify	ShowDencability	False	se puede bailar a esta canción
-Spotify	ShowDencability	False	se puede bailar a esta pista
-Spotify	ShowDencability	False	se puede bailar a esa canción
-Spotify	ShowDencability	False	se puede bailar a esa pista
-Spotify	ShowDencability	False	es esta canción buena para bailar
-Spotify	ShowDencability	False	es esta pista buena para bailar
-Spotify	ShowDencability	False	es esa canción buena para bailar
-Spotify	ShowDencability	False	es esa pista buena para bailar
+Spotify	OpenSpotify	-	abre spotify
+Spotify	OpenSpotify	-	abre spotify y reproduce alguna música
+Spotify	OpenSpotify	-	abre spotify para reproducir alguna música
+Spotify	OpenSpotify	-	usa spotify
+Spotify	OpenSpotify	-	usa spotify y reproduce alguna música
+Spotify	OpenSpotify	-	usa spotify para reproducir alguna música
+Spotify	OpenSpotify	-	reproduce música en spotify
+Spotify	OpenSpotify	-	reproduce alguna música en spotify
+Spotify	OpenSpotify	-	reproduce algo en spotify
+Spotify	PlaySong	-	reproduce SPOTIFY.SLOT.SONG
+Spotify	PlaySong	-	reproduce SPOTIFY.SLOT.SONG en spotify
+Spotify	PlaySong	-	reproduce la canción SPOTIFY.SLOT.SONG
+Spotify	PlaySong	-	reproduce la canción SPOTIFY.SLOT.SONG en spotify
+Spotify	PlaySong	-	en spotify reproduce SPOTIFY.SLOT.SONG
+Spotify	PlaySongByArtist	-	reproduce SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST
+Spotify	PlaySongByArtist	-	reproduce SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST en spotify
+Spotify	PlaySongByArtist	-	reproduce la canción SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST
+Spotify	PlaySongByArtist	-	reproduce la canción SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST en spotify
+Spotify	PlaySongByArtist	-	en spotify reproduce SPOTIFY.SLOT.SONG de SPOTIFY.SLOT.ARTIST
+Spotify	PlayAlbumOfTypeByArtist	-	reproduce SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST
+Spotify	PlayAlbumOfTypeByArtist	-	reproduce SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST en spotify
+Spotify	PlayAlbumOfTypeByArtist	-	reproduce el SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST
+Spotify	PlayAlbumOfTypeByArtist	-	reproduce el SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST en spotify
+Spotify	PlayAlbumOfTypeByArtist	-	en spotify reproduce SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM de SPOTIFY.SLOT.ARTIST
+Spotify	Pause	-	reproduce spotify
+Spotify	Pause	-	reproduce mi spotify
+Spotify	Pause	-	reproduce esta canción
+Spotify	Pause	-	reproduce esta pista
+Spotify	Pause	-	reproduce esa canción
+Spotify	Pause	-	reproduce esa pista
+Spotify	Pause	-	pausa spotify
+Spotify	Pause	-	pausa mi spotify
+Spotify	Pause	-	pausa esta canción
+Spotify	Pause	-	pausa esta pista
+Spotify	Pause	-	pausa esa canción
+Spotify	Pause	-	pausa esa pista
+Spotify	Pause	-	reanuda spotify
+Spotify	Pause	-	reanuda mi spotify
+Spotify	Pause	-	reanuda esta canción
+Spotify	Pause	-	reanuda esta pista
+Spotify	Pause	-	reanuda esa canción
+Spotify	Pause	-	reanuda esa pista
+Spotify	Pause	-	repite spotify
+Spotify	Pause	-	repite mi spotify
+Spotify	Pause	-	repite esta canción
+Spotify	Pause	-	repite esta pista
+Spotify	Pause	-	repite esa canción
+Spotify	Pause	-	repite esa pista
+Spotify	NextSong	-	reproduce canción siguiente
+Spotify	NextSong	-	reproduce canción siguiente en spotify
+Spotify	NextSong	-	reproduce pista siguiente
+Spotify	NextSong	-	reproduce pista siguiente en spotify
+Spotify	NextSong	-	reproduce la canción siguiente
+Spotify	NextSong	-	reproduce la canción siguiente en spotify
+Spotify	NextSong	-	reproduce la pista siguiente
+Spotify	NextSong	-	reproduce la pista siguiente en spotify
+Spotify	NextSong	-	salta esta canción
+Spotify	NextSong	-	salta esta canción en spotify
+Spotify	NextSong	-	salta esta pista
+Spotify	NextSong	-	salta esta pista en spotify
+Spotify	NextSong	-	salta esa canción
+Spotify	NextSong	-	salta esa canción en spotify
+Spotify	NextSong	-	salta esa pista
+Spotify	NextSong	-	salta esa pista en spotify
+Spotify	PreviousSong	-	vuelve
+Spotify	PreviousSong	-	vuelve a la última canción
+Spotify	PreviousSong	-	vuelve a la última pista
+Spotify	PreviousSong	-	reproduce la última canción
+Spotify	PreviousSong	-	reproduce la última canción en spotify
+Spotify	PreviousSong	-	reproduce la última pista
+Spotify	PreviousSong	-	reproduce la última pista en spotify
+Spotify	PreviousSong	-	reproduce la canción anterior
+Spotify	PreviousSong	-	reproduce la canción anterior en spotify
+Spotify	PreviousSong	-	reproduce la pista anterior
+Spotify	PreviousSong	-	reproduce la pista anterior en spotify
+Spotify	PlayPlaylist	-	reproduce playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	PlayPlaylist	-	reproduce playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	PlayPlaylist	-	reproduce mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	PlayPlaylist	-	reproduce mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	PlayPlaylist	-	reproduce lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	PlayPlaylist	-	reproduce lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	PlayPlaylist	-	reproduce mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	PlayPlaylist	-	reproduce mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	PlayPlaylist	-	reproduce la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	PlayPlaylist	-	reproduce la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongToPlaylistWithName	-	añade a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade canción a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade canción a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade canción a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade canción a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade pista a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade pista a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade pista a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade pista a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta canción a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta canción a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta canción a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta canción a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta pista a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta pista a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta pista a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta pista a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esta pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esta pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa canción a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa canción a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa canción a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa canción a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa pista a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa pista a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa pista a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa pista a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade esa pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade esa pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la canción que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la canción que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la canción que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la canción que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la canción que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la canción que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la canción que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la canción que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la canción que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la canción que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la pista que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la pista que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la pista que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la pista que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la pista que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la pista que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la pista que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la pista que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	añade la pista que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	añade la pista que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda canción a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda canción a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda canción a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda canción a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda pista a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda pista a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda pista a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda pista a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta canción a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta canción a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta canción a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta canción a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta pista a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta pista a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta pista a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta pista a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esta pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esta pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa canción a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa canción a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa canción a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa canción a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa canción a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa canción a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa canción a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa pista a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa pista a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa pista a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa pista a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa pista a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa pista a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda esa pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda esa pista a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la canción que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la canción que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la canción que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la canción que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la canción que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la canción que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la canción que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la canción que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la canción que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la canción que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la pista que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la pista que se está reproduciendo a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la pista que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la pista que se está reproduciendo a mi playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la pista que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la pista que se está reproduciendo a lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la pista que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la pista que se está reproduciendo a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongToPlaylistWithName	-	guarda la pista que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylistWithName	-	guarda la pista que se está reproduciendo a la lista de reproducción SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	añade la pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la canción SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la canción SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la canción SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la canción SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la canción SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la pista SPOTIFY.SLOT.SONG a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la pista SPOTIFY.SLOT.SONG a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la pista SPOTIFY.SLOT.SONG a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la pista SPOTIFY.SLOT.SONG a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongWithNameToPlaylistWithName	-	guarda la pista SPOTIFY.SLOT.SONG a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	añade este SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	añade este SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	añade este SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	añade este SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	añade este SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	añade este SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	añade este SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	añade este SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	añade este SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	añade este SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	añade este SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	añade este SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	añade ese SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	añade ese SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	añade ese SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	añade ese SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	añade ese SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	añade ese SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	añade ese SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	añade ese SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	añade ese SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	añade ese SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	añade ese SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	añade ese SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	guarda este SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	guarda este SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	guarda este SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	guarda este SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	guarda este SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	guarda este SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	guarda este SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	guarda este SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	guarda este SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	guarda este SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	guarda este SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	guarda este SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a mi playlist SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a mi lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	AddAlbumToPlaylist	-	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST
+Spotify	AddAlbumToPlaylist	-	guarda ese SPOTIFY.SLOT.ALBUM_TYPE a la lista de reproducción SPOTIFY.SLOT.PLAYLIST en spotify
+Spotify	CreatePlaylist	-	crea playlist
+Spotify	CreatePlaylist	-	crea lista
+Spotify	CreatePlaylist	-	crea lista de reproducción
+Spotify	CreatePlaylist	-	crea nueva playlist
+Spotify	CreatePlaylist	-	crea nueva lista
+Spotify	CreatePlaylist	-	crea nueva lista de reproducción
+Spotify	CreatePlaylist	-	crea una playlist
+Spotify	CreatePlaylist	-	crea una lista
+Spotify	CreatePlaylist	-	crea una lista de reproducción
+Spotify	CreatePlaylist	-	crea una nueva playlist
+Spotify	CreatePlaylist	-	crea una nueva lista
+Spotify	CreatePlaylist	-	crea una nueva lista de reproducción
+Spotify	CreatePlaylist	-	añade playlist
+Spotify	CreatePlaylist	-	añade lista
+Spotify	CreatePlaylist	-	añade lista de reproducción
+Spotify	CreatePlaylist	-	añade nueva playlist
+Spotify	CreatePlaylist	-	añade nueva lista
+Spotify	CreatePlaylist	-	añade nueva lista de reproducción
+Spotify	CreatePlaylist	-	añade una playlist
+Spotify	CreatePlaylist	-	añade una lista
+Spotify	CreatePlaylist	-	añade una lista de reproducción
+Spotify	CreatePlaylist	-	añade una nueva playlist
+Spotify	CreatePlaylist	-	añade una nueva lista
+Spotify	CreatePlaylist	-	añade una nueva lista de reproducción
+Spotify	CreatePlaylistWithName	-	crea playlist llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea playlist titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea lista llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea lista titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea nueva playlist llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea nueva playlist titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea nueva lista llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea nueva lista titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea nueva lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea nueva lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea una playlist llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea una playlist titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea una lista llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea una lista titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea una lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea una lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea una nueva playlist llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea una nueva playlist titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea una nueva lista llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea una nueva lista titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea una nueva lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	crea una nueva lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade playlist llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade playlist titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade lista llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade lista titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade nueva playlist llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade nueva playlist titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade nueva lista llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade nueva lista titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade nueva lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade nueva lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade una playlist llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade una playlist titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade una lista llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade una lista titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade una lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade una lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade una nueva playlist llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade una nueva playlist titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade una nueva lista llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade una nueva lista titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade una nueva lista de reproducción llamada SPOTIFY.SLOT.PLAYLIST
+Spotify	CreatePlaylistWithName	-	añade una nueva lista de reproducción titulada SPOTIFY.SLOT.PLAYLIST
+Spotify	AddSongToPlaylist	-	guarda canción corriente
+Spotify	AddSongToPlaylist	-	guarda pista corriente
+Spotify	AddSongToPlaylist	-	guarda la canción corriente
+Spotify	AddSongToPlaylist	-	guarda la pista corriente
+Spotify	AddSongToPlaylist	-	guarda lo que se está reproduciendo a mi biblioteca
+Spotify	AddSongToPlaylist	-	guarda lo que se está reproduciendo ahora a mi biblioteca
+Spotify	AddSongToPlaylist	-	guarda esta canción
+Spotify	AddSongToPlaylist	-	guarda esta pista
+Spotify	AddSongToPlaylist	-	guarda esa canción
+Spotify	AddSongToPlaylist	-	guarda esa pista
+Spotify	SeekByTime	-	salta hasta segundo SPOTIFY.SLOT.SEEK_TIME
+Spotify	SeekByTime	-	salta al segundo SPOTIFY.SLOT.SEEK_TIME
+Spotify	SeekByTime	-	ve hasta segundo SPOTIFY.SLOT.SEEK_TIME
+Spotify	SeekByTime	-	ve al segundo SPOTIFY.SLOT.SEEK_TIME
+Spotify	ShuffleOnOff	-	activa barajar
+Spotify	ShuffleOnOff	-	activa mezclar
+Spotify	ShuffleOnOff	-	enciende barajar
+Spotify	ShuffleOnOff	-	enciende mezclar
+Spotify	ShuffleOnOff	-	desactiva barajar
+Spotify	ShuffleOnOff	-	desactiva mezclar
+Spotify	ShuffleOnOff	-	apaga barajar
+Spotify	ShuffleOnOff	-	apaga mezclar
+Spotify	RepeatOnOff	-	activa repetir
+Spotify	RepeatOnOff	-	enciende repetir
+Spotify	RepeatOnOff	-	desactiva repetir
+Spotify	RepeatOnOff	-	apaga repetir
+Spotify	ShowDencability	-	se puede bailar a esta canción
+Spotify	ShowDencability	-	se puede bailar a esta pista
+Spotify	ShowDencability	-	se puede bailar a esa canción
+Spotify	ShowDencability	-	se puede bailar a esa pista
+Spotify	ShowDencability	-	es esta canción buena para bailar
+Spotify	ShowDencability	-	es esta pista buena para bailar
+Spotify	ShowDencability	-	es esa canción buena para bailar
+Spotify	ShowDencability	-	es esa pista buena para bailar

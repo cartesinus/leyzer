@@ -1,10 +1,10 @@
 #JSGF V1.0;
-public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | CheckUserStatus__ <INTENT_3> | CheckMessagesFromUser__ <INTENT_4> | CheckMessagesInChannel__ <INTENT_5> | SendMessageToChannel__ <INTENT_6> | SetPurposeOnChannel__ <INTENT_7> | SetTopicInChannel__ <INTENT_8> | SetStatusAway__ <INTENT_9> | SendMessage__ <INTENT_10> | SendPictureToChannel__ <INTENT_11> | SendPictureToChannelWithCaption__ <INTENT_12> | SendPictureWithUrlToChannel__ <INTENT_13>);
+public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | CheckUserStatus__ <INTENT_3> | CheckMessagesFromUser__ <INTENT_4> | CheckMessagesInChannel__ <INTENT_5> | SendMessageToChannel__ <INTENT_6> | SetPurposeOnChannel__ <INTENT_7> | SetTopicInChannel__ <INTENT_8> | SetStatusAway__ <INTENT_9> | SendMessage__ <INTENT_10> | SendPictureToChannel__ <INTENT_11> | SendPictureToChannelWithCaption__ <INTENT_12> | SendPictureWithUrlToChannel__ <INTENT_13> | CheckChannelHistory__ <INTENT_14>);
 
 #INTENTS
 <INTENT_1> = (otwórz | uruchom) [aplikację] slacka;
 
-<INTENT_2> = <CHECK_VERB> [moje] [ostatnie | najnowsze] (wiadomości | historię kanału) na slacku;
+<INTENT_2> = <CHECK_VERB> [moje] [ostatnie | najnowsze] wiadomości na slacku;
 
 <INTENT_3> = [powiedź [mi]] czy <USERNAME> jest [w tym momencie | w tej chwili] aktywny [na slacku];
 
@@ -42,6 +42,8 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 <INTENT_13> = <INTENT_13_a> | <INTENT_13_b>;
 <INTENT_13_a> = <SEND_VERB> zdjęcie z <PICTURE_URL> na [slackowy] kanał <CHANNEL>;
 <INTENT_13_b> = umieść <PICTURE_URL> na kanale <CHANNEL>;
+
+<INTENT_14> = <CHECK_VERB> historię kanału [na slacku];
 
 #SLOTS
 <USERNAME> = SLACK.SLOT.USERNAME;

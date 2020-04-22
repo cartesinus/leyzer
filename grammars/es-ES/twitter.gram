@@ -9,17 +9,17 @@ public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | Unf
 <INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>;
 <INTENT_2_a> = sigue a <USERNAME> en twitter;
 <INTENT_2_b> = empieza a seguir a <USERNAME> en twitter;
-<INTENT_2_c> = empieza a ser el seguidor de twitter de <USERNAME>;
+<INTENT_2_c> = quiero seguir a <USERNAME> en twitter;
 <INTENT_2_d> = empieza a seguir en twitter a <USERNAME>;
 
 #unfollow given user
 <INTENT_3> = dea de seguir a <USERNAME> en twitter;
 
 #send message to user
-<INTENT_4> = [envía un] (mensaje [directo]| dm) en twitter diciendo <MESSAGE>;
+<INTENT_4> = [envía un] (mensaje [directo]) en twitter diciendo <MESSAGE>;
 
 #send message to user
-<INTENT_5> = [envía un] (mensaje [directo| dm]) en twitter a <USERNAME> diciendo <MESSAGE>;
+<INTENT_5> = [envía un] (mensaje [directo]) en twitter a <USERNAME> diciendo <MESSAGE>;
 
 #find tweets with hashtags
 <INTENT_6> = [busca | muestra | muéstrame | encuentra] (tuits | tweets) (con [(el | un)] hashtag | sobre) <HASHTAG> [en twitter];

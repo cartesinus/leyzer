@@ -1,10 +1,10 @@
 #JSGF V1.0;
-public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | CheckUserStatus__ <INTENT_3> | CheckMessagesFromUser__ <INTENT_4> | CheckMessagesInChannel__ <INTENT_5> | SendMessageToChannel__ <INTENT_6> | SetPurposeOnChannel__ <INTENT_7> | SetTopicInChannel__ <INTENT_8> | SetStatusAway__ <INTENT_9> | SendMessage__ <INTENT_10> | SendPictureToChannel__ <INTENT_11> | SendPictureToChannelWithCaption__ <INTENT_12> | SendPictureWithUrlToChannel__ <INTENT_13>);
+public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | CheckUserStatus__ <INTENT_3> | CheckMessagesFromUser__ <INTENT_4> | CheckMessagesInChannel__ <INTENT_5> | SendMessageToChannel__ <INTENT_6> | SetPurposeOnChannel__ <INTENT_7> | SetTopicInChannel__ <INTENT_8> | SetStatusAway__ <INTENT_9> | SendMessage__ <INTENT_10> | SendPictureToChannel__ <INTENT_11> | SendPictureToChannelWithCaption__ <INTENT_12> | SendPictureWithUrlToChannel__ <INTENT_13> | CheckChannelHistory__ <INTENT_14>);
 
 #INTENTS
 <INTENT_1> = abre slack;
 
-<INTENT_2> = <CHECK_VERB> (mis mensajes de slack recientes | mi historia de canal de slack);
+<INTENT_2> = <CHECK_VERB> (mis | los) mensajes recientes de slack;
 
 <INTENT_3> = (el estado de <USERNAME> | si <USERNAME> está (activo | fuera)) en slack;
 
@@ -42,6 +42,8 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 <INTENT_13> = <INTENT_13_a> | <INTENT_13_b>;
 <INTENT_13_a> = <SEND_VERB> <PICTURE_URL> a <CHANNEL> en slack;
 <INTENT_13_b> = publica <PICTURE_URL> en el canal de slack <CHANNEL>;
+
+<INTENT_14> = <CHECK_VERB> (mi | la) historia del canal de slack;
 
 #SLOTS
 <USERNAME> = SLACK.SLOT.USERNAME;

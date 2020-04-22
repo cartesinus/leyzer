@@ -8,11 +8,11 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 
 <INTENT_3> = cambia la (temperatura en mi termostato| temperatura máxima y mínima en mi termostato);
 
-<INTENT_4> = (establece | pon) (la temperatura en mi termostato a <VALUE> | la temperatura a <VALUE> en mi termostato | mi termostato a <VALUE>);
+<INTENT_4> = (adecua | pon) (la temperatura en mi termostato a <VALUE> | la temperatura a <VALUE> en mi termostato | mi termostato a <VALUE>);
 
-<INTENT_5> = (establece | pon) ([la temperatura en] mi termostato <DEVICE_NAME> a <VALUE> | la temperatura a <VALUE> en mi <DEVICE_NAME> termostato);
+<INTENT_5> = (adecua | pon) ([la temperatura en] mi termostato <DEVICE_NAME> a <VALUE> | la temperatura a <VALUE> en mi <DEVICE_NAME> termostato);
 
-<INTENT_6> = establece (la temperatura entre <LOW> y <HIGH> en mi termostato | la temperatura baja a <LOW> en mi termostato , y la temperatura alta a <HIGH>);
+<INTENT_6> = adecua (la temperatura entre <LOW> y <HIGH> en mi termostato | la temperatura baja a <LOW> en mi termostato , y la temperatura alta a <HIGH>);
 
 <INTENT_7> = cambia la (temperatura en mi termostato <DEVICE_NAME> | temperatura mínima y máxima en mi termostato <DEVICE_NAME>);
 

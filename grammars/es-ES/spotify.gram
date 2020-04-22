@@ -3,7 +3,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 
 #INTENTS
 #open spotify
-<INTENT_1> = ((abre | usa) spotify [(y | para) reproducir alguna música] | reproduce alguna música en spotify);
+<INTENT_1> = ((abre | usa) spotify [(y reproduce | para reproducir) alguna música] | reproduce ([alguna] música | algo) en spotify);
 
 #play given song
 <INTENT_2> = (reproduce [la canción] <SONG> [en spotify] | en spotify reproduce <SONG>);

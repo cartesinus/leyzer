@@ -1,98 +1,98 @@
 domain	intent	parallel	pattern
-Translate	SetDefaultLanguage	False	establece el idioma a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	establece el idioma de traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	establece el idioma de la traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	establece el idioma de salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	establece el idioma de la salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	establece el idioma estándar a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	establece el idioma estándar de traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	establece el idioma estándar de la traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	establece el idioma estándar de salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	establece el idioma estándar de la salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	cambia el idioma a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	cambia el idioma de traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	cambia el idioma de la traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	cambia el idioma de salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	cambia el idioma de la salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	cambia el idioma estándar a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	cambia el idioma estándar de traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	cambia el idioma estándar de la traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	cambia el idioma estándar de salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	cambia el idioma estándar de la salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	establece el idioma a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	establece el idioma de entrada a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	establece el idioma estándar a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	establece el idioma estándar de entrada a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	cambia el idioma a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	cambia el idioma de entrada a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	cambia el idioma estándar a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	cambia el idioma estándar de entrada a TRANSLATE.SLOT.ALL_LANG
-Translate	TranslateText	True	traducción de TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	True	cuál es la traducción de TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	True	la traducción de TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	True	traduce TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	True	traducción de TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	True	la traducción de TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	True	cómo se dice TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	False	cómo decir TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	True	cómo digo TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	True	cómo se traduce TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	False	cómo traducir TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	True	cómo traduzco TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateTextToLanguage	True	traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	True	cuál es la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	True	la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	True	traduce TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	True	traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	True	la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	False	traduce a TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateTextToLanguage	True	TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	True	TRANSLATE.SLOT.TEXT.EN traducido a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	False	cómo se dice TRANSLATE.SLOT.TEXT.EN in TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	False	cómo decir TRANSLATE.SLOT.TEXT.EN in TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	False	cómo digo TRANSLATE.SLOT.TEXT.EN in TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	False	cómo se traduce TRANSLATE.SLOT.TEXT.EN in TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	False	cómo traducir TRANSLATE.SLOT.TEXT.EN in TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	False	cómo traduzco TRANSLATE.SLOT.TEXT.EN in TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	False	di en TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateTextToLanguage	False	dime en TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateTextFromLanguageToLanguage	False	traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	False	traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	True	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	True	traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	True	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	True	la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguageWithEngine	True	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	True	traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	True	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	True	la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateToLanguage	False	traduce a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateToLanguage	True	traducción a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateToLanguage	False	una traducción a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguage	False	traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	False	traduce TRANSLATE.SLOT.SRC_LANG frase TRANSLATE.SLOT.TEXT
-Translate	TranslateTextFromLanguage	False	traduce TRANSLATE.SLOT.SRC_LANG la frase TRANSLATE.SLOT.TEXT
-Translate	TranslateTextFromLanguage	True	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	False	traducción de TRANSLATE.SLOT.SRC_LANG frase TRANSLATE.SLOT.TEXT
-Translate	TranslateTextFromLanguage	False	traducción de TRANSLATE.SLOT.SRC_LANG la frase TRANSLATE.SLOT.TEXT
-Translate	TranslateTextFromLanguage	True	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	False	la traducción de TRANSLATE.SLOT.SRC_LANG frase TRANSLATE.SLOT.TEXT
-Translate	TranslateTextFromLanguage	False	la traducción de TRANSLATE.SLOT.SRC_LANG la frase TRANSLATE.SLOT.TEXT
-Translate	DetectLanguage	True	idioma de TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	True	el idioma de TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	True	idioma en que TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	True	idioma en que TRANSLATE.SLOT.TEXT.MULTI está escrito
-Translate	DetectLanguage	True	idioma en el que TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	True	idioma en el que TRANSLATE.SLOT.TEXT.MULTI está escrito
-Translate	DetectLanguage	True	el idioma en que TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	True	el idioma en que TRANSLATE.SLOT.TEXT.MULTI está escrito
-Translate	DetectLanguage	True	el idioma en el que TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	True	el idioma en el que TRANSLATE.SLOT.TEXT.MULTI está escrito
-Translate	DetectLanguage	False	detecta idioma de TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	False	detecta el idioma de TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	False	detecta en qué idioma TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	False	detecta en qué idioma TRANSLATE.SLOT.TEXT.MULTI está escrito
+Translate	SetDefaultLanguage	-	establece el idioma a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	establece el idioma de traducción a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	establece el idioma de la traducción a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	establece el idioma de salida a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	establece el idioma de la salida a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	establece el idioma por defecto a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	establece el idioma por defecto de traducción a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	establece el idioma por defecto de la traducción a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	establece el idioma por defecto de salida a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	establece el idioma por defecto de la salida a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	cambia el idioma a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	cambia el idioma de traducción a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	cambia el idioma de la traducción a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	cambia el idioma de salida a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	cambia el idioma de la salida a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	cambia el idioma por defecto a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	cambia el idioma por defecto de traducción a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	cambia el idioma por defecto de la traducción a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	cambia el idioma por defecto de salida a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	cambia el idioma por defecto de la salida a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	establece el idioma a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	establece el idioma de entrada a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	establece el idioma por defecto a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	establece el idioma por defecto de entrada a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	cambia el idioma a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	cambia el idioma de entrada a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	cambia el idioma por defecto a TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	cambia el idioma por defecto de entrada a TRANSLATE.SLOT.ALL_LANG
+Translate	TranslateText	-	traducción de TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateText	-	cuál es la traducción de TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateText	-	la traducción de TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateText	-	traduce TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateText	-	traducción de TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateText	-	la traducción de TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateText	-	cómo se dice TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateText	-	cómo decir TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateText	-	cómo digo TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateText	-	cómo se traduce TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateText	-	cómo traducir TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateText	-	cómo traduzco TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateTextToLanguage	-	traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	cuál es la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	traduce TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	traduce a TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateTextToLanguage	-	TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	TRANSLATE.SLOT.TEXT.EN traducido a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	cómo se dice TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	cómo decir TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	cómo digo TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	cómo se traduce TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	cómo traducir TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	cómo traduzco TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextToLanguage	-	di en TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateTextToLanguage	-	dime en TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN
+Translate	TranslateTextFromLanguageToLanguage	-	traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextFromLanguageToLanguage	-	traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate	TranslateTextFromLanguageToLanguage	-	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextFromLanguageToLanguage	-	traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate	TranslateTextFromLanguageToLanguage	-	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextFromLanguageToLanguage	-	la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateToLanguage	-	traduce a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateToLanguage	-	traducción a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateToLanguage	-	una traducción a TRANSLATE.SLOT.TRG_LANG
+Translate	TranslateTextFromLanguage	-	traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate	TranslateTextFromLanguage	-	traduce TRANSLATE.SLOT.SRC_LANG frase TRANSLATE.SLOT.TEXT
+Translate	TranslateTextFromLanguage	-	traduce TRANSLATE.SLOT.SRC_LANG la frase TRANSLATE.SLOT.TEXT
+Translate	TranslateTextFromLanguage	-	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate	TranslateTextFromLanguage	-	traducción de TRANSLATE.SLOT.SRC_LANG frase TRANSLATE.SLOT.TEXT
+Translate	TranslateTextFromLanguage	-	traducción de TRANSLATE.SLOT.SRC_LANG la frase TRANSLATE.SLOT.TEXT
+Translate	TranslateTextFromLanguage	-	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate	TranslateTextFromLanguage	-	la traducción de TRANSLATE.SLOT.SRC_LANG frase TRANSLATE.SLOT.TEXT
+Translate	TranslateTextFromLanguage	-	la traducción de TRANSLATE.SLOT.SRC_LANG la frase TRANSLATE.SLOT.TEXT
+Translate	DetectLanguage	-	idioma de TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	el idioma de TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	idioma en que está escrito TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	idioma en que está escrito el texto TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	idioma en el que está escrito TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	idioma en el que está escrito el texto TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	el idioma en que está escrito TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	el idioma en que está escrito el texto TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	el idioma en el que está escrito TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	el idioma en el que está escrito el texto TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	detecta idioma de TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	detecta el idioma de TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	detecta en qué idioma está escrito TRANSLATE.SLOT.TEXT.MULTI
+Translate	DetectLanguage	-	detecta en qué idioma está escrito el textp TRANSLATE.SLOT.TEXT.MULTI

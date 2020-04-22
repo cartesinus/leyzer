@@ -3,10 +3,10 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 
 #INTENTS
 #method to set default target lang
-<INTENT_1> = (establece | cambia) el idioma [estándar] [de ([la] traducción | [la] salida)] a <ALL_LANG>;
+<INTENT_1> = (establece | cambia) el idioma [por defecto] [de ([la] traducción | [la] salida)] a <ALL_LANG>;
 
 #method to set default source lang
-<INTENT_2> = (establece | cambia) el idioma [estándar] [de entrada] a <ALL_LANG>;
+<INTENT_2> = (establece | cambia) el idioma [por defecto] [de entrada] a <ALL_LANG>;
 
 #default target language is set, simply provide text for translation (here default is english)
 <INTENT_3> = <INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c>;
@@ -20,7 +20,7 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_4_b> = (traduce | [la] traducción de) <TEXT_EN> a <TRG_LANG>;
 <INTENT_4_c> = traduce a <TRG_LANG> <TEXT_EN>;
 <INTENT_4_d> = <TEXT_EN> (en | traducido a) <TRG_LANG>;
-<INTENT_4_e> = cómo (se dice | decir | digo | se traduce | traducir | traduzco) <TEXT_EN> in <TRG_LANG>;
+<INTENT_4_e> = cómo (se dice | decir | digo | se traduce | traducir | traduzco) <TEXT_EN> a <TRG_LANG>;
 <INTENT_4_f> = (di | dime) en <TRG_LANG> <TEXT_EN>;
 
 #both source and target languages are provided together with text to translate
@@ -37,8 +37,8 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 
 #detect language of text
 <INTENT_9> = <INTENT_9_a> | <INTENT_9_b>;
-<INTENT_9_a> = [el] idioma de <TEXT_MULTI> | [el] idioma en [el] que <TEXT_MULTI> [está escrito];
-<INTENT_9_b> = detecta ([el] idioma de <TEXT_MULTI> | en qué idioma <TEXT_MULTI> [está escrito]);
+<INTENT_9_a> = [el] idioma de <TEXT_MULTI> | [el] idioma en [el] que está escrito [el texto] <TEXT_MULTI>;
+<INTENT_9_b> = detecta ([el] idioma de <TEXT_MULTI> | en qué idioma está escrito [el textp] <TEXT_MULTI>);
 
 #SLOTS
 <SRC_LANG> = TRANSLATE.SLOT.SRC_LANG;

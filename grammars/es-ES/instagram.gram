@@ -19,8 +19,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 #INTENTS
 <INTENT_1> = abre [(mi | el)] instagram;
 
-<INTENT_2> = <SHOW_VERB> mis imágenes de instagram [más recientes];
-
+<INTENT_2> = <SHOW_VERB> mis imágenes de instagram [más recientes] | <SHOW_VERB> mis imágenes [más recientes] de instagram;
 <INTENT_3> = <SHOW_VERB> mis <COUNT> imágenes de instagram (más recientes | más nuevos) [en mi cuenta];
 
 <INTENT_4> = <SHOW_VERB> mis (fotos | imágenes) de instagram (<INTENT_4_a> | <INTENT_4_b>);
@@ -52,4 +51,4 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 
 #LANG. COMPONENTS
 <NOTIFY_VERB> = notifícame | dime;
-<SHOW_VERB> = muestra | muéstrame | dame | enséñame;
+<SHOW_VERB> = muestra | muéstrame | quiero ver | enséñame;
