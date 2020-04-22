@@ -41,5 +41,6 @@ for lang in ["en-US", "es-ES", "pl-PL"]:
         --work_dir ../data/baseline/"$lang"/nemo/model \
         --max_seq_length 21 \
         --num_epochs 100 \
-        --optimizer_kind adam
+        --optimizer_kind adam \
+        --pretrained_model_name bert-base-multilingual-uncased
 

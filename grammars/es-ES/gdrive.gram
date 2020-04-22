@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> | ShowFilesWithStar__ <INTENT_3> | ShowFilesFromTime__ <INTENT_4> | ShowFilesWithSize__ <INTENT_5> | CreateFile__ <INTENT_6> | CreateFileWithName__ <INTENT_7> | ShowOldestFiles__ <INTENT_8> | SortReverseAlphabetical__ <INTENT_9> | OpenFileWithName__ <INTENT_10> | ShareFileWithNameToAddress__ <INTENT_11>);
+public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> | ShowFilesWithStar__ <INTENT_3> | ShowFilesFromTime__ <INTENT_4> | ShowFilesWithSize__ <INTENT_5> | CreateFile__ <INTENT_6> | CreateFileWithName__ <INTENT_7> | ShowOldestFiles__ <INTENT_8> | ShowNewestFiles__ <INTENT_9> | SortAlphabetical__ <INTENT_10> | SortReverseAlphabetical__ <INTENT_11> | OpenFileWithName__ <INTENT_12> | ShareFileWithNameToAddress__ <INTENT_13>);
 
 #INTENTS
 <INTENT_1> = <SHOW_VERB> mis archivos (de | en) google drive;
@@ -16,13 +16,17 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 
 <INTENT_7> = crea (un nuevo archivo con el título <FILE_NAME> en google drive | un archivo de google drive llamado <FILE_NAME>);
 
-<INTENT_8> = <SHOW_VERB> mis archivos de google drive ((más nuevos | más antiguos) | creados recientemente);
+<INTENT_8> = <SHOW_VERB> mis archivos de google drive más antiguos;
 
-<INTENT_9> = <SHOW_VERB> mis archivos de google drive en [la | una] órden alfabética [reversa];
+<INTENT_9> = <SHOW_VERB> mis archivos de google drive (más antiguos | creados recientemente);
 
-<INTENT_10> = abre mi arvicho <FILE_NAME> para editar en google drive;
+<INTENT_10> = <SHOW_VERB> mis archivos de google drive en [la | una] órden alfabética;
 
-<INTENT_11> = comparte mi <FILE_NAME> con <MAIL> [y dale el permiso para (editar | leer | leer y escribir)];
+<INTENT_11> = <SHOW_VERB> mis archivos de google drive en [la | una] órden alfabética [reversa];
+
+<INTENT_12> = abre mi archivo <FILE_NAME> para editar en google drive;
+
+<INTENT_13> = comparte mi [archivo] <FILE_NAME> con <MAIL> [y dale el permiso para (editar | leer | leer y escribir)];
 
 #SLOTS
 <MIME_TYPE> = GDRIVE.SLOT.MIME_TYPE;

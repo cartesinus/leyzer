@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> | ShowFilesWithStar__ <INTENT_3> | ShowFilesFromTime__ <INTENT_4> | ShowFilesWithSize__ <INTENT_5> | CreateFile__ <INTENT_6> | CreateFileWithName__ <INTENT_7> | ShowOldestFiles__ <INTENT_8> | SortReverseAlphabetical__ <INTENT_9> | OpenFileWithName__ <INTENT_10> | ShareFileWithNameToAddress__ <INTENT_11>);
+public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> | ShowFilesWithStar__ <INTENT_3> | ShowFilesFromTime__ <INTENT_4> | ShowFilesWithSize__ <INTENT_5> | CreateFile__ <INTENT_6> | CreateFileWithName__ <INTENT_7> | ShowOldestFiles__ <INTENT_8> | ShowNewestFiles__  <INTENT_9> | SortAlphabetical__ <INTENT_10> | SortReverseAlphabetical__ <INTENT_10> | OpenFileWithName__ <INTENT_11> | ShareFileWithNameToAddress__ <INTENT_12>);
 
 #PRECONDITIONS
 <WHEN> = when a file is modified on google drive;
@@ -24,13 +24,17 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 
 <INTENT_7> = create (a new file with name <FILE_NAME> on google drive | a file in google drive named <FILE_NAME>);
 
-<INTENT_8> = <SHOW_VERB> my ((newest | oldest) google drive files | google drive files that were created most recently);
+<INTENT_8> = <SHOW_VERB> my (oldest | least recently created) google drive files;
 
-<INTENT_9> = <SHOW_VERB> my google drive files in [reverse] alphabetical order;
+<INTENT_9> = <SHOW_VERB> my (newest google drive files | google drive files that were created most recently);
 
-<INTENT_10> = open my <FILE_NAME> for edition in google drive;
+<INTENT_10> = <SHOW_VERB> my google drive files in alphabetical order;
 
-<INTENT_11> = share my <FILE_NAME> with <MAIL> [and give a permission (for edition | for reading | to read and write)];
+<INTENT_11> = <SHOW_VERB> my google drive files in reverse alphabetical order;
+
+<INTENT_12> = open my <FILE_NAME> for edition in google drive;
+
+<INTENT_13> = share my <FILE_NAME> with <MAIL> [and give a permission (for edition | for reading | to read and write)];
 
 #SLOTS
 <MIME_TYPE> = GDRIVE.SLOT.MIME_TYPE;
