@@ -39,8 +39,13 @@ for lang in ["en-US", "es-ES", "pl-PL"]:
     !cd NeMo && python examples/nlp/intent_detection_slot_tagging/joint_intent_slot_with_bert.py \
         --data_dir ../data/baseline/"$lang"/nemo/ \
         --work_dir ../data/baseline/"$lang"/nemo/model \
-        --max_seq_length 21 \
+        --max_seq_length 35 \
         --num_epochs 100 \
         --optimizer_kind adam \
         --pretrained_model_name bert-base-multilingual-uncased
 
+    !cd NeMo && python examples/nlp/intent_detection_slot_tagging/joint_intent_slot_infer.py \
+        --data_dir ../data/baseline/"$lang"/nemo/ \
+        --checkpoint_dir ../data/baseline/"$lang"/nemo/model/*/checkpoints/ \
+        --pretrained_model_name bert-base-multilingual-uncased \
+        --eval_file_prefix test
