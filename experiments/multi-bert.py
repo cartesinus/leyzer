@@ -51,13 +51,18 @@ for mode in ["train", "test", "dev"]:
 
 for lang in ["en-US", "es-ES", "pl-PL"]:
     !mkdir -p /content/data/multilang/"$lang"/
+    !cp /content/data/zeroshot/atis.dict.intent.csv \
+        /content/data/zeroshot/atis.dict.vocab.csv \
+        /content/data/zeroshot/atis.dict.slots.csv \
+        /content/data/zeroshot/"$lang"/
 
-    !./leyzer/scripts/convert-to-atis.py --input \
-        /content/leyzer/corpora/0.1.0/leyzer-test-"$lang"-0.1.0.tsv \
-        --output /content/data/multilang/"$lang"/ \
-        -n /content/data/multilang/atis.dict.intent.csv \
-        -t /content/data/multilang/atis.dict.vocab.csv \
-        -s /content/data/multilang/atis.dict.slots.csv --part test
+    for mode in ["train", "test", "dev"]:
+        !./leyzer/scripts/convert-to-atis.py --input \
+            /content/leyzer/corpora/0.1.0/leyzer-"$mode"-"$lang"-0.1.0.tsv \
+            --output /content/data/multilang/"$lang"/ \
+            -n /content/data/multilang/atis.dict.intent.csv \
+            -t /content/data/multilang/atis.dict.vocab.csv \
+            -s /content/data/multilang/atis.dict.slots.csv --part "$mode"
 
     !mkdir -p data/multilang/"$lang"/nemo/
     !cd NeMo/examples/nlp/intent_detection_slot_tagging/data/ && python import_datasets.py \

@@ -49,13 +49,18 @@ for mode in ["train", "test", "dev"]:
 
 for lang in ["es-ES", "pl-PL"]:
     !mkdir -p /content/data/zeroshot/"$lang"/
+    !cp /content/data/zeroshot/atis.dict.intent.csv \
+        /content/data/zeroshot/atis.dict.vocab.csv \
+        /content/data/zeroshot/atis.dict.slots.csv \
+        /content/data/zeroshot/"$lang"/
 
-    !./leyzer/scripts/convert-to-atis.py --input \
-        /content/leyzer/corpora/0.1.0/leyzer-test-"$lang"-0.1.0.tsv \
-        --output /content/data/zeroshot/"$lang"/ \
-        -n /content/data/zeroshot/atis.dict.intent.csv \
-        -t /content/data/zeroshot/atis.dict.vocab.csv \
-        -s /content/data/zeroshot/atis.dict.slots.csv --part test
+    for mode in ["train", "test", "dev"]:
+        !./leyzer/scripts/convert-to-atis.py --input \
+            /content/leyzer/corpora/0.1.0/leyzer-"$mode"-"$lang"-0.1.0.tsv \
+            --output /content/data/zeroshot/"$lang"/ \
+            -n /content/data/zeroshot/atis.dict.intent.csv \
+            -t /content/data/zeroshot/atis.dict.vocab.csv \
+            -s /content/data/zeroshot/atis.dict.slots.csv --part "$mode"
 
     !mkdir -p data/zeroshot/"$lang"/nemo/
     !cd NeMo/examples/nlp/intent_detection_slot_tagging/data/ && python import_datasets.py \
@@ -65,6 +70,6 @@ for lang in ["es-ES", "pl-PL"]:
 
     !cd NeMo && python examples/nlp/intent_detection_slot_tagging/joint_intent_slot_infer.py \
         --data_dir ../data/zeroshot/"$lang"/nemo/ \
-        --checkpoint_dir ../data/zeroshot/"$lang"/nemo/model/*/checkpoints/ \
+        --checkpoint_dir ../data/zeroshot/nemo/model/*/checkpoints/ \
         --pretrained_model_name bert-base-multilingual-uncased \
         --eval_file_prefix test
