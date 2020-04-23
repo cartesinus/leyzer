@@ -6,6 +6,7 @@ This script, designed to be run on colab, will convert leyzer corpora to atis fo
 
 To convert this script to ipynb you can use https://pypi.org/project/ipynb-py-convert/.
 """
+corpus_version = "0.1.0"
 
 !pip install nemo-nlp
 !git clone https://github.com/NVIDIA/NeMo
@@ -17,7 +18,8 @@ To convert this script to ipynb you can use https://pypi.org/project/ipynb-py-co
 !mkdir -p /content/data/zeroshot/
 
 # we need same dictionary for all languages
-!cat /content/leyzer/corpora/0.1.0/leyzer-*-*-*-0.1.0.tsv > /content/data/zeroshot/all-data.tsv
+!cat /content/leyzer/corpora/"$corpus_version"/leyzer-*-*-*-"$corpus_version".tsv \
+    > /content/data/zeroshot/all-data.tsv
 !sed -i '1b;/^domain\tintent/d' /content/data/zeroshot/all-data.tsv
 
 !./leyzer/scripts/convert-to-atis.py --create_dictionary \
@@ -27,7 +29,7 @@ To convert this script to ipynb you can use https://pypi.org/project/ipynb-py-co
 !mkdir -p /content/data/zeroshot/data/
 for mode in ["train", "test", "dev"]:
     !./leyzer/scripts/convert-to-atis.py --input \
-        /content/leyzer/corpora/0.1.0/leyzer-"$mode"-en-US-0.1.0.tsv \
+        /content/leyzer/corpora/"$corpus_version"/leyzer-"$mode"-en-US-"$corpus_version".tsv \
         --output /content/data/zeroshot/ \
         -n /content/data/zeroshot/atis.dict.intent.csv \
         -t /content/data/zeroshot/atis.dict.vocab.csv \
@@ -56,7 +58,7 @@ for lang in ["es-ES", "pl-PL"]:
 
     for mode in ["train", "test", "dev"]:
         !./leyzer/scripts/convert-to-atis.py --input \
-            /content/leyzer/corpora/0.1.0/leyzer-"$mode"-"$lang"-0.1.0.tsv \
+            /content/leyzer/corpora/"$corpus_version"/leyzer-"$mode"-"$lang"-"$corpus_version".tsv \
             --output /content/data/zeroshot/"$lang"/ \
             -n /content/data/zeroshot/atis.dict.intent.csv \
             -t /content/data/zeroshot/atis.dict.vocab.csv \

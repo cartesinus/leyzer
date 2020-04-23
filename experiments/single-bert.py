@@ -6,6 +6,7 @@ This script, designed to be run on colab, will convert leyzer corpora to atis fo
 
 To convert this script to ipynb you can use https://pypi.org/project/ipynb-py-convert/.
 """
+corpus_version = "0.1.0"
 
 !pip install nemo-nlp
 !git clone https://github.com/NVIDIA/NeMo
@@ -17,14 +18,14 @@ To convert this script to ipynb you can use https://pypi.org/project/ipynb-py-co
 for lang in ["en-US", "es-ES", "pl-PL"]:
     !mkdir -p /content/data/baseline/"$lang"/
     !./leyzer/scripts/convert-to-atis.py --create_dictionary \
-        /content/leyzer/corpora/0.1.0/leyzer-dev-"$lang"-0.1.0.tsv \
-        /content/leyzer/corpora/0.1.0/leyzer-test-"$lang"-0.1.0.tsv \
-        /content/leyzer/corpora/0.1.0/leyzer-train-"$lang"-0.1.0.tsv \
+        /content/leyzer/corpora/"$corpus_version"/leyzer-dev-"$lang"-"$corpus_version".tsv \
+        /content/leyzer/corpora/"$corpus_version"/leyzer-test-"$lang"-"$corpus_version".tsv \
+        /content/leyzer/corpora/"$corpus_version"/leyzer-train-"$lang"-"$corpus_version".tsv \
         --output /content/data/baseline/"$lang"/
 
     for mode in ["train", "test", "dev"]:
         !./leyzer/scripts/convert-to-atis.py --input \
-            /content/leyzer/corpora/0.1.0/leyzer-"$mode"-"$lang"-0.1.0.tsv \
+            /content/leyzer/corpora/"$corpus_version"/leyzer-"$mode"-"$lang"-"$corpus_version".tsv \
             --output /content/data/baseline/"$lang"/ \
             -n /content/data/baseline/"$lang"/atis.dict.intent.csv \
             -t /content/data/baseline/"$lang"/atis.dict.vocab.csv \

@@ -6,6 +6,7 @@ This script, designed to be run on colab, will convert leyzer corpora to atis fo
 
 To convert this script to ipynb you can use https://pypi.org/project/ipynb-py-convert/.
 """
+corpus_version = "0.1.0"
 
 !pip install nemo-nlp
 !git clone https://github.com/NVIDIA/NeMo
@@ -16,7 +17,8 @@ To convert this script to ipynb you can use https://pypi.org/project/ipynb-py-co
 # train multilang
 !mkdir -p /content/data/multilang/
 
-!cat /content/leyzer/corpora/0.1.0/leyzer-*-*-*-0.1.0.tsv > /content/data/multilang/all-data.tsv
+!cat /content/leyzer/corpora/"$corpus_version"/leyzer-*-*-*-"$corpus_version".tsv \
+    > /content/data/multilang/all-data.tsv
 !sed -i '1b;/^domain\tintent/d' /content/data/multilang/all-data.tsv
 
 !./leyzer/scripts/convert-to-atis.py --create_dictionary \
@@ -25,11 +27,12 @@ To convert this script to ipynb you can use https://pypi.org/project/ipynb-py-co
 
 !mkdir -p /content/data/multilang/data/
 for mode in ["train", "test", "dev"]:
-    !cat /content/leyzer/corpora/0.1.0/leyzer-"$mode"-*-*-0.1.0.tsv | sed '1b;/^domain\tintent/d' \
-        > /content/data/multilang/data/leyzer-"$mode"-all-0.1.0.tsv
+    !cat /content/leyzer/corpora/"$corpus_version"/leyzer-"$mode"-*-*-"$corpus_version".tsv | \
+        sed '1b;/^domain\tintent/d' \
+        > /content/data/multilang/data/leyzer-"$mode"-all-"$corpus_version".tsv
 
     !./leyzer/scripts/convert-to-atis.py --input \
-        /content/data/multilang/data/leyzer-"$mode"-all-0.1.0.tsv \
+        /content/data/multilang/data/leyzer-"$mode"-all-"$corpus_version".tsv \
         --output /content/data/multilang/ \
         -n /content/data/multilang/atis.dict.intent.csv \
         -t /content/data/multilang/atis.dict.vocab.csv \
@@ -51,14 +54,14 @@ for mode in ["train", "test", "dev"]:
 
 for lang in ["en-US", "es-ES", "pl-PL"]:
     !mkdir -p /content/data/multilang/"$lang"/
-    !cp /content/data/zeroshot/atis.dict.intent.csv \
-        /content/data/zeroshot/atis.dict.vocab.csv \
-        /content/data/zeroshot/atis.dict.slots.csv \
-        /content/data/zeroshot/"$lang"/
+    !cp /content/data/multilang/atis.dict.intent.csv \
+        /content/data/multilang/atis.dict.vocab.csv \
+        /content/data/multilang/atis.dict.slots.csv \
+        /content/data/multilang/"$lang"/
 
     for mode in ["train", "test", "dev"]:
         !./leyzer/scripts/convert-to-atis.py --input \
-            /content/leyzer/corpora/0.1.0/leyzer-"$mode"-"$lang"-0.1.0.tsv \
+            /content/leyzer/corpora/"$corpus_version"/leyzer-"$mode"-"$lang"-"$corpus_version".tsv \
             --output /content/data/multilang/"$lang"/ \
             -n /content/data/multilang/atis.dict.intent.csv \
             -t /content/data/multilang/atis.dict.vocab.csv \
