@@ -16,12 +16,12 @@ corpus_version = "0.1.0"
 
 # train train-on-target
 for lang in ["es-ES", "pl-PL"]:
-    lang_short=`echo "$lang" | cut -f1 -d'-'`
+    lang_short = lang.split('-')[0]
     !mkdir -p /content/data/train-on-target/"$lang"/
     !./leyzer/scripts/convert-to-atis.py --create_dictionary \
         /content/leyzer/corpora/"$corpus_version"/leyzer-dev-"$lang"-"$corpus_version".tsv \
         /content/leyzer/corpora/"$corpus_version"/leyzer-test-"$lang"-"$corpus_version".tsv \
-        /content/leyzer/corpora/"$corpus_version"/train-on-target/leyzer-train-"$lang_short"-"$corpus_version".tsv \
+        /content/leyzer/corpora/"$corpus_version"/train-on-target/leyzer-train-en2"$lang_short"-"$corpus_version".tsv \
         --output /content/data/train-on-target/"$lang"/
 
     for mode in ["test", "dev"]:
@@ -33,7 +33,7 @@ for lang in ["es-ES", "pl-PL"]:
             -s /content/data/train-on-target/"$lang"/atis.dict.slots.csv --part "$mode"
 
     !./leyzer/scripts/convert-to-atis.py --input \
-        /content/leyzer/corpora/"$corpus_version"/train-on-target/leyzer-train-"$lang_short"-"$corpus_version".tsv \
+        /content/leyzer/corpora/"$corpus_version"/train-on-target/leyzer-train-en2"$lang_short"-"$corpus_version".tsv \
         --output /content/data/train-on-target/"$lang"/ \
         -n /content/data/train-on-target/"$lang"/atis.dict.intent.csv \
         -t /content/data/train-on-target/"$lang"/atis.dict.vocab.csv \
