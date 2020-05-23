@@ -1,0 +1,67 @@
+#JSGF V1.0;
+public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> | ShowEmailWithLabel__ <INTENT_3> | ShowEmailFromTime__ <INTENT_4> | ShowEmailWithSubject__ <INTENT_5> | ShowEmailWithPriority__ <INTENT_6> | SendEmailToAddressWithSubjectAndWithMessage__ <INTENT_7> | SendEmailToAddressWithSubject__ <INTENT_8> | SendEmail__ <INTENT_9> | SendEmailToAddress__ <INTENT_10> | ReplyToEmailFromAddress__ <INTENT_11>);
+
+#INTENTS
+<INTENT_1> = <INTENT_1_en> _-_ <INTENT_1_pl>;
+    <INTENT_1_en> = <INTENT_1_en_a> | <INTENT_1_en_b> | <INTENT_1_en_c>;
+    <INTENT_1_en_a> = (check [out] | refresh) [my] (email | gmail) [inbox] | check [out] [my] emails;
+    <INTENT_1_en_b> = check [out] my primary category emails;
+    <INTENT_1_en_c> = check [out] ((my latest email | my emails | my emails on gmail | my gmail inbox) | if i (have | got) [some | any] new (emails | email messages) [in my inbox]);
+    <INTENT_1_pl> = <INTENT_1_pl_a> | <INTENT_1_pl_b> | <INTENT_1_pl_c>;
+    <INTENT_1_pl_a> = (wymeldować | wymelduj | odnawiaj) [moje] (pudełko email | email pudełko | email inbox | emaile) ;
+    <INTENT_1_pl_b> = sprawdź [moje] emaile (kategori podstawowej | podstawowej kategorii);
+    <INTENT_1_pl_c> = (pokaż | sprawdź) ([moje] najpóźniejsze emaile [na (gmailu | gmail)] | jeżeli ja mam jakieś nowe emaile [w moim (pudełku | skrzynce)]);
+
+<INTENT_2> = <INTENT_2_en> _-_ <INTENT_2_pl>;
+    <INTENT_2_en> = check [out] [my] emails (from | i (got | received) from) <SENDER_ADDRESS>;
+    <INTENT_2_pl> = (sprawdź | wymelduj | odnawiaj | wymeldować) [moje] emaile które [ja] (otrzymałem | otrzymałam) od <SENDER_ADDRESS>;
+
+<INTENT_3> = <INTENT_3_en> _-_ <INTENT_3_pl>;
+    <INTENT_3_en> = (show me | get | display | find | search for) [my] emails (labelled | with a label | that have a label) <LABEL>;
+    <INTENT_3_pl> = (wyświetlacz | poszukaj) [moje | me] emaile (etykietowane | oznaczone | które mają label) <LABEL>;
+
+<INTENT_4> = <INTENT_4_en> _-_ <INTENT_4_pl>;
+    <INTENT_4_en> = (show me | get | display | find | search for) [my] emails (that arrived | received) <TIME>;
+    <INTENT_4_pl> = (wyświetlacz | poszukiwanie | poszukaj) [moje] emaile przyjęte <TIME>;
+
+<INTENT_5> = <INTENT_5_en> _-_ <INTENT_5_pl>;
+    <INTENT_5_en> = (show me | get | display | find | search for) [my] emails with a subject <SUBJECT>;
+    <INTENT_5_pl> = (wyświetlacz | poszukiewanie | dostań | zdobądź) [moje] emaile (z tematem | o temacie) <SUBJECT> | (pokaż [mi] | wyświetl | znajdź) [moje] emaile z przedmiotem <SUBJECT>;
+
+<INTENT_6> = <INTENT_6_en> _-_ <INTENT_6_pl>;
+    <INTENT_6_en> = (display | get (me | my) | show me) <PRIORITY> emails;
+    <INTENT_6_pl> = (daj mi | wyświetlacz) (<PRIORITY> emaile | emaile <PRIORITY>);
+
+<INTENT_7> = <INTENT_7_en> _-_ <INTENT_7_pl>;
+    <INTENT_7_en> = (<SEND_EMAIL_en> to <TO> with a subject <SUBJECT> with message <MESSAGE> [using my gmail] | email <TO> with subject <SUBJECT> and message <MESSAGE>);
+    <INTENT_7_pl> = <SEND_EMAIL_pl> do <TO> o temacie <SUBJECT> z wiadomością <MESSAGE> [używając [mój] gmail] | wyślij [mail | email] do <TO> o przedmiocie <SUBJECT> i (wiadomość | wiadomości) <MESSAGE> ;
+
+<INTENT_8> = <INTENT_8_en> _-_ <INTENT_8_pl>;
+    <INTENT_8_en> = (<SEND_EMAIL_en> to <TO> with a subject <SUBJECT> [using my gmail] | email to <TO> with a subject <SUBJECT>);
+    <INTENT_8_pl> = <SEND_EMAIL_pl> do <TO> z tematem <SUBJECT> | (wyślij | prześlij [ponownie]) email do <TO> z przedmiotem <SUBJECT>;
+
+<INTENT_9> = <INTENT_9_en> _-_ <INTENT_9_pl>;
+    <INTENT_9_en> = <SEND_EMAIL_en> [to somebody | somewhere];
+    <INTENT_9_pl> = <SEND_EMAIL_pl> (do kogoś | gdzieś);
+
+<INTENT_10> = <INTENT_10_en> _-_ <INTENT_10_pl>;
+    <INTENT_10_en> = (send [an] email to <TO> using my gmail | email <TO>);
+    <INTENT_10_pl> = wysyłać email do <TO> [używając [mojego] gmaila] | <TO> email;
+
+<INTENT_11> = <INTENT_11_en> _-_ <INTENT_11_pl>;
+    <INTENT_11_en> = (reply to | answer) <TO>;
+    <INTENT_11_pl> = powtórka do <TO>;
+
+#SLOTS
+<SENDER_ADDRESS> = EMAIL.SLOT.SENDER_ADDRESS;
+<LABEL> = EMAIL.SLOT.LABEL;
+<SUBJECT> = EMAIL.SLOT.SUBJECT;
+<TO> = EMAIL.SLOT.TO;
+<MESSAGE> = EMAIL.SLOT.MESSAGE;
+<PIC_URL> = EMAIL.SLOT.PIC_URL
+<TIME> = EMAIL.SLOT.TIME;
+<PRIORITY> = EMAIL.SLOT.PRIORITY;
+
+#LANG. COMPONENTS
+<SEND_EMAIL_en> = (send | forward | resend) an email;
+<SEND_EMAIL_pl> = (słać | posłać | wystrzelić | zasyłać | wystrzelić | naprzód | pędzić) email;

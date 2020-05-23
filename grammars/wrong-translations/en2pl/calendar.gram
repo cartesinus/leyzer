@@ -1,0 +1,58 @@
+#JSGF V1.0;
+public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithDate__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8>);
+
+#PRECONDITIONS
+<WHEN_1_en> = when an (meeting | appointment | event) (in | from) (my | the) calendar begins;
+<WHEN_1_pl> = kiedy spotykam w moim kalendarzu początek | kiedy mojego kalendarza początek | kiedy rozpocznie wydarzenie w moim kalendarzu;
+
+<WHEN_2_en> = when an (meeting | appointment | event) in (my | the) calendar in [location] <LOCATION> begins;
+<WHEN_2_pl> = kiedy spotykam w <LOCATION> w moim kalendarzu początek | kiedy rozpocznę w <LOCATION> mój kalendarz | kiedy w <LOCATION> zlokalizuję w moim kalendarzu [początek];
+
+#INTENTS
+<INTENT_1> = <INTENT_1_en> _-_ <INTENT_1_pl>;
+    <INTENT_1_en> = <SHOW_VERB> my calendar;
+    <INTENT_1_pl> = wyświetlacz mojego kalendarza | mój otwarty kalendarz | mój wolny kalendarz | mój pokazowy kalendarz;
+
+<INTENT_2> = <INTENT_2_en> _-_ <INTENT_2_pl>;
+    <INTENT_2_en> = whats (on my schedule | in my agenda | happening) <DATE>;
+    <INTENT_2_pl> = (jaki jest heppening | co jest w moja agenda | w mój grafik) <DATE>;
+
+<INTENT_3> = <INTENT_3_en> _-_ <INTENT_3_pl>;
+    <INTENT_3_en> = (add an event [called] <EVENT_NAME> [to (my | the) calendar] | create and event [called] <EVENT_NAME> [in (my | the) calendar]);
+    <INTENT_3_pl> = dodaj wydarzenie zadzwoń <EVENT_NAME> do mojego kalendarza | (stwórz | kreuj | stworzenie) wydarzenie zadzwoń <EVENT_NAME> w moim kalendarzu;
+
+<INTENT_4> = <INTENT_4_en> _-_ <INTENT_4_pl>;
+    <INTENT_4_en> = <INTENT_4_en_a> | <INTENT_4_en_b> | <INTENT_4_en_c>;
+    <INTENT_4_en_a> = add an event [called] <EVENT_NAME> [to (my | the) calendar] <DATE>;
+    <INTENT_4_en_b> = create an event [called] <EVENT_NAME> [in (my | the) calendar] <DATE>;
+    <INTENT_4_en_c> = (add an event [to (my | the) calendar] | create an event [in (my | the) calendar]) <DATE> and (call it | name it | give it a title) <EVENT_NAME>;
+    <INTENT_4_pl> = <INTENT_4_pl_a> | <INTENT_4_pl_b> | <INTENT_4_pl_c>;
+    <INTENT_4_pl_a> = (dodaj wydarzenie zadzwoń | dodawanie wydarzeń nazwanych | dodana nazwa) <EVENT_NAME> [do [mojego] kalendarza] <DATE>;
+    <INTENT_4_pl_b> = (stwórz | kreuj | stworzenie) wydarzenia <EVENT_NAME> [w [moim] kalendarzu | do [mojego] kalendarza] <DATE>;
+    <INTENT_4_pl_c> = (dodaj | dodawanie) (wydarzenie | wydarzenia) [do [mojego] kalendarza] <DATE> i (zadzwoń | daj mu tytuł) <EVENT_NAME>;
+
+<INTENT_5> = <INTENT_5_en> _-_ <INTENT_5_pl>;
+    <INTENT_5_en> = notify me <WHEN_1_en>;
+    <INTENT_5_pl> = (moje (powiadomienia | zgłoszenia | doniesienienia) | zgłoś mnie | donieś mi) <WHEN_1_pl>;
+
+<INTENT_6> = <INTENT_6_en> _-_ <INTENT_6_pl>;
+    <INTENT_6_en> = do not notify me <WHEN_1_en>;
+    <INTENT_6_pl> = nie (moje (powiadomienia | zgłoszenia | doniesienienia) | (zgłoś | zgłaszaj) mnie | (donieś | donoś) mi) <WHEN_1_pl>;
+
+<INTENT_7> = <INTENT_7_en> _-_ <INTENT_7_pl>;
+    <INTENT_7_en> = notify me <WHEN_2_en>;
+    <INTENT_7_pl> = (moje (powiadomienia | zgłoszenia | doniesienienia) | zgłoś mnie | donieś mi) <WHEN_2_pl>;
+
+<INTENT_8> = <INTENT_8_en> _-_ <INTENT_8_pl>;
+    <INTENT_8_en> = do not notify me <WHEN_2_en>;
+    <INTENT_8_pl> = nie (moje (powiadomienia | zgłoszenia | doniesienienia) | (zgłoś | zgłaszaj) mnie | (donieś | donoś) mi) <WHEN_2_pl>;
+
+#SLOTS
+<DATE> = CALENDAR.SLOT.DATE;
+<EVENT_NAME> = CALENDAR.SLOT.EVENT_NAME;
+<LOCATION> = CALENDAR.SLOT.LOCATION;
+<ORGANIZER> = CALENDAR.SLOT.ORGANIZER;
+<COUNTRY> = CALENDAR.SLOT.COUNTRY;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = show | display | open;

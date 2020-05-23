@@ -1,0 +1,53 @@
+#JSGF V1.0;
+public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | PostPicture__ <INTENT_3> | PostPictureWithCaption__ <INTENT_4> | PostPictureWithUrl__ <INTENT_5> | PostPictureWithUrlAndWithCaption__ <INTENT_6> | ShowAlbumWithName__ <INTENT_7>);
+
+#INETNTS
+<INTENT_1> = <INTENT_1_en> _-_ <INTENT_1_pl>;
+    <INTENT_1_en> = (post something on facebook | create a new facebook post | update my facebook status | create a new post on facebook);
+    <INTENT_1_pl> = postuj coś na (facebook | facebooka) | twórz nowy post facebooka | aktualizuj status facebooka | twórz nowy post facebooka;
+
+<INTENT_2> = <INTENT_2_en> _-_ <INTENT_2_pl>;
+    <INTENT_2_en> = <INTENT_2_en_a> | <INTENT_2_en_b> | <INTENT_2_en_c> | <INTENT_2_en_d>;
+    <INTENT_2_en_a> = (write | post) a status <STATUS> on facebook;
+    <INTENT_2_en_b> = (write | post) on facebook [saying | that] <STATUS>;
+    <INTENT_2_en_c> = update my facebook (status | wall) saying <STATUS>;
+    <INTENT_2_en_d> = create a new post (that says | containing) <STATUS> on facebook;
+    <INTENT_2_pl> = <INTENT_2_pl_a> | <INTENT_2_pl_b> | <INTENT_2_pl_c> | <INTENT_2_pl_d>;
+    <INTENT_2_pl_a> = (pisz | napisz) <STATUS> na (facebook | facebooka);
+    <INTENT_2_pl_b> = (pisz | napisz) na (facebook | facebooka) że <STATUS>;
+    <INTENT_2_pl_c> = aktualizuj mój facebook (status | ścianę) mówiąc <STATUS>;
+    <INTENT_2_pl_d> = stwórz nowy post który mówi <STATUS> [na (facebook | facebooka)];
+
+<INTENT_3> = <INTENT_3_en> _-_ <INTENT_3_pl>;
+    <INTENT_3_en> = <POST_VERB_en> a picture (on | to) [my] facebook;
+    <INTENT_3_pl> = <POST_VERB_pl> zdjęcie (na | do) mojego (facebook | facebooka);
+
+<INTENT_4> = <INTENT_4_en> _-_ <INTENT_4_pl>;
+    <INTENT_4_en> = <INTENT_4_en_a> | <INTENT_4_en_b>;
+    <INTENT_4_en_a> = post a picture (with caption <CAPTION> on facebook | on facebook with caption <CAPTION>);
+    <INTENT_4_en_b> = upload a picture (on facebook with caption <CAPTION> | with caption <CAPTION> on facebook);
+    <INTENT_4_pl> = <INTENT_4_pl_a> | <INTENT_4_pl_b>;
+    <INTENT_4_pl_a> = postuj zdjęcie (z (nagłówek | nagłówkiem | napisem) na (facebook | facebooka)) | (na (facebook | facebooka) z (nagłówek | nagłówkiem | napisem));
+    <INTENT_4_pl_b> = załaduj zdjęcie na (facebook | facebooka) z (nagówek | nagłówkiem | napisem) <CAPTION>;
+
+<INTENT_5> = <INTENT_5_en> _-_ <INTENT_5_pl>;
+    <INTENT_5_en> = (post <PICTURE_URL> on facebook | upload <PICTURE_URL> to facebook | upload to facebook <PICTURE_URL>);
+    <INTENT_5_pl> = (postuj | wyślij | napisz | poczta) <PICTURE_URL> na (facebook | facebooka);
+
+<INTENT_6> = <INTENT_6_en> _-_ <INTENT_6_pl>;
+    <INTENT_6_en> = ((post | put) <PICTURE_URL> on [my] facebook with caption <CAPTION>) | caption <PICTURE_URL> as <CAPTION> and (post | upload) it on facebook;
+    <INTENT_6_pl> = (postuj | włóż) <PICTURE_URL> na [mój | moje] (facebook | facebooka) z (nagłówkiem | napisem | podpisem | nagłówek) <CAPTION>;
+
+<INTENT_7> = <INTENT_7_en> _-_ <INTENT_7_pl>;
+    <INTENT_7_en> = (show | display | find | search for) [my] photos in (my | the) album <ALBUM> [on facebook];
+    <INTENT_7_pl> = (pokaz | pokazane | przedstawienie | wyświetlacz) [moje | mój] album zdjęć <ALBUM> [na (facebook | facebooka)];
+
+#SLOTS
+<ALBUM> = FACEBOOK.SLOT.ALBUM;
+<STATUS> = FACEBOOK.SLOT.STATUS;
+<CAPTION> = FACEBOOK.SLOT.CAPTION;
+<PICTURE_URL> = FACEBOOK.SLOT.PICTURE_URL;
+
+#LANG. COMPONENTS
+<POST_VERB_en> = post | upload | add | put;
+<POST_VERB_pl> = postuj | załaduj | dodawanie | dodawać | włożyć;

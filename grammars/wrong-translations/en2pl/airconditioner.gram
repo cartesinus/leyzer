@@ -1,0 +1,57 @@
+#JSGF V1.0;
+
+public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | ChangeTemperature__ <INTENT_3> | SetTemperatureToValue__ <INTENT_4> | SetTemperatureToValueOnDevice__ <INTENT_5> | SetTemperatureBetweenValues__ <INTENT_6> | SetTemperatureOnDevice__ <INTENT_7> | GetHumidity__ <INTENT_8> | GetTemperatureFromDevice__ <INTENT_9> | GetTemperature__ <INTENT_10>);
+
+#INTENTS
+<INTENT_1> = <INTENT_1_en> _-_ <INTENT_1_pl>;
+    <INTENT_1_en> = (turn the <AV_ALIAS> on) | (turn on the <AV_ALIAS>) | (switch (on the <AV_ALIAS> | the <AV_ALIAS> on)) | (set (my | the) <AV_ALIAS> on);
+    <INTENT_1_pl> = (wyłącz <AV_ALIAS> | (zmień | skręć) <AV_ALIAS> na | (zmień | switch) na <AV_ALIAS> | przełącz [na] <AV_ALIAS> | <AV_ALIAS> na | [mój] zbiór na <AV_ALIAS>);
+
+<INTENT_2> = <INTENT_2_en> _-_ <INTENT_2_pl>;
+    <INTENT_2_en> = (turn the <AV_ALIAS> off) | (turn off the <AV_ALIAS>) | (switch (off the <AV_ALIAS> | the <AV_ALIAS> off)) | ((deactivate | shut down) (my | the) <AV_ALIAS>);
+    <INTENT_2_pl> = włącz <AV_ALIAS> [<OFF_pl>] | (zmień | skręć | obróć) [<OFF_pl>] <AV_ALIAS> na | (zmień | switch | przełącznik) (od | na) <AV_ALIAS> | <AV_ALIAS> <OFF_pl> | (zatkaj | domknij) [mój] <AV_ALIAS>;
+    <OFF_pl> = poza | od | z | precz;
+
+<INTENT_3> = <INTENT_3_en> _-_ <INTENT_3_pl>;
+    <INTENT_3_en> = (change | modify | set | adjust) the (temperature on my thermostat | (minimum temperature | maximum temperature | minimum and maximum temperatures) on (my | the) thermostat);
+    <INTENT_3_pl> = (przemiana | wymień | wymieniać | zestaw | zbiór | nastaw | ustaw | dostosuj) (temperatury na [moim] termostacie | niską i wysoką temperaturę na [moim] termostacie);
+
+<INTENT_4> = <INTENT_4_en> _-_ <INTENT_4_pl>;
+    <INTENT_4_en> = (change | set) (the temperature on my thermostat to <VALUE> | the temperature to <VALUE> on my thermostat | set my thermostat to <VALUE>);
+    <INTENT_4_pl> = (przemień | wymień | wymieniać | zbiór | zasób) temperaturę (na | w | po | przy) [moim] (termostacie | termostat) (do | na) <VALUE>;
+
+<INTENT_5> = <INTENT_5_en> _-_ <INTENT_5_pl>;
+    <INTENT_5_en> = (change | set) ([temperature on] my <DEVICE_NAME> thermostat to <VALUE> | the temperature to <VALUE> on my <DEVICE_NAME> thermostat);
+    <INTENT_5_pl> = (przemień | wymień | wymieniać | zbiór | zasób) temperaturę (na | w | po | przy) [moim] (termostacie | termostat) <DEVICE_NAME> (do | na) <VALUE>;
+
+<INTENT_6> = <INTENT_6_en> _-_ <INTENT_6_pl>;
+    <INTENT_6_en> = set (the temperature between <LOW_en> and <HIGH_en> on my thermostat | the low temperature to <LOW_en> on my thermostat and the high to <HIGH_en>);
+    <INTENT_6_pl> = ustaw temperaturę pomiędzy <LOW_pl> a <HIGH_pl> na [moim] termostacie;
+
+<INTENT_7> = <INTENT_7_en> _-_ <INTENT_7_pl>;
+    <INTENT_7_en> = change the (temperature on my <DEVICE_NAME> thermostat | minimum and maximum temperatures on my <DEVICE_NAME> thermostat);
+    <INTENT_7_pl> = zmiana minimum i maksimum temperatur na [moim] <DEVICE_NAME> termostacie;
+
+<INTENT_8> = <INTENT_8_en> _-_ <INTENT_8_pl>;
+    <INTENT_8_en> = <SHOW_VERB> the humidity [level] | [show me | tell me] how humid is the air [in here | in the room] | show me (what's the humidity | what the humidity is in here);
+    <INTENT_8_pl> = (pokaż | daj sprawdź) [mi | mnie] wilgotność poziomu | opowiedz mi jak w powietrzu (wilgotny | mokrawy) jest pokój;
+
+<INTENT_9> = <INTENT_9_en> _-_ <INTENT_9_pl>;
+    <INTENT_9_en> = (check | show me) (what the <DEVICE_NAME> (temperature sensor | thermostat) says | the temperature of the <DEVICE_NAME> (sensor | thermostat) | what's on the <DEVICE_NAME> sensor);
+    <INTENT_9_pl> = sprawdź mi co <DEVICE_NAME> (sensor temperatury | termostat) mówi;
+
+<INTENT_10> = <INTENT_10_en> _-_ <INTENT_10_pl>;
+    <INTENT_10_en> = (what temperature (do I have | do we have | is it) | what's the temperature) in here according to my <AV_ALIAS>?;
+    <INTENT_10_pl> = jaką temperaturę czy (mam | mamy) tu według [mojego] <AV_ALIAS> | czy (mam | mamy) tu temperaturę według [mojego] <AV_ALIAS> | czym jest temperatura według [mojego] <AV_ALIAS>;
+
+#SLOTS
+<DEVICE_NAME> = AIRCONDITIONER.SLOT.DEVICE_NAME;
+<LOW_en> = 23 degree;
+<LOW_pl> = 23 (stopień | stopnie);
+<HIGH_en> = 29 stopnie;
+<HIGH_pl> = 29 (stopień | stopnie);
+<VALUE> = AIRCONDITIONER.SLOT.VALUE;
+<AV_ALIAS> = AIRCONDITIONER.SLOT.AV_ALIAS;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = show | give me | check;

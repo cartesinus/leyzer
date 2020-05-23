@@ -1,0 +1,46 @@
+#JSGF V1.0;
+public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | ShowBMI__ <INTENT_3> | AddWeight__ <INTENT_4> | NotifyOnWeight__ <INTENT_5>);
+
+#PRECONDITION
+<WHEN_1_en> = if my weight goes over <WEIGHT>;
+<WHEN_1_pl> = (kiedy | jeżeli | jeśli) (moja | mój) (waga | ciężar) (pójdzie | idzie | będzie) (ponad | poza) <WEIGHT>;
+
+#INTENTS
+<INTENT_1> = <INTENT_1_en> _-_ <INTENT_1_pl>;
+    <INTENT_1_en> = [<RETRIEVE_VERB_en>] (<INTENT_1_en_a> | <INTENT_1_en_b>);
+    <INTENT_1_en_a> = (my steps | the number of steps | the count of steps | the step count) from fitbit;
+    <INTENT_1_en_b> = (the number of steps i took | my fitbit step count | the fitbit pedometer | the fitbit step counter | the steps i have taken);
+    <INTENT_1_pl> = [<RETRIEVE_VERB_pl>] (<INTENT_1_pl_a> | <INTENT_1_pl_b>);
+    <INTENT_1_pl_a> = (moje kroki | numer stopy | licznik stopy | kroki) z fitbit;
+    <INTENT_1_pl_b> = (numer kroków | moje kroki fitbit | fitbit krokomierz);
+
+<INTENT_2> = <INTENT_2_en> _-_ <INTENT_2_pl>;
+    <INTENT_2_en> = [<RETRIEVE_VERB_en>] (<INTENT_2_en_a> | <INTENT_2_en_b>);
+    <INTENT_2_en_a> = (my fitbit steps on | the number of steps i took on | the number of steps from fitbit on | my fitbit step count on | the fitbit pedometer on | the fitbit step counter on | the steps i have taken on) <DATE>;
+    <INTENT_2_en_b> = (the count of steps | the step count) on <DATE> from fitbit;
+    <INTENT_2_pl> = [<RETRIEVE_VERB_pl>] (<INTENT_2_pl_a> | <INTENT_2_pl_b>);
+    <INTENT_2_pl_a> = (moje kroki | licznik kroków | kroki które wiąłem | licznik stop) (w | dla) <DATE>;
+    <INTENT_2_pl_b> = (hrabia kroków | liczbę wciśnięć | liczba kroków) (dla | w | o) <DATE> z (fitbit | fitbita);
+
+<INTENT_3> = <INTENT_3_en> _-_ <INTENT_3_pl>;
+    <INTENT_3_en> = [<RETRIEVE_VERB_en>] my (body measurements | bmi | weight) from fitbit;
+    <INTENT_3_pl> = [<RETRIEVE_VERB_pl>] [mój | moja] (bmi | waga | wagi | wagę | ciężar | wymiary ciała) z fitbit;
+
+<INTENT_4> = <INTENT_4_en> _-_ <INTENT_4_pl>;
+    <INTENT_4_en> = (log | record | make note of) my weight on fitbit;
+    <INTENT_4_pl> = (kronika | kłoda | zapis | nagranie) [mojej | mojego] (ciężaru | wagi) na fitbit;
+
+<INTENT_5> = <INTENT_5_en> _-_ <INTENT_5_pl>;
+    <INTENT_5_en> = <NOTIFY_VERB_en> me <WHEN_1_en>;
+    <INTENT_5_pl> = <NOTIFY_VERB_pl> (mi | mnie) <WHEN_1_pl>;
+
+#SLOTS
+<STEPS> = FITBIT.SLOT.STEPS;
+<DATE> = FITBIT.SLOT.DATE;
+<WEIGHT> = FITBIT.SLOT.WEIGHT;
+
+#LANG. COMPONENTS
+<RETRIEVE_VERB_en> = get | find | show;
+<RETRIEVE_VERB_pl> = weź | pokaz | znajduj | znajdować;
+<NOTIFY_VERB_en> = notify | tell;
+<NOTIFY_VERB_pl> = notyfikuj | powiedz | mów;
