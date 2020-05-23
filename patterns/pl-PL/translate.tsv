@@ -1,453 +1,453 @@
 domain	intent	parallel	pattern
-Translate	SetDefaultLanguage	True	ustaw język na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	True	ustaw język tłumaczenia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	ustaw język docelowy na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	ustaw język wyjścia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	True	ustaw domyślny język na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	True	ustaw domyślny język tłumaczenia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	ustaw domyślny język docelowy na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	ustaw domyślny język wyjścia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	nastaw język na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	nastaw język tłumaczenia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	nastaw język docelowy na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	nastaw język wyjścia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	nastaw domyślny język na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	nastaw domyślny język tłumaczenia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	nastaw domyślny język docelowy na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	nastaw domyślny język wyjścia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	przełącz język na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	przełącz język tłumaczenia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	przełącz język docelowy na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	przełącz język wyjścia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	przełącz domyślny język na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	przełącz domyślny język tłumaczenia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	przełącz domyślny język docelowy na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	False	przełącz domyślny język wyjścia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	ustaw język wejściowy na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	ustaw język wejścia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	ustaw domyślny język wejściowy na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	ustaw domyślny język wejścia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	nastaw język wejściowy na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	nastaw język wejścia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	nastaw domyślny język wejściowy na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	nastaw domyślny język wejścia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	przełącz język wejściowy na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	przełącz język wejścia na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	przełącz domyślny język wejściowy na TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	False	przełącz domyślny język wejścia na TRANSLATE.SLOT.ALL_LANG
-Translate	TranslateText	False	tłumaczenie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	tłumaczenie tego zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jakie jest tłumaczenie tego zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	wykonaj tłumaczenie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	wykonaj tłumaczenie tego zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	przetłumacz TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	przetłumacz to TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	przetłumacz mi TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	przetłumacz mi zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	przetłumacz mi to TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak przetłumaczyć TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak przetłumaczyć to zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak przetłumaczyć to TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak przetłumaczyć zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak przetłumaczyć mi TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak przetłumaczyć mi to zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak przetłumaczyć mi to TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak przetłumaczyć mi zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak mogę przetłumaczyć TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak mogę przetłumaczyć to zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak mogę przetłumaczyć to TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak mogę przetłumaczyć zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak mogę przetłumaczyć mi TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak mogę przetłumaczyć mi to zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak mogę przetłumaczyć mi to TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak mogę przetłumaczyć mi zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak możesz przetłumaczyć TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak możesz przetłumaczyć to zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak możesz przetłumaczyć to TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak możesz przetłumaczyć zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak możesz przetłumaczyć mi TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak możesz przetłumaczyć mi to zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak możesz przetłumaczyć mi to TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	jak możesz przetłumaczyć mi zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	chcę przetłumaczyć TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	chcę przetłumaczyć to zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	chcę przetłumaczyć to TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	chcę przetłumaczyć zdanie TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	False	TRANSLATE.SLOT.TEXT_EN przetłumacz to
-Translate	TranslateText	False	TRANSLATE.SLOT.TEXT_EN przetłumacz to zdanie
-Translate	TranslateText	False	TRANSLATE.SLOT.TEXT_EN przetłumacz mi to
-Translate	TranslateText	False	TRANSLATE.SLOT.TEXT_EN przetłumacz mi to zdanie
-Translate	TranslateText	False	TRANSLATE.SLOT.TEXT_EN tłumaczenie
-Translate	TranslateTextToLanguage	False	jakie jest tłumaczenie na TRANSLATE.SLOT.TRG_LANG_GENERAL zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextToLanguage	False	jakie jest tłumaczenie na język TRANSLATE.SLOT.TRG_LANG_GENERAL zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextToLanguage	False	powiedz TRANSLATE.SLOT.TEXT_EN po TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	False	powiedz TRANSLATE.SLOT.TEXT_EN w języku TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_EN na TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_EN na TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_EN na TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	False	TRANSLATE.SLOT.TEXT_EN po TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	False	TRANSLATE.SLOT.TEXT_EN w języku TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	False	jak powiem TRANSLATE.SLOT.TEXT_EN po TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	False	jak powiem TRANSLATE.SLOT.TEXT_EN w języku TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	False	jak powiesz TRANSLATE.SLOT.TEXT_EN po TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	False	jak powiesz TRANSLATE.SLOT.TEXT_EN w języku TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	False	jak przetłumaczysz TRANSLATE.SLOT.TEXT_EN po TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	False	jak przetłumaczysz TRANSLATE.SLOT.TEXT_EN w języku TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	False	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	False	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateToLanguage	False	tłumacz na TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateToLanguage	False	tłumacz na język TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateToLanguage	False	przetłumacz na TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateToLanguage	False	przetłumacz na język TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateToLanguage	False	tłumaczenie na TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateToLanguage	False	tłumaczenie na język TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateToLanguage	False	wykonaj tłumaczenie na TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateToLanguage	False	wykonaj tłumaczenie na język TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextFromLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_EN z języka TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	False	tłumacz zdanie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	False	tłumacz zdanie TRANSLATE.SLOT.TEXT_EN z języka TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	False	tłumacz to TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	False	tłumacz to TRANSLATE.SLOT.TEXT_EN z języka TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_PL z języka TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	False	tłumacz zdanie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	False	tłumacz zdanie TRANSLATE.SLOT.TEXT_PL z języka TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	False	tłumacz to TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	False	tłumacz to TRANSLATE.SLOT.TEXT_PL z języka TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_IT z języka TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	False	tłumacz zdanie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	False	tłumacz zdanie TRANSLATE.SLOT.TEXT_IT z języka TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	False	tłumacz to TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	False	tłumacz to TRANSLATE.SLOT.TEXT_IT z języka TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_FR z języka TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	False	tłumacz zdanie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	False	tłumacz zdanie TRANSLATE.SLOT.TEXT_FR z języka TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	False	tłumacz to TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	False	tłumacz to TRANSLATE.SLOT.TEXT_FR z języka TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_DE z języka TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	False	tłumacz zdanie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	False	tłumacz zdanie TRANSLATE.SLOT.TEXT_DE z języka TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	False	tłumacz to TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	False	tłumacz to TRANSLATE.SLOT.TEXT_DE z języka TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	False	tłumacz TRANSLATE.SLOT.TEXT_ES z języka TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	False	tłumacz zdanie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	False	tłumacz zdanie TRANSLATE.SLOT.TEXT_ES z języka TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	False	tłumacz to TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	False	tłumacz to TRANSLATE.SLOT.TEXT_ES z języka TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_EN z języka TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_EN z języka TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	False	przetłumacz to TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	False	przetłumacz to TRANSLATE.SLOT.TEXT_EN z języka TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_PL z języka TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_PL z języka TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	False	przetłumacz to TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	False	przetłumacz to TRANSLATE.SLOT.TEXT_PL z języka TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_IT z języka TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_IT z języka TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	False	przetłumacz to TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	False	przetłumacz to TRANSLATE.SLOT.TEXT_IT z języka TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_FR z języka TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_FR z języka TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	False	przetłumacz to TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	False	przetłumacz to TRANSLATE.SLOT.TEXT_FR z języka TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_DE z języka TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_DE z języka TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	False	przetłumacz to TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	False	przetłumacz to TRANSLATE.SLOT.TEXT_DE z języka TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	False	przetłumacz TRANSLATE.SLOT.TEXT_ES z języka TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	False	przetłumacz zdanie TRANSLATE.SLOT.TEXT_ES z języka TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	False	przetłumacz to TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	False	przetłumacz to TRANSLATE.SLOT.TEXT_ES z języka TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	tłumacz z TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	przetłumacz z TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	False	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
-Translate	DetectLanguage	False	w jakim to języku TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	False	jaki to język TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	False	co to za język TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	False	wykryj w jakim to języku TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	False	wykryj jaki to język TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	False	wykryj co to za język TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	False	powiedz w jakim to języku TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	False	powiedz jaki to język TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	False	powiedz co to za język TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	False	powiedz mi w jakim to języku TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	False	powiedz mi jaki to język TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	False	powiedz mi co to za język TRANSLATE.SLOT.TEXT_MULTI
+Translate	SetDefaultLanguage	-	ustaw język na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	ustaw język tłumaczenia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	ustaw język docelowy na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	ustaw język wyjścia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	ustaw domyślny język na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	ustaw domyślny język tłumaczenia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	ustaw domyślny język docelowy na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	ustaw domyślny język wyjścia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	nastaw język na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	nastaw język tłumaczenia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	nastaw język docelowy na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	nastaw język wyjścia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	nastaw domyślny język na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	nastaw domyślny język tłumaczenia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	nastaw domyślny język docelowy na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	nastaw domyślny język wyjścia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	przełącz język na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	przełącz język tłumaczenia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	przełącz język docelowy na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	przełącz język wyjścia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	przełącz domyślny język na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	przełącz domyślny język tłumaczenia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	przełącz domyślny język docelowy na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguage	-	przełącz domyślny język wyjścia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	ustaw język wejściowy na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	ustaw język wejścia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	ustaw domyślny język wejściowy na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	ustaw domyślny język wejścia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	nastaw język wejściowy na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	nastaw język wejścia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	nastaw domyślny język wejściowy na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	nastaw domyślny język wejścia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	przełącz język wejściowy na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	przełącz język wejścia na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	przełącz domyślny język wejściowy na TRANSLATE.SLOT.ALL_LANG
+Translate	SetDefaultLanguageToLanguage	-	przełącz domyślny język wejścia na TRANSLATE.SLOT.ALL_LANG
+Translate	TranslateText	-	tłumaczenie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	tłumaczenie tego zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jakie jest tłumaczenie tego zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	wykonaj tłumaczenie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	wykonaj tłumaczenie tego zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	przetłumacz TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	przetłumacz to TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	przetłumacz mi TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	przetłumacz mi zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	przetłumacz mi to TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak przetłumaczyć TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak przetłumaczyć to zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak przetłumaczyć to TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak przetłumaczyć zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak przetłumaczyć mi TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak przetłumaczyć mi to zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak przetłumaczyć mi to TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak przetłumaczyć mi zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak mogę przetłumaczyć TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak mogę przetłumaczyć to zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak mogę przetłumaczyć to TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak mogę przetłumaczyć zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak mogę przetłumaczyć mi TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak mogę przetłumaczyć mi to zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak mogę przetłumaczyć mi to TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak mogę przetłumaczyć mi zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak możesz przetłumaczyć TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak możesz przetłumaczyć to zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak możesz przetłumaczyć to TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak możesz przetłumaczyć zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak możesz przetłumaczyć mi TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak możesz przetłumaczyć mi to zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak możesz przetłumaczyć mi to TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	jak możesz przetłumaczyć mi zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	chcę przetłumaczyć TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	chcę przetłumaczyć to zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	chcę przetłumaczyć to TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	chcę przetłumaczyć zdanie TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateText	-	TRANSLATE.SLOT.TEXT_EN przetłumacz to
+Translate	TranslateText	-	TRANSLATE.SLOT.TEXT_EN przetłumacz to zdanie
+Translate	TranslateText	-	TRANSLATE.SLOT.TEXT_EN przetłumacz mi to
+Translate	TranslateText	-	TRANSLATE.SLOT.TEXT_EN przetłumacz mi to zdanie
+Translate	TranslateText	-	TRANSLATE.SLOT.TEXT_EN tłumaczenie
+Translate	TranslateTextToLanguage	-	jakie jest tłumaczenie na TRANSLATE.SLOT.TRG_LANG_GENERAL zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextToLanguage	-	jakie jest tłumaczenie na język TRANSLATE.SLOT.TRG_LANG_GENERAL zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextToLanguage	-	powiedz TRANSLATE.SLOT.TEXT_EN po TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextToLanguage	-	powiedz TRANSLATE.SLOT.TEXT_EN w języku TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextToLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_EN na TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextToLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_EN na TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_EN na TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextToLanguage	-	TRANSLATE.SLOT.TEXT_EN po TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextToLanguage	-	TRANSLATE.SLOT.TEXT_EN w języku TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextToLanguage	-	jak powiem TRANSLATE.SLOT.TEXT_EN po TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextToLanguage	-	jak powiem TRANSLATE.SLOT.TEXT_EN w języku TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextToLanguage	-	jak powiesz TRANSLATE.SLOT.TEXT_EN po TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextToLanguage	-	jak powiesz TRANSLATE.SLOT.TEXT_EN w języku TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextToLanguage	-	jak przetłumaczysz TRANSLATE.SLOT.TEXT_EN po TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextToLanguage	-	jak przetłumaczysz TRANSLATE.SLOT.TEXT_EN w języku TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_PL
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_DE
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_IT
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_FR
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_ES
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_EN
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_DE
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_IT
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_FR
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_ES
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_PL
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_EN
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_IT
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_FR
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_ES
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_PL
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_DE
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_EN
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_FR
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_ES
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_PL
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_DE
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_IT
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_EN
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_ES
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_PL
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_DE
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_IT
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_FR
+Translate	TranslateTextFromLanguageToLanguage	-	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_EN
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_PL
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_DE
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_IT
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_FR
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_ES
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_EN
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_DE
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_IT
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_FR
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_ES
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_PL
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_EN
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_IT
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_FR
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_ES
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_PL
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_DE
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_EN
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_FR
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_ES
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_PL
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_DE
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_IT
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_EN
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_ES
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_PL
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_DE
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_IT
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_FR
+Translate	TranslateTextFromLanguageToLanguage	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_EN
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR na TRANSLATE.SLOT.TRG_LANG_ES przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_PL przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_DE przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_IT przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_FR przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateTextFromLanguageToLanguageWithEngine	-	jakie jest tłumaczenie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES na TRANSLATE.SLOT.TRG_LANG_EN przy użyciu TRANSLATE.SLOT.TRANSLATOR
+Translate	TranslateToLanguage	-	tłumacz na TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateToLanguage	-	tłumacz na język TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateToLanguage	-	przetłumacz na TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateToLanguage	-	przetłumacz na język TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateToLanguage	-	tłumaczenie na TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateToLanguage	-	tłumaczenie na język TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateToLanguage	-	wykonaj tłumaczenie na TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateToLanguage	-	wykonaj tłumaczenie na język TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate	TranslateTextFromLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN
+Translate	TranslateTextFromLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_EN z języka TRANSLATE.SLOT.SRC_LANG_EN
+Translate	TranslateTextFromLanguage	-	tłumacz zdanie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN
+Translate	TranslateTextFromLanguage	-	tłumacz zdanie TRANSLATE.SLOT.TEXT_EN z języka TRANSLATE.SLOT.SRC_LANG_EN
+Translate	TranslateTextFromLanguage	-	tłumacz to TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN
+Translate	TranslateTextFromLanguage	-	tłumacz to TRANSLATE.SLOT.TEXT_EN z języka TRANSLATE.SLOT.SRC_LANG_EN
+Translate	TranslateTextFromLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL
+Translate	TranslateTextFromLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_PL z języka TRANSLATE.SLOT.SRC_LANG_PL
+Translate	TranslateTextFromLanguage	-	tłumacz zdanie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL
+Translate	TranslateTextFromLanguage	-	tłumacz zdanie TRANSLATE.SLOT.TEXT_PL z języka TRANSLATE.SLOT.SRC_LANG_PL
+Translate	TranslateTextFromLanguage	-	tłumacz to TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL
+Translate	TranslateTextFromLanguage	-	tłumacz to TRANSLATE.SLOT.TEXT_PL z języka TRANSLATE.SLOT.SRC_LANG_PL
+Translate	TranslateTextFromLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT
+Translate	TranslateTextFromLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_IT z języka TRANSLATE.SLOT.SRC_LANG_IT
+Translate	TranslateTextFromLanguage	-	tłumacz zdanie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT
+Translate	TranslateTextFromLanguage	-	tłumacz zdanie TRANSLATE.SLOT.TEXT_IT z języka TRANSLATE.SLOT.SRC_LANG_IT
+Translate	TranslateTextFromLanguage	-	tłumacz to TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT
+Translate	TranslateTextFromLanguage	-	tłumacz to TRANSLATE.SLOT.TEXT_IT z języka TRANSLATE.SLOT.SRC_LANG_IT
+Translate	TranslateTextFromLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR
+Translate	TranslateTextFromLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_FR z języka TRANSLATE.SLOT.SRC_LANG_FR
+Translate	TranslateTextFromLanguage	-	tłumacz zdanie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR
+Translate	TranslateTextFromLanguage	-	tłumacz zdanie TRANSLATE.SLOT.TEXT_FR z języka TRANSLATE.SLOT.SRC_LANG_FR
+Translate	TranslateTextFromLanguage	-	tłumacz to TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR
+Translate	TranslateTextFromLanguage	-	tłumacz to TRANSLATE.SLOT.TEXT_FR z języka TRANSLATE.SLOT.SRC_LANG_FR
+Translate	TranslateTextFromLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE
+Translate	TranslateTextFromLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_DE z języka TRANSLATE.SLOT.SRC_LANG_DE
+Translate	TranslateTextFromLanguage	-	tłumacz zdanie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE
+Translate	TranslateTextFromLanguage	-	tłumacz zdanie TRANSLATE.SLOT.TEXT_DE z języka TRANSLATE.SLOT.SRC_LANG_DE
+Translate	TranslateTextFromLanguage	-	tłumacz to TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE
+Translate	TranslateTextFromLanguage	-	tłumacz to TRANSLATE.SLOT.TEXT_DE z języka TRANSLATE.SLOT.SRC_LANG_DE
+Translate	TranslateTextFromLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES
+Translate	TranslateTextFromLanguage	-	tłumacz TRANSLATE.SLOT.TEXT_ES z języka TRANSLATE.SLOT.SRC_LANG_ES
+Translate	TranslateTextFromLanguage	-	tłumacz zdanie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES
+Translate	TranslateTextFromLanguage	-	tłumacz zdanie TRANSLATE.SLOT.TEXT_ES z języka TRANSLATE.SLOT.SRC_LANG_ES
+Translate	TranslateTextFromLanguage	-	tłumacz to TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES
+Translate	TranslateTextFromLanguage	-	tłumacz to TRANSLATE.SLOT.TEXT_ES z języka TRANSLATE.SLOT.SRC_LANG_ES
+Translate	TranslateTextFromLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN
+Translate	TranslateTextFromLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_EN z języka TRANSLATE.SLOT.SRC_LANG_EN
+Translate	TranslateTextFromLanguage	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN
+Translate	TranslateTextFromLanguage	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_EN z języka TRANSLATE.SLOT.SRC_LANG_EN
+Translate	TranslateTextFromLanguage	-	przetłumacz to TRANSLATE.SLOT.TEXT_EN z TRANSLATE.SLOT.SRC_LANG_EN
+Translate	TranslateTextFromLanguage	-	przetłumacz to TRANSLATE.SLOT.TEXT_EN z języka TRANSLATE.SLOT.SRC_LANG_EN
+Translate	TranslateTextFromLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL
+Translate	TranslateTextFromLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_PL z języka TRANSLATE.SLOT.SRC_LANG_PL
+Translate	TranslateTextFromLanguage	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL
+Translate	TranslateTextFromLanguage	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_PL z języka TRANSLATE.SLOT.SRC_LANG_PL
+Translate	TranslateTextFromLanguage	-	przetłumacz to TRANSLATE.SLOT.TEXT_PL z TRANSLATE.SLOT.SRC_LANG_PL
+Translate	TranslateTextFromLanguage	-	przetłumacz to TRANSLATE.SLOT.TEXT_PL z języka TRANSLATE.SLOT.SRC_LANG_PL
+Translate	TranslateTextFromLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT
+Translate	TranslateTextFromLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_IT z języka TRANSLATE.SLOT.SRC_LANG_IT
+Translate	TranslateTextFromLanguage	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT
+Translate	TranslateTextFromLanguage	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_IT z języka TRANSLATE.SLOT.SRC_LANG_IT
+Translate	TranslateTextFromLanguage	-	przetłumacz to TRANSLATE.SLOT.TEXT_IT z TRANSLATE.SLOT.SRC_LANG_IT
+Translate	TranslateTextFromLanguage	-	przetłumacz to TRANSLATE.SLOT.TEXT_IT z języka TRANSLATE.SLOT.SRC_LANG_IT
+Translate	TranslateTextFromLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR
+Translate	TranslateTextFromLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_FR z języka TRANSLATE.SLOT.SRC_LANG_FR
+Translate	TranslateTextFromLanguage	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR
+Translate	TranslateTextFromLanguage	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_FR z języka TRANSLATE.SLOT.SRC_LANG_FR
+Translate	TranslateTextFromLanguage	-	przetłumacz to TRANSLATE.SLOT.TEXT_FR z TRANSLATE.SLOT.SRC_LANG_FR
+Translate	TranslateTextFromLanguage	-	przetłumacz to TRANSLATE.SLOT.TEXT_FR z języka TRANSLATE.SLOT.SRC_LANG_FR
+Translate	TranslateTextFromLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE
+Translate	TranslateTextFromLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_DE z języka TRANSLATE.SLOT.SRC_LANG_DE
+Translate	TranslateTextFromLanguage	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE
+Translate	TranslateTextFromLanguage	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_DE z języka TRANSLATE.SLOT.SRC_LANG_DE
+Translate	TranslateTextFromLanguage	-	przetłumacz to TRANSLATE.SLOT.TEXT_DE z TRANSLATE.SLOT.SRC_LANG_DE
+Translate	TranslateTextFromLanguage	-	przetłumacz to TRANSLATE.SLOT.TEXT_DE z języka TRANSLATE.SLOT.SRC_LANG_DE
+Translate	TranslateTextFromLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES
+Translate	TranslateTextFromLanguage	-	przetłumacz TRANSLATE.SLOT.TEXT_ES z języka TRANSLATE.SLOT.SRC_LANG_ES
+Translate	TranslateTextFromLanguage	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES
+Translate	TranslateTextFromLanguage	-	przetłumacz zdanie TRANSLATE.SLOT.TEXT_ES z języka TRANSLATE.SLOT.SRC_LANG_ES
+Translate	TranslateTextFromLanguage	-	przetłumacz to TRANSLATE.SLOT.TEXT_ES z TRANSLATE.SLOT.SRC_LANG_ES
+Translate	TranslateTextFromLanguage	-	przetłumacz to TRANSLATE.SLOT.TEXT_ES z języka TRANSLATE.SLOT.SRC_LANG_ES
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	tłumacz z TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	tłumacz z języka TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	przetłumacz z TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	przetłumacz z języka TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	tłumaczenie z TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_EN zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_EN tego zdania TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_EN tego TRANSLATE.SLOT.TEXT_EN
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_PL zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_PL tego zdania TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_PL tego TRANSLATE.SLOT.TEXT_PL
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_IT zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_IT tego zdania TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_IT tego TRANSLATE.SLOT.TEXT_IT
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_FR zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_FR tego zdania TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_FR tego TRANSLATE.SLOT.TEXT_FR
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_DE zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_DE tego zdania TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_DE tego TRANSLATE.SLOT.TEXT_DE
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_ES zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_ES tego zdania TRANSLATE.SLOT.TEXT_ES
+Translate	TranslateTextFromLanguage	-	wykonaj tłumaczenie z języka TRANSLATE.SLOT.SRC_LANG_ES tego TRANSLATE.SLOT.TEXT_ES
+Translate	DetectLanguage	-	w jakim to języku TRANSLATE.SLOT.TEXT_MULTI
+Translate	DetectLanguage	-	jaki to język TRANSLATE.SLOT.TEXT_MULTI
+Translate	DetectLanguage	-	co to za język TRANSLATE.SLOT.TEXT_MULTI
+Translate	DetectLanguage	-	wykryj w jakim to języku TRANSLATE.SLOT.TEXT_MULTI
+Translate	DetectLanguage	-	wykryj jaki to język TRANSLATE.SLOT.TEXT_MULTI
+Translate	DetectLanguage	-	wykryj co to za język TRANSLATE.SLOT.TEXT_MULTI
+Translate	DetectLanguage	-	powiedz w jakim to języku TRANSLATE.SLOT.TEXT_MULTI
+Translate	DetectLanguage	-	powiedz jaki to język TRANSLATE.SLOT.TEXT_MULTI
+Translate	DetectLanguage	-	powiedz co to za język TRANSLATE.SLOT.TEXT_MULTI
+Translate	DetectLanguage	-	powiedz mi w jakim to języku TRANSLATE.SLOT.TEXT_MULTI
+Translate	DetectLanguage	-	powiedz mi jaki to język TRANSLATE.SLOT.TEXT_MULTI
+Translate	DetectLanguage	-	powiedz mi co to za język TRANSLATE.SLOT.TEXT_MULTI

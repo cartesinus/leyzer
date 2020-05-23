@@ -1,54 +1,54 @@
 domain	intent	parallel	pattern
-Weather	OpenWeather	True	el tiempo
-Weather	OpenWeather	False	el tiempo fuera
-Weather	OpenWeather	True	cómo está el tiempo
-Weather	OpenWeather	False	cómo está el tiempo fuera
-Weather	WeatherTomorrow	True	el tiempo mañana
-Weather	WeatherTomorrow	False	cómo estará el tiempo mañana
-Weather	WeatherTomorrow	True	el tiempo mañana
-Weather	WeatherInLocation	True	tiempo en WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	True	tiempo actual en WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	True	el tiempo en WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	True	el tiempo actual en WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	cómo está el tiempo en WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	False	tiempo en WEATHER.SLOT.LOCATION para mañana
-Weather	WeatherTomorrowInLocation	False	tiempo actual en WEATHER.SLOT.LOCATION para mañana
-Weather	WeatherTomorrowInLocation	False	el tiempo en WEATHER.SLOT.LOCATION para mañana
-Weather	WeatherTomorrowInLocation	False	el tiempo actual en WEATHER.SLOT.LOCATION para mañana
-Weather	WeatherTomorrowInLocation	False	cómo está el tiempo en WEATHER.SLOT.LOCATION para mañana
-Weather	SunriseInLocation	True	amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	tiempo del amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	True	el amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	el tiempo del amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	cuándo es amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	cuándo es tiempo del amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	cuándo es el amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	cuándo es el tiempo del amanecer en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	True	puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	la puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	el tiempo de puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	el tiempo de la puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	cuándo es puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	cuándo es la puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	cuándo es el tiempo de puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	cuándo es el tiempo de la puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	amanecer y puesta del sol para la ubicación WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	amanecer y puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	amanecer y la puesta del sol para la ubicación WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	amanecer y la puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	el amanecer y puesta del sol para la ubicación WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	el amanecer y puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	el amanecer y la puesta del sol para la ubicación WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	el amanecer y la puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocationAndOnDate	False	amanecer y puesta del sol para la ubicación WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	amanecer y puesta del sol en WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	amanecer y la puesta del sol para la ubicación WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	amanecer y la puesta del sol en WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	el amanecer y puesta del sol para la ubicación WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	el amanecer y puesta del sol en WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	el amanecer y la puesta del sol para la ubicación WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	el amanecer y la puesta del sol en WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	MoonphaseInLocation	False	fase de la luna para WEATHER.SLOT.LOCATION
-Weather	MoonphaseInLocation	False	fase de la luna para la ubicación WEATHER.SLOT.LOCATION
-Weather	MoonphaseInLocationOnDate	False	fase de la luna para WEATHER.SLOT.LOCATION el WEATHER.SLOT.DATE
-Weather	MoonphaseInLocationOnDate	False	fase de la luna para la ubicación WEATHER.SLOT.LOCATION el WEATHER.SLOT.DATE
+Weather	OpenWeather	-	el tiempo
+Weather	OpenWeather	-	el tiempo fuera
+Weather	OpenWeather	-	cómo está el tiempo
+Weather	OpenWeather	-	cómo está el tiempo fuera
+Weather	WeatherTomorrow	-	el tiempo mañana
+Weather	WeatherTomorrow	-	cómo estará el tiempo mañana
+Weather	WeatherTomorrow	-	el tiempo mañana
+Weather	WeatherInLocation	-	tiempo en WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	tiempo actual en WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	el tiempo en WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	el tiempo actual en WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	cómo está el tiempo en WEATHER.SLOT.LOCATION
+Weather	WeatherTomorrowInLocation	-	tiempo en WEATHER.SLOT.LOCATION para mañana
+Weather	WeatherTomorrowInLocation	-	tiempo actual en WEATHER.SLOT.LOCATION para mañana
+Weather	WeatherTomorrowInLocation	-	el tiempo en WEATHER.SLOT.LOCATION para mañana
+Weather	WeatherTomorrowInLocation	-	el tiempo actual en WEATHER.SLOT.LOCATION para mañana
+Weather	WeatherTomorrowInLocation	-	cómo está el tiempo en WEATHER.SLOT.LOCATION para mañana
+Weather	SunriseInLocation	-	amanecer en WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	tiempo del amanecer en WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	el amanecer en WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	el tiempo del amanecer en WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	cuándo es amanecer en WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	cuándo es tiempo del amanecer en WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	cuándo es el amanecer en WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	cuándo es el tiempo del amanecer en WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	puesta del sol en WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	la puesta del sol en WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	el tiempo de puesta del sol en WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	el tiempo de la puesta del sol en WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	cuándo es puesta del sol en WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	cuándo es la puesta del sol en WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	cuándo es el tiempo de puesta del sol en WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	cuándo es el tiempo de la puesta del sol en WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	amanecer y puesta del sol para la ubicación WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	amanecer y puesta del sol en WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	amanecer y la puesta del sol para la ubicación WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	amanecer y la puesta del sol en WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	el amanecer y puesta del sol para la ubicación WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	el amanecer y puesta del sol en WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	el amanecer y la puesta del sol para la ubicación WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	el amanecer y la puesta del sol en WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocationAndOnDate	-	amanecer y puesta del sol para la ubicación WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	amanecer y puesta del sol en WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	amanecer y la puesta del sol para la ubicación WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	amanecer y la puesta del sol en WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	el amanecer y puesta del sol para la ubicación WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	el amanecer y puesta del sol en WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	el amanecer y la puesta del sol para la ubicación WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	el amanecer y la puesta del sol en WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
+Weather	MoonphaseInLocation	-	fase de la luna para WEATHER.SLOT.LOCATION
+Weather	MoonphaseInLocation	-	fase de la luna para la ubicación WEATHER.SLOT.LOCATION
+Weather	MoonphaseInLocationOnDate	-	fase de la luna para WEATHER.SLOT.LOCATION el WEATHER.SLOT.DATE
+Weather	MoonphaseInLocationOnDate	-	fase de la luna para la ubicación WEATHER.SLOT.LOCATION el WEATHER.SLOT.DATE

@@ -1,122 +1,122 @@
 domain	intent	parallel	pattern
-Weather	OpenWeather	True	jaka jest pogoda
-Weather	OpenWeather	False	jaka jest dziś pogoda
-Weather	OpenWeather	False	jaka będzie pogoda
-Weather	OpenWeather	False	jaka będzie dziś pogoda
-Weather	OpenWeather	False	pogoda na dziś
-Weather	OpenWeather	False	prognoza pogody
-Weather	OpenWeather	False	prognoza pogody na dziś
-Weather	WeatherTomorrow	True	jaka jest pogoda
-Weather	WeatherTomorrow	False	jaka jest jutro pogoda
-Weather	WeatherTomorrow	False	jaka będzie pogoda
-Weather	WeatherTomorrow	True	jaka będzie jutro pogoda
-Weather	WeatherTomorrow	True	pogoda na jutro
-Weather	WeatherTomorrow	False	prognoza pogody na jutro
-Weather	WeatherTomorrow	False	prognoza pogody na następny dzień
-Weather	WeatherInLocation	True	jaka jest pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	jaka jest obecnie pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	jaka jest dziś pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	jaka jest teraz pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	powiedz jaka jest pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	powiedz jaka jest obecnie pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	powiedz jaka jest dziś pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	powiedz jaka jest teraz pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	powiedz mi jaka jest pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	powiedz mi jaka jest obecnie pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	powiedz mi jaka jest dziś pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	powiedz mi jaka jest teraz pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	chcę znać pogodę w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	chcę wiedzieć jaka jest pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	prognoza pogody dla WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	prognoza pogody w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	dzisiejsza prognoza pogody dla WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	dzisiejsza prognoza pogody w WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	obecna prognoza pogody dla WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	False	obecna prognoza pogody w WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	False	jaka będzie jutro pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	False	powiedz jaka będzie jutro pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	False	powiedz mi jaka będzie jutro pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	False	chcę znać prognozę w WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	False	chcę wiedzieć jaka będzie jutro pogoda w WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	False	prognoza pogody dla WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	False	prognoza pogody w WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	False	jutrzejsza prognoza pogody dla WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	False	jutrzejsza prognoza pogody w WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	False	prognoza pogody dla WEATHER.SLOT.LOCATION na jutro
-Weather	WeatherTomorrowInLocation	False	prognoza pogody w WEATHER.SLOT.LOCATION na jutro
-Weather	SunriseInLocation	True	wschód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	wschód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	True	kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	powiedz kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	powiedz kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	powiedz mi kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	powiedz mi kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	chciałbym wiedzieć kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	chciałbym wiedzieć kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	chciałabym wiedzieć kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	chciałabym wiedzieć kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	czy mógłbyś powiedzieć kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	czy mógłbyś powiedzieć kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	czy mógłbyś mi powiedzieć kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	czy mógłbyś mi powiedzieć kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	czy mogłabyś powiedzieć kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	czy mogłabyś powiedzieć kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	czy mogłabyś mi powiedzieć kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	czy mogłabyś mi powiedzieć kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	True	czas wschodu słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	czas wschodu słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	podaj czas wschodu słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	podaj czas wschodu słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	podaj mi czas wschodu słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	podaj mi czas wschodu słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	o której jest wschód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	kiedy wschodzi słońce w WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	False	o której wschodzi słońce w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	True	zachód słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	zachód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	True	kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	powiedz kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	powiedz kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	powiedz mi kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	powiedz mi kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	chciałbym wiedzieć kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	chciałbym wiedzieć kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	chciałabym wiedzieć kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	chciałabym wiedzieć kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	czy mógłbyś powiedzieć kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	czy mógłbyś powiedzieć kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	czy mógłbyś mi powiedzieć kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	czy mógłbyś mi powiedzieć kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	czy mogłabyś powiedzieć kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	czy mogłabyś powiedzieć kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	czy mogłabyś mi powiedzieć kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	czy mogłabyś mi powiedzieć kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	True	czas zachodu słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	czas zachodu słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	podaj czas zachodu słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	podaj czas zachodu słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	podaj mi czas zachodu słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	podaj mi czas zachodu słońca dla WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	o której jest zachodu słońca w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	kiedy zachodzi słońce w WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	False	o której zachodzi słońce w WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	wschód i zachód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	wschód i zachód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	kiedy jest wschód i zachód słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	kiedy jest wschód i zachód słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	czas wschodu i zachodu słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	czas wschodu i zachodu słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	podaj czas wschodu i zachodu słońca w WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	False	podaj czas wschodu i zachodu słońca dla WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocationAndOnDate	False	wschód i zachód słońca w WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	wschód i zachód słońca dla WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	kiedy jest wschód i zachód słońca w WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	kiedy jest wschód i zachód słońca dla WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	czas wschodu i zachodu słońca w WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	czas wschodu i zachodu słońca dla WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	podaj czas wschodu i zachodu słońca w WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	False	podaj czas wschodu i zachodu słońca dla WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
-Weather	MoonphaseInLocation	False	faza księżyca w WEATHER.SLOT.LOCATION
-Weather	MoonphaseInLocationOnDate	False	faza księżyca w WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
+Weather	OpenWeather	-	jaka jest pogoda
+Weather	OpenWeather	-	jaka jest dziś pogoda
+Weather	OpenWeather	-	jaka będzie pogoda
+Weather	OpenWeather	-	jaka będzie dziś pogoda
+Weather	OpenWeather	-	pogoda na dziś
+Weather	OpenWeather	-	prognoza pogody
+Weather	OpenWeather	-	prognoza pogody na dziś
+Weather	WeatherTomorrow	-	jaka jest pogoda
+Weather	WeatherTomorrow	-	jaka jest jutro pogoda
+Weather	WeatherTomorrow	-	jaka będzie pogoda
+Weather	WeatherTomorrow	-	jaka będzie jutro pogoda
+Weather	WeatherTomorrow	-	pogoda na jutro
+Weather	WeatherTomorrow	-	prognoza pogody na jutro
+Weather	WeatherTomorrow	-	prognoza pogody na następny dzień
+Weather	WeatherInLocation	-	jaka jest pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	jaka jest obecnie pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	jaka jest dziś pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	jaka jest teraz pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	powiedz jaka jest pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	powiedz jaka jest obecnie pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	powiedz jaka jest dziś pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	powiedz jaka jest teraz pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	powiedz mi jaka jest pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	powiedz mi jaka jest obecnie pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	powiedz mi jaka jest dziś pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	powiedz mi jaka jest teraz pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	chcę znać pogodę w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	chcę wiedzieć jaka jest pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	prognoza pogody dla WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	prognoza pogody w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	dzisiejsza prognoza pogody dla WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	dzisiejsza prognoza pogody w WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	obecna prognoza pogody dla WEATHER.SLOT.LOCATION
+Weather	WeatherInLocation	-	obecna prognoza pogody w WEATHER.SLOT.LOCATION
+Weather	WeatherTomorrowInLocation	-	jaka będzie jutro pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherTomorrowInLocation	-	powiedz jaka będzie jutro pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherTomorrowInLocation	-	powiedz mi jaka będzie jutro pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherTomorrowInLocation	-	chcę znać prognozę w WEATHER.SLOT.LOCATION
+Weather	WeatherTomorrowInLocation	-	chcę wiedzieć jaka będzie jutro pogoda w WEATHER.SLOT.LOCATION
+Weather	WeatherTomorrowInLocation	-	prognoza pogody dla WEATHER.SLOT.LOCATION
+Weather	WeatherTomorrowInLocation	-	prognoza pogody w WEATHER.SLOT.LOCATION
+Weather	WeatherTomorrowInLocation	-	jutrzejsza prognoza pogody dla WEATHER.SLOT.LOCATION
+Weather	WeatherTomorrowInLocation	-	jutrzejsza prognoza pogody w WEATHER.SLOT.LOCATION
+Weather	WeatherTomorrowInLocation	-	prognoza pogody dla WEATHER.SLOT.LOCATION na jutro
+Weather	WeatherTomorrowInLocation	-	prognoza pogody w WEATHER.SLOT.LOCATION na jutro
+Weather	SunriseInLocation	-	wschód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	wschód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	powiedz kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	powiedz kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	powiedz mi kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	powiedz mi kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	chciałbym wiedzieć kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	chciałbym wiedzieć kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	chciałabym wiedzieć kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	chciałabym wiedzieć kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	czy mógłbyś powiedzieć kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	czy mógłbyś powiedzieć kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	czy mógłbyś mi powiedzieć kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	czy mógłbyś mi powiedzieć kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	czy mogłabyś powiedzieć kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	czy mogłabyś powiedzieć kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	czy mogłabyś mi powiedzieć kiedy jest wschód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	czy mogłabyś mi powiedzieć kiedy jest wschód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	czas wschodu słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	czas wschodu słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	podaj czas wschodu słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	podaj czas wschodu słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	podaj mi czas wschodu słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	podaj mi czas wschodu słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	o której jest wschód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	kiedy wschodzi słońce w WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	o której wschodzi słońce w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	zachód słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	zachód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	powiedz kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	powiedz kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	powiedz mi kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	powiedz mi kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	chciałbym wiedzieć kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	chciałbym wiedzieć kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	chciałabym wiedzieć kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	chciałabym wiedzieć kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	czy mógłbyś powiedzieć kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	czy mógłbyś powiedzieć kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	czy mógłbyś mi powiedzieć kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	czy mógłbyś mi powiedzieć kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	czy mogłabyś powiedzieć kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	czy mogłabyś powiedzieć kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	czy mogłabyś mi powiedzieć kiedy jest zachód słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	czy mogłabyś mi powiedzieć kiedy jest zachód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	czas zachodu słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	czas zachodu słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	podaj czas zachodu słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	podaj czas zachodu słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	podaj mi czas zachodu słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	podaj mi czas zachodu słońca dla WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	o której jest zachodu słońca w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	kiedy zachodzi słońce w WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	o której zachodzi słońce w WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	wschód i zachód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	wschód i zachód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	kiedy jest wschód i zachód słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	kiedy jest wschód i zachód słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	czas wschodu i zachodu słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	czas wschodu i zachodu słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	podaj czas wschodu i zachodu słońca w WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	podaj czas wschodu i zachodu słońca dla WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocationAndOnDate	-	wschód i zachód słońca w WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	wschód i zachód słońca dla WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	kiedy jest wschód i zachód słońca w WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	kiedy jest wschód i zachód słońca dla WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	czas wschodu i zachodu słońca w WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	czas wschodu i zachodu słońca dla WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	podaj czas wschodu i zachodu słońca w WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	podaj czas wschodu i zachodu słońca dla WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE
+Weather	MoonphaseInLocation	-	faza księżyca w WEATHER.SLOT.LOCATION
+Weather	MoonphaseInLocationOnDate	-	faza księżyca w WEATHER.SLOT.LOCATION dla WEATHER.SLOT.DATE

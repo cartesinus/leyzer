@@ -1,151 +1,151 @@
 domain	intent	parallel	pattern
-Wikipedia	OpenWikipedia	False	abre de wikipedia
-Wikipedia	OpenWikipedia	False	abre páginas de wikipedia
-Wikipedia	OpenWikipedia	False	abre definiciones de wikipedia
-Wikipedia	SearchQuery	False	encuentra WIKIPEDIA.SLOT.QUERY en wiki
-Wikipedia	SearchQuery	False	encuentra WIKIPEDIA.SLOT.QUERY en wikipedia
-Wikipedia	SearchQuery	False	busca WIKIPEDIA.SLOT.QUERY en wiki
-Wikipedia	SearchQuery	False	busca WIKIPEDIA.SLOT.QUERY en wikipedia
-Wikipedia	SearchQuery	True	WIKIPEDIA.SLOT.QUERY en wiki
-Wikipedia	SearchQuery	True	WIKIPEDIA.SLOT.QUERY en wikipedia
-Wikipedia	ScrollDown	True	hacia abajo
-Wikipedia	ScrollDown	True	ve hacia abajo
-Wikipedia	ScrollDown	False	desplaza hacia abajo
-Wikipedia	ScrollDown	False	mueve hacia abajo
-Wikipedia	ScrollDown	False	desplázate hacia abajo
-Wikipedia	ScrollDown	False	muévete hacia abajo
-Wikipedia	ScrollDown	False	avanza página
-Wikipedia	ScrollDown	False	avanza la página
-Wikipedia	ScrollUp	True	hacia arriba
-Wikipedia	ScrollUp	True	ve hacia arriba
-Wikipedia	ScrollUp	False	desplaza hacia arriba
-Wikipedia	ScrollUp	False	mueve hacia arriba
-Wikipedia	ScrollUp	False	desplázate hacia arriba
-Wikipedia	ScrollUp	False	muévete hacia arriba
-Wikipedia	ScrollUp	False	retrocede página
-Wikipedia	ScrollUp	False	retrocede la página
-Wikipedia	DownloadAsPdf	False	baja página como pdf
-Wikipedia	DownloadAsPdf	False	baja página como un pdf
-Wikipedia	DownloadAsPdf	False	baja esta página como pdf
-Wikipedia	DownloadAsPdf	False	baja esta página como un pdf
-Wikipedia	DownloadAsPdf	False	baja esa página como pdf
-Wikipedia	DownloadAsPdf	False	baja esa página como un pdf
-Wikipedia	DownloadAsPdf	False	baja article como pdf
-Wikipedia	DownloadAsPdf	False	baja article como un pdf
-Wikipedia	DownloadAsPdf	False	baja este article como pdf
-Wikipedia	DownloadAsPdf	False	baja este article como un pdf
-Wikipedia	DownloadAsPdf	False	baja ese article como pdf
-Wikipedia	DownloadAsPdf	False	baja ese article como un pdf
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma a inglés
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma a alemán
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma a polaco
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma a francés
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma a italiano
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma a español
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma a ruso
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma a chino
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma a ucraniano
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma a árabe
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma a portugués
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de esta página a inglés
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de esta página a alemán
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de esta página a polaco
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de esta página a francés
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de esta página a italiano
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de esta página a español
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de esta página a ruso
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de esta página a chino
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de esta página a ucraniano
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de esta página a árabe
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de esta página a portugués
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de este artículo a inglés
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de este artículo a alemán
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de este artículo a polaco
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de este artículo a francés
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de este artículo a italiano
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de este artículo a español
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de este artículo a ruso
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de este artículo a chino
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de este artículo a ucraniano
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de este artículo a árabe
-Wikipedia	ChangeLanguageToLanguage	False	cambia el idioma de este artículo a portugués
-Wikipedia	ChangeLanguageToLanguage	True	muestra esta página en inglés
-Wikipedia	ChangeLanguageToLanguage	True	muestra esta página en alemán
-Wikipedia	ChangeLanguageToLanguage	True	muestra esta página en polaco
-Wikipedia	ChangeLanguageToLanguage	True	muestra esta página en francés
-Wikipedia	ChangeLanguageToLanguage	True	muestra esta página en italiano
-Wikipedia	ChangeLanguageToLanguage	True	muestra esta página en español
-Wikipedia	ChangeLanguageToLanguage	True	muestra esta página en ruso
-Wikipedia	ChangeLanguageToLanguage	True	muestra esta página en chino
-Wikipedia	ChangeLanguageToLanguage	True	muestra esta página en ucraniano
-Wikipedia	ChangeLanguageToLanguage	True	muestra esta página en árabe
-Wikipedia	ChangeLanguageToLanguage	True	muestra esta página en portugués
-Wikipedia	ChangeLanguageToLanguage	True	muestra este artículo en inglés
-Wikipedia	ChangeLanguageToLanguage	True	muestra este artículo en alemán
-Wikipedia	ChangeLanguageToLanguage	True	muestra este artículo en polaco
-Wikipedia	ChangeLanguageToLanguage	True	muestra este artículo en francés
-Wikipedia	ChangeLanguageToLanguage	True	muestra este artículo en italiano
-Wikipedia	ChangeLanguageToLanguage	True	muestra este artículo en español
-Wikipedia	ChangeLanguageToLanguage	True	muestra este artículo en ruso
-Wikipedia	ChangeLanguageToLanguage	True	muestra este artículo en chino
-Wikipedia	ChangeLanguageToLanguage	True	muestra este artículo en ucraniano
-Wikipedia	ChangeLanguageToLanguage	True	muestra este artículo en árabe
-Wikipedia	ChangeLanguageToLanguage	True	muestra este artículo en portugués
-Wikipedia	RandomPage	False	una página al azar
-Wikipedia	RandomPage	False	una página aleatoria
-Wikipedia	RandomPage	False	un artículo al azal
-Wikipedia	RandomPage	False	un artículo aleatorio
-Wikipedia	RandomPage	False	muestra una página al azar
-Wikipedia	RandomPage	False	muestra una página aleatoria
-Wikipedia	RandomPage	False	muestra un artículo al azal
-Wikipedia	RandomPage	False	muestra un artículo aleatorio
-Wikipedia	RandomPage	False	muéstrame una página al azar
-Wikipedia	RandomPage	False	muéstrame una página aleatoria
-Wikipedia	RandomPage	False	muéstrame un artículo al azal
-Wikipedia	RandomPage	False	muéstrame un artículo aleatorio
-Wikipedia	RandomPage	False	navega por
-Wikipedia	RandomPage	False	navega por wiki
-Wikipedia	RandomPage	False	navega por wikipedia
-Wikipedia	RandomPage	False	navegar por
-Wikipedia	RandomPage	False	navegar por wiki
-Wikipedia	RandomPage	False	navegar por wikipedia
-Wikipedia	GoToElementNumber	False	ve al primer element de contenidos
-Wikipedia	GoToElementNumber	False	ve al primer element en contenidos
-Wikipedia	GoToElementNumber	False	ve al primer item de contenidos
-Wikipedia	GoToElementNumber	False	ve al primer item en contenidos
-Wikipedia	GoToElementNumber	False	ve al segundo element de contenidos
-Wikipedia	GoToElementNumber	False	ve al segundo element en contenidos
-Wikipedia	GoToElementNumber	False	ve al segundo item de contenidos
-Wikipedia	GoToElementNumber	False	ve al segundo item en contenidos
-Wikipedia	GoToElementNumber	False	ve al tercer element de contenidos
-Wikipedia	GoToElementNumber	False	ve al tercer element en contenidos
-Wikipedia	GoToElementNumber	False	ve al tercer item de contenidos
-Wikipedia	GoToElementNumber	False	ve al tercer item en contenidos
-Wikipedia	GoToElementNumber	False	ve al cuarto element de contenidos
-Wikipedia	GoToElementNumber	False	ve al cuarto element en contenidos
-Wikipedia	GoToElementNumber	False	ve al cuarto item de contenidos
-Wikipedia	GoToElementNumber	False	ve al cuarto item en contenidos
-Wikipedia	GoToElementNumber	False	ve al quinto element de contenidos
-Wikipedia	GoToElementNumber	False	ve al quinto element en contenidos
-Wikipedia	GoToElementNumber	False	ve al quinto item de contenidos
-Wikipedia	GoToElementNumber	False	ve al quinto item en contenidos
-Wikipedia	GoToElementNumber	False	ve al sexto element de contenidos
-Wikipedia	GoToElementNumber	False	ve al sexto element en contenidos
-Wikipedia	GoToElementNumber	False	ve al sexto item de contenidos
-Wikipedia	GoToElementNumber	False	ve al sexto item en contenidos
-Wikipedia	GoToElementNumber	False	ve al séptimo element de contenidos
-Wikipedia	GoToElementNumber	False	ve al séptimo element en contenidos
-Wikipedia	GoToElementNumber	False	ve al séptimo item de contenidos
-Wikipedia	GoToElementNumber	False	ve al séptimo item en contenidos
-Wikipedia	GoToElementNumber	False	ve al octavo element de contenidos
-Wikipedia	GoToElementNumber	False	ve al octavo element en contenidos
-Wikipedia	GoToElementNumber	False	ve al octavo item de contenidos
-Wikipedia	GoToElementNumber	False	ve al octavo item en contenidos
-Wikipedia	GoToElementNumber	False	ve al noveno element de contenidos
-Wikipedia	GoToElementNumber	False	ve al noveno element en contenidos
-Wikipedia	GoToElementNumber	False	ve al noveno item de contenidos
-Wikipedia	GoToElementNumber	False	ve al noveno item en contenidos
-Wikipedia	GoToElementNumber	False	ve al décimo element de contenidos
-Wikipedia	GoToElementNumber	False	ve al décimo element en contenidos
-Wikipedia	GoToElementNumber	False	ve al décimo item de contenidos
-Wikipedia	GoToElementNumber	False	ve al décimo item en contenidos
+Wikipedia	OpenWikipedia	-	abre de wikipedia
+Wikipedia	OpenWikipedia	-	abre páginas de wikipedia
+Wikipedia	OpenWikipedia	-	abre definiciones de wikipedia
+Wikipedia	SearchQuery	-	encuentra WIKIPEDIA.SLOT.QUERY en wiki
+Wikipedia	SearchQuery	-	encuentra WIKIPEDIA.SLOT.QUERY en wikipedia
+Wikipedia	SearchQuery	-	busca WIKIPEDIA.SLOT.QUERY en wiki
+Wikipedia	SearchQuery	-	busca WIKIPEDIA.SLOT.QUERY en wikipedia
+Wikipedia	SearchQuery	-	WIKIPEDIA.SLOT.QUERY en wiki
+Wikipedia	SearchQuery	-	WIKIPEDIA.SLOT.QUERY en wikipedia
+Wikipedia	ScrollDown	-	hacia abajo
+Wikipedia	ScrollDown	-	ve hacia abajo
+Wikipedia	ScrollDown	-	desplaza hacia abajo
+Wikipedia	ScrollDown	-	mueve hacia abajo
+Wikipedia	ScrollDown	-	desplázate hacia abajo
+Wikipedia	ScrollDown	-	muévete hacia abajo
+Wikipedia	ScrollDown	-	avanza página
+Wikipedia	ScrollDown	-	avanza la página
+Wikipedia	ScrollUp	-	hacia arriba
+Wikipedia	ScrollUp	-	ve hacia arriba
+Wikipedia	ScrollUp	-	desplaza hacia arriba
+Wikipedia	ScrollUp	-	mueve hacia arriba
+Wikipedia	ScrollUp	-	desplázate hacia arriba
+Wikipedia	ScrollUp	-	muévete hacia arriba
+Wikipedia	ScrollUp	-	retrocede página
+Wikipedia	ScrollUp	-	retrocede la página
+Wikipedia	DownloadAsPdf	-	baja página como pdf
+Wikipedia	DownloadAsPdf	-	baja página como un pdf
+Wikipedia	DownloadAsPdf	-	baja esta página como pdf
+Wikipedia	DownloadAsPdf	-	baja esta página como un pdf
+Wikipedia	DownloadAsPdf	-	baja esa página como pdf
+Wikipedia	DownloadAsPdf	-	baja esa página como un pdf
+Wikipedia	DownloadAsPdf	-	baja article como pdf
+Wikipedia	DownloadAsPdf	-	baja article como un pdf
+Wikipedia	DownloadAsPdf	-	baja este article como pdf
+Wikipedia	DownloadAsPdf	-	baja este article como un pdf
+Wikipedia	DownloadAsPdf	-	baja ese article como pdf
+Wikipedia	DownloadAsPdf	-	baja ese article como un pdf
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma a inglés
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma a alemán
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma a polaco
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma a francés
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma a italiano
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma a español
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma a ruso
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma a chino
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma a ucraniano
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma a árabe
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma a portugués
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de esta página a inglés
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de esta página a alemán
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de esta página a polaco
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de esta página a francés
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de esta página a italiano
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de esta página a español
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de esta página a ruso
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de esta página a chino
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de esta página a ucraniano
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de esta página a árabe
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de esta página a portugués
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de este artículo a inglés
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de este artículo a alemán
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de este artículo a polaco
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de este artículo a francés
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de este artículo a italiano
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de este artículo a español
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de este artículo a ruso
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de este artículo a chino
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de este artículo a ucraniano
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de este artículo a árabe
+Wikipedia	ChangeLanguageToLanguage	-	cambia el idioma de este artículo a portugués
+Wikipedia	ChangeLanguageToLanguage	-	muestra esta página en inglés
+Wikipedia	ChangeLanguageToLanguage	-	muestra esta página en alemán
+Wikipedia	ChangeLanguageToLanguage	-	muestra esta página en polaco
+Wikipedia	ChangeLanguageToLanguage	-	muestra esta página en francés
+Wikipedia	ChangeLanguageToLanguage	-	muestra esta página en italiano
+Wikipedia	ChangeLanguageToLanguage	-	muestra esta página en español
+Wikipedia	ChangeLanguageToLanguage	-	muestra esta página en ruso
+Wikipedia	ChangeLanguageToLanguage	-	muestra esta página en chino
+Wikipedia	ChangeLanguageToLanguage	-	muestra esta página en ucraniano
+Wikipedia	ChangeLanguageToLanguage	-	muestra esta página en árabe
+Wikipedia	ChangeLanguageToLanguage	-	muestra esta página en portugués
+Wikipedia	ChangeLanguageToLanguage	-	muestra este artículo en inglés
+Wikipedia	ChangeLanguageToLanguage	-	muestra este artículo en alemán
+Wikipedia	ChangeLanguageToLanguage	-	muestra este artículo en polaco
+Wikipedia	ChangeLanguageToLanguage	-	muestra este artículo en francés
+Wikipedia	ChangeLanguageToLanguage	-	muestra este artículo en italiano
+Wikipedia	ChangeLanguageToLanguage	-	muestra este artículo en español
+Wikipedia	ChangeLanguageToLanguage	-	muestra este artículo en ruso
+Wikipedia	ChangeLanguageToLanguage	-	muestra este artículo en chino
+Wikipedia	ChangeLanguageToLanguage	-	muestra este artículo en ucraniano
+Wikipedia	ChangeLanguageToLanguage	-	muestra este artículo en árabe
+Wikipedia	ChangeLanguageToLanguage	-	muestra este artículo en portugués
+Wikipedia	RandomPage	-	una página al azar
+Wikipedia	RandomPage	-	una página aleatoria
+Wikipedia	RandomPage	-	un artículo al azal
+Wikipedia	RandomPage	-	un artículo aleatorio
+Wikipedia	RandomPage	-	muestra una página al azar
+Wikipedia	RandomPage	-	muestra una página aleatoria
+Wikipedia	RandomPage	-	muestra un artículo al azal
+Wikipedia	RandomPage	-	muestra un artículo aleatorio
+Wikipedia	RandomPage	-	muéstrame una página al azar
+Wikipedia	RandomPage	-	muéstrame una página aleatoria
+Wikipedia	RandomPage	-	muéstrame un artículo al azal
+Wikipedia	RandomPage	-	muéstrame un artículo aleatorio
+Wikipedia	RandomPage	-	navega por
+Wikipedia	RandomPage	-	navega por wiki
+Wikipedia	RandomPage	-	navega por wikipedia
+Wikipedia	RandomPage	-	navegar por
+Wikipedia	RandomPage	-	navegar por wiki
+Wikipedia	RandomPage	-	navegar por wikipedia
+Wikipedia	GoToElementNumber	-	ve al primer element de contenidos
+Wikipedia	GoToElementNumber	-	ve al primer element en contenidos
+Wikipedia	GoToElementNumber	-	ve al primer item de contenidos
+Wikipedia	GoToElementNumber	-	ve al primer item en contenidos
+Wikipedia	GoToElementNumber	-	ve al segundo element de contenidos
+Wikipedia	GoToElementNumber	-	ve al segundo element en contenidos
+Wikipedia	GoToElementNumber	-	ve al segundo item de contenidos
+Wikipedia	GoToElementNumber	-	ve al segundo item en contenidos
+Wikipedia	GoToElementNumber	-	ve al tercer element de contenidos
+Wikipedia	GoToElementNumber	-	ve al tercer element en contenidos
+Wikipedia	GoToElementNumber	-	ve al tercer item de contenidos
+Wikipedia	GoToElementNumber	-	ve al tercer item en contenidos
+Wikipedia	GoToElementNumber	-	ve al cuarto element de contenidos
+Wikipedia	GoToElementNumber	-	ve al cuarto element en contenidos
+Wikipedia	GoToElementNumber	-	ve al cuarto item de contenidos
+Wikipedia	GoToElementNumber	-	ve al cuarto item en contenidos
+Wikipedia	GoToElementNumber	-	ve al quinto element de contenidos
+Wikipedia	GoToElementNumber	-	ve al quinto element en contenidos
+Wikipedia	GoToElementNumber	-	ve al quinto item de contenidos
+Wikipedia	GoToElementNumber	-	ve al quinto item en contenidos
+Wikipedia	GoToElementNumber	-	ve al sexto element de contenidos
+Wikipedia	GoToElementNumber	-	ve al sexto element en contenidos
+Wikipedia	GoToElementNumber	-	ve al sexto item de contenidos
+Wikipedia	GoToElementNumber	-	ve al sexto item en contenidos
+Wikipedia	GoToElementNumber	-	ve al séptimo element de contenidos
+Wikipedia	GoToElementNumber	-	ve al séptimo element en contenidos
+Wikipedia	GoToElementNumber	-	ve al séptimo item de contenidos
+Wikipedia	GoToElementNumber	-	ve al séptimo item en contenidos
+Wikipedia	GoToElementNumber	-	ve al octavo element de contenidos
+Wikipedia	GoToElementNumber	-	ve al octavo element en contenidos
+Wikipedia	GoToElementNumber	-	ve al octavo item de contenidos
+Wikipedia	GoToElementNumber	-	ve al octavo item en contenidos
+Wikipedia	GoToElementNumber	-	ve al noveno element de contenidos
+Wikipedia	GoToElementNumber	-	ve al noveno element en contenidos
+Wikipedia	GoToElementNumber	-	ve al noveno item de contenidos
+Wikipedia	GoToElementNumber	-	ve al noveno item en contenidos
+Wikipedia	GoToElementNumber	-	ve al décimo element de contenidos
+Wikipedia	GoToElementNumber	-	ve al décimo element en contenidos
+Wikipedia	GoToElementNumber	-	ve al décimo item de contenidos
+Wikipedia	GoToElementNumber	-	ve al décimo item en contenidos

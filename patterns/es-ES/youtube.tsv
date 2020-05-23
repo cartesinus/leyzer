@@ -1,147 +1,147 @@
 domain	intent	parallel	pattern
-Youtube	OpenYT	True	abre yt
-Youtube	OpenYT	True	abre youtube
-Youtube	FindQuery	False	reproduce vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	reproduce video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	reproduce el vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	reproduce el video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	reproduce un vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	reproduce un video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	True	reproduce YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	reproduce YOUTUBE.SLOT.QUERY vídeo en youtube
-Youtube	FindQuery	False	reproduce YOUTUBE.SLOT.QUERY video en youtube
-Youtube	FindQuery	False	reproduce YOUTUBE.SLOT.QUERY videos en youtube
-Youtube	FindQuery	False	reproduce YOUTUBE.SLOT.QUERY vídeos en youtube
-Youtube	FindQuery	False	reproduce vídeo de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	False	reproduce video de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	False	busca vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	busca video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	busca el vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	busca el video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	busca un vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	busca un video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	busca YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	busca YOUTUBE.SLOT.QUERY vídeo en youtube
-Youtube	FindQuery	False	busca YOUTUBE.SLOT.QUERY video en youtube
-Youtube	FindQuery	False	busca YOUTUBE.SLOT.QUERY videos en youtube
-Youtube	FindQuery	False	busca YOUTUBE.SLOT.QUERY vídeos en youtube
-Youtube	FindQuery	False	busca vídeo de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	False	busca video de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	False	encuentra vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	encuentra video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	encuentra el vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	True	encuentra el video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	encuentra un vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	encuentra un video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	True	encuentra YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	encuentra YOUTUBE.SLOT.QUERY vídeo en youtube
-Youtube	FindQuery	False	encuentra YOUTUBE.SLOT.QUERY video en youtube
-Youtube	FindQuery	False	encuentra YOUTUBE.SLOT.QUERY videos en youtube
-Youtube	FindQuery	False	encuentra YOUTUBE.SLOT.QUERY vídeos en youtube
-Youtube	FindQuery	False	encuentra vídeo de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	False	encuentra video de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	False	búscame vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	búscame video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	búscame el vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	búscame el video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	búscame un vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	búscame un video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	búscame YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	False	búscame YOUTUBE.SLOT.QUERY vídeo en youtube
-Youtube	FindQuery	False	búscame YOUTUBE.SLOT.QUERY video en youtube
-Youtube	FindQuery	False	búscame YOUTUBE.SLOT.QUERY videos en youtube
-Youtube	FindQuery	False	búscame YOUTUBE.SLOT.QUERY vídeos en youtube
-Youtube	FindQuery	False	búscame vídeo de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	False	búscame video de youtube YOUTUBE.SLOT.QUERY
-Youtube	ShowChannelWithName	False	muestra canal de youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	True	muestra el canal de youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	False	muestra videos en youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	False	muestra vídeos en youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	False	muestra canal YOUTUBE.SLOT.CHANNEL_ID en youtube
-Youtube	ShowChannelWithName	False	reproduce canal de youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	False	reproduce el canal de youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	False	reproduce videos en youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	False	reproduce vídeos en youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	False	reproduce canal YOUTUBE.SLOT.CHANNEL_ID en youtube
-Youtube	ShowChannelWithName	False	muéstrame canal de youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	False	muéstrame el canal de youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	False	muéstrame videos en youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	False	muéstrame vídeos en youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	False	muéstrame canal YOUTUBE.SLOT.CHANNEL_ID en youtube
-Youtube	ShowChannelWithCategory	False	muestra canales de categoría YOUTUBE.SLOT.CATEGORY en youtube
-Youtube	ShowChannelWithCategory	False	muestra canales de youtube de categoría YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	False	muestra YOUTUBE.SLOT.CATEGORY canales de youtube
-Youtube	ShowChannelWithCategory	False	muestra YOUTUBE.SLOT.CATEGORY canales en youtube
-Youtube	ShowChannelWithCategory	False	muestra canales de youtube YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	False	muestra canales en youtube YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	False	reproduce canales de categoría YOUTUBE.SLOT.CATEGORY en youtube
-Youtube	ShowChannelWithCategory	False	reproduce canales de youtube de categoría YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	False	reproduce YOUTUBE.SLOT.CATEGORY canales de youtube
-Youtube	ShowChannelWithCategory	False	reproduce YOUTUBE.SLOT.CATEGORY canales en youtube
-Youtube	ShowChannelWithCategory	False	reproduce canales de youtube YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	False	reproduce canales en youtube YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	False	muéstrame canales de categoría YOUTUBE.SLOT.CATEGORY en youtube
-Youtube	ShowChannelWithCategory	False	muéstrame canales de youtube de categoría YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	False	muéstrame YOUTUBE.SLOT.CATEGORY canales de youtube
-Youtube	ShowChannelWithCategory	False	muéstrame YOUTUBE.SLOT.CATEGORY canales en youtube
-Youtube	ShowChannelWithCategory	False	muéstrame canales de youtube YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	False	muéstrame canales en youtube YOUTUBE.SLOT.CATEGORY
-Youtube	ShowSubscribedChannels	False	muestra canales a que me he suscrito en youtube
-Youtube	ShowSubscribedChannels	False	muéstrame canales a que me he suscrito en youtube
-Youtube	ShowFollowing	False	muestra canales que sigo en youtube
-Youtube	ShowFollowing	False	muestra canales de youtube que sigo
-Youtube	ShowFollowing	False	muéstrame canales que sigo en youtube
-Youtube	ShowFollowing	False	muéstrame canales de youtube que sigo
-Youtube	FindChannelWithQuery	False	busca canales YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindChannelWithQuery	False	busca canales que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindChannelWithQuery	False	busca canal de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindChannelWithQuery	False	encuentra canales YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindChannelWithQuery	False	encuentra canales que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindChannelWithQuery	False	encuentra canal de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindChannelWithQuery	False	búscame canales YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindChannelWithQuery	False	búscame canales que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindChannelWithQuery	False	búscame canal de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQueryOnChannel	False	muestra un vídeo de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muestra un vídeo de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muestra un vídeo publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muestra un vídeo publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muestra un video de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muestra un video de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muestra un video publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muestra un video publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muestra un videos de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muestra un videos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muestra un videos publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muestra un videos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muestra un vídeos de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muestra un vídeos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muestra un vídeos publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muestra un vídeos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muéstrame un vídeo de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muéstrame un vídeo de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muéstrame un vídeo publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muéstrame un vídeo publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	True	muéstrame un video de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muéstrame un video de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muéstrame un video publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muéstrame un video publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muéstrame un videos de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muéstrame un videos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muéstrame un videos publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muéstrame un videos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muéstrame un vídeos de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muéstrame un vídeos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	False	muéstrame un vídeos publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	False	muéstrame un vídeos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	NotifyOnNewFromFollowing	False	notifícame cuando aparezca un nuevo vídeo en canales que sigo
-Youtube	NotifyOnNewFromFollowing	False	notifícame cuando aparezca un nuevo video en canales que sigo
-Youtube	NotifyonNewOnChannel	False	notifícame cuando aparezca un nuevo vídeo en el canal YOUTUBE.SLOT.CHANNEL_ID
-Youtube	NotifyonNewOnChannel	False	notifícame cuando aparezca un nuevo video en el canal YOUTUBE.SLOT.CHANNEL_ID
-Youtube	NotifyonNewOnChannel	False	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un vídeo en youtube
-Youtube	NotifyonNewOnChannel	True	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un video en youtube
-Youtube	NotifyonNewOnChannel	False	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un nuevo vídeo en youtube
-Youtube	NotifyonNewOnChannel	False	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un nuevo video en youtube
-Youtube	NotifyonNewOnChannel	False	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un vídeo en youtube
-Youtube	NotifyonNewOnChannel	False	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un video en youtube
-Youtube	NotifyonNewOnChannel	False	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un nuevo vídeo en youtube
-Youtube	NotifyonNewOnChannel	False	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un nuevo video en youtube
+Youtube	OpenYT	-	abre yt
+Youtube	OpenYT	-	abre youtube
+Youtube	FindQuery	-	reproduce vídeo YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	reproduce video YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	reproduce el vídeo YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	reproduce el video YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	reproduce un vídeo YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	reproduce un video YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	reproduce YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	reproduce YOUTUBE.SLOT.QUERY vídeo en youtube
+Youtube	FindQuery	-	reproduce YOUTUBE.SLOT.QUERY video en youtube
+Youtube	FindQuery	-	reproduce YOUTUBE.SLOT.QUERY videos en youtube
+Youtube	FindQuery	-	reproduce YOUTUBE.SLOT.QUERY vídeos en youtube
+Youtube	FindQuery	-	reproduce vídeo de youtube YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	reproduce video de youtube YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	busca vídeo YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	busca video YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	busca el vídeo YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	busca el video YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	busca un vídeo YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	busca un video YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	busca YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	busca YOUTUBE.SLOT.QUERY vídeo en youtube
+Youtube	FindQuery	-	busca YOUTUBE.SLOT.QUERY video en youtube
+Youtube	FindQuery	-	busca YOUTUBE.SLOT.QUERY videos en youtube
+Youtube	FindQuery	-	busca YOUTUBE.SLOT.QUERY vídeos en youtube
+Youtube	FindQuery	-	busca vídeo de youtube YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	busca video de youtube YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	encuentra vídeo YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	encuentra video YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	encuentra el vídeo YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	encuentra el video YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	encuentra un vídeo YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	encuentra un video YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	encuentra YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	encuentra YOUTUBE.SLOT.QUERY vídeo en youtube
+Youtube	FindQuery	-	encuentra YOUTUBE.SLOT.QUERY video en youtube
+Youtube	FindQuery	-	encuentra YOUTUBE.SLOT.QUERY videos en youtube
+Youtube	FindQuery	-	encuentra YOUTUBE.SLOT.QUERY vídeos en youtube
+Youtube	FindQuery	-	encuentra vídeo de youtube YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	encuentra video de youtube YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	búscame vídeo YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	búscame video YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	búscame el vídeo YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	búscame el video YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	búscame un vídeo YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	búscame un video YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	búscame YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQuery	-	búscame YOUTUBE.SLOT.QUERY vídeo en youtube
+Youtube	FindQuery	-	búscame YOUTUBE.SLOT.QUERY video en youtube
+Youtube	FindQuery	-	búscame YOUTUBE.SLOT.QUERY videos en youtube
+Youtube	FindQuery	-	búscame YOUTUBE.SLOT.QUERY vídeos en youtube
+Youtube	FindQuery	-	búscame vídeo de youtube YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	búscame video de youtube YOUTUBE.SLOT.QUERY
+Youtube	ShowChannelWithName	-	muestra canal de youtube YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	muestra el canal de youtube YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	muestra videos en youtube YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	muestra vídeos en youtube YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	muestra canal YOUTUBE.SLOT.CHANNEL_ID en youtube
+Youtube	ShowChannelWithName	-	reproduce canal de youtube YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	reproduce el canal de youtube YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	reproduce videos en youtube YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	reproduce vídeos en youtube YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	reproduce canal YOUTUBE.SLOT.CHANNEL_ID en youtube
+Youtube	ShowChannelWithName	-	muéstrame canal de youtube YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	muéstrame el canal de youtube YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	muéstrame videos en youtube YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	muéstrame vídeos en youtube YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	muéstrame canal YOUTUBE.SLOT.CHANNEL_ID en youtube
+Youtube	ShowChannelWithCategory	-	muestra canales de categoría YOUTUBE.SLOT.CATEGORY en youtube
+Youtube	ShowChannelWithCategory	-	muestra canales de youtube de categoría YOUTUBE.SLOT.CATEGORY
+Youtube	ShowChannelWithCategory	-	muestra YOUTUBE.SLOT.CATEGORY canales de youtube
+Youtube	ShowChannelWithCategory	-	muestra YOUTUBE.SLOT.CATEGORY canales en youtube
+Youtube	ShowChannelWithCategory	-	muestra canales de youtube YOUTUBE.SLOT.CATEGORY
+Youtube	ShowChannelWithCategory	-	muestra canales en youtube YOUTUBE.SLOT.CATEGORY
+Youtube	ShowChannelWithCategory	-	reproduce canales de categoría YOUTUBE.SLOT.CATEGORY en youtube
+Youtube	ShowChannelWithCategory	-	reproduce canales de youtube de categoría YOUTUBE.SLOT.CATEGORY
+Youtube	ShowChannelWithCategory	-	reproduce YOUTUBE.SLOT.CATEGORY canales de youtube
+Youtube	ShowChannelWithCategory	-	reproduce YOUTUBE.SLOT.CATEGORY canales en youtube
+Youtube	ShowChannelWithCategory	-	reproduce canales de youtube YOUTUBE.SLOT.CATEGORY
+Youtube	ShowChannelWithCategory	-	reproduce canales en youtube YOUTUBE.SLOT.CATEGORY
+Youtube	ShowChannelWithCategory	-	muéstrame canales de categoría YOUTUBE.SLOT.CATEGORY en youtube
+Youtube	ShowChannelWithCategory	-	muéstrame canales de youtube de categoría YOUTUBE.SLOT.CATEGORY
+Youtube	ShowChannelWithCategory	-	muéstrame YOUTUBE.SLOT.CATEGORY canales de youtube
+Youtube	ShowChannelWithCategory	-	muéstrame YOUTUBE.SLOT.CATEGORY canales en youtube
+Youtube	ShowChannelWithCategory	-	muéstrame canales de youtube YOUTUBE.SLOT.CATEGORY
+Youtube	ShowChannelWithCategory	-	muéstrame canales en youtube YOUTUBE.SLOT.CATEGORY
+Youtube	ShowSubscribedChannels	-	muestra canales a que me he suscrito en youtube
+Youtube	ShowSubscribedChannels	-	muéstrame canales a que me he suscrito en youtube
+Youtube	ShowFollowing	-	muestra canales que sigo en youtube
+Youtube	ShowFollowing	-	muestra canales de youtube que sigo
+Youtube	ShowFollowing	-	muéstrame canales que sigo en youtube
+Youtube	ShowFollowing	-	muéstrame canales de youtube que sigo
+Youtube	FindChannelWithQuery	-	busca canales YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindChannelWithQuery	-	busca canales que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindChannelWithQuery	-	busca canal de youtube YOUTUBE.SLOT.QUERY
+Youtube	FindChannelWithQuery	-	encuentra canales YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindChannelWithQuery	-	encuentra canales que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindChannelWithQuery	-	encuentra canal de youtube YOUTUBE.SLOT.QUERY
+Youtube	FindChannelWithQuery	-	búscame canales YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindChannelWithQuery	-	búscame canales que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindChannelWithQuery	-	búscame canal de youtube YOUTUBE.SLOT.QUERY
+Youtube	FindQueryOnChannel	-	muestra un vídeo de YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muestra un vídeo de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muestra un vídeo publicados por YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muestra un vídeo publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muestra un video de YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muestra un video de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muestra un video publicados por YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muestra un video publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muestra un videos de YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muestra un videos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muestra un videos publicados por YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muestra un videos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muestra un vídeos de YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muestra un vídeos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muestra un vídeos publicados por YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muestra un vídeos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muéstrame un vídeo de YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muéstrame un vídeo de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muéstrame un vídeo publicados por YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muéstrame un vídeo publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muéstrame un video de YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muéstrame un video de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muéstrame un video publicados por YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muéstrame un video publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muéstrame un videos de YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muéstrame un videos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muéstrame un videos publicados por YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muéstrame un videos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muéstrame un vídeos de YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muéstrame un vídeos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	FindQueryOnChannel	-	muéstrame un vídeos publicados por YOUTUBE.SLOT.CHANNEL_ID
+Youtube	FindQueryOnChannel	-	muéstrame un vídeos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
+Youtube	NotifyOnNewFromFollowing	-	notifícame cuando aparezca un nuevo vídeo en canales que sigo
+Youtube	NotifyOnNewFromFollowing	-	notifícame cuando aparezca un nuevo video en canales que sigo
+Youtube	NotifyonNewOnChannel	-	notifícame cuando aparezca un nuevo vídeo en el canal YOUTUBE.SLOT.CHANNEL_ID
+Youtube	NotifyonNewOnChannel	-	notifícame cuando aparezca un nuevo video en el canal YOUTUBE.SLOT.CHANNEL_ID
+Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un vídeo en youtube
+Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un video en youtube
+Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un nuevo vídeo en youtube
+Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un nuevo video en youtube
+Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un vídeo en youtube
+Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un video en youtube
+Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un nuevo vídeo en youtube
+Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un nuevo video en youtube

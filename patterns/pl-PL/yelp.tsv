@@ -1,327 +1,327 @@
 domain	intent	parallel	pattern
-Yelp	SearchRestaurant	True	znajdź restauracje
-Yelp	SearchRestaurant	False	znajdź restauracje na yelpie
-Yelp	SearchRestaurant	True	znajdź restauracje w pobliżu
-Yelp	SearchRestaurant	True	znajdź restauracje w okolicy
-Yelp	SearchRestaurant	False	znajdź coś do jedzenia
-Yelp	SearchRestaurant	False	znajdź coś do jedzenia na yelpie
-Yelp	SearchRestaurant	False	znajdź coś do jedzenia w pobliżu
-Yelp	SearchRestaurant	False	znajdź coś do jedzenia w okolicy
-Yelp	SearchRestaurant	False	znajdź jedzenie
-Yelp	SearchRestaurant	False	znajdź jedzenie na yelpie
-Yelp	SearchRestaurant	False	znajdź jedzenie w pobliżu
-Yelp	SearchRestaurant	False	znajdź jedzenie w okolicy
-Yelp	SearchRestaurant	True	wyszukaj restauracje
-Yelp	SearchRestaurant	True	wyszukaj restauracje na yelpie
-Yelp	SearchRestaurant	True	wyszukaj restauracje w pobliżu
-Yelp	SearchRestaurant	False	wyszukaj restauracje w okolicy
-Yelp	SearchRestaurant	False	wyszukaj coś do jedzenia
-Yelp	SearchRestaurant	False	wyszukaj coś do jedzenia na yelpie
-Yelp	SearchRestaurant	False	wyszukaj coś do jedzenia w pobliżu
-Yelp	SearchRestaurant	False	wyszukaj coś do jedzenia w okolicy
-Yelp	SearchRestaurant	False	wyszukaj jedzenie
-Yelp	SearchRestaurant	False	wyszukaj jedzenie na yelpie
-Yelp	SearchRestaurant	False	wyszukaj jedzenie w pobliżu
-Yelp	SearchRestaurant	False	wyszukaj jedzenie w okolicy
-Yelp	SearchRestaurant	False	pokaż restauracje
-Yelp	SearchRestaurant	False	pokaż restauracje na yelpie
-Yelp	SearchRestaurant	False	pokaż restauracje w pobliżu
-Yelp	SearchRestaurant	False	pokaż restauracje w okolicy
-Yelp	SearchRestaurant	False	pokaż coś do jedzenia
-Yelp	SearchRestaurant	False	pokaż coś do jedzenia na yelpie
-Yelp	SearchRestaurant	False	pokaż coś do jedzenia w pobliżu
-Yelp	SearchRestaurant	False	pokaż coś do jedzenia w okolicy
-Yelp	SearchRestaurant	False	pokaż jedzenie
-Yelp	SearchRestaurant	False	pokaż jedzenie na yelpie
-Yelp	SearchRestaurant	False	pokaż jedzenie w pobliżu
-Yelp	SearchRestaurant	False	pokaż jedzenie w okolicy
-Yelp	SearchRestaurant	False	nabliższa restauracja w pobliżu
-Yelp	SearchRestaurant	False	nabliższa restauracja w okolicy
-Yelp	SearchByQuery	False	znajdź YELP.SLOT.QUERY
-Yelp	SearchByQuery	False	znajdź YELP.SLOT.QUERY w pobliżu
-Yelp	SearchByQuery	False	znajdź YELP.SLOT.QUERY w okolicy
-Yelp	SearchByQuery	False	znajdź YELP.SLOT.QUERY na yelpie
-Yelp	SearchByQuery	False	wyszukaj YELP.SLOT.QUERY
-Yelp	SearchByQuery	False	wyszukaj YELP.SLOT.QUERY w pobliżu
-Yelp	SearchByQuery	False	wyszukaj YELP.SLOT.QUERY w okolicy
-Yelp	SearchByQuery	False	wyszukaj YELP.SLOT.QUERY na yelpie
-Yelp	SearchByQuery	False	pokaż YELP.SLOT.QUERY
-Yelp	SearchByQuery	False	pokaż YELP.SLOT.QUERY w pobliżu
-Yelp	SearchByQuery	False	pokaż YELP.SLOT.QUERY w okolicy
-Yelp	SearchByQuery	False	pokaż YELP.SLOT.QUERY na yelpie
-Yelp	SearchByRating	False	znajdź restauracje z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	znajdź restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	znajdź jedzenie z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	znajdź jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	wyszukaj restauracje z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	wyszukaj restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	wyszukaj jedzenie z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	wyszukaj jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	pokaż restauracje z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	pokaż restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	pokaż jedzenie z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	pokaż jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	restauracje w pobliżu z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	restauracje w okolicy z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	jedzenie w pobliżu z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRating	False	jedzenie w okolicy z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByCategory	True	restauracje YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	True	restauracje YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	restauracje w kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	restauracje z kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	jedzenie YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	jedzenie YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	znajdź restauracje YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	znajdź restauracje YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	znajdź restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	znajdź restauracje w kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	znajdź restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	znajdź restauracje z kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	znajdź jedzenie YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	znajdź jedzenie YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	znajdź jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	znajdź jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	znajdź jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	znajdź jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	wyszukaj restauracje YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	wyszukaj restauracje YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	wyszukaj restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	wyszukaj restauracje w kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	wyszukaj restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	wyszukaj restauracje z kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	wyszukaj jedzenie YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	wyszukaj jedzenie YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	wyszukaj jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	wyszukaj jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	wyszukaj jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	wyszukaj jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	pokaż restauracje YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	pokaż restauracje YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	pokaż restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	pokaż restauracje w kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	pokaż restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	pokaż restauracje z kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	pokaż jedzenie YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	pokaż jedzenie YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	pokaż jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	pokaż jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	SearchByCategory	False	pokaż jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu
-Yelp	SearchByCategory	False	pokaż jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy
-Yelp	OpenRestaurants	False	znajdź otwarte restauracje w pobliżu
-Yelp	OpenRestaurants	False	znajdź otwarte restauracje w okolicy
-Yelp	OpenRestaurants	False	znajdź jeszcze otwarte restauracje w pobliżu
-Yelp	OpenRestaurants	False	znajdź jeszcze otwarte restauracje w okolicy
-Yelp	OpenRestaurants	False	znajdź ciągle otwarte restauracje w pobliżu
-Yelp	OpenRestaurants	False	znajdź ciągle otwarte restauracje w okolicy
-Yelp	OpenRestaurants	False	wyszukaj otwarte restauracje w pobliżu
-Yelp	OpenRestaurants	False	wyszukaj otwarte restauracje w okolicy
-Yelp	OpenRestaurants	False	wyszukaj jeszcze otwarte restauracje w pobliżu
-Yelp	OpenRestaurants	False	wyszukaj jeszcze otwarte restauracje w okolicy
-Yelp	OpenRestaurants	False	wyszukaj ciągle otwarte restauracje w pobliżu
-Yelp	OpenRestaurants	False	wyszukaj ciągle otwarte restauracje w okolicy
-Yelp	OpenRestaurants	False	pokaż otwarte restauracje w pobliżu
-Yelp	OpenRestaurants	False	pokaż otwarte restauracje w okolicy
-Yelp	OpenRestaurants	False	pokaż jeszcze otwarte restauracje w pobliżu
-Yelp	OpenRestaurants	False	pokaż jeszcze otwarte restauracje w okolicy
-Yelp	OpenRestaurants	False	pokaż ciągle otwarte restauracje w pobliżu
-Yelp	OpenRestaurants	False	pokaż ciągle otwarte restauracje w okolicy
-Yelp	SearchByReviewCount	False	restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	znajdź restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	znajdź restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	znajdź restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	znajdź restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	znajdź restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	znajdź restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	znajdź restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	znajdź restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	wyszukaj restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	wyszukaj restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	wyszukaj restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	wyszukaj restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	wyszukaj restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	wyszukaj restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	wyszukaj restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	wyszukaj restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	pokaż restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	pokaż restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	pokaż restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	pokaż restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	pokaż restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	pokaż restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCount	False	pokaż restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCount	False	pokaż restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchInLocation	True	restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchInLocation	True	restauracje w okolicy YELP.SLOT.LOCATION
-Yelp	SearchInLocation	False	znajdź restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchInLocation	False	znajdź restauracje w okolicy YELP.SLOT.LOCATION
-Yelp	SearchInLocation	False	wyszukaj restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchInLocation	False	wyszukaj restauracje w okolicy YELP.SLOT.LOCATION
-Yelp	SearchInLocation	False	pokaż restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchInLocation	False	pokaż restauracje w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByQueryInLocation	True	YELP.SLOT.QUERY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByQueryInLocation	True	YELP.SLOT.QUERY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByQueryInLocation	False	znajdź YELP.SLOT.QUERY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByQueryInLocation	False	znajdź YELP.SLOT.QUERY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByQueryInLocation	False	wyszukaj YELP.SLOT.QUERY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByQueryInLocation	False	wyszukaj YELP.SLOT.QUERY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByQueryInLocation	False	pokaż YELP.SLOT.QUERY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByQueryInLocation	False	pokaż YELP.SLOT.QUERY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	restauracje z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	restauracje z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	jedzenie z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	jedzenie z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	znajdź restauracje z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	znajdź restauracje z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	znajdź restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	znajdź restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	znajdź jedzenie z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	znajdź jedzenie z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	znajdź jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	znajdź jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	wyszukaj restauracje z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	wyszukaj restauracje z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	wyszukaj restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	wyszukaj restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	wyszukaj jedzenie z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	wyszukaj jedzenie z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	wyszukaj jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	wyszukaj jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	pokaż restauracje z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	pokaż restauracje z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	pokaż restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	pokaż restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	pokaż jedzenie z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	pokaż jedzenie z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	pokaż jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	pokaż jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	False	restauracje w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	restauracje w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	jedzenie w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	jedzenie w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	znajdź restauracje w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	znajdź restauracje w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	znajdź jedzenie w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	znajdź jedzenie w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	wyszukaj restauracje w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	wyszukaj restauracje w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	wyszukaj jedzenie w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	wyszukaj jedzenie w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	pokaż restauracje w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	pokaż restauracje w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	pokaż jedzenie w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByRatingInLocation	False	pokaż jedzenie w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
-Yelp	SearchByCategoryInLocation	False	restauracje YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	restauracje YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	restauracje w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	restauracje z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	jedzenie YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	jedzenie YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	znajdź restauracje YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	znajdź restauracje YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	znajdź restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	znajdź restauracje w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	znajdź restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	znajdź restauracje z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	znajdź jedzenie YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	znajdź jedzenie YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	znajdź jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	znajdź jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	znajdź jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	znajdź jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	wyszukaj restauracje YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	wyszukaj restauracje YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	wyszukaj restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	wyszukaj restauracje w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	wyszukaj restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	wyszukaj restauracje z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	wyszukaj jedzenie YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	wyszukaj jedzenie YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	wyszukaj jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	wyszukaj jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	wyszukaj jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	wyszukaj jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	pokaż restauracje YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	pokaż restauracje YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	pokaż restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	pokaż restauracje w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	pokaż restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	pokaż restauracje z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	pokaż jedzenie YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	pokaż jedzenie YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	pokaż jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	pokaż jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	pokaż jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	False	pokaż jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
-Yelp	SearchByReviewCountInLocation	False	restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	znajdź restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	znajdź restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	znajdź restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	znajdź restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	znajdź restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	znajdź restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	znajdź restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	znajdź restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	wyszukaj restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	wyszukaj restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	wyszukaj restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	wyszukaj restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	wyszukaj restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	wyszukaj restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	wyszukaj restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	wyszukaj restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	pokaż restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	pokaż restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	pokaż restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	pokaż restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	pokaż restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	pokaż restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	SearchByReviewCountInLocation	False	pokaż restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
-Yelp	SearchByReviewCountInLocation	False	pokaż restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
-Yelp	OpenRestaurantsInLocation	False	znajdź otwarte restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	znajdź otwarte restauracje w okolicy YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	znajdź jeszcze otwarte restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	znajdź jeszcze otwarte restauracje w okolicy YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	znajdź ciągle otwarte restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	znajdź ciągle otwarte restauracje w okolicy YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	wyszukaj otwarte restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	wyszukaj otwarte restauracje w okolicy YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	wyszukaj jeszcze otwarte restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	wyszukaj jeszcze otwarte restauracje w okolicy YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	wyszukaj ciągle otwarte restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	wyszukaj ciągle otwarte restauracje w okolicy YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	pokaż otwarte restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	pokaż otwarte restauracje w okolicy YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	pokaż jeszcze otwarte restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	pokaż jeszcze otwarte restauracje w okolicy YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	pokaż ciągle otwarte restauracje w pobliżu YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	False	pokaż ciągle otwarte restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	SearchRestaurant	-	znajdź restauracje
+Yelp	SearchRestaurant	-	znajdź restauracje na yelpie
+Yelp	SearchRestaurant	-	znajdź restauracje w pobliżu
+Yelp	SearchRestaurant	-	znajdź restauracje w okolicy
+Yelp	SearchRestaurant	-	znajdź coś do jedzenia
+Yelp	SearchRestaurant	-	znajdź coś do jedzenia na yelpie
+Yelp	SearchRestaurant	-	znajdź coś do jedzenia w pobliżu
+Yelp	SearchRestaurant	-	znajdź coś do jedzenia w okolicy
+Yelp	SearchRestaurant	-	znajdź jedzenie
+Yelp	SearchRestaurant	-	znajdź jedzenie na yelpie
+Yelp	SearchRestaurant	-	znajdź jedzenie w pobliżu
+Yelp	SearchRestaurant	-	znajdź jedzenie w okolicy
+Yelp	SearchRestaurant	-	wyszukaj restauracje
+Yelp	SearchRestaurant	-	wyszukaj restauracje na yelpie
+Yelp	SearchRestaurant	-	wyszukaj restauracje w pobliżu
+Yelp	SearchRestaurant	-	wyszukaj restauracje w okolicy
+Yelp	SearchRestaurant	-	wyszukaj coś do jedzenia
+Yelp	SearchRestaurant	-	wyszukaj coś do jedzenia na yelpie
+Yelp	SearchRestaurant	-	wyszukaj coś do jedzenia w pobliżu
+Yelp	SearchRestaurant	-	wyszukaj coś do jedzenia w okolicy
+Yelp	SearchRestaurant	-	wyszukaj jedzenie
+Yelp	SearchRestaurant	-	wyszukaj jedzenie na yelpie
+Yelp	SearchRestaurant	-	wyszukaj jedzenie w pobliżu
+Yelp	SearchRestaurant	-	wyszukaj jedzenie w okolicy
+Yelp	SearchRestaurant	-	pokaż restauracje
+Yelp	SearchRestaurant	-	pokaż restauracje na yelpie
+Yelp	SearchRestaurant	-	pokaż restauracje w pobliżu
+Yelp	SearchRestaurant	-	pokaż restauracje w okolicy
+Yelp	SearchRestaurant	-	pokaż coś do jedzenia
+Yelp	SearchRestaurant	-	pokaż coś do jedzenia na yelpie
+Yelp	SearchRestaurant	-	pokaż coś do jedzenia w pobliżu
+Yelp	SearchRestaurant	-	pokaż coś do jedzenia w okolicy
+Yelp	SearchRestaurant	-	pokaż jedzenie
+Yelp	SearchRestaurant	-	pokaż jedzenie na yelpie
+Yelp	SearchRestaurant	-	pokaż jedzenie w pobliżu
+Yelp	SearchRestaurant	-	pokaż jedzenie w okolicy
+Yelp	SearchRestaurant	-	nabliższa restauracja w pobliżu
+Yelp	SearchRestaurant	-	nabliższa restauracja w okolicy
+Yelp	SearchByQuery	-	znajdź YELP.SLOT.QUERY
+Yelp	SearchByQuery	-	znajdź YELP.SLOT.QUERY w pobliżu
+Yelp	SearchByQuery	-	znajdź YELP.SLOT.QUERY w okolicy
+Yelp	SearchByQuery	-	znajdź YELP.SLOT.QUERY na yelpie
+Yelp	SearchByQuery	-	wyszukaj YELP.SLOT.QUERY
+Yelp	SearchByQuery	-	wyszukaj YELP.SLOT.QUERY w pobliżu
+Yelp	SearchByQuery	-	wyszukaj YELP.SLOT.QUERY w okolicy
+Yelp	SearchByQuery	-	wyszukaj YELP.SLOT.QUERY na yelpie
+Yelp	SearchByQuery	-	pokaż YELP.SLOT.QUERY
+Yelp	SearchByQuery	-	pokaż YELP.SLOT.QUERY w pobliżu
+Yelp	SearchByQuery	-	pokaż YELP.SLOT.QUERY w okolicy
+Yelp	SearchByQuery	-	pokaż YELP.SLOT.QUERY na yelpie
+Yelp	SearchByRating	-	znajdź restauracje z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	znajdź restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	znajdź jedzenie z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	znajdź jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	wyszukaj restauracje z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	wyszukaj restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	wyszukaj jedzenie z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	wyszukaj jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	pokaż restauracje z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	pokaż restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	pokaż jedzenie z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	pokaż jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	restauracje w pobliżu z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	restauracje w okolicy z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	jedzenie w pobliżu z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRating	-	jedzenie w okolicy z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByCategory	-	restauracje YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	restauracje YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	restauracje w kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	restauracje z kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	jedzenie YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	jedzenie YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	znajdź restauracje YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	znajdź restauracje YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	znajdź restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	znajdź restauracje w kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	znajdź restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	znajdź restauracje z kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	znajdź jedzenie YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	znajdź jedzenie YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	znajdź jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	znajdź jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	znajdź jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	znajdź jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	wyszukaj restauracje YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	wyszukaj restauracje YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	wyszukaj restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	wyszukaj restauracje w kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	wyszukaj restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	wyszukaj restauracje z kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	wyszukaj jedzenie YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	wyszukaj jedzenie YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	wyszukaj jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	wyszukaj jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	wyszukaj jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	wyszukaj jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	pokaż restauracje YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	pokaż restauracje YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	pokaż restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	pokaż restauracje w kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	pokaż restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	pokaż restauracje z kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	pokaż jedzenie YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	pokaż jedzenie YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	pokaż jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	pokaż jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	SearchByCategory	-	pokaż jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu
+Yelp	SearchByCategory	-	pokaż jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy
+Yelp	OpenRestaurants	-	znajdź otwarte restauracje w pobliżu
+Yelp	OpenRestaurants	-	znajdź otwarte restauracje w okolicy
+Yelp	OpenRestaurants	-	znajdź jeszcze otwarte restauracje w pobliżu
+Yelp	OpenRestaurants	-	znajdź jeszcze otwarte restauracje w okolicy
+Yelp	OpenRestaurants	-	znajdź ciągle otwarte restauracje w pobliżu
+Yelp	OpenRestaurants	-	znajdź ciągle otwarte restauracje w okolicy
+Yelp	OpenRestaurants	-	wyszukaj otwarte restauracje w pobliżu
+Yelp	OpenRestaurants	-	wyszukaj otwarte restauracje w okolicy
+Yelp	OpenRestaurants	-	wyszukaj jeszcze otwarte restauracje w pobliżu
+Yelp	OpenRestaurants	-	wyszukaj jeszcze otwarte restauracje w okolicy
+Yelp	OpenRestaurants	-	wyszukaj ciągle otwarte restauracje w pobliżu
+Yelp	OpenRestaurants	-	wyszukaj ciągle otwarte restauracje w okolicy
+Yelp	OpenRestaurants	-	pokaż otwarte restauracje w pobliżu
+Yelp	OpenRestaurants	-	pokaż otwarte restauracje w okolicy
+Yelp	OpenRestaurants	-	pokaż jeszcze otwarte restauracje w pobliżu
+Yelp	OpenRestaurants	-	pokaż jeszcze otwarte restauracje w okolicy
+Yelp	OpenRestaurants	-	pokaż ciągle otwarte restauracje w pobliżu
+Yelp	OpenRestaurants	-	pokaż ciągle otwarte restauracje w okolicy
+Yelp	SearchByReviewCount	-	restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	znajdź restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	znajdź restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	znajdź restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	znajdź restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	znajdź restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	znajdź restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	znajdź restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	znajdź restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	wyszukaj restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	wyszukaj restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	wyszukaj restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	wyszukaj restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	wyszukaj restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	wyszukaj restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	wyszukaj restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	wyszukaj restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	pokaż restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	pokaż restauracje w pobliżu które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	pokaż restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	pokaż restauracje w pobliżu które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	pokaż restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	pokaż restauracje w okolicy które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCount	-	pokaż restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCount	-	pokaż restauracje w okolicy które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchInLocation	-	restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchInLocation	-	restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	SearchInLocation	-	znajdź restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchInLocation	-	znajdź restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	SearchInLocation	-	wyszukaj restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchInLocation	-	wyszukaj restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	SearchInLocation	-	pokaż restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchInLocation	-	pokaż restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	znajdź YELP.SLOT.QUERY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	znajdź YELP.SLOT.QUERY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	wyszukaj YELP.SLOT.QUERY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	wyszukaj YELP.SLOT.QUERY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	pokaż YELP.SLOT.QUERY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByQueryInLocation	-	pokaż YELP.SLOT.QUERY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	restauracje z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	restauracje z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	jedzenie z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	jedzenie z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	znajdź restauracje z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	znajdź restauracje z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	znajdź restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	znajdź restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	znajdź jedzenie z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	znajdź jedzenie z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	znajdź jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	znajdź jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	wyszukaj restauracje z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	wyszukaj restauracje z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	wyszukaj restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	wyszukaj restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	wyszukaj jedzenie z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	wyszukaj jedzenie z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	wyszukaj jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	wyszukaj jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	pokaż restauracje z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	pokaż restauracje z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	pokaż restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	pokaż restauracje z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	pokaż jedzenie z YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	pokaż jedzenie z YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	pokaż jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	pokaż jedzenie z przynajmniej YELP.SLOT.RATING gwiazdkami w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByRatingInLocation	-	restauracje w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	restauracje w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	jedzenie w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	jedzenie w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	znajdź restauracje w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	znajdź restauracje w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	znajdź jedzenie w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	znajdź jedzenie w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	wyszukaj restauracje w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	wyszukaj restauracje w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	wyszukaj jedzenie w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	wyszukaj jedzenie w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	pokaż restauracje w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	pokaż restauracje w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	pokaż jedzenie w pobliżu YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByRatingInLocation	-	pokaż jedzenie w okolicy YELP.SLOT.LOCATION z YELP.SLOT.RATING gwiazdkami
+Yelp	SearchByCategoryInLocation	-	restauracje YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	restauracje YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	restauracje w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	restauracje z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	jedzenie YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	jedzenie YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	znajdź restauracje YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	znajdź restauracje YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	znajdź restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	znajdź restauracje w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	znajdź restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	znajdź restauracje z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	znajdź jedzenie YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	znajdź jedzenie YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	znajdź jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	znajdź jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	znajdź jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	znajdź jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	wyszukaj restauracje YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	wyszukaj restauracje YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	wyszukaj restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	wyszukaj restauracje w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	wyszukaj restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	wyszukaj restauracje z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	wyszukaj jedzenie YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	wyszukaj jedzenie YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	wyszukaj jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	wyszukaj jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	wyszukaj jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	wyszukaj jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	pokaż restauracje YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	pokaż restauracje YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	pokaż restauracje w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	pokaż restauracje w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	pokaż restauracje z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	pokaż restauracje z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	pokaż jedzenie YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	pokaż jedzenie YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	pokaż jedzenie w kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	pokaż jedzenie w kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	pokaż jedzenie z kategorii YELP.SLOT.CATEGORY w pobliżu YELP.SLOT.LOCATION
+Yelp	SearchByCategoryInLocation	-	pokaż jedzenie z kategorii YELP.SLOT.CATEGORY w okolicy YELP.SLOT.LOCATION
+Yelp	SearchByReviewCountInLocation	-	restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	znajdź restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	znajdź restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	znajdź restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	znajdź restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	znajdź restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	znajdź restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	znajdź restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	znajdź restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	wyszukaj restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	wyszukaj restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	wyszukaj restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	wyszukaj restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	wyszukaj restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	wyszukaj restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	wyszukaj restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	wyszukaj restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	pokaż restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	pokaż restauracje w pobliżu YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	pokaż restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	pokaż restauracje w pobliżu YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	pokaż restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	pokaż restauracje w okolicy YELP.SLOT.LOCATION które mają YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	SearchByReviewCountInLocation	-	pokaż restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od użytkowników
+Yelp	SearchByReviewCountInLocation	-	pokaż restauracje w okolicy YELP.SLOT.LOCATION które mają przynajmniej YELP.SLOT.REVIEW_COUNT ocen od ludzi
+Yelp	OpenRestaurantsInLocation	-	znajdź otwarte restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	znajdź otwarte restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	znajdź jeszcze otwarte restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	znajdź jeszcze otwarte restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	znajdź ciągle otwarte restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	znajdź ciągle otwarte restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	wyszukaj otwarte restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	wyszukaj otwarte restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	wyszukaj jeszcze otwarte restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	wyszukaj jeszcze otwarte restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	wyszukaj ciągle otwarte restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	wyszukaj ciągle otwarte restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	pokaż otwarte restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	pokaż otwarte restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	pokaż jeszcze otwarte restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	pokaż jeszcze otwarte restauracje w okolicy YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	pokaż ciągle otwarte restauracje w pobliżu YELP.SLOT.LOCATION
+Yelp	OpenRestaurantsInLocation	-	pokaż ciągle otwarte restauracje w okolicy YELP.SLOT.LOCATION
