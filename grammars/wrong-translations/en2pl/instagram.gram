@@ -1,0 +1,62 @@
+#JSGF V1.0;
+public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2> | ShowLastNumberPictures__ <INTENT_3> | ShowPicturesWithFilter__ <INTENT_4> | ShowPicturesWithLocation__ <INTENT_5> | ShowPicturesWithHashtag__ <INTENT_6> | PostWithPicturesFromDateAndWithLocation__ <INTENT_7> | ShowPicturesFromDate__ <INTENT_8> | TakePicture__ <INTENT_9> | PostWithLastPictureWithLocationAndWithHashtag__ <INTENT_10>);
+
+#INTENTS
+<INTENT_1> = <INTENT_1_en> _-_ <INTENT_1_pl>;
+    <INTENT_1_en> = open [my] (instagram | insta);
+    <INTENT_1_pl> = [mój] otwarty (insta | instagram);
+
+<INTENT_2> = <INTENT_2_en> _-_ <INTENT_2_pl>;
+    <INTENT_2_en> = <SHOW_VERB_en> my [recent] (instagram | insta) (pictures | photos);
+    <INTENT_2_pl> = <SHOW_VERB_pl> [mój | moje] [ostatnie] (zdjęcia | fotosy | fotki) (na | w) (instagram | insta);
+
+<INTENT_3> = <INTENT_3_en> _-_ <INTENT_3_pl>;
+    <INTENT_3_en> = <SHOW_VERB_en> my <COUNT> (recent | latest) (instagram | insta) pictures [on my account];
+    <INTENT_3_pl> = <SHOW_VERB_pl> [moje | mój] <COUNT> (ostatnie | najnowsze) (zdjęcia | fotosy | fotki) (na | w) (instagramie | instagram | insta);
+
+<INTENT_4> = <INTENT_4_en> _-_ <INTENT_4_pl>;
+    <INTENT_4_en> = <SHOW_VERB_en> my (instagram | insta) pictures (<INTENT_4_en_a> | <INTENT_4_en_b>);
+    <INTENT_4_en_a> = (with | that use) filter <FILTER>;
+    <INTENT_4_en_b> = that have the <FILTER> filter [applied];
+    <INTENT_4_pl> = <SHOW_VERB_pl> [mój | moje] (zdjęcia | fotosy | fotki) (z filtrem | filtrowane) <FILTER>;
+
+<INTENT_5> = <INTENT_5_en> _-_ <INTENT_5_pl>;
+    <INTENT_5_en> = <SHOW_VERB_en> (the | my) (instagram | insta) pictures (<INTENT_5_en_a> | <INTENT_5_en_b> | <INTENT_5_en_c>) <LOCATION>;
+    <INTENT_5_en_a> = (i took | taken) [when i was] in;
+    <INTENT_5_en_b> = tagged with location;
+    <INTENT_5_en_c> = with (location | geolocation | gps) tag;
+    <INTENT_5_pl> = <SHOW_VERB_pl> [moje | me] (zdjęcia | fotki | fotosy) [na (instagramie | instagram | insta)] z tagiem (lokacji | lokalizacji) (w | na) <LOCATION>;
+
+<INTENT_6> = <INTENT_6_en> _-_ <INTENT_6_pl>;
+    <INTENT_6_en> = <SHOW_VERB_en> my (instagram | insta) pictures tagged <HASHTAG>;
+    <INTENT_6_pl> = <SHOW_VERB_pl> [mój | moje] (zdjęcia | fotki | fotosy) (na (insta | instagramie) z <HASHTAG> tagiem | z <HASHTAG> tagiem na (instagramie | instagram | insta));
+
+<INTENT_7> = <INTENT_7_en> _-_ <INTENT_7_pl>;
+    <INTENT_7_en> = create a [new] post on (instagram | insta) with all my photos taken in <LOCATION> (on the <DATE_DAY> of <DATE_MONTH> | in <DATE_MONTH>) as a collage;
+    <INTENT_7_pl> = twórz [nowy] (post | posty) (na | do) (instagram | instagrama | insta) (ze | z) wszystkich [moich] zdjęć (wziętych | zrobionych) (na | w) <LOCATION> (<DATE_DAY> <DATE_MONTH> | w <DATE_MONTH>) jako kolaż;
+
+<INTENT_8> = <INTENT_8_en> _-_ <INTENT_8_pl>;
+    <INTENT_8_en> = <SHOW_VERB_en> my (post | posts) from (the <DATE_DAY> of <DATE_MONTH> | <DATE_MONTH>);
+    <INTENT_8_pl> = <SHOW_VERB_pl> [mój | moje] (post | posty) z <DATE_DAY> <DATE_MONTH>;
+
+<INTENT_9> = <INTENT_9_en> _-_ <INTENT_9_pl>;
+    <INTENT_9_en> = take a picture (using | with) (instagram | insta);
+    <INTENT_9_pl> = weź zdjęcie z (instagrama | instagram | insta) | zrób zdjęcie (z | w) (instagram | instagramem | insta);
+
+<INTENT_10> = <INTENT_10_en> _-_ <INTENT_10_pl>;
+    <INTENT_10_en> = create a [new] post on (instagram | insta) with the last photo from Gallery [(and a tag <LOCATION> | (and add | adding) (<FILTER> filter | <HASHTAG> hashtag))];
+    <INTENT_10_pl> = twórz [nowy] (post | posty) (do | na) (instagram | instagrama | insta) z ostatnich zdjęć (z | w) galeri [(i tag | i taguj) <LOCATION> | i (dodaj | dodawaj) (<FILTER> filter | <HASHTAG> hashtag)];
+
+#SLOTS
+<HASHTAG> = INSTAGRAM.SLOT.HASHTAG;
+<LOCATION> = INSTAGRAM.SLOT.LOCATION;
+<FILTER> = INSTAGRAM.SLOT.FILTER;
+<COUNT> = INSTAGRAM.SLOT.COUNT;
+<DATE_DAY> = INSTAGRAM.SLOT.DATE_DAY;
+<DATE_MONTH> = INSTAGRAM.SLOT.DATE_MONTH;
+
+#LANG. COMPONENTS
+<NOTIFY_VERB_en> = notify | tell;
+<NOTIFY_VERB_pl> = notyfikuj | powiedz | mów;
+<SHOW_VERB_en> = show | display | list | show me | find | search for;
+<SHOW_VERB_pl> = pokaz | wyświetlacz | lista | listuj | poszukaj | odszukaj;

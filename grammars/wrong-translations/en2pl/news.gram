@@ -1,0 +1,34 @@
+#JSGF V1.0;
+public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | NotifyWhenPortalUpdates__ <INTENT_3> | NotifyWhenPortalUpdatesInSection__ <INTENT_4>);
+
+#PRECONDITIONS
+<WHEN_1_en> = when there is an update on <PORTAL> (news | front page);
+<WHEN_1_pl> = kiedy jest aktualizacja na <PORTAL> (wiadomości | pierwsza strona);
+
+<WHEN_2_en> = when the <PORTAL> <SECTION> section publishes a new article;
+<WHEN_2_pl> = kiedy <PORTAL> <SECTION> sekcja publikuje nowy artykuł;
+
+#INTENTS
+<INTENT_1> = <INTENT_1_en> _-_ <INTENT_1_en>;
+    <INTENT_1_en> = <INTENT_1_en_a> | <INTENT_1_en_b> | <INTENT_1_en_c>;
+    <INTENT_1_en_a> = [open | read] <PORTAL>;
+    <INTENT_1_en_b> = show [me] [the] news from <PORTAL>;
+    <INTENT_1_en_c> = ([latest] news on <PORTAL> | latest <PORTAL> news);
+    <INTENT_1_pl> = (pokaz | show) wiadomości z <PORTAL> | (ostatnie | najnowsze) <PORTAL> (wiadomości | newsy);
+
+<INTENT_2> = <INTENT_2_en> _-_ <INTENT_2_en>;
+    <INTENT_2_en> = (the <SECTION> section of the <PORTAL> | the <PORTAL> <SECTION> section);
+    <INTENT_2_pl> = <SECTION> sekcja z <PORTAL> | <PORTAL> <SECTION> sekcja;
+
+<INTENT_3> = <INTENT_3_en> _-_ <INTENT_3_en>;
+    <INTENT_3_en> = notify me <WHEN_1_en>;
+    <INTENT_3_pl> = notyfikuj mnie <WHEN_1_pl>;
+
+<INTENT_4> = <INTENT_4_en> _-_ <INTENT_4_en>;
+    <INTENT_4_en> = notify me <WHEN_2_en>;
+    <INTENT_4_pl> = notyfikuj mnie <WHEN_2_pl>;
+
+#SLOTS
+<SECTION> = NEWS.SLOT.SECTION;
+<PORTAL> = NEWS.SLOT.PORTAL;
+<TIME> = NEWS.SLOT.TIME;

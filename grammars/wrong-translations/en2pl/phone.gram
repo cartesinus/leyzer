@@ -1,0 +1,37 @@
+#JSGF V1.0;
+public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5>);
+
+#INTENTS
+<INTENT_1> = <INTENT_1_en> _-_ <INTENT_1_pl>;
+    <INTENT_1_en> = (call | dial | phone) <NUMBER>;
+    <INTENT_1_pl> = nazwij <NUMBER> | dzwoni <NUMBER> | telefon <NUMBER> | wybieranie <NUMBER>;
+
+<INTENT_2> = <INTENT_2_en> _-_ <INTENT_2_pl>;
+    <INTENT_2_en> = call (911 | ambulance | fire department | police | emergency services);
+    <INTENT_2_pl> = (nazwij | dzwoni) (911 | ambulans | straż pożarna | policja | pogotowie);
+
+<INTENT_3> = <INTENT_3_en> _-_ <INTENT_3_pl>;
+    <INTENT_3_en> = (check | show | display) my sms inbox;
+    <INTENT_3_pl> = (sprawdź | pokaż | wyświetl | pokaz | wyświetlacz) [moje | mój | moją] (pudełko sms | skrzynka sms | skrzynkę sms);
+
+<INTENT_4> = <INTENT_4_en> _-_ <INTENT_4_pl>;
+    <INTENT_4_en> = <INTENT_4_en_a> | <INTENT_4_en_b>;
+    <INTENT_4_en_a> = send (a text | a message | an sms) to <TO>;
+    <INTENT_4_en_b> = (sms | text) <TO>;
+    <INTENT_4_pl> = <INTENT_4_pl_a> | <INTENT_4_pl_b>;
+    <INTENT_4_pl_a> = wyślij tekst do <TO> | poślij (tekst | wiadomość | sms) do <TO>;
+    <INTENT_4_pl_b> = (tekst | sms) <TO>;
+
+<INTENT_5> = <INTENT_5_en> _-_ <INTENT_5_pl>;
+    <INTENT_5_en> = <INTENT_5_en_a> | <INTENT_5_en_b>;
+    <INTENT_5_en_a> = send (an sms | a text [message]| a message) to <TO> (saying | containing) <MESSAGE>;
+    <INTENT_5_en_b> = (text | sms) <TO> (saying | containing) <MESSAGE>;
+    <INTENT_5_pl> = <INTENT_5_pl_a> | <INTENT_5_pl_b>;
+    <INTENT_5_pl_a> = wyślij tekst do <TO> [mówiac | mówiący | zwierać | zwierający] <MESSAGE> | poślij (tekst | wiadomość | sms) do <TO> [mówiąc | mówiący | zawierać | zawierający] <MESSAGE>;
+    <INTENT_5_pl_b> = (tekst | sms) <TO> [mówiąc | mówiący | zwierać | zwierający] <MESSAGE>;
+
+#SLOTS
+<TO> = PHONE.SLOT.TO;
+<MESSAGE> = PHONE.SLOT.MESSAGE;
+<NUMBER> = PHONE.SLOT.PHONE_NUMBER;
+<MODE> = PHONE.SLOT.MODE;
