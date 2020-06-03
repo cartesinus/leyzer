@@ -48,7 +48,7 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 
 <INTENT_3> = (change | modify | set | adjust) the (temperature on my thermostat | (minimum temperature | maximum temperature | minimum and maximum temperatures) on (my | the) thermostat);
 
-<INTENT_4> = (change | set) (the temperature on my thermostat to <VALUE> | the temperature to <VALUE> on my thermostat | set my thermostat to <VALUE>);
+<INTENT_4> = (change | set) (the temperature on my thermostat to <VALUE> | the temperature to <VALUE> on my thermostat | my thermostat to <VALUE>);
 
 <INTENT_5> = (change | set) ([temperature on] my <DEVICE_NAME> thermostat to <VALUE> | the temperature to <VALUE> on my <DEVICE_NAME> thermostat);
 

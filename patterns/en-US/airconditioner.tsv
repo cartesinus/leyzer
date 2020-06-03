@@ -1,90 +1,90 @@
 domain	intent	parallel	pattern
-Airconditioner	TurnOn	-	turn the AIRCONDITIONER.SLOT.AV_ALIAS on
-Airconditioner	TurnOn	-	turn on the AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner	TurnOn	-	switch on the AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner	TurnOn	-	switch the AIRCONDITIONER.SLOT.AV_ALIAS on
-Airconditioner	TurnOn	-	set my AIRCONDITIONER.SLOT.AV_ALIAS on
-Airconditioner	TurnOn	-	set the AIRCONDITIONER.SLOT.AV_ALIAS on
-Airconditioner	TurnOff	-	turn the AIRCONDITIONER.SLOT.AV_ALIAS off
-Airconditioner	TurnOff	-	turn off the AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner	TurnOff	-	switch off the AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner	TurnOff	-	switch the AIRCONDITIONER.SLOT.AV_ALIAS off
-Airconditioner	TurnOff	-	deactivate my AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner	TurnOff	-	deactivate the AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner	TurnOff	-	shut down my AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner	TurnOff	-	shut down the AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner	ChangeTemperature	-	change the temperature on my thermostat
-Airconditioner	ChangeTemperature	-	change the minimum temperature on my thermostat
-Airconditioner	ChangeTemperature	-	change the minimum temperature on the thermostat
-Airconditioner	ChangeTemperature	-	change the maximum temperature on my thermostat
-Airconditioner	ChangeTemperature	-	change the maximum temperature on the thermostat
-Airconditioner	ChangeTemperature	-	change the minimum and maximum temperatures on my thermostat
-Airconditioner	ChangeTemperature	-	change the minimum and maximum temperatures on the thermostat
-Airconditioner	ChangeTemperature	-	modify the temperature on my thermostat
-Airconditioner	ChangeTemperature	-	modify the minimum temperature on my thermostat
-Airconditioner	ChangeTemperature	-	modify the minimum temperature on the thermostat
-Airconditioner	ChangeTemperature	-	modify the maximum temperature on my thermostat
-Airconditioner	ChangeTemperature	-	modify the maximum temperature on the thermostat
-Airconditioner	ChangeTemperature	-	modify the minimum and maximum temperatures on my thermostat
-Airconditioner	ChangeTemperature	-	modify the minimum and maximum temperatures on the thermostat
-Airconditioner	ChangeTemperature	-	set the temperature on my thermostat
-Airconditioner	ChangeTemperature	-	set the minimum temperature on my thermostat
-Airconditioner	ChangeTemperature	-	set the minimum temperature on the thermostat
-Airconditioner	ChangeTemperature	-	set the maximum temperature on my thermostat
-Airconditioner	ChangeTemperature	-	set the maximum temperature on the thermostat
-Airconditioner	ChangeTemperature	-	set the minimum and maximum temperatures on my thermostat
-Airconditioner	ChangeTemperature	-	set the minimum and maximum temperatures on the thermostat
-Airconditioner	ChangeTemperature	-	adjust the temperature on my thermostat
-Airconditioner	ChangeTemperature	-	adjust the minimum temperature on my thermostat
-Airconditioner	ChangeTemperature	-	adjust the minimum temperature on the thermostat
-Airconditioner	ChangeTemperature	-	adjust the maximum temperature on my thermostat
-Airconditioner	ChangeTemperature	-	adjust the maximum temperature on the thermostat
-Airconditioner	ChangeTemperature	-	adjust the minimum and maximum temperatures on my thermostat
-Airconditioner	ChangeTemperature	-	adjust the minimum and maximum temperatures on the thermostat
-Airconditioner	SetTemperatureToValue	-	change the temperature on my thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner	SetTemperatureToValue	-	change the temperature to AIRCONDITIONER.SLOT.VALUE on my thermostat
-Airconditioner	SetTemperatureToValue	-	change set my thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner	SetTemperatureToValue	-	set the temperature on my thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner	SetTemperatureToValue	-	set the temperature to AIRCONDITIONER.SLOT.VALUE on my thermostat
-Airconditioner	SetTemperatureToValue	-	set set my thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner	SetTemperatureToValueOnDevice	-	change my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner	SetTemperatureToValueOnDevice	-	change temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner	SetTemperatureToValueOnDevice	-	change the temperature to AIRCONDITIONER.SLOT.VALUE on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
-Airconditioner	SetTemperatureToValueOnDevice	-	set my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner	SetTemperatureToValueOnDevice	-	set temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner	SetTemperatureToValueOnDevice	-	set the temperature to AIRCONDITIONER.SLOT.VALUE on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
-Airconditioner	SetTemperatureBetweenValues	-	set the temperature between 23 degree and 29 degree on my thermostat
-Airconditioner	SetTemperatureBetweenValues	-	set the low temperature to 23 degree on my thermostat , and the high to 29 degree
-Airconditioner	SetTemperatureOnDevice	-	change the temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
-Airconditioner	SetTemperatureOnDevice	-	change the minimum and maximum temperatures on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
-Airconditioner	GetHumidity	-	show the humidity
-Airconditioner	GetHumidity	-	show the humidity level
-Airconditioner	GetHumidity	-	give me the humidity
-Airconditioner	GetHumidity	-	give me the humidity level
-Airconditioner	GetHumidity	-	check the humidity
-Airconditioner	GetHumidity	-	check the humidity level
-Airconditioner	GetHumidity	-	how humid is the air
-Airconditioner	GetHumidity	-	how humid is the air in here
-Airconditioner	GetHumidity	-	how humid is the air in the room
-Airconditioner	GetHumidity	-	show me how humid is the air
-Airconditioner	GetHumidity	-	show me how humid is the air in here
-Airconditioner	GetHumidity	-	show me how humid is the air in the room
-Airconditioner	GetHumidity	-	tell me how humid is the air
-Airconditioner	GetHumidity	-	tell me how humid is the air in here
-Airconditioner	GetHumidity	-	tell me how humid is the air in the room
-Airconditioner	GetHumidity	-	show me what's the humidity
-Airconditioner	GetHumidity	-	show me what the humidity is in here
-Airconditioner	GetTemperatureFromDevice	-	check what the AIRCONDITIONER.SLOT.DEVICE_NAME temperature sensor says
-Airconditioner	GetTemperatureFromDevice	-	check what the AIRCONDITIONER.SLOT.DEVICE_NAME thermostat says
-Airconditioner	GetTemperatureFromDevice	-	check the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME sensor
-Airconditioner	GetTemperatureFromDevice	-	check the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
-Airconditioner	GetTemperatureFromDevice	-	check what's on the AIRCONDITIONER.SLOT.DEVICE_NAME sensor
-Airconditioner	GetTemperatureFromDevice	-	show me what the AIRCONDITIONER.SLOT.DEVICE_NAME temperature sensor says
-Airconditioner	GetTemperatureFromDevice	-	show me what the AIRCONDITIONER.SLOT.DEVICE_NAME thermostat says
-Airconditioner	GetTemperatureFromDevice	-	show me the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME sensor
-Airconditioner	GetTemperatureFromDevice	-	show me the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
-Airconditioner	GetTemperatureFromDevice	-	show me what's on the AIRCONDITIONER.SLOT.DEVICE_NAME sensor
-Airconditioner	GetTemperature	-	what temperature do I have in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?
-Airconditioner	GetTemperature	-	what temperature do we have in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?
-Airconditioner	GetTemperature	-	what temperature is it in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?
-Airconditioner	GetTemperature	-	what's the temperature in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner	 TurnOn	-	turn the AIRCONDITIONER.SLOT.AV_ALIAS on
+Airconditioner	 TurnOn	-	turn on the AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	 TurnOn	-	switch on the AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	 TurnOn	-	switch the AIRCONDITIONER.SLOT.AV_ALIAS on
+Airconditioner	 TurnOn	-	set my AIRCONDITIONER.SLOT.AV_ALIAS on
+Airconditioner	 TurnOn	-	set the AIRCONDITIONER.SLOT.AV_ALIAS on
+Airconditioner	 TurnOff	-	turn the AIRCONDITIONER.SLOT.AV_ALIAS off
+Airconditioner	 TurnOff	-	turn off the AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	 TurnOff	-	switch off the AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	 TurnOff	-	switch the AIRCONDITIONER.SLOT.AV_ALIAS off
+Airconditioner	 TurnOff	-	deactivate my AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	 TurnOff	-	deactivate the AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	 TurnOff	-	shut down my AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	 TurnOff	-	shut down the AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	 ChangeTemperature	-	change the temperature on my thermostat
+Airconditioner	 ChangeTemperature	-	change the minimum temperature on my thermostat
+Airconditioner	 ChangeTemperature	-	change the minimum temperature on the thermostat
+Airconditioner	 ChangeTemperature	-	change the maximum temperature on my thermostat
+Airconditioner	 ChangeTemperature	-	change the maximum temperature on the thermostat
+Airconditioner	 ChangeTemperature	-	change the minimum and maximum temperatures on my thermostat
+Airconditioner	 ChangeTemperature	-	change the minimum and maximum temperatures on the thermostat
+Airconditioner	 ChangeTemperature	-	modify the temperature on my thermostat
+Airconditioner	 ChangeTemperature	-	modify the minimum temperature on my thermostat
+Airconditioner	 ChangeTemperature	-	modify the minimum temperature on the thermostat
+Airconditioner	 ChangeTemperature	-	modify the maximum temperature on my thermostat
+Airconditioner	 ChangeTemperature	-	modify the maximum temperature on the thermostat
+Airconditioner	 ChangeTemperature	-	modify the minimum and maximum temperatures on my thermostat
+Airconditioner	 ChangeTemperature	-	modify the minimum and maximum temperatures on the thermostat
+Airconditioner	 ChangeTemperature	-	set the temperature on my thermostat
+Airconditioner	 ChangeTemperature	-	set the minimum temperature on my thermostat
+Airconditioner	 ChangeTemperature	-	set the minimum temperature on the thermostat
+Airconditioner	 ChangeTemperature	-	set the maximum temperature on my thermostat
+Airconditioner	 ChangeTemperature	-	set the maximum temperature on the thermostat
+Airconditioner	 ChangeTemperature	-	set the minimum and maximum temperatures on my thermostat
+Airconditioner	 ChangeTemperature	-	set the minimum and maximum temperatures on the thermostat
+Airconditioner	 ChangeTemperature	-	adjust the temperature on my thermostat
+Airconditioner	 ChangeTemperature	-	adjust the minimum temperature on my thermostat
+Airconditioner	 ChangeTemperature	-	adjust the minimum temperature on the thermostat
+Airconditioner	 ChangeTemperature	-	adjust the maximum temperature on my thermostat
+Airconditioner	 ChangeTemperature	-	adjust the maximum temperature on the thermostat
+Airconditioner	 ChangeTemperature	-	adjust the minimum and maximum temperatures on my thermostat
+Airconditioner	 ChangeTemperature	-	adjust the minimum and maximum temperatures on the thermostat
+Airconditioner	 SetTemperatureToValue	-	change the temperature on my thermostat to AIRCONDITIONER.SLOT.VALUE
+Airconditioner	 SetTemperatureToValue	-	change the temperature to AIRCONDITIONER.SLOT.VALUE on my thermostat
+Airconditioner	 SetTemperatureToValue	-	change my thermostat to AIRCONDITIONER.SLOT.VALUE
+Airconditioner	 SetTemperatureToValue	-	set the temperature on my thermostat to AIRCONDITIONER.SLOT.VALUE
+Airconditioner	 SetTemperatureToValue	-	set the temperature to AIRCONDITIONER.SLOT.VALUE on my thermostat
+Airconditioner	 SetTemperatureToValue	-	set my thermostat to AIRCONDITIONER.SLOT.VALUE
+Airconditioner	 SetTemperatureToValueOnDevice	-	change my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE
+Airconditioner	 SetTemperatureToValueOnDevice	-	change temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE
+Airconditioner	 SetTemperatureToValueOnDevice	-	change the temperature to AIRCONDITIONER.SLOT.VALUE on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
+Airconditioner	 SetTemperatureToValueOnDevice	-	set my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE
+Airconditioner	 SetTemperatureToValueOnDevice	-	set temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE
+Airconditioner	 SetTemperatureToValueOnDevice	-	set the temperature to AIRCONDITIONER.SLOT.VALUE on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
+Airconditioner	 SetTemperatureBetweenValues	-	set the temperature between 23 degree and 29 degree on my thermostat
+Airconditioner	 SetTemperatureBetweenValues	-	set the low temperature to 23 degree on my thermostat , and the high to 29 degree
+Airconditioner	 SetTemperatureOnDevice	-	change the temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
+Airconditioner	 SetTemperatureOnDevice	-	change the minimum and maximum temperatures on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
+Airconditioner	 GetHumidity	-	show the humidity
+Airconditioner	 GetHumidity	-	show the humidity level
+Airconditioner	 GetHumidity	-	give me the humidity
+Airconditioner	 GetHumidity	-	give me the humidity level
+Airconditioner	 GetHumidity	-	check the humidity
+Airconditioner	 GetHumidity	-	check the humidity level
+Airconditioner	 GetHumidity	-	how humid is the air
+Airconditioner	 GetHumidity	-	how humid is the air in here
+Airconditioner	 GetHumidity	-	how humid is the air in the room
+Airconditioner	 GetHumidity	-	show me how humid is the air
+Airconditioner	 GetHumidity	-	show me how humid is the air in here
+Airconditioner	 GetHumidity	-	show me how humid is the air in the room
+Airconditioner	 GetHumidity	-	tell me how humid is the air
+Airconditioner	 GetHumidity	-	tell me how humid is the air in here
+Airconditioner	 GetHumidity	-	tell me how humid is the air in the room
+Airconditioner	 GetHumidity	-	show me what's the humidity
+Airconditioner	 GetHumidity	-	show me what the humidity is in here
+Airconditioner	 GetTemperatureFromDevice	-	check what the AIRCONDITIONER.SLOT.DEVICE_NAME temperature sensor says
+Airconditioner	 GetTemperatureFromDevice	-	check what the AIRCONDITIONER.SLOT.DEVICE_NAME thermostat says
+Airconditioner	 GetTemperatureFromDevice	-	check the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME sensor
+Airconditioner	 GetTemperatureFromDevice	-	check the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
+Airconditioner	 GetTemperatureFromDevice	-	check what's on the AIRCONDITIONER.SLOT.DEVICE_NAME sensor
+Airconditioner	 GetTemperatureFromDevice	-	show me what the AIRCONDITIONER.SLOT.DEVICE_NAME temperature sensor says
+Airconditioner	 GetTemperatureFromDevice	-	show me what the AIRCONDITIONER.SLOT.DEVICE_NAME thermostat says
+Airconditioner	 GetTemperatureFromDevice	-	show me the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME sensor
+Airconditioner	 GetTemperatureFromDevice	-	show me the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
+Airconditioner	 GetTemperatureFromDevice	-	show me what's on the AIRCONDITIONER.SLOT.DEVICE_NAME sensor
+Airconditioner	 GetTemperature	-	what temperature do I have in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner	 GetTemperature	-	what temperature do we have in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner	 GetTemperature	-	what temperature is it in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner	 GetTemperature	-	what's the temperature in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?
