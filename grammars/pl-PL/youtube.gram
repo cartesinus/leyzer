@@ -1,12 +1,12 @@
 #JSGF V1.0;
-public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | ShowFollowing__ <INTENT_6> | FindChannelWithQuery__ <INTENT_7> | FindQueryOnChannel__ <INTENT_8> | NotifyOnNewFromFollowing__ <INTENT_9> | NotifyonNewOnChannel__ <INTENT_10>);
+public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | FindChannelWithQuery__ <INTENT_6> | FindQueryOnChannel__ <INTENT_7> | NotifyOnNewFromFollowing__ <INTENT_8> | NotifyonNewOnChannel__ <INTENT_9> | NextVide__ <INTENT_10>);
 
 #PRECONDITIONS
-<WHEN_1> = kiedy pojawi się [nowe] (wideo | klip | film) na kanale który (śledzę | followuję | obserwuję | oglądam);
-<WHEN_2> = kiedy na kanale <CHANNEL_ID> pojawi się ([nowy] klip | [nowy] film | [nowe] wideo);
+<WHEN_1> = (kiedy | jeżeli | jeśli) pojawi się [nowe] (wideo | klip | film) na kanale który (śledzę | followuję | obserwuję | oglądam);
+<WHEN_2> = (kiedy | jeżeli | jeśli) na kanale <CHANNEL_ID> pojawi się ([nowy] klip | [nowy] film | [nowe] wideo);
 
 #INTENTS
-<INTENT_1> = otwórz (yt | youtube);
+<INTENT_1> = (otwórz | włącz | uruchom) (yt | youtube);
 
 <INTENT_2> = (odtwórz | odtwarzaj | pokaż | wyświetl | chcę zobaczyć | <FIND_VERB>) (<INTENT_2_a> | <INTENT_2_b>);
 <INTENT_2_a> = <QUERY> na (yt | youtube);
@@ -16,19 +16,19 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 
 <INTENT_4> = (pokaż | wyświetl) kanały z kategorii <CATEGORY_ID> [na (yt | youtube)];
 
-<INTENT_5> = pokaż [mi] kanały które (subskrybuję) [na (yt | youtube)];
+<INTENT_5> = pokaż [mi] kanały które (subskrybuję | śledzę | obserwuję | followuję) [na (yt | youtube)];
 
-<INTENT_6> = pokaż [mi] kanały które (śledzę | obserwuję | followuję) [na (yt | youtube)];
+<INTENT_6> = <INTENT_6_a> | <INTENT_6_b>;
+<INTENT_6_a> =  (<FIND_VERB> | pokaż | wyświetl | chcę zobaczyć) kanały z <QUERY> [na (yt | youtube)];
+<INTENT_6_b> =  na jakich kanałach na (yt | youtube) znajdę <QUERY>;
 
-<INTENT_7> = <INTENT_7_a> | <INTENT_7_b>;
-<INTENT_7_a> =  (<FIND_VERB> | pokaż | wyświetl | chcę zobaczyć) kanały z <QUERY> [na (yt | youtube)];
-<INTENT_7_b> =  na jakich kanałach na (yt | youtube) znajdę <QUERY>;
+<INTENT_7> = pokaż [mi] <VIDEO> (z | opublikowane) [kanału] <CHANNEL_ID> (pasujące | które pasuje) do <QUERY> [na (yt | youtube)];
 
-<INTENT_8> = pokaż [mi] <VIDEO> (z | opublikowane) [kanału] <CHANNEL_ID> (pasujące | które pasuje) do <QUERY> [na (yt | youtube)];
+<INTENT_8> = (powiadom mnie | powiedz mi) <WHEN_1>;
 
-<INTENT_9> = (powiadom mnie | powiedz mi) <WHEN_1>;
+<INTENT_9> = (powiadom mnie | powiedz mi) <WHEN_2>;
 
-<INTENT_10> = (powiadom mnie | powiedz mi) <WHEN_2>;
+<INTENT_10> = (włącz | puść) następne (video | film);
 
 #SLOTS
 <CHANNEL_ID> = YOUTUBE.SLOT.CHANNEL_ID;

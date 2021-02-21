@@ -3,30 +3,31 @@ public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> 
 
 #INTENTS
 #open wikipedia page
-<INTENT_1> = open wikipedia [pages | definition];
+<INTENT_1> = (open | show [me] | display | browse) (wiki | wikipedia) [pages | definition];
 
 #find given query on wikipedia
-<INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
-<INTENT_2_a> = (find | search for) <QUERY> on (wiki | wikipedia);
-<INTENT_2_b> = [pages matching] <QUERY> on (wiki | wikipedia);
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c>;
+<INTENT_2_a> = (find | search for | browse) <QUERY> [definition] (on | in) (wiki | wikipedia);
+<INTENT_2_b> = [pages matching] <QUERY> (on | in) (wiki | wikipedia);
+<INTENT_2_c> = <QUERY> matching (on | in) (wiki | wikipedia);
 
 #scroll down
-<INTENT_3> = page down | scroll down;
+<INTENT_3> = page down | scroll down | downward scroll | go [page] down;
 
 #scroll up
-<INTENT_4> = page up | scroll up;
+<INTENT_4> = page up | scroll up | upward scroll | go [page] up;
 
 #download page as pdf
-<INTENT_5> = download [this | that] (page | article) as pdf;
+<INTENT_5> = (download | get) [this | that] (page | article) as [a] pdf [file];
 
 #change language of page
-<INTENT_6> = (change language [of this (page | article)] to | show this (page | article) in) <LANGUAGE>;
+<INTENT_6> = ((change | switch) language [of this (page | article)] to | (show | display) (this | that) (page | article) in) <LANGUAGE>;
 
 #show random
-<INTENT_7> = ([show] random (page | article) | [wiki | wikipedia] (surf | surfing));
+<INTENT_7> = ([show [me] | display] random (wiki | wikipedia) (page | article) | (wiki | wikipedia) (surf | surfing) | (surf | cruise) (wiki | wikipedia));
 
 #content navigation
-<INTENT_8> = go to <ELEMENT> (element | item) (from | in) contents;
+<INTENT_8> = (go | jump | navigate) to [the] <ELEMENT> (element | item) (from | in) contents;
 
 #SLOTS
 <QUERY> = WIKIPEDIA.SLOT.QUERY;

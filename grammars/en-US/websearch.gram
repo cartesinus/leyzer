@@ -6,15 +6,17 @@ public <S> = Websearch__ (OpenEngine__ <INTENT_1> | SearchTextOnEngine__ <INTENT
 
 <INTENT_2> = (<TXT_QUERY> (on | using) <ENGINE> | <ENGINE> <TXT_QUERY>);
 
-<INTENT_3> = (websites | web sites | pages) matching <TXT_QUERY>;
+<INTENT_3> = <INTENT_3_a> | <INTENT_3_b>;
+<INTENT_3_a> = [find] (websites | web sites | pages) matching <TXT_QUERY>;
+<INTENT_3_b> = (search | look) for <TXT_QUERY> (on | in) [the] web;
 
 <INTENT_4> = (images matching <IMG_QUERY> from <ENGINE> | <IMG_QUERY> images (on | using) <ENGINE>);
 
-<INTENT_5> = (image search | search images (on | using) <ENGINE> | <ENGINE> image search);
+<INTENT_5> = (image search | (search | find) images (on | using) <ENGINE> | <ENGINE> image search);
 
-<INTENT_6> = images from <ENGINE> matching <IMG_QUERY> with size <WIDTH> x <HEIGHT>;
+<INTENT_6> = [search for | find [me]] images (from | on) <ENGINE> matching <IMG_QUERY> with size <WIDTH> x <HEIGHT>;
 
-<INTENT_7> = images from <ENGINE> matching <IMG_QUERY> <IMG_COND> than <WIDTH> [x <HEIGHT>];
+<INTENT_7> = [search for | find [me]] images (from | on) <ENGINE> matching <IMG_QUERY> <IMG_COND> than <WIDTH> [x <HEIGHT>];
 
 #SLOTS
 <ENGINE> = bing | google | duckduckgo;

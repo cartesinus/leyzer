@@ -1,5 +1,5 @@
 #JSGF V1.0;
-public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | ShowFollowing__ <INTENT_6> | FindChannelWithQuery__ <INTENT_7> | FindQueryOnChannel__ <INTENT_8> | NotifyOnNewFromFollowing__ <INTENT_9> | NotifyonNewOnChannel__ <INTENT_10>);
+public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | FindChannelWithQuery__ <INTENT_6> | FindQueryOnChannel__ <INTENT_7> | NotifyOnNewFromFollowing__ <INTENT_8> | NotifyonNewOnChannel__ <INTENT_9> | NextVideo__<INTENT_10>);
 
 #PRECONDITIONS
 <WHEN_1> = cuando aparezca un nuevo (vídeo | video) en canales que sigo;
@@ -24,18 +24,18 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 
 <INTENT_5> = (muestra | muéstrame) canales a que me he suscrito en youtube;
 
-<INTENT_6> = (muestra | muéstrame) (canales que sigo en youtube | canales de youtube que sigo);
+<INTENT_6> = <FIND_VERB> (<INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>);
+<INTENT_6_a> = canales <QUERY> en youtube;
+<INTENT_6_b> = canales que coinciden con <QUERY> en youtube;
+<INTENT_6_c> = canal de youtube <QUERY>;
 
-<INTENT_7> = <FIND_VERB> (<INTENT_7_a> | <INTENT_7_b> | <INTENT_7_c>);
-<INTENT_7_a> = canales <QUERY> en youtube;
-<INTENT_7_b> = canales que coinciden con <QUERY> en youtube;
-<INTENT_7_c> = canal de youtube <QUERY>;
+<INTENT_7> = (muestra | muéstrame) un (vídeo | video | videos | vídeos) (de | publicados por) <CHANNEL_ID> [que coinciden con <QUERY> en youtube];
 
-<INTENT_8> = (muestra | muéstrame) un (vídeo | video | videos | vídeos) (de | publicados por) <CHANNEL_ID> [que coinciden con <QUERY> en youtube];
+<INTENT_8> = notifícame <WHEN_1>;
 
-<INTENT_9> = notifícame <WHEN_1>;
+<INTENT_9> = notifícame <WHEN_2>;
 
-<INTENT_10> = notifícame <WHEN_2>;
+<INTENT_10> = video siguiente | salta este video | pasa al siguiente video | pasa al video siguiente;
 
 #SLOTS
 <CHANNEL_ID> = YOUTUBE.SLOT.CHANNEL_ID;
