@@ -30,23 +30,26 @@ public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | Unf
 
 #INTENTS
 #show user tweets
-<INTENT_1> = <SHOW_VERB> (my ([recent] tweets | posts on twitter ) | tweets i made);
+<INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
+<INTENT_1_a> = (open | show) [my] twitter;
+<INTENT_1_b> = <SHOW_VERB> (my ([recent] tweets | posts on twitter ) | tweets i made);
 
 #follow given user
-<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>;
-<INTENT_2_a> = follow <USERNAME> on twitter;
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d> | <INTENT_2_e>;
+<INTENT_2_a> = (subscribe [to] | follow) <USERNAME> on twitter;
 <INTENT_2_b> = become a follower of <USERNAME> on twitter;
 <INTENT_2_c> = become a twitter follower of <USERNAME>;
 <INTENT_2_d> = be a twitter follower of <USERNAME>;
+<INTENT_2_e> = (i want to be up to date with | notify me about [recent] changes on) <USERNAME> twitter;
 
 #unfollow given user
-<INTENT_3> = (unfollow | stop following) <USERNAME> on twitter;
+<INTENT_3> = (unfollow | stop following | i don't want to see) <USERNAME> on twitter;
 
 #send message to user
 <INTENT_4> = [send a] (message| dm | direct message) on twitter saying <MESSAGE>;
 
 #send message to user
-<INTENT_5> = [send a] (message| dm | direct message) on twitter to <USERNAME> saying <MESSAGE>;
+<INTENT_5> = [send a] (message| dm | direct message) on twitter to <USERNAME> saying <MESSAGE> | twitt to <USERNAME>;
 
 #find tweets with hashtags
 <INTENT_6> = [find | show | display] tweets (with hashtag | about) <HASHTAG> [on twitter];

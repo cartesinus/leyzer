@@ -16,13 +16,17 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 
 #INTENTS
 #open spotify
-<INTENT_1> = ((open | use) spotify [(and | to) play some music] | play some music on spotify);
+<INTENT_1> = ((open | launch | run | use) spotify [(and | to) play some music] | play some music on spotify);
 
 #play given song
-<INTENT_2> = (play [(the | a) song] <SONG> [on spotify] | on spotify play <SONG>);
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
+<INTENT_2_a> = (play [(the | a) song] <SONG> [on spotify] | on spotify play <SONG>);
+<INTENT_2_b> = i want to listen to <SONG> [on spotify];
 
 #play given song of given artist
-<INTENT_3> = (play [(the | a) song] <SONG> by <ARTIST> [on spotify] | on spotify play <SONG> by <ARTIST>);
+<INTENT_3> = <INTENT_3_a> | <INTENT_3_b>;
+<INTENT_3_a> = (play [(the | a) song] <SONG> by <ARTIST> [on spotify] | on spotify play <SONG> by <ARTIST>);
+<INTENT_3_b> = i want to listen to <SONG> by <ARTIST> [on spotify];
 
 #play given album of given artist
 <INTENT_4> = (play [(the (<ALBUM_TYPE_A> | <ALBUM_TYPE_AN>) | a <ALBUM_TYPE_A> | an <ALBUM_TYPE_AN>)] <ALBUM> by <ARTIST> [on spotify] | on spotify play (a <ALBUM_TYPE_A> | an <ALBUM_TYPE_AN>) <ALBUM> by <ARTIST>);
