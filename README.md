@@ -31,8 +31,12 @@ Experiments described in our paper can be replicated with scripts provided in `e
 
 If you use this corpus, please cite:
 ```
-@InProceedings{leyzer,
-    title     = {Leyzer: A Dataset for Multilingual Virtual Assistants},
-    author    = {Sowa\'{n}ski, Marcin and Janicki, Artur},
+@inproceedings{sowanski2020leyzer,
+  title={Leyzer: A Dataset for Multilingual Virtual Assistants},
+  author={Sowa{\'n}ski, Marcin and Janicki, Artur},
+  booktitle={International Conference on Text, Speech, and Dialogue},
+  pages={477--486},
+  year={2020},
+  organization={Springer}
 }
 ```
