@@ -2,7 +2,7 @@
 public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | ShowBMI__ <INTENT_3> | AddWeight__ <INTENT_4> | NotifyOnWeight__ <INTENT_5>);
 
 #PRECONDITION
-<WHEN_1> = if my weight goes over <WEIGHT>;
+<WHEN_1> = (if | when) my weight (goes | is) (over | higher than) <WEIGHT>;
 <WHEN> = if i become fatter than <WEIGHT>;
 <WHEN> = when i am heavier than <WEIGHT>;
 <WHEN> = when i become heavier than <WEIGHT>;
@@ -26,7 +26,7 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 
 <INTENT_3> = [<RETRIEVE_VERB>] my (body measurements | bmi | weight) from fitbit;
 
-<INTENT_4> = (log | record | make note of) my weight on fitbit;
+<INTENT_4> = (log | record | make [a] note of | write [down]) my weight on fitbit;
 
 <INTENT_5> = <NOTIFY_VERB> me <WHEN_1>;
 

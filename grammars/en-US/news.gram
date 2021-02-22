@@ -23,11 +23,11 @@ public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | 
 <INTENT_1_b> = show [me] [the] news from <PORTAL>;
 <INTENT_1_c> = ([latest] news on <PORTAL> | latest <PORTAL> news);
 
-<INTENT_2> = (the <SECTION> section of the <PORTAL> | the <PORTAL> <SECTION> section);
+<INTENT_2> = (read | show [me] | display) (the <SECTION> section of the <PORTAL> | the <PORTAL> <SECTION> section);
 
-<INTENT_3> = notify me <WHEN_1>;
+<INTENT_3> = (notify | tell) me <WHEN_1>;
 
-<INTENT_4> = notify me <WHEN_2>;
+<INTENT_4> = (notify | tell) me <WHEN_2>;
 
 <GET> = articles about <KEYWORD> in <PORTAL> <SECTION> section;
 <GET> = articles in [the] <PORTAL>;

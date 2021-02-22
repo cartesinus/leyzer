@@ -41,11 +41,11 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 <WHEN> = when there is a new post in the slack channel <CHANNEL>;
 
 #INTENTS
-<INTENT_1> = (open | launch) (slack | the slack app);
+<INTENT_1> = (open | launch | run) (slack | the slack app);
 
-<INTENT_2> = <CHECK_VERB> last slack messages;
+<INTENT_2> = <CHECK_VERB> [last | latest] slack messages | my (last | latest) messages on slack;
 
-<INTENT_3> = check (the presence of <USERNAME> | whether <USERNAME> is (active | away)) on slack;
+<INTENT_3> = check (the presence of <USERNAME> | whether <USERNAME> is (active | away | inactive)) on slack | [what is the] status of <USERNAME> | <USERNAME> status on slack;
 
 <INTENT_4> = <CHECK_VERB> (recent messages from <SENDER> in slack | messages i received on slack from <SENDER>);
 
@@ -60,14 +60,18 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 <INTENT_6_d> = let (slack channel <CHANNEL> | <CHANNEL> slack channel) know that <MESSAGE>;
 
 # channel's purpose is a short description of the channel's intended use
-<INTENT_7> = set the purpose for ((channel <CHANNEL> | <CHANNEL> channel) to <PURPOSE> on slack | (slack channel <CHANNEL> | <CHANNEL> slack channel) to <PURPOSE>);
+<INTENT_7> = <INTENT_7_a> | <INTENT_7_b>;
+<INTENT_7_a> = (set | change) [the] purpose (for | of) ((channel <CHANNEL> | <CHANNEL> channel) to <PURPOSE> on slack | (slack channel <CHANNEL> | <CHANNEL> slack channel) to <PURPOSE>);
+<INTENT_7_b> = on slack (change | set) channel purpose of [channel] <CHANNEL> to <PURPOSE>;
 
 # channel's topic is a quick way to let people know what members in the channel are working on or important dates like project deadlines
-<INTENT_8> = set the topic (for (channel <CHANNEL> | <CHANNEL> channel) to <TOPIC> on slack | of (slack channel <CHANNEL> | <CHANNEL> slack channel) to <TOPIC>);
+<INTENT_8> = <INTENT_8_a> | <INTENT_8_b>;
+<INTENT_8_a> = set the topic (for (channel <CHANNEL> | <CHANNEL> channel) to <TOPIC> on slack | of (slack channel <CHANNEL> | <CHANNEL> slack channel) to <TOPIC>);
+<INTENT_8_b> = on slack (change | set) channel topic of [channel] <CHANNEL> to <TOPIC>;
 
-<INTENT_9> = (set | mark) me as [not] away on slack;
+<INTENT_9> = (set | mark) me as ([not] away | inactive) on slack | change [my] status on slack to (inactive | away | active);
 
-<INTENT_10> = <SEND_VERB> [a message] on slack;
+<INTENT_10> = <SEND_VERB> [a message] on slack | (write | create | compose) ([a] message | messages) on slack;
 
 <INTENT_11> = <INTENT_11_a> | <INTENT_11_b> | <INTENT_11_c> | <INTENT_11_d> | <INTENT_11_e>;
 <INTENT_11_a> = <SEND_VERB> a picture on slack to <CHANNEL>;

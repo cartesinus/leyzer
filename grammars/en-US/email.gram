@@ -16,11 +16,13 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 
 #INTENTS
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c>;
-<INTENT_1_a> = (check [out] | refresh) [my] (email | gmail) [inbox] | check [out] [my] emails;
+<INTENT_1_a> = (check [out] | refresh | open) [my] (email | gmail) [inbox] | check [out] [my] emails;
 <INTENT_1_b> = check [out] my primary category emails;
 <INTENT_1_c> = check [out] ((my latest email | my emails | my emails on gmail | my gmail inbox) | if i (have | got) [some | any] new (emails | email messages) [in my inbox]);
 
-<INTENT_2> = check [out] [my] emails (from | i (got | received) from) <SENDER_ADDRESS>;
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
+<INTENT_2_a> = check [out] [my] emails (from | i (got | received) from) <SENDER_ADDRESS>;
+<INTENT_2_b> = show me [my] emails (from | i (got | received) from) <SENDER_ADDRESS>;
 
 <INTENT_3> = (show me | get | display | find | search for) [my] emails (labelled | with a label | that have a label) <LABEL>;
 
@@ -28,7 +30,7 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 
 <INTENT_5> = (show me | get | display | find | search for) [my] emails with a subject <SUBJECT>;
 
-<INTENT_6> = (display | get (me | my) | show me) <PRIORITY> emails;
+<INTENT_6> = (display | get (me | my) | show me) <PRIORITY> emails [first];
 
 <INTENT_7> = (<SEND_EMAIL> to <TO> with a subject <SUBJECT> with message <MESSAGE> [using my gmail] | email <TO> with subject <SUBJECT> and message <MESSAGE>);
 
@@ -36,9 +38,9 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 
 <INTENT_9> = <SEND_EMAIL> [to somebody | somewhere];
 
-<INTENT_10> = (send [an] email to <TO> using my gmail | email <TO>);
+<INTENT_10> = ((send | compose) [an] email to <TO> [using my gmail] | email <TO>);
 
-<INTENT_11> = (reply to | answer) <TO>;
+<INTENT_11> = (reply to | answer) <TO> [email | mail];
 
 <DO> = send an email with subject <SUBJECT>;
 <DO> = email a picture to <TO>;
@@ -69,4 +71,4 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <PRIORITY> = EMAIL.SLOT.PRIORITY;
 
 #LANG. COMPONENTS
-<SEND_EMAIL> = (send | forward | resend) an email;
+<SEND_EMAIL> = (send | forward | resend | compose) an email;

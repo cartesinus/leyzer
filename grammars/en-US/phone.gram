@@ -18,18 +18,18 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 <WHEN> = when <SENDER> sends me an sms;
 
 #INTENTS
-<INTENT_1> = (call | dial | phone) <NUMBER>;
+<INTENT_1> = (call | dial | phone) [number] <NUMBER>;
 
-<INTENT_2> = call (911 | ambulance | fire department | police | emergency services);
+<INTENT_2> = (call | dial) (911 | ambulance | fire department | police | emergency services);
 
-<INTENT_3> = (check | show | display) my sms inbox;
+<INTENT_3> = (check | show | display | open | launch) my sms inbox | (check | show) my texts;
 
 <INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;
-<INTENT_4_a> = send (a text | a message | an sms) to <TO>;
+<INTENT_4_a> = (send | compose) (a text | a message | an sms) to <TO>;
 <INTENT_4_b> = (sms | text) <TO>;
 
 <INTENT_5> = <INTENT_5_a> | <INTENT_5_b>;
-<INTENT_5_a> = send (an sms | a text [message]| a message) to <TO> (saying | containing) <MESSAGE>;
+<INTENT_5_a> = (send | compose) (an sms | a text [message]| a message) to <TO> (saying | containing) <MESSAGE>;
 <INTENT_5_b> = (text | sms) <TO> (saying | containing) <MESSAGE>;
 
 <GET> = sms in my phone;

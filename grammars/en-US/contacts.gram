@@ -2,7 +2,7 @@
 public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2> | ShowContactWithEmail__ <INTENT_3> | ShowContactWithNumber__ <INTENT_4> | ShowContactWithName__ <INTENT_5> | ShowContactWithNumberAndWithEmail__ <INTENT_6> | ShowContactWithNameAndWithNumberAndWithType__ <INTENT_7> | EditContactWithName__ <INTENT_8> | EditContactWithNumber__ <INTENT_9> | EditNumberInContactWithName__ <INTENT_10> | EditNumberInContactWithNameToNumberAndToType__ <INTENT_11>);
 
 #INTENTS
-<INTENT_1> = <SHOW_VERB> [my] contacts;
+<INTENT_1> = (<SHOW_VERB> | open | launch) [my] contacts;
 
 <INTENT_2> = <SHOW_VERB> my (contact's info | profile info | personal info | business card);
 
@@ -16,11 +16,11 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 
 <INTENT_7> = (add | create) a new contact (and name it | using a name | and call it) <NAME> (with [a | the] number | and give it a number | and add the number) <PHONE_NUMBER> [as <PHONE_TYPE>];
 
-<INTENT_8> = ((edit | modify) [my] contact <NAME> | open the contact <NAME> for edition);
+<INTENT_8> = ((edit | modify | change) [my] contact <NAME> | open the contact <NAME> for edition);
 
-<INTENT_9> = (change | modify) the name of (my | the) contact with the number <PHONE_NUMBER>;
+<INTENT_9> = (change | modify | edit) the name of (my | the) contact with the number <PHONE_NUMBER>;
 
-<INTENT_10> = change the number of (my | the) contact (called | named) <NAME>;
+<INTENT_10> = (change | modify | edit) [the] number of (my | the) contact (called | named) <NAME>;
 
 <INTENT_11> = (set | add | modify) the [phone] number <PHONE_NUMBER> for [the contact] <NAME> as <PHONE_TYPE>;
 

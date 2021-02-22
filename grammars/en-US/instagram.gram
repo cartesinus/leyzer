@@ -17,7 +17,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 <WHEN> = when i tag a picture <HASHTAG> on instagram;
 
 #INTENTS
-<INTENT_1> = open [my] (instagram | insta);
+<INTENT_1> = (open | launch | run) [my] (instagram | insta) [application | app];
 
 <INTENT_2> = <SHOW_VERB> my [recent] (instagram | insta) (pictures | photos);
 
@@ -38,7 +38,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 
 <INTENT_8> = <SHOW_VERB> my (post | posts) from (the <DATE_DAY> of <DATE_MONTH> | <DATE_MONTH>);
 
-<INTENT_9> = take a picture (using | with) (instagram | insta);
+<INTENT_9> = (make | take) a picture (using | with) (instagram | insta) [application | app];
 
 <INTENT_10> = create a [new] post on (instagram | insta) with the last photo from Gallery [(and a tag <LOCATION> | (and add | adding) (<FILTER> filter | <HASHTAG> hashtag))];
 

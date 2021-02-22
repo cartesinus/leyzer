@@ -31,9 +31,9 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <WHEN> = when it 's a holiday;
 
 #INTENTS
-<INTENT_1> = <SHOW_VERB> my calendar;
+<INTENT_1> = (<SHOW_VERB> | launch) [my] calendar [application | app];
 
-<INTENT_2> = whats (on my schedule | in my agenda | happening) <DATE>;
+<INTENT_2> = [check] whats (on my schedule | in my agenda | happening) [on] <DATE>;
 
 <INTENT_3> = (add an event [called] <EVENT_NAME> [to (my | the) calendar] | create and event [called] <EVENT_NAME> [in (my | the) calendar]);
 
