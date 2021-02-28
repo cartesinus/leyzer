@@ -1,14 +1,15 @@
 #JSGF V1.0;
-public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithDate__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8>);
+public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithDate__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8> | CheckCalendarMeeting__ <INTENT_9>);
 
 #PRECONDITIONS
 <WHEN_1> = kiedy (spotkanie | wydarzenie) w [moim] kalendarzu się (rozpocznie | zacznie);
 <WHEN_2> = kiedy (spotkanie | wydarzenie) w [moim] kalendarzu w <LOCATION> się (rozpocznie | zacznie);
+<WHEN_3> = kiedy zaczyna się (spotkanie | wydarzenie) <EVENT_NAME> (w [moim] kalendarzu | z [mojego] kalendarza);
 
 #INTENTS
 <INTENT_1> = <SHOW_VERB> [mój] kalendarz;
 
-<INTENT_2> = (<SHOW_VERB> (plany | wydarzenia) (na <DATE> | w <DATE_W> | we <DATE_WE>) | co jest zaplanowane (na <DATE>| w <DATE_W> | we <DATE_WE>) | (jakie | czy) mam (wydarzenia | spotkania) (na <DATE> | w <DATE_W> | we <DATE_WE>) | <SHOW_VERB> [moje] (spotkania | wydarzenia));
+<INTENT_2> = (<SHOW_VERB> [moje] (spotkania | plany | wydarzenia) (na <DATE> | w <DATE_W> | we <DATE_WE>) | co jest zaplanowane (na <DATE>| w <DATE_W> | we <DATE_WE>) | (jakie | czy) mam (wydarzenia | spotkania) (na <DATE> | w <DATE_W> | we <DATE_WE>));
 
 <INTENT_3> = <INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c>;
 <INTENT_3_a> = dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) [do kalendarza] o nazwie <EVENT_NAME>;
@@ -28,6 +29,9 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_8> = nie (powiadamiaj mnie | mów mi | przypominaj mi) <WHEN_2>;
 
+<INTENT_9> = (powiedz [mi] | sprawdź [mi] | ustal) <WHEN_3>;
+
+
 #SLOTS
 <DATE> = CALENDAR.SLOT.DATE;
 <DATE_W> = CALENDAR.SLOT.DATE_W;
@@ -38,4 +42,4 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <COUNTRY> = CALENDAR.SLOT.COUNTRY;
 
 #LANG. COMPONENTS
-<SHOW_VERB> = pokaż | wyświetl | otwórz;
+<SHOW_VERB> = pokaż | wyświetl | otwórz | sprawdź;

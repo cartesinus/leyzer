@@ -2,25 +2,25 @@
 public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | ChangeTemperature__ <INTENT_3> | SetTemperatureToValue__ <INTENT_4> | SetTemperatureToValueOnDevice__ <INTENT_5> | SetTemperatureBetweenValues__ <INTENT_6> | SetTemperatureOnDevice__ <INTENT_7> | GetHumidity__ <INTENT_8> | GetTemperatureFromDevice__ <INTENT_9> | GetTemperature__ <INTENT_10>);
 
 #INTENTS
-<INTENT_1> = enciende <AV_ALIAS> | activa <AV_ALIAS>;
+<INTENT_1> = enciende <AV_ALIAS> | activa <AV_ALIAS> | [pon] <AV_ALIAS> (en encendido | activado);
 
-<INTENT_2> = apaga <AV_ALIAS> | desactiva <AV_ALIAS>;
+<INTENT_2> = apaga <AV_ALIAS> | desactiva <AV_ALIAS> | [pon] <AV_ALIAS> (en apagado | desactivado);
 
-<INTENT_3> = cambia la (temperatura en mi termostato| temperatura máxima y mínima en mi termostato);
+<INTENT_3> = cambia la temperatura ([máxima | mínima] | máxima y mínima) ((en | de)  mi | (del | en el)) termostato | pon [un valor de [la]] temperatura ([máxima | mínima] | máxima y mínima) diferente en (mi | el) termostato;
 
-<INTENT_4> = (adecua | pon) (la temperatura en mi termostato a <VALUE> | la temperatura a <VALUE> en mi termostato | mi termostato a <VALUE>);
+<INTENT_4> = <SET_VERB> (la temperatura ((en | de)  mi | (del | en el)) termostato a <VALUE> | la temperatura a <VALUE> ((en | de)  mi | (del | en el)) termostato | (mi | el) termostato a <VALUE>) | temperatura diferente (del | (de | en) (mi | el)) termostato;
 
-<INTENT_5> = (adecua | pon) ([la temperatura en] mi termostato <DEVICE_NAME> a <VALUE> | la temperatura a <VALUE> en mi <DEVICE_NAME> termostato);
+<INTENT_5> = <SET_VERB> ([la temperatura (en | de)] mi termostato <DEVICE_NAME> a <VALUE> | la temperatura a <VALUE> en mi <DEVICE_NAME> termostato);
 
-<INTENT_6> = adecua (la temperatura entre <LOW> y <HIGH> en mi termostato | la temperatura baja a <LOW> en mi termostato , y la temperatura alta a <HIGH>);
+<INTENT_6> = <SET_VERB> (la temperatura entre <LOW> y <HIGH> en mi termostato | la temperatura baja a <LOW> en mi termostato , y la temperatura alta a <HIGH>);
 
-<INTENT_7> = cambia la (temperatura en mi termostato <DEVICE_NAME> | temperatura mínima y máxima en mi termostato <DEVICE_NAME>);
+<INTENT_7> = cambia la (temperatura en (mi | el) termostato <DEVICE_NAME> | temperatura mínima y máxima ((en | de) (mi | el) | del)  termostato <DEVICE_NAME>);
 
-<INTENT_8> = <SHOW_VERB> [el nivel de] la humedad;
+<INTENT_8> = <SHOW_VERB> [el nivel de] [la] humedad;
 
-<INTENT_9> = verifica (qué dice el sensor de la temperatura <DEVICE_NAME> | la temperatura del sensor de temperatura <DEVICE_NAME> en el cuarto) | qué (dice | muestra) el sensor de temperatura del interior <DEVICE_NAME>?;
+<INTENT_9> = verifica (qué (dice | hay en | muestra) el sensor de la temperatura <DEVICE_NAME> | la temperatura del sensor de temperatura <DEVICE_NAME> en el cuarto) | qué (dice | muestra | hay en) el sensor de temperatura del interior <DEVICE_NAME>?;
 
-<INTENT_10> = qué temperatura (tengo | tenemos | hay) aquí según mi <AV_ALIAS>?;
+<INTENT_10> = qué temperatura ((tengo | tenemos | hay) aquí según mi <AV_ALIAS> | muestra (mi | el) <AV_ALIAS>)? | cuál es la temperatura (aquí según (mi | el) <AV_ALIAS> | que muestra (el | mi) <AV_ALIAS>)?;
 
 #SLOTS
 <DEVICE_NAME> = AIRCONDITIONER.SLOT.DEVICE_NAME;
@@ -32,4 +32,5 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 #LANG. COMPONENTS
 <SHOW_VERB> = verifica | muestra | muéstrame | verifícame;
 <NOTIFY_VERB> = notifícame | dime;
+<SET_VERB> = adecua | pon;
 

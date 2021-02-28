@@ -1,19 +1,21 @@
 #JSGF V1.0;
-public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithDate__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8>);
+public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithDate__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8> | CheckCalendarMeeting__ <INTENT_9>);
 
 #PRECONDITIONS
-<WHEN_1> = cuándo empieza (el mítin | el evento | la cita) en mi calendario;
+<WHEN_1> = cuándo empieza (el mítin | el evento | la cita | el encuentro) en mi calendario;
 
-<WHEN_2> = cuándo empieza (el mítin | el evento | la cita) en mi calendario en la ubicación <LOCATION>;
+<WHEN_2> = cuándo empieza (el mítin | el evento | la cita | el encuentro) en mi calendario en la ubicación <LOCATION>;
+
+<WHEN_3> = ((la fecha | [la fecha y] la hora | el tiempo) (del mítin | del evento | de la cita | del encuentro) | cuándo empieza (el mítin | el evento | la cita | el encuentro)) <EVENT_NAME> en mi calendario;
 
 #INTENTS
 <INTENT_1> = <SHOW_VERB> (mi | el) calendario;
 
-<INTENT_2> = qué hay en mi agenda <DATE>?;
+<INTENT_2> = qué (hay | (eventos | citas | encuentros) tengo) en mi agenda <DATE>?;
 
-<INTENT_3> = añade un evento llamado <EVENT_NAME> [(al | a mi) calendario];
+<INTENT_3> = (añade | agrega) (un (evento | encuentro | mítin) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario];
 
-<INTENT_4> = añade un evento llamado <EVENT_NAME> [(al | a mi) calendario] el <DATE>;
+<INTENT_4> = (añade | agrega) (un (evento | encuentro | mítin) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario] el <DATE>;
 
 <INTENT_5> = notifícame <WHEN_1>;
 
@@ -23,20 +25,7 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_8> = no me notifiques <WHEN_2>;
 
-<GET> = my icalendar events;
-<GET> = my schedule on icalendar;
-<GET> = my calendar events;
-<GET> = my schedule;
-<GET> = my calendar schedule;
-<GET> = my meeting schedule;
-<GET> = my appointments;
-<GET> = my icalendar events organized by <ORGANIZER>;
-<GET> = my calendar events organized by <ORGANIZER>;
-<GET> = my icalendar events at <LOCATION>;
-<GET> = my calendar events at <LOCATION>;
-<GET> = the holidays in <COUNTRY>;
-<GET> = <COUNTRY> holidays;
-<GET> = the holidays;
+<INTENT_9> = (dime | comprueba | compruébame) <WHEN_3>;
 
 #SLOTS
 <DATE> = CALENDAR.SLOT.DATE;

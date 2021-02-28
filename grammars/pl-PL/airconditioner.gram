@@ -2,28 +2,28 @@
 public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | ChangeTemperature__ <INTENT_3> | SetTemperatureToValue__ <INTENT_4> | SetTemperatureToValueOnDevice__ <INTENT_5> | SetTemperatureBetweenValues__ <INTENT_6> | SetTemperatureOnDevice__ <INTENT_7> | GetHumidity__ <INTENT_8> | GetTemperatureFromDevice__ <INTENT_9> | GetTemperature__ <INTENT_10>);
 
 #INTENTS
-<INTENT_1> = (włącz | uruchom) <AV_ALIAS>;
+<INTENT_1> = (włącz | uruchom | nastaw) <AV_ALIAS>;
 
-<INTENT_2> = (wyłącz | wygaś | przestań używać | odetnij) <AV_ALIAS>;
+<INTENT_2> = (wyłącz | wygaś | przestań używać | odetnij | zatrzynaj) <AV_ALIAS>;
 
-<INTENT_3> = zmień temperaturę (<INTENT_3_a> | <INTENT_3_b>);
+<INTENT_3> = (zmień | przestaw | przełącz) temperaturę (<INTENT_3_a> | <INTENT_3_b>);
 <INTENT_3_a> = na [moim] termostacie;
 <INTENT_3_b> = (minimalną | maksymalną | minimalną i maksymalną) na [moim] termostacie;
 <INTENT_3_c> = na mojej klimatyzacji | na moim klimatyzatorze;
 
-<INTENT_4> = (ustaw | nastaw) (temperaturę na [moim] termostacie na <VALUE> | mój termostat na <VALUE>);
+<INTENT_4> = (ustaw | nastaw | przełącz | zmień) (temperaturę na [moim] termostacie na <VALUE> | mój termostat na <VALUE>);
 
-<INTENT_5> = (ustaw | nastaw) (temperaturę na [moim] termostacie w <DEVICE_NAME> na <VALUE> | temperaturę na <VALUE> na [moim] termostacie w <DEVICE_NAME>);
+<INTENT_5> = (ustaw | nastaw | przełącz | zmień) (temperaturę na [moim] termostacie w <DEVICE_NAME> na <VALUE> | temperaturę na <VALUE> na [moim] termostacie w <DEVICE_NAME>);
 
-<INTENT_6> = (ustaw | nastaw) temperaturę [na [moim] termostacie] pomiędzy <LOW> a <HIGH>;
+<INTENT_6> = (ustaw | nastaw | przełącz | zmień) temperaturę [na [moim] termostacie] pomiędzy <LOW> a <HIGH>;
 
-<INTENT_7> = zmień temperaturę [na [moim] termostacie] w <DEVICE_NAME>;
+<INTENT_7> = (zmień | przestaw | przełącz) temperaturę [na [moim] termostacie] w <DEVICE_NAME>;
 
-<INTENT_8> = pokaż poziom wilgotności | [powiedz mi | pokaż mi] jaki jest poziom wilgotności;
+<INTENT_8> = (pokaż | ustal) poziom wilgotności | [powiedz mi | pokaż mi] jaki jest poziom wilgotności | jaka jest wilgotność [w tym pokoju | w domu | teraz];
 
-<INTENT_9> = jaka jest temperatura [według [mojego] termostatu] w <DEVICE_NAME> | co termostat w <DEVICE_NAME> mówi o temperaturze;
+<INTENT_9> = jaka jest temperatura [według [mojego] termostatu] w <DEVICE_NAME> | co termostat w <DEVICE_NAME> mówi o temperaturze | (sprawdź | pokaż | powiedz) [mi] jaka jest temperatura w <DEVICE_NAME>;
 
-<INTENT_10> = jaka jest temperatura [według [mojego] termostatu] | co termostat mówi o temperaturze;
+<INTENT_10> = jaka jest temperatura [według [mojego] [głównego] termostatu] | co [główny] termostat mówi o temperaturze | (sprawdź | pokaż | powiedz) [mi] jaka jest temperatura [na głównym termostacie] | [sprawdź | powiedz] ile jest stopni w domu;
 
 <INTENT_11> = (co [mój] termostat w <DEVICE_NAME> mówi o temperaturze | jaką temperaturę pokazuje [mój] termostat w <DEVICE_NAME>)?;
 

@@ -16,7 +16,9 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 <INTENT_6_a> = (<SHOW_VERB> | znajdź ) [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (oraz | i) (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
 <INTENT_6_b> = (znajdź | wyszukaj) kto ma numer [telefonu] <PHONE_NUMBER> i adres [email | mailowy] <EMAIL>;
 
-<INTENT_7> = stwórz [nowy] kontakt (o nazwie | nazywając go) <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> [jako [typ] <PHONE_TYPE>];
+<INTENT_7> = <INTENT_7_a> | <INTENT_7_b>;
+<INTENT_7_a> = (stwórz | utwórz) [nowy] kontakt (o nazwie | nazywając go) <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> [jako [typ] <PHONE_TYPE>];
+<INTENT_7_b> = dodaj do kontaktów <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> [jako [typ] <PHONE_TYPE>];
 
 <INTENT_8> = ((aktualizuj | edytuj | popraw | zmień) [mój] kontakt [o nazwie] <NAME> | otwórz [mój] kontakt <NAME> (do edycji | żeby go edytować));
 
@@ -24,10 +26,9 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 
 <INTENT_10> = (aktualizuj | edytuj | popraw | zmień) numer [telefonu] [mojego] kontaktu (o nazwie | nazywający się) <NAME>;
 
-<INTENT_11> = <INTENT_11_a> | <INTENT_11_b> | <INTENT_11_c>;
-<INTENT_11_a> = (ustaw | zapisz | zachowaj) numer [telefonu] <PHONE_NUMBER> jako [typ] <PHONE_TYPE> i nazwij go <NAME>;
-<INTENT_11_b> = (dodaj | zapisz) kontakt <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (jako [typ] | o typie) <PHONE_TYPE>;
-<INTENT_11_c> = (dodaj | zapisz) kontakt <NAME> z numerem <PHONE_TYPE> <PHONE_NUMBER>;
+<INTENT_11> = <INTENT_11_a> | <INTENT_11_b>;
+<INTENT_11_a> = (zmień | popraw | aktualizuj) numer <PHONE_TYPE> <NAME> na <PHONE_NUMBER>;
+<INTENT_11_b> = (zmień | popraw | aktualizuj) numer kontaktu <NAME> na <PHONE_NUMBER> o typie <PHONE_TYPE>;
 
 #SLOTS
 <EMAIL> = CONTACTS.SLOT.EMAIL; 
@@ -36,4 +37,4 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 <PHONE_TYPE> = CONTACTS.SLOT.PHONE_TYPE;
 
 #LANG. COMPONENTS
-<SHOW_VERB> = pokaż | wyświetl | otwórz;
+<SHOW_VERB> = pokaż [mi] | wyświetl [mi] | otwórz | sprawdź;
