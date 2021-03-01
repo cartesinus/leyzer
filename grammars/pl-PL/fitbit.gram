@@ -2,7 +2,7 @@
 public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | ShowBMI__ <INTENT_3> | AddWeight__ <INTENT_4> | NotifyOnWeight__ <INTENT_5>);
 
 #PRECONDITION
-<WHEN_1> = kiedy moja waga (będzie większa niż | przekroczy) <WEIGHT>;
+<WHEN_1> = kiedy (moja waga (będzie większa niż | przekroczy) | będę (cięższy | cięższa) niż | przytyję powyżej) <WEIGHT>;
 
 #INTENTS
 <INTENT_1> = <RETRIEVE_VERB> [mi] (<INTENT_1_a> | <INTENT_1_b>);
@@ -10,12 +10,14 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 <INTENT_1_b> = (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków);
 
 <INTENT_2> = <RETRIEVE_VERB> [mi] (<INTENT_2_a> | <INTENT_2_b>);
-<INTENT_2_a> = (moje kroki | ilośc kroków | liczbę kroków) [(na | w) fitbicie] (dla | które zrobiłem) <DATE>;
-<INTENT_2_b> = (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków) (dla | które zrobiłem) <DATE>;
+<INTENT_2_a> = (moje kroki | ilośc kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>;
+<INTENT_2_b> = (liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>;
 
-<INTENT_3> = <RETRIEVE_VERB> [mi] (mój bmi | moją wagę) (na | w) fitbicie;
+<INTENT_3> = <INTENT_3_a> | <INTENT_3_b>;
+<INTENT_3_a> = (<RETRIEVE_VERB> | powiedz) [mi] (mój bmi | moją wagę) [(na | w) fitbicie];
+<INTENT_3_b> = jaki (mam | jest mój) bmi | jaka jest moja waga;
 
-<INTENT_4> = (zanotuj | zapisz | zapamiętaj) moją wagę (na | w) fitbicie;
+<INTENT_4> = (zanotuj | zapisz | zapamiętaj) (na | w) fitbicie (moją wagę | ile ważę) | (zanotuj | zapisz | zapamiętaj) (moją wagę | ile ważę) w fitbicie;
 
 <INTENT_5> = <NOTIFY_VERB> <WHEN_1>;
 
@@ -26,4 +28,4 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 
 #LANG. COMPONENTS
 <RETRIEVE_VERB> = policz | wyświetl | pokaż;
-<NOTIFY_VERB> = powiadom mnie | powiedz mi;
+<NOTIFY_VERB> = powiadom mnie | powiedz mi | daj mi znać;

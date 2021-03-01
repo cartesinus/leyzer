@@ -2,25 +2,27 @@
 public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | PostPicture__ <INTENT_3> | PostPictureWithCaption__ <INTENT_4> | PostPictureWithUrl__ <INTENT_5> | PostPictureWithUrlAndWithCaption__ <INTENT_6> | ShowAlbumWithName__ <INTENT_7>);
 
 #INETNTS
-<INTENT_1> = (<POST_VERB> coś na facebooka | stwórz nowy post na facebooka | zaktualizuj [mój] status na facebooku);
+<INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
+<INTENT_1_a> = (otwórz | uruchom) (facebook | facebooka | fejsa);
+<INTENT_1_b> = ((<POST_VERB> | napisz) coś na (facebooka | fejsie) | stwórz nowy post na (facebooka | facebook | fejsa) | zaktualizuj [mój] status na (facebooku | fejsie));
 
 <INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d> | <INTENT_2_e> | <INTENT_2_f>;
-<INTENT_2_a> = (napisz | umieść | stwórz | dodaj) [status] <STATUS> na facebooku;
-<INTENT_2_b> = (napisz | umieść | stwórz | dodaj) [status] na facebooku [o tym że] <STATUS>;
-<INTENT_2_c> = (zaktualizuj | updateuj | informuj) [mojego] facebooka o [status [mówiący]] <STATUS>;
-<INTENT_2_d> = <POST_VERB> [nowy] post (że | który mówi [że] | o treści) <STATUS> [na facebooku];
-<INTENT_2_e> = (napisz | umieść | stwórz | dodaj) na [mojej] tablicy na facebooku <STATUS>;
-<INTENT_2_f> = (napisz | umieść | stwórz | dodaj) <STATUS> na [mojej] tablicy na facebooku;
+<INTENT_2_a> = (napisz | umieść | stwórz | dodaj) [status] <STATUS> na (facebooku | fejsie);
+<INTENT_2_b> = (napisz | umieść | stwórz | dodaj) [status] na (facebooku | fejsie) [o tym że] <STATUS>;
+<INTENT_2_c> = (zaktualizuj | updateuj | informuj) [mojego] (facebooka | fejsa) o [status [mówiący]] <STATUS>;
+<INTENT_2_d> = (<POST_VERB> | napisz) [nowy] post (że | który mówi [że] | o treści) <STATUS> [na facebooku | na fejsie];
+<INTENT_2_e> = (napisz | umieść | stwórz | dodaj) na [mojej] tablicy na (facebooku | fejsie) <STATUS>;
+<INTENT_2_f> = (napisz | umieść | stwórz | dodaj) <STATUS> na [mojej] tablicy na (facebooku | fejsie);
 
-<INTENT_3> = <POST_VERB> zdjęcie (do | na) [mojego] facebooka;
+<INTENT_3> = <POST_VERB> (zdjęcie | foty | fotki) (do | na) [mojego] (facebooka | fejsa);
 
-<INTENT_4> = <POST_VERB> zdjęcie [na facebooka] z (podpisem | opisem) <CAPTION>;
+<INTENT_4> = <POST_VERB> (zdjęcie | foty | fotki) [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
 
-<INTENT_5> = <POST_VERB> url <PICTURE_URL> (na | do) facebooka;
+<INTENT_5> = <POST_VERB> (url | link | hiperlink) <PICTURE_URL> (na | do) (facebooka | fejsa);
 
-<INTENT_6> = <POST_VERB> url <PICTURE_URL> [na facebooka] z (podpisem | opisem) <CAPTION>;
+<INTENT_6> = <POST_VERB> (url | link | hiperlink) <PICTURE_URL> [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
 
-<INTENT_7> = (pokaż | wyświetl) [na facebooku] [moje] zdjęcia z albumu <ALBUM>;
+<INTENT_7> = (pokaż | wyświetl) [na facebooku | na fejsie] [moje] zdjęcia z albumu <ALBUM> | na facebooku (wyświetl | pokaż) moje zdjęcia w albumie <ALBUM> | jakie mam zdjęcia w albumie <ALBUM> na facebooku;
 
 #SLOTS
 <ALBUM> = FACEBOOK.SLOT.ALBUM;

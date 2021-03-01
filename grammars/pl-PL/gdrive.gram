@@ -12,24 +12,27 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 
 <INTENT_5> = <SHOW_VERB> <MY_GDRIVE_FILES> (mniejsze | większe) niż <FILE_SIZE>;
 
-<INTENT_6> = (stwórz | utwórz) plik (na | w) [moim] (google drive | google drivie);
+<INTENT_6> = (stwórz | utwórz) plik (na | w) [moim] (google drive | google drivie | dysku google);
 
-<INTENT_7> = (stwórz | utwórz) plik (na | w) [moim] (google drive | google drivie) o nazwie <FILE_NAME>;
+<INTENT_7> = (stwórz | utwórz) plik (na | w) [moim] (google drive | google drivie | dysku google) o nazwie <FILE_NAME>;
 
-<INTENT_8> = <SHOW_VERB> ([mój] najstarszy plik na google drive | [moje] najstarsze pliki na google drive);
+<INTENT_8> = <SHOW_VERB> ([mój] najstarszy plik na (google drive | dysku google) | [moje] najstarsze pliki na google drive);
 
-<INTENT_9> = <SHOW_VERB> ([mój] (najnowszy | ostatni) plik na google drive | [moje] (najnowsze | ostatnie) pliki na google drive);
+<INTENT_9> = <SHOW_VERB> ([mój] (najnowszy | ostatni) plik na (google drive | dysku google) | [moje] (najnowsze | ostatnie) pliki na google drive);
 
-<INTENT_10> = <SHOW_VERB> [moje] pliki (na | w) google drive w kolejności alfabetycznej;
+<INTENT_10> = <SHOW_VERB> [moje] pliki (na | w) (google drive | dysku google) w kolejności alfabetycznej;
 
-<INTENT_11> = <SHOW_VERB> [moje] pliki (na | w) google drive w odwrotnej kolejności alfabetycznej;
+<INTENT_11> = <SHOW_VERB> [moje] pliki (na | w) (google drive | dysku google) w odwrotnej kolejności alfabetycznej;
 
 <INTENT_12> = <INTENT_12_a> | <INTENT_12_b> | <INTENT_12_c>;
 <INTENT_12_a> = otwórz [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> do edycji [na google drive];
 <INTENT_12_b> = (edytuj | zmień) [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> [na google drive];
 <INTENT_12_c> = [na google drive] (edytuj | zmień) [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> [na google drive];
 
-<INTENT_13> = udostępnij [mój] plik [o nazwie] <FILE_NAME> do <MAIL> [i nadaj uprawnienia do (edycji | odczytu | odczytu i zapisu)];
+<INTENT_13> = <INTENT_13_a> | <INTENT_13_b> | <INTENT_13_c>;
+<INTENT_13_a> = udostępnij [mój] plik [o nazwie] <FILE_NAME> do <MAIL> [i nadaj uprawnienia do (edycji | odczytu | odczytu i zapisu)];
+<INTENT_13_b> = daj dostęp [do edycji | odczytu | odczytu i zapisu] do <FILE_NAME> <MAIL>;
+<INTENT_13_c> = niech <MAIL> ma dostęp [do edycji | odczytu | odczytu i zapisu] pliku <FILE_NAME>;
 
 #SLOTS
 <MIME_TYPE> = GDRIVE.SLOT.MIME_TYPE;
@@ -39,5 +42,5 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 <MAIL> = GDRIVE.SLOT.MAIL;
 
 #LANG. COMPONENTS
-<SHOW_VERB> = pokaż | wyświetl | wylistuj;
-<MY_GDRIVE_FILES> = moje pliki (z | na | w) google drive;
+<SHOW_VERB> = pokaż | wyświetl | wylistuj | otwórz;
+<MY_GDRIVE_FILES> = moje pliki (z | na | w) (google drive | dysku google);

@@ -71,4 +71,4 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <PRIORITY> = EMAIL.SLOT.PRIORITY;
 
 #LANG. COMPONENTS
-<SEND_EMAIL> = (send | forward | resend | compose) an email;
+<SEND_EMAIL> = (send | create | compose) an email;

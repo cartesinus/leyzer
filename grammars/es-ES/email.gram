@@ -3,27 +3,31 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 
 #INTENTS
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c>;
-<INTENT_1_a> = <CHECK_VERB> [[la] bandeja de entrada de] [mi] (email | gmail);
+<INTENT_1_a> = <CHECK_VERB> [[la] bandeja de entrada de] [mi] (email | gmail | correo);
 <INTENT_1_b> = <CHECK_VERB> mis (emails | correos) de la categoría principal;
-<INTENT_1_c> = <CHECK_VERB> (mi email más reciente | mis (emails | mis emails en gmail | mi bandeja de entrada de gmail));
+<INTENT_1_c> = <CHECK_VERB> (mi ([mensaje] email | correo) más reciente | mis (emails | mis emails en gmail | mi bandeja de entrada de gmail));
 
-<INTENT_2> = <CHECK_VERB> [mis] emails (de | que recibí de) <SENDER_ADDRESS>;
+<INTENT_2> = <CHECK_VERB> [mis] emails ([que recibí] de | que me (mandó | envió)) <SENDER_ADDRESS>;
 
-<INTENT_3> = (muéstrame | quiero ver) (los | mis) (emails | correos) (etiquetados | con la etiqueta | que tienen [la] etiqueta [de]) <LABEL>;
+<INTENT_3> = (muéstrame | quiero ver | muestra | ve a) (los | mis) (emails | correos) (etiquetados | con la etiqueta | que tienen [la] etiqueta [de]) <LABEL>;
 
-<INTENT_4> = (muéstrame | quiero ver) (los | mis) (emails | correos) que (recibí | llegaron) <TIME>;
+<INTENT_4> = (muéstrame | quiero ver | muestra | ve a) (los | mis) (emails | correos) (que (recibí | llegaron) | recibidos) <TIME>;
 
-<INTENT_5> = (muéstrame | quiero ver) (los | mis) (emails | correos) con el tema <SUBJECT>;
+<INTENT_5> = (muéstrame | quiero ver | muestra | ve a) (los | mis) (emails | correos) (con el (tema | título) | titulados) <SUBJECT>;
 
-<INTENT_6> = (muéstrame | quiero ver) (los | mis) (emails | correos) de <PRIORITY>;
+<INTENT_6> = (muéstrame | quiero ver | muestra | ve a) (los | mis) (emails | correos) de <PRIORITY>;
 
-<INTENT_7> = <SEND_EMAIL> a <TO> con el tema <SUBJECT> con el mensaje <MESSAGE> [usando mi gmail];
+<INTENT_7> = <INTENT_7a> | <INTENT_7b>;
+<INTENT_7a> = <SEND_EMAIL> a <TO> (con el (tema | título) | titulado) <SUBJECT> (que diga | que dice | diciendo) <MESSAGE> [usando mi gmail];
+<INTENT_7b> = crea un ([mensaje] email | correo) (con el (tema | título) | titulado) <SUBJECT> (que diga | que dice | diciendo) <MESSAGE> y (envialo | mándalo) a <TO> [usando mi gmail];
 
-<INTENT_8> = <SEND_EMAIL> a <TO> con el tema <SUBJECT> [usando mi gmail];
+<INTENT_8> = <INTENT_8a> | <INTENT_8b>;
+<INTENT_8a> = <SEND_EMAIL> a <TO> (con el (tema | título) | titulado) <SUBJECT> [usando mi gmail] | usando mi gmail <SEND_EMAIL> a <TO> (con el (tema | título) | titulado) <SUBJECT>;
+<INTENT_8b> = crea un ([mensaje] email | correo) (con el (tema | título) | titulado) <SUBJECT> y (envialo | mándalo) a <TO> [usando mi gmail] | usando mi gmail crea un ([mensaje] email | correo) (con el (tema | título) | titulado) <SUBJECT> y (envialo | mándalo) a <TO>;
 
 <INTENT_9> = <SEND_EMAIL> [a alguien];
 
-<INTENT_10> = envía un (email | correo) a <TO> usando mi [aplicación [de]] gmail;
+<INTENT_10> = (envía | manda) un ([mensaje] email | correo) a <TO> usando mi [aplicación [de]] gmail;
 
 <INTENT_11> = responde a <TO>;
 
@@ -40,4 +44,4 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 
 #LANG. COMPONENTS
 <CHECK_VERB> = verifica | consulta;
-<SEND_EMAIL> = (envía | reenvía | manda) un email;
+<SEND_EMAIL> = (envía | manda) un ([mensaje] email | correo);
