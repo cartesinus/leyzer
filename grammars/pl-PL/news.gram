@@ -2,19 +2,19 @@
 public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | NotifyWhenPortalUpdates__ <INTENT_3> | NotifyWhenPortalUpdatesInSection__ <INTENT_4>);
 
 #PRECONDITIONS
-<WHEN_1> = kiedy <PORTAL> (doda nowe (wiadomości | newsy) | się zaktualizuje);
-<WHEN_2> = kiedy <PORTAL> (w sekcji | w części) <SECTION> opublikuje [nowy] artykuł;
+<WHEN_1> = (kiedy | jeśli | jeżeli) <PORTAL> (doda nowe (wiadomości | newsy | artykuły) | się zaktualizuje);
+<WHEN_2> = (kiedy | jeśli | jeżeli) <PORTAL> (w sekcji | w części) <SECTION> opublikuje [nowy] (artykuł | wiadomości);
 
 #INTENTS
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
-<INTENT_1_a> = (otwórz | czytaj | pokaż) <PORTAL>;
-<INTENT_1_b> = (wyświetl | pokaż) [mi] [najnowsze] wiadomości z <PORTAL>;
+<INTENT_1_a> = (otwórz | czytaj | pokaż | wyświetl) <PORTAL>;
+<INTENT_1_b> = (wyświetl | pokaż) [mi] [najnowsze] (wiadomości | informacje | artykuły) z <PORTAL>;
 
-<INTENT_2> = (wyświetl | pokaż) [mi] [najnowsze] artykuły z kategori <SECTION> (z | w | na) <PORTAL>;
+<INTENT_2> = (wyświetl | pokaż | otwórz) [mi] [najnowsze] (artykuły | informacje | wiadomości) (z | w) kategorii <SECTION> (z | w | na) <PORTAL>;
 
-<INTENT_3> = (powiadom mnie | powiedz mi | daj znać) <WHEN_1>;
+<INTENT_3> = (powiadom [mnie] | powiedz [mi] | daj znać | poinformuj [mnie]) <WHEN_1>;
 
-<INTENT_4> = (powiadom mnie | powiedz mi | daj znać) <WHEN_2>;
+<INTENT_4> = (powiadom [mnie] | powiedz [mi] | daj znać | poinformuj [mnie]) <WHEN_2>;
 
 #SLOTS
 <SECTION> = NEWS.SLOT.SECTION;

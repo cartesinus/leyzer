@@ -2,7 +2,7 @@
 public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2> | ShowLastNumberPictures__ <INTENT_3> | ShowPicturesWithFilter__ <INTENT_4> | ShowPicturesWithLocation__ <INTENT_5> | ShowPicturesWithHashtag__ <INTENT_6> | PostWithPicturesFromDateAndWithLocation__ <INTENT_7> | ShowPicturesFromDate__ <INTENT_8> | TakePicture__ <INTENT_9> | PostWithLastPictureWithLocationAndWithHashtag__ <INTENT_10>);
 
 #INTENTS
-<INTENT_1> = otwórz [mój] (instagram | insta);
+<INTENT_1> = (otwórz | uruchom | pokaż | wyświetl) [mój] (instagram | insta);
 
 <INTENT_2> = <SHOW_VERB> [moje] [ostatnie] zdjęcia (na (instagramie | insta) | z (instagrama | insta));
 
@@ -23,7 +23,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 
 <INTENT_8> = <SHOW_VERB> [moje] (zdjęcia | posty) zrobione (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>);
 
-<INTENT_9> = (zrób [mi] | stwórz | utwórz) (zdjęcie | fotkę | selfie) (na instagrama | przy użyciu instagrama);
+<INTENT_9> = (zrób [mi] | stwórz | utwórz) (zdjęcie | fotkę | selfie | fotografię) (na (instagrama | instagram | insta) | przy użyciu instagrama) | (sfotografuj mnie | fotografia | zrób fotografię) na instagrama | selfie na (instagram | instagrama | insta);
 
 <INTENT_10> = (stwórz | utwórz) [nowy] post na (instagrama | instagramie) z ostatniego zdjęcia z galerii [i dodaj (tag lokalizacji | lokalizację) w <LOCATION> | i dodaj filtr <FILTER> | i dodaj hashtag <HASHTAG>];
 

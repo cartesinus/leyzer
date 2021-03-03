@@ -2,16 +2,16 @@
 public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | CheckUserStatus__ <INTENT_3> | CheckMessagesFromUser__ <INTENT_4> | CheckMessagesInChannel__ <INTENT_5> | SendMessageToChannel__ <INTENT_6> | SetPurposeOnChannel__ <INTENT_7> | SetTopicInChannel__ <INTENT_8> | SetStatusAway__ <INTENT_9> | SendMessage__ <INTENT_10> | SendPictureToChannel__ <INTENT_11> | SendPictureToChannelWithCaption__ <INTENT_12> | SendPictureWithUrlToChannel__ <INTENT_13> | CheckChannelHistory__ <INTENT_14>);
 
 #INTENTS
-<INTENT_1> = (otwórz | uruchom) [aplikację] slacka;
+<INTENT_1> = (otwórz | uruchom | wyświetl | pokaż) [aplikację] slacka;
 
-<INTENT_2> = <CHECK_VERB> [moje] [ostatnie | najnowsze] wiadomości na slacku;
+<INTENT_2> = (<CHECK_VERB> | wyświetl | otwórz) [moje] [ostatnie | najnowsze] wiadomości na slacku;
 
-<INTENT_3> = [powiedź [mi]] czy <USERNAME> jest [w tym momencie | w tej chwili] aktywny [na slacku];
+<INTENT_3> = [powiedź [mi]] czy <USERNAME> jest [w tym momencie | w tej chwili] (aktywny | dostępny) [na slacku];
 
-<INTENT_4> = <CHECK_VERB> [ostatnie | najnowsze] wiadomości [które otrzymałem] od <SENDER>;
+<INTENT_4> = (<CHECK_VERB> | wyświetl | pokaż | otwórz) [ostatnie | najnowsze] wiadomości [które otrzymałem] od <SENDER> na slacku;
 
 <INTENT_5> = <CHECK_VERB> (<INTENT_5_a> | <INTENT_5_b>);
-<INTENT_5_a> = (ostatnie | najnowsze) wiadomości [które otrzymałem] (w | na) kanale <CHANNEL>;
+<INTENT_5_a> = (ostatnie | najnowsze) wiadomości [które (otrzymałem | dostałem)] (w | na) kanale <CHANNEL>;
 <INTENT_5_b> = wiadomości na slackowym kanale <CHANNEL> (w ciągu ostatniej godziny | ostatnio);
 
 <INTENT_6> = <INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>;
@@ -27,11 +27,13 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 # channel's topic is a quick way to let people know what members in the channel are working on or important dates like project deadlines
 <INTENT_8> = <INTENT_8_a> | <INTENT_8_b>;
 <INTENT_8_a> = (ustaw temat [[slackowego] kanału] <CHANNEL> na <TOPIC> | niech <TOPIC> będzie tematem [[slackowego] kanału] <CHANNEL>);
-<INTENT_8_b> = tematem kanału <CHANNEL> jest <PURPOSE>;
+<INTENT_8_b> = tematem kanału <CHANNEL> jest <TOPIC>;
 
-<INTENT_9> = (ustaw mnie | oznacz mnie) jako (niedostępnego | niedostępną | nieobecnego | nieobecną) [na slacku];
+<INTENT_9> = <INTENT_9_a> | <INTENT_9_b>;
+<INTENT_9_a> = (ustaw mnie | oznacz mnie) jako (niedostępnego | niedostępną | nieobecnego | nieobecną) [na slacku];
+<INTENT_9_b> = zmień mój status na slacku na (niedostępny | niedostępną | nieobecnego | nieobecną);
 
-<INTENT_10> = <SEND_VERB> wiadomość [na slacku | na slacka];
+<INTENT_10> = (<SEND_VERB> | stwórz) wiadomość (na slacku | na slacka);
 
 <INTENT_11> = <INTENT_11_a> | <INTENT_11_b>;
 <INTENT_11_a> = (wyślij | prześlij | udostępnij) (zdjęcie | film | filmik | gif | coś) na kanał [na slacku | slackowy] <CHANNEL>;
@@ -43,7 +45,7 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 <INTENT_13_a> = <SEND_VERB> zdjęcie z <PICTURE_URL> na [slackowy] kanał <CHANNEL>;
 <INTENT_13_b> = umieść <PICTURE_URL> na kanale <CHANNEL>;
 
-<INTENT_14> = <CHECK_VERB> historię kanału [na slacku];
+<INTENT_14> = (<CHECK_VERB> | wyświetl) historię kanału [na slacku];
 
 #SLOTS
 <USERNAME> = SLACK.SLOT.USERNAME;
@@ -57,4 +59,4 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 
 #LANG. COMPONENTS
 <CHECK_VERB> = sprawdź | pokaż;
-<SEND_VERB> = wyślij | prześlij | napisz;
+<SEND_VERB> = wyślij | prześlij | napisz | utwórz;
