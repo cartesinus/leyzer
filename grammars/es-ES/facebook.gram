@@ -2,25 +2,29 @@
 public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | PostPicture__ <INTENT_3> | PostPictureWithCaption__ <INTENT_4> | PostPictureWithUrl__ <INTENT_5> | PostPictureWithUrlAndWithCaption__ <INTENT_6> | ShowAlbumWithName__ <INTENT_7>);
 
 #INETNTS
-<INTENT_1> = (publica algo en [el] facebook | crea una nueva publicación (en el facebook | de facebook) | actualiza mi estado de facebook);
+<INTENT_1> = publica algo en [el] facebook | crea una nueva publicación (en el facebook | de facebook) | (actualiza | cambia) mi estado de facebook;
 
-<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>; 
-<INTENT_2_a> = publica <STATUS> en [el] facebook;
-<INTENT_2_b> = publica en [el] facebook ([diciendo] que) <STATUS>;
-<INTENT_2_c> = actualiza mi (estado | página) de facebook diciendo <STATUS>;
-<INTENT_2_d> = crea una nueva publicación (que dice | que diga) <STATUS> en [el] facebook;
+<INTENT_2> = <INTENT_2a> | <INTENT_2b> | <INTENT_2c> | <INTENT_2d>;
+<INTENT_2a> = publica <STATUS> en [el] facebook;
+<INTENT_2b> = publica en [el] facebook ([diciendo] que) <STATUS>;
+<INTENT_2c> = actualiza mi estado de facebook diciendo <STATUS>;
+<INTENT_2d> = crea una nueva publicación (que dice | que diga) <STATUS> en [el] facebook;
 
 <INTENT_3> = (<POST_VERB_1> una (imagen | foto) en [mi] facebook | <POST_VERB_2> una (imagen | foto) a [mi] facebook);
 
-<INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;  
-<INTENT_4_a> = publica una imagen (con el título <CAPTION> en [el] facebook | en [el] facebook con el título <CAPTION>);
-<INTENT_4_b> = sube una (imagen | foto) ((a | al) facebook con [(un | el)] título <CAPTION> | con [(un | el)] título <CAPTION> (a | al) facebook);
+<INTENT_4> = <INTENT_4a> | <INTENT_4b>;
+<INTENT_4a> = <POST_VERB_1> una imagen (con el título <CAPTION> en [el] facebook | en [el] facebook con el título <CAPTION>);
+<INTENT_4b> = <POST_VERB_2> una (imagen | foto) ((a | al) facebook con [(un | el)] título <CAPTION> | con [(un | el)] título <CAPTION> (a | al) facebook);
 
-<INTENT_5> = (publica <PICTURE_URL> en [el] facebook | sube <PICTURE_URL> (a | al) facebook);
+<INTENT_5> = <POST_VERB_1> <PICTURE_URL> en [el] facebook | <POST_VERB_2> <PICTURE_URL> (a | al) facebook;
 
-<INTENT_6> = ((publica | pon) <PICTURE_URL> en [mi] facebook con [(un | el)] título <CAPTION>) | titula <PICTURE_URL> como <CAPTION> y (pónlo | públicalo) en [el] facebook;
+<INTENT_6> = <INTENT_6a> | <INTENT_6b> | <INTENT_6c> | <INTENT_6d>;
+<INTENT_6a> = (publica | pon) <PICTURE_URL> en [mi] facebook (con | y dale | y ponle) [(un | el)] título <CAPTION>;
+<INTENT_6b> = titula <PICTURE_URL> como <CAPTION> y (pónlo | públicalo) en [el] facebook;
+<INTENT_6c> = <POST_VERB_2> <PICTURE_URL> (a mi | al facebook) (con | y dale | y ponle) (un | el) título <CAPTION>;
+<INTENT_6d> = titula <PICTURE_URL> como <CAPTION> y (súbelo | añádelo) al facebook;
 
-<INTENT_7> = (muestra | muéstrame) imágenes en [mi] álbum <ALBUM> [en [el] facebook];
+<INTENT_7> = (muestra | muéstrame) (imágenes | fotos) (en [mi] | de mi | del) álbum <ALBUM> [en [el] facebook];
 
 #SLOTS
 <ALBUM> = FACEBOOK.SLOT.ALBUM;

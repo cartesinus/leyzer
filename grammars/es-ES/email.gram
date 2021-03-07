@@ -25,11 +25,11 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_8a> = <SEND_EMAIL> a <TO> (con el (tema | título) | titulado) <SUBJECT> [usando mi gmail] | usando mi gmail <SEND_EMAIL> a <TO> (con el (tema | título) | titulado) <SUBJECT>;
 <INTENT_8b> = crea un ([mensaje] email | correo) (con el (tema | título) | titulado) <SUBJECT> y (envialo | mándalo) a <TO> [usando mi gmail] | usando mi gmail crea un ([mensaje] email | correo) (con el (tema | título) | titulado) <SUBJECT> y (envialo | mándalo) a <TO>;
 
-<INTENT_9> = <SEND_EMAIL> [a alguien];
+<INTENT_9> = (<SEND_EMAIL> | crea un (mensaje | [mensaje] email) y (mándalo | envíalo)) [a alguien];
 
-<INTENT_10> = (envía | manda) un ([mensaje] email | correo) a <TO> usando mi [aplicación [de]] gmail;
+<INTENT_10> = ((envía | manda) un ([mensaje] email | correo) | crea un (mensaje | [mensaje] email) y (mándalo | envíalo)) a <TO> usando mi [aplicación [de]] gmail;
 
-<INTENT_11> = responde a <TO>;
+<INTENT_11> = (responde | (manda | envía ) una respuesta | crea una respuesta y (mándala | envíala)) a <TO>;
 
 
 #SLOTS

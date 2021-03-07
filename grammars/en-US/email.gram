@@ -32,15 +32,21 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 
 <INTENT_6> = (display | get (me | my) | show me) <PRIORITY> emails [first];
 
-<INTENT_7> = (<SEND_EMAIL> to <TO> with a subject <SUBJECT> with message <MESSAGE> [using my gmail] | email <TO> with subject <SUBJECT> and message <MESSAGE>);
+<INTENT_7> = <INTENT_7a> | <INTENT_7b> | <INTENT_7c>;
+<INTENT_7a> = <SEND_EMAIL> to <TO> with a (subject | title) <SUBJECT> (with message | saying) <MESSAGE> [using my gmail];
+<INTENT_7b> = [using my gmail] email <TO> with (subject | title) <SUBJECT> (and [a] message | saying) <MESSAGE>;
+<INTENT_7c> = create an email with a (subject | title) <SUBJECT> (and [a] message | saying) <MESSAGE> and send it to <TO> [using my gmail];
 
-<INTENT_8> = (<SEND_EMAIL> to <TO> with a subject <SUBJECT> [using my gmail] | email to <TO> with a subject <SUBJECT>);
+<INTENT_8> = <INTENT_8a> | <INTENT_8b> | <INTENT_8c>;
+<INTENT_8a> = <SEND_EMAIL> to <TO> with a (subject | title) <SUBJECT> [using my gmail];
+<INTENT_8b> = [using my gmail] email <TO> with (subject | title) <SUBJECT>;
+<INTENT_8c> = create an email with a (subject | title) <SUBJECT> and send it to <TO> [using my gmail];
 
-<INTENT_9> = <SEND_EMAIL> [to somebody | somewhere];
+<INTENT_9> = (<SEND_EMAIL> | create an email and send it) [to somebody | somewhere];
 
-<INTENT_10> = ((send | compose) [an] email to <TO> [using my gmail] | email <TO>);
+<INTENT_10> = (send | compose) [an] email to <TO> [using my gmail] | [using my gamil] email <TO> | (create | compose) [an] email and send it to <TO> [using my gmail];
 
-<INTENT_11> = (reply to | answer) <TO> [email | mail];
+<INTENT_11> = (reply to | answer) <TO> | send (an answer | a reply) to <TO>;
 
 <DO> = send an email with subject <SUBJECT>;
 <DO> = email a picture to <TO>;
