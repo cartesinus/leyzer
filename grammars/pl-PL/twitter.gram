@@ -6,10 +6,16 @@ public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | Unf
 <INTENT_1> = <SHOW_VERB> [moje] (twitty | posty na twitterze | twitty które napisałem);
 
 #follow given user
-<INTENT_2> = (obserwuj | zostań followersem | zacznij śledzić) <USERNAME>;
+<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c>;
+<INTENT_2_a> = (obserwuj | zacznij (śledzić | obserwować)) [aktywność] <USERNAME> na twitterze | zacznij (śledzić | obserwować) co <USERNAME> (pisze | publikuje) na twitterze;
+<INTENT_2_b> = chcę być na bieżąco z tym co (pisze | publikuje) <USERNAME> na twitterze;
+<INTENT_2_c> = zostań followersem <USERNAME> na twitterze;
 
 #unfollow given user
-<INTENT_3> = przestań (obserować | śledzić) <USERNAME> na twitterze;
+<INTENT_3> = <INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c>;
+<INTENT_3_a> = przestań (obserować | śledzić) [aktywność] <USERNAME> na twitterze;
+<INTENT_3_b> = przestań followować <USERNAME> na twitterze;
+<INTENT_3_c> = nie chcę [już] (obserwować | śledzić | wiedzieć) co <USERNAME> (pisze | publikuje) na twitterze;
 
 #send message to user
 <INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;
@@ -23,7 +29,7 @@ public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | Unf
 <INTENT_5_c> = [wyślij | napisz] <MESSAGE> do <USERNAME> na twitterze;
 
 #find tweets with hashtags
-<INTENT_6> = [znajdź | <SHOW_VERB>] twitty z hashtagiem <HASHTAG>;
+<INTENT_6> = [znajdź [mi] | odnajdź [mi] | wyszukaj [mi] | <SHOW_VERB> [mi]] twitty (z hashtagiem | o hashtagu) <HASHTAG>;
 
 #SLOTS
 <USERNAME> = TWITTER.SLOT.USERNAME;

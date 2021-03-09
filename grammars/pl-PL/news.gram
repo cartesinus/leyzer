@@ -3,7 +3,7 @@ public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | 
 
 #PRECONDITIONS
 <WHEN_1> = (kiedy | jeśli | jeżeli) <PORTAL> (doda nowe (wiadomości | newsy | artykuły) | się zaktualizuje);
-<WHEN_2> = (kiedy | jeśli | jeżeli) <PORTAL> (w sekcji | w części) <SECTION> opublikuje [nowy] (artykuł | wiadomości);
+<WHEN_2> = (kiedy | jeśli | jeżeli) <PORTAL> (w sekcji | w części) <SECTION> opublikuje [nowe] (artykuły | wiadomości);
 
 #INTENTS
 <INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;

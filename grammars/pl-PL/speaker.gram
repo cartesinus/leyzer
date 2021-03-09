@@ -7,20 +7,26 @@ public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> |
 <INTENT_1_b> = <POWER> [mój] głośnik [dla mnie | za mnie];
 
 <INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
-<INTENT_2_a> = zwiększ głośność [mojego] głośnika;
-<INTENT_2_b> = zrób głośniej [mój] głośnik;
+<INTENT_2_a> = zwiększ [trochę | odrobinę] głośność [mojego] głośnika;
+<INTENT_2_b> = (zrób [trochę | odrobinę] głośniej | zgłośnij [trochę | odrobinę]) [mój] głośnik;
 
-<INTENT_3> = <INTENT_2> o <PERCENT> [procent];
+<INTENT_3_base> = <INTENT_3_base_a> | <INTENT_3_base_b>;
+<INTENT_3_base_a> = zwiększ głośność [mojego] głośnika;
+<INTENT_3_base_b> = (zrób głośniej | zgłośnij) [mój] głośnik;
+<INTENT_3> = <INTENT_3_base> o <PERCENT> [procent];
 
 <INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;
-<INTENT_4_a> = zmniejsz głośność [mojego] głośnika;
-<INTENT_4_b> = zrób ciszej [mój] głośnik;
+<INTENT_4_a> = (zmniejsz | zredukuj | ścisz) [trochę | odrobinę] głośność [mojego] głośnika;
+<INTENT_4_b> = (zrób [trochę | odrobinę] ciszej | ścisz [trochę | odrobinę]) [mój] głośnik;
 
-<INTENT_5> = <INTENT_4> o <PERCENT> [procent];
+<INTENT_5_base> = <INTENT_5_base_a> | <INTENT_5_base_b>;
+<INTENT_5_base_a> = (zmniejsz | zredukuj | ścisz) [trochę | odrobinę] głośność [mojego] głośnika;
+<INTENT_5_base_b> = (zrób [trochę | odrobinę] ciszej | ścisz [trochę | odrobinę]) [mój] głośnik;
+<INTENT_5> = <INTENT_5_base> o <PERCENT> [procent];
 
-<INTENT_6> = wycisz [mój] głośnik;
+<INTENT_6> = wycisz [mój] głośnik | (przestań (odtwarzać | grać) | zatrzymaj odtwarzanie) [dzwięk] na [moim] głośniku;
 
-<INTENT_7> = (cofnij wyciszenie | włącz głos) [mojego] głośnika;
+<INTENT_7> = (cofnij wyciszenie | włącz głos) [mojego] głośnika | wznów (dzwięk | odtwarzanie) na [moim] głośniku;
 
 #SLOTS
 <DEVICE_NAME> = SPEAKER.SLOT.DEVICE_NAME;
