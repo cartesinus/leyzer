@@ -1,4 +1,8 @@
-# Leyzer
+# Leyzer: A Dataset for Multilingual Virtual Assistants
+
+Leyzer is a multilingual text corpus designed to study multilingual and cross-lingual natural language understanding (NLU) models and the strategies of localization of virtual assistants. It consists of 20 domains across three languages: English, Spanish and Polish, with 186 intents and a wide range of samples, ranging from 1 to 672 sentences per intent. For more stats please refer to [wiki](https://github.com/cartesinus/leyzer/wiki).
+
+Named after [Ludwik Lejzer Zamenhof](https://en.wikipedia.org/wiki/L._L._Zamenhof), the inventor of the international language Esperanto, the most widely used constructed international auxiliary language in the world.
 
 ## Patterns
 
