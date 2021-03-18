@@ -15,25 +15,42 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_3_c> = cómo (se dice | decir | digo | se traduce | traducir | traduzco) <TEXT_EN>;
 
 #translate text from english (default) to given lang
-<INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d> | <INTENT_4_e> | <INTENT_4_f>;
+<INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d> | <INTENT_4_e> | <INTENT_4_f> | <INTENT_4_g>;
 <INTENT_4_a> = [cuál es la | la] traducción de <TEXT_EN> a <TRG_LANG>;
-<INTENT_4_b> = (traduce | [la] traducción de) <TEXT_EN> a <TRG_LANG>;
+<INTENT_4_b> = traduce <TEXT_EN> a <TRG_LANG>;
 <INTENT_4_c> = traduce a <TRG_LANG> <TEXT_EN>;
 <INTENT_4_d> = <TEXT_EN> (en | traducido a) <TRG_LANG>;
-<INTENT_4_e> = cómo (se dice | decir | digo | se traduce | traducir | traduzco) <TEXT_EN> a <TRG_LANG>;
+<INTENT_4_e> = cómo (se traduce | traducir | traduzco) <TEXT_EN> a <TRG_LANG>;
 <INTENT_4_f> = (di | dime) en <TRG_LANG> <TEXT_EN>;
+<INTENT_4_g> = cómo (es | sería | será | se dice | decir | digo) <TEXT_EN> en <TRG_LANG>;
 
 #both source and target languages are provided together with text to translate
-<INTENT_5> = (traduce | [la] traducción de) <TEXT> (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>);
+<INTENT_5> = <INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c> | <INTENT_5_d> | <INTENT_5_e>;
+<INTENT_5_a> = [cuál es la | la] traducción de <TEXT> (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>);
+<INTENT_5_b> = traduce [el texto | la frase] <TEXT> (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>);
+<INTENT_5_c> = <TEXT> traducido (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>);
+<INTENT_5_d> = cómo (se traduce | traducir | traduzco) <TEXT> traducido (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>);
+<INTENT_5_e> = cómo (es | sería | será) <TEXT> traducido (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>);
 
 #both source and target languages are provided together with text to translate additinaly translator is provided
-<INTENT_6> = [la] traducción de <TEXT> (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>) (con | usando) <TRANSLATOR>;
+<INTENT_6> = <INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c> | <INTENT_6_d> | <INTENT_6_e> | <INTENT_6_f>;
+<INTENT_6_a> = [la] traducción de <TEXT> (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>) (con | usando) <TRANSLATOR>;
+<INTENT_6_b> = traduce [el texto | la frase] <TEXT> (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>) (con | usando) <TRANSLATOR>;
+<INTENT_6_c> = <TEXT> traducido (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>) (con | usando) <TRANSLATOR>;
+<INTENT_6_d> = cómo (se traduce | traducir | traduzco) <TEXT> (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>) (con | usando) <TRANSLATOR>;
+<INTENT_6_e> = cómo (es | sería | será) <TEXT> traducido (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>) (con | usando) <TRANSLATOR>;
+<INTENT_6_f> = usa <TRANSLATOR> (y traduce | para traducir) <TEXT> (de <SRC_LANG> a <TRG_LANG> | a <TRG_LANG> de <SRC_LANG>);
 
 #root command for followup action (where text is given)
 <INTENT_7> = (traduce a| [una] traducción a) <TRG_LANG>;
 
 #default target language is set but source is unknown. text is provided as well
-<INTENT_8> = (traduce | [la] traducción de) (<TEXT> de <SRC_LANG> | <SRC_LANG> [la] frase <TEXT>);
+<INTENT_8> = <INTENT_8_a> | <INTENT_8_b> | <INTENT_8_c> | <INTENT_8_d> | <INTENT_8_e>;
+<INTENT_8_a> = [cuál es la | la] traducción de <TEXT> de <SRC_LANG>;
+<INTENT_8_b> = traduce ([el texto | la frase] <TEXT> de <SRC_LANG> | de <SRC_LANG> [el texto | la frase] <TEXT> de <SRC_LANG>);
+<INTENT_8_c> = <TEXT> traducido de <SRC_LANG>;
+<INTENT_8_d> = cómo (se traduce | traducir | traduzco) <TEXT> de <SRC_LANG>;
+<INTENT_8_e> = cómo (es | sería | será) <TEXT> traducido de <SRC_LANG>;
 
 #detect language of text
 <INTENT_9> = <INTENT_9_a> | <INTENT_9_b>;

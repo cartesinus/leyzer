@@ -6,7 +6,7 @@ from argparse import ArgumentParser, RawDescriptionHelpFormatter
 import pandas as pd
 
 
-def create_dict(df, i, t, s):
+def create_dict(df, i, s):
     """Crate dictionary for all columns in ATIS format."""
     for intent in df['intent'].tolist():
         if intent not in i:
@@ -19,12 +19,7 @@ def create_dict(df, i, t, s):
             if slot_base not in s:
                 s.extend([slot_base])
 
-    for line in df['utterance'].tolist():
-        for token in line.split(' '):
-            if token not in t:
-                t.extend([token])
-
-    return i, t, s
+    return i, s
 
 
 def read_dict(filename):
