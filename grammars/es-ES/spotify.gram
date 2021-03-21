@@ -6,13 +6,13 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_1> = ((abre | usa) spotify [(y reproduce | para reproducir) alguna música] | reproduce ([alguna] música | algo) en spotify);
 
 #play given song
-<INTENT_2> = (reproduce [la canción] <SONG> [en spotify] | en spotify reproduce <SONG>);
+<INTENT_2> = (reproduce | pon | reprodúceme | ponme) [la canción | la pista] <SONG> [en [el] spotify] | en [el] spotify (reproduce | pon | reprodúceme | ponme) [la canción | la pista] <SONG> | (abre [el] | va al) spotify y (reproduce | pon | reprodúceme | ponme) [la canción | la pista] <SONG> | en [el] spotify busca [la canción | la pista] <SONG> y (ponla | reprodúcela | pónmela | reprodúcemela);
 
 #play given song of given artist
-<INTENT_3> = (reproduce [la canción] <SONG> de <ARTIST> [en spotify] | en spotify reproduce <SONG> de <ARTIST>);
+<INTENT_3> = (reproduce | pon | reprodúceme | ponme) [la canción | la pista] <SONG> de <ARTIST> [en [el] spotify] | en [el] spotify (reproduce | pon | reprodúceme | ponme) [la canción | la pista] <SONG> de <ARTIST> | (abre [el] | va al) spotify y (reproduce | pon | reprodúceme | ponme) [la canción | la pista] <SONG> de <ARTIST> | en [el] spotify busca [la canción | la pista] <SONG> de <ARTIST> y (ponla | reprodúcela | pónmela | reprodúcemela) | en [el] spotify busca <ARTIST> y (pon | reproduce | ponme | reprodúceme) [la canción | la pista] <SONG>;
 
 #play given album of given artist
-<INTENT_4> = (reproduce [el <ALBUM_TYPE>] <ALBUM> de <ARTIST> [en spotify] | en spotify reproduce <ALBUM_TYPE> <ALBUM> de <ARTIST>);
+<INTENT_4> = (reproduce | pon | reprodúceme | ponme) [el <ALBUM_TYPE>] <ALBUM> de <ARTIST> [en spotify] | en spotify (reproduce | pon | reprodúceme | ponme) <ALBUM_TYPE> <ALBUM> de <ARTIST> | (abre [el] | va al) spotify y (reproduce | pon | reprodúceme | ponme) [el <ALBUM_TYPE>] <ALBUM> de <ARTIST> | en [el] spotify busca <ARTIST> y (pon | reproduce | ponme | reprodúceme) su <ALBUM_TYPE> <ALBUM> | en [el] spotify busca [el <ALBUM_TYPE>] <ALBUM> de <ARTIST> y (ponlo | reprodúcelo | pónmelo | reprodúcemelo);
 
 #'press' pause | resume | play | repeat button on current song
 <INTENT_5> = (reproduce | pausa | reanuda | repite) ([mi] spotify | (esta | esa) <SONG_NOUN>);
@@ -24,7 +24,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_7> = (vuelve [a la última <SONG_NOUN>] | reproduce la última <SONG_NOUN> [en spotify] | reproduce la <SONG_NOUN> anterior [en spotify]);
 
 #play given playlist
-<INTENT_8> = reproduce ([mi] playlist | [(mi | la)] lista de reproducción) <PLAYLIST> [en spotify];
+<INTENT_8> = (reproduce | pon | reprodúceme | ponme) [mi | la] (playlist | lista de reproducción) <PLAYLIST> [en spotify] | en spotify (reproduce | pon | reprodúceme | ponme) [mi | la] (playlist | lista de reproducción) <PLAYLIST> | (abre [el] spotify y | en [el] spotify) busca [mi | la] (playlist | lista de reproducción) <PLAYLIST> y (ponla | reprodúcela);
 
 #add current song to given playlist
 <INTENT_9> = (añade | guarda) ([esta | esa] [<SONG_NOUN>] a ([mi] playlist | [(mi | la)] lista de reproducción) <PLAYLIST> | la [<SONG_NOUN>] que se está reproduciendo a ([mi] playlist | [(mi | la)] lista de reproducción) <PLAYLIST>) [on spotify];
