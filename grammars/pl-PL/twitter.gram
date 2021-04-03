@@ -18,15 +18,18 @@ public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | Unf
 <INTENT_3_c> = nie chcę [już] (obserwować | śledzić | wiedzieć) co <USERNAME> (pisze | publikuje) na twitterze;
 
 #send message to user
-<INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;
+<INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c>;
 <INTENT_4_a> = (wyślij | napisz | utwórz | prześlij) na twitterze (wiadomość | pw | prywatną wiadomość) [o treści] <MESSAGE>;
 <INTENT_4_b> = (wyślij | napisz | utwórz | prześlij | stwórz) (wiadomość | pw | prywatną wiadomość) na twitterze [o treści] <MESSAGE>;
+<INTENT_4_c> = ćwierknij (wiadomość | pw | prywatną wiadomość) [o treści] <MESSAGE>;
 
 #send message to user
-<INTENT_5> = <INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>;
+<INTENT_5> = <INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c> | <INTENT_5_d> | <INTENT_5_e>;
 <INTENT_5_a> = na twitterze [wyślij | napisz | utwórz | prześlij | stwórz] [wiadomość | pw | prywatną wiadomość] do <USERNAME> o treści <MESSAGE>;
 <INTENT_5_b> = na twitterze [wyślij | napisz | utwórz | prześlij | stwórz] (wiadomość | pw | prywatną wiadomość) <MESSAGE> do <USERNAME>;
 <INTENT_5_c> = [wyślij | napisz] <MESSAGE> do <USERNAME> na twitterze;
+<INTENT_5_d> = ćwierknij [wiadomość | pw | prywatną wiadomość] do <USERNAME> o treści <MESSAGE>;
+<INTENT_5_e> = ćwierknij <MESSAGE> do <USERNAME>;
 
 #find tweets with hashtags
 <INTENT_6> = [znajdź [mi] | odnajdź [mi] | wyszukaj [mi] | <SHOW_VERB> [mi]] twitty (z hashtagiem | o hashtagu) <HASHTAG>;
