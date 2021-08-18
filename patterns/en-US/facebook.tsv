@@ -1,4 +1,16 @@
 domain	intent	parallel	pattern
+Facebook	OpenFacebook	-	open facebook
+Facebook	OpenFacebook	-	open facebook application
+Facebook	OpenFacebook	-	open facebook app
+Facebook	OpenFacebook	-	open my facebook
+Facebook	OpenFacebook	-	open my facebook application
+Facebook	OpenFacebook	-	open my facebook app
+Facebook	OpenFacebook	-	lunch facebook
+Facebook	OpenFacebook	-	lunch facebook application
+Facebook	OpenFacebook	-	lunch facebook app
+Facebook	OpenFacebook	-	lunch my facebook
+Facebook	OpenFacebook	-	lunch my facebook application
+Facebook	OpenFacebook	-	lunch my facebook app
 Facebook	OpenFacebook	-	post something on facebook
 Facebook	OpenFacebook	-	create a new facebook post
 Facebook	OpenFacebook	-	update my facebook status
@@ -33,9 +45,12 @@ Facebook	PostPicture	-	put a picture to facebook
 Facebook	PostPicture	-	put a picture to my facebook
 Facebook	PostPictureWithCaption	-	post a picture with caption FACEBOOK.SLOT.CAPTION on facebook
 Facebook	PostPictureWithCaption	-	post a picture on facebook with caption FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	send a picture with caption FACEBOOK.SLOT.CAPTION on facebook
+Facebook	PostPictureWithCaption	-	send a picture on facebook with caption FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithCaption	-	upload a picture on facebook with caption FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithCaption	-	upload a picture with caption FACEBOOK.SLOT.CAPTION on facebook
 Facebook	PostPictureWithUrl	-	post FACEBOOK.SLOT.PICTURE_URL on facebook
+Facebook	PostPictureWithUrl	-	send FACEBOOK.SLOT.PICTURE_URL on facebook
 Facebook	PostPictureWithUrl	-	upload FACEBOOK.SLOT.PICTURE_URL to facebook
 Facebook	PostPictureWithUrl	-	upload to facebook FACEBOOK.SLOT.PICTURE_URL
 Facebook	PostPictureWithUrlAndWithCaption	-	post FACEBOOK.SLOT.PICTURE_URL on facebook with caption FACEBOOK.SLOT.CAPTION

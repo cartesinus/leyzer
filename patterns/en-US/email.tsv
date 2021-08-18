@@ -23,6 +23,14 @@ Email	OpenEmail	-	refresh my email
 Email	OpenEmail	-	refresh my email inbox
 Email	OpenEmail	-	refresh my gmail
 Email	OpenEmail	-	refresh my gmail inbox
+Email	OpenEmail	-	open email
+Email	OpenEmail	-	open email inbox
+Email	OpenEmail	-	open gmail
+Email	OpenEmail	-	open gmail inbox
+Email	OpenEmail	-	open my email
+Email	OpenEmail	-	open my email inbox
+Email	OpenEmail	-	open my gmail
+Email	OpenEmail	-	open my gmail inbox
 Email	OpenEmail	-	check emails
 Email	OpenEmail	-	check my emails
 Email	OpenEmail	-	check out emails
@@ -97,6 +105,12 @@ Email	ShowEmailFromSender	-	check out emails i received from EMAIL.SLOT.SENDER_A
 Email	ShowEmailFromSender	-	check out my emails from EMAIL.SLOT.SENDER_ADDRESS
 Email	ShowEmailFromSender	-	check out my emails i got from EMAIL.SLOT.SENDER_ADDRESS
 Email	ShowEmailFromSender	-	check out my emails i received from EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	show me emails from EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	show me emails i got from EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	show me emails i received from EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	show me my emails from EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	show me my emails i got from EMAIL.SLOT.SENDER_ADDRESS
+Email	ShowEmailFromSender	-	show me my emails i received from EMAIL.SLOT.SENDER_ADDRESS
 Email	ShowEmailWithLabel	-	show me emails labelled EMAIL.SLOT.LABEL
 Email	ShowEmailWithLabel	-	show me emails with a label EMAIL.SLOT.LABEL
 Email	ShowEmailWithLabel	-	show me emails that have a label EMAIL.SLOT.LABEL
@@ -158,34 +172,112 @@ Email	ShowEmailWithSubject	-	find my emails with a subject EMAIL.SLOT.SUBJECT
 Email	ShowEmailWithSubject	-	search for emails with a subject EMAIL.SLOT.SUBJECT
 Email	ShowEmailWithSubject	-	search for my emails with a subject EMAIL.SLOT.SUBJECT
 Email	ShowEmailWithPriority	-	display EMAIL.SLOT.PRIORITY emails
+Email	ShowEmailWithPriority	-	display EMAIL.SLOT.PRIORITY emails first
 Email	ShowEmailWithPriority	-	get me EMAIL.SLOT.PRIORITY emails
+Email	ShowEmailWithPriority	-	get me EMAIL.SLOT.PRIORITY emails first
 Email	ShowEmailWithPriority	-	get my EMAIL.SLOT.PRIORITY emails
+Email	ShowEmailWithPriority	-	get my EMAIL.SLOT.PRIORITY emails first
 Email	ShowEmailWithPriority	-	show me EMAIL.SLOT.PRIORITY emails
+Email	ShowEmailWithPriority	-	show me EMAIL.SLOT.PRIORITY emails first
 Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
 Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	forward an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	forward an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	resend an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	resend an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
 Email	SendEmailToAddressWithSubjectAndWithMessage	-	email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	using my gmail email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	using my gmail email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	using my gmail email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	using my gmail email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	using my gmail email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	using my gmail email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a subject EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a subject EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a title EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a title EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a title EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a title EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
+Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
 Email	SendEmailToAddressWithSubject	-	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT
 Email	SendEmailToAddressWithSubject	-	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT using my gmail
-Email	SendEmailToAddressWithSubject	-	forward an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	forward an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT using my gmail
-Email	SendEmailToAddressWithSubject	-	resend an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	resend an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT using my gmail
-Email	SendEmailToAddressWithSubject	-	email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT using my gmail
+Email	SendEmailToAddressWithSubject	-	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT using my gmail
+Email	SendEmailToAddressWithSubject	-	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT using my gmail
+Email	SendEmailToAddressWithSubject	-	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT using my gmail
+Email	SendEmailToAddressWithSubject	-	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT using my gmail
+Email	SendEmailToAddressWithSubject	-	email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	using my gmail email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	using my gmail email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT
+Email	SendEmailToAddressWithSubject	-	create an email with a subject EMAIL.SLOT.SUBJECT and send it to EMAIL.SLOT.TO
+Email	SendEmailToAddressWithSubject	-	create an email with a subject EMAIL.SLOT.SUBJECT and send it to EMAIL.SLOT.TO using my gmail
+Email	SendEmailToAddressWithSubject	-	create an email with a title EMAIL.SLOT.SUBJECT and send it to EMAIL.SLOT.TO
+Email	SendEmailToAddressWithSubject	-	create an email with a title EMAIL.SLOT.SUBJECT and send it to EMAIL.SLOT.TO using my gmail
 Email	SendEmail	-	send an email
 Email	SendEmail	-	send an email to somebody
 Email	SendEmail	-	send an email somewhere
-Email	SendEmail	-	forward an email
-Email	SendEmail	-	forward an email to somebody
-Email	SendEmail	-	forward an email somewhere
-Email	SendEmail	-	resend an email
-Email	SendEmail	-	resend an email to somebody
-Email	SendEmail	-	resend an email somewhere
+Email	SendEmail	-	create an email
+Email	SendEmail	-	create an email to somebody
+Email	SendEmail	-	create an email somewhere
+Email	SendEmail	-	compose an email
+Email	SendEmail	-	compose an email to somebody
+Email	SendEmail	-	compose an email somewhere
+Email	SendEmail	-	create an email and send it
+Email	SendEmail	-	create an email and send it to somebody
+Email	SendEmail	-	create an email and send it somewhere
+Email	SendEmailToAddress	-	send email to EMAIL.SLOT.TO
 Email	SendEmailToAddress	-	send email to EMAIL.SLOT.TO using my gmail
+Email	SendEmailToAddress	-	send an email to EMAIL.SLOT.TO
 Email	SendEmailToAddress	-	send an email to EMAIL.SLOT.TO using my gmail
+Email	SendEmailToAddress	-	compose email to EMAIL.SLOT.TO
+Email	SendEmailToAddress	-	compose email to EMAIL.SLOT.TO using my gmail
+Email	SendEmailToAddress	-	compose an email to EMAIL.SLOT.TO
+Email	SendEmailToAddress	-	compose an email to EMAIL.SLOT.TO using my gmail
 Email	SendEmailToAddress	-	email EMAIL.SLOT.TO
+Email	SendEmailToAddress	-	using my gamil email EMAIL.SLOT.TO
+Email	SendEmailToAddress	-	create email and send it to EMAIL.SLOT.TO
+Email	SendEmailToAddress	-	create email and send it to EMAIL.SLOT.TO using my gmail
+Email	SendEmailToAddress	-	create an email and send it to EMAIL.SLOT.TO
+Email	SendEmailToAddress	-	create an email and send it to EMAIL.SLOT.TO using my gmail
+Email	SendEmailToAddress	-	compose email and send it to EMAIL.SLOT.TO
+Email	SendEmailToAddress	-	compose email and send it to EMAIL.SLOT.TO using my gmail
+Email	SendEmailToAddress	-	compose an email and send it to EMAIL.SLOT.TO
+Email	SendEmailToAddress	-	compose an email and send it to EMAIL.SLOT.TO using my gmail
 Email	ReplyToEmailFromAddress	-	reply to EMAIL.SLOT.TO
 Email	ReplyToEmailFromAddress	-	answer EMAIL.SLOT.TO
+Email	ReplyToEmailFromAddress	-	send an answer to EMAIL.SLOT.TO
+Email	ReplyToEmailFromAddress	-	send a reply to EMAIL.SLOT.TO

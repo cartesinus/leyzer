@@ -14,6 +14,7 @@ We use our fork of [JSGFTools](https://github.com/cartesinus/JSGFTools) to expan
 ```bash
 git clone https://github.com/cartesinus/JSGFTools
 cd JSGFTools
+#pip install pyparsing
 python DeterministicGenerator.py ../leyzer/grammars/${lang}/${domain}.gram > ../leyzer/patterns/${lang}/${domain}.tsv
 ```
 
@@ -26,6 +27,8 @@ Different versions of our corpus can be found in `corpora/`. To convert patterns
 where:
 - `${add_bio}` is either `true` or `false`. When set to `true` generated corpus will have BIO tags.
 - `${repeat}` is either `true` or `false`. When set to `true` slot values, taken from `slot/${lang}`, will be repeated once if there is more sentences that values in slot file.
+
+Because some slots (for example EMAIL.MESSAGE) have many values we duplicate some patterns many times (10x or even 50x) before we use `expand-slots.sh`.
 
 ## Experiments
 

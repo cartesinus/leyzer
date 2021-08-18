@@ -19,6 +19,9 @@ Speaker	IncreaseVolume	-	increase the volume of the speaker
 Speaker	IncreaseVolume	-	increase my speaker 's volume
 Speaker	IncreaseVolume	-	make the speaker louder
 Speaker	IncreaseVolume	-	make my speaker louder
+Speaker	IncreaseVolume	-	make it louder
+Speaker	IncreaseVolume	-	please make it louder
+Speaker	IncreaseVolume	-	volume up
 Speaker	IncreaseVolumeByPercent	-	increase the volume of the speaker by SPEAKER.SLOT.PERCENT
 Speaker	IncreaseVolumeByPercent	-	increase the volume of the speaker by SPEAKER.SLOT.PERCENT percent
 Speaker	IncreaseVolumeByPercent	-	increase my speaker 's volume by SPEAKER.SLOT.PERCENT
@@ -27,6 +30,12 @@ Speaker	IncreaseVolumeByPercent	-	make the speaker louder by SPEAKER.SLOT.PERCEN
 Speaker	IncreaseVolumeByPercent	-	make the speaker louder by SPEAKER.SLOT.PERCENT percent
 Speaker	IncreaseVolumeByPercent	-	make my speaker louder by SPEAKER.SLOT.PERCENT
 Speaker	IncreaseVolumeByPercent	-	make my speaker louder by SPEAKER.SLOT.PERCENT percent
+Speaker	IncreaseVolumeByPercent	-	make it louder by SPEAKER.SLOT.PERCENT
+Speaker	IncreaseVolumeByPercent	-	make it louder by SPEAKER.SLOT.PERCENT percent
+Speaker	IncreaseVolumeByPercent	-	please make it louder by SPEAKER.SLOT.PERCENT
+Speaker	IncreaseVolumeByPercent	-	please make it louder by SPEAKER.SLOT.PERCENT percent
+Speaker	IncreaseVolumeByPercent	-	volume up by SPEAKER.SLOT.PERCENT
+Speaker	IncreaseVolumeByPercent	-	volume up by SPEAKER.SLOT.PERCENT percent
 Speaker	DecreaseVolume	-	reduce volume of speaker
 Speaker	DecreaseVolume	-	reduce volume of my speaker
 Speaker	DecreaseVolume	-	reduce the volume of speaker
@@ -39,6 +48,9 @@ Speaker	DecreaseVolume	-	decrease the volume of speaker
 Speaker	DecreaseVolume	-	decrease the volume of my speaker
 Speaker	DecreaseVolume	-	decrease speaker 's volume
 Speaker	DecreaseVolume	-	decrease my speaker 's volume
+Speaker	DecreaseVolume	-	volume down
+Speaker	DecreaseVolume	-	turn down volume
+Speaker	DecreaseVolume	-	turn down the volume
 Speaker	DecreaseVolumeByPercent	-	reduce volume of speaker by SPEAKER.SLOT.PERCENT
 Speaker	DecreaseVolumeByPercent	-	reduce volume of speaker by SPEAKER.SLOT.PERCENT percent
 Speaker	DecreaseVolumeByPercent	-	reduce volume of my speaker by SPEAKER.SLOT.PERCENT
@@ -63,12 +75,49 @@ Speaker	DecreaseVolumeByPercent	-	decrease speaker 's volume by SPEAKER.SLOT.PER
 Speaker	DecreaseVolumeByPercent	-	decrease speaker 's volume by SPEAKER.SLOT.PERCENT percent
 Speaker	DecreaseVolumeByPercent	-	decrease my speaker 's volume by SPEAKER.SLOT.PERCENT
 Speaker	DecreaseVolumeByPercent	-	decrease my speaker 's volume by SPEAKER.SLOT.PERCENT percent
+Speaker	DecreaseVolumeByPercent	-	volume down by SPEAKER.SLOT.PERCENT
+Speaker	DecreaseVolumeByPercent	-	volume down by SPEAKER.SLOT.PERCENT percent
+Speaker	DecreaseVolumeByPercent	-	turn down volume by SPEAKER.SLOT.PERCENT
+Speaker	DecreaseVolumeByPercent	-	turn down volume by SPEAKER.SLOT.PERCENT percent
+Speaker	DecreaseVolumeByPercent	-	turn down the volume by SPEAKER.SLOT.PERCENT
+Speaker	DecreaseVolumeByPercent	-	turn down the volume by SPEAKER.SLOT.PERCENT percent
 Speaker	MuteOn	-	silence speaker
 Speaker	MuteOn	-	silence my speaker
 Speaker	MuteOn	-	silence the speaker
 Speaker	MuteOn	-	mute speaker
 Speaker	MuteOn	-	mute my speaker
 Speaker	MuteOn	-	mute the speaker
+Speaker	MuteOn	-	turn off speaker sound
+Speaker	MuteOn	-	turn off speaker volume
+Speaker	MuteOn	-	turn off speaker 's sound
+Speaker	MuteOn	-	turn off speaker 's volume
+Speaker	MuteOn	-	turn off my speaker sound
+Speaker	MuteOn	-	turn off my speaker volume
+Speaker	MuteOn	-	turn off my speaker 's sound
+Speaker	MuteOn	-	turn off my speaker 's volume
+Speaker	MuteOn	-	turn off the speaker sound
+Speaker	MuteOn	-	turn off the speaker volume
+Speaker	MuteOn	-	turn off the speaker 's sound
+Speaker	MuteOn	-	turn off the speaker 's volume
 Speaker	MuteOff	-	unmute speaker
+Speaker	MuteOff	-	unmute speaker volume
 Speaker	MuteOff	-	unmute my speaker
+Speaker	MuteOff	-	unmute my speaker volume
 Speaker	MuteOff	-	unmute the speaker
+Speaker	MuteOff	-	unmute the speaker volume
+Speaker	MuteOff	-	bring sound back
+Speaker	MuteOff	-	stop muting speaker
+Speaker	MuteOff	-	stop muting my speaker
+Speaker	MuteOff	-	stop muting the speaker
+Speaker	MuteOff	-	turn on speaker sound
+Speaker	MuteOff	-	turn on speaker volume
+Speaker	MuteOff	-	turn on speaker 's sound
+Speaker	MuteOff	-	turn on speaker 's volume
+Speaker	MuteOff	-	turn on my speaker sound
+Speaker	MuteOff	-	turn on my speaker volume
+Speaker	MuteOff	-	turn on my speaker 's sound
+Speaker	MuteOff	-	turn on my speaker 's volume
+Speaker	MuteOff	-	turn on the speaker sound
+Speaker	MuteOff	-	turn on the speaker volume
+Speaker	MuteOff	-	turn on the speaker 's sound
+Speaker	MuteOff	-	turn on the speaker 's volume

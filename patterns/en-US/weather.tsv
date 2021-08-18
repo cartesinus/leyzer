@@ -5,10 +5,43 @@ Weather	OpenWeather	-	what's the weather
 Weather	OpenWeather	-	what's the weather outside
 Weather	OpenWeather	-	what's the weather like
 Weather	OpenWeather	-	what's the weather like outside
+Weather	OpenWeather	-	what's the temperature
+Weather	OpenWeather	-	what's the temperature outside
+Weather	OpenWeather	-	what's the temperature like
+Weather	OpenWeather	-	what's the temperature like outside
+Weather	OpenWeather	-	do i need raincoat
+Weather	OpenWeather	-	how hot is outside
+Weather	OpenWeather	-	is it going to rain
+Weather	OpenWeather	-	is it going to rain today
+Weather	OpenWeather	-	will there be a sun
+Weather	OpenWeather	-	will there be a sun today
+Weather	OpenWeather	-	what 's the humidity
+Weather	OpenWeather	-	is it hot outside
+Weather	OpenWeather	-	is it windy today
+Weather	OpenWeather	-	will it rain today
+Weather	OpenWeather	-	will it rain later
 Weather	WeatherTomorrow	-	weather tomorrow
+Weather	WeatherTomorrow	-	weather for tomorrow
+Weather	WeatherTomorrow	-	temperature tomorrow
+Weather	WeatherTomorrow	-	temperature for tomorrow
+Weather	WeatherTomorrow	-	check weather tomorrow
+Weather	WeatherTomorrow	-	check weather for tomorrow
+Weather	WeatherTomorrow	-	check temperature tomorrow
+Weather	WeatherTomorrow	-	check temperature for tomorrow
 Weather	WeatherTomorrow	-	what's the weather tommorow
 Weather	WeatherTomorrow	-	what's the weather tommorow like
-Weather	WeatherTomorrow	-	tomorrow weather
+Weather	WeatherTomorrow	-	what's the temperature tommorow
+Weather	WeatherTomorrow	-	what's the temperature tommorow like
+Weather	WeatherTomorrow	-	tomorrow's weather
+Weather	WeatherTomorrow	-	tomorrow's temperature
+Weather	WeatherTomorrow	-	check tomorrow's weather
+Weather	WeatherTomorrow	-	check tomorrow's temperature
+Weather	WeatherTomorrow	-	what will the weather be like tomorrow
+Weather	WeatherTomorrow	-	is it going to rain tomorrow
+Weather	WeatherTomorrow	-	will there be a rain tomorrow
+Weather	WeatherTomorrow	-	will there be a sun tomorrow
+Weather	WeatherTomorrow	-	will i need raincoat tomorrow
+Weather	WeatherTomorrow	-	what should i wear tomorrow
 Weather	WeatherInLocation	-	weather in WEATHER.SLOT.LOCATION
 Weather	WeatherInLocation	-	current weather in WEATHER.SLOT.LOCATION
 Weather	WeatherInLocation	-	weather in WEATHER.SLOT.LOCATION today
@@ -31,15 +64,35 @@ Weather	SunriseInLocation	-	sunrise in WEATHER.SLOT.LOCATION
 Weather	SunriseInLocation	-	sunrise time in WEATHER.SLOT.LOCATION
 Weather	SunriseInLocation	-	when is sunrise in WEATHER.SLOT.LOCATION
 Weather	SunriseInLocation	-	when is sunrise time in WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	what time is sunrise in WEATHER.SLOT.LOCATION
+Weather	SunriseInLocation	-	WEATHER.SLOT.LOCATION sunrise
 Weather	SunsetInLocation	-	sunset in WEATHER.SLOT.LOCATION
 Weather	SunsetInLocation	-	sunset time in WEATHER.SLOT.LOCATION
 Weather	SunsetInLocation	-	when is sunset in WEATHER.SLOT.LOCATION
 Weather	SunsetInLocation	-	when is sunset time in WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	what time is sunset in WEATHER.SLOT.LOCATION
+Weather	SunsetInLocation	-	WEATHER.SLOT.LOCATION sunset
 Weather	SunriseAndSunsetInLocation	-	sunrise and sunset for location WEATHER.SLOT.LOCATION
 Weather	SunriseAndSunsetInLocation	-	sunrise and sunset times in WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	sunset and sunrise for location WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	sunset and sunrise times in WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	when there will be sunrise and sunset in WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	when there will be sunset and sunrise in WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	tell me when there will be sunrise and sunset in WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	tell me when there will be sunset and sunrise in WEATHER.SLOT.LOCATION
+Weather	SunriseAndSunsetInLocation	-	what time is the sunset and sunrise in WEATHER.SLOT.LOCATION
 Weather	SunriseAndSunsetInLocationAndOnDate	-	sunrise and sunset for location WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
 Weather	SunriseAndSunsetInLocationAndOnDate	-	sunrise and sunset times in WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	time of sunrise and sunset in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	time of sunset and sunrise in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	tell me time of sunrise and sunset in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	tell me time of sunset and sunrise in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
+Weather	SunriseAndSunsetInLocationAndOnDate	-	what time is the sunset and sunrise in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
 Weather	MoonphaseInLocation	-	moon phase for WEATHER.SLOT.LOCATION
 Weather	MoonphaseInLocation	-	moon phase for location WEATHER.SLOT.LOCATION
+Weather	MoonphaseInLocation	-	moon phase in WEATHER.SLOT.LOCATION
+Weather	MoonphaseInLocation	-	WEATHER.SLOT.LOCATION moon phase
 Weather	MoonphaseInLocationOnDate	-	moon phase for WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
 Weather	MoonphaseInLocationOnDate	-	moon phase for location WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
+Weather	MoonphaseInLocationOnDate	-	moon phase in WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
+Weather	MoonphaseInLocationOnDate	-	WEATHER.SLOT.LOCATION moon phase on WEATHER.SLOT.DATE

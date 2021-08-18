@@ -1,4 +1,8 @@
 domain	intent	parallel	pattern
+Twitter	OpenTwitter	-	open twitter
+Twitter	OpenTwitter	-	open my twitter
+Twitter	OpenTwitter	-	show twitter
+Twitter	OpenTwitter	-	show my twitter
 Twitter	OpenTwitter	-	show my tweets
 Twitter	OpenTwitter	-	show my recent tweets
 Twitter	OpenTwitter	-	show my posts on twitter
@@ -15,12 +19,18 @@ Twitter	OpenTwitter	-	search for my tweets
 Twitter	OpenTwitter	-	search for my recent tweets
 Twitter	OpenTwitter	-	search for my posts on twitter
 Twitter	OpenTwitter	-	search for tweets i made
+Twitter	FollowUser	-	subscribe TWITTER.SLOT.USERNAME on twitter
+Twitter	FollowUser	-	subscribe to TWITTER.SLOT.USERNAME on twitter
 Twitter	FollowUser	-	follow TWITTER.SLOT.USERNAME on twitter
 Twitter	FollowUser	-	become a follower of TWITTER.SLOT.USERNAME on twitter
 Twitter	FollowUser	-	become a twitter follower of TWITTER.SLOT.USERNAME
 Twitter	FollowUser	-	be a twitter follower of TWITTER.SLOT.USERNAME
+Twitter	FollowUser	-	i want to be up to date with TWITTER.SLOT.USERNAME twitter
+Twitter	FollowUser	-	notify me about changes on TWITTER.SLOT.USERNAME twitter
+Twitter	FollowUser	-	notify me about recent changes on TWITTER.SLOT.USERNAME twitter
 Twitter	UnfollowUser	-	unfollow TWITTER.SLOT.USERNAME on twitter
 Twitter	UnfollowUser	-	stop following TWITTER.SLOT.USERNAME on twitter
+Twitter	UnfollowUser	-	i don't want to see TWITTER.SLOT.USERNAME on twitter
 Twitter	SendMessage	-	message on twitter saying TWITTER.SLOT.MESSAGE
 Twitter	SendMessage	-	dm on twitter saying TWITTER.SLOT.MESSAGE
 Twitter	SendMessage	-	direct message on twitter saying TWITTER.SLOT.MESSAGE
@@ -33,6 +43,7 @@ Twitter	SendMessageToUser	-	direct message on twitter to TWITTER.SLOT.USERNAME s
 Twitter	SendMessageToUser	-	send a message on twitter to TWITTER.SLOT.USERNAME saying TWITTER.SLOT.MESSAGE
 Twitter	SendMessageToUser	-	send a dm on twitter to TWITTER.SLOT.USERNAME saying TWITTER.SLOT.MESSAGE
 Twitter	SendMessageToUser	-	send a direct message on twitter to TWITTER.SLOT.USERNAME saying TWITTER.SLOT.MESSAGE
+Twitter	SendMessageToUser	-	twitt to TWITTER.SLOT.USERNAME
 Twitter	ShowTwittsWithHashtag	-	tweets with hashtag TWITTER.SLOT.HASHTAG
 Twitter	ShowTwittsWithHashtag	-	tweets with hashtag TWITTER.SLOT.HASHTAG on twitter
 Twitter	ShowTwittsWithHashtag	-	tweets about TWITTER.SLOT.HASHTAG

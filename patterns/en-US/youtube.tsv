@@ -1,36 +1,60 @@
 domain	intent	parallel	pattern
 Youtube	OpenYT	-	open yt
 Youtube	OpenYT	-	open youtube
+Youtube	OpenYT	-	launch yt
+Youtube	OpenYT	-	launch youtube
+Youtube	OpenYT	-	go to yt
+Youtube	OpenYT	-	go to youtube
+Youtube	FindQuery	-	play YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQuery	-	play YOUTUBE.SLOT.QUERY video on youtube
 Youtube	FindQuery	-	play a video matching YOUTUBE.SLOT.QUERY on youtube
+Youtube	FindQuery	-	play a video with YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQuery	-	play YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQuery	-	play YOUTUBE.SLOT.QUERY video on youtube
 Youtube	FindQuery	-	play YOUTUBE.SLOT.QUERY videos on youtube
 Youtube	FindQuery	-	play youtube video YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	play youtube video with YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	find YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQuery	-	find YOUTUBE.SLOT.QUERY video on youtube
 Youtube	FindQuery	-	find a video matching YOUTUBE.SLOT.QUERY on youtube
+Youtube	FindQuery	-	find a video with YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQuery	-	find YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQuery	-	find YOUTUBE.SLOT.QUERY video on youtube
 Youtube	FindQuery	-	find YOUTUBE.SLOT.QUERY videos on youtube
 Youtube	FindQuery	-	find youtube video YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	find youtube video with YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	search for YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQuery	-	search for YOUTUBE.SLOT.QUERY video on youtube
 Youtube	FindQuery	-	search for a video matching YOUTUBE.SLOT.QUERY on youtube
+Youtube	FindQuery	-	search for a video with YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQuery	-	search for YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQuery	-	search for YOUTUBE.SLOT.QUERY video on youtube
 Youtube	FindQuery	-	search for YOUTUBE.SLOT.QUERY videos on youtube
 Youtube	FindQuery	-	search for youtube video YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	search for youtube video with YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	look for YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQuery	-	look for YOUTUBE.SLOT.QUERY video on youtube
 Youtube	FindQuery	-	look for a video matching YOUTUBE.SLOT.QUERY on youtube
+Youtube	FindQuery	-	look for a video with YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQuery	-	look for YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQuery	-	look for YOUTUBE.SLOT.QUERY video on youtube
 Youtube	FindQuery	-	look for YOUTUBE.SLOT.QUERY videos on youtube
 Youtube	FindQuery	-	look for youtube video YOUTUBE.SLOT.QUERY
+Youtube	FindQuery	-	look for youtube video with YOUTUBE.SLOT.QUERY
 Youtube	ShowChannelWithName	-	show youtube channel YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	show youtube videos in YOUTUBE.SLOT.CHANNEL_ID
 Youtube	ShowChannelWithName	-	show youtube videos on YOUTUBE.SLOT.CHANNEL_ID
 Youtube	ShowChannelWithName	-	show channel YOUTUBE.SLOT.CHANNEL_ID on youtube
 Youtube	ShowChannelWithName	-	play youtube channel YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	play youtube videos in YOUTUBE.SLOT.CHANNEL_ID
 Youtube	ShowChannelWithName	-	play youtube videos on YOUTUBE.SLOT.CHANNEL_ID
 Youtube	ShowChannelWithName	-	play channel YOUTUBE.SLOT.CHANNEL_ID on youtube
+Youtube	ShowChannelWithName	-	go to youtube channel YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	go to youtube videos in YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	go to youtube videos on YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	go to channel YOUTUBE.SLOT.CHANNEL_ID on youtube
+Youtube	ShowChannelWithName	-	youtube videos in YOUTUBE.SLOT.CHANNEL_ID
+Youtube	ShowChannelWithName	-	youtube channel YOUTUBE.SLOT.CHANNEL_ID
 Youtube	ShowChannelWithCategory	-	show channels in category YOUTUBE.SLOT.CATEGORY on youtube
 Youtube	ShowChannelWithCategory	-	show youtube channels with category YOUTUBE.SLOT.CATEGORY
 Youtube	ShowChannelWithCategory	-	show YOUTUBE.SLOT.CATEGORY youtube channels
@@ -46,12 +70,18 @@ Youtube	ShowChannelWithCategory	-	display youtube channels with category YOUTUBE
 Youtube	ShowChannelWithCategory	-	display YOUTUBE.SLOT.CATEGORY youtube channels
 Youtube	ShowChannelWithCategory	-	display YOUTUBE.SLOT.CATEGORY channels on youtube
 Youtube	ShowChannelWithCategory	-	display youtube 's YOUTUBE.SLOT.CATEGORY channels
-Youtube	ShowSubscribedChannels	-	show channels I am subscribed to on youtube
-Youtube	ShowSubscribedChannels	-	show me channels I am subscribed to on youtube
-Youtube	ShowFollowing	-	show channels I follow on youtube
-Youtube	ShowFollowing	-	show youtube channels i follow
-Youtube	ShowFollowing	-	show me channels I follow on youtube
-Youtube	ShowFollowing	-	show me youtube channels i follow
+Youtube	ShowSubscribedChannels	-	show channels i am subscribed to on youtube
+Youtube	ShowSubscribedChannels	-	show channels i subscribe on youtube
+Youtube	ShowSubscribedChannels	-	show channels i am following on youtube
+Youtube	ShowSubscribedChannels	-	show channels i follow on youtube
+Youtube	ShowSubscribedChannels	-	show me channels i am subscribed to on youtube
+Youtube	ShowSubscribedChannels	-	show me channels i subscribe on youtube
+Youtube	ShowSubscribedChannels	-	show me channels i am following on youtube
+Youtube	ShowSubscribedChannels	-	show me channels i follow on youtube
+Youtube	ShowSubscribedChannels	-	go to channels i am subscribed to on youtube
+Youtube	ShowSubscribedChannels	-	go to channels i subscribe on youtube
+Youtube	ShowSubscribedChannels	-	go to channels i am following on youtube
+Youtube	ShowSubscribedChannels	-	go to channels i follow on youtube
 Youtube	FindChannelWithQuery	-	find YOUTUBE.SLOT.QUERY channels on youtube
 Youtube	FindChannelWithQuery	-	find channels matching YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindChannelWithQuery	-	find youtube channel YOUTUBE.SLOT.QUERY
@@ -69,9 +99,27 @@ Youtube	FindQueryOnChannel	-	show me a video from YOUTUBE.SLOT.CHANNEL_ID matchi
 Youtube	FindQueryOnChannel	-	show me a video published by YOUTUBE.SLOT.CHANNEL_ID matching YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQueryOnChannel	-	show me videos from YOUTUBE.SLOT.CHANNEL_ID matching YOUTUBE.SLOT.QUERY on youtube
 Youtube	FindQueryOnChannel	-	show me videos published by YOUTUBE.SLOT.CHANNEL_ID matching YOUTUBE.SLOT.QUERY on youtube
-Youtube	NotifyOnNewFromFollowing	-	notify me when there is a new video from youtube channels I follow
+Youtube	NotifyOnNewFromFollowing	-	notify me when there is new video from youtube channels i follow
+Youtube	NotifyOnNewFromFollowing	-	notify me when there is new video on channel i follow
+Youtube	NotifyOnNewFromFollowing	-	notify me when there is a new video from youtube channels i follow
+Youtube	NotifyOnNewFromFollowing	-	notify me when there is a new video on channel i follow
+Youtube	NotifyOnNewFromFollowing	-	notify me if there is new video from youtube channels i follow
+Youtube	NotifyOnNewFromFollowing	-	notify me if there is new video on channel i follow
+Youtube	NotifyOnNewFromFollowing	-	notify me if there is a new video from youtube channels i follow
+Youtube	NotifyOnNewFromFollowing	-	notify me if there is a new video on channel i follow
+Youtube	NotifyonNewOnChannel	-	notify me when there is new video from youtube channel YOUTUBE.SLOT.CHANNEL_ID
 Youtube	NotifyonNewOnChannel	-	notify me when there is a new video from youtube channel YOUTUBE.SLOT.CHANNEL_ID
 Youtube	NotifyonNewOnChannel	-	notify me when YOUTUBE.SLOT.CHANNEL_ID uploads a video on youtube
 Youtube	NotifyonNewOnChannel	-	notify me when YOUTUBE.SLOT.CHANNEL_ID posts a new youtube video
 Youtube	NotifyonNewOnChannel	-	notify me when YOUTUBE.SLOT.CHANNEL_ID channel uploads a video on youtube
 Youtube	NotifyonNewOnChannel	-	notify me when YOUTUBE.SLOT.CHANNEL_ID channel posts a new youtube video
+Youtube	NotifyonNewOnChannel	-	notify me if there is new video from youtube channel YOUTUBE.SLOT.CHANNEL_ID
+Youtube	NotifyonNewOnChannel	-	notify me if there is a new video from youtube channel YOUTUBE.SLOT.CHANNEL_ID
+Youtube	NotifyonNewOnChannel	-	notify me if YOUTUBE.SLOT.CHANNEL_ID uploads a video on youtube
+Youtube	NotifyonNewOnChannel	-	notify me if YOUTUBE.SLOT.CHANNEL_ID posts a new youtube video
+Youtube	NotifyonNewOnChannel	-	notify me if YOUTUBE.SLOT.CHANNEL_ID channel uploads a video on youtube
+Youtube	NotifyonNewOnChannel	-	notify me if YOUTUBE.SLOT.CHANNEL_ID channel posts a new youtube video
+NextVideo	play next video
+NextVideo	go to next video
+NextVideo	skip this video
+NextVideo	skip that video

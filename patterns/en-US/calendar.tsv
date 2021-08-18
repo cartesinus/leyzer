@@ -1,10 +1,40 @@
 domain	intent	parallel	pattern
+Calendar	OpenCalendar	-	show calendar
+Calendar	OpenCalendar	-	show calendar application
+Calendar	OpenCalendar	-	show calendar app
 Calendar	OpenCalendar	-	show my calendar
+Calendar	OpenCalendar	-	show my calendar application
+Calendar	OpenCalendar	-	show my calendar app
+Calendar	OpenCalendar	-	display calendar
+Calendar	OpenCalendar	-	display calendar application
+Calendar	OpenCalendar	-	display calendar app
 Calendar	OpenCalendar	-	display my calendar
+Calendar	OpenCalendar	-	display my calendar application
+Calendar	OpenCalendar	-	display my calendar app
+Calendar	OpenCalendar	-	open calendar
+Calendar	OpenCalendar	-	open calendar application
+Calendar	OpenCalendar	-	open calendar app
 Calendar	OpenCalendar	-	open my calendar
+Calendar	OpenCalendar	-	open my calendar application
+Calendar	OpenCalendar	-	open my calendar app
+Calendar	OpenCalendar	-	launch calendar
+Calendar	OpenCalendar	-	launch calendar application
+Calendar	OpenCalendar	-	launch calendar app
+Calendar	OpenCalendar	-	launch my calendar
+Calendar	OpenCalendar	-	launch my calendar application
+Calendar	OpenCalendar	-	launch my calendar app
 Calendar	CheckCalendarOnDate	-	whats on my schedule CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	whats on my schedule on CALENDAR.SLOT.DATE
 Calendar	CheckCalendarOnDate	-	whats in my agenda CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	whats in my agenda on CALENDAR.SLOT.DATE
 Calendar	CheckCalendarOnDate	-	whats happening CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	whats happening on CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	check whats on my schedule CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	check whats on my schedule on CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	check whats in my agenda CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	check whats in my agenda on CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	check whats happening CALENDAR.SLOT.DATE
+Calendar	CheckCalendarOnDate	-	check whats happening on CALENDAR.SLOT.DATE
 Calendar	AddEventWithName	-	add an event CALENDAR.SLOT.EVENT_NAME
 Calendar	AddEventWithName	-	add an event CALENDAR.SLOT.EVENT_NAME to my calendar
 Calendar	AddEventWithName	-	add an event CALENDAR.SLOT.EVENT_NAME to the calendar
@@ -47,10 +77,10 @@ Calendar	AddEventOnDateWithDate	-	create an event in my calendar CALENDAR.SLOT.D
 Calendar	AddEventOnDateWithDate	-	create an event in the calendar CALENDAR.SLOT.DATE and call it CALENDAR.SLOT.EVENT_NAME
 Calendar	AddEventOnDateWithDate	-	create an event in the calendar CALENDAR.SLOT.DATE and name it CALENDAR.SLOT.EVENT_NAME
 Calendar	AddEventOnDateWithDate	-	create an event in the calendar CALENDAR.SLOT.DATE and give it a title CALENDAR.SLOT.EVENT_NAME
-Calendar	NotifyOnEventStart	-	notify me when an meeting in my calendar begins
-Calendar	NotifyOnEventStart	-	notify me when an meeting in the calendar begins
-Calendar	NotifyOnEventStart	-	notify me when an meeting from my calendar begins
-Calendar	NotifyOnEventStart	-	notify me when an meeting from the calendar begins
+Calendar	NotifyOnEventStart	-	notify me when a meeting in my calendar begins
+Calendar	NotifyOnEventStart	-	notify me when a meeting in the calendar begins
+Calendar	NotifyOnEventStart	-	notify me when a meeting from my calendar begins
+Calendar	NotifyOnEventStart	-	notify me when a meeting from the calendar begins
 Calendar	NotifyOnEventStart	-	notify me when an appointment in my calendar begins
 Calendar	NotifyOnEventStart	-	notify me when an appointment in the calendar begins
 Calendar	NotifyOnEventStart	-	notify me when an appointment from my calendar begins
@@ -59,10 +89,10 @@ Calendar	NotifyOnEventStart	-	notify me when an event in my calendar begins
 Calendar	NotifyOnEventStart	-	notify me when an event in the calendar begins
 Calendar	NotifyOnEventStart	-	notify me when an event from my calendar begins
 Calendar	NotifyOnEventStart	-	notify me when an event from the calendar begins
-Calendar	NotNotifyOnEventStart	-	do not notify me when an meeting in my calendar begins
-Calendar	NotNotifyOnEventStart	-	do not notify me when an meeting in the calendar begins
-Calendar	NotNotifyOnEventStart	-	do not notify me when an meeting from my calendar begins
-Calendar	NotNotifyOnEventStart	-	do not notify me when an meeting from the calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when a meeting in my calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when a meeting in the calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when a meeting from my calendar begins
+Calendar	NotNotifyOnEventStart	-	do not notify me when a meeting from the calendar begins
 Calendar	NotNotifyOnEventStart	-	do not notify me when an appointment in my calendar begins
 Calendar	NotNotifyOnEventStart	-	do not notify me when an appointment in the calendar begins
 Calendar	NotNotifyOnEventStart	-	do not notify me when an appointment from my calendar begins
@@ -71,10 +101,10 @@ Calendar	NotNotifyOnEventStart	-	do not notify me when an event in my calendar b
 Calendar	NotNotifyOnEventStart	-	do not notify me when an event in the calendar begins
 Calendar	NotNotifyOnEventStart	-	do not notify me when an event from my calendar begins
 Calendar	NotNotifyOnEventStart	-	do not notify me when an event from the calendar begins
-Calendar	NotifyOnEventInLocation	-	notify me when an meeting in my calendar in CALENDAR.SLOT.LOCATION begins
-Calendar	NotifyOnEventInLocation	-	notify me when an meeting in my calendar in location CALENDAR.SLOT.LOCATION begins
-Calendar	NotifyOnEventInLocation	-	notify me when an meeting in the calendar in CALENDAR.SLOT.LOCATION begins
-Calendar	NotifyOnEventInLocation	-	notify me when an meeting in the calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when a meeting in my calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when a meeting in my calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when a meeting in the calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotifyOnEventInLocation	-	notify me when a meeting in the calendar in location CALENDAR.SLOT.LOCATION begins
 Calendar	NotifyOnEventInLocation	-	notify me when an appointment in my calendar in CALENDAR.SLOT.LOCATION begins
 Calendar	NotifyOnEventInLocation	-	notify me when an appointment in my calendar in location CALENDAR.SLOT.LOCATION begins
 Calendar	NotifyOnEventInLocation	-	notify me when an appointment in the calendar in CALENDAR.SLOT.LOCATION begins
@@ -83,10 +113,10 @@ Calendar	NotifyOnEventInLocation	-	notify me when an event in my calendar in CAL
 Calendar	NotifyOnEventInLocation	-	notify me when an event in my calendar in location CALENDAR.SLOT.LOCATION begins
 Calendar	NotifyOnEventInLocation	-	notify me when an event in the calendar in CALENDAR.SLOT.LOCATION begins
 Calendar	NotifyOnEventInLocation	-	notify me when an event in the calendar in location CALENDAR.SLOT.LOCATION begins
-Calendar	NotNotifyOnEventInLocation	-	do not notify me when an meeting in my calendar in CALENDAR.SLOT.LOCATION begins
-Calendar	NotNotifyOnEventInLocation	-	do not notify me when an meeting in my calendar in location CALENDAR.SLOT.LOCATION begins
-Calendar	NotNotifyOnEventInLocation	-	do not notify me when an meeting in the calendar in CALENDAR.SLOT.LOCATION begins
-Calendar	NotNotifyOnEventInLocation	-	do not notify me when an meeting in the calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when a meeting in my calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when a meeting in my calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when a meeting in the calendar in CALENDAR.SLOT.LOCATION begins
+Calendar	NotNotifyOnEventInLocation	-	do not notify me when a meeting in the calendar in location CALENDAR.SLOT.LOCATION begins
 Calendar	NotNotifyOnEventInLocation	-	do not notify me when an appointment in my calendar in CALENDAR.SLOT.LOCATION begins
 Calendar	NotNotifyOnEventInLocation	-	do not notify me when an appointment in my calendar in location CALENDAR.SLOT.LOCATION begins
 Calendar	NotNotifyOnEventInLocation	-	do not notify me when an appointment in the calendar in CALENDAR.SLOT.LOCATION begins
@@ -95,3 +125,21 @@ Calendar	NotNotifyOnEventInLocation	-	do not notify me when an event in my calen
 Calendar	NotNotifyOnEventInLocation	-	do not notify me when an event in my calendar in location CALENDAR.SLOT.LOCATION begins
 Calendar	NotNotifyOnEventInLocation	-	do not notify me when an event in the calendar in CALENDAR.SLOT.LOCATION begins
 Calendar	NotNotifyOnEventInLocation	-	do not notify me when an event in the calendar in location CALENDAR.SLOT.LOCATION begins
+Calendar	CheckCalendarMeeting	-	tell me the time of an event CALENDAR.SLOT.EVENT_NAME in my calendar
+Calendar	CheckCalendarMeeting	-	tell me the time of an event CALENDAR.SLOT.EVENT_NAME in the calendar
+Calendar	CheckCalendarMeeting	-	tell me the time of a meeting CALENDAR.SLOT.EVENT_NAME in my calendar
+Calendar	CheckCalendarMeeting	-	tell me the time of a meeting CALENDAR.SLOT.EVENT_NAME in the calendar
+Calendar	CheckCalendarMeeting	-	tell me the time of an appointment CALENDAR.SLOT.EVENT_NAME in my calendar
+Calendar	CheckCalendarMeeting	-	tell me the time of an appointment CALENDAR.SLOT.EVENT_NAME in the calendar
+Calendar	CheckCalendarMeeting	-	tell me the date of an event CALENDAR.SLOT.EVENT_NAME in my calendar
+Calendar	CheckCalendarMeeting	-	tell me the date of an event CALENDAR.SLOT.EVENT_NAME in the calendar
+Calendar	CheckCalendarMeeting	-	tell me the date of a meeting CALENDAR.SLOT.EVENT_NAME in my calendar
+Calendar	CheckCalendarMeeting	-	tell me the date of a meeting CALENDAR.SLOT.EVENT_NAME in the calendar
+Calendar	CheckCalendarMeeting	-	tell me the date of an appointment CALENDAR.SLOT.EVENT_NAME in my calendar
+Calendar	CheckCalendarMeeting	-	tell me the date of an appointment CALENDAR.SLOT.EVENT_NAME in the calendar
+Calendar	CheckCalendarMeeting	-	tell me the hour of an event CALENDAR.SLOT.EVENT_NAME in my calendar
+Calendar	CheckCalendarMeeting	-	tell me the hour of an event CALENDAR.SLOT.EVENT_NAME in the calendar
+Calendar	CheckCalendarMeeting	-	tell me the hour of a meeting CALENDAR.SLOT.EVENT_NAME in my calendar
+Calendar	CheckCalendarMeeting	-	tell me the hour of a meeting CALENDAR.SLOT.EVENT_NAME in the calendar
+Calendar	CheckCalendarMeeting	-	tell me the hour of an appointment CALENDAR.SLOT.EVENT_NAME in my calendar
+Calendar	CheckCalendarMeeting	-	tell me the hour of an appointment CALENDAR.SLOT.EVENT_NAME in the calendar

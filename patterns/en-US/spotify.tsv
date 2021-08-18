@@ -2,6 +2,12 @@ domain	intent	parallel	pattern
 Spotify	OpenSpotify	-	open spotify
 Spotify	OpenSpotify	-	open spotify and play some music
 Spotify	OpenSpotify	-	open spotify to play some music
+Spotify	OpenSpotify	-	launch spotify
+Spotify	OpenSpotify	-	launch spotify and play some music
+Spotify	OpenSpotify	-	launch spotify to play some music
+Spotify	OpenSpotify	-	run spotify
+Spotify	OpenSpotify	-	run spotify and play some music
+Spotify	OpenSpotify	-	run spotify to play some music
 Spotify	OpenSpotify	-	use spotify
 Spotify	OpenSpotify	-	use spotify and play some music
 Spotify	OpenSpotify	-	use spotify to play some music
@@ -13,6 +19,8 @@ Spotify	PlaySong	-	play the song SPOTIFY.SLOT.SONG on spotify
 Spotify	PlaySong	-	play a song SPOTIFY.SLOT.SONG
 Spotify	PlaySong	-	play a song SPOTIFY.SLOT.SONG on spotify
 Spotify	PlaySong	-	on spotify play SPOTIFY.SLOT.SONG
+Spotify	PlaySong	-	i want to listen to SPOTIFY.SLOT.SONG
+Spotify	PlaySong	-	i want to listen to SPOTIFY.SLOT.SONG on spotify
 Spotify	PlaySongByArtist	-	play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
 Spotify	PlaySongByArtist	-	play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify
 Spotify	PlaySongByArtist	-	play the song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
@@ -20,6 +28,8 @@ Spotify	PlaySongByArtist	-	play the song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIS
 Spotify	PlaySongByArtist	-	play a song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
 Spotify	PlaySongByArtist	-	play a song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify
 Spotify	PlaySongByArtist	-	on spotify play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
+Spotify	PlaySongByArtist	-	i want to listen to SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
+Spotify	PlaySongByArtist	-	i want to listen to SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify
 Spotify	PlayAlbumOfTypeByArtist	-	play SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
 Spotify	PlayAlbumOfTypeByArtist	-	play SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
 Spotify	PlayAlbumOfTypeByArtist	-	play the SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST

@@ -21,6 +21,17 @@ Websearch	SearchTextOnEngine	-	duckduckgo WEBSEARCH.SLOT.TXT_QUERY
 Websearch	SearchText	-	websites matching WEBSEARCH.SLOT.TXT_QUERY
 Websearch	SearchText	-	web sites matching WEBSEARCH.SLOT.TXT_QUERY
 Websearch	SearchText	-	pages matching WEBSEARCH.SLOT.TXT_QUERY
+Websearch	SearchText	-	find websites matching WEBSEARCH.SLOT.TXT_QUERY
+Websearch	SearchText	-	find web sites matching WEBSEARCH.SLOT.TXT_QUERY
+Websearch	SearchText	-	find pages matching WEBSEARCH.SLOT.TXT_QUERY
+Websearch	SearchText	-	search for WEBSEARCH.SLOT.TXT_QUERY on web
+Websearch	SearchText	-	search for WEBSEARCH.SLOT.TXT_QUERY on the web
+Websearch	SearchText	-	search for WEBSEARCH.SLOT.TXT_QUERY in web
+Websearch	SearchText	-	search for WEBSEARCH.SLOT.TXT_QUERY in the web
+Websearch	SearchText	-	look for WEBSEARCH.SLOT.TXT_QUERY on web
+Websearch	SearchText	-	look for WEBSEARCH.SLOT.TXT_QUERY on the web
+Websearch	SearchText	-	look for WEBSEARCH.SLOT.TXT_QUERY in web
+Websearch	SearchText	-	look for WEBSEARCH.SLOT.TXT_QUERY in the web
 Websearch	SearchImagesWithTextOnEngine	-	images matching WEBSEARCH.SLOT.IMG_QUERY from bing
 Websearch	SearchImagesWithTextOnEngine	-	images matching WEBSEARCH.SLOT.IMG_QUERY from google
 Websearch	SearchImagesWithTextOnEngine	-	images matching WEBSEARCH.SLOT.IMG_QUERY from duckduckgo
@@ -37,12 +48,39 @@ Websearch	SearchImagesOnEngine	-	search images on duckduckgo
 Websearch	SearchImagesOnEngine	-	search images using bing
 Websearch	SearchImagesOnEngine	-	search images using google
 Websearch	SearchImagesOnEngine	-	search images using duckduckgo
+Websearch	SearchImagesOnEngine	-	find images on bing
+Websearch	SearchImagesOnEngine	-	find images on google
+Websearch	SearchImagesOnEngine	-	find images on duckduckgo
+Websearch	SearchImagesOnEngine	-	find images using bing
+Websearch	SearchImagesOnEngine	-	find images using google
+Websearch	SearchImagesOnEngine	-	find images using duckduckgo
 Websearch	SearchImagesOnEngine	-	bing image search
 Websearch	SearchImagesOnEngine	-	google image search
 Websearch	SearchImagesOnEngine	-	duckduckgo image search
 Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	images from bing matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
 Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	images from google matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
 Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	images on bing matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	images on google matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	search for images from bing matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	search for images from google matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	search for images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	search for images on bing matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	search for images on google matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	search for images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	find images from bing matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	find images from google matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	find images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	find images on bing matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	find images on google matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	find images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	find me images from bing matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	find me images from google matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	find me images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	find me images on bing matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	find me images on google matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	find me images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY with size 800 x 600
 Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images from bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
 Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images from bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
 Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images from bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
@@ -67,3 +105,171 @@ Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	i
 Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
 Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
 Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	search for images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images from duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on bing matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on bing matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on bing matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on bing matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on google matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on google matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on google matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on google matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY wider than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY larger than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY taller than 800 x 600
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800
+Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	find me images on duckduckgo matching WEBSEARCH.SLOT.IMG_QUERY smaller than 800 x 600

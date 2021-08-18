@@ -51,8 +51,12 @@ Gdrive	ShowFilesWithSize	-	search for my google drive files smaller than GDRIVE.
 Gdrive	ShowFilesWithSize	-	search for my google drive files larger than GDRIVE.SLOT.FILE_SIZE
 Gdrive	CreateFile	-	create google drive file
 Gdrive	CreateFile	-	create a file in google drive
+Gdrive	CreateFile	-	make google drive file
+Gdrive	CreateFile	-	make a file in google drive
 Gdrive	CreateFileWithName	-	create a new file with name GDRIVE.SLOT.FILE_NAME on google drive
 Gdrive	CreateFileWithName	-	create a file in google drive named GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	make a new file with name GDRIVE.SLOT.FILE_NAME on google drive
+Gdrive	CreateFileWithName	-	make a file in google drive named GDRIVE.SLOT.FILE_NAME
 Gdrive	ShowOldestFiles	-	show my oldest google drive files
 Gdrive	ShowOldestFiles	-	show my least recently created google drive files
 Gdrive	ShowOldestFiles	-	display my oldest google drive files
@@ -78,14 +82,22 @@ Gdrive	SortAlphabetical	-	display my google drive files in alphabetical order
 Gdrive	SortAlphabetical	-	list my google drive files in alphabetical order
 Gdrive	SortAlphabetical	-	find my google drive files in alphabetical order
 Gdrive	SortAlphabetical	-	search for my google drive files in alphabetical order
-Gdrive	SortReverseAlphabetical	-	show my google drive files in alphabetical order
-Gdrive	SortReverseAlphabetical	-	display my google drive files in alphabetical order
-Gdrive	SortReverseAlphabetical	-	list my google drive files in alphabetical order
-Gdrive	SortReverseAlphabetical	-	find my google drive files in alphabetical order
-Gdrive	SortReverseAlphabetical	-	search for my google drive files in alphabetical order
-Gdrive	OpenFileWithName	-	show my google drive files in reverse alphabetical order
-Gdrive	OpenFileWithName	-	display my google drive files in reverse alphabetical order
-Gdrive	OpenFileWithName	-	list my google drive files in reverse alphabetical order
-Gdrive	OpenFileWithName	-	find my google drive files in reverse alphabetical order
-Gdrive	OpenFileWithName	-	search for my google drive files in reverse alphabetical order
-Gdrive	ShareFileWithNameToAddress	-	open my GDRIVE.SLOT.FILE_NAME for edition in google drive
+Gdrive	SortReverseAlphabetical	-	show my google drive files in reverse alphabetical order
+Gdrive	SortReverseAlphabetical	-	display my google drive files in reverse alphabetical order
+Gdrive	SortReverseAlphabetical	-	list my google drive files in reverse alphabetical order
+Gdrive	SortReverseAlphabetical	-	find my google drive files in reverse alphabetical order
+Gdrive	SortReverseAlphabetical	-	search for my google drive files in reverse alphabetical order
+Gdrive	OpenFileWithName	-	open GDRIVE.SLOT.FILE_NAME for edition in google drive
+Gdrive	OpenFileWithName	-	open my GDRIVE.SLOT.FILE_NAME for edition in google drive
+Gdrive	OpenFileWithName	-	edit GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	edit GDRIVE.SLOT.FILE_NAME in google drive
+Gdrive	OpenFileWithName	-	modify GDRIVE.SLOT.FILE_NAME
+Gdrive	OpenFileWithName	-	modify GDRIVE.SLOT.FILE_NAME in google drive
+Gdrive	ShareFileWithNameToAddress	-	share GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL
+Gdrive	ShareFileWithNameToAddress	-	share GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission for edition
+Gdrive	ShareFileWithNameToAddress	-	share GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission for reading
+Gdrive	ShareFileWithNameToAddress	-	share GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission to read and write
+Gdrive	ShareFileWithNameToAddress	-	share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL
+Gdrive	ShareFileWithNameToAddress	-	share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission for edition
+Gdrive	ShareFileWithNameToAddress	-	share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission for reading
+Gdrive	ShareFileWithNameToAddress	-	share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission to read and write
