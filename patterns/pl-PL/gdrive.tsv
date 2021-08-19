@@ -1,177 +1,404 @@
 domain	intent	parallel	pattern
 Gdrive	OpenGdrive	-	pokaż moje pliki z google drive
+Gdrive	OpenGdrive	-	pokaż moje pliki z dysku google
 Gdrive	OpenGdrive	-	pokaż moje pliki na google drive
+Gdrive	OpenGdrive	-	pokaż moje pliki na dysku google
 Gdrive	OpenGdrive	-	pokaż moje pliki w google drive
+Gdrive	OpenGdrive	-	pokaż moje pliki w dysku google
 Gdrive	OpenGdrive	-	wyświetl moje pliki z google drive
+Gdrive	OpenGdrive	-	wyświetl moje pliki z dysku google
 Gdrive	OpenGdrive	-	wyświetl moje pliki na google drive
+Gdrive	OpenGdrive	-	wyświetl moje pliki na dysku google
 Gdrive	OpenGdrive	-	wyświetl moje pliki w google drive
+Gdrive	OpenGdrive	-	wyświetl moje pliki w dysku google
 Gdrive	OpenGdrive	-	wylistuj moje pliki z google drive
+Gdrive	OpenGdrive	-	wylistuj moje pliki z dysku google
 Gdrive	OpenGdrive	-	wylistuj moje pliki na google drive
+Gdrive	OpenGdrive	-	wylistuj moje pliki na dysku google
 Gdrive	OpenGdrive	-	wylistuj moje pliki w google drive
+Gdrive	OpenGdrive	-	wylistuj moje pliki w dysku google
+Gdrive	OpenGdrive	-	otwórz moje pliki z google drive
+Gdrive	OpenGdrive	-	otwórz moje pliki z dysku google
+Gdrive	OpenGdrive	-	otwórz moje pliki na google drive
+Gdrive	OpenGdrive	-	otwórz moje pliki na dysku google
+Gdrive	OpenGdrive	-	otwórz moje pliki w google drive
+Gdrive	OpenGdrive	-	otwórz moje pliki w dysku google
 Gdrive	ShowFilesWithType	-	pokaż moje pliki z google drive o typie GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	pokaż moje pliki z google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	pokaż moje pliki z dysku google o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	pokaż moje pliki z dysku google z typem GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	pokaż moje pliki na google drive o typie GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	pokaż moje pliki na google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	pokaż moje pliki na dysku google o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	pokaż moje pliki na dysku google z typem GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	pokaż moje pliki w google drive o typie GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	pokaż moje pliki w google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	pokaż moje pliki w dysku google o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	pokaż moje pliki w dysku google z typem GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	wyświetl moje pliki z google drive o typie GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	wyświetl moje pliki z google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wyświetl moje pliki z dysku google o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wyświetl moje pliki z dysku google z typem GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	wyświetl moje pliki na google drive o typie GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	wyświetl moje pliki na google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wyświetl moje pliki na dysku google o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wyświetl moje pliki na dysku google z typem GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	wyświetl moje pliki w google drive o typie GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	wyświetl moje pliki w google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wyświetl moje pliki w dysku google o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wyświetl moje pliki w dysku google z typem GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	wylistuj moje pliki z google drive o typie GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	wylistuj moje pliki z google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wylistuj moje pliki z dysku google o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wylistuj moje pliki z dysku google z typem GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	wylistuj moje pliki na google drive o typie GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	wylistuj moje pliki na google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wylistuj moje pliki na dysku google o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wylistuj moje pliki na dysku google z typem GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	wylistuj moje pliki w google drive o typie GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithType	-	wylistuj moje pliki w google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wylistuj moje pliki w dysku google o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	wylistuj moje pliki w dysku google z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	otwórz moje pliki z google drive o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	otwórz moje pliki z google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	otwórz moje pliki z dysku google o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	otwórz moje pliki z dysku google z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	otwórz moje pliki na google drive o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	otwórz moje pliki na google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	otwórz moje pliki na dysku google o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	otwórz moje pliki na dysku google z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	otwórz moje pliki w google drive o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	otwórz moje pliki w google drive z typem GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	otwórz moje pliki w dysku google o typie GDRIVE.SLOT.MIME_TYPE
+Gdrive	ShowFilesWithType	-	otwórz moje pliki w dysku google z typem GDRIVE.SLOT.MIME_TYPE
 Gdrive	ShowFilesWithStar	-	pokaż moje pliki z google drive które oznaczyłem gwiazdką
 Gdrive	ShowFilesWithStar	-	pokaż moje pliki z google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	pokaż moje pliki z dysku google które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	pokaż moje pliki z dysku google oznaczone gwiazdką
 Gdrive	ShowFilesWithStar	-	pokaż moje pliki na google drive które oznaczyłem gwiazdką
 Gdrive	ShowFilesWithStar	-	pokaż moje pliki na google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	pokaż moje pliki na dysku google które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	pokaż moje pliki na dysku google oznaczone gwiazdką
 Gdrive	ShowFilesWithStar	-	pokaż moje pliki w google drive które oznaczyłem gwiazdką
 Gdrive	ShowFilesWithStar	-	pokaż moje pliki w google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	pokaż moje pliki w dysku google które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	pokaż moje pliki w dysku google oznaczone gwiazdką
 Gdrive	ShowFilesWithStar	-	wyświetl moje pliki z google drive które oznaczyłem gwiazdką
 Gdrive	ShowFilesWithStar	-	wyświetl moje pliki z google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	wyświetl moje pliki z dysku google które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	wyświetl moje pliki z dysku google oznaczone gwiazdką
 Gdrive	ShowFilesWithStar	-	wyświetl moje pliki na google drive które oznaczyłem gwiazdką
 Gdrive	ShowFilesWithStar	-	wyświetl moje pliki na google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	wyświetl moje pliki na dysku google które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	wyświetl moje pliki na dysku google oznaczone gwiazdką
 Gdrive	ShowFilesWithStar	-	wyświetl moje pliki w google drive które oznaczyłem gwiazdką
 Gdrive	ShowFilesWithStar	-	wyświetl moje pliki w google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	wyświetl moje pliki w dysku google które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	wyświetl moje pliki w dysku google oznaczone gwiazdką
 Gdrive	ShowFilesWithStar	-	wylistuj moje pliki z google drive które oznaczyłem gwiazdką
 Gdrive	ShowFilesWithStar	-	wylistuj moje pliki z google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	wylistuj moje pliki z dysku google które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	wylistuj moje pliki z dysku google oznaczone gwiazdką
 Gdrive	ShowFilesWithStar	-	wylistuj moje pliki na google drive które oznaczyłem gwiazdką
 Gdrive	ShowFilesWithStar	-	wylistuj moje pliki na google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	wylistuj moje pliki na dysku google które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	wylistuj moje pliki na dysku google oznaczone gwiazdką
 Gdrive	ShowFilesWithStar	-	wylistuj moje pliki w google drive które oznaczyłem gwiazdką
 Gdrive	ShowFilesWithStar	-	wylistuj moje pliki w google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	wylistuj moje pliki w dysku google które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	wylistuj moje pliki w dysku google oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	otwórz moje pliki z google drive które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	otwórz moje pliki z google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	otwórz moje pliki z dysku google które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	otwórz moje pliki z dysku google oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	otwórz moje pliki na google drive które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	otwórz moje pliki na google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	otwórz moje pliki na dysku google które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	otwórz moje pliki na dysku google oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	otwórz moje pliki w google drive które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	otwórz moje pliki w google drive oznaczone gwiazdką
+Gdrive	ShowFilesWithStar	-	otwórz moje pliki w dysku google które oznaczyłem gwiazdką
+Gdrive	ShowFilesWithStar	-	otwórz moje pliki w dysku google oznaczone gwiazdką
 Gdrive	ShowFilesFromTime	-	pokaż moje pliki z google drive stworzone GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	pokaż moje pliki z google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	pokaż moje pliki z dysku google stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	pokaż moje pliki z dysku google zmodyfikowane GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	pokaż moje pliki na google drive stworzone GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	pokaż moje pliki na google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	pokaż moje pliki na dysku google stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	pokaż moje pliki na dysku google zmodyfikowane GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	pokaż moje pliki w google drive stworzone GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	pokaż moje pliki w google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	pokaż moje pliki w dysku google stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	pokaż moje pliki w dysku google zmodyfikowane GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	wyświetl moje pliki z google drive stworzone GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	wyświetl moje pliki z google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wyświetl moje pliki z dysku google stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wyświetl moje pliki z dysku google zmodyfikowane GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	wyświetl moje pliki na google drive stworzone GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	wyświetl moje pliki na google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wyświetl moje pliki na dysku google stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wyświetl moje pliki na dysku google zmodyfikowane GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	wyświetl moje pliki w google drive stworzone GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	wyświetl moje pliki w google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wyświetl moje pliki w dysku google stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wyświetl moje pliki w dysku google zmodyfikowane GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	wylistuj moje pliki z google drive stworzone GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	wylistuj moje pliki z google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wylistuj moje pliki z dysku google stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wylistuj moje pliki z dysku google zmodyfikowane GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	wylistuj moje pliki na google drive stworzone GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	wylistuj moje pliki na google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wylistuj moje pliki na dysku google stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wylistuj moje pliki na dysku google zmodyfikowane GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	wylistuj moje pliki w google drive stworzone GDRIVE.SLOT.TIME
 Gdrive	ShowFilesFromTime	-	wylistuj moje pliki w google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wylistuj moje pliki w dysku google stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	wylistuj moje pliki w dysku google zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	otwórz moje pliki z google drive stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	otwórz moje pliki z google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	otwórz moje pliki z dysku google stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	otwórz moje pliki z dysku google zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	otwórz moje pliki na google drive stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	otwórz moje pliki na google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	otwórz moje pliki na dysku google stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	otwórz moje pliki na dysku google zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	otwórz moje pliki w google drive stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	otwórz moje pliki w google drive zmodyfikowane GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	otwórz moje pliki w dysku google stworzone GDRIVE.SLOT.TIME
+Gdrive	ShowFilesFromTime	-	otwórz moje pliki w dysku google zmodyfikowane GDRIVE.SLOT.TIME
 Gdrive	ShowFilesWithSize	-	pokaż moje pliki z google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	pokaż moje pliki z google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	pokaż moje pliki z dysku google mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	pokaż moje pliki z dysku google większe niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	pokaż moje pliki na google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	pokaż moje pliki na google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	pokaż moje pliki na dysku google mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	pokaż moje pliki na dysku google większe niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	pokaż moje pliki w google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	pokaż moje pliki w google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	pokaż moje pliki w dysku google mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	pokaż moje pliki w dysku google większe niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	wyświetl moje pliki z google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	wyświetl moje pliki z google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wyświetl moje pliki z dysku google mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wyświetl moje pliki z dysku google większe niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	wyświetl moje pliki na google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	wyświetl moje pliki na google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wyświetl moje pliki na dysku google mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wyświetl moje pliki na dysku google większe niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	wyświetl moje pliki w google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	wyświetl moje pliki w google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wyświetl moje pliki w dysku google mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wyświetl moje pliki w dysku google większe niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	wylistuj moje pliki z google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	wylistuj moje pliki z google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wylistuj moje pliki z dysku google mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wylistuj moje pliki z dysku google większe niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	wylistuj moje pliki na google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	wylistuj moje pliki na google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wylistuj moje pliki na dysku google mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wylistuj moje pliki na dysku google większe niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	wylistuj moje pliki w google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	ShowFilesWithSize	-	wylistuj moje pliki w google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wylistuj moje pliki w dysku google mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	wylistuj moje pliki w dysku google większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	otwórz moje pliki z google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	otwórz moje pliki z google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	otwórz moje pliki z dysku google mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	otwórz moje pliki z dysku google większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	otwórz moje pliki na google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	otwórz moje pliki na google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	otwórz moje pliki na dysku google mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	otwórz moje pliki na dysku google większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	otwórz moje pliki w google drive mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	otwórz moje pliki w google drive większe niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	otwórz moje pliki w dysku google mniejsze niż GDRIVE.SLOT.FILE_SIZE
+Gdrive	ShowFilesWithSize	-	otwórz moje pliki w dysku google większe niż GDRIVE.SLOT.FILE_SIZE
 Gdrive	CreateFile	-	stwórz plik na google drive
 Gdrive	CreateFile	-	stwórz plik na google drivie
+Gdrive	CreateFile	-	stwórz plik na dysku google
 Gdrive	CreateFile	-	stwórz plik na moim google drive
 Gdrive	CreateFile	-	stwórz plik na moim google drivie
+Gdrive	CreateFile	-	stwórz plik na moim dysku google
 Gdrive	CreateFile	-	stwórz plik w google drive
 Gdrive	CreateFile	-	stwórz plik w google drivie
+Gdrive	CreateFile	-	stwórz plik w dysku google
 Gdrive	CreateFile	-	stwórz plik w moim google drive
 Gdrive	CreateFile	-	stwórz plik w moim google drivie
+Gdrive	CreateFile	-	stwórz plik w moim dysku google
 Gdrive	CreateFile	-	utwórz plik na google drive
 Gdrive	CreateFile	-	utwórz plik na google drivie
+Gdrive	CreateFile	-	utwórz plik na dysku google
 Gdrive	CreateFile	-	utwórz plik na moim google drive
 Gdrive	CreateFile	-	utwórz plik na moim google drivie
+Gdrive	CreateFile	-	utwórz plik na moim dysku google
 Gdrive	CreateFile	-	utwórz plik w google drive
 Gdrive	CreateFile	-	utwórz plik w google drivie
+Gdrive	CreateFile	-	utwórz plik w dysku google
 Gdrive	CreateFile	-	utwórz plik w moim google drive
 Gdrive	CreateFile	-	utwórz plik w moim google drivie
+Gdrive	CreateFile	-	utwórz plik w moim dysku google
 Gdrive	CreateFileWithName	-	stwórz plik na google drive o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	stwórz plik na google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	stwórz plik na dysku google o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	stwórz plik na moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	stwórz plik na moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	stwórz plik na moim dysku google o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	stwórz plik w google drive o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	stwórz plik w google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	stwórz plik w dysku google o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	stwórz plik w moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	stwórz plik w moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	stwórz plik w moim dysku google o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	utwórz plik na google drive o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	utwórz plik na google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	utwórz plik na dysku google o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	utwórz plik na moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	utwórz plik na moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	utwórz plik na moim dysku google o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	utwórz plik w google drive o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	utwórz plik w google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	utwórz plik w dysku google o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	utwórz plik w moim google drive o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	CreateFileWithName	-	utwórz plik w moim google drivie o nazwie GDRIVE.SLOT.FILE_NAME
+Gdrive	CreateFileWithName	-	utwórz plik w moim dysku google o nazwie GDRIVE.SLOT.FILE_NAME
 Gdrive	ShowOldestFiles	-	pokaż najstarszy plik na google drive
+Gdrive	ShowOldestFiles	-	pokaż najstarszy plik na dysku google
 Gdrive	ShowOldestFiles	-	pokaż mój najstarszy plik na google drive
+Gdrive	ShowOldestFiles	-	pokaż mój najstarszy plik na dysku google
 Gdrive	ShowOldestFiles	-	pokaż najstarsze pliki na google drive
 Gdrive	ShowOldestFiles	-	pokaż moje najstarsze pliki na google drive
 Gdrive	ShowOldestFiles	-	wyświetl najstarszy plik na google drive
+Gdrive	ShowOldestFiles	-	wyświetl najstarszy plik na dysku google
 Gdrive	ShowOldestFiles	-	wyświetl mój najstarszy plik na google drive
+Gdrive	ShowOldestFiles	-	wyświetl mój najstarszy plik na dysku google
 Gdrive	ShowOldestFiles	-	wyświetl najstarsze pliki na google drive
 Gdrive	ShowOldestFiles	-	wyświetl moje najstarsze pliki na google drive
 Gdrive	ShowOldestFiles	-	wylistuj najstarszy plik na google drive
+Gdrive	ShowOldestFiles	-	wylistuj najstarszy plik na dysku google
 Gdrive	ShowOldestFiles	-	wylistuj mój najstarszy plik na google drive
+Gdrive	ShowOldestFiles	-	wylistuj mój najstarszy plik na dysku google
 Gdrive	ShowOldestFiles	-	wylistuj najstarsze pliki na google drive
 Gdrive	ShowOldestFiles	-	wylistuj moje najstarsze pliki na google drive
+Gdrive	ShowOldestFiles	-	otwórz najstarszy plik na google drive
+Gdrive	ShowOldestFiles	-	otwórz najstarszy plik na dysku google
+Gdrive	ShowOldestFiles	-	otwórz mój najstarszy plik na google drive
+Gdrive	ShowOldestFiles	-	otwórz mój najstarszy plik na dysku google
+Gdrive	ShowOldestFiles	-	otwórz najstarsze pliki na google drive
+Gdrive	ShowOldestFiles	-	otwórz moje najstarsze pliki na google drive
 Gdrive	ShowNewestFiles	-	pokaż najnowszy plik na google drive
+Gdrive	ShowNewestFiles	-	pokaż najnowszy plik na dysku google
 Gdrive	ShowNewestFiles	-	pokaż ostatni plik na google drive
+Gdrive	ShowNewestFiles	-	pokaż ostatni plik na dysku google
 Gdrive	ShowNewestFiles	-	pokaż mój najnowszy plik na google drive
+Gdrive	ShowNewestFiles	-	pokaż mój najnowszy plik na dysku google
 Gdrive	ShowNewestFiles	-	pokaż mój ostatni plik na google drive
+Gdrive	ShowNewestFiles	-	pokaż mój ostatni plik na dysku google
 Gdrive	ShowNewestFiles	-	pokaż najnowsze pliki na google drive
 Gdrive	ShowNewestFiles	-	pokaż ostatnie pliki na google drive
 Gdrive	ShowNewestFiles	-	pokaż moje najnowsze pliki na google drive
 Gdrive	ShowNewestFiles	-	pokaż moje ostatnie pliki na google drive
 Gdrive	ShowNewestFiles	-	wyświetl najnowszy plik na google drive
+Gdrive	ShowNewestFiles	-	wyświetl najnowszy plik na dysku google
 Gdrive	ShowNewestFiles	-	wyświetl ostatni plik na google drive
+Gdrive	ShowNewestFiles	-	wyświetl ostatni plik na dysku google
 Gdrive	ShowNewestFiles	-	wyświetl mój najnowszy plik na google drive
+Gdrive	ShowNewestFiles	-	wyświetl mój najnowszy plik na dysku google
 Gdrive	ShowNewestFiles	-	wyświetl mój ostatni plik na google drive
+Gdrive	ShowNewestFiles	-	wyświetl mój ostatni plik na dysku google
 Gdrive	ShowNewestFiles	-	wyświetl najnowsze pliki na google drive
 Gdrive	ShowNewestFiles	-	wyświetl ostatnie pliki na google drive
 Gdrive	ShowNewestFiles	-	wyświetl moje najnowsze pliki na google drive
 Gdrive	ShowNewestFiles	-	wyświetl moje ostatnie pliki na google drive
 Gdrive	ShowNewestFiles	-	wylistuj najnowszy plik na google drive
+Gdrive	ShowNewestFiles	-	wylistuj najnowszy plik na dysku google
 Gdrive	ShowNewestFiles	-	wylistuj ostatni plik na google drive
+Gdrive	ShowNewestFiles	-	wylistuj ostatni plik na dysku google
 Gdrive	ShowNewestFiles	-	wylistuj mój najnowszy plik na google drive
+Gdrive	ShowNewestFiles	-	wylistuj mój najnowszy plik na dysku google
 Gdrive	ShowNewestFiles	-	wylistuj mój ostatni plik na google drive
+Gdrive	ShowNewestFiles	-	wylistuj mój ostatni plik na dysku google
 Gdrive	ShowNewestFiles	-	wylistuj najnowsze pliki na google drive
 Gdrive	ShowNewestFiles	-	wylistuj ostatnie pliki na google drive
 Gdrive	ShowNewestFiles	-	wylistuj moje najnowsze pliki na google drive
 Gdrive	ShowNewestFiles	-	wylistuj moje ostatnie pliki na google drive
+Gdrive	ShowNewestFiles	-	otwórz najnowszy plik na google drive
+Gdrive	ShowNewestFiles	-	otwórz najnowszy plik na dysku google
+Gdrive	ShowNewestFiles	-	otwórz ostatni plik na google drive
+Gdrive	ShowNewestFiles	-	otwórz ostatni plik na dysku google
+Gdrive	ShowNewestFiles	-	otwórz mój najnowszy plik na google drive
+Gdrive	ShowNewestFiles	-	otwórz mój najnowszy plik na dysku google
+Gdrive	ShowNewestFiles	-	otwórz mój ostatni plik na google drive
+Gdrive	ShowNewestFiles	-	otwórz mój ostatni plik na dysku google
+Gdrive	ShowNewestFiles	-	otwórz najnowsze pliki na google drive
+Gdrive	ShowNewestFiles	-	otwórz ostatnie pliki na google drive
+Gdrive	ShowNewestFiles	-	otwórz moje najnowsze pliki na google drive
+Gdrive	ShowNewestFiles	-	otwórz moje ostatnie pliki na google drive
 Gdrive	SortAlphabetica	-	pokaż pliki na google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	pokaż pliki na dysku google w kolejności alfabetycznej
 Gdrive	SortAlphabetica	-	pokaż pliki w google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	pokaż pliki w dysku google w kolejności alfabetycznej
 Gdrive	SortAlphabetica	-	pokaż moje pliki na google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	pokaż moje pliki na dysku google w kolejności alfabetycznej
 Gdrive	SortAlphabetica	-	pokaż moje pliki w google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	pokaż moje pliki w dysku google w kolejności alfabetycznej
 Gdrive	SortAlphabetica	-	wyświetl pliki na google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	wyświetl pliki na dysku google w kolejności alfabetycznej
 Gdrive	SortAlphabetica	-	wyświetl pliki w google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	wyświetl pliki w dysku google w kolejności alfabetycznej
 Gdrive	SortAlphabetica	-	wyświetl moje pliki na google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	wyświetl moje pliki na dysku google w kolejności alfabetycznej
 Gdrive	SortAlphabetica	-	wyświetl moje pliki w google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	wyświetl moje pliki w dysku google w kolejności alfabetycznej
 Gdrive	SortAlphabetica	-	wylistuj pliki na google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	wylistuj pliki na dysku google w kolejności alfabetycznej
 Gdrive	SortAlphabetica	-	wylistuj pliki w google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	wylistuj pliki w dysku google w kolejności alfabetycznej
 Gdrive	SortAlphabetica	-	wylistuj moje pliki na google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	wylistuj moje pliki na dysku google w kolejności alfabetycznej
 Gdrive	SortAlphabetica	-	wylistuj moje pliki w google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	wylistuj moje pliki w dysku google w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	otwórz pliki na google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	otwórz pliki na dysku google w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	otwórz pliki w google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	otwórz pliki w dysku google w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	otwórz moje pliki na google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	otwórz moje pliki na dysku google w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	otwórz moje pliki w google drive w kolejności alfabetycznej
+Gdrive	SortAlphabetica	-	otwórz moje pliki w dysku google w kolejności alfabetycznej
 Gdrive	SortReverseAlphabetical	-	pokaż pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	pokaż pliki na dysku google w odwrotnej kolejności alfabetycznej
 Gdrive	SortReverseAlphabetical	-	pokaż pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	pokaż pliki w dysku google w odwrotnej kolejności alfabetycznej
 Gdrive	SortReverseAlphabetical	-	pokaż moje pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	pokaż moje pliki na dysku google w odwrotnej kolejności alfabetycznej
 Gdrive	SortReverseAlphabetical	-	pokaż moje pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	pokaż moje pliki w dysku google w odwrotnej kolejności alfabetycznej
 Gdrive	SortReverseAlphabetical	-	wyświetl pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wyświetl pliki na dysku google w odwrotnej kolejności alfabetycznej
 Gdrive	SortReverseAlphabetical	-	wyświetl pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wyświetl pliki w dysku google w odwrotnej kolejności alfabetycznej
 Gdrive	SortReverseAlphabetical	-	wyświetl moje pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wyświetl moje pliki na dysku google w odwrotnej kolejności alfabetycznej
 Gdrive	SortReverseAlphabetical	-	wyświetl moje pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wyświetl moje pliki w dysku google w odwrotnej kolejności alfabetycznej
 Gdrive	SortReverseAlphabetical	-	wylistuj pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wylistuj pliki na dysku google w odwrotnej kolejności alfabetycznej
 Gdrive	SortReverseAlphabetical	-	wylistuj pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wylistuj pliki w dysku google w odwrotnej kolejności alfabetycznej
 Gdrive	SortReverseAlphabetical	-	wylistuj moje pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wylistuj moje pliki na dysku google w odwrotnej kolejności alfabetycznej
 Gdrive	SortReverseAlphabetical	-	wylistuj moje pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	wylistuj moje pliki w dysku google w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	otwórz pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	otwórz pliki na dysku google w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	otwórz pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	otwórz pliki w dysku google w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	otwórz moje pliki na google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	otwórz moje pliki na dysku google w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	otwórz moje pliki w google drive w odwrotnej kolejności alfabetycznej
+Gdrive	SortReverseAlphabetical	-	otwórz moje pliki w dysku google w odwrotnej kolejności alfabetycznej
 Gdrive	OpenFileWithName	-	otwórz plik GDRIVE.SLOT.FILE_NAME do edycji
 Gdrive	OpenFileWithName	-	otwórz plik GDRIVE.SLOT.FILE_NAME do edycji na google drive
 Gdrive	OpenFileWithName	-	otwórz plik o nazwie GDRIVE.SLOT.FILE_NAME do edycji
@@ -300,3 +527,11 @@ Gdrive	ShareFileWithNameToAddress	-	udostępnij mój plik o nazwie GDRIVE.SLOT.F
 Gdrive	ShareFileWithNameToAddress	-	udostępnij mój plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do edycji
 Gdrive	ShareFileWithNameToAddress	-	udostępnij mój plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu
 Gdrive	ShareFileWithNameToAddress	-	udostępnij mój plik o nazwie GDRIVE.SLOT.FILE_NAME do GDRIVE.SLOT.MAIL i nadaj uprawnienia do odczytu i zapisu
+Gdrive	ShareFileWithNameToAddress	-	daj dostęp do GDRIVE.SLOT.FILE_NAME GDRIVE.SLOT.MAIL
+Gdrive	ShareFileWithNameToAddress	-	daj dostęp do edycji do GDRIVE.SLOT.FILE_NAME GDRIVE.SLOT.MAIL
+Gdrive	ShareFileWithNameToAddress	-	daj dostęp odczytu do GDRIVE.SLOT.FILE_NAME GDRIVE.SLOT.MAIL
+Gdrive	ShareFileWithNameToAddress	-	daj dostęp odczytu i zapisu do GDRIVE.SLOT.FILE_NAME GDRIVE.SLOT.MAIL
+Gdrive	ShareFileWithNameToAddress	-	niech GDRIVE.SLOT.MAIL ma dostęp pliku GDRIVE.SLOT.FILE_NAME
+Gdrive	ShareFileWithNameToAddress	-	niech GDRIVE.SLOT.MAIL ma dostęp do edycji pliku GDRIVE.SLOT.FILE_NAME
+Gdrive	ShareFileWithNameToAddress	-	niech GDRIVE.SLOT.MAIL ma dostęp odczytu pliku GDRIVE.SLOT.FILE_NAME
+Gdrive	ShareFileWithNameToAddress	-	niech GDRIVE.SLOT.MAIL ma dostęp odczytu i zapisu pliku GDRIVE.SLOT.FILE_NAME

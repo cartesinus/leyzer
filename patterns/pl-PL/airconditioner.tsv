@@ -1,10 +1,12 @@
 domain	intent	parallel	pattern
 Airconditioner	TurnOn	-	włącz AIRCONDITIONER.SLOT.AV_ALIAS
 Airconditioner	TurnOn	-	uruchom AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	TurnOn	-	nastaw AIRCONDITIONER.SLOT.AV_ALIAS
 Airconditioner	TurnOff	-	wyłącz AIRCONDITIONER.SLOT.AV_ALIAS
 Airconditioner	TurnOff	-	wygaś AIRCONDITIONER.SLOT.AV_ALIAS
 Airconditioner	TurnOff	-	przestań używać AIRCONDITIONER.SLOT.AV_ALIAS
 Airconditioner	TurnOff	-	odetnij AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	TurnOff	-	zatrzynaj AIRCONDITIONER.SLOT.AV_ALIAS
 Airconditioner	ChangeTemperature	-	zmień temperaturę na termostacie
 Airconditioner	ChangeTemperature	-	zmień temperaturę na moim termostacie
 Airconditioner	ChangeTemperature	-	zmień temperaturę minimalną na termostacie
@@ -13,12 +15,34 @@ Airconditioner	ChangeTemperature	-	zmień temperaturę maksymalną na termostaci
 Airconditioner	ChangeTemperature	-	zmień temperaturę maksymalną na moim termostacie
 Airconditioner	ChangeTemperature	-	zmień temperaturę minimalną i maksymalną na termostacie
 Airconditioner	ChangeTemperature	-	zmień temperaturę minimalną i maksymalną na moim termostacie
+Airconditioner	ChangeTemperature	-	przestaw temperaturę na termostacie
+Airconditioner	ChangeTemperature	-	przestaw temperaturę na moim termostacie
+Airconditioner	ChangeTemperature	-	przestaw temperaturę minimalną na termostacie
+Airconditioner	ChangeTemperature	-	przestaw temperaturę minimalną na moim termostacie
+Airconditioner	ChangeTemperature	-	przestaw temperaturę maksymalną na termostacie
+Airconditioner	ChangeTemperature	-	przestaw temperaturę maksymalną na moim termostacie
+Airconditioner	ChangeTemperature	-	przestaw temperaturę minimalną i maksymalną na termostacie
+Airconditioner	ChangeTemperature	-	przestaw temperaturę minimalną i maksymalną na moim termostacie
+Airconditioner	ChangeTemperature	-	przełącz temperaturę na termostacie
+Airconditioner	ChangeTemperature	-	przełącz temperaturę na moim termostacie
+Airconditioner	ChangeTemperature	-	przełącz temperaturę minimalną na termostacie
+Airconditioner	ChangeTemperature	-	przełącz temperaturę minimalną na moim termostacie
+Airconditioner	ChangeTemperature	-	przełącz temperaturę maksymalną na termostacie
+Airconditioner	ChangeTemperature	-	przełącz temperaturę maksymalną na moim termostacie
+Airconditioner	ChangeTemperature	-	przełącz temperaturę minimalną i maksymalną na termostacie
+Airconditioner	ChangeTemperature	-	przełącz temperaturę minimalną i maksymalną na moim termostacie
 Airconditioner	SetTemperatureToValue	-	ustaw temperaturę na termostacie na AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValue	-	ustaw temperaturę na moim termostacie na AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValue	-	ustaw mój termostat na AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValue	-	nastaw temperaturę na termostacie na AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValue	-	nastaw temperaturę na moim termostacie na AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValue	-	nastaw mój termostat na AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	przełącz temperaturę na termostacie na AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	przełącz temperaturę na moim termostacie na AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	przełącz mój termostat na AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	zmień temperaturę na termostacie na AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	zmień temperaturę na moim termostacie na AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	zmień mój termostat na AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValueOnDevice	-	ustaw temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValueOnDevice	-	ustaw temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValueOnDevice	-	ustaw temperaturę na AIRCONDITIONER.SLOT.VALUE na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
@@ -27,6 +51,14 @@ Airconditioner	SetTemperatureToValueOnDevice	-	nastaw temperaturę na termostaci
 Airconditioner	SetTemperatureToValueOnDevice	-	nastaw temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValueOnDevice	-	nastaw temperaturę na AIRCONDITIONER.SLOT.VALUE na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
 Airconditioner	SetTemperatureToValueOnDevice	-	nastaw temperaturę na AIRCONDITIONER.SLOT.VALUE na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureToValueOnDevice	-	przełącz temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValueOnDevice	-	przełącz temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValueOnDevice	-	przełącz temperaturę na AIRCONDITIONER.SLOT.VALUE na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureToValueOnDevice	-	przełącz temperaturę na AIRCONDITIONER.SLOT.VALUE na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureToValueOnDevice	-	zmień temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValueOnDevice	-	zmień temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValueOnDevice	-	zmień temperaturę na AIRCONDITIONER.SLOT.VALUE na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureToValueOnDevice	-	zmień temperaturę na AIRCONDITIONER.SLOT.VALUE na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
 Airconditioner	SetTemperatureBetweenValues	-	ustaw temperaturę pomiędzy 23 a 28 stopni
 Airconditioner	SetTemperatureBetweenValues	-	ustaw temperaturę pomiędzy 23 a 29 stopni
 Airconditioner	SetTemperatureBetweenValues	-	ustaw temperaturę pomiędzy 24 a 28 stopni
@@ -51,18 +83,77 @@ Airconditioner	SetTemperatureBetweenValues	-	nastaw temperaturę na moim termost
 Airconditioner	SetTemperatureBetweenValues	-	nastaw temperaturę na moim termostacie pomiędzy 23 a 29 stopni
 Airconditioner	SetTemperatureBetweenValues	-	nastaw temperaturę na moim termostacie pomiędzy 24 a 28 stopni
 Airconditioner	SetTemperatureBetweenValues	-	nastaw temperaturę na moim termostacie pomiędzy 24 a 29 stopni
+Airconditioner	SetTemperatureBetweenValues	-	przełącz temperaturę pomiędzy 23 a 28 stopni
+Airconditioner	SetTemperatureBetweenValues	-	przełącz temperaturę pomiędzy 23 a 29 stopni
+Airconditioner	SetTemperatureBetweenValues	-	przełącz temperaturę pomiędzy 24 a 28 stopni
+Airconditioner	SetTemperatureBetweenValues	-	przełącz temperaturę pomiędzy 24 a 29 stopni
+Airconditioner	SetTemperatureBetweenValues	-	przełącz temperaturę na termostacie pomiędzy 23 a 28 stopni
+Airconditioner	SetTemperatureBetweenValues	-	przełącz temperaturę na termostacie pomiędzy 23 a 29 stopni
+Airconditioner	SetTemperatureBetweenValues	-	przełącz temperaturę na termostacie pomiędzy 24 a 28 stopni
+Airconditioner	SetTemperatureBetweenValues	-	przełącz temperaturę na termostacie pomiędzy 24 a 29 stopni
+Airconditioner	SetTemperatureBetweenValues	-	przełącz temperaturę na moim termostacie pomiędzy 23 a 28 stopni
+Airconditioner	SetTemperatureBetweenValues	-	przełącz temperaturę na moim termostacie pomiędzy 23 a 29 stopni
+Airconditioner	SetTemperatureBetweenValues	-	przełącz temperaturę na moim termostacie pomiędzy 24 a 28 stopni
+Airconditioner	SetTemperatureBetweenValues	-	przełącz temperaturę na moim termostacie pomiędzy 24 a 29 stopni
+Airconditioner	SetTemperatureBetweenValues	-	zmień temperaturę pomiędzy 23 a 28 stopni
+Airconditioner	SetTemperatureBetweenValues	-	zmień temperaturę pomiędzy 23 a 29 stopni
+Airconditioner	SetTemperatureBetweenValues	-	zmień temperaturę pomiędzy 24 a 28 stopni
+Airconditioner	SetTemperatureBetweenValues	-	zmień temperaturę pomiędzy 24 a 29 stopni
+Airconditioner	SetTemperatureBetweenValues	-	zmień temperaturę na termostacie pomiędzy 23 a 28 stopni
+Airconditioner	SetTemperatureBetweenValues	-	zmień temperaturę na termostacie pomiędzy 23 a 29 stopni
+Airconditioner	SetTemperatureBetweenValues	-	zmień temperaturę na termostacie pomiędzy 24 a 28 stopni
+Airconditioner	SetTemperatureBetweenValues	-	zmień temperaturę na termostacie pomiędzy 24 a 29 stopni
+Airconditioner	SetTemperatureBetweenValues	-	zmień temperaturę na moim termostacie pomiędzy 23 a 28 stopni
+Airconditioner	SetTemperatureBetweenValues	-	zmień temperaturę na moim termostacie pomiędzy 23 a 29 stopni
+Airconditioner	SetTemperatureBetweenValues	-	zmień temperaturę na moim termostacie pomiędzy 24 a 28 stopni
+Airconditioner	SetTemperatureBetweenValues	-	zmień temperaturę na moim termostacie pomiędzy 24 a 29 stopni
 Airconditioner	SetTemperatureOnDevice	-	zmień temperaturę w AIRCONDITIONER.SLOT.DEVICE_NAME
 Airconditioner	SetTemperatureOnDevice	-	zmień temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
 Airconditioner	SetTemperatureOnDevice	-	zmień temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureOnDevice	-	przestaw temperaturę w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureOnDevice	-	przestaw temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureOnDevice	-	przestaw temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureOnDevice	-	przełącz temperaturę w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureOnDevice	-	przełącz temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureOnDevice	-	przełącz temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
 Airconditioner	GetHumidity	-	pokaż poziom wilgotności
+Airconditioner	GetHumidity	-	ustal poziom wilgotności
 Airconditioner	GetHumidity	-	jaki jest poziom wilgotności
 Airconditioner	GetHumidity	-	powiedz mi jaki jest poziom wilgotności
 Airconditioner	GetHumidity	-	pokaż mi jaki jest poziom wilgotności
+Airconditioner	GetHumidity	-	jaka jest wilgotność
+Airconditioner	GetHumidity	-	jaka jest wilgotność w tym pokoju
+Airconditioner	GetHumidity	-	jaka jest wilgotność w domu
+Airconditioner	GetHumidity	-	jaka jest wilgotność teraz
 Airconditioner	GetTemperatureFromDevice	-	jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
 Airconditioner	GetTemperatureFromDevice	-	jaka jest temperatura według termostatu w AIRCONDITIONER.SLOT.DEVICE_NAME
 Airconditioner	GetTemperatureFromDevice	-	jaka jest temperatura według mojego termostatu w AIRCONDITIONER.SLOT.DEVICE_NAME
 Airconditioner	GetTemperatureFromDevice	-	co termostat w AIRCONDITIONER.SLOT.DEVICE_NAME mówi o temperaturze
+Airconditioner	GetTemperatureFromDevice	-	sprawdź jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	GetTemperatureFromDevice	-	sprawdź mi jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	GetTemperatureFromDevice	-	pokaż jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	GetTemperatureFromDevice	-	pokaż mi jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	GetTemperatureFromDevice	-	powiedz jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	GetTemperatureFromDevice	-	powiedz mi jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
 Airconditioner	GetTemperature	-	jaka jest temperatura
 Airconditioner	GetTemperature	-	jaka jest temperatura według termostatu
+Airconditioner	GetTemperature	-	jaka jest temperatura według głównego termostatu
 Airconditioner	GetTemperature	-	jaka jest temperatura według mojego termostatu
+Airconditioner	GetTemperature	-	jaka jest temperatura według mojego głównego termostatu
 Airconditioner	GetTemperature	-	co termostat mówi o temperaturze
+Airconditioner	GetTemperature	-	co główny termostat mówi o temperaturze
+Airconditioner	GetTemperature	-	sprawdź jaka jest temperatura
+Airconditioner	GetTemperature	-	sprawdź jaka jest temperatura na głównym termostacie
+Airconditioner	GetTemperature	-	sprawdź mi jaka jest temperatura
+Airconditioner	GetTemperature	-	sprawdź mi jaka jest temperatura na głównym termostacie
+Airconditioner	GetTemperature	-	pokaż jaka jest temperatura
+Airconditioner	GetTemperature	-	pokaż jaka jest temperatura na głównym termostacie
+Airconditioner	GetTemperature	-	pokaż mi jaka jest temperatura
+Airconditioner	GetTemperature	-	pokaż mi jaka jest temperatura na głównym termostacie
+Airconditioner	GetTemperature	-	powiedz jaka jest temperatura
+Airconditioner	GetTemperature	-	powiedz jaka jest temperatura na głównym termostacie
+Airconditioner	GetTemperature	-	powiedz mi jaka jest temperatura
+Airconditioner	GetTemperature	-	powiedz mi jaka jest temperatura na głównym termostacie
+Airconditioner	GetTemperature	-	ile jest stopni w domu
+Airconditioner	GetTemperature	-	sprawdź ile jest stopni w domu
+Airconditioner	GetTemperature	-	powiedz ile jest stopni w domu

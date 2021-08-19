@@ -1,7 +1,12 @@
 domain	intent	parallel	pattern
 Wikipedia	OpenWikipedia	-	otwórz wikipedię
+Wikipedia	OpenWikipedia	-	uruchom wikipedię
 Wikipedia	OpenWikipedia	-	otwórz stronę na wikipedii
+Wikipedia	OpenWikipedia	-	uruchom stronę na wikipedii
+Wikipedia	OpenWikipedia	-	wyświetl stronę na wikipedii
 Wikipedia	OpenWikipedia	-	definicja na wikipedii
+Wikipedia	OpenWikipedia	-	sprawdź definicję na wikipedii
+Wikipedia	OpenWikipedia	-	wyszukaj definicję na wikipedii
 Wikipedia	SearchQuery	-	szukaj WIKIPEDIA.SLOT.QUERY na wiki
 Wikipedia	SearchQuery	-	szukaj WIKIPEDIA.SLOT.QUERY na wikipedii
 Wikipedia	SearchQuery	-	znajdź WIKIPEDIA.SLOT.QUERY na wiki
@@ -30,6 +35,8 @@ Wikipedia	ScrollDown	-	strona w dół
 Wikipedia	ScrollDown	-	strona niżej
 Wikipedia	ScrollDown	-	stronę w dół
 Wikipedia	ScrollDown	-	stronę niżej
+Wikipedia	ScrollDown	-	przewiń stronę w dół
+Wikipedia	ScrollDown	-	przewiń stronę niżej
 Wikipedia	ScrollDown	-	scrolluj w dół
 Wikipedia	ScrollDown	-	scrolluj stronę w dół
 Wikipedia	ScrollDown	-	kawałek w dół
@@ -39,14 +46,16 @@ Wikipedia	ScrollUp	-	strona w górę
 Wikipedia	ScrollUp	-	strona wyżej
 Wikipedia	ScrollUp	-	stronę w górę
 Wikipedia	ScrollUp	-	stronę wyżej
+Wikipedia	ScrollUp	-	przewiń stronę w górę
+Wikipedia	ScrollUp	-	przewiń stronę wyżej
 Wikipedia	ScrollUp	-	scrolluj do góry
 Wikipedia	ScrollUp	-	scrolluj stronę do góry
 Wikipedia	ScrollUp	-	kawałek do góry
-Wikipedia	DownloadAsPdf	-	ściągnij tą stronę jako pdf
+Wikipedia	DownloadAsPdf	-	ściągnij tę stronę jako pdf
 Wikipedia	DownloadAsPdf	-	ściągnij ten artukuł jako pdf
-Wikipedia	DownloadAsPdf	-	pobierz tą stronę jako pdf
+Wikipedia	DownloadAsPdf	-	pobierz tę stronę jako pdf
 Wikipedia	DownloadAsPdf	-	pobierz ten artukuł jako pdf
-Wikipedia	DownloadAsPdf	-	zachowaj tą stronę jako pdf
+Wikipedia	DownloadAsPdf	-	zachowaj tę stronę jako pdf
 Wikipedia	DownloadAsPdf	-	zachowaj ten artukuł jako pdf
 Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na angielski
 Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na polski
@@ -92,6 +101,50 @@ Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na chiński
 Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na ukraiński
 Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na arabski
 Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na portugalski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na angielski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na polski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na niemiecki
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na francuski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na włoski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na hiszpański
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na rosyjski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na chiński
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na ukraiński
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na arabski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na portugalski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na angielski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na polski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na niemiecki
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na francuski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na włoski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na hiszpański
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na rosyjski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na chiński
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na ukraiński
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na arabski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na portugalski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na angielski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na polski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na niemiecki
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na francuski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na włoski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na hiszpański
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na rosyjski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na chiński
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na ukraiński
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na arabski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na portugalski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na angielski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na polski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na niemiecki
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na francuski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na włoski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na hiszpański
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na rosyjski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na chiński
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na ukraiński
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na arabski
+Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na portugalski
 Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku angielskim
 Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku polskim
 Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku niemieckim
@@ -136,21 +189,22 @@ Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku chińskim
 Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku ukraińskim
 Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku arabskim
 Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku portugalskim
-Wikipedia	RandomPage	-	losową stronę
-Wikipedia	RandomPage	-	losową stronę na wiki
-Wikipedia	RandomPage	-	losową stronę na wikipedii
-Wikipedia	RandomPage	-	losową artykuł
-Wikipedia	RandomPage	-	losową artykuł na wiki
-Wikipedia	RandomPage	-	losową artykuł na wikipedii
-Wikipedia	RandomPage	-	pokaż losową stronę
 Wikipedia	RandomPage	-	pokaż losową stronę na wiki
 Wikipedia	RandomPage	-	pokaż losową stronę na wikipedii
-Wikipedia	RandomPage	-	pokaż losową artykuł
-Wikipedia	RandomPage	-	pokaż losową artykuł na wiki
-Wikipedia	RandomPage	-	pokaż losową artykuł na wikipedii
-Wikipedia	RandomPage	-	surfing
+Wikipedia	RandomPage	-	pokaż losowy artykuł na wiki
+Wikipedia	RandomPage	-	pokaż losowy artykuł na wikipedii
+Wikipedia	RandomPage	-	wyświetl losową stronę na wiki
+Wikipedia	RandomPage	-	wyświetl losową stronę na wikipedii
+Wikipedia	RandomPage	-	wyświetl losowy artykuł na wiki
+Wikipedia	RandomPage	-	wyświetl losowy artykuł na wikipedii
 Wikipedia	RandomPage	-	wiki surfing
 Wikipedia	RandomPage	-	wikipedia surfing
+Wikipedia	RandomPage	-	serfuj po wiki
+Wikipedia	RandomPage	-	serfuj po wikipedii
+Wikipedia	RandomPage	-	wylosuj stronę na wiki
+Wikipedia	RandomPage	-	wylosuj stronę na wikipedii
+Wikipedia	RandomPage	-	wylosuj artykuł na wiki
+Wikipedia	RandomPage	-	wylosuj artykuł na wikipedii
 Wikipedia	GoToElementNumber	-	przejdź do pierwszego elementu ze spisu treści
 Wikipedia	GoToElementNumber	-	przejdź do drugiego elementu ze spisu treści
 Wikipedia	GoToElementNumber	-	przejdź do trzeciego elementu ze spisu treści
@@ -161,3 +215,23 @@ Wikipedia	GoToElementNumber	-	przejdź do siódmego elementu ze spisu treści
 Wikipedia	GoToElementNumber	-	przejdź do ósmego elementu ze spisu treści
 Wikipedia	GoToElementNumber	-	przejdź do dziewiątego elementu ze spisu treści
 Wikipedia	GoToElementNumber	-	przejdź do dziesiątego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	skocz do pierwszego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	skocz do drugiego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	skocz do trzeciego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	skocz do czwartego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	skocz do piątego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	skocz do szóstego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	skocz do siódmego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	skocz do ósmego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	skocz do dziewiątego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	skocz do dziesiątego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	nawiguj do pierwszego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	nawiguj do drugiego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	nawiguj do trzeciego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	nawiguj do czwartego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	nawiguj do piątego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	nawiguj do szóstego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	nawiguj do siódmego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	nawiguj do ósmego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	nawiguj do dziewiątego elementu ze spisu treści
+Wikipedia	GoToElementNumber	-	nawiguj do dziesiątego elementu ze spisu treści

@@ -1,19 +1,474 @@
 domain	intent	parallel	pattern
 News	ShowNews	-	NEWS.SLOT.PORTAL
+News	ShowNews	-	las noticias NEWS.SLOT.PORTAL
+News	ShowNews	-	las novedades NEWS.SLOT.PORTAL
+News	ShowNews	-	artículos nuevos de NEWS.SLOT.PORTAL
+News	ShowNews	-	nuevos artículos de NEWS.SLOT.PORTAL
+News	ShowNews	-	los artículos nuevos de NEWS.SLOT.PORTAL
+News	ShowNews	-	los nuevos artículos de NEWS.SLOT.PORTAL
 News	ShowNews	-	abre NEWS.SLOT.PORTAL
+News	ShowNews	-	abre las noticias NEWS.SLOT.PORTAL
+News	ShowNews	-	abre las novedades NEWS.SLOT.PORTAL
+News	ShowNews	-	abre artículos nuevos de NEWS.SLOT.PORTAL
+News	ShowNews	-	abre nuevos artículos de NEWS.SLOT.PORTAL
+News	ShowNews	-	abre los artículos nuevos de NEWS.SLOT.PORTAL
+News	ShowNews	-	abre los nuevos artículos de NEWS.SLOT.PORTAL
 News	ShowNews	-	lee NEWS.SLOT.PORTAL
+News	ShowNews	-	lee las noticias NEWS.SLOT.PORTAL
+News	ShowNews	-	lee las novedades NEWS.SLOT.PORTAL
+News	ShowNews	-	lee artículos nuevos de NEWS.SLOT.PORTAL
+News	ShowNews	-	lee nuevos artículos de NEWS.SLOT.PORTAL
+News	ShowNews	-	lee los artículos nuevos de NEWS.SLOT.PORTAL
+News	ShowNews	-	lee los nuevos artículos de NEWS.SLOT.PORTAL
+News	ShowNews	-	va a NEWS.SLOT.PORTAL
+News	ShowNews	-	va a las noticias NEWS.SLOT.PORTAL
+News	ShowNews	-	va a las novedades NEWS.SLOT.PORTAL
+News	ShowNews	-	va a artículos nuevos de NEWS.SLOT.PORTAL
+News	ShowNews	-	va a nuevos artículos de NEWS.SLOT.PORTAL
+News	ShowNews	-	va a los artículos nuevos de NEWS.SLOT.PORTAL
+News	ShowNews	-	va a los nuevos artículos de NEWS.SLOT.PORTAL
 News	ShowNews	-	muestra noticias de NEWS.SLOT.PORTAL
+News	ShowNews	-	muestra novedades de NEWS.SLOT.PORTAL
 News	ShowNews	-	muestra las noticias de NEWS.SLOT.PORTAL
+News	ShowNews	-	muestra las novedades de NEWS.SLOT.PORTAL
+News	ShowNews	-	muestra la página principal de NEWS.SLOT.PORTAL
+News	ShowNews	-	muestra nuevos artículos de NEWS.SLOT.PORTAL
+News	ShowNews	-	muestra artículos nuevos de NEWS.SLOT.PORTAL
 News	ShowNews	-	muéstrame noticias de NEWS.SLOT.PORTAL
+News	ShowNews	-	muéstrame novedades de NEWS.SLOT.PORTAL
 News	ShowNews	-	muéstrame las noticias de NEWS.SLOT.PORTAL
-News	ShowNews	-	noticias en NEWS.SLOT.PORTAL
+News	ShowNews	-	muéstrame las novedades de NEWS.SLOT.PORTAL
+News	ShowNews	-	muéstrame la página principal de NEWS.SLOT.PORTAL
+News	ShowNews	-	muéstrame nuevos artículos de NEWS.SLOT.PORTAL
+News	ShowNews	-	muéstrame artículos nuevos de NEWS.SLOT.PORTAL
 News	ShowNews	-	noticias de NEWS.SLOT.PORTAL
-News	ShowNews	-	noticias recientes en NEWS.SLOT.PORTAL
 News	ShowNews	-	noticias recientes de NEWS.SLOT.PORTAL
-News	ShowNews	-	noticias más recientes en NEWS.SLOT.PORTAL
 News	ShowNews	-	noticias más recientes de NEWS.SLOT.PORTAL
+News	ShowNews	-	novedades de NEWS.SLOT.PORTAL
+News	ShowNews	-	la página principal de NEWS.SLOT.PORTAL
+News	ShowNews	-	nuevos artículos de NEWS.SLOT.PORTAL
+News	ShowNews	-	artículos nuevos de NEWS.SLOT.PORTAL
 News	ShowNewsFromSection	-	la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
 News	ShowNewsFromSection	-	la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las noticias la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las noticias la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las noticias la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las noticias la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las noticias la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las noticias la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las novedades la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las novedades la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las novedades la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las novedades la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las novedades la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las novedades la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	artículos nuevos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	artículos nuevos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	artículos nuevos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	artículos nuevos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevos artículos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevos artículos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevos artículos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevos artículos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevas informaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevas informaciones de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevas informaciones de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevas informaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevas informaciones de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevas informaciones de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los artículos nuevos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los artículos nuevos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los artículos nuevos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los artículos nuevos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los nuevos artículos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los nuevos artículos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los nuevos artículos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los nuevos artículos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los nuevas informaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los nuevas informaciones de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los nuevas informaciones de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los nuevas informaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los nuevas informaciones de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	los nuevas informaciones de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre las noticias la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre las noticias la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre las noticias la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre las noticias la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre las noticias la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre las noticias la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre las novedades la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre las novedades la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre las novedades la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre las novedades la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre las novedades la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre las novedades la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre artículos nuevos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre artículos nuevos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre artículos nuevos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre artículos nuevos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre nuevos artículos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre nuevos artículos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre nuevos artículos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre nuevos artículos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre nuevas informaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre nuevas informaciones de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre nuevas informaciones de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre nuevas informaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre nuevas informaciones de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre nuevas informaciones de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los artículos nuevos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los artículos nuevos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los artículos nuevos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los artículos nuevos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los nuevos artículos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los nuevos artículos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los nuevos artículos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los nuevos artículos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los nuevas informaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los nuevas informaciones de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los nuevas informaciones de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los nuevas informaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los nuevas informaciones de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	abre los nuevas informaciones de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee las noticias la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee las noticias la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee las noticias la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee las noticias la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee las noticias la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee las noticias la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee las novedades la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee las novedades la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee las novedades la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee las novedades la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee las novedades la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee las novedades la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee artículos nuevos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee artículos nuevos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee artículos nuevos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee artículos nuevos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee nuevos artículos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee nuevos artículos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee nuevos artículos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee nuevos artículos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee nuevas informaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee nuevas informaciones de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee nuevas informaciones de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee nuevas informaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee nuevas informaciones de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee nuevas informaciones de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los artículos nuevos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los artículos nuevos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los artículos nuevos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los artículos nuevos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los nuevos artículos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los nuevos artículos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los nuevos artículos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los nuevos artículos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los nuevas informaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los nuevas informaciones de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los nuevas informaciones de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los nuevas informaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los nuevas informaciones de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	lee los nuevas informaciones de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a las noticias la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a las noticias la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a las noticias la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a las noticias la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a las noticias la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a las noticias la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a las novedades la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a las novedades la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a las novedades la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a las novedades la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a las novedades la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a las novedades la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a artículos nuevos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a artículos nuevos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a artículos nuevos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a artículos nuevos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a nuevos artículos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a nuevos artículos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a nuevos artículos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a nuevos artículos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a nuevas informaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a nuevas informaciones de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a nuevas informaciones de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a nuevas informaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a nuevas informaciones de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a nuevas informaciones de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los artículos nuevos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los artículos nuevos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los artículos nuevos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los artículos nuevos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los nuevos artículos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los nuevos artículos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los nuevos artículos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los nuevos artículos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los nuevas informaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los nuevas informaciones de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los nuevas informaciones de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los nuevas informaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los nuevas informaciones de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	va a los nuevas informaciones de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	noticias de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	noticias de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	noticias de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	noticias de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	noticias de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	noticias de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	novedades de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	novedades de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	novedades de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	novedades de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	novedades de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	novedades de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las noticias de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las noticias de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las noticias de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las noticias de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las noticias de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las noticias de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las novedades de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las novedades de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las novedades de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las novedades de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las novedades de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	las novedades de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevos artículos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevos artículos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevos artículos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevos artículos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	artículos nuevos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	artículos nuevos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	artículos nuevos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	artículos nuevos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevas informaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevas informaciones de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevas informaciones de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevas informaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevas informaciones de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	nuevas informaciones de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra noticias de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra noticias de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra noticias de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra noticias de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra noticias de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra noticias de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra novedades de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra novedades de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra novedades de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra novedades de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra novedades de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra novedades de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra las noticias de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra las noticias de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra las noticias de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra las noticias de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra las noticias de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra las noticias de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra las novedades de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra las novedades de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra las novedades de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra las novedades de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra las novedades de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra las novedades de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra nuevos artículos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra nuevos artículos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra nuevos artículos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra nuevos artículos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra artículos nuevos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra artículos nuevos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra artículos nuevos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra artículos nuevos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra nuevas informaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra nuevas informaciones de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra nuevas informaciones de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra nuevas informaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra nuevas informaciones de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muestra nuevas informaciones de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame noticias de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame noticias de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame noticias de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame noticias de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame noticias de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame noticias de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame novedades de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame novedades de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame novedades de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame novedades de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame novedades de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame novedades de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame las noticias de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame las noticias de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame las noticias de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame las noticias de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame las noticias de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame las noticias de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame las novedades de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame las novedades de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame las novedades de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame las novedades de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame las novedades de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame las novedades de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame nuevos artículos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame nuevos artículos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame nuevos artículos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame nuevos artículos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame artículos nuevos de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame artículos nuevos de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame artículos nuevos de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame artículos nuevos de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame nuevas informaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame nuevas informaciones de la sección de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame nuevas informaciones de la sección sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame nuevas informaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame nuevas informaciones de la parte de NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	ShowNewsFromSection	-	muéstrame nuevas informaciones de la parte sobre NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
 News	NotifyWhenPortalUpdates	-	notifícame cuando NEWS.SLOT.PORTAL actualice las noticias
 News	NotifyWhenPortalUpdates	-	notifícame cuando NEWS.SLOT.PORTAL actualice la página principal
+News	NotifyWhenPortalUpdates	-	notifícame cuando NEWS.SLOT.PORTAL publique algo nuevo
+News	NotifyWhenPortalUpdates	-	notifícame cuando NEWS.SLOT.PORTAL publique nuevas noticias
+News	NotifyWhenPortalUpdates	-	notifícame cuando NEWS.SLOT.PORTAL publique un nuevo artículo
+News	NotifyWhenPortalUpdates	-	notifícame cuando NEWS.SLOT.PORTAL publique nuevas informaciones
+News	NotifyWhenPortalUpdates	-	notifícame cuando aparezcan nuevas noticias en NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	notifícame sobre novedades de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	notifícame sobre novedades en la página principal de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	notifícame sobre nuevas noticias de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	notifícame sobre nuevas noticias en la página principal de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	notifícame sobre nuevas publicaciones de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	notifícame sobre nuevas publicaciones en la página principal de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	notifícame sobre un nuevo artículo de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	notifícame sobre un nuevo artículo en la página principal de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	notifícame sobre un artículo nuevo de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	notifícame sobre un artículo nuevo en la página principal de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	avísame cuando NEWS.SLOT.PORTAL actualice las noticias
+News	NotifyWhenPortalUpdates	-	avísame cuando NEWS.SLOT.PORTAL actualice la página principal
+News	NotifyWhenPortalUpdates	-	avísame cuando NEWS.SLOT.PORTAL publique algo nuevo
+News	NotifyWhenPortalUpdates	-	avísame cuando NEWS.SLOT.PORTAL publique nuevas noticias
+News	NotifyWhenPortalUpdates	-	avísame cuando NEWS.SLOT.PORTAL publique un nuevo artículo
+News	NotifyWhenPortalUpdates	-	avísame cuando NEWS.SLOT.PORTAL publique nuevas informaciones
+News	NotifyWhenPortalUpdates	-	avísame cuando aparezcan nuevas noticias en NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	avísame sobre novedades de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	avísame sobre novedades en la página principal de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	avísame sobre nuevas noticias de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	avísame sobre nuevas noticias en la página principal de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	avísame sobre nuevas publicaciones de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	avísame sobre nuevas publicaciones en la página principal de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	avísame sobre un nuevo artículo de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	avísame sobre un nuevo artículo en la página principal de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	avísame sobre un artículo nuevo de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdates	-	avísame sobre un artículo nuevo en la página principal de NEWS.SLOT.PORTAL
 News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL publique un nuevo artículo
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL publique un nuevo artículo
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando aparezca algo nuevo en la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando aparezca algo nuevo en la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando aparezca algo nuevo de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando aparezca algo nuevo de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando aparezca un nuevo artículo en la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando aparezca un nuevo artículo en la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando aparezca un nuevo artículo de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando aparezca un nuevo artículo de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando aparezca un artículo nuevo en la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando aparezca un artículo nuevo en la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando aparezca un artículo nuevo de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame cuando aparezca un artículo nuevo de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame sobre novedades de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame sobre novedades de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame sobre nuevas noticias de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame sobre nuevas noticias de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame sobre nuevas publicaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame sobre nuevas publicaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame sobre nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame sobre nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame sobre artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	notifícame sobre artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL publique un nuevo artículo
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL publique un nuevo artículo
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando aparezca algo nuevo en la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando aparezca algo nuevo en la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando aparezca algo nuevo de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando aparezca algo nuevo de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando aparezca un nuevo artículo en la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando aparezca un nuevo artículo en la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando aparezca un nuevo artículo de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando aparezca un nuevo artículo de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando aparezca un artículo nuevo en la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando aparezca un artículo nuevo en la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando aparezca un artículo nuevo de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame cuando aparezca un artículo nuevo de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame sobre novedades de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame sobre novedades de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame sobre nuevas noticias de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame sobre nuevas noticias de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame sobre nuevas publicaciones de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame sobre nuevas publicaciones de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame sobre nuevos artículos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame sobre nuevos artículos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame sobre artículos nuevos de la sección NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL
+News	NotifyWhenPortalUpdatesInSection	-	avísame sobre artículos nuevos de la parte NEWS.SLOT.SECTION de NEWS.SLOT.PORTAL

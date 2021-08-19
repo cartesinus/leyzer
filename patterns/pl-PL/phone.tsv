@@ -14,11 +14,15 @@ Phone	CallNumber	-	zatelefonuj do PHONE.SLOT.PHONE_NUMBER
 Phone	CallNumber	-	przedzwoń na PHONE.SLOT.PHONE_NUMBER
 Phone	CallNumber	-	przedzwoń na numer PHONE.SLOT.PHONE_NUMBER
 Phone	CallNumber	-	przedzwoń do PHONE.SLOT.PHONE_NUMBER
+Phone	CallNumber	-	wybierz PHONE.SLOT.PHONE_NUMBER
 Phone	CallNumber	-	wybierz numer PHONE.SLOT.PHONE_NUMBER
 Phone	CallNumber	-	wykonaj telefon do PHONE.SLOT.PHONE_NUMBER
 Phone	CallNumber	-	wykonaj telefon na numer PHONE.SLOT.PHONE_NUMBER
 Phone	CallNumber	-	połącz mnie z PHONE.SLOT.PHONE_NUMBER
 Phone	CallNumber	-	połącz mnie z numerem PHONE.SLOT.PHONE_NUMBER
+Phone	CallNumber	-	PHONE.SLOT.PHONE_NUMBER dzwoń
+Phone	CallNumber	-	PHONE.SLOT.PHONE_NUMBER zadzwoń
+Phone	CallNumber	-	PHONE.SLOT.PHONE_NUMBER wybierz
 Phone	CallEmergency	-	dzwoń na policję
 Phone	CallEmergency	-	dzwoń na straż pożarną
 Phone	CallEmergency	-	dzwoń na pogotowie
@@ -26,6 +30,8 @@ Phone	CallEmergency	-	dzwoń po policję
 Phone	CallEmergency	-	dzwoń po straż pożarną
 Phone	CallEmergency	-	dzwoń po pogotowie
 Phone	CallEmergency	-	dzwoń na 112
+Phone	CallEmergency	-	dzwoń po karetkę
+Phone	CallEmergency	-	dzwoń na numer alarmowy
 Phone	CallEmergency	-	zadzwoń na policję
 Phone	CallEmergency	-	zadzwoń na straż pożarną
 Phone	CallEmergency	-	zadzwoń na pogotowie
@@ -33,6 +39,8 @@ Phone	CallEmergency	-	zadzwoń po policję
 Phone	CallEmergency	-	zadzwoń po straż pożarną
 Phone	CallEmergency	-	zadzwoń po pogotowie
 Phone	CallEmergency	-	zadzwoń na 112
+Phone	CallEmergency	-	zadzwoń po karetkę
+Phone	CallEmergency	-	zadzwoń na numer alarmowy
 Phone	CallEmergency	-	telefonuj na policję
 Phone	CallEmergency	-	telefonuj na straż pożarną
 Phone	CallEmergency	-	telefonuj na pogotowie
@@ -40,6 +48,8 @@ Phone	CallEmergency	-	telefonuj po policję
 Phone	CallEmergency	-	telefonuj po straż pożarną
 Phone	CallEmergency	-	telefonuj po pogotowie
 Phone	CallEmergency	-	telefonuj na 112
+Phone	CallEmergency	-	telefonuj po karetkę
+Phone	CallEmergency	-	telefonuj na numer alarmowy
 Phone	CallEmergency	-	zatelefonuj na policję
 Phone	CallEmergency	-	zatelefonuj na straż pożarną
 Phone	CallEmergency	-	zatelefonuj na pogotowie
@@ -47,6 +57,8 @@ Phone	CallEmergency	-	zatelefonuj po policję
 Phone	CallEmergency	-	zatelefonuj po straż pożarną
 Phone	CallEmergency	-	zatelefonuj po pogotowie
 Phone	CallEmergency	-	zatelefonuj na 112
+Phone	CallEmergency	-	zatelefonuj po karetkę
+Phone	CallEmergency	-	zatelefonuj na numer alarmowy
 Phone	CallEmergency	-	przedzwoń na policję
 Phone	CallEmergency	-	przedzwoń na straż pożarną
 Phone	CallEmergency	-	przedzwoń na pogotowie
@@ -54,18 +66,49 @@ Phone	CallEmergency	-	przedzwoń po policję
 Phone	CallEmergency	-	przedzwoń po straż pożarną
 Phone	CallEmergency	-	przedzwoń po pogotowie
 Phone	CallEmergency	-	przedzwoń na 112
+Phone	CallEmergency	-	przedzwoń po karetkę
+Phone	CallEmergency	-	przedzwoń na numer alarmowy
+Phone	CallEmergency	-	wezwij pomoc
 Phone	ShowSMS	-	sprawdź moje wiadomości
 Phone	ShowSMS	-	sprawdź moje smsy
 Phone	ShowSMS	-	sprawdź moje przychodzące wiadomości
 Phone	ShowSMS	-	sprawdź moje przychodzące smsy
+Phone	ShowSMS	-	sprawdź odebrane wiadomości
+Phone	ShowSMS	-	sprawdź odebrane smsy
 Phone	ShowSMS	-	wyświetl moje wiadomości
 Phone	ShowSMS	-	wyświetl moje smsy
 Phone	ShowSMS	-	wyświetl moje przychodzące wiadomości
 Phone	ShowSMS	-	wyświetl moje przychodzące smsy
+Phone	ShowSMS	-	wyświetl odebrane wiadomości
+Phone	ShowSMS	-	wyświetl odebrane smsy
 Phone	ShowSMS	-	pokaż moje wiadomości
 Phone	ShowSMS	-	pokaż moje smsy
 Phone	ShowSMS	-	pokaż moje przychodzące wiadomości
 Phone	ShowSMS	-	pokaż moje przychodzące smsy
+Phone	ShowSMS	-	pokaż odebrane wiadomości
+Phone	ShowSMS	-	pokaż odebrane smsy
+Phone	ShowSMS	-	otwórz moje wiadomości
+Phone	ShowSMS	-	otwórz moje smsy
+Phone	ShowSMS	-	otwórz moje przychodzące wiadomości
+Phone	ShowSMS	-	otwórz moje przychodzące smsy
+Phone	ShowSMS	-	otwórz odebrane wiadomości
+Phone	ShowSMS	-	otwórz odebrane smsy
+Phone	ShowSMS	-	sprawdź wiadomości które dostałem
+Phone	ShowSMS	-	sprawdź wiadomości które do mnie przyszły
+Phone	ShowSMS	-	sprawdź smsy które dostałem
+Phone	ShowSMS	-	sprawdź smsy które do mnie przyszły
+Phone	ShowSMS	-	wyświetl wiadomości które dostałem
+Phone	ShowSMS	-	wyświetl wiadomości które do mnie przyszły
+Phone	ShowSMS	-	wyświetl smsy które dostałem
+Phone	ShowSMS	-	wyświetl smsy które do mnie przyszły
+Phone	ShowSMS	-	pokaż wiadomości które dostałem
+Phone	ShowSMS	-	pokaż wiadomości które do mnie przyszły
+Phone	ShowSMS	-	pokaż smsy które dostałem
+Phone	ShowSMS	-	pokaż smsy które do mnie przyszły
+Phone	ShowSMS	-	otwórz wiadomości które dostałem
+Phone	ShowSMS	-	otwórz wiadomości które do mnie przyszły
+Phone	ShowSMS	-	otwórz smsy które dostałem
+Phone	ShowSMS	-	otwórz smsy które do mnie przyszły
 Phone	SMSToContact	-	wyślij sms do PHONE.SLOT.TO
 Phone	SMSToContact	-	wyślij wiadomość do PHONE.SLOT.TO
 Phone	SMSToContact	-	wyślij wiadomość tekstową do PHONE.SLOT.TO
@@ -84,6 +127,7 @@ Phone	SMSToContact	-	wiadomość tekstową do PHONE.SLOT.TO
 Phone	SMSToContact	-	napisz do PHONE.SLOT.TO wiadomość
 Phone	SMSToContact	-	napisz do PHONE.SLOT.TO wiadomość tekstową
 Phone	SMSToContact	-	napisz do PHONE.SLOT.TO sms
+Phone	SMSToContact	-	sms do PHONE.SLOT.TO
 Phone	SMSToContactWithMessage	-	sms do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
 Phone	SMSToContactWithMessage	-	wiadomość do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
 Phone	SMSToContactWithMessage	-	wiadomość tekstową do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE

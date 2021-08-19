@@ -1,6 +1,10 @@
 domain	intent	parallel	pattern
 Youtube	OpenYT	-	otwórz yt
 Youtube	OpenYT	-	otwórz youtube
+Youtube	OpenYT	-	włącz yt
+Youtube	OpenYT	-	włącz youtube
+Youtube	OpenYT	-	uruchom yt
+Youtube	OpenYT	-	uruchom youtube
 Youtube	FindQuery	-	odtwórz YOUTUBE.SLOT.QUERY na yt
 Youtube	FindQuery	-	odtwórz YOUTUBE.SLOT.QUERY na youtube
 Youtube	FindQuery	-	odtwórz wideo z YOUTUBE.SLOT.QUERY
@@ -196,27 +200,27 @@ Youtube	ShowChannelWithCategory	-	wyświetl kanały z kategorii YOUTUBE.SLOT.CAT
 Youtube	ShowSubscribedChannels	-	pokaż kanały które subskrybuję
 Youtube	ShowSubscribedChannels	-	pokaż kanały które subskrybuję na yt
 Youtube	ShowSubscribedChannels	-	pokaż kanały które subskrybuję na youtube
+Youtube	ShowSubscribedChannels	-	pokaż kanały które śledzę
+Youtube	ShowSubscribedChannels	-	pokaż kanały które śledzę na yt
+Youtube	ShowSubscribedChannels	-	pokaż kanały które śledzę na youtube
+Youtube	ShowSubscribedChannels	-	pokaż kanały które obserwuję
+Youtube	ShowSubscribedChannels	-	pokaż kanały które obserwuję na yt
+Youtube	ShowSubscribedChannels	-	pokaż kanały które obserwuję na youtube
+Youtube	ShowSubscribedChannels	-	pokaż kanały które followuję
+Youtube	ShowSubscribedChannels	-	pokaż kanały które followuję na yt
+Youtube	ShowSubscribedChannels	-	pokaż kanały które followuję na youtube
 Youtube	ShowSubscribedChannels	-	pokaż mi kanały które subskrybuję
 Youtube	ShowSubscribedChannels	-	pokaż mi kanały które subskrybuję na yt
 Youtube	ShowSubscribedChannels	-	pokaż mi kanały które subskrybuję na youtube
-Youtube	ShowFollowing	-	pokaż kanały które śledzę
-Youtube	ShowFollowing	-	pokaż kanały które śledzę na yt
-Youtube	ShowFollowing	-	pokaż kanały które śledzę na youtube
-Youtube	ShowFollowing	-	pokaż kanały które obserwuję
-Youtube	ShowFollowing	-	pokaż kanały które obserwuję na yt
-Youtube	ShowFollowing	-	pokaż kanały które obserwuję na youtube
-Youtube	ShowFollowing	-	pokaż kanały które followuję
-Youtube	ShowFollowing	-	pokaż kanały które followuję na yt
-Youtube	ShowFollowing	-	pokaż kanały które followuję na youtube
-Youtube	ShowFollowing	-	pokaż mi kanały które śledzę
-Youtube	ShowFollowing	-	pokaż mi kanały które śledzę na yt
-Youtube	ShowFollowing	-	pokaż mi kanały które śledzę na youtube
-Youtube	ShowFollowing	-	pokaż mi kanały które obserwuję
-Youtube	ShowFollowing	-	pokaż mi kanały które obserwuję na yt
-Youtube	ShowFollowing	-	pokaż mi kanały które obserwuję na youtube
-Youtube	ShowFollowing	-	pokaż mi kanały które followuję
-Youtube	ShowFollowing	-	pokaż mi kanały które followuję na yt
-Youtube	ShowFollowing	-	pokaż mi kanały które followuję na youtube
+Youtube	ShowSubscribedChannels	-	pokaż mi kanały które śledzę
+Youtube	ShowSubscribedChannels	-	pokaż mi kanały które śledzę na yt
+Youtube	ShowSubscribedChannels	-	pokaż mi kanały które śledzę na youtube
+Youtube	ShowSubscribedChannels	-	pokaż mi kanały które obserwuję
+Youtube	ShowSubscribedChannels	-	pokaż mi kanały które obserwuję na yt
+Youtube	ShowSubscribedChannels	-	pokaż mi kanały które obserwuję na youtube
+Youtube	ShowSubscribedChannels	-	pokaż mi kanały które followuję
+Youtube	ShowSubscribedChannels	-	pokaż mi kanały które followuję na yt
+Youtube	ShowSubscribedChannels	-	pokaż mi kanały które followuję na youtube
 Youtube	FindChannelWithQuery	-	wyszukaj kanały z YOUTUBE.SLOT.QUERY
 Youtube	FindChannelWithQuery	-	wyszukaj kanały z YOUTUBE.SLOT.QUERY na yt
 Youtube	FindChannelWithQuery	-	wyszukaj kanały z YOUTUBE.SLOT.QUERY na youtube
@@ -501,6 +505,54 @@ Youtube	NotifyOnNewFromFollowing	-	powiadom mnie kiedy pojawi się nowe film na 
 Youtube	NotifyOnNewFromFollowing	-	powiadom mnie kiedy pojawi się nowe film na kanale który followuję
 Youtube	NotifyOnNewFromFollowing	-	powiadom mnie kiedy pojawi się nowe film na kanale który obserwuję
 Youtube	NotifyOnNewFromFollowing	-	powiadom mnie kiedy pojawi się nowe film na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się wideo na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się wideo na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się wideo na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się wideo na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się klip na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się klip na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się klip na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się klip na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się film na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się film na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się film na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się film na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się nowe wideo na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się nowe wideo na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się nowe wideo na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się nowe wideo na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się nowe klip na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się nowe klip na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się nowe klip na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się nowe klip na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się nowe film na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się nowe film na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się nowe film na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeżeli pojawi się nowe film na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się wideo na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się wideo na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się wideo na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się wideo na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się klip na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się klip na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się klip na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się klip na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się film na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się film na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się film na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się film na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się nowe wideo na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się nowe wideo na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się nowe wideo na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się nowe wideo na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się nowe klip na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się nowe klip na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się nowe klip na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się nowe klip na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się nowe film na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się nowe film na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się nowe film na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiadom mnie jeśli pojawi się nowe film na kanale który oglądam
 Youtube	NotifyOnNewFromFollowing	-	powiedz mi kiedy pojawi się wideo na kanale który śledzę
 Youtube	NotifyOnNewFromFollowing	-	powiedz mi kiedy pojawi się wideo na kanale który followuję
 Youtube	NotifyOnNewFromFollowing	-	powiedz mi kiedy pojawi się wideo na kanale który obserwuję
@@ -525,15 +577,91 @@ Youtube	NotifyOnNewFromFollowing	-	powiedz mi kiedy pojawi się nowe film na kan
 Youtube	NotifyOnNewFromFollowing	-	powiedz mi kiedy pojawi się nowe film na kanale który followuję
 Youtube	NotifyOnNewFromFollowing	-	powiedz mi kiedy pojawi się nowe film na kanale który obserwuję
 Youtube	NotifyOnNewFromFollowing	-	powiedz mi kiedy pojawi się nowe film na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się wideo na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się wideo na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się wideo na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się wideo na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się klip na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się klip na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się klip na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się klip na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się film na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się film na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się film na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się film na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się nowe wideo na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się nowe wideo na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się nowe wideo na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się nowe wideo na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się nowe klip na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się nowe klip na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się nowe klip na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się nowe klip na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się nowe film na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się nowe film na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się nowe film na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeżeli pojawi się nowe film na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się wideo na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się wideo na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się wideo na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się wideo na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się klip na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się klip na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się klip na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się klip na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się film na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się film na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się film na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się film na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się nowe wideo na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się nowe wideo na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się nowe wideo na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się nowe wideo na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się nowe klip na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się nowe klip na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się nowe klip na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się nowe klip na kanale który oglądam
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się nowe film na kanale który śledzę
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się nowe film na kanale który followuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się nowe film na kanale który obserwuję
+Youtube	NotifyOnNewFromFollowing	-	powiedz mi jeśli pojawi się nowe film na kanale który oglądam
 Youtube	NotifyonNewOnChannel	-	powiadom mnie kiedy na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się klip
 Youtube	NotifyonNewOnChannel	-	powiadom mnie kiedy na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowy klip
 Youtube	NotifyonNewOnChannel	-	powiadom mnie kiedy na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się film
 Youtube	NotifyonNewOnChannel	-	powiadom mnie kiedy na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowy film
 Youtube	NotifyonNewOnChannel	-	powiadom mnie kiedy na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się wideo
 Youtube	NotifyonNewOnChannel	-	powiadom mnie kiedy na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowe wideo
+Youtube	NotifyonNewOnChannel	-	powiadom mnie jeżeli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się klip
+Youtube	NotifyonNewOnChannel	-	powiadom mnie jeżeli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowy klip
+Youtube	NotifyonNewOnChannel	-	powiadom mnie jeżeli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się film
+Youtube	NotifyonNewOnChannel	-	powiadom mnie jeżeli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowy film
+Youtube	NotifyonNewOnChannel	-	powiadom mnie jeżeli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się wideo
+Youtube	NotifyonNewOnChannel	-	powiadom mnie jeżeli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowe wideo
+Youtube	NotifyonNewOnChannel	-	powiadom mnie jeśli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się klip
+Youtube	NotifyonNewOnChannel	-	powiadom mnie jeśli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowy klip
+Youtube	NotifyonNewOnChannel	-	powiadom mnie jeśli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się film
+Youtube	NotifyonNewOnChannel	-	powiadom mnie jeśli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowy film
+Youtube	NotifyonNewOnChannel	-	powiadom mnie jeśli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się wideo
+Youtube	NotifyonNewOnChannel	-	powiadom mnie jeśli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowe wideo
 Youtube	NotifyonNewOnChannel	-	powiedz mi kiedy na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się klip
 Youtube	NotifyonNewOnChannel	-	powiedz mi kiedy na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowy klip
 Youtube	NotifyonNewOnChannel	-	powiedz mi kiedy na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się film
 Youtube	NotifyonNewOnChannel	-	powiedz mi kiedy na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowy film
 Youtube	NotifyonNewOnChannel	-	powiedz mi kiedy na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się wideo
 Youtube	NotifyonNewOnChannel	-	powiedz mi kiedy na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowe wideo
+Youtube	NotifyonNewOnChannel	-	powiedz mi jeżeli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się klip
+Youtube	NotifyonNewOnChannel	-	powiedz mi jeżeli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowy klip
+Youtube	NotifyonNewOnChannel	-	powiedz mi jeżeli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się film
+Youtube	NotifyonNewOnChannel	-	powiedz mi jeżeli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowy film
+Youtube	NotifyonNewOnChannel	-	powiedz mi jeżeli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się wideo
+Youtube	NotifyonNewOnChannel	-	powiedz mi jeżeli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowe wideo
+Youtube	NotifyonNewOnChannel	-	powiedz mi jeśli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się klip
+Youtube	NotifyonNewOnChannel	-	powiedz mi jeśli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowy klip
+Youtube	NotifyonNewOnChannel	-	powiedz mi jeśli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się film
+Youtube	NotifyonNewOnChannel	-	powiedz mi jeśli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowy film
+Youtube	NotifyonNewOnChannel	-	powiedz mi jeśli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się wideo
+Youtube	NotifyonNewOnChannel	-	powiedz mi jeśli na kanale YOUTUBE.SLOT.CHANNEL_ID pojawi się nowe wideo
+Youtube	NextVide	-	włącz następne video
+Youtube	NextVide	-	włącz następne film
+Youtube	NextVide	-	puść następne video
+Youtube	NextVide	-	puść następne film

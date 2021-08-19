@@ -4,6 +4,7 @@ Facebook	OpenFacebook	-	publica algo en el facebook
 Facebook	OpenFacebook	-	crea una nueva publicación en el facebook
 Facebook	OpenFacebook	-	crea una nueva publicación de facebook
 Facebook	OpenFacebook	-	actualiza mi estado de facebook
+Facebook	OpenFacebook	-	cambia mi estado de facebook
 Facebook	PostStatus	-	publica FACEBOOK.SLOT.STATUS en facebook
 Facebook	PostStatus	-	publica FACEBOOK.SLOT.STATUS en el facebook
 Facebook	PostStatus	-	publica en facebook que FACEBOOK.SLOT.STATUS
@@ -11,7 +12,6 @@ Facebook	PostStatus	-	publica en facebook diciendo que FACEBOOK.SLOT.STATUS
 Facebook	PostStatus	-	publica en el facebook que FACEBOOK.SLOT.STATUS
 Facebook	PostStatus	-	publica en el facebook diciendo que FACEBOOK.SLOT.STATUS
 Facebook	PostStatus	-	actualiza mi estado de facebook diciendo FACEBOOK.SLOT.STATUS
-Facebook	PostStatus	-	actualiza mi página de facebook diciendo FACEBOOK.SLOT.STATUS
 Facebook	PostStatus	-	crea una nueva publicación que dice FACEBOOK.SLOT.STATUS en facebook
 Facebook	PostStatus	-	crea una nueva publicación que dice FACEBOOK.SLOT.STATUS en el facebook
 Facebook	PostStatus	-	crea una nueva publicación que diga FACEBOOK.SLOT.STATUS en facebook
@@ -36,6 +36,10 @@ Facebook	PostPictureWithCaption	-	publica una imagen con el título FACEBOOK.SLO
 Facebook	PostPictureWithCaption	-	publica una imagen con el título FACEBOOK.SLOT.CAPTION en el facebook
 Facebook	PostPictureWithCaption	-	publica una imagen en facebook con el título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithCaption	-	publica una imagen en el facebook con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	pon una imagen con el título FACEBOOK.SLOT.CAPTION en facebook
+Facebook	PostPictureWithCaption	-	pon una imagen con el título FACEBOOK.SLOT.CAPTION en el facebook
+Facebook	PostPictureWithCaption	-	pon una imagen en facebook con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	pon una imagen en el facebook con el título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithCaption	-	sube una imagen a facebook con título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithCaption	-	sube una imagen a facebook con un título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithCaption	-	sube una imagen a facebook con el título FACEBOOK.SLOT.CAPTION
@@ -60,35 +64,149 @@ Facebook	PostPictureWithCaption	-	sube una foto con un título FACEBOOK.SLOT.CAP
 Facebook	PostPictureWithCaption	-	sube una foto con un título FACEBOOK.SLOT.CAPTION al facebook
 Facebook	PostPictureWithCaption	-	sube una foto con el título FACEBOOK.SLOT.CAPTION a facebook
 Facebook	PostPictureWithCaption	-	sube una foto con el título FACEBOOK.SLOT.CAPTION al facebook
+Facebook	PostPictureWithCaption	-	añade una imagen a facebook con título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	añade una imagen a facebook con un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	añade una imagen a facebook con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	añade una imagen al facebook con título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	añade una imagen al facebook con un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	añade una imagen al facebook con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	añade una imagen con título FACEBOOK.SLOT.CAPTION a facebook
+Facebook	PostPictureWithCaption	-	añade una imagen con título FACEBOOK.SLOT.CAPTION al facebook
+Facebook	PostPictureWithCaption	-	añade una imagen con un título FACEBOOK.SLOT.CAPTION a facebook
+Facebook	PostPictureWithCaption	-	añade una imagen con un título FACEBOOK.SLOT.CAPTION al facebook
+Facebook	PostPictureWithCaption	-	añade una imagen con el título FACEBOOK.SLOT.CAPTION a facebook
+Facebook	PostPictureWithCaption	-	añade una imagen con el título FACEBOOK.SLOT.CAPTION al facebook
+Facebook	PostPictureWithCaption	-	añade una foto a facebook con título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	añade una foto a facebook con un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	añade una foto a facebook con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	añade una foto al facebook con título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	añade una foto al facebook con un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	añade una foto al facebook con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithCaption	-	añade una foto con título FACEBOOK.SLOT.CAPTION a facebook
+Facebook	PostPictureWithCaption	-	añade una foto con título FACEBOOK.SLOT.CAPTION al facebook
+Facebook	PostPictureWithCaption	-	añade una foto con un título FACEBOOK.SLOT.CAPTION a facebook
+Facebook	PostPictureWithCaption	-	añade una foto con un título FACEBOOK.SLOT.CAPTION al facebook
+Facebook	PostPictureWithCaption	-	añade una foto con el título FACEBOOK.SLOT.CAPTION a facebook
+Facebook	PostPictureWithCaption	-	añade una foto con el título FACEBOOK.SLOT.CAPTION al facebook
 Facebook	PostPictureWithUrl	-	publica FACEBOOK.SLOT.PICTURE_URL en facebook
 Facebook	PostPictureWithUrl	-	publica FACEBOOK.SLOT.PICTURE_URL en el facebook
+Facebook	PostPictureWithUrl	-	pon FACEBOOK.SLOT.PICTURE_URL en facebook
+Facebook	PostPictureWithUrl	-	pon FACEBOOK.SLOT.PICTURE_URL en el facebook
 Facebook	PostPictureWithUrl	-	sube FACEBOOK.SLOT.PICTURE_URL a facebook
 Facebook	PostPictureWithUrl	-	sube FACEBOOK.SLOT.PICTURE_URL al facebook
+Facebook	PostPictureWithUrl	-	añade FACEBOOK.SLOT.PICTURE_URL a facebook
+Facebook	PostPictureWithUrl	-	añade FACEBOOK.SLOT.PICTURE_URL al facebook
 Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en facebook con título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en facebook con un título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en facebook con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en facebook y dale título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en facebook y dale un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en facebook y dale el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en facebook y ponle título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en facebook y ponle un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en facebook y ponle el título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en mi facebook con título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en mi facebook con un título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en mi facebook con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en mi facebook y dale título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en mi facebook y dale un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en mi facebook y dale el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en mi facebook y ponle título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en mi facebook y ponle un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	publica FACEBOOK.SLOT.PICTURE_URL en mi facebook y ponle el título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en facebook con título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en facebook con un título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en facebook con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en facebook y dale título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en facebook y dale un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en facebook y dale el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en facebook y ponle título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en facebook y ponle un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en facebook y ponle el título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en mi facebook con título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en mi facebook con un título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en mi facebook con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en mi facebook y dale título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en mi facebook y dale un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en mi facebook y dale el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en mi facebook y ponle título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en mi facebook y ponle un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	pon FACEBOOK.SLOT.PICTURE_URL en mi facebook y ponle el título FACEBOOK.SLOT.CAPTION
 Facebook	PostPictureWithUrlAndWithCaption	-	titula FACEBOOK.SLOT.PICTURE_URL como FACEBOOK.SLOT.CAPTION y pónlo en facebook
 Facebook	PostPictureWithUrlAndWithCaption	-	titula FACEBOOK.SLOT.PICTURE_URL como FACEBOOK.SLOT.CAPTION y pónlo en el facebook
 Facebook	PostPictureWithUrlAndWithCaption	-	titula FACEBOOK.SLOT.PICTURE_URL como FACEBOOK.SLOT.CAPTION y públicalo en facebook
 Facebook	PostPictureWithUrlAndWithCaption	-	titula FACEBOOK.SLOT.PICTURE_URL como FACEBOOK.SLOT.CAPTION y públicalo en el facebook
+Facebook	PostPictureWithUrlAndWithCaption	-	sube FACEBOOK.SLOT.PICTURE_URL a mi con un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	sube FACEBOOK.SLOT.PICTURE_URL a mi con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	sube FACEBOOK.SLOT.PICTURE_URL a mi y dale un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	sube FACEBOOK.SLOT.PICTURE_URL a mi y dale el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	sube FACEBOOK.SLOT.PICTURE_URL a mi y ponle un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	sube FACEBOOK.SLOT.PICTURE_URL a mi y ponle el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	sube FACEBOOK.SLOT.PICTURE_URL al facebook con un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	sube FACEBOOK.SLOT.PICTURE_URL al facebook con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	sube FACEBOOK.SLOT.PICTURE_URL al facebook y dale un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	sube FACEBOOK.SLOT.PICTURE_URL al facebook y dale el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	sube FACEBOOK.SLOT.PICTURE_URL al facebook y ponle un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	sube FACEBOOK.SLOT.PICTURE_URL al facebook y ponle el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	añade FACEBOOK.SLOT.PICTURE_URL a mi con un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	añade FACEBOOK.SLOT.PICTURE_URL a mi con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	añade FACEBOOK.SLOT.PICTURE_URL a mi y dale un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	añade FACEBOOK.SLOT.PICTURE_URL a mi y dale el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	añade FACEBOOK.SLOT.PICTURE_URL a mi y ponle un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	añade FACEBOOK.SLOT.PICTURE_URL a mi y ponle el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	añade FACEBOOK.SLOT.PICTURE_URL al facebook con un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	añade FACEBOOK.SLOT.PICTURE_URL al facebook con el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	añade FACEBOOK.SLOT.PICTURE_URL al facebook y dale un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	añade FACEBOOK.SLOT.PICTURE_URL al facebook y dale el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	añade FACEBOOK.SLOT.PICTURE_URL al facebook y ponle un título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	añade FACEBOOK.SLOT.PICTURE_URL al facebook y ponle el título FACEBOOK.SLOT.CAPTION
+Facebook	PostPictureWithUrlAndWithCaption	-	titula FACEBOOK.SLOT.PICTURE_URL como FACEBOOK.SLOT.CAPTION y súbelo al facebook
+Facebook	PostPictureWithUrlAndWithCaption	-	titula FACEBOOK.SLOT.PICTURE_URL como FACEBOOK.SLOT.CAPTION y añádelo al facebook
 Facebook	ShowAlbumWithName	-	muestra imágenes en álbum FACEBOOK.SLOT.ALBUM
 Facebook	ShowAlbumWithName	-	muestra imágenes en álbum FACEBOOK.SLOT.ALBUM en facebook
 Facebook	ShowAlbumWithName	-	muestra imágenes en álbum FACEBOOK.SLOT.ALBUM en el facebook
 Facebook	ShowAlbumWithName	-	muestra imágenes en mi álbum FACEBOOK.SLOT.ALBUM
 Facebook	ShowAlbumWithName	-	muestra imágenes en mi álbum FACEBOOK.SLOT.ALBUM en facebook
 Facebook	ShowAlbumWithName	-	muestra imágenes en mi álbum FACEBOOK.SLOT.ALBUM en el facebook
+Facebook	ShowAlbumWithName	-	muestra imágenes de mi álbum FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	muestra imágenes de mi álbum FACEBOOK.SLOT.ALBUM en facebook
+Facebook	ShowAlbumWithName	-	muestra imágenes de mi álbum FACEBOOK.SLOT.ALBUM en el facebook
+Facebook	ShowAlbumWithName	-	muestra imágenes del álbum FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	muestra imágenes del álbum FACEBOOK.SLOT.ALBUM en facebook
+Facebook	ShowAlbumWithName	-	muestra imágenes del álbum FACEBOOK.SLOT.ALBUM en el facebook
+Facebook	ShowAlbumWithName	-	muestra fotos en álbum FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	muestra fotos en álbum FACEBOOK.SLOT.ALBUM en facebook
+Facebook	ShowAlbumWithName	-	muestra fotos en álbum FACEBOOK.SLOT.ALBUM en el facebook
+Facebook	ShowAlbumWithName	-	muestra fotos en mi álbum FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	muestra fotos en mi álbum FACEBOOK.SLOT.ALBUM en facebook
+Facebook	ShowAlbumWithName	-	muestra fotos en mi álbum FACEBOOK.SLOT.ALBUM en el facebook
+Facebook	ShowAlbumWithName	-	muestra fotos de mi álbum FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	muestra fotos de mi álbum FACEBOOK.SLOT.ALBUM en facebook
+Facebook	ShowAlbumWithName	-	muestra fotos de mi álbum FACEBOOK.SLOT.ALBUM en el facebook
+Facebook	ShowAlbumWithName	-	muestra fotos del álbum FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	muestra fotos del álbum FACEBOOK.SLOT.ALBUM en facebook
+Facebook	ShowAlbumWithName	-	muestra fotos del álbum FACEBOOK.SLOT.ALBUM en el facebook
 Facebook	ShowAlbumWithName	-	muéstrame imágenes en álbum FACEBOOK.SLOT.ALBUM
 Facebook	ShowAlbumWithName	-	muéstrame imágenes en álbum FACEBOOK.SLOT.ALBUM en facebook
 Facebook	ShowAlbumWithName	-	muéstrame imágenes en álbum FACEBOOK.SLOT.ALBUM en el facebook
 Facebook	ShowAlbumWithName	-	muéstrame imágenes en mi álbum FACEBOOK.SLOT.ALBUM
 Facebook	ShowAlbumWithName	-	muéstrame imágenes en mi álbum FACEBOOK.SLOT.ALBUM en facebook
 Facebook	ShowAlbumWithName	-	muéstrame imágenes en mi álbum FACEBOOK.SLOT.ALBUM en el facebook
+Facebook	ShowAlbumWithName	-	muéstrame imágenes de mi álbum FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	muéstrame imágenes de mi álbum FACEBOOK.SLOT.ALBUM en facebook
+Facebook	ShowAlbumWithName	-	muéstrame imágenes de mi álbum FACEBOOK.SLOT.ALBUM en el facebook
+Facebook	ShowAlbumWithName	-	muéstrame imágenes del álbum FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	muéstrame imágenes del álbum FACEBOOK.SLOT.ALBUM en facebook
+Facebook	ShowAlbumWithName	-	muéstrame imágenes del álbum FACEBOOK.SLOT.ALBUM en el facebook
+Facebook	ShowAlbumWithName	-	muéstrame fotos en álbum FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	muéstrame fotos en álbum FACEBOOK.SLOT.ALBUM en facebook
+Facebook	ShowAlbumWithName	-	muéstrame fotos en álbum FACEBOOK.SLOT.ALBUM en el facebook
+Facebook	ShowAlbumWithName	-	muéstrame fotos en mi álbum FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	muéstrame fotos en mi álbum FACEBOOK.SLOT.ALBUM en facebook
+Facebook	ShowAlbumWithName	-	muéstrame fotos en mi álbum FACEBOOK.SLOT.ALBUM en el facebook
+Facebook	ShowAlbumWithName	-	muéstrame fotos de mi álbum FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	muéstrame fotos de mi álbum FACEBOOK.SLOT.ALBUM en facebook
+Facebook	ShowAlbumWithName	-	muéstrame fotos de mi álbum FACEBOOK.SLOT.ALBUM en el facebook
+Facebook	ShowAlbumWithName	-	muéstrame fotos del álbum FACEBOOK.SLOT.ALBUM
+Facebook	ShowAlbumWithName	-	muéstrame fotos del álbum FACEBOOK.SLOT.ALBUM en facebook
+Facebook	ShowAlbumWithName	-	muéstrame fotos del álbum FACEBOOK.SLOT.ALBUM en el facebook

@@ -1,38 +1,129 @@
 domain	intent	parallel	pattern
 Airconditioner	TurnOn	-	enciende AIRCONDITIONER.SLOT.AV_ALIAS
 Airconditioner	TurnOn	-	activa AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	TurnOn	-	AIRCONDITIONER.SLOT.AV_ALIAS en encendido
+Airconditioner	TurnOn	-	AIRCONDITIONER.SLOT.AV_ALIAS activado
+Airconditioner	TurnOn	-	pon AIRCONDITIONER.SLOT.AV_ALIAS en encendido
+Airconditioner	TurnOn	-	pon AIRCONDITIONER.SLOT.AV_ALIAS activado
 Airconditioner	TurnOff	-	apaga AIRCONDITIONER.SLOT.AV_ALIAS
 Airconditioner	TurnOff	-	desactiva AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner	TurnOff	-	AIRCONDITIONER.SLOT.AV_ALIAS en apagado
+Airconditioner	TurnOff	-	AIRCONDITIONER.SLOT.AV_ALIAS desactivado
+Airconditioner	TurnOff	-	pon AIRCONDITIONER.SLOT.AV_ALIAS en apagado
+Airconditioner	TurnOff	-	pon AIRCONDITIONER.SLOT.AV_ALIAS desactivado
 Airconditioner	ChangeTemperature	-	cambia la temperatura en mi termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura de mi termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura del termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura en el termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura máxima en mi termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura máxima de mi termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura máxima del termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura máxima en el termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura mínima en mi termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura mínima de mi termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura mínima del termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura mínima en el termostato
 Airconditioner	ChangeTemperature	-	cambia la temperatura máxima y mínima en mi termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura máxima y mínima de mi termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura máxima y mínima del termostato
+Airconditioner	ChangeTemperature	-	cambia la temperatura máxima y mínima en el termostato
+Airconditioner	ChangeTemperature	-	pon temperatura diferente en mi termostato
+Airconditioner	ChangeTemperature	-	pon temperatura diferente en el termostato
+Airconditioner	ChangeTemperature	-	pon temperatura máxima diferente en mi termostato
+Airconditioner	ChangeTemperature	-	pon temperatura máxima diferente en el termostato
+Airconditioner	ChangeTemperature	-	pon temperatura mínima diferente en mi termostato
+Airconditioner	ChangeTemperature	-	pon temperatura mínima diferente en el termostato
+Airconditioner	ChangeTemperature	-	pon temperatura máxima y mínima diferente en mi termostato
+Airconditioner	ChangeTemperature	-	pon temperatura máxima y mínima diferente en el termostato
+Airconditioner	ChangeTemperature	-	pon un valor de temperatura diferente en mi termostato
+Airconditioner	ChangeTemperature	-	pon un valor de temperatura diferente en el termostato
+Airconditioner	ChangeTemperature	-	pon un valor de temperatura máxima diferente en mi termostato
+Airconditioner	ChangeTemperature	-	pon un valor de temperatura máxima diferente en el termostato
+Airconditioner	ChangeTemperature	-	pon un valor de temperatura mínima diferente en mi termostato
+Airconditioner	ChangeTemperature	-	pon un valor de temperatura mínima diferente en el termostato
+Airconditioner	ChangeTemperature	-	pon un valor de temperatura máxima y mínima diferente en mi termostato
+Airconditioner	ChangeTemperature	-	pon un valor de temperatura máxima y mínima diferente en el termostato
+Airconditioner	ChangeTemperature	-	pon un valor de la temperatura diferente en mi termostato
+Airconditioner	ChangeTemperature	-	pon un valor de la temperatura diferente en el termostato
+Airconditioner	ChangeTemperature	-	pon un valor de la temperatura máxima diferente en mi termostato
+Airconditioner	ChangeTemperature	-	pon un valor de la temperatura máxima diferente en el termostato
+Airconditioner	ChangeTemperature	-	pon un valor de la temperatura mínima diferente en mi termostato
+Airconditioner	ChangeTemperature	-	pon un valor de la temperatura mínima diferente en el termostato
+Airconditioner	ChangeTemperature	-	pon un valor de la temperatura máxima y mínima diferente en mi termostato
+Airconditioner	ChangeTemperature	-	pon un valor de la temperatura máxima y mínima diferente en el termostato
 Airconditioner	SetTemperatureToValue	-	adecua la temperatura en mi termostato a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	adecua la temperatura de mi termostato a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	adecua la temperatura del termostato a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	adecua la temperatura en el termostato a AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValue	-	adecua la temperatura a AIRCONDITIONER.SLOT.VALUE en mi termostato
+Airconditioner	SetTemperatureToValue	-	adecua la temperatura a AIRCONDITIONER.SLOT.VALUE de mi termostato
+Airconditioner	SetTemperatureToValue	-	adecua la temperatura a AIRCONDITIONER.SLOT.VALUE del termostato
+Airconditioner	SetTemperatureToValue	-	adecua la temperatura a AIRCONDITIONER.SLOT.VALUE en el termostato
 Airconditioner	SetTemperatureToValue	-	adecua mi termostato a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	adecua el termostato a AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValue	-	pon la temperatura en mi termostato a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	pon la temperatura de mi termostato a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	pon la temperatura del termostato a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	pon la temperatura en el termostato a AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValue	-	pon la temperatura a AIRCONDITIONER.SLOT.VALUE en mi termostato
+Airconditioner	SetTemperatureToValue	-	pon la temperatura a AIRCONDITIONER.SLOT.VALUE de mi termostato
+Airconditioner	SetTemperatureToValue	-	pon la temperatura a AIRCONDITIONER.SLOT.VALUE del termostato
+Airconditioner	SetTemperatureToValue	-	pon la temperatura a AIRCONDITIONER.SLOT.VALUE en el termostato
 Airconditioner	SetTemperatureToValue	-	pon mi termostato a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	pon el termostato a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValue	-	temperatura diferente del termostato
+Airconditioner	SetTemperatureToValue	-	temperatura diferente de mi termostato
+Airconditioner	SetTemperatureToValue	-	temperatura diferente de el termostato
+Airconditioner	SetTemperatureToValue	-	temperatura diferente en mi termostato
+Airconditioner	SetTemperatureToValue	-	temperatura diferente en el termostato
 Airconditioner	SetTemperatureToValueOnDevice	-	adecua mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValueOnDevice	-	adecua la temperatura en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValueOnDevice	-	adecua la temperatura de mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValueOnDevice	-	adecua la temperatura a AIRCONDITIONER.SLOT.VALUE en mi AIRCONDITIONER.SLOT.DEVICE_NAME termostato
 Airconditioner	SetTemperatureToValueOnDevice	-	pon mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValueOnDevice	-	pon la temperatura en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE
+Airconditioner	SetTemperatureToValueOnDevice	-	pon la temperatura de mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE
 Airconditioner	SetTemperatureToValueOnDevice	-	pon la temperatura a AIRCONDITIONER.SLOT.VALUE en mi AIRCONDITIONER.SLOT.DEVICE_NAME termostato
 Airconditioner	SetTemperatureBetweenValues	-	adecua la temperatura entre 23 grados y 29 grados en mi termostato
 Airconditioner	SetTemperatureBetweenValues	-	adecua la temperatura baja a 23 grados en mi termostato , y la temperatura alta a 29 grados
+Airconditioner	SetTemperatureBetweenValues	-	pon la temperatura entre 23 grados y 29 grados en mi termostato
+Airconditioner	SetTemperatureBetweenValues	-	pon la temperatura baja a 23 grados en mi termostato , y la temperatura alta a 29 grados
 Airconditioner	SetTemperatureOnDevice	-	cambia la temperatura en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureOnDevice	-	cambia la temperatura en el termostato AIRCONDITIONER.SLOT.DEVICE_NAME
 Airconditioner	SetTemperatureOnDevice	-	cambia la temperatura mínima y máxima en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureOnDevice	-	cambia la temperatura mínima y máxima en el termostato AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureOnDevice	-	cambia la temperatura mínima y máxima de mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureOnDevice	-	cambia la temperatura mínima y máxima de el termostato AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	SetTemperatureOnDevice	-	cambia la temperatura mínima y máxima del termostato AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	GetHumidity	-	verifica humedad
 Airconditioner	GetHumidity	-	verifica la humedad
+Airconditioner	GetHumidity	-	verifica el nivel de humedad
 Airconditioner	GetHumidity	-	verifica el nivel de la humedad
+Airconditioner	GetHumidity	-	muestra humedad
 Airconditioner	GetHumidity	-	muestra la humedad
+Airconditioner	GetHumidity	-	muestra el nivel de humedad
 Airconditioner	GetHumidity	-	muestra el nivel de la humedad
+Airconditioner	GetHumidity	-	muéstrame humedad
 Airconditioner	GetHumidity	-	muéstrame la humedad
+Airconditioner	GetHumidity	-	muéstrame el nivel de humedad
 Airconditioner	GetHumidity	-	muéstrame el nivel de la humedad
+Airconditioner	GetHumidity	-	verifícame humedad
 Airconditioner	GetHumidity	-	verifícame la humedad
+Airconditioner	GetHumidity	-	verifícame el nivel de humedad
 Airconditioner	GetHumidity	-	verifícame el nivel de la humedad
 Airconditioner	GetTemperatureFromDevice	-	verifica qué dice el sensor de la temperatura AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	GetTemperatureFromDevice	-	verifica qué hay en el sensor de la temperatura AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner	GetTemperatureFromDevice	-	verifica qué muestra el sensor de la temperatura AIRCONDITIONER.SLOT.DEVICE_NAME
 Airconditioner	GetTemperatureFromDevice	-	verifica la temperatura del sensor de temperatura AIRCONDITIONER.SLOT.DEVICE_NAME en el cuarto
 Airconditioner	GetTemperatureFromDevice	-	qué dice el sensor de temperatura del interior AIRCONDITIONER.SLOT.DEVICE_NAME ?
 Airconditioner	GetTemperatureFromDevice	-	qué muestra el sensor de temperatura del interior AIRCONDITIONER.SLOT.DEVICE_NAME ?
+Airconditioner	GetTemperatureFromDevice	-	qué hay en el sensor de temperatura del interior AIRCONDITIONER.SLOT.DEVICE_NAME ?
 Airconditioner	GetTemperature	-	qué temperatura tengo aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS ?
 Airconditioner	GetTemperature	-	qué temperatura tenemos aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS ?
 Airconditioner	GetTemperature	-	qué temperatura hay aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner	GetTemperature	-	qué temperatura muestra mi AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner	GetTemperature	-	qué temperatura muestra el AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner	GetTemperature	-	cuál es la temperatura aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner	GetTemperature	-	cuál es la temperatura aquí según el AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner	GetTemperature	-	cuál es la temperatura que muestra el AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner	GetTemperature	-	cuál es la temperatura que muestra mi AIRCONDITIONER.SLOT.AV_ALIAS ?
