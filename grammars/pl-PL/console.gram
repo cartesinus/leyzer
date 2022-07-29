@@ -64,11 +64,11 @@ public <S> = Console__ (ConsoleEdit__ <INTENT_1> | ConsoleLS__ <INTENT_2> | Cons
 <INTENT_2_REPHRASE_3_p1> = verb_pattern_03__ stwórz listę plików (w | z) [katalogu] <PATHNAME>;
 <INTENT_2_REPHRASE_3_p2> = verb_pattern_04__ wytwórz listę plików (w | z) [katalogu] <PATHNAME>;
 <INTENT_2_REPHRASE_3_p3> = verb_pattern_05__ zaindukuj listę plików (w | z) [katalogu] <PATHNAME>;
-<INTENT_2_REPHRASE_4> = <INTENT_2_REPHRASE_04_p1> | <INTENT_2_REPHRASE_4_p2> | <INTENT_2_REPHRASE_4_p3>;
+<INTENT_2_REPHRASE_4> = <INTENT_2_REPHRASE_4_p1> | <INTENT_2_REPHRASE_4_p2> | <INTENT_2_REPHRASE_4_p3>;
 <INTENT_2_REPHRASE_4_p1> = verb_pattern_06__ wyciągnij pliki z <PATHNAME> (i stwórz z nich listę | i dodaj je do listy);
 <INTENT_2_REPHRASE_4_p2> = verb_pattern_07__ weź pliki z <PATHNAME> (i stwórz z nich listę | i dodaj je do listy);
 <INTENT_2_REPHRASE_4_p3> = verb_pattern_08__ dodaj [wszystkie] pliki z <PATHNAME> (i stwórz z nich listę | i dodaj je do listy);
-<INTENT_2_REPHRASE_5> = <INTENT_2_REPHRASE_05_p1> | <INTENT_2_REPHRASE_5_p2>;
+<INTENT_2_REPHRASE_5> = <INTENT_2_REPHRASE_5_p1> | <INTENT_2_REPHRASE_5_p2>;
 <INTENT_2_REPHRASE_5_p1> = verb_pattern_09__ z katalogu <PATHNAME> wyciągnij listę plików;
 <INTENT_2_REPHRASE_5_p2> = verb_pattern_10__ z katalogu <PATHNAME> stwórz listę plików;
 
