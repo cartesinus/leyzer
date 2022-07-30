@@ -4,6 +4,12 @@ Leyzer is a multilingual text corpus designed to study multilingual and cross-li
 
 Named after [Ludwik Lejzer Zamenhof](https://en.wikipedia.org/wiki/L._L._Zamenhof), the inventor of the international language Esperanto, the most widely used constructed international auxiliary language in the world.
 
+## Voice User Interface
+
+In `./vui` you can find pdf files that visualize scope of each domain. They are suppose to be used by Language Experts when intent is added, removed or fixed to keep all languages in sync. It is probably best starting point if you want to see what commands (intents) and slots are available in Leyzer.
+
+There is no mechanism that links VUIs with grammars, patterns and corpora, everything is synced manual and this leaves space for some mistakes and differences between files.
+
 ## Patterns
 
 Patterns are sentences without slot values.
