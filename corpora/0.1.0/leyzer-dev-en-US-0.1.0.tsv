@@ -245,10 +245,10 @@ Spotify	AddSongToPlaylist	save current track	o o o
 Spotify	SeekByTime	skip to 3 seconds	o o b-seek_time o
 Spotify	ShuffleOnOff	turn shuffle off	o o b-state
 Spotify	RepeatOnOff	turn repeat on	o o b-state
-Spotify	ShowDencability	how danceable is current song	o o o o o
-Spotify	ShowDencability	how dancey is this track	o o o o o
-Spotify	ShowDencability	danceability of this song	o o o o
-Spotify	ShowDencability	the danceability of that track	o o o o o
+Spotify	ShowDanceability	how danceable is current song	o o o o o
+Spotify	ShowDanceability	how dancey is this track	o o o o o
+Spotify	ShowDanceability	danceability of this song	o o o o
+Spotify	ShowDanceability	the danceability of that track	o o o o o
 Translate	SetDefaultLanguage	set default output language to polish	o o o o o b-all_lang
 Translate	SetDefaultLanguage	change language to german	o o o b-all_lang
 Translate	SetDefaultLanguageToLanguage	set default source language to hawaiian	o o o o o b-all_lang
