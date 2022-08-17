@@ -1,0 +1,170 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.1.0;
+public <S> = Console__ (ConsoleEdit__ <INTENT_1> | ConsoleLS__ <INTENT_2> | ConsoleCD__ <INTENT_3> | ConsoleCP__ <INTENT_4> | ConsoleMV__ <INTENT_5> | ConsoleRM__ <INTENT_6>);
+
+#INTENTS
+##1) EDIT FILE
+##<FILENAME> must be provided
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_p1> | <INTENT_1_L0TC_p2>;
+<INTENT_1_L0TC_p1> = L0TC__ verb_pattern_01__ open ([file] <FILENAME> | [files] <FILENAMES>);
+<INTENT_1_L0TC_p2> = L0TC__ verb_pattern_02__ edit ([file] <FILENAME> | [files] <FILENAMES>);
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_p1> | <INTENT_1_L1TC_p2>;
+<INTENT_1_L1TC_p1> = L1TC__ verb_pattern_01__ show [me] the content of <FILE_PATTERN_1>;
+<INTENT_1_L1TC_p2> = L1TC__ verb_pattern_02__ display the content of <FILE_PATTERN_1>;
+
+<INTENT_1_L2TC> = L2TC__ (<INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>);
+<INTENT_1_L2TC_1> = <INTENT_1_L2TC_1_p1> | <INTENT_1_L2TC_1_p2> | <INTENT_1_L2TC_1_p3> | <INTENT_1_L2TC_1_p4>;
+<INTENT_1_L2TC_1_p1> = verb_pattern_01__ read [for me] (the content of | what's inside | data in) <FILE_PATTERN_1>;
+<INTENT_1_L2TC_1_p2> = verb_pattern_02__ browse [for me] (the content of | data in) [w | z] <FILE_PATTERN_1>;
+<INTENT_1_L2TC_1_p3> = verb_pattern_03__ modify [for me] (the content of | data in) <FILE_PATTERN_1>;
+<INTENT_1_L2TC_1_p4> = verb_pattern_04__ give me (the content of | data (from | in)) <FILE_PATTERN_1>;
+<INTENT_1_L2TC_2> = <INTENT_1_L2TC_2_p5> | <INTENT_1_L2TC_2_p6> | <INTENT_1_L2TC_2_p7> | <INTENT_1_L2TC_2_p8>;
+<INTENT_1_L2TC_2_p5> = verb_pattern_05__ <FILENAME> edit [<END_PATTERN>];
+<INTENT_1_L2TC_2_p6> = verb_pattern_06__ <FILENAME> read [<END_PATTERN>];
+<INTENT_1_L2TC_2_p7> = verb_pattern_07__ <FILENAME> browse [<END_PATTERN>]; 
+<INTENT_1_L2TC_2_p8> = verb_pattern_08__ <FILENAME> modify [<END_PATTERN>];
+<END_PATTERN> = (it | its content | its data | what's inside);
+
+<INT1_REPH_INTRO> = (i want to | i need to | i'd like to);
+<INTENT_1_REPHRASE> = REPHRASE__ (<INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3> | <INTENT_1_REPHRASE_4> | <INTENT_1_REPHRASE_5> | <INTENT_1_REPHRASE_6> | <INTENT_1_REPHRASE_7> | <INTENT_1_REPHRASE_8>);
+<INTENT_1_REPHRASE_1> = <INTENT_1_REPHRASE_1_p1> | <INTENT_1_REPHRASE_1_p2> | <INTENT_1_REPHRASE_1_p3>;
+<INTENT_1_REPHRASE_1_p1> = verb_pattern_01__ <INT1_REPH_INTRO> see (the content of | what's inside of) <FILE_PATTERN_1>;
+<INTENT_1_REPHRASE_1_p2> = verb_pattern_02__ <INT1_REPH_INTRO> understand (the content of | what's inside of) <FILE_PATTERN_1>;
+<INTENT_1_REPHRASE_1_p3> = verb_pattern_03__ <INT1_REPH_INTRO> [sneak a] peek into <FILE_PATTERN_1>;
+<INTENT_1_REPHRASE_2> = verb_pattern_04__ tell me what's inside of [the] <FILE_PATTERN_1>;
+<INTENT_1_REPHRASE_3> = verb_pattern_05__ what's the content of [the] <FILE_PATTERN_1>;
+<INTENT_1_REPHRASE_4> = verb_pattern_06__ <FILENAME> what's the content of it;
+<INTENT_1_REPHRASE_5> = verb_pattern_07__ (prepare | provide) [the] content of [the] <FILE_PATTERN_1> to edit;
+<INTENT_1_REPHRASE_6> = verb_pattern_08__ <INT1_REPH_INTRO> enter <FILE_PATTERN_1>;
+<INTENT_1_REPHRASE_7> = <INTENT_1_REPHRASE_7_p1> | <INTENT_1_REPHRASE_7_p2>;
+<INTENT_1_REPHRASE_7_p1> = verb_pattern_09__ print on [my] screen [the] content of [the] <FILE_PATTERN_1>;
+<INTENT_1_REPHRASE_7_p2> = verb_pattern_10__ list on [my] screen [the] content of [the] <FILE_PATTERN_1>;
+<INTENT_1_REPHRASE_8> = verb_pattern_11__ (vim | emacs | gedit | vi | nano) [the] <FILE_PATTERN_1>;
+
+<FILE_PATTERN_1> = ([file] <FILENAME> | [files] <FILENAMES>);
+
+##2) LS
+##<PATHNAME> must be provided
+##EXPAND SIZE: 16-6-6-47
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_p1> | <INTENT_2_L0TC_p2>;
+<INTENT_2_L0TC_p1> = L0TC__ verb_pattern_01__ show me [all] files in [the] [path | directory] <PATHNAME>;
+<INTENT_2_L0TC_p2> = L0TC__ verb_pattern_02__ list [all] files in [the] [path | directory] <PATHNAME>;
+
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ display [all] files in [the] [path | directory] <PATHNAME>;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_p1> | <INTENT_2_L2TC_p2>;
+<INTENT_2_L2TC_p1> = L2TC__ verb_pattern_01__ enumerate [for me] [the] files in [the] [path | directory] <PATHNAME>;
+<INTENT_2_L2TC_p2> = L2TC__ verb_pattern_02__ read [the] (content of the path | list of files in [the] [path | directory]) <PATHNAME>;
+
+<INTENT_2_REPHRASE> = REPHRASE__ (<INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2> | <INTENT_2_REPHRASE_3> | <INTENT_2_REPHRASE_4> | <INTENT_2_REPHRASE_5>);
+<INTENT_2_REPHRASE_1> = verb_pattern_01__ (what [kind of] | which) files will i find in <PATHNAME>;
+<INTENT_2_REPHRASE_2> = verb_pattern_02__ print [on my screen] [the] content of <PATHNAME>;
+<INTENT_2_REPHRASE_3> = <INTENT_2_REPHRASE_3_p1> | <INTENT_2_REPHRASE_3_p2> | <INTENT_2_REPHRASE_3_p3>;
+<INTENT_2_REPHRASE_3_p1> = verb_pattern_03__ create a (list of files | file list) from [the] (path | directory) <PATHNAME>;
+<INTENT_2_REPHRASE_3_p2> = verb_pattern_04__ generate a (list of files | file list) from [the] [path | directory] <PATHNAME>;
+<INTENT_2_REPHRASE_3_p3> = verb_pattern_05__ compose a (list of files | file lsit) from [the] [path | directory] <PATHNAME>;
+<INTENT_2_REPHRASE_4> = <INTENT_2_REPHRASE_4_p1> | <INTENT_2_REPHRASE_4_p2> | <INTENT_2_REPHRASE_4_p3>;
+<INTENT_2_REPHRASE_4_p1> = verb_pattern_06__ retreive files from [the] [path | directory] <PATHNAME> and create a list [out of it | from it];
+<INTENT_2_REPHRASE_4_p2> = verb_pattern_07__ take files from [the] [path | directory] <PATHNAME> (and show them [in a list] | add them to a list and display it);
+<INTENT_2_REPHRASE_4_p3> = verb_pattern_08__ add [all] files from [the] [path | directory] <PATHNAME> (and create a list | and add them to a list | and show them);
+<INTENT_2_REPHRASE_5> = <INTENT_2_REPHRASE_5_p1> | <INTENT_2_REPHRASE_5_p2>;
+<INTENT_2_REPHRASE_5_p1> = verb_pattern_09__ from [the] (path | directory) <PATHNAME> retreive all file names;
+<INTENT_2_REPHRASE_5_p2> = verb_pattern_10__ from [the] (path | directory) <PATHNAME> create [a] (file list | list of files);
+
+##3) CD
+##<PATHNAME> must be provided
+##EXPAND SIZE: 2-1-8-9
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ go to (path | directory) <PATHNAME>;
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ change [the | my] [working | current] (path | directory) to <PATHNAME>;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_p1> | <INTENT_3_L2TC_p2> | <INTENT_3_L2TC_p3> | <INTENT_3_L2TC_p4>;
+<INTENT_3_L2TC_p1> = L2TC__ verb_pattern_01__ get me to [the] [path | directory] <PATHNAME>;
+<INTENT_3_L2TC_p2> = L2TC__ verb_pattern_02__ modify my current (path | directory) to <PATHNAME>;
+<INTENT_3_L2TC_p3> = L2TC__ verb_pattern_03__ move [me] to (path | directory) <PATHNAME>;
+<INTENT_3_L2TC_p4> = L2TC__ verb_pattern_04__ jump (to | into) [the] [path | directory] <PATHNAME>;
+
+<INTENT_3_REPHRASE> = REPHRASE__ (<INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2>);
+<INTENT_3_REPHRASE_1> = <INTENT_3_REPHRASE_1_p1> | <INTENT_3_REPHRASE_1_p2>;
+<INTENT_3_REPHRASE_1_p1> = verb_pattern_01__ change [for me] [my] current (path | directory) to <PATHNAME>;
+<INTENT_3_REPHRASE_1_p2> = verb_pattern_02__ set [for me] [my] current (path | directory) to <PATHNAME>;
+<INTENT_3_REPHRASE_2> = <INTENT_3_REPHRASE_2_p1> | <INTENT_3_REPHRASE_2_p2>;
+<INTENT_3_REPHRASE_2_p1> = verb_pattern_03__ (try | make an attempt) to move [me | us] to (path | directory) <PATHNAME>;
+<INTENT_3_REPHRASE_2_p2> = verb_pattern_04__ (try | make an attempt) to jump to (path | directory) <PATHNAME>;
+<INTENT_3_REPHRASE_2_p3> = verb_pattern_05__ [the] working directory (shall | will | should | must) be changed to <PATHNAME>;
+
+##4) CP
+##<FROM> and <TO> must be provided
+##EXPAND SIZE: 24-18-47-101
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_p1>;
+<INTENT_4_L0TC_p1> = L0TC__ verb_pattern_01__ copy [the] [file | directory | path | resource] [from] <FROM> to [path | directory] <TO>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_p1> | <INTENT_4_L1TC_p2> | <INTENT_4_L1TC_p3>;
+<INTENT_4_L1TC_p1> = L1TC__ verb_pattern_01__ duplicate [file | path | directory] [from] <FROM> (to | in) <TO>;
+<INTENT_4_L1TC_p2> = L1TC__ verb_pattern_02__ make a copy of [file | path | directory | resource] <FROM> (to | in) <TO>;
+<INTENT_4_L1TC_p3> = L1TC__ verb_pattern_03__ clone [file | path | directory | resource] [from] <FROM> (to | in) <TO>;
+
+<INTENT_4_L2TC> = L2TC__ (<INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>);
+<INTENT_4_L2TC_1> = <INTENT_4_L2TC_1_p1> | <INTENT_4_L2TC_1_p2> | <INTENT_4_L2TC_1_p3> | <INTENT_4_L2TC_1_p4>;
+<INTENT_4_L2TC_1_p1> = verb_pattern_01__ in (path | directory | catalogue) in [path | directory | folder] <TO> i want copy of [file | directory | path] <FROM>;
+<INTENT_4_L2TC_1_p2> = verb_pattern_02__ in (path | directory | catalogue) in [path | directory | folder] <TO> create a copy of [file | directory | path] <FROM>;
+<INTENT_4_L2TC_1_p3> = verb_pattern_03__ in (path | directory | catalogue) in [path | directory | folder] <TO> make a copy of [file | directory | path] <FROM>;
+<INTENT_4_L2TC_1_p4> = verb_pattern_04__ in (path | directory | catalogue) in [path | directory | folder] <TO> do a copy of [file | directory | path] <FROM>;
+<INTENT_4_L2TC_2> = verb_pattern_05__ place <FROM> in (path | directory | catalogue) <TO> [as a copy];
+
+<INTENT_4_REPHRASE> = REPHRASE__ (<INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2> | <INTENT_4_REPHRASE_3>);
+<INTENT_4_REPHRASE_1> = <INTENT_4_REPHRASE_1_p1> | <INTENT_4_REPHRASE_1_p2> | <INTENT_4_REPHRASE_1_p3>;
+<INTENT_4_REPHRASE_1_p1> = verb_pattern_01__ (path | directory | catalogue) <TO> needs to be in <FROM> (as well | also | too);
+<INTENT_4_REPHRASE_1_p2> = verb_pattern_02__ (path | directory | catalogue) <TO> has to be in <FROM> (as well | also | too);
+<INTENT_4_REPHRASE_1_p3> = verb_pattern_03__ (path | directory | catalogue) <TO> must be in <FROM> (as well | also | too);
+<INTENT_4_REPHRASE_2> = verb_pattern_04__ (i need | i want | i would like) <FROM> to be in [path | directory] <TO> (as well | also | too);
+<INTENT_4_REPHRASE_3> = verb_pattern_05__ (i need | i want | i would like) (a | an identical) copy of <FROM> [to be] in <TO>;
+
+##5) MV
+##<FROM> and <TO> must be provided
+##EXPAND SIZE: 12-16-4-7
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ move [my | for me] [file | directory | path] from <FROM> to [path | directory] <TO>;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ change (location | place) of the [file | directory | folder] <FROM> to <TO>;
+
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ to <TO> move [my] [file | directory | resource] <FROM>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ <INTENT_5_REPHRASE_1>;
+<INTENT_5_REPHRASE_1> = verb_pattern_01__ do not copy but move [my] (file | directory | folder) <TO> to <FROM>;
+
+##6) RM
+##<FILENAME> must be provided
+##EXPAND SIZE: 6-2-12-19
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_p1> | <INTENT_6_L0TC_p2>;
+<INTENT_6_L0TC_p1> = L0TC__ verb_pattern_01__ remove [path | directory | folder | file] <FILENAME> [for me];
+<INTENT_6_L0TC_p2> = L0TC__ verb_pattern_02__ delete [path | directory | folder | file] <FILENAME> [for me];
+
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_p1> | <INTENT_6_L1TC_p2>;
+<INTENT_6_L1TC_p1> = L1TC__ verb_pattern_01__ move [file | path | directory | resource | folder] <FILENAME> to (trash | dumpster | trashcan | recycling bin);
+<INTENT_6_L1TC_p2> = L1TC__ verb_pattern_02__ put [file | path | directory | resource | folder] <FILENAME> in (trash | dumpster | trashcan | recycling bin);
+
+<INTENT_6_L2TC> = L2TC__ (<INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>);
+<INTENT_6_L2TC_1> = verb_pattern_01__ get rid of [file | path | directory | resource] <FILENAME> [for good];
+<INTENT_6_L2TC_2> = verb_pattern_02__ place [file | path | directory | resource] <FILENAME> in (trash | dumpster | trashcan | recycling bin);
+
+<INTENT_6_REPHRASE> = REPHRASE__ (<INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2> | <INTENT_6_REPHRASE_3> | <INTENT_6_REPHRASE_4>);
+<INTENT_6_REPHRASE_1> = verb_pattern_01__ anihilate (path | directory | file | resource | folder) <FILENAME>;
+<INTENT_6_REPHRASE_2> = verb_pattern_02__ <FILENAME> remove it;
+<INTENT_6_REPHRASE_3> = verb_pattern_03__ (i want | i need | i would like) to remove [file | path | directory | resource] <FILENAME>;
+<INTENT_6_REPHRASE_4> = verb_pattern_04__ (i want | i need | i would like) [file | path | directory] <FILENAME> to be removed;
+
+
+#SLOTS
+<FILENAME> = CONSOLE.SLOT.FILENAME;
+<FILENAMES> = CONSOLE.SLOT.FILENAMES;
+<PATHNAME> = CONSOLE.SLOT.PATHNAME;
+<FROM> = CONSOLE.SLOT.FROM;
+<TO> = CONSOLE.SLOT.TO;
