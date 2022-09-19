@@ -1,370 +1,369 @@
-domain	intent	parallel	pattern
-Slack	OpenSlack	-	otwórz slacka
-Slack	OpenSlack	-	otwórz aplikację slacka
-Slack	OpenSlack	-	uruchom slacka
-Slack	OpenSlack	-	uruchom aplikację slacka
-Slack	OpenSlack	-	wyświetl slacka
-Slack	OpenSlack	-	wyświetl aplikację slacka
-Slack	OpenSlack	-	pokaż slacka
-Slack	OpenSlack	-	pokaż aplikację slacka
-Slack	CheckLastMessages	-	sprawdź wiadomości na slacku
-Slack	CheckLastMessages	-	sprawdź ostatnie wiadomości na slacku
-Slack	CheckLastMessages	-	sprawdź najnowsze wiadomości na slacku
-Slack	CheckLastMessages	-	sprawdź moje wiadomości na slacku
-Slack	CheckLastMessages	-	sprawdź moje ostatnie wiadomości na slacku
-Slack	CheckLastMessages	-	sprawdź moje najnowsze wiadomości na slacku
-Slack	CheckLastMessages	-	pokaż wiadomości na slacku
-Slack	CheckLastMessages	-	pokaż ostatnie wiadomości na slacku
-Slack	CheckLastMessages	-	pokaż najnowsze wiadomości na slacku
-Slack	CheckLastMessages	-	pokaż moje wiadomości na slacku
-Slack	CheckLastMessages	-	pokaż moje ostatnie wiadomości na slacku
-Slack	CheckLastMessages	-	pokaż moje najnowsze wiadomości na slacku
-Slack	CheckLastMessages	-	wyświetl wiadomości na slacku
-Slack	CheckLastMessages	-	wyświetl ostatnie wiadomości na slacku
-Slack	CheckLastMessages	-	wyświetl najnowsze wiadomości na slacku
-Slack	CheckLastMessages	-	wyświetl moje wiadomości na slacku
-Slack	CheckLastMessages	-	wyświetl moje ostatnie wiadomości na slacku
-Slack	CheckLastMessages	-	wyświetl moje najnowsze wiadomości na slacku
-Slack	CheckLastMessages	-	otwórz wiadomości na slacku
-Slack	CheckLastMessages	-	otwórz ostatnie wiadomości na slacku
-Slack	CheckLastMessages	-	otwórz najnowsze wiadomości na slacku
-Slack	CheckLastMessages	-	otwórz moje wiadomości na slacku
-Slack	CheckLastMessages	-	otwórz moje ostatnie wiadomości na slacku
-Slack	CheckLastMessages	-	otwórz moje najnowsze wiadomości na slacku
-Slack	CheckUserStatus	-	czy SLACK.SLOT.USERNAME jest aktywny
-Slack	CheckUserStatus	-	czy SLACK.SLOT.USERNAME jest aktywny na slacku
-Slack	CheckUserStatus	-	czy SLACK.SLOT.USERNAME jest dostępny
-Slack	CheckUserStatus	-	czy SLACK.SLOT.USERNAME jest dostępny na slacku
-Slack	CheckUserStatus	-	czy SLACK.SLOT.USERNAME jest w tym momencie aktywny
-Slack	CheckUserStatus	-	czy SLACK.SLOT.USERNAME jest w tym momencie aktywny na slacku
-Slack	CheckUserStatus	-	czy SLACK.SLOT.USERNAME jest w tym momencie dostępny
-Slack	CheckUserStatus	-	czy SLACK.SLOT.USERNAME jest w tym momencie dostępny na slacku
-Slack	CheckUserStatus	-	czy SLACK.SLOT.USERNAME jest w tej chwili aktywny
-Slack	CheckUserStatus	-	czy SLACK.SLOT.USERNAME jest w tej chwili aktywny na slacku
-Slack	CheckUserStatus	-	czy SLACK.SLOT.USERNAME jest w tej chwili dostępny
-Slack	CheckUserStatus	-	czy SLACK.SLOT.USERNAME jest w tej chwili dostępny na slacku
-Slack	CheckUserStatus	-	powiedź czy SLACK.SLOT.USERNAME jest aktywny
-Slack	CheckUserStatus	-	powiedź czy SLACK.SLOT.USERNAME jest aktywny na slacku
-Slack	CheckUserStatus	-	powiedź czy SLACK.SLOT.USERNAME jest dostępny
-Slack	CheckUserStatus	-	powiedź czy SLACK.SLOT.USERNAME jest dostępny na slacku
-Slack	CheckUserStatus	-	powiedź czy SLACK.SLOT.USERNAME jest w tym momencie aktywny
-Slack	CheckUserStatus	-	powiedź czy SLACK.SLOT.USERNAME jest w tym momencie aktywny na slacku
-Slack	CheckUserStatus	-	powiedź czy SLACK.SLOT.USERNAME jest w tym momencie dostępny
-Slack	CheckUserStatus	-	powiedź czy SLACK.SLOT.USERNAME jest w tym momencie dostępny na slacku
-Slack	CheckUserStatus	-	powiedź czy SLACK.SLOT.USERNAME jest w tej chwili aktywny
-Slack	CheckUserStatus	-	powiedź czy SLACK.SLOT.USERNAME jest w tej chwili aktywny na slacku
-Slack	CheckUserStatus	-	powiedź czy SLACK.SLOT.USERNAME jest w tej chwili dostępny
-Slack	CheckUserStatus	-	powiedź czy SLACK.SLOT.USERNAME jest w tej chwili dostępny na slacku
-Slack	CheckUserStatus	-	powiedź mi czy SLACK.SLOT.USERNAME jest aktywny
-Slack	CheckUserStatus	-	powiedź mi czy SLACK.SLOT.USERNAME jest aktywny na slacku
-Slack	CheckUserStatus	-	powiedź mi czy SLACK.SLOT.USERNAME jest dostępny
-Slack	CheckUserStatus	-	powiedź mi czy SLACK.SLOT.USERNAME jest dostępny na slacku
-Slack	CheckUserStatus	-	powiedź mi czy SLACK.SLOT.USERNAME jest w tym momencie aktywny
-Slack	CheckUserStatus	-	powiedź mi czy SLACK.SLOT.USERNAME jest w tym momencie aktywny na slacku
-Slack	CheckUserStatus	-	powiedź mi czy SLACK.SLOT.USERNAME jest w tym momencie dostępny
-Slack	CheckUserStatus	-	powiedź mi czy SLACK.SLOT.USERNAME jest w tym momencie dostępny na slacku
-Slack	CheckUserStatus	-	powiedź mi czy SLACK.SLOT.USERNAME jest w tej chwili aktywny
-Slack	CheckUserStatus	-	powiedź mi czy SLACK.SLOT.USERNAME jest w tej chwili aktywny na slacku
-Slack	CheckUserStatus	-	powiedź mi czy SLACK.SLOT.USERNAME jest w tej chwili dostępny
-Slack	CheckUserStatus	-	powiedź mi czy SLACK.SLOT.USERNAME jest w tej chwili dostępny na slacku
-Slack	CheckMessagesFromUser	-	sprawdź wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	sprawdź wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	sprawdź ostatnie wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	sprawdź ostatnie wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	sprawdź najnowsze wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	sprawdź najnowsze wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	pokaż wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	pokaż wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	pokaż ostatnie wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	pokaż ostatnie wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	pokaż najnowsze wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	pokaż najnowsze wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	wyświetl wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	wyświetl wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	wyświetl ostatnie wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	wyświetl ostatnie wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	wyświetl najnowsze wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	wyświetl najnowsze wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	pokaż wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	pokaż wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	pokaż ostatnie wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	pokaż ostatnie wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	pokaż najnowsze wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	pokaż najnowsze wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	otwórz wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	otwórz wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	otwórz ostatnie wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	otwórz ostatnie wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	otwórz najnowsze wiadomości od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesFromUser	-	otwórz najnowsze wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
-Slack	CheckMessagesInChannel	-	sprawdź ostatnie wiadomości w kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	sprawdź ostatnie wiadomości na kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	sprawdź ostatnie wiadomości które otrzymałem w kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	sprawdź ostatnie wiadomości które otrzymałem na kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	sprawdź ostatnie wiadomości które dostałem w kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	sprawdź ostatnie wiadomości które dostałem na kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	sprawdź najnowsze wiadomości w kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	sprawdź najnowsze wiadomości na kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	sprawdź najnowsze wiadomości które otrzymałem w kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	sprawdź najnowsze wiadomości które otrzymałem na kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	sprawdź najnowsze wiadomości które dostałem w kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	sprawdź najnowsze wiadomości które dostałem na kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	sprawdź wiadomości na slackowym kanale SLACK.SLOT.CHANNEL w ciągu ostatniej godziny
-Slack	CheckMessagesInChannel	-	sprawdź wiadomości na slackowym kanale SLACK.SLOT.CHANNEL ostatnio
-Slack	CheckMessagesInChannel	-	pokaż ostatnie wiadomości w kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	pokaż ostatnie wiadomości na kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	pokaż ostatnie wiadomości które otrzymałem w kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	pokaż ostatnie wiadomości które otrzymałem na kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	pokaż ostatnie wiadomości które dostałem w kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	pokaż ostatnie wiadomości które dostałem na kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	pokaż najnowsze wiadomości w kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	pokaż najnowsze wiadomości na kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	pokaż najnowsze wiadomości które otrzymałem w kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	pokaż najnowsze wiadomości które otrzymałem na kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	pokaż najnowsze wiadomości które dostałem w kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	pokaż najnowsze wiadomości które dostałem na kanale SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	pokaż wiadomości na slackowym kanale SLACK.SLOT.CHANNEL w ciągu ostatniej godziny
-Slack	CheckMessagesInChannel	-	pokaż wiadomości na slackowym kanale SLACK.SLOT.CHANNEL ostatnio
-Slack	SendMessageToChannel	-	wyślij SLACK.SLOT.MESSAGE na kanał SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	wyślij SLACK.SLOT.MESSAGE na slackowy kanał SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	wyślij SLACK.SLOT.MESSAGE na kanale SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	wyślij SLACK.SLOT.MESSAGE na slackowym kanale SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	prześlij SLACK.SLOT.MESSAGE na kanał SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	prześlij SLACK.SLOT.MESSAGE na slackowy kanał SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	prześlij SLACK.SLOT.MESSAGE na kanale SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	prześlij SLACK.SLOT.MESSAGE na slackowym kanale SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	napisz SLACK.SLOT.MESSAGE na kanał SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	napisz SLACK.SLOT.MESSAGE na slackowy kanał SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	napisz SLACK.SLOT.MESSAGE na kanale SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	napisz SLACK.SLOT.MESSAGE na slackowym kanale SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	utwórz SLACK.SLOT.MESSAGE na kanał SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	utwórz SLACK.SLOT.MESSAGE na slackowy kanał SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	utwórz SLACK.SLOT.MESSAGE na kanale SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	utwórz SLACK.SLOT.MESSAGE na slackowym kanale SLACK.SLOT.CHANNEL
-Slack	SendMessageToChannel	-	wiadomość na SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	wiadomość na kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	wiadomość na slackowy kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	wiadomość na kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	wiadomość na slackowym kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	wyślij wiadomość na SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	wyślij wiadomość na kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	wyślij wiadomość na slackowy kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	wyślij wiadomość na kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	wyślij wiadomość na slackowym kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	prześlij wiadomość na SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	prześlij wiadomość na kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	prześlij wiadomość na slackowy kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	prześlij wiadomość na kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	prześlij wiadomość na slackowym kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	napisz wiadomość na SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	napisz wiadomość na kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	napisz wiadomość na slackowy kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	napisz wiadomość na kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	napisz wiadomość na slackowym kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	utwórz wiadomość na SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	utwórz wiadomość na kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	utwórz wiadomość na slackowy kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	utwórz wiadomość na kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	utwórz wiadomość na slackowym kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	powiedz na SLACK.SLOT.CHANNEL że SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	napisz na SLACK.SLOT.CHANNEL że SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	poinformuj na SLACK.SLOT.CHANNEL że SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	post na SLACK.SLOT.CHANNEL że SLACK.SLOT.MESSAGE
-Slack	SetPurposeOnChannel	-	ustaw cel SLACK.SLOT.CHANNEL na SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	ustaw cel kanału SLACK.SLOT.CHANNEL na SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	ustaw cel slackowego kanału SLACK.SLOT.CHANNEL na SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	zmień cel SLACK.SLOT.CHANNEL na SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	zmień cel kanału SLACK.SLOT.CHANNEL na SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	zmień cel slackowego kanału SLACK.SLOT.CHANNEL na SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	niech SLACK.SLOT.PURPOSE będzie celem SLACK.SLOT.CHANNEL
-Slack	SetPurposeOnChannel	-	niech SLACK.SLOT.PURPOSE będzie celem kanału SLACK.SLOT.CHANNEL
-Slack	SetPurposeOnChannel	-	niech SLACK.SLOT.PURPOSE będzie celem slackowego kanału SLACK.SLOT.CHANNEL
-Slack	SetPurposeOnChannel	-	celem kanału SLACK.SLOT.CHANNEL jest SLACK.SLOT.PURPOSE
-Slack	SetTopicInChannel	-	ustaw temat SLACK.SLOT.CHANNEL na SLACK.SLOT.TOPIC
-Slack	SetTopicInChannel	-	ustaw temat kanału SLACK.SLOT.CHANNEL na SLACK.SLOT.TOPIC
-Slack	SetTopicInChannel	-	ustaw temat slackowego kanału SLACK.SLOT.CHANNEL na SLACK.SLOT.TOPIC
-Slack	SetTopicInChannel	-	niech SLACK.SLOT.TOPIC będzie tematem SLACK.SLOT.CHANNEL
-Slack	SetTopicInChannel	-	niech SLACK.SLOT.TOPIC będzie tematem kanału SLACK.SLOT.CHANNEL
-Slack	SetTopicInChannel	-	niech SLACK.SLOT.TOPIC będzie tematem slackowego kanału SLACK.SLOT.CHANNEL
-Slack	SetTopicInChannel	-	tematem kanału SLACK.SLOT.CHANNEL jest SLACK.SLOT.TOPIC
-Slack	SetStatusAway	-	ustaw mnie jako niedostępnego
-Slack	SetStatusAway	-	ustaw mnie jako niedostępnego na slacku
-Slack	SetStatusAway	-	ustaw mnie jako niedostępną
-Slack	SetStatusAway	-	ustaw mnie jako niedostępną na slacku
-Slack	SetStatusAway	-	ustaw mnie jako nieobecnego
-Slack	SetStatusAway	-	ustaw mnie jako nieobecnego na slacku
-Slack	SetStatusAway	-	ustaw mnie jako nieobecną
-Slack	SetStatusAway	-	ustaw mnie jako nieobecną na slacku
-Slack	SetStatusAway	-	oznacz mnie jako niedostępnego
-Slack	SetStatusAway	-	oznacz mnie jako niedostępnego na slacku
-Slack	SetStatusAway	-	oznacz mnie jako niedostępną
-Slack	SetStatusAway	-	oznacz mnie jako niedostępną na slacku
-Slack	SetStatusAway	-	oznacz mnie jako nieobecnego
-Slack	SetStatusAway	-	oznacz mnie jako nieobecnego na slacku
-Slack	SetStatusAway	-	oznacz mnie jako nieobecną
-Slack	SetStatusAway	-	oznacz mnie jako nieobecną na slacku
-Slack	SetStatusAway	-	zmień mój status na slacku na niedostępny
-Slack	SetStatusAway	-	zmień mój status na slacku na niedostępną
-Slack	SetStatusAway	-	zmień mój status na slacku na nieobecnego
-Slack	SetStatusAway	-	zmień mój status na slacku na nieobecną
-Slack	SendMessage	-	wyślij wiadomość na slacku
-Slack	SendMessage	-	wyślij wiadomość na slacka
-Slack	SendMessage	-	prześlij wiadomość na slacku
-Slack	SendMessage	-	prześlij wiadomość na slacka
-Slack	SendMessage	-	napisz wiadomość na slacku
-Slack	SendMessage	-	napisz wiadomość na slacka
-Slack	SendMessage	-	utwórz wiadomość na slacku
-Slack	SendMessage	-	utwórz wiadomość na slacka
-Slack	SendMessage	-	stwórz wiadomość na slacku
-Slack	SendMessage	-	stwórz wiadomość na slacka
-Slack	SendPictureToChannel	-	wyślij zdjęcie na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij zdjęcie na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij zdjęcie na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij film na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij film na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij film na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij filmik na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij filmik na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij filmik na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij gif na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij gif na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij gif na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij coś na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij coś na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij coś na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij zdjęcie na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij zdjęcie na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij zdjęcie na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij film na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij film na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij film na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij filmik na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij filmik na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij filmik na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij gif na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij gif na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij gif na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij coś na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij coś na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	prześlij coś na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij zdjęcie na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij zdjęcie na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij zdjęcie na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij film na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij film na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij film na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij filmik na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij filmik na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij filmik na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij gif na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij gif na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij gif na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij coś na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij coś na kanał na slacku SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	udostępnij coś na kanał slackowy SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	wyślij na SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	wyślij na SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	wyślij na SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	wyślij na SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	wyślij na SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	wyślij na kanał SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	wyślij na kanał SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	wyślij na kanał SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	wyślij na kanał SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	wyślij na kanał SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	wyślij na slackowy kanał SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	wyślij na slackowy kanał SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	wyślij na slackowy kanał SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	wyślij na slackowy kanał SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	wyślij na slackowy kanał SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	wyślij na kanale SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	wyślij na kanale SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	wyślij na kanale SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	wyślij na kanale SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	wyślij na kanale SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	wyślij na slackowym kanale SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	wyślij na slackowym kanale SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	wyślij na slackowym kanale SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	wyślij na slackowym kanale SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	wyślij na slackowym kanale SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	prześlij na SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	prześlij na SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	prześlij na SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	prześlij na SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	prześlij na SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	prześlij na kanał SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	prześlij na kanał SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	prześlij na kanał SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	prześlij na kanał SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	prześlij na kanał SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	prześlij na slackowy kanał SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	prześlij na slackowy kanał SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	prześlij na slackowy kanał SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	prześlij na slackowy kanał SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	prześlij na slackowy kanał SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	prześlij na kanale SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	prześlij na kanale SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	prześlij na kanale SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	prześlij na kanale SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	prześlij na kanale SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	prześlij na slackowym kanale SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	prześlij na slackowym kanale SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	prześlij na slackowym kanale SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	prześlij na slackowym kanale SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	prześlij na slackowym kanale SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	udostępnij na SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	udostępnij na SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	udostępnij na SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	udostępnij na SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	udostępnij na SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	udostępnij na kanał SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	udostępnij na kanał SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	udostępnij na kanał SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	udostępnij na kanał SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	udostępnij na kanał SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	udostępnij na slackowy kanał SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	udostępnij na slackowy kanał SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	udostępnij na slackowy kanał SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	udostępnij na slackowy kanał SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	udostępnij na slackowy kanał SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	udostępnij na kanale SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	udostępnij na kanale SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	udostępnij na kanale SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	udostępnij na kanale SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	udostępnij na kanale SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannel	-	udostępnij na slackowym kanale SLACK.SLOT.CHANNEL zdjęcie
-Slack	SendPictureToChannel	-	udostępnij na slackowym kanale SLACK.SLOT.CHANNEL film
-Slack	SendPictureToChannel	-	udostępnij na slackowym kanale SLACK.SLOT.CHANNEL filmik
-Slack	SendPictureToChannel	-	udostępnij na slackowym kanale SLACK.SLOT.CHANNEL gif
-Slack	SendPictureToChannel	-	udostępnij na slackowym kanale SLACK.SLOT.CHANNEL coś
-Slack	SendPictureToChannelWithCaption	-	wyślij zdjęcie na kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	wyślij zdjęcie na kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	wyślij zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	wyślij zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	prześlij zdjęcie na kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	prześlij zdjęcie na kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	prześlij zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	prześlij zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	napisz zdjęcie na kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	napisz zdjęcie na kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	napisz zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	napisz zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	utwórz zdjęcie na kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	utwórz zdjęcie na kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	utwórz zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	utwórz zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
-Slack	SendPictureWithUrlToChannel	-	wyślij zdjęcie z SLACK.SLOT.PICTURE_URL na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureWithUrlToChannel	-	wyślij zdjęcie z SLACK.SLOT.PICTURE_URL na slackowy kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureWithUrlToChannel	-	prześlij zdjęcie z SLACK.SLOT.PICTURE_URL na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureWithUrlToChannel	-	prześlij zdjęcie z SLACK.SLOT.PICTURE_URL na slackowy kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureWithUrlToChannel	-	napisz zdjęcie z SLACK.SLOT.PICTURE_URL na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureWithUrlToChannel	-	napisz zdjęcie z SLACK.SLOT.PICTURE_URL na slackowy kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureWithUrlToChannel	-	utwórz zdjęcie z SLACK.SLOT.PICTURE_URL na kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureWithUrlToChannel	-	utwórz zdjęcie z SLACK.SLOT.PICTURE_URL na slackowy kanał SLACK.SLOT.CHANNEL
-Slack	SendPictureWithUrlToChannel	-	umieść SLACK.SLOT.PICTURE_URL na kanale SLACK.SLOT.CHANNEL
-Slack	CheckChannelHistory	-	sprawdź historię kanału
-Slack	CheckChannelHistory	-	sprawdź historię kanału na slacku
-Slack	CheckChannelHistory	-	pokaż historię kanału
-Slack	CheckChannelHistory	-	pokaż historię kanału na slacku
-Slack	CheckChannelHistory	-	wyświetl historię kanału
-Slack	CheckChannelHistory	-	wyświetl historię kanału na slacku
+Slack__	OpenSlack__	otwórz slacka
+Slack__	OpenSlack__	otwórz aplikację slacka
+Slack__	OpenSlack__	uruchom slacka
+Slack__	OpenSlack__	uruchom aplikację slacka
+Slack__	OpenSlack__	wyświetl slacka
+Slack__	OpenSlack__	wyświetl aplikację slacka
+Slack__	OpenSlack__	pokaż slacka
+Slack__	OpenSlack__	pokaż aplikację slacka
+Slack__	CheckLastMessages__	sprawdź wiadomości na slacku
+Slack__	CheckLastMessages__	sprawdź ostatnie wiadomości na slacku
+Slack__	CheckLastMessages__	sprawdź najnowsze wiadomości na slacku
+Slack__	CheckLastMessages__	sprawdź moje wiadomości na slacku
+Slack__	CheckLastMessages__	sprawdź moje ostatnie wiadomości na slacku
+Slack__	CheckLastMessages__	sprawdź moje najnowsze wiadomości na slacku
+Slack__	CheckLastMessages__	pokaż wiadomości na slacku
+Slack__	CheckLastMessages__	pokaż ostatnie wiadomości na slacku
+Slack__	CheckLastMessages__	pokaż najnowsze wiadomości na slacku
+Slack__	CheckLastMessages__	pokaż moje wiadomości na slacku
+Slack__	CheckLastMessages__	pokaż moje ostatnie wiadomości na slacku
+Slack__	CheckLastMessages__	pokaż moje najnowsze wiadomości na slacku
+Slack__	CheckLastMessages__	wyświetl wiadomości na slacku
+Slack__	CheckLastMessages__	wyświetl ostatnie wiadomości na slacku
+Slack__	CheckLastMessages__	wyświetl najnowsze wiadomości na slacku
+Slack__	CheckLastMessages__	wyświetl moje wiadomości na slacku
+Slack__	CheckLastMessages__	wyświetl moje ostatnie wiadomości na slacku
+Slack__	CheckLastMessages__	wyświetl moje najnowsze wiadomości na slacku
+Slack__	CheckLastMessages__	otwórz wiadomości na slacku
+Slack__	CheckLastMessages__	otwórz ostatnie wiadomości na slacku
+Slack__	CheckLastMessages__	otwórz najnowsze wiadomości na slacku
+Slack__	CheckLastMessages__	otwórz moje wiadomości na slacku
+Slack__	CheckLastMessages__	otwórz moje ostatnie wiadomości na slacku
+Slack__	CheckLastMessages__	otwórz moje najnowsze wiadomości na slacku
+Slack__	CheckUserStatus__	czy SLACK.SLOT.USERNAME jest aktywny
+Slack__	CheckUserStatus__	czy SLACK.SLOT.USERNAME jest aktywny na slacku
+Slack__	CheckUserStatus__	czy SLACK.SLOT.USERNAME jest dostępny
+Slack__	CheckUserStatus__	czy SLACK.SLOT.USERNAME jest dostępny na slacku
+Slack__	CheckUserStatus__	czy SLACK.SLOT.USERNAME jest w tym momencie aktywny
+Slack__	CheckUserStatus__	czy SLACK.SLOT.USERNAME jest w tym momencie aktywny na slacku
+Slack__	CheckUserStatus__	czy SLACK.SLOT.USERNAME jest w tym momencie dostępny
+Slack__	CheckUserStatus__	czy SLACK.SLOT.USERNAME jest w tym momencie dostępny na slacku
+Slack__	CheckUserStatus__	czy SLACK.SLOT.USERNAME jest w tej chwili aktywny
+Slack__	CheckUserStatus__	czy SLACK.SLOT.USERNAME jest w tej chwili aktywny na slacku
+Slack__	CheckUserStatus__	czy SLACK.SLOT.USERNAME jest w tej chwili dostępny
+Slack__	CheckUserStatus__	czy SLACK.SLOT.USERNAME jest w tej chwili dostępny na slacku
+Slack__	CheckUserStatus__	powiedź czy SLACK.SLOT.USERNAME jest aktywny
+Slack__	CheckUserStatus__	powiedź czy SLACK.SLOT.USERNAME jest aktywny na slacku
+Slack__	CheckUserStatus__	powiedź czy SLACK.SLOT.USERNAME jest dostępny
+Slack__	CheckUserStatus__	powiedź czy SLACK.SLOT.USERNAME jest dostępny na slacku
+Slack__	CheckUserStatus__	powiedź czy SLACK.SLOT.USERNAME jest w tym momencie aktywny
+Slack__	CheckUserStatus__	powiedź czy SLACK.SLOT.USERNAME jest w tym momencie aktywny na slacku
+Slack__	CheckUserStatus__	powiedź czy SLACK.SLOT.USERNAME jest w tym momencie dostępny
+Slack__	CheckUserStatus__	powiedź czy SLACK.SLOT.USERNAME jest w tym momencie dostępny na slacku
+Slack__	CheckUserStatus__	powiedź czy SLACK.SLOT.USERNAME jest w tej chwili aktywny
+Slack__	CheckUserStatus__	powiedź czy SLACK.SLOT.USERNAME jest w tej chwili aktywny na slacku
+Slack__	CheckUserStatus__	powiedź czy SLACK.SLOT.USERNAME jest w tej chwili dostępny
+Slack__	CheckUserStatus__	powiedź czy SLACK.SLOT.USERNAME jest w tej chwili dostępny na slacku
+Slack__	CheckUserStatus__	powiedź mi czy SLACK.SLOT.USERNAME jest aktywny
+Slack__	CheckUserStatus__	powiedź mi czy SLACK.SLOT.USERNAME jest aktywny na slacku
+Slack__	CheckUserStatus__	powiedź mi czy SLACK.SLOT.USERNAME jest dostępny
+Slack__	CheckUserStatus__	powiedź mi czy SLACK.SLOT.USERNAME jest dostępny na slacku
+Slack__	CheckUserStatus__	powiedź mi czy SLACK.SLOT.USERNAME jest w tym momencie aktywny
+Slack__	CheckUserStatus__	powiedź mi czy SLACK.SLOT.USERNAME jest w tym momencie aktywny na slacku
+Slack__	CheckUserStatus__	powiedź mi czy SLACK.SLOT.USERNAME jest w tym momencie dostępny
+Slack__	CheckUserStatus__	powiedź mi czy SLACK.SLOT.USERNAME jest w tym momencie dostępny na slacku
+Slack__	CheckUserStatus__	powiedź mi czy SLACK.SLOT.USERNAME jest w tej chwili aktywny
+Slack__	CheckUserStatus__	powiedź mi czy SLACK.SLOT.USERNAME jest w tej chwili aktywny na slacku
+Slack__	CheckUserStatus__	powiedź mi czy SLACK.SLOT.USERNAME jest w tej chwili dostępny
+Slack__	CheckUserStatus__	powiedź mi czy SLACK.SLOT.USERNAME jest w tej chwili dostępny na slacku
+Slack__	CheckMessagesFromUser__	sprawdź wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	sprawdź wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	sprawdź ostatnie wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	sprawdź ostatnie wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	sprawdź najnowsze wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	sprawdź najnowsze wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	pokaż wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	pokaż wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	pokaż ostatnie wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	pokaż ostatnie wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	pokaż najnowsze wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	pokaż najnowsze wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	wyświetl wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	wyświetl wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	wyświetl ostatnie wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	wyświetl ostatnie wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	wyświetl najnowsze wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	wyświetl najnowsze wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	pokaż wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	pokaż wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	pokaż ostatnie wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	pokaż ostatnie wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	pokaż najnowsze wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	pokaż najnowsze wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	otwórz wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	otwórz wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	otwórz ostatnie wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	otwórz ostatnie wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	otwórz najnowsze wiadomości od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesFromUser__	otwórz najnowsze wiadomości które otrzymałem od SLACK.SLOT.SENDER na slacku
+Slack__	CheckMessagesInChannel__	sprawdź ostatnie wiadomości w kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	sprawdź ostatnie wiadomości na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	sprawdź ostatnie wiadomości które otrzymałem w kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	sprawdź ostatnie wiadomości które otrzymałem na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	sprawdź ostatnie wiadomości które dostałem w kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	sprawdź ostatnie wiadomości które dostałem na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	sprawdź najnowsze wiadomości w kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	sprawdź najnowsze wiadomości na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	sprawdź najnowsze wiadomości które otrzymałem w kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	sprawdź najnowsze wiadomości które otrzymałem na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	sprawdź najnowsze wiadomości które dostałem w kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	sprawdź najnowsze wiadomości które dostałem na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	sprawdź wiadomości na slackowym kanale SLACK.SLOT.CHANNEL w ciągu ostatniej godziny
+Slack__	CheckMessagesInChannel__	sprawdź wiadomości na slackowym kanale SLACK.SLOT.CHANNEL ostatnio
+Slack__	CheckMessagesInChannel__	pokaż ostatnie wiadomości w kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	pokaż ostatnie wiadomości na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	pokaż ostatnie wiadomości które otrzymałem w kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	pokaż ostatnie wiadomości które otrzymałem na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	pokaż ostatnie wiadomości które dostałem w kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	pokaż ostatnie wiadomości które dostałem na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	pokaż najnowsze wiadomości w kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	pokaż najnowsze wiadomości na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	pokaż najnowsze wiadomości które otrzymałem w kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	pokaż najnowsze wiadomości które otrzymałem na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	pokaż najnowsze wiadomości które dostałem w kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	pokaż najnowsze wiadomości które dostałem na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	pokaż wiadomości na slackowym kanale SLACK.SLOT.CHANNEL w ciągu ostatniej godziny
+Slack__	CheckMessagesInChannel__	pokaż wiadomości na slackowym kanale SLACK.SLOT.CHANNEL ostatnio
+Slack__	SendMessageToChannel__	wyślij SLACK.SLOT.MESSAGE na kanał SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	wyślij SLACK.SLOT.MESSAGE na slackowy kanał SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	wyślij SLACK.SLOT.MESSAGE na kanale SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	wyślij SLACK.SLOT.MESSAGE na slackowym kanale SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	prześlij SLACK.SLOT.MESSAGE na kanał SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	prześlij SLACK.SLOT.MESSAGE na slackowy kanał SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	prześlij SLACK.SLOT.MESSAGE na kanale SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	prześlij SLACK.SLOT.MESSAGE na slackowym kanale SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	napisz SLACK.SLOT.MESSAGE na kanał SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	napisz SLACK.SLOT.MESSAGE na slackowy kanał SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	napisz SLACK.SLOT.MESSAGE na kanale SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	napisz SLACK.SLOT.MESSAGE na slackowym kanale SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	utwórz SLACK.SLOT.MESSAGE na kanał SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	utwórz SLACK.SLOT.MESSAGE na slackowy kanał SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	utwórz SLACK.SLOT.MESSAGE na kanale SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	utwórz SLACK.SLOT.MESSAGE na slackowym kanale SLACK.SLOT.CHANNEL
+Slack__	SendMessageToChannel__	wiadomość na SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	wiadomość na kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	wiadomość na slackowy kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	wiadomość na kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	wiadomość na slackowym kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	wyślij wiadomość na SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	wyślij wiadomość na kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	wyślij wiadomość na slackowy kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	wyślij wiadomość na kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	wyślij wiadomość na slackowym kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	prześlij wiadomość na SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	prześlij wiadomość na kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	prześlij wiadomość na slackowy kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	prześlij wiadomość na kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	prześlij wiadomość na slackowym kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	napisz wiadomość na SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	napisz wiadomość na kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	napisz wiadomość na slackowy kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	napisz wiadomość na kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	napisz wiadomość na slackowym kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	utwórz wiadomość na SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	utwórz wiadomość na kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	utwórz wiadomość na slackowy kanał SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	utwórz wiadomość na kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	utwórz wiadomość na slackowym kanale SLACK.SLOT.CHANNEL o treści SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	powiedz na SLACK.SLOT.CHANNEL że SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	napisz na SLACK.SLOT.CHANNEL że SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	poinformuj na SLACK.SLOT.CHANNEL że SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	post na SLACK.SLOT.CHANNEL że SLACK.SLOT.MESSAGE
+Slack__	SetPurposeOnChannel__	ustaw cel SLACK.SLOT.CHANNEL na SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	ustaw cel kanału SLACK.SLOT.CHANNEL na SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	ustaw cel slackowego kanału SLACK.SLOT.CHANNEL na SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	zmień cel SLACK.SLOT.CHANNEL na SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	zmień cel kanału SLACK.SLOT.CHANNEL na SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	zmień cel slackowego kanału SLACK.SLOT.CHANNEL na SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	niech SLACK.SLOT.PURPOSE będzie celem SLACK.SLOT.CHANNEL
+Slack__	SetPurposeOnChannel__	niech SLACK.SLOT.PURPOSE będzie celem kanału SLACK.SLOT.CHANNEL
+Slack__	SetPurposeOnChannel__	niech SLACK.SLOT.PURPOSE będzie celem slackowego kanału SLACK.SLOT.CHANNEL
+Slack__	SetPurposeOnChannel__	celem kanału SLACK.SLOT.CHANNEL jest SLACK.SLOT.PURPOSE
+Slack__	SetTopicInChannel__	ustaw temat SLACK.SLOT.CHANNEL na SLACK.SLOT.TOPIC
+Slack__	SetTopicInChannel__	ustaw temat kanału SLACK.SLOT.CHANNEL na SLACK.SLOT.TOPIC
+Slack__	SetTopicInChannel__	ustaw temat slackowego kanału SLACK.SLOT.CHANNEL na SLACK.SLOT.TOPIC
+Slack__	SetTopicInChannel__	niech SLACK.SLOT.TOPIC będzie tematem SLACK.SLOT.CHANNEL
+Slack__	SetTopicInChannel__	niech SLACK.SLOT.TOPIC będzie tematem kanału SLACK.SLOT.CHANNEL
+Slack__	SetTopicInChannel__	niech SLACK.SLOT.TOPIC będzie tematem slackowego kanału SLACK.SLOT.CHANNEL
+Slack__	SetTopicInChannel__	tematem kanału SLACK.SLOT.CHANNEL jest SLACK.SLOT.TOPIC
+Slack__	SetStatusAway__	ustaw mnie jako niedostępnego
+Slack__	SetStatusAway__	ustaw mnie jako niedostępnego na slacku
+Slack__	SetStatusAway__	ustaw mnie jako niedostępną
+Slack__	SetStatusAway__	ustaw mnie jako niedostępną na slacku
+Slack__	SetStatusAway__	ustaw mnie jako nieobecnego
+Slack__	SetStatusAway__	ustaw mnie jako nieobecnego na slacku
+Slack__	SetStatusAway__	ustaw mnie jako nieobecną
+Slack__	SetStatusAway__	ustaw mnie jako nieobecną na slacku
+Slack__	SetStatusAway__	oznacz mnie jako niedostępnego
+Slack__	SetStatusAway__	oznacz mnie jako niedostępnego na slacku
+Slack__	SetStatusAway__	oznacz mnie jako niedostępną
+Slack__	SetStatusAway__	oznacz mnie jako niedostępną na slacku
+Slack__	SetStatusAway__	oznacz mnie jako nieobecnego
+Slack__	SetStatusAway__	oznacz mnie jako nieobecnego na slacku
+Slack__	SetStatusAway__	oznacz mnie jako nieobecną
+Slack__	SetStatusAway__	oznacz mnie jako nieobecną na slacku
+Slack__	SetStatusAway__	zmień mój status na slacku na niedostępny
+Slack__	SetStatusAway__	zmień mój status na slacku na niedostępną
+Slack__	SetStatusAway__	zmień mój status na slacku na nieobecnego
+Slack__	SetStatusAway__	zmień mój status na slacku na nieobecną
+Slack__	SendMessage__	wyślij wiadomość na slacku
+Slack__	SendMessage__	wyślij wiadomość na slacka
+Slack__	SendMessage__	prześlij wiadomość na slacku
+Slack__	SendMessage__	prześlij wiadomość na slacka
+Slack__	SendMessage__	napisz wiadomość na slacku
+Slack__	SendMessage__	napisz wiadomość na slacka
+Slack__	SendMessage__	utwórz wiadomość na slacku
+Slack__	SendMessage__	utwórz wiadomość na slacka
+Slack__	SendMessage__	stwórz wiadomość na slacku
+Slack__	SendMessage__	stwórz wiadomość na slacka
+Slack__	SendPictureToChannel__	wyślij zdjęcie na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij zdjęcie na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij zdjęcie na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij film na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij film na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij film na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij filmik na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij filmik na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij filmik na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij gif na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij gif na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij gif na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij coś na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij coś na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij coś na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij zdjęcie na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij zdjęcie na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij zdjęcie na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij film na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij film na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij film na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij filmik na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij filmik na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij filmik na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij gif na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij gif na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij gif na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij coś na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij coś na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	prześlij coś na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij zdjęcie na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij zdjęcie na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij zdjęcie na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij film na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij film na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij film na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij filmik na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij filmik na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij filmik na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij gif na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij gif na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij gif na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij coś na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij coś na kanał na slacku SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	udostępnij coś na kanał slackowy SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	wyślij na SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	wyślij na SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	wyślij na SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	wyślij na SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	wyślij na SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	wyślij na kanał SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	wyślij na kanał SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	wyślij na kanał SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	wyślij na kanał SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	wyślij na kanał SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	wyślij na slackowy kanał SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	wyślij na slackowy kanał SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	wyślij na slackowy kanał SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	wyślij na slackowy kanał SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	wyślij na slackowy kanał SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	wyślij na kanale SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	wyślij na kanale SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	wyślij na kanale SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	wyślij na kanale SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	wyślij na kanale SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	wyślij na slackowym kanale SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	wyślij na slackowym kanale SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	wyślij na slackowym kanale SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	wyślij na slackowym kanale SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	wyślij na slackowym kanale SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	prześlij na SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	prześlij na SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	prześlij na SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	prześlij na SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	prześlij na SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	prześlij na kanał SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	prześlij na kanał SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	prześlij na kanał SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	prześlij na kanał SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	prześlij na kanał SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	prześlij na slackowy kanał SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	prześlij na slackowy kanał SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	prześlij na slackowy kanał SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	prześlij na slackowy kanał SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	prześlij na slackowy kanał SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	prześlij na kanale SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	prześlij na kanale SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	prześlij na kanale SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	prześlij na kanale SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	prześlij na kanale SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	prześlij na slackowym kanale SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	prześlij na slackowym kanale SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	prześlij na slackowym kanale SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	prześlij na slackowym kanale SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	prześlij na slackowym kanale SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	udostępnij na SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	udostępnij na SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	udostępnij na SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	udostępnij na SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	udostępnij na SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	udostępnij na kanał SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	udostępnij na kanał SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	udostępnij na kanał SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	udostępnij na kanał SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	udostępnij na kanał SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	udostępnij na slackowy kanał SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	udostępnij na slackowy kanał SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	udostępnij na slackowy kanał SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	udostępnij na slackowy kanał SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	udostępnij na slackowy kanał SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	udostępnij na kanale SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	udostępnij na kanale SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	udostępnij na kanale SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	udostępnij na kanale SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	udostępnij na kanale SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannel__	udostępnij na slackowym kanale SLACK.SLOT.CHANNEL zdjęcie
+Slack__	SendPictureToChannel__	udostępnij na slackowym kanale SLACK.SLOT.CHANNEL film
+Slack__	SendPictureToChannel__	udostępnij na slackowym kanale SLACK.SLOT.CHANNEL filmik
+Slack__	SendPictureToChannel__	udostępnij na slackowym kanale SLACK.SLOT.CHANNEL gif
+Slack__	SendPictureToChannel__	udostępnij na slackowym kanale SLACK.SLOT.CHANNEL coś
+Slack__	SendPictureToChannelWithCaption__	wyślij zdjęcie na kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	wyślij zdjęcie na kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	wyślij zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	wyślij zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	prześlij zdjęcie na kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	prześlij zdjęcie na kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	prześlij zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	prześlij zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	napisz zdjęcie na kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	napisz zdjęcie na kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	napisz zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	napisz zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	utwórz zdjęcie na kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	utwórz zdjęcie na kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	utwórz zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z podpisem SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	utwórz zdjęcie na slackowy kanał SLACK.SLOT.CHANNEL z opisem SLACK.SLOT.CAPTION
+Slack__	SendPictureWithUrlToChannel__	wyślij zdjęcie z SLACK.SLOT.PICTURE_URL na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureWithUrlToChannel__	wyślij zdjęcie z SLACK.SLOT.PICTURE_URL na slackowy kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureWithUrlToChannel__	prześlij zdjęcie z SLACK.SLOT.PICTURE_URL na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureWithUrlToChannel__	prześlij zdjęcie z SLACK.SLOT.PICTURE_URL na slackowy kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureWithUrlToChannel__	napisz zdjęcie z SLACK.SLOT.PICTURE_URL na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureWithUrlToChannel__	napisz zdjęcie z SLACK.SLOT.PICTURE_URL na slackowy kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureWithUrlToChannel__	utwórz zdjęcie z SLACK.SLOT.PICTURE_URL na kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureWithUrlToChannel__	utwórz zdjęcie z SLACK.SLOT.PICTURE_URL na slackowy kanał SLACK.SLOT.CHANNEL
+Slack__	SendPictureWithUrlToChannel__	umieść SLACK.SLOT.PICTURE_URL na kanale SLACK.SLOT.CHANNEL
+Slack__	CheckChannelHistory__	sprawdź historię kanału
+Slack__	CheckChannelHistory__	sprawdź historię kanału na slacku
+Slack__	CheckChannelHistory__	pokaż historię kanału
+Slack__	CheckChannelHistory__	pokaż historię kanału na slacku
+Slack__	CheckChannelHistory__	wyświetl historię kanału
+Slack__	CheckChannelHistory__	wyświetl historię kanału na slacku

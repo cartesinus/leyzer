@@ -1,25 +1,24 @@
-domain	intent	parallel	pattern
-News	ShowNews	-	NEWS.SLOT.PORTAL
-News	ShowNews	-	open NEWS.SLOT.PORTAL
-News	ShowNews	-	read NEWS.SLOT.PORTAL
-News	ShowNews	-	show news from NEWS.SLOT.PORTAL
-News	ShowNews	-	show the news from NEWS.SLOT.PORTAL
-News	ShowNews	-	show me news from NEWS.SLOT.PORTAL
-News	ShowNews	-	show me the news from NEWS.SLOT.PORTAL
-News	ShowNews	-	news on NEWS.SLOT.PORTAL
-News	ShowNews	-	latest news on NEWS.SLOT.PORTAL
-News	ShowNews	-	latest NEWS.SLOT.PORTAL news
-News	ShowNewsFromSection	-	read the NEWS.SLOT.SECTION section of the NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	-	read the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section
-News	ShowNewsFromSection	-	show the NEWS.SLOT.SECTION section of the NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	-	show the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section
-News	ShowNewsFromSection	-	show me the NEWS.SLOT.SECTION section of the NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	-	show me the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section
-News	ShowNewsFromSection	-	display the NEWS.SLOT.SECTION section of the NEWS.SLOT.PORTAL
-News	ShowNewsFromSection	-	display the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section
-News	NotifyWhenPortalUpdates	-	notify me when there is an update on NEWS.SLOT.PORTAL news
-News	NotifyWhenPortalUpdates	-	notify me when there is an update on NEWS.SLOT.PORTAL front page
-News	NotifyWhenPortalUpdates	-	tell me when there is an update on NEWS.SLOT.PORTAL news
-News	NotifyWhenPortalUpdates	-	tell me when there is an update on NEWS.SLOT.PORTAL front page
-News	NotifyWhenPortalUpdatesInSection	-	notify me when the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section publishes a new article
-News	NotifyWhenPortalUpdatesInSection	-	tell me when the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section publishes a new article
+News__	ShowNews__	NEWS.SLOT.PORTAL
+News__	ShowNews__	open NEWS.SLOT.PORTAL
+News__	ShowNews__	read NEWS.SLOT.PORTAL
+News__	ShowNews__	show news from NEWS.SLOT.PORTAL
+News__	ShowNews__	show the news from NEWS.SLOT.PORTAL
+News__	ShowNews__	show me news from NEWS.SLOT.PORTAL
+News__	ShowNews__	show me the news from NEWS.SLOT.PORTAL
+News__	ShowNews__	news on NEWS.SLOT.PORTAL
+News__	ShowNews__	latest news on NEWS.SLOT.PORTAL
+News__	ShowNews__	latest NEWS.SLOT.PORTAL news
+News__	ShowNewsFromSection__	read the NEWS.SLOT.SECTION section of the NEWS.SLOT.PORTAL
+News__	ShowNewsFromSection__	read the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section
+News__	ShowNewsFromSection__	show the NEWS.SLOT.SECTION section of the NEWS.SLOT.PORTAL
+News__	ShowNewsFromSection__	show the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section
+News__	ShowNewsFromSection__	show me the NEWS.SLOT.SECTION section of the NEWS.SLOT.PORTAL
+News__	ShowNewsFromSection__	show me the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section
+News__	ShowNewsFromSection__	display the NEWS.SLOT.SECTION section of the NEWS.SLOT.PORTAL
+News__	ShowNewsFromSection__	display the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section
+News__	NotifyWhenPortalUpdates__	notify me when there is an update on NEWS.SLOT.PORTAL news
+News__	NotifyWhenPortalUpdates__	notify me when there is an update on NEWS.SLOT.PORTAL front page
+News__	NotifyWhenPortalUpdates__	tell me when there is an update on NEWS.SLOT.PORTAL news
+News__	NotifyWhenPortalUpdates__	tell me when there is an update on NEWS.SLOT.PORTAL front page
+News__	NotifyWhenPortalUpdatesInSection__	notify me when the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section publishes a new article
+News__	NotifyWhenPortalUpdatesInSection__	tell me when the NEWS.SLOT.PORTAL NEWS.SLOT.SECTION section publishes a new article

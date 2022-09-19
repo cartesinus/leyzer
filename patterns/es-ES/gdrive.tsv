@@ -1,106 +1,105 @@
-domain	intent	parallel	pattern
-Gdrive	OpenGdrive	-	muestra mis archivos de google drive
-Gdrive	OpenGdrive	-	muestra mis archivos en google drive
-Gdrive	OpenGdrive	-	muéstrame mis archivos de google drive
-Gdrive	OpenGdrive	-	muéstrame mis archivos en google drive
-Gdrive	OpenGdrive	-	enseña mis archivos de google drive
-Gdrive	OpenGdrive	-	enseña mis archivos en google drive
-Gdrive	OpenGdrive	-	enséñame mis archivos de google drive
-Gdrive	OpenGdrive	-	enséñame mis archivos en google drive
-Gdrive	ShowFilesWithType	-	muestra mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	-	muestra mis archivos GDRIVE.SLOT.MIME_TYPE en google drive
-Gdrive	ShowFilesWithType	-	muéstrame mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	-	muéstrame mis archivos GDRIVE.SLOT.MIME_TYPE en google drive
-Gdrive	ShowFilesWithType	-	enseña mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	-	enseña mis archivos GDRIVE.SLOT.MIME_TYPE en google drive
-Gdrive	ShowFilesWithType	-	enséñame mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	-	enséñame mis archivos GDRIVE.SLOT.MIME_TYPE en google drive
-Gdrive	ShowFilesWithStar	-	muestra mis archivos de google drive marcados
-Gdrive	ShowFilesWithStar	-	muestra los archivos de google drive que he marcado
-Gdrive	ShowFilesWithStar	-	muestra los archivos de google drive que marqué
-Gdrive	ShowFilesWithStar	-	muéstrame mis archivos de google drive marcados
-Gdrive	ShowFilesWithStar	-	muéstrame los archivos de google drive que he marcado
-Gdrive	ShowFilesWithStar	-	muéstrame los archivos de google drive que marqué
-Gdrive	ShowFilesWithStar	-	enseña mis archivos de google drive marcados
-Gdrive	ShowFilesWithStar	-	enseña los archivos de google drive que he marcado
-Gdrive	ShowFilesWithStar	-	enseña los archivos de google drive que marqué
-Gdrive	ShowFilesWithStar	-	enséñame mis archivos de google drive marcados
-Gdrive	ShowFilesWithStar	-	enséñame los archivos de google drive que he marcado
-Gdrive	ShowFilesWithStar	-	enséñame los archivos de google drive que marqué
-Gdrive	ShowFilesFromTime	-	muestra mis archivos de google drive creados GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	muestra mis archivos de google drive modificados GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	muéstrame mis archivos de google drive creados GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	muéstrame mis archivos de google drive modificados GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	enseña mis archivos de google drive creados GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	enseña mis archivos de google drive modificados GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	enséñame mis archivos de google drive creados GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	enséñame mis archivos de google drive modificados GDRIVE.SLOT.TIME
-Gdrive	ShowFilesWithSize	-	muestra mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	muestra mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	muéstrame mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	muéstrame mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	enseña mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	enseña mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	enséñame mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	enséñame mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE
-Gdrive	CreateFile	-	crea un archivo de google drive
-Gdrive	CreateFile	-	crea un archivo en google drive
-Gdrive	CreateFileWithName	-	crea un nuevo archivo con el título GDRIVE.SLOT.FILE_NAME en google drive
-Gdrive	CreateFileWithName	-	crea un archivo de google drive llamado GDRIVE.SLOT.FILE_NAME
-Gdrive	ShowOldestFiles	-	muestra mis archivos de google drive más antiguos
-Gdrive	ShowOldestFiles	-	muéstrame mis archivos de google drive más antiguos
-Gdrive	ShowOldestFiles	-	enseña mis archivos de google drive más antiguos
-Gdrive	ShowOldestFiles	-	enséñame mis archivos de google drive más antiguos
-Gdrive	ShowNewestFiles	-	muestra mis archivos de google drive más antiguos
-Gdrive	ShowNewestFiles	-	muestra mis archivos de google drive creados recientemente
-Gdrive	ShowNewestFiles	-	muéstrame mis archivos de google drive más antiguos
-Gdrive	ShowNewestFiles	-	muéstrame mis archivos de google drive creados recientemente
-Gdrive	ShowNewestFiles	-	enseña mis archivos de google drive más antiguos
-Gdrive	ShowNewestFiles	-	enseña mis archivos de google drive creados recientemente
-Gdrive	ShowNewestFiles	-	enséñame mis archivos de google drive más antiguos
-Gdrive	ShowNewestFiles	-	enséñame mis archivos de google drive creados recientemente
-Gdrive	SortAlphabetical	-	muestra mis archivos de google drive en órden alfabética
-Gdrive	SortAlphabetical	-	muestra mis archivos de google drive en la órden alfabética
-Gdrive	SortAlphabetical	-	muestra mis archivos de google drive en una órden alfabética
-Gdrive	SortAlphabetical	-	muéstrame mis archivos de google drive en órden alfabética
-Gdrive	SortAlphabetical	-	muéstrame mis archivos de google drive en la órden alfabética
-Gdrive	SortAlphabetical	-	muéstrame mis archivos de google drive en una órden alfabética
-Gdrive	SortAlphabetical	-	enseña mis archivos de google drive en órden alfabética
-Gdrive	SortAlphabetical	-	enseña mis archivos de google drive en la órden alfabética
-Gdrive	SortAlphabetical	-	enseña mis archivos de google drive en una órden alfabética
-Gdrive	SortAlphabetical	-	enséñame mis archivos de google drive en órden alfabética
-Gdrive	SortAlphabetical	-	enséñame mis archivos de google drive en la órden alfabética
-Gdrive	SortAlphabetical	-	enséñame mis archivos de google drive en una órden alfabética
-Gdrive	SortReverseAlphabetical	-	muestra mis archivos de google drive en órden alfabética
-Gdrive	SortReverseAlphabetical	-	muestra mis archivos de google drive en órden alfabética reversa
-Gdrive	SortReverseAlphabetical	-	muestra mis archivos de google drive en la órden alfabética
-Gdrive	SortReverseAlphabetical	-	muestra mis archivos de google drive en la órden alfabética reversa
-Gdrive	SortReverseAlphabetical	-	muestra mis archivos de google drive en una órden alfabética
-Gdrive	SortReverseAlphabetical	-	muestra mis archivos de google drive en una órden alfabética reversa
-Gdrive	SortReverseAlphabetical	-	muéstrame mis archivos de google drive en órden alfabética
-Gdrive	SortReverseAlphabetical	-	muéstrame mis archivos de google drive en órden alfabética reversa
-Gdrive	SortReverseAlphabetical	-	muéstrame mis archivos de google drive en la órden alfabética
-Gdrive	SortReverseAlphabetical	-	muéstrame mis archivos de google drive en la órden alfabética reversa
-Gdrive	SortReverseAlphabetical	-	muéstrame mis archivos de google drive en una órden alfabética
-Gdrive	SortReverseAlphabetical	-	muéstrame mis archivos de google drive en una órden alfabética reversa
-Gdrive	SortReverseAlphabetical	-	enseña mis archivos de google drive en órden alfabética
-Gdrive	SortReverseAlphabetical	-	enseña mis archivos de google drive en órden alfabética reversa
-Gdrive	SortReverseAlphabetical	-	enseña mis archivos de google drive en la órden alfabética
-Gdrive	SortReverseAlphabetical	-	enseña mis archivos de google drive en la órden alfabética reversa
-Gdrive	SortReverseAlphabetical	-	enseña mis archivos de google drive en una órden alfabética
-Gdrive	SortReverseAlphabetical	-	enseña mis archivos de google drive en una órden alfabética reversa
-Gdrive	SortReverseAlphabetical	-	enséñame mis archivos de google drive en órden alfabética
-Gdrive	SortReverseAlphabetical	-	enséñame mis archivos de google drive en órden alfabética reversa
-Gdrive	SortReverseAlphabetical	-	enséñame mis archivos de google drive en la órden alfabética
-Gdrive	SortReverseAlphabetical	-	enséñame mis archivos de google drive en la órden alfabética reversa
-Gdrive	SortReverseAlphabetical	-	enséñame mis archivos de google drive en una órden alfabética
-Gdrive	SortReverseAlphabetical	-	enséñame mis archivos de google drive en una órden alfabética reversa
-Gdrive	OpenFileWithName	-	abre mi archivo GDRIVE.SLOT.FILE_NAME para editar en google drive
-Gdrive	ShareFileWithNameToAddress	-	comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL
-Gdrive	ShareFileWithNameToAddress	-	comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para editar
-Gdrive	ShareFileWithNameToAddress	-	comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para leer
-Gdrive	ShareFileWithNameToAddress	-	comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para leer y escribir
-Gdrive	ShareFileWithNameToAddress	-	comparte mi archivo GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL
-Gdrive	ShareFileWithNameToAddress	-	comparte mi archivo GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para editar
-Gdrive	ShareFileWithNameToAddress	-	comparte mi archivo GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para leer
-Gdrive	ShareFileWithNameToAddress	-	comparte mi archivo GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para leer y escribir
+Gdrive__	OpenGdrive__	muestra mis archivos de google drive
+Gdrive__	OpenGdrive__	muestra mis archivos en google drive
+Gdrive__	OpenGdrive__	muéstrame mis archivos de google drive
+Gdrive__	OpenGdrive__	muéstrame mis archivos en google drive
+Gdrive__	OpenGdrive__	enseña mis archivos de google drive
+Gdrive__	OpenGdrive__	enseña mis archivos en google drive
+Gdrive__	OpenGdrive__	enséñame mis archivos de google drive
+Gdrive__	OpenGdrive__	enséñame mis archivos en google drive
+Gdrive__	ShowFilesWithType__	muestra mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE
+Gdrive__	ShowFilesWithType__	muestra mis archivos GDRIVE.SLOT.MIME_TYPE en google drive
+Gdrive__	ShowFilesWithType__	muéstrame mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE
+Gdrive__	ShowFilesWithType__	muéstrame mis archivos GDRIVE.SLOT.MIME_TYPE en google drive
+Gdrive__	ShowFilesWithType__	enseña mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE
+Gdrive__	ShowFilesWithType__	enseña mis archivos GDRIVE.SLOT.MIME_TYPE en google drive
+Gdrive__	ShowFilesWithType__	enséñame mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE
+Gdrive__	ShowFilesWithType__	enséñame mis archivos GDRIVE.SLOT.MIME_TYPE en google drive
+Gdrive__	ShowFilesWithStar__	muestra mis archivos de google drive marcados
+Gdrive__	ShowFilesWithStar__	muestra los archivos de google drive que he marcado
+Gdrive__	ShowFilesWithStar__	muestra los archivos de google drive que marqué
+Gdrive__	ShowFilesWithStar__	muéstrame mis archivos de google drive marcados
+Gdrive__	ShowFilesWithStar__	muéstrame los archivos de google drive que he marcado
+Gdrive__	ShowFilesWithStar__	muéstrame los archivos de google drive que marqué
+Gdrive__	ShowFilesWithStar__	enseña mis archivos de google drive marcados
+Gdrive__	ShowFilesWithStar__	enseña los archivos de google drive que he marcado
+Gdrive__	ShowFilesWithStar__	enseña los archivos de google drive que marqué
+Gdrive__	ShowFilesWithStar__	enséñame mis archivos de google drive marcados
+Gdrive__	ShowFilesWithStar__	enséñame los archivos de google drive que he marcado
+Gdrive__	ShowFilesWithStar__	enséñame los archivos de google drive que marqué
+Gdrive__	ShowFilesFromTime__	muestra mis archivos de google drive creados GDRIVE.SLOT.TIME
+Gdrive__	ShowFilesFromTime__	muestra mis archivos de google drive modificados GDRIVE.SLOT.TIME
+Gdrive__	ShowFilesFromTime__	muéstrame mis archivos de google drive creados GDRIVE.SLOT.TIME
+Gdrive__	ShowFilesFromTime__	muéstrame mis archivos de google drive modificados GDRIVE.SLOT.TIME
+Gdrive__	ShowFilesFromTime__	enseña mis archivos de google drive creados GDRIVE.SLOT.TIME
+Gdrive__	ShowFilesFromTime__	enseña mis archivos de google drive modificados GDRIVE.SLOT.TIME
+Gdrive__	ShowFilesFromTime__	enséñame mis archivos de google drive creados GDRIVE.SLOT.TIME
+Gdrive__	ShowFilesFromTime__	enséñame mis archivos de google drive modificados GDRIVE.SLOT.TIME
+Gdrive__	ShowFilesWithSize__	muestra mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE
+Gdrive__	ShowFilesWithSize__	muestra mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE
+Gdrive__	ShowFilesWithSize__	muéstrame mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE
+Gdrive__	ShowFilesWithSize__	muéstrame mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE
+Gdrive__	ShowFilesWithSize__	enseña mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE
+Gdrive__	ShowFilesWithSize__	enseña mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE
+Gdrive__	ShowFilesWithSize__	enséñame mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE
+Gdrive__	ShowFilesWithSize__	enséñame mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE
+Gdrive__	CreateFile__	crea un archivo de google drive
+Gdrive__	CreateFile__	crea un archivo en google drive
+Gdrive__	CreateFileWithName__	crea un nuevo archivo con el título GDRIVE.SLOT.FILE_NAME en google drive
+Gdrive__	CreateFileWithName__	crea un archivo de google drive llamado GDRIVE.SLOT.FILE_NAME
+Gdrive__	ShowOldestFiles__	muestra mis archivos de google drive más antiguos
+Gdrive__	ShowOldestFiles__	muéstrame mis archivos de google drive más antiguos
+Gdrive__	ShowOldestFiles__	enseña mis archivos de google drive más antiguos
+Gdrive__	ShowOldestFiles__	enséñame mis archivos de google drive más antiguos
+Gdrive__	ShowNewestFiles__	muestra mis archivos de google drive más antiguos
+Gdrive__	ShowNewestFiles__	muestra mis archivos de google drive creados recientemente
+Gdrive__	ShowNewestFiles__	muéstrame mis archivos de google drive más antiguos
+Gdrive__	ShowNewestFiles__	muéstrame mis archivos de google drive creados recientemente
+Gdrive__	ShowNewestFiles__	enseña mis archivos de google drive más antiguos
+Gdrive__	ShowNewestFiles__	enseña mis archivos de google drive creados recientemente
+Gdrive__	ShowNewestFiles__	enséñame mis archivos de google drive más antiguos
+Gdrive__	ShowNewestFiles__	enséñame mis archivos de google drive creados recientemente
+Gdrive__	SortAlphabetical__	muestra mis archivos de google drive en órden alfabética
+Gdrive__	SortAlphabetical__	muestra mis archivos de google drive en la órden alfabética
+Gdrive__	SortAlphabetical__	muestra mis archivos de google drive en una órden alfabética
+Gdrive__	SortAlphabetical__	muéstrame mis archivos de google drive en órden alfabética
+Gdrive__	SortAlphabetical__	muéstrame mis archivos de google drive en la órden alfabética
+Gdrive__	SortAlphabetical__	muéstrame mis archivos de google drive en una órden alfabética
+Gdrive__	SortAlphabetical__	enseña mis archivos de google drive en órden alfabética
+Gdrive__	SortAlphabetical__	enseña mis archivos de google drive en la órden alfabética
+Gdrive__	SortAlphabetical__	enseña mis archivos de google drive en una órden alfabética
+Gdrive__	SortAlphabetical__	enséñame mis archivos de google drive en órden alfabética
+Gdrive__	SortAlphabetical__	enséñame mis archivos de google drive en la órden alfabética
+Gdrive__	SortAlphabetical__	enséñame mis archivos de google drive en una órden alfabética
+Gdrive__	SortReverseAlphabetical__	muestra mis archivos de google drive en órden alfabética
+Gdrive__	SortReverseAlphabetical__	muestra mis archivos de google drive en órden alfabética reversa
+Gdrive__	SortReverseAlphabetical__	muestra mis archivos de google drive en la órden alfabética
+Gdrive__	SortReverseAlphabetical__	muestra mis archivos de google drive en la órden alfabética reversa
+Gdrive__	SortReverseAlphabetical__	muestra mis archivos de google drive en una órden alfabética
+Gdrive__	SortReverseAlphabetical__	muestra mis archivos de google drive en una órden alfabética reversa
+Gdrive__	SortReverseAlphabetical__	muéstrame mis archivos de google drive en órden alfabética
+Gdrive__	SortReverseAlphabetical__	muéstrame mis archivos de google drive en órden alfabética reversa
+Gdrive__	SortReverseAlphabetical__	muéstrame mis archivos de google drive en la órden alfabética
+Gdrive__	SortReverseAlphabetical__	muéstrame mis archivos de google drive en la órden alfabética reversa
+Gdrive__	SortReverseAlphabetical__	muéstrame mis archivos de google drive en una órden alfabética
+Gdrive__	SortReverseAlphabetical__	muéstrame mis archivos de google drive en una órden alfabética reversa
+Gdrive__	SortReverseAlphabetical__	enseña mis archivos de google drive en órden alfabética
+Gdrive__	SortReverseAlphabetical__	enseña mis archivos de google drive en órden alfabética reversa
+Gdrive__	SortReverseAlphabetical__	enseña mis archivos de google drive en la órden alfabética
+Gdrive__	SortReverseAlphabetical__	enseña mis archivos de google drive en la órden alfabética reversa
+Gdrive__	SortReverseAlphabetical__	enseña mis archivos de google drive en una órden alfabética
+Gdrive__	SortReverseAlphabetical__	enseña mis archivos de google drive en una órden alfabética reversa
+Gdrive__	SortReverseAlphabetical__	enséñame mis archivos de google drive en órden alfabética
+Gdrive__	SortReverseAlphabetical__	enséñame mis archivos de google drive en órden alfabética reversa
+Gdrive__	SortReverseAlphabetical__	enséñame mis archivos de google drive en la órden alfabética
+Gdrive__	SortReverseAlphabetical__	enséñame mis archivos de google drive en la órden alfabética reversa
+Gdrive__	SortReverseAlphabetical__	enséñame mis archivos de google drive en una órden alfabética
+Gdrive__	SortReverseAlphabetical__	enséñame mis archivos de google drive en una órden alfabética reversa
+Gdrive__	OpenFileWithName__	abre mi archivo GDRIVE.SLOT.FILE_NAME para editar en google drive
+Gdrive__	ShareFileWithNameToAddress__	comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL
+Gdrive__	ShareFileWithNameToAddress__	comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para editar
+Gdrive__	ShareFileWithNameToAddress__	comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para leer
+Gdrive__	ShareFileWithNameToAddress__	comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para leer y escribir
+Gdrive__	ShareFileWithNameToAddress__	comparte mi archivo GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL
+Gdrive__	ShareFileWithNameToAddress__	comparte mi archivo GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para editar
+Gdrive__	ShareFileWithNameToAddress__	comparte mi archivo GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para leer
+Gdrive__	ShareFileWithNameToAddress__	comparte mi archivo GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para leer y escribir

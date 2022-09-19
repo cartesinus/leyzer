@@ -1,0 +1,51 @@
+Phone__	CallNumber__	call PHONE.SLOT.PHONE_NUMBER 	 o o
+Phone__	CallNumber__	call number PHONE.SLOT.PHONE_NUMBER 	 o o o
+Phone__	CallNumber__	dial PHONE.SLOT.PHONE_NUMBER 	 o o
+Phone__	CallNumber__	dial number PHONE.SLOT.PHONE_NUMBER 	 o o o
+Phone__	CallNumber__	phone PHONE.SLOT.PHONE_NUMBER 	 o o
+Phone__	CallNumber__	phone number PHONE.SLOT.PHONE_NUMBER 	 o o o
+Phone__	CallEmergency__	call 911 	 o o
+Phone__	CallEmergency__	call ambulance 	 o o
+Phone__	CallEmergency__	call fire department 	 o o o
+Phone__	CallEmergency__	call police 	 o o
+Phone__	CallEmergency__	call emergency services 	 o o o
+Phone__	CallEmergency__	dial 911 	 o o
+Phone__	CallEmergency__	dial ambulance 	 o o
+Phone__	CallEmergency__	dial fire department 	 o o o
+Phone__	CallEmergency__	dial police 	 o o
+Phone__	CallEmergency__	dial emergency services 	 o o o
+Phone__	ShowSMS__	check my sms inbox 	 o o o o
+Phone__	ShowSMS__	show my sms inbox 	 o o o o
+Phone__	ShowSMS__	display my sms inbox 	 o o o o
+Phone__	ShowSMS__	open my sms inbox 	 o o o o
+Phone__	ShowSMS__	launch my sms inbox 	 o o o o
+Phone__	ShowSMS__	check my texts 	 o o o
+Phone__	ShowSMS__	show my texts 	 o o o
+Phone__	SMSToContact__	send a text to PHONE.SLOT.TO 	 o o o o o
+Phone__	SMSToContact__	send a message to PHONE.SLOT.TO 	 o o o o o
+Phone__	SMSToContact__	send an sms to PHONE.SLOT.TO 	 o o o o o
+Phone__	SMSToContact__	compose a text to PHONE.SLOT.TO 	 o o o o o
+Phone__	SMSToContact__	compose a message to PHONE.SLOT.TO 	 o o o o o
+Phone__	SMSToContact__	compose an sms to PHONE.SLOT.TO 	 o o o o o
+Phone__	SMSToContact__	sms PHONE.SLOT.TO 	 o o
+Phone__	SMSToContact__	text PHONE.SLOT.TO 	 o o
+Phone__	SMSToContactWithMessage__	send an sms to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o
+Phone__	SMSToContactWithMessage__	send an sms to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o
+Phone__	SMSToContactWithMessage__	send a text to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o
+Phone__	SMSToContactWithMessage__	send a text to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o
+Phone__	SMSToContactWithMessage__	send a text message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o o
+Phone__	SMSToContactWithMessage__	send a text message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o o
+Phone__	SMSToContactWithMessage__	send a message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o
+Phone__	SMSToContactWithMessage__	send a message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o
+Phone__	SMSToContactWithMessage__	compose an sms to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o
+Phone__	SMSToContactWithMessage__	compose an sms to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o
+Phone__	SMSToContactWithMessage__	compose a text to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o
+Phone__	SMSToContactWithMessage__	compose a text to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o
+Phone__	SMSToContactWithMessage__	compose a text message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o o
+Phone__	SMSToContactWithMessage__	compose a text message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o o
+Phone__	SMSToContactWithMessage__	compose a message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o
+Phone__	SMSToContactWithMessage__	compose a message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o
+Phone__	SMSToContactWithMessage__	text PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o
+Phone__	SMSToContactWithMessage__	text PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o
+Phone__	SMSToContactWithMessage__	sms PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o
+Phone__	SMSToContactWithMessage__	sms PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o

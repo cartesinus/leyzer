@@ -1,170 +1,169 @@
-domain	intent	parallel	pattern
-Translate	SetDefaultLanguage	-	establece el idioma a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	establece el idioma de traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	establece el idioma de la traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	establece el idioma de salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	establece el idioma de la salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	establece el idioma por defecto a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	establece el idioma por defecto de traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	establece el idioma por defecto de la traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	establece el idioma por defecto de salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	establece el idioma por defecto de la salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	cambia el idioma a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	cambia el idioma de traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	cambia el idioma de la traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	cambia el idioma de salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	cambia el idioma de la salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	cambia el idioma por defecto a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	cambia el idioma por defecto de traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	cambia el idioma por defecto de la traducción a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	cambia el idioma por defecto de salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	cambia el idioma por defecto de la salida a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	establece el idioma a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	establece el idioma de entrada a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	establece el idioma por defecto a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	establece el idioma por defecto de entrada a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	cambia el idioma a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	cambia el idioma de entrada a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	cambia el idioma por defecto a TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	cambia el idioma por defecto de entrada a TRANSLATE.SLOT.ALL_LANG
-Translate	TranslateText	-	traducción de TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	-	cuál es la traducción de TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	-	la traducción de TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	-	traduce TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	-	traducción de TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	-	la traducción de TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	-	cómo se dice TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	-	cómo decir TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	-	cómo digo TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	-	cómo se traduce TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	-	cómo traducir TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateText	-	cómo traduzco TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateTextToLanguage	-	traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	cuál es la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	traduce TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	traduce a TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateTextToLanguage	-	TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	TRANSLATE.SLOT.TEXT.EN traducido a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	cómo se traduce TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	cómo traducir TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	cómo traduzco TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	di en TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateTextToLanguage	-	dime en TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN
-Translate	TranslateTextToLanguage	-	cómo es TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	cómo sería TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	cómo será TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	cómo se dice TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	cómo decir TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextToLanguage	-	cómo digo TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cuál es la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cuál es la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	traduce el texto TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	traduce el texto TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	traduce la frase TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	traduce la frase TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cómo se traduce TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cómo se traduce TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cómo traducir TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cómo traducir TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cómo traduzco TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cómo traduzco TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cómo es TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cómo es TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cómo sería TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cómo sería TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cómo será TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguage	-	cómo será TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traduce el texto TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traduce el texto TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traduce el texto TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traduce el texto TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traduce la frase TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traduce la frase TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traduce la frase TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	traduce la frase TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo se traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo se traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo se traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo se traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo traducir TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo traducir TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo traducir TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo traducir TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo traduzco TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo traduzco TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo traduzco TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo traduzco TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo es TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo es TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo es TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo es TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo sería TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo sería TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo sería TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo sería TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo será TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo será TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo será TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	cómo será TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	usa TRANSLATE.SLOT.TRANSLATOR y traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	usa TRANSLATE.SLOT.TRANSLATOR y traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	usa TRANSLATE.SLOT.TRANSLATOR para traducir TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	usa TRANSLATE.SLOT.TRANSLATOR para traducir TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateToLanguage	-	traduce a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateToLanguage	-	traducción a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateToLanguage	-	una traducción a TRANSLATE.SLOT.TRG_LANG
-Translate	TranslateTextFromLanguage	-	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	cuál es la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	traduce el texto TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	traduce la frase TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	traduce de TRANSLATE.SLOT.SRC_LANG TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	traduce de TRANSLATE.SLOT.SRC_LANG el texto TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	traduce de TRANSLATE.SLOT.SRC_LANG la frase TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	cómo se traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	cómo traducir TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	cómo traduzco TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	cómo es TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	cómo sería TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG
-Translate	TranslateTextFromLanguage	-	cómo será TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG
-Translate	DetectLanguage	-	idioma de TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	el idioma de TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	idioma en que está escrito TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	idioma en que está escrito el texto TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	idioma en el que está escrito TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	idioma en el que está escrito el texto TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	el idioma en que está escrito TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	el idioma en que está escrito el texto TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	el idioma en el que está escrito TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	el idioma en el que está escrito el texto TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	detecta idioma de TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	detecta el idioma de TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	detecta en qué idioma está escrito TRANSLATE.SLOT.TEXT.MULTI
-Translate	DetectLanguage	-	detecta en qué idioma está escrito el textp TRANSLATE.SLOT.TEXT.MULTI
+Translate__	SetDefaultLanguage__	establece el idioma a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	establece el idioma de traducción a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	establece el idioma de la traducción a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	establece el idioma de salida a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	establece el idioma de la salida a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	establece el idioma por defecto a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	establece el idioma por defecto de traducción a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	establece el idioma por defecto de la traducción a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	establece el idioma por defecto de salida a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	establece el idioma por defecto de la salida a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	cambia el idioma a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	cambia el idioma de traducción a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	cambia el idioma de la traducción a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	cambia el idioma de salida a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	cambia el idioma de la salida a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	cambia el idioma por defecto a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	cambia el idioma por defecto de traducción a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	cambia el idioma por defecto de la traducción a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	cambia el idioma por defecto de salida a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	cambia el idioma por defecto de la salida a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	establece el idioma a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	establece el idioma de entrada a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	establece el idioma por defecto a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	establece el idioma por defecto de entrada a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	cambia el idioma a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	cambia el idioma de entrada a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	cambia el idioma por defecto a TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	cambia el idioma por defecto de entrada a TRANSLATE.SLOT.ALL_LANG
+Translate__	TranslateText__	traducción de TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateText__	cuál es la traducción de TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateText__	la traducción de TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateText__	traduce TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateText__	traducción de TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateText__	la traducción de TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateText__	cómo se dice TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateText__	cómo decir TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateText__	cómo digo TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateText__	cómo se traduce TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateText__	cómo traducir TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateText__	cómo traduzco TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateTextToLanguage__	traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	cuál es la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	la traducción de TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	traduce TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	traduce a TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateTextToLanguage__	TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	TRANSLATE.SLOT.TEXT.EN traducido a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	cómo se traduce TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	cómo traducir TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	cómo traduzco TRANSLATE.SLOT.TEXT.EN a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	di en TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateTextToLanguage__	dime en TRANSLATE.SLOT.TRG_LANG TRANSLATE.SLOT.TEXT.EN
+Translate__	TranslateTextToLanguage__	cómo es TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	cómo sería TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	cómo será TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	cómo se dice TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	cómo decir TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextToLanguage__	cómo digo TRANSLATE.SLOT.TEXT.EN en TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cuál es la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cuál es la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	traduce el texto TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	traduce el texto TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	traduce la frase TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	traduce la frase TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cómo se traduce TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cómo se traduce TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cómo traducir TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cómo traducir TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cómo traduzco TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cómo traduzco TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cómo es TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cómo es TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cómo sería TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cómo sería TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cómo será TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguage__	cómo será TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	la traducción de TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traduce el texto TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traduce el texto TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traduce el texto TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traduce el texto TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traduce la frase TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traduce la frase TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traduce la frase TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	traduce la frase TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo se traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo se traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo se traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo se traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo traducir TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo traducir TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo traducir TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo traducir TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo traduzco TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo traduzco TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo traduzco TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo traduzco TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo es TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo es TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo es TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo es TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo sería TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo sería TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo sería TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo sería TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo será TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo será TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo será TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG con TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	cómo será TRANSLATE.SLOT.TEXT traducido a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG usando TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	usa TRANSLATE.SLOT.TRANSLATOR y traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	usa TRANSLATE.SLOT.TRANSLATOR y traduce TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	usa TRANSLATE.SLOT.TRANSLATOR para traducir TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	usa TRANSLATE.SLOT.TRANSLATOR para traducir TRANSLATE.SLOT.TEXT a TRANSLATE.SLOT.TRG_LANG de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateToLanguage__	traduce a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateToLanguage__	traducción a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateToLanguage__	una traducción a TRANSLATE.SLOT.TRG_LANG
+Translate__	TranslateTextFromLanguage__	traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	cuál es la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	la traducción de TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	traduce el texto TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	traduce la frase TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	traduce de TRANSLATE.SLOT.SRC_LANG TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	traduce de TRANSLATE.SLOT.SRC_LANG el texto TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	traduce de TRANSLATE.SLOT.SRC_LANG la frase TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	cómo se traduce TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	cómo traducir TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	cómo traduzco TRANSLATE.SLOT.TEXT de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	cómo es TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	cómo sería TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG
+Translate__	TranslateTextFromLanguage__	cómo será TRANSLATE.SLOT.TEXT traducido de TRANSLATE.SLOT.SRC_LANG
+Translate__	DetectLanguage__	idioma de TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	el idioma de TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	idioma en que está escrito TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	idioma en que está escrito el texto TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	idioma en el que está escrito TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	idioma en el que está escrito el texto TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	el idioma en que está escrito TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	el idioma en que está escrito el texto TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	el idioma en el que está escrito TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	el idioma en el que está escrito el texto TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	detecta idioma de TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	detecta el idioma de TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	detecta en qué idioma está escrito TRANSLATE.SLOT.TEXT.MULTI
+Translate__	DetectLanguage__	detecta en qué idioma está escrito el textp TRANSLATE.SLOT.TEXT.MULTI

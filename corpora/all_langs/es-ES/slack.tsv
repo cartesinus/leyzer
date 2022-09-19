@@ -1,0 +1,59 @@
+Slack__	OpenSlack__	abre slack 	 o o
+Slack__	CheckLastMessages__	verifica mis mensajes recientes de slack 	 o o o o o o
+Slack__	CheckLastMessages__	verifica los mensajes recientes de slack 	 o o o o o o
+Slack__	CheckLastMessages__	dame mis mensajes recientes de slack 	 o o o o o o
+Slack__	CheckLastMessages__	dame los mensajes recientes de slack 	 o o o o o o
+Slack__	CheckUserStatus__	el estado de SLACK.SLOT.USERNAME en slack 	 o o o o o o
+Slack__	CheckUserStatus__	si SLACK.SLOT.USERNAME está activo en slack 	 o o o o o o
+Slack__	CheckUserStatus__	si SLACK.SLOT.USERNAME está fuera en slack 	 o o o o o o
+Slack__	CheckMessagesFromUser__	verifica mensajes recientes de SLACK.SLOT.SENDER en slack 	 o o o o o o o
+Slack__	CheckMessagesFromUser__	verifica mensajes que recibí en slack de SLACK.SLOT.SENDER 	 o o o o o o o o
+Slack__	CheckMessagesFromUser__	dame mensajes recientes de SLACK.SLOT.SENDER en slack 	 o o o o o o o
+Slack__	CheckMessagesFromUser__	dame mensajes que recibí en slack de SLACK.SLOT.SENDER 	 o o o o o o o o
+Slack__	CheckMessagesInChannel__	verifica mensajes recientes de slack en SLACK.SLOT.CHANNEL 	 o o o o o o o
+Slack__	CheckMessagesInChannel__	verifica mensajes que recibí en slack en SLACK.SLOT.CHANNEL 	 o o o o o o o o
+Slack__	CheckMessagesInChannel__	verifica mensajes de slack en SLACK.SLOT.CHANNEL que recibí durante la última hora 	 o o o o o o o o o o o o
+Slack__	CheckMessagesInChannel__	dame mensajes recientes de slack en SLACK.SLOT.CHANNEL 	 o o o o o o o
+Slack__	CheckMessagesInChannel__	dame mensajes que recibí en slack en SLACK.SLOT.CHANNEL 	 o o o o o o o o
+Slack__	CheckMessagesInChannel__	dame mensajes de slack en SLACK.SLOT.CHANNEL que recibí durante la última hora 	 o o o o o o o o o o o o
+Slack__	SendMessageToChannel__	publica SLACK.SLOT.MESSAGE a SLACK.SLOT.CHANNEL en slack 	 o o o o o o
+Slack__	SendMessageToChannel__	envía SLACK.SLOT.MESSAGE a SLACK.SLOT.CHANNEL en slack 	 o o o o o o
+Slack__	SendMessageToChannel__	sube SLACK.SLOT.MESSAGE a SLACK.SLOT.CHANNEL en slack 	 o o o o o o
+Slack__	SendMessageToChannel__	publica un mensaje en slack a SLACK.SLOT.CHANNEL diciendo SLACK.SLOT.MESSAGE 	 o o o o o o o o o
+Slack__	SendMessageToChannel__	envía un mensaje en slack a SLACK.SLOT.CHANNEL diciendo SLACK.SLOT.MESSAGE 	 o o o o o o o o o
+Slack__	SendMessageToChannel__	sube un mensaje en slack a SLACK.SLOT.CHANNEL diciendo SLACK.SLOT.MESSAGE 	 o o o o o o o o o
+Slack__	SendMessageToChannel__	mensaje a SLACK.SLOT.CHANNEL en slack diciendo SLACK.SLOT.MESSAGE 	 o o o o o o o
+Slack__	SendMessageToChannel__	informa a SLACK.SLOT.CHANNEL que SLACK.SLOT.MESSAGE 	 o o o o o
+Slack__	SetPurposeOnChannel__	establece el propósito del canal SLACK.SLOT.CHANNEL a SLACK.SLOT.PURPOSE en slack 	 o o o o o o o o o o
+Slack__	SetPurposeOnChannel__	establece el propósito del canal de slack SLACK.SLOT.CHANNEL a SLACK.SLOT.PURPOSE 	 o o o o o o o o o o
+Slack__	SetTopicInChannel__	establece el tema del canal SLACK.SLOT.CHANNEL a SLACK.SLOT.TOPIC en slack 	 o o o o o o o o o o
+Slack__	SetTopicInChannel__	establece el tema del canal de slack SLACK.SLOT.CHANNEL a SLACK.SLOT.TOPIC 	 o o o o o o o o o o
+Slack__	SetStatusAway__	cambia mi estado como fuera en slack 	 o o o o o o o
+Slack__	SetStatusAway__	cambia mi estado como no fuera en slack 	 o o o o o o o o
+Slack__	SendMessage__	publica en slack 	 o o o
+Slack__	SendMessage__	publica un mensaje en slack 	 o o o o o
+Slack__	SendMessage__	envía en slack 	 o o o
+Slack__	SendMessage__	envía un mensaje en slack 	 o o o o o
+Slack__	SendMessage__	sube en slack 	 o o o
+Slack__	SendMessage__	sube un mensaje en slack 	 o o o o o
+Slack__	SendPictureToChannel__	publica una foto en slack a SLACK.SLOT.CHANNEL 	 o o o o o o o
+Slack__	SendPictureToChannel__	envía una foto en slack a SLACK.SLOT.CHANNEL 	 o o o o o o o
+Slack__	SendPictureToChannel__	sube una foto en slack a SLACK.SLOT.CHANNEL 	 o o o o o o o
+Slack__	SendPictureToChannel__	sube una foto al canal de slack SLACK.SLOT.CHANNEL 	 o o o o o o o o
+Slack__	SendPictureToChannel__	envía algo al canal de slack SLACK.SLOT.CHANNEL 	 o o o o o o o
+Slack__	SendPictureToChannel__	publica en slack SLACK.SLOT.CHANNEL 	 o o o o
+Slack__	SendPictureToChannel__	publica en el canal de slack SLACK.SLOT.CHANNEL 	 o o o o o o o
+Slack__	SendPictureToChannelWithCaption__	publica una imagen en slack a SLACK.SLOT.CHANNEL con el título SLACK.SLOT.CAPTION 	 o o o o o o o o o o o
+Slack__	SendPictureToChannelWithCaption__	publica una imagen a un canal de slack SLACK.SLOT.CHANNEL con el título SLACK.SLOT.CAPTION 	 o o o o o o o o o o o o o
+Slack__	SendPictureToChannelWithCaption__	envía una imagen en slack a SLACK.SLOT.CHANNEL con el título SLACK.SLOT.CAPTION 	 o o o o o o o o o o o
+Slack__	SendPictureToChannelWithCaption__	envía una imagen a un canal de slack SLACK.SLOT.CHANNEL con el título SLACK.SLOT.CAPTION 	 o o o o o o o o o o o o o
+Slack__	SendPictureToChannelWithCaption__	sube una imagen en slack a SLACK.SLOT.CHANNEL con el título SLACK.SLOT.CAPTION 	 o o o o o o o o o o o
+Slack__	SendPictureToChannelWithCaption__	sube una imagen a un canal de slack SLACK.SLOT.CHANNEL con el título SLACK.SLOT.CAPTION 	 o o o o o o o o o o o o o
+Slack__	SendPictureWithUrlToChannel__	publica SLACK.SLOT.PICTURE_URL a SLACK.SLOT.CHANNEL en slack 	 o o o o o o
+Slack__	SendPictureWithUrlToChannel__	envía SLACK.SLOT.PICTURE_URL a SLACK.SLOT.CHANNEL en slack 	 o o o o o o
+Slack__	SendPictureWithUrlToChannel__	sube SLACK.SLOT.PICTURE_URL a SLACK.SLOT.CHANNEL en slack 	 o o o o o o
+Slack__	SendPictureWithUrlToChannel__	publica SLACK.SLOT.PICTURE_URL en el canal de slack SLACK.SLOT.CHANNEL 	 o o o o o o o o
+Slack__	CheckChannelHistory__	verifica mi historia del canal de slack 	 o o o o o o o
+Slack__	CheckChannelHistory__	verifica la historia del canal de slack 	 o o o o o o o
+Slack__	CheckChannelHistory__	dame mi historia del canal de slack 	 o o o o o o o
+Slack__	CheckChannelHistory__	dame la historia del canal de slack 	 o o o o o o o

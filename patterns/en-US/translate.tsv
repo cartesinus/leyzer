@@ -1,457 +1,456 @@
-domain	intent	parallel	pattern
-Translate	SetDefaultLanguage	-	set language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	set translation language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	set output language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	set default language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	set default translation language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	set default output language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	change language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	change translation language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	change output language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	change default language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	change default translation language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	change default output language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	set input language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	set source language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	set default input language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	set default source language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	change input language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	change source language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	change default input language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	change default source language to TRANSLATE.SLOT.ALL_LANG
-Translate	TranslateText	-	translation of TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	what is the translation of TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	the translation of TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	translate TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	translation of TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	the translation of TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	how do i say TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	how do i translate TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	how do you say TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	how do you translate TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	what is the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN into TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN into TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN into TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	translate to TRANSLATE.SLOT.TRG_LANG_GENERAL TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextToLanguage	-	TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	TRANSLATE.SLOT.TEXT_EN translated to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	TRANSLATE.SLOT.TEXT_EN translated into TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	how do i say TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	how do i translate TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	how do you say TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	how do you translate TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	say in TRANSLATE.SLOT.TRG_LANG_GENERAL TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateToLanguage	-	translate to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateToLanguage	-	a translation to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.SRC_LANG_EN sentence TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.SRC_LANG_PL sentence TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.SRC_LANG_ES sentence TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.SRC_LANG_DE sentence TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.SRC_LANG_IT sentence TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.SRC_LANG_FR sentence TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.SRC_LANG_EN sentence TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.SRC_LANG_PL sentence TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.SRC_LANG_ES sentence TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.SRC_LANG_DE sentence TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.SRC_LANG_IT sentence TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.SRC_LANG_FR sentence TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.SRC_LANG_EN sentence TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.SRC_LANG_PL sentence TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.SRC_LANG_ES sentence TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.SRC_LANG_DE sentence TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.SRC_LANG_IT sentence TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.SRC_LANG_FR sentence TRANSLATE.SLOT.TEXT_FR
-Translate	DetectLanguage	-	language of TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	-	language of TRANSLATE.SLOT.TEXT_MULTI is written in
-Translate	DetectLanguage	-	the language of TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	-	the language of TRANSLATE.SLOT.TEXT_MULTI is written in
-Translate	DetectLanguage	-	detect language of TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	-	detect language of TRANSLATE.SLOT.TEXT_MULTI is written in
-Translate	DetectLanguage	-	detect the language of TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	-	detect the language of TRANSLATE.SLOT.TEXT_MULTI is written in
-Translate	DetectLanguage	-	detect what language TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	-	detect what language TRANSLATE.SLOT.TEXT_MULTI is written in
+Translate__	SetDefaultLanguage__	set language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	set translation language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	set output language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	set default language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	set default translation language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	set default output language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	change language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	change translation language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	change output language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	change default language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	change default translation language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguage__	change default output language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	set input language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	set source language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	set default input language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	set default source language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	change input language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	change source language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	change default input language to TRANSLATE.SLOT.ALL_LANG
+Translate__	SetDefaultLanguageToLanguage__	change default source language to TRANSLATE.SLOT.ALL_LANG
+Translate__	TranslateText__	translation of TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateText__	what is the translation of TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateText__	the translation of TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateText__	translate TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateText__	translation of TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateText__	the translation of TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateText__	how do i say TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateText__	how do i translate TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateText__	how do you say TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateText__	how do you translate TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateTextToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	what is the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	translate TRANSLATE.SLOT.TEXT_EN into TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN into TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN into TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	translate to TRANSLATE.SLOT.TRG_LANG_GENERAL TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateTextToLanguage__	TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	TRANSLATE.SLOT.TEXT_EN translated to TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	TRANSLATE.SLOT.TEXT_EN translated into TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	how do i say TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	how do i translate TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	how do you say TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	how do you translate TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextToLanguage__	say in TRANSLATE.SLOT.TRG_LANG_GENERAL TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
+Translate__	TranslateToLanguage__	translate to TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateToLanguage__	a translation to TRANSLATE.SLOT.TRG_LANG_GENERAL
+Translate__	TranslateTextFromLanguage__	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguage__	translate TRANSLATE.SLOT.SRC_LANG_EN sentence TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateTextFromLanguage__	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguage__	translate TRANSLATE.SLOT.SRC_LANG_PL sentence TRANSLATE.SLOT.TEXT_PL
+Translate__	TranslateTextFromLanguage__	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguage__	translate TRANSLATE.SLOT.SRC_LANG_ES sentence TRANSLATE.SLOT.TEXT_ES
+Translate__	TranslateTextFromLanguage__	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguage__	translate TRANSLATE.SLOT.SRC_LANG_DE sentence TRANSLATE.SLOT.TEXT_DE
+Translate__	TranslateTextFromLanguage__	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguage__	translate TRANSLATE.SLOT.SRC_LANG_IT sentence TRANSLATE.SLOT.TEXT_IT
+Translate__	TranslateTextFromLanguage__	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguage__	translate TRANSLATE.SLOT.SRC_LANG_FR sentence TRANSLATE.SLOT.TEXT_FR
+Translate__	TranslateTextFromLanguage__	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguage__	translation of TRANSLATE.SLOT.SRC_LANG_EN sentence TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateTextFromLanguage__	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguage__	translation of TRANSLATE.SLOT.SRC_LANG_PL sentence TRANSLATE.SLOT.TEXT_PL
+Translate__	TranslateTextFromLanguage__	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguage__	translation of TRANSLATE.SLOT.SRC_LANG_ES sentence TRANSLATE.SLOT.TEXT_ES
+Translate__	TranslateTextFromLanguage__	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguage__	translation of TRANSLATE.SLOT.SRC_LANG_DE sentence TRANSLATE.SLOT.TEXT_DE
+Translate__	TranslateTextFromLanguage__	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguage__	translation of TRANSLATE.SLOT.SRC_LANG_IT sentence TRANSLATE.SLOT.TEXT_IT
+Translate__	TranslateTextFromLanguage__	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguage__	translation of TRANSLATE.SLOT.SRC_LANG_FR sentence TRANSLATE.SLOT.TEXT_FR
+Translate__	TranslateTextFromLanguage__	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN
+Translate__	TranslateTextFromLanguage__	the translation of TRANSLATE.SLOT.SRC_LANG_EN sentence TRANSLATE.SLOT.TEXT_EN
+Translate__	TranslateTextFromLanguage__	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL
+Translate__	TranslateTextFromLanguage__	the translation of TRANSLATE.SLOT.SRC_LANG_PL sentence TRANSLATE.SLOT.TEXT_PL
+Translate__	TranslateTextFromLanguage__	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES
+Translate__	TranslateTextFromLanguage__	the translation of TRANSLATE.SLOT.SRC_LANG_ES sentence TRANSLATE.SLOT.TEXT_ES
+Translate__	TranslateTextFromLanguage__	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE
+Translate__	TranslateTextFromLanguage__	the translation of TRANSLATE.SLOT.SRC_LANG_DE sentence TRANSLATE.SLOT.TEXT_DE
+Translate__	TranslateTextFromLanguage__	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT
+Translate__	TranslateTextFromLanguage__	the translation of TRANSLATE.SLOT.SRC_LANG_IT sentence TRANSLATE.SLOT.TEXT_IT
+Translate__	TranslateTextFromLanguage__	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR
+Translate__	TranslateTextFromLanguage__	the translation of TRANSLATE.SLOT.SRC_LANG_FR sentence TRANSLATE.SLOT.TEXT_FR
+Translate__	DetectLanguage__	language of TRANSLATE.SLOT.TEXT_MULTI
+Translate__	DetectLanguage__	language of TRANSLATE.SLOT.TEXT_MULTI is written in
+Translate__	DetectLanguage__	the language of TRANSLATE.SLOT.TEXT_MULTI
+Translate__	DetectLanguage__	the language of TRANSLATE.SLOT.TEXT_MULTI is written in
+Translate__	DetectLanguage__	detect language of TRANSLATE.SLOT.TEXT_MULTI
+Translate__	DetectLanguage__	detect language of TRANSLATE.SLOT.TEXT_MULTI is written in
+Translate__	DetectLanguage__	detect the language of TRANSLATE.SLOT.TEXT_MULTI
+Translate__	DetectLanguage__	detect the language of TRANSLATE.SLOT.TEXT_MULTI is written in
+Translate__	DetectLanguage__	detect what language TRANSLATE.SLOT.TEXT_MULTI
+Translate__	DetectLanguage__	detect what language TRANSLATE.SLOT.TEXT_MULTI is written in

@@ -1,114 +1,113 @@
-domain	intent	parallel	pattern
-Twitter	OpenTwitter	-	muestra mis tuits
-Twitter	OpenTwitter	-	muestra mis tuits recientes
-Twitter	OpenTwitter	-	muestra mis tweets
-Twitter	OpenTwitter	-	muestra mis tweets recientes
-Twitter	OpenTwitter	-	muestra mis publicaciones en twitter
-Twitter	OpenTwitter	-	muestra mis publicaciones en twitter recientes
-Twitter	OpenTwitter	-	muestra tuits que publiqué
-Twitter	OpenTwitter	-	muestra tuits que he publicado
-Twitter	OpenTwitter	-	muestra tweets que publiqué
-Twitter	OpenTwitter	-	muestra tweets que he publicado
-Twitter	OpenTwitter	-	muéstrame mis tuits
-Twitter	OpenTwitter	-	muéstrame mis tuits recientes
-Twitter	OpenTwitter	-	muéstrame mis tweets
-Twitter	OpenTwitter	-	muéstrame mis tweets recientes
-Twitter	OpenTwitter	-	muéstrame mis publicaciones en twitter
-Twitter	OpenTwitter	-	muéstrame mis publicaciones en twitter recientes
-Twitter	OpenTwitter	-	muéstrame tuits que publiqué
-Twitter	OpenTwitter	-	muéstrame tuits que he publicado
-Twitter	OpenTwitter	-	muéstrame tweets que publiqué
-Twitter	OpenTwitter	-	muéstrame tweets que he publicado
-Twitter	FollowUser	-	sigue a TWITTER.SLOT.USERNAME en twitter
-Twitter	FollowUser	-	empieza a seguir a TWITTER.SLOT.USERNAME en twitter
-Twitter	FollowUser	-	quiero seguir a TWITTER.SLOT.USERNAME en twitter
-Twitter	FollowUser	-	empieza a seguir en twitter a TWITTER.SLOT.USERNAME
-Twitter	UnfollowUser	-	dea de seguir a TWITTER.SLOT.USERNAME en twitter
-Twitter	SendMessage	-	mensaje en twitter diciendo TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	mensaje directo en twitter diciendo TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	envía un mensaje en twitter diciendo TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	envía un mensaje directo en twitter diciendo TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	mensaje en twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	mensaje directo en twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	envía un mensaje en twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	envía un mensaje directo en twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE
-Twitter	ShowTwittsWithHashtag	-	tuits con hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	tuits con hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	tuits con el hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	tuits con el hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	tuits con un hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	tuits con un hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	tuits sobre TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	tuits sobre TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	tweets con hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	tweets con hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	tweets con el hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	tweets con un hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	tweets con un hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	tweets sobre TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	tweets sobre TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	busca tuits con hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	busca tuits con hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	busca tuits con el hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	busca tuits con el hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	busca tuits con un hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	busca tuits con un hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	busca tuits sobre TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	busca tuits sobre TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	busca tweets con hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	busca tweets con hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	busca tweets con el hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	busca tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	busca tweets con un hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	busca tweets con un hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	busca tweets sobre TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	busca tweets sobre TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muestra tuits con hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muestra tuits con hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muestra tuits con el hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muestra tuits con el hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muestra tuits con un hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muestra tuits con un hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muestra tuits sobre TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muestra tuits sobre TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muestra tweets con hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muestra tweets con hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muestra tweets con el hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muestra tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muestra tweets con un hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muestra tweets con un hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muestra tweets sobre TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muestra tweets sobre TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muéstrame tuits con hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muéstrame tuits con hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muéstrame tuits con el hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muéstrame tuits con el hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muéstrame tuits con un hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muéstrame tuits con un hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muéstrame tuits sobre TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muéstrame tuits sobre TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muéstrame tweets con hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muéstrame tweets con hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muéstrame tweets con el hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muéstrame tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muéstrame tweets con un hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muéstrame tweets con un hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	muéstrame tweets sobre TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	muéstrame tweets sobre TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	encuentra tuits con hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	encuentra tuits con hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	encuentra tuits con el hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	encuentra tuits con el hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	encuentra tuits con un hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	encuentra tuits con un hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	encuentra tuits sobre TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	encuentra tuits sobre TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	encuentra tweets con hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	encuentra tweets con hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	encuentra tweets con el hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	encuentra tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	encuentra tweets con un hashtag TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	encuentra tweets con un hashtag TWITTER.SLOT.HASHTAG en twitter
-Twitter	ShowTwittsWithHashtag	-	encuentra tweets sobre TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	encuentra tweets sobre TWITTER.SLOT.HASHTAG en twitter
+Twitter__	OpenTwitter__	muestra mis tuits
+Twitter__	OpenTwitter__	muestra mis tuits recientes
+Twitter__	OpenTwitter__	muestra mis tweets
+Twitter__	OpenTwitter__	muestra mis tweets recientes
+Twitter__	OpenTwitter__	muestra mis publicaciones en twitter
+Twitter__	OpenTwitter__	muestra mis publicaciones en twitter recientes
+Twitter__	OpenTwitter__	muestra tuits que publiqué
+Twitter__	OpenTwitter__	muestra tuits que he publicado
+Twitter__	OpenTwitter__	muestra tweets que publiqué
+Twitter__	OpenTwitter__	muestra tweets que he publicado
+Twitter__	OpenTwitter__	muéstrame mis tuits
+Twitter__	OpenTwitter__	muéstrame mis tuits recientes
+Twitter__	OpenTwitter__	muéstrame mis tweets
+Twitter__	OpenTwitter__	muéstrame mis tweets recientes
+Twitter__	OpenTwitter__	muéstrame mis publicaciones en twitter
+Twitter__	OpenTwitter__	muéstrame mis publicaciones en twitter recientes
+Twitter__	OpenTwitter__	muéstrame tuits que publiqué
+Twitter__	OpenTwitter__	muéstrame tuits que he publicado
+Twitter__	OpenTwitter__	muéstrame tweets que publiqué
+Twitter__	OpenTwitter__	muéstrame tweets que he publicado
+Twitter__	FollowUser__	sigue a TWITTER.SLOT.USERNAME en twitter
+Twitter__	FollowUser__	empieza a seguir a TWITTER.SLOT.USERNAME en twitter
+Twitter__	FollowUser__	quiero seguir a TWITTER.SLOT.USERNAME en twitter
+Twitter__	FollowUser__	empieza a seguir en twitter a TWITTER.SLOT.USERNAME
+Twitter__	UnfollowUser__	dea de seguir a TWITTER.SLOT.USERNAME en twitter
+Twitter__	SendMessage__	mensaje en twitter diciendo TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	mensaje directo en twitter diciendo TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	envía un mensaje en twitter diciendo TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	envía un mensaje directo en twitter diciendo TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	mensaje en twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	mensaje directo en twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	envía un mensaje en twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	envía un mensaje directo en twitter a TWITTER.SLOT.USERNAME diciendo TWITTER.SLOT.MESSAGE
+Twitter__	ShowTwittsWithHashtag__	tuits con hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	tuits con hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	tuits con el hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	tuits con el hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	tuits con un hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	tuits con un hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	tuits sobre TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	tuits sobre TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	tweets con hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	tweets con hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	tweets con el hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	tweets con un hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	tweets con un hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	tweets sobre TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	tweets sobre TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	busca tuits con hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	busca tuits con hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	busca tuits con el hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	busca tuits con el hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	busca tuits con un hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	busca tuits con un hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	busca tuits sobre TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	busca tuits sobre TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	busca tweets con hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	busca tweets con hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	busca tweets con el hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	busca tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	busca tweets con un hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	busca tweets con un hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	busca tweets sobre TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	busca tweets sobre TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muestra tuits con hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muestra tuits con hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muestra tuits con el hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muestra tuits con el hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muestra tuits con un hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muestra tuits con un hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muestra tuits sobre TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muestra tuits sobre TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muestra tweets con hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muestra tweets con hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muestra tweets con el hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muestra tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muestra tweets con un hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muestra tweets con un hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muestra tweets sobre TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muestra tweets sobre TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muéstrame tuits con hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muéstrame tuits con hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muéstrame tuits con el hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muéstrame tuits con el hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muéstrame tuits con un hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muéstrame tuits con un hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muéstrame tuits sobre TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muéstrame tuits sobre TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muéstrame tweets con hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muéstrame tweets con hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muéstrame tweets con el hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muéstrame tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muéstrame tweets con un hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muéstrame tweets con un hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	muéstrame tweets sobre TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	muéstrame tweets sobre TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	encuentra tuits con hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	encuentra tuits con hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	encuentra tuits con el hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	encuentra tuits con el hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	encuentra tuits con un hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	encuentra tuits con un hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	encuentra tuits sobre TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	encuentra tuits sobre TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	encuentra tweets con hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	encuentra tweets con hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	encuentra tweets con el hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	encuentra tweets con el hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	encuentra tweets con un hashtag TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	encuentra tweets con un hashtag TWITTER.SLOT.HASHTAG en twitter
+Twitter__	ShowTwittsWithHashtag__	encuentra tweets sobre TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	encuentra tweets sobre TWITTER.SLOT.HASHTAG en twitter

@@ -1,175 +1,174 @@
-domain	intent	parallel	pattern
-Twitter	OpenTwitter	-	pokaż twitty
-Twitter	OpenTwitter	-	pokaż posty na twitterze
-Twitter	OpenTwitter	-	pokaż twitty które napisałem
-Twitter	OpenTwitter	-	pokaż moje twitty
-Twitter	OpenTwitter	-	pokaż moje posty na twitterze
-Twitter	OpenTwitter	-	pokaż moje twitty które napisałem
-Twitter	OpenTwitter	-	wyświetl twitty
-Twitter	OpenTwitter	-	wyświetl posty na twitterze
-Twitter	OpenTwitter	-	wyświetl twitty które napisałem
-Twitter	OpenTwitter	-	wyświetl moje twitty
-Twitter	OpenTwitter	-	wyświetl moje posty na twitterze
-Twitter	OpenTwitter	-	wyświetl moje twitty które napisałem
-Twitter	FollowUser	-	obserwuj TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	obserwuj aktywność TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	zacznij śledzić TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	zacznij śledzić aktywność TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	zacznij obserwować TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	zacznij obserwować aktywność TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	zacznij śledzić co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	FollowUser	-	zacznij śledzić co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	FollowUser	-	zacznij obserwować co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	FollowUser	-	zacznij obserwować co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	FollowUser	-	chcę być na bieżąco z tym co pisze TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	chcę być na bieżąco z tym co publikuje TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	zostań followersem TWITTER.SLOT.USERNAME na twitterze
-Twitter	UnfollowUser	-	przestań obserować TWITTER.SLOT.USERNAME na twitterze
-Twitter	UnfollowUser	-	przestań obserować aktywność TWITTER.SLOT.USERNAME na twitterze
-Twitter	UnfollowUser	-	przestań śledzić TWITTER.SLOT.USERNAME na twitterze
-Twitter	UnfollowUser	-	przestań śledzić aktywność TWITTER.SLOT.USERNAME na twitterze
-Twitter	UnfollowUser	-	przestań followować TWITTER.SLOT.USERNAME na twitterze
-Twitter	UnfollowUser	-	nie chcę obserwować co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	UnfollowUser	-	nie chcę obserwować co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	UnfollowUser	-	nie chcę śledzić co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	UnfollowUser	-	nie chcę śledzić co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	UnfollowUser	-	nie chcę wiedzieć co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	UnfollowUser	-	nie chcę wiedzieć co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	UnfollowUser	-	nie chcę już obserwować co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	UnfollowUser	-	nie chcę już obserwować co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	UnfollowUser	-	nie chcę już śledzić co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	UnfollowUser	-	nie chcę już śledzić co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	UnfollowUser	-	nie chcę już wiedzieć co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	UnfollowUser	-	nie chcę już wiedzieć co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	SendMessage	-	wyślij na twitterze wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij na twitterze wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij na twitterze pw TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij na twitterze pw o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij na twitterze prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz na twitterze wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz na twitterze wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz na twitterze pw TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz na twitterze pw o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz na twitterze prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz na twitterze wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz na twitterze wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz na twitterze pw TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz na twitterze pw o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz na twitterze prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij na twitterze wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij na twitterze wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij na twitterze pw TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij na twitterze pw o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij na twitterze prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij pw na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij pw na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz pw na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz pw na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz pw na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz pw na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij pw na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij pw na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	stwórz wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	stwórz wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	stwórz pw na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	stwórz pw na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	stwórz prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	stwórz prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	ćwierknij wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	ćwierknij wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	ćwierknij pw TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	ćwierknij pw o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	ćwierknij prywatną wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	ćwierknij prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze wyślij do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze wyślij wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze wyślij pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze wyślij prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze napisz do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze napisz wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze napisz pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze napisz prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze utwórz do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze utwórz wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze utwórz pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze utwórz prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze prześlij do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze prześlij wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze prześlij pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze prześlij prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze stwórz do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze stwórz wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze stwórz pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze stwórz prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze wyślij wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze wyślij pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze wyślij prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze napisz wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze napisz pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze napisz prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze utwórz wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze utwórz pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze utwórz prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze prześlij wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze prześlij pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze prześlij prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze stwórz wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze stwórz pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze stwórz prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME na twitterze
-Twitter	SendMessageToUser	-	wyślij TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME na twitterze
-Twitter	SendMessageToUser	-	napisz TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME na twitterze
-Twitter	SendMessageToUser	-	ćwierknij do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	ćwierknij wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	ćwierknij pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	ćwierknij prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	ćwierknij TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	ShowTwittsWithHashtag	-	twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	znajdź twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	znajdź twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	znajdź mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	znajdź mi twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	odnajdź twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	odnajdź twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	odnajdź mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	odnajdź mi twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyszukaj twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyszukaj twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyszukaj mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyszukaj mi twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	pokaż twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	pokaż twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	pokaż mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	pokaż mi twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyświetl twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyświetl twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyświetl mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyświetl mi twitty o hashtagu TWITTER.SLOT.HASHTAG
+Twitter__	OpenTwitter__	pokaż twitty
+Twitter__	OpenTwitter__	pokaż posty na twitterze
+Twitter__	OpenTwitter__	pokaż twitty które napisałem
+Twitter__	OpenTwitter__	pokaż moje twitty
+Twitter__	OpenTwitter__	pokaż moje posty na twitterze
+Twitter__	OpenTwitter__	pokaż moje twitty które napisałem
+Twitter__	OpenTwitter__	wyświetl twitty
+Twitter__	OpenTwitter__	wyświetl posty na twitterze
+Twitter__	OpenTwitter__	wyświetl twitty które napisałem
+Twitter__	OpenTwitter__	wyświetl moje twitty
+Twitter__	OpenTwitter__	wyświetl moje posty na twitterze
+Twitter__	OpenTwitter__	wyświetl moje twitty które napisałem
+Twitter__	FollowUser__	obserwuj TWITTER.SLOT.USERNAME na twitterze
+Twitter__	FollowUser__	obserwuj aktywność TWITTER.SLOT.USERNAME na twitterze
+Twitter__	FollowUser__	zacznij śledzić TWITTER.SLOT.USERNAME na twitterze
+Twitter__	FollowUser__	zacznij śledzić aktywność TWITTER.SLOT.USERNAME na twitterze
+Twitter__	FollowUser__	zacznij obserwować TWITTER.SLOT.USERNAME na twitterze
+Twitter__	FollowUser__	zacznij obserwować aktywność TWITTER.SLOT.USERNAME na twitterze
+Twitter__	FollowUser__	zacznij śledzić co TWITTER.SLOT.USERNAME pisze na twitterze
+Twitter__	FollowUser__	zacznij śledzić co TWITTER.SLOT.USERNAME publikuje na twitterze
+Twitter__	FollowUser__	zacznij obserwować co TWITTER.SLOT.USERNAME pisze na twitterze
+Twitter__	FollowUser__	zacznij obserwować co TWITTER.SLOT.USERNAME publikuje na twitterze
+Twitter__	FollowUser__	chcę być na bieżąco z tym co pisze TWITTER.SLOT.USERNAME na twitterze
+Twitter__	FollowUser__	chcę być na bieżąco z tym co publikuje TWITTER.SLOT.USERNAME na twitterze
+Twitter__	FollowUser__	zostań followersem TWITTER.SLOT.USERNAME na twitterze
+Twitter__	UnfollowUser__	przestań obserować TWITTER.SLOT.USERNAME na twitterze
+Twitter__	UnfollowUser__	przestań obserować aktywność TWITTER.SLOT.USERNAME na twitterze
+Twitter__	UnfollowUser__	przestań śledzić TWITTER.SLOT.USERNAME na twitterze
+Twitter__	UnfollowUser__	przestań śledzić aktywność TWITTER.SLOT.USERNAME na twitterze
+Twitter__	UnfollowUser__	przestań followować TWITTER.SLOT.USERNAME na twitterze
+Twitter__	UnfollowUser__	nie chcę obserwować co TWITTER.SLOT.USERNAME pisze na twitterze
+Twitter__	UnfollowUser__	nie chcę obserwować co TWITTER.SLOT.USERNAME publikuje na twitterze
+Twitter__	UnfollowUser__	nie chcę śledzić co TWITTER.SLOT.USERNAME pisze na twitterze
+Twitter__	UnfollowUser__	nie chcę śledzić co TWITTER.SLOT.USERNAME publikuje na twitterze
+Twitter__	UnfollowUser__	nie chcę wiedzieć co TWITTER.SLOT.USERNAME pisze na twitterze
+Twitter__	UnfollowUser__	nie chcę wiedzieć co TWITTER.SLOT.USERNAME publikuje na twitterze
+Twitter__	UnfollowUser__	nie chcę już obserwować co TWITTER.SLOT.USERNAME pisze na twitterze
+Twitter__	UnfollowUser__	nie chcę już obserwować co TWITTER.SLOT.USERNAME publikuje na twitterze
+Twitter__	UnfollowUser__	nie chcę już śledzić co TWITTER.SLOT.USERNAME pisze na twitterze
+Twitter__	UnfollowUser__	nie chcę już śledzić co TWITTER.SLOT.USERNAME publikuje na twitterze
+Twitter__	UnfollowUser__	nie chcę już wiedzieć co TWITTER.SLOT.USERNAME pisze na twitterze
+Twitter__	UnfollowUser__	nie chcę już wiedzieć co TWITTER.SLOT.USERNAME publikuje na twitterze
+Twitter__	SendMessage__	wyślij na twitterze wiadomość TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	wyślij na twitterze wiadomość o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	wyślij na twitterze pw TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	wyślij na twitterze pw o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	wyślij na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	wyślij na twitterze prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	napisz na twitterze wiadomość TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	napisz na twitterze wiadomość o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	napisz na twitterze pw TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	napisz na twitterze pw o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	napisz na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	napisz na twitterze prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	utwórz na twitterze wiadomość TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	utwórz na twitterze wiadomość o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	utwórz na twitterze pw TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	utwórz na twitterze pw o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	utwórz na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	utwórz na twitterze prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	prześlij na twitterze wiadomość TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	prześlij na twitterze wiadomość o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	prześlij na twitterze pw TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	prześlij na twitterze pw o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	prześlij na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	prześlij na twitterze prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	wyślij wiadomość na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	wyślij wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	wyślij pw na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	wyślij pw na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	wyślij prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	wyślij prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	napisz wiadomość na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	napisz wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	napisz pw na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	napisz pw na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	napisz prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	napisz prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	utwórz wiadomość na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	utwórz wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	utwórz pw na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	utwórz pw na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	utwórz prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	utwórz prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	prześlij wiadomość na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	prześlij wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	prześlij pw na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	prześlij pw na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	prześlij prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	prześlij prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	stwórz wiadomość na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	stwórz wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	stwórz pw na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	stwórz pw na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	stwórz prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	stwórz prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	ćwierknij wiadomość TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	ćwierknij wiadomość o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	ćwierknij pw TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	ćwierknij pw o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	ćwierknij prywatną wiadomość TWITTER.SLOT.MESSAGE
+Twitter__	SendMessage__	ćwierknij prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze wyślij do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze wyślij wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze wyślij pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze wyślij prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze napisz do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze napisz wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze napisz pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze napisz prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze utwórz do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze utwórz wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze utwórz pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze utwórz prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze prześlij do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze prześlij wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze prześlij pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze prześlij prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze stwórz do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze stwórz wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze stwórz pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze stwórz prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	na twitterze wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze wyślij wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze wyślij pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze wyślij prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze napisz wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze napisz pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze napisz prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze utwórz wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze utwórz pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze utwórz prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze prześlij wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze prześlij pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze prześlij prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze stwórz wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze stwórz pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	na twitterze stwórz prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	SendMessageToUser__	TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME na twitterze
+Twitter__	SendMessageToUser__	wyślij TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME na twitterze
+Twitter__	SendMessageToUser__	napisz TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME na twitterze
+Twitter__	SendMessageToUser__	ćwierknij do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	ćwierknij wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	ćwierknij pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	ćwierknij prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
+Twitter__	SendMessageToUser__	ćwierknij TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
+Twitter__	ShowTwittsWithHashtag__	twitty z hashtagiem TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	twitty o hashtagu TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	znajdź twitty z hashtagiem TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	znajdź twitty o hashtagu TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	znajdź mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	znajdź mi twitty o hashtagu TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	odnajdź twitty z hashtagiem TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	odnajdź twitty o hashtagu TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	odnajdź mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	odnajdź mi twitty o hashtagu TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	wyszukaj twitty z hashtagiem TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	wyszukaj twitty o hashtagu TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	wyszukaj mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	wyszukaj mi twitty o hashtagu TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	pokaż twitty z hashtagiem TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	pokaż twitty o hashtagu TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	pokaż mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	pokaż mi twitty o hashtagu TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	wyświetl twitty z hashtagiem TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	wyświetl twitty o hashtagu TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	wyświetl mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
+Twitter__	ShowTwittsWithHashtag__	wyświetl mi twitty o hashtagu TWITTER.SLOT.HASHTAG

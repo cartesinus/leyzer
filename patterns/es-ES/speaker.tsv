@@ -1,73 +1,72 @@
-domain	intent	parallel	pattern
-Speaker	TurnOnOrOff	-	ayúdame a activar mi altavoz
-Speaker	TurnOnOrOff	-	ayúdame a activar el altavoz
-Speaker	TurnOnOrOff	-	ayúdame a desactivar mi altavoz
-Speaker	TurnOnOrOff	-	ayúdame a desactivar el altavoz
-Speaker	TurnOnOrOff	-	ayúdame a encender mi altavoz
-Speaker	TurnOnOrOff	-	ayúdame a encender el altavoz
-Speaker	TurnOnOrOff	-	ayúdame a apagar mi altavoz
-Speaker	TurnOnOrOff	-	ayúdame a apagar el altavoz
-Speaker	TurnOnOrOff	-	activa mi altavoz
-Speaker	TurnOnOrOff	-	activa el altavoz
-Speaker	TurnOnOrOff	-	actívame mi altavoz
-Speaker	TurnOnOrOff	-	actívame el altavoz
-Speaker	TurnOnOrOff	-	desactiva mi altavoz
-Speaker	TurnOnOrOff	-	desactiva el altavoz
-Speaker	TurnOnOrOff	-	desactívame mi altavoz
-Speaker	TurnOnOrOff	-	desactívame el altavoz
-Speaker	TurnOnOrOff	-	enciende mi altavoz
-Speaker	TurnOnOrOff	-	enciende el altavoz
-Speaker	TurnOnOrOff	-	enciéndeme mi altavoz
-Speaker	TurnOnOrOff	-	enciéndeme el altavoz
-Speaker	TurnOnOrOff	-	apaga mi altavoz
-Speaker	TurnOnOrOff	-	apaga el altavoz
-Speaker	TurnOnOrOff	-	apágame mi altavoz
-Speaker	TurnOnOrOff	-	apágame el altavoz
-Speaker	IncreaseVolume	-	sube el volumen del altavoz
-Speaker	IncreaseVolume	-	sube el volumen de altavoz
-Speaker	IncreaseVolume	-	sube el volumen de mi altavoz
-Speaker	IncreaseVolume	-	aumenta en sonido de altavoz
-Speaker	IncreaseVolume	-	aumenta en sonido de mi altavoz
-Speaker	IncreaseVolumeByPercent	-	sube el volumen del altavoz por SPEAKER.SLOT.PERCENT
-Speaker	IncreaseVolumeByPercent	-	sube el volumen del altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	IncreaseVolumeByPercent	-	sube el volumen de altavoz por SPEAKER.SLOT.PERCENT
-Speaker	IncreaseVolumeByPercent	-	sube el volumen de altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	IncreaseVolumeByPercent	-	sube el volumen de mi altavoz por SPEAKER.SLOT.PERCENT
-Speaker	IncreaseVolumeByPercent	-	sube el volumen de mi altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	IncreaseVolumeByPercent	-	aumenta en sonido de altavoz por SPEAKER.SLOT.PERCENT
-Speaker	IncreaseVolumeByPercent	-	aumenta en sonido de altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	IncreaseVolumeByPercent	-	aumenta en sonido de mi altavoz por SPEAKER.SLOT.PERCENT
-Speaker	IncreaseVolumeByPercent	-	aumenta en sonido de mi altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	DecreaseVolume	-	reduce volumen de altavoz
-Speaker	DecreaseVolume	-	reduce volumen de mi altavoz
-Speaker	DecreaseVolume	-	reduce el volumen de altavoz
-Speaker	DecreaseVolume	-	reduce el volumen de mi altavoz
-Speaker	DecreaseVolume	-	disminuye volumen de altavoz
-Speaker	DecreaseVolume	-	disminuye volumen de mi altavoz
-Speaker	DecreaseVolume	-	disminuye el volumen de altavoz
-Speaker	DecreaseVolume	-	disminuye el volumen de mi altavoz
-Speaker	DecreaseVolumeByPercent	-	reduce volumen de altavoz por SPEAKER.SLOT.PERCENT
-Speaker	DecreaseVolumeByPercent	-	reduce volumen de altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	DecreaseVolumeByPercent	-	reduce volumen de mi altavoz por SPEAKER.SLOT.PERCENT
-Speaker	DecreaseVolumeByPercent	-	reduce volumen de mi altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	DecreaseVolumeByPercent	-	reduce el volumen de altavoz por SPEAKER.SLOT.PERCENT
-Speaker	DecreaseVolumeByPercent	-	reduce el volumen de altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	DecreaseVolumeByPercent	-	reduce el volumen de mi altavoz por SPEAKER.SLOT.PERCENT
-Speaker	DecreaseVolumeByPercent	-	reduce el volumen de mi altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	DecreaseVolumeByPercent	-	disminuye volumen de altavoz por SPEAKER.SLOT.PERCENT
-Speaker	DecreaseVolumeByPercent	-	disminuye volumen de altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	DecreaseVolumeByPercent	-	disminuye volumen de mi altavoz por SPEAKER.SLOT.PERCENT
-Speaker	DecreaseVolumeByPercent	-	disminuye volumen de mi altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	DecreaseVolumeByPercent	-	disminuye el volumen de altavoz por SPEAKER.SLOT.PERCENT
-Speaker	DecreaseVolumeByPercent	-	disminuye el volumen de altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	DecreaseVolumeByPercent	-	disminuye el volumen de mi altavoz por SPEAKER.SLOT.PERCENT
-Speaker	DecreaseVolumeByPercent	-	disminuye el volumen de mi altavoz por SPEAKER.SLOT.PERCENT por ciento
-Speaker	MuteOn	-	silencia altavoz
-Speaker	MuteOn	-	silencia mi altavoz
-Speaker	MuteOn	-	silencia el altavoz
-Speaker	MuteOn	-	pon en silencio altavoz
-Speaker	MuteOn	-	pon en silencio mi altavoz
-Speaker	MuteOn	-	pon en silencio el altavoz
-Speaker	MuteOff	-	activa el sonido de altavoz
-Speaker	MuteOff	-	activa el sonido de mi altavoz
-Speaker	MuteOff	-	activa el sonido del altavoz
+Speaker__	TurnOnOrOff__	ayúdame a activar mi altavoz
+Speaker__	TurnOnOrOff__	ayúdame a activar el altavoz
+Speaker__	TurnOnOrOff__	ayúdame a desactivar mi altavoz
+Speaker__	TurnOnOrOff__	ayúdame a desactivar el altavoz
+Speaker__	TurnOnOrOff__	ayúdame a encender mi altavoz
+Speaker__	TurnOnOrOff__	ayúdame a encender el altavoz
+Speaker__	TurnOnOrOff__	ayúdame a apagar mi altavoz
+Speaker__	TurnOnOrOff__	ayúdame a apagar el altavoz
+Speaker__	TurnOnOrOff__	activa mi altavoz
+Speaker__	TurnOnOrOff__	activa el altavoz
+Speaker__	TurnOnOrOff__	actívame mi altavoz
+Speaker__	TurnOnOrOff__	actívame el altavoz
+Speaker__	TurnOnOrOff__	desactiva mi altavoz
+Speaker__	TurnOnOrOff__	desactiva el altavoz
+Speaker__	TurnOnOrOff__	desactívame mi altavoz
+Speaker__	TurnOnOrOff__	desactívame el altavoz
+Speaker__	TurnOnOrOff__	enciende mi altavoz
+Speaker__	TurnOnOrOff__	enciende el altavoz
+Speaker__	TurnOnOrOff__	enciéndeme mi altavoz
+Speaker__	TurnOnOrOff__	enciéndeme el altavoz
+Speaker__	TurnOnOrOff__	apaga mi altavoz
+Speaker__	TurnOnOrOff__	apaga el altavoz
+Speaker__	TurnOnOrOff__	apágame mi altavoz
+Speaker__	TurnOnOrOff__	apágame el altavoz
+Speaker__	IncreaseVolume__	sube el volumen del altavoz
+Speaker__	IncreaseVolume__	sube el volumen de altavoz
+Speaker__	IncreaseVolume__	sube el volumen de mi altavoz
+Speaker__	IncreaseVolume__	aumenta en sonido de altavoz
+Speaker__	IncreaseVolume__	aumenta en sonido de mi altavoz
+Speaker__	IncreaseVolumeByPercent__	sube el volumen del altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	IncreaseVolumeByPercent__	sube el volumen del altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	IncreaseVolumeByPercent__	sube el volumen de altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	IncreaseVolumeByPercent__	sube el volumen de altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	IncreaseVolumeByPercent__	sube el volumen de mi altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	IncreaseVolumeByPercent__	sube el volumen de mi altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	IncreaseVolumeByPercent__	aumenta en sonido de altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	IncreaseVolumeByPercent__	aumenta en sonido de altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	IncreaseVolumeByPercent__	aumenta en sonido de mi altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	IncreaseVolumeByPercent__	aumenta en sonido de mi altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	DecreaseVolume__	reduce volumen de altavoz
+Speaker__	DecreaseVolume__	reduce volumen de mi altavoz
+Speaker__	DecreaseVolume__	reduce el volumen de altavoz
+Speaker__	DecreaseVolume__	reduce el volumen de mi altavoz
+Speaker__	DecreaseVolume__	disminuye volumen de altavoz
+Speaker__	DecreaseVolume__	disminuye volumen de mi altavoz
+Speaker__	DecreaseVolume__	disminuye el volumen de altavoz
+Speaker__	DecreaseVolume__	disminuye el volumen de mi altavoz
+Speaker__	DecreaseVolumeByPercent__	reduce volumen de altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	DecreaseVolumeByPercent__	reduce volumen de altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	DecreaseVolumeByPercent__	reduce volumen de mi altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	DecreaseVolumeByPercent__	reduce volumen de mi altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	DecreaseVolumeByPercent__	reduce el volumen de altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	DecreaseVolumeByPercent__	reduce el volumen de altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	DecreaseVolumeByPercent__	reduce el volumen de mi altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	DecreaseVolumeByPercent__	reduce el volumen de mi altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	DecreaseVolumeByPercent__	disminuye volumen de altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	DecreaseVolumeByPercent__	disminuye volumen de altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	DecreaseVolumeByPercent__	disminuye volumen de mi altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	DecreaseVolumeByPercent__	disminuye volumen de mi altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	DecreaseVolumeByPercent__	disminuye el volumen de altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	DecreaseVolumeByPercent__	disminuye el volumen de altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	DecreaseVolumeByPercent__	disminuye el volumen de mi altavoz por SPEAKER.SLOT.PERCENT
+Speaker__	DecreaseVolumeByPercent__	disminuye el volumen de mi altavoz por SPEAKER.SLOT.PERCENT por ciento
+Speaker__	MuteOn__	silencia altavoz
+Speaker__	MuteOn__	silencia mi altavoz
+Speaker__	MuteOn__	silencia el altavoz
+Speaker__	MuteOn__	pon en silencio altavoz
+Speaker__	MuteOn__	pon en silencio mi altavoz
+Speaker__	MuteOn__	pon en silencio el altavoz
+Speaker__	MuteOff__	activa el sonido de altavoz
+Speaker__	MuteOff__	activa el sonido de mi altavoz
+Speaker__	MuteOff__	activa el sonido del altavoz

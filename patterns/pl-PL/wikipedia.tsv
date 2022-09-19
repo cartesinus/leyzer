@@ -1,237 +1,236 @@
-domain	intent	parallel	pattern
-Wikipedia	OpenWikipedia	-	otwórz wikipedię
-Wikipedia	OpenWikipedia	-	uruchom wikipedię
-Wikipedia	OpenWikipedia	-	otwórz stronę na wikipedii
-Wikipedia	OpenWikipedia	-	uruchom stronę na wikipedii
-Wikipedia	OpenWikipedia	-	wyświetl stronę na wikipedii
-Wikipedia	OpenWikipedia	-	definicja na wikipedii
-Wikipedia	OpenWikipedia	-	sprawdź definicję na wikipedii
-Wikipedia	OpenWikipedia	-	wyszukaj definicję na wikipedii
-Wikipedia	SearchQuery	-	szukaj WIKIPEDIA.SLOT.QUERY na wiki
-Wikipedia	SearchQuery	-	szukaj WIKIPEDIA.SLOT.QUERY na wikipedii
-Wikipedia	SearchQuery	-	znajdź WIKIPEDIA.SLOT.QUERY na wiki
-Wikipedia	SearchQuery	-	znajdź WIKIPEDIA.SLOT.QUERY na wikipedii
-Wikipedia	SearchQuery	-	znajdź mi WIKIPEDIA.SLOT.QUERY na wiki
-Wikipedia	SearchQuery	-	znajdź mi WIKIPEDIA.SLOT.QUERY na wikipedii
-Wikipedia	SearchQuery	-	wyszukaj WIKIPEDIA.SLOT.QUERY na wiki
-Wikipedia	SearchQuery	-	wyszukaj WIKIPEDIA.SLOT.QUERY na wikipedii
-Wikipedia	SearchQuery	-	wyszukaj mi WIKIPEDIA.SLOT.QUERY na wiki
-Wikipedia	SearchQuery	-	wyszukaj mi WIKIPEDIA.SLOT.QUERY na wikipedii
-Wikipedia	SearchQuery	-	pokaż WIKIPEDIA.SLOT.QUERY na wiki
-Wikipedia	SearchQuery	-	pokaż WIKIPEDIA.SLOT.QUERY na wikipedii
-Wikipedia	SearchQuery	-	pokaż mi WIKIPEDIA.SLOT.QUERY na wiki
-Wikipedia	SearchQuery	-	pokaż mi WIKIPEDIA.SLOT.QUERY na wikipedii
-Wikipedia	SearchQuery	-	wyświetl WIKIPEDIA.SLOT.QUERY na wiki
-Wikipedia	SearchQuery	-	wyświetl WIKIPEDIA.SLOT.QUERY na wikipedii
-Wikipedia	SearchQuery	-	wyświetl mi WIKIPEDIA.SLOT.QUERY na wiki
-Wikipedia	SearchQuery	-	wyświetl mi WIKIPEDIA.SLOT.QUERY na wikipedii
-Wikipedia	SearchQuery	-	strona o WIKIPEDIA.SLOT.QUERY na wiki
-Wikipedia	SearchQuery	-	strona o WIKIPEDIA.SLOT.QUERY na wikipedii
-Wikipedia	SearchQuery	-	WIKIPEDIA.SLOT.QUERY na wiki
-Wikipedia	SearchQuery	-	WIKIPEDIA.SLOT.QUERY na wikipedii
-Wikipedia	ScrollDown	-	w dół
-Wikipedia	ScrollDown	-	niżej
-Wikipedia	ScrollDown	-	strona w dół
-Wikipedia	ScrollDown	-	strona niżej
-Wikipedia	ScrollDown	-	stronę w dół
-Wikipedia	ScrollDown	-	stronę niżej
-Wikipedia	ScrollDown	-	przewiń stronę w dół
-Wikipedia	ScrollDown	-	przewiń stronę niżej
-Wikipedia	ScrollDown	-	scrolluj w dół
-Wikipedia	ScrollDown	-	scrolluj stronę w dół
-Wikipedia	ScrollDown	-	kawałek w dół
-Wikipedia	ScrollUp	-	w górę
-Wikipedia	ScrollUp	-	wyżej
-Wikipedia	ScrollUp	-	strona w górę
-Wikipedia	ScrollUp	-	strona wyżej
-Wikipedia	ScrollUp	-	stronę w górę
-Wikipedia	ScrollUp	-	stronę wyżej
-Wikipedia	ScrollUp	-	przewiń stronę w górę
-Wikipedia	ScrollUp	-	przewiń stronę wyżej
-Wikipedia	ScrollUp	-	scrolluj do góry
-Wikipedia	ScrollUp	-	scrolluj stronę do góry
-Wikipedia	ScrollUp	-	kawałek do góry
-Wikipedia	DownloadAsPdf	-	ściągnij tę stronę jako pdf
-Wikipedia	DownloadAsPdf	-	ściągnij ten artukuł jako pdf
-Wikipedia	DownloadAsPdf	-	pobierz tę stronę jako pdf
-Wikipedia	DownloadAsPdf	-	pobierz ten artukuł jako pdf
-Wikipedia	DownloadAsPdf	-	zachowaj tę stronę jako pdf
-Wikipedia	DownloadAsPdf	-	zachowaj ten artukuł jako pdf
-Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na angielski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na polski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na niemiecki
-Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na francuski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na włoski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na hiszpański
-Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na rosyjski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na chiński
-Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na ukraiński
-Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na arabski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język strony na portugalski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tej strony na angielski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tej strony na polski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tej strony na niemiecki
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tej strony na francuski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tej strony na włoski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tej strony na hiszpański
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tej strony na rosyjski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tej strony na chiński
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tej strony na ukraiński
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tej strony na arabski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tej strony na portugalski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język artykułu na angielski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język artykułu na polski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język artykułu na niemiecki
-Wikipedia	ChangeLanguageToLanguage	-	zmień język artykułu na francuski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język artykułu na włoski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język artykułu na hiszpański
-Wikipedia	ChangeLanguageToLanguage	-	zmień język artykułu na rosyjski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język artykułu na chiński
-Wikipedia	ChangeLanguageToLanguage	-	zmień język artykułu na ukraiński
-Wikipedia	ChangeLanguageToLanguage	-	zmień język artykułu na arabski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język artykułu na portugalski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na angielski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na polski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na niemiecki
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na francuski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na włoski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na hiszpański
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na rosyjski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na chiński
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na ukraiński
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na arabski
-Wikipedia	ChangeLanguageToLanguage	-	zmień język tego artykułu na portugalski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na angielski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na polski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na niemiecki
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na francuski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na włoski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na hiszpański
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na rosyjski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na chiński
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na ukraiński
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na arabski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język strony na portugalski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na angielski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na polski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na niemiecki
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na francuski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na włoski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na hiszpański
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na rosyjski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na chiński
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na ukraiński
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na arabski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tej strony na portugalski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na angielski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na polski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na niemiecki
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na francuski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na włoski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na hiszpański
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na rosyjski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na chiński
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na ukraiński
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na arabski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język artykułu na portugalski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na angielski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na polski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na niemiecki
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na francuski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na włoski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na hiszpański
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na rosyjski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na chiński
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na ukraiński
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na arabski
-Wikipedia	ChangeLanguageToLanguage	-	przełącz język tego artykułu na portugalski
-Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku angielskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku polskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku niemieckim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku francuskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku włoskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku hiszpańskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku rosyjskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku chińskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku ukraińskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku arabskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż artykuł w języku portugalskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż ten artykuł w języku angielskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż ten artykuł w języku polskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż ten artykuł w języku niemieckim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż ten artykuł w języku francuskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż ten artykuł w języku włoskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż ten artykuł w języku hiszpańskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż ten artykuł w języku rosyjskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż ten artykuł w języku chińskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż ten artykuł w języku ukraińskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż ten artykuł w języku arabskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż ten artykuł w języku portugalskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż stronę w języku angielskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż stronę w języku polskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż stronę w języku niemieckim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż stronę w języku francuskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż stronę w języku włoskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż stronę w języku hiszpańskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż stronę w języku rosyjskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż stronę w języku chińskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż stronę w języku ukraińskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż stronę w języku arabskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż stronę w języku portugalskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku angielskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku polskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku niemieckim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku francuskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku włoskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku hiszpańskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku rosyjskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku chińskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku ukraińskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku arabskim
-Wikipedia	ChangeLanguageToLanguage	-	pokaż tę stronę w języku portugalskim
-Wikipedia	RandomPage	-	pokaż losową stronę na wiki
-Wikipedia	RandomPage	-	pokaż losową stronę na wikipedii
-Wikipedia	RandomPage	-	pokaż losowy artykuł na wiki
-Wikipedia	RandomPage	-	pokaż losowy artykuł na wikipedii
-Wikipedia	RandomPage	-	wyświetl losową stronę na wiki
-Wikipedia	RandomPage	-	wyświetl losową stronę na wikipedii
-Wikipedia	RandomPage	-	wyświetl losowy artykuł na wiki
-Wikipedia	RandomPage	-	wyświetl losowy artykuł na wikipedii
-Wikipedia	RandomPage	-	wiki surfing
-Wikipedia	RandomPage	-	wikipedia surfing
-Wikipedia	RandomPage	-	serfuj po wiki
-Wikipedia	RandomPage	-	serfuj po wikipedii
-Wikipedia	RandomPage	-	wylosuj stronę na wiki
-Wikipedia	RandomPage	-	wylosuj stronę na wikipedii
-Wikipedia	RandomPage	-	wylosuj artykuł na wiki
-Wikipedia	RandomPage	-	wylosuj artykuł na wikipedii
-Wikipedia	GoToElementNumber	-	przejdź do pierwszego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	przejdź do drugiego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	przejdź do trzeciego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	przejdź do czwartego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	przejdź do piątego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	przejdź do szóstego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	przejdź do siódmego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	przejdź do ósmego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	przejdź do dziewiątego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	przejdź do dziesiątego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	skocz do pierwszego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	skocz do drugiego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	skocz do trzeciego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	skocz do czwartego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	skocz do piątego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	skocz do szóstego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	skocz do siódmego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	skocz do ósmego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	skocz do dziewiątego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	skocz do dziesiątego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	nawiguj do pierwszego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	nawiguj do drugiego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	nawiguj do trzeciego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	nawiguj do czwartego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	nawiguj do piątego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	nawiguj do szóstego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	nawiguj do siódmego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	nawiguj do ósmego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	nawiguj do dziewiątego elementu ze spisu treści
-Wikipedia	GoToElementNumber	-	nawiguj do dziesiątego elementu ze spisu treści
+Wikipedia__	OpenWikipedia__	otwórz wikipedię
+Wikipedia__	OpenWikipedia__	uruchom wikipedię
+Wikipedia__	OpenWikipedia__	otwórz stronę na wikipedii
+Wikipedia__	OpenWikipedia__	uruchom stronę na wikipedii
+Wikipedia__	OpenWikipedia__	wyświetl stronę na wikipedii
+Wikipedia__	OpenWikipedia__	definicja na wikipedii
+Wikipedia__	OpenWikipedia__	sprawdź definicję na wikipedii
+Wikipedia__	OpenWikipedia__	wyszukaj definicję na wikipedii
+Wikipedia__	SearchQuery__	szukaj WIKIPEDIA.SLOT.QUERY na wiki
+Wikipedia__	SearchQuery__	szukaj WIKIPEDIA.SLOT.QUERY na wikipedii
+Wikipedia__	SearchQuery__	znajdź WIKIPEDIA.SLOT.QUERY na wiki
+Wikipedia__	SearchQuery__	znajdź WIKIPEDIA.SLOT.QUERY na wikipedii
+Wikipedia__	SearchQuery__	znajdź mi WIKIPEDIA.SLOT.QUERY na wiki
+Wikipedia__	SearchQuery__	znajdź mi WIKIPEDIA.SLOT.QUERY na wikipedii
+Wikipedia__	SearchQuery__	wyszukaj WIKIPEDIA.SLOT.QUERY na wiki
+Wikipedia__	SearchQuery__	wyszukaj WIKIPEDIA.SLOT.QUERY na wikipedii
+Wikipedia__	SearchQuery__	wyszukaj mi WIKIPEDIA.SLOT.QUERY na wiki
+Wikipedia__	SearchQuery__	wyszukaj mi WIKIPEDIA.SLOT.QUERY na wikipedii
+Wikipedia__	SearchQuery__	pokaż WIKIPEDIA.SLOT.QUERY na wiki
+Wikipedia__	SearchQuery__	pokaż WIKIPEDIA.SLOT.QUERY na wikipedii
+Wikipedia__	SearchQuery__	pokaż mi WIKIPEDIA.SLOT.QUERY na wiki
+Wikipedia__	SearchQuery__	pokaż mi WIKIPEDIA.SLOT.QUERY na wikipedii
+Wikipedia__	SearchQuery__	wyświetl WIKIPEDIA.SLOT.QUERY na wiki
+Wikipedia__	SearchQuery__	wyświetl WIKIPEDIA.SLOT.QUERY na wikipedii
+Wikipedia__	SearchQuery__	wyświetl mi WIKIPEDIA.SLOT.QUERY na wiki
+Wikipedia__	SearchQuery__	wyświetl mi WIKIPEDIA.SLOT.QUERY na wikipedii
+Wikipedia__	SearchQuery__	strona o WIKIPEDIA.SLOT.QUERY na wiki
+Wikipedia__	SearchQuery__	strona o WIKIPEDIA.SLOT.QUERY na wikipedii
+Wikipedia__	SearchQuery__	WIKIPEDIA.SLOT.QUERY na wiki
+Wikipedia__	SearchQuery__	WIKIPEDIA.SLOT.QUERY na wikipedii
+Wikipedia__	ScrollDown__	w dół
+Wikipedia__	ScrollDown__	niżej
+Wikipedia__	ScrollDown__	strona w dół
+Wikipedia__	ScrollDown__	strona niżej
+Wikipedia__	ScrollDown__	stronę w dół
+Wikipedia__	ScrollDown__	stronę niżej
+Wikipedia__	ScrollDown__	przewiń stronę w dół
+Wikipedia__	ScrollDown__	przewiń stronę niżej
+Wikipedia__	ScrollDown__	scrolluj w dół
+Wikipedia__	ScrollDown__	scrolluj stronę w dół
+Wikipedia__	ScrollDown__	kawałek w dół
+Wikipedia__	ScrollUp__	w górę
+Wikipedia__	ScrollUp__	wyżej
+Wikipedia__	ScrollUp__	strona w górę
+Wikipedia__	ScrollUp__	strona wyżej
+Wikipedia__	ScrollUp__	stronę w górę
+Wikipedia__	ScrollUp__	stronę wyżej
+Wikipedia__	ScrollUp__	przewiń stronę w górę
+Wikipedia__	ScrollUp__	przewiń stronę wyżej
+Wikipedia__	ScrollUp__	scrolluj do góry
+Wikipedia__	ScrollUp__	scrolluj stronę do góry
+Wikipedia__	ScrollUp__	kawałek do góry
+Wikipedia__	DownloadAsPdf__	ściągnij tę stronę jako pdf
+Wikipedia__	DownloadAsPdf__	ściągnij ten artukuł jako pdf
+Wikipedia__	DownloadAsPdf__	pobierz tę stronę jako pdf
+Wikipedia__	DownloadAsPdf__	pobierz ten artukuł jako pdf
+Wikipedia__	DownloadAsPdf__	zachowaj tę stronę jako pdf
+Wikipedia__	DownloadAsPdf__	zachowaj ten artukuł jako pdf
+Wikipedia__	ChangeLanguageToLanguage__	zmień język strony na angielski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język strony na polski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język strony na niemiecki
+Wikipedia__	ChangeLanguageToLanguage__	zmień język strony na francuski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język strony na włoski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język strony na hiszpański
+Wikipedia__	ChangeLanguageToLanguage__	zmień język strony na rosyjski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język strony na chiński
+Wikipedia__	ChangeLanguageToLanguage__	zmień język strony na ukraiński
+Wikipedia__	ChangeLanguageToLanguage__	zmień język strony na arabski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język strony na portugalski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tej strony na angielski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tej strony na polski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tej strony na niemiecki
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tej strony na francuski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tej strony na włoski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tej strony na hiszpański
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tej strony na rosyjski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tej strony na chiński
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tej strony na ukraiński
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tej strony na arabski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tej strony na portugalski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język artykułu na angielski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język artykułu na polski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język artykułu na niemiecki
+Wikipedia__	ChangeLanguageToLanguage__	zmień język artykułu na francuski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język artykułu na włoski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język artykułu na hiszpański
+Wikipedia__	ChangeLanguageToLanguage__	zmień język artykułu na rosyjski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język artykułu na chiński
+Wikipedia__	ChangeLanguageToLanguage__	zmień język artykułu na ukraiński
+Wikipedia__	ChangeLanguageToLanguage__	zmień język artykułu na arabski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język artykułu na portugalski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tego artykułu na angielski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tego artykułu na polski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tego artykułu na niemiecki
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tego artykułu na francuski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tego artykułu na włoski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tego artykułu na hiszpański
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tego artykułu na rosyjski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tego artykułu na chiński
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tego artykułu na ukraiński
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tego artykułu na arabski
+Wikipedia__	ChangeLanguageToLanguage__	zmień język tego artykułu na portugalski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język strony na angielski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język strony na polski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język strony na niemiecki
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język strony na francuski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język strony na włoski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język strony na hiszpański
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język strony na rosyjski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język strony na chiński
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język strony na ukraiński
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język strony na arabski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język strony na portugalski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tej strony na angielski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tej strony na polski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tej strony na niemiecki
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tej strony na francuski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tej strony na włoski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tej strony na hiszpański
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tej strony na rosyjski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tej strony na chiński
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tej strony na ukraiński
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tej strony na arabski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tej strony na portugalski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język artykułu na angielski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język artykułu na polski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język artykułu na niemiecki
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język artykułu na francuski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język artykułu na włoski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język artykułu na hiszpański
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język artykułu na rosyjski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język artykułu na chiński
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język artykułu na ukraiński
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język artykułu na arabski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język artykułu na portugalski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tego artykułu na angielski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tego artykułu na polski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tego artykułu na niemiecki
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tego artykułu na francuski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tego artykułu na włoski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tego artykułu na hiszpański
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tego artykułu na rosyjski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tego artykułu na chiński
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tego artykułu na ukraiński
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tego artykułu na arabski
+Wikipedia__	ChangeLanguageToLanguage__	przełącz język tego artykułu na portugalski
+Wikipedia__	ChangeLanguageToLanguage__	pokaż artykuł w języku angielskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż artykuł w języku polskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż artykuł w języku niemieckim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż artykuł w języku francuskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż artykuł w języku włoskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż artykuł w języku hiszpańskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż artykuł w języku rosyjskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż artykuł w języku chińskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż artykuł w języku ukraińskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż artykuł w języku arabskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż artykuł w języku portugalskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż ten artykuł w języku angielskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż ten artykuł w języku polskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż ten artykuł w języku niemieckim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż ten artykuł w języku francuskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż ten artykuł w języku włoskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż ten artykuł w języku hiszpańskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż ten artykuł w języku rosyjskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż ten artykuł w języku chińskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż ten artykuł w języku ukraińskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż ten artykuł w języku arabskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż ten artykuł w języku portugalskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż stronę w języku angielskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż stronę w języku polskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż stronę w języku niemieckim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż stronę w języku francuskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż stronę w języku włoskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż stronę w języku hiszpańskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż stronę w języku rosyjskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż stronę w języku chińskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż stronę w języku ukraińskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż stronę w języku arabskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż stronę w języku portugalskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż tę stronę w języku angielskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż tę stronę w języku polskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż tę stronę w języku niemieckim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż tę stronę w języku francuskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż tę stronę w języku włoskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż tę stronę w języku hiszpańskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż tę stronę w języku rosyjskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż tę stronę w języku chińskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż tę stronę w języku ukraińskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż tę stronę w języku arabskim
+Wikipedia__	ChangeLanguageToLanguage__	pokaż tę stronę w języku portugalskim
+Wikipedia__	RandomPage__	pokaż losową stronę na wiki
+Wikipedia__	RandomPage__	pokaż losową stronę na wikipedii
+Wikipedia__	RandomPage__	pokaż losowy artykuł na wiki
+Wikipedia__	RandomPage__	pokaż losowy artykuł na wikipedii
+Wikipedia__	RandomPage__	wyświetl losową stronę na wiki
+Wikipedia__	RandomPage__	wyświetl losową stronę na wikipedii
+Wikipedia__	RandomPage__	wyświetl losowy artykuł na wiki
+Wikipedia__	RandomPage__	wyświetl losowy artykuł na wikipedii
+Wikipedia__	RandomPage__	wiki surfing
+Wikipedia__	RandomPage__	wikipedia surfing
+Wikipedia__	RandomPage__	serfuj po wiki
+Wikipedia__	RandomPage__	serfuj po wikipedii
+Wikipedia__	RandomPage__	wylosuj stronę na wiki
+Wikipedia__	RandomPage__	wylosuj stronę na wikipedii
+Wikipedia__	RandomPage__	wylosuj artykuł na wiki
+Wikipedia__	RandomPage__	wylosuj artykuł na wikipedii
+Wikipedia__	GoToElementNumber__	przejdź do pierwszego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	przejdź do drugiego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	przejdź do trzeciego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	przejdź do czwartego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	przejdź do piątego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	przejdź do szóstego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	przejdź do siódmego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	przejdź do ósmego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	przejdź do dziewiątego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	przejdź do dziesiątego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	skocz do pierwszego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	skocz do drugiego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	skocz do trzeciego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	skocz do czwartego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	skocz do piątego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	skocz do szóstego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	skocz do siódmego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	skocz do ósmego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	skocz do dziewiątego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	skocz do dziesiątego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	nawiguj do pierwszego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	nawiguj do drugiego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	nawiguj do trzeciego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	nawiguj do czwartego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	nawiguj do piątego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	nawiguj do szóstego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	nawiguj do siódmego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	nawiguj do ósmego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	nawiguj do dziewiątego elementu ze spisu treści
+Wikipedia__	GoToElementNumber__	nawiguj do dziesiątego elementu ze spisu treści

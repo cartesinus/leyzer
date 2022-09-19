@@ -1,96 +1,95 @@
-domain	intent	parallel	pattern
-Yelp	SearchRestaurant	-	restaurante
-Yelp	SearchRestaurant	-	restaurante en yelp
-Yelp	SearchRestaurant	-	restaurante por aquí
-Yelp	SearchRestaurant	-	restaurante cerca
-Yelp	SearchRestaurant	-	restaurante cerca de aquí
-Yelp	SearchRestaurant	-	restaurantes
-Yelp	SearchRestaurant	-	restaurantes en yelp
-Yelp	SearchRestaurant	-	restaurantes por aquí
-Yelp	SearchRestaurant	-	restaurantes cerca
-Yelp	SearchRestaurant	-	restaurantes cerca de aquí
-Yelp	SearchRestaurant	-	busca restaurante
-Yelp	SearchRestaurant	-	busca restaurante en yelp
-Yelp	SearchRestaurant	-	busca restaurante por aquí
-Yelp	SearchRestaurant	-	busca restaurante cerca
-Yelp	SearchRestaurant	-	busca restaurante cerca de aquí
-Yelp	SearchRestaurant	-	busca restaurantes
-Yelp	SearchRestaurant	-	busca restaurantes en yelp
-Yelp	SearchRestaurant	-	busca restaurantes por aquí
-Yelp	SearchRestaurant	-	busca restaurantes cerca
-Yelp	SearchRestaurant	-	busca restaurantes cerca de aquí
-Yelp	SearchRestaurant	-	encuentra restaurante
-Yelp	SearchRestaurant	-	encuentra restaurante en yelp
-Yelp	SearchRestaurant	-	encuentra restaurante por aquí
-Yelp	SearchRestaurant	-	encuentra restaurante cerca
-Yelp	SearchRestaurant	-	encuentra restaurante cerca de aquí
-Yelp	SearchRestaurant	-	encuentra restaurantes
-Yelp	SearchRestaurant	-	encuentra restaurantes en yelp
-Yelp	SearchRestaurant	-	encuentra restaurantes por aquí
-Yelp	SearchRestaurant	-	encuentra restaurantes cerca
-Yelp	SearchRestaurant	-	encuentra restaurantes cerca de aquí
-Yelp	SearchRestaurant	-	restaurantes más cercanos por aquí
-Yelp	SearchRestaurant	-	restaurantes más cerca de aquí
-Yelp	SearchByQuery	-	YELP.SLOT.QUERY
-Yelp	SearchByQuery	-	YELP.SLOT.QUERY por aquí
-Yelp	SearchByQuery	-	YELP.SLOT.QUERY en yelp
-Yelp	SearchByQuery	-	YELP.SLOT.QUERY cerca
-Yelp	SearchByRating	-	restaurantes cerca con por lo menos YELP.SLOT.RATING estrellas de clasificación
-Yelp	SearchByRating	-	YELP.SLOT.RATING star restaurants
-Yelp	SearchByRating	-	YELP.SLOT.RATING star restaurants on yelp
-Yelp	SearchByRating	-	restaurants rated higher than YELP.SLOT.RATING star
-Yelp	SearchByCategory	-	comida YELP.SLOT.CATEGORY.F
-Yelp	SearchByCategory	-	comida YELP.SLOT.CATEGORY.F por aquí
-Yelp	SearchByCategory	-	comida YELP.SLOT.CATEGORY.F cerca
-Yelp	SearchByCategory	-	restaurantes YELP.SLOT.CATEGORY.MPL
-Yelp	SearchByCategory	-	restaurantes YELP.SLOT.CATEGORY.MPL por aquí
-Yelp	SearchByCategory	-	restaurantes YELP.SLOT.CATEGORY.MPL cerca
-Yelp	OpenRestaurants	-	restaurantes abiertos por aquí
-Yelp	OpenRestaurants	-	restaurantes todavía abiertos por aquí
-Yelp	OpenRestaurants	-	restaurantes abiertos hasta ahora cerca
-Yelp	OpenRestaurants	-	restaurantes abiertos hasta ahora cerca de aquí
-Yelp	OpenRestaurants	-	restaurantes abiertos ahora
-Yelp	SearchByReviewCount	-	restaurantes cerca de aquí con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT personas
-Yelp	SearchByReviewCount	-	restaurantes cerca de aquí con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp	SearchByReviewCount	-	restaurantes cerca de aquí con opiniones de más de YELP.SLOT.REVIEW_COUNT personas
-Yelp	SearchByReviewCount	-	restaurantes cerca de aquí con opiniones de más de YELP.SLOT.REVIEW_COUNT usuarios
-Yelp	SearchByReviewCount	-	restaurantes cerca de aquí con opiniones de al menos YELP.SLOT.REVIEW_COUNT personas
-Yelp	SearchByReviewCount	-	restaurantes cerca de aquí con opiniones de al menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp	SearchByReviewCount	-	restaurantes por aquí con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT personas
-Yelp	SearchByReviewCount	-	restaurantes por aquí con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp	SearchByReviewCount	-	restaurantes por aquí con opiniones de más de YELP.SLOT.REVIEW_COUNT personas
-Yelp	SearchByReviewCount	-	restaurantes por aquí con opiniones de más de YELP.SLOT.REVIEW_COUNT usuarios
-Yelp	SearchByReviewCount	-	restaurantes por aquí con opiniones de al menos YELP.SLOT.REVIEW_COUNT personas
-Yelp	SearchByReviewCount	-	restaurantes por aquí con opiniones de al menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp	SearchInLocation	-	restaurantes al lado de YELP.SLOT.LOCATION
-Yelp	SearchInLocation	-	restaurantes cerca de YELP.SLOT.LOCATION
-Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY en YELP.SLOT.LOCATION
-Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY en YELP.SLOT.LOCATION en yelp
-Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY cerca de YELP.SLOT.LOCATION
-Yelp	SearchByQueryInLocation	-	YELP.SLOT.QUERY cerca de YELP.SLOT.LOCATION en yelp
-Yelp	SearchByRatingInLocation	-	restaurantes cercanos co al menos YELP.SLOT.RATING estrellas cerca de YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	-	restaurantes cercanos co al menos YELP.SLOT.RATING estrellas de clasificación cerca de YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	-	restaurantes de YELP.SLOT.RATING estrellas cerca de YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	-	restaurantes de YELP.SLOT.RATING estrellas cerca de YELP.SLOT.LOCATION en yelp
-Yelp	SearchByRatingInLocation	-	restaurantes de YELP.SLOT.RATING estrellas en YELP.SLOT.LOCATION
-Yelp	SearchByRatingInLocation	-	restaurantes de YELP.SLOT.RATING estrellas en YELP.SLOT.LOCATION en yelp
-Yelp	SearchByRatingInLocation	-	restaurantes clasificados con más de YELP.SLOT.RATING estrellas en YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	-	comida YELP.SLOT.CATEGORY.F cerca YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	-	comida YELP.SLOT.CATEGORY.F en YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL cerca YELP.SLOT.LOCATION
-Yelp	SearchByCategoryInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL en YELP.SLOT.LOCATION
-Yelp	SearchByReviewCountInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT personas
-Yelp	SearchByReviewCountInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp	SearchByReviewCountInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de más de YELP.SLOT.REVIEW_COUNT personas
-Yelp	SearchByReviewCountInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de más de YELP.SLOT.REVIEW_COUNT usuarios
-Yelp	SearchByReviewCountInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de al menos YELP.SLOT.REVIEW_COUNT personas
-Yelp	SearchByReviewCountInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de al menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp	SearchByReviewCountInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT personas
-Yelp	SearchByReviewCountInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp	SearchByReviewCountInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de más de YELP.SLOT.REVIEW_COUNT personas
-Yelp	SearchByReviewCountInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de más de YELP.SLOT.REVIEW_COUNT usuarios
-Yelp	SearchByReviewCountInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de al menos YELP.SLOT.REVIEW_COUNT personas
-Yelp	SearchByReviewCountInLocation	-	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de al menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp	OpenRestaurantsInLocation	-	restaurantes abiertos cerca de YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	-	restaurantes todavía abiertos en YELP.SLOT.LOCATION
-Yelp	OpenRestaurantsInLocation	-	restaurantes abiertos ahora en YELP.SLOT.LOCATION
+Yelp__	SearchRestaurant__	restaurante
+Yelp__	SearchRestaurant__	restaurante en yelp
+Yelp__	SearchRestaurant__	restaurante por aquí
+Yelp__	SearchRestaurant__	restaurante cerca
+Yelp__	SearchRestaurant__	restaurante cerca de aquí
+Yelp__	SearchRestaurant__	restaurantes
+Yelp__	SearchRestaurant__	restaurantes en yelp
+Yelp__	SearchRestaurant__	restaurantes por aquí
+Yelp__	SearchRestaurant__	restaurantes cerca
+Yelp__	SearchRestaurant__	restaurantes cerca de aquí
+Yelp__	SearchRestaurant__	busca restaurante
+Yelp__	SearchRestaurant__	busca restaurante en yelp
+Yelp__	SearchRestaurant__	busca restaurante por aquí
+Yelp__	SearchRestaurant__	busca restaurante cerca
+Yelp__	SearchRestaurant__	busca restaurante cerca de aquí
+Yelp__	SearchRestaurant__	busca restaurantes
+Yelp__	SearchRestaurant__	busca restaurantes en yelp
+Yelp__	SearchRestaurant__	busca restaurantes por aquí
+Yelp__	SearchRestaurant__	busca restaurantes cerca
+Yelp__	SearchRestaurant__	busca restaurantes cerca de aquí
+Yelp__	SearchRestaurant__	encuentra restaurante
+Yelp__	SearchRestaurant__	encuentra restaurante en yelp
+Yelp__	SearchRestaurant__	encuentra restaurante por aquí
+Yelp__	SearchRestaurant__	encuentra restaurante cerca
+Yelp__	SearchRestaurant__	encuentra restaurante cerca de aquí
+Yelp__	SearchRestaurant__	encuentra restaurantes
+Yelp__	SearchRestaurant__	encuentra restaurantes en yelp
+Yelp__	SearchRestaurant__	encuentra restaurantes por aquí
+Yelp__	SearchRestaurant__	encuentra restaurantes cerca
+Yelp__	SearchRestaurant__	encuentra restaurantes cerca de aquí
+Yelp__	SearchRestaurant__	restaurantes más cercanos por aquí
+Yelp__	SearchRestaurant__	restaurantes más cerca de aquí
+Yelp__	SearchByQuery__	YELP.SLOT.QUERY
+Yelp__	SearchByQuery__	YELP.SLOT.QUERY por aquí
+Yelp__	SearchByQuery__	YELP.SLOT.QUERY en yelp
+Yelp__	SearchByQuery__	YELP.SLOT.QUERY cerca
+Yelp__	SearchByRating__	restaurantes cerca con por lo menos YELP.SLOT.RATING estrellas de clasificación
+Yelp__	SearchByRating__	YELP.SLOT.RATING star restaurants
+Yelp__	SearchByRating__	YELP.SLOT.RATING star restaurants on yelp
+Yelp__	SearchByRating__	restaurants rated higher than YELP.SLOT.RATING star
+Yelp__	SearchByCategory__	comida YELP.SLOT.CATEGORY.F
+Yelp__	SearchByCategory__	comida YELP.SLOT.CATEGORY.F por aquí
+Yelp__	SearchByCategory__	comida YELP.SLOT.CATEGORY.F cerca
+Yelp__	SearchByCategory__	restaurantes YELP.SLOT.CATEGORY.MPL
+Yelp__	SearchByCategory__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí
+Yelp__	SearchByCategory__	restaurantes YELP.SLOT.CATEGORY.MPL cerca
+Yelp__	OpenRestaurants__	restaurantes abiertos por aquí
+Yelp__	OpenRestaurants__	restaurantes todavía abiertos por aquí
+Yelp__	OpenRestaurants__	restaurantes abiertos hasta ahora cerca
+Yelp__	OpenRestaurants__	restaurantes abiertos hasta ahora cerca de aquí
+Yelp__	OpenRestaurants__	restaurantes abiertos ahora
+Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT personas
+Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT usuarios
+Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de más de YELP.SLOT.REVIEW_COUNT personas
+Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de más de YELP.SLOT.REVIEW_COUNT usuarios
+Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de al menos YELP.SLOT.REVIEW_COUNT personas
+Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de al menos YELP.SLOT.REVIEW_COUNT usuarios
+Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT personas
+Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT usuarios
+Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de más de YELP.SLOT.REVIEW_COUNT personas
+Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de más de YELP.SLOT.REVIEW_COUNT usuarios
+Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de al menos YELP.SLOT.REVIEW_COUNT personas
+Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de al menos YELP.SLOT.REVIEW_COUNT usuarios
+Yelp__	SearchInLocation__	restaurantes al lado de YELP.SLOT.LOCATION
+Yelp__	SearchInLocation__	restaurantes cerca de YELP.SLOT.LOCATION
+Yelp__	SearchByQueryInLocation__	YELP.SLOT.QUERY en YELP.SLOT.LOCATION
+Yelp__	SearchByQueryInLocation__	YELP.SLOT.QUERY en YELP.SLOT.LOCATION en yelp
+Yelp__	SearchByQueryInLocation__	YELP.SLOT.QUERY cerca de YELP.SLOT.LOCATION
+Yelp__	SearchByQueryInLocation__	YELP.SLOT.QUERY cerca de YELP.SLOT.LOCATION en yelp
+Yelp__	SearchByRatingInLocation__	restaurantes cercanos co al menos YELP.SLOT.RATING estrellas cerca de YELP.SLOT.LOCATION
+Yelp__	SearchByRatingInLocation__	restaurantes cercanos co al menos YELP.SLOT.RATING estrellas de clasificación cerca de YELP.SLOT.LOCATION
+Yelp__	SearchByRatingInLocation__	restaurantes de YELP.SLOT.RATING estrellas cerca de YELP.SLOT.LOCATION
+Yelp__	SearchByRatingInLocation__	restaurantes de YELP.SLOT.RATING estrellas cerca de YELP.SLOT.LOCATION en yelp
+Yelp__	SearchByRatingInLocation__	restaurantes de YELP.SLOT.RATING estrellas en YELP.SLOT.LOCATION
+Yelp__	SearchByRatingInLocation__	restaurantes de YELP.SLOT.RATING estrellas en YELP.SLOT.LOCATION en yelp
+Yelp__	SearchByRatingInLocation__	restaurantes clasificados con más de YELP.SLOT.RATING estrellas en YELP.SLOT.LOCATION
+Yelp__	SearchByCategoryInLocation__	comida YELP.SLOT.CATEGORY.F cerca YELP.SLOT.LOCATION
+Yelp__	SearchByCategoryInLocation__	comida YELP.SLOT.CATEGORY.F en YELP.SLOT.LOCATION
+Yelp__	SearchByCategoryInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca YELP.SLOT.LOCATION
+Yelp__	SearchByCategoryInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL en YELP.SLOT.LOCATION
+Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT personas
+Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT usuarios
+Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de más de YELP.SLOT.REVIEW_COUNT personas
+Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de más de YELP.SLOT.REVIEW_COUNT usuarios
+Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de al menos YELP.SLOT.REVIEW_COUNT personas
+Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de al menos YELP.SLOT.REVIEW_COUNT usuarios
+Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT personas
+Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT usuarios
+Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de más de YELP.SLOT.REVIEW_COUNT personas
+Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de más de YELP.SLOT.REVIEW_COUNT usuarios
+Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de al menos YELP.SLOT.REVIEW_COUNT personas
+Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de al menos YELP.SLOT.REVIEW_COUNT usuarios
+Yelp__	OpenRestaurantsInLocation__	restaurantes abiertos cerca de YELP.SLOT.LOCATION
+Yelp__	OpenRestaurantsInLocation__	restaurantes todavía abiertos en YELP.SLOT.LOCATION
+Yelp__	OpenRestaurantsInLocation__	restaurantes abiertos ahora en YELP.SLOT.LOCATION

@@ -1,98 +1,97 @@
-Domain	intent	parallel	pattern
-Weather	OpenWeather	-	the weather
-Weather	OpenWeather	-	the weather outside
-Weather	OpenWeather	-	what's the weather
-Weather	OpenWeather	-	what's the weather outside
-Weather	OpenWeather	-	what's the weather like
-Weather	OpenWeather	-	what's the weather like outside
-Weather	OpenWeather	-	what's the temperature
-Weather	OpenWeather	-	what's the temperature outside
-Weather	OpenWeather	-	what's the temperature like
-Weather	OpenWeather	-	what's the temperature like outside
-Weather	OpenWeather	-	do i need raincoat
-Weather	OpenWeather	-	how hot is outside
-Weather	OpenWeather	-	is it going to rain
-Weather	OpenWeather	-	is it going to rain today
-Weather	OpenWeather	-	will there be a sun
-Weather	OpenWeather	-	will there be a sun today
-Weather	OpenWeather	-	what 's the humidity
-Weather	OpenWeather	-	is it hot outside
-Weather	OpenWeather	-	is it windy today
-Weather	OpenWeather	-	will it rain today
-Weather	OpenWeather	-	will it rain later
-Weather	WeatherTomorrow	-	weather tomorrow
-Weather	WeatherTomorrow	-	weather for tomorrow
-Weather	WeatherTomorrow	-	temperature tomorrow
-Weather	WeatherTomorrow	-	temperature for tomorrow
-Weather	WeatherTomorrow	-	check weather tomorrow
-Weather	WeatherTomorrow	-	check weather for tomorrow
-Weather	WeatherTomorrow	-	check temperature tomorrow
-Weather	WeatherTomorrow	-	check temperature for tomorrow
-Weather	WeatherTomorrow	-	what's the weather tommorow
-Weather	WeatherTomorrow	-	what's the weather tommorow like
-Weather	WeatherTomorrow	-	what's the temperature tommorow
-Weather	WeatherTomorrow	-	what's the temperature tommorow like
-Weather	WeatherTomorrow	-	tomorrow's weather
-Weather	WeatherTomorrow	-	tomorrow's temperature
-Weather	WeatherTomorrow	-	check tomorrow's weather
-Weather	WeatherTomorrow	-	check tomorrow's temperature
-Weather	WeatherTomorrow	-	what will the weather be like tomorrow
-Weather	WeatherTomorrow	-	is it going to rain tomorrow
-Weather	WeatherTomorrow	-	will there be a rain tomorrow
-Weather	WeatherTomorrow	-	will there be a sun tomorrow
-Weather	WeatherTomorrow	-	will i need raincoat tomorrow
-Weather	WeatherTomorrow	-	what should i wear tomorrow
-Weather	WeatherInLocation	-	weather in WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	-	current weather in WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	-	weather in WEATHER.SLOT.LOCATION today
-Weather	WeatherInLocation	-	the weather in WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	-	the current weather in WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	-	the weather in WEATHER.SLOT.LOCATION today
-Weather	WeatherInLocation	-	what is the wather in WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	-	what is the wather today in WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	-	what is the wather like in WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	-	what is the wather like today in WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	-	weather in WEATHER.SLOT.LOCATION tomorrow
-Weather	WeatherTomorrowInLocation	-	current weather in WEATHER.SLOT.LOCATION tomorrow
-Weather	WeatherTomorrowInLocation	-	weather in WEATHER.SLOT.LOCATION today tomorrow
-Weather	WeatherTomorrowInLocation	-	the weather in WEATHER.SLOT.LOCATION tomorrow
-Weather	WeatherTomorrowInLocation	-	the current weather in WEATHER.SLOT.LOCATION tomorrow
-Weather	WeatherTomorrowInLocation	-	the weather in WEATHER.SLOT.LOCATION today tomorrow
-Weather	WeatherTomorrowInLocation	-	what is the wather in WEATHER.SLOT.LOCATION tomorrow
-Weather	WeatherTomorrowInLocation	-	what is the wather like in WEATHER.SLOT.LOCATION tomorrow
-Weather	SunriseInLocation	-	sunrise in WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	-	sunrise time in WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	-	when is sunrise in WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	-	when is sunrise time in WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	-	what time is sunrise in WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	-	WEATHER.SLOT.LOCATION sunrise
-Weather	SunsetInLocation	-	sunset in WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	sunset time in WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	when is sunset in WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	when is sunset time in WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	what time is sunset in WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	WEATHER.SLOT.LOCATION sunset
-Weather	SunriseAndSunsetInLocation	-	sunrise and sunset for location WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	sunrise and sunset times in WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	sunset and sunrise for location WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	sunset and sunrise times in WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	when there will be sunrise and sunset in WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	when there will be sunset and sunrise in WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	tell me when there will be sunrise and sunset in WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	tell me when there will be sunset and sunrise in WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	what time is the sunset and sunrise in WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocationAndOnDate	-	sunrise and sunset for location WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	sunrise and sunset times in WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	time of sunrise and sunset in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	time of sunset and sunrise in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	tell me time of sunrise and sunset in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	tell me time of sunset and sunrise in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	what time is the sunset and sunrise in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
-Weather	MoonphaseInLocation	-	moon phase for WEATHER.SLOT.LOCATION
-Weather	MoonphaseInLocation	-	moon phase for location WEATHER.SLOT.LOCATION
-Weather	MoonphaseInLocation	-	moon phase in WEATHER.SLOT.LOCATION
-Weather	MoonphaseInLocation	-	WEATHER.SLOT.LOCATION moon phase
-Weather	MoonphaseInLocationOnDate	-	moon phase for WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
-Weather	MoonphaseInLocationOnDate	-	moon phase for location WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
-Weather	MoonphaseInLocationOnDate	-	moon phase in WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
-Weather	MoonphaseInLocationOnDate	-	WEATHER.SLOT.LOCATION moon phase on WEATHER.SLOT.DATE
+Weather__	OpenWeather__	the weather
+Weather__	OpenWeather__	the weather outside
+Weather__	OpenWeather__	what's the weather
+Weather__	OpenWeather__	what's the weather outside
+Weather__	OpenWeather__	what's the weather like
+Weather__	OpenWeather__	what's the weather like outside
+Weather__	OpenWeather__	what's the temperature
+Weather__	OpenWeather__	what's the temperature outside
+Weather__	OpenWeather__	what's the temperature like
+Weather__	OpenWeather__	what's the temperature like outside
+Weather__	OpenWeather__	do i need raincoat
+Weather__	OpenWeather__	how hot is outside
+Weather__	OpenWeather__	is it going to rain
+Weather__	OpenWeather__	is it going to rain today
+Weather__	OpenWeather__	will there be a sun
+Weather__	OpenWeather__	will there be a sun today
+Weather__	OpenWeather__	what 's the humidity
+Weather__	OpenWeather__	is it hot outside
+Weather__	OpenWeather__	is it windy today
+Weather__	OpenWeather__	will it rain today
+Weather__	OpenWeather__	will it rain later
+Weather__	WeatherTomorrow__	weather tomorrow
+Weather__	WeatherTomorrow__	weather for tomorrow
+Weather__	WeatherTomorrow__	temperature tomorrow
+Weather__	WeatherTomorrow__	temperature for tomorrow
+Weather__	WeatherTomorrow__	check weather tomorrow
+Weather__	WeatherTomorrow__	check weather for tomorrow
+Weather__	WeatherTomorrow__	check temperature tomorrow
+Weather__	WeatherTomorrow__	check temperature for tomorrow
+Weather__	WeatherTomorrow__	what's the weather tommorow
+Weather__	WeatherTomorrow__	what's the weather tommorow like
+Weather__	WeatherTomorrow__	what's the temperature tommorow
+Weather__	WeatherTomorrow__	what's the temperature tommorow like
+Weather__	WeatherTomorrow__	tomorrow's weather
+Weather__	WeatherTomorrow__	tomorrow's temperature
+Weather__	WeatherTomorrow__	check tomorrow's weather
+Weather__	WeatherTomorrow__	check tomorrow's temperature
+Weather__	WeatherTomorrow__	what will the weather be like tomorrow
+Weather__	WeatherTomorrow__	is it going to rain tomorrow
+Weather__	WeatherTomorrow__	will there be a rain tomorrow
+Weather__	WeatherTomorrow__	will there be a sun tomorrow
+Weather__	WeatherTomorrow__	will i need raincoat tomorrow
+Weather__	WeatherTomorrow__	what should i wear tomorrow
+Weather__	WeatherInLocation__	weather in WEATHER.SLOT.LOCATION
+Weather__	WeatherInLocation__	current weather in WEATHER.SLOT.LOCATION
+Weather__	WeatherInLocation__	weather in WEATHER.SLOT.LOCATION today
+Weather__	WeatherInLocation__	the weather in WEATHER.SLOT.LOCATION
+Weather__	WeatherInLocation__	the current weather in WEATHER.SLOT.LOCATION
+Weather__	WeatherInLocation__	the weather in WEATHER.SLOT.LOCATION today
+Weather__	WeatherInLocation__	what is the wather in WEATHER.SLOT.LOCATION
+Weather__	WeatherInLocation__	what is the wather today in WEATHER.SLOT.LOCATION
+Weather__	WeatherInLocation__	what is the wather like in WEATHER.SLOT.LOCATION
+Weather__	WeatherInLocation__	what is the wather like today in WEATHER.SLOT.LOCATION
+Weather__	WeatherTomorrowInLocation__	weather in WEATHER.SLOT.LOCATION tomorrow
+Weather__	WeatherTomorrowInLocation__	current weather in WEATHER.SLOT.LOCATION tomorrow
+Weather__	WeatherTomorrowInLocation__	weather in WEATHER.SLOT.LOCATION today tomorrow
+Weather__	WeatherTomorrowInLocation__	the weather in WEATHER.SLOT.LOCATION tomorrow
+Weather__	WeatherTomorrowInLocation__	the current weather in WEATHER.SLOT.LOCATION tomorrow
+Weather__	WeatherTomorrowInLocation__	the weather in WEATHER.SLOT.LOCATION today tomorrow
+Weather__	WeatherTomorrowInLocation__	what is the wather in WEATHER.SLOT.LOCATION tomorrow
+Weather__	WeatherTomorrowInLocation__	what is the wather like in WEATHER.SLOT.LOCATION tomorrow
+Weather__	SunriseInLocation__	sunrise in WEATHER.SLOT.LOCATION
+Weather__	SunriseInLocation__	sunrise time in WEATHER.SLOT.LOCATION
+Weather__	SunriseInLocation__	when is sunrise in WEATHER.SLOT.LOCATION
+Weather__	SunriseInLocation__	when is sunrise time in WEATHER.SLOT.LOCATION
+Weather__	SunriseInLocation__	what time is sunrise in WEATHER.SLOT.LOCATION
+Weather__	SunriseInLocation__	WEATHER.SLOT.LOCATION sunrise
+Weather__	SunsetInLocation__	sunset in WEATHER.SLOT.LOCATION
+Weather__	SunsetInLocation__	sunset time in WEATHER.SLOT.LOCATION
+Weather__	SunsetInLocation__	when is sunset in WEATHER.SLOT.LOCATION
+Weather__	SunsetInLocation__	when is sunset time in WEATHER.SLOT.LOCATION
+Weather__	SunsetInLocation__	what time is sunset in WEATHER.SLOT.LOCATION
+Weather__	SunsetInLocation__	WEATHER.SLOT.LOCATION sunset
+Weather__	SunriseAndSunsetInLocation__	sunrise and sunset for location WEATHER.SLOT.LOCATION
+Weather__	SunriseAndSunsetInLocation__	sunrise and sunset times in WEATHER.SLOT.LOCATION
+Weather__	SunriseAndSunsetInLocation__	sunset and sunrise for location WEATHER.SLOT.LOCATION
+Weather__	SunriseAndSunsetInLocation__	sunset and sunrise times in WEATHER.SLOT.LOCATION
+Weather__	SunriseAndSunsetInLocation__	when there will be sunrise and sunset in WEATHER.SLOT.LOCATION
+Weather__	SunriseAndSunsetInLocation__	when there will be sunset and sunrise in WEATHER.SLOT.LOCATION
+Weather__	SunriseAndSunsetInLocation__	tell me when there will be sunrise and sunset in WEATHER.SLOT.LOCATION
+Weather__	SunriseAndSunsetInLocation__	tell me when there will be sunset and sunrise in WEATHER.SLOT.LOCATION
+Weather__	SunriseAndSunsetInLocation__	what time is the sunset and sunrise in WEATHER.SLOT.LOCATION
+Weather__	SunriseAndSunsetInLocationAndOnDate__	sunrise and sunset for location WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
+Weather__	SunriseAndSunsetInLocationAndOnDate__	sunrise and sunset times in WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
+Weather__	SunriseAndSunsetInLocationAndOnDate__	time of sunrise and sunset in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
+Weather__	SunriseAndSunsetInLocationAndOnDate__	time of sunset and sunrise in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
+Weather__	SunriseAndSunsetInLocationAndOnDate__	tell me time of sunrise and sunset in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
+Weather__	SunriseAndSunsetInLocationAndOnDate__	tell me time of sunset and sunrise in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
+Weather__	SunriseAndSunsetInLocationAndOnDate__	what time is the sunset and sunrise in WEATHER.SLOT.LOCATION on WEATHER.SLOT.DATE
+Weather__	MoonphaseInLocation__	moon phase for WEATHER.SLOT.LOCATION
+Weather__	MoonphaseInLocation__	moon phase for location WEATHER.SLOT.LOCATION
+Weather__	MoonphaseInLocation__	moon phase in WEATHER.SLOT.LOCATION
+Weather__	MoonphaseInLocation__	WEATHER.SLOT.LOCATION moon phase
+Weather__	MoonphaseInLocationOnDate__	moon phase for WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
+Weather__	MoonphaseInLocationOnDate__	moon phase for location WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
+Weather__	MoonphaseInLocationOnDate__	moon phase in WEATHER.SLOT.LOCATION on date WEATHER.SLOT.DATE
+Weather__	MoonphaseInLocationOnDate__	WEATHER.SLOT.LOCATION moon phase on WEATHER.SLOT.DATE
