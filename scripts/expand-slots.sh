@@ -15,12 +15,12 @@ function substitute_slots {
         else
             sed -ie "0,/$slot/ s/$slot/$text/" $INPUT_FILE
         fi
-    done < ../slots/$LANG/$slot
+    done < slots/$LANG/$slot
 }
 
 sed -i 's/__ /__	/g' $INPUT_FILE
 
-for slot in `ls -1 ../slots/${LANG}`; do
+for slot in slots/${LANG}; do
     if grep --quiet "$slot" $INPUT_FILE; then
         echo "expanding with phrases from $slot."
         if [ "$REPEAT" = "true" ]; then
@@ -34,5 +34,5 @@ for slot in `ls -1 ../slots/${LANG}`; do
 done
 
 if [ "$ADD_BIO" = "true" ]; then
-    paste <(cut -f1-2 $INPUT_FILE) <(cut -f3 $INPUT_FILE | ./convert_str_to_bio.py) > $OUTPUT_FILE
+    paste <(cut -f1-2 $INPUT_FILE) <(cut -f3 $INPUT_FILE | $PWD/scripts/convert_str_to_bio.py) > $OUTPUT_FILE
 fi
