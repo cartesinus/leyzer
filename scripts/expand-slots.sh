@@ -20,7 +20,7 @@ function substitute_slots {
 
 sed -i 's/__ /__	/g' $INPUT_FILE
 
-for slot in slots/${LANG}; do
+for slot in `ls -1 slots/${LANG}`; do
     if grep --quiet "$slot" $INPUT_FILE; then
         echo "expanding with phrases from $slot."
         if [ "$REPEAT" = "true" ]; then
