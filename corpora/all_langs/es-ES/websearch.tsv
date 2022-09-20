@@ -5,20 +5,20 @@ Websearch__	OpenEngine__	búsqueda en bing 	 o o o
 Websearch__	OpenEngine__	búsqueda en google 	 o o o
 Websearch__	OpenEngine__	búsqueda en duckduckgo 	 o o o
 Websearch__	OpenEngine__	busca en la red 	 o o o o
-Websearch__	SearchTextOnEngine__	WEBSEARCH.SLOT.TXT_QUERY en bing 	 o o o
-Websearch__	SearchTextOnEngine__	WEBSEARCH.SLOT.TXT_QUERY en google 	 o o o
-Websearch__	SearchTextOnEngine__	WEBSEARCH.SLOT.TXT_QUERY en duckduckgo 	 o o o
-Websearch__	SearchTextOnEngine__	bing WEBSEARCH.SLOT.TXT_QUERY 	 o o
-Websearch__	SearchTextOnEngine__	google WEBSEARCH.SLOT.TXT_QUERY 	 o o
-Websearch__	SearchTextOnEngine__	duckduckgo WEBSEARCH.SLOT.TXT_QUERY 	 o o
-Websearch__	SearchText__	páginas que coinciden con WEBSEARCH.SLOT.TXT_QUERY 	 o o o o o
-Websearch__	SearchText__	páginas web que coinciden con WEBSEARCH.SLOT.TXT_QUERY 	 o o o o o o
-Websearch__	SearchImagesWithTextOnEngine__	imágenes que coinciden con WEBSEARCH.SLOT.IMG_QUERY de bing 	 o o o o o o o
-Websearch__	SearchImagesWithTextOnEngine__	imágenes que coinciden con WEBSEARCH.SLOT.IMG_QUERY de google 	 o o o o o o o
-Websearch__	SearchImagesWithTextOnEngine__	imágenes que coinciden con WEBSEARCH.SLOT.IMG_QUERY de duckduckgo 	 o o o o o o o
-Websearch__	SearchImagesWithTextOnEngine__	imágenes WEBSEARCH.SLOT.IMG_QUERY en bing 	 o o o o
-Websearch__	SearchImagesWithTextOnEngine__	imágenes WEBSEARCH.SLOT.IMG_QUERY en google 	 o o o o
-Websearch__	SearchImagesWithTextOnEngine__	imágenes WEBSEARCH.SLOT.IMG_QUERY en duckduckgo 	 o o o o
+Websearch__	SearchTextOnEngine__	eci en bing 	 b-txt_query o o
+Websearch__	SearchTextOnEngine__	gls en google 	 b-txt_query o o
+Websearch__	SearchTextOnEngine__	antivirus en duckduckgo 	 b-txt_query o o
+Websearch__	SearchTextOnEngine__	bing amazon 	 o b-txt_query
+Websearch__	SearchTextOnEngine__	google cuponazo 	 o b-txt_query
+Websearch__	SearchTextOnEngine__	duckduckgo caroline flack 	 o b-txt_query i-txt_query
+Websearch__	SearchText__	páginas que coinciden con fichajes 	 o o o o b-txt_query
+Websearch__	SearchText__	páginas web que coinciden con frases 	 o o o o o b-txt_query
+Websearch__	SearchImagesWithTextOnEngine__	imágenes que coinciden con pokemon go de bing 	 o o o o b-img_query i-img_query o o
+Websearch__	SearchImagesWithTextOnEngine__	imágenes que coinciden con stickers vsco de google 	 o o o o b-img_query i-img_query o o
+Websearch__	SearchImagesWithTextOnEngine__	imágenes que coinciden con suga bts de duckduckgo 	 o o o o b-img_query i-img_query o o
+Websearch__	SearchImagesWithTextOnEngine__	imágenes nike air max en bing 	 o b-img_query i-img_query i-img_query o o
+Websearch__	SearchImagesWithTextOnEngine__	imágenes donald trump en google 	 o b-img_query i-img_query o o
+Websearch__	SearchImagesWithTextOnEngine__	imágenes diario en duckduckgo 	 o b-img_query o o
 Websearch__	SearchImagesOnEngine__	búsqueda de imágenes 	 o o o
 Websearch__	SearchImagesOnEngine__	busca imágenes en bing 	 o o o o
 Websearch__	SearchImagesOnEngine__	busca imágenes en google 	 o o o o
@@ -26,30 +26,30 @@ Websearch__	SearchImagesOnEngine__	busca imágenes en duckduckgo 	 o o o o
 Websearch__	SearchImagesOnEngine__	bing búsqueda de imágenes 	 o o o o
 Websearch__	SearchImagesOnEngine__	google búsqueda de imágenes 	 o o o o
 Websearch__	SearchImagesOnEngine__	duckduckgo búsqueda de imágenes 	 o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeight__	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY de tamaño 800 x 600 	 o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeight__	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY de tamaño 800 x 600 	 o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeight__	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY de tamaño 800 x 600 	 o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 	 o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 x 600 	 o o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 	 o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 x 600 	 o o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 	 o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 x 600 	 o o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 	 o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 x 600 	 o o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 	 o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 x 600 	 o o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 	 o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 x 600 	 o o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 	 o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 x 600 	 o o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 	 o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 x 600 	 o o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 	 o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 x 600 	 o o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 	 o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 x 600 	 o o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 	 o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 x 600 	 o o o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 	 o o o o o o o o o o o
-Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 x 600 	 o o o o o o o o o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeight__	imágenes de bing que coinciden con semana santa 2020 de tamaño 800 x 600 	 o o o o o o b-img_query i-img_query i-img_query o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeight__	imágenes de google que coinciden con oveja de tamaño 800 x 600 	 o o o o o o b-img_query o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeight__	imágenes de duckduckgo que coinciden con sergio ramos de tamaño 800 x 600 	 o o o o o o b-img_query i-img_query o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con nintendo switch más anchas que 800 	 o o o o o o b-img_query i-img_query o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con tatuaje más anchas que 800 x 600 	 o o o o o o b-img_query o o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con grecia más grandes que 800 	 o o o o o o b-img_query o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con horno más grandes que 800 x 600 	 o o o o o o b-img_query o o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con seguridad más altas que 800 	 o o o o o o b-img_query o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con linea 3 más altas que 800 x 600 	 o o o o o o b-img_query i-img_query o o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con mascarillas más pequeñas que 800 	 o o o o o o b-img_query o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con camiseta españa 2020 más pequeñas que 800 x 600 	 o o o o o o b-img_query i-img_query i-img_query o o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con mercedes cla coupe más anchas que 800 	 o o o o o o b-img_query i-img_query i-img_query o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con interviu más anchas que 800 x 600 	 o o o o o o b-img_query o o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con cola de caballo ordesa más grandes que 800 	 o o o o o o b-img_query i-img_query i-img_query i-img_query o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con kawaii para colorear más grandes que 800 x 600 	 o o o o o o b-img_query i-img_query i-img_query o o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con taylor lautner 2019 más altas que 800 	 o o o o o o b-img_query i-img_query i-img_query o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con mezquita azul más altas que 800 x 600 	 o o o o o o b-img_query i-img_query o o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con pilotes más pequeñas que 800 	 o o o o o o b-img_query o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con disfraz más pequeñas que 800 x 600 	 o o o o o o b-img_query o o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con colegio más anchas que 800 	 o o o o o o b-img_query o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con one piece más anchas que 800 x 600 	 o o o o o o b-img_query i-img_query o o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con prestamos más grandes que 800 	 o o o o o o b-img_query o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con atletico madrid más grandes que 800 x 600 	 o o o o o o b-img_query i-img_query o o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con fondos de pantalla más altas que 800 	 o o o o o o b-img_query i-img_query i-img_query o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con herpes más altas que 800 x 600 	 o o o o o o b-img_query o o o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con cielo más pequeñas que 800 	 o o o o o o b-img_query o o o o
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con can yaman más pequeñas que 800 x 600 	 o o o o o o b-img_query i-img_query o o o o o o

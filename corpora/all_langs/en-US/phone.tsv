@@ -1,9 +1,9 @@
-Phone__	CallNumber__	call PHONE.SLOT.PHONE_NUMBER 	 o o
-Phone__	CallNumber__	call number PHONE.SLOT.PHONE_NUMBER 	 o o o
-Phone__	CallNumber__	dial PHONE.SLOT.PHONE_NUMBER 	 o o
-Phone__	CallNumber__	dial number PHONE.SLOT.PHONE_NUMBER 	 o o o
-Phone__	CallNumber__	phone PHONE.SLOT.PHONE_NUMBER 	 o o
-Phone__	CallNumber__	phone number PHONE.SLOT.PHONE_NUMBER 	 o o o
+Phone__	CallNumber__	call 34 678 09 94 	 o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone__	CallNumber__	call number 22 590 01 45 	 o o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone__	CallNumber__	dial 00 589 999 000 	 o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone__	CallNumber__	dial number 34 678 09 94 	 o o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone__	CallNumber__	phone 22 590 01 45 	 o b-phone_number i-phone_number i-phone_number i-phone_number
+Phone__	CallNumber__	phone number 00 589 999 000 	 o o b-phone_number i-phone_number i-phone_number i-phone_number
 Phone__	CallEmergency__	call 911 	 o o
 Phone__	CallEmergency__	call ambulance 	 o o
 Phone__	CallEmergency__	call fire department 	 o o o
@@ -21,31 +21,31 @@ Phone__	ShowSMS__	open my sms inbox 	 o o o o
 Phone__	ShowSMS__	launch my sms inbox 	 o o o o
 Phone__	ShowSMS__	check my texts 	 o o o
 Phone__	ShowSMS__	show my texts 	 o o o
-Phone__	SMSToContact__	send a text to PHONE.SLOT.TO 	 o o o o o
-Phone__	SMSToContact__	send a message to PHONE.SLOT.TO 	 o o o o o
-Phone__	SMSToContact__	send an sms to PHONE.SLOT.TO 	 o o o o o
-Phone__	SMSToContact__	compose a text to PHONE.SLOT.TO 	 o o o o o
-Phone__	SMSToContact__	compose a message to PHONE.SLOT.TO 	 o o o o o
-Phone__	SMSToContact__	compose an sms to PHONE.SLOT.TO 	 o o o o o
-Phone__	SMSToContact__	sms PHONE.SLOT.TO 	 o o
-Phone__	SMSToContact__	text PHONE.SLOT.TO 	 o o
-Phone__	SMSToContactWithMessage__	send an sms to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o
-Phone__	SMSToContactWithMessage__	send an sms to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o
-Phone__	SMSToContactWithMessage__	send a text to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o
-Phone__	SMSToContactWithMessage__	send a text to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o
-Phone__	SMSToContactWithMessage__	send a text message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o o
-Phone__	SMSToContactWithMessage__	send a text message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o o
-Phone__	SMSToContactWithMessage__	send a message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o
-Phone__	SMSToContactWithMessage__	send a message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o
-Phone__	SMSToContactWithMessage__	compose an sms to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o
-Phone__	SMSToContactWithMessage__	compose an sms to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o
-Phone__	SMSToContactWithMessage__	compose a text to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o
-Phone__	SMSToContactWithMessage__	compose a text to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o
-Phone__	SMSToContactWithMessage__	compose a text message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o o
-Phone__	SMSToContactWithMessage__	compose a text message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o o
-Phone__	SMSToContactWithMessage__	compose a message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o o o o
-Phone__	SMSToContactWithMessage__	compose a message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o o o o
-Phone__	SMSToContactWithMessage__	text PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o
-Phone__	SMSToContactWithMessage__	text PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o
-Phone__	SMSToContactWithMessage__	sms PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE 	 o o o o
-Phone__	SMSToContactWithMessage__	sms PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE 	 o o o o
+Phone__	SMSToContact__	send a text to valli 	 o o o o b-to
+Phone__	SMSToContact__	send a message to rhett 	 o o o o b-to
+Phone__	SMSToContact__	send an sms to charo 	 o o o o b-to
+Phone__	SMSToContact__	compose a text to sonnie 	 o o o o b-to
+Phone__	SMSToContact__	compose a message to anagnos 	 o o o o b-to
+Phone__	SMSToContact__	compose an sms to aurea 	 o o o o b-to
+Phone__	SMSToContact__	sms jereme 	 o b-to
+Phone__	SMSToContact__	text electra 	 o b-to
+Phone__	SMSToContactWithMessage__	send an sms to felice saying call me 	 o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	send an sms to jasmin containing we need to talk 	 o o o o b-to o b-message i-message i-message i-message
+Phone__	SMSToContactWithMessage__	send a text to darryl saying please answer 	 o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	send a text to jezebel containing call me 	 o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	send a text message to goldfarb saying we need to talk 	 o o o o o b-to o b-message i-message i-message i-message
+Phone__	SMSToContactWithMessage__	send a text message to leanna containing please answer 	 o o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	send a message to malvie saying call me 	 o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	send a message to anjanette containing we need to talk 	 o o o o b-to o b-message i-message i-message i-message
+Phone__	SMSToContactWithMessage__	compose an sms to merow saying please answer 	 o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	compose an sms to carlene containing call me 	 o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	compose a text to candace saying we need to talk 	 o o o o b-to o b-message i-message i-message i-message
+Phone__	SMSToContactWithMessage__	compose a text to doloritas containing please answer 	 o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	compose a text message to rozamond saying call me 	 o o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	compose a text message to briney containing we need to talk 	 o o o o o b-to o b-message i-message i-message i-message
+Phone__	SMSToContactWithMessage__	compose a message to ledda saying please answer 	 o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	compose a message to milly containing call me 	 o o o o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	text samuele saying we need to talk 	 o b-to o b-message i-message i-message i-message
+Phone__	SMSToContactWithMessage__	text ulrika containing please answer 	 o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	sms morena saying call me 	 o b-to o b-message i-message
+Phone__	SMSToContactWithMessage__	sms bensen containing we need to talk 	 o b-to o b-message i-message i-message i-message

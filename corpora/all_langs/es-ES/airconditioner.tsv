@@ -1,15 +1,15 @@
-Airconditioner__	TurnOn__	enciende AIRCONDITIONER.SLOT.AV_ALIAS 	 o o
-Airconditioner__	TurnOn__	activa AIRCONDITIONER.SLOT.AV_ALIAS 	 o o
-Airconditioner__	TurnOn__	AIRCONDITIONER.SLOT.AV_ALIAS en encendido 	 o o o
-Airconditioner__	TurnOn__	AIRCONDITIONER.SLOT.AV_ALIAS activado 	 o o
-Airconditioner__	TurnOn__	pon AIRCONDITIONER.SLOT.AV_ALIAS en encendido 	 o o o o
-Airconditioner__	TurnOn__	pon AIRCONDITIONER.SLOT.AV_ALIAS activado 	 o o o
-Airconditioner__	TurnOff__	apaga AIRCONDITIONER.SLOT.AV_ALIAS 	 o o
-Airconditioner__	TurnOff__	desactiva AIRCONDITIONER.SLOT.AV_ALIAS 	 o o
-Airconditioner__	TurnOff__	AIRCONDITIONER.SLOT.AV_ALIAS en apagado 	 o o o
-Airconditioner__	TurnOff__	AIRCONDITIONER.SLOT.AV_ALIAS desactivado 	 o o
-Airconditioner__	TurnOff__	pon AIRCONDITIONER.SLOT.AV_ALIAS en apagado 	 o o o o
-Airconditioner__	TurnOff__	pon AIRCONDITIONER.SLOT.AV_ALIAS desactivado 	 o o o
+Airconditioner__	TurnOn__	enciende la calefacción 	 o b-av_alias i-av_alias
+Airconditioner__	TurnOn__	activa el aire acondicionado 	 o b-av_alias i-av_alias i-av_alias
+Airconditioner__	TurnOn__	la refrigeración en encendido 	 b-av_alias i-av_alias o o
+Airconditioner__	TurnOn__	el sistema calefactiorio activado 	 b-av_alias i-av_alias i-av_alias o
+Airconditioner__	TurnOn__	pon el sistema de refrigeración en encendido 	 o b-av_alias i-av_alias i-av_alias i-av_alias o o
+Airconditioner__	TurnOn__	pon la calefacción activado 	 o b-av_alias i-av_alias o
+Airconditioner__	TurnOff__	apaga el aire acondicionado 	 o b-av_alias i-av_alias i-av_alias
+Airconditioner__	TurnOff__	desactiva la refrigeración 	 o b-av_alias i-av_alias
+Airconditioner__	TurnOff__	el sistema calefactiorio en apagado 	 b-av_alias i-av_alias i-av_alias o o
+Airconditioner__	TurnOff__	el sistema de refrigeración desactivado 	 b-av_alias i-av_alias i-av_alias i-av_alias o
+Airconditioner__	TurnOff__	pon la calefacción en apagado 	 o b-av_alias i-av_alias o o
+Airconditioner__	TurnOff__	pon el aire acondicionado desactivado 	 o b-av_alias i-av_alias i-av_alias o
 Airconditioner__	ChangeTemperature__	cambia la temperatura en mi termostato 	 o o o o o o
 Airconditioner__	ChangeTemperature__	cambia la temperatura de mi termostato 	 o o o o o o
 Airconditioner__	ChangeTemperature__	cambia la temperatura del termostato 	 o o o o o
@@ -50,50 +50,50 @@ Airconditioner__	ChangeTemperature__	pon un valor de la temperatura mínima dife
 Airconditioner__	ChangeTemperature__	pon un valor de la temperatura mínima diferente en el termostato 	 o o o o o o o o o o o
 Airconditioner__	ChangeTemperature__	pon un valor de la temperatura máxima y mínima diferente en mi termostato 	 o o o o o o o o o o o o o
 Airconditioner__	ChangeTemperature__	pon un valor de la temperatura máxima y mínima diferente en el termostato 	 o o o o o o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	adecua la temperatura en mi termostato a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	adecua la temperatura de mi termostato a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	adecua la temperatura del termostato a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o o
-Airconditioner__	SetTemperatureToValue__	adecua la temperatura en el termostato a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	adecua la temperatura a AIRCONDITIONER.SLOT.VALUE en mi termostato 	 o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	adecua la temperatura a AIRCONDITIONER.SLOT.VALUE de mi termostato 	 o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	adecua la temperatura a AIRCONDITIONER.SLOT.VALUE del termostato 	 o o o o o o o
-Airconditioner__	SetTemperatureToValue__	adecua la temperatura a AIRCONDITIONER.SLOT.VALUE en el termostato 	 o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	adecua mi termostato a AIRCONDITIONER.SLOT.VALUE 	 o o o o o
-Airconditioner__	SetTemperatureToValue__	adecua el termostato a AIRCONDITIONER.SLOT.VALUE 	 o o o o o
-Airconditioner__	SetTemperatureToValue__	pon la temperatura en mi termostato a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	pon la temperatura de mi termostato a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	pon la temperatura del termostato a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o o
-Airconditioner__	SetTemperatureToValue__	pon la temperatura en el termostato a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	pon la temperatura a AIRCONDITIONER.SLOT.VALUE en mi termostato 	 o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	pon la temperatura a AIRCONDITIONER.SLOT.VALUE de mi termostato 	 o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	pon la temperatura a AIRCONDITIONER.SLOT.VALUE del termostato 	 o o o o o o o
-Airconditioner__	SetTemperatureToValue__	pon la temperatura a AIRCONDITIONER.SLOT.VALUE en el termostato 	 o o o o o o o o
-Airconditioner__	SetTemperatureToValue__	pon mi termostato a AIRCONDITIONER.SLOT.VALUE 	 o o o o o
-Airconditioner__	SetTemperatureToValue__	pon el termostato a AIRCONDITIONER.SLOT.VALUE 	 o o o o o
+Airconditioner__	SetTemperatureToValue__	adecua la temperatura en mi termostato a 78 grados fahrenheit 	 o o o o o o o b-value i-value i-value
+Airconditioner__	SetTemperatureToValue__	adecua la temperatura de mi termostato a 79 grados fahrenheit 	 o o o o o o o b-value i-value i-value
+Airconditioner__	SetTemperatureToValue__	adecua la temperatura del termostato a 25 grados 	 o o o o o o b-value i-value
+Airconditioner__	SetTemperatureToValue__	adecua la temperatura en el termostato a 22 grados celsius 	 o o o o o o o b-value i-value i-value
+Airconditioner__	SetTemperatureToValue__	adecua la temperatura a 24 grados en mi termostato 	 o o o o b-value i-value o o o
+Airconditioner__	SetTemperatureToValue__	adecua la temperatura a 80 grados fahrenheit de mi termostato 	 o o o o b-value i-value i-value o o o
+Airconditioner__	SetTemperatureToValue__	adecua la temperatura a desactivado del termostato 	 o o o o b-value o o
+Airconditioner__	SetTemperatureToValue__	adecua la temperatura a 29 grados celsius en el termostato 	 o o o o b-value i-value i-value o o o
+Airconditioner__	SetTemperatureToValue__	adecua mi termostato a 23 grados celsius 	 o o o o b-value i-value i-value
+Airconditioner__	SetTemperatureToValue__	adecua el termostato a 78 grados fahrenheit 	 o o o o b-value i-value i-value
+Airconditioner__	SetTemperatureToValue__	pon la temperatura en mi termostato a 79 grados fahrenheit 	 o o o o o o o b-value i-value i-value
+Airconditioner__	SetTemperatureToValue__	pon la temperatura de mi termostato a 25 grados 	 o o o o o o o b-value i-value
+Airconditioner__	SetTemperatureToValue__	pon la temperatura del termostato a 22 grados celsius 	 o o o o o o b-value i-value i-value
+Airconditioner__	SetTemperatureToValue__	pon la temperatura en el termostato a 24 grados 	 o o o o o o o b-value i-value
+Airconditioner__	SetTemperatureToValue__	pon la temperatura a 80 grados fahrenheit en mi termostato 	 o o o o b-value i-value i-value o o o
+Airconditioner__	SetTemperatureToValue__	pon la temperatura a desactivado de mi termostato 	 o o o o b-value o o o
+Airconditioner__	SetTemperatureToValue__	pon la temperatura a 29 grados celsius del termostato 	 o o o o b-value i-value i-value o o
+Airconditioner__	SetTemperatureToValue__	pon la temperatura a 23 grados celsius en el termostato 	 o o o o b-value i-value i-value o o o
+Airconditioner__	SetTemperatureToValue__	pon mi termostato a 78 grados fahrenheit 	 o o o o b-value i-value i-value
+Airconditioner__	SetTemperatureToValue__	pon el termostato a 79 grados fahrenheit 	 o o o o b-value i-value i-value
 Airconditioner__	SetTemperatureToValue__	temperatura diferente del termostato 	 o o o o
 Airconditioner__	SetTemperatureToValue__	temperatura diferente de mi termostato 	 o o o o o
 Airconditioner__	SetTemperatureToValue__	temperatura diferente de el termostato 	 o o o o o
 Airconditioner__	SetTemperatureToValue__	temperatura diferente en mi termostato 	 o o o o o
 Airconditioner__	SetTemperatureToValue__	temperatura diferente en el termostato 	 o o o o o
-Airconditioner__	SetTemperatureToValueOnDevice__	adecua mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o
-Airconditioner__	SetTemperatureToValueOnDevice__	adecua la temperatura en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o o o o
-Airconditioner__	SetTemperatureToValueOnDevice__	adecua la temperatura de mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o o o o
-Airconditioner__	SetTemperatureToValueOnDevice__	adecua la temperatura a AIRCONDITIONER.SLOT.VALUE en mi AIRCONDITIONER.SLOT.DEVICE_NAME termostato 	 o o o o o o o o o
-Airconditioner__	SetTemperatureToValueOnDevice__	pon mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o
-Airconditioner__	SetTemperatureToValueOnDevice__	pon la temperatura en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o o o o
-Airconditioner__	SetTemperatureToValueOnDevice__	pon la temperatura de mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME a AIRCONDITIONER.SLOT.VALUE 	 o o o o o o o o o
-Airconditioner__	SetTemperatureToValueOnDevice__	pon la temperatura a AIRCONDITIONER.SLOT.VALUE en mi AIRCONDITIONER.SLOT.DEVICE_NAME termostato 	 o o o o o o o o o
+Airconditioner__	SetTemperatureToValueOnDevice__	adecua mi termostato salón a 25 grados 	 o o o b-device_name o b-value i-value
+Airconditioner__	SetTemperatureToValueOnDevice__	adecua la temperatura en mi termostato cocina a 22 grados celsius 	 o o o o o o b-device_name o b-value i-value i-value
+Airconditioner__	SetTemperatureToValueOnDevice__	adecua la temperatura de mi termostato corredor a 24 grados 	 o o o o o o b-device_name o b-value i-value
+Airconditioner__	SetTemperatureToValueOnDevice__	adecua la temperatura a 80 grados fahrenheit en mi dormitorio termostato 	 o o o o b-value i-value i-value o o b-device_name o
+Airconditioner__	SetTemperatureToValueOnDevice__	pon mi termostato salón a desactivado 	 o o o b-device_name o b-value
+Airconditioner__	SetTemperatureToValueOnDevice__	pon la temperatura en mi termostato cocina a 29 grados celsius 	 o o o o o o b-device_name o b-value i-value i-value
+Airconditioner__	SetTemperatureToValueOnDevice__	pon la temperatura de mi termostato corredor a 23 grados celsius 	 o o o o o o b-device_name o b-value i-value i-value
+Airconditioner__	SetTemperatureToValueOnDevice__	pon la temperatura a 78 grados fahrenheit en mi dormitorio termostato 	 o o o o b-value i-value i-value o o b-device_name o
 Airconditioner__	SetTemperatureBetweenValues__	adecua la temperatura entre 23 grados y 29 grados en mi termostato 	 o o o o o o o o o o o o
 Airconditioner__	SetTemperatureBetweenValues__	adecua la temperatura baja a 23 grados en mi termostato , y la temperatura alta a 29 grados 	 o o o o o o o o o o o o o o o o o o
 Airconditioner__	SetTemperatureBetweenValues__	pon la temperatura entre 23 grados y 29 grados en mi termostato 	 o o o o o o o o o o o o
 Airconditioner__	SetTemperatureBetweenValues__	pon la temperatura baja a 23 grados en mi termostato , y la temperatura alta a 29 grados 	 o o o o o o o o o o o o o o o o o o
-Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME 	 o o o o o o o
-Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura en el termostato AIRCONDITIONER.SLOT.DEVICE_NAME 	 o o o o o o o
-Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura mínima y máxima en mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME 	 o o o o o o o o o o
-Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura mínima y máxima en el termostato AIRCONDITIONER.SLOT.DEVICE_NAME 	 o o o o o o o o o o
-Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura mínima y máxima de mi termostato AIRCONDITIONER.SLOT.DEVICE_NAME 	 o o o o o o o o o o
-Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura mínima y máxima de el termostato AIRCONDITIONER.SLOT.DEVICE_NAME 	 o o o o o o o o o o
-Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura mínima y máxima del termostato AIRCONDITIONER.SLOT.DEVICE_NAME 	 o o o o o o o o o
+Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura en mi termostato salón 	 o o o o o o b-device_name
+Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura en el termostato cocina 	 o o o o o o b-device_name
+Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura mínima y máxima en mi termostato corredor 	 o o o o o o o o o b-device_name
+Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura mínima y máxima en el termostato dormitorio 	 o o o o o o o o o b-device_name
+Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura mínima y máxima de mi termostato salón 	 o o o o o o o o o b-device_name
+Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura mínima y máxima de el termostato cocina 	 o o o o o o o o o b-device_name
+Airconditioner__	SetTemperatureOnDevice__	cambia la temperatura mínima y máxima del termostato corredor 	 o o o o o o o o b-device_name
 Airconditioner__	GetHumidity__	verifica humedad 	 o o
 Airconditioner__	GetHumidity__	verifica la humedad 	 o o o
 Airconditioner__	GetHumidity__	verifica el nivel de humedad 	 o o o o o
@@ -110,19 +110,19 @@ Airconditioner__	GetHumidity__	verifícame humedad 	 o o
 Airconditioner__	GetHumidity__	verifícame la humedad 	 o o o
 Airconditioner__	GetHumidity__	verifícame el nivel de humedad 	 o o o o o
 Airconditioner__	GetHumidity__	verifícame el nivel de la humedad 	 o o o o o o
-Airconditioner__	GetTemperatureFromDevice__	verifica qué dice el sensor de la temperatura AIRCONDITIONER.SLOT.DEVICE_NAME 	 o o o o o o o o o
-Airconditioner__	GetTemperatureFromDevice__	verifica qué hay en el sensor de la temperatura AIRCONDITIONER.SLOT.DEVICE_NAME 	 o o o o o o o o o o
-Airconditioner__	GetTemperatureFromDevice__	verifica qué muestra el sensor de la temperatura AIRCONDITIONER.SLOT.DEVICE_NAME 	 o o o o o o o o o
-Airconditioner__	GetTemperatureFromDevice__	verifica la temperatura del sensor de temperatura AIRCONDITIONER.SLOT.DEVICE_NAME en el cuarto 	 o o o o o o o o o o o
-Airconditioner__	GetTemperatureFromDevice__	qué dice el sensor de temperatura del interior AIRCONDITIONER.SLOT.DEVICE_NAME ? 	 o o o o o o o o o o
-Airconditioner__	GetTemperatureFromDevice__	qué muestra el sensor de temperatura del interior AIRCONDITIONER.SLOT.DEVICE_NAME ? 	 o o o o o o o o o o
-Airconditioner__	GetTemperatureFromDevice__	qué hay en el sensor de temperatura del interior AIRCONDITIONER.SLOT.DEVICE_NAME ? 	 o o o o o o o o o o o
-Airconditioner__	GetTemperature__	qué temperatura tengo aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS ? 	 o o o o o o o o
-Airconditioner__	GetTemperature__	qué temperatura tenemos aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS ? 	 o o o o o o o o
-Airconditioner__	GetTemperature__	qué temperatura hay aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS ? 	 o o o o o o o o
-Airconditioner__	GetTemperature__	qué temperatura muestra mi AIRCONDITIONER.SLOT.AV_ALIAS ? 	 o o o o o o
-Airconditioner__	GetTemperature__	qué temperatura muestra el AIRCONDITIONER.SLOT.AV_ALIAS ? 	 o o o o o o
-Airconditioner__	GetTemperature__	cuál es la temperatura aquí según mi AIRCONDITIONER.SLOT.AV_ALIAS ? 	 o o o o o o o o o
-Airconditioner__	GetTemperature__	cuál es la temperatura aquí según el AIRCONDITIONER.SLOT.AV_ALIAS ? 	 o o o o o o o o o
-Airconditioner__	GetTemperature__	cuál es la temperatura que muestra el AIRCONDITIONER.SLOT.AV_ALIAS ? 	 o o o o o o o o o
-Airconditioner__	GetTemperature__	cuál es la temperatura que muestra mi AIRCONDITIONER.SLOT.AV_ALIAS ? 	 o o o o o o o o o
+Airconditioner__	GetTemperatureFromDevice__	verifica qué dice el sensor de la temperatura dormitorio 	 o o o o o o o o b-device_name
+Airconditioner__	GetTemperatureFromDevice__	verifica qué hay en el sensor de la temperatura salón 	 o o o o o o o o o b-device_name
+Airconditioner__	GetTemperatureFromDevice__	verifica qué muestra el sensor de la temperatura cocina 	 o o o o o o o o b-device_name
+Airconditioner__	GetTemperatureFromDevice__	verifica la temperatura del sensor de temperatura corredor en el cuarto 	 o o o o o o o b-device_name o o o
+Airconditioner__	GetTemperatureFromDevice__	qué dice el sensor de temperatura del interior dormitorio ? 	 o o o o o o o o b-device_name o
+Airconditioner__	GetTemperatureFromDevice__	qué muestra el sensor de temperatura del interior salón ? 	 o o o o o o o o b-device_name o
+Airconditioner__	GetTemperatureFromDevice__	qué hay en el sensor de temperatura del interior cocina ? 	 o o o o o o o o o b-device_name o
+Airconditioner__	GetTemperature__	qué temperatura tengo aquí según mi la refrigeración ? 	 o o o o o o b-av_alias i-av_alias o
+Airconditioner__	GetTemperature__	qué temperatura tenemos aquí según mi el sistema calefactiorio ? 	 o o o o o o b-av_alias i-av_alias i-av_alias o
+Airconditioner__	GetTemperature__	qué temperatura hay aquí según mi el sistema de refrigeración ? 	 o o o o o o b-av_alias i-av_alias i-av_alias i-av_alias o
+Airconditioner__	GetTemperature__	qué temperatura muestra mi la calefacción ? 	 o o o o b-av_alias i-av_alias o
+Airconditioner__	GetTemperature__	qué temperatura muestra el el aire acondicionado ? 	 o o o o b-av_alias i-av_alias i-av_alias o
+Airconditioner__	GetTemperature__	cuál es la temperatura aquí según mi la refrigeración ? 	 o o o o o o o b-av_alias i-av_alias o
+Airconditioner__	GetTemperature__	cuál es la temperatura aquí según el el sistema calefactiorio ? 	 o o o o o o o b-av_alias i-av_alias i-av_alias o
+Airconditioner__	GetTemperature__	cuál es la temperatura que muestra el el sistema de refrigeración ? 	 o o o o o o o b-av_alias i-av_alias i-av_alias i-av_alias o
+Airconditioner__	GetTemperature__	cuál es la temperatura que muestra mi la calefacción ? 	 o o o o o o o b-av_alias i-av_alias o

@@ -6,14 +6,14 @@ Gdrive__	OpenGdrive__	enseña mis archivos de google drive
 Gdrive__	OpenGdrive__	enseña mis archivos en google drive
 Gdrive__	OpenGdrive__	enséñame mis archivos de google drive
 Gdrive__	OpenGdrive__	enséñame mis archivos en google drive
-Gdrive__	ShowFilesWithType__	muestra mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE
-Gdrive__	ShowFilesWithType__	muestra mis archivos GDRIVE.SLOT.MIME_TYPE en google drive
-Gdrive__	ShowFilesWithType__	muéstrame mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE
-Gdrive__	ShowFilesWithType__	muéstrame mis archivos GDRIVE.SLOT.MIME_TYPE en google drive
-Gdrive__	ShowFilesWithType__	enseña mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE
-Gdrive__	ShowFilesWithType__	enseña mis archivos GDRIVE.SLOT.MIME_TYPE en google drive
-Gdrive__	ShowFilesWithType__	enséñame mis archivos de google drive de tipo GDRIVE.SLOT.MIME_TYPE
-Gdrive__	ShowFilesWithType__	enséñame mis archivos GDRIVE.SLOT.MIME_TYPE en google drive
+Gdrive__	ShowFilesWithType__	muestra mis archivos de google drive de tipo {MIME_TYPE:png}
+Gdrive__	ShowFilesWithType__	muestra mis archivos {MIME_TYPE:tsv} en google drive
+Gdrive__	ShowFilesWithType__	muéstrame mis archivos de google drive de tipo {MIME_TYPE:mp4}
+Gdrive__	ShowFilesWithType__	muéstrame mis archivos {MIME_TYPE:wmv} en google drive
+Gdrive__	ShowFilesWithType__	enseña mis archivos de google drive de tipo {MIME_TYPE:jpeg}
+Gdrive__	ShowFilesWithType__	enseña mis archivos {MIME_TYPE:avi} en google drive
+Gdrive__	ShowFilesWithType__	enséñame mis archivos de google drive de tipo {MIME_TYPE:pptx}
+Gdrive__	ShowFilesWithType__	enséñame mis archivos {MIME_TYPE:mp3} en google drive
 Gdrive__	ShowFilesWithStar__	muestra mis archivos de google drive marcados
 Gdrive__	ShowFilesWithStar__	muestra los archivos de google drive que he marcado
 Gdrive__	ShowFilesWithStar__	muestra los archivos de google drive que marqué
@@ -26,26 +26,26 @@ Gdrive__	ShowFilesWithStar__	enseña los archivos de google drive que marqué
 Gdrive__	ShowFilesWithStar__	enséñame mis archivos de google drive marcados
 Gdrive__	ShowFilesWithStar__	enséñame los archivos de google drive que he marcado
 Gdrive__	ShowFilesWithStar__	enséñame los archivos de google drive que marqué
-Gdrive__	ShowFilesFromTime__	muestra mis archivos de google drive creados GDRIVE.SLOT.TIME
-Gdrive__	ShowFilesFromTime__	muestra mis archivos de google drive modificados GDRIVE.SLOT.TIME
-Gdrive__	ShowFilesFromTime__	muéstrame mis archivos de google drive creados GDRIVE.SLOT.TIME
-Gdrive__	ShowFilesFromTime__	muéstrame mis archivos de google drive modificados GDRIVE.SLOT.TIME
-Gdrive__	ShowFilesFromTime__	enseña mis archivos de google drive creados GDRIVE.SLOT.TIME
-Gdrive__	ShowFilesFromTime__	enseña mis archivos de google drive modificados GDRIVE.SLOT.TIME
-Gdrive__	ShowFilesFromTime__	enséñame mis archivos de google drive creados GDRIVE.SLOT.TIME
-Gdrive__	ShowFilesFromTime__	enséñame mis archivos de google drive modificados GDRIVE.SLOT.TIME
-Gdrive__	ShowFilesWithSize__	muestra mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE
-Gdrive__	ShowFilesWithSize__	muestra mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE
-Gdrive__	ShowFilesWithSize__	muéstrame mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE
-Gdrive__	ShowFilesWithSize__	muéstrame mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE
-Gdrive__	ShowFilesWithSize__	enseña mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE
-Gdrive__	ShowFilesWithSize__	enseña mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE
-Gdrive__	ShowFilesWithSize__	enséñame mis archivos de google drive más pequeños que GDRIVE.SLOT.FILE_SIZE
-Gdrive__	ShowFilesWithSize__	enséñame mis archivos de google drive más grandes que GDRIVE.SLOT.FILE_SIZE
+Gdrive__	ShowFilesFromTime__	muestra mis archivos de google drive creados {TIME:esta semana}
+Gdrive__	ShowFilesFromTime__	muestra mis archivos de google drive modificados {TIME:este mes}
+Gdrive__	ShowFilesFromTime__	muéstrame mis archivos de google drive creados {TIME:hoy}
+Gdrive__	ShowFilesFromTime__	muéstrame mis archivos de google drive modificados {TIME:esta semana}
+Gdrive__	ShowFilesFromTime__	enseña mis archivos de google drive creados {TIME:este mes}
+Gdrive__	ShowFilesFromTime__	enseña mis archivos de google drive modificados {TIME:hoy}
+Gdrive__	ShowFilesFromTime__	enséñame mis archivos de google drive creados {TIME:esta semana}
+Gdrive__	ShowFilesFromTime__	enséñame mis archivos de google drive modificados {TIME:este mes}
+Gdrive__	ShowFilesWithSize__	muestra mis archivos de google drive más pequeños que {FILE_SIZE:10 mb}
+Gdrive__	ShowFilesWithSize__	muestra mis archivos de google drive más grandes que {FILE_SIZE:150 mb}
+Gdrive__	ShowFilesWithSize__	muéstrame mis archivos de google drive más pequeños que {FILE_SIZE:700 kb}
+Gdrive__	ShowFilesWithSize__	muéstrame mis archivos de google drive más grandes que {FILE_SIZE:200 mb}
+Gdrive__	ShowFilesWithSize__	enseña mis archivos de google drive más pequeños que {FILE_SIZE:500 mb}
+Gdrive__	ShowFilesWithSize__	enseña mis archivos de google drive más grandes que {FILE_SIZE:5 mb}
+Gdrive__	ShowFilesWithSize__	enséñame mis archivos de google drive más pequeños que {FILE_SIZE:700 mb}
+Gdrive__	ShowFilesWithSize__	enséñame mis archivos de google drive más grandes que {FILE_SIZE:15 mb}
 Gdrive__	CreateFile__	crea un archivo de google drive
 Gdrive__	CreateFile__	crea un archivo en google drive
-Gdrive__	CreateFileWithName__	crea un nuevo archivo con el título GDRIVE.SLOT.FILE_NAME en google drive
-Gdrive__	CreateFileWithName__	crea un archivo de google drive llamado GDRIVE.SLOT.FILE_NAME
+Gdrive__	CreateFileWithName__	crea un nuevo archivo con el título {FILE_NAME:archivo nuevo} en google drive
+Gdrive__	CreateFileWithName__	crea un archivo de google drive llamado {FILE_NAME:factura}
 Gdrive__	ShowOldestFiles__	muestra mis archivos de google drive más antiguos
 Gdrive__	ShowOldestFiles__	muéstrame mis archivos de google drive más antiguos
 Gdrive__	ShowOldestFiles__	enseña mis archivos de google drive más antiguos
@@ -94,12 +94,12 @@ Gdrive__	SortReverseAlphabetical__	enséñame mis archivos de google drive en la
 Gdrive__	SortReverseAlphabetical__	enséñame mis archivos de google drive en la órden alfabética reversa
 Gdrive__	SortReverseAlphabetical__	enséñame mis archivos de google drive en una órden alfabética
 Gdrive__	SortReverseAlphabetical__	enséñame mis archivos de google drive en una órden alfabética reversa
-Gdrive__	OpenFileWithName__	abre mi archivo GDRIVE.SLOT.FILE_NAME para editar en google drive
-Gdrive__	ShareFileWithNameToAddress__	comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL
-Gdrive__	ShareFileWithNameToAddress__	comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para editar
-Gdrive__	ShareFileWithNameToAddress__	comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para leer
-Gdrive__	ShareFileWithNameToAddress__	comparte mi GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para leer y escribir
-Gdrive__	ShareFileWithNameToAddress__	comparte mi archivo GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL
-Gdrive__	ShareFileWithNameToAddress__	comparte mi archivo GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para editar
-Gdrive__	ShareFileWithNameToAddress__	comparte mi archivo GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para leer
-Gdrive__	ShareFileWithNameToAddress__	comparte mi archivo GDRIVE.SLOT.FILE_NAME con GDRIVE.SLOT.MAIL y dale el permiso para leer y escribir
+Gdrive__	OpenFileWithName__	abre mi archivo {FILE_NAME:readme} para editar en google drive
+Gdrive__	ShareFileWithNameToAddress__	comparte mi {FILE_NAME:recetas vegetarianas} con {MAIL:carmina_@hotmail.es}
+Gdrive__	ShareFileWithNameToAddress__	comparte mi {FILE_NAME:pelis para ver} con {MAIL:maría@gmail.com} y dale el permiso para editar
+Gdrive__	ShareFileWithNameToAddress__	comparte mi {FILE_NAME:CV} con {MAIL:nacia@gmail.com} y dale el permiso para leer
+Gdrive__	ShareFileWithNameToAddress__	comparte mi {FILE_NAME:proyecto 1} con {MAIL:artiñano@gmx.es} y dale el permiso para leer y escribir
+Gdrive__	ShareFileWithNameToAddress__	comparte mi archivo {FILE_NAME:archivo nuevo} con {MAIL:arriaga_@outlook.com}
+Gdrive__	ShareFileWithNameToAddress__	comparte mi archivo {FILE_NAME:factura} con {MAIL:rojas@gmail.com} y dale el permiso para editar
+Gdrive__	ShareFileWithNameToAddress__	comparte mi archivo {FILE_NAME:readme} con {MAIL:lourditas@mail.com} y dale el permiso para leer
+Gdrive__	ShareFileWithNameToAddress__	comparte mi archivo {FILE_NAME:recetas vegetarianas} con {MAIL:nel@proton.com} y dale el permiso para leer y escribir

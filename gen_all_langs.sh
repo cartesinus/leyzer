@@ -2,7 +2,7 @@
 
 for lang in en-US es-ES pl-PL
 do
-    domains=grammars/${lang}/*.gram
+    domains=grammars/${lang}/[!console]*.gram
     for domain in ${domains}
     do
         domain=$(basename $domain .gram)

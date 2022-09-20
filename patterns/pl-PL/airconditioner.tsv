@@ -1,11 +1,11 @@
-Airconditioner__	TurnOn__	włącz AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOn__	uruchom AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOn__	nastaw AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOff__	wyłącz AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOff__	wygaś AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOff__	przestań używać AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOff__	odetnij AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOff__	zatrzynaj AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner__	TurnOn__	włącz {AV_ALIAS:klimatyzator}
+Airconditioner__	TurnOn__	uruchom {AV_ALIAS:klimatyzację}
+Airconditioner__	TurnOn__	nastaw {AV_ALIAS:klimę}
+Airconditioner__	TurnOff__	wyłącz {AV_ALIAS:system chłodzenia}
+Airconditioner__	TurnOff__	wygaś {AV_ALIAS:klimatyzator}
+Airconditioner__	TurnOff__	przestań używać {AV_ALIAS:klimatyzację}
+Airconditioner__	TurnOff__	odetnij {AV_ALIAS:klimę}
+Airconditioner__	TurnOff__	zatrzynaj {AV_ALIAS:system chłodzenia}
 Airconditioner__	ChangeTemperature__	zmień temperaturę na termostacie
 Airconditioner__	ChangeTemperature__	zmień temperaturę na moim termostacie
 Airconditioner__	ChangeTemperature__	zmień temperaturę minimalną na termostacie
@@ -30,34 +30,34 @@ Airconditioner__	ChangeTemperature__	przełącz temperaturę maksymalną na term
 Airconditioner__	ChangeTemperature__	przełącz temperaturę maksymalną na moim termostacie
 Airconditioner__	ChangeTemperature__	przełącz temperaturę minimalną i maksymalną na termostacie
 Airconditioner__	ChangeTemperature__	przełącz temperaturę minimalną i maksymalną na moim termostacie
-Airconditioner__	SetTemperatureToValue__	ustaw temperaturę na termostacie na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	ustaw temperaturę na moim termostacie na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	ustaw mój termostat na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	nastaw temperaturę na termostacie na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	nastaw temperaturę na moim termostacie na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	nastaw mój termostat na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	przełącz temperaturę na termostacie na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	przełącz temperaturę na moim termostacie na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	przełącz mój termostat na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	zmień temperaturę na termostacie na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	zmień temperaturę na moim termostacie na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	zmień mój termostat na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	ustaw temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	ustaw temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	ustaw temperaturę na AIRCONDITIONER.SLOT.VALUE na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureToValueOnDevice__	ustaw temperaturę na AIRCONDITIONER.SLOT.VALUE na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureToValueOnDevice__	nastaw temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	nastaw temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	nastaw temperaturę na AIRCONDITIONER.SLOT.VALUE na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureToValueOnDevice__	nastaw temperaturę na AIRCONDITIONER.SLOT.VALUE na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureToValueOnDevice__	przełącz temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	przełącz temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	przełącz temperaturę na AIRCONDITIONER.SLOT.VALUE na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureToValueOnDevice__	przełącz temperaturę na AIRCONDITIONER.SLOT.VALUE na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureToValueOnDevice__	zmień temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	zmień temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME na AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	zmień temperaturę na AIRCONDITIONER.SLOT.VALUE na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureToValueOnDevice__	zmień temperaturę na AIRCONDITIONER.SLOT.VALUE na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner__	SetTemperatureToValue__	ustaw temperaturę na termostacie na {VALUE:22 stopnie}
+Airconditioner__	SetTemperatureToValue__	ustaw temperaturę na moim termostacie na {VALUE:23 stopnie}
+Airconditioner__	SetTemperatureToValue__	ustaw mój termostat na {VALUE:24 stopnie}
+Airconditioner__	SetTemperatureToValue__	nastaw temperaturę na termostacie na {VALUE:25 stopnie}
+Airconditioner__	SetTemperatureToValue__	nastaw temperaturę na moim termostacie na {VALUE:26 stopnie}
+Airconditioner__	SetTemperatureToValue__	nastaw mój termostat na {VALUE:27 stopnie}
+Airconditioner__	SetTemperatureToValue__	przełącz temperaturę na termostacie na {VALUE:22 stopnie}
+Airconditioner__	SetTemperatureToValue__	przełącz temperaturę na moim termostacie na {VALUE:23 stopnie}
+Airconditioner__	SetTemperatureToValue__	przełącz mój termostat na {VALUE:24 stopnie}
+Airconditioner__	SetTemperatureToValue__	zmień temperaturę na termostacie na {VALUE:25 stopnie}
+Airconditioner__	SetTemperatureToValue__	zmień temperaturę na moim termostacie na {VALUE:26 stopnie}
+Airconditioner__	SetTemperatureToValue__	zmień mój termostat na {VALUE:27 stopnie}
+Airconditioner__	SetTemperatureToValueOnDevice__	ustaw temperaturę na termostacie w {DEVICE_NAME:salonie} na {VALUE:22 stopnie}
+Airconditioner__	SetTemperatureToValueOnDevice__	ustaw temperaturę na moim termostacie w {DEVICE_NAME:kuchnii} na {VALUE:23 stopnie}
+Airconditioner__	SetTemperatureToValueOnDevice__	ustaw temperaturę na {VALUE:24 stopnie} na termostacie w {DEVICE_NAME:przedpokoju}
+Airconditioner__	SetTemperatureToValueOnDevice__	ustaw temperaturę na {VALUE:25 stopnie} na moim termostacie w {DEVICE_NAME:łazience}
+Airconditioner__	SetTemperatureToValueOnDevice__	nastaw temperaturę na termostacie w {DEVICE_NAME:sypialnii} na {VALUE:26 stopnie}
+Airconditioner__	SetTemperatureToValueOnDevice__	nastaw temperaturę na moim termostacie w {DEVICE_NAME:salonie} na {VALUE:27 stopnie}
+Airconditioner__	SetTemperatureToValueOnDevice__	nastaw temperaturę na {VALUE:22 stopnie} na termostacie w {DEVICE_NAME:kuchnii}
+Airconditioner__	SetTemperatureToValueOnDevice__	nastaw temperaturę na {VALUE:23 stopnie} na moim termostacie w {DEVICE_NAME:przedpokoju}
+Airconditioner__	SetTemperatureToValueOnDevice__	przełącz temperaturę na termostacie w {DEVICE_NAME:łazience} na {VALUE:24 stopnie}
+Airconditioner__	SetTemperatureToValueOnDevice__	przełącz temperaturę na moim termostacie w {DEVICE_NAME:sypialnii} na {VALUE:25 stopnie}
+Airconditioner__	SetTemperatureToValueOnDevice__	przełącz temperaturę na {VALUE:26 stopnie} na termostacie w {DEVICE_NAME:salonie}
+Airconditioner__	SetTemperatureToValueOnDevice__	przełącz temperaturę na {VALUE:27 stopnie} na moim termostacie w {DEVICE_NAME:kuchnii}
+Airconditioner__	SetTemperatureToValueOnDevice__	zmień temperaturę na termostacie w {DEVICE_NAME:przedpokoju} na {VALUE:22 stopnie}
+Airconditioner__	SetTemperatureToValueOnDevice__	zmień temperaturę na moim termostacie w {DEVICE_NAME:łazience} na {VALUE:23 stopnie}
+Airconditioner__	SetTemperatureToValueOnDevice__	zmień temperaturę na {VALUE:24 stopnie} na termostacie w {DEVICE_NAME:sypialnii}
+Airconditioner__	SetTemperatureToValueOnDevice__	zmień temperaturę na {VALUE:25 stopnie} na moim termostacie w {DEVICE_NAME:salonie}
 Airconditioner__	SetTemperatureBetweenValues__	ustaw temperaturę pomiędzy 23 a 28 stopni
 Airconditioner__	SetTemperatureBetweenValues__	ustaw temperaturę pomiędzy 23 a 29 stopni
 Airconditioner__	SetTemperatureBetweenValues__	ustaw temperaturę pomiędzy 24 a 28 stopni
@@ -106,15 +106,15 @@ Airconditioner__	SetTemperatureBetweenValues__	zmień temperaturę na moim termo
 Airconditioner__	SetTemperatureBetweenValues__	zmień temperaturę na moim termostacie pomiędzy 23 a 29 stopni
 Airconditioner__	SetTemperatureBetweenValues__	zmień temperaturę na moim termostacie pomiędzy 24 a 28 stopni
 Airconditioner__	SetTemperatureBetweenValues__	zmień temperaturę na moim termostacie pomiędzy 24 a 29 stopni
-Airconditioner__	SetTemperatureOnDevice__	zmień temperaturę w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureOnDevice__	zmień temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureOnDevice__	zmień temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureOnDevice__	przestaw temperaturę w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureOnDevice__	przestaw temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureOnDevice__	przestaw temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureOnDevice__	przełącz temperaturę w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureOnDevice__	przełącz temperaturę na termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	SetTemperatureOnDevice__	przełącz temperaturę na moim termostacie w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner__	SetTemperatureOnDevice__	zmień temperaturę w {DEVICE_NAME:kuchnii}
+Airconditioner__	SetTemperatureOnDevice__	zmień temperaturę na termostacie w {DEVICE_NAME:przedpokoju}
+Airconditioner__	SetTemperatureOnDevice__	zmień temperaturę na moim termostacie w {DEVICE_NAME:łazience}
+Airconditioner__	SetTemperatureOnDevice__	przestaw temperaturę w {DEVICE_NAME:sypialnii}
+Airconditioner__	SetTemperatureOnDevice__	przestaw temperaturę na termostacie w {DEVICE_NAME:salonie}
+Airconditioner__	SetTemperatureOnDevice__	przestaw temperaturę na moim termostacie w {DEVICE_NAME:kuchnii}
+Airconditioner__	SetTemperatureOnDevice__	przełącz temperaturę w {DEVICE_NAME:przedpokoju}
+Airconditioner__	SetTemperatureOnDevice__	przełącz temperaturę na termostacie w {DEVICE_NAME:łazience}
+Airconditioner__	SetTemperatureOnDevice__	przełącz temperaturę na moim termostacie w {DEVICE_NAME:sypialnii}
 Airconditioner__	GetHumidity__	pokaż poziom wilgotności
 Airconditioner__	GetHumidity__	ustal poziom wilgotności
 Airconditioner__	GetHumidity__	jaki jest poziom wilgotności
@@ -124,16 +124,16 @@ Airconditioner__	GetHumidity__	jaka jest wilgotność
 Airconditioner__	GetHumidity__	jaka jest wilgotność w tym pokoju
 Airconditioner__	GetHumidity__	jaka jest wilgotność w domu
 Airconditioner__	GetHumidity__	jaka jest wilgotność teraz
-Airconditioner__	GetTemperatureFromDevice__	jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	GetTemperatureFromDevice__	jaka jest temperatura według termostatu w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	GetTemperatureFromDevice__	jaka jest temperatura według mojego termostatu w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	GetTemperatureFromDevice__	co termostat w AIRCONDITIONER.SLOT.DEVICE_NAME mówi o temperaturze
-Airconditioner__	GetTemperatureFromDevice__	sprawdź jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	GetTemperatureFromDevice__	sprawdź mi jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	GetTemperatureFromDevice__	pokaż jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	GetTemperatureFromDevice__	pokaż mi jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	GetTemperatureFromDevice__	powiedz jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
-Airconditioner__	GetTemperatureFromDevice__	powiedz mi jaka jest temperatura w AIRCONDITIONER.SLOT.DEVICE_NAME
+Airconditioner__	GetTemperatureFromDevice__	jaka jest temperatura w {DEVICE_NAME:salonie}
+Airconditioner__	GetTemperatureFromDevice__	jaka jest temperatura według termostatu w {DEVICE_NAME:kuchnii}
+Airconditioner__	GetTemperatureFromDevice__	jaka jest temperatura według mojego termostatu w {DEVICE_NAME:przedpokoju}
+Airconditioner__	GetTemperatureFromDevice__	co termostat w {DEVICE_NAME:łazience} mówi o temperaturze
+Airconditioner__	GetTemperatureFromDevice__	sprawdź jaka jest temperatura w {DEVICE_NAME:sypialnii}
+Airconditioner__	GetTemperatureFromDevice__	sprawdź mi jaka jest temperatura w {DEVICE_NAME:salonie}
+Airconditioner__	GetTemperatureFromDevice__	pokaż jaka jest temperatura w {DEVICE_NAME:kuchnii}
+Airconditioner__	GetTemperatureFromDevice__	pokaż mi jaka jest temperatura w {DEVICE_NAME:przedpokoju}
+Airconditioner__	GetTemperatureFromDevice__	powiedz jaka jest temperatura w {DEVICE_NAME:łazience}
+Airconditioner__	GetTemperatureFromDevice__	powiedz mi jaka jest temperatura w {DEVICE_NAME:sypialnii}
 Airconditioner__	GetTemperature__	jaka jest temperatura
 Airconditioner__	GetTemperature__	jaka jest temperatura według termostatu
 Airconditioner__	GetTemperature__	jaka jest temperatura według głównego termostatu

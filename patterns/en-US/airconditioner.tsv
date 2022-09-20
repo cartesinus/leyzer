@@ -1,17 +1,17 @@
-Airconditioner__	TurnOn__	turn the AIRCONDITIONER.SLOT.AV_ALIAS on
-Airconditioner__	TurnOn__	turn on the AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOn__	switch on the AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOn__	switch the AIRCONDITIONER.SLOT.AV_ALIAS on
-Airconditioner__	TurnOn__	set my AIRCONDITIONER.SLOT.AV_ALIAS on
-Airconditioner__	TurnOn__	set the AIRCONDITIONER.SLOT.AV_ALIAS on
-Airconditioner__	TurnOff__	turn the AIRCONDITIONER.SLOT.AV_ALIAS off
-Airconditioner__	TurnOff__	turn off the AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOff__	switch off the AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOff__	switch the AIRCONDITIONER.SLOT.AV_ALIAS off
-Airconditioner__	TurnOff__	deactivate my AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOff__	deactivate the AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOff__	shut down my AIRCONDITIONER.SLOT.AV_ALIAS
-Airconditioner__	TurnOff__	shut down the AIRCONDITIONER.SLOT.AV_ALIAS
+Airconditioner__	TurnOn__	turn the {AV_ALIAS:heating} on
+Airconditioner__	TurnOn__	turn on the {AV_ALIAS:ac}
+Airconditioner__	TurnOn__	switch on the {AV_ALIAS:aircon}
+Airconditioner__	TurnOn__	switch the {AV_ALIAS:air conditioning} on
+Airconditioner__	TurnOn__	set my {AV_ALIAS:cooling system} on
+Airconditioner__	TurnOn__	set the {AV_ALIAS:hvac} on
+Airconditioner__	TurnOff__	turn the {AV_ALIAS:heating} off
+Airconditioner__	TurnOff__	turn off the {AV_ALIAS:ac}
+Airconditioner__	TurnOff__	switch off the {AV_ALIAS:aircon}
+Airconditioner__	TurnOff__	switch the {AV_ALIAS:air conditioning} off
+Airconditioner__	TurnOff__	deactivate my {AV_ALIAS:cooling system}
+Airconditioner__	TurnOff__	deactivate the {AV_ALIAS:hvac}
+Airconditioner__	TurnOff__	shut down my {AV_ALIAS:heating}
+Airconditioner__	TurnOff__	shut down the {AV_ALIAS:ac}
 Airconditioner__	ChangeTemperature__	change the temperature on my thermostat
 Airconditioner__	ChangeTemperature__	change the minimum temperature on my thermostat
 Airconditioner__	ChangeTemperature__	change the minimum temperature on the thermostat
@@ -40,22 +40,22 @@ Airconditioner__	ChangeTemperature__	adjust the maximum temperature on my thermo
 Airconditioner__	ChangeTemperature__	adjust the maximum temperature on the thermostat
 Airconditioner__	ChangeTemperature__	adjust the minimum and maximum temperatures on my thermostat
 Airconditioner__	ChangeTemperature__	adjust the minimum and maximum temperatures on the thermostat
-Airconditioner__	SetTemperatureToValue__	change the temperature on my thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	change the temperature to AIRCONDITIONER.SLOT.VALUE on my thermostat
-Airconditioner__	SetTemperatureToValue__	change my thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	set the temperature on my thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValue__	set the temperature to AIRCONDITIONER.SLOT.VALUE on my thermostat
-Airconditioner__	SetTemperatureToValue__	set my thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	change my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	change temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	change the temperature to AIRCONDITIONER.SLOT.VALUE on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
-Airconditioner__	SetTemperatureToValueOnDevice__	set my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	set temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat to AIRCONDITIONER.SLOT.VALUE
-Airconditioner__	SetTemperatureToValueOnDevice__	set the temperature to AIRCONDITIONER.SLOT.VALUE on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
+Airconditioner__	SetTemperatureToValue__	change the temperature on my thermostat to {VALUE:78 degrees fahrenheit}
+Airconditioner__	SetTemperatureToValue__	change the temperature to {VALUE:79 degrees fahrenheit} on my thermostat
+Airconditioner__	SetTemperatureToValue__	change my thermostat to {VALUE:25 degree}
+Airconditioner__	SetTemperatureToValue__	set the temperature on my thermostat to {VALUE:22 degrees celsius}
+Airconditioner__	SetTemperatureToValue__	set the temperature to {VALUE:24 degree} on my thermostat
+Airconditioner__	SetTemperatureToValue__	set my thermostat to {VALUE:80 degrees fahrenheit}
+Airconditioner__	SetTemperatureToValueOnDevice__	change my {DEVICE_NAME:living room} thermostat to {VALUE:off}
+Airconditioner__	SetTemperatureToValueOnDevice__	change temperature on my {DEVICE_NAME:kitchen} thermostat to {VALUE:29 degrees celsius}
+Airconditioner__	SetTemperatureToValueOnDevice__	change the temperature to {VALUE:23 degrees celsius} on my {DEVICE_NAME:hall} thermostat
+Airconditioner__	SetTemperatureToValueOnDevice__	set my {DEVICE_NAME:bedroom} thermostat to {VALUE:80 degrees}
+Airconditioner__	SetTemperatureToValueOnDevice__	set temperature on my {DEVICE_NAME:living room} thermostat to {VALUE:81 degrees}
+Airconditioner__	SetTemperatureToValueOnDevice__	set the temperature to {VALUE:78 degrees} on my {DEVICE_NAME:kitchen} thermostat
 Airconditioner__	SetTemperatureBetweenValues__	set the temperature between 23 degree and 29 degree on my thermostat
 Airconditioner__	SetTemperatureBetweenValues__	set the low temperature to 23 degree on my thermostat , and the high to 29 degree
-Airconditioner__	SetTemperatureOnDevice__	change the temperature on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
-Airconditioner__	SetTemperatureOnDevice__	change the minimum and maximum temperatures on my AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
+Airconditioner__	SetTemperatureOnDevice__	change the temperature on my {DEVICE_NAME:hall} thermostat
+Airconditioner__	SetTemperatureOnDevice__	change the minimum and maximum temperatures on my {DEVICE_NAME:bedroom} thermostat
 Airconditioner__	GetHumidity__	show the humidity
 Airconditioner__	GetHumidity__	show the humidity level
 Airconditioner__	GetHumidity__	give me the humidity
@@ -73,17 +73,17 @@ Airconditioner__	GetHumidity__	tell me how humid is the air in here
 Airconditioner__	GetHumidity__	tell me how humid is the air in the room
 Airconditioner__	GetHumidity__	show me what's the humidity
 Airconditioner__	GetHumidity__	show me what the humidity is in here
-Airconditioner__	GetTemperatureFromDevice__	check what the AIRCONDITIONER.SLOT.DEVICE_NAME temperature sensor says
-Airconditioner__	GetTemperatureFromDevice__	check what the AIRCONDITIONER.SLOT.DEVICE_NAME thermostat says
-Airconditioner__	GetTemperatureFromDevice__	check the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME sensor
-Airconditioner__	GetTemperatureFromDevice__	check the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
-Airconditioner__	GetTemperatureFromDevice__	check what's on the AIRCONDITIONER.SLOT.DEVICE_NAME sensor
-Airconditioner__	GetTemperatureFromDevice__	show me what the AIRCONDITIONER.SLOT.DEVICE_NAME temperature sensor says
-Airconditioner__	GetTemperatureFromDevice__	show me what the AIRCONDITIONER.SLOT.DEVICE_NAME thermostat says
-Airconditioner__	GetTemperatureFromDevice__	show me the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME sensor
-Airconditioner__	GetTemperatureFromDevice__	show me the temperature of the AIRCONDITIONER.SLOT.DEVICE_NAME thermostat
-Airconditioner__	GetTemperatureFromDevice__	show me what's on the AIRCONDITIONER.SLOT.DEVICE_NAME sensor
-Airconditioner__	GetTemperature__	what temperature do I have in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?
-Airconditioner__	GetTemperature__	what temperature do we have in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?
-Airconditioner__	GetTemperature__	what temperature is it in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?
-Airconditioner__	GetTemperature__	what's the temperature in here according to my AIRCONDITIONER.SLOT.AV_ALIAS ?
+Airconditioner__	GetTemperatureFromDevice__	check what the {DEVICE_NAME:living room} temperature sensor says
+Airconditioner__	GetTemperatureFromDevice__	check what the {DEVICE_NAME:kitchen} thermostat says
+Airconditioner__	GetTemperatureFromDevice__	check the temperature of the {DEVICE_NAME:hall} sensor
+Airconditioner__	GetTemperatureFromDevice__	check the temperature of the {DEVICE_NAME:bedroom} thermostat
+Airconditioner__	GetTemperatureFromDevice__	check what's on the {DEVICE_NAME:living room} sensor
+Airconditioner__	GetTemperatureFromDevice__	show me what the {DEVICE_NAME:kitchen} temperature sensor says
+Airconditioner__	GetTemperatureFromDevice__	show me what the {DEVICE_NAME:hall} thermostat says
+Airconditioner__	GetTemperatureFromDevice__	show me the temperature of the {DEVICE_NAME:bedroom} sensor
+Airconditioner__	GetTemperatureFromDevice__	show me the temperature of the {DEVICE_NAME:living room} thermostat
+Airconditioner__	GetTemperatureFromDevice__	show me what's on the {DEVICE_NAME:kitchen} sensor
+Airconditioner__	GetTemperature__	what temperature do I have in here according to my {AV_ALIAS:aircon} ?
+Airconditioner__	GetTemperature__	what temperature do we have in here according to my {AV_ALIAS:air conditioning} ?
+Airconditioner__	GetTemperature__	what temperature is it in here according to my {AV_ALIAS:cooling system} ?
+Airconditioner__	GetTemperature__	what's the temperature in here according to my {AV_ALIAS:hvac} ?

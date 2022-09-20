@@ -30,66 +30,66 @@ Yelp__	SearchRestaurant__	encuentra restaurantes cerca
 Yelp__	SearchRestaurant__	encuentra restaurantes cerca de aquí
 Yelp__	SearchRestaurant__	restaurantes más cercanos por aquí
 Yelp__	SearchRestaurant__	restaurantes más cerca de aquí
-Yelp__	SearchByQuery__	YELP.SLOT.QUERY
-Yelp__	SearchByQuery__	YELP.SLOT.QUERY por aquí
-Yelp__	SearchByQuery__	YELP.SLOT.QUERY en yelp
-Yelp__	SearchByQuery__	YELP.SLOT.QUERY cerca
-Yelp__	SearchByRating__	restaurantes cerca con por lo menos YELP.SLOT.RATING estrellas de clasificación
-Yelp__	SearchByRating__	YELP.SLOT.RATING star restaurants
-Yelp__	SearchByRating__	YELP.SLOT.RATING star restaurants on yelp
-Yelp__	SearchByRating__	restaurants rated higher than YELP.SLOT.RATING star
-Yelp__	SearchByCategory__	comida YELP.SLOT.CATEGORY.F
-Yelp__	SearchByCategory__	comida YELP.SLOT.CATEGORY.F por aquí
-Yelp__	SearchByCategory__	comida YELP.SLOT.CATEGORY.F cerca
-Yelp__	SearchByCategory__	restaurantes YELP.SLOT.CATEGORY.MPL
-Yelp__	SearchByCategory__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí
-Yelp__	SearchByCategory__	restaurantes YELP.SLOT.CATEGORY.MPL cerca
+Yelp__	SearchByQuery__	{QUERY:cafetería}
+Yelp__	SearchByQuery__	{QUERY:estacionamiento del centro de redmond} por aquí
+Yelp__	SearchByQuery__	{QUERY:mejores cervezas artesanales y restaurantes locales} en yelp
+Yelp__	SearchByQuery__	{QUERY:restaurante en Perkins} cerca
+Yelp__	SearchByRating__	restaurantes cerca con por lo menos {RATING:3} estrellas de clasificación
+Yelp__	SearchByRating__	{RATING:4} star restaurants
+Yelp__	SearchByRating__	{RATING:5} star restaurants on yelp
+Yelp__	SearchByRating__	restaurants rated higher than {RATING:3} star
+Yelp__	SearchByCategory__	comida {CATEGORY:americana}.F
+Yelp__	SearchByCategory__	comida {CATEGORY:italiana}.F por aquí
+Yelp__	SearchByCategory__	comida {CATEGORY:japonesa}.F cerca
+Yelp__	SearchByCategory__	restaurantes {CATEGORY:alemana}.MPL
+Yelp__	SearchByCategory__	restaurantes {CATEGORY:francesa}.MPL por aquí
+Yelp__	SearchByCategory__	restaurantes {CATEGORY:japoneses}.MPL cerca
 Yelp__	OpenRestaurants__	restaurantes abiertos por aquí
 Yelp__	OpenRestaurants__	restaurantes todavía abiertos por aquí
 Yelp__	OpenRestaurants__	restaurantes abiertos hasta ahora cerca
 Yelp__	OpenRestaurants__	restaurantes abiertos hasta ahora cerca de aquí
 Yelp__	OpenRestaurants__	restaurantes abiertos ahora
-Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT personas
-Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de más de YELP.SLOT.REVIEW_COUNT personas
-Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de más de YELP.SLOT.REVIEW_COUNT usuarios
-Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de al menos YELP.SLOT.REVIEW_COUNT personas
-Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de al menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT personas
-Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de más de YELP.SLOT.REVIEW_COUNT personas
-Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de más de YELP.SLOT.REVIEW_COUNT usuarios
-Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de al menos YELP.SLOT.REVIEW_COUNT personas
-Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de al menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp__	SearchInLocation__	restaurantes al lado de YELP.SLOT.LOCATION
-Yelp__	SearchInLocation__	restaurantes cerca de YELP.SLOT.LOCATION
-Yelp__	SearchByQueryInLocation__	YELP.SLOT.QUERY en YELP.SLOT.LOCATION
-Yelp__	SearchByQueryInLocation__	YELP.SLOT.QUERY en YELP.SLOT.LOCATION en yelp
-Yelp__	SearchByQueryInLocation__	YELP.SLOT.QUERY cerca de YELP.SLOT.LOCATION
-Yelp__	SearchByQueryInLocation__	YELP.SLOT.QUERY cerca de YELP.SLOT.LOCATION en yelp
-Yelp__	SearchByRatingInLocation__	restaurantes cercanos co al menos YELP.SLOT.RATING estrellas cerca de YELP.SLOT.LOCATION
-Yelp__	SearchByRatingInLocation__	restaurantes cercanos co al menos YELP.SLOT.RATING estrellas de clasificación cerca de YELP.SLOT.LOCATION
-Yelp__	SearchByRatingInLocation__	restaurantes de YELP.SLOT.RATING estrellas cerca de YELP.SLOT.LOCATION
-Yelp__	SearchByRatingInLocation__	restaurantes de YELP.SLOT.RATING estrellas cerca de YELP.SLOT.LOCATION en yelp
-Yelp__	SearchByRatingInLocation__	restaurantes de YELP.SLOT.RATING estrellas en YELP.SLOT.LOCATION
-Yelp__	SearchByRatingInLocation__	restaurantes de YELP.SLOT.RATING estrellas en YELP.SLOT.LOCATION en yelp
-Yelp__	SearchByRatingInLocation__	restaurantes clasificados con más de YELP.SLOT.RATING estrellas en YELP.SLOT.LOCATION
-Yelp__	SearchByCategoryInLocation__	comida YELP.SLOT.CATEGORY.F cerca YELP.SLOT.LOCATION
-Yelp__	SearchByCategoryInLocation__	comida YELP.SLOT.CATEGORY.F en YELP.SLOT.LOCATION
-Yelp__	SearchByCategoryInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca YELP.SLOT.LOCATION
-Yelp__	SearchByCategoryInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL en YELP.SLOT.LOCATION
-Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT personas
-Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de más de YELP.SLOT.REVIEW_COUNT personas
-Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de más de YELP.SLOT.REVIEW_COUNT usuarios
-Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de al menos YELP.SLOT.REVIEW_COUNT personas
-Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL por aquí YELP.SLOT.LOCATION con opiniones de al menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT personas
-Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de por lo menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de más de YELP.SLOT.REVIEW_COUNT personas
-Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de más de YELP.SLOT.REVIEW_COUNT usuarios
-Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de al menos YELP.SLOT.REVIEW_COUNT personas
-Yelp__	SearchByReviewCountInLocation__	restaurantes YELP.SLOT.CATEGORY.MPL cerca de YELP.SLOT.LOCATION con opiniones de al menos YELP.SLOT.REVIEW_COUNT usuarios
-Yelp__	OpenRestaurantsInLocation__	restaurantes abiertos cerca de YELP.SLOT.LOCATION
-Yelp__	OpenRestaurantsInLocation__	restaurantes todavía abiertos en YELP.SLOT.LOCATION
-Yelp__	OpenRestaurantsInLocation__	restaurantes abiertos ahora en YELP.SLOT.LOCATION
+Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de por lo menos {REVIEW_COUNT:1000} personas
+Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de por lo menos {REVIEW_COUNT:950} usuarios
+Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de más de {REVIEW_COUNT:100} personas
+Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de más de {REVIEW_COUNT:450} usuarios
+Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de al menos {REVIEW_COUNT:5000} personas
+Yelp__	SearchByReviewCount__	restaurantes cerca de aquí con opiniones de al menos {REVIEW_COUNT:650} usuarios
+Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de por lo menos {REVIEW_COUNT:600} personas
+Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de por lo menos {REVIEW_COUNT:3500} usuarios
+Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de más de {REVIEW_COUNT:300} personas
+Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de más de {REVIEW_COUNT:5500} usuarios
+Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de al menos {REVIEW_COUNT:9000} personas
+Yelp__	SearchByReviewCount__	restaurantes por aquí con opiniones de al menos {REVIEW_COUNT:7000} usuarios
+Yelp__	SearchInLocation__	restaurantes al lado de {LOCATION:kreuzberg}
+Yelp__	SearchInLocation__	restaurantes cerca de {LOCATION:soho}
+Yelp__	SearchByQueryInLocation__	{QUERY:sushi yoko} en {LOCATION:manhattan}
+Yelp__	SearchByQueryInLocation__	{QUERY:restaurante cervecería el capitán} en {LOCATION:plaza del sol} en yelp
+Yelp__	SearchByQueryInLocation__	{QUERY:mejores restaurantes con vistas a toronto} cerca de {LOCATION:la rambla}
+Yelp__	SearchByQueryInLocation__	{QUERY:restaurantes de carnes de Vancouver} cerca de {LOCATION:torvizcón} en yelp
+Yelp__	SearchByRatingInLocation__	restaurantes cercanos co al menos {RATING:4} estrellas cerca de {LOCATION:ujados}
+Yelp__	SearchByRatingInLocation__	restaurantes cercanos co al menos {RATING:5} estrellas de clasificación cerca de {LOCATION:junciana}
+Yelp__	SearchByRatingInLocation__	restaurantes de {RATING:3} estrellas cerca de {LOCATION:alcanar}
+Yelp__	SearchByRatingInLocation__	restaurantes de {RATING:4} estrellas cerca de {LOCATION:armañanzas} en yelp
+Yelp__	SearchByRatingInLocation__	restaurantes de {RATING:5} estrellas en {LOCATION:ingenio}
+Yelp__	SearchByRatingInLocation__	restaurantes de {RATING:3} estrellas en {LOCATION:pedroche} en yelp
+Yelp__	SearchByRatingInLocation__	restaurantes clasificados con más de {RATING:4} estrellas en {LOCATION:olombrada}
+Yelp__	SearchByCategoryInLocation__	comida {CATEGORY:franceses}.F cerca {LOCATION:redován}
+Yelp__	SearchByCategoryInLocation__	comida {CATEGORY:españoles}.F en {LOCATION:íscar}
+Yelp__	SearchByCategoryInLocation__	restaurantes {CATEGORY:alemanes}.MPL cerca {LOCATION:garafía}
+Yelp__	SearchByCategoryInLocation__	restaurantes {CATEGORY:americanos}.MPL en {LOCATION:aizarnazabal}
+Yelp__	SearchByReviewCountInLocation__	restaurantes {CATEGORY:americana}.MPL por aquí {LOCATION:luesia} con opiniones de por lo menos {REVIEW_COUNT:8000} personas
+Yelp__	SearchByReviewCountInLocation__	restaurantes {CATEGORY:italiana}.MPL por aquí {LOCATION:villaescusa} con opiniones de por lo menos {REVIEW_COUNT:150} usuarios
+Yelp__	SearchByReviewCountInLocation__	restaurantes {CATEGORY:japonesa}.MPL por aquí {LOCATION:salinas} con opiniones de más de {REVIEW_COUNT:250} personas
+Yelp__	SearchByReviewCountInLocation__	restaurantes {CATEGORY:alemana}.MPL por aquí {LOCATION:periana} con opiniones de más de {REVIEW_COUNT:7500} usuarios
+Yelp__	SearchByReviewCountInLocation__	restaurantes {CATEGORY:francesa}.MPL por aquí {LOCATION:tudela} con opiniones de al menos {REVIEW_COUNT:700} personas
+Yelp__	SearchByReviewCountInLocation__	restaurantes {CATEGORY:japoneses}.MPL por aquí {LOCATION:mironcillo} con opiniones de al menos {REVIEW_COUNT:4000} usuarios
+Yelp__	SearchByReviewCountInLocation__	restaurantes {CATEGORY:franceses}.MPL cerca de {LOCATION:huérmeces} con opiniones de por lo menos {REVIEW_COUNT:8500} personas
+Yelp__	SearchByReviewCountInLocation__	restaurantes {CATEGORY:españoles}.MPL cerca de {LOCATION:abenójar} con opiniones de por lo menos {REVIEW_COUNT:400} usuarios
+Yelp__	SearchByReviewCountInLocation__	restaurantes {CATEGORY:alemanes}.MPL cerca de {LOCATION:miguelturra} con opiniones de más de {REVIEW_COUNT:9500} personas
+Yelp__	SearchByReviewCountInLocation__	restaurantes {CATEGORY:americanos}.MPL cerca de {LOCATION:valtiendas} con opiniones de más de {REVIEW_COUNT:2000} usuarios
+Yelp__	SearchByReviewCountInLocation__	restaurantes {CATEGORY:americana}.MPL cerca de {LOCATION:chóvar} con opiniones de al menos {REVIEW_COUNT:6000} personas
+Yelp__	SearchByReviewCountInLocation__	restaurantes {CATEGORY:italiana}.MPL cerca de {LOCATION:gálvez} con opiniones de al menos {REVIEW_COUNT:10000} usuarios
+Yelp__	OpenRestaurantsInLocation__	restaurantes abiertos cerca de {LOCATION:llobera}
+Yelp__	OpenRestaurantsInLocation__	restaurantes todavía abiertos en {LOCATION:juià}
+Yelp__	OpenRestaurantsInLocation__	restaurantes abiertos ahora en {LOCATION:alburquerque}

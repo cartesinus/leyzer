@@ -14,18 +14,18 @@ Facebook__	OpenFacebook__	post something on facebook
 Facebook__	OpenFacebook__	create a new facebook post
 Facebook__	OpenFacebook__	update my facebook status
 Facebook__	OpenFacebook__	create a new post on facebook
-Facebook__	PostStatus__	write a status FACEBOOK.SLOT.STATUS on facebook
-Facebook__	PostStatus__	post a status FACEBOOK.SLOT.STATUS on facebook
-Facebook__	PostStatus__	write on facebook FACEBOOK.SLOT.STATUS
-Facebook__	PostStatus__	write on facebook saying FACEBOOK.SLOT.STATUS
-Facebook__	PostStatus__	write on facebook that FACEBOOK.SLOT.STATUS
-Facebook__	PostStatus__	post on facebook FACEBOOK.SLOT.STATUS
-Facebook__	PostStatus__	post on facebook saying FACEBOOK.SLOT.STATUS
-Facebook__	PostStatus__	post on facebook that FACEBOOK.SLOT.STATUS
-Facebook__	PostStatus__	update my facebook status saying FACEBOOK.SLOT.STATUS
-Facebook__	PostStatus__	update my facebook wall saying FACEBOOK.SLOT.STATUS
-Facebook__	PostStatus__	create a new post that says FACEBOOK.SLOT.STATUS on facebook
-Facebook__	PostStatus__	create a new post containing FACEBOOK.SLOT.STATUS on facebook
+Facebook__	PostStatus__	write a status {STATUS:so tired today} on facebook
+Facebook__	PostStatus__	post a status {STATUS:calm morning with my dog and coffee} on facebook
+Facebook__	PostStatus__	write on facebook {STATUS:i am so happy right now}
+Facebook__	PostStatus__	write on facebook saying {STATUS:just bought two tickets to ibiza}
+Facebook__	PostStatus__	write on facebook that {STATUS:so tired today}
+Facebook__	PostStatus__	post on facebook {STATUS:calm morning with my dog and coffee}
+Facebook__	PostStatus__	post on facebook saying {STATUS:i am so happy right now}
+Facebook__	PostStatus__	post on facebook that {STATUS:just bought two tickets to ibiza}
+Facebook__	PostStatus__	update my facebook status saying {STATUS:so tired today}
+Facebook__	PostStatus__	update my facebook wall saying {STATUS:calm morning with my dog and coffee}
+Facebook__	PostStatus__	create a new post that says {STATUS:i am so happy right now} on facebook
+Facebook__	PostStatus__	create a new post containing {STATUS:just bought two tickets to ibiza} on facebook
 Facebook__	PostPicture__	post a picture on facebook
 Facebook__	PostPicture__	post a picture on my facebook
 Facebook__	PostPicture__	post a picture to facebook
@@ -42,51 +42,51 @@ Facebook__	PostPicture__	put a picture on facebook
 Facebook__	PostPicture__	put a picture on my facebook
 Facebook__	PostPicture__	put a picture to facebook
 Facebook__	PostPicture__	put a picture to my facebook
-Facebook__	PostPictureWithCaption__	post a picture with caption FACEBOOK.SLOT.CAPTION on facebook
-Facebook__	PostPictureWithCaption__	post a picture on facebook with caption FACEBOOK.SLOT.CAPTION
-Facebook__	PostPictureWithCaption__	send a picture with caption FACEBOOK.SLOT.CAPTION on facebook
-Facebook__	PostPictureWithCaption__	send a picture on facebook with caption FACEBOOK.SLOT.CAPTION
-Facebook__	PostPictureWithCaption__	upload a picture on facebook with caption FACEBOOK.SLOT.CAPTION
-Facebook__	PostPictureWithCaption__	upload a picture with caption FACEBOOK.SLOT.CAPTION on facebook
-Facebook__	PostPictureWithUrl__	post FACEBOOK.SLOT.PICTURE_URL on facebook
-Facebook__	PostPictureWithUrl__	send FACEBOOK.SLOT.PICTURE_URL on facebook
-Facebook__	PostPictureWithUrl__	upload FACEBOOK.SLOT.PICTURE_URL to facebook
-Facebook__	PostPictureWithUrl__	upload to facebook FACEBOOK.SLOT.PICTURE_URL
-Facebook__	PostPictureWithUrlAndWithCaption__	post FACEBOOK.SLOT.PICTURE_URL on facebook with caption FACEBOOK.SLOT.CAPTION
-Facebook__	PostPictureWithUrlAndWithCaption__	post FACEBOOK.SLOT.PICTURE_URL on my facebook with caption FACEBOOK.SLOT.CAPTION
-Facebook__	PostPictureWithUrlAndWithCaption__	put FACEBOOK.SLOT.PICTURE_URL on facebook with caption FACEBOOK.SLOT.CAPTION
-Facebook__	PostPictureWithUrlAndWithCaption__	put FACEBOOK.SLOT.PICTURE_URL on my facebook with caption FACEBOOK.SLOT.CAPTION
-Facebook__	PostPictureWithUrlAndWithCaption__	caption FACEBOOK.SLOT.PICTURE_URL as FACEBOOK.SLOT.CAPTION and post it on facebook
-Facebook__	PostPictureWithUrlAndWithCaption__	caption FACEBOOK.SLOT.PICTURE_URL as FACEBOOK.SLOT.CAPTION and upload it on facebook
-Facebook__	ShowAlbumWithName__	show photos in my album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	show photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	show photos in the album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	show photos in the album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	show my photos in my album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	show my photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	show my photos in the album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	show my photos in the album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	display photos in my album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	display photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	display photos in the album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	display photos in the album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	display my photos in my album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	display my photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	display my photos in the album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	display my photos in the album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	find photos in my album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	find photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	find photos in the album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	find photos in the album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	find my photos in my album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	find my photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	find my photos in the album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	find my photos in the album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	search for photos in my album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	search for photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	search for photos in the album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	search for photos in the album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	search for my photos in my album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	search for my photos in my album FACEBOOK.SLOT.ALBUM on facebook
-Facebook__	ShowAlbumWithName__	search for my photos in the album FACEBOOK.SLOT.ALBUM
-Facebook__	ShowAlbumWithName__	search for my photos in the album FACEBOOK.SLOT.ALBUM on facebook
+Facebook__	PostPictureWithCaption__	post a picture with caption {CAPTION:with my dad} on facebook
+Facebook__	PostPictureWithCaption__	post a picture on facebook with caption {CAPTION:with my dad}
+Facebook__	PostPictureWithCaption__	send a picture with caption {CAPTION:with my dad} on facebook
+Facebook__	PostPictureWithCaption__	send a picture on facebook with caption {CAPTION:with my dad}
+Facebook__	PostPictureWithCaption__	upload a picture on facebook with caption {CAPTION:with my dad}
+Facebook__	PostPictureWithCaption__	upload a picture with caption {CAPTION:with my dad} on facebook
+Facebook__	PostPictureWithUrl__	post {PICTURE_URL:www.tinyurl.com/vmkgtf9} on facebook
+Facebook__	PostPictureWithUrl__	send {PICTURE_URL:www.tinyurl.com/vmkgtf9} on facebook
+Facebook__	PostPictureWithUrl__	upload {PICTURE_URL:www.tinyurl.com/vmkgtf9} to facebook
+Facebook__	PostPictureWithUrl__	upload to facebook {PICTURE_URL:www.tinyurl.com/vmkgtf9}
+Facebook__	PostPictureWithUrlAndWithCaption__	post {PICTURE_URL:www.tinyurl.com/vmkgtf9} on facebook with caption {CAPTION:with my dad}
+Facebook__	PostPictureWithUrlAndWithCaption__	post {PICTURE_URL:www.tinyurl.com/vmkgtf9} on my facebook with caption {CAPTION:with my dad}
+Facebook__	PostPictureWithUrlAndWithCaption__	put {PICTURE_URL:www.tinyurl.com/vmkgtf9} on facebook with caption {CAPTION:with my dad}
+Facebook__	PostPictureWithUrlAndWithCaption__	put {PICTURE_URL:www.tinyurl.com/vmkgtf9} on my facebook with caption {CAPTION:with my dad}
+Facebook__	PostPictureWithUrlAndWithCaption__	caption {PICTURE_URL:www.tinyurl.com/vmkgtf9} as {CAPTION:with my dad} and post it on facebook
+Facebook__	PostPictureWithUrlAndWithCaption__	caption {PICTURE_URL:www.tinyurl.com/vmkgtf9} as {CAPTION:with my dad} and upload it on facebook
+Facebook__	ShowAlbumWithName__	show photos in my album {ALBUM:holidays}
+Facebook__	ShowAlbumWithName__	show photos in my album {ALBUM:cats} on facebook
+Facebook__	ShowAlbumWithName__	show photos in the album {ALBUM:memes}
+Facebook__	ShowAlbumWithName__	show photos in the album {ALBUM:holidays in jamaica} on facebook
+Facebook__	ShowAlbumWithName__	show my photos in my album {ALBUM:barcelona}
+Facebook__	ShowAlbumWithName__	show my photos in my album {ALBUM:my love} on facebook
+Facebook__	ShowAlbumWithName__	show my photos in the album {ALBUM:holidays}
+Facebook__	ShowAlbumWithName__	show my photos in the album {ALBUM:cats} on facebook
+Facebook__	ShowAlbumWithName__	display photos in my album {ALBUM:memes}
+Facebook__	ShowAlbumWithName__	display photos in my album {ALBUM:holidays in jamaica} on facebook
+Facebook__	ShowAlbumWithName__	display photos in the album {ALBUM:barcelona}
+Facebook__	ShowAlbumWithName__	display photos in the album {ALBUM:my love} on facebook
+Facebook__	ShowAlbumWithName__	display my photos in my album {ALBUM:holidays}
+Facebook__	ShowAlbumWithName__	display my photos in my album {ALBUM:cats} on facebook
+Facebook__	ShowAlbumWithName__	display my photos in the album {ALBUM:memes}
+Facebook__	ShowAlbumWithName__	display my photos in the album {ALBUM:holidays in jamaica} on facebook
+Facebook__	ShowAlbumWithName__	find photos in my album {ALBUM:barcelona}
+Facebook__	ShowAlbumWithName__	find photos in my album {ALBUM:my love} on facebook
+Facebook__	ShowAlbumWithName__	find photos in the album {ALBUM:holidays}
+Facebook__	ShowAlbumWithName__	find photos in the album {ALBUM:cats} on facebook
+Facebook__	ShowAlbumWithName__	find my photos in my album {ALBUM:memes}
+Facebook__	ShowAlbumWithName__	find my photos in my album {ALBUM:holidays in jamaica} on facebook
+Facebook__	ShowAlbumWithName__	find my photos in the album {ALBUM:barcelona}
+Facebook__	ShowAlbumWithName__	find my photos in the album {ALBUM:my love} on facebook
+Facebook__	ShowAlbumWithName__	search for photos in my album {ALBUM:holidays}
+Facebook__	ShowAlbumWithName__	search for photos in my album {ALBUM:cats} on facebook
+Facebook__	ShowAlbumWithName__	search for photos in the album {ALBUM:memes}
+Facebook__	ShowAlbumWithName__	search for photos in the album {ALBUM:holidays in jamaica} on facebook
+Facebook__	ShowAlbumWithName__	search for my photos in my album {ALBUM:barcelona}
+Facebook__	ShowAlbumWithName__	search for my photos in my album {ALBUM:my love} on facebook
+Facebook__	ShowAlbumWithName__	search for my photos in the album {ALBUM:holidays}
+Facebook__	ShowAlbumWithName__	search for my photos in the album {ALBUM:cats} on facebook
