@@ -1,575 +1,574 @@
-domain	intent	parallel	pattern
-Spotify	OpenSpotify	-	open spotify
-Spotify	OpenSpotify	-	open spotify and play some music
-Spotify	OpenSpotify	-	open spotify to play some music
-Spotify	OpenSpotify	-	launch spotify
-Spotify	OpenSpotify	-	launch spotify and play some music
-Spotify	OpenSpotify	-	launch spotify to play some music
-Spotify	OpenSpotify	-	run spotify
-Spotify	OpenSpotify	-	run spotify and play some music
-Spotify	OpenSpotify	-	run spotify to play some music
-Spotify	OpenSpotify	-	use spotify
-Spotify	OpenSpotify	-	use spotify and play some music
-Spotify	OpenSpotify	-	use spotify to play some music
-Spotify	OpenSpotify	-	play some music on spotify
-Spotify	PlaySong	-	play SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	play SPOTIFY.SLOT.SONG on spotify
-Spotify	PlaySong	-	play the song SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	play the song SPOTIFY.SLOT.SONG on spotify
-Spotify	PlaySong	-	play a song SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	play a song SPOTIFY.SLOT.SONG on spotify
-Spotify	PlaySong	-	on spotify play SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	i want to listen to SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	i want to listen to SPOTIFY.SLOT.SONG on spotify
-Spotify	PlaySongByArtist	-	play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify
-Spotify	PlaySongByArtist	-	play the song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	play the song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify
-Spotify	PlaySongByArtist	-	play a song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	play a song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify
-Spotify	PlaySongByArtist	-	on spotify play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	i want to listen to SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	i want to listen to SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify
-Spotify	PlayAlbumOfTypeByArtist	-	play SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	play SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
-Spotify	PlayAlbumOfTypeByArtist	-	play the SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	play the SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
-Spotify	PlayAlbumOfTypeByArtist	-	play the SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	play the SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
-Spotify	PlayAlbumOfTypeByArtist	-	play a SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	play a SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
-Spotify	PlayAlbumOfTypeByArtist	-	play an SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	play an SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
-Spotify	PlayAlbumOfTypeByArtist	-	on spotify play a SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	on spotify play an SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
-Spotify	Pause	-	play spotify
-Spotify	Pause	-	play my spotify
-Spotify	Pause	-	play this song
-Spotify	Pause	-	play this track
-Spotify	Pause	-	play that song
-Spotify	Pause	-	play that track
-Spotify	Pause	-	pause spotify
-Spotify	Pause	-	pause my spotify
-Spotify	Pause	-	pause this song
-Spotify	Pause	-	pause this track
-Spotify	Pause	-	pause that song
-Spotify	Pause	-	pause that track
-Spotify	Pause	-	resume spotify
-Spotify	Pause	-	resume my spotify
-Spotify	Pause	-	resume this song
-Spotify	Pause	-	resume this track
-Spotify	Pause	-	resume that song
-Spotify	Pause	-	resume that track
-Spotify	Pause	-	repeat spotify
-Spotify	Pause	-	repeat my spotify
-Spotify	Pause	-	repeat this song
-Spotify	Pause	-	repeat this track
-Spotify	Pause	-	repeat that song
-Spotify	Pause	-	repeat that track
-Spotify	NextSong	-	play next song
-Spotify	NextSong	-	play next song on spotify
-Spotify	NextSong	-	play next track
-Spotify	NextSong	-	play next track on spotify
-Spotify	NextSong	-	play the next song
-Spotify	NextSong	-	play the next song on spotify
-Spotify	NextSong	-	play the next track
-Spotify	NextSong	-	play the next track on spotify
-Spotify	NextSong	-	skip this song
-Spotify	NextSong	-	skip this song on spotify
-Spotify	NextSong	-	skip this track
-Spotify	NextSong	-	skip this track on spotify
-Spotify	NextSong	-	skip than song
-Spotify	NextSong	-	skip than song on spotify
-Spotify	NextSong	-	skip than track
-Spotify	NextSong	-	skip than track on spotify
-Spotify	PreviousSong	-	go back
-Spotify	PreviousSong	-	go back to the last song
-Spotify	PreviousSong	-	go back to the last track
-Spotify	PreviousSong	-	play the previous song
-Spotify	PreviousSong	-	play the previous song on spotify
-Spotify	PreviousSong	-	play the previous track
-Spotify	PreviousSong	-	play the previous track on spotify
-Spotify	PreviousSong	-	play the last song
-Spotify	PreviousSong	-	play the last song on spotify
-Spotify	PreviousSong	-	play the last track
-Spotify	PreviousSong	-	play the last track on spotify
-Spotify	PlayPlaylist	-	play playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	play playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	PlayPlaylist	-	play my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	play my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	PlayPlaylist	-	play SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	PlayPlaylist	-	play SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	PlayPlaylist	-	play the playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	play the playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	PlayPlaylist	-	play the my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	play the my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	PlayPlaylist	-	play the SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	PlayPlaylist	-	play the SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	PlayPlaylist	-	play a playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	play a playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	PlayPlaylist	-	play a my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	play a my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	PlayPlaylist	-	play a SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	PlayPlaylist	-	play a SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	add to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	add to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	add song to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add song to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add song to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	add song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	add track to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add track to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add track to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	add track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	add this to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add this to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add this to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add this to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add this to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	add this to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	add this song to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add this song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add this song to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add this song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add this song to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	add this song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	add this track to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add this track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add this track to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add this track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add this track to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	add this track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	add that to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add that to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add that to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add that to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add that to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	add that to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	add that song to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add that song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add that song to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add that song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add that song to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	add that song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	add that track to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add that track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add that track to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add that track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add that track to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	add that track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	add currently playing to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add currently playing to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add currently playing to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add currently playing to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add currently playing to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	add currently playing to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	add currently playing song to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add currently playing song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add currently playing song to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add currently playing song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add currently playing song to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	add currently playing song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	add currently playing track to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add currently playing track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add currently playing track to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	add currently playing track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	add currently playing track to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	add currently playing track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	save to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	save to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	save song to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save song to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save song to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	save song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	save track to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save track to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save track to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	save track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	save this to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save this to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save this to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save this to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save this to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	save this to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	save this song to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save this song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save this song to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save this song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save this song to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	save this song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	save this track to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save this track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save this track to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save this track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save this track to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	save this track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	save that to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save that to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save that to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save that to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save that to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	save that to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	save that song to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save that song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save that song to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save that song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save that song to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	save that song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	save that track to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save that track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save that track to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save that track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save that track to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	save that track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	save currently playing to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save currently playing to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save currently playing to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save currently playing to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save currently playing to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	save currently playing to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	save currently playing song to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save currently playing song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save currently playing song to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save currently playing song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save currently playing song to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	save currently playing song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongToPlaylistWithName	-	save currently playing track to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save currently playing track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save currently playing track to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	save currently playing track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongToPlaylistWithName	-	save currently playing track to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongToPlaylistWithName	-	save currently playing track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	add SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	add song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	add track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add the SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add the SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add the SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add the SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add the SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	add the SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add the song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add the song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add the song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add the song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add the song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	add the song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add the track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add the track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add the track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add the track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add the track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	add the track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add a SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add a SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add a SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add a SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add a SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	add a SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add a song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add a song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add a song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add a song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add a song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	add a song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add a track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add a track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add a track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	add a track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	add a track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	add a track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	save SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	save song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	save track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save the SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save the SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save the SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save the SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save the SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	save the SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save the song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save the song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save the song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save the song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save the song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	save the song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save the track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save the track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save the track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save the track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save the track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	save the track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save a SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save a SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save a SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save a SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save a SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	save a SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save a song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save a song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save a song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save a song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save a song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	save a song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save a track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save a track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save a track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	save a track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddSongWithNameToPlaylistWithName	-	save a track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddSongWithNameToPlaylistWithName	-	save a track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist
-Spotify	AddAlbumToPlaylist	-	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
-Spotify	CreatePlaylist	-	create playlist
-Spotify	CreatePlaylist	-	create list
-Spotify	CreatePlaylist	-	create new playlist
-Spotify	CreatePlaylist	-	create new list
-Spotify	CreatePlaylist	-	create a playlist
-Spotify	CreatePlaylist	-	create a list
-Spotify	CreatePlaylist	-	create a new playlist
-Spotify	CreatePlaylist	-	create a new list
-Spotify	CreatePlaylist	-	make playlist
-Spotify	CreatePlaylist	-	make list
-Spotify	CreatePlaylist	-	make new playlist
-Spotify	CreatePlaylist	-	make new list
-Spotify	CreatePlaylist	-	make a playlist
-Spotify	CreatePlaylist	-	make a list
-Spotify	CreatePlaylist	-	make a new playlist
-Spotify	CreatePlaylist	-	make a new list
-Spotify	CreatePlaylist	-	add playlist
-Spotify	CreatePlaylist	-	add list
-Spotify	CreatePlaylist	-	add new playlist
-Spotify	CreatePlaylist	-	add new list
-Spotify	CreatePlaylist	-	add a playlist
-Spotify	CreatePlaylist	-	add a list
-Spotify	CreatePlaylist	-	add a new playlist
-Spotify	CreatePlaylist	-	add a new list
-Spotify	CreatePlaylistWithName	-	create playlist named SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	create playlist titled SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	create new playlist named SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	create new playlist titled SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	create a playlist named SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	create a playlist titled SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	create a new playlist named SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	create a new playlist titled SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	make playlist named SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	make playlist titled SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	make new playlist named SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	make new playlist titled SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	make a playlist named SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	make a playlist titled SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	make a new playlist named SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	make a new playlist titled SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	add playlist named SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	add playlist titled SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	add new playlist named SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	add new playlist titled SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	add a playlist named SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	add a playlist titled SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	add a new playlist named SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	add a new playlist titled SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylist	-	save current song
-Spotify	AddSongToPlaylist	-	save current track
-Spotify	AddSongToPlaylist	-	save the current song
-Spotify	AddSongToPlaylist	-	save the current track
-Spotify	AddSongToPlaylist	-	save whatever's playing to my library
-Spotify	AddSongToPlaylist	-	save whatever's playing now to my library
-Spotify	AddSongToPlaylist	-	save this song
-Spotify	AddSongToPlaylist	-	save this track
-Spotify	AddSongToPlaylist	-	save that song
-Spotify	AddSongToPlaylist	-	save that track
-Spotify	SeekByTime	-	seek to SPOTIFY.SLOT.SEEK_TIME seconds in
-Spotify	SeekByTime	-	skip to SPOTIFY.SLOT.SEEK_TIME seconds
-Spotify	SeekByTime	-	go to SPOTIFY.SLOT.SEEK_TIME seconds
-Spotify	ShuffleOnOff	-	turn shuffle SPOTIFY.SLOT.STATE
-Spotify	ShuffleOnOff	-	turn SPOTIFY.SLOT.STATE shuffle
-Spotify	RepeatOnOff	-	turn SPOTIFY.SLOT.STATE repeat
-Spotify	ShowDanceability	-	how danceable is current song
-Spotify	ShowDanceability	-	how danceable is current track
-Spotify	ShowDanceability	-	how danceable is this song
-Spotify	ShowDanceability	-	how danceable is this track
-Spotify	ShowDanceability	-	how danceable is that song
-Spotify	ShowDanceability	-	how danceable is that track
-Spotify	ShowDanceability	-	how danceable is the current song
-Spotify	ShowDanceability	-	how danceable is the current track
-Spotify	ShowDanceability	-	how danceable is the this song
-Spotify	ShowDanceability	-	how danceable is the this track
-Spotify	ShowDanceability	-	how danceable is the that song
-Spotify	ShowDanceability	-	how danceable is the that track
-Spotify	ShowDanceability	-	how dancey is current song
-Spotify	ShowDanceability	-	how dancey is current track
-Spotify	ShowDanceability	-	how dancey is this song
-Spotify	ShowDanceability	-	how dancey is this track
-Spotify	ShowDanceability	-	how dancey is that song
-Spotify	ShowDanceability	-	how dancey is that track
-Spotify	ShowDanceability	-	how dancey is the current song
-Spotify	ShowDanceability	-	how dancey is the current track
-Spotify	ShowDanceability	-	how dancey is the this song
-Spotify	ShowDanceability	-	how dancey is the this track
-Spotify	ShowDanceability	-	how dancey is the that song
-Spotify	ShowDanceability	-	how dancey is the that track
-Spotify	ShowDanceability	-	danceability of current song
-Spotify	ShowDanceability	-	danceability of current track
-Spotify	ShowDanceability	-	danceability of this song
-Spotify	ShowDanceability	-	danceability of this track
-Spotify	ShowDanceability	-	danceability of that song
-Spotify	ShowDanceability	-	danceability of that track
-Spotify	ShowDanceability	-	danceability of the current song
-Spotify	ShowDanceability	-	danceability of the current track
-Spotify	ShowDanceability	-	danceability of the this song
-Spotify	ShowDanceability	-	danceability of the this track
-Spotify	ShowDanceability	-	danceability of the that song
-Spotify	ShowDanceability	-	danceability of the that track
-Spotify	ShowDanceability	-	the danceability of current song
-Spotify	ShowDanceability	-	the danceability of current track
-Spotify	ShowDanceability	-	the danceability of this song
-Spotify	ShowDanceability	-	the danceability of this track
-Spotify	ShowDanceability	-	the danceability of that song
-Spotify	ShowDanceability	-	the danceability of that track
-Spotify	ShowDanceability	-	the danceability of the current song
-Spotify	ShowDanceability	-	the danceability of the current track
-Spotify	ShowDanceability	-	the danceability of the this song
-Spotify	ShowDanceability	-	the danceability of the this track
-Spotify	ShowDanceability	-	the danceability of the that song
-Spotify	ShowDanceability	-	the danceability of the that track
-Spotify	ShowDanceability	-	is this song dancey
-Spotify	ShowDanceability	-	is this track dancey
+Spotify__	OpenSpotify__	open spotify
+Spotify__	OpenSpotify__	open spotify and play some music
+Spotify__	OpenSpotify__	open spotify to play some music
+Spotify__	OpenSpotify__	launch spotify
+Spotify__	OpenSpotify__	launch spotify and play some music
+Spotify__	OpenSpotify__	launch spotify to play some music
+Spotify__	OpenSpotify__	run spotify
+Spotify__	OpenSpotify__	run spotify and play some music
+Spotify__	OpenSpotify__	run spotify to play some music
+Spotify__	OpenSpotify__	use spotify
+Spotify__	OpenSpotify__	use spotify and play some music
+Spotify__	OpenSpotify__	use spotify to play some music
+Spotify__	OpenSpotify__	play some music on spotify
+Spotify__	PlaySong__	play SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	play SPOTIFY.SLOT.SONG on spotify
+Spotify__	PlaySong__	play the song SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	play the song SPOTIFY.SLOT.SONG on spotify
+Spotify__	PlaySong__	play a song SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	play a song SPOTIFY.SLOT.SONG on spotify
+Spotify__	PlaySong__	on spotify play SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	i want to listen to SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	i want to listen to SPOTIFY.SLOT.SONG on spotify
+Spotify__	PlaySongByArtist__	play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify
+Spotify__	PlaySongByArtist__	play the song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	play the song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify
+Spotify__	PlaySongByArtist__	play a song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	play a song SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify
+Spotify__	PlaySongByArtist__	on spotify play SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	i want to listen to SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	i want to listen to SPOTIFY.SLOT.SONG by SPOTIFY.SLOT.ARTIST on spotify
+Spotify__	PlayAlbumOfTypeByArtist__	play SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify__	PlayAlbumOfTypeByArtist__	play SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
+Spotify__	PlayAlbumOfTypeByArtist__	play the SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify__	PlayAlbumOfTypeByArtist__	play the SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
+Spotify__	PlayAlbumOfTypeByArtist__	play the SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify__	PlayAlbumOfTypeByArtist__	play the SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
+Spotify__	PlayAlbumOfTypeByArtist__	play a SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify__	PlayAlbumOfTypeByArtist__	play a SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
+Spotify__	PlayAlbumOfTypeByArtist__	play an SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify__	PlayAlbumOfTypeByArtist__	play an SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST on spotify
+Spotify__	PlayAlbumOfTypeByArtist__	on spotify play a SPOTIFY.SLOT.ALBUM_TYPE_A SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify__	PlayAlbumOfTypeByArtist__	on spotify play an SPOTIFY.SLOT.ALBUM_TYPE_AN SPOTIFY.SLOT.ALBUM by SPOTIFY.SLOT.ARTIST
+Spotify__	Pause__	play spotify
+Spotify__	Pause__	play my spotify
+Spotify__	Pause__	play this song
+Spotify__	Pause__	play this track
+Spotify__	Pause__	play that song
+Spotify__	Pause__	play that track
+Spotify__	Pause__	pause spotify
+Spotify__	Pause__	pause my spotify
+Spotify__	Pause__	pause this song
+Spotify__	Pause__	pause this track
+Spotify__	Pause__	pause that song
+Spotify__	Pause__	pause that track
+Spotify__	Pause__	resume spotify
+Spotify__	Pause__	resume my spotify
+Spotify__	Pause__	resume this song
+Spotify__	Pause__	resume this track
+Spotify__	Pause__	resume that song
+Spotify__	Pause__	resume that track
+Spotify__	Pause__	repeat spotify
+Spotify__	Pause__	repeat my spotify
+Spotify__	Pause__	repeat this song
+Spotify__	Pause__	repeat this track
+Spotify__	Pause__	repeat that song
+Spotify__	Pause__	repeat that track
+Spotify__	NextSong__	play next song
+Spotify__	NextSong__	play next song on spotify
+Spotify__	NextSong__	play next track
+Spotify__	NextSong__	play next track on spotify
+Spotify__	NextSong__	play the next song
+Spotify__	NextSong__	play the next song on spotify
+Spotify__	NextSong__	play the next track
+Spotify__	NextSong__	play the next track on spotify
+Spotify__	NextSong__	skip this song
+Spotify__	NextSong__	skip this song on spotify
+Spotify__	NextSong__	skip this track
+Spotify__	NextSong__	skip this track on spotify
+Spotify__	NextSong__	skip than song
+Spotify__	NextSong__	skip than song on spotify
+Spotify__	NextSong__	skip than track
+Spotify__	NextSong__	skip than track on spotify
+Spotify__	PreviousSong__	go back
+Spotify__	PreviousSong__	go back to the last song
+Spotify__	PreviousSong__	go back to the last track
+Spotify__	PreviousSong__	play the previous song
+Spotify__	PreviousSong__	play the previous song on spotify
+Spotify__	PreviousSong__	play the previous track
+Spotify__	PreviousSong__	play the previous track on spotify
+Spotify__	PreviousSong__	play the last song
+Spotify__	PreviousSong__	play the last song on spotify
+Spotify__	PreviousSong__	play the last track
+Spotify__	PreviousSong__	play the last track on spotify
+Spotify__	PlayPlaylist__	play playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	play playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	PlayPlaylist__	play my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	play my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	PlayPlaylist__	play SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	PlayPlaylist__	play SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	PlayPlaylist__	play the playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	play the playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	PlayPlaylist__	play the my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	play the my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	PlayPlaylist__	play the SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	PlayPlaylist__	play the SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	PlayPlaylist__	play a playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	play a playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	PlayPlaylist__	play a my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	play a my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	PlayPlaylist__	play a SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	PlayPlaylist__	play a SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	add to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	add to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	add song to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add song to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add song to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	add song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	add track to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add track to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add track to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	add track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	add this to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add this to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add this to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add this to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add this to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	add this to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	add this song to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add this song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add this song to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add this song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add this song to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	add this song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	add this track to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add this track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add this track to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add this track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add this track to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	add this track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	add that to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add that to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add that to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add that to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add that to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	add that to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	add that song to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add that song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add that song to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add that song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add that song to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	add that song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	add that track to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add that track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add that track to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add that track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add that track to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	add that track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	add currently playing to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add currently playing to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add currently playing to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add currently playing to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add currently playing to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	add currently playing to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	add currently playing song to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add currently playing song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add currently playing song to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add currently playing song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add currently playing song to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	add currently playing song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	add currently playing track to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add currently playing track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add currently playing track to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	add currently playing track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	add currently playing track to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	add currently playing track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	save to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	save to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	save song to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save song to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save song to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	save song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	save track to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save track to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save track to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	save track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	save this to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save this to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save this to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save this to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save this to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	save this to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	save this song to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save this song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save this song to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save this song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save this song to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	save this song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	save this track to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save this track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save this track to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save this track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save this track to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	save this track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	save that to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save that to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save that to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save that to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save that to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	save that to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	save that song to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save that song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save that song to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save that song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save that song to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	save that song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	save that track to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save that track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save that track to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save that track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save that track to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	save that track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	save currently playing to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save currently playing to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save currently playing to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save currently playing to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save currently playing to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	save currently playing to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	save currently playing song to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save currently playing song to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save currently playing song to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save currently playing song to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save currently playing song to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	save currently playing song to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongToPlaylistWithName__	save currently playing track to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save currently playing track to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save currently playing track to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	save currently playing track to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongToPlaylistWithName__	save currently playing track to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongToPlaylistWithName__	save currently playing track to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	add SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	add song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	add track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add the SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add the SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add the SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add the SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add the SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	add the SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add the song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add the song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add the song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add the song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add the song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	add the song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add the track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add the track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add the track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add the track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add the track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	add the track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add a SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add a SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add a SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add a SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add a SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	add a SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add a song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add a song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add a song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add a song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add a song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	add a song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add a track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add a track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add a track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	add a track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	add a track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	add a track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	save SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	save song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	save track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save the SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save the SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save the SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save the SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save the SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	save the SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save the song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save the song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save the song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save the song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save the song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	save the song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save the track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save the track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save the track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save the track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save the track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	save the track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save a SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save a SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save a SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save a SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save a SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	save a SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save a song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save a song SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save a song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save a song SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save a song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	save a song SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save a track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save a track SPOTIFY.SLOT.SONG to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save a track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	save a track SPOTIFY.SLOT.SONG to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddSongWithNameToPlaylistWithName__	save a track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddSongWithNameToPlaylistWithName__	save a track SPOTIFY.SLOT.SONG to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	add this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	add that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	save this SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_A to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_A to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_A to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my playlist SPOTIFY.SLOT.PLAYLIST on spotify
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist
+Spotify__	AddAlbumToPlaylist__	save that SPOTIFY.SLOT.ALBUM_TYPE_AN to my SPOTIFY.SLOT.PLAYLIST playlist on spotify
+Spotify__	CreatePlaylist__	create playlist
+Spotify__	CreatePlaylist__	create list
+Spotify__	CreatePlaylist__	create new playlist
+Spotify__	CreatePlaylist__	create new list
+Spotify__	CreatePlaylist__	create a playlist
+Spotify__	CreatePlaylist__	create a list
+Spotify__	CreatePlaylist__	create a new playlist
+Spotify__	CreatePlaylist__	create a new list
+Spotify__	CreatePlaylist__	make playlist
+Spotify__	CreatePlaylist__	make list
+Spotify__	CreatePlaylist__	make new playlist
+Spotify__	CreatePlaylist__	make new list
+Spotify__	CreatePlaylist__	make a playlist
+Spotify__	CreatePlaylist__	make a list
+Spotify__	CreatePlaylist__	make a new playlist
+Spotify__	CreatePlaylist__	make a new list
+Spotify__	CreatePlaylist__	add playlist
+Spotify__	CreatePlaylist__	add list
+Spotify__	CreatePlaylist__	add new playlist
+Spotify__	CreatePlaylist__	add new list
+Spotify__	CreatePlaylist__	add a playlist
+Spotify__	CreatePlaylist__	add a list
+Spotify__	CreatePlaylist__	add a new playlist
+Spotify__	CreatePlaylist__	add a new list
+Spotify__	CreatePlaylistWithName__	create playlist named SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	create playlist titled SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	create new playlist named SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	create new playlist titled SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	create a playlist named SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	create a playlist titled SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	create a new playlist named SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	create a new playlist titled SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	make playlist named SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	make playlist titled SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	make new playlist named SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	make new playlist titled SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	make a playlist named SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	make a playlist titled SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	make a new playlist named SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	make a new playlist titled SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	add playlist named SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	add playlist titled SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	add new playlist named SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	add new playlist titled SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	add a playlist named SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	add a playlist titled SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	add a new playlist named SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	add a new playlist titled SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylist__	save current song
+Spotify__	AddSongToPlaylist__	save current track
+Spotify__	AddSongToPlaylist__	save the current song
+Spotify__	AddSongToPlaylist__	save the current track
+Spotify__	AddSongToPlaylist__	save whatever's playing to my library
+Spotify__	AddSongToPlaylist__	save whatever's playing now to my library
+Spotify__	AddSongToPlaylist__	save this song
+Spotify__	AddSongToPlaylist__	save this track
+Spotify__	AddSongToPlaylist__	save that song
+Spotify__	AddSongToPlaylist__	save that track
+Spotify__	SeekByTime__	seek to SPOTIFY.SLOT.SEEK_TIME seconds in
+Spotify__	SeekByTime__	skip to SPOTIFY.SLOT.SEEK_TIME seconds
+Spotify__	SeekByTime__	go to SPOTIFY.SLOT.SEEK_TIME seconds
+Spotify__	ShuffleOnOff__	turn shuffle SPOTIFY.SLOT.STATE
+Spotify__	ShuffleOnOff__	turn SPOTIFY.SLOT.STATE shuffle
+Spotify__	RepeatOnOff__	turn SPOTIFY.SLOT.STATE repeat
+Spotify__	ShowDanceability__	how danceable is current song
+Spotify__	ShowDanceability__	how danceable is current track
+Spotify__	ShowDanceability__	how danceable is this song
+Spotify__	ShowDanceability__	how danceable is this track
+Spotify__	ShowDanceability__	how danceable is that song
+Spotify__	ShowDanceability__	how danceable is that track
+Spotify__	ShowDanceability__	how danceable is the current song
+Spotify__	ShowDanceability__	how danceable is the current track
+Spotify__	ShowDanceability__	how danceable is the this song
+Spotify__	ShowDanceability__	how danceable is the this track
+Spotify__	ShowDanceability__	how danceable is the that song
+Spotify__	ShowDanceability__	how danceable is the that track
+Spotify__	ShowDanceability__	how dancey is current song
+Spotify__	ShowDanceability__	how dancey is current track
+Spotify__	ShowDanceability__	how dancey is this song
+Spotify__	ShowDanceability__	how dancey is this track
+Spotify__	ShowDanceability__	how dancey is that song
+Spotify__	ShowDanceability__	how dancey is that track
+Spotify__	ShowDanceability__	how dancey is the current song
+Spotify__	ShowDanceability__	how dancey is the current track
+Spotify__	ShowDanceability__	how dancey is the this song
+Spotify__	ShowDanceability__	how dancey is the this track
+Spotify__	ShowDanceability__	how dancey is the that song
+Spotify__	ShowDanceability__	how dancey is the that track
+Spotify__	ShowDanceability__	danceability of current song
+Spotify__	ShowDanceability__	danceability of current track
+Spotify__	ShowDanceability__	danceability of this song
+Spotify__	ShowDanceability__	danceability of this track
+Spotify__	ShowDanceability__	danceability of that song
+Spotify__	ShowDanceability__	danceability of that track
+Spotify__	ShowDanceability__	danceability of the current song
+Spotify__	ShowDanceability__	danceability of the current track
+Spotify__	ShowDanceability__	danceability of the this song
+Spotify__	ShowDanceability__	danceability of the this track
+Spotify__	ShowDanceability__	danceability of the that song
+Spotify__	ShowDanceability__	danceability of the that track
+Spotify__	ShowDanceability__	the danceability of current song
+Spotify__	ShowDanceability__	the danceability of current track
+Spotify__	ShowDanceability__	the danceability of this song
+Spotify__	ShowDanceability__	the danceability of this track
+Spotify__	ShowDanceability__	the danceability of that song
+Spotify__	ShowDanceability__	the danceability of that track
+Spotify__	ShowDanceability__	the danceability of the current song
+Spotify__	ShowDanceability__	the danceability of the current track
+Spotify__	ShowDanceability__	the danceability of the this song
+Spotify__	ShowDanceability__	the danceability of the this track
+Spotify__	ShowDanceability__	the danceability of the that song
+Spotify__	ShowDanceability__	the danceability of the that track
+Spotify__	ShowDanceability__	is this song dancey
+Spotify__	ShowDanceability__	is this track dancey

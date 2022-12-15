@@ -1,175 +1,174 @@
-domain	intent	parallel	pattern
-Phone	CallNumber	-	dzwoń na PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	dzwoń na numer PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	dzwoń do PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	zadzwoń na PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	zadzwoń na numer PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	zadzwoń do PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	telefonuj na PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	telefonuj na numer PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	telefonuj do PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	zatelefonuj na PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	zatelefonuj na numer PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	zatelefonuj do PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	przedzwoń na PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	przedzwoń na numer PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	przedzwoń do PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	wybierz PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	wybierz numer PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	wykonaj telefon do PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	wykonaj telefon na numer PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	połącz mnie z PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	połącz mnie z numerem PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	PHONE.SLOT.PHONE_NUMBER dzwoń
-Phone	CallNumber	-	PHONE.SLOT.PHONE_NUMBER zadzwoń
-Phone	CallNumber	-	PHONE.SLOT.PHONE_NUMBER wybierz
-Phone	CallEmergency	-	dzwoń na policję
-Phone	CallEmergency	-	dzwoń na straż pożarną
-Phone	CallEmergency	-	dzwoń na pogotowie
-Phone	CallEmergency	-	dzwoń po policję
-Phone	CallEmergency	-	dzwoń po straż pożarną
-Phone	CallEmergency	-	dzwoń po pogotowie
-Phone	CallEmergency	-	dzwoń na 112
-Phone	CallEmergency	-	dzwoń po karetkę
-Phone	CallEmergency	-	dzwoń na numer alarmowy
-Phone	CallEmergency	-	zadzwoń na policję
-Phone	CallEmergency	-	zadzwoń na straż pożarną
-Phone	CallEmergency	-	zadzwoń na pogotowie
-Phone	CallEmergency	-	zadzwoń po policję
-Phone	CallEmergency	-	zadzwoń po straż pożarną
-Phone	CallEmergency	-	zadzwoń po pogotowie
-Phone	CallEmergency	-	zadzwoń na 112
-Phone	CallEmergency	-	zadzwoń po karetkę
-Phone	CallEmergency	-	zadzwoń na numer alarmowy
-Phone	CallEmergency	-	telefonuj na policję
-Phone	CallEmergency	-	telefonuj na straż pożarną
-Phone	CallEmergency	-	telefonuj na pogotowie
-Phone	CallEmergency	-	telefonuj po policję
-Phone	CallEmergency	-	telefonuj po straż pożarną
-Phone	CallEmergency	-	telefonuj po pogotowie
-Phone	CallEmergency	-	telefonuj na 112
-Phone	CallEmergency	-	telefonuj po karetkę
-Phone	CallEmergency	-	telefonuj na numer alarmowy
-Phone	CallEmergency	-	zatelefonuj na policję
-Phone	CallEmergency	-	zatelefonuj na straż pożarną
-Phone	CallEmergency	-	zatelefonuj na pogotowie
-Phone	CallEmergency	-	zatelefonuj po policję
-Phone	CallEmergency	-	zatelefonuj po straż pożarną
-Phone	CallEmergency	-	zatelefonuj po pogotowie
-Phone	CallEmergency	-	zatelefonuj na 112
-Phone	CallEmergency	-	zatelefonuj po karetkę
-Phone	CallEmergency	-	zatelefonuj na numer alarmowy
-Phone	CallEmergency	-	przedzwoń na policję
-Phone	CallEmergency	-	przedzwoń na straż pożarną
-Phone	CallEmergency	-	przedzwoń na pogotowie
-Phone	CallEmergency	-	przedzwoń po policję
-Phone	CallEmergency	-	przedzwoń po straż pożarną
-Phone	CallEmergency	-	przedzwoń po pogotowie
-Phone	CallEmergency	-	przedzwoń na 112
-Phone	CallEmergency	-	przedzwoń po karetkę
-Phone	CallEmergency	-	przedzwoń na numer alarmowy
-Phone	CallEmergency	-	wezwij pomoc
-Phone	ShowSMS	-	sprawdź moje wiadomości
-Phone	ShowSMS	-	sprawdź moje smsy
-Phone	ShowSMS	-	sprawdź moje przychodzące wiadomości
-Phone	ShowSMS	-	sprawdź moje przychodzące smsy
-Phone	ShowSMS	-	sprawdź odebrane wiadomości
-Phone	ShowSMS	-	sprawdź odebrane smsy
-Phone	ShowSMS	-	wyświetl moje wiadomości
-Phone	ShowSMS	-	wyświetl moje smsy
-Phone	ShowSMS	-	wyświetl moje przychodzące wiadomości
-Phone	ShowSMS	-	wyświetl moje przychodzące smsy
-Phone	ShowSMS	-	wyświetl odebrane wiadomości
-Phone	ShowSMS	-	wyświetl odebrane smsy
-Phone	ShowSMS	-	pokaż moje wiadomości
-Phone	ShowSMS	-	pokaż moje smsy
-Phone	ShowSMS	-	pokaż moje przychodzące wiadomości
-Phone	ShowSMS	-	pokaż moje przychodzące smsy
-Phone	ShowSMS	-	pokaż odebrane wiadomości
-Phone	ShowSMS	-	pokaż odebrane smsy
-Phone	ShowSMS	-	otwórz moje wiadomości
-Phone	ShowSMS	-	otwórz moje smsy
-Phone	ShowSMS	-	otwórz moje przychodzące wiadomości
-Phone	ShowSMS	-	otwórz moje przychodzące smsy
-Phone	ShowSMS	-	otwórz odebrane wiadomości
-Phone	ShowSMS	-	otwórz odebrane smsy
-Phone	ShowSMS	-	sprawdź wiadomości które dostałem
-Phone	ShowSMS	-	sprawdź wiadomości które do mnie przyszły
-Phone	ShowSMS	-	sprawdź smsy które dostałem
-Phone	ShowSMS	-	sprawdź smsy które do mnie przyszły
-Phone	ShowSMS	-	wyświetl wiadomości które dostałem
-Phone	ShowSMS	-	wyświetl wiadomości które do mnie przyszły
-Phone	ShowSMS	-	wyświetl smsy które dostałem
-Phone	ShowSMS	-	wyświetl smsy które do mnie przyszły
-Phone	ShowSMS	-	pokaż wiadomości które dostałem
-Phone	ShowSMS	-	pokaż wiadomości które do mnie przyszły
-Phone	ShowSMS	-	pokaż smsy które dostałem
-Phone	ShowSMS	-	pokaż smsy które do mnie przyszły
-Phone	ShowSMS	-	otwórz wiadomości które dostałem
-Phone	ShowSMS	-	otwórz wiadomości które do mnie przyszły
-Phone	ShowSMS	-	otwórz smsy które dostałem
-Phone	ShowSMS	-	otwórz smsy które do mnie przyszły
-Phone	SMSToContact	-	wyślij sms do PHONE.SLOT.TO
-Phone	SMSToContact	-	wyślij wiadomość do PHONE.SLOT.TO
-Phone	SMSToContact	-	wyślij wiadomość tekstową do PHONE.SLOT.TO
-Phone	SMSToContact	-	nadaj sms do PHONE.SLOT.TO
-Phone	SMSToContact	-	nadaj wiadomość do PHONE.SLOT.TO
-Phone	SMSToContact	-	nadaj wiadomość tekstową do PHONE.SLOT.TO
-Phone	SMSToContact	-	napisz sms do PHONE.SLOT.TO
-Phone	SMSToContact	-	napisz wiadomość do PHONE.SLOT.TO
-Phone	SMSToContact	-	napisz wiadomość tekstową do PHONE.SLOT.TO
-Phone	SMSToContact	-	prześlij sms do PHONE.SLOT.TO
-Phone	SMSToContact	-	prześlij wiadomość do PHONE.SLOT.TO
-Phone	SMSToContact	-	prześlij wiadomość tekstową do PHONE.SLOT.TO
-Phone	SMSToContact	-	wiadomość do PHONE.SLOT.TO
-Phone	SMSToContact	-	wiadomość sms do PHONE.SLOT.TO
-Phone	SMSToContact	-	wiadomość tekstową do PHONE.SLOT.TO
-Phone	SMSToContact	-	napisz do PHONE.SLOT.TO wiadomość
-Phone	SMSToContact	-	napisz do PHONE.SLOT.TO wiadomość tekstową
-Phone	SMSToContact	-	napisz do PHONE.SLOT.TO sms
-Phone	SMSToContact	-	sms do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	sms do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	wiadomość do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	wiadomość tekstową do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	wyślij sms do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	wyślij wiadomość do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	wyślij wiadomość tekstową do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	nadaj sms do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	nadaj wiadomość do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	nadaj wiadomość tekstową do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	napisz sms do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	napisz wiadomość do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	napisz wiadomość tekstową do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	prześlij sms do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	prześlij wiadomość do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	prześlij wiadomość tekstową do PHONE.SLOT.TO o treści PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	sms PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	sms o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	wiadomość PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	wiadomość o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	wiadomość tekstową PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	wiadomość tekstową o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	wyślij sms PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	wyślij sms o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	wyślij wiadomość PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	wyślij wiadomość o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	wyślij wiadomość tekstową PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	wyślij wiadomość tekstową o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	nadaj sms PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	nadaj sms o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	nadaj wiadomość PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	nadaj wiadomość o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	nadaj wiadomość tekstową PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	nadaj wiadomość tekstową o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	napisz sms PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	napisz sms o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	napisz wiadomość PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	napisz wiadomość o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	napisz wiadomość tekstową PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	napisz wiadomość tekstową o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	prześlij sms PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	prześlij sms o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	prześlij wiadomość PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	prześlij wiadomość o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	prześlij wiadomość tekstową PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	prześlij wiadomość tekstową o treści PHONE.SLOT.MESSAGE do PHONE.SLOT.TO
+Phone__	CallNumber__	dzwoń na {PHONE_NUMBER:12 264 39 28}
+Phone__	CallNumber__	dzwoń na numer {PHONE_NUMBER:68 568 12 15}
+Phone__	CallNumber__	dzwoń do {PHONE_NUMBER:41 223 70 36}
+Phone__	CallNumber__	zadzwoń na {PHONE_NUMBER:71 198 82 59}
+Phone__	CallNumber__	zadzwoń na numer {PHONE_NUMBER:793 274 738}
+Phone__	CallNumber__	zadzwoń do {PHONE_NUMBER:712 306 979}
+Phone__	CallNumber__	telefonuj na {PHONE_NUMBER:68 728 55 78}
+Phone__	CallNumber__	telefonuj na numer {PHONE_NUMBER:22 856 10 90}
+Phone__	CallNumber__	telefonuj do {PHONE_NUMBER:13 156 79 91}
+Phone__	CallNumber__	zatelefonuj na {PHONE_NUMBER:742 366 599}
+Phone__	CallNumber__	zatelefonuj na numer {PHONE_NUMBER:95 833 60 66}
+Phone__	CallNumber__	zatelefonuj do {PHONE_NUMBER:578 412 956}
+Phone__	CallNumber__	przedzwoń na {PHONE_NUMBER:29 280 41 56}
+Phone__	CallNumber__	przedzwoń na numer {PHONE_NUMBER:655 473 239}
+Phone__	CallNumber__	przedzwoń do {PHONE_NUMBER:776 878 894}
+Phone__	CallNumber__	wybierz {PHONE_NUMBER:54 869 65 93}
+Phone__	CallNumber__	wybierz numer {PHONE_NUMBER:81 338 18 93}
+Phone__	CallNumber__	wykonaj telefon do {PHONE_NUMBER:86 945 92 15}
+Phone__	CallNumber__	wykonaj telefon na numer {PHONE_NUMBER:58 262 53 78}
+Phone__	CallNumber__	połącz mnie z {PHONE_NUMBER:679 225 267}
+Phone__	CallNumber__	połącz mnie z numerem {PHONE_NUMBER:+48 76 532 26 68}
+Phone__	CallNumber__	{PHONE_NUMBER:61 232 27 67} dzwoń
+Phone__	CallNumber__	{PHONE_NUMBER:95 960 65 39} zadzwoń
+Phone__	CallNumber__	{PHONE_NUMBER:87 566 30 83} wybierz
+Phone__	CallEmergency__	dzwoń na policję
+Phone__	CallEmergency__	dzwoń na straż pożarną
+Phone__	CallEmergency__	dzwoń na pogotowie
+Phone__	CallEmergency__	dzwoń po policję
+Phone__	CallEmergency__	dzwoń po straż pożarną
+Phone__	CallEmergency__	dzwoń po pogotowie
+Phone__	CallEmergency__	dzwoń na 112
+Phone__	CallEmergency__	dzwoń po karetkę
+Phone__	CallEmergency__	dzwoń na numer alarmowy
+Phone__	CallEmergency__	zadzwoń na policję
+Phone__	CallEmergency__	zadzwoń na straż pożarną
+Phone__	CallEmergency__	zadzwoń na pogotowie
+Phone__	CallEmergency__	zadzwoń po policję
+Phone__	CallEmergency__	zadzwoń po straż pożarną
+Phone__	CallEmergency__	zadzwoń po pogotowie
+Phone__	CallEmergency__	zadzwoń na 112
+Phone__	CallEmergency__	zadzwoń po karetkę
+Phone__	CallEmergency__	zadzwoń na numer alarmowy
+Phone__	CallEmergency__	telefonuj na policję
+Phone__	CallEmergency__	telefonuj na straż pożarną
+Phone__	CallEmergency__	telefonuj na pogotowie
+Phone__	CallEmergency__	telefonuj po policję
+Phone__	CallEmergency__	telefonuj po straż pożarną
+Phone__	CallEmergency__	telefonuj po pogotowie
+Phone__	CallEmergency__	telefonuj na 112
+Phone__	CallEmergency__	telefonuj po karetkę
+Phone__	CallEmergency__	telefonuj na numer alarmowy
+Phone__	CallEmergency__	zatelefonuj na policję
+Phone__	CallEmergency__	zatelefonuj na straż pożarną
+Phone__	CallEmergency__	zatelefonuj na pogotowie
+Phone__	CallEmergency__	zatelefonuj po policję
+Phone__	CallEmergency__	zatelefonuj po straż pożarną
+Phone__	CallEmergency__	zatelefonuj po pogotowie
+Phone__	CallEmergency__	zatelefonuj na 112
+Phone__	CallEmergency__	zatelefonuj po karetkę
+Phone__	CallEmergency__	zatelefonuj na numer alarmowy
+Phone__	CallEmergency__	przedzwoń na policję
+Phone__	CallEmergency__	przedzwoń na straż pożarną
+Phone__	CallEmergency__	przedzwoń na pogotowie
+Phone__	CallEmergency__	przedzwoń po policję
+Phone__	CallEmergency__	przedzwoń po straż pożarną
+Phone__	CallEmergency__	przedzwoń po pogotowie
+Phone__	CallEmergency__	przedzwoń na 112
+Phone__	CallEmergency__	przedzwoń po karetkę
+Phone__	CallEmergency__	przedzwoń na numer alarmowy
+Phone__	CallEmergency__	wezwij pomoc
+Phone__	ShowSMS__	sprawdź moje wiadomości
+Phone__	ShowSMS__	sprawdź moje smsy
+Phone__	ShowSMS__	sprawdź moje przychodzące wiadomości
+Phone__	ShowSMS__	sprawdź moje przychodzące smsy
+Phone__	ShowSMS__	sprawdź odebrane wiadomości
+Phone__	ShowSMS__	sprawdź odebrane smsy
+Phone__	ShowSMS__	wyświetl moje wiadomości
+Phone__	ShowSMS__	wyświetl moje smsy
+Phone__	ShowSMS__	wyświetl moje przychodzące wiadomości
+Phone__	ShowSMS__	wyświetl moje przychodzące smsy
+Phone__	ShowSMS__	wyświetl odebrane wiadomości
+Phone__	ShowSMS__	wyświetl odebrane smsy
+Phone__	ShowSMS__	pokaż moje wiadomości
+Phone__	ShowSMS__	pokaż moje smsy
+Phone__	ShowSMS__	pokaż moje przychodzące wiadomości
+Phone__	ShowSMS__	pokaż moje przychodzące smsy
+Phone__	ShowSMS__	pokaż odebrane wiadomości
+Phone__	ShowSMS__	pokaż odebrane smsy
+Phone__	ShowSMS__	otwórz moje wiadomości
+Phone__	ShowSMS__	otwórz moje smsy
+Phone__	ShowSMS__	otwórz moje przychodzące wiadomości
+Phone__	ShowSMS__	otwórz moje przychodzące smsy
+Phone__	ShowSMS__	otwórz odebrane wiadomości
+Phone__	ShowSMS__	otwórz odebrane smsy
+Phone__	ShowSMS__	sprawdź wiadomości które dostałem
+Phone__	ShowSMS__	sprawdź wiadomości które do mnie przyszły
+Phone__	ShowSMS__	sprawdź smsy które dostałem
+Phone__	ShowSMS__	sprawdź smsy które do mnie przyszły
+Phone__	ShowSMS__	wyświetl wiadomości które dostałem
+Phone__	ShowSMS__	wyświetl wiadomości które do mnie przyszły
+Phone__	ShowSMS__	wyświetl smsy które dostałem
+Phone__	ShowSMS__	wyświetl smsy które do mnie przyszły
+Phone__	ShowSMS__	pokaż wiadomości które dostałem
+Phone__	ShowSMS__	pokaż wiadomości które do mnie przyszły
+Phone__	ShowSMS__	pokaż smsy które dostałem
+Phone__	ShowSMS__	pokaż smsy które do mnie przyszły
+Phone__	ShowSMS__	otwórz wiadomości które dostałem
+Phone__	ShowSMS__	otwórz wiadomości które do mnie przyszły
+Phone__	ShowSMS__	otwórz smsy które dostałem
+Phone__	ShowSMS__	otwórz smsy które do mnie przyszły
+Phone__	SMSToContact__	wyślij sms do {TO:prosiaka}
+Phone__	SMSToContact__	wyślij wiadomość do {TO:mamy}
+Phone__	SMSToContact__	wyślij wiadomość tekstową do {TO:taty}
+Phone__	SMSToContact__	nadaj sms do {TO:ukochaniej}
+Phone__	SMSToContact__	nadaj wiadomość do {TO:męża}
+Phone__	SMSToContact__	nadaj wiadomość tekstową do {TO:erwin}
+Phone__	SMSToContact__	napisz sms do {TO:roman małecki}
+Phone__	SMSToContact__	napisz wiadomość do {TO:karol niedzielski}
+Phone__	SMSToContact__	napisz wiadomość tekstową do {TO:walentyna}
+Phone__	SMSToContact__	prześlij sms do {TO:lechosław lewicki}
+Phone__	SMSToContact__	prześlij wiadomość do {TO:krystyna szewczyk}
+Phone__	SMSToContact__	prześlij wiadomość tekstową do {TO:daniel nowak}
+Phone__	SMSToContact__	wiadomość do {TO:eugeniusz}
+Phone__	SMSToContact__	wiadomość sms do {TO:szymon małecki}
+Phone__	SMSToContact__	wiadomość tekstową do {TO:roland}
+Phone__	SMSToContact__	napisz do {TO:sławomir} wiadomość
+Phone__	SMSToContact__	napisz do {TO:helena duda} wiadomość tekstową
+Phone__	SMSToContact__	napisz do {TO:wiktor} sms
+Phone__	SMSToContact__	sms do {TO:jerzy}
+Phone__	SMSToContactWithMessage__	sms do {TO:michalina kwiatkowski} o treści {MESSAGE:zadzwoń do mnie}
+Phone__	SMSToContactWithMessage__	wiadomość do {TO:urszula malinowski} o treści {MESSAGE:co się z tobą dzieje}
+Phone__	SMSToContactWithMessage__	wiadomość tekstową do {TO:diana grec} o treści {MESSAGE:umówisz się ze mną}
+Phone__	SMSToContactWithMessage__	wyślij sms do {TO:apolonia swat} o treści {MESSAGE:co u ciebie słychać}
+Phone__	SMSToContactWithMessage__	wyślij wiadomość do {TO:jarosław lewicki} o treści {MESSAGE:czy wszytko jest ok}
+Phone__	SMSToContactWithMessage__	wyślij wiadomość tekstową do {TO:klaudiusz borkowski} o treści {MESSAGE:chyba nie}
+Phone__	SMSToContactWithMessage__	nadaj sms do {TO:julian} o treści {MESSAGE:dobra}
+Phone__	SMSToContactWithMessage__	nadaj wiadomość do {TO:mirosław krupa} o treści {MESSAGE:juz biegnę}
+Phone__	SMSToContactWithMessage__	nadaj wiadomość tekstową do {TO:leonard} o treści {MESSAGE:zaraz będę}
+Phone__	SMSToContactWithMessage__	napisz sms do {TO:rajmund stawecki} o treści {MESSAGE:przepraszam}
+Phone__	SMSToContactWithMessage__	napisz wiadomość do {TO:marzanna} o treści {MESSAGE:zapomniałem o tym}
+Phone__	SMSToContactWithMessage__	napisz wiadomość tekstową do {TO:milena gawroński} o treści {MESSAGE:pc też się średnio powiodło}
+Phone__	SMSToContactWithMessage__	prześlij sms do {TO:gracjan} o treści {MESSAGE:guyu nie idź tą drogą}
+Phone__	SMSToContactWithMessage__	prześlij wiadomość do {TO:henryka dudek} o treści {MESSAGE:gdyby babka miała wąsy to by był dziadek ?}
+Phone__	SMSToContactWithMessage__	prześlij wiadomość tekstową do {TO:benedykt czarnecki} o treści {MESSAGE:i mucha też jakaś taka wygaszona}
+Phone__	SMSToContactWithMessage__	sms {MESSAGE:jej zachowanie wskazuje na cechy niedop} do {TO:piotr}
+Phone__	SMSToContactWithMessage__	sms o treści {MESSAGE:czyli ruch petru wie co robi} do {TO:teofil}
+Phone__	SMSToContactWithMessage__	wiadomość {MESSAGE:ha ha głosuję na pis} do {TO:lena szwarc}
+Phone__	SMSToContactWithMessage__	wiadomość o treści {MESSAGE:nawet pan nizinkiewicz ma wątpliwości} do {TO:adrian}
+Phone__	SMSToContactWithMessage__	wiadomość tekstową {MESSAGE:cyrankiewicz zmartwychwstal ?} do {TO:bernard}
+Phone__	SMSToContactWithMessage__	wiadomość tekstową o treści {MESSAGE:w tym u balcerowicza czy komorowskiego ?} do {TO:marzenna}
+Phone__	SMSToContactWithMessage__	wyślij sms {MESSAGE:e po jakiemu to ?} do {TO:błażej}
+Phone__	SMSToContactWithMessage__	wyślij sms o treści {MESSAGE:nie mam nic przeciwko} do {TO:edyta wieczorek}
+Phone__	SMSToContactWithMessage__	wyślij wiadomość {MESSAGE:bądźcie sami} do {TO:herbert}
+Phone__	SMSToContactWithMessage__	wyślij wiadomość o treści {MESSAGE:oglądałam w necie} do {TO:ludmiła}
+Phone__	SMSToContactWithMessage__	wyślij wiadomość tekstową {MESSAGE:klasyka pis} do {TO:stefania}
+Phone__	SMSToContactWithMessage__	wyślij wiadomość tekstową o treści {MESSAGE:dzień bez hejtu na pis dniem straconym} do {TO:grzegorz}
+Phone__	SMSToContactWithMessage__	nadaj sms {MESSAGE:nie dzięki} do {TO:monika}
+Phone__	SMSToContactWithMessage__	nadaj sms o treści {MESSAGE:kierownik przyleciał ? liczycie głosy ?} do {TO:bronisław mazur}
+Phone__	SMSToContactWithMessage__	nadaj wiadomość {MESSAGE:pomoże 18 zdaniowy program nowoczesnej} do {TO:klemens duda}
+Phone__	SMSToContactWithMessage__	nadaj wiadomość o treści {MESSAGE:och jak mi przykro  trójka nie biorąca} do {TO:julia pawłowski}
+Phone__	SMSToContactWithMessage__	nadaj wiadomość tekstową {MESSAGE:tęcze wywieźli a rysiu się z tym identyfikuje} do {TO:emil chruszczewski}
+Phone__	SMSToContactWithMessage__	nadaj wiadomość tekstową o treści {MESSAGE:kto cie wybral dziki polaki czy tuskolandia} do {TO:bogumiła malinowski}
+Phone__	SMSToContactWithMessage__	napisz sms {MESSAGE:ejszcze asmiecie ryjewystawiac tu precz} do {TO:beata mazur}
+Phone__	SMSToContactWithMessage__	napisz sms o treści {MESSAGE:dziękuję za rozmowę serdecznie pozdrawiam} do {TO:denis kowalski}
+Phone__	SMSToContactWithMessage__	napisz wiadomość {MESSAGE:cóż za niesamowicie zaskakujące wieści} do {TO:augustyn}
+Phone__	SMSToContactWithMessage__	napisz wiadomość o treści {MESSAGE:a czemu nie link do konspektu programu} do {TO:karolina}
+Phone__	SMSToContactWithMessage__	napisz wiadomość tekstową {MESSAGE:my już wiemy o jaka prawde wam chodzi} do {TO:michał}
+Phone__	SMSToContactWithMessage__	napisz wiadomość tekstową o treści {MESSAGE:dziekuje za debatę} do {TO:florian kaczmarek}
+Phone__	SMSToContactWithMessage__	prześlij sms {MESSAGE:niedoczekanie} do {TO:martin niewiadomski}
+Phone__	SMSToContactWithMessage__	prześlij sms o treści {MESSAGE:obywatele właśnie na to głosowali} do {TO:lilianna}
+Phone__	SMSToContactWithMessage__	prześlij wiadomość {MESSAGE:te same pieniądze ?} do {TO:adrianna wesołowski}
+Phone__	SMSToContactWithMessage__	prześlij wiadomość o treści {MESSAGE:mniej niż zero} do {TO:henryka}
+Phone__	SMSToContactWithMessage__	prześlij wiadomość tekstową {MESSAGE:ostatni będą pierwszymi powodzenia} do {TO:kazimierz wysocki}
+Phone__	SMSToContactWithMessage__	prześlij wiadomość tekstową o treści {MESSAGE:jak na razie nie macie żadnych dokonań} do {TO:maciej szwarc}

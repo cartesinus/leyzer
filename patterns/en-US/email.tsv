@@ -1,283 +1,282 @@
-domain	intent	parallel	pattern
-Email	OpenEmail	-	check email
-Email	OpenEmail	-	check email inbox
-Email	OpenEmail	-	check gmail
-Email	OpenEmail	-	check gmail inbox
-Email	OpenEmail	-	check my email
-Email	OpenEmail	-	check my email inbox
-Email	OpenEmail	-	check my gmail
-Email	OpenEmail	-	check my gmail inbox
-Email	OpenEmail	-	check out email
-Email	OpenEmail	-	check out email inbox
-Email	OpenEmail	-	check out gmail
-Email	OpenEmail	-	check out gmail inbox
-Email	OpenEmail	-	check out my email
-Email	OpenEmail	-	check out my email inbox
-Email	OpenEmail	-	check out my gmail
-Email	OpenEmail	-	check out my gmail inbox
-Email	OpenEmail	-	refresh email
-Email	OpenEmail	-	refresh email inbox
-Email	OpenEmail	-	refresh gmail
-Email	OpenEmail	-	refresh gmail inbox
-Email	OpenEmail	-	refresh my email
-Email	OpenEmail	-	refresh my email inbox
-Email	OpenEmail	-	refresh my gmail
-Email	OpenEmail	-	refresh my gmail inbox
-Email	OpenEmail	-	open email
-Email	OpenEmail	-	open email inbox
-Email	OpenEmail	-	open gmail
-Email	OpenEmail	-	open gmail inbox
-Email	OpenEmail	-	open my email
-Email	OpenEmail	-	open my email inbox
-Email	OpenEmail	-	open my gmail
-Email	OpenEmail	-	open my gmail inbox
-Email	OpenEmail	-	check emails
-Email	OpenEmail	-	check my emails
-Email	OpenEmail	-	check out emails
-Email	OpenEmail	-	check out my emails
-Email	OpenEmail	-	check my primary category emails
-Email	OpenEmail	-	check out my primary category emails
-Email	OpenEmail	-	check my latest email
-Email	OpenEmail	-	check my emails
-Email	OpenEmail	-	check my emails on gmail
-Email	OpenEmail	-	check my gmail inbox
-Email	OpenEmail	-	check if i have new emails
-Email	OpenEmail	-	check if i have new emails in my inbox
-Email	OpenEmail	-	check if i have new email messages
-Email	OpenEmail	-	check if i have new email messages in my inbox
-Email	OpenEmail	-	check if i have some new emails
-Email	OpenEmail	-	check if i have some new emails in my inbox
-Email	OpenEmail	-	check if i have some new email messages
-Email	OpenEmail	-	check if i have some new email messages in my inbox
-Email	OpenEmail	-	check if i have any new emails
-Email	OpenEmail	-	check if i have any new emails in my inbox
-Email	OpenEmail	-	check if i have any new email messages
-Email	OpenEmail	-	check if i have any new email messages in my inbox
-Email	OpenEmail	-	check if i got new emails
-Email	OpenEmail	-	check if i got new emails in my inbox
-Email	OpenEmail	-	check if i got new email messages
-Email	OpenEmail	-	check if i got new email messages in my inbox
-Email	OpenEmail	-	check if i got some new emails
-Email	OpenEmail	-	check if i got some new emails in my inbox
-Email	OpenEmail	-	check if i got some new email messages
-Email	OpenEmail	-	check if i got some new email messages in my inbox
-Email	OpenEmail	-	check if i got any new emails
-Email	OpenEmail	-	check if i got any new emails in my inbox
-Email	OpenEmail	-	check if i got any new email messages
-Email	OpenEmail	-	check if i got any new email messages in my inbox
-Email	OpenEmail	-	check out my latest email
-Email	OpenEmail	-	check out my emails
-Email	OpenEmail	-	check out my emails on gmail
-Email	OpenEmail	-	check out my gmail inbox
-Email	OpenEmail	-	check out if i have new emails
-Email	OpenEmail	-	check out if i have new emails in my inbox
-Email	OpenEmail	-	check out if i have new email messages
-Email	OpenEmail	-	check out if i have new email messages in my inbox
-Email	OpenEmail	-	check out if i have some new emails
-Email	OpenEmail	-	check out if i have some new emails in my inbox
-Email	OpenEmail	-	check out if i have some new email messages
-Email	OpenEmail	-	check out if i have some new email messages in my inbox
-Email	OpenEmail	-	check out if i have any new emails
-Email	OpenEmail	-	check out if i have any new emails in my inbox
-Email	OpenEmail	-	check out if i have any new email messages
-Email	OpenEmail	-	check out if i have any new email messages in my inbox
-Email	OpenEmail	-	check out if i got new emails
-Email	OpenEmail	-	check out if i got new emails in my inbox
-Email	OpenEmail	-	check out if i got new email messages
-Email	OpenEmail	-	check out if i got new email messages in my inbox
-Email	OpenEmail	-	check out if i got some new emails
-Email	OpenEmail	-	check out if i got some new emails in my inbox
-Email	OpenEmail	-	check out if i got some new email messages
-Email	OpenEmail	-	check out if i got some new email messages in my inbox
-Email	OpenEmail	-	check out if i got any new emails
-Email	OpenEmail	-	check out if i got any new emails in my inbox
-Email	OpenEmail	-	check out if i got any new email messages
-Email	OpenEmail	-	check out if i got any new email messages in my inbox
-Email	ShowEmailFromSender	-	check emails from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	check emails i got from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	check emails i received from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	check my emails from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	check my emails i got from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	check my emails i received from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	check out emails from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	check out emails i got from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	check out emails i received from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	check out my emails from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	check out my emails i got from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	check out my emails i received from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	show me emails from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	show me emails i got from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	show me emails i received from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	show me my emails from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	show me my emails i got from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	show me my emails i received from EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailWithLabel	-	show me emails labelled EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	show me emails with a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	show me emails that have a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	show me my emails labelled EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	show me my emails with a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	show me my emails that have a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	get emails labelled EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	get emails with a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	get emails that have a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	get my emails labelled EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	get my emails with a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	get my emails that have a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	display emails labelled EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	display emails with a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	display emails that have a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	display my emails labelled EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	display my emails with a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	display my emails that have a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	find emails labelled EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	find emails with a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	find emails that have a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	find my emails labelled EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	find my emails with a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	find my emails that have a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	search for emails labelled EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	search for emails with a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	search for emails that have a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	search for my emails labelled EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	search for my emails with a label EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	search for my emails that have a label EMAIL.SLOT.LABEL
-Email	ShowEmailFromTime	-	show me emails that arrived EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	show me emails received EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	show me my emails that arrived EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	show me my emails received EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	get emails that arrived EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	get emails received EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	get my emails that arrived EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	get my emails received EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	display emails that arrived EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	display emails received EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	display my emails that arrived EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	display my emails received EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	find emails that arrived EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	find emails received EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	find my emails that arrived EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	find my emails received EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	search for emails that arrived EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	search for emails received EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	search for my emails that arrived EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	search for my emails received EMAIL.SLOT.TIME
-Email	ShowEmailWithSubject	-	show me emails with a subject EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	show me my emails with a subject EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	get emails with a subject EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	get my emails with a subject EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	display emails with a subject EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	display my emails with a subject EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	find emails with a subject EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	find my emails with a subject EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	search for emails with a subject EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	search for my emails with a subject EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithPriority	-	display EMAIL.SLOT.PRIORITY emails
-Email	ShowEmailWithPriority	-	display EMAIL.SLOT.PRIORITY emails first
-Email	ShowEmailWithPriority	-	get me EMAIL.SLOT.PRIORITY emails
-Email	ShowEmailWithPriority	-	get me EMAIL.SLOT.PRIORITY emails first
-Email	ShowEmailWithPriority	-	get my EMAIL.SLOT.PRIORITY emails
-Email	ShowEmailWithPriority	-	get my EMAIL.SLOT.PRIORITY emails first
-Email	ShowEmailWithPriority	-	show me EMAIL.SLOT.PRIORITY emails
-Email	ShowEmailWithPriority	-	show me EMAIL.SLOT.PRIORITY emails first
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	using my gmail email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	using my gmail email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	using my gmail email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	using my gmail email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	using my gmail email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	using my gmail email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a subject EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a subject EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a title EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a title EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a title EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a title EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	create an email with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddressWithSubject	-	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT using my gmail
-Email	SendEmailToAddressWithSubject	-	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT using my gmail
-Email	SendEmailToAddressWithSubject	-	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT using my gmail
-Email	SendEmailToAddressWithSubject	-	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT using my gmail
-Email	SendEmailToAddressWithSubject	-	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT using my gmail
-Email	SendEmailToAddressWithSubject	-	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT using my gmail
-Email	SendEmailToAddressWithSubject	-	email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	using my gmail email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	using my gmail email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	create an email with a subject EMAIL.SLOT.SUBJECT and send it to EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	create an email with a subject EMAIL.SLOT.SUBJECT and send it to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddressWithSubject	-	create an email with a title EMAIL.SLOT.SUBJECT and send it to EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	create an email with a title EMAIL.SLOT.SUBJECT and send it to EMAIL.SLOT.TO using my gmail
-Email	SendEmail	-	send an email
-Email	SendEmail	-	send an email to somebody
-Email	SendEmail	-	send an email somewhere
-Email	SendEmail	-	create an email
-Email	SendEmail	-	create an email to somebody
-Email	SendEmail	-	create an email somewhere
-Email	SendEmail	-	compose an email
-Email	SendEmail	-	compose an email to somebody
-Email	SendEmail	-	compose an email somewhere
-Email	SendEmail	-	create an email and send it
-Email	SendEmail	-	create an email and send it to somebody
-Email	SendEmail	-	create an email and send it somewhere
-Email	SendEmailToAddress	-	send email to EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	send email to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddress	-	send an email to EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	send an email to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddress	-	compose email to EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	compose email to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddress	-	compose an email to EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	compose an email to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddress	-	email EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	using my gamil email EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	create email and send it to EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	create email and send it to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddress	-	create an email and send it to EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	create an email and send it to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddress	-	compose email and send it to EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	compose email and send it to EMAIL.SLOT.TO using my gmail
-Email	SendEmailToAddress	-	compose an email and send it to EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	compose an email and send it to EMAIL.SLOT.TO using my gmail
-Email	ReplyToEmailFromAddress	-	reply to EMAIL.SLOT.TO
-Email	ReplyToEmailFromAddress	-	answer EMAIL.SLOT.TO
-Email	ReplyToEmailFromAddress	-	send an answer to EMAIL.SLOT.TO
-Email	ReplyToEmailFromAddress	-	send a reply to EMAIL.SLOT.TO
+Email__	OpenEmail__	check email
+Email__	OpenEmail__	check email inbox
+Email__	OpenEmail__	check gmail
+Email__	OpenEmail__	check gmail inbox
+Email__	OpenEmail__	check my email
+Email__	OpenEmail__	check my email inbox
+Email__	OpenEmail__	check my gmail
+Email__	OpenEmail__	check my gmail inbox
+Email__	OpenEmail__	check out email
+Email__	OpenEmail__	check out email inbox
+Email__	OpenEmail__	check out gmail
+Email__	OpenEmail__	check out gmail inbox
+Email__	OpenEmail__	check out my email
+Email__	OpenEmail__	check out my email inbox
+Email__	OpenEmail__	check out my gmail
+Email__	OpenEmail__	check out my gmail inbox
+Email__	OpenEmail__	refresh email
+Email__	OpenEmail__	refresh email inbox
+Email__	OpenEmail__	refresh gmail
+Email__	OpenEmail__	refresh gmail inbox
+Email__	OpenEmail__	refresh my email
+Email__	OpenEmail__	refresh my email inbox
+Email__	OpenEmail__	refresh my gmail
+Email__	OpenEmail__	refresh my gmail inbox
+Email__	OpenEmail__	open email
+Email__	OpenEmail__	open email inbox
+Email__	OpenEmail__	open gmail
+Email__	OpenEmail__	open gmail inbox
+Email__	OpenEmail__	open my email
+Email__	OpenEmail__	open my email inbox
+Email__	OpenEmail__	open my gmail
+Email__	OpenEmail__	open my gmail inbox
+Email__	OpenEmail__	check emails
+Email__	OpenEmail__	check my emails
+Email__	OpenEmail__	check out emails
+Email__	OpenEmail__	check out my emails
+Email__	OpenEmail__	check my primary category emails
+Email__	OpenEmail__	check out my primary category emails
+Email__	OpenEmail__	check my latest email
+Email__	OpenEmail__	check my emails
+Email__	OpenEmail__	check my emails on gmail
+Email__	OpenEmail__	check my gmail inbox
+Email__	OpenEmail__	check if i have new emails
+Email__	OpenEmail__	check if i have new emails in my inbox
+Email__	OpenEmail__	check if i have new email messages
+Email__	OpenEmail__	check if i have new email messages in my inbox
+Email__	OpenEmail__	check if i have some new emails
+Email__	OpenEmail__	check if i have some new emails in my inbox
+Email__	OpenEmail__	check if i have some new email messages
+Email__	OpenEmail__	check if i have some new email messages in my inbox
+Email__	OpenEmail__	check if i have any new emails
+Email__	OpenEmail__	check if i have any new emails in my inbox
+Email__	OpenEmail__	check if i have any new email messages
+Email__	OpenEmail__	check if i have any new email messages in my inbox
+Email__	OpenEmail__	check if i got new emails
+Email__	OpenEmail__	check if i got new emails in my inbox
+Email__	OpenEmail__	check if i got new email messages
+Email__	OpenEmail__	check if i got new email messages in my inbox
+Email__	OpenEmail__	check if i got some new emails
+Email__	OpenEmail__	check if i got some new emails in my inbox
+Email__	OpenEmail__	check if i got some new email messages
+Email__	OpenEmail__	check if i got some new email messages in my inbox
+Email__	OpenEmail__	check if i got any new emails
+Email__	OpenEmail__	check if i got any new emails in my inbox
+Email__	OpenEmail__	check if i got any new email messages
+Email__	OpenEmail__	check if i got any new email messages in my inbox
+Email__	OpenEmail__	check out my latest email
+Email__	OpenEmail__	check out my emails
+Email__	OpenEmail__	check out my emails on gmail
+Email__	OpenEmail__	check out my gmail inbox
+Email__	OpenEmail__	check out if i have new emails
+Email__	OpenEmail__	check out if i have new emails in my inbox
+Email__	OpenEmail__	check out if i have new email messages
+Email__	OpenEmail__	check out if i have new email messages in my inbox
+Email__	OpenEmail__	check out if i have some new emails
+Email__	OpenEmail__	check out if i have some new emails in my inbox
+Email__	OpenEmail__	check out if i have some new email messages
+Email__	OpenEmail__	check out if i have some new email messages in my inbox
+Email__	OpenEmail__	check out if i have any new emails
+Email__	OpenEmail__	check out if i have any new emails in my inbox
+Email__	OpenEmail__	check out if i have any new email messages
+Email__	OpenEmail__	check out if i have any new email messages in my inbox
+Email__	OpenEmail__	check out if i got new emails
+Email__	OpenEmail__	check out if i got new emails in my inbox
+Email__	OpenEmail__	check out if i got new email messages
+Email__	OpenEmail__	check out if i got new email messages in my inbox
+Email__	OpenEmail__	check out if i got some new emails
+Email__	OpenEmail__	check out if i got some new emails in my inbox
+Email__	OpenEmail__	check out if i got some new email messages
+Email__	OpenEmail__	check out if i got some new email messages in my inbox
+Email__	OpenEmail__	check out if i got any new emails
+Email__	OpenEmail__	check out if i got any new emails in my inbox
+Email__	OpenEmail__	check out if i got any new email messages
+Email__	OpenEmail__	check out if i got any new email messages in my inbox
+Email__	ShowEmailFromSender__	check emails from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	check emails i got from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	check emails i received from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	check my emails from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	check my emails i got from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	check my emails i received from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	check out emails from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	check out emails i got from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	check out emails i received from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	check out my emails from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	check out my emails i got from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	check out my emails i received from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	show me emails from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	show me emails i got from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	show me emails i received from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	show me my emails from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	show me my emails i got from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	show me my emails i received from EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailWithLabel__	show me emails labelled EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	show me emails with a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	show me emails that have a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	show me my emails labelled EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	show me my emails with a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	show me my emails that have a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	get emails labelled EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	get emails with a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	get emails that have a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	get my emails labelled EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	get my emails with a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	get my emails that have a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	display emails labelled EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	display emails with a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	display emails that have a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	display my emails labelled EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	display my emails with a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	display my emails that have a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	find emails labelled EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	find emails with a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	find emails that have a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	find my emails labelled EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	find my emails with a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	find my emails that have a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	search for emails labelled EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	search for emails with a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	search for emails that have a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	search for my emails labelled EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	search for my emails with a label EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	search for my emails that have a label EMAIL.SLOT.LABEL
+Email__	ShowEmailFromTime__	show me emails that arrived EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	show me emails received EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	show me my emails that arrived EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	show me my emails received EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	get emails that arrived EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	get emails received EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	get my emails that arrived EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	get my emails received EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	display emails that arrived EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	display emails received EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	display my emails that arrived EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	display my emails received EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	find emails that arrived EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	find emails received EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	find my emails that arrived EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	find my emails received EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	search for emails that arrived EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	search for emails received EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	search for my emails that arrived EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	search for my emails received EMAIL.SLOT.TIME
+Email__	ShowEmailWithSubject__	show me emails with a subject EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	show me my emails with a subject EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	get emails with a subject EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	get my emails with a subject EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	display emails with a subject EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	display my emails with a subject EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	find emails with a subject EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	find my emails with a subject EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	search for emails with a subject EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	search for my emails with a subject EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithPriority__	display EMAIL.SLOT.PRIORITY emails
+Email__	ShowEmailWithPriority__	display EMAIL.SLOT.PRIORITY emails first
+Email__	ShowEmailWithPriority__	get me EMAIL.SLOT.PRIORITY emails
+Email__	ShowEmailWithPriority__	get me EMAIL.SLOT.PRIORITY emails first
+Email__	ShowEmailWithPriority__	get my EMAIL.SLOT.PRIORITY emails
+Email__	ShowEmailWithPriority__	get my EMAIL.SLOT.PRIORITY emails first
+Email__	ShowEmailWithPriority__	show me EMAIL.SLOT.PRIORITY emails
+Email__	ShowEmailWithPriority__	show me EMAIL.SLOT.PRIORITY emails first
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT with message EMAIL.SLOT.MESSAGE using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	using my gmail email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	using my gmail email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	using my gmail email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	using my gmail email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	using my gmail email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	using my gmail email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email with a subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email with a subject EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email with a subject EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email with a subject EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email with a subject EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email with a title EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email with a title EMAIL.SLOT.SUBJECT and message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email with a title EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email with a title EMAIL.SLOT.SUBJECT and a message EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	create an email with a title EMAIL.SLOT.SUBJECT saying EMAIL.SLOT.MESSAGE and send it to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddressWithSubject__	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	send an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT using my gmail
+Email__	SendEmailToAddressWithSubject__	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	send an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT using my gmail
+Email__	SendEmailToAddressWithSubject__	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	create an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT using my gmail
+Email__	SendEmailToAddressWithSubject__	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	create an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT using my gmail
+Email__	SendEmailToAddressWithSubject__	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	compose an email to EMAIL.SLOT.TO with a subject EMAIL.SLOT.SUBJECT using my gmail
+Email__	SendEmailToAddressWithSubject__	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	compose an email to EMAIL.SLOT.TO with a title EMAIL.SLOT.SUBJECT using my gmail
+Email__	SendEmailToAddressWithSubject__	email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	using my gmail email EMAIL.SLOT.TO with subject EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	using my gmail email EMAIL.SLOT.TO with title EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	create an email with a subject EMAIL.SLOT.SUBJECT and send it to EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	create an email with a subject EMAIL.SLOT.SUBJECT and send it to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddressWithSubject__	create an email with a title EMAIL.SLOT.SUBJECT and send it to EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	create an email with a title EMAIL.SLOT.SUBJECT and send it to EMAIL.SLOT.TO using my gmail
+Email__	SendEmail__	send an email
+Email__	SendEmail__	send an email to somebody
+Email__	SendEmail__	send an email somewhere
+Email__	SendEmail__	create an email
+Email__	SendEmail__	create an email to somebody
+Email__	SendEmail__	create an email somewhere
+Email__	SendEmail__	compose an email
+Email__	SendEmail__	compose an email to somebody
+Email__	SendEmail__	compose an email somewhere
+Email__	SendEmail__	create an email and send it
+Email__	SendEmail__	create an email and send it to somebody
+Email__	SendEmail__	create an email and send it somewhere
+Email__	SendEmailToAddress__	send email to EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	send email to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddress__	send an email to EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	send an email to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddress__	compose email to EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	compose email to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddress__	compose an email to EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	compose an email to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddress__	email EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	using my gamil email EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	create email and send it to EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	create email and send it to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddress__	create an email and send it to EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	create an email and send it to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddress__	compose email and send it to EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	compose email and send it to EMAIL.SLOT.TO using my gmail
+Email__	SendEmailToAddress__	compose an email and send it to EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	compose an email and send it to EMAIL.SLOT.TO using my gmail
+Email__	ReplyToEmailFromAddress__	reply to EMAIL.SLOT.TO
+Email__	ReplyToEmailFromAddress__	answer EMAIL.SLOT.TO
+Email__	ReplyToEmailFromAddress__	send an answer to EMAIL.SLOT.TO
+Email__	ReplyToEmailFromAddress__	send a reply to EMAIL.SLOT.TO

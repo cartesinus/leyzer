@@ -1,107 +1,106 @@
-domain	intent	parallel	pattern
-Fitbit	ShowSteps	-	my steps from fitbit
-Fitbit	ShowSteps	-	the number of steps from fitbit
-Fitbit	ShowSteps	-	the count of steps from fitbit
-Fitbit	ShowSteps	-	the step count from fitbit
-Fitbit	ShowSteps	-	the number of steps i took
-Fitbit	ShowSteps	-	my fitbit step count
-Fitbit	ShowSteps	-	the fitbit pedometer
-Fitbit	ShowSteps	-	the fitbit step counter
-Fitbit	ShowSteps	-	the steps i have taken
-Fitbit	ShowSteps	-	get my steps from fitbit
-Fitbit	ShowSteps	-	get the number of steps from fitbit
-Fitbit	ShowSteps	-	get the count of steps from fitbit
-Fitbit	ShowSteps	-	get the step count from fitbit
-Fitbit	ShowSteps	-	get the number of steps i took
-Fitbit	ShowSteps	-	get my fitbit step count
-Fitbit	ShowSteps	-	get the fitbit pedometer
-Fitbit	ShowSteps	-	get the fitbit step counter
-Fitbit	ShowSteps	-	get the steps i have taken
-Fitbit	ShowSteps	-	find my steps from fitbit
-Fitbit	ShowSteps	-	find the number of steps from fitbit
-Fitbit	ShowSteps	-	find the count of steps from fitbit
-Fitbit	ShowSteps	-	find the step count from fitbit
-Fitbit	ShowSteps	-	find the number of steps i took
-Fitbit	ShowSteps	-	find my fitbit step count
-Fitbit	ShowSteps	-	find the fitbit pedometer
-Fitbit	ShowSteps	-	find the fitbit step counter
-Fitbit	ShowSteps	-	find the steps i have taken
-Fitbit	ShowSteps	-	show my steps from fitbit
-Fitbit	ShowSteps	-	show the number of steps from fitbit
-Fitbit	ShowSteps	-	show the count of steps from fitbit
-Fitbit	ShowSteps	-	show the step count from fitbit
-Fitbit	ShowSteps	-	show the number of steps i took
-Fitbit	ShowSteps	-	show my fitbit step count
-Fitbit	ShowSteps	-	show the fitbit pedometer
-Fitbit	ShowSteps	-	show the fitbit step counter
-Fitbit	ShowSteps	-	show the steps i have taken
-Fitbit	ShowStepsOnDate	-	my fitbit steps on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	the number of steps i took on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	the number of steps from fitbit on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	my fitbit step count on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	the fitbit pedometer on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	the fitbit step counter on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	the steps i have taken on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	the count of steps on FITBIT.SLOT.DATE from fitbit
-Fitbit	ShowStepsOnDate	-	the step count on FITBIT.SLOT.DATE from fitbit
-Fitbit	ShowStepsOnDate	-	get my fitbit steps on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	get the number of steps i took on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	get the number of steps from fitbit on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	get my fitbit step count on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	get the fitbit pedometer on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	get the fitbit step counter on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	get the steps i have taken on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	get the count of steps on FITBIT.SLOT.DATE from fitbit
-Fitbit	ShowStepsOnDate	-	get the step count on FITBIT.SLOT.DATE from fitbit
-Fitbit	ShowStepsOnDate	-	find my fitbit steps on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	find the number of steps i took on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	find the number of steps from fitbit on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	find my fitbit step count on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	find the fitbit pedometer on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	find the fitbit step counter on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	find the steps i have taken on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	find the count of steps on FITBIT.SLOT.DATE from fitbit
-Fitbit	ShowStepsOnDate	-	find the step count on FITBIT.SLOT.DATE from fitbit
-Fitbit	ShowStepsOnDate	-	show my fitbit steps on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	show the number of steps i took on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	show the number of steps from fitbit on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	show my fitbit step count on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	show the fitbit pedometer on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	show the fitbit step counter on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	show the steps i have taken on FITBIT.SLOT.DATE
-Fitbit	ShowStepsOnDate	-	show the count of steps on FITBIT.SLOT.DATE from fitbit
-Fitbit	ShowStepsOnDate	-	show the step count on FITBIT.SLOT.DATE from fitbit
-Fitbit	ShowBMI	-	my body measurements from fitbit
-Fitbit	ShowBMI	-	my bmi from fitbit
-Fitbit	ShowBMI	-	my weight from fitbit
-Fitbit	ShowBMI	-	get my body measurements from fitbit
-Fitbit	ShowBMI	-	get my bmi from fitbit
-Fitbit	ShowBMI	-	get my weight from fitbit
-Fitbit	ShowBMI	-	find my body measurements from fitbit
-Fitbit	ShowBMI	-	find my bmi from fitbit
-Fitbit	ShowBMI	-	find my weight from fitbit
-Fitbit	ShowBMI	-	show my body measurements from fitbit
-Fitbit	ShowBMI	-	show my bmi from fitbit
-Fitbit	ShowBMI	-	show my weight from fitbit
-Fitbit	AddWeight	-	log my weight on fitbit
-Fitbit	AddWeight	-	record my weight on fitbit
-Fitbit	AddWeight	-	make note of my weight on fitbit
-Fitbit	AddWeight	-	make a note of my weight on fitbit
-Fitbit	AddWeight	-	write my weight on fitbit
-Fitbit	AddWeight	-	write down my weight on fitbit
-Fitbit	NotifyOnWeight	-	notify me if my weight goes over FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	notify me if my weight goes higher than FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	notify me if my weight is over FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	notify me if my weight is higher than FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	notify me when my weight goes over FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	notify me when my weight goes higher than FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	notify me when my weight is over FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	notify me when my weight is higher than FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	tell me if my weight goes over FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	tell me if my weight goes higher than FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	tell me if my weight is over FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	tell me if my weight is higher than FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	tell me when my weight goes over FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	tell me when my weight goes higher than FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	tell me when my weight is over FITBIT.SLOT.WEIGHT
-Fitbit	NotifyOnWeight	-	tell me when my weight is higher than FITBIT.SLOT.WEIGHT
+Fitbit__	ShowSteps__	my steps from fitbit
+Fitbit__	ShowSteps__	the number of steps from fitbit
+Fitbit__	ShowSteps__	the count of steps from fitbit
+Fitbit__	ShowSteps__	the step count from fitbit
+Fitbit__	ShowSteps__	the number of steps i took
+Fitbit__	ShowSteps__	my fitbit step count
+Fitbit__	ShowSteps__	the fitbit pedometer
+Fitbit__	ShowSteps__	the fitbit step counter
+Fitbit__	ShowSteps__	the steps i have taken
+Fitbit__	ShowSteps__	get my steps from fitbit
+Fitbit__	ShowSteps__	get the number of steps from fitbit
+Fitbit__	ShowSteps__	get the count of steps from fitbit
+Fitbit__	ShowSteps__	get the step count from fitbit
+Fitbit__	ShowSteps__	get the number of steps i took
+Fitbit__	ShowSteps__	get my fitbit step count
+Fitbit__	ShowSteps__	get the fitbit pedometer
+Fitbit__	ShowSteps__	get the fitbit step counter
+Fitbit__	ShowSteps__	get the steps i have taken
+Fitbit__	ShowSteps__	find my steps from fitbit
+Fitbit__	ShowSteps__	find the number of steps from fitbit
+Fitbit__	ShowSteps__	find the count of steps from fitbit
+Fitbit__	ShowSteps__	find the step count from fitbit
+Fitbit__	ShowSteps__	find the number of steps i took
+Fitbit__	ShowSteps__	find my fitbit step count
+Fitbit__	ShowSteps__	find the fitbit pedometer
+Fitbit__	ShowSteps__	find the fitbit step counter
+Fitbit__	ShowSteps__	find the steps i have taken
+Fitbit__	ShowSteps__	show my steps from fitbit
+Fitbit__	ShowSteps__	show the number of steps from fitbit
+Fitbit__	ShowSteps__	show the count of steps from fitbit
+Fitbit__	ShowSteps__	show the step count from fitbit
+Fitbit__	ShowSteps__	show the number of steps i took
+Fitbit__	ShowSteps__	show my fitbit step count
+Fitbit__	ShowSteps__	show the fitbit pedometer
+Fitbit__	ShowSteps__	show the fitbit step counter
+Fitbit__	ShowSteps__	show the steps i have taken
+Fitbit__	ShowStepsOnDate__	my fitbit steps on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	the number of steps i took on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	the number of steps from fitbit on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	my fitbit step count on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	the fitbit pedometer on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	the fitbit step counter on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	the steps i have taken on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	the count of steps on {DATE:15.02.2020} from fitbit
+Fitbit__	ShowStepsOnDate__	the step count on {DATE:1st January} from fitbit
+Fitbit__	ShowStepsOnDate__	get my fitbit steps on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	get the number of steps i took on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	get the number of steps from fitbit on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	get my fitbit step count on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	get the fitbit pedometer on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	get the fitbit step counter on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	get the steps i have taken on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	get the count of steps on {DATE:1st January} from fitbit
+Fitbit__	ShowStepsOnDate__	get the step count on {DATE:15.02.2020} from fitbit
+Fitbit__	ShowStepsOnDate__	find my fitbit steps on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	find the number of steps i took on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	find the number of steps from fitbit on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	find my fitbit step count on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	find the fitbit pedometer on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	find the fitbit step counter on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	find the steps i have taken on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	find the count of steps on {DATE:15.02.2020} from fitbit
+Fitbit__	ShowStepsOnDate__	find the step count on {DATE:1st January} from fitbit
+Fitbit__	ShowStepsOnDate__	show my fitbit steps on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	show the number of steps i took on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	show the number of steps from fitbit on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	show my fitbit step count on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	show the fitbit pedometer on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	show the fitbit step counter on {DATE:1st January}
+Fitbit__	ShowStepsOnDate__	show the steps i have taken on {DATE:15.02.2020}
+Fitbit__	ShowStepsOnDate__	show the count of steps on {DATE:1st January} from fitbit
+Fitbit__	ShowStepsOnDate__	show the step count on {DATE:15.02.2020} from fitbit
+Fitbit__	ShowBMI__	my body measurements from fitbit
+Fitbit__	ShowBMI__	my bmi from fitbit
+Fitbit__	ShowBMI__	my weight from fitbit
+Fitbit__	ShowBMI__	get my body measurements from fitbit
+Fitbit__	ShowBMI__	get my bmi from fitbit
+Fitbit__	ShowBMI__	get my weight from fitbit
+Fitbit__	ShowBMI__	find my body measurements from fitbit
+Fitbit__	ShowBMI__	find my bmi from fitbit
+Fitbit__	ShowBMI__	find my weight from fitbit
+Fitbit__	ShowBMI__	show my body measurements from fitbit
+Fitbit__	ShowBMI__	show my bmi from fitbit
+Fitbit__	ShowBMI__	show my weight from fitbit
+Fitbit__	AddWeight__	log my weight on fitbit
+Fitbit__	AddWeight__	record my weight on fitbit
+Fitbit__	AddWeight__	make note of my weight on fitbit
+Fitbit__	AddWeight__	make a note of my weight on fitbit
+Fitbit__	AddWeight__	write my weight on fitbit
+Fitbit__	AddWeight__	write down my weight on fitbit
+Fitbit__	NotifyOnWeight__	notify me if my weight goes over {WEIGHT:60 kg}
+Fitbit__	NotifyOnWeight__	notify me if my weight goes higher than {WEIGHT:80 kg}
+Fitbit__	NotifyOnWeight__	notify me if my weight is over {WEIGHT:100 kg}
+Fitbit__	NotifyOnWeight__	notify me if my weight is higher than {WEIGHT:200 pounds}
+Fitbit__	NotifyOnWeight__	notify me when my weight goes over {WEIGHT:60 kg}
+Fitbit__	NotifyOnWeight__	notify me when my weight goes higher than {WEIGHT:80 kg}
+Fitbit__	NotifyOnWeight__	notify me when my weight is over {WEIGHT:100 kg}
+Fitbit__	NotifyOnWeight__	notify me when my weight is higher than {WEIGHT:200 pounds}
+Fitbit__	NotifyOnWeight__	tell me if my weight goes over {WEIGHT:60 kg}
+Fitbit__	NotifyOnWeight__	tell me if my weight goes higher than {WEIGHT:80 kg}
+Fitbit__	NotifyOnWeight__	tell me if my weight is over {WEIGHT:100 kg}
+Fitbit__	NotifyOnWeight__	tell me if my weight is higher than {WEIGHT:200 pounds}
+Fitbit__	NotifyOnWeight__	tell me when my weight goes over {WEIGHT:60 kg}
+Fitbit__	NotifyOnWeight__	tell me when my weight goes higher than {WEIGHT:80 kg}
+Fitbit__	NotifyOnWeight__	tell me when my weight is over {WEIGHT:100 kg}
+Fitbit__	NotifyOnWeight__	tell me when my weight is higher than {WEIGHT:200 pounds}

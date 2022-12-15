@@ -1,457 +1,456 @@
-domain	intent	parallel	pattern
-Translate	SetDefaultLanguage	-	set language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	set translation language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	set output language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	set default language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	set default translation language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	set default output language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	change language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	change translation language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	change output language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	change default language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	change default translation language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguage	-	change default output language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	set input language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	set source language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	set default input language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	set default source language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	change input language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	change source language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	change default input language to TRANSLATE.SLOT.ALL_LANG
-Translate	SetDefaultLanguageToLanguage	-	change default source language to TRANSLATE.SLOT.ALL_LANG
-Translate	TranslateText	-	translation of TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	what is the translation of TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	the translation of TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	translate TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	translation of TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	the translation of TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	how do i say TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	how do i translate TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	how do you say TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateText	-	how do you translate TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	what is the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN into TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN into TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN into TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	translate to TRANSLATE.SLOT.TRG_LANG_GENERAL TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextToLanguage	-	TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	TRANSLATE.SLOT.TEXT_EN translated to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	TRANSLATE.SLOT.TEXT_EN translated into TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	how do i say TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	how do i translate TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	how do you say TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	how do you translate TRANSLATE.SLOT.TEXT_EN in TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextToLanguage	-	say in TRANSLATE.SLOT.TRG_LANG_GENERAL TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translate TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_EN to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_PL to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_DE to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_ES to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT to TRANSLATE.SLOT.TRG_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_IT to TRANSLATE.SLOT.TRG_LANG_FR from TRANSLATE.SLOT.SRC_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_PL with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_DE with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_ES with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_IT with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR to TRANSLATE.SLOT.TRG_LANG_EN with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_PL from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_DE from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_ES from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_IT from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateTextFromLanguageToLanguageWithEngine	-	the translation of TRANSLATE.SLOT.TEXT_FR to TRANSLATE.SLOT.TRG_LANG_EN from TRANSLATE.SLOT.SRC_LANG_FR with TRANSLATE.SLOT.TRANSLATOR
-Translate	TranslateToLanguage	-	translate to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateToLanguage	-	a translation to TRANSLATE.SLOT.TRG_LANG_GENERAL
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.SRC_LANG_EN sentence TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.SRC_LANG_PL sentence TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.SRC_LANG_ES sentence TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.SRC_LANG_DE sentence TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.SRC_LANG_IT sentence TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	-	translate TRANSLATE.SLOT.SRC_LANG_FR sentence TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.SRC_LANG_EN sentence TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.SRC_LANG_PL sentence TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.SRC_LANG_ES sentence TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.SRC_LANG_DE sentence TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.SRC_LANG_IT sentence TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	-	translation of TRANSLATE.SLOT.SRC_LANG_FR sentence TRANSLATE.SLOT.TEXT_FR
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.TEXT_EN from TRANSLATE.SLOT.SRC_LANG_EN
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.SRC_LANG_EN sentence TRANSLATE.SLOT.TEXT_EN
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.TEXT_PL from TRANSLATE.SLOT.SRC_LANG_PL
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.SRC_LANG_PL sentence TRANSLATE.SLOT.TEXT_PL
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.TEXT_ES from TRANSLATE.SLOT.SRC_LANG_ES
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.SRC_LANG_ES sentence TRANSLATE.SLOT.TEXT_ES
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.TEXT_DE from TRANSLATE.SLOT.SRC_LANG_DE
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.SRC_LANG_DE sentence TRANSLATE.SLOT.TEXT_DE
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.TEXT_IT from TRANSLATE.SLOT.SRC_LANG_IT
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.SRC_LANG_IT sentence TRANSLATE.SLOT.TEXT_IT
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.TEXT_FR from TRANSLATE.SLOT.SRC_LANG_FR
-Translate	TranslateTextFromLanguage	-	the translation of TRANSLATE.SLOT.SRC_LANG_FR sentence TRANSLATE.SLOT.TEXT_FR
-Translate	DetectLanguage	-	language of TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	-	language of TRANSLATE.SLOT.TEXT_MULTI is written in
-Translate	DetectLanguage	-	the language of TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	-	the language of TRANSLATE.SLOT.TEXT_MULTI is written in
-Translate	DetectLanguage	-	detect language of TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	-	detect language of TRANSLATE.SLOT.TEXT_MULTI is written in
-Translate	DetectLanguage	-	detect the language of TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	-	detect the language of TRANSLATE.SLOT.TEXT_MULTI is written in
-Translate	DetectLanguage	-	detect what language TRANSLATE.SLOT.TEXT_MULTI
-Translate	DetectLanguage	-	detect what language TRANSLATE.SLOT.TEXT_MULTI is written in
+Translate__	SetDefaultLanguage__	set language to {ALL_LANG:italian}
+Translate__	SetDefaultLanguage__	set translation language to {ALL_LANG:french}
+Translate__	SetDefaultLanguage__	set output language to {ALL_LANG:english}
+Translate__	SetDefaultLanguage__	set default language to {ALL_LANG:japanease}
+Translate__	SetDefaultLanguage__	set default translation language to {ALL_LANG:russian}
+Translate__	SetDefaultLanguage__	set default output language to {ALL_LANG:polish}
+Translate__	SetDefaultLanguage__	change language to {ALL_LANG:german}
+Translate__	SetDefaultLanguage__	change translation language to {ALL_LANG:spanish}
+Translate__	SetDefaultLanguage__	change output language to {ALL_LANG:thai}
+Translate__	SetDefaultLanguage__	change default language to {ALL_LANG:czech}
+Translate__	SetDefaultLanguage__	change default translation language to {ALL_LANG:finnish}
+Translate__	SetDefaultLanguage__	change default output language to {ALL_LANG:esperanto}
+Translate__	SetDefaultLanguageToLanguage__	set input language to {ALL_LANG:turkish}
+Translate__	SetDefaultLanguageToLanguage__	set source language to {ALL_LANG:greek}
+Translate__	SetDefaultLanguageToLanguage__	set default input language to {ALL_LANG:mongolian}
+Translate__	SetDefaultLanguageToLanguage__	set default source language to {ALL_LANG:hawaiian}
+Translate__	SetDefaultLanguageToLanguage__	change input language to {ALL_LANG:hindi}
+Translate__	SetDefaultLanguageToLanguage__	change source language to {ALL_LANG:icelandic}
+Translate__	SetDefaultLanguageToLanguage__	change default input language to {ALL_LANG:italian}
+Translate__	SetDefaultLanguageToLanguage__	change default source language to {ALL_LANG:french}
+Translate__	TranslateText__	translation of {TEXT_EN:do you have this in my size}
+Translate__	TranslateText__	what is the translation of {TEXT_EN:can you change a traveller's check for me}
+Translate__	TranslateText__	the translation of {TEXT_EN:do you have anything quieter}
+Translate__	TranslateText__	translate {TEXT_EN:take me there please}
+Translate__	TranslateText__	translation of {TEXT_EN:what is your name}
+Translate__	TranslateText__	the translation of {TEXT_EN:in the afternoon}
+Translate__	TranslateText__	how do i say {TEXT_EN:january}
+Translate__	TranslateText__	how do i translate {TEXT_EN:dark}
+Translate__	TranslateText__	how do you say {TEXT_EN:i lost my bag}
+Translate__	TranslateText__	how do you translate {TEXT_EN:ok i'll take it}
+Translate__	TranslateTextToLanguage__	translation of {TEXT_EN:i am an american citizen} to {TRG_LANG_GENERAL:polish}
+Translate__	TranslateTextToLanguage__	what is the translation of {TEXT_EN:i don't want it} to {TRG_LANG_GENERAL:german}
+Translate__	TranslateTextToLanguage__	the translation of {TEXT_EN:west} to {TRG_LANG_GENERAL:spanish}
+Translate__	TranslateTextToLanguage__	translate {TEXT_EN:can i look at the menu please} into {TRG_LANG_GENERAL:thai}
+Translate__	TranslateTextToLanguage__	translate {TEXT_EN:bus and train} to {TRG_LANG_GENERAL:czech}
+Translate__	TranslateTextToLanguage__	translation of {TEXT_EN:how much is that} into {TRG_LANG_GENERAL:finish}
+Translate__	TranslateTextToLanguage__	translation of {TEXT_EN:i don't understand} to {TRG_LANG_GENERAL:polish}
+Translate__	TranslateTextToLanguage__	the translation of {TEXT_EN:that's too expensive} into {TRG_LANG_GENERAL:german}
+Translate__	TranslateTextToLanguage__	the translation of {TEXT_EN:red} to {TRG_LANG_GENERAL:spanish}
+Translate__	TranslateTextToLanguage__	translate to {TRG_LANG_GENERAL:thai} {TEXT_EN:i've been injured}
+Translate__	TranslateTextToLanguage__	{TEXT_EN:white} in {TRG_LANG_GENERAL:czech}
+Translate__	TranslateTextToLanguage__	{TEXT_EN:can i have a bag} translated to {TRG_LANG_GENERAL:finish}
+Translate__	TranslateTextToLanguage__	{TEXT_EN:i need toothpaste} translated into {TRG_LANG_GENERAL:polish}
+Translate__	TranslateTextToLanguage__	how do i say {TEXT_EN:excuse me waiter} in {TRG_LANG_GENERAL:german}
+Translate__	TranslateTextToLanguage__	how do i translate {TEXT_EN:can you change money for me} in {TRG_LANG_GENERAL:spanish}
+Translate__	TranslateTextToLanguage__	how do you say {TEXT_EN:saturday} in {TRG_LANG_GENERAL:thai}
+Translate__	TranslateTextToLanguage__	how do you translate {TEXT_EN:where is the toilet} in {TRG_LANG_GENERAL:czech}
+Translate__	TranslateTextToLanguage__	say in {TRG_LANG_GENERAL:finish} {TEXT_EN:is breakfast included}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_EN:i need an english-language newspaper} from {SRC_LANG_EN:english} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_EN:hi how are you} from {SRC_LANG_EN:english} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_EN:noodles} from {SRC_LANG_EN:english} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_EN:do you speak english} from {SRC_LANG_EN:english} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_EN:brown} from {SRC_LANG_EN:english} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_EN:right} to {TRG_LANG_PL:polish} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_EN:rice} to {TRG_LANG_DE:german} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_EN:november} to {TRG_LANG_ES:spanish} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_EN:it's an emergency} to {TRG_LANG_IT:italian} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_EN:another round please} to {TRG_LANG_FR:french} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_PL:w dzień świąteczny} from {SRC_LANG_PL:polish} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_PL:zamek} from {SRC_LANG_PL:polish} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_PL:zakaz parkowania} from {SRC_LANG_PL:polish} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_PL:nocą} from {SRC_LANG_PL:polish} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_PL:tanio} from {SRC_LANG_PL:polish} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_PL:proszę rachunek} to {TRG_LANG_EN:english} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_PL:czy jest specjalność lokalu} to {TRG_LANG_DE:german} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_PL:przesiadka} to {TRG_LANG_ES:spanish} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_PL:dwa} to {TRG_LANG_IT:italian} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_PL:ograniczenie prędkości} to {TRG_LANG_FR:french} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_DE:rot} from {SRC_LANG_DE:german} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_DE:können sie mir ein anderes hotel empfehlen} from {SRC_LANG_DE:german} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_DE:zahlen bitte} from {SRC_LANG_DE:german} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_DE:ich heiße karl} from {SRC_LANG_DE:german} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_DE:zweihundert} from {SRC_LANG_DE:german} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_DE:abends} to {TRG_LANG_EN:english} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_DE:eine englischsprachige zeitung} to {TRG_LANG_PL:polish} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_DE:salz} to {TRG_LANG_ES:spanish} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_DE:sonntag} to {TRG_LANG_IT:italian} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_DE:ich esse nur koscher} to {TRG_LANG_FR:french} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_ES:diecinueve} from {SRC_LANG_ES:spanish} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_ES:esto es una emergencia} from {SRC_LANG_ES:spanish} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_ES:alguien aquí habla el inglés} from {SRC_LANG_ES:spanish} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_ES:no lo quiero} from {SRC_LANG_ES:spanish} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_ES:helicóptero} from {SRC_LANG_ES:spanish} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_ES:mil millones} to {TRG_LANG_PL:polish} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_ES:jueves} to {TRG_LANG_DE:german} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_ES:martes} to {TRG_LANG_EN:english} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_ES:a las dos de la mañana} to {TRG_LANG_IT:italian} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_ES:sal} to {TRG_LANG_FR:french} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_IT:l'acqua} from {SRC_LANG_IT:italian} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_IT:grazie} from {SRC_LANG_IT:italian} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_IT:ho bisogno di dentifricio} from {SRC_LANG_IT:italian} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_IT:piacere di conoscerla} from {SRC_LANG_IT:italian} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_IT:sera} from {SRC_LANG_IT:italian} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_IT:mercoledì} to {TRG_LANG_PL:polish} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_IT:pane} to {TRG_LANG_DE:german} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_IT:pomeriggio} to {TRG_LANG_ES:spanish} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_IT:voglio parlare con un avvocato} to {TRG_LANG_EN:english} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_IT:un milione} to {TRG_LANG_FR:french} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_FR:quotidien} from {SRC_LANG_FR:french} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_FR:est-ce qu'il y a quelqu'un ici qui parle anglais} from {SRC_LANG_FR:french} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_FR:j'ai besoin d'un rasoir} from {SRC_LANG_FR:french} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_FR:un demi s'il-vous-plaît} from {SRC_LANG_FR:french} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_FR:j'appelle la police} from {SRC_LANG_FR:french} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_FR:treize heures} to {TRG_LANG_PL:polish} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_FR:dans l'après-midi} to {TRG_LANG_DE:german} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_FR:merci} to {TRG_LANG_ES:spanish} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_FR:l'après-midi} to {TRG_LANG_IT:italian} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translate {TEXT_FR:j'ai besoin d'un dictionnaire français-anglais} to {TRG_LANG_EN:english} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_EN:where is airport} from {SRC_LANG_EN:english} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_EN:good day} from {SRC_LANG_EN:english} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_EN:can you suggest another hotel} from {SRC_LANG_EN:english} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_EN:with pleasure} from {SRC_LANG_EN:english} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_EN:coffee} from {SRC_LANG_EN:english} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_EN:is there someone here who speaks english} to {TRG_LANG_PL:polish} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_EN:where are you taking me} to {TRG_LANG_DE:german} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_EN:i'll call the police} to {TRG_LANG_ES:spanish} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_EN:red wine} to {TRG_LANG_IT:italian} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_EN:one more please} to {TRG_LANG_FR:french} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_PL:poproszę butelkę piwa} from {SRC_LANG_PL:polish} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_PL:taksówka} from {SRC_LANG_PL:polish} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_PL:ulica jednokierunkowa} from {SRC_LANG_PL:polish} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_PL:nie jestem zainteresowany} from {SRC_LANG_PL:polish} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_PL:czerwiec} from {SRC_LANG_PL:polish} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_PL:pomarańczowy} to {TRG_LANG_EN:english} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_PL:kareta} to {TRG_LANG_DE:german} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_PL:sobota} to {TRG_LANG_ES:spanish} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_PL:stop} to {TRG_LANG_IT:italian} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_PL:las} to {TRG_LANG_FR:french} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_DE:ich brauche deine hilfe} from {SRC_LANG_DE:german} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_DE:darf ich das zimmer erstmal sehen} from {SRC_LANG_DE:german} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_DE:rechts} from {SRC_LANG_DE:german} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_DE:kneipen} from {SRC_LANG_DE:german} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_DE:kann ich dein handy benutzen} from {SRC_LANG_DE:german} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_DE:bitte schön} to {TRG_LANG_EN:english} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_DE:später} to {TRG_LANG_PL:polish} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_DE:schließfächer} to {TRG_LANG_ES:spanish} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_DE:bringen sie mich bitte dahin} to {TRG_LANG_IT:italian} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_DE:ich möchte auschecken} to {TRG_LANG_FR:french} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_ES:noche} from {SRC_LANG_ES:spanish} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_ES:estoy bajo arresto} from {SRC_LANG_ES:spanish} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_ES:barato} from {SRC_LANG_ES:spanish} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_ES:necesito sellos de correos} from {SRC_LANG_ES:spanish} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_ES:el jamón} from {SRC_LANG_ES:spanish} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_ES:quiero alquilar un coche} to {TRG_LANG_PL:polish} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_ES:no entiendo} to {TRG_LANG_DE:german} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_ES:marzo} to {TRG_LANG_EN:english} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_ES:gasolina} to {TRG_LANG_IT:italian} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_ES:llamaré la policía} to {TRG_LANG_FR:french} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_IT:dove sono i gabinetti} from {SRC_LANG_IT:italian} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_IT:l'acqua frizzante} from {SRC_LANG_IT:italian} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_IT:ottanta} from {SRC_LANG_IT:italian} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_IT:arrivederci} from {SRC_LANG_IT:italian} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_IT:buon pomeriggio} from {SRC_LANG_IT:italian} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_IT:c'è il servizio al tavolo} to {TRG_LANG_PL:polish} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_IT:che cos'è} to {TRG_LANG_DE:german} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_IT:mangio solamente cibo kosher} to {TRG_LANG_ES:spanish} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_IT:quanto costa questo} to {TRG_LANG_EN:english} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_IT:strada} to {TRG_LANG_FR:french} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_FR:taxi} from {SRC_LANG_FR:french} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_FR:or pas cher} from {SRC_LANG_FR:french} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_FR:mensuel} from {SRC_LANG_FR:french} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_FR:qu'est-ce que vous avez à la pression} from {SRC_LANG_FR:french} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_FR:j'ai besoin d'une brosse à dents} from {SRC_LANG_FR:french} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_FR:aidez-moi s'il vous plaît} to {TRG_LANG_PL:polish} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_FR:hier} to {TRG_LANG_DE:german} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_FR:j'ai besoin de savon} to {TRG_LANG_ES:spanish} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_FR:coca} to {TRG_LANG_IT:italian} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	translation of {TEXT_FR:cinq} to {TRG_LANG_EN:english} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_EN:i'm not interested} from {SRC_LANG_EN:english} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_EN:i'm lost} from {SRC_LANG_EN:english} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_EN:cheese} from {SRC_LANG_EN:english} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_EN:the day after tomorrow} from {SRC_LANG_EN:english} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_EN:i need batteries} from {SRC_LANG_EN:english} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_EN:i need sunblock lotion} to {TRG_LANG_PL:polish} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_EN:please clear the plates} to {TRG_LANG_DE:german} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_EN:thank you} to {TRG_LANG_ES:spanish} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_EN:a beer please} to {TRG_LANG_IT:italian} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_EN:ham} to {TRG_LANG_FR:french} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_PL:listopad} from {SRC_LANG_PL:polish} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_PL:potok} from {SRC_LANG_PL:polish} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_PL:proszę} from {SRC_LANG_PL:polish} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_PL:kolacja} from {SRC_LANG_PL:polish} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_PL:gdzie jest szafka na klucz} from {SRC_LANG_PL:polish} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_PL:jeszcze raz proszę} to {TRG_LANG_EN:english} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_PL:szynkę} to {TRG_LANG_DE:german} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_PL:drugie śniadanie} to {TRG_LANG_ES:spanish} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_PL:wczoraj} to {TRG_LANG_IT:italian} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_PL:zachód} to {TRG_LANG_FR:french} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_DE:sie wollen mich abzocken} from {SRC_LANG_DE:german} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_DE:hotels} from {SRC_LANG_DE:german} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_DE:siebzehn} from {SRC_LANG_DE:german} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_DE:eine postkarte} from {SRC_LANG_DE:german} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_DE:gibt es hier jemanden der englisch spricht} from {SRC_LANG_DE:german} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_DE:hilfe} to {TRG_LANG_EN:english} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_DE:das war ein missverständnis} to {TRG_LANG_PL:polish} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_DE:wie heißt du} to {TRG_LANG_ES:spanish} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_DE:dreißig} to {TRG_LANG_IT:italian} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_DE:morgen} to {TRG_LANG_FR:french} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_ES:no como carne de vaca} from {SRC_LANG_ES:spanish} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_ES:necesito pasta dentífrico} from {SRC_LANG_ES:spanish} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_ES:dorado} from {SRC_LANG_ES:spanish} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_ES:dónde puedo obtener un talón de viajero cambiado} from {SRC_LANG_ES:spanish} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_ES:cuarenta} from {SRC_LANG_ES:spanish} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_ES:café} to {TRG_LANG_PL:polish} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_ES:las frutas} to {TRG_LANG_DE:german} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_ES:adónde me llevas} to {TRG_LANG_EN:english} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_ES:tiene algo para declarar} to {TRG_LANG_IT:italian} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_ES:aerolínea} to {TRG_LANG_FR:french} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_IT:sinistra} from {SRC_LANG_IT:italian} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_IT:non mangio il maiale} from {SRC_LANG_IT:italian} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_IT:mentre} from {SRC_LANG_IT:italian} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_IT:mi lasci in pace} from {SRC_LANG_IT:italian} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_IT:the tea} from {SRC_LANG_IT:italian} to {TRG_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_IT:posso semplicemente pagare una multa adesso} to {TRG_LANG_PL:polish} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_IT:notte} to {TRG_LANG_DE:german} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_IT:va bene lo prendo} to {TRG_LANG_ES:spanish} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_IT:mi dispiace} to {TRG_LANG_EN:english} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_IT:avete qualcosa da stuzzicare} to {TRG_LANG_FR:french} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_FR:j'ai besoin de shampooing} from {SRC_LANG_FR:french} to {TRG_LANG_PL:polish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_FR:fais de beaux reves} from {SRC_LANG_FR:french} to {TRG_LANG_DE:german}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_FR:j'ai besoin de crème solaire} from {SRC_LANG_FR:french} to {TRG_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_FR:huitante} from {SRC_LANG_FR:french} to {TRG_LANG_IT:italian}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_FR:avez-vous ceci dans ma taille} from {SRC_LANG_FR:french} to {TRG_LANG_EN:english}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_FR:j'ai besoin d'un stylo} to {TRG_LANG_PL:polish} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_FR:j'ai besoin d'un analgésique} to {TRG_LANG_DE:german} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_FR:police} to {TRG_LANG_ES:spanish} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_FR:au feu} to {TRG_LANG_IT:italian} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguage__	the translation of {TEXT_FR:j'ai perdu mon portefeuille} to {TRG_LANG_EN:english} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_EN:wednesday} from {SRC_LANG_EN:english} to {TRG_LANG_PL:polish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_EN:i need shampoo} from {SRC_LANG_EN:english} to {TRG_LANG_DE:german} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_EN:i don't eat pork} from {SRC_LANG_EN:english} to {TRG_LANG_ES:spanish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_EN:do you ship overseas} from {SRC_LANG_EN:english} to {TRG_LANG_IT:italian} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_EN:you're welcome} from {SRC_LANG_EN:english} to {TRG_LANG_FR:french} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_EN:tomorrow morning} to {TRG_LANG_PL:polish} from {SRC_LANG_EN:english} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_EN:can i use your phone} to {TRG_LANG_DE:german} from {SRC_LANG_EN:english} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_EN:i need a doctor} to {TRG_LANG_ES:spanish} from {SRC_LANG_EN:english} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_EN:stop thief} to {TRG_LANG_IT:italian} from {SRC_LANG_EN:english} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_EN:do you have any rooms available} to {TRG_LANG_FR:french} from {SRC_LANG_EN:english} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_PL:pięć} from {SRC_LANG_PL:polish} to {TRG_LANG_EN:english} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_PL:październik} from {SRC_LANG_PL:polish} to {TRG_LANG_DE:german} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_PL:prosto} from {SRC_LANG_PL:polish} to {TRG_LANG_ES:spanish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_PL:skręć w lewo} from {SRC_LANG_PL:polish} to {TRG_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_PL:chleb} from {SRC_LANG_PL:polish} to {TRG_LANG_FR:french} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_PL:nie mówię po polsku} to {TRG_LANG_EN:english} from {SRC_LANG_PL:polish} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_PL:rzeka} to {TRG_LANG_DE:german} from {SRC_LANG_PL:polish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_PL:żółty} to {TRG_LANG_ES:spanish} from {SRC_LANG_PL:polish} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_PL:łódź} to {TRG_LANG_IT:italian} from {SRC_LANG_PL:polish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_PL:jestem ranny} to {TRG_LANG_FR:french} from {SRC_LANG_PL:polish} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_DE:braun} from {SRC_LANG_DE:german} to {TRG_LANG_EN:english} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_DE:ich brauche einen arzt} from {SRC_LANG_DE:german} to {TRG_LANG_PL:polish} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_DE:geradeaus} from {SRC_LANG_DE:german} to {TRG_LANG_ES:spanish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_DE:kann ich eine tüte haben} from {SRC_LANG_DE:german} to {TRG_LANG_IT:italian} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_DE:könnten sie es bitte nicht so fett machen} from {SRC_LANG_DE:german} to {TRG_LANG_FR:french} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_DE:januar} to {TRG_LANG_EN:english} from {SRC_LANG_DE:german} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_DE:sind noch zimmer frei} to {TRG_LANG_PL:polish} from {SRC_LANG_DE:german} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_DE:abendessen or abendbrot} to {TRG_LANG_ES:spanish} from {SRC_LANG_DE:german} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_DE:märz} to {TRG_LANG_IT:italian} from {SRC_LANG_DE:german} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_DE:einen fernseher} to {TRG_LANG_FR:french} from {SRC_LANG_DE:german} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_ES:muchas gracias} from {SRC_LANG_ES:spanish} to {TRG_LANG_PL:polish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_ES:cómo puedo llegar a el aeropuerto} from {SRC_LANG_ES:spanish} to {TRG_LANG_DE:german} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_ES:octubre} from {SRC_LANG_ES:spanish} to {TRG_LANG_EN:english} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_ES:necesito papel para escribir} from {SRC_LANG_ES:spanish} to {TRG_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_ES:necesito baterías} from {SRC_LANG_ES:spanish} to {TRG_LANG_FR:french} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_ES:a la una de la tarde} to {TRG_LANG_PL:polish} from {SRC_LANG_ES:spanish} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_ES:invierno} to {TRG_LANG_DE:german} from {SRC_LANG_ES:spanish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_ES:club soda} to {TRG_LANG_EN:english} from {SRC_LANG_ES:spanish} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_ES:comida de precio fijo} to {TRG_LANG_IT:italian} from {SRC_LANG_ES:spanish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_ES:cuánto tiempo puedo aparcarme aquí} to {TRG_LANG_FR:french} from {SRC_LANG_ES:spanish} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_IT:una soda} from {SRC_LANG_IT:italian} to {TRG_LANG_PL:polish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_IT:ho perso la mia borsa} from {SRC_LANG_IT:italian} to {TRG_LANG_DE:german} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_IT:settembre} from {SRC_LANG_IT:italian} to {TRG_LANG_ES:spanish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_IT:insalata} from {SRC_LANG_IT:italian} to {TRG_LANG_EN:english} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_IT:destra} from {SRC_LANG_IT:italian} to {TRG_LANG_FR:french} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_IT:venerdì} to {TRG_LANG_PL:polish} from {SRC_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_IT:la birra} to {TRG_LANG_DE:german} from {SRC_LANG_IT:italian} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_IT:viola} to {TRG_LANG_ES:spanish} from {SRC_LANG_IT:italian} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_IT:buona sera} to {TRG_LANG_EN:english} from {SRC_LANG_IT:italian} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_IT:meno} to {TRG_LANG_FR:french} from {SRC_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_FR:de la dulse} from {SRC_LANG_FR:french} to {TRG_LANG_PL:polish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_FR:une heure du matin} from {SRC_LANG_FR:french} to {TRG_LANG_DE:german} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_FR:hebdomadaire} from {SRC_LANG_FR:french} to {TRG_LANG_ES:spanish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_FR:quarante} from {SRC_LANG_FR:french} to {TRG_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_FR:eau gazeuse} from {SRC_LANG_FR:french} to {TRG_LANG_EN:english} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_FR:une pinte s'il vous plait} to {TRG_LANG_PL:polish} from {SRC_LANG_FR:french} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_FR:trois} to {TRG_LANG_DE:german} from {SRC_LANG_FR:french} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_FR:j'ai besoin de revues en anglais} to {TRG_LANG_ES:spanish} from {SRC_LANG_FR:french} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_FR:c'était délicieux} to {TRG_LANG_IT:italian} from {SRC_LANG_FR:french} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translate {TEXT_FR:jaune} to {TRG_LANG_EN:english} from {SRC_LANG_FR:french} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_EN:green} from {SRC_LANG_EN:english} to {TRG_LANG_PL:polish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_EN:may i have a glass of wine} from {SRC_LANG_EN:english} to {TRG_LANG_DE:german} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_EN:i need a razor} from {SRC_LANG_EN:english} to {TRG_LANG_ES:spanish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_EN:half a liter please} from {SRC_LANG_EN:english} to {TRG_LANG_IT:italian} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_EN:what is the exchange rate} from {SRC_LANG_EN:english} to {TRG_LANG_FR:french} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_EN:breakfast} to {TRG_LANG_PL:polish} from {SRC_LANG_EN:english} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_EN:i'm finished} to {TRG_LANG_DE:german} from {SRC_LANG_EN:english} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_EN:am i under arrest} to {TRG_LANG_ES:spanish} from {SRC_LANG_EN:english} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_EN:my name is nico} to {TRG_LANG_IT:italian} from {SRC_LANG_EN:english} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_EN:south} to {TRG_LANG_FR:french} from {SRC_LANG_EN:english} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_PL:basen} from {SRC_LANG_PL:polish} to {TRG_LANG_EN:english} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_PL:paliwo} from {SRC_LANG_PL:polish} to {TRG_LANG_DE:german} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_PL:stacja} from {SRC_LANG_PL:polish} to {TRG_LANG_ES:spanish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_PL:dzień dobry} from {SRC_LANG_PL:polish} to {TRG_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_PL:wyjazd} from {SRC_LANG_PL:polish} to {TRG_LANG_FR:french} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_PL:lipiec} to {TRG_LANG_EN:english} from {SRC_LANG_PL:polish} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_PL:jutro} to {TRG_LANG_DE:german} from {SRC_LANG_PL:polish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_PL:potrzebuję parasol} to {TRG_LANG_ES:spanish} from {SRC_LANG_PL:polish} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_PL:dobranoc} to {TRG_LANG_IT:italian} from {SRC_LANG_PL:polish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_PL:parówką kiełbasą} to {TRG_LANG_FR:french} from {SRC_LANG_PL:polish} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_DE:ich kann nicht deutsch sprechen} from {SRC_LANG_DE:german} to {TRG_LANG_EN:english} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_DE:danke schön} from {SRC_LANG_DE:german} to {TRG_LANG_PL:polish} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_DE:tee} from {SRC_LANG_DE:german} to {TRG_LANG_ES:spanish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_DE:nachmittag} from {SRC_LANG_DE:german} to {TRG_LANG_IT:italian} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_DE:wo ist die toilette bitte} from {SRC_LANG_DE:german} to {TRG_LANG_FR:french} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_DE:schreibpapier} to {TRG_LANG_EN:english} from {SRC_LANG_DE:german} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_DE:mitternacht} to {TRG_LANG_PL:polish} from {SRC_LANG_DE:german} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_DE:hat das zimmer} to {TRG_LANG_ES:spanish} from {SRC_LANG_DE:german} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_DE:einen regenschirm} to {TRG_LANG_IT:italian} from {SRC_LANG_DE:german} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_DE:batterien} to {TRG_LANG_FR:french} from {SRC_LANG_DE:german} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_ES:podría usted repetir eso por favor} from {SRC_LANG_ES:spanish} to {TRG_LANG_PL:polish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_ES:sirven alcohol} from {SRC_LANG_ES:spanish} to {TRG_LANG_DE:german} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_ES:ahora} from {SRC_LANG_ES:spanish} to {TRG_LANG_EN:english} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_ES:un millón} from {SRC_LANG_ES:spanish} to {TRG_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_ES:rojo} from {SRC_LANG_ES:spanish} to {TRG_LANG_FR:french} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_ES:okay lo cojo} to {TRG_LANG_PL:polish} from {SRC_LANG_ES:spanish} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_ES:señora} to {TRG_LANG_DE:german} from {SRC_LANG_ES:spanish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_ES:aceptan tarjetas de crédito} to {TRG_LANG_EN:english} from {SRC_LANG_ES:spanish} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_ES:el pollo} to {TRG_LANG_IT:italian} from {SRC_LANG_ES:spanish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_ES:auto} to {TRG_LANG_FR:french} from {SRC_LANG_ES:spanish} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_IT:certamente} from {SRC_LANG_IT:italian} to {TRG_LANG_PL:polish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_IT:il vino rosso} from {SRC_LANG_IT:italian} to {TRG_LANG_DE:german} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_IT:ho finito} from {SRC_LANG_IT:italian} to {TRG_LANG_ES:spanish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_IT:giri a destra} from {SRC_LANG_IT:italian} to {TRG_LANG_EN:english} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_IT:sosta vietata} from {SRC_LANG_IT:italian} to {TRG_LANG_FR:french} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_IT:la prima colazione} to {TRG_LANG_PL:polish} from {SRC_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_IT:salve} to {TRG_LANG_DE:german} from {SRC_LANG_IT:italian} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_IT:non mangio il manzo} to {TRG_LANG_ES:spanish} from {SRC_LANG_IT:italian} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_IT:posso prima vedere la stanza} to {TRG_LANG_EN:english} from {SRC_LANG_IT:italian} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_IT:il succo} to {TRG_LANG_FR:french} from {SRC_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_FR:soda} from {SRC_LANG_FR:french} to {TRG_LANG_PL:polish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_FR:j'ai besoin d'une ombrelle} from {SRC_LANG_FR:french} to {TRG_LANG_DE:german} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_FR:café} from {SRC_LANG_FR:french} to {TRG_LANG_ES:spanish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_FR:où puis-je changer un traveler's chèque} from {SRC_LANG_FR:french} to {TRG_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_FR:un million} from {SRC_LANG_FR:french} to {TRG_LANG_EN:english} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_FR:où puis-je faire le change} to {TRG_LANG_PL:polish} from {SRC_LANG_FR:french} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_FR:j'ai besoin an umbrella} to {TRG_LANG_DE:german} from {SRC_LANG_FR:french} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_FR:laissez-moi tranquille} to {TRG_LANG_ES:spanish} from {SRC_LANG_FR:french} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_FR:une salade} to {TRG_LANG_IT:italian} from {SRC_LANG_FR:french} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	translation of {TEXT_FR:jeudi} to {TRG_LANG_EN:english} from {SRC_LANG_FR:french} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_EN:where does this train go} from {SRC_LANG_EN:english} to {TRG_LANG_PL:polish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_EN:straight ahead} from {SRC_LANG_EN:english} to {TRG_LANG_DE:german} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_EN:orange} from {SRC_LANG_EN:english} to {TRG_LANG_ES:spanish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_EN:i need a toothbrush} from {SRC_LANG_EN:english} to {TRG_LANG_IT:italian} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_EN:don't touch me} from {SRC_LANG_EN:english} to {TRG_LANG_FR:french} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_EN:how are you} to {TRG_LANG_PL:polish} from {SRC_LANG_EN:english} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_EN:excuse me} to {TRG_LANG_DE:german} from {SRC_LANG_EN:english} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_EN:the day before yesterday} to {TRG_LANG_ES:spanish} from {SRC_LANG_EN:english} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_EN:chicken} to {TRG_LANG_IT:italian} from {SRC_LANG_EN:english} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_EN:where can i get money changed} to {TRG_LANG_FR:french} from {SRC_LANG_EN:english} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_PL:sałatkę} from {SRC_LANG_PL:polish} to {TRG_LANG_EN:english} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_PL:czy mogę zadzwonić} from {SRC_LANG_PL:polish} to {TRG_LANG_DE:german} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_PL:kwiecień} from {SRC_LANG_PL:polish} to {TRG_LANG_ES:spanish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_PL:kurczaka} from {SRC_LANG_PL:polish} to {TRG_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_PL:dziękuję} from {SRC_LANG_PL:polish} to {TRG_LANG_FR:french} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_PL:sto} to {TRG_LANG_EN:english} from {SRC_LANG_PL:polish} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_PL:dokąd mnie zabieracie} to {TRG_LANG_DE:german} from {SRC_LANG_PL:polish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_PL:za drogo} to {TRG_LANG_ES:spanish} from {SRC_LANG_PL:polish} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_PL:potrzebuję mydło} to {TRG_LANG_IT:italian} from {SRC_LANG_PL:polish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_PL:pod górę} to {TRG_LANG_FR:french} from {SRC_LANG_PL:polish} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_DE:gerne} from {SRC_LANG_DE:german} to {TRG_LANG_EN:english} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_DE:jetzt} from {SRC_LANG_DE:german} to {TRG_LANG_PL:polish} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_DE:ich habe mich verirrt} from {SRC_LANG_DE:german} to {TRG_LANG_ES:spanish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_DE:etwas gegen erkältung} from {SRC_LANG_DE:german} to {TRG_LANG_IT:italian} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_DE:links} from {SRC_LANG_DE:german} to {TRG_LANG_FR:french} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_DE:ein badezimmer} to {TRG_LANG_EN:english} from {SRC_LANG_DE:german} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_DE:zur stadtmitte} to {TRG_LANG_PL:polish} from {SRC_LANG_DE:german} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_DE:ich habe mein portemonnaie verloren} to {TRG_LANG_ES:spanish} from {SRC_LANG_DE:german} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_DE:heute} to {TRG_LANG_IT:italian} from {SRC_LANG_DE:german} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_DE:bohnen} to {TRG_LANG_FR:french} from {SRC_LANG_DE:german} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_ES:a mediodía} from {SRC_LANG_ES:spanish} to {TRG_LANG_PL:polish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_ES:cómo puedo llegar a el albergue juvenil} from {SRC_LANG_ES:spanish} to {TRG_LANG_DE:german} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_ES:marrón} from {SRC_LANG_ES:spanish} to {TRG_LANG_EN:english} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_ES:se dispone de habitaciones libres} from {SRC_LANG_ES:spanish} to {TRG_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_ES:cuando es la hora de cerrar} from {SRC_LANG_ES:spanish} to {TRG_LANG_FR:french} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_ES:abril} to {TRG_LANG_PL:polish} from {SRC_LANG_ES:spanish} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_ES:taxi} to {TRG_LANG_DE:german} from {SRC_LANG_ES:spanish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_ES:agosto} to {TRG_LANG_EN:english} from {SRC_LANG_ES:spanish} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_ES:salud} to {TRG_LANG_IT:italian} from {SRC_LANG_ES:spanish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_ES:otra ronda por favor} to {TRG_LANG_FR:french} from {SRC_LANG_ES:spanish} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_IT:ieri} from {SRC_LANG_IT:italian} to {TRG_LANG_PL:polish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_IT:ho bisogno di libri in inglese} from {SRC_LANG_IT:italian} to {TRG_LANG_DE:german} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_IT:non posso permettermelo} from {SRC_LANG_IT:italian} to {TRG_LANG_ES:spanish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_IT:avete questo nella mia taglia} from {SRC_LANG_IT:italian} to {TRG_LANG_EN:english} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_IT:incrocio} from {SRC_LANG_IT:italian} to {TRG_LANG_FR:french} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_IT:ho bisogno di una penna} to {TRG_LANG_PL:polish} from {SRC_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_IT:ventidue} to {TRG_LANG_DE:german} from {SRC_LANG_IT:italian} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_IT:potete suggerirmi un altro hotel} to {TRG_LANG_ES:spanish} from {SRC_LANG_IT:italian} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_IT:quant'è il cambio} to {TRG_LANG_EN:english} from {SRC_LANG_IT:italian} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_IT:al fuoco} to {TRG_LANG_FR:french} from {SRC_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_FR:quelle heure est-il} from {SRC_LANG_FR:french} to {TRG_LANG_PL:polish} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_FR:des escargots} from {SRC_LANG_FR:french} to {TRG_LANG_DE:german} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_FR:s'il vous plaît monsieur} from {SRC_LANG_FR:french} to {TRG_LANG_ES:spanish} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_FR:servez-vous des boissons alcoolisées} from {SRC_LANG_FR:french} to {TRG_LANG_IT:italian} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_FR:à quelle heure fermez-vous} from {SRC_LANG_FR:french} to {TRG_LANG_EN:english} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_FR:annuel} to {TRG_LANG_PL:polish} from {SRC_LANG_FR:french} with {TRANSLATOR:deepl}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_FR:de l'eau} to {TRG_LANG_DE:german} from {SRC_LANG_FR:french} with {TRANSLATOR:yandex}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_FR:à la nuit} to {TRG_LANG_ES:spanish} from {SRC_LANG_FR:french} with {TRANSLATOR:google}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_FR:j'ai été violé} to {TRG_LANG_IT:italian} from {SRC_LANG_FR:french} with {TRANSLATOR:microsoft}
+Translate__	TranslateTextFromLanguageToLanguageWithEngine__	the translation of {TEXT_FR:au secours} to {TRG_LANG_EN:english} from {SRC_LANG_FR:french} with {TRANSLATOR:deepl}
+Translate__	TranslateToLanguage__	translate to {TRG_LANG_GENERAL:polish}
+Translate__	TranslateToLanguage__	a translation to {TRG_LANG_GENERAL:german}
+Translate__	TranslateTextFromLanguage__	translate {TEXT_EN:please clean my room} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguage__	translate {SRC_LANG_EN:english} sentence {TEXT_EN:salad}
+Translate__	TranslateTextFromLanguage__	translate {TEXT_PL:tost} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguage__	translate {SRC_LANG_PL:polish} sentence {TEXT_PL:napiwek}
+Translate__	TranslateTextFromLanguage__	translate {TEXT_ES:cómo se llama usted} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguage__	translate {SRC_LANG_ES:spanish} sentence {TEXT_ES:zero}
+Translate__	TranslateTextFromLanguage__	translate {TEXT_DE:fünf} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguage__	translate {SRC_LANG_DE:german} sentence {TEXT_DE:gut danke}
+Translate__	TranslateTextFromLanguage__	translate {TEXT_IT:economico} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguage__	translate {SRC_LANG_IT:italian} sentence {TEXT_IT:ho bisogno di sapone}
+Translate__	TranslateTextFromLanguage__	translate {TEXT_FR:pouvez-vous me faire le change sur un traveler's chèque} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguage__	translate {SRC_LANG_FR:french} sentence {TEXT_FR:du jambon}
+Translate__	TranslateTextFromLanguage__	translation of {TEXT_EN:is there a local specialty} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguage__	translation of {SRC_LANG_EN:english} sentence {TEXT_EN:expensive}
+Translate__	TranslateTextFromLanguage__	translation of {TEXT_PL:jak się masz} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguage__	translation of {SRC_LANG_PL:polish} sentence {TEXT_PL:jeden}
+Translate__	TranslateTextFromLanguage__	translation of {TEXT_ES:necesito un cepillo de dientes} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguage__	translation of {SRC_LANG_ES:spanish} sentence {TEXT_ES:necesito medicina para el estómago}
+Translate__	TranslateTextFromLanguage__	translation of {TEXT_DE:kann ich dein telefon benutzen} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguage__	translation of {SRC_LANG_DE:german} sentence {TEXT_DE:bier}
+Translate__	TranslateTextFromLanguage__	translation of {TEXT_IT:ho perso il mio portafoglio} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguage__	translation of {SRC_LANG_IT:italian} sentence {TEXT_IT:un altro per favore}
+Translate__	TranslateTextFromLanguage__	translation of {TEXT_FR:où puis-je trouver un distributeur de billets} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguage__	translation of {SRC_LANG_FR:french} sentence {TEXT_FR:j'ai besoin d'un médecin}
+Translate__	TranslateTextFromLanguage__	the translation of {TEXT_EN:you're cheating me} from {SRC_LANG_EN:english}
+Translate__	TranslateTextFromLanguage__	the translation of {SRC_LANG_EN:english} sentence {TEXT_EN:north}
+Translate__	TranslateTextFromLanguage__	the translation of {TEXT_PL:centrum miasta} from {SRC_LANG_PL:polish}
+Translate__	TranslateTextFromLanguage__	the translation of {SRC_LANG_PL:polish} sentence {TEXT_PL:samolot}
+Translate__	TranslateTextFromLanguage__	the translation of {TEXT_ES:una botella por favor} from {SRC_LANG_ES:spanish}
+Translate__	TranslateTextFromLanguage__	the translation of {SRC_LANG_ES:spanish} sentence {TEXT_ES:necesito una tarjeta postal}
+Translate__	TranslateTextFromLanguage__	the translation of {TEXT_DE:wasser} from {SRC_LANG_DE:german}
+Translate__	TranslateTextFromLanguage__	the translation of {SRC_LANG_DE:german} sentence {TEXT_DE:wo ist ein geldautomat}
+Translate__	TranslateTextFromLanguage__	the translation of {TEXT_IT:mattino} from {SRC_LANG_IT:italian}
+Translate__	TranslateTextFromLanguage__	the translation of {SRC_LANG_IT:italian} sentence {TEXT_IT:ho una domanda}
+Translate__	TranslateTextFromLanguage__	the translation of {TEXT_FR:de la langouste} from {SRC_LANG_FR:french}
+Translate__	TranslateTextFromLanguage__	the translation of {SRC_LANG_FR:french} sentence {TEXT_FR:dimanche}
+Translate__	DetectLanguage__	language of {TEXT_MULTI:i want to rent a car}
+Translate__	DetectLanguage__	language of {TEXT_MULTI:adiós} is written in
+Translate__	DetectLanguage__	the language of {TEXT_MULTI:sausage}
+Translate__	DetectLanguage__	the language of {TEXT_MULTI:julio} is written in
+Translate__	DetectLanguage__	detect language of {TEXT_MULTI:i need postage stamps}
+Translate__	DetectLanguage__	detect language of {TEXT_MULTI:podría usted hablar más lento por favor} is written in
+Translate__	DetectLanguage__	detect the language of {TEXT_MULTI:grigio}
+Translate__	DetectLanguage__	detect the language of {TEXT_MULTI:today} is written in
+Translate__	DetectLanguage__	detect what language {TEXT_MULTI:lunch}
+Translate__	DetectLanguage__	detect what language {TEXT_MULTI:mille} is written in

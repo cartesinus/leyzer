@@ -1,677 +1,676 @@
-domain	intent	parallel	pattern
-Email	OpenEmail	-	sprawdź emaile
-Email	OpenEmail	-	sprawdź gmaile
-Email	OpenEmail	-	sprawdź maile
-Email	OpenEmail	-	sprawdź ostatnie emaile
-Email	OpenEmail	-	sprawdź ostatnie gmaile
-Email	OpenEmail	-	sprawdź ostatnie maile
-Email	OpenEmail	-	sprawdź najnowsze emaile
-Email	OpenEmail	-	sprawdź najnowsze gmaile
-Email	OpenEmail	-	sprawdź najnowsze maile
-Email	OpenEmail	-	sprawdź moje emaile
-Email	OpenEmail	-	sprawdź moje gmaile
-Email	OpenEmail	-	sprawdź moje maile
-Email	OpenEmail	-	sprawdź moje ostatnie emaile
-Email	OpenEmail	-	sprawdź moje ostatnie gmaile
-Email	OpenEmail	-	sprawdź moje ostatnie maile
-Email	OpenEmail	-	sprawdź moje najnowsze emaile
-Email	OpenEmail	-	sprawdź moje najnowsze gmaile
-Email	OpenEmail	-	sprawdź moje najnowsze maile
-Email	OpenEmail	-	zobacz emaile
-Email	OpenEmail	-	zobacz gmaile
-Email	OpenEmail	-	zobacz maile
-Email	OpenEmail	-	zobacz ostatnie emaile
-Email	OpenEmail	-	zobacz ostatnie gmaile
-Email	OpenEmail	-	zobacz ostatnie maile
-Email	OpenEmail	-	zobacz najnowsze emaile
-Email	OpenEmail	-	zobacz najnowsze gmaile
-Email	OpenEmail	-	zobacz najnowsze maile
-Email	OpenEmail	-	zobacz moje emaile
-Email	OpenEmail	-	zobacz moje gmaile
-Email	OpenEmail	-	zobacz moje maile
-Email	OpenEmail	-	zobacz moje ostatnie emaile
-Email	OpenEmail	-	zobacz moje ostatnie gmaile
-Email	OpenEmail	-	zobacz moje ostatnie maile
-Email	OpenEmail	-	zobacz moje najnowsze emaile
-Email	OpenEmail	-	zobacz moje najnowsze gmaile
-Email	OpenEmail	-	zobacz moje najnowsze maile
-Email	OpenEmail	-	sprawdź czy dostałem nowe emaile
-Email	OpenEmail	-	sprawdź czy dostałem nowe maile
-Email	OpenEmail	-	sprawdź czy dostałam nowe emaile
-Email	OpenEmail	-	sprawdź czy dostałam nowe maile
-Email	OpenEmail	-	zobacz czy dostałem nowe emaile
-Email	OpenEmail	-	zobacz czy dostałem nowe maile
-Email	OpenEmail	-	zobacz czy dostałam nowe emaile
-Email	OpenEmail	-	zobacz czy dostałam nowe maile
-Email	ShowEmailFromSender	-	pokaż emaile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż maile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje emaile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje maile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi emaile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi maile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje emaile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje maile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl emaile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl maile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje emaile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje maile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi emaile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi maile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje emaile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje maile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz emaile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz maile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje emaile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje maile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź emaile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź maile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje emaile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje maile od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż maile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż maile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje maile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje maile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż moje maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi maile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi maile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje maile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje maile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż mi moje maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl maile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl maile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje maile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje maile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl moje maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi maile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi maile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje maile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje maile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	wyświetl mi moje maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz maile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz maile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje maile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje maile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	zobacz moje maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź maile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź maile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje maile które napisał EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje maile które napisła EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	sprawdź moje maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
-Email	ShowEmailFromSender	-	pokaż maile które EMAIL.SLOT.SENDER_ADDRESS do mnie napisał
-Email	ShowEmailFromSender	-	pokaż maile które EMAIL.SLOT.SENDER_ADDRESS napisał do mnie
-Email	ShowEmailFromSender	-	pokaż emaile które EMAIL.SLOT.SENDER_ADDRESS do mnie napisał
-Email	ShowEmailFromSender	-	pokaż emaile które EMAIL.SLOT.SENDER_ADDRESS napisał do mnie
-Email	ShowEmailFromSender	-	wyświetl maile które EMAIL.SLOT.SENDER_ADDRESS do mnie napisał
-Email	ShowEmailFromSender	-	wyświetl maile które EMAIL.SLOT.SENDER_ADDRESS napisał do mnie
-Email	ShowEmailFromSender	-	wyświetl emaile które EMAIL.SLOT.SENDER_ADDRESS do mnie napisał
-Email	ShowEmailFromSender	-	wyświetl emaile które EMAIL.SLOT.SENDER_ADDRESS napisał do mnie
-Email	ShowEmailFromSender	-	chcę zobaczyć maile które EMAIL.SLOT.SENDER_ADDRESS do mnie napisał
-Email	ShowEmailFromSender	-	chcę zobaczyć maile które EMAIL.SLOT.SENDER_ADDRESS napisał do mnie
-Email	ShowEmailFromSender	-	chcę zobaczyć emaile które EMAIL.SLOT.SENDER_ADDRESS do mnie napisał
-Email	ShowEmailFromSender	-	chcę zobaczyć emaile które EMAIL.SLOT.SENDER_ADDRESS napisał do mnie
-Email	ShowEmailWithLabel	-	pokaż emaile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż emaile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż maile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż maile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż moje emaile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż moje emaile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż moje maile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż moje maile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż mi emaile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż mi emaile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż mi maile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż mi maile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż mi moje emaile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż mi moje emaile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż mi moje maile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	pokaż mi moje maile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl emaile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl emaile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl maile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl maile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl moje emaile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl moje emaile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl moje maile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl moje maile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl mi emaile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl mi emaile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl mi maile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl mi maile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl mi moje emaile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl mi moje emaile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl mi moje maile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	wyświetl mi moje maile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	zobacz emaile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	zobacz emaile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	zobacz maile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	zobacz maile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	zobacz moje emaile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	zobacz moje emaile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	zobacz moje maile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	zobacz moje maile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	sprawdź emaile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	sprawdź emaile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	sprawdź maile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	sprawdź maile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	sprawdź moje emaile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	sprawdź moje emaile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	sprawdź moje maile z etykietą EMAIL.SLOT.LABEL
-Email	ShowEmailWithLabel	-	sprawdź moje maile zawierające etykietę EMAIL.SLOT.LABEL
-Email	ShowEmailFromTime	-	pokaż emaile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż emaile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż emaile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż maile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż maile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż maile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż moje emaile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż moje emaile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż moje emaile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż moje maile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż moje maile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż moje maile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż mi emaile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż mi emaile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż mi emaile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż mi maile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż mi maile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż mi maile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż mi moje emaile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż mi moje emaile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż mi moje emaile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż mi moje maile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż mi moje maile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	pokaż mi moje maile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl emaile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl emaile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl emaile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl maile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl maile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl maile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl moje emaile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl moje emaile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl moje emaile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl moje maile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl moje maile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl moje maile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl mi emaile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl mi emaile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl mi emaile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl mi maile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl mi maile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl mi maile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl mi moje emaile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl mi moje emaile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl mi moje emaile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl mi moje maile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl mi moje maile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	wyświetl mi moje maile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	zobacz emaile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	zobacz emaile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	zobacz emaile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	zobacz maile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	zobacz maile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	zobacz maile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	zobacz moje emaile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	zobacz moje emaile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	zobacz moje emaile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	zobacz moje maile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	zobacz moje maile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	zobacz moje maile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	sprawdź emaile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	sprawdź emaile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	sprawdź emaile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	sprawdź maile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	sprawdź maile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	sprawdź maile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	sprawdź moje emaile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	sprawdź moje emaile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	sprawdź moje emaile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	sprawdź moje maile które dostałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	sprawdź moje maile które otrzymałem EMAIL.SLOT.TIME
-Email	ShowEmailFromTime	-	sprawdź moje maile które otrzymałam EMAIL.SLOT.TIME
-Email	ShowEmailWithSubject	-	pokaż emaile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż emaile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż maile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż maile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż moje emaile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż moje emaile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż moje maile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż moje maile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż mi emaile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż mi emaile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż mi maile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż mi maile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż mi moje emaile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż mi moje emaile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż mi moje maile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	pokaż mi moje maile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl emaile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl emaile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl maile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl maile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl moje emaile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl moje emaile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl moje maile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl moje maile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl mi emaile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl mi emaile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl mi maile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl mi maile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl mi moje emaile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl mi moje emaile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl mi moje maile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	wyświetl mi moje maile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	zobacz emaile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	zobacz emaile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	zobacz maile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	zobacz maile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	zobacz moje emaile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	zobacz moje emaile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	zobacz moje maile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	zobacz moje maile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	sprawdź emaile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	sprawdź emaile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	sprawdź maile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	sprawdź maile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	sprawdź moje emaile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	sprawdź moje emaile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	sprawdź moje maile o temacie EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithSubject	-	sprawdź moje maile z tematem EMAIL.SLOT.SUBJECT
-Email	ShowEmailWithPriority	-	pokaż emaile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż emaile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż maile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż maile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż moje emaile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż moje emaile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż moje maile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż moje maile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż mi emaile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż mi emaile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż mi maile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż mi maile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż mi moje emaile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż mi moje emaile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż mi moje maile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	pokaż mi moje maile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl emaile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl emaile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl maile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl maile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl moje emaile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl moje emaile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl moje maile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl moje maile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl mi emaile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl mi emaile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl mi maile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl mi maile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl mi moje emaile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl mi moje emaile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl mi moje maile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	wyświetl mi moje maile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	zobacz emaile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	zobacz emaile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	zobacz maile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	zobacz maile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	zobacz moje emaile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	zobacz moje emaile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	zobacz moje maile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	zobacz moje maile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	sprawdź emaile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	sprawdź emaile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	sprawdź maile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	sprawdź maile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	sprawdź moje emaile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	sprawdź moje emaile z priorytetem EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	sprawdź moje maile o priorytecie EMAIL.SLOT.PRIORITY
-Email	ShowEmailWithPriority	-	sprawdź moje maile z priorytetem EMAIL.SLOT.PRIORITY
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	napisz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	wyślij list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz email EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz mail EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz wiadomość email EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	stwórz wiadomość mail EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz email EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz mail EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz wiadomość email EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
-Email	SendEmailToAddressWithSubjectAndWithMessage	-	utwórz wiadomość mail EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
-Email	SendEmailToAddressWithSubject	-	napisz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	napisz emaila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	napisz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	napisz maila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	napisz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	napisz list do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	wyślij emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	wyślij emaila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	wyślij maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	wyślij maila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	wyślij list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	wyślij list do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	utwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	utwórz emaila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	utwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	utwórz maila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	utwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	utwórz list do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	stwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	stwórz emaila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	stwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	stwórz maila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	stwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	stwórz list do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
-Email	SendEmailToAddressWithSubject	-	napisz emaila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	napisz emaila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	napisz maila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	napisz maila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	napisz list o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	napisz list w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	wyślij emaila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	wyślij emaila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	wyślij maila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	wyślij maila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	wyślij list o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	wyślij list w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	utwórz emaila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	utwórz emaila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	utwórz maila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	utwórz maila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	utwórz list o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	utwórz list w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	stwórz emaila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	stwórz emaila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	stwórz maila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	stwórz maila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	stwórz list o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmailToAddressWithSubject	-	stwórz list w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
-Email	SendEmail	-	napisz emaila
-Email	SendEmail	-	napisz emaila do kogoś
-Email	SendEmail	-	napisz maila
-Email	SendEmail	-	napisz maila do kogoś
-Email	SendEmail	-	napisz list
-Email	SendEmail	-	napisz list do kogoś
-Email	SendEmail	-	wyślij emaila
-Email	SendEmail	-	wyślij emaila do kogoś
-Email	SendEmail	-	wyślij maila
-Email	SendEmail	-	wyślij maila do kogoś
-Email	SendEmail	-	wyślij list
-Email	SendEmail	-	wyślij list do kogoś
-Email	SendEmail	-	utwórz emaila
-Email	SendEmail	-	utwórz emaila do kogoś
-Email	SendEmail	-	utwórz maila
-Email	SendEmail	-	utwórz maila do kogoś
-Email	SendEmail	-	utwórz list
-Email	SendEmail	-	utwórz list do kogoś
-Email	SendEmail	-	stwórz emaila
-Email	SendEmail	-	stwórz emaila do kogoś
-Email	SendEmail	-	stwórz maila
-Email	SendEmail	-	stwórz maila do kogoś
-Email	SendEmail	-	stwórz list
-Email	SendEmail	-	stwórz list do kogoś
-Email	SendEmail	-	stwórz email i wyślij
-Email	SendEmail	-	stwórz mail i wyślij
-Email	SendEmail	-	stwórz nowy email i wyślij
-Email	SendEmail	-	stwórz nowy mail i wyślij
-Email	SendEmail	-	utwórz email i wyślij
-Email	SendEmail	-	utwórz mail i wyślij
-Email	SendEmail	-	utwórz nowy email i wyślij
-Email	SendEmail	-	utwórz nowy mail i wyślij
-Email	SendEmailToAddress	-	napisz emaila do EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	napisz emaila do EMAIL.SLOT.TO używając gmaila
-Email	SendEmailToAddress	-	napisz maila do EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	napisz maila do EMAIL.SLOT.TO używając gmaila
-Email	SendEmailToAddress	-	napisz list do EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	napisz list do EMAIL.SLOT.TO używając gmaila
-Email	SendEmailToAddress	-	wyślij emaila do EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	wyślij emaila do EMAIL.SLOT.TO używając gmaila
-Email	SendEmailToAddress	-	wyślij maila do EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	wyślij maila do EMAIL.SLOT.TO używając gmaila
-Email	SendEmailToAddress	-	wyślij list do EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	wyślij list do EMAIL.SLOT.TO używając gmaila
-Email	SendEmailToAddress	-	utwórz emaila do EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	utwórz emaila do EMAIL.SLOT.TO używając gmaila
-Email	SendEmailToAddress	-	utwórz maila do EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	utwórz maila do EMAIL.SLOT.TO używając gmaila
-Email	SendEmailToAddress	-	utwórz list do EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	utwórz list do EMAIL.SLOT.TO używając gmaila
-Email	SendEmailToAddress	-	stwórz emaila do EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	stwórz emaila do EMAIL.SLOT.TO używając gmaila
-Email	SendEmailToAddress	-	stwórz maila do EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	stwórz maila do EMAIL.SLOT.TO używając gmaila
-Email	SendEmailToAddress	-	stwórz list do EMAIL.SLOT.TO
-Email	SendEmailToAddress	-	stwórz list do EMAIL.SLOT.TO używając gmaila
-Email	SendEmailToAddress	-	stwórz email do EMAIL.SLOT.TO i wyślij
-Email	SendEmailToAddress	-	stwórz mail do EMAIL.SLOT.TO i wyślij
-Email	SendEmailToAddress	-	stwórz nowy email do EMAIL.SLOT.TO i wyślij
-Email	SendEmailToAddress	-	stwórz nowy mail do EMAIL.SLOT.TO i wyślij
-Email	SendEmailToAddress	-	utwórz email do EMAIL.SLOT.TO i wyślij
-Email	SendEmailToAddress	-	utwórz mail do EMAIL.SLOT.TO i wyślij
-Email	SendEmailToAddress	-	utwórz nowy email do EMAIL.SLOT.TO i wyślij
-Email	SendEmailToAddress	-	utwórz nowy mail do EMAIL.SLOT.TO i wyślij
-Email	ReplyToEmailFromAddress	-	odpisz EMAIL.SLOT.TO
-Email	ReplyToEmailFromAddress	-	odpisz na maila EMAIL.SLOT.TO
-Email	ReplyToEmailFromAddress	-	odpisz na emaila EMAIL.SLOT.TO
-Email	ReplyToEmailFromAddress	-	odpisz na list EMAIL.SLOT.TO
-Email	ReplyToEmailFromAddress	-	odpowiedź EMAIL.SLOT.TO
-Email	ReplyToEmailFromAddress	-	odpowiedź na maila EMAIL.SLOT.TO
-Email	ReplyToEmailFromAddress	-	odpowiedź na emaila EMAIL.SLOT.TO
-Email	ReplyToEmailFromAddress	-	odpowiedź na list EMAIL.SLOT.TO
+Email__	OpenEmail__	sprawdź emaile
+Email__	OpenEmail__	sprawdź gmaile
+Email__	OpenEmail__	sprawdź maile
+Email__	OpenEmail__	sprawdź ostatnie emaile
+Email__	OpenEmail__	sprawdź ostatnie gmaile
+Email__	OpenEmail__	sprawdź ostatnie maile
+Email__	OpenEmail__	sprawdź najnowsze emaile
+Email__	OpenEmail__	sprawdź najnowsze gmaile
+Email__	OpenEmail__	sprawdź najnowsze maile
+Email__	OpenEmail__	sprawdź moje emaile
+Email__	OpenEmail__	sprawdź moje gmaile
+Email__	OpenEmail__	sprawdź moje maile
+Email__	OpenEmail__	sprawdź moje ostatnie emaile
+Email__	OpenEmail__	sprawdź moje ostatnie gmaile
+Email__	OpenEmail__	sprawdź moje ostatnie maile
+Email__	OpenEmail__	sprawdź moje najnowsze emaile
+Email__	OpenEmail__	sprawdź moje najnowsze gmaile
+Email__	OpenEmail__	sprawdź moje najnowsze maile
+Email__	OpenEmail__	zobacz emaile
+Email__	OpenEmail__	zobacz gmaile
+Email__	OpenEmail__	zobacz maile
+Email__	OpenEmail__	zobacz ostatnie emaile
+Email__	OpenEmail__	zobacz ostatnie gmaile
+Email__	OpenEmail__	zobacz ostatnie maile
+Email__	OpenEmail__	zobacz najnowsze emaile
+Email__	OpenEmail__	zobacz najnowsze gmaile
+Email__	OpenEmail__	zobacz najnowsze maile
+Email__	OpenEmail__	zobacz moje emaile
+Email__	OpenEmail__	zobacz moje gmaile
+Email__	OpenEmail__	zobacz moje maile
+Email__	OpenEmail__	zobacz moje ostatnie emaile
+Email__	OpenEmail__	zobacz moje ostatnie gmaile
+Email__	OpenEmail__	zobacz moje ostatnie maile
+Email__	OpenEmail__	zobacz moje najnowsze emaile
+Email__	OpenEmail__	zobacz moje najnowsze gmaile
+Email__	OpenEmail__	zobacz moje najnowsze maile
+Email__	OpenEmail__	sprawdź czy dostałem nowe emaile
+Email__	OpenEmail__	sprawdź czy dostałem nowe maile
+Email__	OpenEmail__	sprawdź czy dostałam nowe emaile
+Email__	OpenEmail__	sprawdź czy dostałam nowe maile
+Email__	OpenEmail__	zobacz czy dostałem nowe emaile
+Email__	OpenEmail__	zobacz czy dostałem nowe maile
+Email__	OpenEmail__	zobacz czy dostałam nowe emaile
+Email__	OpenEmail__	zobacz czy dostałam nowe maile
+Email__	ShowEmailFromSender__	pokaż emaile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż maile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje emaile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje maile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi emaile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi maile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje emaile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje maile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl emaile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl maile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje emaile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje maile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi emaile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi maile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje emaile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje maile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz emaile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz maile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje emaile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje maile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź emaile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź maile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje emaile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje emaile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje emaile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje maile od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje maile które otrzymałem od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje maile które otrzymałam od EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż maile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż maile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje maile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje maile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż moje maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi maile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi maile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje maile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje maile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż mi moje maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl maile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl maile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje maile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje maile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl moje maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi maile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi maile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje maile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje maile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	wyświetl mi moje maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz maile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz maile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje maile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje maile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	zobacz moje maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź maile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź maile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje emaile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje emaile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje emaile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje emaile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje maile które napisał EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje maile które napisał do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje maile które napisła EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	sprawdź moje maile które napisła do mnie EMAIL.SLOT.SENDER_ADDRESS
+Email__	ShowEmailFromSender__	pokaż maile które EMAIL.SLOT.SENDER_ADDRESS do mnie napisał
+Email__	ShowEmailFromSender__	pokaż maile które EMAIL.SLOT.SENDER_ADDRESS napisał do mnie
+Email__	ShowEmailFromSender__	pokaż emaile które EMAIL.SLOT.SENDER_ADDRESS do mnie napisał
+Email__	ShowEmailFromSender__	pokaż emaile które EMAIL.SLOT.SENDER_ADDRESS napisał do mnie
+Email__	ShowEmailFromSender__	wyświetl maile które EMAIL.SLOT.SENDER_ADDRESS do mnie napisał
+Email__	ShowEmailFromSender__	wyświetl maile które EMAIL.SLOT.SENDER_ADDRESS napisał do mnie
+Email__	ShowEmailFromSender__	wyświetl emaile które EMAIL.SLOT.SENDER_ADDRESS do mnie napisał
+Email__	ShowEmailFromSender__	wyświetl emaile które EMAIL.SLOT.SENDER_ADDRESS napisał do mnie
+Email__	ShowEmailFromSender__	chcę zobaczyć maile które EMAIL.SLOT.SENDER_ADDRESS do mnie napisał
+Email__	ShowEmailFromSender__	chcę zobaczyć maile które EMAIL.SLOT.SENDER_ADDRESS napisał do mnie
+Email__	ShowEmailFromSender__	chcę zobaczyć emaile które EMAIL.SLOT.SENDER_ADDRESS do mnie napisał
+Email__	ShowEmailFromSender__	chcę zobaczyć emaile które EMAIL.SLOT.SENDER_ADDRESS napisał do mnie
+Email__	ShowEmailWithLabel__	pokaż emaile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż emaile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż maile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż maile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż moje emaile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż moje emaile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż moje maile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż moje maile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż mi emaile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż mi emaile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż mi maile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż mi maile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż mi moje emaile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż mi moje emaile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż mi moje maile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	pokaż mi moje maile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl emaile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl emaile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl maile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl maile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl moje emaile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl moje emaile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl moje maile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl moje maile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl mi emaile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl mi emaile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl mi maile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl mi maile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl mi moje emaile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl mi moje emaile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl mi moje maile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	wyświetl mi moje maile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	zobacz emaile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	zobacz emaile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	zobacz maile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	zobacz maile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	zobacz moje emaile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	zobacz moje emaile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	zobacz moje maile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	zobacz moje maile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	sprawdź emaile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	sprawdź emaile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	sprawdź maile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	sprawdź maile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	sprawdź moje emaile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	sprawdź moje emaile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	sprawdź moje maile z etykietą EMAIL.SLOT.LABEL
+Email__	ShowEmailWithLabel__	sprawdź moje maile zawierające etykietę EMAIL.SLOT.LABEL
+Email__	ShowEmailFromTime__	pokaż emaile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż emaile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż emaile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż maile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż maile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż maile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż moje emaile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż moje emaile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż moje emaile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż moje maile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż moje maile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż moje maile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż mi emaile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż mi emaile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż mi emaile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż mi maile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż mi maile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż mi maile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż mi moje emaile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż mi moje emaile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż mi moje emaile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż mi moje maile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż mi moje maile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	pokaż mi moje maile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl emaile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl emaile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl emaile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl maile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl maile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl maile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl moje emaile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl moje emaile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl moje emaile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl moje maile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl moje maile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl moje maile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl mi emaile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl mi emaile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl mi emaile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl mi maile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl mi maile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl mi maile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl mi moje emaile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl mi moje emaile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl mi moje emaile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl mi moje maile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl mi moje maile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	wyświetl mi moje maile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	zobacz emaile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	zobacz emaile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	zobacz emaile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	zobacz maile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	zobacz maile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	zobacz maile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	zobacz moje emaile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	zobacz moje emaile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	zobacz moje emaile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	zobacz moje maile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	zobacz moje maile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	zobacz moje maile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	sprawdź emaile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	sprawdź emaile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	sprawdź emaile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	sprawdź maile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	sprawdź maile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	sprawdź maile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	sprawdź moje emaile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	sprawdź moje emaile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	sprawdź moje emaile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	sprawdź moje maile które dostałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	sprawdź moje maile które otrzymałem EMAIL.SLOT.TIME
+Email__	ShowEmailFromTime__	sprawdź moje maile które otrzymałam EMAIL.SLOT.TIME
+Email__	ShowEmailWithSubject__	pokaż emaile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż emaile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż maile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż maile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż moje emaile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż moje emaile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż moje maile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż moje maile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż mi emaile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż mi emaile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż mi maile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż mi maile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż mi moje emaile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż mi moje emaile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż mi moje maile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	pokaż mi moje maile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl emaile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl emaile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl maile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl maile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl moje emaile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl moje emaile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl moje maile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl moje maile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl mi emaile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl mi emaile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl mi maile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl mi maile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl mi moje emaile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl mi moje emaile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl mi moje maile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	wyświetl mi moje maile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	zobacz emaile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	zobacz emaile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	zobacz maile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	zobacz maile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	zobacz moje emaile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	zobacz moje emaile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	zobacz moje maile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	zobacz moje maile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	sprawdź emaile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	sprawdź emaile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	sprawdź maile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	sprawdź maile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	sprawdź moje emaile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	sprawdź moje emaile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	sprawdź moje maile o temacie EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithSubject__	sprawdź moje maile z tematem EMAIL.SLOT.SUBJECT
+Email__	ShowEmailWithPriority__	pokaż emaile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż emaile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż maile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż maile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż moje emaile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż moje emaile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż moje maile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż moje maile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż mi emaile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż mi emaile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż mi maile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż mi maile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż mi moje emaile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż mi moje emaile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż mi moje maile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	pokaż mi moje maile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl emaile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl emaile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl maile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl maile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl moje emaile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl moje emaile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl moje maile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl moje maile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl mi emaile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl mi emaile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl mi maile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl mi maile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl mi moje emaile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl mi moje emaile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl mi moje maile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	wyświetl mi moje maile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	zobacz emaile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	zobacz emaile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	zobacz maile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	zobacz maile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	zobacz moje emaile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	zobacz moje emaile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	zobacz moje maile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	zobacz moje maile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	sprawdź emaile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	sprawdź emaile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	sprawdź maile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	sprawdź maile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	sprawdź moje emaile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	sprawdź moje emaile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	sprawdź moje maile o priorytecie EMAIL.SLOT.PRIORITY
+Email__	ShowEmailWithPriority__	sprawdź moje maile z priorytetem EMAIL.SLOT.PRIORITY
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i z treścią EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT w treści pisząc EMAIL.SLOT.MESSAGE
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz emaila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz maila do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz list do EMAIL.SLOT.TO o treści EMAIL.SLOT.MESSAGE i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	napisz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	wyślij list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz emaila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz maila EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO i z tematem EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz list EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO nazywając go EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz email EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz mail EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz wiadomość email EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	stwórz wiadomość mail EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz email EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz mail EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz wiadomość email EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
+Email__	SendEmailToAddressWithSubjectAndWithMessage__	utwórz wiadomość mail EMAIL.SLOT.MESSAGE do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT i wyślij
+Email__	SendEmailToAddressWithSubject__	napisz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	napisz emaila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	napisz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	napisz maila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	napisz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	napisz list do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	wyślij emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	wyślij emaila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	wyślij maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	wyślij maila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	wyślij list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	wyślij list do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	utwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	utwórz emaila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	utwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	utwórz maila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	utwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	utwórz list do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	stwórz emaila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	stwórz emaila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	stwórz maila do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	stwórz maila do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	stwórz list do EMAIL.SLOT.TO o temacie EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	stwórz list do EMAIL.SLOT.TO w temacie wpisując EMAIL.SLOT.SUBJECT
+Email__	SendEmailToAddressWithSubject__	napisz emaila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	napisz emaila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	napisz maila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	napisz maila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	napisz list o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	napisz list w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	wyślij emaila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	wyślij emaila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	wyślij maila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	wyślij maila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	wyślij list o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	wyślij list w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	utwórz emaila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	utwórz emaila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	utwórz maila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	utwórz maila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	utwórz list o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	utwórz list w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	stwórz emaila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	stwórz emaila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	stwórz maila o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	stwórz maila w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	stwórz list o temacie EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmailToAddressWithSubject__	stwórz list w temacie wpisując EMAIL.SLOT.SUBJECT do EMAIL.SLOT.TO
+Email__	SendEmail__	napisz emaila
+Email__	SendEmail__	napisz emaila do kogoś
+Email__	SendEmail__	napisz maila
+Email__	SendEmail__	napisz maila do kogoś
+Email__	SendEmail__	napisz list
+Email__	SendEmail__	napisz list do kogoś
+Email__	SendEmail__	wyślij emaila
+Email__	SendEmail__	wyślij emaila do kogoś
+Email__	SendEmail__	wyślij maila
+Email__	SendEmail__	wyślij maila do kogoś
+Email__	SendEmail__	wyślij list
+Email__	SendEmail__	wyślij list do kogoś
+Email__	SendEmail__	utwórz emaila
+Email__	SendEmail__	utwórz emaila do kogoś
+Email__	SendEmail__	utwórz maila
+Email__	SendEmail__	utwórz maila do kogoś
+Email__	SendEmail__	utwórz list
+Email__	SendEmail__	utwórz list do kogoś
+Email__	SendEmail__	stwórz emaila
+Email__	SendEmail__	stwórz emaila do kogoś
+Email__	SendEmail__	stwórz maila
+Email__	SendEmail__	stwórz maila do kogoś
+Email__	SendEmail__	stwórz list
+Email__	SendEmail__	stwórz list do kogoś
+Email__	SendEmail__	stwórz email i wyślij
+Email__	SendEmail__	stwórz mail i wyślij
+Email__	SendEmail__	stwórz nowy email i wyślij
+Email__	SendEmail__	stwórz nowy mail i wyślij
+Email__	SendEmail__	utwórz email i wyślij
+Email__	SendEmail__	utwórz mail i wyślij
+Email__	SendEmail__	utwórz nowy email i wyślij
+Email__	SendEmail__	utwórz nowy mail i wyślij
+Email__	SendEmailToAddress__	napisz emaila do EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	napisz emaila do EMAIL.SLOT.TO używając gmaila
+Email__	SendEmailToAddress__	napisz maila do EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	napisz maila do EMAIL.SLOT.TO używając gmaila
+Email__	SendEmailToAddress__	napisz list do EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	napisz list do EMAIL.SLOT.TO używając gmaila
+Email__	SendEmailToAddress__	wyślij emaila do EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	wyślij emaila do EMAIL.SLOT.TO używając gmaila
+Email__	SendEmailToAddress__	wyślij maila do EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	wyślij maila do EMAIL.SLOT.TO używając gmaila
+Email__	SendEmailToAddress__	wyślij list do EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	wyślij list do EMAIL.SLOT.TO używając gmaila
+Email__	SendEmailToAddress__	utwórz emaila do EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	utwórz emaila do EMAIL.SLOT.TO używając gmaila
+Email__	SendEmailToAddress__	utwórz maila do EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	utwórz maila do EMAIL.SLOT.TO używając gmaila
+Email__	SendEmailToAddress__	utwórz list do EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	utwórz list do EMAIL.SLOT.TO używając gmaila
+Email__	SendEmailToAddress__	stwórz emaila do EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	stwórz emaila do EMAIL.SLOT.TO używając gmaila
+Email__	SendEmailToAddress__	stwórz maila do EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	stwórz maila do EMAIL.SLOT.TO używając gmaila
+Email__	SendEmailToAddress__	stwórz list do EMAIL.SLOT.TO
+Email__	SendEmailToAddress__	stwórz list do EMAIL.SLOT.TO używając gmaila
+Email__	SendEmailToAddress__	stwórz email do EMAIL.SLOT.TO i wyślij
+Email__	SendEmailToAddress__	stwórz mail do EMAIL.SLOT.TO i wyślij
+Email__	SendEmailToAddress__	stwórz nowy email do EMAIL.SLOT.TO i wyślij
+Email__	SendEmailToAddress__	stwórz nowy mail do EMAIL.SLOT.TO i wyślij
+Email__	SendEmailToAddress__	utwórz email do EMAIL.SLOT.TO i wyślij
+Email__	SendEmailToAddress__	utwórz mail do EMAIL.SLOT.TO i wyślij
+Email__	SendEmailToAddress__	utwórz nowy email do EMAIL.SLOT.TO i wyślij
+Email__	SendEmailToAddress__	utwórz nowy mail do EMAIL.SLOT.TO i wyślij
+Email__	ReplyToEmailFromAddress__	odpisz EMAIL.SLOT.TO
+Email__	ReplyToEmailFromAddress__	odpisz na maila EMAIL.SLOT.TO
+Email__	ReplyToEmailFromAddress__	odpisz na emaila EMAIL.SLOT.TO
+Email__	ReplyToEmailFromAddress__	odpisz na list EMAIL.SLOT.TO
+Email__	ReplyToEmailFromAddress__	odpowiedź EMAIL.SLOT.TO
+Email__	ReplyToEmailFromAddress__	odpowiedź na maila EMAIL.SLOT.TO
+Email__	ReplyToEmailFromAddress__	odpowiedź na emaila EMAIL.SLOT.TO
+Email__	ReplyToEmailFromAddress__	odpowiedź na list EMAIL.SLOT.TO

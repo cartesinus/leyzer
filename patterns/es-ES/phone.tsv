@@ -1,38 +1,37 @@
-domain	intent	parallel	pattern
-Phone	CallNumber	-	llama a PHONE.SLOT.PHONE_NUMBER
-Phone	CallEmergency	-	llama a 112
-Phone	CallEmergency	-	llama a ambulancia
-Phone	CallEmergency	-	llama a la ambulancia
-Phone	CallEmergency	-	llama a bomberos
-Phone	CallEmergency	-	llama a los bomberos
-Phone	CallEmergency	-	llama a policía
-Phone	CallEmergency	-	llama a la policía
-Phone	CallEmergency	-	llama a emergencias
-Phone	ShowSMS	-	verifica mi bandeja de entrada de mensajes
-Phone	ShowSMS	-	verifica mi bandeja de entrada de sms
-Phone	ShowSMS	-	muestra mi bandeja de entrada de mensajes
-Phone	ShowSMS	-	muestra mi bandeja de entrada de sms
-Phone	ShowSMS	-	muéstrame mi bandeja de entrada de mensajes
-Phone	ShowSMS	-	muéstrame mi bandeja de entrada de sms
-Phone	SMSToContact	-	manda un mensaje a PHONE.SLOT.TO
-Phone	SMSToContact	-	manda un sms a PHONE.SLOT.TO
-Phone	SMSToContact	-	envía un mensaje a PHONE.SLOT.TO
-Phone	SMSToContact	-	envía un sms a PHONE.SLOT.TO
-Phone	SMSToContact	-	sms a PHONE.SLOT.TO
-Phone	SMSToContact	-	mensaje a PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	manda un mensaje a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	manda un mensaje a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	manda un sms a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	manda un sms a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	envía un mensaje a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	envía un mensaje a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	envía un sms a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	envía un sms a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	mensaje a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	mensaje a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	sms a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	sms a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	un mensaje a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	un mensaje a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	un sms a PHONE.SLOT.TO diciendo PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	un sms a PHONE.SLOT.TO que diga PHONE.SLOT.MESSAGE
+Phone__	CallNumber__	llama a {PHONE_NUMBER:436 911 947}
+Phone__	CallEmergency__	llama a 112
+Phone__	CallEmergency__	llama a ambulancia
+Phone__	CallEmergency__	llama a la ambulancia
+Phone__	CallEmergency__	llama a bomberos
+Phone__	CallEmergency__	llama a los bomberos
+Phone__	CallEmergency__	llama a policía
+Phone__	CallEmergency__	llama a la policía
+Phone__	CallEmergency__	llama a emergencias
+Phone__	ShowSMS__	verifica mi bandeja de entrada de mensajes
+Phone__	ShowSMS__	verifica mi bandeja de entrada de sms
+Phone__	ShowSMS__	muestra mi bandeja de entrada de mensajes
+Phone__	ShowSMS__	muestra mi bandeja de entrada de sms
+Phone__	ShowSMS__	muéstrame mi bandeja de entrada de mensajes
+Phone__	ShowSMS__	muéstrame mi bandeja de entrada de sms
+Phone__	SMSToContact__	manda un mensaje a {TO:eugenia}
+Phone__	SMSToContact__	manda un sms a {TO:juan andrés}
+Phone__	SMSToContact__	envía un mensaje a {TO:fermín}
+Phone__	SMSToContact__	envía un sms a {TO:lucero oñate}
+Phone__	SMSToContact__	sms a {TO:candi}
+Phone__	SMSToContact__	mensaje a {TO:ramiro}
+Phone__	SMSToContactWithMessage__	manda un mensaje a {TO:pepu} diciendo {MESSAGE:da si lo reconozco pero vos tenias una idea y yo otra}
+Phone__	SMSToContactWithMessage__	manda un mensaje a {TO:roge urquiza} que diga {MESSAGE:retweeteame que me gusta}
+Phone__	SMSToContactWithMessage__	manda un sms a {TO:santiago} diciendo {MESSAGE:eres el primer mordisco del helado mas ricoo}
+Phone__	SMSToContactWithMessage__	manda un sms a {TO:carmina} que diga {MESSAGE:mucho humor por ser lunes}
+Phone__	SMSToContactWithMessage__	envía un mensaje a {TO:esmeralda} diciendo {MESSAGE:por fin nos vamos unos dias a maitencillo}
+Phone__	SMSToContactWithMessage__	envía un mensaje a {TO:toña} que diga {MESSAGE:en un rato me baño}
+Phone__	SMSToContactWithMessage__	envía un sms a {TO:gorio rodríguez} diciendo {MESSAGE:me voy a ver toda la nota de fantino a tevez}
+Phone__	SMSToContactWithMessage__	envía un sms a {TO:steven uriarte} que diga {MESSAGE:me encanta mucho la canción la cita}
+Phone__	SMSToContactWithMessage__	mensaje a {TO:paquita} diciendo {MESSAGE:me estoy acostumbrando ya a los paros ch}
+Phone__	SMSToContactWithMessage__	mensaje a {TO:veronica etcheverry} que diga {MESSAGE:como cuando me gustabas}
+Phone__	SMSToContactWithMessage__	sms a {TO:juan guevara} diciendo {MESSAGE:las galletas de toddy son la razón por la que respiro}
+Phone__	SMSToContactWithMessage__	sms a {TO:ceci} que diga {MESSAGE:nose que nombre ponerme diganmen}
+Phone__	SMSToContactWithMessage__	un mensaje a {TO:sebastián} diciendo {MESSAGE:jajjaa me re tente mal}
+Phone__	SMSToContactWithMessage__	un mensaje a {TO:marichú} que diga {MESSAGE:ganate el respeto en el juego}
+Phone__	SMSToContactWithMessage__	un sms a {TO:cuquita martínez} diciendo {MESSAGE:me van a traer serenata}
+Phone__	SMSToContactWithMessage__	un sms a {TO:pivo} que diga {MESSAGE:hoy va a ser un domingo de mucho estudio}

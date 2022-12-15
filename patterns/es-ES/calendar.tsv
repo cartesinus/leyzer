@@ -1,233 +1,232 @@
-domain	intent	parallel	pattern
-Calendar	OpenCalendar	-	abre mi calendario
-Calendar	OpenCalendar	-	abre el calendario
-Calendar	OpenCalendar	-	ábreme mi calendario
-Calendar	OpenCalendar	-	ábreme el calendario
-Calendar	OpenCalendar	-	muestra mi calendario
-Calendar	OpenCalendar	-	muestra el calendario
-Calendar	OpenCalendar	-	muéstrame mi calendario
-Calendar	OpenCalendar	-	muéstrame el calendario
-Calendar	CheckCalendarOnDate	-	qué hay en mi agenda CALENDAR.SLOT.DATE ?
-Calendar	CheckCalendarOnDate	-	qué eventos tengo en mi agenda CALENDAR.SLOT.DATE ?
-Calendar	CheckCalendarOnDate	-	qué citas tengo en mi agenda CALENDAR.SLOT.DATE ?
-Calendar	CheckCalendarOnDate	-	qué encuentros tengo en mi agenda CALENDAR.SLOT.DATE ?
-Calendar	AddEventWithName	-	añade un evento llamado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	añade un evento llamado CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	añade un evento llamado CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	añade un evento titulado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	añade un evento titulado CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	añade un evento titulado CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	añade un evento con el título CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	añade un evento con el título CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	añade un evento con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	añade un encuentro llamado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	añade un encuentro llamado CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	añade un encuentro llamado CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	añade un encuentro titulado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	añade un encuentro titulado CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	añade un encuentro titulado CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	añade un encuentro con el título CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	añade un encuentro con el título CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	añade un encuentro con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	añade un mítin llamado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	añade un mítin llamado CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	añade un mítin llamado CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	añade un mítin titulado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	añade un mítin titulado CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	añade un mítin titulado CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	añade un mítin con el título CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	añade un mítin con el título CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	añade un mítin con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	añade una cita llamada CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	añade una cita llamada CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	añade una cita llamada CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	añade una cita titulada CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	añade una cita titulada CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	añade una cita titulada CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	añade una cita con el título CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	añade una cita con el título CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	añade una cita con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	agrega un evento llamado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	agrega un evento llamado CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	agrega un evento llamado CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	agrega un evento titulado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	agrega un evento titulado CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	agrega un evento titulado CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	agrega un evento con el título CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	agrega un evento con el título CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	agrega un evento con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	agrega un encuentro llamado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	agrega un encuentro llamado CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	agrega un encuentro llamado CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	agrega un encuentro titulado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	agrega un encuentro titulado CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	agrega un encuentro titulado CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	agrega un encuentro con el título CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	agrega un encuentro con el título CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	agrega un encuentro con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	agrega un mítin llamado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	agrega un mítin llamado CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	agrega un mítin llamado CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	agrega un mítin titulado CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	agrega un mítin titulado CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	agrega un mítin titulado CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	agrega un mítin con el título CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	agrega un mítin con el título CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	agrega un mítin con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	agrega una cita llamada CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	agrega una cita llamada CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	agrega una cita llamada CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	agrega una cita titulada CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	agrega una cita titulada CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	agrega una cita titulada CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventWithName	-	agrega una cita con el título CALENDAR.SLOT.EVENT_NAME
-Calendar	AddEventWithName	-	agrega una cita con el título CALENDAR.SLOT.EVENT_NAME al calendario
-Calendar	AddEventWithName	-	agrega una cita con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
-Calendar	AddEventOnDateWithDate	-	añade un evento llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un evento llamado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un evento llamado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un evento titulado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un evento titulado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un evento titulado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un evento con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un evento con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un evento con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un encuentro llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un encuentro llamado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un encuentro llamado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un encuentro titulado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un encuentro titulado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un encuentro titulado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un encuentro con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un encuentro con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un encuentro con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un mítin llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un mítin llamado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un mítin llamado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un mítin titulado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un mítin titulado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un mítin titulado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un mítin con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un mítin con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade un mítin con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade una cita llamada CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade una cita llamada CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade una cita llamada CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade una cita titulada CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade una cita titulada CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade una cita titulada CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade una cita con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade una cita con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	añade una cita con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un evento llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un evento llamado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un evento llamado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un evento titulado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un evento titulado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un evento titulado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un evento con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un evento con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un evento con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un encuentro llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un encuentro llamado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un encuentro llamado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un encuentro titulado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un encuentro titulado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un encuentro titulado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un encuentro con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un encuentro con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un encuentro con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un mítin llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un mítin llamado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un mítin llamado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un mítin titulado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un mítin titulado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un mítin titulado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un mítin con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un mítin con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega un mítin con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega una cita llamada CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega una cita llamada CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega una cita llamada CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega una cita titulada CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega una cita titulada CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega una cita titulada CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega una cita con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega una cita con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
-Calendar	AddEventOnDateWithDate	-	agrega una cita con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
-Calendar	NotifyOnEventStart	-	notifícame cuándo empieza el mítin en mi calendario
-Calendar	NotifyOnEventStart	-	notifícame cuándo empieza el evento en mi calendario
-Calendar	NotifyOnEventStart	-	notifícame cuándo empieza la cita en mi calendario
-Calendar	NotifyOnEventStart	-	notifícame cuándo empieza el encuentro en mi calendario
-Calendar	NotNotifyOnEventStart	-	no me notifiques cuándo empieza el mítin en mi calendario
-Calendar	NotNotifyOnEventStart	-	no me notifiques cuándo empieza el evento en mi calendario
-Calendar	NotNotifyOnEventStart	-	no me notifiques cuándo empieza la cita en mi calendario
-Calendar	NotNotifyOnEventStart	-	no me notifiques cuándo empieza el encuentro en mi calendario
-Calendar	NotifyOnEventInLocation	-	notifícame cuándo empieza el mítin en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	NotifyOnEventInLocation	-	notifícame cuándo empieza el evento en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	NotifyOnEventInLocation	-	notifícame cuándo empieza la cita en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	NotifyOnEventInLocation	-	notifícame cuándo empieza el encuentro en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	NotNotifyOnEventInLocation	-	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	NotNotifyOnEventInLocation	-	no me notifiques cuándo empieza el evento en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	NotNotifyOnEventInLocation	-	no me notifiques cuándo empieza la cita en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	NotNotifyOnEventInLocation	-	no me notifiques cuándo empieza el encuentro en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
-Calendar	CheckCalendarMeeting	-	dime la fecha del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime la fecha del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime la fecha de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime la fecha del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime la hora del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime la hora del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime la hora de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime la hora del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime la fecha y la hora del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime la fecha y la hora del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime la fecha y la hora de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime la fecha y la hora del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime el tiempo del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime el tiempo del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime el tiempo de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime el tiempo del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime cuándo empieza el mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime cuándo empieza el evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime cuándo empieza la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	dime cuándo empieza el encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba la fecha del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba la fecha del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba la fecha de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba la fecha del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba la hora del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba la hora del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba la hora de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba la hora del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba la fecha y la hora del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba la fecha y la hora del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba la fecha y la hora de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba la fecha y la hora del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba el tiempo del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba el tiempo del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba el tiempo de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba el tiempo del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba cuándo empieza el mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba cuándo empieza el evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba cuándo empieza la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	comprueba cuándo empieza el encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame la fecha del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame la fecha del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame la fecha de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame la fecha del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame la hora del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame la hora del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame la hora de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame la hora del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame la fecha y la hora del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame la fecha y la hora del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame la fecha y la hora de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame la fecha y la hora del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame el tiempo del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame el tiempo del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame el tiempo de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame el tiempo del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame cuándo empieza el mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame cuándo empieza el evento CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame cuándo empieza la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
-Calendar	CheckCalendarMeeting	-	compruébame cuándo empieza el encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	OpenCalendar__	abre mi calendario
+Calendar__	OpenCalendar__	abre el calendario
+Calendar__	OpenCalendar__	ábreme mi calendario
+Calendar__	OpenCalendar__	ábreme el calendario
+Calendar__	OpenCalendar__	muestra mi calendario
+Calendar__	OpenCalendar__	muestra el calendario
+Calendar__	OpenCalendar__	muéstrame mi calendario
+Calendar__	OpenCalendar__	muéstrame el calendario
+Calendar__	CheckCalendarOnDate__	qué hay en mi agenda CALENDAR.SLOT.DATE ?
+Calendar__	CheckCalendarOnDate__	qué eventos tengo en mi agenda CALENDAR.SLOT.DATE ?
+Calendar__	CheckCalendarOnDate__	qué citas tengo en mi agenda CALENDAR.SLOT.DATE ?
+Calendar__	CheckCalendarOnDate__	qué encuentros tengo en mi agenda CALENDAR.SLOT.DATE ?
+Calendar__	AddEventWithName__	añade un evento llamado CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	añade un evento llamado CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	añade un evento llamado CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	añade un evento titulado CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	añade un evento titulado CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	añade un evento titulado CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	añade un evento con el título CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	añade un evento con el título CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	añade un evento con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	añade un encuentro llamado CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	añade un encuentro llamado CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	añade un encuentro llamado CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	añade un encuentro titulado CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	añade un encuentro titulado CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	añade un encuentro titulado CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	añade un encuentro con el título CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	añade un encuentro con el título CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	añade un encuentro con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	añade un mítin llamado CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	añade un mítin llamado CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	añade un mítin llamado CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	añade un mítin titulado CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	añade un mítin titulado CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	añade un mítin titulado CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	añade un mítin con el título CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	añade un mítin con el título CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	añade un mítin con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	añade una cita llamada CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	añade una cita llamada CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	añade una cita llamada CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	añade una cita titulada CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	añade una cita titulada CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	añade una cita titulada CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	añade una cita con el título CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	añade una cita con el título CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	añade una cita con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	agrega un evento llamado CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	agrega un evento llamado CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	agrega un evento llamado CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	agrega un evento titulado CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	agrega un evento titulado CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	agrega un evento titulado CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	agrega un evento con el título CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	agrega un evento con el título CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	agrega un evento con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	agrega un encuentro llamado CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	agrega un encuentro llamado CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	agrega un encuentro llamado CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	agrega un encuentro titulado CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	agrega un encuentro titulado CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	agrega un encuentro titulado CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	agrega un encuentro con el título CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	agrega un encuentro con el título CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	agrega un encuentro con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	agrega un mítin llamado CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	agrega un mítin llamado CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	agrega un mítin llamado CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	agrega un mítin titulado CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	agrega un mítin titulado CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	agrega un mítin titulado CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	agrega un mítin con el título CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	agrega un mítin con el título CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	agrega un mítin con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	agrega una cita llamada CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	agrega una cita llamada CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	agrega una cita llamada CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	agrega una cita titulada CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	agrega una cita titulada CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	agrega una cita titulada CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventWithName__	agrega una cita con el título CALENDAR.SLOT.EVENT_NAME
+Calendar__	AddEventWithName__	agrega una cita con el título CALENDAR.SLOT.EVENT_NAME al calendario
+Calendar__	AddEventWithName__	agrega una cita con el título CALENDAR.SLOT.EVENT_NAME a mi calendario
+Calendar__	AddEventOnDateWithDate__	añade un evento llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un evento llamado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un evento llamado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un evento titulado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un evento titulado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un evento titulado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un evento con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un evento con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un evento con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un encuentro llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un encuentro llamado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un encuentro llamado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un encuentro titulado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un encuentro titulado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un encuentro titulado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un encuentro con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un encuentro con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un encuentro con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un mítin llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un mítin llamado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un mítin llamado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un mítin titulado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un mítin titulado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un mítin titulado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un mítin con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un mítin con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade un mítin con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade una cita llamada CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade una cita llamada CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade una cita llamada CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade una cita titulada CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade una cita titulada CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade una cita titulada CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade una cita con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade una cita con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	añade una cita con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un evento llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un evento llamado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un evento llamado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un evento titulado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un evento titulado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un evento titulado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un evento con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un evento con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un evento con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un encuentro llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un encuentro llamado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un encuentro llamado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un encuentro titulado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un encuentro titulado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un encuentro titulado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un encuentro con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un encuentro con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un encuentro con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un mítin llamado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un mítin llamado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un mítin llamado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un mítin titulado CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un mítin titulado CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un mítin titulado CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un mítin con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un mítin con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega un mítin con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega una cita llamada CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega una cita llamada CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega una cita llamada CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega una cita titulada CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega una cita titulada CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega una cita titulada CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega una cita con el título CALENDAR.SLOT.EVENT_NAME el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega una cita con el título CALENDAR.SLOT.EVENT_NAME al calendario el CALENDAR.SLOT.DATE
+Calendar__	AddEventOnDateWithDate__	agrega una cita con el título CALENDAR.SLOT.EVENT_NAME a mi calendario el CALENDAR.SLOT.DATE
+Calendar__	NotifyOnEventStart__	notifícame cuándo empieza el mítin en mi calendario
+Calendar__	NotifyOnEventStart__	notifícame cuándo empieza el evento en mi calendario
+Calendar__	NotifyOnEventStart__	notifícame cuándo empieza la cita en mi calendario
+Calendar__	NotifyOnEventStart__	notifícame cuándo empieza el encuentro en mi calendario
+Calendar__	NotNotifyOnEventStart__	no me notifiques cuándo empieza el mítin en mi calendario
+Calendar__	NotNotifyOnEventStart__	no me notifiques cuándo empieza el evento en mi calendario
+Calendar__	NotNotifyOnEventStart__	no me notifiques cuándo empieza la cita en mi calendario
+Calendar__	NotNotifyOnEventStart__	no me notifiques cuándo empieza el encuentro en mi calendario
+Calendar__	NotifyOnEventInLocation__	notifícame cuándo empieza el mítin en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar__	NotifyOnEventInLocation__	notifícame cuándo empieza el evento en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar__	NotifyOnEventInLocation__	notifícame cuándo empieza la cita en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar__	NotifyOnEventInLocation__	notifícame cuándo empieza el encuentro en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar__	NotNotifyOnEventInLocation__	no me notifiques cuándo empieza el mítin en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar__	NotNotifyOnEventInLocation__	no me notifiques cuándo empieza el evento en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar__	NotNotifyOnEventInLocation__	no me notifiques cuándo empieza la cita en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar__	NotNotifyOnEventInLocation__	no me notifiques cuándo empieza el encuentro en mi calendario en la ubicación CALENDAR.SLOT.LOCATION
+Calendar__	CheckCalendarMeeting__	dime la fecha del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime la fecha del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime la fecha de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime la fecha del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime la hora del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime la hora del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime la hora de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime la hora del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime la fecha y la hora del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime la fecha y la hora del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime la fecha y la hora de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime la fecha y la hora del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime el tiempo del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime el tiempo del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime el tiempo de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime el tiempo del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime cuándo empieza el mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime cuándo empieza el evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime cuándo empieza la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	dime cuándo empieza el encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba la fecha del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba la fecha del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba la fecha de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba la fecha del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba la hora del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba la hora del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba la hora de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba la hora del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba la fecha y la hora del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba la fecha y la hora del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba la fecha y la hora de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba la fecha y la hora del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba el tiempo del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba el tiempo del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba el tiempo de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba el tiempo del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba cuándo empieza el mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba cuándo empieza el evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba cuándo empieza la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	comprueba cuándo empieza el encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame la fecha del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame la fecha del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame la fecha de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame la fecha del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame la hora del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame la hora del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame la hora de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame la hora del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame la fecha y la hora del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame la fecha y la hora del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame la fecha y la hora de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame la fecha y la hora del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame el tiempo del mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame el tiempo del evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame el tiempo de la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame el tiempo del encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame cuándo empieza el mítin CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame cuándo empieza el evento CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame cuándo empieza la cita CALENDAR.SLOT.EVENT_NAME en mi calendario
+Calendar__	CheckCalendarMeeting__	compruébame cuándo empieza el encuentro CALENDAR.SLOT.EVENT_NAME en mi calendario

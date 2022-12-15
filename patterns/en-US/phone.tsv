@@ -1,52 +1,51 @@
-domain	intent	parallel	pattern
-Phone	CallNumber	-	call PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	call number PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	dial PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	dial number PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	phone PHONE.SLOT.PHONE_NUMBER
-Phone	CallNumber	-	phone number PHONE.SLOT.PHONE_NUMBER
-Phone	CallEmergency	-	call 911
-Phone	CallEmergency	-	call ambulance
-Phone	CallEmergency	-	call fire department
-Phone	CallEmergency	-	call police
-Phone	CallEmergency	-	call emergency services
-Phone	CallEmergency	-	dial 911
-Phone	CallEmergency	-	dial ambulance
-Phone	CallEmergency	-	dial fire department
-Phone	CallEmergency	-	dial police
-Phone	CallEmergency	-	dial emergency services
-Phone	ShowSMS	-	check my sms inbox
-Phone	ShowSMS	-	show my sms inbox
-Phone	ShowSMS	-	display my sms inbox
-Phone	ShowSMS	-	open my sms inbox
-Phone	ShowSMS	-	launch my sms inbox
-Phone	ShowSMS	-	check my texts
-Phone	ShowSMS	-	show my texts
-Phone	SMSToContact	-	send a text to PHONE.SLOT.TO
-Phone	SMSToContact	-	send a message to PHONE.SLOT.TO
-Phone	SMSToContact	-	send an sms to PHONE.SLOT.TO
-Phone	SMSToContact	-	compose a text to PHONE.SLOT.TO
-Phone	SMSToContact	-	compose a message to PHONE.SLOT.TO
-Phone	SMSToContact	-	compose an sms to PHONE.SLOT.TO
-Phone	SMSToContact	-	sms PHONE.SLOT.TO
-Phone	SMSToContact	-	text PHONE.SLOT.TO
-Phone	SMSToContactWithMessage	-	send an sms to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	send an sms to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	send a text to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	send a text to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	send a text message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	send a text message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	send a message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	send a message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	compose an sms to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	compose an sms to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	compose a text to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	compose a text to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	compose a text message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	compose a text message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	compose a message to PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	compose a message to PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	text PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	text PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	sms PHONE.SLOT.TO saying PHONE.SLOT.MESSAGE
-Phone	SMSToContactWithMessage	-	sms PHONE.SLOT.TO containing PHONE.SLOT.MESSAGE
+Phone__	CallNumber__	call {PHONE_NUMBER:34 678 09 94}
+Phone__	CallNumber__	call number {PHONE_NUMBER:22 590 01 45}
+Phone__	CallNumber__	dial {PHONE_NUMBER:00 589 999 000}
+Phone__	CallNumber__	dial number {PHONE_NUMBER:34 678 09 94}
+Phone__	CallNumber__	phone {PHONE_NUMBER:22 590 01 45}
+Phone__	CallNumber__	phone number {PHONE_NUMBER:00 589 999 000}
+Phone__	CallEmergency__	call 911
+Phone__	CallEmergency__	call ambulance
+Phone__	CallEmergency__	call fire department
+Phone__	CallEmergency__	call police
+Phone__	CallEmergency__	call emergency services
+Phone__	CallEmergency__	dial 911
+Phone__	CallEmergency__	dial ambulance
+Phone__	CallEmergency__	dial fire department
+Phone__	CallEmergency__	dial police
+Phone__	CallEmergency__	dial emergency services
+Phone__	ShowSMS__	check my sms inbox
+Phone__	ShowSMS__	show my sms inbox
+Phone__	ShowSMS__	display my sms inbox
+Phone__	ShowSMS__	open my sms inbox
+Phone__	ShowSMS__	launch my sms inbox
+Phone__	ShowSMS__	check my texts
+Phone__	ShowSMS__	show my texts
+Phone__	SMSToContact__	send a text to {TO:valli}
+Phone__	SMSToContact__	send a message to {TO:rhett}
+Phone__	SMSToContact__	send an sms to {TO:charo}
+Phone__	SMSToContact__	compose a text to {TO:sonnie}
+Phone__	SMSToContact__	compose a message to {TO:anagnos}
+Phone__	SMSToContact__	compose an sms to {TO:aurea}
+Phone__	SMSToContact__	sms {TO:jereme}
+Phone__	SMSToContact__	text {TO:electra}
+Phone__	SMSToContactWithMessage__	send an sms to {TO:felice} saying {MESSAGE:call me}
+Phone__	SMSToContactWithMessage__	send an sms to {TO:jasmin} containing {MESSAGE:we need to talk}
+Phone__	SMSToContactWithMessage__	send a text to {TO:darryl} saying {MESSAGE:please answer}
+Phone__	SMSToContactWithMessage__	send a text to {TO:jezebel} containing {MESSAGE:call me}
+Phone__	SMSToContactWithMessage__	send a text message to {TO:goldfarb} saying {MESSAGE:we need to talk}
+Phone__	SMSToContactWithMessage__	send a text message to {TO:leanna} containing {MESSAGE:please answer}
+Phone__	SMSToContactWithMessage__	send a message to {TO:malvie} saying {MESSAGE:call me}
+Phone__	SMSToContactWithMessage__	send a message to {TO:anjanette} containing {MESSAGE:we need to talk}
+Phone__	SMSToContactWithMessage__	compose an sms to {TO:merow} saying {MESSAGE:please answer}
+Phone__	SMSToContactWithMessage__	compose an sms to {TO:carlene} containing {MESSAGE:call me}
+Phone__	SMSToContactWithMessage__	compose a text to {TO:candace} saying {MESSAGE:we need to talk}
+Phone__	SMSToContactWithMessage__	compose a text to {TO:doloritas} containing {MESSAGE:please answer}
+Phone__	SMSToContactWithMessage__	compose a text message to {TO:rozamond} saying {MESSAGE:call me}
+Phone__	SMSToContactWithMessage__	compose a text message to {TO:briney} containing {MESSAGE:we need to talk}
+Phone__	SMSToContactWithMessage__	compose a message to {TO:ledda} saying {MESSAGE:please answer}
+Phone__	SMSToContactWithMessage__	compose a message to {TO:milly} containing {MESSAGE:call me}
+Phone__	SMSToContactWithMessage__	text {TO:samuele} saying {MESSAGE:we need to talk}
+Phone__	SMSToContactWithMessage__	text {TO:ulrika} containing {MESSAGE:please answer}
+Phone__	SMSToContactWithMessage__	sms {TO:morena} saying {MESSAGE:call me}
+Phone__	SMSToContactWithMessage__	sms {TO:bensen} containing {MESSAGE:we need to talk}

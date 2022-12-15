@@ -1,824 +1,825 @@
-domain	intent	parallel	pattern
-Spotify	OpenSpotify	-	otwórz spotify
-Spotify	OpenSpotify	-	otwórz spotify i zagraj
-Spotify	OpenSpotify	-	otwórz spotify i zagraj coś
-Spotify	OpenSpotify	-	otwórz spotify i zagraj mi
-Spotify	OpenSpotify	-	otwórz spotify i zagraj mi coś
-Spotify	OpenSpotify	-	otwórz spotify włącz muzykę
-Spotify	OpenSpotify	-	otwórz spotify włącz jakąś muzykę
-Spotify	OpenSpotify	-	otwórz spotify puść muzykę
-Spotify	OpenSpotify	-	użyj spotify
-Spotify	OpenSpotify	-	użyj spotify i zagraj
-Spotify	OpenSpotify	-	użyj spotify i zagraj coś
-Spotify	OpenSpotify	-	użyj spotify i zagraj mi
-Spotify	OpenSpotify	-	użyj spotify i zagraj mi coś
-Spotify	OpenSpotify	-	użyj spotify włącz muzykę
-Spotify	OpenSpotify	-	użyj spotify włącz jakąś muzykę
-Spotify	OpenSpotify	-	użyj spotify puść muzykę
-Spotify	PlaySong	-	odtwarzaj SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	odtwarzaj SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	odtwarzaj piosenkę SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	odtwarzaj piosenkę SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	odtwarzaj utwór SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	odtwarzaj utwór SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	odtwarzaj kawałek SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	odtwarzaj kawałek SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	puść SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	puść SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	puść piosenkę SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	puść piosenkę SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	puść utwór SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	puść utwór SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	puść kawałek SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	puść kawałek SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	włącz SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	włącz SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	włącz piosenkę SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	włącz piosenkę SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	włącz utwór SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	włącz utwór SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	włącz kawałek SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	włącz kawałek SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	graj SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	graj SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	graj piosenkę SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	graj piosenkę SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	graj utwór SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	graj utwór SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	graj kawałek SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	graj kawałek SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	zagraj SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	zagraj SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	zagraj piosenkę SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	zagraj piosenkę SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	zagraj utwór SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	zagraj utwór SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySong	-	zagraj kawałek SPOTIFY.SLOT.SONG
-Spotify	PlaySong	-	zagraj kawałek SPOTIFY.SLOT.SONG na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	odtwarzaj kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	puść kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	puść kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	graj kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	graj kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	zagraj kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
-Spotify	PlaySongByArtist	-	zagraj kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlaySongByArtist	-	odtwarzaj SPOTIFY.SLOT.ARTIST SPOTIFY.SLOT.SONG
-Spotify	PlaySongByArtist	-	puść SPOTIFY.SLOT.ARTIST SPOTIFY.SLOT.SONG
-Spotify	PlaySongByArtist	-	zagraj SPOTIFY.SLOT.ARTIST SPOTIFY.SLOT.SONG
-Spotify	PlaySongByArtist	-	graj SPOTIFY.SLOT.ARTIST SPOTIFY.SLOT.SONG
-Spotify	PlayAlbumOfTypeByArtist	-	graj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	graj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlayAlbumOfTypeByArtist	-	graj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM od SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	graj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM od SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlayAlbumOfTypeByArtist	-	graj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM wykonawcy SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	graj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM wykonawcy SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlayAlbumOfTypeByArtist	-	zagraj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	zagraj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlayAlbumOfTypeByArtist	-	zagraj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM od SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	zagraj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM od SPOTIFY.SLOT.ARTIST na spotify
-Spotify	PlayAlbumOfTypeByArtist	-	zagraj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM wykonawcy SPOTIFY.SLOT.ARTIST
-Spotify	PlayAlbumOfTypeByArtist	-	zagraj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM wykonawcy SPOTIFY.SLOT.ARTIST na spotify
-Spotify	Pause	-	odtwarzaj tę posenkę
-Spotify	Pause	-	odtwarzaj tę posenkę na spotify
-Spotify	Pause	-	odtwarzaj ten utwór
-Spotify	Pause	-	odtwarzaj ten utwór na spotify
-Spotify	Pause	-	odtwarzaj ten kawałek
-Spotify	Pause	-	odtwarzaj ten kawałek na spotify
-Spotify	Pause	-	pauza tę posenkę
-Spotify	Pause	-	pauza tę posenkę na spotify
-Spotify	Pause	-	pauza ten utwór
-Spotify	Pause	-	pauza ten utwór na spotify
-Spotify	Pause	-	pauza ten kawałek
-Spotify	Pause	-	pauza ten kawałek na spotify
-Spotify	Pause	-	wznów tę posenkę
-Spotify	Pause	-	wznów tę posenkę na spotify
-Spotify	Pause	-	wznów ten utwór
-Spotify	Pause	-	wznów ten utwór na spotify
-Spotify	Pause	-	wznów ten kawałek
-Spotify	Pause	-	wznów ten kawałek na spotify
-Spotify	Pause	-	powtórz tę posenkę
-Spotify	Pause	-	powtórz tę posenkę na spotify
-Spotify	Pause	-	powtórz ten utwór
-Spotify	Pause	-	powtórz ten utwór na spotify
-Spotify	Pause	-	powtórz ten kawałek
-Spotify	Pause	-	powtórz ten kawałek na spotify
-Spotify	NextSong	-	spotify następna piosenka
-Spotify	NextSong	-	graj następną piosenkę
-Spotify	NextSong	-	graj następną piosenkę na spotify
-Spotify	NextSong	-	graj następną utwór
-Spotify	NextSong	-	graj następną utwór na spotify
-Spotify	NextSong	-	graj następną kawałek
-Spotify	NextSong	-	graj następną kawałek na spotify
-Spotify	NextSong	-	zagraj następną piosenkę
-Spotify	NextSong	-	zagraj następną piosenkę na spotify
-Spotify	NextSong	-	zagraj następną utwór
-Spotify	NextSong	-	zagraj następną utwór na spotify
-Spotify	NextSong	-	zagraj następną kawałek
-Spotify	NextSong	-	zagraj następną kawałek na spotify
-Spotify	NextSong	-	następna piosenka
-Spotify	NextSong	-	następna piosenka na spotify
-Spotify	NextSong	-	następna utwór
-Spotify	NextSong	-	następna utwór na spotify
-Spotify	NextSong	-	następna kawałek
-Spotify	NextSong	-	następna kawałek na spotify
-Spotify	PreviousSong	-	spotify poprzednia piosenka
-Spotify	PreviousSong	-	graj poprzednią piosenkę
-Spotify	PreviousSong	-	graj poprzednią piosenkę na spotify
-Spotify	PreviousSong	-	graj poprzednią utwór
-Spotify	PreviousSong	-	graj poprzednią utwór na spotify
-Spotify	PreviousSong	-	graj poprzednią kawałek
-Spotify	PreviousSong	-	graj poprzednią kawałek na spotify
-Spotify	PreviousSong	-	zagraj poprzednią piosenkę
-Spotify	PreviousSong	-	zagraj poprzednią piosenkę na spotify
-Spotify	PreviousSong	-	zagraj poprzednią utwór
-Spotify	PreviousSong	-	zagraj poprzednią utwór na spotify
-Spotify	PreviousSong	-	zagraj poprzednią kawałek
-Spotify	PreviousSong	-	zagraj poprzednią kawałek na spotify
-Spotify	PreviousSong	-	poprzednia piosenka
-Spotify	PreviousSong	-	poprzednia piosenka na spotify
-Spotify	PreviousSong	-	poprzednia utwór
-Spotify	PreviousSong	-	poprzednia utwór na spotify
-Spotify	PreviousSong	-	poprzednia kawałek
-Spotify	PreviousSong	-	poprzednia kawałek na spotify
-Spotify	PlayPlaylist	-	odtwarzaj listę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj listę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	odtwarzaj playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj playlistę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	odtwarzaj listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	odtwarzaj moją listę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj moją listę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	odtwarzaj moją playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj moją playlistę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	odtwarzaj moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	puść listę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść listę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	puść playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść playlistę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	puść listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	puść moją listę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść moją listę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	puść moją playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść moją playlistę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	puść moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	graj listę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj listę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	graj playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj playlistę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	graj listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	graj moją listę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj moją listę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	graj moją playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj moją playlistę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	graj moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	zagraj listę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj listę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	zagraj playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj playlistę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	zagraj listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	zagraj moją listę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj moją listę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	zagraj moją playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj moją playlistę SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	zagraj moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
-Spotify	PlayPlaylist	-	odtwarzaj utwory listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj utwory playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj utwory listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj utwory z mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj utwory z mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj utwory z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj piosenki listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj piosenki playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj piosenki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj piosenki z mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj piosenki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj piosenki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj kawałki listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj kawałki playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj kawałki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj kawałki z mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj kawałki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	odtwarzaj kawałki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść utwory listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść utwory playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść utwory listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść utwory z mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść utwory z mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść utwory z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść piosenki listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść piosenki playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść piosenki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść piosenki z mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść piosenki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść piosenki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść kawałki listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść kawałki playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść kawałki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść kawałki z mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść kawałki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	puść kawałki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj utwory listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj utwory playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj utwory listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj utwory z mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj utwory z mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj utwory z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj piosenki listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj piosenki playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj piosenki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj piosenki z mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj piosenki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj piosenki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj kawałki listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj kawałki playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj kawałki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj kawałki z mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj kawałki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	graj kawałki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj utwory listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj utwory playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj utwory listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj utwory z mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj utwory z mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj utwory z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj piosenki listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj piosenki playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj piosenki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj piosenki z mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj piosenki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj piosenki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj kawałki listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj kawałki playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj kawałki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj kawałki z mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj kawałki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	PlayPlaylist	-	zagraj kawałki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj tę piosenkę do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten utwór do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	dodaj ten kawałek do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz tę piosenkę do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten utwór do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylistWithName	-	zapisz ten kawałek do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj utwór SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	dodaj kawałek SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz utwór SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongWithNameToPlaylistWithName	-	zapisz kawałek SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej playlisty SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej listy SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
-Spotify	AddAlbumToPlaylist	-	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylist	-	stórz playlistę
-Spotify	CreatePlaylist	-	stórz listę odtwarzania
-Spotify	CreatePlaylist	-	stórz listę
-Spotify	CreatePlaylist	-	stórz nową playlistę
-Spotify	CreatePlaylist	-	stórz nową listę odtwarzania
-Spotify	CreatePlaylist	-	stórz nową listę
-Spotify	CreatePlaylist	-	zrób playlistę
-Spotify	CreatePlaylist	-	zrób listę odtwarzania
-Spotify	CreatePlaylist	-	zrób listę
-Spotify	CreatePlaylist	-	zrób nową playlistę
-Spotify	CreatePlaylist	-	zrób nową listę odtwarzania
-Spotify	CreatePlaylist	-	zrób nową listę
-Spotify	CreatePlaylist	-	dodaj playlistę
-Spotify	CreatePlaylist	-	dodaj listę odtwarzania
-Spotify	CreatePlaylist	-	dodaj listę
-Spotify	CreatePlaylist	-	dodaj nową playlistę
-Spotify	CreatePlaylist	-	dodaj nową listę odtwarzania
-Spotify	CreatePlaylist	-	dodaj nową listę
-Spotify	CreatePlaylistWithName	-	stórz playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	stórz playlistę o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	stórz listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	stórz listę odtwarzania o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	stórz listę SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	stórz listę o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	stórz nową playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	stórz nową playlistę o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	stórz nową listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	stórz nową listę odtwarzania o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	stórz nową listę SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	stórz nową listę o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	zrób playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	zrób playlistę o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	zrób listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	zrób listę odtwarzania o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	zrób listę SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	zrób listę o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	zrób nową playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	zrób nową playlistę o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	zrób nową listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	zrób nową listę odtwarzania o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	zrób nową listę SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	zrób nową listę o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	dodaj playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	dodaj playlistę o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	dodaj listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	dodaj listę odtwarzania o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	dodaj listę SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	dodaj listę o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	dodaj nową playlistę SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	dodaj nową playlistę o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	dodaj nową listę odtwarzania SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	dodaj nową listę odtwarzania o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	dodaj nową listę SPOTIFY.SLOT.PLAYLIST
-Spotify	CreatePlaylistWithName	-	dodaj nową listę o tytule SPOTIFY.SLOT.PLAYLIST
-Spotify	AddSongToPlaylist	-	zapisz tę piosenkę na playliscie
-Spotify	AddSongToPlaylist	-	zapisz tę piosenkę na mojej playliscie
-Spotify	AddSongToPlaylist	-	zapisz tę piosenkę na liście odtwarzania
-Spotify	AddSongToPlaylist	-	zapisz tę piosenkę na mojej liście odtwarzania
-Spotify	AddSongToPlaylist	-	zapisz tę piosenkę w bibliotece
-Spotify	AddSongToPlaylist	-	zapisz tę piosenkę w mojej bibliotece
-Spotify	AddSongToPlaylist	-	zapisz ten utór na playliscie
-Spotify	AddSongToPlaylist	-	zapisz ten utór na mojej playliscie
-Spotify	AddSongToPlaylist	-	zapisz ten utór na liście odtwarzania
-Spotify	AddSongToPlaylist	-	zapisz ten utór na mojej liście odtwarzania
-Spotify	AddSongToPlaylist	-	zapisz ten utór w bibliotece
-Spotify	AddSongToPlaylist	-	zapisz ten utór w mojej bibliotece
-Spotify	AddSongToPlaylist	-	zapisz ten kawałek na playliscie
-Spotify	AddSongToPlaylist	-	zapisz ten kawałek na mojej playliscie
-Spotify	AddSongToPlaylist	-	zapisz ten kawałek na liście odtwarzania
-Spotify	AddSongToPlaylist	-	zapisz ten kawałek na mojej liście odtwarzania
-Spotify	AddSongToPlaylist	-	zapisz ten kawałek w bibliotece
-Spotify	AddSongToPlaylist	-	zapisz ten kawałek w mojej bibliotece
-Spotify	AddSongToPlaylist	-	zapisz cokolwiek leci na playliscie
-Spotify	AddSongToPlaylist	-	zapisz cokolwiek leci na mojej playliscie
-Spotify	AddSongToPlaylist	-	zapisz cokolwiek leci na liście odtwarzania
-Spotify	AddSongToPlaylist	-	zapisz cokolwiek leci na mojej liście odtwarzania
-Spotify	AddSongToPlaylist	-	zapisz cokolwiek leci w bibliotece
-Spotify	AddSongToPlaylist	-	zapisz cokolwiek leci w mojej bibliotece
-Spotify	AddSongToPlaylist	-	zapisz cokolwiek jest grane na playliscie
-Spotify	AddSongToPlaylist	-	zapisz cokolwiek jest grane na mojej playliscie
-Spotify	AddSongToPlaylist	-	zapisz cokolwiek jest grane na liście odtwarzania
-Spotify	AddSongToPlaylist	-	zapisz cokolwiek jest grane na mojej liście odtwarzania
-Spotify	AddSongToPlaylist	-	zapisz cokolwiek jest grane w bibliotece
-Spotify	AddSongToPlaylist	-	zapisz cokolwiek jest grane w mojej bibliotece
-Spotify	SeekByTime	-	przewiń o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
-Spotify	SeekByTime	-	przewiń o SPOTIFY.SLOT.SEEK_TIME sekund w przód
-Spotify	SeekByTime	-	przewiń tę piosenkę o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
-Spotify	SeekByTime	-	przewiń tę piosenkę o SPOTIFY.SLOT.SEEK_TIME sekund w przód
-Spotify	SeekByTime	-	przewiń ten utwór o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
-Spotify	SeekByTime	-	przewiń ten utwór o SPOTIFY.SLOT.SEEK_TIME sekund w przód
-Spotify	SeekByTime	-	przewiń ten kawałek o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
-Spotify	SeekByTime	-	przewiń ten kawałek o SPOTIFY.SLOT.SEEK_TIME sekund w przód
-Spotify	SeekByTime	-	przesuń o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
-Spotify	SeekByTime	-	przesuń o SPOTIFY.SLOT.SEEK_TIME sekund w przód
-Spotify	SeekByTime	-	przesuń tę piosenkę o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
-Spotify	SeekByTime	-	przesuń tę piosenkę o SPOTIFY.SLOT.SEEK_TIME sekund w przód
-Spotify	SeekByTime	-	przesuń ten utwór o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
-Spotify	SeekByTime	-	przesuń ten utwór o SPOTIFY.SLOT.SEEK_TIME sekund w przód
-Spotify	SeekByTime	-	przesuń ten kawałek o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
-Spotify	SeekByTime	-	przesuń ten kawałek o SPOTIFY.SLOT.SEEK_TIME sekund w przód
-Spotify	ShuffleOnOff	-	SPOTIFY.SLOT.STATE shuffle
-Spotify	ShuffleOnOff	-	SPOTIFY.SLOT.STATE losowe odtwarzanie
-Spotify	ShuffleOnOff	-	SPOTIFY.SLOT.STATE losowość
-Spotify	RepeatOnOff	-	SPOTIFY.SLOT.STATE powtarzanie
-Spotify	RepeatOnOff	-	SPOTIFY.SLOT.STATE repeat
-Spotify	RepeatOnOff	-	na rypicie
-Spotify	ShowDanceability	-	jak ta piosenka jest taneczna
-Spotify	ShowDanceability	-	jak ten utwór jest taneczny
-Spotify	ShowDanceability	-	jak ten kawałek jest taneczny
-Spotify	ShowDanceability	-	jak bardzo ta piosenka jest taneczna
-Spotify	ShowDanceability	-	jak bardzo ten utwór jest taneczny
-Spotify	ShowDanceability	-	jak bardzo ten kawałek jest taneczny
-Spotify	ShowDanceability	-	taneczność tej piosenki
-Spotify	ShowDanceability	-	taneczność tego utworu
-Spotify	ShowDanceability	-	taneczność tego kawałka
-Spotify	ShowDanceability	-	podaj taneczność tej piosenki
-Spotify	ShowDanceability	-	podaj taneczność tego utworu
-Spotify	ShowDanceability	-	podaj taneczność tego kawałka
-Spotify	ShowDanceability	-	czy ta piosenka jest taneczny
-Spotify	ShowDanceability	-	czy ten utwór jest taneczny
-Spotify	ShowDanceability	-	czy ten kawałek jest taneczny
+Spotify__	OpenSpotify__	otwórz spotify
+Spotify__	OpenSpotify__	otwórz spotify i zagraj
+Spotify__	OpenSpotify__	otwórz spotify i zagraj coś
+Spotify__	OpenSpotify__	otwórz spotify i zagraj mi
+Spotify__	OpenSpotify__	otwórz spotify i zagraj mi coś
+Spotify__	OpenSpotify__	otwórz spotify włącz muzykę
+Spotify__	OpenSpotify__	otwórz spotify włącz jakąś muzykę
+Spotify__	OpenSpotify__	otwórz spotify puść muzykę
+Spotify__	OpenSpotify__	użyj spotify
+Spotify__	OpenSpotify__	użyj spotify i zagraj
+Spotify__	OpenSpotify__	użyj spotify i zagraj coś
+Spotify__	OpenSpotify__	użyj spotify i zagraj mi
+Spotify__	OpenSpotify__	użyj spotify i zagraj mi coś
+Spotify__	OpenSpotify__	użyj spotify włącz muzykę
+Spotify__	OpenSpotify__	użyj spotify włącz jakąś muzykę
+Spotify__	OpenSpotify__	użyj spotify puść muzykę
+Spotify__	PlaySong__	odtwarzaj SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	odtwarzaj SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	odtwarzaj piosenkę SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	odtwarzaj piosenkę SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	odtwarzaj utwór SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	odtwarzaj utwór SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	odtwarzaj kawałek SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	odtwarzaj kawałek SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	puść SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	puść SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	puść piosenkę SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	puść piosenkę SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	puść utwór SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	puść utwór SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	puść kawałek SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	puść kawałek SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	włącz SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	włącz SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	włącz piosenkę SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	włącz piosenkę SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	włącz utwór SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	włącz utwór SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	włącz kawałek SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	włącz kawałek SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	graj SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	graj SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	graj piosenkę SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	graj piosenkę SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	graj utwór SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	graj utwór SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	graj kawałek SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	graj kawałek SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	zagraj SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	zagraj SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	zagraj piosenkę SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	zagraj piosenkę SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	zagraj utwór SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	zagraj utwór SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySong__	zagraj kawałek SPOTIFY.SLOT.SONG
+Spotify__	PlaySong__	zagraj kawałek SPOTIFY.SLOT.SONG na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	odtwarzaj kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	puść kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	puść kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	graj kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	graj kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj piosenkę SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj piosenkę SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj piosenkę SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj piosenkę SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj piosenkę SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj utwór SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj utwór SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj utwór SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj utwór SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj utwór SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj kawałek SPOTIFY.SLOT.SONG SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj kawałek SPOTIFY.SLOT.SONG artysty SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj kawałek SPOTIFY.SLOT.SONG w wykonaniu SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj kawałek SPOTIFY.SLOT.SONG stworzony przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	zagraj kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST
+Spotify__	PlaySongByArtist__	zagraj kawałek SPOTIFY.SLOT.SONG nagrany przez SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlaySongByArtist__	odtwarzaj SPOTIFY.SLOT.ARTIST SPOTIFY.SLOT.SONG
+Spotify__	PlaySongByArtist__	puść SPOTIFY.SLOT.ARTIST SPOTIFY.SLOT.SONG
+Spotify__	PlaySongByArtist__	zagraj SPOTIFY.SLOT.ARTIST SPOTIFY.SLOT.SONG
+Spotify__	PlaySongByArtist__	graj SPOTIFY.SLOT.ARTIST SPOTIFY.SLOT.SONG
+Spotify__	PlayAlbumOfTypeByArtist__	graj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM SPOTIFY.SLOT.ARTIST
+Spotify__	PlayAlbumOfTypeByArtist__	graj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlayAlbumOfTypeByArtist__	graj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM od SPOTIFY.SLOT.ARTIST
+Spotify__	PlayAlbumOfTypeByArtist__	graj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM od SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlayAlbumOfTypeByArtist__	graj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM wykonawcy SPOTIFY.SLOT.ARTIST
+Spotify__	PlayAlbumOfTypeByArtist__	graj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM wykonawcy SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlayAlbumOfTypeByArtist__	zagraj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM SPOTIFY.SLOT.ARTIST
+Spotify__	PlayAlbumOfTypeByArtist__	zagraj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlayAlbumOfTypeByArtist__	zagraj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM od SPOTIFY.SLOT.ARTIST
+Spotify__	PlayAlbumOfTypeByArtist__	zagraj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM od SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	PlayAlbumOfTypeByArtist__	zagraj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM wykonawcy SPOTIFY.SLOT.ARTIST
+Spotify__	PlayAlbumOfTypeByArtist__	zagraj SPOTIFY.SLOT.ALBUM_TYPE SPOTIFY.SLOT.ALBUM wykonawcy SPOTIFY.SLOT.ARTIST na spotify
+Spotify__	Pause__	odtwarzaj tę posenkę
+Spotify__	Pause__	odtwarzaj tę posenkę na spotify
+Spotify__	Pause__	odtwarzaj ten utwór
+Spotify__	Pause__	odtwarzaj ten utwór na spotify
+Spotify__	Pause__	odtwarzaj ten kawałek
+Spotify__	Pause__	odtwarzaj ten kawałek na spotify
+Spotify__	Pause__	pauza tę posenkę
+Spotify__	Pause__	pauza tę posenkę na spotify
+Spotify__	Pause__	pauza ten utwór
+Spotify__	Pause__	pauza ten utwór na spotify
+Spotify__	Pause__	pauza ten kawałek
+Spotify__	Pause__	pauza ten kawałek na spotify
+Spotify__	Pause__	wznów tę posenkę
+Spotify__	Pause__	wznów tę posenkę na spotify
+Spotify__	Pause__	wznów ten utwór
+Spotify__	Pause__	wznów ten utwór na spotify
+Spotify__	Pause__	wznów ten kawałek
+Spotify__	Pause__	wznów ten kawałek na spotify
+Spotify__	Pause__	powtórz tę posenkę
+Spotify__	Pause__	powtórz tę posenkę na spotify
+Spotify__	Pause__	powtórz ten utwór
+Spotify__	Pause__	powtórz ten utwór na spotify
+Spotify__	Pause__	powtórz ten kawałek
+Spotify__	Pause__	powtórz ten kawałek na spotify
+Spotify__	NextSong__
+Spotify__	NextSong__	na spotify
+Spotify__	NextSong__	graj następną piosenkę
+Spotify__	NextSong__	graj następną piosenkę na spotify
+Spotify__	NextSong__	graj następną utwór
+Spotify__	NextSong__	graj następną utwór na spotify
+Spotify__	NextSong__	graj następną kawałek
+Spotify__	NextSong__	graj następną kawałek na spotify
+Spotify__	NextSong__	zagraj następną piosenkę
+Spotify__	NextSong__	zagraj następną piosenkę na spotify
+Spotify__	NextSong__	zagraj następną utwór
+Spotify__	NextSong__	zagraj następną utwór na spotify
+Spotify__	NextSong__	zagraj następną kawałek
+Spotify__	NextSong__	zagraj następną kawałek na spotify
+Spotify__	NextSong__	następna piosenka
+Spotify__	NextSong__	następna piosenka na spotify
+Spotify__	NextSong__	następna utwór
+Spotify__	NextSong__	następna utwór na spotify
+Spotify__	NextSong__	następna kawałek
+Spotify__	NextSong__	następna kawałek na spotify
+Spotify__	PreviousSong__
+Spotify__	PreviousSong__	na spotify
+Spotify__	PreviousSong__	graj poprzednią piosenkę
+Spotify__	PreviousSong__	graj poprzednią piosenkę na spotify
+Spotify__	PreviousSong__	graj poprzednią utwór
+Spotify__	PreviousSong__	graj poprzednią utwór na spotify
+Spotify__	PreviousSong__	graj poprzednią kawałek
+Spotify__	PreviousSong__	graj poprzednią kawałek na spotify
+Spotify__	PreviousSong__	zagraj poprzednią piosenkę
+Spotify__	PreviousSong__	zagraj poprzednią piosenkę na spotify
+Spotify__	PreviousSong__	zagraj poprzednią utwór
+Spotify__	PreviousSong__	zagraj poprzednią utwór na spotify
+Spotify__	PreviousSong__	zagraj poprzednią kawałek
+Spotify__	PreviousSong__	zagraj poprzednią kawałek na spotify
+Spotify__	PreviousSong__	poprzednia piosenka
+Spotify__	PreviousSong__	poprzednia piosenka na spotify
+Spotify__	PreviousSong__	poprzednia utwór
+Spotify__	PreviousSong__	poprzednia utwór na spotify
+Spotify__	PreviousSong__	poprzednia kawałek
+Spotify__	PreviousSong__	poprzednia kawałek na spotify
+Spotify__	PlayPlaylist__	odtwarzaj listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj listę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	odtwarzaj playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj playlistę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	odtwarzaj listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	odtwarzaj moją listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj moją listę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	odtwarzaj moją playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj moją playlistę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	odtwarzaj moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	puść listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść listę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	puść playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść playlistę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	puść listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	puść moją listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść moją listę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	puść moją playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść moją playlistę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	puść moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	graj listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj listę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	graj playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj playlistę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	graj listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	graj moją listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj moją listę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	graj moją playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj moją playlistę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	graj moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	zagraj listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj listę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	zagraj playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj playlistę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	zagraj listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	zagraj moją listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj moją listę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	zagraj moją playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj moją playlistę SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	zagraj moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj moją listę odtwarzania SPOTIFY.SLOT.PLAYLIST na spotify
+Spotify__	PlayPlaylist__	odtwarzaj utwory listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj utwory playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj utwory listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj utwory z mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj utwory z mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj utwory z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj piosenki listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj piosenki playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj piosenki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj piosenki z mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj piosenki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj piosenki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj kawałki listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj kawałki playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj kawałki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj kawałki z mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj kawałki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	odtwarzaj kawałki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść utwory listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść utwory playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść utwory listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść utwory z mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść utwory z mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść utwory z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść piosenki listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść piosenki playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść piosenki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść piosenki z mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść piosenki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść piosenki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść kawałki listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść kawałki playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść kawałki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść kawałki z mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść kawałki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	puść kawałki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj utwory listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj utwory playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj utwory listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj utwory z mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj utwory z mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj utwory z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj piosenki listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj piosenki playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj piosenki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj piosenki z mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj piosenki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj piosenki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj kawałki listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj kawałki playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj kawałki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj kawałki z mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj kawałki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	graj kawałki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj utwory listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj utwory playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj utwory listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj utwory z mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj utwory z mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj utwory z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj piosenki listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj piosenki playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj piosenki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj piosenki z mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj piosenki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj piosenki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj kawałki listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj kawałki playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj kawałki listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj kawałki z mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj kawałki z mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	PlayPlaylist__	zagraj kawałki z mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj tę piosenkę do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten utwór do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	dodaj ten kawałek do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz tę piosenkę do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten utwór do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylistWithName__	zapisz ten kawałek do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj piosenkę SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj utwór SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	dodaj kawałek SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz piosenkę SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz utwór SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongWithNameToPlaylistWithName__	zapisz kawałek SPOTIFY.SLOT.SONG do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	dodaj SPOTIFY.SLOT.ALBUM_TYPE do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej playlisty SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej playlisty o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej playlisty która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej listy odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej listy odtwarzania o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej listy odtwarzania która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej listy SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej listy o nazwie SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddAlbumToPlaylist__	zapisz SPOTIFY.SLOT.ALBUM_TYPE do mojej listy która się nazywa SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylist__	stórz playlistę
+Spotify__	CreatePlaylist__	stórz listę odtwarzania
+Spotify__	CreatePlaylist__	stórz listę
+Spotify__	CreatePlaylist__	stórz nową playlistę
+Spotify__	CreatePlaylist__	stórz nową listę odtwarzania
+Spotify__	CreatePlaylist__	stórz nową listę
+Spotify__	CreatePlaylist__	zrób playlistę
+Spotify__	CreatePlaylist__	zrób listę odtwarzania
+Spotify__	CreatePlaylist__	zrób listę
+Spotify__	CreatePlaylist__	zrób nową playlistę
+Spotify__	CreatePlaylist__	zrób nową listę odtwarzania
+Spotify__	CreatePlaylist__	zrób nową listę
+Spotify__	CreatePlaylist__	dodaj playlistę
+Spotify__	CreatePlaylist__	dodaj listę odtwarzania
+Spotify__	CreatePlaylist__	dodaj listę
+Spotify__	CreatePlaylist__	dodaj nową playlistę
+Spotify__	CreatePlaylist__	dodaj nową listę odtwarzania
+Spotify__	CreatePlaylist__	dodaj nową listę
+Spotify__	CreatePlaylistWithName__	stórz playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	stórz playlistę o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	stórz listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	stórz listę odtwarzania o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	stórz listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	stórz listę o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	stórz nową playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	stórz nową playlistę o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	stórz nową listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	stórz nową listę odtwarzania o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	stórz nową listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	stórz nową listę o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	zrób playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	zrób playlistę o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	zrób listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	zrób listę odtwarzania o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	zrób listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	zrób listę o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	zrób nową playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	zrób nową playlistę o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	zrób nową listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	zrób nową listę odtwarzania o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	zrób nową listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	zrób nową listę o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	dodaj playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	dodaj playlistę o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	dodaj listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	dodaj listę odtwarzania o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	dodaj listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	dodaj listę o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	dodaj nową playlistę SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	dodaj nową playlistę o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	dodaj nową listę odtwarzania SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	dodaj nową listę odtwarzania o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	dodaj nową listę SPOTIFY.SLOT.PLAYLIST
+Spotify__	CreatePlaylistWithName__	dodaj nową listę o tytule SPOTIFY.SLOT.PLAYLIST
+Spotify__	AddSongToPlaylist__	zapisz tę piosenkę na playliscie
+Spotify__	AddSongToPlaylist__	zapisz tę piosenkę na mojej playliscie
+Spotify__	AddSongToPlaylist__	zapisz tę piosenkę na liście odtwarzania
+Spotify__	AddSongToPlaylist__	zapisz tę piosenkę na mojej liście odtwarzania
+Spotify__	AddSongToPlaylist__	zapisz tę piosenkę w bibliotece
+Spotify__	AddSongToPlaylist__	zapisz tę piosenkę w mojej bibliotece
+Spotify__	AddSongToPlaylist__	zapisz ten utór na playliscie
+Spotify__	AddSongToPlaylist__	zapisz ten utór na mojej playliscie
+Spotify__	AddSongToPlaylist__	zapisz ten utór na liście odtwarzania
+Spotify__	AddSongToPlaylist__	zapisz ten utór na mojej liście odtwarzania
+Spotify__	AddSongToPlaylist__	zapisz ten utór w bibliotece
+Spotify__	AddSongToPlaylist__	zapisz ten utór w mojej bibliotece
+Spotify__	AddSongToPlaylist__	zapisz ten kawałek na playliscie
+Spotify__	AddSongToPlaylist__	zapisz ten kawałek na mojej playliscie
+Spotify__	AddSongToPlaylist__	zapisz ten kawałek na liście odtwarzania
+Spotify__	AddSongToPlaylist__	zapisz ten kawałek na mojej liście odtwarzania
+Spotify__	AddSongToPlaylist__	zapisz ten kawałek w bibliotece
+Spotify__	AddSongToPlaylist__	zapisz ten kawałek w mojej bibliotece
+Spotify__	AddSongToPlaylist__	zapisz cokolwiek leci na playliscie
+Spotify__	AddSongToPlaylist__	zapisz cokolwiek leci na mojej playliscie
+Spotify__	AddSongToPlaylist__	zapisz cokolwiek leci na liście odtwarzania
+Spotify__	AddSongToPlaylist__	zapisz cokolwiek leci na mojej liście odtwarzania
+Spotify__	AddSongToPlaylist__	zapisz cokolwiek leci w bibliotece
+Spotify__	AddSongToPlaylist__	zapisz cokolwiek leci w mojej bibliotece
+Spotify__	AddSongToPlaylist__	zapisz cokolwiek jest grane na playliscie
+Spotify__	AddSongToPlaylist__	zapisz cokolwiek jest grane na mojej playliscie
+Spotify__	AddSongToPlaylist__	zapisz cokolwiek jest grane na liście odtwarzania
+Spotify__	AddSongToPlaylist__	zapisz cokolwiek jest grane na mojej liście odtwarzania
+Spotify__	AddSongToPlaylist__	zapisz cokolwiek jest grane w bibliotece
+Spotify__	AddSongToPlaylist__	zapisz cokolwiek jest grane w mojej bibliotece
+Spotify__	SeekByTime__	przewiń o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
+Spotify__	SeekByTime__	przewiń o SPOTIFY.SLOT.SEEK_TIME sekund w przód
+Spotify__	SeekByTime__	przewiń tę piosenkę o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
+Spotify__	SeekByTime__	przewiń tę piosenkę o SPOTIFY.SLOT.SEEK_TIME sekund w przód
+Spotify__	SeekByTime__	przewiń ten utwór o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
+Spotify__	SeekByTime__	przewiń ten utwór o SPOTIFY.SLOT.SEEK_TIME sekund w przód
+Spotify__	SeekByTime__	przewiń ten kawałek o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
+Spotify__	SeekByTime__	przewiń ten kawałek o SPOTIFY.SLOT.SEEK_TIME sekund w przód
+Spotify__	SeekByTime__	przesuń o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
+Spotify__	SeekByTime__	przesuń o SPOTIFY.SLOT.SEEK_TIME sekund w przód
+Spotify__	SeekByTime__	przesuń tę piosenkę o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
+Spotify__	SeekByTime__	przesuń tę piosenkę o SPOTIFY.SLOT.SEEK_TIME sekund w przód
+Spotify__	SeekByTime__	przesuń ten utwór o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
+Spotify__	SeekByTime__	przesuń ten utwór o SPOTIFY.SLOT.SEEK_TIME sekund w przód
+Spotify__	SeekByTime__	przesuń ten kawałek o SPOTIFY.SLOT.SEEK_TIME sekund do przodu
+Spotify__	SeekByTime__	przesuń ten kawałek o SPOTIFY.SLOT.SEEK_TIME sekund w przód
+Spotify__	ShuffleOnOff__	SPOTIFY.SLOT.STATE shuffle
+Spotify__	ShuffleOnOff__	SPOTIFY.SLOT.STATE losowe odtwarzanie
+Spotify__	ShuffleOnOff__	SPOTIFY.SLOT.STATE losowość
+Spotify__	RepeatOnOff__	SPOTIFY.SLOT.STATE powtarzanie
+Spotify__	RepeatOnOff__	SPOTIFY.SLOT.STATE repeat
+Spotify__	RepeatOnOff__	na rypicie
+Spotify__	ShowDanceability__	jak ta piosenka jest taneczna
+Spotify__	ShowDanceability__	jak ten utwór jest taneczny
+Spotify__	ShowDanceability__	jak ten kawałek jest taneczny
+Spotify__	ShowDanceability__	jak bardzo ta piosenka jest taneczna
+Spotify__	ShowDanceability__	jak bardzo ten utwór jest taneczny
+Spotify__	ShowDanceability__	jak bardzo ten kawałek jest taneczny
+Spotify__	ShowDanceability__	taneczność tej piosenki
+Spotify__	ShowDanceability__	taneczność tego utworu
+Spotify__	ShowDanceability__	taneczność tego kawałka
+Spotify__	ShowDanceability__	podaj taneczność tej piosenki
+Spotify__	ShowDanceability__	podaj taneczność tego utworu
+Spotify__	ShowDanceability__	podaj taneczność tego kawałka
+Spotify__	ShowDanceability__	czy ta piosenka jest taneczny
+Spotify__	ShowDanceability__	czy ten utwór jest taneczny
+Spotify__	ShowDanceability__	czy ten kawałek jest taneczny

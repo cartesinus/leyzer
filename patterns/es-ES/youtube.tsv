@@ -1,147 +1,146 @@
-domain	intent	parallel	pattern
-Youtube	OpenYT	-	abre yt
-Youtube	OpenYT	-	abre youtube
-Youtube	FindQuery	-	reproduce vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	reproduce video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	reproduce el vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	reproduce el video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	reproduce un vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	reproduce un video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	reproduce YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	reproduce YOUTUBE.SLOT.QUERY vídeo en youtube
-Youtube	FindQuery	-	reproduce YOUTUBE.SLOT.QUERY video en youtube
-Youtube	FindQuery	-	reproduce YOUTUBE.SLOT.QUERY videos en youtube
-Youtube	FindQuery	-	reproduce YOUTUBE.SLOT.QUERY vídeos en youtube
-Youtube	FindQuery	-	reproduce vídeo de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	-	reproduce video de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	-	busca vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	busca video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	busca el vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	busca el video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	busca un vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	busca un video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	busca YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	busca YOUTUBE.SLOT.QUERY vídeo en youtube
-Youtube	FindQuery	-	busca YOUTUBE.SLOT.QUERY video en youtube
-Youtube	FindQuery	-	busca YOUTUBE.SLOT.QUERY videos en youtube
-Youtube	FindQuery	-	busca YOUTUBE.SLOT.QUERY vídeos en youtube
-Youtube	FindQuery	-	busca vídeo de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	-	busca video de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	-	encuentra vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	encuentra video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	encuentra el vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	encuentra el video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	encuentra un vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	encuentra un video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	encuentra YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	encuentra YOUTUBE.SLOT.QUERY vídeo en youtube
-Youtube	FindQuery	-	encuentra YOUTUBE.SLOT.QUERY video en youtube
-Youtube	FindQuery	-	encuentra YOUTUBE.SLOT.QUERY videos en youtube
-Youtube	FindQuery	-	encuentra YOUTUBE.SLOT.QUERY vídeos en youtube
-Youtube	FindQuery	-	encuentra vídeo de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	-	encuentra video de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	-	búscame vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	búscame video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	búscame el vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	búscame el video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	búscame un vídeo YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	búscame un video YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	búscame YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQuery	-	búscame YOUTUBE.SLOT.QUERY vídeo en youtube
-Youtube	FindQuery	-	búscame YOUTUBE.SLOT.QUERY video en youtube
-Youtube	FindQuery	-	búscame YOUTUBE.SLOT.QUERY videos en youtube
-Youtube	FindQuery	-	búscame YOUTUBE.SLOT.QUERY vídeos en youtube
-Youtube	FindQuery	-	búscame vídeo de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQuery	-	búscame video de youtube YOUTUBE.SLOT.QUERY
-Youtube	ShowChannelWithName	-	muestra canal de youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	-	muestra el canal de youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	-	muestra videos en youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	-	muestra vídeos en youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	-	muestra canal YOUTUBE.SLOT.CHANNEL_ID en youtube
-Youtube	ShowChannelWithName	-	reproduce canal de youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	-	reproduce el canal de youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	-	reproduce videos en youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	-	reproduce vídeos en youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	-	reproduce canal YOUTUBE.SLOT.CHANNEL_ID en youtube
-Youtube	ShowChannelWithName	-	muéstrame canal de youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	-	muéstrame el canal de youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	-	muéstrame videos en youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	-	muéstrame vídeos en youtube YOUTUBE.SLOT.CHANNEL_ID
-Youtube	ShowChannelWithName	-	muéstrame canal YOUTUBE.SLOT.CHANNEL_ID en youtube
-Youtube	ShowChannelWithCategory	-	muestra canales de categoría YOUTUBE.SLOT.CATEGORY en youtube
-Youtube	ShowChannelWithCategory	-	muestra canales de youtube de categoría YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	-	muestra YOUTUBE.SLOT.CATEGORY canales de youtube
-Youtube	ShowChannelWithCategory	-	muestra YOUTUBE.SLOT.CATEGORY canales en youtube
-Youtube	ShowChannelWithCategory	-	muestra canales de youtube YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	-	muestra canales en youtube YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	-	reproduce canales de categoría YOUTUBE.SLOT.CATEGORY en youtube
-Youtube	ShowChannelWithCategory	-	reproduce canales de youtube de categoría YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	-	reproduce YOUTUBE.SLOT.CATEGORY canales de youtube
-Youtube	ShowChannelWithCategory	-	reproduce YOUTUBE.SLOT.CATEGORY canales en youtube
-Youtube	ShowChannelWithCategory	-	reproduce canales de youtube YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	-	reproduce canales en youtube YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	-	muéstrame canales de categoría YOUTUBE.SLOT.CATEGORY en youtube
-Youtube	ShowChannelWithCategory	-	muéstrame canales de youtube de categoría YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	-	muéstrame YOUTUBE.SLOT.CATEGORY canales de youtube
-Youtube	ShowChannelWithCategory	-	muéstrame YOUTUBE.SLOT.CATEGORY canales en youtube
-Youtube	ShowChannelWithCategory	-	muéstrame canales de youtube YOUTUBE.SLOT.CATEGORY
-Youtube	ShowChannelWithCategory	-	muéstrame canales en youtube YOUTUBE.SLOT.CATEGORY
-Youtube	ShowSubscribedChannels	-	muestra canales a que me he suscrito en youtube
-Youtube	ShowSubscribedChannels	-	muéstrame canales a que me he suscrito en youtube
-Youtube	FindChannelWithQuery	-	busca canales YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindChannelWithQuery	-	busca canales que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindChannelWithQuery	-	busca canal de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindChannelWithQuery	-	encuentra canales YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindChannelWithQuery	-	encuentra canales que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindChannelWithQuery	-	encuentra canal de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindChannelWithQuery	-	búscame canales YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindChannelWithQuery	-	búscame canales que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindChannelWithQuery	-	búscame canal de youtube YOUTUBE.SLOT.QUERY
-Youtube	FindQueryOnChannel	-	muestra un vídeo de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muestra un vídeo de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muestra un vídeo publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muestra un vídeo publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muestra un video de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muestra un video de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muestra un video publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muestra un video publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muestra un videos de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muestra un videos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muestra un videos publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muestra un videos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muestra un vídeos de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muestra un vídeos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muestra un vídeos publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muestra un vídeos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muéstrame un vídeo de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muéstrame un vídeo de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muéstrame un vídeo publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muéstrame un vídeo publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muéstrame un video de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muéstrame un video de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muéstrame un video publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muéstrame un video publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muéstrame un videos de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muéstrame un videos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muéstrame un videos publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muéstrame un videos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muéstrame un vídeos de YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muéstrame un vídeos de YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	FindQueryOnChannel	-	muéstrame un vídeos publicados por YOUTUBE.SLOT.CHANNEL_ID
-Youtube	FindQueryOnChannel	-	muéstrame un vídeos publicados por YOUTUBE.SLOT.CHANNEL_ID que coinciden con YOUTUBE.SLOT.QUERY en youtube
-Youtube	NotifyOnNewFromFollowing	-	notifícame cuando aparezca un nuevo vídeo en canales que sigo
-Youtube	NotifyOnNewFromFollowing	-	notifícame cuando aparezca un nuevo video en canales que sigo
-Youtube	NotifyonNewOnChannel	-	notifícame cuando aparezca un nuevo vídeo en el canal YOUTUBE.SLOT.CHANNEL_ID
-Youtube	NotifyonNewOnChannel	-	notifícame cuando aparezca un nuevo video en el canal YOUTUBE.SLOT.CHANNEL_ID
-Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un vídeo en youtube
-Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un video en youtube
-Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un nuevo vídeo en youtube
-Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID suba un nuevo video en youtube
-Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un vídeo en youtube
-Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un video en youtube
-Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un nuevo vídeo en youtube
-Youtube	NotifyonNewOnChannel	-	notifícame cuando YOUTUBE.SLOT.CHANNEL_ID publique un nuevo video en youtube
-Youtube	NextVideo	-	video siguiente
-Youtube	NextVideo	-	salta este video
-Youtube	NextVideo	-	pasa al siguiente video
-Youtube	NextVideo	-	pasa al video siguiente
+Youtube__	OpenYT__	abre yt
+Youtube__	OpenYT__	abre youtube
+Youtube__	FindQuery__	reproduce vídeo {QUERY:high} en youtube
+Youtube__	FindQuery__	reproduce video {QUERY:makina} en youtube
+Youtube__	FindQuery__	reproduce el vídeo {QUERY:si me gano un grammy jon z} en youtube
+Youtube__	FindQuery__	reproduce el video {QUERY:manos en el ano} en youtube
+Youtube__	FindQuery__	reproduce un vídeo {QUERY:besame david bisbal y juan magan} en youtube
+Youtube__	FindQuery__	reproduce un video {QUERY:moto guzzi v85 tt} en youtube
+Youtube__	FindQuery__	reproduce {QUERY:homicide logic} en youtube
+Youtube__	FindQuery__	reproduce {QUERY:punto g karol g} vídeo en youtube
+Youtube__	FindQuery__	reproduce {QUERY:parkour} video en youtube
+Youtube__	FindQuery__	reproduce {QUERY:kill this love} videos en youtube
+Youtube__	FindQuery__	reproduce {QUERY:amy winehouse} vídeos en youtube
+Youtube__	FindQuery__	reproduce vídeo de youtube {QUERY:duki goteo}
+Youtube__	FindQuery__	reproduce video de youtube {QUERY:suzuki}
+Youtube__	FindQuery__	busca vídeo {QUERY:justin bieber} en youtube
+Youtube__	FindQuery__	busca video {QUERY:psoe} en youtube
+Youtube__	FindQuery__	busca el vídeo {QUERY:erkenci kus español} en youtube
+Youtube__	FindQuery__	busca el video {QUERY:boy with luv bts} en youtube
+Youtube__	FindQuery__	busca un vídeo {QUERY:huawei p30} en youtube
+Youtube__	FindQuery__	busca un video {QUERY:lil nas x} en youtube
+Youtube__	FindQuery__	busca {QUERY:sigues preguntando remix} en youtube
+Youtube__	FindQuery__	busca {QUERY:madrid} vídeo en youtube
+Youtube__	FindQuery__	busca {QUERY:agua y mezcal} video en youtube
+Youtube__	FindQuery__	busca {QUERY:mangel} videos en youtube
+Youtube__	FindQuery__	busca {QUERY:violeta} vídeos en youtube
+Youtube__	FindQuery__	busca vídeo de youtube {QUERY:a70 samsung}
+Youtube__	FindQuery__	busca video de youtube {QUERY:twenty one pilots}
+Youtube__	FindQuery__	encuentra vídeo {QUERY:xiaomi redmi 7} en youtube
+Youtube__	FindQuery__	encuentra video {QUERY:game of thrones 8x03} en youtube
+Youtube__	FindQuery__	encuentra el vídeo {QUERY:pollo} en youtube
+Youtube__	FindQuery__	encuentra el video {QUERY:makeup} en youtube
+Youtube__	FindQuery__	encuentra un vídeo {QUERY:vivan las manos de colores} en youtube
+Youtube__	FindQuery__	encuentra un video {QUERY:arya} en youtube
+Youtube__	FindQuery__	encuentra {QUERY:samsung a40} en youtube
+Youtube__	FindQuery__	encuentra {QUERY:volcan fortnite} vídeo en youtube
+Youtube__	FindQuery__	encuentra {QUERY:thermomix} video en youtube
+Youtube__	FindQuery__	encuentra {QUERY:unboxing} videos en youtube
+Youtube__	FindQuery__	encuentra {QUERY:cake} vídeos en youtube
+Youtube__	FindQuery__	encuentra vídeo de youtube {QUERY:polonia bertin osborne}
+Youtube__	FindQuery__	encuentra video de youtube {QUERY:tres cerditos y el lobo feroz}
+Youtube__	FindQuery__	búscame vídeo {QUERY:resumen barcelona liverpool} en youtube
+Youtube__	FindQuery__	búscame video {QUERY:tiktok mashup} en youtube
+Youtube__	FindQuery__	búscame el vídeo {QUERY:anuel} en youtube
+Youtube__	FindQuery__	búscame el video {QUERY:erkenci kus} en youtube
+Youtube__	FindQuery__	búscame un vídeo {QUERY:musica para tiendas 2019} en youtube
+Youtube__	FindQuery__	búscame un video {QUERY:luna llena novela turca en español} en youtube
+Youtube__	FindQuery__	búscame {QUERY:sabaton bismarck} en youtube
+Youtube__	FindQuery__	búscame {QUERY:liverpool vs barcelona} vídeo en youtube
+Youtube__	FindQuery__	búscame {QUERY:lory money} video en youtube
+Youtube__	FindQuery__	búscame {QUERY:pio pio} videos en youtube
+Youtube__	FindQuery__	búscame {QUERY:samsung} vídeos en youtube
+Youtube__	FindQuery__	búscame vídeo de youtube {QUERY:aute cuture}
+Youtube__	FindQuery__	búscame video de youtube {QUERY:busca la señal del mapa del tesoro que hay en oasis ostentoso}
+Youtube__	ShowChannelWithName__	muestra canal de youtube {CHANNEL_ID:pewdiepie}
+Youtube__	ShowChannelWithName__	muestra el canal de youtube {CHANNEL_ID:theneedledrop}
+Youtube__	ShowChannelWithName__	muestra videos en youtube {CHANNEL_ID:justin bieber}
+Youtube__	ShowChannelWithName__	muestra vídeos en youtube {CHANNEL_ID:team coco}
+Youtube__	ShowChannelWithName__	muestra canal {CHANNEL_ID:cineamasin} en youtube
+Youtube__	ShowChannelWithName__	reproduce canal de youtube {CHANNEL_ID:dandmt}
+Youtube__	ShowChannelWithName__	reproduce el canal de youtube {CHANNEL_ID:niki and gabi}
+Youtube__	ShowChannelWithName__	reproduce videos en youtube {CHANNEL_ID:wwe}
+Youtube__	ShowChannelWithName__	reproduce vídeos en youtube {CHANNEL_ID:unbox therapy}
+Youtube__	ShowChannelWithName__	reproduce canal {CHANNEL_ID:gordon ramsay} en youtube
+Youtube__	ShowChannelWithName__	muéstrame canal de youtube {CHANNEL_ID:pewdiepie}
+Youtube__	ShowChannelWithName__	muéstrame el canal de youtube {CHANNEL_ID:theneedledrop}
+Youtube__	ShowChannelWithName__	muéstrame videos en youtube {CHANNEL_ID:justin bieber}
+Youtube__	ShowChannelWithName__	muéstrame vídeos en youtube {CHANNEL_ID:team coco}
+Youtube__	ShowChannelWithName__	muéstrame canal {CHANNEL_ID:cineamasin} en youtube
+Youtube__	ShowChannelWithCategory__	muestra canales de categoría {CATEGORY:noticias y política} en youtube
+Youtube__	ShowChannelWithCategory__	muestra canales de youtube de categoría {CATEGORY:cocina y salud}
+Youtube__	ShowChannelWithCategory__	muestra {CATEGORY:tecnologías} canales de youtube
+Youtube__	ShowChannelWithCategory__	muestra {CATEGORY:deportes} canales en youtube
+Youtube__	ShowChannelWithCategory__	muestra canales de youtube {CATEGORY:belleza y moda}
+Youtube__	ShowChannelWithCategory__	muestra canales en youtube {CATEGORY:gaming}
+Youtube__	ShowChannelWithCategory__	reproduce canales de categoría {CATEGORY:comedía} en youtube
+Youtube__	ShowChannelWithCategory__	reproduce canales de youtube de categoría {CATEGORY:música}
+Youtube__	ShowChannelWithCategory__	reproduce {CATEGORY:noticias y política} canales de youtube
+Youtube__	ShowChannelWithCategory__	reproduce {CATEGORY:cocina y salud} canales en youtube
+Youtube__	ShowChannelWithCategory__	reproduce canales de youtube {CATEGORY:tecnologías}
+Youtube__	ShowChannelWithCategory__	reproduce canales en youtube {CATEGORY:deportes}
+Youtube__	ShowChannelWithCategory__	muéstrame canales de categoría {CATEGORY:belleza y moda} en youtube
+Youtube__	ShowChannelWithCategory__	muéstrame canales de youtube de categoría {CATEGORY:gaming}
+Youtube__	ShowChannelWithCategory__	muéstrame {CATEGORY:comedía} canales de youtube
+Youtube__	ShowChannelWithCategory__	muéstrame {CATEGORY:música} canales en youtube
+Youtube__	ShowChannelWithCategory__	muéstrame canales de youtube {CATEGORY:noticias y política}
+Youtube__	ShowChannelWithCategory__	muéstrame canales en youtube {CATEGORY:cocina y salud}
+Youtube__	ShowSubscribedChannels__	muestra canales a que me he suscrito en youtube
+Youtube__	ShowSubscribedChannels__	muéstrame canales a que me he suscrito en youtube
+Youtube__	FindChannelWithQuery__	busca canales {QUERY:beatriz luengo} en youtube
+Youtube__	FindChannelWithQuery__	busca canales que coinciden con {QUERY:hello cotto} en youtube
+Youtube__	FindChannelWithQuery__	busca canal de youtube {QUERY:taburete}
+Youtube__	FindChannelWithQuery__	encuentra canales {QUERY:cobertura} en youtube
+Youtube__	FindChannelWithQuery__	encuentra canales que coinciden con {QUERY:minecraft} en youtube
+Youtube__	FindChannelWithQuery__	encuentra canal de youtube {QUERY:mazda cx 30}
+Youtube__	FindChannelWithQuery__	búscame canales {QUERY:edurne y carlos baute} en youtube
+Youtube__	FindChannelWithQuery__	búscame canales que coinciden con {QUERY:la hora chanante} en youtube
+Youtube__	FindChannelWithQuery__	búscame canal de youtube {QUERY:pajaro soñador en español capitulo 7}
+Youtube__	FindQueryOnChannel__	muestra un vídeo de {CHANNEL_ID:dandmt}
+Youtube__	FindQueryOnChannel__	muestra un vídeo de {CHANNEL_ID:niki and gabi} que coinciden con {QUERY:bicicleta} en youtube
+Youtube__	FindQueryOnChannel__	muestra un vídeo publicados por {CHANNEL_ID:wwe}
+Youtube__	FindQueryOnChannel__	muestra un vídeo publicados por {CHANNEL_ID:unbox therapy} que coinciden con {QUERY:pokemon} en youtube
+Youtube__	FindQueryOnChannel__	muestra un video de {CHANNEL_ID:gordon ramsay}
+Youtube__	FindQueryOnChannel__	muestra un video de {CHANNEL_ID:pewdiepie} que coinciden con {QUERY:nikon z6} en youtube
+Youtube__	FindQueryOnChannel__	muestra un video publicados por {CHANNEL_ID:theneedledrop}
+Youtube__	FindQueryOnChannel__	muestra un video publicados por {CHANNEL_ID:justin bieber} que coinciden con {QUERY:comida} en youtube
+Youtube__	FindQueryOnChannel__	muestra un videos de {CHANNEL_ID:team coco}
+Youtube__	FindQueryOnChannel__	muestra un videos de {CHANNEL_ID:cineamasin} que coinciden con {QUERY:futbol} en youtube
+Youtube__	FindQueryOnChannel__	muestra un videos publicados por {CHANNEL_ID:dandmt}
+Youtube__	FindQueryOnChannel__	muestra un videos publicados por {CHANNEL_ID:niki and gabi} que coinciden con {QUERY:perro} en youtube
+Youtube__	FindQueryOnChannel__	muestra un vídeos de {CHANNEL_ID:wwe}
+Youtube__	FindQueryOnChannel__	muestra un vídeos de {CHANNEL_ID:unbox therapy} que coinciden con {QUERY:mana y pablo alboran} en youtube
+Youtube__	FindQueryOnChannel__	muestra un vídeos publicados por {CHANNEL_ID:gordon ramsay}
+Youtube__	FindQueryOnChannel__	muestra un vídeos publicados por {CHANNEL_ID:pewdiepie} que coinciden con {QUERY:merche} en youtube
+Youtube__	FindQueryOnChannel__	muéstrame un vídeo de {CHANNEL_ID:theneedledrop}
+Youtube__	FindQueryOnChannel__	muéstrame un vídeo de {CHANNEL_ID:justin bieber} que coinciden con {QUERY:hola soy maria jose soy taciturna} en youtube
+Youtube__	FindQueryOnChannel__	muéstrame un vídeo publicados por {CHANNEL_ID:team coco}
+Youtube__	FindQueryOnChannel__	muéstrame un vídeo publicados por {CHANNEL_ID:cineamasin} que coinciden con {QUERY:sigue la señal del mapa del tesoro de oasis} en youtube
+Youtube__	FindQueryOnChannel__	muéstrame un video de {CHANNEL_ID:dandmt}
+Youtube__	FindQueryOnChannel__	muéstrame un video de {CHANNEL_ID:niki and gabi} que coinciden con {QUERY:aitana telefono} en youtube
+Youtube__	FindQueryOnChannel__	muéstrame un video publicados por {CHANNEL_ID:wwe}
+Youtube__	FindQueryOnChannel__	muéstrame un video publicados por {CHANNEL_ID:unbox therapy} que coinciden con {QUERY:myke towers la playa} en youtube
+Youtube__	FindQueryOnChannel__	muéstrame un videos de {CHANNEL_ID:gordon ramsay}
+Youtube__	FindQueryOnChannel__	muéstrame un videos de {CHANNEL_ID:pewdiepie} que coinciden con {QUERY:la pared 360} en youtube
+Youtube__	FindQueryOnChannel__	muéstrame un videos publicados por {CHANNEL_ID:theneedledrop}
+Youtube__	FindQueryOnChannel__	muéstrame un videos publicados por {CHANNEL_ID:justin bieber} que coinciden con {QUERY:la excepcion} en youtube
+Youtube__	FindQueryOnChannel__	muéstrame un vídeos de {CHANNEL_ID:team coco}
+Youtube__	FindQueryOnChannel__	muéstrame un vídeos de {CHANNEL_ID:cineamasin} que coinciden con {QUERY:el baño} en youtube
+Youtube__	FindQueryOnChannel__	muéstrame un vídeos publicados por {CHANNEL_ID:dandmt}
+Youtube__	FindQueryOnChannel__	muéstrame un vídeos publicados por {CHANNEL_ID:niki and gabi} que coinciden con {QUERY:la resistencia noemi} en youtube
+Youtube__	NotifyOnNewFromFollowing__	notifícame cuando aparezca un nuevo vídeo en canales que sigo
+Youtube__	NotifyOnNewFromFollowing__	notifícame cuando aparezca un nuevo video en canales que sigo
+Youtube__	NotifyonNewOnChannel__	notifícame cuando aparezca un nuevo vídeo en el canal {CHANNEL_ID:wwe}
+Youtube__	NotifyonNewOnChannel__	notifícame cuando aparezca un nuevo video en el canal {CHANNEL_ID:unbox therapy}
+Youtube__	NotifyonNewOnChannel__	notifícame cuando {CHANNEL_ID:gordon ramsay} suba un vídeo en youtube
+Youtube__	NotifyonNewOnChannel__	notifícame cuando {CHANNEL_ID:pewdiepie} suba un video en youtube
+Youtube__	NotifyonNewOnChannel__	notifícame cuando {CHANNEL_ID:theneedledrop} suba un nuevo vídeo en youtube
+Youtube__	NotifyonNewOnChannel__	notifícame cuando {CHANNEL_ID:justin bieber} suba un nuevo video en youtube
+Youtube__	NotifyonNewOnChannel__	notifícame cuando {CHANNEL_ID:team coco} publique un vídeo en youtube
+Youtube__	NotifyonNewOnChannel__	notifícame cuando {CHANNEL_ID:cineamasin} publique un video en youtube
+Youtube__	NotifyonNewOnChannel__	notifícame cuando {CHANNEL_ID:dandmt} publique un nuevo vídeo en youtube
+Youtube__	NotifyonNewOnChannel__	notifícame cuando {CHANNEL_ID:niki and gabi} publique un nuevo video en youtube
+Youtube__	NextVideo__	video siguiente
+Youtube__	NextVideo__	salta este video
+Youtube__	NextVideo__	pasa al siguiente video
+Youtube__	NextVideo__	pasa al video siguiente

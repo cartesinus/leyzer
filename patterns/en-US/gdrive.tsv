@@ -1,103 +1,102 @@
-domain	intent	parallel	pattern
-Gdrive	OpenGdrive	-	show my google drive files
-Gdrive	OpenGdrive	-	show my files in google drive
-Gdrive	OpenGdrive	-	display my google drive files
-Gdrive	OpenGdrive	-	display my files in google drive
-Gdrive	OpenGdrive	-	list my google drive files
-Gdrive	OpenGdrive	-	list my files in google drive
-Gdrive	OpenGdrive	-	find my google drive files
-Gdrive	OpenGdrive	-	find my files in google drive
-Gdrive	OpenGdrive	-	search for my google drive files
-Gdrive	OpenGdrive	-	search for my files in google drive
-Gdrive	ShowFilesWithType	-	show my google drive files of type GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	-	show my GDRIVE.SLOT.MIME_TYPE files in google drive
-Gdrive	ShowFilesWithType	-	display my google drive files of type GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	-	display my GDRIVE.SLOT.MIME_TYPE files in google drive
-Gdrive	ShowFilesWithType	-	list my google drive files of type GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	-	list my GDRIVE.SLOT.MIME_TYPE files in google drive
-Gdrive	ShowFilesWithType	-	find my google drive files of type GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	-	find my GDRIVE.SLOT.MIME_TYPE files in google drive
-Gdrive	ShowFilesWithType	-	search for my google drive files of type GDRIVE.SLOT.MIME_TYPE
-Gdrive	ShowFilesWithType	-	search for my GDRIVE.SLOT.MIME_TYPE files in google drive
-Gdrive	ShowFilesWithStar	-	show my starred google drive files
-Gdrive	ShowFilesWithStar	-	show the google drive files i starred
-Gdrive	ShowFilesWithStar	-	display my starred google drive files
-Gdrive	ShowFilesWithStar	-	display the google drive files i starred
-Gdrive	ShowFilesWithStar	-	list my starred google drive files
-Gdrive	ShowFilesWithStar	-	list the google drive files i starred
-Gdrive	ShowFilesWithStar	-	find my starred google drive files
-Gdrive	ShowFilesWithStar	-	find the google drive files i starred
-Gdrive	ShowFilesWithStar	-	search for my starred google drive files
-Gdrive	ShowFilesWithStar	-	search for the google drive files i starred
-Gdrive	ShowFilesFromTime	-	show my google drive files created GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	show my google drive files modified GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	display my google drive files created GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	display my google drive files modified GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	list my google drive files created GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	list my google drive files modified GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	find my google drive files created GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	find my google drive files modified GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	search for my google drive files created GDRIVE.SLOT.TIME
-Gdrive	ShowFilesFromTime	-	search for my google drive files modified GDRIVE.SLOT.TIME
-Gdrive	ShowFilesWithSize	-	show my google drive files smaller than GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	show my google drive files larger than GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	display my google drive files smaller than GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	display my google drive files larger than GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	list my google drive files smaller than GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	list my google drive files larger than GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	find my google drive files smaller than GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	find my google drive files larger than GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	search for my google drive files smaller than GDRIVE.SLOT.FILE_SIZE
-Gdrive	ShowFilesWithSize	-	search for my google drive files larger than GDRIVE.SLOT.FILE_SIZE
-Gdrive	CreateFile	-	create google drive file
-Gdrive	CreateFile	-	create a file in google drive
-Gdrive	CreateFile	-	make google drive file
-Gdrive	CreateFile	-	make a file in google drive
-Gdrive	CreateFileWithName	-	create a new file with name GDRIVE.SLOT.FILE_NAME on google drive
-Gdrive	CreateFileWithName	-	create a file in google drive named GDRIVE.SLOT.FILE_NAME
-Gdrive	CreateFileWithName	-	make a new file with name GDRIVE.SLOT.FILE_NAME on google drive
-Gdrive	CreateFileWithName	-	make a file in google drive named GDRIVE.SLOT.FILE_NAME
-Gdrive	ShowOldestFiles	-	show my oldest google drive files
-Gdrive	ShowOldestFiles	-	show my least recently created google drive files
-Gdrive	ShowOldestFiles	-	display my oldest google drive files
-Gdrive	ShowOldestFiles	-	display my least recently created google drive files
-Gdrive	ShowOldestFiles	-	list my oldest google drive files
-Gdrive	ShowOldestFiles	-	list my least recently created google drive files
-Gdrive	ShowOldestFiles	-	find my oldest google drive files
-Gdrive	ShowOldestFiles	-	find my least recently created google drive files
-Gdrive	ShowOldestFiles	-	search for my oldest google drive files
-Gdrive	ShowOldestFiles	-	search for my least recently created google drive files
-Gdrive	ShowNewestFiles	-	show my newest google drive files
-Gdrive	ShowNewestFiles	-	show my google drive files that were created most recently
-Gdrive	ShowNewestFiles	-	display my newest google drive files
-Gdrive	ShowNewestFiles	-	display my google drive files that were created most recently
-Gdrive	ShowNewestFiles	-	list my newest google drive files
-Gdrive	ShowNewestFiles	-	list my google drive files that were created most recently
-Gdrive	ShowNewestFiles	-	find my newest google drive files
-Gdrive	ShowNewestFiles	-	find my google drive files that were created most recently
-Gdrive	ShowNewestFiles	-	search for my newest google drive files
-Gdrive	ShowNewestFiles	-	search for my google drive files that were created most recently
-Gdrive	SortAlphabetical	-	show my google drive files in alphabetical order
-Gdrive	SortAlphabetical	-	display my google drive files in alphabetical order
-Gdrive	SortAlphabetical	-	list my google drive files in alphabetical order
-Gdrive	SortAlphabetical	-	find my google drive files in alphabetical order
-Gdrive	SortAlphabetical	-	search for my google drive files in alphabetical order
-Gdrive	SortReverseAlphabetical	-	show my google drive files in reverse alphabetical order
-Gdrive	SortReverseAlphabetical	-	display my google drive files in reverse alphabetical order
-Gdrive	SortReverseAlphabetical	-	list my google drive files in reverse alphabetical order
-Gdrive	SortReverseAlphabetical	-	find my google drive files in reverse alphabetical order
-Gdrive	SortReverseAlphabetical	-	search for my google drive files in reverse alphabetical order
-Gdrive	OpenFileWithName	-	open GDRIVE.SLOT.FILE_NAME for edition in google drive
-Gdrive	OpenFileWithName	-	open my GDRIVE.SLOT.FILE_NAME for edition in google drive
-Gdrive	OpenFileWithName	-	edit GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	-	edit GDRIVE.SLOT.FILE_NAME in google drive
-Gdrive	OpenFileWithName	-	modify GDRIVE.SLOT.FILE_NAME
-Gdrive	OpenFileWithName	-	modify GDRIVE.SLOT.FILE_NAME in google drive
-Gdrive	ShareFileWithNameToAddress	-	share GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL
-Gdrive	ShareFileWithNameToAddress	-	share GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission for edition
-Gdrive	ShareFileWithNameToAddress	-	share GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission for reading
-Gdrive	ShareFileWithNameToAddress	-	share GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission to read and write
-Gdrive	ShareFileWithNameToAddress	-	share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL
-Gdrive	ShareFileWithNameToAddress	-	share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission for edition
-Gdrive	ShareFileWithNameToAddress	-	share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission for reading
-Gdrive	ShareFileWithNameToAddress	-	share my GDRIVE.SLOT.FILE_NAME with GDRIVE.SLOT.MAIL and give a permission to read and write
+Gdrive__	OpenGdrive__	show my google drive files
+Gdrive__	OpenGdrive__	show my files in google drive
+Gdrive__	OpenGdrive__	display my google drive files
+Gdrive__	OpenGdrive__	display my files in google drive
+Gdrive__	OpenGdrive__	list my google drive files
+Gdrive__	OpenGdrive__	list my files in google drive
+Gdrive__	OpenGdrive__	find my google drive files
+Gdrive__	OpenGdrive__	find my files in google drive
+Gdrive__	OpenGdrive__	search for my google drive files
+Gdrive__	OpenGdrive__	search for my files in google drive
+Gdrive__	ShowFilesWithType__	show my google drive files of type {MIME_TYPE:mp3}
+Gdrive__	ShowFilesWithType__	show my {MIME_TYPE:txt} files in google drive
+Gdrive__	ShowFilesWithType__	display my google drive files of type {MIME_TYPE:jpeg}
+Gdrive__	ShowFilesWithType__	display my {MIME_TYPE:mp3} files in google drive
+Gdrive__	ShowFilesWithType__	list my google drive files of type {MIME_TYPE:txt}
+Gdrive__	ShowFilesWithType__	list my {MIME_TYPE:jpeg} files in google drive
+Gdrive__	ShowFilesWithType__	find my google drive files of type {MIME_TYPE:mp3}
+Gdrive__	ShowFilesWithType__	find my {MIME_TYPE:txt} files in google drive
+Gdrive__	ShowFilesWithType__	search for my google drive files of type {MIME_TYPE:jpeg}
+Gdrive__	ShowFilesWithType__	search for my {MIME_TYPE:mp3} files in google drive
+Gdrive__	ShowFilesWithStar__	show my starred google drive files
+Gdrive__	ShowFilesWithStar__	show the google drive files i starred
+Gdrive__	ShowFilesWithStar__	display my starred google drive files
+Gdrive__	ShowFilesWithStar__	display the google drive files i starred
+Gdrive__	ShowFilesWithStar__	list my starred google drive files
+Gdrive__	ShowFilesWithStar__	list the google drive files i starred
+Gdrive__	ShowFilesWithStar__	find my starred google drive files
+Gdrive__	ShowFilesWithStar__	find the google drive files i starred
+Gdrive__	ShowFilesWithStar__	search for my starred google drive files
+Gdrive__	ShowFilesWithStar__	search for the google drive files i starred
+Gdrive__	ShowFilesFromTime__	show my google drive files created {TIME:this week}
+Gdrive__	ShowFilesFromTime__	show my google drive files modified {TIME:this month}
+Gdrive__	ShowFilesFromTime__	display my google drive files created {TIME:today}
+Gdrive__	ShowFilesFromTime__	display my google drive files modified {TIME:this week}
+Gdrive__	ShowFilesFromTime__	list my google drive files created {TIME:this month}
+Gdrive__	ShowFilesFromTime__	list my google drive files modified {TIME:today}
+Gdrive__	ShowFilesFromTime__	find my google drive files created {TIME:this week}
+Gdrive__	ShowFilesFromTime__	find my google drive files modified {TIME:this month}
+Gdrive__	ShowFilesFromTime__	search for my google drive files created {TIME:today}
+Gdrive__	ShowFilesFromTime__	search for my google drive files modified {TIME:this week}
+Gdrive__	ShowFilesWithSize__	show my google drive files smaller than {FILE_SIZE:1 mb}
+Gdrive__	ShowFilesWithSize__	show my google drive files larger than {FILE_SIZE:1 gigabyte}
+Gdrive__	ShowFilesWithSize__	display my google drive files smaller than {FILE_SIZE:500 kb}
+Gdrive__	ShowFilesWithSize__	display my google drive files larger than {FILE_SIZE:1 mb}
+Gdrive__	ShowFilesWithSize__	list my google drive files smaller than {FILE_SIZE:1 gigabyte}
+Gdrive__	ShowFilesWithSize__	list my google drive files larger than {FILE_SIZE:500 kb}
+Gdrive__	ShowFilesWithSize__	find my google drive files smaller than {FILE_SIZE:1 mb}
+Gdrive__	ShowFilesWithSize__	find my google drive files larger than {FILE_SIZE:1 gigabyte}
+Gdrive__	ShowFilesWithSize__	search for my google drive files smaller than {FILE_SIZE:500 kb}
+Gdrive__	ShowFilesWithSize__	search for my google drive files larger than {FILE_SIZE:1 mb}
+Gdrive__	CreateFile__	create google drive file
+Gdrive__	CreateFile__	create a file in google drive
+Gdrive__	CreateFile__	make google drive file
+Gdrive__	CreateFile__	make a file in google drive
+Gdrive__	CreateFileWithName__	create a new file with name {FILE_NAME:new file} on google drive
+Gdrive__	CreateFileWithName__	create a file in google drive named {FILE_NAME:invoice}
+Gdrive__	CreateFileWithName__	make a new file with name {FILE_NAME:readme} on google drive
+Gdrive__	CreateFileWithName__	make a file in google drive named {FILE_NAME:vegetarian recipies}
+Gdrive__	ShowOldestFiles__	show my oldest google drive files
+Gdrive__	ShowOldestFiles__	show my least recently created google drive files
+Gdrive__	ShowOldestFiles__	display my oldest google drive files
+Gdrive__	ShowOldestFiles__	display my least recently created google drive files
+Gdrive__	ShowOldestFiles__	list my oldest google drive files
+Gdrive__	ShowOldestFiles__	list my least recently created google drive files
+Gdrive__	ShowOldestFiles__	find my oldest google drive files
+Gdrive__	ShowOldestFiles__	find my least recently created google drive files
+Gdrive__	ShowOldestFiles__	search for my oldest google drive files
+Gdrive__	ShowOldestFiles__	search for my least recently created google drive files
+Gdrive__	ShowNewestFiles__	show my newest google drive files
+Gdrive__	ShowNewestFiles__	show my google drive files that were created most recently
+Gdrive__	ShowNewestFiles__	display my newest google drive files
+Gdrive__	ShowNewestFiles__	display my google drive files that were created most recently
+Gdrive__	ShowNewestFiles__	list my newest google drive files
+Gdrive__	ShowNewestFiles__	list my google drive files that were created most recently
+Gdrive__	ShowNewestFiles__	find my newest google drive files
+Gdrive__	ShowNewestFiles__	find my google drive files that were created most recently
+Gdrive__	ShowNewestFiles__	search for my newest google drive files
+Gdrive__	ShowNewestFiles__	search for my google drive files that were created most recently
+Gdrive__	SortAlphabetical__	show my google drive files in alphabetical order
+Gdrive__	SortAlphabetical__	display my google drive files in alphabetical order
+Gdrive__	SortAlphabetical__	list my google drive files in alphabetical order
+Gdrive__	SortAlphabetical__	find my google drive files in alphabetical order
+Gdrive__	SortAlphabetical__	search for my google drive files in alphabetical order
+Gdrive__	SortReverseAlphabetical__	show my google drive files in reverse alphabetical order
+Gdrive__	SortReverseAlphabetical__	display my google drive files in reverse alphabetical order
+Gdrive__	SortReverseAlphabetical__	list my google drive files in reverse alphabetical order
+Gdrive__	SortReverseAlphabetical__	find my google drive files in reverse alphabetical order
+Gdrive__	SortReverseAlphabetical__	search for my google drive files in reverse alphabetical order
+Gdrive__	OpenFileWithName__	open {FILE_NAME:movies to see} for edition in google drive
+Gdrive__	OpenFileWithName__	open my {FILE_NAME:CV} for edition in google drive
+Gdrive__	OpenFileWithName__	edit {FILE_NAME:project 1}
+Gdrive__	OpenFileWithName__	edit {FILE_NAME:new file} in google drive
+Gdrive__	OpenFileWithName__	modify {FILE_NAME:invoice}
+Gdrive__	OpenFileWithName__	modify {FILE_NAME:readme} in google drive
+Gdrive__	ShareFileWithNameToAddress__	share {FILE_NAME:vegetarian recipies} with {MAIL:mary.lou@gmail.com}
+Gdrive__	ShareFileWithNameToAddress__	share {FILE_NAME:movies to see} with {MAIL:hahaha09@hotmail.com} and give a permission for edition
+Gdrive__	ShareFileWithNameToAddress__	share {FILE_NAME:CV} with {MAIL:sarah_odonnell@yahoo.com} and give a permission for reading
+Gdrive__	ShareFileWithNameToAddress__	share {FILE_NAME:project 1} with {MAIL:selena.g@gmail.com} and give a permission to read and write
+Gdrive__	ShareFileWithNameToAddress__	share my {FILE_NAME:new file} with {MAIL:ghjk1209@hotmail.com}
+Gdrive__	ShareFileWithNameToAddress__	share my {FILE_NAME:invoice} with {MAIL:jeremy@sandacom.com} and give a permission for edition
+Gdrive__	ShareFileWithNameToAddress__	share my {FILE_NAME:readme} with {MAIL:billr@calpine.com} and give a permission for reading
+Gdrive__	ShareFileWithNameToAddress__	share my {FILE_NAME:vegetarian recipies} with {MAIL:cindyolson@enron} and give a permission to read and write

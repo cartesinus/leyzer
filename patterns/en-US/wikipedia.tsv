@@ -1,543 +1,542 @@
-domain	intent	parallel	pattern
-Wikipedia	OpenWikipedia	-	open wiki
-Wikipedia	OpenWikipedia	-	open wiki pages
-Wikipedia	OpenWikipedia	-	open wiki definition
-Wikipedia	OpenWikipedia	-	open wikipedia
-Wikipedia	OpenWikipedia	-	open wikipedia pages
-Wikipedia	OpenWikipedia	-	open wikipedia definition
-Wikipedia	OpenWikipedia	-	show wiki
-Wikipedia	OpenWikipedia	-	show wiki pages
-Wikipedia	OpenWikipedia	-	show wiki definition
-Wikipedia	OpenWikipedia	-	show wikipedia
-Wikipedia	OpenWikipedia	-	show wikipedia pages
-Wikipedia	OpenWikipedia	-	show wikipedia definition
-Wikipedia	OpenWikipedia	-	show me wiki
-Wikipedia	OpenWikipedia	-	show me wiki pages
-Wikipedia	OpenWikipedia	-	show me wiki definition
-Wikipedia	OpenWikipedia	-	show me wikipedia
-Wikipedia	OpenWikipedia	-	show me wikipedia pages
-Wikipedia	OpenWikipedia	-	show me wikipedia definition
-Wikipedia	OpenWikipedia	-	display wiki
-Wikipedia	OpenWikipedia	-	display wiki pages
-Wikipedia	OpenWikipedia	-	display wiki definition
-Wikipedia	OpenWikipedia	-	display wikipedia
-Wikipedia	OpenWikipedia	-	display wikipedia pages
-Wikipedia	OpenWikipedia	-	display wikipedia definition
-Wikipedia	OpenWikipedia	-	browse wiki
-Wikipedia	OpenWikipedia	-	browse wiki pages
-Wikipedia	OpenWikipedia	-	browse wiki definition
-Wikipedia	OpenWikipedia	-	browse wikipedia
-Wikipedia	OpenWikipedia	-	browse wikipedia pages
-Wikipedia	OpenWikipedia	-	browse wikipedia definition
-Wikipedia	SearchQuery	-	find WIKIPEDIA.SLOT.QUERY on wiki
-Wikipedia	SearchQuery	-	find WIKIPEDIA.SLOT.QUERY on wikipedia
-Wikipedia	SearchQuery	-	find WIKIPEDIA.SLOT.QUERY in wiki
-Wikipedia	SearchQuery	-	find WIKIPEDIA.SLOT.QUERY in wikipedia
-Wikipedia	SearchQuery	-	find WIKIPEDIA.SLOT.QUERY definition on wiki
-Wikipedia	SearchQuery	-	find WIKIPEDIA.SLOT.QUERY definition on wikipedia
-Wikipedia	SearchQuery	-	find WIKIPEDIA.SLOT.QUERY definition in wiki
-Wikipedia	SearchQuery	-	find WIKIPEDIA.SLOT.QUERY definition in wikipedia
-Wikipedia	SearchQuery	-	search for WIKIPEDIA.SLOT.QUERY on wiki
-Wikipedia	SearchQuery	-	search for WIKIPEDIA.SLOT.QUERY on wikipedia
-Wikipedia	SearchQuery	-	search for WIKIPEDIA.SLOT.QUERY in wiki
-Wikipedia	SearchQuery	-	search for WIKIPEDIA.SLOT.QUERY in wikipedia
-Wikipedia	SearchQuery	-	search for WIKIPEDIA.SLOT.QUERY definition on wiki
-Wikipedia	SearchQuery	-	search for WIKIPEDIA.SLOT.QUERY definition on wikipedia
-Wikipedia	SearchQuery	-	search for WIKIPEDIA.SLOT.QUERY definition in wiki
-Wikipedia	SearchQuery	-	search for WIKIPEDIA.SLOT.QUERY definition in wikipedia
-Wikipedia	SearchQuery	-	browse WIKIPEDIA.SLOT.QUERY on wiki
-Wikipedia	SearchQuery	-	browse WIKIPEDIA.SLOT.QUERY on wikipedia
-Wikipedia	SearchQuery	-	browse WIKIPEDIA.SLOT.QUERY in wiki
-Wikipedia	SearchQuery	-	browse WIKIPEDIA.SLOT.QUERY in wikipedia
-Wikipedia	SearchQuery	-	browse WIKIPEDIA.SLOT.QUERY definition on wiki
-Wikipedia	SearchQuery	-	browse WIKIPEDIA.SLOT.QUERY definition on wikipedia
-Wikipedia	SearchQuery	-	browse WIKIPEDIA.SLOT.QUERY definition in wiki
-Wikipedia	SearchQuery	-	browse WIKIPEDIA.SLOT.QUERY definition in wikipedia
-Wikipedia	SearchQuery	-	WIKIPEDIA.SLOT.QUERY on wiki
-Wikipedia	SearchQuery	-	WIKIPEDIA.SLOT.QUERY on wikipedia
-Wikipedia	SearchQuery	-	WIKIPEDIA.SLOT.QUERY in wiki
-Wikipedia	SearchQuery	-	WIKIPEDIA.SLOT.QUERY in wikipedia
-Wikipedia	SearchQuery	-	pages matching WIKIPEDIA.SLOT.QUERY on wiki
-Wikipedia	SearchQuery	-	pages matching WIKIPEDIA.SLOT.QUERY on wikipedia
-Wikipedia	SearchQuery	-	pages matching WIKIPEDIA.SLOT.QUERY in wiki
-Wikipedia	SearchQuery	-	pages matching WIKIPEDIA.SLOT.QUERY in wikipedia
-Wikipedia	SearchQuery	-	WIKIPEDIA.SLOT.QUERY matching on wiki
-Wikipedia	SearchQuery	-	WIKIPEDIA.SLOT.QUERY matching on wikipedia
-Wikipedia	SearchQuery	-	WIKIPEDIA.SLOT.QUERY matching in wiki
-Wikipedia	SearchQuery	-	WIKIPEDIA.SLOT.QUERY matching in wikipedia
-Wikipedia	ScrollDown	-	page down
-Wikipedia	ScrollDown	-	scroll down
-Wikipedia	ScrollDown	-	downward scroll
-Wikipedia	ScrollDown	-	go down
-Wikipedia	ScrollDown	-	go page down
-Wikipedia	ScrollUp	-	page up
-Wikipedia	ScrollUp	-	scroll up
-Wikipedia	ScrollUp	-	upward scroll
-Wikipedia	ScrollUp	-	go up
-Wikipedia	ScrollUp	-	go page up
-Wikipedia	DownloadAsPdf	-	download page as pdf
-Wikipedia	DownloadAsPdf	-	download page as pdf file
-Wikipedia	DownloadAsPdf	-	download page as a pdf
-Wikipedia	DownloadAsPdf	-	download page as a pdf file
-Wikipedia	DownloadAsPdf	-	download article as pdf
-Wikipedia	DownloadAsPdf	-	download article as pdf file
-Wikipedia	DownloadAsPdf	-	download article as a pdf
-Wikipedia	DownloadAsPdf	-	download article as a pdf file
-Wikipedia	DownloadAsPdf	-	download this page as pdf
-Wikipedia	DownloadAsPdf	-	download this page as pdf file
-Wikipedia	DownloadAsPdf	-	download this page as a pdf
-Wikipedia	DownloadAsPdf	-	download this page as a pdf file
-Wikipedia	DownloadAsPdf	-	download this article as pdf
-Wikipedia	DownloadAsPdf	-	download this article as pdf file
-Wikipedia	DownloadAsPdf	-	download this article as a pdf
-Wikipedia	DownloadAsPdf	-	download this article as a pdf file
-Wikipedia	DownloadAsPdf	-	download that page as pdf
-Wikipedia	DownloadAsPdf	-	download that page as pdf file
-Wikipedia	DownloadAsPdf	-	download that page as a pdf
-Wikipedia	DownloadAsPdf	-	download that page as a pdf file
-Wikipedia	DownloadAsPdf	-	download that article as pdf
-Wikipedia	DownloadAsPdf	-	download that article as pdf file
-Wikipedia	DownloadAsPdf	-	download that article as a pdf
-Wikipedia	DownloadAsPdf	-	download that article as a pdf file
-Wikipedia	DownloadAsPdf	-	get page as pdf
-Wikipedia	DownloadAsPdf	-	get page as pdf file
-Wikipedia	DownloadAsPdf	-	get page as a pdf
-Wikipedia	DownloadAsPdf	-	get page as a pdf file
-Wikipedia	DownloadAsPdf	-	get article as pdf
-Wikipedia	DownloadAsPdf	-	get article as pdf file
-Wikipedia	DownloadAsPdf	-	get article as a pdf
-Wikipedia	DownloadAsPdf	-	get article as a pdf file
-Wikipedia	DownloadAsPdf	-	get this page as pdf
-Wikipedia	DownloadAsPdf	-	get this page as pdf file
-Wikipedia	DownloadAsPdf	-	get this page as a pdf
-Wikipedia	DownloadAsPdf	-	get this page as a pdf file
-Wikipedia	DownloadAsPdf	-	get this article as pdf
-Wikipedia	DownloadAsPdf	-	get this article as pdf file
-Wikipedia	DownloadAsPdf	-	get this article as a pdf
-Wikipedia	DownloadAsPdf	-	get this article as a pdf file
-Wikipedia	DownloadAsPdf	-	get that page as pdf
-Wikipedia	DownloadAsPdf	-	get that page as pdf file
-Wikipedia	DownloadAsPdf	-	get that page as a pdf
-Wikipedia	DownloadAsPdf	-	get that page as a pdf file
-Wikipedia	DownloadAsPdf	-	get that article as pdf
-Wikipedia	DownloadAsPdf	-	get that article as pdf file
-Wikipedia	DownloadAsPdf	-	get that article as a pdf
-Wikipedia	DownloadAsPdf	-	get that article as a pdf file
-Wikipedia	ChangeLanguageToLanguage	-	change language to english
-Wikipedia	ChangeLanguageToLanguage	-	change language to german
-Wikipedia	ChangeLanguageToLanguage	-	change language to polish
-Wikipedia	ChangeLanguageToLanguage	-	change language to french
-Wikipedia	ChangeLanguageToLanguage	-	change language to italian
-Wikipedia	ChangeLanguageToLanguage	-	change language to spanish
-Wikipedia	ChangeLanguageToLanguage	-	change language to russian
-Wikipedia	ChangeLanguageToLanguage	-	change language to chinese
-Wikipedia	ChangeLanguageToLanguage	-	change language to ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	change language to arabic
-Wikipedia	ChangeLanguageToLanguage	-	change language to portuguese
-Wikipedia	ChangeLanguageToLanguage	-	change language of this page to english
-Wikipedia	ChangeLanguageToLanguage	-	change language of this page to german
-Wikipedia	ChangeLanguageToLanguage	-	change language of this page to polish
-Wikipedia	ChangeLanguageToLanguage	-	change language of this page to french
-Wikipedia	ChangeLanguageToLanguage	-	change language of this page to italian
-Wikipedia	ChangeLanguageToLanguage	-	change language of this page to spanish
-Wikipedia	ChangeLanguageToLanguage	-	change language of this page to russian
-Wikipedia	ChangeLanguageToLanguage	-	change language of this page to chinese
-Wikipedia	ChangeLanguageToLanguage	-	change language of this page to ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	change language of this page to arabic
-Wikipedia	ChangeLanguageToLanguage	-	change language of this page to portuguese
-Wikipedia	ChangeLanguageToLanguage	-	change language of this article to english
-Wikipedia	ChangeLanguageToLanguage	-	change language of this article to german
-Wikipedia	ChangeLanguageToLanguage	-	change language of this article to polish
-Wikipedia	ChangeLanguageToLanguage	-	change language of this article to french
-Wikipedia	ChangeLanguageToLanguage	-	change language of this article to italian
-Wikipedia	ChangeLanguageToLanguage	-	change language of this article to spanish
-Wikipedia	ChangeLanguageToLanguage	-	change language of this article to russian
-Wikipedia	ChangeLanguageToLanguage	-	change language of this article to chinese
-Wikipedia	ChangeLanguageToLanguage	-	change language of this article to ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	change language of this article to arabic
-Wikipedia	ChangeLanguageToLanguage	-	change language of this article to portuguese
-Wikipedia	ChangeLanguageToLanguage	-	switch language to english
-Wikipedia	ChangeLanguageToLanguage	-	switch language to german
-Wikipedia	ChangeLanguageToLanguage	-	switch language to polish
-Wikipedia	ChangeLanguageToLanguage	-	switch language to french
-Wikipedia	ChangeLanguageToLanguage	-	switch language to italian
-Wikipedia	ChangeLanguageToLanguage	-	switch language to spanish
-Wikipedia	ChangeLanguageToLanguage	-	switch language to russian
-Wikipedia	ChangeLanguageToLanguage	-	switch language to chinese
-Wikipedia	ChangeLanguageToLanguage	-	switch language to ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	switch language to arabic
-Wikipedia	ChangeLanguageToLanguage	-	switch language to portuguese
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this page to english
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this page to german
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this page to polish
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this page to french
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this page to italian
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this page to spanish
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this page to russian
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this page to chinese
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this page to ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this page to arabic
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this page to portuguese
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this article to english
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this article to german
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this article to polish
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this article to french
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this article to italian
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this article to spanish
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this article to russian
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this article to chinese
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this article to ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this article to arabic
-Wikipedia	ChangeLanguageToLanguage	-	switch language of this article to portuguese
-Wikipedia	ChangeLanguageToLanguage	-	show this page in english
-Wikipedia	ChangeLanguageToLanguage	-	show this page in german
-Wikipedia	ChangeLanguageToLanguage	-	show this page in polish
-Wikipedia	ChangeLanguageToLanguage	-	show this page in french
-Wikipedia	ChangeLanguageToLanguage	-	show this page in italian
-Wikipedia	ChangeLanguageToLanguage	-	show this page in spanish
-Wikipedia	ChangeLanguageToLanguage	-	show this page in russian
-Wikipedia	ChangeLanguageToLanguage	-	show this page in chinese
-Wikipedia	ChangeLanguageToLanguage	-	show this page in ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	show this page in arabic
-Wikipedia	ChangeLanguageToLanguage	-	show this page in portuguese
-Wikipedia	ChangeLanguageToLanguage	-	show this article in english
-Wikipedia	ChangeLanguageToLanguage	-	show this article in german
-Wikipedia	ChangeLanguageToLanguage	-	show this article in polish
-Wikipedia	ChangeLanguageToLanguage	-	show this article in french
-Wikipedia	ChangeLanguageToLanguage	-	show this article in italian
-Wikipedia	ChangeLanguageToLanguage	-	show this article in spanish
-Wikipedia	ChangeLanguageToLanguage	-	show this article in russian
-Wikipedia	ChangeLanguageToLanguage	-	show this article in chinese
-Wikipedia	ChangeLanguageToLanguage	-	show this article in ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	show this article in arabic
-Wikipedia	ChangeLanguageToLanguage	-	show this article in portuguese
-Wikipedia	ChangeLanguageToLanguage	-	show that page in english
-Wikipedia	ChangeLanguageToLanguage	-	show that page in german
-Wikipedia	ChangeLanguageToLanguage	-	show that page in polish
-Wikipedia	ChangeLanguageToLanguage	-	show that page in french
-Wikipedia	ChangeLanguageToLanguage	-	show that page in italian
-Wikipedia	ChangeLanguageToLanguage	-	show that page in spanish
-Wikipedia	ChangeLanguageToLanguage	-	show that page in russian
-Wikipedia	ChangeLanguageToLanguage	-	show that page in chinese
-Wikipedia	ChangeLanguageToLanguage	-	show that page in ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	show that page in arabic
-Wikipedia	ChangeLanguageToLanguage	-	show that page in portuguese
-Wikipedia	ChangeLanguageToLanguage	-	show that article in english
-Wikipedia	ChangeLanguageToLanguage	-	show that article in german
-Wikipedia	ChangeLanguageToLanguage	-	show that article in polish
-Wikipedia	ChangeLanguageToLanguage	-	show that article in french
-Wikipedia	ChangeLanguageToLanguage	-	show that article in italian
-Wikipedia	ChangeLanguageToLanguage	-	show that article in spanish
-Wikipedia	ChangeLanguageToLanguage	-	show that article in russian
-Wikipedia	ChangeLanguageToLanguage	-	show that article in chinese
-Wikipedia	ChangeLanguageToLanguage	-	show that article in ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	show that article in arabic
-Wikipedia	ChangeLanguageToLanguage	-	show that article in portuguese
-Wikipedia	ChangeLanguageToLanguage	-	display this page in english
-Wikipedia	ChangeLanguageToLanguage	-	display this page in german
-Wikipedia	ChangeLanguageToLanguage	-	display this page in polish
-Wikipedia	ChangeLanguageToLanguage	-	display this page in french
-Wikipedia	ChangeLanguageToLanguage	-	display this page in italian
-Wikipedia	ChangeLanguageToLanguage	-	display this page in spanish
-Wikipedia	ChangeLanguageToLanguage	-	display this page in russian
-Wikipedia	ChangeLanguageToLanguage	-	display this page in chinese
-Wikipedia	ChangeLanguageToLanguage	-	display this page in ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	display this page in arabic
-Wikipedia	ChangeLanguageToLanguage	-	display this page in portuguese
-Wikipedia	ChangeLanguageToLanguage	-	display this article in english
-Wikipedia	ChangeLanguageToLanguage	-	display this article in german
-Wikipedia	ChangeLanguageToLanguage	-	display this article in polish
-Wikipedia	ChangeLanguageToLanguage	-	display this article in french
-Wikipedia	ChangeLanguageToLanguage	-	display this article in italian
-Wikipedia	ChangeLanguageToLanguage	-	display this article in spanish
-Wikipedia	ChangeLanguageToLanguage	-	display this article in russian
-Wikipedia	ChangeLanguageToLanguage	-	display this article in chinese
-Wikipedia	ChangeLanguageToLanguage	-	display this article in ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	display this article in arabic
-Wikipedia	ChangeLanguageToLanguage	-	display this article in portuguese
-Wikipedia	ChangeLanguageToLanguage	-	display that page in english
-Wikipedia	ChangeLanguageToLanguage	-	display that page in german
-Wikipedia	ChangeLanguageToLanguage	-	display that page in polish
-Wikipedia	ChangeLanguageToLanguage	-	display that page in french
-Wikipedia	ChangeLanguageToLanguage	-	display that page in italian
-Wikipedia	ChangeLanguageToLanguage	-	display that page in spanish
-Wikipedia	ChangeLanguageToLanguage	-	display that page in russian
-Wikipedia	ChangeLanguageToLanguage	-	display that page in chinese
-Wikipedia	ChangeLanguageToLanguage	-	display that page in ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	display that page in arabic
-Wikipedia	ChangeLanguageToLanguage	-	display that page in portuguese
-Wikipedia	ChangeLanguageToLanguage	-	display that article in english
-Wikipedia	ChangeLanguageToLanguage	-	display that article in german
-Wikipedia	ChangeLanguageToLanguage	-	display that article in polish
-Wikipedia	ChangeLanguageToLanguage	-	display that article in french
-Wikipedia	ChangeLanguageToLanguage	-	display that article in italian
-Wikipedia	ChangeLanguageToLanguage	-	display that article in spanish
-Wikipedia	ChangeLanguageToLanguage	-	display that article in russian
-Wikipedia	ChangeLanguageToLanguage	-	display that article in chinese
-Wikipedia	ChangeLanguageToLanguage	-	display that article in ukrainian
-Wikipedia	ChangeLanguageToLanguage	-	display that article in arabic
-Wikipedia	ChangeLanguageToLanguage	-	display that article in portuguese
-Wikipedia	RandomPage	-	random wiki page
-Wikipedia	RandomPage	-	random wiki article
-Wikipedia	RandomPage	-	random wikipedia page
-Wikipedia	RandomPage	-	random wikipedia article
-Wikipedia	RandomPage	-	show random wiki page
-Wikipedia	RandomPage	-	show random wiki article
-Wikipedia	RandomPage	-	show random wikipedia page
-Wikipedia	RandomPage	-	show random wikipedia article
-Wikipedia	RandomPage	-	show me random wiki page
-Wikipedia	RandomPage	-	show me random wiki article
-Wikipedia	RandomPage	-	show me random wikipedia page
-Wikipedia	RandomPage	-	show me random wikipedia article
-Wikipedia	RandomPage	-	display random wiki page
-Wikipedia	RandomPage	-	display random wiki article
-Wikipedia	RandomPage	-	display random wikipedia page
-Wikipedia	RandomPage	-	display random wikipedia article
-Wikipedia	RandomPage	-	wiki surf
-Wikipedia	RandomPage	-	wiki surfing
-Wikipedia	RandomPage	-	wikipedia surf
-Wikipedia	RandomPage	-	wikipedia surfing
-Wikipedia	RandomPage	-	surf wiki
-Wikipedia	RandomPage	-	surf wikipedia
-Wikipedia	RandomPage	-	cruise wiki
-Wikipedia	RandomPage	-	cruise wikipedia
-Wikipedia	GoToElementNumber	-	go to first element from contents
-Wikipedia	GoToElementNumber	-	go to first element in contents
-Wikipedia	GoToElementNumber	-	go to first item from contents
-Wikipedia	GoToElementNumber	-	go to first item in contents
-Wikipedia	GoToElementNumber	-	go to second element from contents
-Wikipedia	GoToElementNumber	-	go to second element in contents
-Wikipedia	GoToElementNumber	-	go to second item from contents
-Wikipedia	GoToElementNumber	-	go to second item in contents
-Wikipedia	GoToElementNumber	-	go to third element from contents
-Wikipedia	GoToElementNumber	-	go to third element in contents
-Wikipedia	GoToElementNumber	-	go to third item from contents
-Wikipedia	GoToElementNumber	-	go to third item in contents
-Wikipedia	GoToElementNumber	-	go to fourth element from contents
-Wikipedia	GoToElementNumber	-	go to fourth element in contents
-Wikipedia	GoToElementNumber	-	go to fourth item from contents
-Wikipedia	GoToElementNumber	-	go to fourth item in contents
-Wikipedia	GoToElementNumber	-	go to fifth element from contents
-Wikipedia	GoToElementNumber	-	go to fifth element in contents
-Wikipedia	GoToElementNumber	-	go to fifth item from contents
-Wikipedia	GoToElementNumber	-	go to fifth item in contents
-Wikipedia	GoToElementNumber	-	go to sixth element from contents
-Wikipedia	GoToElementNumber	-	go to sixth element in contents
-Wikipedia	GoToElementNumber	-	go to sixth item from contents
-Wikipedia	GoToElementNumber	-	go to sixth item in contents
-Wikipedia	GoToElementNumber	-	go to seventh element from contents
-Wikipedia	GoToElementNumber	-	go to seventh element in contents
-Wikipedia	GoToElementNumber	-	go to seventh item from contents
-Wikipedia	GoToElementNumber	-	go to seventh item in contents
-Wikipedia	GoToElementNumber	-	go to eight element from contents
-Wikipedia	GoToElementNumber	-	go to eight element in contents
-Wikipedia	GoToElementNumber	-	go to eight item from contents
-Wikipedia	GoToElementNumber	-	go to eight item in contents
-Wikipedia	GoToElementNumber	-	go to ninth element from contents
-Wikipedia	GoToElementNumber	-	go to ninth element in contents
-Wikipedia	GoToElementNumber	-	go to ninth item from contents
-Wikipedia	GoToElementNumber	-	go to ninth item in contents
-Wikipedia	GoToElementNumber	-	go to tenth element from contents
-Wikipedia	GoToElementNumber	-	go to tenth element in contents
-Wikipedia	GoToElementNumber	-	go to tenth item from contents
-Wikipedia	GoToElementNumber	-	go to tenth item in contents
-Wikipedia	GoToElementNumber	-	go to the first element from contents
-Wikipedia	GoToElementNumber	-	go to the first element in contents
-Wikipedia	GoToElementNumber	-	go to the first item from contents
-Wikipedia	GoToElementNumber	-	go to the first item in contents
-Wikipedia	GoToElementNumber	-	go to the second element from contents
-Wikipedia	GoToElementNumber	-	go to the second element in contents
-Wikipedia	GoToElementNumber	-	go to the second item from contents
-Wikipedia	GoToElementNumber	-	go to the second item in contents
-Wikipedia	GoToElementNumber	-	go to the third element from contents
-Wikipedia	GoToElementNumber	-	go to the third element in contents
-Wikipedia	GoToElementNumber	-	go to the third item from contents
-Wikipedia	GoToElementNumber	-	go to the third item in contents
-Wikipedia	GoToElementNumber	-	go to the fourth element from contents
-Wikipedia	GoToElementNumber	-	go to the fourth element in contents
-Wikipedia	GoToElementNumber	-	go to the fourth item from contents
-Wikipedia	GoToElementNumber	-	go to the fourth item in contents
-Wikipedia	GoToElementNumber	-	go to the fifth element from contents
-Wikipedia	GoToElementNumber	-	go to the fifth element in contents
-Wikipedia	GoToElementNumber	-	go to the fifth item from contents
-Wikipedia	GoToElementNumber	-	go to the fifth item in contents
-Wikipedia	GoToElementNumber	-	go to the sixth element from contents
-Wikipedia	GoToElementNumber	-	go to the sixth element in contents
-Wikipedia	GoToElementNumber	-	go to the sixth item from contents
-Wikipedia	GoToElementNumber	-	go to the sixth item in contents
-Wikipedia	GoToElementNumber	-	go to the seventh element from contents
-Wikipedia	GoToElementNumber	-	go to the seventh element in contents
-Wikipedia	GoToElementNumber	-	go to the seventh item from contents
-Wikipedia	GoToElementNumber	-	go to the seventh item in contents
-Wikipedia	GoToElementNumber	-	go to the eight element from contents
-Wikipedia	GoToElementNumber	-	go to the eight element in contents
-Wikipedia	GoToElementNumber	-	go to the eight item from contents
-Wikipedia	GoToElementNumber	-	go to the eight item in contents
-Wikipedia	GoToElementNumber	-	go to the ninth element from contents
-Wikipedia	GoToElementNumber	-	go to the ninth element in contents
-Wikipedia	GoToElementNumber	-	go to the ninth item from contents
-Wikipedia	GoToElementNumber	-	go to the ninth item in contents
-Wikipedia	GoToElementNumber	-	go to the tenth element from contents
-Wikipedia	GoToElementNumber	-	go to the tenth element in contents
-Wikipedia	GoToElementNumber	-	go to the tenth item from contents
-Wikipedia	GoToElementNumber	-	go to the tenth item in contents
-Wikipedia	GoToElementNumber	-	jump to first element from contents
-Wikipedia	GoToElementNumber	-	jump to first element in contents
-Wikipedia	GoToElementNumber	-	jump to first item from contents
-Wikipedia	GoToElementNumber	-	jump to first item in contents
-Wikipedia	GoToElementNumber	-	jump to second element from contents
-Wikipedia	GoToElementNumber	-	jump to second element in contents
-Wikipedia	GoToElementNumber	-	jump to second item from contents
-Wikipedia	GoToElementNumber	-	jump to second item in contents
-Wikipedia	GoToElementNumber	-	jump to third element from contents
-Wikipedia	GoToElementNumber	-	jump to third element in contents
-Wikipedia	GoToElementNumber	-	jump to third item from contents
-Wikipedia	GoToElementNumber	-	jump to third item in contents
-Wikipedia	GoToElementNumber	-	jump to fourth element from contents
-Wikipedia	GoToElementNumber	-	jump to fourth element in contents
-Wikipedia	GoToElementNumber	-	jump to fourth item from contents
-Wikipedia	GoToElementNumber	-	jump to fourth item in contents
-Wikipedia	GoToElementNumber	-	jump to fifth element from contents
-Wikipedia	GoToElementNumber	-	jump to fifth element in contents
-Wikipedia	GoToElementNumber	-	jump to fifth item from contents
-Wikipedia	GoToElementNumber	-	jump to fifth item in contents
-Wikipedia	GoToElementNumber	-	jump to sixth element from contents
-Wikipedia	GoToElementNumber	-	jump to sixth element in contents
-Wikipedia	GoToElementNumber	-	jump to sixth item from contents
-Wikipedia	GoToElementNumber	-	jump to sixth item in contents
-Wikipedia	GoToElementNumber	-	jump to seventh element from contents
-Wikipedia	GoToElementNumber	-	jump to seventh element in contents
-Wikipedia	GoToElementNumber	-	jump to seventh item from contents
-Wikipedia	GoToElementNumber	-	jump to seventh item in contents
-Wikipedia	GoToElementNumber	-	jump to eight element from contents
-Wikipedia	GoToElementNumber	-	jump to eight element in contents
-Wikipedia	GoToElementNumber	-	jump to eight item from contents
-Wikipedia	GoToElementNumber	-	jump to eight item in contents
-Wikipedia	GoToElementNumber	-	jump to ninth element from contents
-Wikipedia	GoToElementNumber	-	jump to ninth element in contents
-Wikipedia	GoToElementNumber	-	jump to ninth item from contents
-Wikipedia	GoToElementNumber	-	jump to ninth item in contents
-Wikipedia	GoToElementNumber	-	jump to tenth element from contents
-Wikipedia	GoToElementNumber	-	jump to tenth element in contents
-Wikipedia	GoToElementNumber	-	jump to tenth item from contents
-Wikipedia	GoToElementNumber	-	jump to tenth item in contents
-Wikipedia	GoToElementNumber	-	jump to the first element from contents
-Wikipedia	GoToElementNumber	-	jump to the first element in contents
-Wikipedia	GoToElementNumber	-	jump to the first item from contents
-Wikipedia	GoToElementNumber	-	jump to the first item in contents
-Wikipedia	GoToElementNumber	-	jump to the second element from contents
-Wikipedia	GoToElementNumber	-	jump to the second element in contents
-Wikipedia	GoToElementNumber	-	jump to the second item from contents
-Wikipedia	GoToElementNumber	-	jump to the second item in contents
-Wikipedia	GoToElementNumber	-	jump to the third element from contents
-Wikipedia	GoToElementNumber	-	jump to the third element in contents
-Wikipedia	GoToElementNumber	-	jump to the third item from contents
-Wikipedia	GoToElementNumber	-	jump to the third item in contents
-Wikipedia	GoToElementNumber	-	jump to the fourth element from contents
-Wikipedia	GoToElementNumber	-	jump to the fourth element in contents
-Wikipedia	GoToElementNumber	-	jump to the fourth item from contents
-Wikipedia	GoToElementNumber	-	jump to the fourth item in contents
-Wikipedia	GoToElementNumber	-	jump to the fifth element from contents
-Wikipedia	GoToElementNumber	-	jump to the fifth element in contents
-Wikipedia	GoToElementNumber	-	jump to the fifth item from contents
-Wikipedia	GoToElementNumber	-	jump to the fifth item in contents
-Wikipedia	GoToElementNumber	-	jump to the sixth element from contents
-Wikipedia	GoToElementNumber	-	jump to the sixth element in contents
-Wikipedia	GoToElementNumber	-	jump to the sixth item from contents
-Wikipedia	GoToElementNumber	-	jump to the sixth item in contents
-Wikipedia	GoToElementNumber	-	jump to the seventh element from contents
-Wikipedia	GoToElementNumber	-	jump to the seventh element in contents
-Wikipedia	GoToElementNumber	-	jump to the seventh item from contents
-Wikipedia	GoToElementNumber	-	jump to the seventh item in contents
-Wikipedia	GoToElementNumber	-	jump to the eight element from contents
-Wikipedia	GoToElementNumber	-	jump to the eight element in contents
-Wikipedia	GoToElementNumber	-	jump to the eight item from contents
-Wikipedia	GoToElementNumber	-	jump to the eight item in contents
-Wikipedia	GoToElementNumber	-	jump to the ninth element from contents
-Wikipedia	GoToElementNumber	-	jump to the ninth element in contents
-Wikipedia	GoToElementNumber	-	jump to the ninth item from contents
-Wikipedia	GoToElementNumber	-	jump to the ninth item in contents
-Wikipedia	GoToElementNumber	-	jump to the tenth element from contents
-Wikipedia	GoToElementNumber	-	jump to the tenth element in contents
-Wikipedia	GoToElementNumber	-	jump to the tenth item from contents
-Wikipedia	GoToElementNumber	-	jump to the tenth item in contents
-Wikipedia	GoToElementNumber	-	navigate to first element from contents
-Wikipedia	GoToElementNumber	-	navigate to first element in contents
-Wikipedia	GoToElementNumber	-	navigate to first item from contents
-Wikipedia	GoToElementNumber	-	navigate to first item in contents
-Wikipedia	GoToElementNumber	-	navigate to second element from contents
-Wikipedia	GoToElementNumber	-	navigate to second element in contents
-Wikipedia	GoToElementNumber	-	navigate to second item from contents
-Wikipedia	GoToElementNumber	-	navigate to second item in contents
-Wikipedia	GoToElementNumber	-	navigate to third element from contents
-Wikipedia	GoToElementNumber	-	navigate to third element in contents
-Wikipedia	GoToElementNumber	-	navigate to third item from contents
-Wikipedia	GoToElementNumber	-	navigate to third item in contents
-Wikipedia	GoToElementNumber	-	navigate to fourth element from contents
-Wikipedia	GoToElementNumber	-	navigate to fourth element in contents
-Wikipedia	GoToElementNumber	-	navigate to fourth item from contents
-Wikipedia	GoToElementNumber	-	navigate to fourth item in contents
-Wikipedia	GoToElementNumber	-	navigate to fifth element from contents
-Wikipedia	GoToElementNumber	-	navigate to fifth element in contents
-Wikipedia	GoToElementNumber	-	navigate to fifth item from contents
-Wikipedia	GoToElementNumber	-	navigate to fifth item in contents
-Wikipedia	GoToElementNumber	-	navigate to sixth element from contents
-Wikipedia	GoToElementNumber	-	navigate to sixth element in contents
-Wikipedia	GoToElementNumber	-	navigate to sixth item from contents
-Wikipedia	GoToElementNumber	-	navigate to sixth item in contents
-Wikipedia	GoToElementNumber	-	navigate to seventh element from contents
-Wikipedia	GoToElementNumber	-	navigate to seventh element in contents
-Wikipedia	GoToElementNumber	-	navigate to seventh item from contents
-Wikipedia	GoToElementNumber	-	navigate to seventh item in contents
-Wikipedia	GoToElementNumber	-	navigate to eight element from contents
-Wikipedia	GoToElementNumber	-	navigate to eight element in contents
-Wikipedia	GoToElementNumber	-	navigate to eight item from contents
-Wikipedia	GoToElementNumber	-	navigate to eight item in contents
-Wikipedia	GoToElementNumber	-	navigate to ninth element from contents
-Wikipedia	GoToElementNumber	-	navigate to ninth element in contents
-Wikipedia	GoToElementNumber	-	navigate to ninth item from contents
-Wikipedia	GoToElementNumber	-	navigate to ninth item in contents
-Wikipedia	GoToElementNumber	-	navigate to tenth element from contents
-Wikipedia	GoToElementNumber	-	navigate to tenth element in contents
-Wikipedia	GoToElementNumber	-	navigate to tenth item from contents
-Wikipedia	GoToElementNumber	-	navigate to tenth item in contents
-Wikipedia	GoToElementNumber	-	navigate to the first element from contents
-Wikipedia	GoToElementNumber	-	navigate to the first element in contents
-Wikipedia	GoToElementNumber	-	navigate to the first item from contents
-Wikipedia	GoToElementNumber	-	navigate to the first item in contents
-Wikipedia	GoToElementNumber	-	navigate to the second element from contents
-Wikipedia	GoToElementNumber	-	navigate to the second element in contents
-Wikipedia	GoToElementNumber	-	navigate to the second item from contents
-Wikipedia	GoToElementNumber	-	navigate to the second item in contents
-Wikipedia	GoToElementNumber	-	navigate to the third element from contents
-Wikipedia	GoToElementNumber	-	navigate to the third element in contents
-Wikipedia	GoToElementNumber	-	navigate to the third item from contents
-Wikipedia	GoToElementNumber	-	navigate to the third item in contents
-Wikipedia	GoToElementNumber	-	navigate to the fourth element from contents
-Wikipedia	GoToElementNumber	-	navigate to the fourth element in contents
-Wikipedia	GoToElementNumber	-	navigate to the fourth item from contents
-Wikipedia	GoToElementNumber	-	navigate to the fourth item in contents
-Wikipedia	GoToElementNumber	-	navigate to the fifth element from contents
-Wikipedia	GoToElementNumber	-	navigate to the fifth element in contents
-Wikipedia	GoToElementNumber	-	navigate to the fifth item from contents
-Wikipedia	GoToElementNumber	-	navigate to the fifth item in contents
-Wikipedia	GoToElementNumber	-	navigate to the sixth element from contents
-Wikipedia	GoToElementNumber	-	navigate to the sixth element in contents
-Wikipedia	GoToElementNumber	-	navigate to the sixth item from contents
-Wikipedia	GoToElementNumber	-	navigate to the sixth item in contents
-Wikipedia	GoToElementNumber	-	navigate to the seventh element from contents
-Wikipedia	GoToElementNumber	-	navigate to the seventh element in contents
-Wikipedia	GoToElementNumber	-	navigate to the seventh item from contents
-Wikipedia	GoToElementNumber	-	navigate to the seventh item in contents
-Wikipedia	GoToElementNumber	-	navigate to the eight element from contents
-Wikipedia	GoToElementNumber	-	navigate to the eight element in contents
-Wikipedia	GoToElementNumber	-	navigate to the eight item from contents
-Wikipedia	GoToElementNumber	-	navigate to the eight item in contents
-Wikipedia	GoToElementNumber	-	navigate to the ninth element from contents
-Wikipedia	GoToElementNumber	-	navigate to the ninth element in contents
-Wikipedia	GoToElementNumber	-	navigate to the ninth item from contents
-Wikipedia	GoToElementNumber	-	navigate to the ninth item in contents
-Wikipedia	GoToElementNumber	-	navigate to the tenth element from contents
-Wikipedia	GoToElementNumber	-	navigate to the tenth element in contents
-Wikipedia	GoToElementNumber	-	navigate to the tenth item from contents
-Wikipedia	GoToElementNumber	-	navigate to the tenth item in contents
+Wikipedia__	OpenWikipedia__	open wiki
+Wikipedia__	OpenWikipedia__	open wiki pages
+Wikipedia__	OpenWikipedia__	open wiki definition
+Wikipedia__	OpenWikipedia__	open wikipedia
+Wikipedia__	OpenWikipedia__	open wikipedia pages
+Wikipedia__	OpenWikipedia__	open wikipedia definition
+Wikipedia__	OpenWikipedia__	show wiki
+Wikipedia__	OpenWikipedia__	show wiki pages
+Wikipedia__	OpenWikipedia__	show wiki definition
+Wikipedia__	OpenWikipedia__	show wikipedia
+Wikipedia__	OpenWikipedia__	show wikipedia pages
+Wikipedia__	OpenWikipedia__	show wikipedia definition
+Wikipedia__	OpenWikipedia__	show me wiki
+Wikipedia__	OpenWikipedia__	show me wiki pages
+Wikipedia__	OpenWikipedia__	show me wiki definition
+Wikipedia__	OpenWikipedia__	show me wikipedia
+Wikipedia__	OpenWikipedia__	show me wikipedia pages
+Wikipedia__	OpenWikipedia__	show me wikipedia definition
+Wikipedia__	OpenWikipedia__	display wiki
+Wikipedia__	OpenWikipedia__	display wiki pages
+Wikipedia__	OpenWikipedia__	display wiki definition
+Wikipedia__	OpenWikipedia__	display wikipedia
+Wikipedia__	OpenWikipedia__	display wikipedia pages
+Wikipedia__	OpenWikipedia__	display wikipedia definition
+Wikipedia__	OpenWikipedia__	browse wiki
+Wikipedia__	OpenWikipedia__	browse wiki pages
+Wikipedia__	OpenWikipedia__	browse wiki definition
+Wikipedia__	OpenWikipedia__	browse wikipedia
+Wikipedia__	OpenWikipedia__	browse wikipedia pages
+Wikipedia__	OpenWikipedia__	browse wikipedia definition
+Wikipedia__	SearchQuery__	find {QUERY:statue of zeus at olympia} on wiki
+Wikipedia__	SearchQuery__	find {QUERY:rms titanic} on wikipedia
+Wikipedia__	SearchQuery__	find {QUERY:led zeppelin iv} in wiki
+Wikipedia__	SearchQuery__	find {QUERY:gillette stadium} in wikipedia
+Wikipedia__	SearchQuery__	find {QUERY:mariah carey} definition on wiki
+Wikipedia__	SearchQuery__	find {QUERY:los angeles international airport} definition on wikipedia
+Wikipedia__	SearchQuery__	find {QUERY:berlin wall} definition in wiki
+Wikipedia__	SearchQuery__	find {QUERY:mark wahlberg} definition in wikipedia
+Wikipedia__	SearchQuery__	search for {QUERY:coronavirus} on wiki
+Wikipedia__	SearchQuery__	search for {QUERY:emma watson} on wikipedia
+Wikipedia__	SearchQuery__	search for {QUERY:chichen itza} in wiki
+Wikipedia__	SearchQuery__	search for {QUERY:gateway of india} in wikipedia
+Wikipedia__	SearchQuery__	search for {QUERY:queen} definition on wiki
+Wikipedia__	SearchQuery__	search for {QUERY:big ben} definition on wikipedia
+Wikipedia__	SearchQuery__	search for {QUERY:toronto} definition in wiki
+Wikipedia__	SearchQuery__	search for {QUERY:kanye west} definition in wikipedia
+Wikipedia__	SearchQuery__	browse {QUERY:prince george of cambridge} on wiki
+Wikipedia__	SearchQuery__	browse {QUERY:nina hartley} on wikipedia
+Wikipedia__	SearchQuery__	browse {QUERY:hong kong} in wiki
+Wikipedia__	SearchQuery__	browse {QUERY:to kill a mockingbird} in wikipedia
+Wikipedia__	SearchQuery__	browse {QUERY:stonehenge} definition on wiki
+Wikipedia__	SearchQuery__	browse {QUERY:mahabharata} definition on wikipedia
+Wikipedia__	SearchQuery__	browse {QUERY:donald trump} definition in wiki
+Wikipedia__	SearchQuery__	browse {QUERY:eminem} definition in wikipedia
+Wikipedia__	SearchQuery__	{QUERY:capital city of germany} on wiki
+Wikipedia__	SearchQuery__	{QUERY:shanghai tower} on wikipedia
+Wikipedia__	SearchQuery__	{QUERY:empire state building} in wiki
+Wikipedia__	SearchQuery__	{QUERY:nebraska} in wikipedia
+Wikipedia__	SearchQuery__	pages matching {QUERY:mike tyson} on wiki
+Wikipedia__	SearchQuery__	pages matching {QUERY:sgt. pepper's lonely hearts club band} on wikipedia
+Wikipedia__	SearchQuery__	pages matching {QUERY:moai} in wiki
+Wikipedia__	SearchQuery__	pages matching {QUERY:john cena} in wikipedia
+Wikipedia__	SearchQuery__	{QUERY:gautama buddha} matching on wiki
+Wikipedia__	SearchQuery__	{QUERY:tom cruise} matching on wikipedia
+Wikipedia__	SearchQuery__	{QUERY:the marshall mathers lp} matching in wiki
+Wikipedia__	SearchQuery__	{QUERY:disneyland paris} matching in wikipedia
+Wikipedia__	ScrollDown__	page down
+Wikipedia__	ScrollDown__	scroll down
+Wikipedia__	ScrollDown__	downward scroll
+Wikipedia__	ScrollDown__	go down
+Wikipedia__	ScrollDown__	go page down
+Wikipedia__	ScrollUp__	page up
+Wikipedia__	ScrollUp__	scroll up
+Wikipedia__	ScrollUp__	upward scroll
+Wikipedia__	ScrollUp__	go up
+Wikipedia__	ScrollUp__	go page up
+Wikipedia__	DownloadAsPdf__	download page as pdf
+Wikipedia__	DownloadAsPdf__	download page as pdf file
+Wikipedia__	DownloadAsPdf__	download page as a pdf
+Wikipedia__	DownloadAsPdf__	download page as a pdf file
+Wikipedia__	DownloadAsPdf__	download article as pdf
+Wikipedia__	DownloadAsPdf__	download article as pdf file
+Wikipedia__	DownloadAsPdf__	download article as a pdf
+Wikipedia__	DownloadAsPdf__	download article as a pdf file
+Wikipedia__	DownloadAsPdf__	download this page as pdf
+Wikipedia__	DownloadAsPdf__	download this page as pdf file
+Wikipedia__	DownloadAsPdf__	download this page as a pdf
+Wikipedia__	DownloadAsPdf__	download this page as a pdf file
+Wikipedia__	DownloadAsPdf__	download this article as pdf
+Wikipedia__	DownloadAsPdf__	download this article as pdf file
+Wikipedia__	DownloadAsPdf__	download this article as a pdf
+Wikipedia__	DownloadAsPdf__	download this article as a pdf file
+Wikipedia__	DownloadAsPdf__	download that page as pdf
+Wikipedia__	DownloadAsPdf__	download that page as pdf file
+Wikipedia__	DownloadAsPdf__	download that page as a pdf
+Wikipedia__	DownloadAsPdf__	download that page as a pdf file
+Wikipedia__	DownloadAsPdf__	download that article as pdf
+Wikipedia__	DownloadAsPdf__	download that article as pdf file
+Wikipedia__	DownloadAsPdf__	download that article as a pdf
+Wikipedia__	DownloadAsPdf__	download that article as a pdf file
+Wikipedia__	DownloadAsPdf__	get page as pdf
+Wikipedia__	DownloadAsPdf__	get page as pdf file
+Wikipedia__	DownloadAsPdf__	get page as a pdf
+Wikipedia__	DownloadAsPdf__	get page as a pdf file
+Wikipedia__	DownloadAsPdf__	get article as pdf
+Wikipedia__	DownloadAsPdf__	get article as pdf file
+Wikipedia__	DownloadAsPdf__	get article as a pdf
+Wikipedia__	DownloadAsPdf__	get article as a pdf file
+Wikipedia__	DownloadAsPdf__	get this page as pdf
+Wikipedia__	DownloadAsPdf__	get this page as pdf file
+Wikipedia__	DownloadAsPdf__	get this page as a pdf
+Wikipedia__	DownloadAsPdf__	get this page as a pdf file
+Wikipedia__	DownloadAsPdf__	get this article as pdf
+Wikipedia__	DownloadAsPdf__	get this article as pdf file
+Wikipedia__	DownloadAsPdf__	get this article as a pdf
+Wikipedia__	DownloadAsPdf__	get this article as a pdf file
+Wikipedia__	DownloadAsPdf__	get that page as pdf
+Wikipedia__	DownloadAsPdf__	get that page as pdf file
+Wikipedia__	DownloadAsPdf__	get that page as a pdf
+Wikipedia__	DownloadAsPdf__	get that page as a pdf file
+Wikipedia__	DownloadAsPdf__	get that article as pdf
+Wikipedia__	DownloadAsPdf__	get that article as pdf file
+Wikipedia__	DownloadAsPdf__	get that article as a pdf
+Wikipedia__	DownloadAsPdf__	get that article as a pdf file
+Wikipedia__	ChangeLanguageToLanguage__	change language to english
+Wikipedia__	ChangeLanguageToLanguage__	change language to german
+Wikipedia__	ChangeLanguageToLanguage__	change language to polish
+Wikipedia__	ChangeLanguageToLanguage__	change language to french
+Wikipedia__	ChangeLanguageToLanguage__	change language to italian
+Wikipedia__	ChangeLanguageToLanguage__	change language to spanish
+Wikipedia__	ChangeLanguageToLanguage__	change language to russian
+Wikipedia__	ChangeLanguageToLanguage__	change language to chinese
+Wikipedia__	ChangeLanguageToLanguage__	change language to ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	change language to arabic
+Wikipedia__	ChangeLanguageToLanguage__	change language to portuguese
+Wikipedia__	ChangeLanguageToLanguage__	change language of this page to english
+Wikipedia__	ChangeLanguageToLanguage__	change language of this page to german
+Wikipedia__	ChangeLanguageToLanguage__	change language of this page to polish
+Wikipedia__	ChangeLanguageToLanguage__	change language of this page to french
+Wikipedia__	ChangeLanguageToLanguage__	change language of this page to italian
+Wikipedia__	ChangeLanguageToLanguage__	change language of this page to spanish
+Wikipedia__	ChangeLanguageToLanguage__	change language of this page to russian
+Wikipedia__	ChangeLanguageToLanguage__	change language of this page to chinese
+Wikipedia__	ChangeLanguageToLanguage__	change language of this page to ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	change language of this page to arabic
+Wikipedia__	ChangeLanguageToLanguage__	change language of this page to portuguese
+Wikipedia__	ChangeLanguageToLanguage__	change language of this article to english
+Wikipedia__	ChangeLanguageToLanguage__	change language of this article to german
+Wikipedia__	ChangeLanguageToLanguage__	change language of this article to polish
+Wikipedia__	ChangeLanguageToLanguage__	change language of this article to french
+Wikipedia__	ChangeLanguageToLanguage__	change language of this article to italian
+Wikipedia__	ChangeLanguageToLanguage__	change language of this article to spanish
+Wikipedia__	ChangeLanguageToLanguage__	change language of this article to russian
+Wikipedia__	ChangeLanguageToLanguage__	change language of this article to chinese
+Wikipedia__	ChangeLanguageToLanguage__	change language of this article to ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	change language of this article to arabic
+Wikipedia__	ChangeLanguageToLanguage__	change language of this article to portuguese
+Wikipedia__	ChangeLanguageToLanguage__	switch language to english
+Wikipedia__	ChangeLanguageToLanguage__	switch language to german
+Wikipedia__	ChangeLanguageToLanguage__	switch language to polish
+Wikipedia__	ChangeLanguageToLanguage__	switch language to french
+Wikipedia__	ChangeLanguageToLanguage__	switch language to italian
+Wikipedia__	ChangeLanguageToLanguage__	switch language to spanish
+Wikipedia__	ChangeLanguageToLanguage__	switch language to russian
+Wikipedia__	ChangeLanguageToLanguage__	switch language to chinese
+Wikipedia__	ChangeLanguageToLanguage__	switch language to ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	switch language to arabic
+Wikipedia__	ChangeLanguageToLanguage__	switch language to portuguese
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this page to english
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this page to german
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this page to polish
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this page to french
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this page to italian
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this page to spanish
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this page to russian
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this page to chinese
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this page to ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this page to arabic
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this page to portuguese
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this article to english
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this article to german
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this article to polish
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this article to french
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this article to italian
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this article to spanish
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this article to russian
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this article to chinese
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this article to ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this article to arabic
+Wikipedia__	ChangeLanguageToLanguage__	switch language of this article to portuguese
+Wikipedia__	ChangeLanguageToLanguage__	show this page in english
+Wikipedia__	ChangeLanguageToLanguage__	show this page in german
+Wikipedia__	ChangeLanguageToLanguage__	show this page in polish
+Wikipedia__	ChangeLanguageToLanguage__	show this page in french
+Wikipedia__	ChangeLanguageToLanguage__	show this page in italian
+Wikipedia__	ChangeLanguageToLanguage__	show this page in spanish
+Wikipedia__	ChangeLanguageToLanguage__	show this page in russian
+Wikipedia__	ChangeLanguageToLanguage__	show this page in chinese
+Wikipedia__	ChangeLanguageToLanguage__	show this page in ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	show this page in arabic
+Wikipedia__	ChangeLanguageToLanguage__	show this page in portuguese
+Wikipedia__	ChangeLanguageToLanguage__	show this article in english
+Wikipedia__	ChangeLanguageToLanguage__	show this article in german
+Wikipedia__	ChangeLanguageToLanguage__	show this article in polish
+Wikipedia__	ChangeLanguageToLanguage__	show this article in french
+Wikipedia__	ChangeLanguageToLanguage__	show this article in italian
+Wikipedia__	ChangeLanguageToLanguage__	show this article in spanish
+Wikipedia__	ChangeLanguageToLanguage__	show this article in russian
+Wikipedia__	ChangeLanguageToLanguage__	show this article in chinese
+Wikipedia__	ChangeLanguageToLanguage__	show this article in ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	show this article in arabic
+Wikipedia__	ChangeLanguageToLanguage__	show this article in portuguese
+Wikipedia__	ChangeLanguageToLanguage__	show that page in english
+Wikipedia__	ChangeLanguageToLanguage__	show that page in german
+Wikipedia__	ChangeLanguageToLanguage__	show that page in polish
+Wikipedia__	ChangeLanguageToLanguage__	show that page in french
+Wikipedia__	ChangeLanguageToLanguage__	show that page in italian
+Wikipedia__	ChangeLanguageToLanguage__	show that page in spanish
+Wikipedia__	ChangeLanguageToLanguage__	show that page in russian
+Wikipedia__	ChangeLanguageToLanguage__	show that page in chinese
+Wikipedia__	ChangeLanguageToLanguage__	show that page in ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	show that page in arabic
+Wikipedia__	ChangeLanguageToLanguage__	show that page in portuguese
+Wikipedia__	ChangeLanguageToLanguage__	show that article in english
+Wikipedia__	ChangeLanguageToLanguage__	show that article in german
+Wikipedia__	ChangeLanguageToLanguage__	show that article in polish
+Wikipedia__	ChangeLanguageToLanguage__	show that article in french
+Wikipedia__	ChangeLanguageToLanguage__	show that article in italian
+Wikipedia__	ChangeLanguageToLanguage__	show that article in spanish
+Wikipedia__	ChangeLanguageToLanguage__	show that article in russian
+Wikipedia__	ChangeLanguageToLanguage__	show that article in chinese
+Wikipedia__	ChangeLanguageToLanguage__	show that article in ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	show that article in arabic
+Wikipedia__	ChangeLanguageToLanguage__	show that article in portuguese
+Wikipedia__	ChangeLanguageToLanguage__	display this page in english
+Wikipedia__	ChangeLanguageToLanguage__	display this page in german
+Wikipedia__	ChangeLanguageToLanguage__	display this page in polish
+Wikipedia__	ChangeLanguageToLanguage__	display this page in french
+Wikipedia__	ChangeLanguageToLanguage__	display this page in italian
+Wikipedia__	ChangeLanguageToLanguage__	display this page in spanish
+Wikipedia__	ChangeLanguageToLanguage__	display this page in russian
+Wikipedia__	ChangeLanguageToLanguage__	display this page in chinese
+Wikipedia__	ChangeLanguageToLanguage__	display this page in ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	display this page in arabic
+Wikipedia__	ChangeLanguageToLanguage__	display this page in portuguese
+Wikipedia__	ChangeLanguageToLanguage__	display this article in english
+Wikipedia__	ChangeLanguageToLanguage__	display this article in german
+Wikipedia__	ChangeLanguageToLanguage__	display this article in polish
+Wikipedia__	ChangeLanguageToLanguage__	display this article in french
+Wikipedia__	ChangeLanguageToLanguage__	display this article in italian
+Wikipedia__	ChangeLanguageToLanguage__	display this article in spanish
+Wikipedia__	ChangeLanguageToLanguage__	display this article in russian
+Wikipedia__	ChangeLanguageToLanguage__	display this article in chinese
+Wikipedia__	ChangeLanguageToLanguage__	display this article in ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	display this article in arabic
+Wikipedia__	ChangeLanguageToLanguage__	display this article in portuguese
+Wikipedia__	ChangeLanguageToLanguage__	display that page in english
+Wikipedia__	ChangeLanguageToLanguage__	display that page in german
+Wikipedia__	ChangeLanguageToLanguage__	display that page in polish
+Wikipedia__	ChangeLanguageToLanguage__	display that page in french
+Wikipedia__	ChangeLanguageToLanguage__	display that page in italian
+Wikipedia__	ChangeLanguageToLanguage__	display that page in spanish
+Wikipedia__	ChangeLanguageToLanguage__	display that page in russian
+Wikipedia__	ChangeLanguageToLanguage__	display that page in chinese
+Wikipedia__	ChangeLanguageToLanguage__	display that page in ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	display that page in arabic
+Wikipedia__	ChangeLanguageToLanguage__	display that page in portuguese
+Wikipedia__	ChangeLanguageToLanguage__	display that article in english
+Wikipedia__	ChangeLanguageToLanguage__	display that article in german
+Wikipedia__	ChangeLanguageToLanguage__	display that article in polish
+Wikipedia__	ChangeLanguageToLanguage__	display that article in french
+Wikipedia__	ChangeLanguageToLanguage__	display that article in italian
+Wikipedia__	ChangeLanguageToLanguage__	display that article in spanish
+Wikipedia__	ChangeLanguageToLanguage__	display that article in russian
+Wikipedia__	ChangeLanguageToLanguage__	display that article in chinese
+Wikipedia__	ChangeLanguageToLanguage__	display that article in ukrainian
+Wikipedia__	ChangeLanguageToLanguage__	display that article in arabic
+Wikipedia__	ChangeLanguageToLanguage__	display that article in portuguese
+Wikipedia__	RandomPage__	random wiki page
+Wikipedia__	RandomPage__	random wiki article
+Wikipedia__	RandomPage__	random wikipedia page
+Wikipedia__	RandomPage__	random wikipedia article
+Wikipedia__	RandomPage__	show random wiki page
+Wikipedia__	RandomPage__	show random wiki article
+Wikipedia__	RandomPage__	show random wikipedia page
+Wikipedia__	RandomPage__	show random wikipedia article
+Wikipedia__	RandomPage__	show me random wiki page
+Wikipedia__	RandomPage__	show me random wiki article
+Wikipedia__	RandomPage__	show me random wikipedia page
+Wikipedia__	RandomPage__	show me random wikipedia article
+Wikipedia__	RandomPage__	display random wiki page
+Wikipedia__	RandomPage__	display random wiki article
+Wikipedia__	RandomPage__	display random wikipedia page
+Wikipedia__	RandomPage__	display random wikipedia article
+Wikipedia__	RandomPage__	wiki surf
+Wikipedia__	RandomPage__	wiki surfing
+Wikipedia__	RandomPage__	wikipedia surf
+Wikipedia__	RandomPage__	wikipedia surfing
+Wikipedia__	RandomPage__	surf wiki
+Wikipedia__	RandomPage__	surf wikipedia
+Wikipedia__	RandomPage__	cruise wiki
+Wikipedia__	RandomPage__	cruise wikipedia
+Wikipedia__	GoToElementNumber__	go to first element from contents
+Wikipedia__	GoToElementNumber__	go to first element in contents
+Wikipedia__	GoToElementNumber__	go to first item from contents
+Wikipedia__	GoToElementNumber__	go to first item in contents
+Wikipedia__	GoToElementNumber__	go to second element from contents
+Wikipedia__	GoToElementNumber__	go to second element in contents
+Wikipedia__	GoToElementNumber__	go to second item from contents
+Wikipedia__	GoToElementNumber__	go to second item in contents
+Wikipedia__	GoToElementNumber__	go to third element from contents
+Wikipedia__	GoToElementNumber__	go to third element in contents
+Wikipedia__	GoToElementNumber__	go to third item from contents
+Wikipedia__	GoToElementNumber__	go to third item in contents
+Wikipedia__	GoToElementNumber__	go to fourth element from contents
+Wikipedia__	GoToElementNumber__	go to fourth element in contents
+Wikipedia__	GoToElementNumber__	go to fourth item from contents
+Wikipedia__	GoToElementNumber__	go to fourth item in contents
+Wikipedia__	GoToElementNumber__	go to fifth element from contents
+Wikipedia__	GoToElementNumber__	go to fifth element in contents
+Wikipedia__	GoToElementNumber__	go to fifth item from contents
+Wikipedia__	GoToElementNumber__	go to fifth item in contents
+Wikipedia__	GoToElementNumber__	go to sixth element from contents
+Wikipedia__	GoToElementNumber__	go to sixth element in contents
+Wikipedia__	GoToElementNumber__	go to sixth item from contents
+Wikipedia__	GoToElementNumber__	go to sixth item in contents
+Wikipedia__	GoToElementNumber__	go to seventh element from contents
+Wikipedia__	GoToElementNumber__	go to seventh element in contents
+Wikipedia__	GoToElementNumber__	go to seventh item from contents
+Wikipedia__	GoToElementNumber__	go to seventh item in contents
+Wikipedia__	GoToElementNumber__	go to eight element from contents
+Wikipedia__	GoToElementNumber__	go to eight element in contents
+Wikipedia__	GoToElementNumber__	go to eight item from contents
+Wikipedia__	GoToElementNumber__	go to eight item in contents
+Wikipedia__	GoToElementNumber__	go to ninth element from contents
+Wikipedia__	GoToElementNumber__	go to ninth element in contents
+Wikipedia__	GoToElementNumber__	go to ninth item from contents
+Wikipedia__	GoToElementNumber__	go to ninth item in contents
+Wikipedia__	GoToElementNumber__	go to tenth element from contents
+Wikipedia__	GoToElementNumber__	go to tenth element in contents
+Wikipedia__	GoToElementNumber__	go to tenth item from contents
+Wikipedia__	GoToElementNumber__	go to tenth item in contents
+Wikipedia__	GoToElementNumber__	go to the first element from contents
+Wikipedia__	GoToElementNumber__	go to the first element in contents
+Wikipedia__	GoToElementNumber__	go to the first item from contents
+Wikipedia__	GoToElementNumber__	go to the first item in contents
+Wikipedia__	GoToElementNumber__	go to the second element from contents
+Wikipedia__	GoToElementNumber__	go to the second element in contents
+Wikipedia__	GoToElementNumber__	go to the second item from contents
+Wikipedia__	GoToElementNumber__	go to the second item in contents
+Wikipedia__	GoToElementNumber__	go to the third element from contents
+Wikipedia__	GoToElementNumber__	go to the third element in contents
+Wikipedia__	GoToElementNumber__	go to the third item from contents
+Wikipedia__	GoToElementNumber__	go to the third item in contents
+Wikipedia__	GoToElementNumber__	go to the fourth element from contents
+Wikipedia__	GoToElementNumber__	go to the fourth element in contents
+Wikipedia__	GoToElementNumber__	go to the fourth item from contents
+Wikipedia__	GoToElementNumber__	go to the fourth item in contents
+Wikipedia__	GoToElementNumber__	go to the fifth element from contents
+Wikipedia__	GoToElementNumber__	go to the fifth element in contents
+Wikipedia__	GoToElementNumber__	go to the fifth item from contents
+Wikipedia__	GoToElementNumber__	go to the fifth item in contents
+Wikipedia__	GoToElementNumber__	go to the sixth element from contents
+Wikipedia__	GoToElementNumber__	go to the sixth element in contents
+Wikipedia__	GoToElementNumber__	go to the sixth item from contents
+Wikipedia__	GoToElementNumber__	go to the sixth item in contents
+Wikipedia__	GoToElementNumber__	go to the seventh element from contents
+Wikipedia__	GoToElementNumber__	go to the seventh element in contents
+Wikipedia__	GoToElementNumber__	go to the seventh item from contents
+Wikipedia__	GoToElementNumber__	go to the seventh item in contents
+Wikipedia__	GoToElementNumber__	go to the eight element from contents
+Wikipedia__	GoToElementNumber__	go to the eight element in contents
+Wikipedia__	GoToElementNumber__	go to the eight item from contents
+Wikipedia__	GoToElementNumber__	go to the eight item in contents
+Wikipedia__	GoToElementNumber__	go to the ninth element from contents
+Wikipedia__	GoToElementNumber__	go to the ninth element in contents
+Wikipedia__	GoToElementNumber__	go to the ninth item from contents
+Wikipedia__	GoToElementNumber__	go to the ninth item in contents
+Wikipedia__	GoToElementNumber__	go to the tenth element from contents
+Wikipedia__	GoToElementNumber__	go to the tenth element in contents
+Wikipedia__	GoToElementNumber__	go to the tenth item from contents
+Wikipedia__	GoToElementNumber__	go to the tenth item in contents
+Wikipedia__	GoToElementNumber__	jump to first element from contents
+Wikipedia__	GoToElementNumber__	jump to first element in contents
+Wikipedia__	GoToElementNumber__	jump to first item from contents
+Wikipedia__	GoToElementNumber__	jump to first item in contents
+Wikipedia__	GoToElementNumber__	jump to second element from contents
+Wikipedia__	GoToElementNumber__	jump to second element in contents
+Wikipedia__	GoToElementNumber__	jump to second item from contents
+Wikipedia__	GoToElementNumber__	jump to second item in contents
+Wikipedia__	GoToElementNumber__	jump to third element from contents
+Wikipedia__	GoToElementNumber__	jump to third element in contents
+Wikipedia__	GoToElementNumber__	jump to third item from contents
+Wikipedia__	GoToElementNumber__	jump to third item in contents
+Wikipedia__	GoToElementNumber__	jump to fourth element from contents
+Wikipedia__	GoToElementNumber__	jump to fourth element in contents
+Wikipedia__	GoToElementNumber__	jump to fourth item from contents
+Wikipedia__	GoToElementNumber__	jump to fourth item in contents
+Wikipedia__	GoToElementNumber__	jump to fifth element from contents
+Wikipedia__	GoToElementNumber__	jump to fifth element in contents
+Wikipedia__	GoToElementNumber__	jump to fifth item from contents
+Wikipedia__	GoToElementNumber__	jump to fifth item in contents
+Wikipedia__	GoToElementNumber__	jump to sixth element from contents
+Wikipedia__	GoToElementNumber__	jump to sixth element in contents
+Wikipedia__	GoToElementNumber__	jump to sixth item from contents
+Wikipedia__	GoToElementNumber__	jump to sixth item in contents
+Wikipedia__	GoToElementNumber__	jump to seventh element from contents
+Wikipedia__	GoToElementNumber__	jump to seventh element in contents
+Wikipedia__	GoToElementNumber__	jump to seventh item from contents
+Wikipedia__	GoToElementNumber__	jump to seventh item in contents
+Wikipedia__	GoToElementNumber__	jump to eight element from contents
+Wikipedia__	GoToElementNumber__	jump to eight element in contents
+Wikipedia__	GoToElementNumber__	jump to eight item from contents
+Wikipedia__	GoToElementNumber__	jump to eight item in contents
+Wikipedia__	GoToElementNumber__	jump to ninth element from contents
+Wikipedia__	GoToElementNumber__	jump to ninth element in contents
+Wikipedia__	GoToElementNumber__	jump to ninth item from contents
+Wikipedia__	GoToElementNumber__	jump to ninth item in contents
+Wikipedia__	GoToElementNumber__	jump to tenth element from contents
+Wikipedia__	GoToElementNumber__	jump to tenth element in contents
+Wikipedia__	GoToElementNumber__	jump to tenth item from contents
+Wikipedia__	GoToElementNumber__	jump to tenth item in contents
+Wikipedia__	GoToElementNumber__	jump to the first element from contents
+Wikipedia__	GoToElementNumber__	jump to the first element in contents
+Wikipedia__	GoToElementNumber__	jump to the first item from contents
+Wikipedia__	GoToElementNumber__	jump to the first item in contents
+Wikipedia__	GoToElementNumber__	jump to the second element from contents
+Wikipedia__	GoToElementNumber__	jump to the second element in contents
+Wikipedia__	GoToElementNumber__	jump to the second item from contents
+Wikipedia__	GoToElementNumber__	jump to the second item in contents
+Wikipedia__	GoToElementNumber__	jump to the third element from contents
+Wikipedia__	GoToElementNumber__	jump to the third element in contents
+Wikipedia__	GoToElementNumber__	jump to the third item from contents
+Wikipedia__	GoToElementNumber__	jump to the third item in contents
+Wikipedia__	GoToElementNumber__	jump to the fourth element from contents
+Wikipedia__	GoToElementNumber__	jump to the fourth element in contents
+Wikipedia__	GoToElementNumber__	jump to the fourth item from contents
+Wikipedia__	GoToElementNumber__	jump to the fourth item in contents
+Wikipedia__	GoToElementNumber__	jump to the fifth element from contents
+Wikipedia__	GoToElementNumber__	jump to the fifth element in contents
+Wikipedia__	GoToElementNumber__	jump to the fifth item from contents
+Wikipedia__	GoToElementNumber__	jump to the fifth item in contents
+Wikipedia__	GoToElementNumber__	jump to the sixth element from contents
+Wikipedia__	GoToElementNumber__	jump to the sixth element in contents
+Wikipedia__	GoToElementNumber__	jump to the sixth item from contents
+Wikipedia__	GoToElementNumber__	jump to the sixth item in contents
+Wikipedia__	GoToElementNumber__	jump to the seventh element from contents
+Wikipedia__	GoToElementNumber__	jump to the seventh element in contents
+Wikipedia__	GoToElementNumber__	jump to the seventh item from contents
+Wikipedia__	GoToElementNumber__	jump to the seventh item in contents
+Wikipedia__	GoToElementNumber__	jump to the eight element from contents
+Wikipedia__	GoToElementNumber__	jump to the eight element in contents
+Wikipedia__	GoToElementNumber__	jump to the eight item from contents
+Wikipedia__	GoToElementNumber__	jump to the eight item in contents
+Wikipedia__	GoToElementNumber__	jump to the ninth element from contents
+Wikipedia__	GoToElementNumber__	jump to the ninth element in contents
+Wikipedia__	GoToElementNumber__	jump to the ninth item from contents
+Wikipedia__	GoToElementNumber__	jump to the ninth item in contents
+Wikipedia__	GoToElementNumber__	jump to the tenth element from contents
+Wikipedia__	GoToElementNumber__	jump to the tenth element in contents
+Wikipedia__	GoToElementNumber__	jump to the tenth item from contents
+Wikipedia__	GoToElementNumber__	jump to the tenth item in contents
+Wikipedia__	GoToElementNumber__	navigate to first element from contents
+Wikipedia__	GoToElementNumber__	navigate to first element in contents
+Wikipedia__	GoToElementNumber__	navigate to first item from contents
+Wikipedia__	GoToElementNumber__	navigate to first item in contents
+Wikipedia__	GoToElementNumber__	navigate to second element from contents
+Wikipedia__	GoToElementNumber__	navigate to second element in contents
+Wikipedia__	GoToElementNumber__	navigate to second item from contents
+Wikipedia__	GoToElementNumber__	navigate to second item in contents
+Wikipedia__	GoToElementNumber__	navigate to third element from contents
+Wikipedia__	GoToElementNumber__	navigate to third element in contents
+Wikipedia__	GoToElementNumber__	navigate to third item from contents
+Wikipedia__	GoToElementNumber__	navigate to third item in contents
+Wikipedia__	GoToElementNumber__	navigate to fourth element from contents
+Wikipedia__	GoToElementNumber__	navigate to fourth element in contents
+Wikipedia__	GoToElementNumber__	navigate to fourth item from contents
+Wikipedia__	GoToElementNumber__	navigate to fourth item in contents
+Wikipedia__	GoToElementNumber__	navigate to fifth element from contents
+Wikipedia__	GoToElementNumber__	navigate to fifth element in contents
+Wikipedia__	GoToElementNumber__	navigate to fifth item from contents
+Wikipedia__	GoToElementNumber__	navigate to fifth item in contents
+Wikipedia__	GoToElementNumber__	navigate to sixth element from contents
+Wikipedia__	GoToElementNumber__	navigate to sixth element in contents
+Wikipedia__	GoToElementNumber__	navigate to sixth item from contents
+Wikipedia__	GoToElementNumber__	navigate to sixth item in contents
+Wikipedia__	GoToElementNumber__	navigate to seventh element from contents
+Wikipedia__	GoToElementNumber__	navigate to seventh element in contents
+Wikipedia__	GoToElementNumber__	navigate to seventh item from contents
+Wikipedia__	GoToElementNumber__	navigate to seventh item in contents
+Wikipedia__	GoToElementNumber__	navigate to eight element from contents
+Wikipedia__	GoToElementNumber__	navigate to eight element in contents
+Wikipedia__	GoToElementNumber__	navigate to eight item from contents
+Wikipedia__	GoToElementNumber__	navigate to eight item in contents
+Wikipedia__	GoToElementNumber__	navigate to ninth element from contents
+Wikipedia__	GoToElementNumber__	navigate to ninth element in contents
+Wikipedia__	GoToElementNumber__	navigate to ninth item from contents
+Wikipedia__	GoToElementNumber__	navigate to ninth item in contents
+Wikipedia__	GoToElementNumber__	navigate to tenth element from contents
+Wikipedia__	GoToElementNumber__	navigate to tenth element in contents
+Wikipedia__	GoToElementNumber__	navigate to tenth item from contents
+Wikipedia__	GoToElementNumber__	navigate to tenth item in contents
+Wikipedia__	GoToElementNumber__	navigate to the first element from contents
+Wikipedia__	GoToElementNumber__	navigate to the first element in contents
+Wikipedia__	GoToElementNumber__	navigate to the first item from contents
+Wikipedia__	GoToElementNumber__	navigate to the first item in contents
+Wikipedia__	GoToElementNumber__	navigate to the second element from contents
+Wikipedia__	GoToElementNumber__	navigate to the second element in contents
+Wikipedia__	GoToElementNumber__	navigate to the second item from contents
+Wikipedia__	GoToElementNumber__	navigate to the second item in contents
+Wikipedia__	GoToElementNumber__	navigate to the third element from contents
+Wikipedia__	GoToElementNumber__	navigate to the third element in contents
+Wikipedia__	GoToElementNumber__	navigate to the third item from contents
+Wikipedia__	GoToElementNumber__	navigate to the third item in contents
+Wikipedia__	GoToElementNumber__	navigate to the fourth element from contents
+Wikipedia__	GoToElementNumber__	navigate to the fourth element in contents
+Wikipedia__	GoToElementNumber__	navigate to the fourth item from contents
+Wikipedia__	GoToElementNumber__	navigate to the fourth item in contents
+Wikipedia__	GoToElementNumber__	navigate to the fifth element from contents
+Wikipedia__	GoToElementNumber__	navigate to the fifth element in contents
+Wikipedia__	GoToElementNumber__	navigate to the fifth item from contents
+Wikipedia__	GoToElementNumber__	navigate to the fifth item in contents
+Wikipedia__	GoToElementNumber__	navigate to the sixth element from contents
+Wikipedia__	GoToElementNumber__	navigate to the sixth element in contents
+Wikipedia__	GoToElementNumber__	navigate to the sixth item from contents
+Wikipedia__	GoToElementNumber__	navigate to the sixth item in contents
+Wikipedia__	GoToElementNumber__	navigate to the seventh element from contents
+Wikipedia__	GoToElementNumber__	navigate to the seventh element in contents
+Wikipedia__	GoToElementNumber__	navigate to the seventh item from contents
+Wikipedia__	GoToElementNumber__	navigate to the seventh item in contents
+Wikipedia__	GoToElementNumber__	navigate to the eight element from contents
+Wikipedia__	GoToElementNumber__	navigate to the eight element in contents
+Wikipedia__	GoToElementNumber__	navigate to the eight item from contents
+Wikipedia__	GoToElementNumber__	navigate to the eight item in contents
+Wikipedia__	GoToElementNumber__	navigate to the ninth element from contents
+Wikipedia__	GoToElementNumber__	navigate to the ninth element in contents
+Wikipedia__	GoToElementNumber__	navigate to the ninth item from contents
+Wikipedia__	GoToElementNumber__	navigate to the ninth item in contents
+Wikipedia__	GoToElementNumber__	navigate to the tenth element from contents
+Wikipedia__	GoToElementNumber__	navigate to the tenth element in contents
+Wikipedia__	GoToElementNumber__	navigate to the tenth item from contents
+Wikipedia__	GoToElementNumber__	navigate to the tenth item in contents

@@ -1,56 +1,55 @@
-domain	intent	parallel	pattern
-Websearch	OpenEngine	-	busca en bing
-Websearch	OpenEngine	-	busca en google
-Websearch	OpenEngine	-	busca en duckduckgo
-Websearch	OpenEngine	-	búsqueda en bing
-Websearch	OpenEngine	-	búsqueda en google
-Websearch	OpenEngine	-	búsqueda en duckduckgo
-Websearch	OpenEngine	-	busca en la red
-Websearch	SearchTextOnEngine	-	WEBSEARCH.SLOT.TXT_QUERY en bing
-Websearch	SearchTextOnEngine	-	WEBSEARCH.SLOT.TXT_QUERY en google
-Websearch	SearchTextOnEngine	-	WEBSEARCH.SLOT.TXT_QUERY en duckduckgo
-Websearch	SearchTextOnEngine	-	bing WEBSEARCH.SLOT.TXT_QUERY
-Websearch	SearchTextOnEngine	-	google WEBSEARCH.SLOT.TXT_QUERY
-Websearch	SearchTextOnEngine	-	duckduckgo WEBSEARCH.SLOT.TXT_QUERY
-Websearch	SearchText	-	páginas que coinciden con WEBSEARCH.SLOT.TXT_QUERY
-Websearch	SearchText	-	páginas web que coinciden con WEBSEARCH.SLOT.TXT_QUERY
-Websearch	SearchImagesWithTextOnEngine	-	imágenes que coinciden con WEBSEARCH.SLOT.IMG_QUERY de bing
-Websearch	SearchImagesWithTextOnEngine	-	imágenes que coinciden con WEBSEARCH.SLOT.IMG_QUERY de google
-Websearch	SearchImagesWithTextOnEngine	-	imágenes que coinciden con WEBSEARCH.SLOT.IMG_QUERY de duckduckgo
-Websearch	SearchImagesWithTextOnEngine	-	imágenes WEBSEARCH.SLOT.IMG_QUERY en bing
-Websearch	SearchImagesWithTextOnEngine	-	imágenes WEBSEARCH.SLOT.IMG_QUERY en google
-Websearch	SearchImagesWithTextOnEngine	-	imágenes WEBSEARCH.SLOT.IMG_QUERY en duckduckgo
-Websearch	SearchImagesOnEngine	-	búsqueda de imágenes
-Websearch	SearchImagesOnEngine	-	busca imágenes en bing
-Websearch	SearchImagesOnEngine	-	busca imágenes en google
-Websearch	SearchImagesOnEngine	-	busca imágenes en duckduckgo
-Websearch	SearchImagesOnEngine	-	bing búsqueda de imágenes
-Websearch	SearchImagesOnEngine	-	google búsqueda de imágenes
-Websearch	SearchImagesOnEngine	-	duckduckgo búsqueda de imágenes
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY de tamaño 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY de tamaño 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeight	-	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY de tamaño 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de bing que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de google que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más anchas que 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más grandes que 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más altas que 800 x 600
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800
-Websearch	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition	-	imágenes de duckduckgo que coinciden con WEBSEARCH.SLOT.IMG_QUERY más pequeñas que 800 x 600
+Websearch__	OpenEngine__	busca en bing
+Websearch__	OpenEngine__	busca en google
+Websearch__	OpenEngine__	busca en duckduckgo
+Websearch__	OpenEngine__	búsqueda en bing
+Websearch__	OpenEngine__	búsqueda en google
+Websearch__	OpenEngine__	búsqueda en duckduckgo
+Websearch__	OpenEngine__	busca en la red
+Websearch__	SearchTextOnEngine__	{TXT_QUERY:eci} en bing
+Websearch__	SearchTextOnEngine__	{TXT_QUERY:gls} en google
+Websearch__	SearchTextOnEngine__	{TXT_QUERY:antivirus} en duckduckgo
+Websearch__	SearchTextOnEngine__	bing {TXT_QUERY:amazon}
+Websearch__	SearchTextOnEngine__	google {TXT_QUERY:cuponazo}
+Websearch__	SearchTextOnEngine__	duckduckgo {TXT_QUERY:caroline flack}
+Websearch__	SearchText__	páginas que coinciden con {TXT_QUERY:fichajes}
+Websearch__	SearchText__	páginas web que coinciden con {TXT_QUERY:frases}
+Websearch__	SearchImagesWithTextOnEngine__	imágenes que coinciden con {IMG_QUERY:pokemon go} de bing
+Websearch__	SearchImagesWithTextOnEngine__	imágenes que coinciden con {IMG_QUERY:stickers vsco} de google
+Websearch__	SearchImagesWithTextOnEngine__	imágenes que coinciden con {IMG_QUERY:suga bts} de duckduckgo
+Websearch__	SearchImagesWithTextOnEngine__	imágenes {IMG_QUERY:nike air max} en bing
+Websearch__	SearchImagesWithTextOnEngine__	imágenes {IMG_QUERY:donald trump} en google
+Websearch__	SearchImagesWithTextOnEngine__	imágenes {IMG_QUERY:diario} en duckduckgo
+Websearch__	SearchImagesOnEngine__	búsqueda de imágenes
+Websearch__	SearchImagesOnEngine__	busca imágenes en bing
+Websearch__	SearchImagesOnEngine__	busca imágenes en google
+Websearch__	SearchImagesOnEngine__	busca imágenes en duckduckgo
+Websearch__	SearchImagesOnEngine__	bing búsqueda de imágenes
+Websearch__	SearchImagesOnEngine__	google búsqueda de imágenes
+Websearch__	SearchImagesOnEngine__	duckduckgo búsqueda de imágenes
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeight__	imágenes de bing que coinciden con {IMG_QUERY:semana santa 2020} de tamaño 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeight__	imágenes de google que coinciden con {IMG_QUERY:oveja} de tamaño 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeight__	imágenes de duckduckgo que coinciden con {IMG_QUERY:sergio ramos} de tamaño 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con {IMG_QUERY:nintendo switch} más anchas que 800
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con {IMG_QUERY:tatuaje} más anchas que 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con {IMG_QUERY:grecia} más grandes que 800
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con {IMG_QUERY:horno} más grandes que 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con {IMG_QUERY:seguridad} más altas que 800
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con {IMG_QUERY:linea 3} más altas que 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con {IMG_QUERY:mascarillas} más pequeñas que 800
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de bing que coinciden con {IMG_QUERY:camiseta españa 2020} más pequeñas que 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con {IMG_QUERY:mercedes cla coupe} más anchas que 800
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con {IMG_QUERY:interviu} más anchas que 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con {IMG_QUERY:cola de caballo ordesa} más grandes que 800
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con {IMG_QUERY:kawaii para colorear} más grandes que 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con {IMG_QUERY:taylor lautner 2019} más altas que 800
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con {IMG_QUERY:mezquita azul} más altas que 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con {IMG_QUERY:pilotes} más pequeñas que 800
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de google que coinciden con {IMG_QUERY:disfraz} más pequeñas que 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con {IMG_QUERY:colegio} más anchas que 800
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con {IMG_QUERY:one piece} más anchas que 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con {IMG_QUERY:prestamos} más grandes que 800
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con {IMG_QUERY:atletico madrid} más grandes que 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con {IMG_QUERY:fondos de pantalla} más altas que 800
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con {IMG_QUERY:herpes} más altas que 800 x 600
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con {IMG_QUERY:cielo} más pequeñas que 800
+Websearch__	SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__	imágenes de duckduckgo que coinciden con {IMG_QUERY:can yaman} más pequeñas que 800 x 600

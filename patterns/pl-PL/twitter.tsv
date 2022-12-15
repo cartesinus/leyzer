@@ -1,175 +1,174 @@
-domain	intent	parallel	pattern
-Twitter	OpenTwitter	-	pokaż twitty
-Twitter	OpenTwitter	-	pokaż posty na twitterze
-Twitter	OpenTwitter	-	pokaż twitty które napisałem
-Twitter	OpenTwitter	-	pokaż moje twitty
-Twitter	OpenTwitter	-	pokaż moje posty na twitterze
-Twitter	OpenTwitter	-	pokaż moje twitty które napisałem
-Twitter	OpenTwitter	-	wyświetl twitty
-Twitter	OpenTwitter	-	wyświetl posty na twitterze
-Twitter	OpenTwitter	-	wyświetl twitty które napisałem
-Twitter	OpenTwitter	-	wyświetl moje twitty
-Twitter	OpenTwitter	-	wyświetl moje posty na twitterze
-Twitter	OpenTwitter	-	wyświetl moje twitty które napisałem
-Twitter	FollowUser	-	obserwuj TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	obserwuj aktywność TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	zacznij śledzić TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	zacznij śledzić aktywność TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	zacznij obserwować TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	zacznij obserwować aktywność TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	zacznij śledzić co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	FollowUser	-	zacznij śledzić co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	FollowUser	-	zacznij obserwować co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	FollowUser	-	zacznij obserwować co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	FollowUser	-	chcę być na bieżąco z tym co pisze TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	chcę być na bieżąco z tym co publikuje TWITTER.SLOT.USERNAME na twitterze
-Twitter	FollowUser	-	zostań followersem TWITTER.SLOT.USERNAME na twitterze
-Twitter	UnfollowUser	-	przestań obserować TWITTER.SLOT.USERNAME na twitterze
-Twitter	UnfollowUser	-	przestań obserować aktywność TWITTER.SLOT.USERNAME na twitterze
-Twitter	UnfollowUser	-	przestań śledzić TWITTER.SLOT.USERNAME na twitterze
-Twitter	UnfollowUser	-	przestań śledzić aktywność TWITTER.SLOT.USERNAME na twitterze
-Twitter	UnfollowUser	-	przestań followować TWITTER.SLOT.USERNAME na twitterze
-Twitter	UnfollowUser	-	nie chcę obserwować co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	UnfollowUser	-	nie chcę obserwować co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	UnfollowUser	-	nie chcę śledzić co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	UnfollowUser	-	nie chcę śledzić co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	UnfollowUser	-	nie chcę wiedzieć co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	UnfollowUser	-	nie chcę wiedzieć co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	UnfollowUser	-	nie chcę już obserwować co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	UnfollowUser	-	nie chcę już obserwować co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	UnfollowUser	-	nie chcę już śledzić co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	UnfollowUser	-	nie chcę już śledzić co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	UnfollowUser	-	nie chcę już wiedzieć co TWITTER.SLOT.USERNAME pisze na twitterze
-Twitter	UnfollowUser	-	nie chcę już wiedzieć co TWITTER.SLOT.USERNAME publikuje na twitterze
-Twitter	SendMessage	-	wyślij na twitterze wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij na twitterze wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij na twitterze pw TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij na twitterze pw o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij na twitterze prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz na twitterze wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz na twitterze wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz na twitterze pw TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz na twitterze pw o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz na twitterze prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz na twitterze wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz na twitterze wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz na twitterze pw TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz na twitterze pw o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz na twitterze prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij na twitterze wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij na twitterze wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij na twitterze pw TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij na twitterze pw o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij na twitterze prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij pw na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij pw na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	wyślij prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz pw na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz pw na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	napisz prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz pw na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz pw na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	utwórz prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij pw na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij pw na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	prześlij prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	stwórz wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	stwórz wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	stwórz pw na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	stwórz pw na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	stwórz prywatną wiadomość na twitterze TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	stwórz prywatną wiadomość na twitterze o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	ćwierknij wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	ćwierknij wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	ćwierknij pw TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	ćwierknij pw o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	ćwierknij prywatną wiadomość TWITTER.SLOT.MESSAGE
-Twitter	SendMessage	-	ćwierknij prywatną wiadomość o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze wyślij do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze wyślij wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze wyślij pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze wyślij prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze napisz do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze napisz wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze napisz pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze napisz prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze utwórz do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze utwórz wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze utwórz pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze utwórz prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze prześlij do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze prześlij wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze prześlij pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze prześlij prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze stwórz do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze stwórz wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze stwórz pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze stwórz prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	na twitterze wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze wyślij wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze wyślij pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze wyślij prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze napisz wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze napisz pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze napisz prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze utwórz wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze utwórz pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze utwórz prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze prześlij wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze prześlij pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze prześlij prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze stwórz wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze stwórz pw TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	na twitterze stwórz prywatną wiadomość TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	SendMessageToUser	-	TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME na twitterze
-Twitter	SendMessageToUser	-	wyślij TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME na twitterze
-Twitter	SendMessageToUser	-	napisz TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME na twitterze
-Twitter	SendMessageToUser	-	ćwierknij do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	ćwierknij wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	ćwierknij pw do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	ćwierknij prywatną wiadomość do TWITTER.SLOT.USERNAME o treści TWITTER.SLOT.MESSAGE
-Twitter	SendMessageToUser	-	ćwierknij TWITTER.SLOT.MESSAGE do TWITTER.SLOT.USERNAME
-Twitter	ShowTwittsWithHashtag	-	twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	znajdź twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	znajdź twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	znajdź mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	znajdź mi twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	odnajdź twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	odnajdź twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	odnajdź mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	odnajdź mi twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyszukaj twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyszukaj twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyszukaj mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyszukaj mi twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	pokaż twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	pokaż twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	pokaż mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	pokaż mi twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyświetl twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyświetl twitty o hashtagu TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyświetl mi twitty z hashtagiem TWITTER.SLOT.HASHTAG
-Twitter	ShowTwittsWithHashtag	-	wyświetl mi twitty o hashtagu TWITTER.SLOT.HASHTAG
+Twitter__	OpenTwitter__	pokaż twitty
+Twitter__	OpenTwitter__	pokaż posty na twitterze
+Twitter__	OpenTwitter__	pokaż twitty które napisałem
+Twitter__	OpenTwitter__	pokaż moje twitty
+Twitter__	OpenTwitter__	pokaż moje posty na twitterze
+Twitter__	OpenTwitter__	pokaż moje twitty które napisałem
+Twitter__	OpenTwitter__	wyświetl twitty
+Twitter__	OpenTwitter__	wyświetl posty na twitterze
+Twitter__	OpenTwitter__	wyświetl twitty które napisałem
+Twitter__	OpenTwitter__	wyświetl moje twitty
+Twitter__	OpenTwitter__	wyświetl moje posty na twitterze
+Twitter__	OpenTwitter__	wyświetl moje twitty które napisałem
+Twitter__	FollowUser__	obserwuj {USERNAME:slonka17} na twitterze
+Twitter__	FollowUser__	obserwuj aktywność {USERNAME:kamil_miklaszew} na twitterze
+Twitter__	FollowUser__	zacznij śledzić {USERNAME:usiduspl} na twitterze
+Twitter__	FollowUser__	zacznij śledzić aktywność {USERNAME:pawelt_pl} na twitterze
+Twitter__	FollowUser__	zacznij obserwować {USERNAME:piotrus_pan9} na twitterze
+Twitter__	FollowUser__	zacznij obserwować aktywność {USERNAME:xsassyxo} na twitterze
+Twitter__	FollowUser__	zacznij śledzić co {USERNAME:conectum_pl} pisze na twitterze
+Twitter__	FollowUser__	zacznij śledzić co {USERNAME:amilee110} publikuje na twitterze
+Twitter__	FollowUser__	zacznij obserwować co {USERNAME:emilyclaiborne} pisze na twitterze
+Twitter__	FollowUser__	zacznij obserwować co {USERNAME:kmore} publikuje na twitterze
+Twitter__	FollowUser__	chcę być na bieżąco z tym co pisze {USERNAME:myntmag} na twitterze
+Twitter__	FollowUser__	chcę być na bieżąco z tym co publikuje {USERNAME:mikieee182} na twitterze
+Twitter__	FollowUser__	zostań followersem {USERNAME:dirtysouth777} na twitterze
+Twitter__	UnfollowUser__	przestań obserować {USERNAME:ohsnapitscatie} na twitterze
+Twitter__	UnfollowUser__	przestań obserować aktywność {USERNAME:chunkyface} na twitterze
+Twitter__	UnfollowUser__	przestań śledzić {USERNAME:jonradical} na twitterze
+Twitter__	UnfollowUser__	przestań śledzić aktywność {USERNAME:renelae} na twitterze
+Twitter__	UnfollowUser__	przestań followować {USERNAME:muertenthesnw} na twitterze
+Twitter__	UnfollowUser__	nie chcę obserwować co {USERNAME:luvmyrandomness} pisze na twitterze
+Twitter__	UnfollowUser__	nie chcę obserwować co {USERNAME:slonka17} publikuje na twitterze
+Twitter__	UnfollowUser__	nie chcę śledzić co {USERNAME:kamil_miklaszew} pisze na twitterze
+Twitter__	UnfollowUser__	nie chcę śledzić co {USERNAME:usiduspl} publikuje na twitterze
+Twitter__	UnfollowUser__	nie chcę wiedzieć co {USERNAME:pawelt_pl} pisze na twitterze
+Twitter__	UnfollowUser__	nie chcę wiedzieć co {USERNAME:piotrus_pan9} publikuje na twitterze
+Twitter__	UnfollowUser__	nie chcę już obserwować co {USERNAME:xsassyxo} pisze na twitterze
+Twitter__	UnfollowUser__	nie chcę już obserwować co {USERNAME:conectum_pl} publikuje na twitterze
+Twitter__	UnfollowUser__	nie chcę już śledzić co {USERNAME:amilee110} pisze na twitterze
+Twitter__	UnfollowUser__	nie chcę już śledzić co {USERNAME:emilyclaiborne} publikuje na twitterze
+Twitter__	UnfollowUser__	nie chcę już wiedzieć co {USERNAME:kmore} pisze na twitterze
+Twitter__	UnfollowUser__	nie chcę już wiedzieć co {USERNAME:myntmag} publikuje na twitterze
+Twitter__	SendMessage__	wyślij na twitterze wiadomość {MESSAGE:rząd stwierdził że przed koronawirusem uchronić nas mogą tylko czyste ręce}
+Twitter__	SendMessage__	wyślij na twitterze wiadomość o treści {MESSAGE:kto wie może przed nami też piękne lata dwudzieste}
+Twitter__	SendMessage__	wyślij na twitterze pw {MESSAGE:wobec bezczelnych kłamstw prezydenta putina i rosyjskiej propagandy potrzebne jest wspólne stanowisko polskich władz i opozycji}
+Twitter__	SendMessage__	wyślij na twitterze pw o treści {MESSAGE:tu nie ma miejsca i czasu na wewnętrzny spór}
+Twitter__	SendMessage__	wyślij na twitterze prywatną wiadomość {MESSAGE:kobiety mają prawo decydować o swoim życiu i zdrowiu}
+Twitter__	SendMessage__	wyślij na twitterze prywatną wiadomość o treści {MESSAGE:dolepić śmierć jolanty brzeskiej do @andrzejduda to juz wyzszy stopień podłości}
+Twitter__	SendMessage__	napisz na twitterze wiadomość {MESSAGE:najwyższy czas żeby skończyć z polską pogardy}
+Twitter__	SendMessage__	napisz na twitterze wiadomość o treści {MESSAGE:istnieje przypuszczenie że rząd wie o przypadku #koronowirus o którym nie informuje opinii publicznej}
+Twitter__	SendMessage__	napisz na twitterze pw {MESSAGE:nadmierny strach przed #koronowirus i śmiercią to efekt rosnącej ateizacji}
+Twitter__	SendMessage__	napisz na twitterze pw o treści {MESSAGE:dawno się nie odzywałem wiadomo życie praca}
+Twitter__	SendMessage__	napisz na twitterze prywatną wiadomość {MESSAGE:dobry artykuł do niedzielnej kawy dający szerszą perspektywę}
+Twitter__	SendMessage__	napisz na twitterze prywatną wiadomość o treści {MESSAGE:a co po zrobilo w czerwcu ? kto mieczem itd}
+Twitter__	SendMessage__	utwórz na twitterze wiadomość {MESSAGE:zapraszajcie ich do polski}
+Twitter__	SendMessage__	utwórz na twitterze wiadomość o treści {MESSAGE:marazmie zmian? coooo?}
+Twitter__	SendMessage__	utwórz na twitterze pw {MESSAGE:szacunkiem}
+Twitter__	SendMessage__	utwórz na twitterze pw o treści {MESSAGE:kto jeszcze czyta lisa kitrysa}
+Twitter__	SendMessage__	utwórz na twitterze prywatną wiadomość {MESSAGE:nic podobnego!}
+Twitter__	SendMessage__	utwórz na twitterze prywatną wiadomość o treści {MESSAGE:ale innym to można grzebać ?}
+Twitter__	SendMessage__	prześlij na twitterze wiadomość {MESSAGE:robią to dla hajsu i fejma zero przyzwoitości}
+Twitter__	SendMessage__	prześlij na twitterze wiadomość o treści {MESSAGE:lista przyszłych osadzonych}
+Twitter__	SendMessage__	prześlij na twitterze pw {MESSAGE:może i mocny ale piskliwy}
+Twitter__	SendMessage__	prześlij na twitterze pw o treści {MESSAGE:kod to ci śmieszni ludzi co ich 50 jest}
+Twitter__	SendMessage__	prześlij na twitterze prywatną wiadomość {MESSAGE:pan z poznania? fakty na który temat?}
+Twitter__	SendMessage__	prześlij na twitterze prywatną wiadomość o treści {MESSAGE:a przeszła ?}
+Twitter__	SendMessage__	wyślij wiadomość na twitterze {MESSAGE:prześwietlic majątki}
+Twitter__	SendMessage__	wyślij wiadomość na twitterze o treści {MESSAGE:i to jest dobra wiadomość}
+Twitter__	SendMessage__	wyślij pw na twitterze {MESSAGE:wlasnie widze ze nowoczesna mnie zablokowała}
+Twitter__	SendMessage__	wyślij pw na twitterze o treści {MESSAGE:r jak rekonwalescent będzie dobrze}
+Twitter__	SendMessage__	wyślij prywatną wiadomość na twitterze {MESSAGE:sorry ricky nie zaglądamy}
+Twitter__	SendMessage__	wyślij prywatną wiadomość na twitterze o treści {MESSAGE:od kogo niezależny?}
+Twitter__	SendMessage__	napisz wiadomość na twitterze {MESSAGE:irena jest nikim i tak powinno pozostać}
+Twitter__	SendMessage__	napisz wiadomość na twitterze o treści {MESSAGE:proszę nie zaniżać}
+Twitter__	SendMessage__	napisz pw na twitterze {MESSAGE:kochani jesteście}
+Twitter__	SendMessage__	napisz pw na twitterze o treści {MESSAGE:ja daje pis rok max 2 lata już raz tak było}
+Twitter__	SendMessage__	napisz prywatną wiadomość na twitterze {MESSAGE:w końcu jest prezydentem wszystkich polaków}
+Twitter__	SendMessage__	napisz prywatną wiadomość na twitterze o treści {MESSAGE:przecież dzisiaj nie jest prima aprilis}
+Twitter__	SendMessage__	utwórz wiadomość na twitterze {MESSAGE:pani nowacka twarz porażki zlewu}
+Twitter__	SendMessage__	utwórz wiadomość na twitterze o treści {MESSAGE:to dobre naprawde}
+Twitter__	SendMessage__	utwórz pw na twitterze {MESSAGE:nawet ciepła}
+Twitter__	SendMessage__	utwórz pw na twitterze o treści {MESSAGE:leonardów}
+Twitter__	SendMessage__	utwórz prywatną wiadomość na twitterze {MESSAGE:kto będzie w sobotę 0901?}
+Twitter__	SendMessage__	utwórz prywatną wiadomość na twitterze o treści {MESSAGE:chętnie wezmę udział kto wpisuje na listę ?}
+Twitter__	SendMessage__	prześlij wiadomość na twitterze {MESSAGE:jak pierwsze wrażenia z lektury?}
+Twitter__	SendMessage__	prześlij wiadomość na twitterze o treści {MESSAGE:my nie zapominamy i nie zapomnimy}
+Twitter__	SendMessage__	prześlij pw na twitterze {MESSAGE:wiem wiem mój tez niektóre formy są ok}
+Twitter__	SendMessage__	prześlij pw na twitterze o treści {MESSAGE:staramy się nie ukrywać}
+Twitter__	SendMessage__	prześlij prywatną wiadomość na twitterze {MESSAGE:obrażamy dzikie kraje!}
+Twitter__	SendMessage__	prześlij prywatną wiadomość na twitterze o treści {MESSAGE:skurwysyństwo}
+Twitter__	SendMessage__	stwórz wiadomość na twitterze {MESSAGE:bardzo dobry wywiad tak trzymać}
+Twitter__	SendMessage__	stwórz wiadomość na twitterze o treści {MESSAGE:niestety kto podał ręke kto na liscie itp}
+Twitter__	SendMessage__	stwórz pw na twitterze {MESSAGE:też dziękujemy}
+Twitter__	SendMessage__	stwórz pw na twitterze o treści {MESSAGE:pan mec też?}
+Twitter__	SendMessage__	stwórz prywatną wiadomość na twitterze {MESSAGE:a gdzie macie biuro w poznaniu ?}
+Twitter__	SendMessage__	stwórz prywatną wiadomość na twitterze o treści {MESSAGE:meysztowicz juz dawno nie w po}
+Twitter__	SendMessage__	ćwierknij wiadomość {MESSAGE:rysio swetru juz chyba donosi do żydow z ue}
+Twitter__	SendMessage__	ćwierknij wiadomość o treści {MESSAGE:pek ta kobieta bredzi}
+Twitter__	SendMessage__	ćwierknij pw {MESSAGE:czas na spacerpolecam}
+Twitter__	SendMessage__	ćwierknij pw o treści {MESSAGE:499% tyle dostaniecie}
+Twitter__	SendMessage__	ćwierknij prywatną wiadomość {MESSAGE:a gazetkabeznapletka zaleca łuczywo}
+Twitter__	SendMessage__	ćwierknij prywatną wiadomość o treści {MESSAGE:jej rozum odebralo czy go nigdy nie miala ?}
+Twitter__	SendMessageToUser__	na twitterze do {USERNAME:mikieee182} o treści {MESSAGE:wystarczyła jedna plansza i wszystko jasne}
+Twitter__	SendMessageToUser__	na twitterze wiadomość do {USERNAME:dirtysouth777} o treści {MESSAGE:pozdrowienia dla was}
+Twitter__	SendMessageToUser__	na twitterze pw do {USERNAME:ohsnapitscatie} o treści {MESSAGE:raczej druga syrie}
+Twitter__	SendMessageToUser__	na twitterze prywatną wiadomość do {USERNAME:chunkyface} o treści {MESSAGE:oglądamy spektakl w domowym zaciszu}
+Twitter__	SendMessageToUser__	na twitterze wyślij do {USERNAME:jonradical} o treści {MESSAGE:ale tyłydo wzięcia}
+Twitter__	SendMessageToUser__	na twitterze wyślij wiadomość do {USERNAME:renelae} o treści {MESSAGE:donosiciele dziś w tv}
+Twitter__	SendMessageToUser__	na twitterze wyślij pw do {USERNAME:muertenthesnw} o treści {MESSAGE:a co ? mieliście je złajdaczyć jak ofe ?}
+Twitter__	SendMessageToUser__	na twitterze wyślij prywatną wiadomość do {USERNAME:luvmyrandomness} o treści {MESSAGE:nie ma mnie na fb więc nie ma mnie w ogóle!}
+Twitter__	SendMessageToUser__	na twitterze napisz do {USERNAME:slonka17} o treści {MESSAGE:kod wron z pron jaruzela do sprzątania ulic}
+Twitter__	SendMessageToUser__	na twitterze napisz wiadomość do {USERNAME:kamil_miklaszew} o treści {MESSAGE:a wytłumaczył chociaż skąd to przeciw ?}
+Twitter__	SendMessageToUser__	na twitterze napisz pw do {USERNAME:usiduspl} o treści {MESSAGE:zaorany przed świętami}
+Twitter__	SendMessageToUser__	na twitterze napisz prywatną wiadomość do {USERNAME:pawelt_pl} o treści {MESSAGE:a feministki ? też niech zabiorą ze sobą}
+Twitter__	SendMessageToUser__	na twitterze utwórz do {USERNAME:piotrus_pan9} o treści {MESSAGE:zagrożenia terrorystycznego a nie anty}
+Twitter__	SendMessageToUser__	na twitterze utwórz wiadomość do {USERNAME:xsassyxo} o treści {MESSAGE:było poprawnie i merytorycznie ale bez pazura}
+Twitter__	SendMessageToUser__	na twitterze utwórz pw do {USERNAME:conectum_pl} o treści {MESSAGE:ale polska nie kocha was coraz mocniej}
+Twitter__	SendMessageToUser__	na twitterze utwórz prywatną wiadomość do {USERNAME:amilee110} o treści {MESSAGE:mam wrażenie że n to dwie osoby}
+Twitter__	SendMessageToUser__	na twitterze prześlij do {USERNAME:emilyclaiborne} o treści {MESSAGE:do tego zmierzamy milowymi krokami}
+Twitter__	SendMessageToUser__	na twitterze prześlij wiadomość do {USERNAME:kmore} o treści {MESSAGE:i tak jest więcej ludzi niż przy pek}
+Twitter__	SendMessageToUser__	na twitterze prześlij pw do {USERNAME:myntmag} o treści {MESSAGE:hehe bzdura byłby taki sam jak pierwszy}
+Twitter__	SendMessageToUser__	na twitterze prześlij prywatną wiadomość do {USERNAME:mikieee182} o treści {MESSAGE:tysiąc pińćset}
+Twitter__	SendMessageToUser__	na twitterze stwórz do {USERNAME:dirtysouth777} o treści {MESSAGE:wiecej grzechow nie pamietam}
+Twitter__	SendMessageToUser__	na twitterze stwórz wiadomość do {USERNAME:ohsnapitscatie} o treści {MESSAGE:trzeba to przypominać}
+Twitter__	SendMessageToUser__	na twitterze stwórz pw do {USERNAME:chunkyface} o treści {MESSAGE:jestem tego samego zdania}
+Twitter__	SendMessageToUser__	na twitterze stwórz prywatną wiadomość do {USERNAME:jonradical} o treści {MESSAGE:czyli oddaje swoje na nowoczesna dziękujemy}
+Twitter__	SendMessageToUser__	na twitterze wiadomość {MESSAGE:katoprawice se odsun od koryta} do {USERNAME:renelae}
+Twitter__	SendMessageToUser__	na twitterze pw {MESSAGE:dziękujęobyjego wybrali wyborcypozdrawiam} do {USERNAME:muertenthesnw}
+Twitter__	SendMessageToUser__	na twitterze prywatną wiadomość {MESSAGE:500 zł tyle ile pis za dziecko} do {USERNAME:luvmyrandomness}
+Twitter__	SendMessageToUser__	na twitterze wyślij wiadomość {MESSAGE:w parku skaryszewskim} do {USERNAME:slonka17}
+Twitter__	SendMessageToUser__	na twitterze wyślij pw {MESSAGE:kretyn budka też} do {USERNAME:kamil_miklaszew}
+Twitter__	SendMessageToUser__	na twitterze wyślij prywatną wiadomość {MESSAGE:skad wezma kase pisuary ?} do {USERNAME:usiduspl}
+Twitter__	SendMessageToUser__	na twitterze napisz wiadomość {MESSAGE:myśłi że ak to africa korps} do {USERNAME:pawelt_pl}
+Twitter__	SendMessageToUser__	na twitterze napisz pw {MESSAGE:łomatko ona nie musi mówić} do {USERNAME:piotrus_pan9}
+Twitter__	SendMessageToUser__	na twitterze napisz prywatną wiadomość {MESSAGE:nieładnie usuwać zdjecia z insta} do {USERNAME:xsassyxo}
+Twitter__	SendMessageToUser__	na twitterze utwórz wiadomość {MESSAGE:hahaha nastawiam ten hmmm bottom ?} do {USERNAME:conectum_pl}
+Twitter__	SendMessageToUser__	na twitterze utwórz pw {MESSAGE:hadacz i sztab wyborczy bk ofiarami nagrań} do {USERNAME:amilee110}
+Twitter__	SendMessageToUser__	na twitterze utwórz prywatną wiadomość {MESSAGE:tą manipulacją ?} do {USERNAME:emilyclaiborne}
+Twitter__	SendMessageToUser__	na twitterze prześlij wiadomość {MESSAGE:człowieku myśl} do {USERNAME:kmore}
+Twitter__	SendMessageToUser__	na twitterze prześlij pw {MESSAGE:ochotnicze rezerwy platfotmy obywatelskiej} do {USERNAME:myntmag}
+Twitter__	SendMessageToUser__	na twitterze prześlij prywatną wiadomość {MESSAGE:dlatego zachęcamy by głosować na n} do {USERNAME:mikieee182}
+Twitter__	SendMessageToUser__	na twitterze stwórz wiadomość {MESSAGE:nie gram w gry mobilne} do {USERNAME:dirtysouth777}
+Twitter__	SendMessageToUser__	na twitterze stwórz pw {MESSAGE:pomylies mnie ćwoku ze swoim tatusiem} do {USERNAME:ohsnapitscatie}
+Twitter__	SendMessageToUser__	na twitterze stwórz prywatną wiadomość {MESSAGE:podzielam taki pogląd} do {USERNAME:chunkyface}
+Twitter__	SendMessageToUser__	{MESSAGE:takie przekazy kształtują dalsze sondaże} do {USERNAME:jonradical} na twitterze
+Twitter__	SendMessageToUser__	wyślij {MESSAGE:poki zyja i sa latwo dostepni} do {USERNAME:renelae} na twitterze
+Twitter__	SendMessageToUser__	napisz {MESSAGE:uściskali kiszczaka ?} do {USERNAME:muertenthesnw} na twitterze
+Twitter__	SendMessageToUser__	ćwierknij do {USERNAME:luvmyrandomness} o treści {MESSAGE:dał radę}
+Twitter__	SendMessageToUser__	ćwierknij wiadomość do {USERNAME:slonka17} o treści {MESSAGE:boże uchroń}
+Twitter__	SendMessageToUser__	ćwierknij pw do {USERNAME:kamil_miklaszew} o treści {MESSAGE:to fejk}
+Twitter__	SendMessageToUser__	ćwierknij prywatną wiadomość do {USERNAME:usiduspl} o treści {MESSAGE:a alimenty zapłacili ?}
+Twitter__	SendMessageToUser__	ćwierknij {MESSAGE:jak szmalcownicy robią interesy na imigrantach} do {USERNAME:pawelt_pl}
+Twitter__	ShowTwittsWithHashtag__	twitty z hashtagiem {HASHTAG:prawdziwaprezydent}
+Twitter__	ShowTwittsWithHashtag__	twitty o hashtagu {HASHTAG:kosiniak2020}
+Twitter__	ShowTwittsWithHashtag__	znajdź twitty z hashtagiem {HASHTAG:fitmarzec}
+Twitter__	ShowTwittsWithHashtag__	znajdź twitty o hashtagu {HASHTAG:1marca}
+Twitter__	ShowTwittsWithHashtag__	znajdź mi twitty z hashtagiem {HASHTAG:salsa4change}
+Twitter__	ShowTwittsWithHashtag__	znajdź mi twitty o hashtagu {HASHTAG:weather}
+Twitter__	ShowTwittsWithHashtag__	odnajdź twitty z hashtagiem {HASHTAG:pentax}
+Twitter__	ShowTwittsWithHashtag__	odnajdź twitty o hashtagu {HASHTAG:koronawirus}
+Twitter__	ShowTwittsWithHashtag__	odnajdź mi twitty z hashtagiem {HASHTAG:airchina}
+Twitter__	ShowTwittsWithHashtag__	odnajdź mi twitty o hashtagu {HASHTAG:rządpis}
+Twitter__	ShowTwittsWithHashtag__	wyszukaj twitty z hashtagiem {HASHTAG:tvp}
+Twitter__	ShowTwittsWithHashtag__	wyszukaj twitty o hashtagu {HASHTAG:duda}
+Twitter__	ShowTwittsWithHashtag__	wyszukaj mi twitty z hashtagiem {HASHTAG:prawdziwaprezydent}
+Twitter__	ShowTwittsWithHashtag__	wyszukaj mi twitty o hashtagu {HASHTAG:kosiniak2020}
+Twitter__	ShowTwittsWithHashtag__	pokaż twitty z hashtagiem {HASHTAG:fitmarzec}
+Twitter__	ShowTwittsWithHashtag__	pokaż twitty o hashtagu {HASHTAG:1marca}
+Twitter__	ShowTwittsWithHashtag__	pokaż mi twitty z hashtagiem {HASHTAG:salsa4change}
+Twitter__	ShowTwittsWithHashtag__	pokaż mi twitty o hashtagu {HASHTAG:weather}
+Twitter__	ShowTwittsWithHashtag__	wyświetl twitty z hashtagiem {HASHTAG:pentax}
+Twitter__	ShowTwittsWithHashtag__	wyświetl twitty o hashtagu {HASHTAG:koronawirus}
+Twitter__	ShowTwittsWithHashtag__	wyświetl mi twitty z hashtagiem {HASHTAG:airchina}
+Twitter__	ShowTwittsWithHashtag__	wyświetl mi twitty o hashtagu {HASHTAG:rządpis}

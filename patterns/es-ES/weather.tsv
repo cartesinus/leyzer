@@ -1,54 +1,53 @@
-domain	intent	parallel	pattern
-Weather	OpenWeather	-	el tiempo
-Weather	OpenWeather	-	el tiempo fuera
-Weather	OpenWeather	-	cómo está el tiempo
-Weather	OpenWeather	-	cómo está el tiempo fuera
-Weather	WeatherTomorrow	-	el tiempo mañana
-Weather	WeatherTomorrow	-	cómo estará el tiempo mañana
-Weather	WeatherTomorrow	-	el tiempo mañana
-Weather	WeatherInLocation	-	tiempo en WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	-	tiempo actual en WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	-	el tiempo en WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	-	el tiempo actual en WEATHER.SLOT.LOCATION
-Weather	WeatherInLocation	-	cómo está el tiempo en WEATHER.SLOT.LOCATION
-Weather	WeatherTomorrowInLocation	-	tiempo en WEATHER.SLOT.LOCATION para mañana
-Weather	WeatherTomorrowInLocation	-	tiempo actual en WEATHER.SLOT.LOCATION para mañana
-Weather	WeatherTomorrowInLocation	-	el tiempo en WEATHER.SLOT.LOCATION para mañana
-Weather	WeatherTomorrowInLocation	-	el tiempo actual en WEATHER.SLOT.LOCATION para mañana
-Weather	WeatherTomorrowInLocation	-	cómo está el tiempo en WEATHER.SLOT.LOCATION para mañana
-Weather	SunriseInLocation	-	amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	-	tiempo del amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	-	el amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	-	el tiempo del amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	-	cuándo es amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	-	cuándo es tiempo del amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	-	cuándo es el amanecer en WEATHER.SLOT.LOCATION
-Weather	SunriseInLocation	-	cuándo es el tiempo del amanecer en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	la puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	el tiempo de puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	el tiempo de la puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	cuándo es puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	cuándo es la puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	cuándo es el tiempo de puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunsetInLocation	-	cuándo es el tiempo de la puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	amanecer y puesta del sol para la ubicación WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	amanecer y puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	amanecer y la puesta del sol para la ubicación WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	amanecer y la puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	el amanecer y puesta del sol para la ubicación WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	el amanecer y puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	el amanecer y la puesta del sol para la ubicación WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocation	-	el amanecer y la puesta del sol en WEATHER.SLOT.LOCATION
-Weather	SunriseAndSunsetInLocationAndOnDate	-	amanecer y puesta del sol para la ubicación WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	amanecer y puesta del sol en WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	amanecer y la puesta del sol para la ubicación WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	amanecer y la puesta del sol en WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	el amanecer y puesta del sol para la ubicación WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	el amanecer y puesta del sol en WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	el amanecer y la puesta del sol para la ubicación WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	SunriseAndSunsetInLocationAndOnDate	-	el amanecer y la puesta del sol en WEATHER.SLOT.LOCATION para la fecha WEATHER.SLOT.DATE
-Weather	MoonphaseInLocation	-	fase de la luna para WEATHER.SLOT.LOCATION
-Weather	MoonphaseInLocation	-	fase de la luna para la ubicación WEATHER.SLOT.LOCATION
-Weather	MoonphaseInLocationOnDate	-	fase de la luna para WEATHER.SLOT.LOCATION el WEATHER.SLOT.DATE
-Weather	MoonphaseInLocationOnDate	-	fase de la luna para la ubicación WEATHER.SLOT.LOCATION el WEATHER.SLOT.DATE
+Weather__	OpenWeather__	el tiempo
+Weather__	OpenWeather__	el tiempo fuera
+Weather__	OpenWeather__	cómo está el tiempo
+Weather__	OpenWeather__	cómo está el tiempo fuera
+Weather__	WeatherTomorrow__	el tiempo mañana
+Weather__	WeatherTomorrow__	cómo estará el tiempo mañana
+Weather__	WeatherTomorrow__	el tiempo mañana
+Weather__	WeatherInLocation__	tiempo en {LOCATION:berlín}
+Weather__	WeatherInLocation__	tiempo actual en {LOCATION:parís}
+Weather__	WeatherInLocation__	el tiempo en {LOCATION:tokyo}
+Weather__	WeatherInLocation__	el tiempo actual en {LOCATION:villoruebo}
+Weather__	WeatherInLocation__	cómo está el tiempo en {LOCATION:férez}
+Weather__	WeatherTomorrowInLocation__	tiempo en {LOCATION:isábena} para mañana
+Weather__	WeatherTomorrowInLocation__	tiempo actual en {LOCATION:vallés} para mañana
+Weather__	WeatherTomorrowInLocation__	el tiempo en {LOCATION:fombellida} para mañana
+Weather__	WeatherTomorrowInLocation__	el tiempo actual en {LOCATION:valderredible} para mañana
+Weather__	WeatherTomorrowInLocation__	cómo está el tiempo en {LOCATION:samaniego} para mañana
+Weather__	SunriseInLocation__	amanecer en {LOCATION:riópar}
+Weather__	SunriseInLocation__	tiempo del amanecer en {LOCATION:fuentecén}
+Weather__	SunriseInLocation__	el amanecer en {LOCATION:palafolls}
+Weather__	SunriseInLocation__	el tiempo del amanecer en {LOCATION:cazorla}
+Weather__	SunriseInLocation__	cuándo es amanecer en {LOCATION:alfafar}
+Weather__	SunriseInLocation__	cuándo es tiempo del amanecer en {LOCATION:rialp}
+Weather__	SunriseInLocation__	cuándo es el amanecer en {LOCATION:torrebaja}
+Weather__	SunriseInLocation__	cuándo es el tiempo del amanecer en {LOCATION:biscarrués}
+Weather__	SunsetInLocation__	puesta del sol en {LOCATION:manacor}
+Weather__	SunsetInLocation__	la puesta del sol en {LOCATION:yésero}
+Weather__	SunsetInLocation__	el tiempo de puesta del sol en {LOCATION:benalauría}
+Weather__	SunsetInLocation__	el tiempo de la puesta del sol en {LOCATION:fombuena}
+Weather__	SunsetInLocation__	cuándo es puesta del sol en {LOCATION:almazán}
+Weather__	SunsetInLocation__	cuándo es la puesta del sol en {LOCATION:alcalalí}
+Weather__	SunsetInLocation__	cuándo es el tiempo de puesta del sol en {LOCATION:marín}
+Weather__	SunsetInLocation__	cuándo es el tiempo de la puesta del sol en {LOCATION:maranchón}
+Weather__	SunriseAndSunsetInLocation__	amanecer y puesta del sol para la ubicación {LOCATION:siruela}
+Weather__	SunriseAndSunsetInLocation__	amanecer y puesta del sol en {LOCATION:báguena}
+Weather__	SunriseAndSunsetInLocation__	amanecer y la puesta del sol para la ubicación {LOCATION:riudecols}
+Weather__	SunriseAndSunsetInLocation__	amanecer y la puesta del sol en {LOCATION:husillos}
+Weather__	SunriseAndSunsetInLocation__	el amanecer y puesta del sol para la ubicación {LOCATION:piloña}
+Weather__	SunriseAndSunsetInLocation__	el amanecer y puesta del sol en {LOCATION:acebo}
+Weather__	SunriseAndSunsetInLocation__	el amanecer y la puesta del sol para la ubicación {LOCATION:boada}
+Weather__	SunriseAndSunsetInLocation__	el amanecer y la puesta del sol en {LOCATION:barbadás}
+Weather__	SunriseAndSunsetInLocationAndOnDate__	amanecer y puesta del sol para la ubicación {LOCATION:torrellas} para la fecha {DATE:30 de enero}
+Weather__	SunriseAndSunsetInLocationAndOnDate__	amanecer y puesta del sol en {LOCATION:calatayud} para la fecha {DATE:15 de junio}
+Weather__	SunriseAndSunsetInLocationAndOnDate__	amanecer y la puesta del sol para la ubicación {LOCATION:almenara} para la fecha {DATE:7 de septiembre}
+Weather__	SunriseAndSunsetInLocationAndOnDate__	amanecer y la puesta del sol en {LOCATION:alfacar} para la fecha {DATE:30 de enero}
+Weather__	SunriseAndSunsetInLocationAndOnDate__	el amanecer y puesta del sol para la ubicación {LOCATION:sanchidrián} para la fecha {DATE:15 de junio}
+Weather__	SunriseAndSunsetInLocationAndOnDate__	el amanecer y puesta del sol en {LOCATION:legarda} para la fecha {DATE:7 de septiembre}
+Weather__	SunriseAndSunsetInLocationAndOnDate__	el amanecer y la puesta del sol para la ubicación {LOCATION:villambistia} para la fecha {DATE:30 de enero}
+Weather__	SunriseAndSunsetInLocationAndOnDate__	el amanecer y la puesta del sol en {LOCATION:pol} para la fecha {DATE:15 de junio}
+Weather__	MoonphaseInLocation__	fase de la luna para {LOCATION:almargen}
+Weather__	MoonphaseInLocation__	fase de la luna para la ubicación {LOCATION:berastegi}
+Weather__	MoonphaseInLocationOnDate__	fase de la luna para {LOCATION:alcanadre} el {DATE:7 de septiembre}
+Weather__	MoonphaseInLocationOnDate__	fase de la luna para la ubicación {LOCATION:campotéjar} el {DATE:30 de enero}

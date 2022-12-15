@@ -1,171 +1,170 @@
-domain	intent	parallel	pattern
-Slack	OpenSlack	-	open slack
-Slack	OpenSlack	-	open the slack app
-Slack	OpenSlack	-	launch slack
-Slack	OpenSlack	-	launch the slack app
-Slack	OpenSlack	-	run slack
-Slack	OpenSlack	-	run the slack app
-Slack	CheckLastMessages	-	check slack messages
-Slack	CheckLastMessages	-	check last slack messages
-Slack	CheckLastMessages	-	check latest slack messages
-Slack	CheckLastMessages	-	get slack messages
-Slack	CheckLastMessages	-	get last slack messages
-Slack	CheckLastMessages	-	get latest slack messages
-Slack	CheckLastMessages	-	find my slack messages
-Slack	CheckLastMessages	-	find my last slack messages
-Slack	CheckLastMessages	-	find my latest slack messages
-Slack	CheckLastMessages	-	find the slack messages
-Slack	CheckLastMessages	-	find the last slack messages
-Slack	CheckLastMessages	-	find the latest slack messages
-Slack	CheckLastMessages	-	search for my slack messages
-Slack	CheckLastMessages	-	search for my last slack messages
-Slack	CheckLastMessages	-	search for my latest slack messages
-Slack	CheckLastMessages	-	search for the slack messages
-Slack	CheckLastMessages	-	search for the last slack messages
-Slack	CheckLastMessages	-	search for the latest slack messages
-Slack	CheckLastMessages	-	my last messages on slack
-Slack	CheckLastMessages	-	my latest messages on slack
-Slack	CheckUserStatus	-	check the presence of SLACK.SLOT.USERNAME on slack
-Slack	CheckUserStatus	-	check whether SLACK.SLOT.USERNAME is active on slack
-Slack	CheckUserStatus	-	check whether SLACK.SLOT.USERNAME is away on slack
-Slack	CheckUserStatus	-	check whether SLACK.SLOT.USERNAME is inactive on slack
-Slack	CheckUserStatus	-	status of SLACK.SLOT.USERNAME
-Slack	CheckUserStatus	-	what is the status of SLACK.SLOT.USERNAME
-Slack	CheckUserStatus	-	SLACK.SLOT.USERNAME status on slack
-Slack	CheckMessagesFromUser	-	check recent messages from SLACK.SLOT.SENDER in slack
-Slack	CheckMessagesFromUser	-	check messages i received on slack from SLACK.SLOT.SENDER
-Slack	CheckMessagesFromUser	-	get recent messages from SLACK.SLOT.SENDER in slack
-Slack	CheckMessagesFromUser	-	get messages i received on slack from SLACK.SLOT.SENDER
-Slack	CheckMessagesFromUser	-	find my recent messages from SLACK.SLOT.SENDER in slack
-Slack	CheckMessagesFromUser	-	find my messages i received on slack from SLACK.SLOT.SENDER
-Slack	CheckMessagesFromUser	-	find the recent messages from SLACK.SLOT.SENDER in slack
-Slack	CheckMessagesFromUser	-	find the messages i received on slack from SLACK.SLOT.SENDER
-Slack	CheckMessagesFromUser	-	search for my recent messages from SLACK.SLOT.SENDER in slack
-Slack	CheckMessagesFromUser	-	search for my messages i received on slack from SLACK.SLOT.SENDER
-Slack	CheckMessagesFromUser	-	search for the recent messages from SLACK.SLOT.SENDER in slack
-Slack	CheckMessagesFromUser	-	search for the messages i received on slack from SLACK.SLOT.SENDER
-Slack	CheckMessagesInChannel	-	check recent slack messages in SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	check messages i received on slack in SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	check slack messages in SLACK.SLOT.CHANNEL i received in the last hour
-Slack	CheckMessagesInChannel	-	get recent slack messages in SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	get messages i received on slack in SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	get slack messages in SLACK.SLOT.CHANNEL i received in the last hour
-Slack	CheckMessagesInChannel	-	find my recent slack messages in SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	find my messages i received on slack in SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	find my slack messages in SLACK.SLOT.CHANNEL i received in the last hour
-Slack	CheckMessagesInChannel	-	find the recent slack messages in SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	find the messages i received on slack in SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	find the slack messages in SLACK.SLOT.CHANNEL i received in the last hour
-Slack	CheckMessagesInChannel	-	search for my recent slack messages in SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	search for my messages i received on slack in SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	search for my slack messages in SLACK.SLOT.CHANNEL i received in the last hour
-Slack	CheckMessagesInChannel	-	search for the recent slack messages in SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	search for the messages i received on slack in SLACK.SLOT.CHANNEL
-Slack	CheckMessagesInChannel	-	search for the slack messages in SLACK.SLOT.CHANNEL i received in the last hour
-Slack	SendMessageToChannel	-	post SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
-Slack	SendMessageToChannel	-	send SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
-Slack	SendMessageToChannel	-	upload SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
-Slack	SendMessageToChannel	-	post a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	send a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	upload a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	message SLACK.SLOT.CHANNEL on slack saying SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	let slack channel SLACK.SLOT.CHANNEL know that SLACK.SLOT.MESSAGE
-Slack	SendMessageToChannel	-	let SLACK.SLOT.CHANNEL slack channel know that SLACK.SLOT.MESSAGE
-Slack	SetPurposeOnChannel	-	set purpose for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	set purpose for SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	set purpose for slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	set purpose for SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	set purpose of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	set purpose of SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	set purpose of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	set purpose of SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	set the purpose for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	set the purpose for SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	set the purpose for slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	set the purpose for SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	set the purpose of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	set the purpose of SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	set the purpose of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	set the purpose of SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	change purpose for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	change purpose for SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	change purpose for slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	change purpose for SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	change purpose of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	change purpose of SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	change purpose of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	change purpose of SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	change the purpose for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	change the purpose for SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	change the purpose for slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	change the purpose for SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	change the purpose of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	change the purpose of SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
-Slack	SetPurposeOnChannel	-	change the purpose of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	change the purpose of SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	on slack change channel purpose of SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	on slack change channel purpose of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	on slack set channel purpose of SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-Slack	SetPurposeOnChannel	-	on slack set channel purpose of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
-Slack	SetTopicInChannel	-	set the topic for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC on slack
-Slack	SetTopicInChannel	-	set the topic for SLACK.SLOT.CHANNEL channel to SLACK.SLOT.TOPIC on slack
-Slack	SetTopicInChannel	-	set the topic of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
-Slack	SetTopicInChannel	-	set the topic of SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.TOPIC
-Slack	SetTopicInChannel	-	on slack change channel topic of SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
-Slack	SetTopicInChannel	-	on slack change channel topic of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
-Slack	SetTopicInChannel	-	on slack set channel topic of SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
-Slack	SetTopicInChannel	-	on slack set channel topic of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
-Slack	SetStatusAway	-	set me as away on slack
-Slack	SetStatusAway	-	set me as not away on slack
-Slack	SetStatusAway	-	set me as inactive on slack
-Slack	SetStatusAway	-	mark me as away on slack
-Slack	SetStatusAway	-	mark me as not away on slack
-Slack	SetStatusAway	-	mark me as inactive on slack
-Slack	SetStatusAway	-	change status on slack to inactive
-Slack	SetStatusAway	-	change status on slack to away
-Slack	SetStatusAway	-	change status on slack to active
-Slack	SetStatusAway	-	change my status on slack to inactive
-Slack	SetStatusAway	-	change my status on slack to away
-Slack	SetStatusAway	-	change my status on slack to active
-Slack	SendMessage	-	post on slack
-Slack	SendMessage	-	post a message on slack
-Slack	SendMessage	-	send on slack
-Slack	SendMessage	-	send a message on slack
-Slack	SendMessage	-	upload on slack
-Slack	SendMessage	-	upload a message on slack
-Slack	SendMessage	-	write message on slack
-Slack	SendMessage	-	write a message on slack
-Slack	SendMessage	-	write messages on slack
-Slack	SendMessage	-	create message on slack
-Slack	SendMessage	-	create a message on slack
-Slack	SendMessage	-	create messages on slack
-Slack	SendMessage	-	compose message on slack
-Slack	SendMessage	-	compose a message on slack
-Slack	SendMessage	-	compose messages on slack
-Slack	SendPictureToChannel	-	post a picture on slack to SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	send a picture on slack to SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	upload a picture on slack to SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	upload a picture to slack channel SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	upload a picture to SLACK.SLOT.CHANNEL slack channel
-Slack	SendPictureToChannel	-	send something to slack channel SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	send something to SLACK.SLOT.CHANNEL slack channel
-Slack	SendPictureToChannel	-	post on slack to SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	post on slack channel SLACK.SLOT.CHANNEL
-Slack	SendPictureToChannel	-	post on SLACK.SLOT.CHANNEL slack channel
-Slack	SendPictureToChannelWithCaption	-	post a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	post a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	send a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	send a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	upload a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
-Slack	SendPictureToChannelWithCaption	-	upload a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
-Slack	SendPictureWithUrlToChannel	-	post SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
-Slack	SendPictureWithUrlToChannel	-	send SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
-Slack	SendPictureWithUrlToChannel	-	upload SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
-Slack	SendPictureWithUrlToChannel	-	post SLACK.SLOT.PICTURE_URL to slack channel SLACK.SLOT.CHANNEL
-Slack	SendPictureWithUrlToChannel	-	post SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL slack channel
-Slack	CheckChannelHistory	-	check slack channel history
-Slack	CheckChannelHistory	-	get slack channel history
-Slack	CheckChannelHistory	-	find my slack channel history
-Slack	CheckChannelHistory	-	find the slack channel history
-Slack	CheckChannelHistory	-	search for my slack channel history
-Slack	CheckChannelHistory	-	search for the slack channel history
+Slack__	OpenSlack__	open slack
+Slack__	OpenSlack__	open the slack app
+Slack__	OpenSlack__	launch slack
+Slack__	OpenSlack__	launch the slack app
+Slack__	OpenSlack__	run slack
+Slack__	OpenSlack__	run the slack app
+Slack__	CheckLastMessages__	check slack messages
+Slack__	CheckLastMessages__	check last slack messages
+Slack__	CheckLastMessages__	check latest slack messages
+Slack__	CheckLastMessages__	get slack messages
+Slack__	CheckLastMessages__	get last slack messages
+Slack__	CheckLastMessages__	get latest slack messages
+Slack__	CheckLastMessages__	find my slack messages
+Slack__	CheckLastMessages__	find my last slack messages
+Slack__	CheckLastMessages__	find my latest slack messages
+Slack__	CheckLastMessages__	find the slack messages
+Slack__	CheckLastMessages__	find the last slack messages
+Slack__	CheckLastMessages__	find the latest slack messages
+Slack__	CheckLastMessages__	search for my slack messages
+Slack__	CheckLastMessages__	search for my last slack messages
+Slack__	CheckLastMessages__	search for my latest slack messages
+Slack__	CheckLastMessages__	search for the slack messages
+Slack__	CheckLastMessages__	search for the last slack messages
+Slack__	CheckLastMessages__	search for the latest slack messages
+Slack__	CheckLastMessages__	my last messages on slack
+Slack__	CheckLastMessages__	my latest messages on slack
+Slack__	CheckUserStatus__	check the presence of SLACK.SLOT.USERNAME on slack
+Slack__	CheckUserStatus__	check whether SLACK.SLOT.USERNAME is active on slack
+Slack__	CheckUserStatus__	check whether SLACK.SLOT.USERNAME is away on slack
+Slack__	CheckUserStatus__	check whether SLACK.SLOT.USERNAME is inactive on slack
+Slack__	CheckUserStatus__	status of SLACK.SLOT.USERNAME
+Slack__	CheckUserStatus__	what is the status of SLACK.SLOT.USERNAME
+Slack__	CheckUserStatus__	SLACK.SLOT.USERNAME status on slack
+Slack__	CheckMessagesFromUser__	check recent messages from SLACK.SLOT.SENDER in slack
+Slack__	CheckMessagesFromUser__	check messages i received on slack from SLACK.SLOT.SENDER
+Slack__	CheckMessagesFromUser__	get recent messages from SLACK.SLOT.SENDER in slack
+Slack__	CheckMessagesFromUser__	get messages i received on slack from SLACK.SLOT.SENDER
+Slack__	CheckMessagesFromUser__	find my recent messages from SLACK.SLOT.SENDER in slack
+Slack__	CheckMessagesFromUser__	find my messages i received on slack from SLACK.SLOT.SENDER
+Slack__	CheckMessagesFromUser__	find the recent messages from SLACK.SLOT.SENDER in slack
+Slack__	CheckMessagesFromUser__	find the messages i received on slack from SLACK.SLOT.SENDER
+Slack__	CheckMessagesFromUser__	search for my recent messages from SLACK.SLOT.SENDER in slack
+Slack__	CheckMessagesFromUser__	search for my messages i received on slack from SLACK.SLOT.SENDER
+Slack__	CheckMessagesFromUser__	search for the recent messages from SLACK.SLOT.SENDER in slack
+Slack__	CheckMessagesFromUser__	search for the messages i received on slack from SLACK.SLOT.SENDER
+Slack__	CheckMessagesInChannel__	check recent slack messages in SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	check messages i received on slack in SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	check slack messages in SLACK.SLOT.CHANNEL i received in the last hour
+Slack__	CheckMessagesInChannel__	get recent slack messages in SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	get messages i received on slack in SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	get slack messages in SLACK.SLOT.CHANNEL i received in the last hour
+Slack__	CheckMessagesInChannel__	find my recent slack messages in SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	find my messages i received on slack in SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	find my slack messages in SLACK.SLOT.CHANNEL i received in the last hour
+Slack__	CheckMessagesInChannel__	find the recent slack messages in SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	find the messages i received on slack in SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	find the slack messages in SLACK.SLOT.CHANNEL i received in the last hour
+Slack__	CheckMessagesInChannel__	search for my recent slack messages in SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	search for my messages i received on slack in SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	search for my slack messages in SLACK.SLOT.CHANNEL i received in the last hour
+Slack__	CheckMessagesInChannel__	search for the recent slack messages in SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	search for the messages i received on slack in SLACK.SLOT.CHANNEL
+Slack__	CheckMessagesInChannel__	search for the slack messages in SLACK.SLOT.CHANNEL i received in the last hour
+Slack__	SendMessageToChannel__	post SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
+Slack__	SendMessageToChannel__	send SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
+Slack__	SendMessageToChannel__	upload SLACK.SLOT.MESSAGE to SLACK.SLOT.CHANNEL on slack
+Slack__	SendMessageToChannel__	post a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	send a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	upload a message on slack to SLACK.SLOT.CHANNEL saying SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	message SLACK.SLOT.CHANNEL on slack saying SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	let slack channel SLACK.SLOT.CHANNEL know that SLACK.SLOT.MESSAGE
+Slack__	SendMessageToChannel__	let SLACK.SLOT.CHANNEL slack channel know that SLACK.SLOT.MESSAGE
+Slack__	SetPurposeOnChannel__	set purpose for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	set purpose for SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	set purpose for slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	set purpose for SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	set purpose of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	set purpose of SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	set purpose of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	set purpose of SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	set the purpose for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	set the purpose for SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	set the purpose for slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	set the purpose for SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	set the purpose of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	set the purpose of SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	set the purpose of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	set the purpose of SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	change purpose for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	change purpose for SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	change purpose for slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	change purpose for SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	change purpose of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	change purpose of SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	change purpose of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	change purpose of SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	change the purpose for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	change the purpose for SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	change the purpose for slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	change the purpose for SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	change the purpose of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	change the purpose of SLACK.SLOT.CHANNEL channel to SLACK.SLOT.PURPOSE on slack
+Slack__	SetPurposeOnChannel__	change the purpose of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	change the purpose of SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	on slack change channel purpose of SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	on slack change channel purpose of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	on slack set channel purpose of SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__	SetPurposeOnChannel__	on slack set channel purpose of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.PURPOSE
+Slack__	SetTopicInChannel__	set the topic for channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC on slack
+Slack__	SetTopicInChannel__	set the topic for SLACK.SLOT.CHANNEL channel to SLACK.SLOT.TOPIC on slack
+Slack__	SetTopicInChannel__	set the topic of slack channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
+Slack__	SetTopicInChannel__	set the topic of SLACK.SLOT.CHANNEL slack channel to SLACK.SLOT.TOPIC
+Slack__	SetTopicInChannel__	on slack change channel topic of SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
+Slack__	SetTopicInChannel__	on slack change channel topic of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
+Slack__	SetTopicInChannel__	on slack set channel topic of SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
+Slack__	SetTopicInChannel__	on slack set channel topic of channel SLACK.SLOT.CHANNEL to SLACK.SLOT.TOPIC
+Slack__	SetStatusAway__	set me as away on slack
+Slack__	SetStatusAway__	set me as not away on slack
+Slack__	SetStatusAway__	set me as inactive on slack
+Slack__	SetStatusAway__	mark me as away on slack
+Slack__	SetStatusAway__	mark me as not away on slack
+Slack__	SetStatusAway__	mark me as inactive on slack
+Slack__	SetStatusAway__	change status on slack to inactive
+Slack__	SetStatusAway__	change status on slack to away
+Slack__	SetStatusAway__	change status on slack to active
+Slack__	SetStatusAway__	change my status on slack to inactive
+Slack__	SetStatusAway__	change my status on slack to away
+Slack__	SetStatusAway__	change my status on slack to active
+Slack__	SendMessage__	post on slack
+Slack__	SendMessage__	post a message on slack
+Slack__	SendMessage__	send on slack
+Slack__	SendMessage__	send a message on slack
+Slack__	SendMessage__	upload on slack
+Slack__	SendMessage__	upload a message on slack
+Slack__	SendMessage__	write message on slack
+Slack__	SendMessage__	write a message on slack
+Slack__	SendMessage__	write messages on slack
+Slack__	SendMessage__	create message on slack
+Slack__	SendMessage__	create a message on slack
+Slack__	SendMessage__	create messages on slack
+Slack__	SendMessage__	compose message on slack
+Slack__	SendMessage__	compose a message on slack
+Slack__	SendMessage__	compose messages on slack
+Slack__	SendPictureToChannel__	post a picture on slack to SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	send a picture on slack to SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	upload a picture on slack to SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	upload a picture to slack channel SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	upload a picture to SLACK.SLOT.CHANNEL slack channel
+Slack__	SendPictureToChannel__	send something to slack channel SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	send something to SLACK.SLOT.CHANNEL slack channel
+Slack__	SendPictureToChannel__	post on slack to SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	post on slack channel SLACK.SLOT.CHANNEL
+Slack__	SendPictureToChannel__	post on SLACK.SLOT.CHANNEL slack channel
+Slack__	SendPictureToChannelWithCaption__	post a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	post a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	send a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	send a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	upload a picture on slack to SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
+Slack__	SendPictureToChannelWithCaption__	upload a picture to slack channel SLACK.SLOT.CHANNEL with caption SLACK.SLOT.CAPTION
+Slack__	SendPictureWithUrlToChannel__	post SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
+Slack__	SendPictureWithUrlToChannel__	send SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
+Slack__	SendPictureWithUrlToChannel__	upload SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL on slack
+Slack__	SendPictureWithUrlToChannel__	post SLACK.SLOT.PICTURE_URL to slack channel SLACK.SLOT.CHANNEL
+Slack__	SendPictureWithUrlToChannel__	post SLACK.SLOT.PICTURE_URL to SLACK.SLOT.CHANNEL slack channel
+Slack__	CheckChannelHistory__	check slack channel history
+Slack__	CheckChannelHistory__	get slack channel history
+Slack__	CheckChannelHistory__	find my slack channel history
+Slack__	CheckChannelHistory__	find the slack channel history
+Slack__	CheckChannelHistory__	search for my slack channel history
+Slack__	CheckChannelHistory__	search for the slack channel history
