@@ -1,0 +1,211 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> | ShowFilesWithStar__ <INTENT_3> | ShowFilesFromTime__ <INTENT_4> | ShowFilesWithSize__ <INTENT_5> | CreateFile__ <INTENT_6> | CreateFileWithName__ <INTENT_7> | ShowOldestFiles__ <INTENT_8> | ShowNewestFiles__ <INTENT_9> | SortAlphabetica__ <INTENT_10> | SortReverseAlphabetical__ <INTENT_11> | OpenFileWithName__ <INTENT_12> | ShareFileWithNameToAddress__ <INTENT_13>);
+
+#INTENTS
+##1) OPEN GDRIVE
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_1_L1TC_2> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ ;
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##2) SHOW FILES OF TYPE
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_2_L1TC_2> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3> | <INTENT_2_L2TC_4>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ ;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##3) SHOW STARRED FILES
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_3_L1TC_2> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3> | <INTENT_3_L2TC_4>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_3_L2TC_4> = L2TC__ verb_pattern_04__ ;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##4) SHOW FILES MODIFIED ON TIME
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_4_L1TC_2> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ ;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##5) SHOW FILES SMALLER|GREATER THAN
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_5_L1TC_2> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3> | <INTENT_5_L2TC_4>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ ;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##6) CREATE FILE
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_6_REPHRASE> = <INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2>;
+<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ ;
+
+##7) CREATE FILE WITH NAME
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_7_REPHRASE> = <INTENT_7_REPHRASE_1> | <INTENT_7_REPHRASE_2>;
+<INTENT_7_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_7_REPHRASE_2> = REPHRASE__ verb_pattern_02__ ;
+
+##8) SHOW OLDEST FILES
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2> | <INTENT_8_L2TC_3> | <INTENT_8_L2TC_4>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_8_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_8_L2TC_4> = L2TC__ verb_pattern_04__ ;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##9) SHOW RECENT FILE
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2> | <INTENT_9_L2TC_3> | <INTENT_9_L2TC_4>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_9_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_9_L2TC_4> = L2TC__ verb_pattern_04__ ;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##10) ORDER ALPHABETICAL
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = <INTENT_10_L0TC_1> | <INTENT_10_L0TC_2>;
+<INTENT_10_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_10_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2> | <INTENT_10_L2TC_3> | <INTENT_10_L2TC_4>;
+<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_10_L2TC_4> = L2TC__ verb_pattern_04__ ;
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##11) ORDER REVERSE ALPHABETICAL
+<INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
+<INTENT_11_L0TC> = <INTENT_11_L0TC_1> | <INTENT_11_L0TC_2>;
+<INTENT_11_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_11_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_11_L1TC> = <INTENT_11_L1TC_1> | <INTENT_11_L1TC_2>;
+<INTENT_11_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_11_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_11_L2TC> = <INTENT_11_L2TC_1> | <INTENT_11_L2TC_2> | <INTENT_11_L2TC_3> | <INTENT_11_L2TC_4>;
+<INTENT_11_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_11_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_11_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_11_L2TC_4> = L2TC__ verb_pattern_04__ ;
+
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##12) EDIT FILE
+<INTENT_12> = <INTENT_12_L0TC> | <INTENT_12_L1TC> | <INTENT_12_L2TC> | <INTENT_12_REPHRASE>;
+<INTENT_12_L0TC> = <INTENT_12_L0TC_1> | <INTENT_12_L0TC_2>;
+<INTENT_12_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_12_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_12_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_12_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_12_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##13) SHARE FILE
+<INTENT_13> = <INTENT_13_L0TC> | <INTENT_13_L1TC> | <INTENT_13_L2TC> | <INTENT_13_REPHRASE>;
+<INTENT_13_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_13_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_13_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_13_REPHRASE> = <INTENT_13_REPHRASE_1> | <INTENT_13_REPHRASE_2>;
+<INTENT_13_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_13_REPHRASE_2> = REPHRASE__ verb_pattern_02__ ;
+
+#SLOTS
+<MIME_TYPE> = GDRIVE.SLOT.MIME_TYPE;
+<FILE_NAME> = GDRIVE.SLOT.FILE_NAME;
+<FILE_SIZE> = GDRIVE.SLOT.FILE_SIZE;
+<TIME> = GDRIVE.SLOT.TIME;
+<MAIL> = GDRIVE.SLOT.MAIL;

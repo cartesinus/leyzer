@@ -1,5 +1,5 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | ChangeTemperature__ <INTENT_3> | SetTemperatureToValue__ <INTENT_4> | SetTemperatureToValueOnDevice__ <INTENT_5> | SetTemperatureBetweenValues__ <INTENT_6> | SetTemperatureOnDevice__ <INTENT_7> | GetHumidity__ <INTENT_8> | GetTemperatureFromDevice__ <INTENT_9> | GetTemperature__ <INTENT_10>);
 
 #PRECONDITIONS
@@ -43,25 +43,137 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 <WHEN> = when the temperature of the <DEVICE_NAME> home sensor goes below <TEMPERATURE>;
 
 #INTENTS
-<INTENT_1> = (turn the <AV_ALIAS> on) | (turn on the <AV_ALIAS>) | (switch (on the <AV_ALIAS> | the <AV_ALIAS> on)) | (set (my | the) <AV_ALIAS> on);
+##1) TURN ON
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ turn on the <AV_ALIAS>;
 
-<INTENT_2> = (turn the <AV_ALIAS> off) | (turn off the <AV_ALIAS>) | (switch (off the <AV_ALIAS> | the <AV_ALIAS> off)) | ((deactivate | shut down) (my | the) <AV_ALIAS>);
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ turn the <AV_ALIAS> on;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ (switch (on the <AV_ALIAS> | the <AV_ALIAS> on));
 
-<INTENT_3> = (change | modify | set | adjust) the (temperature on my thermostat | (minimum temperature | maximum temperature | minimum and maximum temperatures) on (my | the) thermostat);
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ set (my | the) <AV_ALIAS> on;
 
-<INTENT_4> = (change | set) (the temperature on my thermostat to <VALUE> | the temperature to <VALUE> on my thermostat | my thermostat to <VALUE>);
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ i want <AV_ALIAS> on;
 
-<INTENT_5> = (change | set) ([temperature on] my <DEVICE_NAME> thermostat to <VALUE> | the temperature to <VALUE> on my <DEVICE_NAME> thermostat);
+##2) TURN OFF
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ turn off the <AV_ALIAS>;
 
-<INTENT_6> = set (the temperature between <LOW> and <HIGH> on my thermostat | the low temperature to <LOW> on my thermostat , and the high to <HIGH>);
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ turn the <AV_ALIAS> off;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ switch (off the <AV_ALIAS> | the <AV_ALIAS> off);
 
-<INTENT_7> = change the (temperature on my <DEVICE_NAME> thermostat | minimum and maximum temperatures on my <DEVICE_NAME> thermostat);
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ shut down (my | the) <AV_ALIAS>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ deactivate (my | the) <AV_ALIAS>;
 
-<INTENT_8> = <SHOW_VERB> the humidity [level] | [show me | tell me] how humid is the air [in here | in the room] | show me (what's the humidity | what the humidity is in here);
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ i want <AV_ALIAS> off;
 
-<INTENT_9> = (check | show me) (what the <DEVICE_NAME> (temperature sensor | thermostat) says | the temperature of the <DEVICE_NAME> (sensor | thermostat) | what's on the <DEVICE_NAME> sensor);
+##3) CHANGE TEMPERATURE
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ change the (temperature on my thermostat | (minimum temperature | maximum temperature | minimum and maximum temperatures) on (my | the) thermostat);
 
-<INTENT_10> = (what temperature (do I have | do we have | is it) | what's the temperature) in here according to my <AV_ALIAS>?;
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ set the (temperature on my thermostat | (minimum temperature | maximum temperature | minimum and maximum temperatures) on (my | the) thermostat);
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ modify the (temperature on my thermostat | (minimum temperature | maximum temperature | minimum and maximum temperatures) on (my | the) thermostat);
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ adjust the (temperature on my thermostat | (minimum temperature | maximum temperature | minimum and maximum temperatures) on (my | the) thermostat);
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ it is too (hot | cold) in here;
+
+##4) CHANGE TEMPERATURE TO VALUE
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ change (the temperature on my thermostat to <VALUE> | the temperature to <VALUE> on my thermostat | my thermostat to <VALUE>);
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ set (the temperature on my thermostat to <VALUE> | the temperature to <VALUE> on my thermostat | my thermostat to <VALUE>);
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ modify (the temperature on my thermostat to <VALUE> | the temperature to <VALUE> on my thermostat | my thermostat to <VALUE>);
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ adjust (the temperature on my thermostat to <VALUE> | the temperature to <VALUE> on my thermostat | my thermostat to <VALUE>);
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ <VALUE> would be ideal temperature because it is too (hot | cold) in here;
+
+##5) CHANGE TEMPERATURE TO VALUE ON DEVICE
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ change ([temperature on] my <DEVICE_NAME> thermostat to <VALUE> | the temperature to <VALUE> on my <DEVICE_NAME> thermostat);
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ set ([temperature on] my <DEVICE_NAME> thermostat to <VALUE> | the temperature to <VALUE> on my <DEVICE_NAME> thermostat);
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ modify ([temperature on] my <DEVICE_NAME> thermostat to <VALUE> | the temperature to <VALUE> on my <DEVICE_NAME> thermostat);
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ adjust ([temperature on] my <DEVICE_NAME> thermostat to <VALUE> | the temperature to <VALUE> on my <DEVICE_NAME> thermostat);
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ let <DEVICE_NAME> set temperature to <VALUE>;
+
+##6) CHANGE TEMPERATURE BETWEEN VALUES
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ set (the temperature between <LOW> and <HIGH> on my thermostat | the low temperature to <LOW> on my thermostat and the high to <HIGH>);
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ adjust (the temperature between <LOW> and <HIGH> on my thermostat | the low temperature to <LOW> on my thermostat and the high to <HIGH>);
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ turn up the temperature above <LOW> but lower than and <HIGH> [on my thermostat];
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ regulate (the temperature between <LOW> and <HIGH> on my thermostat | the low temperature to <LOW> on my thermostat and the high to <HIGH>);
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ calibrate (the temperature between <LOW> and <HIGH> on my thermostat | the low temperature to <LOW> on my thermostat and the high to <HIGH>);
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ set temperature equilibrium between <LOW> and <HIGH>;
+
+##7) CHANGE TEMPERATURE ON DEVICE
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ change the (temperature on my <DEVICE_NAME> thermostat | minimum and maximum temperatures on my <DEVICE_NAME> thermostat);
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ set the (temperature on my <DEVICE_NAME> thermostat | minimum and maximum temperatures on my <DEVICE_NAME> thermostat);
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ modify (temperature on my <DEVICE_NAME> thermostat | minimum and maximum temperatures on my <DEVICE_NAME> thermostat);
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ adjust (temperature on my <DEVICE_NAME> thermostat | minimum and maximum temperatures on my <DEVICE_NAME> thermostat);
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ i want new temperature on <DEVICE_NAME>;
+
+##8) CHECK HUMIDITY
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ check the humidity [level];
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ show [me] the humidity [level | in here];
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ tell me [what's] the humidity [level | in here];
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2> | <INTENT_8_L2TC_3>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ give me the humidity [level];
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ tell me how humid is the air [in here | in the room];
+<INTENT_8_L2TC_3> = L2TC__ verb_pattern_03__ probe the humidity level;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ i feel that it is too (humid | dry) [in here];
+
+##9) CHECK TEMPERATURE ON DEVICE
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ check (what the <DEVICE_NAME> (temperature sensor | thermostat) says | the temperature on the <DEVICE_NAME> (sensor | thermostat) | what's on the <DEVICE_NAME> sensor);
+
+<INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ show [me] (the temperature on the <DEVICE_NAME> (sensor | thermostat) | what's on the <DEVICE_NAME> sensor);
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ tell [me] (what the <DEVICE_NAME> (temperature sensor | thermostat) says | what's on the <DEVICE_NAME> sensor);
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ give me the temperature of the <DEVICE_NAME> (sensor | thermostat);
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ measure the temperature of the <DEVICE_NAME> (sensor | thermostat);
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ what's the temperature on <DEVICE_NAME>;
+
+##10) CHECK TEMPERATURE
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ check the temperature on my <AV_ALIAS>;
+
+<INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ show [me] the temperature on my <AV_ALIAS>;
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ tell me the temperature on my <AV_ALIAS>;
+
+<INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2> | <INTENT_10_L2TC_3> | <INTENT_10_L2TC_4>;
+<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ give me the temperature on my <AV_ALIAS>;
+<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ measure the temperature on my <AV_ALIAS>;
+<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ how many [fahrenheits | celsius | kelvins] degrees are on my <AV_ALIAS>;
+<INTENT_10_L2TC_4> = L2TC__ verb_pattern_04__ (what temperature (do I have | do we have | is it) | what's the temperature) in here according to my <AV_ALIAS>;
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ what's the temperature;
 
 #SLOTS
 <DEVICE_NAME> = AIRCONDITIONER.SLOT.DEVICE_NAME;
@@ -69,10 +181,6 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 <HIGH> = 29 degree;
 <VALUE> = AIRCONDITIONER.SLOT.VALUE;
 <AV_ALIAS> = AIRCONDITIONER.SLOT.AV_ALIAS;
-
-#LANG. COMPONENTS
-<SHOW_VERB> = show | give me | check;
-<NOTIFY_VERB> = notify | tell;
 
 /**
 check if my humidity sensor says it is humid

@@ -1,5 +1,5 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | ShowBMI__ <INTENT_3> | AddWeight__ <INTENT_4> | NotifyOnWeight__ <INTENT_5>);
 
 #PRECONDITION
@@ -17,19 +17,84 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 <WHEN> = when my fitbit steps update;
 
 #INTENTS
-<INTENT_1> = [<RETRIEVE_VERB>] (<INTENT_1_a> | <INTENT_1_b>);
-<INTENT_1_a> = (my steps | the number of steps | the count of steps | the step count) from fitbit;
-<INTENT_1_b> = (the number of steps i took | my fitbit step count | the fitbit pedometer | the fitbit step counter | the steps i have taken);
+##1) STEP COUNT
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ tell me [what's] the number of steps (i took | on fitbit | i have taken);
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ show me [what's] the number of steps (i took | on fitbit | i have taken);
 
-<INTENT_2> = [<RETRIEVE_VERB>] (<INTENT_2_a> | <INTENT_2_b>);
-<INTENT_2_a> = (my fitbit steps on | the number of steps i took on | the number of steps from fitbit on | my fitbit step count on | the fitbit pedometer on | the fitbit step counter on | the steps i have taken on) <DATE>;
-<INTENT_2_b> = (the count of steps | the step count) on <DATE> from fitbit;
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ display the number of steps (i took | on fitbit | i have taken);
 
-<INTENT_3> = [<RETRIEVE_VERB>] my (body measurements | bmi | weight) from fitbit;
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ count the number of steps (i took | on fitbit | i have taken);
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ measure the number of steps (i took | on fitbit | i have taken);
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ (my steps | the number of steps | the count of steps | the step count) from fitbit;
 
-<INTENT_4> = (log | record | make [a] note of | write [down]) my weight on fitbit;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ what's the distance i (had | traveled | went) today in steps;
 
-<INTENT_5> = <NOTIFY_VERB> me <WHEN_1>;
+##2) STEP COUNT ON DATE
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ tell me [what's] the number of steps (i took | on fitbit | i have taken) on <DATE>;
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ show me [what's] the number of steps (i took | on fitbit | i have taken) on <DATE>;
+
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ display the number of steps (i took | on fitbit | i have taken) on <DATE>;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ count the number of steps (i took | on fitbit | i have taken) on <DATE>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ measure the number of steps (i took | on fitbit | i have taken) on <DATE>;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ (my steps | the number of steps | the count of steps | the step count) from fitbit on <DATE>;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ what's the distance i (had | traveled | went) <DATE> in steps;
+
+##3) BMI
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ tell me my (body measurements | bmi | weight) from fitbit;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2> | <INTENT_3_L1TC_3>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ get my (body measurements | bmi | weight) from fitbit;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ show my (body measurements | bmi | weight) from fitbit;
+<INTENT_3_L1TC_3> = L1TC__ verb_pattern_03__ display my (body measurements | bmi | weight) from fitbit;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3> | <INTENT_3_L2TC_4>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ find my (body measurements | bmi | weight) from fitbit;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ measure my (body measurements | bmi | weight) from fitbit;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ calculate my (body measurements | bmi | weight) from fitbit;
+<INTENT_3_L2TC_4> = L2TC__ verb_pattern_04__ analyse my (body measurements | bmi | weight) from fitbit;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ is my bmi (ok | normal | good);
+
+##4) SAVE WEIGHT
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ save my weight on fitbit;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_01__ add my weight to fitbit;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ record my weight on fitbit;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_01__ remember my weight on fitbit;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ log my weight on fitbit;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ make [a] note of my weight on fitbit;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ write [down] my weight on fitbit;
+
+<INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2>;
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ is my weight going (down | up);
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ help me control my weight;
+
+##5) NOTIFY ON WEIGHT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ tell me <WHEN_1>;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ notify me <WHEN_1>;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ inform me <WHEN_1>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ let me know <WHEN_1>;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ update me <WHEN_1>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to be updated <WHEN_1>;
 
 #SLOTS
 <STEPS> = FITBIT.SLOT.STEPS;

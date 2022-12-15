@@ -1,65 +1,277 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlaySongByArtist__ <INTENT_3> | PlayAlbumOfTypeByArtist__ <INTENT_4> | Pause__ <INTENT_5> | NextSong__ <INTENT_6> | PreviousSong__ <INTENT_7> | PlayPlaylist__ <INTENT_8> | AddSongToPlaylistWithName__ <INTENT_9> | AddSongWithNameToPlaylistWithName__ <INTENT_10> | AddAlbumToPlaylist__ <INTENT_11> | CreatePlaylist__ <INTENT_12> | CreatePlaylistWithName__ <INTENT_13> | AddSongToPlaylist__ <INTENT_14> | SeekByTime__ <INTENT_15> | ShuffleOnOff__ <INTENT_16> | RepeatOnOff__ <INTENT_17> | ShowDanceability__ <INTENT_18>);
 
 #INTENTS
-#open spotify
-<INTENT_1> = (otwórz | użyj) spotify [i zagraj [mi] [coś] | włącz [jakąś] muzykę | puść muzykę];
+##1) OPEN SPOTIFY
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ otwórz [aplikację] spotify;
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ uruchom [aplikację] spotify;
 
-#play given song
-<INTENT_2> = (odtwarzaj | puść | włącz | <PLAY>) [piosenkę | utwór | kawałek] <SONG> [na spotify];
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2> | <INTENT_1_L1TC_3>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ pokaż [aplikację] spotify;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ włącz [jakąś] muzykę;
+<INTENT_1_L1TC_3> = L1TC__ verb_pattern_03__ puść [jakąś] muzykę;
 
-#play given song of given artist
-<INTENT_3> = ((odtwarzaj | puść | <PLAY>) [piosenkę | utwór | kawałek] <SONG> [artysty | w wykonaniu | stworzony przez | nagrany przez] <ARTIST> [na spotify] | (odtwarzaj | puść | zagraj | graj) <ARTIST> <SONG>);
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ wyświetl [aplikację] spotify [i zagraj [mi] [coś] | włącz [jakąś] muzykę | puść muzykę];
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ użyj [aplikację] spotify;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ zagraj [mi] [coś];
 
-#play given album of given artist
-<INTENT_4> = <PLAY> <ALBUM_TYPE> <ALBUM> [od | wykonawcy] <ARTIST> [na spotify];
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ chce posłuchać muzyki;
 
-#'press' pause | resume | play | repeat button on current song
-<INTENT_5> = (odtwarzaj | pauza | wznów | powtórz) <SONG_NOUN> [na spotify];
+##2) PLAY GIVEN SONG
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ odtwarzaj [piosenkę | utwór | kawałek] <SONG> [na spotify];
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ włącz [piosenkę | utwór | kawałek] <SONG> [na spotify];
 
-#next song
-<INTENT_6> = [<PLAY> następną (piosenkę | utwór | kawałek) | następna (piosenka | utwór | kawałek)] [na spotify];
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ puść [piosenkę | utwór | kawałek] <SONG> [na spotify];
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ graj [piosenkę | utwór | kawałek] <SONG> [na spotify];
 
-#previous song
-<INTENT_7> = [<PLAY> poprzednią (piosenkę | utwór | kawałek) | poprzednia (piosenka | utwór | kawałek)] [na spotify];
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ chcę usłyszeć [piosenkę | utwór | kawałek] <SONG>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ zagraj [piosenkę | utwór | kawałek] <SONG> [na spotify];
 
-#play given playlist
-<INTENT_8> = <INTENT_8_a> | <INTENT_8_b>;
-<INTENT_8_a> = (odtwarzaj | puść | <PLAY>) [moją] (listę | playlistę | listę odtwarzania) <PLAYLIST> [na spotify];
-<INTENT_8_b> = (odtwarzaj | puść | <PLAY>) (utwory | piosenki | kawałki) [z mojej] (listy | playlisty | listy odtwarzania) <PLAYLIST>;
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie słyszałem <SONG>;
 
-#add current song to given playlist
-<INTENT_9> = (dodaj | zapisz) (tę piosenkę | ten utwór | ten kawałek) do [mojej] (playlisty | listy odtwarzania | listy) [o nazwie | która się nazywa] <PLAYLIST>;
+##3) PLAY GIVEN SONG OF GIVEN ARTIST
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ odtwarzaj (<ARTIST> <SONG> | [piosenkę | utwór | kawałek] <SONG> [od | artysty | w wykonaniu | stworzony przez | nagrany przez] <ARTIST>);
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ włącz (<ARTIST> <SONG> | [piosenkę | utwór | kawałek] <SONG> [od | artysty | w wykonaniu | stworzony przez | nagrany przez] <ARTIST>);
 
-#add given song to given playlist
-<INTENT_10> = (dodaj | zapisz) [piosenkę | utwór | kawałek] <SONG> do [mojej] (playlisty | listy odtwarzania | listy) [o nazwie | która się nazywa] <PLAYLIST>;
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ puść (<ARTIST> <SONG> | [piosenkę | utwór | kawałek] <SONG> [od | artysty | w wykonaniu | stworzony przez | nagrany przez] <ARTIST>);
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ graj (<ARTIST> <SONG> | [piosenkę | utwór | kawałek] <SONG> [od | artysty | w wykonaniu | stworzony przez | nagrany przez] <ARTIST>);
 
-#add current album to playlist
-<INTENT_11> = (dodaj | zapisz) <ALBUM_TYPE> do [mojej] (playlisty | listy odtwarzania | listy) [o nazwie | która się nazywa] <PLAYLIST>;
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ chcę usłuszeć [piosenkę | utwór | kawałek] <SONG> [artysty | w wykonaniu | stworzony przez | nagrany przez] <ARTIST> [na spotify];
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ zagraj (<ARTIST> <SONG> | [piosenkę | utwór | kawałek] <SONG> [od | artysty | w wykonaniu | stworzony przez | nagrany przez] <ARTIST>);
 
-#create playlist root (no name is given)
-<INTENT_12> = (stórz | zrób | dodaj) [nową] (playlistę | listę odtwarzania | listę);
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie słyszałem <SONG> od <ARTIST>;
 
-#create playlist with given name
-<INTENT_13> = (stórz | zrób | dodaj) [nową] (playlistę | listę odtwarzania | listę) [o tytule] <PLAYLIST>;
+##4) PLAY GIVEN ALBUM OF GIVEN ARTIST
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ odtwarzaj <ALBUM_TYPE> <ALBUM> [od | wykonawcy] <ARTIST> [na spotify];
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ włącz <ALBUM_TYPE> <ALBUM> [od | wykonawcy] <ARTIST> [na spotify];
 
-#save song (to default playlist?)
-<INTENT_14> = zapisz (tę piosenkę | ten utór | ten kawałek | cokolwiek leci | cokolwiek jest grane) (na [mojej] playliscie | na [mojej] liście odtwarzania | w [mojej] bibliotece);
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ puść <ALBUM_TYPE> <ALBUM> [od | wykonawcy] <ARTIST> [na spotify];
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ graj <ALBUM_TYPE> <ALBUM> [od | wykonawcy] <ARTIST> [na spotify];
 
-#seek by given number of seconds
-<INTENT_15> = (przewiń | przesuń) [tę piosenkę | ten utwór | ten kawałek] o <SEEK_TIME> sekund (do przodu | w przód);
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ chcę usłyszeć <ALBUM_TYPE> <ALBUM> [od | wykonawcy] <ARTIST> [na spotify];
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ zagraj <ALBUM_TYPE> <ALBUM> [od | wykonawcy] <ARTIST> [na spotify];
 
-#shuffle on | off
-<INTENT_16> = <STATE> (shuffle | losowe odtwarzanie | losowość);
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie słyszałem albumu <ALBUM> od <ARTIST>;
 
-#repeat on | off
-<INTENT_17> = (<STATE> (powtarzanie | repeat) | na rypicie);
+##5) 'PRESS' PAUSE | RESUME | PLAY | REPEAT BUTTON ON CURRENT SONG
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ powtórz (tę piosenkę | ten utwór | ten kawałek) [na spotify];
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ zatrzymaj (tę piosenkę | ten utwór | ten kawałek) [na spotify];
 
-#dencability of current song
-<INTENT_18> = <INTENT_18_a> | <INTENT_18_b>;
-<INTENT_18_a> = jak [bardzo] (ta piosenka jest taneczna | ten (utwór | kawałek) jest taneczny) | [podaj] taneczność (tej piosenki | tego utworu | tego kawałka);
-<INTENT_18_b> = czy (ta piosenka | ten utwór | ten kawałek) jest taneczny;
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2> | <INTENT_5_L1TC_3>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ odtwarzaj ponownie (tę piosenkę | ten utwór | ten kawałek) [na spotify];
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ pauza (piosenkę | utwór | kawałek) [na spotify];
+<INTENT_5_L1TC_3> = L1TC__ verb_pattern_03__ wznów (tę piosenkę | ten utwór | ten kawałek) [na spotify];
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3> | <INTENT_5_L2TC_4> | <INTENT_5_L2TC_5>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ zagraj jeszcze raz (tę piosenkę | ten utwór | ten kawałek) [na spotify];
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ zapauzuj (piosenkę | utwór | kawałek) [na spotify];
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ wstrzymaj (tę piosenkę | ten utwór | ten kawałek) [na spotify];
+<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ powstrzymaj odtwarzanie (tej piosenki | tego utwóru | tego kawałka) [na spotify];
+<INTENT_5_L2TC_5> = L2TC__ verb_pattern_05__ przestań odtwarzać (tę piosenkę | ten utwór | ten kawałek) [na spotify];
+
+<INTENT_5_REPHRASE> = <INTENT_5_REPHRASE_1> | <INTENT_5_REPHRASE_2>;
+<INTENT_5_REPHRASE_1> = REPHRASE__ verb_pattern_01__ naciśnij przycisk (play | pause | pauza | powtórz);
+<INTENT_5_REPHRASE_2> = REPHRASE__ verb_pattern_02__ zrób stop na spotify;
+
+##6) NEXT SONG
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ ((odtwarzaj następną (piosenkę | utwór | kawałek)) | (następna (piosenka | utwór | kawałek))) [na spotify];
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ włącz następną (piosenkę | utwór | kawałek) [na spotify];
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ puść następną (piosenkę | utwór | kawałek) [na spotify];
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ graj następną (piosenkę | utwór | kawałek) [na spotify];
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ zagraj następną (piosenkę | utwór | kawałek) [na spotify];
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ chcę usłyszeć następną (piosenkę | utwór | kawałek) [na spotify];
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę (inną | następną piosenkę);
+
+##7) PREVIOUS SONG
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ ((odtwarzaj poprzednią (piosenkę | utwór | kawałek)) | poprzednia (piosenka | utwór | kawałek)) [na spotify];
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ włącz poprzednią (piosenkę | utwór | kawałek) [na spotify];
+
+<INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2>;
+<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ puść poprzednią (piosenkę | utwór | kawałek) [na spotify];
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ graj poprzednią (piosenkę | utwór | kawałek) [na spotify];
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ zagraj poprzednią (piosenkę | utwór | kawałek) [na spotify];
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ chcę usłyszeć poprzednią (piosenkę | utwór | kawałek) [na spotify];
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę (tę poprzenią piosenkę | to co leciało przed chwilą);
+
+##8) PLAY GIVEN PLAYLIST
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = <INTENT_8_L0TC_1> | <INTENT_8_L0TC_2>;
+<INTENT_8_L0TC_1> = L0TC__ verb_pattern_01__ odtwarzaj [moją] (listę | playlistę | listę odtwarzania) <PLAYLIST> [na spotify];
+<INTENT_8_L0TC_2> = L0TC__ verb_pattern_02__ włącz [moją] (listę | playlistę | listę odtwarzania) <PLAYLIST> [na spotify];
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2> | <INTENT_8_L1TC_3>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ puść [moją] (listę | playlistę | listę odtwarzania) <PLAYLIST> [na spotify];
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ graj [moją] (listę | playlistę | listę odtwarzania) <PLAYLIST> [na spotify];
+<INTENT_8_L1TC_3> = L1TC__ verb_pattern_03__ zagraj [moją] (listę | playlistę | listę odtwarzania) <PLAYLIST> [na spotify];
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2> | <INTENT_8_L2TC_3> | <INTENT_8_L2TC_4> | <INTENT_8_L2TC_5>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ odtwarzaj (utwory | piosenki | kawałki) [z mojej] (listy | playlisty | listy odtwarzania) <PLAYLIST>;
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ puść (utwory | piosenki | kawałki) [z mojej] (listy | playlisty | listy odtwarzania) <PLAYLIST>;
+<INTENT_8_L2TC_3> = L2TC__ verb_pattern_03__ graj (utwory | piosenki | kawałki) [z mojej] (listy | playlisty | listy odtwarzania) <PLAYLIST>;
+<INTENT_8_L2TC_4> = L2TC__ verb_pattern_04__ zagraj (utwory | piosenki | kawałki) [z mojej] (listy | playlisty | listy odtwarzania) <PLAYLIST>;
+<INTENT_8_L2TC_5> = L2TC__ verb_pattern_05__ chcę usłyszeć (utwory | piosenki | kawałki) [z mojej] (listy | playlisty | listy odtwarzania) <PLAYLIST>;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie słyszałem mojej playlisty <PLAYLIST>;
+
+##9) ADD CURRENT SONG TO GIVEN PLAYLIST
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ dodaj (tę piosenkę | ten utwór | ten kawałek) do [mojej] (playlisty | listy odtwarzania | listy) [o nazwie | która się nazywa] <PLAYLIST>;
+
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ zapisz (tę piosenkę | ten utwór | ten kawałek) na [mojej] (playliście | liście odtwarzania) [o nazwie | która się nazywa] <PLAYLIST>;
+
+<INTENT_9_L2TC> = L2TC__ verb_pattern_01__ umieść (tę piosenkę | ten utwór | ten kawałek) na [mojej] (playliście | liście odtwarzania) [o nazwie | która się nazywa] <PLAYLIST>;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ chciałbym zapamiętać tę piosenkę na liście <PLAYLIST>;
+
+##10) ADD GIVEN SONG TO GIVEN PLAYLIST
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ dodaj [piosenkę | utwór | kawałek] <SONG> do [mojej] (playlisty | listy odtwarzania | listy) [o nazwie | która się nazywa] <PLAYLIST>;
+
+<INTENT_10_L1TC> = L1TC__ verb_pattern_01__ zapisz [piosenkę | utwór | kawałek] <SONG> na [mojej] (playliście | liście odtwarzania) [o nazwie | która się nazywa] <PLAYLIST>;
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ umieść [piosenkę | utwór | kawałek] <SONG> na [mojej] (playliście | liście odtwarzania) [o nazwie | która się nazywa] <PLAYLIST>;
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ chciałbym zapamiętać [piosenkę] <SONG> na liście <PLAYLIST>;
+
+##11) ADD CURRENT ALBUM TO PLAYLIST
+<INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
+<INTENT_11_L0TC> = L0TC__ verb_pattern_01__ dodaj <ALBUM_TYPE> do [mojej] (playlisty | listy odtwarzania | listy) [o nazwie | która się nazywa] <PLAYLIST>;
+
+<INTENT_11_L1TC> = L1TC__ verb_pattern_01__ zapisz <ALBUM_TYPE> na [mojej] (playliście | liście odtwarzania) [o nazwie | która się nazywa] <PLAYLIST>;
+
+<INTENT_11_L2TC> = L2TC__ verb_pattern_01__ umieść <ALBUM_TYPE> na [mojej] (playliście | liście odtwarzania) [o nazwie | która się nazywa] <PLAYLIST>;
+
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ chciałbym zapamiętać <ALBUM_TYPE> na liście <PLAYLIST>;
+
+##12) CREATE PLAYLIST ROOT (NO NAME IS GIVEN)
+<INTENT_12> = <INTENT_12_L0TC> | <INTENT_12_L1TC> | <INTENT_12_L2TC> | <INTENT_12_REPHRASE>;
+<INTENT_12_L0TC> = <INTENT_12_L0TC_1> | <INTENT_12_L0TC_2>;
+<INTENT_12_L0TC_1> = L0TC__ verb_pattern_01__ stwórz [nową] (playlistę | listę odtwarzania | listę);
+<INTENT_12_L0TC_2> = L0TC__ verb_pattern_02__ dodaj [nową] (playlistę | listę odtwarzania | listę);
+
+<INTENT_12_L1TC> = <INTENT_12_L1TC_1> | <INTENT_12_L1TC_2>;
+<INTENT_12_L1TC_1> = L1TC__ verb_pattern_01__ zrób [nową] (playlistę | listę odtwarzania | listę);
+<INTENT_12_L1TC_2> = L1TC__ verb_pattern_02__ utwórz [nową] (playlistę | listę odtwarzania | listę);
+
+<INTENT_12_L2TC> = <INTENT_12_L2TC_1> | <INTENT_12_L2TC_2> | <INTENT_12_L2TC_3>;
+<INTENT_12_L2TC_1> = L2TC__ verb_pattern_01__ zapisz [nową] (playlistę | listę odtwarzania | listę);
+<INTENT_12_L2TC_2> = L2TC__ verb_pattern_02__ chcę [nową] (playlistę | listę odtwarzania | listę);
+<INTENT_12_L2TC_3> = L2TC__ verb_pattern_03__ potrzebuję [nową] (playlistę | listę odtwarzania | listę);
+
+<INTENT_12_REPHRASE> = REPHRASE__ verb_pattern_01__ muszę zapisać [gdzieś] (ten kawałek | tę pioseknę);
+
+##13) CREATE PLAYLIST WITH GIVEN NAME
+<INTENT_13> = <INTENT_13_L0TC> | <INTENT_13_L1TC> | <INTENT_13_L2TC> | <INTENT_13_REPHRASE>;
+<INTENT_13_L0TC> = <INTENT_13_L0TC_1> | <INTENT_13_L0TC_2>;
+<INTENT_13_L0TC_1> = L0TC__ verb_pattern_01__ stwórz [nową] (playlistę | listę odtwarzania | listę) [o tytule] <PLAYLIST>;
+<INTENT_13_L0TC_2> = L0TC__ verb_pattern_02__ dodaj [nową] (playlistę | listę odtwarzania | listę) [o tytule] <PLAYLIST>;
+
+<INTENT_13_L1TC> = <INTENT_13_L1TC_1> | <INTENT_13_L1TC_2>;
+<INTENT_13_L1TC_1> = L1TC__ verb_pattern_01__ zrób [nową] (playlistę | listę odtwarzania | listę) [o tytule] <PLAYLIST>;
+<INTENT_13_L1TC_2> = L1TC__ verb_pattern_02__ utwórz [nową] (playlistę | listę odtwarzania | listę) [o tytule] <PLAYLIST>;
+
+<INTENT_13_L2TC> = <INTENT_13_L2TC_1> | <INTENT_13_L2TC_2> | <INTENT_13_L2TC_3>;
+<INTENT_13_L2TC_1> = L2TC__ verb_pattern_01__ zapisz [nową] (playlistę | listę odtwarzania | listę) [o tytule] <PLAYLIST>;
+<INTENT_13_L2TC_2> = L2TC__ verb_pattern_02__ chcę [nową] (playlistę | listę odtwarzania | listę) [o tytule] <PLAYLIST>;
+<INTENT_13_L2TC_3> = L2TC__ verb_pattern_03__ potrzebuję [nową] (playlistę | listę odtwarzania | listę) [o tytule] <PLAYLIST>;
+
+<INTENT_13_REPHRASE> = REPHRASE__ verb_pattern_01__ muszę zapisać [gdzieś] (ten kawałek | tę pioseknę) na liście <PLAYLIST>;
+
+##14) SAVE SONG (TO DEFAULT PLAYLIST?)
+<INTENT_14> = <INTENT_14_L0TC> | <INTENT_14_L1TC> | <INTENT_14_L2TC> | <INTENT_14_REPHRASE>;
+<INTENT_14_L0TC> = L0TC__ verb_pattern_01__ dodaj (tę piosenkę | ten utór | ten kawałek | cokolwiek leci | cokolwiek jest grane) (na [mojej] playliscie | na [mojej] liście odtwarzania | w [mojej] bibliotece);
+
+<INTENT_14_L1TC> = L1TC__ verb_pattern_01__ zapisz (tę piosenkę | ten utór | ten kawałek | cokolwiek leci | cokolwiek jest grane) (na [mojej] playliscie | na [mojej] liście odtwarzania | w [mojej] bibliotece);
+
+<INTENT_14_L2TC> = L2TC__ verb_pattern_01__ umieść (tę piosenkę | ten utór | ten kawałek | cokolwiek leci | cokolwiek jest grane) (na [mojej] playliscie | na [mojej] liście odtwarzania | w [mojej] bibliotece);
+
+<INTENT_14_REPHRASE> = REPHRASE__ verb_pattern_01__ chciałbym zapamiętać ten (kawałek | utwór);
+
+##15) SEEK BY GIVEN NUMBER OF SECONDS
+<INTENT_15> = <INTENT_15_L0TC> | <INTENT_15_L1TC> | <INTENT_15_L2TC> | <INTENT_15_REPHRASE>;
+<INTENT_15_L0TC> = L0TC__ verb_pattern_01__ przewiń [tę piosenkę | ten utwór | ten kawałek] o <SEEK_TIME> sekund (do przodu | w przód);
+
+<INTENT_15_L1TC> = L1TC__ verb_pattern_01__ przejdź o <SEEK_TIME> sekund (do przodu | w przód);
+
+<INTENT_15_L2TC> = <INTENT_15_L2TC_1> | <INTENT_15_L2TC_2>;
+<INTENT_15_L2TC_1> = L2TC__ verb_pattern_01__ przesuń [tę piosenkę | ten utwór | ten kawałek] o <SEEK_TIME> sekund (do przodu | w przód);
+<INTENT_15_L2TC_2> = L2TC__ verb_pattern_02__ skocz o <SEEK_TIME> sekund (do przodu | w przód);
+
+<INTENT_15_REPHRASE> = REPHRASE__ verb_pattern_01__ dalej o <SEEK_TIME> do przodu;
+
+##16) SHUFFLE ON | OFF
+<INTENT_16> = <INTENT_16_L0TC> | <INTENT_16_L1TC> | <INTENT_16_L2TC> | <INTENT_16_REPHRASE>;
+<INTENT_16_L0TC> = <INTENT_16_L0TC_1> | <INTENT_16_L0TC_2>;
+<INTENT_16_L0TC_1> = L0TC__ verb_pattern_01__ włącz (shuffle | losowe odtwarzanie | losowość);
+<INTENT_16_L0TC_2> = L0TC__ verb_pattern_02__ wyłącz (shuffle | losowe odtwarzanie | losowość);
+
+<INTENT_16_L1TC> = <INTENT_16_L1TC_1> | <INTENT_16_L1TC_2> | <INTENT_16_L1TC_3>;
+<INTENT_16_L1TC_1> = L1TC__ verb_pattern_01__ ustaw (shuffle | losowe odtwarzanie);
+<INTENT_16_L1TC_2> = L1TC__ verb_pattern_02__ przestań odtwarzać losowo;
+<INTENT_16_L1TC_3> = L1TC__ verb_pattern_03__ zacznij odtwarzać losowo;
+
+<INTENT_16_L2TC> = <INTENT_16_L2TC_1> | <INTENT_16_L2TC_2>;
+<INTENT_16_L2TC_1> = L0TC__ verb_pattern_01__ anuluj (shuffle | losowe odtwarzanie);
+<INTENT_16_L2TC_2> = L0TC__ verb_pattern_02__ rozpocznij (shuffle | losowe odtwarzanie);
+
+<INTENT_16_REPHRASE> = REPHRASE__ verb_pattern_01__ koniec z (shuffle | losowym odtwarzaniem);
+
+##17) REPEAT ON | OFF
+<INTENT_17> = <INTENT_17_L0TC> | <INTENT_17_L1TC> | <INTENT_17_L2TC> | <INTENT_17_REPHRASE>;
+<INTENT_17_L0TC> = <INTENT_17_L0TC_1> | <INTENT_17_L0TC_2>;
+<INTENT_17_L0TC_1> = L0TC__ verb_pattern_01__ włącz (powtarzanie | repeat) [utworu];
+<INTENT_17_L0TC_2> = L0TC__ verb_pattern_02__ wyłącz (powtarzanie | repeat) [utworu];
+
+<INTENT_17_L1TC> = <INTENT_17_L1TC_1> | <INTENT_17_L1TC_2> | <INTENT_17_L1TC_3>;
+<INTENT_17_L1TC_1> = L1TC__ verb_pattern_01__ ustaw (powtarzanie | repeat) [tego] [utworu | kawałka];
+<INTENT_17_L1TC_2> = L1TC__ verb_pattern_02__ przestań (powtarzanie | repeat) [tego] [utworu | kawałka];
+<INTENT_17_L1TC_3> = L1TC__ verb_pattern_03__ zacznij (powtarzanie | repeat) [tego] [utworu | kawałka];
+
+<INTENT_17_L2TC> = <INTENT_17_L2TC_1> | <INTENT_17_L2TC_2>;
+<INTENT_17_L2TC_1> = L2TC__ verb_pattern_01__ anuluj (powtarzanie | repeat | na rypicie);
+<INTENT_17_L2TC_2> = L2TC__ verb_pattern_02__ wyłącz (powtarzanie | repeat | na rypicie);
+
+<INTENT_17_REPHRASE> = REPHRASE__ verb_pattern_01__ koniec i powtarzaniem tego (utworu | kawałka);
+
+##18) DENCABILITY OF CURRENT SONG
+<INTENT_18> = <INTENT_18_L0TC> | <INTENT_18_L1TC> | <INTENT_18_L2TC> | <INTENT_18_REPHRASE>;
+<INTENT_18_L0TC> = L0TC__ verb_pattern_01__ jak [bardzo] (ta piosenka jest taneczna | ten (utwór | kawałek) jest taneczny);
+
+<INTENT_18_L1TC> = L1TC__ verb_pattern_01__ [podaj] taneczność (tej piosenki | tego utworu | tego kawałka);
+
+<INTENT_18_L2TC> = L2TC__ verb_pattern_01__ czy ((ten utwór | ten kawałek) jest taneczny | ta piosenka jest taneczna);
+
+<INTENT_18_REPHRASE> = REPHRASE__ verb_pattern_01__ do tego nie da się tańczyć;
 
 #SLOTS
 <SONG> = SPOTIFY.SLOT.SONG;
@@ -67,10 +279,5 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <ALBUM> = SPOTIFY.SLOT.ALBUM;
 <PLAYLIST> = SPOTIFY.SLOT.PLAYLIST;
 <SEEK_TIME> = SPOTIFY.SLOT.SEEK_TIME;
-<STATE> = SPOTIFY.SLOT.STATE;
 <GENRES> = SPOTIFY.SLOT.GENRES;
 <ALBUM_TYPE> = SPOTIFY.SLOT.ALBUM_TYPE;
-
-#LANG. COMPONENTS
-<SONG_NOUN> = tę posenkę | ten utwór | ten kawałek;
-<PLAY> = graj | zagraj;

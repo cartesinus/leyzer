@@ -1,35 +1,131 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | PostPicture__ <INTENT_3> | PostPictureWithCaption__ <INTENT_4> | PostPictureWithUrl__ <INTENT_5> | PostPictureWithUrlAndWithCaption__ <INTENT_6> | ShowAlbumWithName__ <INTENT_7>);
 
 #INETNTS
-<INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
-<INTENT_1_a> = (otwórz | uruchom) (facebook | facebooka | fejsa);
-<INTENT_1_b> = ((<POST_VERB> | napisz) coś na (facebooka | fejsie) | stwórz nowy post na (facebooka | facebook | fejsa) | zaktualizuj [mój] status na (facebooku | fejsie));
+##1) OPEN FACEBOOK
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ otwórz (facebook | facebooka | fejsa);
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ uruchom (facebook | facebooka | fejsa);
 
-<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d> | <INTENT_2_e> | <INTENT_2_f>;
-<INTENT_2_a> = (napisz | umieść | stwórz | dodaj) [status] <STATUS> na (facebooku | fejsie);
-<INTENT_2_b> = (napisz | umieść | stwórz | dodaj) [status] na (facebooku | fejsie) [o tym że] <STATUS>;
-<INTENT_2_c> = (zaktualizuj | updateuj | informuj) [mojego] (facebooka | fejsa) o [status [mówiący]] <STATUS>;
-<INTENT_2_d> = (<POST_VERB> | napisz) [nowy] post (że | który mówi [że] | o treści) <STATUS> [na facebooku | na fejsie];
-<INTENT_2_e> = (napisz | umieść | stwórz | dodaj) na [mojej] tablicy na (facebooku | fejsie) <STATUS>;
-<INTENT_2_f> = (napisz | umieść | stwórz | dodaj) <STATUS> na [mojej] tablicy na (facebooku | fejsie);
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ stwórz [nowy] post na (facebooka | facebook | fejsa);
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ zaktualizuj [mój] status na (facebooku | fejsie);
 
-<INTENT_3> = <POST_VERB> (zdjęcie | foty | fotki) (do | na) [mojego] (facebooka | fejsa);
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4> | <INTENT_1_L2TC_5>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ wyślij [coś] na (facebooka | fejsie | facebooku);
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ uploaduj [coś] na (facebooka | fejsie | facebooku);
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ dodaj [coś] na (facebooka | fejsie | facebooku);
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ umieść [coś] na (facebooka | fejsie | facebooku);
+<INTENT_1_L2TC_5> = L2TC__ verb_pattern_05__ napisz [coś] na (facebooka | fejsie | facebooku);
 
-<INTENT_4> = <POST_VERB> (zdjęcie | foty | fotki) [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ niech wszyscy wiedzą co właśnie robię;
 
-<INTENT_5> = <POST_VERB> (url | link | hiperlink) <PICTURE_URL> (na | do) (facebooka | fejsa);
+##2) CREATE POST
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
 
-<INTENT_6> = <POST_VERB> (url | link | hiperlink) <PICTURE_URL> [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ napisz ([status] <STATUS> na (facebooku | fejsie) | [status] na (facebooku | fejsie) [o tym że] <STATUS> | na [mojej] tablicy na (facebooku | fejsie) <STATUS> | <STATUS> na [mojej] tablicy na (facebooku | fejsie));
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ udostępnij ([status] <STATUS> na (facebooku | fejsie) | [status] na (facebooku | fejsie) [o tym że] <STATUS> | na [mojej] tablicy na (facebooku | fejsie) <STATUS> | <STATUS> na [mojej] tablicy na (facebooku | fejsie));
 
-<INTENT_7> = (pokaż | wyświetl) [na facebooku | na fejsie] [moje] zdjęcia z albumu <ALBUM> | na facebooku (wyświetl | pokaż) moje zdjęcia w albumie <ALBUM> | jakie mam zdjęcia w albumie <ALBUM> na facebooku;
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ umieść ([status] <STATUS> na (facebooku | fejsie) | [status] na (facebooku | fejsie) [o tym że] <STATUS> | na [mojej] tablicy na (facebooku | fejsie) <STATUS> | <STATUS> na [mojej] tablicy na (facebooku | fejsie));
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ dodaj ([status] <STATUS> na (facebooku | fejsie) | [status] na (facebooku | fejsie) [o tym że] <STATUS> | na [mojej] tablicy na (facebooku | fejsie) <STATUS> | <STATUS> na [mojej] tablicy na (facebooku | fejsie));
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3> | <INTENT_2_L2TC_4> | <INTENT_2_L2TC_5> | <INTENT_2_L2TC_6> | <INTENT_2_L2TC_7> | <INTENT_2_L2TC_8> | <INTENT_2_L2TC_9>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ stwórz ([status] <STATUS> na (facebooku | fejsie) | [status] na (facebooku | fejsie) [o tym że] <STATUS> | na [mojej] tablicy na (facebooku | fejsie) <STATUS> | <STATUS> na [mojej] tablicy na (facebooku | fejsie));
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ zaktualizuj [mojego] (facebooka | fejsa) o [status [mówiący]] <STATUS>;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ updateuj [mojego] (facebooka | fejsa) o [status [mówiący]] <STATUS>;
+<INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ informuj [mojego] (facebooka | fejsa) o [status [mówiący]] <STATUS>;
+<INTENT_2_L2TC_5> = L2TC__ verb_pattern_05__ wyślij [nowy] post (że | który mówi [że] | o treści) <STATUS> [na facebooku | na fejsie];
+<INTENT_2_L2TC_6> = L2TC__ verb_pattern_06__ uploaduj [nowy] post (że | który mówi [że] | o treści) <STATUS> [na facebooku | na fejsie];
+<INTENT_2_L2TC_7> = L2TC__ verb_pattern_07__ dodaj [nowy] post (że | który mówi [że] | o treści) <STATUS> [na facebooku | na fejsie];
+<INTENT_2_L2TC_8> = L2TC__ verb_pattern_08__ umieść [nowy] post (że | który mówi [że] | o treści) <STATUS> [na facebooku | na fejsie];
+<INTENT_2_L2TC_9> = L2TC__ verb_pattern_09__ napisz [nowy] post (że | który mówi [że] | o treści) <STATUS> [na facebooku | na fejsie];
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ powiedz ([mojej] rodzinie | [moim] przyjaciołom | [moim] znajomym) o <STATUS>;
+
+##3) PUBLISH PHOTO
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ wyślij (zdjęcie | foty | fotki) (do | na) [mojego] (facebooka | fejsa);
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ udostępnij (zdjęcie | foty | fotki) (do | na) [mojego] (facebooka | fejsa);
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ prześlij (zdjęcie | foty | fotki) (do | na) [mojego] (facebooka | fejsa);
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ dodaj (zdjęcie | foty | fotki) (do | na) [mojego] (facebooka | fejsa);
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ uploaduj (zdjęcie | foty | fotki) (do | na) [mojego] (facebooka | fejsa);
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ umieść (zdjęcie | foty | fotki) (do | na) [mojego] (facebooka | fejsa);
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ niech wszyscy zobaczą to zdjęcie;
+
+##4) PUBLISH PHOTO WITH CAPTION
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ wyślij (zdjęcie | foty | fotki) [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ udostępnij (zdjęcie | foty | fotki) [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ prześlij (zdjęcie | foty | fotki) [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ dodaj (zdjęcie | foty | fotki) [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ uploaduj (zdjęcie | foty | fotki) [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ umieść (zdjęcie | foty | fotki) [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ podpisz to <CAPTION> i udostępnij to (znajomym | przyjaciołom | rodzinie);
+
+##5) PUBLUSH LINK
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ wyślij (url | link | hiperlink) <PICTURE_URL> (na | do) (facebooka | fejsa);
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ udostępnij (url | link | hiperlink) <PICTURE_URL> (na | do) (facebooka | fejsa);
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ prześlij (url | link | hiperlink) <PICTURE_URL> (na | do) (facebooka | fejsa);
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ dodaj (url | link | hiperlink) <PICTURE_URL> (na | do) (facebooka | fejsa);
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ uploaduj (url | link | hiperlink) <PICTURE_URL> (na | do) (facebooka | fejsa);
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ umieść (url | link | hiperlink) <PICTURE_URL> (na | do) (facebooka | fejsa);
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ podziel się (artykułem | tym) <PICTURE_URL> ze znajomymi;
+
+##6) PUBLISH LINK WITH CAPTION
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ wyślij (url | link | hiperlink) <PICTURE_URL> [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ udostępnij (url | link | hiperlink) <PICTURE_URL> [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ prześlij (url | link | hiperlink) <PICTURE_URL> [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ dodaj (url | link | hiperlink) <PICTURE_URL> [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ uploaduj (url | link | hiperlink) <PICTURE_URL> [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ umieść (url | link | hiperlink) <PICTURE_URL> [na facebooka | na fejsa] z (podpisem | opisem) <CAPTION>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__  <PICTURE_URL> podpisz to <CAPTION> i wyślij na facebooka;
+
+##7) SHOW ALBUM
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ pokaż [na facebooku | na fejsie] [moje] zdjęcia z albumu <ALBUM>;
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ wyświetl [na facebooku | na fejsie] [moje] zdjęcia z albumu <ALBUM>;
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ otwórz [moje] zdjęcia z albumu <ALBUM> [na facebooku | na fejsie];
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ na facebooku wyświetl moje zdjęcia w albumie <ALBUM>;
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ na facebooku pokaż moje zdjęcia w albumie <ALBUM>;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ jakie mam zdjęcia w albumie <ALBUM> na facebooku;
 
 #SLOTS
 <ALBUM> = FACEBOOK.SLOT.ALBUM;
 <STATUS> = FACEBOOK.SLOT.STATUS;
 <CAPTION> = FACEBOOK.SLOT.CAPTION;
 <PICTURE_URL> = FACEBOOK.SLOT.PICTURE_URL;
-
-#LANG. COMPONENTS
-<POST_VERB> = wyślij | uploaduj | dodaj | umieść;

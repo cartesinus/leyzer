@@ -1,0 +1,123 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> | ScrollDown__ <INTENT_3> | ScrollUp__ <INTENT_4> | DownloadAsPdf__ <INTENT_5> | ChangeLanguageToLanguage__ <INTENT_6> | RandomPage__ <INTENT_7> | GoToElementNumber__ <INTENT_8>);
+
+#INTENTS
+##1) OPEN WIKIPEDIA PAGE
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4> | <INTENT_1_L2TC_5> | <INTENT_1_L2TC_6> | <INTENT_1_L2TC_7> | <INTENT_1_L2TC_8>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ ;
+<INTENT_1_L2TC_5> = L2TC__ verb_pattern_05__ ;
+<INTENT_1_L2TC_6> = L2TC__ verb_pattern_06__ ;
+<INTENT_1_L2TC_7> = L2TC__ verb_pattern_07__ ;
+<INTENT_1_L2TC_8> = L2TC__ verb_pattern_08__ ;
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##2) FIND GIVEN QUERY ON WIKIPEDIA
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L2TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2> | <INTENT_2_L0TC_3>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ ;
+<INTENT_2_L0TC_3> = L0TC__ verb_pattern_03__ ;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ ;
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ ;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ ;
+
+<INTENT_2_REPHRASE> = REPHRASE__ (<INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>);
+<INTENT_2_REPHRASE_1> = verb_pattern_01__ ;
+<INTENT_2_REPHRASE_2> = verb_pattern_02__ ;
+
+##3) SCROLL DOWN
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ ;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##4) SCROLL UP
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_4>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ ;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##5) DOWNLOAD PAGE AS PDF
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##6) CHANGE LANGUAGE OF PAGE
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##7) SHOW RANDOM
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##8) CONTENT NAVIGATION
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC_1> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2> | <INTENT_8_L1TC_3>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ ;
+<INTENT_8_L1TC_3> = L1TC__ verb_pattern_03__ ;
+
+<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+#SLOTS
+<QUERY> = WIKIPEDIA.SLOT.QUERY;

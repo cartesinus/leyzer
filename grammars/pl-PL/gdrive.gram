@@ -1,39 +1,207 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> | ShowFilesWithStar__ <INTENT_3> | ShowFilesFromTime__ <INTENT_4> | ShowFilesWithSize__ <INTENT_5> | CreateFile__ <INTENT_6> | CreateFileWithName__ <INTENT_7> | ShowOldestFiles__ <INTENT_8> | ShowNewestFiles__ <INTENT_9> | SortAlphabetica__ <INTENT_10> | SortReverseAlphabetical__ <INTENT_11> | OpenFileWithName__ <INTENT_12> | ShareFileWithNameToAddress__ <INTENT_13>);
 
 #INTENTS
-<INTENT_1> = <SHOW_VERB> <MY_GDRIVE_FILES>;
+##1) OPEN GDRIVE
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ otwórz <MY_GDRIVE_FILES>;
 
-<INTENT_2> = <SHOW_VERB> <MY_GDRIVE_FILES> (o typie | z typem) <MIME_TYPE>;
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ pokaż <MY_GDRIVE_FILES>;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl <MY_GDRIVE_FILES>;
 
-<INTENT_3> = <SHOW_VERB> <MY_GDRIVE_FILES> (które oznaczyłem | oznaczone) gwiazdką;
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ listuj <MY_GDRIVE_FILES>;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ drukuj na ekran <MY_GDRIVE_FILES>;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ załaduj <MY_GDRIVE_FILES>;
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ zaciągnij <MY_GDRIVE_FILES>;
 
-<INTENT_4> = <SHOW_VERB> <MY_GDRIVE_FILES> (stworzone | zmodyfikowane) <TIME>;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ prześlij plik z (chmury google | dysku google) na mój ekran;
 
-<INTENT_5> = <SHOW_VERB> <MY_GDRIVE_FILES> (mniejsze | większe) niż <FILE_SIZE>;
+##2) SHOW FILES OF TYPE
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ otwórz <MY_GDRIVE_FILES> (o typie | z typem) <MIME_TYPE>;
 
-<INTENT_6> = (stwórz | utwórz) plik (na | w) [moim] (google drive | google drivie | dysku google);
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ pokaż <MY_GDRIVE_FILES> (o typie | z typem) <MIME_TYPE>;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl <MY_GDRIVE_FILES> (o typie | z typem) <MIME_TYPE>;
 
-<INTENT_7> = (stwórz | utwórz) plik (na | w) [moim] (google drive | google drivie | dysku google) o nazwie <FILE_NAME>;
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3> | <INTENT_2_L2TC_4>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ listuj <MY_GDRIVE_FILES> (o typie | z typem) <MIME_TYPE>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ drukuj na ekran <MY_GDRIVE_FILES> (o typie | z typem) <MIME_TYPE>;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ załaduj <MY_GDRIVE_FILES> (o typie | z typem) <MIME_TYPE>;
+<INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ zaciągnij <MY_GDRIVE_FILES> (o typie | z typem) <MIME_TYPE>;
 
-<INTENT_8> = <SHOW_VERB> ([mój] najstarszy plik na (google drive | dysku google) | [moje] najstarsze pliki na google drive);
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ prześlij plik <MIME_TYPE> z (chmury google | dysku google) na mój ekran;
 
-<INTENT_9> = <SHOW_VERB> ([mój] (najnowszy | ostatni) plik na (google drive | dysku google) | [moje] (najnowsze | ostatnie) pliki na google drive);
+##3) SHOW STARRED FILES
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ otwórz <MY_GDRIVE_FILES> (które oznaczyłem | oznaczone) gwiazdką;
 
-<INTENT_10> = <SHOW_VERB> [moje] pliki (na | w) (google drive | dysku google) w kolejności alfabetycznej;
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ pokaż <MY_GDRIVE_FILES> (które oznaczyłem | oznaczone) gwiazdką;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl <MY_GDRIVE_FILES> (które oznaczyłem | oznaczone) gwiazdką;
 
-<INTENT_11> = <SHOW_VERB> [moje] pliki (na | w) (google drive | dysku google) w odwrotnej kolejności alfabetycznej;
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3> | <INTENT_3_L2TC_4>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ listuj <MY_GDRIVE_FILES> (które oznaczyłem | oznaczone) gwiazdką;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ drukuj na ekran <MY_GDRIVE_FILES> (które oznaczyłem | oznaczone) gwiazdką;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ załaduj <MY_GDRIVE_FILES> (które oznaczyłem | oznaczone) gwiazdką;
+<INTENT_3_L2TC_4> = L2TC__ verb_pattern_04__ zaciągnij <MY_GDRIVE_FILES> (które oznaczyłem | oznaczone) gwiazdką;
 
-<INTENT_12> = <INTENT_12_a> | <INTENT_12_b> | <INTENT_12_c>;
-<INTENT_12_a> = otwórz [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> do edycji [na google drive];
-<INTENT_12_b> = (edytuj | zmień) [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> [na google drive];
-<INTENT_12_c> = [na google drive] (edytuj | zmień) [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> [na google drive];
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ prześlij plik (oznaczone gwiazdką | te ulubione) z (chmury google | dysku google) na mój ekran;
 
-<INTENT_13> = <INTENT_13_a> | <INTENT_13_b> | <INTENT_13_c>;
-<INTENT_13_a> = udostępnij [mój] plik [o nazwie] <FILE_NAME> do <MAIL> [i nadaj uprawnienia do (edycji | odczytu | odczytu i zapisu)];
-<INTENT_13_b> = daj dostęp [do edycji | odczytu | odczytu i zapisu] do <FILE_NAME> <MAIL>;
-<INTENT_13_c> = niech <MAIL> ma dostęp [do edycji | odczytu | odczytu i zapisu] pliku <FILE_NAME>;
+##4) SHOW FILES MODIFIED ON TIME
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ otwórz <MY_GDRIVE_FILES> (stworzone | zmodyfikowane) <TIME>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ pokaż <MY_GDRIVE_FILES> (stworzone | zmodyfikowane) <TIME>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl <MY_GDRIVE_FILES> (stworzone | zmodyfikowane) <TIME>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ listuj <MY_GDRIVE_FILES> (stworzone | zmodyfikowane) <TIME>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ drukuj na ekran <MY_GDRIVE_FILES> (stworzone | zmodyfikowane) <TIME>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ załaduj <MY_GDRIVE_FILES> (stworzone | zmodyfikowane) <TIME>;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ zaciągnij <MY_GDRIVE_FILES> (stworzone | zmodyfikowane) <TIME>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ prześlij plik z <TIME> z (chmury google | dysku google) na mój ekran;
+
+##5) SHOW FILES SMALLER|GREATER THAN
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ otwórz <MY_GDRIVE_FILES> (mniejsze | większe) niż <FILE_SIZE>;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ pokaż <MY_GDRIVE_FILES> (mniejsze | większe) niż <FILE_SIZE>;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl <MY_GDRIVE_FILES> (mniejsze | większe) niż <FILE_SIZE>;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3> | <INTENT_5_L2TC_4>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ listuj <MY_GDRIVE_FILES> (mniejsze | większe) niż <FILE_SIZE>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ drukuj na ekran <MY_GDRIVE_FILES> (mniejsze | większe) niż <FILE_SIZE>;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ załaduj <MY_GDRIVE_FILES> (mniejsze | większe) niż <FILE_SIZE>;
+<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ zaciągnij <MY_GDRIVE_FILES> (mniejsze | większe) niż <FILE_SIZE>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ prześlij plik z (chmury google | dysku google) które są (mniejsze | większe) niż <FILE_SIZE> na mój ekran;
+
+##6) CREATE FILE
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ stwórz [nowy] plik (na | w) [moim] (google drive | google drivie | dysku google);
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ utwórz [nowy] plik (na | w) [moim] (google drive | google drivie | dysku google);
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ zrób [nowy] plik (na | w) [moim] (google drive | google drivie | dysku google);
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ wygeneruj [nowy] plik (na | w) [moim] (google drive | google drivie | dysku google);
+
+<INTENT_6_REPHRASE> = <INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2>;
+<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ edytuj plik i umieść go na (google drive | google drivie | dysku google);
+<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ edytuj plik i prześlij go na (google drive | google drivie | dysku google);
+
+##7) CREATE FILE WITH NAME
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ stwórz [nowy] plik (na | w) [moim] (google drive | google drivie | dysku google) o nazwie <FILE_NAME>;
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ utwórz [nowy] plik (na | w) [moim] (google drive | google drivie | dysku google) o nazwie <FILE_NAME>;
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ zrób [nowy] plik (na | w) [moim] (google drive | google drivie | dysku google) o nazwie <FILE_NAME>;
+
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ wygeneruj [nowy] plik (na | w) [moim] (google drive | google drivie | dysku google) o nazwie <FILE_NAME>;
+
+<INTENT_7_REPHRASE> = <INTENT_7_REPHRASE_1> | <INTENT_7_REPHRASE_2>;
+<INTENT_7_REPHRASE_1> = REPHRASE__ verb_pattern_01__ edytuj plik o nazwie <FILE_NAME> i umieść go na (google drive | google drivie | dysku google);
+<INTENT_7_REPHRASE_2> = REPHRASE__ verb_pattern_02__ edytuj plik o nazwie <FILE_NAME> i prześlij go na (google drive | google drivie | dysku google);
+
+##8) SHOW OLDEST FILES
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ pokaż ([mój] najstarszy plik na (google drive | dysku google) | [moje] najstarsze pliki na google drive);
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl ([mój] najstarszy plik na (google drive | dysku google) | [moje] najstarsze pliki na google drive);
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ otwórz ([mój] najstarszy plik na (google drive | dysku google) | [moje] najstarsze pliki na google drive);
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2> | <INTENT_8_L2TC_3> | <INTENT_8_L2TC_4>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ wylistuj ([mój] najstarszy plik na (google drive | dysku google) | [moje] najstarsze pliki na google drive);
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ drukuj na ekran ([mój] najstarszy plik na (google drive | dysku google) | [moje] najstarsze pliki na google drive);
+<INTENT_8_L2TC_3> = L2TC__ verb_pattern_03__ załaduj ([mój] najstarszy plik na (google drive | dysku google) | [moje] najstarsze pliki na google drive);
+<INTENT_8_L2TC_4> = L2TC__ verb_pattern_04__ zaciągnij ([mój] najstarszy plik na (google drive | dysku google) | [moje] najstarsze pliki na google drive);
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ jaki najstarszy plik znajdę na moim (google drive | dysku google);
+
+##9) SHOW RECENT FILE
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ pokaż ([mój] (najnowszy | ostatni) plik na (google drive | dysku google) | [moje] (najnowsze | ostatnie) pliki na google drive);
+
+<INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl ([mój] (najnowszy | ostatni) plik na (google drive | dysku google) | [moje] (najnowsze | ostatnie) pliki na google drive);
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ otwórz ([mój] (najnowszy | ostatni) plik na (google drive | dysku google) | [moje] (najnowsze | ostatnie) pliki na google drive);
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2> | <INTENT_9_L2TC_3> | <INTENT_9_L2TC_4>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ wylistuj ([mój] (najnowszy | ostatni) plik na (google drive | dysku google) | [moje] (najnowsze | ostatnie) pliki na google drive);
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ drukuj na ekran ([mój] (najnowszy | ostatni) plik na (google drive | dysku google) | [moje] (najnowsze | ostatnie) pliki na google drive);
+<INTENT_9_L2TC_3> = L2TC__ verb_pattern_03__ załaduj ([mój] (najnowszy | ostatni) plik na (google drive | dysku google) | [moje] (najnowsze | ostatnie) pliki na google drive);
+<INTENT_9_L2TC_4> = L2TC__ verb_pattern_04__ zaciągnij ([mój] (najnowszy | ostatni) plik na (google drive | dysku google) | [moje] (najnowsze | ostatnie) pliki na google drive);
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ jaki (najnowszy | ostatni) plik znajdę na moim (google drive | dysku google);
+
+##10) ORDER ALPHABETICAL
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = <INTENT_10_L0TC_1> | <INTENT_10_L0TC_2>;
+<INTENT_10_L0TC_1> = L0TC__ verb_pattern_01__ pokaż [moje] pliki (na | w) (google drive | dysku google) w kolejności alfabetycznej;
+<INTENT_10_L0TC_2> = L0TC__ verb_pattern_02__ posortuj [moje] pliki (na | w) (google drive | dysku google) w kolejności alfabetycznej;
+
+<INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [moje] pliki (na | w) (google drive | dysku google) w kolejności alfabetycznej;
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ otwórz [moje] pliki (na | w) (google drive | dysku google) w kolejności alfabetycznej;
+
+<INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2> | <INTENT_10_L2TC_3> | <INTENT_10_L2TC_4>;
+<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ wylistuj [moje] pliki (na | w) (google drive | dysku google) w kolejności alfabetycznej;
+<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ drukuj na ekran [moje] pliki (na | w) (google drive | dysku google) w kolejności alfabetycznej;
+<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ załaduj [moje] pliki (na | w) (google drive | dysku google) w kolejności alfabetycznej;
+<INTENT_10_L2TC_4> = L2TC__ verb_pattern_04__ zaciągnij [moje] pliki (na | w) (google drive | dysku google) w kolejności alfabetycznej;
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę zobaczyć pliki odwrotnie posortowane według tego jak się nazywają;
+
+##11) ORDER REVERSE ALPHABETICAL
+<INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
+<INTENT_11_L0TC> = <INTENT_11_L0TC_1> | <INTENT_11_L0TC_2>;
+<INTENT_11_L0TC_1> = L0TC__ verb_pattern_01__ pokaż [moje] pliki (na | w) (google drive | dysku google) w odwrotnej kolejności alfabetycznej;
+<INTENT_11_L0TC_2> = L0TC__ verb_pattern_02__ posortuj [moje] pliki (na | w) (google drive | dysku google) w odwrotnej kolejności alfabetycznej;
+
+<INTENT_11_L1TC> = <INTENT_11_L1TC_1> | <INTENT_11_L1TC_2>;
+<INTENT_11_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [moje] pliki (na | w) (google drive | dysku google) w odwrotnej kolejności alfabetycznej;
+<INTENT_11_L1TC_2> = L1TC__ verb_pattern_02__ otwórz [moje] pliki (na | w) (google drive | dysku google) w odwrotnej kolejności alfabetycznej;
+
+<INTENT_11_L2TC> = <INTENT_11_L2TC_1> | <INTENT_11_L2TC_2> | <INTENT_11_L2TC_3> | <INTENT_11_L2TC_4>;
+<INTENT_11_L2TC_1> = L2TC__ verb_pattern_01__ wylistuj [moje] pliki (na | w) (google drive | dysku google) w odwrotnej kolejności alfabetycznej;
+<INTENT_11_L2TC_2> = L2TC__ verb_pattern_02__ drukuj na ekran [moje] pliki (na | w) (google drive | dysku google) w odwrotnej kolejności alfabetycznej;
+<INTENT_11_L2TC_3> = L2TC__ verb_pattern_03__ załaduj [moje] pliki (na | w) (google drive | dysku google) w odwrotnej kolejności alfabetycznej;
+<INTENT_11_L2TC_4> = L2TC__ verb_pattern_04__ zaciągnij [moje] pliki (na | w) (google drive | dysku google) w odwrotnej kolejności alfabetycznej;
+
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę zobaczyć pliki odwrotnie posortowane według tego jak się nazywają;
+
+##12) EDIT FILE
+<INTENT_12> = <INTENT_12_L0TC> | <INTENT_12_L1TC> | <INTENT_12_L2TC> | <INTENT_12_REPHRASE>;
+<INTENT_12_L0TC> = <INTENT_12_L0TC_1> | <INTENT_12_L0TC_2>;
+<INTENT_12_L0TC_1> = L0TC__ verb_pattern_01__ edytuj [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> [na google drive];
+<INTENT_12_L0TC_2> = L0TC__ verb_pattern_02__ zmień [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> [na google drive];
+
+<INTENT_12_L1TC> = L1TC__ verb_pattern_01__ otwórz [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> do edycji [na google drive];
+
+<INTENT_12_L2TC> = L2TC__ verb_pattern_01__ [na google drive] (edytuj | zmień) [mój] plik [o nazwie | który nazywa się | nazywający się] <FILE_NAME> [na google drive];
+
+<INTENT_12_REPHRASE> = REPHRASE__ verb_pattern_01__ wprowadź zmiany do pliku na google drive;
+
+##13) SHARE FILE
+<INTENT_13> = <INTENT_13_L0TC> | <INTENT_13_L1TC> | <INTENT_13_L2TC> | <INTENT_13_REPHRASE>;
+<INTENT_13_L0TC> = L0TC__ verb_pattern_01__ udostępnij [mój] plik [o nazwie] <FILE_NAME> do <MAIL> [i nadaj uprawnienia do (edycji | odczytu | odczytu i zapisu)];
+
+<INTENT_13_L1TC> = L1TC__ verb_pattern_01__ daj dostęp [do edycji | odczytu | odczytu i zapisu] do <FILE_NAME> <MAIL>;
+
+<INTENT_13_L2TC> = L2TC__ verb_pattern_01__ niech <MAIL> ma dostęp [do edycji | odczytu | odczytu i zapisu] pliku <FILE_NAME>;
+
+<INTENT_13_REPHRASE> = <INTENT_13_REPHRASE_1> | <INTENT_13_REPHRASE_2>;
+<INTENT_13_REPHRASE_1> = REPHRASE__ verb_pattern_01__ podziel się tym plikiem z <MAIL>;
+<INTENT_13_REPHRASE_2> = REPHRASE__ verb_pattern_02__ chcę pracować nad tym plikiem z <MAIL>;
 
 #SLOTS
 <MIME_TYPE> = GDRIVE.SLOT.MIME_TYPE;
@@ -43,5 +211,4 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 <MAIL> = GDRIVE.SLOT.MAIL;
 
 #LANG. COMPONENTS
-<SHOW_VERB> = pokaż | wyświetl | wylistuj | otwórz;
 <MY_GDRIVE_FILES> = moje pliki (z | na | w) (google drive | dysku google);

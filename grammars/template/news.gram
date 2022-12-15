@@ -1,0 +1,72 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | NotifyWhenPortalUpdates__ <INTENT_3> | NotifyWhenPortalUpdatesInSection__ <INTENT_4>);
+
+#PRECONDITIONS
+<WHEN_1> = ;
+<WHEN_2> = ;
+
+#INTENTS
+##1) SHOW NEWS FROM PORTAL
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2> | <INTENT_1_L1TC_3> | <INTENT_1_L1TC_4> | <INTENT_1_L1TC_5>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ ;
+<INTENT_1_L1TC_3> = L1TC__ verb_pattern_03__ ;
+<INTENT_1_L1TC_4> = L1TC__ verb_pattern_04__ ;
+<INTENT_1_L1TC_5> = L1TC__ verb_pattern_05__ ;
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ ;
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##2) SHOW NEWS FROM SECTION
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3> | <INTENT_2_L1TC_4> | <INTENT_2_L1TC_5>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ ;
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ ;
+<INTENT_2_L1TC_4> = L1TC__ verb_pattern_04__ ;
+<INTENT_2_L1TC_5> = L1TC__ verb_pattern_05__ ;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ ;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##3) NOTIFY ON NEWS
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ ;
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##4) NOTIFY ON NEWS IN SECTION
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+#SLOTS
+<SECTION> = NEWS.SLOT.SECTION;
+<PORTAL> = NEWS.SLOT.PORTAL;
+<TIME> = NEWS.SLOT.TIME;

@@ -1,34 +1,124 @@
- #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> | ScrollDown__ <INTENT_3> | ScrollUp__ <INTENT_4> | DownloadAsPdf__ <INTENT_5> | ChangeLanguageToLanguage__ <INTENT_6> | RandomPage__ <INTENT_7> | GoToElementNumber__ <INTENT_8>);
 
 #INTENTS
-#open wikipedia page
-<INTENT_1> = (open | show [me] | display | browse) (wiki | wikipedia) [pages | definition];
+##1) OPEN WIKIPEDIA PAGE
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ open (wiki | wikipedia);
 
-#find given query on wikipedia
-<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c>;
-<INTENT_2_a> = (find | search for | browse) <QUERY> [definition] (on | in) (wiki | wikipedia);
-<INTENT_2_b> = [pages matching] <QUERY> (on | in) (wiki | wikipedia);
-<INTENT_2_c> = <QUERY> matching (on | in) (wiki | wikipedia);
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2> | <INTENT_1_L1TC_3>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ show [me] (wiki | wikipedia) [definition];
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ display (wiki | wikipedia) [pages | definition];
+<INTENT_1_L1TC_3> = L1TC__ verb_pattern_03__ browse (wiki | wikipedia) [pages | definition];
 
-#scroll down
-<INTENT_3> = page down | scroll down | downward scroll | go [page] down;
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ find (wiki | wikipedia) definition;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ search for (wiki | wikipedia) definition;
 
-#scroll up
-<INTENT_4> = page up | scroll up | upward scroll | go [page] up;
+<INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3>;
+<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ i (need | want) to check some facts;
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ i (need | want) to research (something | this | that);
+<INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ i (need | want) to learn something [new];
 
-#download page as pdf
-<INTENT_5> = (download | get) [this | that] (page | article) as [a] pdf [file];
+##2) FIND GIVEN QUERY ON WIKIPEDIA
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ find <QUERY> [definition] (on | in) (wiki | wikipedia);
 
-#change language of page
-<INTENT_6> = ((change | switch) language [of this (page | article)] to | (show | display) (this | that) (page | article) in) <LANGUAGE>;
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ search for <QUERY> [definition] (on | in) (wiki | wikipedia);
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ browse <QUERY> [definition] (on | in) (wiki | wikipedia);
 
-#show random
-<INTENT_7> = ([show [me] | display] random (wiki | wikipedia) (page | article) | (wiki | wikipedia) (surf | surfing) | (surf | cruise) (wiki | wikipedia));
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ give me <QUERY> matching (on | in) (wiki | wikipedia);
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ show me <QUERY> matching (on | in) (wiki | wikipedia);
 
-#content navigation
-<INTENT_8> = (go | jump | navigate) to [the] <ELEMENT> (element | item) (from | in) contents;
+<INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2> | <INTENT_2_REPHRASE_3>;
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ i (need | want) to check some facts about <QUERY>;
+<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ i (need | want) to research <QUERY>;
+<INTENT_2_REPHRASE_3> = REPHRASE__ verb_pattern_03__ i (need | want) to learn about <QUERY> [something [new]];
+
+##3) SCROLL DOWN
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ page down;
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ scroll down;
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ show next page;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ downward scroll;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ go [[one] page] down;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ continue reading;
+
+##4) SCROLL UP
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ page up;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ scroll up;
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ show previous page;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ upward scroll;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ go [page] up;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ get back to what i just read;
+
+##5) DOWNLOAD PAGE AS PDF
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ download [this | that] (page | article) as [a] pdf [file];
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ save [this | that] (page | article) as [a] pdf [file];
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ keep [this | that] (page | article) as [a] pdf [file];
+
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ get [this | that] (page | article) as [a] pdf [file];
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ print (this | that) [wikipedia] page;
+
+##6) CHANGE LANGUAGE OF PAGE
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ change language [of this (page | article)] to <LANGUAGE>;
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ switch language [of this (page | article)] to <LANGUAGE>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ show (this | that) (page | article) in <LANGUAGE> [language];
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_01__ display (this | that) (page | article) in <LANGUAGE> [language];
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ i need to compare this article with <LANGUAGE> version;
+
+##7) SHOW RANDOM
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ show [me] random (wiki | wikipedia) (page | article);
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ display random (wiki | wikipedia) (page | article);
+
+<INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2>;
+<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ open random (wiki | wikipedia) (page | article);
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ shuffle random (wiki | wikipedia) (page | article);
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2> | <INTENT_7_L2TC_3>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ surf (wiki | wikipedia);
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ cruise (wiki | wikipedia);
+<INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ (wiki | wikipedia) (surf | surfing);
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to learn something new;
+
+##8) CONTENT NAVIGATION
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ go to [the] <ELEMENT> (element | item) (from | in) contents;
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2> | <INTENT_8_L1TC_3>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ navigate to [the] <ELEMENT> (element | item) (from | in) contents;
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ show [the] <ELEMENT> (element | item) (from | in) contents;
+<INTENT_8_L1TC_3> = L1TC__ verb_pattern_03__ display [the] <ELEMENT> (element | item) (from | in) contents;
+
+<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ jump to [the] <ELEMENT> (element | item) (from | in) contents;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ open <ELEMENT> paragraph [of this article];
 
 #SLOTS
 <QUERY> = WIKIPEDIA.SLOT.QUERY;

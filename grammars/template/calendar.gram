@@ -1,0 +1,131 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithDate__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8> | CheckCalendarMeeting__ <INTENT_9>);
+
+#PRECONDITIONS
+<WHEN_1> = ;
+<WHEN_2> = ;
+<WHEN_3> = ;
+
+#INTENTS
+##1) OPEN CALENDAR
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##2) CHECK CALENDAR IN DATE
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_phrase_01__ ;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_phrase_01__ ;
+<INTENT_2_L1TC_2> = L1TC__ verb_phrase_02__ ;
+
+<INTENT_2_L2TC> = L2TC__ verb_phrase_01__ ;
+
+<INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>;
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ ;
+
+##3) ADD EVENT
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##4) ADD EVENT ON DATE
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##5) NOTIFY ON EVENT START
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##6) DONT NOTIFY ON EVENT START
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_6_REPHRASE> = <INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2>;
+<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_01__ ;
+
+##7) NOTIFY ON EVENT START IN LOCATION
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##8) DONT NOTIFY ON EVENT START IN LOCATION
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_8_REPHRASE> = <INTENT_8_REPHRASE_1> | <INTENT_8_REPHRASE_2>;
+<INTENT_8_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_8_REPHRASE_2> = REPHRASE__ verb_pattern_01__ ;
+
+##9) CHECK WHEN EVENT START
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_9_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+#SLOTS
+<DATE> = CALENDAR.SLOT.DATE;
+<DATE_W> = CALENDAR.SLOT.DATE_W;
+<DATE_WE> = CALENDAR.SLOT.DATE_WE;
+<EVENT_NAME> = CALENDAR.SLOT.EVENT_NAME;
+<LOCATION> = CALENDAR.SLOT.LOCATION;
+<ORGANIZER> = CALENDAR.SLOT.ORGANIZER;
+<COUNTRY> = CALENDAR.SLOT.COUNTRY;
+
+#LANG. COMPONENTS
+<CALENDAR_APP> = ;
+<CALENDAR_APP_LOC> = ;
+<CALENDAR_APP_GEN> = ;

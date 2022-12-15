@@ -1,23 +1,103 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Websearch__ (OpenEngine__ <INTENT_1> | SearchTextOnEngine__ <INTENT_2> | SearchText__ <INTENT_3> | SearchImagesWithTextOnEngine__ <INTENT_4> | SearchImagesOnEngine__ <INTENT_5> | SearchImagesWithTextOnEngineWithWidthAndWithHeight__ <INTENT_6> | SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__ <INTENT_7>);
 
 #INTENTS
-<INTENT_1> = (search (on | using) <ENGINE> | <ENGINE> search | web search);
+##1) SEARCH WITH ENGINE
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ (search (on | using) <ENGINE> | <ENGINE> search | web search);
 
-<INTENT_2> = (<TXT_QUERY> (on | using) <ENGINE> | <ENGINE> <TXT_QUERY>);
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ [i (need | want) to] find [something] ([on the internet] using <ENGINE> | on <ENGINE>);
 
-<INTENT_3> = <INTENT_3_a> | <INTENT_3_b>;
-<INTENT_3_a> = [find] (websites | web sites | pages) matching <TXT_QUERY>;
-<INTENT_3_b> = (search | look) for <TXT_QUERY> (on | in) [the] web;
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ check something [on the internet] (with | using) <ENGINE>;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ seek for something [on the internet] (with | using) <ENGINE>;
 
-<INTENT_4> = (images matching <IMG_QUERY> from <ENGINE> | <IMG_QUERY> images (on | using) <ENGINE>);
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ i need (information | research) on something;
 
-<INTENT_5> = (image search | (search | find) images (on | using) <ENGINE> | <ENGINE> image search);
+##2) SEARCH TEXT WITH ENGINE
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ (<TXT_QUERY> (on | using) <ENGINE> | <ENGINE> <TXT_QUERY>);
 
-<INTENT_6> = [search for | find [me]] images (from | on) <ENGINE> matching <IMG_QUERY> with size <WIDTH> x <HEIGHT>;
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ search for <TXT_QUERY> (on | using | with) <ENGINE>;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ find <TXT_QUERY> (on | using | with) <ENGINE>;
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ show [me] <TXT_QUERY> (on | using | with) <ENGINE>;
 
-<INTENT_7> = [search for | find [me]] images (from | on) <ENGINE> matching <IMG_QUERY> <IMG_COND> than <WIDTH> [x <HEIGHT>];
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ display <TXT_QUERY> (on | using | with) <ENGINE>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ look for <TXT_QUERY> (on | using | with) <ENGINE>;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ i want <ENGINE> to get me information on <TXT_QUERY>;
+
+##3) SEARCH TEXT
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ search for <TXT_QUERY> (on | in) [the] (web | internet);
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ find <TXT_QUERY> (on | in) [the] (web | internet);
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ look for <TXT_QUERY> (on | in) [the] (web | internet);
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ show me <TXT_QUERY> (on | in) [the] (web | internet);
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ find (websites | web sites | pages) matching <TXT_QUERY>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ seek for <TXT_QUERY> (on | in) [the] (web | internet);
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ display <TXT_QUERY> (on | in) [the] (web | internet);
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ i need (information | [to do] research) on <TXT_QUERY>;
+
+##4) SEARCH IMAGE WITH ENGINE
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ find ((images | pictures) matching <IMG_QUERY> from <ENGINE> | <IMG_QUERY> images (on | using | with) <ENGINE>);
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ search for ((images | pictures) matching <IMG_QUERY> from <ENGINE> | <IMG_QUERY> images (on | using | with) <ENGINE>);
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ display ((images | pictures) matching <IMG_QUERY> from <ENGINE> | <IMG_QUERY> images (on | using | with) <ENGINE>);
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ show me ((images | pictures) matching <IMG_QUERY> from <ENGINE> | <IMG_QUERY> images (on | using | with) <ENGINE>);
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ i want ((images | pictures) matching <IMG_QUERY> from <ENGINE> | <IMG_QUERY> images (on | using | with) <ENGINE>);
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ give me images similiar to <IMG_QUERY> on <ENGINE>;
+
+##5) SEARCH IMAGE
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ find (images matching <IMG_QUERY> | <IMG_QUERY> images);
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ search for (images matching <IMG_QUERY> | <IMG_QUERY> images);
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ display (images matching <IMG_QUERY> | <IMG_QUERY> images);
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ show me (images matching <IMG_QUERY> | <IMG_QUERY> images);
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ i want (images matching <IMG_QUERY> | <IMG_QUERY> images);
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ give me images similiar to <IMG_QUERY>;
+
+##6) SEARCH IMAGE WITH WIDTH AND HEIGHT
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ find (images matching <IMG_QUERY> | <IMG_QUERY> images) (on | using | with) <ENGINE> (with | of) size <WIDTH> (x | on) <HEIGHT>;
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ search for (images matching <IMG_QUERY> | <IMG_QUERY> images) (on | using | with) <ENGINE> (with | of) size <WIDTH> (x | on) <HEIGHT>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ display (images matching <IMG_QUERY> | <IMG_QUERY> images) (on | using | with) <ENGINE> (with | of) size <WIDTH> (x | on) <HEIGHT>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ show me (images matching <IMG_QUERY> | <IMG_QUERY> images) (on | using | with) <ENGINE> (with | of) size <WIDTH> (x | on) <HEIGHT>;
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ i want (images matching <IMG_QUERY> | <IMG_QUERY> images) (on | using | with) <ENGINE> (with | of) size <WIDTH> (x | on) <HEIGHT>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ give me images similiar to <IMG_QUERY> (on | using | with) <ENGINE> that have size <WIDTH> (x | on) <HEIGHT>;
+
+##7) SEARCH IMAGE WITH WIDTH, HEIGHT OR MORE OR LESS
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ find (images matching <IMG_QUERY> | <IMG_QUERY> images) (on | using | with) <ENGINE> <IMG_COND> <WIDTH> [(x | on) <HEIGHT>];
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ search for (images matching <IMG_QUERY> | <IMG_QUERY> images) (on | using | with) <ENGINE> <IMG_COND> <WIDTH> (x | on) <HEIGHT>;
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2> | <INTENT_7_L2TC_3>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ display (images matching <IMG_QUERY> | <IMG_QUERY> images) (on | using | with) <ENGINE> <IMG_COND> <WIDTH>;
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ show me (images matching <IMG_QUERY> | <IMG_QUERY> images) (on | using | with) <ENGINE> <IMG_COND> <WIDTH>;
+<INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ i want (images matching <IMG_QUERY> | <IMG_QUERY> images) (on | using | with) <ENGINE> <IMG_COND> <WIDTH>;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ give me images similiar to <IMG_QUERY> (on | using | with) <ENGINE> <IMG_COND> <WIDTH> [(x | on) <HEIGHT>];
 
 #SLOTS
 <ENGINE> = bing | google | duckduckgo;

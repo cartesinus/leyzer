@@ -1,41 +1,175 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2> | ShowContactWithEmail__ <INTENT_3> | ShowContactWithNumber__ <INTENT_4> | ShowContactWithName__ <INTENT_5> | ShowContactWithNumberAndWithEmail__ <INTENT_6> | ShowContactWithNameAndWithNumberAndWithType__ <INTENT_7> | EditContactWithName__ <INTENT_8> | EditContactWithNumber__ <INTENT_9> | EditNumberInContactWithName__ <INTENT_10> | EditNumberInContactWithNameToNumberAndToType__ <INTENT_11>);
 
 #INTENTS
-<INTENT_1> = <SHOW_VERB> ([moje] kontakty | [moją] listę kontaktów);
+##1) OPEN CONTACTS
 
-<INTENT_2> = <SHOW_VERB> (moje informacje w kontaktach | mój wpis w kontaktach | moją wizytkówkę);
+<INTENT_1> = <INTENT_1_LXTC> | <INTENT_1_REPHRASE>;
+<INTENT_1_LXTC> = <SHOW_VERB> ([moje] kontakty | [moją] listę kontaktów);
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż [mi | tę] listę (z numerami telefonów | gdzie zapisałem (numery telefonów | osoby | znajomych));
 
-<INTENT_3> = <SHOW_VERB> [mój] kontakt (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
+##2) SHOW MY INFO
+<INTENT_2> = <INTENT_2_LXTC> | <INTENT_2_REPHRASE>;
+<INTENT_2_LXTC> = <SHOW_VERB> (moje informacje w kontaktach | mój wpis w kontaktach | moją wizytkówkę);
+<INTENT_2_REPHRASE> = REPHRASE__ (<INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>);
+<INTENT_2_REPHRASE_1> = verb_pattern_01__ pokaż mój numer [telefonu];
+<INTENT_2_REPHRASE_2> = verb_pattern_01__ przypomnij mi (jaki mam | mój) numer telefonu;
 
-<INTENT_4> = <SHOW_VERB> [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER>;
+##3) SHOW CONTACT WITH EMAIL
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = (<INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>) <INTENT_3_END>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ pokaż [mi];
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ wyszukaj [mi];
 
-<INTENT_5> = <SHOW_VERB> [mój] kontakt (o nazwie | nazywający się) <NAME>;
+<INTENT_3_L1TC> = (<INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>) <INTENT_3_END>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [mi];
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ otwórz;
 
-<INTENT_6> = <INTENT_6_a> | <INTENT_6_b>;
-<INTENT_6_a> = (<SHOW_VERB> | znajdź ) [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (oraz | i) (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
-<INTENT_6_b> = (znajdź | wyszukaj) kto ma numer [telefonu] <PHONE_NUMBER> i adres [email | mailowy] <EMAIL>;
+<INTENT_3_L2TC> = L2TC__ verb_pattern_01__ sprawdź <INTENT_3_END>;
+<INTENT_3_END> = [mój] kontakt (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
 
-<INTENT_7> = <INTENT_7_a> | <INTENT_7_b>;
-<INTENT_7_a> = (stwórz | utwórz) [nowy] kontakt (o nazwie | nazywając go) <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> [jako [typ] <PHONE_TYPE>];
-<INTENT_7_b> = dodaj do kontaktów <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> [jako [typ] <PHONE_TYPE>];
+<INTENT_3_REPHRASE> = REPHRASE__ (<INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2> | <INTENT_3_REPHRASE_3>);
+<INTENT_3_REPHRASE_1> = verb_pattern_01__ [pokaż] (czyj jest | do kogo należy) email <EMAIL>;
+<INTENT_3_REPHRASE_2> = verb_pattern_02__ powiedz (czyj jest | do kogo należy) email <EMAIL>;
+<INTENT_3_REPHRASE_3> = verb_pattern_03__ nie wiem (czyj jest | do kogo należy) email <EMAIL>;
 
-<INTENT_8> = ((aktualizuj | edytuj | popraw | zmień) [mój] kontakt [o nazwie] <NAME> | otwórz [mój] kontakt <NAME> (do edycji | żeby go edytować));
+##4) SHOW CONTACT WITH NUMBER
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = (<INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>) <INTENT_4_END>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ pokaż [mi];
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ wyszukaj [mi];
 
-<INTENT_9> = (aktualizuj | edytuj | popraw | zmień) nazwę [mojego] kontaktu (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER>;
+<INTENT_4_L1TC> = (<INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>) <INTENT_4_END>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [mi];
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ otwórz;
 
-<INTENT_10> = (aktualizuj | edytuj | popraw | zmień) numer [telefonu] [mojego] kontaktu (o nazwie | nazywający się) <NAME>;
+<INTENT_4_L2TC> = L2TC__ verb_pattern_01__ sprawdź <INTENT_4_END>;
+<INTENT_4_END> = [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER>;
 
-<INTENT_11> = <INTENT_11_a> | <INTENT_11_b>;
-<INTENT_11_a> = (zmień | popraw | aktualizuj) numer <PHONE_TYPE> <NAME> na <PHONE_NUMBER>;
-<INTENT_11_b> = (zmień | popraw | aktualizuj) numer kontaktu <NAME> na <PHONE_NUMBER> o typie <PHONE_TYPE>;
+<INTENT_4_REPHRASE> = REPHRASE__ (<INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2> | <INTENT_4_REPHRASE_3>);
+<INTENT_4_REPHRASE_1> = verb_pattern_01__ [pokaż] (czyj jest | do kogo należy) numer [telefonu] <PHONE_NUMBER>;
+<INTENT_4_REPHRASE_2> = verb_pattern_02__ powiedz (czyj jest | do kogo należy) numer [telefonu] <PHONE_NUMBER>;
+<INTENT_4_REPHRASE_3> = verb_pattern_03__ nie wiem (czyj jest | do kogo należy) numer [telfonu] <PHONE_NUMBER>;
+
+##5) SHOW CONTACT WITH NAME
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = (<INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>) <INTENT_5_END>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ pokaż [mi];
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ wyszukaj [mi];
+
+<INTENT_5_L1TC> = (<INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>) <INTENT_5_END>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [mi];
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ otwórz;
+
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ sprawdź <INTENT_5_END>;
+<INTENT_5_END> = ((informacje | date) kontaktu | [mój] kontakt (o nazwie | nazywający się)) <NAME>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ (<INTENT_5_REPHRASE_1> | <INTENT_5_REPHRASE_2>);
+<INTENT_5_REPHRASE_1> = verb_pattern_01__ przypomnij mi (dane | informacje) dla [kontaktu] <NAME>;
+<INTENT_5_REPHRASE_2> = verb_pattern_02__ jaki numer (telefonu | email) (ma | miał) <NAME>;
+
+##6) SHOW CONTACT WITH NUMBER AND EMAIL
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ znajdź [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (oraz | i) (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ wyszukaj [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (oraz | i) (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2> | <INTENT_6_L1TC_3>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ pokaż [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (oraz | i) (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (oraz | i) (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
+<INTENT_6_L1TC_3> = L1TC__ verb_pattern_03__ otwórz [mój] kontakt (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> (oraz | i) (z adresem email | o adresie (email | mailowym) | z emailem | z mailem) <EMAIL>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ znajdź kto ma numer [telefonu] <PHONE_NUMBER> i adres [email | mailowy] <EMAIL>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ wyszukaj kto ma numer [telefonu] <PHONE_NUMBER> i adres [email | mailowy] <EMAIL>;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ do kogo należy <PHONE_NUMBER> (lub | albo) <EMAIL>;
+
+##7) CREATE CONTACT WITH NAME AND NUMBER
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ stwórz [nowy] kontakt (o nazwie | nazywając go) <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> [jako [typ] <PHONE_TYPE>];
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ utwórz [nowy] kontakt (o nazwie | nazywając go) <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> [jako [typ] <PHONE_TYPE>];
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ dodaj do kontaktów <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> [jako [typ] <PHONE_TYPE>];
+
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ zrób [nowy] kontakt (o nazwie | nazywając go) <NAME> (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER> [jako [typ] <PHONE_TYPE>];
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ zapisz nowy kontakt o nazwie <NAME> i z numerem <PHONE_NUMBER>;
+
+##8) EDIT CONTACT WITH NAME
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ edytuj [mój] kontakt [o nazwie] <NAME>;
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2> | <INTENT_8_L1TC_3>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ zmień [mój] kontakt [o nazwie] <NAME>;
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ aktualizuj [mój] kontakt [o nazwie] <NAME>;
+<INTENT_8_L1TC_3> = L1TC__ verb_pattern_03__ popraw [mój] kontakt [o nazwie] <NAME>;
+
+<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ otwórz [mój] kontakt <NAME> (do edycji | żeby go edytować);
+
+<INTENT_8_REPHRASE> = REPHRASE__ (<INTENT_8_REPHRASE_1> | <INTENT_8_REPHRASE_2>);
+<INTENT_8_REPHRASE_1> = verb_pattern_01__ zapisz nowe dane dla <NAME>;
+<INTENT_8_REPHRASE_2> = verb_pattern_02__ ustaw nowe dane dla <NAME>;
+
+##9) EDIT CONTACT WITH NUMBER
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ zmień nazwę [mojego] kontaktu (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER>;
+
+<INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2> | <INTENT_9_L1TC_3>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ aktualizuj nazwę [mojego] kontaktu (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER>;
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ edytuj nazwę [mojego] kontaktu (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER>;
+<INTENT_9_L1TC_3> = L1TC__ verb_pattern_03__ popraw nazwę [mojego] kontaktu (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER>;
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ ustaw nową nazwę [mojego] kontaktu (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER>;
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ zapisz nową nazwę [mojego] kontaktu (z numerem [telefonu] | o numerze [telefonu]) <PHONE_NUMBER>;
+
+<INTENT_9_REPHRASE> = REPHRASE__ (<INTENT_9_REPHRASE_1> | <INTENT_9_REPHRASE_2>);
+<INTENT_9_REPHRASE_1> = verb_pattern_01__ zapisz nową nazwę dla numeru <PHONE_NUMBER>;
+<INTENT_9_REPHRASE_2> = verb_pattern_02__ <PHONE_NUMBER> ma nową nazwę;
+
+##10) EDIT NUMBER FOR NAME
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ zmień numer [telefonu] [mojego] kontaktu (o nazwie | który nazywa się) <NAME>;
+
+<INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2> | <INTENT_10_L1TC_3>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ aktualizuj numer [telefonu] [mojego] kontaktu (o nazwie | który nazywa się) <NAME>;
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ edytuj numer [telefonu] [mojego] kontaktu (o nazwie | który nazywa się) <NAME>;
+<INTENT_10_L1TC_3> = L1TC__ verb_pattern_03__ popraw numer [telefonu] [mojego] kontaktu (o nazwie | który nazywa się) <NAME>;
+
+<INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2> | <INTENT_10_L2TC_3>;
+<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ przepisz numer [telefonu] [mojego] kontaktu (o nazwie | który nazywa się) <NAME>;
+<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ ustaw nowy numer [telefonu] [mojego] kontaktu (o nazwie | który nazywa się) <NAME>;
+<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ zapisz nowy numer [telefonu] [mojego] kontaktu (o nazwie | który nazywa się) <NAME>;
+
+<INTENT_10_REPHRASE> = REPHRASE__ (<INTENT_10_REPHRASE_1> | <INTENT_10_REPHRASE_2>);
+<INTENT_10_REPHRASE_1> = verb_pattern_01__ zapisz nowy numer <PHONE_NUMBER> dla kontaktu <NAME>;
+<INTENT_10_REPHRASE_2> = verb_pattern_02__ <NAME> ma nowy numer <PHONE_TYPE>;
+
+##11) EDIT SPECIFIC NUMBER FOR NAME
+<INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
+<INTENT_11_L0TC> = L0TC__ verb_pattern_01__ zmień (numer <PHONE_TYPE> <NAME> na <PHONE_NUMBER> | numer kontaktu <NAME> na <PHONE_NUMBER> o typie <PHONE_TYPE>);
+
+<INTENT_11_L1TC> = <INTENT_11_L1TC_1> | <INTENT_11_L1TC_2>;
+<INTENT_11_L1TC_1> = L1TC__ verb_pattern_01__ popraw (numer <PHONE_TYPE> <NAME> na <PHONE_NUMBER> | numer kontaktu <NAME> na <PHONE_NUMBER> o typie <PHONE_TYPE>);
+<INTENT_11_L1TC_2> = L1TC__ verb_pattern_02__ aktualizuj (numer <PHONE_TYPE> <NAME> na <PHONE_NUMBER> | numer kontaktu <NAME> na <PHONE_NUMBER> o typie <PHONE_TYPE>);
+
+<INTENT_11_L2TC> = L2TC__ verb_pattern_01__ przepisz (numer <PHONE_TYPE> <NAME> na <PHONE_NUMBER> | numer kontaktu <NAME> na <PHONE_NUMBER> o typie <PHONE_TYPE>);
+
+<INTENT_11_REPHRASE> = REPHRASE__ (<INTENT_11_REPHRASE_1> | <INTENT_11_REPHRASE_2>);
+<INTENT_11_REPHRASE_1> = verb_pattern_01__ zapisz nowy numer <PHONE_NUMBER> jako <PHONE_TYPE> dla kontaktu <NAME>;
+<INTENT_11_REPHRASE_2> = verb_pattern_02__ <NAME> ma nowy numer <PHONE_TYPE> <PHONE_NUMBER>;
 
 #SLOTS
-<EMAIL> = CONTACTS.SLOT.EMAIL; 
+<EMAIL> = CONTACTS.SLOT.EMAIL;
 <PHONE_NUMBER> = CONTACTS.SLOT.PHONE_NUMBER;
 <NAME> = CONTACTS.SLOT.NAME;
 <PHONE_TYPE> = CONTACTS.SLOT.PHONE_TYPE;
 
 #LANG. COMPONENTS
-<SHOW_VERB> = pokaż [mi] | wyświetl [mi] | otwórz | sprawdź;
+<SHOW_VERB> = <SHOW_VERB_L0TC> | <SHOW_VERB_L1TC> | <SHOW_VERB_L2TC>;
+<SHOW_VERB_L0TC> = L0TC__ verb_pattern_01__ pokaż [mi];
+<SHOW_VERB_L1TC> = <SHOW_VERB_L1TC_1> | <SHOW_VERB_L1TC_2>;
+<SHOW_VERB_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [mi];
+<SHOW_VERB_L1TC_2> = L1TC__ verb_pattern_02__ otwórz;
+<SHOW_VERB_L2TC> = L2TC__ verb_pattern_01__ sprawdź;

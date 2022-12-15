@@ -1,42 +1,179 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2> | ShowContactWithEmail__ <INTENT_3> | ShowContactWithNumber__ <INTENT_4> | ShowContactWithName__ <INTENT_5> | ShowContactWithNumberAndWithEmail__ <INTENT_6> | ShowContactWithNameAndWithNumberAndWithType__ <INTENT_7> | EditContactWithName__ <INTENT_8> | EditContactWithNumber__ <INTENT_9> | EditNumberInContactWithName__ <INTENT_10> | EditNumberInContactWithNameToNumberAndToType__ <INTENT_11>);
 
 #INTENTS
-<INTENT_1> = (<SHOW_VERB> | launch) [my] contacts [app | application];
+##1) OPEN CONTACTS
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ open [my] contacts [list | app | application];
 
-<INTENT_2> = <SHOW_VERB> my (contact's info | profile info | personal info | business card);
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ display [my] contacts [list | app | application];
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ show [me] [my] contacts [list | app | application];
 
-<INTENT_3> = <SHOW_VERB> [my] [google] contact (with | that has) an email [address] <EMAIL> | [tell me] who has email [address] <EMAIL> [in [my] contacts];
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ find [my] contacts [list | app | application];
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ launch [my] contacts [list | app | application];
 
-<INTENT_4> = <SHOW_VERB> [my] contact with the [phone] number <PHONE_NUMBER> | whose number is <PHONE_NUMBER> | <PHONE_NUMBER> who is that;
+<INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2>;
+<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ who can i call;
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ show me people i'm in contact with;
 
-<INTENT_5> = <SHOW_VERB> [my] contact (called | named | with the name) <NAME> | <SHOW_VERB> <NAME> in [my] contacts;
+##2) SHOW MY INFO
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ open my (contact's info | profile info | personal info | business card);
 
-<INTENT_6> = <INTENT_6_a> | <INTENT_6_b>;
-<INTENT_6_a> = <SHOW_VERB> [my] contact with the [phone] number <PHONE_NUMBER> and an email <EMAIL> | do i have (a | any) contact with [phone] number <PHONE_NUMBER> and an email <EMAIL>;
-<INTENT_6_b> = do i have (a | any) contact with [phone] number <PHONE_NUMBER> and an email <EMAIL>;
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ display my (contact's info | profile info | personal info | business card);
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ show [me] my (contact's info | profile info | personal info | business card);
 
-<INTENT_7> = <INTENT_7_a> | <INTENT_7_b> | <INTENT_7_c>;
-<INTENT_7_a> = (add | create) a new contact (and name it | using a name | and call it) <NAME> (with [a | the] number | and give it a number | and add the number) <PHONE_NUMBER> [as <PHONE_TYPE>];
-<INTENT_7_b> = (add | create) contact <NAME> with number <PHONE_NUMBER> [as <PHONE_TYPE>];
-<INTENT_7_c> = write down contact <PHONE_NUMBER> as <NAME>;
+<INTENT_2_L2TC> = L2TC__ verb_pattern_01__ find my (contact's info | profile info | personal info | business card);
 
-<INTENT_8> = [i want to] (edit | modify | change | update) [my] contact <NAME> | open the contact <NAME> (for edition | and edit) | do some changes to contact <NAME>;
+<INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>;
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ remind me my (telephone | phone) number;
+<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ what is my (telephone | phone) number;
 
-<INTENT_9> = <INTENT_9_a> | <INTENT_9_b>;
-<INTENT_9_a> = (change | modify | edit | update | correct) the name of (my | the) contact with the [phone] number <PHONE_NUMBER> | edit contact name of <PHONE_NUMBER>;
-<INTENT_9_b> = (change | modify | edit | update | correct) contact with the [phone] number <PHONE_NUMBER>;
+##3) SHOW CONTACT WITH EMAIL
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ show [me] [my] [google] contact (with | that has) an email [address] <EMAIL>;
 
-<INTENT_10> = (change | modify | edit | update | correct) [the] number of (my | the) contact (called | named) <NAME>;
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ display [my] [google] contact (with | that has) an email [address] <EMAIL>;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ open [my] [google] contact (with | that has) an email [address] <EMAIL>;
 
-<INTENT_11> = (change | modify | edit | update) the [phone] number <PHONE_NUMBER> for [the contact] <NAME> as <PHONE_TYPE>;
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ find [my] [google] contact (with | that has) an email [address] <EMAIL>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ tell me who has email [address] <EMAIL> [in [my] contacts];
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ who's email is <EMAIL>;
+
+##4) SHOW CONTACT WITH NUMBER
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ show [me] [[details of] my] contact with the [phone] number <PHONE_NUMBER>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ display [[details of] my] contact with the [phone] number <PHONE_NUMBER>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ open [my] contact with the [phone] number <PHONE_NUMBER>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ find [my] contact with the [phone] number <PHONE_NUMBER>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ check [my] contact with the [phone] number <PHONE_NUMBER>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ give me contact information [details] for [phone] number <PHONE_NUMBER>;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ provide me contact information [details] for [phone] number <PHONE_NUMBER>;
+
+<INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2>;
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ whose number is <PHONE_NUMBER>;
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ <PHONE_NUMBER> who is that;
+
+##5) SHOW CONTACT WITH NAME
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ show [me] [my] contact [called | named | with the name] <NAME>;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ display [my] contact [called | named | with the name] <NAME>;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ open [my] contact [called | named | with the name] <NAME>;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3> | <INTENT_5_L2TC_4> | <INTENT_5_L2TC_5>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ find [my] contact (called | named | with the name) <NAME>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ check [my] contact information for <NAME>;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ give me contact information for <NAME>;
+<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ provide contact information for <NAME>;
+<INTENT_5_L2TC_5> = L2TC__ verb_pattern_05__ tell me [the contact details] of <NAME>;
+
+<INTENT_5_REPHRASE> = <INTENT_5_REPHRASE_1> | <INTENT_5_REPHRASE_2>;
+<INTENT_5_REPHRASE_1> = REPHRASE__ verb_pattern_01__ <NAME> in [my] contacts;
+<INTENT_5_REPHRASE_2> = REPHRASE__ verb_pattern_02__ i need <NAME> [contact] information;
+
+##6) SHOW CONTACT WITH NUMBER AND EMAIL
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ show [me] [my] contact with the [phone] number <PHONE_NUMBER> and an email <EMAIL>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ display [my] contact with the [phone] number <PHONE_NUMBER> and an email <EMAIL>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ open [my] contact with the [phone] number <PHONE_NUMBER> and an email <EMAIL>;
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ find [my] contact with the [phone] number <PHONE_NUMBER> and an email <EMAIL>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ do i have (a | any) contact with [phone] number <PHONE_NUMBER> and an email <EMAIL>;
+
+##7) CREATE CONTACT WITH NAME AND NUMBER
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ create contact <NAME> with number <PHONE_NUMBER> [as <PHONE_TYPE>];
+
+<INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2> | <INTENT_7_L1TC_3>;
+<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ add a new contact (and name it | using a name | and call it) <NAME> (with [a | the] number | and give it a number | and add the number) <PHONE_NUMBER> [as <PHONE_TYPE>];
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ add contact <NAME> with number <PHONE_NUMBER> [as <PHONE_TYPE>];
+<INTENT_7_L1TC_3> = L1TC__ verb_pattern_03__ create a new contact (and name it | using a name | and call it) <NAME> (with [a | the] number | and give it a number | and add the number) <PHONE_NUMBER> [as <PHONE_TYPE>];
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2> | <INTENT_7_L2TC_3>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ save [a] new contact <NAME> with number <PHONE_NUMBER> [as <PHONE_TYPE>];
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ remember [a] new contact <NAME> with number <PHONE_NUMBER> [as <PHONE_TYPE>];
+<INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ keep [a] new contact <NAME> with number <PHONE_NUMBER> [as <PHONE_TYPE>];
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ write down contact <PHONE_NUMBER> as <NAME>;
+
+##8) EDIT CONTACT WITH NAME
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ edit [my] contact <NAME>;
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ change [my] contact <NAME>;
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ update [my] contact <NAME>;
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ modify [my] contact <NAME>;
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ correct [my] contact <NAME>;
+
+<INTENT_8_REPHRASE> = <INTENT_8_REPHRASE_1> | <INTENT_8_REPHRASE_2>;
+<INTENT_8_REPHRASE_1> = REPHRASE__ verb_pattern_01__ open the contact <NAME> (for edition | and edit);
+<INTENT_8_REPHRASE_2> = REPHRASE__ verb_pattern_02__ do some changes to contact <NAME>;
+
+##9) EDIT CONTACT WITH NUMBER
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ edit (the name of (my | the) contact with the [phone] number <PHONE_NUMBER> | contact with the [phone] number <PHONE_NUMBER> | contact name of <PHONE_NUMBER>);
+
+<INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ change (the name of (my | the) contact with the [phone] number <PHONE_NUMBER> | contact with the [phone] number <PHONE_NUMBER>);
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ update (the name of (my | the) contact with the [phone] number <PHONE_NUMBER> | contact with the [phone] number <PHONE_NUMBER>);
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ modify (the name of (my | the) contact with the [phone] number <PHONE_NUMBER> | contact with the [phone] number <PHONE_NUMBER>);
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ correct (the name of (my | the) contact with the [phone] number <PHONE_NUMBER> | contact with the [phone] number <PHONE_NUMBER>);
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ [i] made a mistake and <PHONE_NUMBER> is (somebody different | different person);
+
+##10) EDIT NUMBER FOR NAME
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ edit [the] number of (my | the) contact (called | named) <NAME>;
+
+<INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ change [the] number of (my | the) contact (called | named) <NAME>;
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ update [the] number of (my | the) contact (called | named) <NAME>;
+
+<INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2>;
+<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ modify [the] number of (my | the) contact (called | named) <NAME>;
+<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ correct [the] number of (my | the) contact (called | named) <NAME>;
+
+<INTENT_10_REPHRASE> = <INTENT_10_REPHRASE_1> | <INTENT_10_REPHRASE_2>;
+<INTENT_10_REPHRASE_1> = REPHRASE__ verb_pattern_01__ <NAME> has a different number [now];
+<INTENT_10_REPHRASE_2> = REPHRASE__ verb_pattern_02__ here is new <NAME> number;
+
+##11) EDIT SPECIFIC NUMBER FOR NAME
+<INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
+<INTENT_11_L0TC> = L0TC__ verb_pattern_01__ edit the [phone] number <PHONE_NUMBER> for [the contact] <NAME> as <PHONE_TYPE>;
+
+<INTENT_11_L1TC> = <INTENT_11_L1TC_1> | <INTENT_11_L1TC_2>;
+<INTENT_11_L1TC_1> = L1TC__ verb_pattern_01__ change the [phone] number <PHONE_NUMBER> for [the contact] <NAME> as <PHONE_TYPE>;
+<INTENT_11_L1TC_2> = L1TC__ verb_pattern_02__ update the [phone] number <PHONE_NUMBER> for [the contact] <NAME> as <PHONE_TYPE>;
+
+<INTENT_11_L2TC> = <INTENT_11_L2TC_1> | <INTENT_11_L2TC_2>;
+<INTENT_11_L2TC_1> = L2TC__ verb_pattern_01__ modify the [phone] number <PHONE_NUMBER> for [the contact] <NAME> as <PHONE_TYPE>;
+<INTENT_11_L2TC_2> = L2TC__ verb_pattern_02__ correct the [phone] number <PHONE_NUMBER> for [the contact] <NAME> as <PHONE_TYPE>;
+
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ <NAME> phone number <PHONE_NUMBER> is [in fact [his | her]] <PHONE_TYPE>;
 
 #SLOTS
 <EMAIL> = CONTACTS.SLOT.EMAIL;
 <PHONE_NUMBER> = CONTACTS.SLOT.PHONE_NUMBER;
 <NAME> = CONTACTS.SLOT.NAME;
 <PHONE_TYPE> = CONTACTS.SLOT.PHONE_TYPE;
-
-#LANG. COMPONENTS
-<SHOW_VERB> = show [me] | display | open | find;

@@ -1,33 +1,105 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> | IncreaseVolumeByPercent__ <INTENT_3> | DecreaseVolume__ <INTENT_4> | DecreaseVolumeByPercent__ <INTENT_5>| MuteOn__ <INTENT_6> | MuteOff__ <INTENT_7>);
 
 #INTENTS
-<INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
-<INTENT_1_a> = (pomóż mi i | zrób coś dla mnie i | bądź tak miły i) <POWER> [mój] głośnik;
-<INTENT_1_b> = <POWER> [mój] głośnik [dla mnie | za mnie];
+##1) TURN ON OR OFF
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ włącz [mój] głośnik [dla mnie | za mnie];
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ wyłącz [mój] głośnik [dla mnie | za mnie];
 
-<INTENT_2> = <INTENT_2_a> | <INTENT_2_b>;
-<INTENT_2_a> = zwiększ [trochę | odrobinę] głośność [mojego] głośnika;
-<INTENT_2_b> = (zrób [trochę | odrobinę] głośniej | zgłośnij [trochę | odrobinę]) [mój] głośnik;
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ (pomóż mi i | zrób coś dla mnie i | bądź tak miły i) włącz [mój] głośnik;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ (pomóż mi i | zrób coś dla mnie i | bądź tak miły i) wyłącz [mój] głośnik;
 
-<INTENT_3_base> = <INTENT_3_base_a> | <INTENT_3_base_b>;
-<INTENT_3_base_a> = zwiększ głośność [mojego] głośnika;
-<INTENT_3_base_b> = (zrób głośniej | zgłośnij) [mój] głośnik;
-<INTENT_3> = <INTENT_3_base> o <PERCENT> [procent];
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ odłącz [mój] głośnik;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ podłącz [mój] głośnik;
 
-<INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;
-<INTENT_4_a> = (zmniejsz | zredukuj | ścisz) [trochę | odrobinę] głośność [mojego] głośnika;
-<INTENT_4_b> = (zrób [trochę | odrobinę] ciszej | ścisz [trochę | odrobinę]) [mój] głośnik;
+<INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2>;
+<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ cisza;
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ puść jakąś muzykę;
 
-<INTENT_5_base> = <INTENT_5_base_a> | <INTENT_5_base_b>;
-<INTENT_5_base_a> = (zmniejsz | zredukuj | ścisz) [trochę | odrobinę] głośność [mojego] głośnika;
-<INTENT_5_base_b> = (zrób [trochę | odrobinę] ciszej | ścisz [trochę | odrobinę]) [mój] głośnik;
-<INTENT_5> = <INTENT_5_base> o <PERCENT> [procent];
+##2) INCREASE VOLUME
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ zwiększ (trochę | odrobinę) głośność [[mojego] głośnika];
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ zrób (trochę | odrobinę) głośniej [[mój] głośnik];
 
-<INTENT_6> = wycisz [mój] głośnik | (przestań (odtwarzać | grać) | zatrzymaj odtwarzanie) [dzwięk] na [moim] głośniku;
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ (trochę | odrobinę) głośniej;
 
-<INTENT_7> = (cofnij wyciszenie | włącz głos) [mojego] głośnika | wznów (dzwięk | odtwarzanie) na [moim] głośniku;
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ zgłośnij (trochę | odrobinę) [[mój] głośnik];
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ podgłośnij (trochę | odrobinę) [[mój] głośnik];
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ weź zrób (trochę | odrobinę) głośniej [[mój] głośnik];
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ jest (trochę | odrobinę) za cicho;
+
+##3) INCREASE VOLUME MORE
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ zwiększ głośność [[mojego] głośnika];
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ zrób głośniej [[mój] głośnik];
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ zwiększ głośność o <PERCENT> [procent];
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ zrób głośniej o <PERCENT> [procent];
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ zgłośnij [[mój] głośnik];
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ podgłośnij [[mój] głośnik];
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ weź zrób głośniej [[mój] głośnik];
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ jest (za | bardzo) cicho;
+
+##4) DECREASE VOLUME
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ ścisz (trochę | odrobinę) [mój] głośnik;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ zrób (trochę | odrobinę) ciszej;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ zmniejsz (trochę | odrobinę) głośność [mojego] głośnika;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ ścisz (trochę | odrobinę) głośność [mojego] głośnika;
+
+<INTENT_4_L2TC> = L2TC__ verb_pattern_01__ zredukuj (trochę | odrobinę) głośność [mojego] głośnika;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ jest (trochę | odrobinę) za głośno;
+
+##5) DECREASE VOLUME MORE
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ ścisz (trochę | odrobinę) [mój] głośnik o <PERCENT> [procent];
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ zrób (trochę | odrobinę) ciszej o <PERCENT> [procent];
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ zmniejsz (trochę | odrobinę) głośność [mojego] głośnika;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ ścisz (trochę | odrobinę) głośność [mojego] głośnika;
+
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ zredukuj (trochę | odrobinę) głośność [mojego] głośnika;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ jest bardzo głośno;
+
+##6) MUTE
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ wycisz [mój] głośnik;
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ przestań (odtwarzać | grać) [muzykę];
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ zatrzymaj odtwarzanie [dzwięku | muzyki] na [moim] głośniku;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ verb_pattern_01__ bądź cicho;
+
+##7) UNMUTE
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ włącz dzwięk [mojego głosnika| na moim głośniku];
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ wznów (dzwięk | odtwarzanie) na [moim] głośniku;
+
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ cofnij wyciszenie [mojego] głośnika;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ verb_pattern_01__ głośnik jest chyba [wyłączony | wyciszony];
 
 #SLOTS
 <DEVICE_NAME> = SPEAKER.SLOT.DEVICE_NAME;

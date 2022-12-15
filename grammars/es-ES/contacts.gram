@@ -1,35 +1,104 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2> | ShowContactWithEmail__ <INTENT_3> | ShowContactWithNumber__ <INTENT_4> | ShowContactWithName__ <INTENT_5> | ShowContactWithNumberAndWithEmail__ <INTENT_6> | ShowContactWithNameAndWithNumberAndWithType__ <INTENT_7> | EditContactWithName__ <INTENT_8> | EditContactWithNumber__ <INTENT_9> | EditNumberInContactWithName__ <INTENT_10> | EditNumberInContactWithNameToNumberAndToType__ <INTENT_11>);
 
 #INTENTS
-<INTENT_1> = <SHOW_VERB> [mis | los] contactos;
+##1) OPEN CONTACTS
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ abre [mis | los] contactos;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ ábreme [mis | los] contactos;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ muestra [mis | los] contactos;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ muéstrame [mis | los] contactos;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ ve a [mis | los] contactos;
 
-<INTENT_2> = <SHOW_VERB> (la información (de mi (perfil | tarjeta comercial) | personal) | mi información (del perfil | de la tarjeta comercial | personal) | mi (perfil | tarjeta comercial));
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-<INTENT_3> = <SHOW_VERB> [mis | los] contactos [[de] google] (con (el email | el correo [electrónico]) | que tienen (el | un) (email | correo [electrónico])) <EMAIL>;
+##2) SHOW MY INFO
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ abre (la información (de mi (perfil | tarjeta comercial) | personal) | mi información (del perfil | de la tarjeta comercial | personal) | mi (perfil | tarjeta comercial));
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ ábreme (la información (de mi (perfil | tarjeta comercial) | personal) | mi información (del perfil | de la tarjeta comercial | personal) | mi (perfil | tarjeta comercial));
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ muestra (la información (de mi (perfil | tarjeta comercial) | personal) | mi información (del perfil | de la tarjeta comercial | personal) | mi (perfil | tarjeta comercial));
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ muéstrame (la información (de mi (perfil | tarjeta comercial) | personal) | mi información (del perfil | de la tarjeta comercial | personal) | mi (perfil | tarjeta comercial));
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ ve a (la información (de mi (perfil | tarjeta comercial) | personal) | mi información (del perfil | de la tarjeta comercial | personal) | mi (perfil | tarjeta comercial));
 
-<INTENT_4> = <SHOW_VERB> [mis | los] contactos (con el número [de teléfono] | que tienen el número [de teléfono]) <PHONE_NUMBER>;
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-<INTENT_5> = <SHOW_VERB> [mis | los] contactos (con el nombre [de] | que se llaman | que tienen el nombre) <NAME>;
+##3) SHOW CONTACT WITH EMAIL
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ abre [mis | los] contactos [[de] google] (con (el email | el correo [electrónico]) | que tienen (el | un) (email | correo [electrónico])) <EMAIL>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ ábreme [mis | los] contactos [[de] google] (con (el email | el correo [electrónico]) | que tienen (el | un) (email | correo [electrónico])) <EMAIL>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ muestra [mis | los] contactos [[de] google] (con (el email | el correo [electrónico]) | que tienen (el | un) (email | correo [electrónico])) <EMAIL>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ muéstrame [mis | los] contactos [[de] google] (con (el email | el correo [electrónico]) | que tienen (el | un) (email | correo [electrónico])) <EMAIL>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ ve a [mis | los] contactos [[de] google] (con (el email | el correo [electrónico]) | que tienen (el | un) (email | correo [electrónico])) <EMAIL>;
 
-<INTENT_6> = <SHOW_VERB> [mis | los] contactos (con | que tienen) el número [de teléfono] <PHONE_NUMBER> y (el email | el correo [electrónico]) <EMAIL>;
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-<INTENT_7> = (crea | créame) un (nuevo contacto | contacto nuevo) (y llámalo | usando el nombre | y nómbralo | y dale el nombre | y ponle el nombre) <NAME> (con [un | el] número | y pónle el número | y añade el número) <PHONE_NUMBER> [como <PHONE_TYPE>];
+##4) SHOW CONTACT WITH NUMBER
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ abre [mis | los] contactos (con el número [de teléfono] | que tienen el número [de teléfono]) <PHONE_NUMBER>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ ábreme [mis | los] contactos (con el número [de teléfono] | que tienen el número [de teléfono]) <PHONE_NUMBER>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ muestra [mis | los] contactos (con el número [de teléfono] | que tienen el número [de teléfono]) <PHONE_NUMBER>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ muéstrame [mis | los] contactos (con el número [de teléfono] | que tienen el número [de teléfono]) <PHONE_NUMBER>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ ve a [mis | los] contactos (con el número [de teléfono] | que tienen el número [de teléfono]) <PHONE_NUMBER>;
 
-<INTENT_8> = (edita mi contacto <NAME> | abre mi contacto <NAME> para editar);
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-<INTENT_9> = cambia el nombre de mi contacto con el número <PHONE_NUMBER>;
+##5) SHOW CONTACT WITH NAME
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ abre [mis | los] contactos (con el nombre [de] | que se llaman | que tienen el nombre) <NAME>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ ábreme [mis | los] contactos (con el nombre [de] | que se llaman | que tienen el nombre) <NAME>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ muestra [mis | los] contactos (con el nombre [de] | que se llaman | que tienen el nombre) <NAME>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ muéstrame [mis | los] contactos (con el nombre [de] | que se llaman | que tienen el nombre) <NAME>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ ve a [mis | los] contactos (con el nombre [de] | que se llaman | que tienen el nombre) <NAME>;
 
-<INTENT_10> = cambia el número de (mi contacto <NAME> | <NAME> en (mis | los) contactos);
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-<INTENT_11> = (establece | fija | pon) el número <PHONE_NUMBER> en el contacto <NAME> como <PHONE_TYPE>;
+##6) SHOW CONTACT WITH NUMBER AND EMAIL
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ abre [mis | los] contactos (con | que tienen) el número [de teléfono] <PHONE_NUMBER> y (el email | el correo [electrónico]) <EMAIL>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ ábreme [mis | los] contactos (con | que tienen) el número [de teléfono] <PHONE_NUMBER> y (el email | el correo [electrónico]) <EMAIL>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ muestra [mis | los] contactos (con | que tienen) el número [de teléfono] <PHONE_NUMBER> y (el email | el correo [electrónico]) <EMAIL>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ muéstrame [mis | los] contactos (con | que tienen) el número [de teléfono] <PHONE_NUMBER> y (el email | el correo [electrónico]) <EMAIL>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ ve a [mis | los] contactos (con | que tienen) el número [de teléfono] <PHONE_NUMBER> y (el email | el correo [electrónico]) <EMAIL>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##7) CREATE CONTACT WITH NAME AND NUMBER
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ crea un (nuevo contacto | contacto nuevo) (y llámalo | usando el nombre | y nómbralo | y dale el nombre | y ponle el nombre) <NAME> (con [un | el] número | y pónle el número | y añade el número) <PHONE_NUMBER> [como <PHONE_TYPE>];
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ créame un (nuevo contacto | contacto nuevo) (y llámalo | usando el nombre | y nómbralo | y dale el nombre | y ponle el nombre) <NAME> (con [un | el] número | y pónle el número | y añade el número) <PHONE_NUMBER> [como <PHONE_TYPE>];
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##8) EDIT CONTACT WITH NAME
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ edita mi contacto <NAME>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ abre mi contacto <NAME> para editar;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##9) EDIT CONTACT WITH NUMBER
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ cambia el nombre de mi contacto con el número <PHONE_NUMBER>;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##10) EDIT NUMBER FOR NAME
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ cambia el número de (mi contacto <NAME> | <NAME> en (mis | los) contactos);
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##11) EDIT SPECIFIC NUMBER FOR NAME
+<INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
+<INTENT_11_L0TC> = L0TC__ verb_pattern_01__ establece el número <PHONE_NUMBER> en el contacto <NAME> como <PHONE_TYPE>;
+<INTENT_11_L0TC> = L0TC__ verb_pattern_01__ fija el número <PHONE_NUMBER> en el contacto <NAME> como <PHONE_TYPE>;
+<INTENT_11_L0TC> = L0TC__ verb_pattern_01__ pon el número <PHONE_NUMBER> en el contacto <NAME> como <PHONE_TYPE>;
+
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
 #SLOTS
-<EMAIL> = CONTACTS.SLOT.EMAIL; 
+<EMAIL> = CONTACTS.SLOT.EMAIL;
 <PHONE_NUMBER> = CONTACTS.SLOT.PHONE_NUMBER;
 <NAME> = CONTACTS.SLOT.NAME;
 <PHONE_TYPE> = CONTACTS.SLOT.PHONE_TYPE;
-
-#LANG. COMPONENTS
-<SHOW_VERB> = abre | ábreme | muestra | muéstrame | ve a;

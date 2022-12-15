@@ -1,5 +1,5 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | FindChannelWithQuery__ <INTENT_6> | FindQueryOnChannel__ <INTENT_7> | NotifyOnNewFromFollowing__ <INTENT_8> | NotifyonNewOnChannel__ <INTENT_9> | NextVide__ <INTENT_10>);
 
 #PRECONDITIONS
@@ -7,29 +7,143 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 <WHEN_2> = (kiedy | jeżeli | jeśli) na kanale <CHANNEL_ID> pojawi się ([nowy] klip | [nowy] film | [nowe] wideo);
 
 #INTENTS
-<INTENT_1> = (otwórz | włącz | uruchom) (yt | youtube);
+##1) OPEN YOUTUBE
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ otwórz (yt | youtube);
 
-<INTENT_2> = (odtwórz | odtwarzaj | pokaż | wyświetl | chcę zobaczyć | <FIND_VERB>) (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ uruchom (yt | youtube);
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ włącz (yt | youtube);
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ wyświetl (yt | youtube);
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż mi (coś | video | film) na (youtube | youtubie);
+
+##2) FIND QUERY
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ znajdź (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ szukaj (<INTENT_2_a> | <INTENT_2_b>);
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3> | <INTENT_2_L1TC_4>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ odtwórz (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ odtwarzaj (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ chcę zobaczyć (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_L1TC_4> = L1TC__ verb_pattern_04__ wyszukaj (<INTENT_2_a> | <INTENT_2_b>);
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ pokaż (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ wyświetl (<INTENT_2_a> | <INTENT_2_b>);
+
 <INTENT_2_a> = <QUERY> na (yt | youtube);
 <INTENT_2_b> = <VIDEO> z <QUERY> [na (yt | youtube)];
 
-<INTENT_3> = [odtwórz | <FIND_VERB>] <VIDEO> (z kanału | na kanale) <CHANNEL_ID>;
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż film o <QUERY>;
 
-<INTENT_4> = (pokaż | wyświetl) kanały z kategorii <CATEGORY_ID> [na (yt | youtube)];
+##3) OPEN CHANNEL
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ pokaż <VIDEO> (z kanału | na kanale) <CHANNEL_ID>;
 
-<INTENT_5> = pokaż [mi] kanały które (subskrybuję | śledzę | obserwuję | followuję) [na (yt | youtube)];
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ odtwórz <VIDEO> (z kanału | na kanale) <CHANNEL_ID>;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl <VIDEO> (z kanału | na kanale) <CHANNEL_ID>;
 
-<INTENT_6> = <INTENT_6_a> | <INTENT_6_b>;
-<INTENT_6_a> =  (<FIND_VERB> | pokaż | wyświetl | chcę zobaczyć) kanały z <QUERY> [na (yt | youtube)];
-<INTENT_6_b> =  na jakich kanałach na (yt | youtube) znajdę <QUERY>;
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ wyszukaj <VIDEO> (z kanału | na kanale) <CHANNEL_ID>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ szukaj <VIDEO> (z kanału | na kanale) <CHANNEL_ID>;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ znajdź <VIDEO> (z kanału | na kanale) <CHANNEL_ID>;
 
-<INTENT_7> = pokaż [mi] <VIDEO> (z | opublikowane) [kanału] <CHANNEL_ID> (pasujące | które pasuje) do <QUERY> [na (yt | youtube)];
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż film o <QUERY> z <CHANNEL_ID>;
 
-<INTENT_8> = (powiadom mnie | powiedz mi) <WHEN_1>;
+##4) SEARCH FOR CATEGORY
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ pokaż kanały z kategorii <CATEGORY_ID> [na (yt | youtube)];
 
-<INTENT_9> = (powiadom mnie | powiedz mi) <WHEN_2>;
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ wyświetl kanały z kategorii <CATEGORY_ID> [na (yt | youtube)];
 
-<INTENT_10> = (włącz | puść) następne (video | film);
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ włącz kanały z kategorii <CATEGORY_ID> [na (yt | youtube)];
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ wyszukaj kanały z kategorii <CATEGORY_ID> [na (yt | youtube)];
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ szukaj kanały z kategorii <CATEGORY_ID> [na (yt | youtube)];
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż inne filmy z kategorii <CATEGORY_ID>;
+
+##5) FOLLOW
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ pokaż [mi] kanały które (subskrybuję | śledzę | obserwuję | followuję) [na (yt | youtube)];
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ wyświetl [mi] kanały które (subskrybuję | śledzę | obserwuję | followuję) [na (yt | youtube)];
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ włącz [mi] kanały które (subskrybuję | śledzę | obserwuję | followuję) [na (yt | youtube)];
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ wyszukaj [mi] kanały które (subskrybuję | śledzę | obserwuję | followuję) [na (yt | youtube)];
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ znajdź [mi] kanały które (subskrybuję | śledzę | obserwuję | followuję) [na (yt | youtube)];
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż rzeczy którymi się interesuje na (youtube | youtubie);
+
+##6) SEARCH FOR CHANNELS WITH QUERY
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2> | <INTENT_6_L0TC_3>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ pokaż kanały z <QUERY> [na (yt | youtube)];
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ szukaj kanały z <QUERY> [na (yt | youtube)];
+<INTENT_6_L0TC_3> = L0TC__ verb_pattern_03__ wyświetl kanały z <QUERY> [na (yt | youtube)];
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ wyszukaj kanały z <QUERY> [na (yt | youtube)];
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ znajdź kanały z <QUERY> [na (yt | youtube)];
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ chcę zobaczyć kanały z <QUERY> [na (yt | youtube)];
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ na jakich kanałach na (yt | youtube) znajdę <QUERY>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż miejsca na (youtube | youtubie) gdzie znajdę <QUERY>;
+
+##7) SEARCH FOR VIDEO ON SPECIFIC CHANNEL
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ pokaż [mi] <VIDEO> (z | opublikowane) [kanału] <CHANNEL_ID> (pasujące | które pasuje) do <QUERY> [na (yt | youtube)];
+
+<INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2> | <INTENT_7_L1TC_3>;
+<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [mi] <VIDEO> (z | opublikowane) [kanału] <CHANNEL_ID> (pasujące | które pasuje) do <QUERY> [na (yt | youtube)];
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ znajdź [mi] <VIDEO> (z | opublikowane) [kanału] <CHANNEL_ID> (pasujące | które pasuje) do <QUERY> [na (yt | youtube)];
+<INTENT_7_L1TC_3> = L1TC__ verb_pattern_03__ wyszukaj [mi] <VIDEO> (z | opublikowane) [kanału] <CHANNEL_ID> (pasujące | które pasuje) do <QUERY> [na (yt | youtube)];
+
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ włącz [mi] <VIDEO> (z | opublikowane) [kanału] <CHANNEL_ID> (pasujące | które pasuje) do <QUERY> [na (yt | youtube)];
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ <CHANNEL_ID> (miał | ma) [coś takiego] <QUERY>;
+
+##8) NOTIFY WHEN NEW VIDEO FROM FOLLOWING
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ powiadom mnie <WHEN_1>;
+
+<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ powiedz mi <WHEN_1>;
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ daj mi znać <WHEN_1>;
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ poinformuj mnie <WHEN_1>;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę wiedzieć <WHEN_1>;
+
+##9) NOTIFY WHEN NEW VIDEO ON CHANNEL
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ powiadom mnie <WHEN_2>;
+
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ powiedz mi <WHEN_2>;
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ daj mi znać <WHEN_2>;
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ poinformuj mnie <WHEN_2>;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę wiedzieć <WHEN_2>;
+
+##10) NEXT
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ [włącz] (następne video | następny film | kolejne video | kolejny film);
+
+<INTENT_10_L1TC> = L1TC__ verb_pattern_01__ przełącz na (następne video | następny film | kolejne video | kolejny film);
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ puść (następne video | następny film | kolejne video | kolejny film);
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ [(przewiń do końca | skończ ten) i] puść (nowy film | coś innego | coś nowego);
 
 #SLOTS
 <CHANNEL_ID> = YOUTUBE.SLOT.CHANNEL_ID;
@@ -37,7 +151,6 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 <QUERY> = YOUTUBE.SLOT.QUERY;
 
 #LANG. COMPONENTS
-<FIND_VERB> = wyszukaj | szukaj | znajdź;
 <VIDEO> = wideo | klip | film  | filmy | filmiki;
 
 // "search youtube for videos"
