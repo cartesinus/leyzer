@@ -1,21 +1,98 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Websearch__ (OpenEngine__ <INTENT_1> | SearchTextOnEngine__ <INTENT_2> | SearchText__ <INTENT_3> | SearchImagesWithTextOnEngine__ <INTENT_4> | SearchImagesOnEngine__ <INTENT_5> | SearchImagesWithTextOnEngineWithWidthAndWithHeight__ <INTENT_6> | SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__ <INTENT_7>);
 
 #INTENTS
-<INTENT_1> = (busca en <ENGINE> | búsqueda en <ENGINE> | busca en la red);
+##1) SEARCH WITH ENGINE
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
 
-<INTENT_2> = (<TXT_QUERY> en <ENGINE> | <ENGINE> <TXT_QUERY>);
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ (busca (en | usando) <ENGINE> | busca en la red);
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ (búsqueda (en | usando) <ENGINE> | búsqueda en la red);
 
-<INTENT_3> = páginas [web] que coinciden con <TXT_QUERY>;
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ [necesito | quiero] buscar [algo] ([en la red | en el internet] usando <ENGINE> | (en | usando) <ENGINE>);
 
-<INTENT_4> = (imágenes que coinciden con <IMG_QUERY> de <ENGINE> | imágenes <IMG_QUERY> en <ENGINE>);
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ (consulta | verifica) algo [en la red | en el internet] (con | usando) <ENGINE>;
 
-<INTENT_5> = (búsqueda de imágenes | busca imágenes en <ENGINE> | <ENGINE> búsqueda de imágenes);
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ (necesito | quiero) información sobre algo;
 
-<INTENT_6> = imágenes de <ENGINE> que coinciden con <IMG_QUERY> de tamaño <WIDTH> x <HEIGHT>;
+##2) SEARCH TEXT WITH ENGINE
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ (<TXT_QUERY> en <ENGINE> | <ENGINE> <TXT_QUERY>);
 
-<INTENT_7> = imágenes de <ENGINE> que coinciden con <IMG_QUERY> <IMG_COND> que <WIDTH> [x <HEIGHT>];
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3>;;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ (busca | búscame) <TXT_QUERY> (en | usando) <ENGINE>;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ (consulta | consúltame) <TXT_QUERY> (en | usando) <ENGINE>;
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ (encuentra | encuéntrame) <TXT_QUERY> (en | usando) <ENGINE>;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ (muestra | muéstrame) [resultados de] <TXT_QUERY> (en | usando) <ENGINE>;
+<INTENT_2_L0TC_2> = L2TC__ verb_pattern_02__ <TXT_QUERY> usando <ENGINE>;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero que <ENGINE> me (de | muestre) información sobre <TXT_QUERY>;
+
+##3) SEARCH TEXT
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2> | <INTENT_3_L0TC_3>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ (busca | búscame) <TXT_QUERY> en (la red | el internet);
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ (consulta | consúltame) <TXT_QUERY> en (la red | el internet);
+<INTENT_2_L0TC_3> = L0TC__ verb_pattern_03__ (guglea | guglear | googlea | googlear) <TXT_QUERY>;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ (encuentra | encuéntrame) <TXT_QUERY> en (la red | el internet);
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ (muestra | muéstrame) <TXT_QUERY> en (la red | el internet);
+
+<INTENT_3_L2TC> = L2TC__ verb_pattern_01__ (busca | búscame) páginas [web] (que contienen | con) <TXT_QUERY>;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ necesito información sobre <TXT_QUERY>;
+
+##4) SEARCH IMAGE WITH ENGINE
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ (busca | búscame) (imágenes | fotos) (con | de) <IMG_QUERY> (en | usando) <ENGINE>;
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ encuentra (imágenes | fotos) (con | de) <IMG_QUERY> (en | usando) <ENGINE>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ (muestra | muéstrame) (imágenes | fotos) (con | de) <IMG_QUERY> (en | usando) <ENGINE>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ (quiero | necesito) (imágenes | fotos) (con | de) <IMG_QUERY> (en | usando) <ENGINE>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero ver (imágenes | fotos) (con | de) <IMG_QUERY> en <ENGINE>;
+
+##5) SEARCH IMAGE
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ [(busca | búscame)] (imágenes | fotos) (con | de) <IMG_QUERY>;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ encuentra (imágenes | fotos) (con | de) <IMG_QUERY>;;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ (muestra | muéstrame) (imágenes | fotos) (con | de) <IMG_QUERY>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ (quiero | necesito) (imágenes | fotos) (con | de) <IMG_QUERY>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero ver (imágenes | fotos) (con | de) <IMG_QUERY>;
+
+##6) SEARCH IMAGE WITH WIDTH AND HEIGHT
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ (busca | búscame) (imágenes | fotos) (con | de) <IMG_QUERY> (en | usando) <ENGINE> (con | de) (tamaño de <WIDTH> por <HEIGHT> | <WIDTH> de ancho y <HEIGHT> de altura);
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ encuentra (imágenes | fotos) (con | de) <IMG_QUERY> (en | usando) <ENGINE> (con | de) (tamaño de <WIDTH> por <HEIGHT> | <WIDTH> de ancho y <HEIGHT> de altura);
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ (muestra | muéstrame) (imágenes | fotos) (con | de) <IMG_QUERY> (en | usando) <ENGINE> (con | de) (tamaño de <WIDTH> por <HEIGHT> | <WIDTH> de ancho y <HEIGHT> de altura);
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ (quiero | necesito) (imágenes | fotos) (con | de) <IMG_QUERY> (en | usando) <ENGINE> (con | de) (tamaño de <WIDTH> por <HEIGHT> | <WIDTH> de ancho y <HEIGHT> de altura);
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero ver (imágenes | fotos) (con | de) <IMG_QUERY> en <ENGINE> (con | de) (tamaño de <WIDTH> por <HEIGHT> | <WIDTH> de ancho y <HEIGHT> de altura);
+
+##7) SEARCH IMAGE WITH WIDTH, HEIGHT OR MORE OR LESS
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ (busca | búscame) (imágenes | fotos) (con | de) <IMG_QUERY> (en | usando) <ENGINE> <IMG_COND> que (<WIDTH> por <HEIGHT> | <WIDTH> de ancho y <HEIGHT> de altura);
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ encuentra (imágenes | fotos) (con | de) <IMG_QUERY> (en | usando) <ENGINE> <IMG_COND> que (<WIDTH> por <HEIGHT> | <WIDTH> de ancho y <HEIGHT> de altura);
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ (muestra | muéstrame) (imágenes | fotos) (con | de) <IMG_QUERY> (en | usando) <ENGINE> <IMG_COND> que (<WIDTH> por <HEIGHT> | <WIDTH> de ancho y <HEIGHT> de altura);
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ (quiero | necesito) (imágenes | fotos) (con | de) <IMG_QUERY> (en | usando) <ENGINE> <IMG_COND> que (<WIDTH> por <HEIGHT> | <WIDTH> de ancho y <HEIGHT> de altura);
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero ver (imágenes | fotos) (con | de) <IMG_QUERY> en <ENGINE> <IMG_COND> (<WIDTH> por <HEIGHT> | <WIDTH> de ancho y <HEIGHT> de altura);
 
 #SLOTS
 <ENGINE> = bing | google | duckduckgo;
