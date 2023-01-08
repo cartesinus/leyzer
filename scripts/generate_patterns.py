@@ -53,6 +53,6 @@ if __name__ == '__main__':
                 expansions = processRHS(rule.rhs, grammar)
                 for expansion in expansions:
                     if conf_gram['intent'] in expansion:
-                        print(expansion)
+                        [print(expansion) for x in range(int(conf_gram['expand-rate']))]
     else:
         print("No file or config was provided.")

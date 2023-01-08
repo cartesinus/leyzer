@@ -110,7 +110,7 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
 <INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ don't notify me <WHEN_1>;
-<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ don't alert me <WHEN_2>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ don't alert me <WHEN_1>;
 
 <INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3>;
 <INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ don't inform me <WHEN_1>;
