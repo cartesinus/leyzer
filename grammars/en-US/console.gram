@@ -6,7 +6,9 @@ public <S> = Console__ (ConsoleEdit__ <INTENT_1> | ConsoleLS__ <INTENT_2> | Cons
 ##1) EDIT FILE
 ##<FILENAME> must be provided
 #SYNTAX: VB [NN] NN
-<INTENT_1> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
 <INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ open ([file] <FILENAME> | [files] <FILENAMES>);
 <INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ edit ([file] <FILENAME> | [files] <FILENAMES>);
 

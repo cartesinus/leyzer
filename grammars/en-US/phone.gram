@@ -2,22 +2,6 @@
 #VUI-VERSION: 0.2.0;
 public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5>);
 
-#PRECONDITIONS
-<WHEN> = when i receive a sms;
-<WHEN> = when i get a text;
-<WHEN> = when i get at text from somebody;
-<WHEN> = when i receive a sms from somebody;
-<WHEN> = when somebody sends me a text;
-<WHEN> = when somebody texts me;
-<WHEN> = when somebody sms me;
-<WHEN> = when somebody sends me an sms;
-<WHEN> = when i receive a sms from <SENDER>;
-<WHEN> = when i get at text from <SENDER>;
-<WHEN> = when <SENDER> sends me a text;
-<WHEN> = when <SENDER> texts me;
-<WHEN> = when <SENDER> sms me;
-<WHEN> = when <SENDER> sends me an sms;
-
 #INTENTS
 ##1) CALL NUMBER
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;

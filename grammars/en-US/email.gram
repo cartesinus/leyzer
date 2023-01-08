@@ -2,19 +2,6 @@
 #VUI-VERSION: 0.2.0;
 public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> | ShowEmailWithLabel__ <INTENT_3> | ShowEmailFromTime__ <INTENT_4> | ShowEmailWithSubject__ <INTENT_5> | ShowEmailWithPriority__ <INTENT_6> | SendEmailToAddressWithSubjectAndWithMessage__ <INTENT_7> | SendEmailToAddressWithSubject__ <INTENT_8> | SendEmail__ <INTENT_9> | SendEmailToAddress__ <INTENT_10> | ReplyToEmailFromAddress__ <INTENT_11>);
 
-#PRECONDITIONS
-<WHEN> = when i receive an email on Gmail;
-<WHEN> = when somebody emails me;
-<WHEN> = when somebody sends me an email;
-<WHEN> = when somebody sends me an email on gmail;
-<WHEN> = when i receive an email from <SENDER_ADDRESS> on Gmail;
-<WHEN> = when <SENDER_ADDRESS> sends me an email;
-<WHEN> = when <SENDER_ADDRESS> emails me;
-<WHEN> = when i receive an email marked as important;
-<WHEN> = when i receive an important email;
-<WHEN> = when i receive an important email from <SENDER_ADDRESS>;
-<WHEN> = if i receive an email from <SENDER_ADDRESS> in category primary;
-
 #INTENTS
 ##1) CHECK EMAIL
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;

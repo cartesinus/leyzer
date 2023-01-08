@@ -2,35 +2,6 @@
 #VUI-VERSION: 0.2.0;
 public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> | WeatherInLocation__ <INTENT_3> | WeatherTomorrowInLocation__ <INTENT_4> | SunriseInLocation__ <INTENT_5> | SunsetInLocation__ <INTENT_6> | SunriseAndSunsetInLocation__ <INTENT_7> | SunriseAndSunsetInLocationAndOnDate__ <INTENT_8> | MoonphaseInLocation__ <INTENT_9> | MoonphaseInLocationOnDate__ <INTENT_10>);
 
-#PRECONDITIONS
-<WHEN> = when the temperature in <LOCATION> is below freezing;
-<WHEN> = when the humidity in <LOCATION> is below <HUMIDITY>;
-<WHEN> = when it starts raining in <LOCATION>;
-<WHEN> = when it starts snowing in <LOCATION>;
-<WHEN> = when it stops raining in <LOCATION>;
-<WHEN> = when it stops snowing in <LOCATION>;
-<WHEN> = when the wind speed in <LOCATION> is above <WINDSPEED>;
-<WHEN> = when it's <STATUS> in location <LOCATION>;
-<WHEN> = when it becomes <STATUS> in <LOCATION>;
-<WHEN> = when the temperature in <LOCATION> is above <TEMPERATURE>;
-<WHEN> = when it 's hotter than <TEMPERATURE> in <LOCATION>;
-<WHEN> = when the temperature in <LOCATION> is below <TEMPERATURE>;
-<WHEN> = when it 's colder than <TEMPERATURE> in <LOCATION>;
-<WHEN> = when the temperature outside is above <TEMPERATURE>;
-<WHEN> = when it 's hotter outside than <TEMPERATURE>;
-<WHEN> = when the temperature outside is below <TEMPERATURE>;
-<WHEN> = when it 's colder outside than <TEMPERATURE>;
-<WHEN> = when the humidity in <LOCATION> is above <HUMIDITY>;
-<WHEN> = when it is more humid than <HUMIDITY> in <LOCATION>;
-<WHEN> = when sun goes down;
-<WHEN> = after sunset;
-<WHEN> = when sunset;
-<WHEN> = when sun sets;
-<WHEN> = when sun comes up;
-<WHEN> = after sunrise;
-<WHEN> = when sunrise;
-<WHEN> = when sun rises;
-
 #INTENTS
 ##1) WEATHER FOR TODAY
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;

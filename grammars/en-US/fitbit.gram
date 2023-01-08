@@ -4,17 +4,6 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 
 #PRECONDITION
 <WHEN_1> = (if | when) my weight (goes | is) (over | higher than) <WEIGHT>;
-<WHEN> = if i become fatter than <WEIGHT>;
-<WHEN> = when i am heavier than <WEIGHT>;
-<WHEN> = when i become heavier than <WEIGHT>;
-<WHEN> = when my weight changes on fitbit;
-<WHEN> = when i record a new weight on fitbit;
-<WHEN> = when i log a new weight value on fitbit;
-<WHEN> = when I walk more than <STEPS> steps;
-<WHEN> = when i walk more than <STEPS> steps in a day;
-<WHEN> = when i total more than <STEPS> steps in one day;
-<WHEN> = when i make more than <STEPS> steps in one day;
-<WHEN> = when my fitbit steps update;
 
 #INTENTS
 ##1) STEP COUNT

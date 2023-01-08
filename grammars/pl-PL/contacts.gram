@@ -4,14 +4,27 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 
 #INTENTS
 ##1) OPEN CONTACTS
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ pokaż [mi] ([moje] kontakty | [moją] listę kontaktów);
 
-<INTENT_1> = <INTENT_1_LXTC> | <INTENT_1_REPHRASE>;
-<INTENT_1_LXTC> = <SHOW_VERB> ([moje] kontakty | [moją] listę kontaktów);
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [mi] ([moje] kontakty | [moją] listę kontaktów);
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ otwórz ([moje] kontakty | [moją] listę kontaktów);
+
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ sprawdź ([moje] kontakty | [moją] listę kontaktów);
+
 <INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż [mi | tę] listę (z numerami telefonów | gdzie zapisałem (numery telefonów | osoby | znajomych));
 
 ##2) SHOW MY INFO
-<INTENT_2> = <INTENT_2_LXTC> | <INTENT_2_REPHRASE>;
-<INTENT_2_LXTC> = <SHOW_VERB> (moje informacje w kontaktach | mój wpis w kontaktach | moją wizytkówkę);
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ pokaż [mi] (moje informacje w kontaktach | mój wpis w kontaktach | moją wizytkówkę);
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [mi] (moje informacje w kontaktach | mój wpis w kontaktach | moją wizytkówkę);
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ otwórz (moje informacje w kontaktach | mój wpis w kontaktach | moją wizytkówkę);
+
+<INTENT_2_L2TC> = L2TC__ verb_pattern_01__ sprawdź (moje informacje w kontaktach | mój wpis w kontaktach | moją wizytkówkę);
+
 <INTENT_2_REPHRASE> = REPHRASE__ (<INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>);
 <INTENT_2_REPHRASE_1> = verb_pattern_01__ pokaż mój numer [telefonu];
 <INTENT_2_REPHRASE_2> = verb_pattern_01__ przypomnij mi (jaki mam | mój) numer telefonu;
@@ -165,11 +178,3 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 <PHONE_NUMBER> = CONTACTS.SLOT.PHONE_NUMBER;
 <NAME> = CONTACTS.SLOT.NAME;
 <PHONE_TYPE> = CONTACTS.SLOT.PHONE_TYPE;
-
-#LANG. COMPONENTS
-<SHOW_VERB> = <SHOW_VERB_L0TC> | <SHOW_VERB_L1TC> | <SHOW_VERB_L2TC>;
-<SHOW_VERB_L0TC> = L0TC__ verb_pattern_01__ pokaż [mi];
-<SHOW_VERB_L1TC> = <SHOW_VERB_L1TC_1> | <SHOW_VERB_L1TC_2>;
-<SHOW_VERB_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [mi];
-<SHOW_VERB_L1TC_2> = L1TC__ verb_pattern_02__ otwórz;
-<SHOW_VERB_L2TC> = L2TC__ verb_pattern_01__ sprawdź;

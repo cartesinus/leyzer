@@ -2,21 +2,6 @@
 #VUI-VERSION: 0.2.0;
 public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2> | ShowLastNumberPictures__ <INTENT_3> | ShowPicturesWithFilter__ <INTENT_4> | ShowPicturesWithLocation__ <INTENT_5> | ShowPicturesWithHashtag__ <INTENT_6> | PostWithPicturesFromDateAndWithLocation__ <INTENT_7> | ShowPicturesFromDate__ <INTENT_8> | TakePicture__ <INTENT_9> | PostWithLastPictureWithLocationAndWithHashtag__ <INTENT_10>);
 
-#PRECONDITIONS
-<WHEN> = when I (upload | put up) a [new] picture on instagram;
-<WHEN> = when i instagram a picture;
-<WHEN> = when i update my instagram;
-<WHEN> = if i update my instagram;
-<WHEN> = if i upload a picture on instagram;
-<WHEN> = if there is a new picture on my instagram;
-<WHEN> = when I upload a picture with filter <FILTER> on instagram;
-<WHEN> = when i upload a picture that has filter <FILTER> on instagram;
-<WHEN> = when i upload a picture on instagram that uses filter <FILTER>;
-<WHEN> = when i upload a picture on instagram that uses the <FILTER> filter;
-<WHEN> = when i put up a picture with filter <FILTER> on instagram;
-<WHEN> = when i upload a instagram picture tagged <HASHTAG>;
-<WHEN> = when i tag a picture <HASHTAG> on instagram;
-
 #INTENTS
 ##1) OPEN INSTAGRAM
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;

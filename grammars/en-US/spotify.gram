@@ -2,19 +2,6 @@
 #VUI-VERSION: 0.2.0;
 public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlaySongByArtist__ <INTENT_3> | PlayAlbumOfTypeByArtist__ <INTENT_4> | Pause__ <INTENT_5> | NextSong__ <INTENT_6> | PreviousSong__ <INTENT_7> | PlayPlaylist__ <INTENT_8> | AddSongToPlaylistWithName__ <INTENT_9> | AddSongWithNameToPlaylistWithName__ <INTENT_10> | AddAlbumToPlaylist__ <INTENT_11> | CreatePlaylist__ <INTENT_12> | CreatePlaylistWithName__ <INTENT_13> | AddSongToPlaylist__ <INTENT_14> | SeekByTime__ <INTENT_15> | ShuffleOnOff__ <INTENT_16> | RepeatOnOff__ <INTENT_17> | ShowDanceability__ <INTENT_18>);
 
-#PRECONDITIONS
-<WHEN> = when my top tracks changes;
-<WHEN> = when I have new favorite songs;
-<WHEN> = when a song is playing;
-<WHEN> = when a song with tempo greater than <TEMPO> is playing;
-<WHEN> = when a song with tempo less than <TEMPO> is playing;
-<WHEN> = when a song with danceability greater than <DANCEBILITY> is playing;
-<WHEN> = when a song with danceability less than <DANCEBILITY> is playing;
-<WHEN> = when a song with liveness greater than <LIVENESS> is playing;
-<WHEN> = when a song with liveness less than <LIVENESS> is playing;
-<WHEN> = when a song with energy greater than <ENERGY> is playing;
-<WHEN> = when a song with energy less than <ENERGY> is playing;
-
 #INTENTS
 #open spotify
 ##1) OPEN SPOTIFY

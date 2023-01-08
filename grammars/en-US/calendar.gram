@@ -4,32 +4,8 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 #PRECONDITIONS
 <WHEN_1> = when (a meeting | an appointment | an event) (in | from) (my | the) calendar begins;
-<WHEN> = when a meeting starts;
-<WHEN> = when it is time for my appointment;
 <WHEN_2> = when (a meeting | an appointment | an event) in (my | the) calendar in [location] <LOCATION> begins;
-<WHEN> = when an event on my calendar organized by <ORGANIZER> begins;
-<WHEN> = when something changes on my icalendar;
-<WHEN> = when something changes on my calendar;
-<WHEN> = when events organized by <ORGANIZER> change;
-<WHEN> = when the location of some event changes on my icalendar;
-<WHEN> = when the time of some event changes on my icalendar;
-<WHEN> = when the time of some event changes on my calendar;
-<WHEN> = when the time of my meetings changes;
-<WHEN> = when an event is about to start on my icalendar;
-<WHEN> = when an event is about to start on my calendar;
 <WHEN_3> = the (time | date | hour) of (an event | a meeting | an appointment) <EVENT_NAME> in (my | the) calendar;
-<WHEN> = when an event is about to start;
-<WHEN> = when an event on my calendar at location <LOCATION> is about to begin;
-<WHEN> = when an event on my calendar organized by <ORGANIZER> is about to begin;
-<WHEN> = when an event on my icalendar ends;
-<WHEN> = when an event on my calendar ends;
-<WHEN> = when a meeting ends;
-<WHEN> = when the meeting is over;
-<WHEN> = when my appointment ends;
-<WHEN> = when an event on my calendar at location <LOCATION> ends;
-<WHEN> = when an event on my calendar organized by <ORGANIZER> ends;
-<WHEN> = when it 's a holiday in <COUNTRY>;
-<WHEN> = when it 's a holiday;
 
 #INTENTS
 ##1) OPEN CALENDAR

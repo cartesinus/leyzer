@@ -2,14 +2,6 @@
 #VUI-VERSION: 0.2.0;
 public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> | ShowFilesWithStar__ <INTENT_3> | ShowFilesFromTime__ <INTENT_4> | ShowFilesWithSize__ <INTENT_5> | CreateFile__ <INTENT_6> | CreateFileWithName__ <INTENT_7> | ShowOldestFiles__ <INTENT_8> | ShowNewestFiles__  <INTENT_9> | SortAlphabetical__ <INTENT_10> | SortReverseAlphabetical__ <INTENT_11> | OpenFileWithName__ <INTENT_12> | ShareFileWithNameToAddress__ <INTENT_13>);
 
-#PRECONDITIONS
-<WHEN> = when a file is modified on google drive;
-<WHEN> = when a file changes in my google drive;
-<WHEN> = when a file is created in google drive;
-<WHEN> = when i create a new file on google drive;
-<WHEN> = when i make a new file in google drive;
-<WHEN> = when there is a new file in google drive;
-
 #INTENTS
 ##1) OPEN GDRIVE
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;

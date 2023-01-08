@@ -2,44 +2,6 @@
 #VUI-VERSION: 0.2.0;
 public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> | IncreaseVolumeByPercent__ <INTENT_3> | DecreaseVolume__ <INTENT_4> | DecreaseVolumeByPercent__ <INTENT_5>| MuteOn__ <INTENT_6> | MuteOff__ <INTENT_7>);
 
-#PRECONDITIONS
-<WHEN> = when my speaker changes state;
-<WHEN> = when my speaker turns <STATE>;
-<WHEN> = if my speaker switches <STATE>;
-<WHEN> = when the speaker becomes <STATE>;
-<WHEN> = if my speaker is <STATE>;
-<WHEN> = when my speaker changes to <STATE>;
-<WHEN> = when my speaker turns on;
-<WHEN> = when I switch on the speaker;
-<WHEN> = if the speaker becomes on;
-<WHEN> = when my speaker gets switched to on;
-<WHEN> = if my speaker is on;
-<WHEN> = when my speaker is turned on;
-<WHEN> = the moment my speaker is switched on;
-<WHEN> = when my speaker is turned off;
-<WHEN> = if my speaker switches off;
-<WHEN> = the moment my speaker becomes off;
-<WHEN> = if my speaker is off;
-<WHEN> = when my speaker gets turned off;
-<WHEN> = when my <DEVICE_NAME> speaker changes state;
-<WHEN> = when my <DEVICE_NAME> speaker turns <STATE>;
-<WHEN> = if my <DEVICE_NAME> speaker switches <STATE>;
-<WHEN> = when the <DEVICE_NAME> speaker becomes <STATE>;
-<WHEN> = if my <DEVICE_NAME> speaker is <STATE>;
-<WHEN> = when my <DEVICE_NAME> speaker changes to <STATE>;
-<WHEN> = when my <DEVICE_NAME> speaker turns on;
-<WHEN> = when I switch on the <DEVICE_NAME> speaker;
-<WHEN> = if the <DEVICE_NAME> speaker becomes on;
-<WHEN> = when my <DEVICE_NAME> speaker gets switched to on;
-<WHEN> = if my <DEVICE_NAME> speaker is on;
-<WHEN> = when my <DEVICE_NAME> speaker is turned on;
-<WHEN> = the moment my <DEVICE_NAME> speaker is switched on;
-<WHEN> = when my <DEVICE_NAME> speaker is turned off;
-<WHEN> = if my <DEVICE_NAME> speaker switches off;
-<WHEN> = the moment my <DEVICE_NAME> speaker becomes off;
-<WHEN> = if my <DEVICE_NAME> speaker is off;
-<WHEN> = when my <DEVICE_NAME> speaker gets turned off;
-
 #INTENTS
 ##1) TURN ON OR OFF
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;

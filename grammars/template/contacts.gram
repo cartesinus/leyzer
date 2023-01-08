@@ -21,7 +21,7 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 <INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ ;
 
 ##2) SHOW MY INFO
-<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
 <INTENT_2_L0TC> = (<INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>) <INTENT_2_END>;
 <INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ ;
 <INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ ;

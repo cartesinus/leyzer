@@ -34,5 +34,5 @@ for slot in `ls -1 ../slots/${LANG}`; do
 done
 
 if [ "$ADD_BIO" = "true" ]; then
-    paste <(cut -f1-2 $INPUT_FILE) <(cut -f3 $INPUT_FILE | ./convert_str_to_bio.py) > $OUTPUT_FILE
+    paste <(cut -f1-4 $INPUT_FILE) <(cut -f5 $INPUT_FILE | ./convert_str_to_bio.py) > $OUTPUT_FILE
 fi
