@@ -225,7 +225,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_16_L2TC_3> = L2TC__ verb_pattern_03__ put this [playlist | song | album] on shuffle;
 <INTENT_16_L2TC_4> = L2TC__ verb_pattern_04__ use shuffle;
 
-<INTENT_16_REPHRASE> = REPHRASE__ verb_pattern_01__ [i want to] liste to random song;
+<INTENT_16_REPHRASE> = REPHRASE__ verb_pattern_01__ [i want to] listen to random song;
 
 #repeat on | off
 ##17) REPEAT ON | OFF
