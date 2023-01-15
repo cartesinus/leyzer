@@ -22,7 +22,7 @@ public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | Unf
 <INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3>;
 <INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ check [latest] news on twitter;
 <INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ [can somebody tell me] what's happening on twitter;
-<INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ update my twitter;
+<INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ update [my] twitter [feed];
 
 #follow given user
 ##2) FOLLOW GIVEN USER

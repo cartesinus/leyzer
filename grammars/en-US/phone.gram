@@ -25,7 +25,7 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 
 <INTENT_2_L2TC> = L2TC__ verb_pattern_01__ (911 | ambulance | fire department | police | emergency services);
 
-<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ get help for me;
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ [please] get help [for me];
 
 ##3) CHECK SMS
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
@@ -33,11 +33,11 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 
 <INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
 <INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ show my ([latest] texts | sms inbox);
-<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ display my sms inbox;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ display [my] sms inbox;
 
 <INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
-<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ open my sms inbox;
-<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ launch my sms inbox;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ open [my] sms inbox;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ launch [my] sms inbox;
 
 <INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to read my (texts | sms);
 

@@ -8,18 +8,18 @@ public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> 
 <INTENT_1_L0TC> = L0TC__ verb_pattern_01__ [check] (the weather | what's the (weather | temperature) [like]) [outside];
 
 <INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2> | <INTENT_1_L1TC_3>;
-<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ open weather forecast;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ open weather forecast [for today];
 <INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ show [me] weather forecast;
 <INTENT_1_L1TC_3> = L1TC__ verb_pattern_03__ give [me] weather forecast;
 
 <INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4> | <INTENT_1_L2TC_5> | <INTENT_1_L2TC_6> | <INTENT_1_L2TC_7> | <INTENT_1_L2TC_8>;
 <INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ do i need raincoat [today];
-<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ how hot is outside;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ how hot is outside [[today | [right] now]];
 <INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ is it going to rain [today];
 <INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ will there be a sun [today];
-<INTENT_1_L2TC_5> = L2TC__ verb_pattern_05__ what 's the humidity;
-<INTENT_1_L2TC_6> = L2TC__ verb_pattern_06__ is it hot outside;
-<INTENT_1_L2TC_7> = L2TC__ verb_pattern_07__ is it windy today;
+<INTENT_1_L2TC_5> = L2TC__ verb_pattern_05__ what 's the humidity (today | [right] now);
+<INTENT_1_L2TC_6> = L2TC__ verb_pattern_06__ is it hot outside [[right] now];
+<INTENT_1_L2TC_7> = L2TC__ verb_pattern_07__ is it windy (today | [right] now);
 <INTENT_1_L2TC_8> = L2TC__ verb_pattern_08__ will it rain (today | later);
 
 <INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ [i need] current atmospheric conditions;
@@ -33,15 +33,14 @@ public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> 
 <INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ show [me] (weather | temperature) [for] tomorrow;
 <INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ give [me] (weather | temperature) [for] tomorrow;
 
-<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3> | <INTENT_2_L2TC_4> | <INTENT_2_L2TC_5> | <INTENT_2_L2TC_6> | <INTENT_2_L2TC_7> | <INTENT_2_L2TC_8>;
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3> | <INTENT_2_L2TC_4> | <INTENT_2_L2TC_5> | <INTENT_2_L2TC_6> | <INTENT_2_L2TC_7>;
 <INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ what's the (weather | temperature) tommorow [like];
 <INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ tomorrow's (weather | temperature);
-<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ what will the weather be like tomorrow;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ what will the weather [conditions] be like tomorrow;
 <INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ (is it going to | will there be a) rain tomorrow;
-<INTENT_2_L2TC_5> = L2TC__ verb_pattern_05__ will there be a sun tomorrow;
-<INTENT_2_L2TC_6> = L2TC__ verb_pattern_06__ will there be a sun tomorrow;
-<INTENT_2_L2TC_7> = L2TC__ verb_pattern_07__ will i need raincoat tomorrow;
-<INTENT_2_L2TC_8> = L2TC__ verb_pattern_08__ what should i wear tomorrow;
+<INTENT_2_L2TC_5> = L2TC__ verb_pattern_05__ will there be a [lot of] sun tomorrow [morning | afternoon | evening];
+<INTENT_2_L2TC_6> = L2TC__ verb_pattern_07__ will i need (raincoat | umbrella) tomorrow;
+<INTENT_2_L2TC_7> = L2TC__ verb_pattern_08__ what should i wear tomorrow [morning | afternoon | evening];
 
 <INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ [i need | i want] tomorrow's atmospheric conditions;
 
@@ -76,12 +75,12 @@ public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> 
 <INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4> | <INTENT_4_L2TC_5> | <INTENT_4_L2TC_6> | <INTENT_4_L2TC_7> | <INTENT_4_L2TC_8>;
 <INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ what's the (weather | temperature) tommorow in <LOCATION>;
 <INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ tomorrow's (weather | temperature) for <LOCATION>;
-<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ what will the weather be like tomorrow in <LOCATION>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ what will the weather be like tomorrow in <LOCATION> [city];
 <INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ (is it going to | will there be a) rain tomorrow in <LOCATION>;
-<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ will there be a sun tomorrow in <LOCATION>;
-<INTENT_4_L2TC_6> = L2TC__ verb_pattern_06__ will there be a sun tomorrow in <LOCATION>;
-<INTENT_4_L2TC_7> = L2TC__ verb_pattern_07__ will i need raincoat tomorrow in <LOCATION>;
-<INTENT_4_L2TC_8> = L2TC__ verb_pattern_08__ what should i wear tomorrow in <LOCATION>;
+<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ will there be a [lot of] sun tomorrow in <LOCATION> [city];
+<INTENT_4_L2TC_6> = L2TC__ verb_pattern_06__ will there be a [lot of] sun tomorrow in <LOCATION> [city];
+<INTENT_4_L2TC_7> = L2TC__ verb_pattern_07__ will i need (raincoat | umbrella) tomorrow in <LOCATION> [city];
+<INTENT_4_L2TC_8> = L2TC__ verb_pattern_08__ what should i wear tomorrow in <LOCATION> [city];
 
 <INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ [i need | i want] tomorrow atmospheric conditions for <LOCATION>;
 
@@ -89,7 +88,7 @@ public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> 
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
 <INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
 <INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ check [when is | what time is] sunrise [time] in <LOCATION>;
-<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ <LOCATION> sunrise;
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ <LOCATION> sunrise [time];
 
 <INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
 <INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ tell me [when is | what time is] sunrise [time] in <LOCATION>;
@@ -107,7 +106,7 @@ public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> 
 <INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
 <INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
 <INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ check [when is | what time is] sunset [time] in <LOCATION>;
-<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ <LOCATION> sunset;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ <LOCATION> sunset [time];
 
 <INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
 <INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ tell me [when is | what time is] sunset [time] in <LOCATION>;
@@ -125,23 +124,23 @@ public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> 
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
 <INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
 <INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ check [when is | what time is] sunrise and sunset [time] in <LOCATION>;
-<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ <LOCATION> sunrise and sunset;
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ <LOCATION> sunrise and sunset [time];
 
 <INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2>;
 <INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ tell me [when is | what time is] sunrise and sunset [time] in <LOCATION>;
 <INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ find out sunrise and sunset [time] in <LOCATION>;
 
 <INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
-<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ show me sunrise and sunset [time] in <LOCATION>;
-<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ get sunrise and sunset [time] in <LOCATION>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ show me sunrise and sunset [time] in <LOCATION> [location];
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ get sunrise and sunset [time] in <LOCATION> [location];
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ when day starts and ends at <LOCATION>;
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ when [does] the day start and end at <LOCATION> [location];
 
 ##8) SUNSET AND SUNRISE IN LOCATION ON DATE
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
 <INTENT_8_L0TC> = <INTENT_8_L0TC_1> | <INTENT_8_L0TC_2>;
 <INTENT_8_L0TC_1> = L0TC__ verb_pattern_01__ check [when is | what time is] sunrise and sunset [time] in <LOCATION> on <DATE>;
-<INTENT_8_L0TC_2> = L0TC__ verb_pattern_02__ <LOCATION> sunrise and sunset on <DATE>;
+<INTENT_8_L0TC_2> = L0TC__ verb_pattern_02__ <LOCATION> sunrise and sunset [time] on <DATE>;
 
 <INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2>;
 <INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ tell me [when is | what time is] sunrise and sunset [time] in <LOCATION> on <DATE>;
@@ -151,7 +150,7 @@ public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> 
 <INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ show me sunrise and sunset [time] in <LOCATION> on <DATE>;
 <INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ get sunrise and sunset [time] in <LOCATION> on <DATE>;
 
-<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ when day starts and ends at <LOCATION> on <DATE>;
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ when [does] the day start and end in <LOCATION> on <DATE>;
 
 ##9) MOON PHASE IN LOCATION
 <INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;

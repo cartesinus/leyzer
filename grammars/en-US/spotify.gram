@@ -6,14 +6,14 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 #open spotify
 ##1) OPEN SPOTIFY
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
-<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ open spotify [(and | to) play some music];
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ open spotify [(and | to) play some (music | songs)];
 
-<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ launch spotify [(and | to) play some music];
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ launch spotify [(and | to) play some (music | songs)];
 
 <INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3>;
 <INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ run spotify [(and | to) play some music];
 <INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ use spotify [(and | to) play some music];
-<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ play some music on spotify;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ play some (music | songs) on spotify;
 
 <INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ play [some] music [on spotify];
 
@@ -76,7 +76,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 
 <INTENT_5_L2TC> = L2TC__ verb_pattern_01__ click (play | pause | resume | repeat) on (this | that) <SONG_NOUN>;
 
-<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ change state of this song;
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ change state of this <SONG_NOUN>;
 
 #next song
 ##6) NEXT SONG
@@ -90,11 +90,11 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ i can't stand this <SONG_NOUN>;
 
 <INTENT_6_REPHRASE> = <INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2> | <INTENT_6_REPHRASE_3> | <INTENT_6_REPHRASE_4> | <INTENT_6_REPHRASE_5>;
-<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ go to next song;
-<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ do not play (that | this) song;
-<INTENT_6_REPHRASE_3> = REPHRASE__ verb_pattern_03__ (that | this) song is [very] bad;
-<INTENT_6_REPHRASE_4> = REPHRASE__ verb_pattern_04__ remember i (don't like | hate) this song;
-<INTENT_6_REPHRASE_5> = REPHRASE__ verb_pattern_05__ i hate this song;
+<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ go to next <SONG_NOUN>;
+<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ do not play (that | this) <SONG_NOUN>;
+<INTENT_6_REPHRASE_3> = REPHRASE__ verb_pattern_03__ (that | this) <SONG_NOUN> is [very] bad;
+<INTENT_6_REPHRASE_4> = REPHRASE__ verb_pattern_04__ remember i (don't like | hate) this <SONG_NOUN>;
+<INTENT_6_REPHRASE_5> = REPHRASE__ verb_pattern_05__ i hate (this | that) <SONG_NOUN>;
 
 #previous song
 ##7) PREVIOUS SONG
@@ -105,7 +105,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 
 <INTENT_7_L2TC> = L2TC__ verb_pattern_01__ go back [to the (last | previous) <SONG_NOUN>];
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ repeat last song;
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ repeat last <SONG_NOUN>;
 
 #play given playlist
 ##8) PLAY GIVEN PLAYLIST
@@ -142,7 +142,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ keep [the | a] [<SONG_NOUN>] <SONG> on ([my] playlist <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
 <INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ remember [the | a] [<SONG_NOUN>] <SONG> on ([my] playlist <PLAYLIST> | <PLAYLIST> playlist) [on spotify];
 
-<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ extend <SONG> on my <PLAYLIST> playlist;
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ extend (<SONG> on my <PLAYLIST> playlist | [my] playlist <PLAYLIST> with <SONG> song);
 
 #add current album to playlist
 ##11) ADD CURRENT ALBUM TO PLAYLIST
@@ -169,7 +169,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 
 <INTENT_12_L2TC> = L2TC__ verb_pattern_01__ save [a] [new] music (playlist | list);
 
-<INTENT_12_REPHRASE> = REPHRASE__ verb_pattern_01__ new music playlist;
+<INTENT_12_REPHRASE> = REPHRASE__ verb_pattern_01__ new music (playlist | list);
 
 #create playlist with given name
 ##13) CREATE PLAYLIST WITH GIVEN NAME
@@ -182,7 +182,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 
 <INTENT_13_L2TC> = L2TC__ verb_pattern_01__ save [a] [new] playlist (named | titled) <PLAYLIST>;
 
-<INTENT_13_REPHRASE> = REPHRASE__ verb_pattern_01__ new music playlist called <PLAYLIST>;
+<INTENT_13_REPHRASE> = REPHRASE__ verb_pattern_01__ new music (playlist | list) (called | named) <PLAYLIST>;
 
 #save song (to default playlist?)
 ##14) SAVE SONG (TO DEFAULT PLAYLIST?)
@@ -216,29 +216,29 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_16_L0TC> = L0TC__ verb_pattern_01__ turn (shuffle <STATE> | <STATE> shuffle);
 
 <INTENT_16_L1TC> = <INTENT_16_L1TC_1> | <INTENT_16_L1TC_2>;
-<INTENT_16_L1TC_1> = L1TC__ verb_pattern_01__ set shuffle to <STATE>;
-<INTENT_16_L1TC_2> = L1TC__ verb_pattern_02__ change shuffle to <STATE>;
+<INTENT_16_L1TC_1> = L1TC__ verb_pattern_01__ set shuffle [option | mode] to <STATE>;
+<INTENT_16_L1TC_2> = L1TC__ verb_pattern_02__ change shuffle [option | mode] to <STATE>;
 
 <INTENT_16_L2TC> = <INTENT_16_L2TC_1> | <INTENT_16_L2TC_2> | <INTENT_16_L2TC_3> | <INTENT_16_L2TC_4>;
-<INTENT_16_L2TC_1> = L2TC__ verb_pattern_01__ i want shuffle <STATE>;
+<INTENT_16_L2TC_1> = L2TC__ verb_pattern_01__ i want shuffle [mode | state] <STATE>;
 <INTENT_16_L2TC_2> = L2TC__ verb_pattern_02__ (disable | enable) shuffle;
-<INTENT_16_L2TC_3> = L2TC__ verb_pattern_03__ put this [playlist | song | album] on shuffle;
-<INTENT_16_L2TC_4> = L2TC__ verb_pattern_04__ use shuffle;
+<INTENT_16_L2TC_3> = L2TC__ verb_pattern_03__ put this [playlist | song | album] on [a] shuffle;
+<INTENT_16_L2TC_4> = L2TC__ verb_pattern_04__ use shuffle [mode];
 
-<INTENT_16_REPHRASE> = REPHRASE__ verb_pattern_01__ [i want to] listen to random song;
+<INTENT_16_REPHRASE> = REPHRASE__ verb_pattern_01__ [i want to] listen to random <SONG_NOUN>;
 
 #repeat on | off
 ##17) REPEAT ON | OFF
 <INTENT_17> = <INTENT_17_L0TC> | <INTENT_17_L1TC> | <INTENT_17_L2TC> | <INTENT_17_REPHRASE>;
-<INTENT_17_L0TC> = L0TC__ verb_pattern_01__ turn <STATE> repeat;
+<INTENT_17_L0TC> = L0TC__ verb_pattern_01__ turn <STATE> repeat [mode];
 
 <INTENT_17_L1TC> = <INTENT_17_L1TC_1> | <INTENT_17_L1TC_2>;
-<INTENT_17_L1TC_1> = L1TC__ verb_pattern_01__ set repeat <STATE> [on that song];
-<INTENT_17_L1TC_2> = L1TC__ verb_pattern_02__ change repeat to <STATE>;
+<INTENT_17_L1TC_1> = L1TC__ verb_pattern_01__ set repeat <STATE> [on that <SONG_NOUN>];
+<INTENT_17_L1TC_2> = L1TC__ verb_pattern_02__ change repeat to <STATE> [state];
 
-<INTENT_17_L2TC> = L2TC__ verb_pattern_01__ [i want to] repeat that song;
+<INTENT_17_L2TC> = L2TC__ verb_pattern_01__ [i want to] repeat that <SONG_NOUN>;
 
-<INTENT_17_REPHRASE> = REPHRASE__ verb_pattern_01__ [i want to] listen to this song again;
+<INTENT_17_REPHRASE> = REPHRASE__ verb_pattern_01__ [i want to] listen to this <SONG_NOUN>again;
 
 #dencability of current song
 ##18) DENCABILITY OF CURRENT SONG
@@ -252,7 +252,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_18_L2TC_2> = L2TC__ verb_pattern_02__ compute [the] danceability of (this | that) <SONG_NOUN>;
 <INTENT_18_L2TC_3> = L2TC__ verb_pattern_03__ is this <SONG_NOUN> dancey;
 
-<INTENT_18_REPHRASE> = REPHRASE__ verb_pattern_01__ can i dance to this song?;
+<INTENT_18_REPHRASE> = REPHRASE__ verb_pattern_01__ can i dance to (this | that) <SONG_NOUN>;
 
 <DO> = add <SONG> to my playlist;
 <DO> = add to playlist <PLAYLIST>;

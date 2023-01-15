@@ -41,30 +41,30 @@ public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> 
 ##3) SCROLL DOWN
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
 <INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
-<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ page down;
-<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ scroll down;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ page down [a little bit | [one] page];
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ scroll down [a little bit | page];
 
-<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ show next page;
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ show [me] next page;
 
 <INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
-<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ downward scroll;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ downward scroll [now];
 <INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ go [[one] page] down;
 
-<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ continue reading;
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ continue reading (this | that);
 
 ##4) SCROLL UP
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
 <INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
-<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ page up;
-<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ scroll up;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ page [[one] page] up;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ scroll [[one] page] up;
 
-<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ show previous page;
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ show [me] previous page;
 
 <INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
-<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ upward scroll;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ upward scroll [now];
 <INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ go [page] up;
 
-<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ get back to what i just read;
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ get back to what i [just] read;
 
 ##5) DOWNLOAD PAGE AS PDF
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
@@ -105,7 +105,7 @@ public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> 
 <INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ cruise (wiki | wikipedia);
 <INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ (wiki | wikipedia) (surf | surfing);
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to learn something new;
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to learn something (new | useful) [today];
 
 ##8) CONTENT NAVIGATION
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;

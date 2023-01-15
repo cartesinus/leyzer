@@ -16,8 +16,8 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 <INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ launch [my] contacts [list | app | application];
 
 <INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2>;
-<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ who can i call;
-<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ show me people i'm in contact with;
+<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ who can i call [now];
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ show me people (i'm in contact with | i can call);
 
 ##2) SHOW MY INFO
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
@@ -45,7 +45,7 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 <INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ find [my] [google] contact (with | that has) an email [address] <EMAIL>;
 <INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ tell me who has email [address] <EMAIL> [in [my] contacts];
 
-<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ who's email is <EMAIL>;
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ who's email is [this | that] <EMAIL>;
 
 ##4) SHOW CONTACT WITH NUMBER
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
@@ -110,7 +110,7 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 <INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ remember [a] new contact <NAME> with number <PHONE_NUMBER> [as <PHONE_TYPE>];
 <INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ keep [a] new contact <NAME> with number <PHONE_NUMBER> [as <PHONE_TYPE>];
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ write down contact <PHONE_NUMBER> as <NAME>;
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ write down (contact | number) <PHONE_NUMBER> as <NAME>;
 
 ##8) EDIT CONTACT WITH NAME
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;

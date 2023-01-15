@@ -58,13 +58,13 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3> | <INTENT_3_L2TC_4>;
 <INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ make an entry (in (my | the) calendar) (called | with title) <EVENT_NAME>;
-<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ put <EVENT_NAME> on my calendar;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ put <EVENT_NAME> on [my] calendar;
 <INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ write down [in my calendar] that i have <EVENT_NAME>;
-<INTENT_3_L2TC_4> = L2TC__ verb_pattern_04__ remind me about <EVENT_NAME>;
+<INTENT_3_L2TC_4> = L2TC__ verb_pattern_04__ remind me (that | about) <EVENT_NAME>;
 
 <INTENT_3_REPHRASE> = <INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2>;
-<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ remember [for me] <EVENT_NAME>;
-<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ don't let me forget about <EVENT_NAME>;
+<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ remember [that | for me] <EVENT_NAME>;
+<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ don't let me forget (that there is | about) <EVENT_NAME>;
 
 ##4) ADD EVENT ON DATE
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
@@ -78,15 +78,15 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4> | <INTENT_4_L2TC_5> | <INTENT_4_L2TC_6>;
 <INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ make an entry (in (my | the) calendar) (called | with title) <EVENT_NAME> <DATE>;
-<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ put <EVENT_NAME> in my calendar <DATE>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ put <EVENT_NAME> in [my] calendar <DATE>;
 <INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ write down [in my calendar] that i have <EVENT_NAME> <DATE>;
-<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ set <EVENT_NAME> <DATE>;
-<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ remind me about <EVENT_NAME> <DATE>;
-<INTENT_4_L2TC_6> = L2TC__ verb_pattern_06__ tell me about <EVENT_NAME> <DATE>;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ set [me] <EVENT_NAME> <DATE>;
+<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ remind [me] about <EVENT_NAME> <DATE>;
+<INTENT_4_L2TC_6> = L2TC__ verb_pattern_06__ tell me later (about event | that) <EVENT_NAME> <DATE>;
 
 <INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2>;
-<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ remember that i have <EVENT_NAME> <DATE>;
-<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ there is <EVENT_NAME> <DATE> and i won't be unavailable <DATE>;
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ remember [that] i have <EVENT_NAME> <DATE>;
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ there is <EVENT_NAME> <DATE> [(and | so) i (will | won't) be available];
 
 ##5) NOTIFY ON EVENT START
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
