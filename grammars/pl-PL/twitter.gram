@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | UnfollowUser__ <INTENT_3> | SendMessage__ <INTENT_4> | SendMessageToUser__ <INTENT_5> | ShowTwittsWithHashtag__ <INTENT_6>);
+public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | UnfollowUser__ <INTENT_3> | SendTwitterMessage__ <INTENT_4> | SendMessageToUser__ <INTENT_5> | ShowTwittsWithHashtag__ <INTENT_6>);
 
 #INTENTS
 ##1) SHOW USER TWEETS
