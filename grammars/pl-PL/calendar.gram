@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithName__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8> | NotifyWhenEventNameStart__ <INTENT_9>);
+public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | CheckCalendarEventName__ <INTENT_4> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithName__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8> | NotifyWhenEventNameStart__ <INTENT_9>);
 
 #PRECONDITIONS
 <WHEN_1> = kiedy (spotkanie | wydarzenie) w [moim] <CALENDAR_APP_LOC> się (rozpocznie | zacznie);
@@ -34,87 +34,99 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ co jest zaplanowane (na <DATE>| w <DATE_W> | we <DATE_WE>);
 <INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ (jakie | czy) mam (wydarzenia | spotkania) (na <DATE> | w <DATE_W> | we <DATE_WE>);
 
-##3) ADD EVENT
+##3) CHECK CALENDAR EVENT WITH NAME
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
-<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
-<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) [do kalendarza] o nazwie <EVENT_NAME>;
-<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ (chcę | muszę) dodać [nowe] [wydarzenie | spotkanie | przypomnienie] <EVENT_NAME> do [mojego] <CALENDAR_APP_GEN>;
+<INTENT_3_L0TC> = L0TC__ verb_phrase_01__ pokaż szczegóły [mojego] (spotkania | wydarzenia) [o nazwie] <EVENT_NAME>;
 
-<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ zapisz [wydarzenie] <EVENT_NAME> w [moim] <CALENDAR_APP_LOC>;
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_phrase_01__ wyświetl (([moje] (spotkanie | plany | wydarzenie)) | (szczegóły mojego (spotkania | planu | wydarzenia))) [o nazwie] <EVENT_NAME>;
+<INTENT_3_L1TC_2> = L1TC__ verb_phrase_02__ sprawdź [szczegóły mojego | moje] (spotkania | wydarzenia) [o nazwie] <EVENT_NAME>;
 
-<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
-<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ zanotuj [wydarzenie] <EVENT_NAME> w [moim] <CALENDAR_APP_LOC>;
-<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ zaznacz [wydarzenie] <EVENT_NAME> w [moim] <CALENDAR_APP_LOC>;
+<INTENT_3_L2TC> = L2TC__ verb_phrase_01__ powiedz mi o [szczegółach] <EVENT_NAME>;
 
-<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ wydarzenie <EVENT_NAME> dodaj do [mojego] <CALENDAR_APP_GEN>;
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ co (jest zaplanowane | zaplanowałem) w <EVENT_NAME>;
 
-##4) ADD EVENT ON DATE
+##4) ADD EVENT
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
 <INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
-<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) [do kalendarza] o nazwie <EVENT_NAME> (na <DATE> | w <DATE_W> | we <DATE_WE>);
-<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ <DATE> dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) o nazwie <EVENT_NAME> [do kalendarza];
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) [do kalendarza] o nazwie <EVENT_NAME>;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ (chcę | muszę) dodać [nowe] [wydarzenie | spotkanie | przypomnienie] <EVENT_NAME> do [mojego] <CALENDAR_APP_GEN>;
 
-<INTENT_4_L1TC> = L1TC__ verb_pattern_01__  <DATE> zapisz [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ zapisz [wydarzenie] <EVENT_NAME> w [moim] <CALENDAR_APP_LOC>;
 
 <INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
-<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__  <DATE> zanotuj [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
-<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__  <DATE> zaznacz [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ zanotuj [wydarzenie] <EVENT_NAME> w [moim] <CALENDAR_APP_LOC>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ zaznacz [wydarzenie] <EVENT_NAME> w [moim] <CALENDAR_APP_LOC>;
 
-<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ wydarzenie <EVENT_NAME> dodaj do [mojego] <CALENDAR_APP_GEN> na <DATE>;
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ wydarzenie <EVENT_NAME> dodaj do [mojego] <CALENDAR_APP_GEN>;
 
-##5) NOTIFY ON EVENT START
+##5) ADD EVENT ON DATE
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
-<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ powiadom mnie <WHEN_1>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) [do kalendarza] o nazwie <EVENT_NAME> (na <DATE> | w <DATE_W> | we <DATE_WE>);
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ <DATE> dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) o nazwie <EVENT_NAME> [do kalendarza];
 
-<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ powiedz mi <WHEN_1>;
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__  <DATE> zapisz [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
 
-<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ przypomnij mi <WHEN_1>;
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__  <DATE> zanotuj [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__  <DATE> zaznacz [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
 
-<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ daj mi znać <WHEN_1>;
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ wydarzenie <EVENT_NAME> dodaj do [mojego] <CALENDAR_APP_GEN> na <DATE>;
 
-##6) DONT NOTIFY ON EVENT START
+##6) NOTIFY ON EVENT START
 <INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
-<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ nie powiadamiaj mnie <WHEN_1>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ powiadom mnie <WHEN_1>;
 
-<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ nie mów mi <WHEN_1>;
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ powiedz mi <WHEN_1>;
 
-<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ nie przypominaj mi <WHEN_1>;
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ przypomnij mi <WHEN_1>;
 
-<INTENT_6_REPHRASE> = <INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2>;
-<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ nie wspominaj [o tym] <WHEN_1>;
-<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ siedź cicho <WHEN_1>;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ daj mi znać <WHEN_1>;
 
-##7) NOTIFY ON EVENT START IN LOCATION
+##7) DONT NOTIFY ON EVENT START
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
-<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ powiadom mnie <WHEN_2>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ nie powiadamiaj mnie <WHEN_1>;
 
-<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ powiedz mi <WHEN_2>;
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ nie mów mi <WHEN_1>;
 
-<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ przypomnij mi <WHEN_2>;
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ nie przypominaj mi <WHEN_1>;
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ daj mi znać <WHEN_2>;
+<INTENT_7_REPHRASE> = <INTENT_7_REPHRASE_1> | <INTENT_7_REPHRASE_2>;
+<INTENT_7_REPHRASE_1> = REPHRASE__ verb_pattern_01__ nie wspominaj [o tym] <WHEN_1>;
+<INTENT_7_REPHRASE_2> = REPHRASE__ verb_pattern_02__ siedź cicho <WHEN_1>;
 
-##8) DONT NOTIFY ON EVENT START IN LOCATION
+##8) NOTIFY ON EVENT START IN LOCATION
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
-<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ nie powiadamiaj mnie <WHEN_2>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ powiadom mnie <WHEN_2>;
 
-<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ nie mów mi <WHEN_2>;
+<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ powiedz mi <WHEN_2>;
 
-<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ nie przypominaj mi <WHEN_2>;
+<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ przypomnij mi <WHEN_2>;
 
-<INTENT_8_REPHRASE> = <INTENT_8_REPHRASE_1> | <INTENT_8_REPHRASE_2>;
-<INTENT_8_REPHRASE_1> = REPHRASE__ verb_pattern_01__ nie wspominaj [o tym] <WHEN_2>;
-<INTENT_8_REPHRASE_2> = REPHRASE__ verb_pattern_02__ siedź cicho <WHEN_2>;
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ daj mi znać <WHEN_2>;
 
-##9) NOTIFY WHEN EVENT START
-<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
-<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ powiedz [mi] <WHEN_3>;
+##9) DONT NOTIFY ON EVENT START IN LOCATION
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ nie powiadamiaj mnie <WHEN_2>;
 
-<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ sprawdź [mi] <WHEN_3>;
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ nie mów mi <WHEN_2>;
 
-<INTENT_9_L2TC> = L2TC__ verb_pattern_01__ ustal <WHEN_3>;
+<INTENT_9_L2TC> = L2TC__ verb_pattern_01__ nie przypominaj mi <WHEN_2>;
 
-<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ <WHEN_3>;
+<INTENT_9_REPHRASE> = <INTENT_9_REPHRASE_1> | <INTENT_9_REPHRASE_2>;
+<INTENT_9_REPHRASE_1> = REPHRASE__ verb_pattern_01__ nie wspominaj [o tym] <WHEN_2>;
+<INTENT_9_REPHRASE_2> = REPHRASE__ verb_pattern_02__ siedź cicho <WHEN_2>;
+
+##10) NOTIFY WHEN EVENT START
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ powiedz [mi] <WHEN_3>;
+
+<INTENT_10_L1TC> = L1TC__ verb_pattern_01__ sprawdź [mi] <WHEN_3>;
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ ustal <WHEN_3>;
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ <WHEN_3>;
 
 #SLOTS
 <DATE> = CALENDAR.SLOT.DATE;

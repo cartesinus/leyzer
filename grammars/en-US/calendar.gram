@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithName__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8> | NotifyWhenEventNameStart__ <INTENT_9>);
+public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | CheckCalendarEventName__ <INTENT_3> |AddEventWithName__ <INTENT_4> | AddEventOnDateWithName__ <INTENT_5> | NotifyOnEventStart__ <INTENT_6> | NotNotifyOnEventStart__ <INTENT_7> | NotifyOnEventInLocation__ <INTENT_8> | NotNotifyOnEventInLocation__ <INTENT_9> | NotifyWhenEventNameStart__ <INTENT_10>);
 
 #PRECONDITIONS
 <WHEN_1> = when (a meeting | an appointment | an event) (in | from) (my | the) calendar begins;
@@ -46,129 +46,147 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ did i forget [about] anything [today];
 <INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ [give me] information about incoming events;
 
-##3) ADD EVENT
+##3) CHECK CALENDAR EVENT WITH NAME
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
-<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
-<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ add (an event | an appointment | a meeting | a reminder) [called] <EVENT_NAME> [to (my | the) calendar];
-<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ create [a new] (an event | an appointment | a meeting | a reminder) [called] <EVENT_NAME> [in (my | the) calendar];
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ check [details of] [my] (event | meeting | appointment) [called] <EVENT_NAME>;
 
-<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
-<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ save (an event | an appointment | a meeting | a reminder) [called | with title] <EVENT_NAME> [in (my | the) calendar];
-<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ schedule (an event | an appointment | a meeting | a reminder) [called | with title] <EVENT_NAME> [in (my | the) calendar];
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2> | <INTENT_3_L1TC_3>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ show [me] [details of] <EVENT_NAME> (meeting | appointment | event) [to me]
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ display [details of] <EVENT_NAME> (meeting | appointment | event) [to me];
+<INTENT_3_L1TC_3> = L1TC__ verb_pattern_03__ read details of <EVENT_NAME> (meeting | appointment | event) [to me];
 
-<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3> | <INTENT_3_L2TC_4>;
-<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ make an entry (in (my | the) calendar) (called | with title) <EVENT_NAME>;
-<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ put <EVENT_NAME> on [my] calendar;
-<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ write down [in my calendar] that i have <EVENT_NAME>;
-<INTENT_3_L2TC_4> = L2TC__ verb_pattern_04__ remind me (that | about) <EVENT_NAME>;
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ when [have] i scheduled <EVENT_NAME> (meeting | event | appointment);
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ give me (date | details) of <EVENT_NAME>;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ remind me of <EVENT_NAME> [event | meeting] details;
 
 <INTENT_3_REPHRASE> = <INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2>;
-<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ remember [that | for me] <EVENT_NAME>;
-<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ don't let me forget (that there is | about) <EVENT_NAME>;
+<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ there was something about <EVENT_NAME> [that i (need to remember | needed to do)];
+<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ [give me] information about <EVENT_NAME> event;
 
-##4) ADD EVENT ON DATE
+##4) ADD EVENT
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
 <INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
-<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ add an event ([called] <EVENT_NAME> [to (my | the) calendar] <DATE> | [to (my | the) calendar] <DATE> and (call it | name it | give it a title) <EVENT_NAME>);
-<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ create an event ([called] <EVENT_NAME> [in (my | the) calendar] <DATE> | [in (my | the) calendar] <DATE> and (call it | name it | give it a title) <EVENT_NAME>);
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ add (an event | an appointment | a meeting | a reminder) [called] <EVENT_NAME> [to (my | the) calendar];
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ create [a new] (an event | an appointment | a meeting | a reminder) [called] <EVENT_NAME> [in (my | the) calendar];
 
 <INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
-<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ save an event [called | with title] <EVENT_NAME> in (my | the) calendar <DATE>;
-<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ schedule an event [called | with title] <EVENT_NAME> in (my | the) calendar <DATE>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ save (an event | an appointment | a meeting | a reminder) [called | with title] <EVENT_NAME> [in (my | the) calendar];
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ schedule (an event | an appointment | a meeting | a reminder) [called | with title] <EVENT_NAME> [in (my | the) calendar];
 
-<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4> | <INTENT_4_L2TC_5> | <INTENT_4_L2TC_6>;
-<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ make an entry (in (my | the) calendar) (called | with title) <EVENT_NAME> <DATE>;
-<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ put <EVENT_NAME> in [my] calendar <DATE>;
-<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ write down [in my calendar] that i have <EVENT_NAME> <DATE>;
-<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ set [me] <EVENT_NAME> <DATE>;
-<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ remind [me] about <EVENT_NAME> <DATE>;
-<INTENT_4_L2TC_6> = L2TC__ verb_pattern_06__ tell me later (about event | that) <EVENT_NAME> <DATE>;
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ make an entry (in (my | the) calendar) (called | with title) <EVENT_NAME>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ put <EVENT_NAME> on [my] calendar;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ write down [in my calendar] that i have <EVENT_NAME>;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ remind me (that | about) <EVENT_NAME>;
 
 <INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2>;
-<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ remember [that] i have <EVENT_NAME> <DATE>;
-<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ there is <EVENT_NAME> <DATE> [(and | so) i (will | won't) be available];
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ remember [that | for me] <EVENT_NAME>;
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ don't let me forget (that there is | about) <EVENT_NAME>;
 
-##5) NOTIFY ON EVENT START
+##5) ADD EVENT ON DATE
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
-<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ tell me <WHEN_1>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ add an event ([called] <EVENT_NAME> [to (my | the) calendar] <DATE> | [to (my | the) calendar] <DATE> and (call it | name it | give it a title) <EVENT_NAME>);
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ create an event ([called] <EVENT_NAME> [in (my | the) calendar] <DATE> | [in (my | the) calendar] <DATE> and (call it | name it | give it a title) <EVENT_NAME>);
 
 <INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
-<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ notify me <WHEN_1>;
-<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ alert me <WHEN_1>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ save an event [called | with title] <EVENT_NAME> in (my | the) calendar <DATE>;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ schedule an event [called | with title] <EVENT_NAME> in (my | the) calendar <DATE>;
 
-<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3> | <INTENT_5_L2TC_4>;
-<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ inform me <WHEN_1>;
-<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ let me know <WHEN_1>;
-<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ remind me <WHEN_1>;
-<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ give me a notice <WHEN_1>;
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3> | <INTENT_5_L2TC_4> | <INTENT_5_L2TC_5> | <INTENT_5_L2TC_6>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ make an entry (in (my | the) calendar) (called | with title) <EVENT_NAME> <DATE>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ put <EVENT_NAME> in [my] calendar <DATE>;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ write down [in my calendar] that i have <EVENT_NAME> <DATE>;
+<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ set [me] <EVENT_NAME> <DATE>;
+<INTENT_5_L2TC_5> = L2TC__ verb_pattern_05__ remind [me] about <EVENT_NAME> <DATE>;
+<INTENT_5_L2TC_6> = L2TC__ verb_pattern_06__ tell me later (about event | that) <EVENT_NAME> <DATE>;
 
-<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ update me <WHEN_1>;
+<INTENT_5_REPHRASE> = <INTENT_5_REPHRASE_1> | <INTENT_5_REPHRASE_2>;
+<INTENT_5_REPHRASE_1> = REPHRASE__ verb_pattern_01__ remember [that] i have <EVENT_NAME> <DATE>;
+<INTENT_5_REPHRASE_2> = REPHRASE__ verb_pattern_02__ there is <EVENT_NAME> <DATE> [(and | so) i (will | won't) be available];
 
-##6) DONT NOTIFY ON EVENT START
+##6) NOTIFY ON EVENT START
 <INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
-<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ don't tell me <WHEN_1>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ tell me <WHEN_1>;
 
 <INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
-<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ don't notify me <WHEN_1>;
-<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ don't alert me <WHEN_1>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ notify me <WHEN_1>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ alert me <WHEN_1>;
 
-<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3>;
-<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ don't inform me <WHEN_1>;
-<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ don't let me know <WHEN_1>;
-<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ don't remind me <WHEN_1>;
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3> | <INTENT_6_L2TC_4>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ inform me <WHEN_1>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ let me know <WHEN_1>;
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ remind me <WHEN_1>;
+<INTENT_6_L2TC_4> = L2TC__ verb_pattern_04__ give me a notice <WHEN_1>;
 
-<INTENT_6_REPHRASE> = <INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2>;
-<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ be silent <WHEN_1>;
-<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ shut up <WHEN_1>;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ update me <WHEN_1>;
 
-##7) NOTIFY ON EVENT START IN LOCATION
+##7) DONT NOTIFY ON EVENT START
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
-<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ tell me <WHEN_2>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ don't tell me <WHEN_1>;
 
 <INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2>;
-<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ notify me <WHEN_2>;
-<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ alert me <WHEN_2>;
+<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ don't notify me <WHEN_1>;
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ don't alert me <WHEN_1>;
 
-<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2> | <INTENT_7_L2TC_3> | <INTENT_7_L2TC_4>;
-<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ inform me <WHEN_2>;
-<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ let me know <WHEN_2>;
-<INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ remind me <WHEN_2>;
-<INTENT_7_L2TC_4> = L2TC__ verb_pattern_04__ give me a notice <WHEN_2>;
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2> | <INTENT_7_L2TC_3>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ don't inform me <WHEN_1>;
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ don't let me know <WHEN_1>;
+<INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ don't remind me <WHEN_1>;
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ update me <WHEN_2>;
+<INTENT_7_REPHRASE> = <INTENT_7_REPHRASE_1> | <INTENT_7_REPHRASE_2>;
+<INTENT_7_REPHRASE_1> = REPHRASE__ verb_pattern_01__ be silent <WHEN_1>;
+<INTENT_7_REPHRASE_2> = REPHRASE__ verb_pattern_02__ shut up <WHEN_1>;
 
-##8) DONT NOTIFY ON EVENT START IN LOCATION
+##8) NOTIFY ON EVENT START IN LOCATION
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
-<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ don't tell me <WHEN_2>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ tell me <WHEN_2>;
 
 <INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2>;
-<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ don't notify me <WHEN_2>;
-<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ don't alert me <WHEN_2>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ notify me <WHEN_2>;
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ alert me <WHEN_2>;
 
-<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2> | <INTENT_8_L2TC_3>;
-<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ don't inform me <WHEN_2>;
-<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ don't let me know <WHEN_2>;
-<INTENT_8_L2TC_3> = L2TC__ verb_pattern_03__ don't remind me <WHEN_2>;
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2> | <INTENT_8_L2TC_3> | <INTENT_8_L2TC_4>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ inform me <WHEN_2>;
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ let me know <WHEN_2>;
+<INTENT_8_L2TC_3> = L2TC__ verb_pattern_03__ remind me <WHEN_2>;
+<INTENT_8_L2TC_4> = L2TC__ verb_pattern_04__ give me a notice <WHEN_2>;
 
-<INTENT_8_REPHRASE> = <INTENT_8_REPHRASE_1> | <INTENT_8_REPHRASE_2>;
-<INTENT_8_REPHRASE_1> = REPHRASE__ verb_pattern_01__ be silent <WHEN_2>;
-<INTENT_8_REPHRASE_2> = REPHRASE__ verb_pattern_02__ shut up <WHEN_2>;
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ update me <WHEN_2>;
 
-##9) NOTIFY WHEN EVENT START
+##9) DONT NOTIFY ON EVENT START IN LOCATION
 <INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
-<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ tell me <WHEN_3>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ don't tell me <WHEN_2>;
 
 <INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2>;
-<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ notify me <WHEN_3>;
-<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ alert me <WHEN_3>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ don't notify me <WHEN_2>;
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ don't alert me <WHEN_2>;
 
-<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2> | <INTENT_9_L2TC_3> | <INTENT_9_L2TC_4>;
-<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ inform me <WHEN_3>;
-<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ let me know <WHEN_3>;
-<INTENT_9_L2TC_3> = L2TC__ verb_pattern_03__ remind me <WHEN_3>;
-<INTENT_9_L2TC_4> = L2TC__ verb_pattern_04__ give me a notice <WHEN_3>;
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2> | <INTENT_9_L2TC_3>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ don't inform me <WHEN_2>;
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ don't let me know <WHEN_2>;
+<INTENT_9_L2TC_3> = L2TC__ verb_pattern_03__ don't remind me <WHEN_2>;
 
-<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ update me <WHEN_3>;
+<INTENT_9_REPHRASE> = <INTENT_9_REPHRASE_1> | <INTENT_9_REPHRASE_2>;
+<INTENT_9_REPHRASE_1> = REPHRASE__ verb_pattern_01__ be silent <WHEN_2>;
+<INTENT_9_REPHRASE_2> = REPHRASE__ verb_pattern_02__ shut up <WHEN_2>;
+
+##10) NOTIFY WHEN EVENT START
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ tell me <WHEN_3>;
+
+<INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ notify me <WHEN_3>;
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ alert me <WHEN_3>;
+
+<INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2> | <INTENT_10_L2TC_3> | <INTENT_10_L2TC_4>;
+<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ inform me <WHEN_3>;
+<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ let me know <WHEN_3>;
+<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ remind me <WHEN_3>;
+<INTENT_10_L2TC_4> = L2TC__ verb_pattern_04__ give me a notice <WHEN_3>;
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ update me <WHEN_3>;
 
 <GET> = my icalendar events;
 <GET> = my schedule on icalendar;
