@@ -6,7 +6,9 @@ public <S> = Console__ (ConsoleEdit__ <INTENT_1> | ConsoleLS__ <INTENT_2> | Cons
 ##1) EDIT FILE
 ##<FILENAME> must be provided
 #SYNTAX: VB [NN] NN
-<INTENT_1> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
 <INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ open ([file] <FILENAME> | [files] <FILENAMES>);
 <INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ edit ([file] <FILENAME> | [files] <FILENAMES>);
 
@@ -38,7 +40,7 @@ public <S> = Console__ (ConsoleEdit__ <INTENT_1> | ConsoleLS__ <INTENT_2> | Cons
 <INTENT_1_REPHRASE_1_p3> = verb_pattern_03__ <INT1_REPH_INTRO> [sneak a] peek into <FILE_PATTERN_1>;
 <INTENT_1_REPHRASE_2> = verb_pattern_04__ tell me what's inside of [the] <FILE_PATTERN_1>;
 <INTENT_1_REPHRASE_3> = verb_pattern_05__ what's the content of [the] <FILE_PATTERN_1>;
-<INTENT_1_REPHRASE_4> = verb_pattern_06__ <FILENAME> what's the content of it;
+<INTENT_1_REPHRASE_4> = verb_pattern_06__ <FILENAME> what's the content of (it | that | this);
 <INTENT_1_REPHRASE_5> = verb_pattern_07__ (prepare | provide) [the] content of [the] <FILE_PATTERN_1> to edit;
 <INTENT_1_REPHRASE_6> = verb_pattern_08__ <INT1_REPH_INTRO> enter <FILE_PATTERN_1>;
 <INTENT_1_REPHRASE_7> = <INTENT_1_REPHRASE_7_1> | <INTENT_1_REPHRASE_7_2>;
@@ -175,7 +177,7 @@ public <S> = Console__ (ConsoleEdit__ <INTENT_1> | ConsoleLS__ <INTENT_2> | Cons
 #SYNTAX: PRP VRP TO VB NN NN
 <INTENT_6_REPHRASE> = REPHRASE__ (<INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2> | <INTENT_6_REPHRASE_3> | <INTENT_6_REPHRASE_4>);
 <INTENT_6_REPHRASE_1> = verb_pattern_01__ anihilate (path | directory | file | resource | folder) <FILENAME>;
-<INTENT_6_REPHRASE_2> = verb_pattern_02__ <FILENAME> remove it;
+<INTENT_6_REPHRASE_2> = verb_pattern_02__ <FILENAME> remove (it | that | this);
 <INTENT_6_REPHRASE_3> = verb_pattern_03__ (i want | i need | i would like) to remove [file | path | directory | resource] <FILENAME>;
 <INTENT_6_REPHRASE_4> = verb_pattern_04__ (i want | i need | i would like) [file | path | directory] <FILENAME> to be removed;
 

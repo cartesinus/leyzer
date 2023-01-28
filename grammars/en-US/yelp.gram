@@ -13,7 +13,7 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 
 <INTENT_1_L2TC> = L2TC__ verb_pattern_01__ display (restaurant | restaurants) [nearby | around here] (on | using) yelp;
 
-<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to eat something;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to eat (something good | good food | tasty food) [right now];
 
 ##2) SEARCH BY QUERY
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
@@ -41,7 +41,7 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 <INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ display (restaurants nearby with [at least] <RATING> star rating | <RATING> star restaurants [on yelp] | restaurants rated higher than <RATING> star);
 <INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ yelp (restaurants nearby with [at least] <RATING> star rating | <RATING> star restaurants [on yelp] | restaurants rated higher than <RATING> star);
 
-<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to eat something good;
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to eat (something good | good food);
 
 ##4) SEARCH BY CATEGORY
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
@@ -115,23 +115,23 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 <INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ display <QUERY> (in | near | around) <LOCATION> [on yelp];
 <INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ yelp <QUERY> (in | near | around) <LOCATION> [on yelp];
 
-<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to eat <QUERY> in <LOCATION>;
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to eat [someting [like]] <QUERY> in <LOCATION>;
 
 ##9) SEARCH IN LOCATION WITH RATING
 <INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
 <INTENT_9_L0TC> = <INTENT_9_L0TC_1> | <INTENT_9_L0TC_2>;
-<INTENT_9_L0TC_1> = L0TC__ verb_pattern_01__ find restaurants nearby with at least <RATING> star rating near <LOCATION>;
+<INTENT_9_L0TC_1> = L0TC__ verb_pattern_01__ find [me] restaurants [nearby] with at least <RATING> (star rating | stars) (near | in) <LOCATION>;
 <INTENT_9_L0TC_2> = L0TC__ verb_pattern_02__ <RATING> star restaurants (around | in) <LOCATION> [on yelp];
 
 <INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2>;
-<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ show restaurants nearby with at least <RATING> star rating near <LOCATION>;
-<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ search for restaurants nearby with at least <RATING> star rating near <LOCATION>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ show [me] restaurants [nearby] with at least <RATING> (star rating | stars) (near | in) <LOCATION>;
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ search for restaurants [nearby] with at least <RATING> (star rating | stars) (near | in) <LOCATION>;
 
 <INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2>;
-<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ restaurants rated higher than <RATING> star in <LOCATION>;
-<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ yelp restaurants rated higher than <RATING> star in <LOCATION>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ restaurants (rated higher | better) than <RATING> stars in <LOCATION>;
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ yelp [me] restaurants (rated higher | better) than <RATING> stars in <LOCATION>;
 
-<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to eat good food in <LOCATION>;
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to eat ([something] good | [good] food) in <LOCATION>;
 
 ##10) SEARCH BY CATEGORY IN LOCATION
 <INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
@@ -145,7 +145,7 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 <INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ display <CATEGORY> (food | restaurants) (near | around) <LOCATION>;
 <INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ yelp <CATEGORY> (food | restaurants) (near | around) <LOCATION>;
 
-<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to eat <CATEGORY> food in <LOCATION>;
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to eat [something from] <CATEGORY> [food] in <LOCATION>;
 
 ##11) SEARCH IN LOCATION WITH REVIEW COUNT
 <INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
@@ -159,7 +159,7 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 <INTENT_11_L2TC_1> = L2TC__ verb_pattern_01__ display restaurants (around | near) <LOCATION> reviewed by (at least | more than) <REVIEW_COUNT> people;
 <INTENT_11_L2TC_2> = L2TC__ verb_pattern_02__ yelp restaurants (around | near) <LOCATION> reviewed by (at least | more than) <REVIEW_COUNT> people;
 
-<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to eat in <LOCATION> popular restaurant;
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to eat [good food | something good | something tasty] in <LOCATION> [popular] restaurant;
 
 ##12) FIND OPEN IN LOCATION
 <INTENT_12> = <INTENT_12_L0TC> | <INTENT_12_L1TC> | <INTENT_12_L2TC> | <INTENT_12_REPHRASE>;

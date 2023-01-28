@@ -2,19 +2,6 @@
 #VUI-VERSION: 0.2.0;
 public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> | ShowEmailWithLabel__ <INTENT_3> | ShowEmailFromTime__ <INTENT_4> | ShowEmailWithSubject__ <INTENT_5> | ShowEmailWithPriority__ <INTENT_6> | SendEmailToAddressWithSubjectAndWithMessage__ <INTENT_7> | SendEmailToAddressWithSubject__ <INTENT_8> | SendEmail__ <INTENT_9> | SendEmailToAddress__ <INTENT_10> | ReplyToEmailFromAddress__ <INTENT_11>);
 
-#PRECONDITIONS
-<WHEN> = when i receive an email on Gmail;
-<WHEN> = when somebody emails me;
-<WHEN> = when somebody sends me an email;
-<WHEN> = when somebody sends me an email on gmail;
-<WHEN> = when i receive an email from <SENDER_ADDRESS> on Gmail;
-<WHEN> = when <SENDER_ADDRESS> sends me an email;
-<WHEN> = when <SENDER_ADDRESS> emails me;
-<WHEN> = when i receive an email marked as important;
-<WHEN> = when i receive an important email;
-<WHEN> = when i receive an important email from <SENDER_ADDRESS>;
-<WHEN> = if i receive an email from <SENDER_ADDRESS> in category primary;
-
 #INTENTS
 ##1) CHECK EMAIL
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
@@ -50,14 +37,14 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ tell me if i have [received] [any] [new] emails from <SENDER_ADDRESS>;
 <INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ search for [my] emails (from | i (got | received) from) <SENDER_ADDRESS>;
 <INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ read [my] [new] emails (from | i (got | received) from) <SENDER_ADDRESS>;
-<INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ did i get an email from <SENDER_ADDRESS>;
+<INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ did i get an [new] email from <SENDER_ADDRESS>;
 <INTENT_2_L2TC_5> = L2TC__ verb_pattern_05__ (do i have | have i received) [any] [new] emails from <SENDER_ADDRESS>;
 <INTENT_2_L2TC_6> = L2TC__ verb_pattern_06__ how many emails i have [received] from <SENDER_ADDRESS>;
-<INTENT_2_L2TC_7> = L2TC__ verb_pattern_07__ look for new emails from <SENDER_ADDRESS>;
+<INTENT_2_L2TC_7> = L2TC__ verb_pattern_07__ look for (a | new) emails from <SENDER_ADDRESS>;
 <INTENT_2_L2TC_8> = L2TC__ verb_pattern_08__ list [new] emails from <SENDER_ADDRESS>;
 
 <INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>;
-<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ what <SENDER_ADDRESS> have wrote to me;
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ what <SENDER_ADDRESS> have wrote [to me];
 <INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ scan my inbox for (email | emails) from <SENDER_ADDRESS>;
 
 ##3) SHOW EMAIL WITH LABEL
@@ -72,7 +59,7 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ find [my] emails (labelled | with a label | that have a label) <LABEL>;
 <INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ search for [my] emails (labelled | with a label | that have a label) <LABEL>;
 
-<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ give me <LABEL> emails;
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ give me <LABEL> emails [right now | right away | quickly];
 
 ##4) SHOW EMAIL FROM TIME
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
@@ -104,17 +91,17 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 
 ##6) SHOW EMAIL WITH PRIORITY
 <INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
-<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ show me [my] <PRIORITY> emails [first];
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ show me [my] <PRIORITY> [priority] emails [first];
 
 <INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
-<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ get (me | my) <PRIORITY> emails [first];
-<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ display <PRIORITY> emails [first];
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ get (me | my) <PRIORITY> [priority] emails [first];
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ display <PRIORITY> [priority] emails [first];
 
 <INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
-<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ find (me | my) <PRIORITY> emails;
-<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ search for <PRIORITY> emails;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ find (me | my) <PRIORITY> [priority] emails;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ search for <PRIORITY> [priority] emails;
 
-<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ give me emails with <PRIORITY> priority;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ give me [all] emails with <PRIORITY> priority;
 
 ##7) CREATE FULL EMAIL
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
@@ -129,9 +116,9 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ compose an email to <TO> with a (subject | title) <SUBJECT> (with message | saying) <MESSAGE> [using my gmail];
 <INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ email <TO> with (subject | title) <SUBJECT> (and [a] message | saying) <MESSAGE>;
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ start an email <SUBJECT> with a message <MESSAGE> to <TO>;
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ start an [new] email <SUBJECT> (with | and) a message <MESSAGE> to <TO>;
 
-##8) CREATE EMAIL WITHOUT SUBJECT ONLY
+##8) CREATE EMAIL WITH SUBJECT ONLY
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
 <INTENT_8_L0TC> = L0TC__ verb_pattern_01__ send an email to <TO> with a (subject | title) <SUBJECT> [using my gmail];
 
@@ -144,7 +131,7 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ compose an email to <TO> with a (subject | title) <SUBJECT> [using my gmail];
 <INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ email <TO> with (subject | title) <SUBJECT>;
 
-<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ start an email <SUBJECT> to <TO>;
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ start (an | this) email <SUBJECT> to <TO>;
 
 ##9) NEW EMAIL
 <INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
@@ -160,7 +147,7 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_9_L2TC_3> = L2TC__ verb_pattern_03__ add [new] email [and send it];
 <INTENT_9_L2TC_4> = L2TC__ verb_pattern_04__ dictate [new] email [and send it];
 
-<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ start an email;
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ start (an | new) email;
 
 ##10) CREATE EMAIL TO
 <INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
@@ -178,7 +165,7 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_10_L2TC_5> = L2TC__ verb_pattern_05__ dictate [new] email to <TO>;
 <INTENT_10_L2TC_6> = L2TC__ verb_pattern_05__ draft [new] email to <TO>;
 
-<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ start an email to <TO>;
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ start (an | new) email to <TO>;
 
 ##11) REPLY TO EMAIL
 <INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;

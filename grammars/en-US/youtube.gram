@@ -164,12 +164,12 @@ public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChann
 ##10) NEXT
 <INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
 <INTENT_10_L0TC> = <INTENT_10_L0TC_1> | <INTENT_10_L0TC_2>;
-<INTENT_10_L0TC_1> = L0TC__ verb_pattern_01__ play next video;
+<INTENT_10_L0TC_1> = L0TC__ verb_pattern_01__ play next (video | movie);
 <INTENT_10_L0TC_2> = L0TC__ verb_pattern_02__ skip (this | that) video;
 
-<INTENT_10_L1TC> = L1TC__ verb_pattern_01__ go to next video;
+<INTENT_10_L1TC> = L1TC__ verb_pattern_01__ go to [the] next (video | movie);
 
-<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ show me next video;
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ show me next (video | movie);
 
 <INTENT_10_REPHRASE> = <INTENT_10_REPHRASE_1> | <INTENT_10_REPHRASE_2>;
 <INTENT_10_REPHRASE_1> = REPHRASE__ verb_pattern_01__ fast forward (this | that) video;

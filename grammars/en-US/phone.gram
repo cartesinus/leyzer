@@ -1,22 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5>);
-
-#PRECONDITIONS
-<WHEN> = when i receive a sms;
-<WHEN> = when i get a text;
-<WHEN> = when i get at text from somebody;
-<WHEN> = when i receive a sms from somebody;
-<WHEN> = when somebody sends me a text;
-<WHEN> = when somebody texts me;
-<WHEN> = when somebody sms me;
-<WHEN> = when somebody sends me an sms;
-<WHEN> = when i receive a sms from <SENDER>;
-<WHEN> = when i get at text from <SENDER>;
-<WHEN> = when <SENDER> sends me a text;
-<WHEN> = when <SENDER> texts me;
-<WHEN> = when <SENDER> sms me;
-<WHEN> = when <SENDER> sends me an sms;
+public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5> | CallContact <INTENT_6>);
 
 #INTENTS
 ##1) CALL NUMBER
@@ -41,7 +25,7 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 
 <INTENT_2_L2TC> = L2TC__ verb_pattern_01__ (911 | ambulance | fire department | police | emergency services);
 
-<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ get help for me;
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ [please] get help [for me];
 
 ##3) CHECK SMS
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
@@ -49,11 +33,11 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 
 <INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
 <INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ show my ([latest] texts | sms inbox);
-<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ display my sms inbox;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ display [my] sms inbox;
 
 <INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
-<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ open my sms inbox;
-<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ launch my sms inbox;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ open [my] sms inbox;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ launch [my] sms inbox;
 
 <INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to read my (texts | sms);
 
@@ -80,6 +64,18 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 <INTENT_5_L2TC> = L2TC__ verb_pattern_01__ compose (an sms | a text [message]| a message) to <TO> (saying | containing) <MESSAGE>;
 
 <INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ write <MESSAGE> to <TO>;
+
+##6) CALL CONTACT
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ call [to] <TO>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ dial <TO> [[phone] number];
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ phone [to] <TO>;
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ connect me with phone <TO> [via phone];
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ get me <TO> [on the phone];
 
 <GET> = sms in my phone;
 <GET> = texts i received;

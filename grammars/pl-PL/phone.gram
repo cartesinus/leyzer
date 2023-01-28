@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5>);
+public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5> | CallContact__ <INTENT_6>);
 
 #INTENTS
 ##1) CALL NUMBER
@@ -91,6 +91,25 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 <INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ nadaj (((sms | wiadomość [tekstową]) do <TO> o treści <MESSAGE>) | ((sms | wiadomość [tekstową]) [o treści] <MESSAGE> do <TO>));
 
 <INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ powiedz <MESSAGE> do <TO> smsem;
+
+##6) CALL CONTACT
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ zadzwoń do <TO>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ dzwoń do <TO>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2> | <INTENT_6_L1TC_3>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ wybierz [numer] <TO>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ <TO> (dzwoń | zadzwoń | wybierz | przedzwoń);
+<INTENT_6_L1TC_3> = L1TC__ verb_pattern_03__ połącz mnie z <TO>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3> | <INTENT_6_L2TC_4>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ wykonaj telefon do <TO>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ zatelefonuj do <TO>;
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ telefonuj do <TO>;
+<INTENT_6_L2TC_4> = L2TC__ verb_pattern_04__ przedzwoń do <TO>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ skontaktuj mnie z <TO>;
 
 #SLOTS
 <TO> = PHONE.SLOT.TO;

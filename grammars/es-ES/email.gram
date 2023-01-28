@@ -122,7 +122,7 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 
 <INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ empieza a escibir un ([mensaje] emmail | correo) <SUBJECT> (que diga | que dice | diciendo | y escribe) <SUBJECT>;
 
-##8) CREATE EMAIL WITHOUT SUBJECT ONLY
+##8) CREATE EMAIL WITH SUBJECT ONLY
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
 <INTENT_8_L0TC> = L0TC__ verb_pattern_01__ (envía | manda) un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT> [usando mi gmail] | usando mi gmail crea un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT>;
 

@@ -2,14 +2,6 @@
 #VUI-VERSION: 0.2.0;
 public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> | ShowFilesWithStar__ <INTENT_3> | ShowFilesFromTime__ <INTENT_4> | ShowFilesWithSize__ <INTENT_5> | CreateFile__ <INTENT_6> | CreateFileWithName__ <INTENT_7> | ShowOldestFiles__ <INTENT_8> | ShowNewestFiles__  <INTENT_9> | SortAlphabetical__ <INTENT_10> | SortReverseAlphabetical__ <INTENT_11> | OpenFileWithName__ <INTENT_12> | ShareFileWithNameToAddress__ <INTENT_13>);
 
-#PRECONDITIONS
-<WHEN> = when a file is modified on google drive;
-<WHEN> = when a file changes in my google drive;
-<WHEN> = when a file is created in google drive;
-<WHEN> = when i create a new file on google drive;
-<WHEN> = when i make a new file in google drive;
-<WHEN> = when there is a new file in google drive;
-
 #INTENTS
 ##1) OPEN GDRIVE
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
@@ -90,7 +82,7 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 <INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ build ([a new] google drive file | a [new] file in google drive);
 <INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ coin ([a new] google drive file | a [new] file in google drive);
 
-<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ send content of a new file to google drive;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ send content of a [new] file [i've created] to google drive;
 
 ##7) CREATE FILE WITH NAME
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
@@ -103,7 +95,7 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 <INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ build (a new file with name <FILE_NAME> on google drive | a [new] file in google drive named <FILE_NAME>);
 <INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ coin (a new file with name <FILE_NAME> on google drive | a [new] file in google drive named <FILE_NAME>);
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ send content of a new file <FILE_NAME> to google drive;
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ send content of a [new] file <FILE_NAME> [i've made] to google drive;
 
 ##8) SHOW OLDEST FILES
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
@@ -139,35 +131,35 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 
 ##10) ORDER ALPHABETICAL
 <INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
-<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ sort my google drive files in alphabetical order;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ sort [my] google drive files (in alphabetical order | alphabetical);
 
 <INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2> | <INTENT_10_L1TC_3>;
-<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ show  my google drive files in alphabetical order;
-<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ display my google drive files in alphabetical order;
-<INTENT_10_L1TC_3> = L1TC__ verb_pattern_03__ list my google drive files in alphabetical order;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ show [my] google drive files (in alphabetical order | alphabetical);
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ display [my] google drive files (in alphabetical order | alphabetical);
+<INTENT_10_L1TC_3> = L1TC__ verb_pattern_03__ list [my] google drive files (in alphabetical order | alphabetical);
 
 <INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2> | <INTENT_10_L2TC_3>;
-<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ find my google drive files in alphabetical order;
-<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ search for my google drive files in alphabetical order;
-<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ filter my google drive files in alphabetical order;
+<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ find [my] google drive files (in alphabetical order | alphabetical);
+<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ search for [my] google drive files (in alphabetical order | alphabetical);
+<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ filter [my] google drive files (in alphabetical order | alphabetical);
 
-<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ alphabetical file name order;
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ alphabetical file [name] order;
 
 ##11) ORDER REVERSE ALPHABETICAL
 <INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
-<INTENT_11_L0TC> = L0TC__ verb_pattern_01__ sort my google drive files in reverse alphabetical order;
+<INTENT_11_L0TC> = L0TC__ verb_pattern_01__ sort [my] google drive files in reverse [alphabetical order];
 
 <INTENT_11_L1TC> = <INTENT_11_L1TC_1> | <INTENT_11_L1TC_2> | <INTENT_11_L1TC_3>;
-<INTENT_11_L1TC_1> = L1TC__ verb_pattern_01__ show my google drive files in reverse alphabetical order;
-<INTENT_11_L1TC_2> = L1TC__ verb_pattern_02__ display my google drive files in reverse alphabetical order;
-<INTENT_11_L1TC_3> = L1TC__ verb_pattern_03__ list my google drive files in reverse alphabetical order;
+<INTENT_11_L1TC_1> = L1TC__ verb_pattern_01__ show [my] google drive files in reverse [alphabetical order];
+<INTENT_11_L1TC_2> = L1TC__ verb_pattern_02__ display [my] google drive files in reverse [alphabetical order];
+<INTENT_11_L1TC_3> = L1TC__ verb_pattern_03__ list [my] google drive files in reverse [alphabetical order];
 
 <INTENT_11_L2TC> = <INTENT_11_L2TC_1> | <INTENT_11_L2TC_2> | <INTENT_11_L2TC_3>;
-<INTENT_11_L2TC_1> = L2TC__ verb_pattern_01__ find my google drive files in reverse alphabetical order;
-<INTENT_11_L2TC_2> = L2TC__ verb_pattern_02__ search for my google drive files in reverse alphabetical order;
-<INTENT_11_L2TC_3> = L2TC__ verb_pattern_03__ filter my google drive files in reverse alphabetical order;
+<INTENT_11_L2TC_1> = L2TC__ verb_pattern_01__ find [my] google drive files in reverse [alphabetical order];
+<INTENT_11_L2TC_2> = L2TC__ verb_pattern_02__ search for [my] google drive files in reverse [alphabetical order];
+<INTENT_11_L2TC_3> = L2TC__ verb_pattern_03__ filter [my] google drive files in reverse [alphabetical order];
 
-<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ reverse order by files names;
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ reverse order (by files names | of file names);
 
 ##12) EDIT FILE
 <INTENT_12> = <INTENT_12_L0TC> | <INTENT_12_L1TC> | <INTENT_12_L2TC> | <INTENT_12_REPHRASE>;
@@ -187,7 +179,7 @@ public <S> = Gdrive__ (OpenGdrive__ <INTENT_1> | ShowFilesWithType__ <INTENT_2> 
 
 <INTENT_13_L2TC> = L2TC__ verb_pattern_01__ give <MAIL> access to [my] <FILE_NAME> [with (option | permission) to (edit | read | read and write)];
 
-<INTENT_13_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to work on file <FILE_NAME> with <MAIL>;
+<INTENT_13_REPHRASE> = REPHRASE__ verb_pattern_01__ [i want to] work on a file <FILE_NAME> with <MAIL>;
 
 #SLOTS
 <MIME_TYPE> = GDRIVE.SLOT.MIME_TYPE;

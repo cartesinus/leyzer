@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithDate__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8> | CheckCalendarMeeting__ <INTENT_9>);
+public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | CheckCalendarEventName__ <INTENT_3> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithName__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8> | NotifyWhenEventNameStart__ <INTENT_9>);
 
 #PRECONDITIONS
 <WHEN_1> = ;
@@ -34,25 +34,25 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
 <INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ ;
 
-##3) ADD EVENT
+##3) CHECK CALENDAR EVENT WITH NAME
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
-<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
-<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ ;
-<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ ;
+<INTENT_3_L0TC> = L0TC__ verb_phrase_01__ ;
 
-<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ ;
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_phrase_01__ ;
+<INTENT_3_L1TC_2> = L1TC__ verb_phrase_02__ ;
 
-<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
-<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ ;
-<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_3_L2TC> = L2TC__ verb_phrase_01__ ;
 
-<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_3_REPHRASE> = <INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2>;
+<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ ;
 
-##4) ADD EVENT ON DATE
+##3) ADD EVENT
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
 <INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
 <INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ ;
-<INTENT_4_L0TC_2> = L0TC__ verb_pattern_01__ ;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ ;
 
 <INTENT_4_L1TC> = L1TC__ verb_pattern_01__ ;
 
@@ -62,17 +62,21 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-##5) NOTIFY ON EVENT START
+##4) ADD EVENT ON DATE
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
-<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ ;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_01__ ;
 
 <INTENT_5_L1TC> = L1TC__ verb_pattern_01__ ;
 
-<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ ;
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ ;
 
 <INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-##6) DONT NOTIFY ON EVENT START
+##5) NOTIFY ON EVENT START
 <INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
 <INTENT_6_L0TC> = L0TC__ verb_pattern_01__ ;
 
@@ -80,11 +84,9 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_6_L2TC> = L2TC__ verb_pattern_01__ ;
 
-<INTENT_6_REPHRASE> = <INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2>;
-<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
-<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-##7) NOTIFY ON EVENT START IN LOCATION
+##6) DONT NOTIFY ON EVENT START
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
 <INTENT_7_L0TC> = L0TC__ verb_pattern_01__ ;
 
@@ -92,9 +94,11 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_7_L2TC> = L2TC__ verb_pattern_01__ ;
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_7_REPHRASE> = <INTENT_7_REPHRASE_1> | <INTENT_7_REPHRASE_2>;
+<INTENT_7_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_7_REPHRASE_2> = REPHRASE__ verb_pattern_01__ ;
 
-##8) DONT NOTIFY ON EVENT START IN LOCATION
+##7) NOTIFY ON EVENT START IN LOCATION
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
 <INTENT_8_L0TC> = L0TC__ verb_pattern_01__ ;
 
@@ -102,19 +106,29 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_8_L2TC> = L2TC__ verb_pattern_01__ ;
 
-<INTENT_8_REPHRASE> = <INTENT_8_REPHRASE_1> | <INTENT_8_REPHRASE_2>;
-<INTENT_8_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
-<INTENT_8_REPHRASE_2> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-##9) CHECK WHEN EVENT START
-<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+##8) DONT NOTIFY ON EVENT START IN LOCATION
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
 <INTENT_9_L0TC> = L0TC__ verb_pattern_01__ ;
 
 <INTENT_9_L1TC> = L1TC__ verb_pattern_01__ ;
 
 <INTENT_9_L2TC> = L2TC__ verb_pattern_01__ ;
 
-<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_9_REPHRASE> = <INTENT_9_REPHRASE_1> | <INTENT_9_REPHRASE_2>;
+<INTENT_9_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_9_REPHRASE_2> = REPHRASE__ verb_pattern_01__ ;
+
+##9) CHECK WHEN EVENT START
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_10_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
 #SLOTS
 <DATE> = CALENDAR.SLOT.DATE;

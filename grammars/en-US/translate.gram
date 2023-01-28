@@ -16,7 +16,7 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ save [default] [translation | output] language to <ALL_LANG>;
 <INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ remember [default] [translation | output] language to <ALL_LANG>;
 
-<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ i want translation to <ALL_LANG>;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ i want translation [this | that] to <ALL_LANG>;
 
 #method to set default source lang
 ##2) SET INPUT LANG
@@ -31,7 +31,7 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ save [default] (input | source) language to <ALL_LANG>;
 <INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ remember [default] (input | source) language to <ALL_LANG>;
 
-<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to translate from <ALL_LANG>;
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to translate [[this | that] [phrase | sentence]] from <ALL_LANG>;
 
 #default target language is set, simply provide text for translation (here default is english)
 ##3) TRANSLATE FROM EN
@@ -88,7 +88,7 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_5_IT> = <TEXT_IT> (from <SRC_LANG_IT> to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_EN> | <TRG_LANG_FR>) | to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_EN> | <TRG_LANG_FR>) from <SRC_LANG_IT>);
 <INTENT_5_FR> = <TEXT_FR> (from <SRC_LANG_FR> to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_EN>) | to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_EN>) from <SRC_LANG_FR>);
 
-<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ what does <TEXT_EN> mean in other languages;
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ what [does] <TEXT_EN> mean [in other languages];
 
 #both source and target languages are provided together with text to translate additinaly translator is provided
 ##6) TRANSLATE FROM LANG_X TO LANG_Y TEXT IN TRANSLATOR
@@ -110,7 +110,7 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_6_IT> = <TEXT_IT> (from <SRC_LANG_IT> to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_EN> | <TRG_LANG_FR>) | to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_EN> | <TRG_LANG_FR>) from <SRC_LANG_IT>);
 <INTENT_6_FR> = <TEXT_FR> (from <SRC_LANG_FR> to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_EN>) | to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_EN>) from <SRC_LANG_FR>);
 
-<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ what english <TEXT_EN> means in other languages;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ what english [phrase | text | sentence] <TEXT_EN> means in other languages;
 
 #root command for followup action (where text is given)
 ##7) TRANSLATE WITHOUTH TEXT (FOR FOLLOWUP)
@@ -145,7 +145,7 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_8_IT> = (<TEXT_IT> from <SRC_LANG_IT> | <SRC_LANG_IT> sentence <TEXT_IT>);
 <INTENT_8_FR> = (<TEXT_FR> from <SRC_LANG_FR> | <SRC_LANG_FR> sentence <TEXT_FR>);
 
-<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ what <TEXT_PL> means in english;
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ what [does] <TEXT_PL> means in english;
 
 #detect language of text
 ##9) DETECT LANGUAGE OF TEXT
@@ -160,7 +160,7 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ tell me ([the] language of <TEXT_MULTI> | what language <TEXT_MULTI> [is written in]);
 <INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ determine ([the] language of | what language) <TEXT_MULTI> [is written in];
 
-<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ what language is <TEXT_MULTI> in;
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ what language is [[this | that] phrase | sentence] <TEXT_MULTI> in;
 
 
 #SLOTS

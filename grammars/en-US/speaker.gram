@@ -2,44 +2,6 @@
 #VUI-VERSION: 0.2.0;
 public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> | IncreaseVolumeByPercent__ <INTENT_3> | DecreaseVolume__ <INTENT_4> | DecreaseVolumeByPercent__ <INTENT_5>| MuteOn__ <INTENT_6> | MuteOff__ <INTENT_7>);
 
-#PRECONDITIONS
-<WHEN> = when my speaker changes state;
-<WHEN> = when my speaker turns <STATE>;
-<WHEN> = if my speaker switches <STATE>;
-<WHEN> = when the speaker becomes <STATE>;
-<WHEN> = if my speaker is <STATE>;
-<WHEN> = when my speaker changes to <STATE>;
-<WHEN> = when my speaker turns on;
-<WHEN> = when I switch on the speaker;
-<WHEN> = if the speaker becomes on;
-<WHEN> = when my speaker gets switched to on;
-<WHEN> = if my speaker is on;
-<WHEN> = when my speaker is turned on;
-<WHEN> = the moment my speaker is switched on;
-<WHEN> = when my speaker is turned off;
-<WHEN> = if my speaker switches off;
-<WHEN> = the moment my speaker becomes off;
-<WHEN> = if my speaker is off;
-<WHEN> = when my speaker gets turned off;
-<WHEN> = when my <DEVICE_NAME> speaker changes state;
-<WHEN> = when my <DEVICE_NAME> speaker turns <STATE>;
-<WHEN> = if my <DEVICE_NAME> speaker switches <STATE>;
-<WHEN> = when the <DEVICE_NAME> speaker becomes <STATE>;
-<WHEN> = if my <DEVICE_NAME> speaker is <STATE>;
-<WHEN> = when my <DEVICE_NAME> speaker changes to <STATE>;
-<WHEN> = when my <DEVICE_NAME> speaker turns on;
-<WHEN> = when I switch on the <DEVICE_NAME> speaker;
-<WHEN> = if the <DEVICE_NAME> speaker becomes on;
-<WHEN> = when my <DEVICE_NAME> speaker gets switched to on;
-<WHEN> = if my <DEVICE_NAME> speaker is on;
-<WHEN> = when my <DEVICE_NAME> speaker is turned on;
-<WHEN> = the moment my <DEVICE_NAME> speaker is switched on;
-<WHEN> = when my <DEVICE_NAME> speaker is turned off;
-<WHEN> = if my <DEVICE_NAME> speaker switches off;
-<WHEN> = the moment my <DEVICE_NAME> speaker becomes off;
-<WHEN> = if my <DEVICE_NAME> speaker is off;
-<WHEN> = when my <DEVICE_NAME> speaker gets turned off;
-
 #INTENTS
 ##1) TURN ON OR OFF
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
@@ -67,9 +29,9 @@ public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> |
 <INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ set (volume | music) up;
 
 <INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2> | <INTENT_2_REPHRASE_3>;
-<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ i want to hear this louder;
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ i want to hear (this | that) louder;
 <INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ (music | it) is too low [in here];
-<INTENT_2_REPHRASE_3> = REPHRASE__ verb_pattern_03__ speak louder;
+<INTENT_2_REPHRASE_3> = REPHRASE__ verb_pattern_03__ speak louder [please];
 
 ##3) INCREASE VOLUME MORE
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
@@ -86,7 +48,7 @@ public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> |
 <INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ raise ([the] volume of [my] speaker | [my] speaker 's volume) up by <PERCENT>;
 <INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ set (volume | music) higher by <PERCENT>;
 
-<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to hear this much louder;
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to hear (this | that) [much] louder;
 
 ##4) DECREASE VOLUME
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
@@ -107,7 +69,7 @@ public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> |
 
 <INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2> | <INTENT_4_REPHRASE_3>;
 <INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ (music | it) is too loud [in here];
-<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ speak quieter;
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ speak quieter [please];
 <INTENT_4_REPHRASE_3> = REPHRASE__ verb_pattern_03__ slow down [my] speaker;
 
 ##5) DECREASE VOLUME MORE
@@ -127,7 +89,7 @@ public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> |
 <INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ cut down ([the] volume of [my] speaker | [my] speaker 's volume) by <PERCENT>;
 <INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ set lower ([the] volume of [my] speaker | [my] speaker 's volume) by <PERCENT>;
 
-<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ <PERCENT> less and sound volume would be perfect;
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ <PERCENT> less and [sound] volume would be (perfect | great);
 
 ##6) MUTE
 <INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
@@ -145,10 +107,10 @@ public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> |
 
 <INTENT_6_REPHRASE> = <INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2> | <INTENT_6_REPHRASE_3> | <INTENT_6_REPHRASE_4> | <INTENT_6_REPHRASE_5>;
 <INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ be (quiet | mute) [for (a moment | fifteen minutes | thirty minutes)];
-<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ shut up;
-<INTENT_6_REPHRASE_3> = REPHRASE__ verb_pattern_03__ activate silence;
+<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ shut up [please];
+<INTENT_6_REPHRASE_3> = REPHRASE__ verb_pattern_03__ activate silence [now];
 <INTENT_6_REPHRASE_4> = REPHRASE__ verb_pattern_04__ (stop speaking | do not speak);
-<INTENT_6_REPHRASE_5> = REPHRASE__ verb_pattern_05__ cut off noise;
+<INTENT_6_REPHRASE_5> = REPHRASE__ verb_pattern_05__ cut off (that | this) noise;
 
 ##7) UNMUTE
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
@@ -163,11 +125,11 @@ public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> |
 <INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ unpause sound from [my | the] speaker;
 
 <INTENT_7_REPHRASE> = <INTENT_7_REPHRASE_1> | <INTENT_7_REPHRASE_2> | <INTENT_7_REPHRASE_3> | <INTENT_7_REPHRASE_4> | <INTENT_7_REPHRASE_5>;
-<INTENT_7_REPHRASE_1> = REPHRASE__ verb_pattern_01__ bring sound back;
+<INTENT_7_REPHRASE_1> = REPHRASE__ verb_pattern_01__ bring (that | this) sound back;
 <INTENT_7_REPHRASE_2> = REPHRASE__ verb_pattern_02__ (why are you | don't be) so silent [now];
 <INTENT_7_REPHRASE_3> = REPHRASE__ verb_pattern_03__ surprise me with some (music | audio);
 <INTENT_7_REPHRASE_4> = REPHRASE__ verb_pattern_04__ i hate [this | that] silence;
-<INTENT_7_REPHRASE_5> = REPHRASE__ verb_pattern_05__ it is too quiet;
+<INTENT_7_REPHRASE_5> = REPHRASE__ verb_pattern_05__ it is too quiet [now];
 
 <GET> = if my speaker is on or off;
 <GET> = whether my speaker is switched on or switched off;

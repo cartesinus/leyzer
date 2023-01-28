@@ -16,13 +16,29 @@ Patterns are sentences without slot values.
 
 ### Pattern generation
 
-We use our fork of [JSGFTools](https://github.com/cartesinus/JSGFTools) to expand grammars to patterns:
+We use our fork of JSGFTools to expand grammars which is released as python package [JSGFToolsLeyzer](https://github.com/cartesinus/JSGFTools):
 ```bash
-git clone https://github.com/cartesinus/JSGFTools
-cd JSGFTools
-#pip install pyparsing
-python DeterministicGenerator.py ../leyzer/grammars/${lang}/${domain}.gram > ../leyzer/patterns/${lang}/${domain}.tsv
+pip install JSGFToolsLeyzer
+python scripts/generate_patterns.py -f grammars/${lang}/${domain}.gram > patterns/${lang}/${domain}.tsv
 ```
+
+Grammar generation can also be run from config file (which is usefull for experiments):
+```bash
+python scripts/generate_patterns.py -c ~/projects/leyzer/experiments/massive_mapping/leyzer-expansion_small.conf
+```
+where config file is defined as:
+```json
+{
+    "project_dir": "",
+    "grammar_dir": "grammars/en-US/",
+    "expand_output_dir": "",
+    "expand": [
+        {"domain": "", "intent": "", "expand-rate": 1}
+    ]
+}
+```
+expand-rate > 1 will generate N times all unique intent patterns. This is usefull when you want to generate 50 sentences that have different slot values for each pattern.
+
 
 ## Corpus
 

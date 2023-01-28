@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2> | ShowContactWithEmail__ <INTENT_3> | ShowContactWithNumber__ <INTENT_4> | ShowContactWithName__ <INTENT_5> | ShowContactWithNumberAndWithEmail__ <INTENT_6> | ShowContactWithNameAndWithNumberAndWithType__ <INTENT_7> | EditContactWithName__ <INTENT_8> | EditContactWithNumber__ <INTENT_9> | EditNumberInContactWithName__ <INTENT_10> | EditNumberInContactWithNameToNumberAndToType__ <INTENT_11>);
+public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2> | ShowContactWithEmail__ <INTENT_3> | ShowContactWithNumber__ <INTENT_4> | ShowContactWithName__ <INTENT_5> | ShowContactWithNumberAndWithEmail__ <INTENT_6> | CreateContactWithNameAndWithNumberAndWithType__ <INTENT_7> | EditContactWithName__ <INTENT_8> | EditContactWithNumber__ <INTENT_9> | EditNumberInContactWithName__ <INTENT_10> | EditNumberInContactWithNameToNumberAndToType__ <INTENT_11>);
 
 #INTENTS
 ##1) OPEN CONTACTS
@@ -21,7 +21,7 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 <INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ ;
 
 ##2) SHOW MY INFO
-<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
 <INTENT_2_L0TC> = (<INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>) <INTENT_2_END>;
 <INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ ;
 <INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ ;

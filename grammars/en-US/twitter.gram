@@ -1,33 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | UnfollowUser__ <INTENT_3> | SendMessage__ <INTENT_4> | SendMessageToUser__ <INTENT_5> | ShowTwittsWithHashtag__ <INTENT_6>);
-
-#PRECONDITIONS
-<WHEN> = when someone i follow tweets;
-<WHEN> = when i receive a tweet;
-<WHEN> = when there is a new tweet in my timeline;
-<WHEN> = when somebody i follow on twitter posts;
-<WHEN> = when there is a new post on my twitter timeline;
-<WHEN> = when user <AUTHOR> tweets;
-<WHEN> = when i receive a tweet from <AUTHOR>;
-<WHEN> = when someone i follow replies to user <IN_REPLY_TO> on twitter;
-<WHEN> = when i receive a direct message on twitter;
-<WHEN> = when somebody dms me;
-<WHEN> = when somebody sends me a direct message;
-<WHEN> = when somebody sends me a message on twitter;
-<WHEN> = when somebody messages me on twitter;
-<WHEN> = when i get a message on twitter;
-<WHEN> = when i receive a direct message from <SENDER> on twitter;
-<WHEN> = if i receive a dm on twitter from <SENDER>;
-<WHEN> = when <SENDER> dms me;
-<WHEN> = when <SENDER> sends me a direct message on twitter;
-<WHEN> = when i tweet;
-<WHEN> = when i post something to twitter;
-<WHEN> = when i make a new tweet;
-<WHEN> = when i make a new twitter post;
-<WHEN> = when i reply to <IN_REPLY_TO> on twitter;
-<WHEN> = when i make a new tweet in reply to <IN_REPLY_TO> on twitter;
-<WHEN> = when i mention <IN_REPLY_TO> on twitter;
+public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | UnfollowUser__ <INTENT_3> | SendTwitterMessage__ <INTENT_4> | SendMessageToUser__ <INTENT_5> | ShowTwittsWithHashtag__ <INTENT_6>);
 
 #INTENTS
 #show user tweets
@@ -49,7 +22,7 @@ public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | Unf
 <INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3>;
 <INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ check [latest] news on twitter;
 <INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ [can somebody tell me] what's happening on twitter;
-<INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ update my twitter;
+<INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ update [my] twitter [feed];
 
 #follow given user
 ##2) FOLLOW GIVEN USER

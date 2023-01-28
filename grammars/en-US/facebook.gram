@@ -2,14 +2,6 @@
 #VUI-VERSION: 0.2.0;
 public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | PostPicture__ <INTENT_3> | PostPictureWithCaption__ <INTENT_4> | PostPictureWithUrl__ <INTENT_5> | PostPictureWithUrlAndWithCaption__ <INTENT_6> | ShowAlbumWithName__ <INTENT_7>);
 
-#PRECONDITIONS
-<WHEN> = when I upload a photo to my timeline on facebook;
-<WHEN> = when I upload a photo to album <ALBUM> on facebook;
-<WHEN> = when I post on facebook;
-<GET> = photos on facebook;
-<GET> = photos in album <ALBUM> on facebook;
-<GET> = posts on facebook;
-
 #INTENTS
 ##1) OPEN FACEBOOK
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
@@ -20,11 +12,11 @@ public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | P
 <INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4> | <INTENT_1_L2TC_5> | <INTENT_1_L2TC_6> | <INTENT_1_L2TC_7>;
 <INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ display [my] facebook [application | app];
 <INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ show [my] facebook [application | app];
-<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ post something on facebook;
-<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ create a new facebook post;
-<INTENT_1_L2TC_5> = L2TC__ verb_pattern_05__ update my facebook status;
-<INTENT_1_L2TC_6> = L2TC__ verb_pattern_06__ create a new post on facebook;
-<INTENT_1_L2TC_7> = L2TC__ verb_pattern_07__ do live stream on facebook;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ post [something] on [my] facebook;
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ create a [new] facebook post;
+<INTENT_1_L2TC_5> = L2TC__ verb_pattern_05__ update [my] facebook status;
+<INTENT_1_L2TC_6> = L2TC__ verb_pattern_06__ create a [new] post on [my] facebook;
+<INTENT_1_L2TC_7> = L2TC__ verb_pattern_07__ do [live] stream on [my] facebook;
 
 <INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3> | <INTENT_1_REPHRASE_4>;
 <INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ [i want to] inform everybody (what's happening [now] | what i'm doing [right now]);

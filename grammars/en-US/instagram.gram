@@ -2,21 +2,6 @@
 #VUI-VERSION: 0.2.0;
 public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2> | ShowLastNumberPictures__ <INTENT_3> | ShowPicturesWithFilter__ <INTENT_4> | ShowPicturesWithLocation__ <INTENT_5> | ShowPicturesWithHashtag__ <INTENT_6> | PostWithPicturesFromDateAndWithLocation__ <INTENT_7> | ShowPicturesFromDate__ <INTENT_8> | TakePicture__ <INTENT_9> | PostWithLastPictureWithLocationAndWithHashtag__ <INTENT_10>);
 
-#PRECONDITIONS
-<WHEN> = when I (upload | put up) a [new] picture on instagram;
-<WHEN> = when i instagram a picture;
-<WHEN> = when i update my instagram;
-<WHEN> = if i update my instagram;
-<WHEN> = if i upload a picture on instagram;
-<WHEN> = if there is a new picture on my instagram;
-<WHEN> = when I upload a picture with filter <FILTER> on instagram;
-<WHEN> = when i upload a picture that has filter <FILTER> on instagram;
-<WHEN> = when i upload a picture on instagram that uses filter <FILTER>;
-<WHEN> = when i upload a picture on instagram that uses the <FILTER> filter;
-<WHEN> = when i put up a picture with filter <FILTER> on instagram;
-<WHEN> = when i upload a instagram picture tagged <HASHTAG>;
-<WHEN> = when i tag a picture <HASHTAG> on instagram;
-
 #INTENTS
 ##1) OPEN INSTAGRAM
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
@@ -30,7 +15,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 <INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ run [my] (instagram | insta) [application | app];
 <INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ show [me] [my] (instagram | insta) [application | app];
 <INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ check my (instagram | insta) [application | app];
-<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ create insta stories;
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ create [new] insta stories;
 
 <INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2>;
 <INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ show my [friends] instagram (photos | pictures | memories);
@@ -50,7 +35,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 <INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2> | <INTENT_2_REPHRASE_3>;
 <INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ present my instagram (photos | images);
 <INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ what (people [i follow] | my friends) posted on instagram [lately];
-<INTENT_2_REPHRASE_3> = REPHRASE__ verb_pattern_03__ what's the latest stuff on instagram;
+<INTENT_2_REPHRASE_3> = REPHRASE__ verb_pattern_03__ what's [the latest stuff | going] on instagram;
 
 ##3) SHOW LATEST COUNT
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
@@ -84,7 +69,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 
 <INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2> | <INTENT_4_REPHRASE_3>;
 <INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ present my instagram (photos | images) with <FILTER> filter;
-<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ do i look good with <FILTER> filter on;
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ do i look (good | sexy | well) with <FILTER> filter on;
 <INTENT_4_REPHRASE_3> = REPHRASE__ verb_pattern_03__ how does [[pictures | photos] with] <FILTER> filter looks like;
 
 ##5) SHOW PHOTOS FROM LOCATION
@@ -104,8 +89,8 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 
 <INTENT_5_REPHRASE> = <INTENT_5_REPHRASE_1> | <INTENT_5_REPHRASE_2> | <INTENT_5_REPHRASE_3>;
 <INTENT_5_REPHRASE_1> = REPHRASE__ verb_pattern_01__ present my instagram (photos | images) from <LOCATION>;
-<INTENT_5_REPHRASE_2> = REPHRASE__ verb_pattern_02__ remind me when i was in <LOCATION>;
-<INTENT_5_REPHRASE_3> = REPHRASE__ verb_pattern_03__ have i made any (photos | selfies) in <LOCATION>;
+<INTENT_5_REPHRASE_2> = REPHRASE__ verb_pattern_02__ remind me (when i was in | memories from) <LOCATION>;
+<INTENT_5_REPHRASE_3> = REPHRASE__ verb_pattern_03__ have i made [any] (photos | selfies) in <LOCATION>;
 
 ##6) SHOW PHOTOS WITH HASHTAG
 <INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
@@ -119,8 +104,8 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 <INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ search for my (instagram | insta) pictures tagged <HASHTAG>;
 
 <INTENT_6_REPHRASE> = <INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2>;
-<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ present my instagram photos with tag <HASHTAG>;
-<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ hashtag <HASHTAG> on instagram;
+<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ present [them] my instagram photos (with tag | tagged [as]) <HASHTAG>;
+<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ hashtag <HASHTAG> on [my] (instagram | insta);
 
 ##7) CREATE COLLAGE FROM PHOTOS ON DATE
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
@@ -132,7 +117,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 
 <INTENT_7_REPHRASE> = <INTENT_7_REPHRASE_1> | <INTENT_7_REPHRASE_2>;
 <INTENT_7_REPHRASE_1> = REPHRASE__ verb_pattern_01__ take photos from <LOCATION> and create instagram [from (it | them)];
-<INTENT_7_REPHRASE_2> = REPHRASE__ verb_pattern_02__ compile photos from <LOCATION> on instagram;
+<INTENT_7_REPHRASE_2> = REPHRASE__ verb_pattern_02__ compile [my] photos from <LOCATION> [on instagram];
 
 ##8) SHOW PHOTOS FROM DATE
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
@@ -151,7 +136,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 <INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
 <INTENT_9_L0TC> = <INTENT_9_L0TC_1> | <INTENT_9_L0TC_2>;
 <INTENT_9_L0TC_1> = L0TC__ verb_pattern_01__ take (a picture | picture of me) (using | with) (instagram | insta) [application | app];
-<INTENT_9_L0TC_2> = L0TC__ verb_pattern_02__ selfie;
+<INTENT_9_L0TC_2> = L0TC__ verb_pattern_02__ [new] selfie;
 
 <INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2>;
 <INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ make a (picture | selfie) (using | with) (instagram | insta) [application | app];
@@ -169,7 +154,7 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 
 <INTENT_10_L2TC> = L2TC__ verb_pattern_01__ compose a [new] post on (instagram | insta) with the last photo from gallery [(and a tag <LOCATION> | (and add | adding) (<FILTER> filter | <HASHTAG> hashtag))];
 
-<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ take photos from my gallery and tag them with location <LOCATION>;
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ take photos [from my gallery] and tag them with location <LOCATION>;
 
 #SLOTS
 <HASHTAG> = INSTAGRAM.SLOT.HASHTAG;

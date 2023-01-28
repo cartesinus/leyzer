@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | FindChannelWithQuery__ <INTENT_6> | FindQueryOnChannel__ <INTENT_7> | NotifyOnNewFromFollowing__ <INTENT_8> | NotifyonNewOnChannel__ <INTENT_9> | NextVide__ <INTENT_10>);
+public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | FindChannelWithQuery__ <INTENT_6> | FindQueryOnChannel__ <INTENT_7> | NotifyOnNewFromFollowing__ <INTENT_8> | NotifyonNewOnChannel__ <INTENT_9> | NextVideo__ <INTENT_10>);
 
 #PRECONDITIONS
 <WHEN_1> = (kiedy | jeżeli | jeśli) pojawi się [nowe] (wideo | klip | film) na kanale który (śledzę | followuję | obserwuję | oglądam);

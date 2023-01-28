@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.1.0;
-public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5>);
+public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5> | CallContact__ <INTENT_6>);
 
 #PRECONDITIONS
 <WHEN> = when i receive a sms;
@@ -32,6 +32,8 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 <INTENT_5> = <INTENT_5_a> | <INTENT_5_b>;
 <INTENT_5_a> = (manda | envía) (un mensaje | un sms) a <TO> (diciendo | que diga) <MESSAGE>;
 <INTENT_5_b> = [un] (mensaje | sms) a <TO> (diciendo | que diga) <MESSAGE>;
+
+<INTENT_6> = llama a <TO>;
 
 <GET> = sms in my phone;
 <GET> = texts i received;
