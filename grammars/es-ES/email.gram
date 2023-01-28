@@ -3,34 +3,185 @@
 public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> | ShowEmailWithLabel__ <INTENT_3> | ShowEmailFromTime__ <INTENT_4> | ShowEmailWithSubject__ <INTENT_5> | ShowEmailWithPriority__ <INTENT_6> | SendEmailToAddressWithSubjectAndWithMessage__ <INTENT_7> | SendEmailToAddressWithSubject__ <INTENT_8> | SendEmail__ <INTENT_9> | SendEmailToAddress__ <INTENT_10> | ReplyToEmailFromAddress__ <INTENT_11>);
 
 #INTENTS
-<INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c>;
-<INTENT_1_a> = <CHECK_VERB> [[la] bandeja de entrada de] [mi] (email | gmail | correo);
-<INTENT_1_b> = <CHECK_VERB> mis (emails | correos) de la categoría principal;
-<INTENT_1_c> = <CHECK_VERB> (mi ([mensaje] email | correo) más reciente | mis (emails | mis emails en gmail | mi bandeja de entrada de gmail));
+##1) CHECK EMAIL
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ verifica [[la] bandeja de entrada de] [mi] (email | gmail | correo);
+<CHECK_VERB> = verifica | consulta;
 
-<INTENT_2> = <CHECK_VERB> [mis] emails ([que recibí] de | que me (mandó | envió)) <SENDER_ADDRESS>;
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2> | <INTENT_1_L1TC_3>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ (abre | ábreme) [[la] bandeja de entrada de] [mi] (email | gmail | correo);
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ (muéstrame | muestra) [[la] bandeja de entrada de] [mi] (email | gmail | correo);
+<INTENT_1_L1TC_3> = L1TC__ verb_pattern_03__ consulta ([mi] email | [mis] emails [en gmail] | [mi] gmail | [mi] correo | si tengo (algunos emails | algunos mensajes [en mi] email [nuevos]) | [mi | la] bandeja de entrada de (email | gmail));
 
-<INTENT_3> = (muéstrame | quiero ver | muestra | ve a) (los | mis) (emails | correos) (etiquetados | con la etiqueta | que tienen [la] etiqueta [de]) <LABEL>;
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ (muéstrame | muestra) [mis] emails [más recientes];
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ recarga [[la] bandeja de entrada de] [mi] (email | gmail | correo);
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ lee mis (mensajes | emails) [más recientes | nuevos];
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ ve a (mensajes | emails) [más recientes | nuevos];
 
-<INTENT_4> = (muéstrame | quiero ver | muestra | ve a) (los | mis) (emails | correos) (que (recibí | llegaron) | recibidos) <TIME>;
+<INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3> | <INTENT_1_REPHRASE_4> | <INTENT_1_REPHRASE_5>;
+<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ he recibido algunos (emails | mensajes) nuevos?;
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ tengo algunos (emails | mensajes) nuevos?;
+<INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ hay algunos (emails | mensajes) nuevos?;
+<INTENT_1_REPHRASE_4> = REPHRASE__ verb_pattern_04__ alguien me ha escrito un (email | correo)?;
+<INTENT_1_REPHRASE_5> = REPHRASE__ verb_pattern_05__ cuántos (correos | emails) nuevos he recibido?;
 
-<INTENT_5> = (muéstrame | quiero ver | muestra | ve a) (los | mis) (emails | correos) (con el (tema | título) | titulados) <SUBJECT>;
+##2) SHOW EMAIL FROM SENDER
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ (muéstrame | muestra) [mis] (emails | correos) [que he recibido] de <SENDER_ADDRESS>;
 
-<INTENT_6> = (muéstrame | quiero ver | muestra | ve a) (los | mis) (emails | correos) de <PRIORITY>;
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ verifica [mis] (emails | correos) [que he recibido] de <SENDER_ADDRESS>;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ consulta [mis] (emails | correos) [que he recibido] de <SENDER_ADDRESS>;
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ busca [mis] (emails | correos) [que he recibido] de <SENDER_ADDRESS>;
 
-<INTENT_7> = <INTENT_7a> | <INTENT_7b>;
-<INTENT_7a> = <SEND_EMAIL> a <TO> (con el (tema | título) | titulado) <SUBJECT> (que diga | que dice | diciendo) <MESSAGE> [usando mi gmail];
-<INTENT_7b> = crea un ([mensaje] email | correo) (con el (tema | título) | titulado) <SUBJECT> (que diga | que dice | diciendo) <MESSAGE> y (envialo | mándalo) a <TO> [usando mi gmail];
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3> | <INTENT_2_L2TC_4> | <INTENT_2_L2TC_5> | <INTENT_2_L2TC_6>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ dime si he recibido algunos (mensajes email | correos) de <SENDER_ADDRESS>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ lee mis (emails | correos mensajes email) [que he recibido] de<SENDER_ADDRESS>;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ he recibido (un | algún) (mensaje email | correo | email) [nuevo] de <SENDER_ADDRESS>?;
+<INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ tengo (un | algún) (mensaje email | correo | email) [nuevo] de <SENDER_ADDRESS>?;
+<INTENT_2_L2TC_5> = L2TC__ verb_pattern_05__ cuántos (mensajes email | emails | correos) (he recibido | recibí) de <SENDER_ADDRESS>?;
+<INTENT_2_L2TC_6> = L2TC__ verb_pattern_06__ (enumera | haz una lista de) (correos | mensajes email | emails) de <SENDER_ADDRESS>;
 
-<INTENT_8> = <INTENT_8a> | <INTENT_8b>;
-<INTENT_8a> = <SEND_EMAIL> a <TO> (con el (tema | título) | titulado) <SUBJECT> [usando mi gmail] | usando mi gmail <SEND_EMAIL> a <TO> (con el (tema | título) | titulado) <SUBJECT>;
-<INTENT_8b> = crea un ([mensaje] email | correo) (con el (tema | título) | titulado) <SUBJECT> y (envialo | mándalo) a <TO> [usando mi gmail] | usando mi gmail crea un ([mensaje] email | correo) (con el (tema | título) | titulado) <SUBJECT> y (envialo | mándalo) a <TO>;
+<INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>;
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ qué me (escribió | ha escrito) <SENDER_ADDRESS>?;
+<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ filtra mi (correo | email) en búsqueda de <SENDER_ADDRESS>;
 
-<INTENT_9> = (<SEND_EMAIL> | crea un (mensaje | [mensaje] email) y (mándalo | envíalo)) [a alguien];
+##3) SHOW EMAIL WITH LABEL
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ (muéstrame | muestra) [mis] (correos | emails | mensajes email) (que tienen | con) etiqueta <LABEL>;
 
-<INTENT_10> = ((envía | manda) un ([mensaje] email | correo) | crea un (mensaje | [mensaje] email) y (mándalo | envíalo)) a <TO> usando mi [aplicación [de]] gmail;
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ (busca | búscame) [mis] (correos | emails | mensajes email) (que tienen | con) etiqueta <LABEL>;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ quiero [ver] [mis] (correos | emails | mensajes email) (que tienen | con) etiqueta <LABEL>;
 
-<INTENT_11> = (responde | (manda | envía ) una respuesta | crea una respuesta y (mándala | envíala)) a <TO>;
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ (enseña | enséñame) [mis] (correos | emails | mensajes email) (que tienen | con) etiqueta <LABEL>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ filtra [mis] (correos | emails | mensajes email) (que tienen | con) etiqueta <LABEL>;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero (mensajes email | correos | emails) <LABEL>;
+
+##4) SHOW EMAIL FROM TIME
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ (muéstrame | muestra) (los | mis) (emails | correos) (que (recibí | llegaron) | recibidos) <TIME>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2> | <INTENT_4_L1TC_3>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ quiero [ver] (los | mis) (emails | correos) (que (recibí | llegaron) | recibidos) <TIME>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ (busca | búscame) (los | mis) (emails | correos) (que (recibí | llegaron) | recibidos) <TIME>;
+<INTENT_4_L1TC_3> = L1TC__ verb_pattern_03__ ve a (los | mis) (emails | correos) (que (recibí | llegaron) | recibidos) <TIME>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_2> = L1TC__ verb_pattern_01__ (enseña | enséñame) (los | mis) (emails | correos) (que (recibí | llegaron) | recibidos) <TIME>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ filtra (los | mis) (emails | correos) (que (recibí | llegaron) | recibidos) <TIME>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero (mensajes email | correos | emails) de <TIME>;
+
+##5) SHOW EMAIL WITH SUBJECT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ (muéstrame | muestra) (los | mis) (emails | correos) (con el (tema | título) | titulados) <SUBJECT>;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ quiero [ver] (los | mis) (emails | correos) (con el (tema | título) | titulados) <SUBJECT>;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ (busca | búscame) (los | mis) (emails | correos) (con el (tema | título) | titulados) <SUBJECT>;
+<INTENT_5_L1TC_3> = L1TC__ verb_pattern_03__ ve a (los | mis) (emails | correos) (con el (tema | título) | titulados) <SUBJECT>;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
+<INTENT_5_L1TC_1> = L2TC__ verb_pattern_01__ (enseña | enséñame) (los | mis) (emails | correos) (con el (tema | título) | titulados) <SUBJECT>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ filtra (los | mis) (emails | correos) (con el (tema | título) | titulados) <SUBJECT>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero (emails | correos) sobre <SUBJECT>;
+
+##6) SHOW EMAIL WITH PRIORITY
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ (muéstrame | muestra) (los | mis) (emails | correos) de <PRIORITY> [como primeros];
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2> | <INTENT_6_L1TC_3>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ quiero [ver] (los | mis) (emails | correos) de <PRIORITY> [como primeros];
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ (busca | búscame) (los | mis) (emails | correos) de <PRIORITY>;
+<INTENT_6_L1TC_3> = L1TC__ verb_pattern_03__ filtra (los | mis) (emails | correos) de <PRIORITY>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ (enseña | enséñame) (los | mis) (emails | correos) de <PRIORITY> [como primeros];
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ ve a (los | mis) (emails | correos) de <PRIORITY> [como primeros];
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero (emails | correos) de <PRIORITY>;
+
+##7) CREATE FULL EMAIL
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ (envía | manda) un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT> (que diga | que dice | diciendo) <MESSAGE> [usando mi gmail];
+
+<INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2> | <INTENT_7_L1TC_3>;
+<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ crea un ([mensaje] email | correo) a <TO> (que diga | que dice | diciendo | y escribe) <MESSAGE> (con el (tema | título) | titulado) <SUBJECT> [usando mi gmail];
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ crea un ([mensaje] email | correo) (con el (tema | título) | titulado) <SUBJECT> (que diga | que dice | diciendo | y escribe) <MESSAGE> y (envialo | mándalo) a <TO> [usando mi gmail];
+<INTENT_7_L1TC_3> = L1TC__ verb_pattern_03__ escribe un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT> (que diga | que dice | diciendo | y escribe) <MESSAGE>;
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2> | <INTENT_7_L2TC_3>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ compone un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT> (que diga | que dice | diciendo | y escribe) <MESSAGE>;
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT> (que diga | que dice | diciendo | y escribe) <MESSAGE>;
+<INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ redacta un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT> (que diga | que dice | diciendo | y escribe) <MESSAGE>;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ empieza a escibir un ([mensaje] emmail | correo) <SUBJECT> (que diga | que dice | diciendo | y escribe) <SUBJECT>;
+
+##8) CREATE EMAIL WITHOUT SUBJECT ONLY
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ (envía | manda) un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT> [usando mi gmail] | usando mi gmail crea un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT>;
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2> | <INTENT_8_L1TC_3>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ crea un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT> [usando mi gmail] | usando mi gmail creat un ([mensaje] email | correo)  a <TO> (con el (tema | título) | titulado) <SUBJECT>;
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ crea un ([mensaje] email | correo) (con el (tema | título) | titulado) <SUBJECT> a <TO> [usando mi gmail] | usando mi gmail crea un mensaje (con el (tema | título) | titulado) <SUBJECT> a <TO>;
+<INTENT_8_L1TC_3> = L1TC__ verb_pattern_03__ escribe un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT> [usando mi gmail]; 
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2> | <INTENT_8_L2TC_3>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ compone un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT>;
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT>;
+<INTENT_8_L2TC_3> = L2TC__ verb_pattern_03__ redacta un ([mensaje] email | correo) a <TO> (con el (tema | título) | titulado) <SUBJECT>;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ empieza a escibir un ([mensaje] emmail | correo) <SUBJECT>;
+
+##9) NEW EMAIL
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ (envía | manda) un ([mensaje] email | correo) [a alguien];
+
+<INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ crea un ([mensaje] email | correo) [a alguien];
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ escribe un ([mensaje] email | correo) [a alguien];
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2> | <INTENT_9_L2TC_3> | <INTENT_9_L2TC_4>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ compone un ([mensaje] email | correo) [a alguien];
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ crea un ([mensaje] email | correo) [nuevo] [y mándalo] [a alguien];
+<INTENT_9_L2TC_3> = L2TC__ verb_pattern_03__ redacta un ([mensaje] email | correo) [nuevo] [y mándalo] [a alguien];
+<INTENT_9_L2TC_4> = L2TC__ verb_pattern_04__ un ([mensaje] email | correo) [nuevo] [a alguien];
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ empieza a escribir un ([mensaje] email | correo);
+
+##10) CREATE EMAIL TO
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ (envía | manda) un ([mensaje] email | correo) a <TO> [usando mi [aplicación [de]] gmail];
+
+<INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ crea un ([mensaje] email | correo) (a | y envíalo) <TO> usando mi [aplicación [de]] gmail;
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ escribe un ([mensaje] email | correo) (a | y envíalo) <TO> usando mi [aplicación [de]] gmail;
+
+<INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2> | <INTENT_10_L2TC_3> | <INTENT_10_L2TC_4> | <INTENT_10_L2TC_5> | <INTENT_10_L2TC_6>;
+<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ compone un ([mensaje] email | correo) [y (envíalo | mándalo)] a <TO> [usando mi [aplicación [de]] gmail];
+<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ redacta un ([mensaje] email | correo) [nuevo] a <TO>;
+<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ un ([mensaje] email | correo) [nuevo] a <TO>;
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ empieza a escribir un ([mensaje] email | correo) a <TO>;
+
+##11) REPLY TO EMAIL
+<INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
+<INTENT_11_L0TC> = L0TC__ verb_pattern_01__ responde a <TO>;
+
+<INTENT_11_L1TC> = <INTENT_11_L1TC_1> | <INTENT_11_L1TC_2>;
+<INTENT_11_L1TC_1> = L1TC__ verb_pattern_01__ (manda | envía ) una respuesta a <TO>;
+<INTENT_11_L1TC_2> = L1TC__ verb_pattern_02__ [una] respuesta al email <TO>;
+
+<INTENT_11_L2TC> = <INTENT_11_L2TC_1> | <INTENT_11_L2TC_2>;
+<INTENT_11_L2TC_1> = L2TC__ verb_pattern_01__ escribe una respuesta al email <TO>;
+<INTENT_11_L2TC_2> = L2TC__ verb_pattern_02__ crea una respuesta al email <TO>;
+
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ crea una respuesta y (mándala | envíala) a <TO>;
 
 
 #SLOTS
