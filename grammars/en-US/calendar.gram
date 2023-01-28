@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | CheckCalendarEventName__ <INTENT_3> |AddEventWithName__ <INTENT_4> | AddEventOnDateWithName__ <INTENT_5> | NotifyOnEventStart__ <INTENT_6> | NotNotifyOnEventStart__ <INTENT_7> | NotifyOnEventInLocation__ <INTENT_8> | NotNotifyOnEventInLocation__ <INTENT_9> | NotifyWhenEventNameStart__ <INTENT_10>);
+public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | CheckCalendarEventName__ <INTENT_3> | AddEventWithName__ <INTENT_4> | AddEventOnDateWithName__ <INTENT_5> | NotifyOnEventStart__ <INTENT_6> | NotNotifyOnEventStart__ <INTENT_7> | NotifyOnEventInLocation__ <INTENT_8> | NotNotifyOnEventInLocation__ <INTENT_9> | NotifyWhenEventNameStart__ <INTENT_10>);
 
 #PRECONDITIONS
 <WHEN_1> = when (a meeting | an appointment | an event) (in | from) (my | the) calendar begins;
@@ -51,7 +51,7 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <INTENT_3_L0TC> = L0TC__ verb_pattern_01__ check [details of] [my] (event | meeting | appointment) [called] <EVENT_NAME>;
 
 <INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2> | <INTENT_3_L1TC_3>;
-<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ show [me] [details of] <EVENT_NAME> (meeting | appointment | event) [to me]
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ show [me] [details of] <EVENT_NAME> (meeting | appointment | event) [to me];
 <INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ display [details of] <EVENT_NAME> (meeting | appointment | event) [to me];
 <INTENT_3_L1TC_3> = L1TC__ verb_pattern_03__ read details of <EVENT_NAME> (meeting | appointment | event) [to me];
 
