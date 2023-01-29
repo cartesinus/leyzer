@@ -85,14 +85,14 @@ public <S> = Console__ (ConsoleEdit__ <INTENT_1> | ConsoleLS__ <INTENT_2> | Cons
 ##<PATHNAME> must be provided
 #SYNTAX: VB IN NN
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
-<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ przejdz do [katalogu] <PATHNAME>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ przejdź do [katalogu] <PATHNAME>;
 
 #SYNTAX: VB NN IN NN
 <INTENT_3_L1TC> = L1TC__ verb_pattern_01__ zmień katalog na <PATHNAME>;
 
 #SYNTAX: VB IN [NN] NN
 <INTENT_3_L2TC> = <INTENT_3_L2TC_p1> | <INTENT_3_L2TC_p2> | <INTENT_3_L2TC_p3> | <INTENT_3_L2TC_p4>;
-<INTENT_3_L2TC_p1> = L2TC__ verb_pattern_01__ przejdz do [katalogu] <PATHNAME>;
+<INTENT_3_L2TC_p1> = L2TC__ verb_pattern_01__ przejdź do [katalogu] <PATHNAME>;
 <INTENT_3_L2TC_p2> = L2TC__ verb_pattern_02__ przeskocz do [katalogu] <PATHNAME>;
 <INTENT_3_L2TC_p3> = L2TC__ verb_pattern_03__ przenieś mnie do [katalogu] <PATHNAME>;
 <INTENT_3_L2TC_p4> = L2TC__ verb_pattern_04__ skocz do [katalogu] <PATHNAME>;
@@ -163,9 +163,9 @@ public <S> = Console__ (ConsoleEdit__ <INTENT_1> | ConsoleLS__ <INTENT_2> | Cons
 <INTENT_6_L0TC> = L0TC__ verb_pattern_01__ usuń [[mi] plik |[mi] katalog] [z] <FROM>;
 
 #SYNTAX: VB IN NN NN
-<INTENT_6_L1TC> = L2TC__ (<INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>);
-<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ przenieś do kosza <FROM>;
-<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ umieść w koszu <FROM>;
+<INTENT_6_L1TC> = L1TC__ (<INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>);
+<INTENT_6_L1TC_1> = verb_pattern_01__ przenieś do kosza <FROM>;
+<INTENT_6_L1TC_2> = verb_pattern_02__ umieść w koszu <FROM>;
 
 #SYNTAX: VB NN NOU IN NN
 <INTENT_6_L2TC> = L2TC__ (<INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>);

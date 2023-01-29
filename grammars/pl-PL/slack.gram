@@ -38,7 +38,7 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 
 <INTENT_3_L1TC> = L1TC__ verb_pattern_01__ jaki status ma <USERNAME> [na slacku];
 
-<INTENT_3_L2TC> = L2TC__ verb_pattern_01__ [powiedź [mi]] czy <USERNAME> jest [w tym momencie | w tej chwili] (aktywny | dostępny) [na slacku];
+<INTENT_3_L2TC> = L2TC__ verb_pattern_01__ [powiedz [mi]] czy <USERNAME> jest [w tym momencie | w tej chwili] (aktywny | dostępny) [na slacku];
 
 <INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ (sprawdź co u <USERNAME> | czy mogę napisać do <USERNAME>);
 

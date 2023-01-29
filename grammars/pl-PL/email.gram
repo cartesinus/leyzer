@@ -168,7 +168,7 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
 <INTENT_11_L0TC> = <INTENT_11_L0TC_1> | <INTENT_11_L0TC_2>;
 <INTENT_11_L0TC_1> = L0TC__ verb_pattern_01__ odpisz [na (maila | emaila | list)] <TO>;
-<INTENT_11_L0TC_2> = L0TC__ verb_pattern_02__ odpowiedź [na (maila | emaila | list)] <TO>;
+<INTENT_11_L0TC_2> = L0TC__ verb_pattern_02__ odpowiedz [na (maila | emaila | list)] <TO>;
 
 <INTENT_11_L1TC> = L1TC__ verb_pattern_01__ daj odpowiedź [na (maila | emaila | list)] <TO>;
 

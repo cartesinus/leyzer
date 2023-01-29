@@ -89,7 +89,7 @@ public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> |
 
 <INTENT_6_L2TC> = L2TC__ verb_pattern_01__ zatrzymaj odtwarzanie [dzwięku | muzyki] na [moim] głośniku;
 
-<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ verb_pattern_01__ bądź cicho;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ bądź cicho;
 
 ##7) UNMUTE
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
@@ -99,7 +99,7 @@ public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> |
 
 <INTENT_7_L2TC> = L2TC__ verb_pattern_01__ cofnij wyciszenie [mojego] głośnika;
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ verb_pattern_01__ głośnik jest chyba [wyłączony | wyciszony];
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ głośnik jest chyba [wyłączony | wyciszony];
 
 #SLOTS
 <DEVICE_NAME> = SPEAKER.SLOT.DEVICE_NAME;

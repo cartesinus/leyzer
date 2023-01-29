@@ -35,7 +35,7 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 <INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ zatelefonuj ((na | po) (policję | straż pożarną | pogotowie) | na 112 | po karetkę | na numer alarmowy);
 <INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ telefonuj ((na | po) (policję | straż pożarną | pogotowie) | na 112 | po karetkę | na numer alarmowy);
 <INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ przedzwoń ((na | po) (policję | straż pożarną | pogotowie) | na 112 | po karetkę | na numer alarmowy);
-<INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ skontaktuje mnie z (policją | strażą pożarną | pogotowiem | 112);
+<INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ skontaktuj mnie z (policją | strażą pożarną | pogotowiem | 112);
 
 <INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ potrzebuję pomocy;
 
