@@ -40,8 +40,8 @@ public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | P
 <INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ make a note on facebook (saying | about) <STATUS>;
 
 <INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2> | <INTENT_2_REPHRASE_3> | <INTENT_2_REPHRASE_4>;
-<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ tell (my friends | my familly | everybody) about <STATUS>;
-<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ notify (my friends | my familly | everybody) about <STATUS>;
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ tell (my friends | my family | everybody) about <STATUS>;
+<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ notify (my friends | my family | everybody) about <STATUS>;
 <INTENT_2_REPHRASE_3> = REPHRASE__ verb_pattern_03__ to my (facebook | friends) <STATUS>;
 <INTENT_2_REPHRASE_4> = REPHRASE__ verb_pattern_04__ i'm thinking (about | of) <STATUS>;
 
@@ -60,7 +60,7 @@ public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | P
 <INTENT_3_L2TC_4> = L2TC__ verb_pattern_04__ disclose (this | that) picture on [my] facebook;
 
 <INTENT_3_REPHRASE> = <INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2> | <INTENT_3_REPHRASE_3>;
-<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ show (my friends | my familly | everybody) (this | that) picture;
+<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ show (my friends | my family | everybody) (this | that) picture;
 <INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ i look (great | beautiful | handsome | pretty | good) on that picture so share it [with others];
 <INTENT_3_REPHRASE_3> = REPHRASE__ verb_pattern_03__ everyone was asking me to share (((this | that) (picture | photo)) | (those (pictures | photos)));
 
@@ -77,7 +77,7 @@ public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | P
 <INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ publish a picture (with caption <CAPTION> on facebook | on facebook with caption <CAPTION>);
 <INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ send a picture (with caption <CAPTION> on facebook | on facebook with caption <CAPTION>);
 
-<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ show (my friends | my familly | everybody) (this | that) picture that i captioned <CAPTION>;
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ show (my friends | my family | everybody) (this | that) picture that i captioned <CAPTION>;
 
 ##5) PUBLISH LINK
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
@@ -92,7 +92,7 @@ public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | P
 <INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ publish [link | url] <PICTURE_URL> to [my] facebook;
 <INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ put a [link | url] <PICTURE_URL> to [my] facebook;
 
-<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ show (this | that) (link | url) to (everybody | my facebook followers | [my] familly | [my] friends);
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ show (this | that) (link | url) to (everybody | my facebook followers | [my] family | [my] friends);
 
 ##6) PUBLISH LINK WITH CAPTION
 <INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
@@ -107,7 +107,7 @@ public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | P
 <INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ put [picture | link to (picture | photo)] <PICTURE_URL> on [my] facebook with caption <CAPTION>;
 <INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ caption <PICTURE_URL> as <CAPTION> and (post | upload) it on facebook;
 
-<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ show <PICTURE_URL> [link | url] to (everybody | my facebook followers | [my] familly | [my] friends) and caption it <CAPTION>;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ show <PICTURE_URL> [link | url] to (everybody | my facebook followers | [my] family | [my] friends) and caption it <CAPTION>;
 
 ##7) SHOW ALBUM
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
