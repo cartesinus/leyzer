@@ -1,30 +1,95 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | ShowBMI__ <INTENT_3> | AddWeight__ <INTENT_4> | NotifyOnWeight__ <INTENT_5>);
 
 #PRECONDITION
-<WHEN> = si mi peso supera <WEIGHT>;
+<WHEN_1> = si mi peso supera <WEIGHT>;
 
 #INTENTS
-<INTENT_1> = [<RETRIEVE_VERB>] (<INTENT_1_a> | <INTENT_1_b>);
-<INTENT_1_a> = (mis pasos | el número de pasos) de fitbit;
-<INTENT_1_b> = (el número de pasos que hice | mi número de pasos de fitbit | el pedómetro de fitbit | el contador de pasos de fitbit | los pasos que hice);
+##1) STEP COUNT
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ quiero ver (mis pasos | el número de pasos) de fitbit;
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ (muestra | muéstrame) (mis pasos | el número de pasos) de fitbit;
 
-<INTENT_2> = [<RETRIEVE_VERB>] (<INTENT_2_a> | <INTENT_2_b>);
-<INTENT_2_a> = (mis pasos de fitbit el | el número de pasos [de fitbit] que hice el | mi número de pasos [de fitbit] el | el pedómetro de fitbit el | el contador de pasos de fitbit el | los pasos que hice el) <DATE>;
-<INTENT_2_b> = el número de pasos de fitbit el <DATE>;
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ dime (mis pasos | el número de pasos) de fitbit;
 
-<INTENT_3> = [<RETRIEVE_VERB>] (mis medidas de cuerpo | mi bmi | mi peso) de fitbit;
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ cuenta (mis pasos | el número de pasos) de fitbit;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ mide (mis pasos | el número de pasos) de fitbit;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ (mis pasos | el número de pasos | el pedómetro) de fitbit;
 
-<INTENT_4> = (registra | anota) mi peso de fitbit;
+<INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2>;
+<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ [a ver] qué distancia he (recorrido | viajado) hoy en pasos;
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ cuántos pasos he (recorrido | dado) hoy;
 
-<INTENT_5> = <NOTIFY_VERB> <WHEN>;
+##2) STEP COUNT ON DATE
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ quiero ver (mis pasos | el número de pasos) de fitbit el <DATE>;
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ (muestra | muéstrame) (mis pasos | el número de pasos) de fitbit el <DATE>;
+
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ dime (mis pasos | el número de pasos) de fitbit el <DATE>;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ cuenta (mis pasos | el número de pasos) de fitbit el <DATE>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ mide (mis pasos | el número de pasos) de fitbit el <DATE>;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ (mis pasos | el número de pasos | el pedómetro) de fitbit el <DATE>;
+
+<INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>;
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ [a ver] qué distancia he (recorrido | viajado) el <DATE> en pasos;
+<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ cuántos pasos he (recorrido | dado) el <DATE>;
+
+##3) BMI
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ dime mis (mis medidas de cuerpo | mi bmi | mi peso) de fitbit;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2> | <INTENT_3_L1TC_3>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ saca mis (mis medidas de cuerpo | mi bmi | mi peso) de fitbit;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ (muestra | muéstrame) mis (mis medidas de cuerpo | mi bmi | mi peso) de fitbit;
+<INTENT_3_L1TC_3> = L1TC__ verb_pattern_03__ (enseña | enséñame) mis (mis medidas de cuerpo | mi bmi | mi peso) de fitbit;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3> | <INTENT_3_L2TC_4>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ busca mis (mis medidas de cuerpo | mi bmi | mi peso) de fitbit;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ calcula mis (mis medidas de cuerpo | mi bmi | mi peso) de fitbit;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ analiza mis (mis medidas de cuerpo | mi bmi | mi peso) de fitbit;
+<INTENT_3_L2TC_4> = L2TC__ verb_pattern_04__ (mis medidas de cuerpo | mi bmi | mi peso) de fitbit;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ está mi bmi (ok | normal | bien)?;
+
+##4) SAVE WEIGHT
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ guarda mi peso en fitbit;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ añade mi peso en fitbit;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ archiva mi peso en fitbit;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ registra mi peso en fitbit;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ recuerda mi peso [en fitbit];
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ anota mi peso [en fitbit];
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ apunta mi peso [en fitbit];
+
+<INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2>;
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ está mi peso (bajando | subiendo);
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ ayúdame controlar [mi] peso [actual];
+
+##5) NOTIFY ON WEIGHT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ dime <WHEN_1>;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ notifícame <WHEN_1>;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ infórmame <WHEN_1>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ avísame <WHEN_1>;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ ponme al día <WHEN_1>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero saber <WHEN_1>;
 
 #SLOTS
 <STEPS> = FITBIT.SLOT.STEPS;
 <DATE> = FITBIT.SLOT.DATE;
 <WEIGHT> = FITBIT.SLOT.WEIGHT;
-
-#LANG. COMPONENTS
-<RETRIEVE_VERB> = quiero ver | muéstrame;
-<NOTIFY_VERB> = notifícame | dime;
