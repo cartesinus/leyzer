@@ -17,30 +17,160 @@ public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2>
 <WHEN> = when i upload a instagram picture tagged <HASHTAG>;
 <WHEN> = when i tag a picture <HASHTAG> on instagram;
 
-#INTENTS
-<INTENT_1> = abre [(mi | el)] instagram;
+##1) OPEN INSTAGRAM
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ (abre | ábreme) [(mi | el)] instagram;
 
-<INTENT_2> = <SHOW_VERB> mis imágenes de instagram [más recientes] | <SHOW_VERB> mis imágenes [más recientes] de instagram;
-<INTENT_3> = <SHOW_VERB> mis <COUNT> imágenes de instagram (más recientes | más nuevos) [en mi cuenta];
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ inicia [(mi | el)] instagram;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ (muestra | muéstrame) [(mi | el)] instagram;
 
-<INTENT_4> = <SHOW_VERB> mis (fotos | imágenes) de instagram (<INTENT_4_a> | <INTENT_4_b>);
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ lanza [(mi | el)] instagram;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ a ver [(mi | el)] instagram;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ mira [(mi | el)] instagram;
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ crea una [nueva] historia de insta;
+
+<INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2>;
+<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ muéstrales a mis amigos (las fotos | los imágenes | las historias) de instagram;
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ qué nuevo hay en [mi] instagram;
+
+##2) SHOW LATEST
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ (muestra | muéstrame) mis (imágenes | fotos) (de instagram [más recientes] | [más recientes] de instagram);
+
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ enseña mis (imágenes | fotos) (de instagram [más recientes] | [más recientes] de instagram);
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ enumera mis (imágenes | fotos) (de instagram [más recientes] | [más recientes] de instagram);
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ (busca | búscame) mis (imágenes | fotos) (de instagram [más recientes] | [más recientes] de instagram);
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ a ver mis (imágenes | fotos) (de instagram [más recientes] | [más recientes] de instagram);
+
+<INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2> | <INTENT_2_REPHRASE_3>;
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ presenta mis (fotos | imágenes) de instagram;
+<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ qué (ha publicado la gente | han presentado mis amigos) en instagram [recientemente];
+<INTENT_2_REPHRASE_3> = REPHRASE__ verb_pattern_03__ qué (hay | pasa) en instagram; 
+
+##3) SHOW LATEST COUNT
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ (muestra | muéstrame) mis <COUNT> imágenes de instagram (más recientes | más nuevos) [en mi cuenta];
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ enseña mis <COUNT> imágenes de instagram (más recientes | más nuevos) [en mi cuenta];
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ enumera mis <COUNT> imágenes de instagram (más recientes | más nuevos) [en mi cuenta];
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ (busca | búscame) mis <COUNT> imágenes de instagram (más recientes | más nuevos) [en mi cuenta];
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ a ver mis <COUNT> imágenes de instagram (más recientes | más nuevos) [en mi cuenta];
+
+<INTENT_3_REPHRASE> = <INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2> | <INTENT_3_REPHRASE_3>;
+<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ presenta mis <COUNT> imágenes de instagram (más recientes | más nuevos) [en mi cuenta];
+<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ cómo me veo en <COUNT> imágenes de instagram (más recientes | más nuevos) [en mi cuenta];
+<INTENT_3_REPHRASE_3> = REPHRASE__ verb_pattern_03__ compara mis <COUNT> imágenes de instagram (más recientes | más nuevos) [en mi cuenta];
+
+##4) SHOW PHOTOS WITH FILTER
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ (muestra | muéstrame) mis (fotos | imágenes) de instagram (<INTENT_4_a> | <INTENT_4_b>);
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ quiero ver mis (fotos | imágenes) de instagram (<INTENT_4_a> | <INTENT_4_b>);
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ enumera mis (fotos | imágenes) de instagram (<INTENT_4_a> | <INTENT_4_b>);
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ (busca | búscame) mis (fotos | imágenes) de instagram (<INTENT_4_a> | <INTENT_4_b>);
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ a ver mis (fotos | imágenes) de instagram (<INTENT_4_a> | <INTENT_4_b>);
+
 <INTENT_4_a> = (con | que usan) el filtro <FILTER>;
 <INTENT_4_b> = que tienen el filtro <FILTER> [aplicado];
 
-<INTENT_5> = <SHOW_VERB> (las | mis) (fotos | imágenes) de instagram (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
+<INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2> | <INTENT_4_REPHRASE_3>;
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ presenta mis (fotos | imágenes) de instagram con el filtro <FILTER>;
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ me veo (bien | sexy) con el filtro <FILTER> puesto?;
+<INTENT_4_REPHRASE_3> = REPHRASE__ verb_pattern_03__ cómo (están (fotos | imágenes) de instagram con el filtro <FILTER> | está el filtro <FILTER> en instagram)?;
+
+##5) SHOW PHOTOS FROM LOCATION
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ (muestra | muéstrame) (las | mis) (fotos | imágenes) de instagram (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ quiero ver (las | mis) (fotos | imágenes) de instagram (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ enumera (las | mis) (fotos | imágenes) de instagram (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ (busca | búscame) mis (fotos | imágenes) de instagram (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ a ver mis (fotos | imágenes) de instagram (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) <LOCATION>;
+
 <INTENT_5_a> = (que tomé | tomadas) [cuando estuve] en;
 <INTENT_5_b> = etiquetadas con la ubicación;
 <INTENT_5_c> = con [la] etiqueta de ubicación;
 
-<INTENT_6> = <SHOW_VERB> mis (fotos | imágenes) etiquetadas <HASHTAG>;
+<INTENT_5_REPHRASE> = <INTENT_5_REPHRASE_1> | <INTENT_5_REPHRASE_2> | <INTENT_5_REPHRASE_3>;
+<INTENT_5_REPHRASE_1> = REPHRASE__ verb_pattern_01__ presenta mis (fotos | imágenes) de instagram de <LOCATION>;
+<INTENT_5_REPHRASE_2> = REPHRASE__ verb_pattern_02__ remind me (when i was in | memories from) <LOCATION>;
+<INTENT_5_REPHRASE_2> = REPHRASE__ verb_pattern_02__ recuérdame (cuando estuve en | historias [de instagram] de) <LOCATION>;
+<INTENT_5_REPHRASE_3> = REPHRASE__ verb_pattern_03__ he tomado [algunas] (fotos | selfies) en <LOCATION>?;
 
-<INTENT_7> = crea una [nueva] publicación en [el] instagram con todas mis fotos tomadas en <LOCATION> (el <DATE_DAY> <DATE_MONTH> | en <DATE_MONTH>) como un collage;
+##6) SHOW PHOTOS WITH HASHTAG
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ (muestra | muéstrame) mis (fotos | imágenes) de instagram (etiquetadas | con etiqueta) <HASHTAG>;
 
-<INTENT_8> = <SHOW_VERB> (mi publicación | mis publicaciones) (del <DATE_DAY> <DATE_MONTH> | de <DATE_MONTH>);
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ quiero ver mis (fotos | imágenes) de instagram (etiquetadas | con etiqueta) <HASHTAG>;
 
-<INTENT_9> = toma una foto (usando | con) [el] instagram;
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ enumera mis (fotos | imágenes) de instagram (etiquetadas | con etiqueta) <HASHTAG>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ (busca | búscame) [mis] (fotos | imágenes) de instagram (etiquetadas | con etiqueta) <HASHTAG>;
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ a ver (fotos | imágenes) de instagram (etiquetadas | con etiqueta) <HASHTAG>;
 
-<INTENT_10> = crea una [nueva] publicación en [el] instagram con la última foto de galería [(y una etiqueta <LOCATION> | (y añade | añadiendo) (el filtro <FILTER> | un hashtag <HASHTAG>))];
+<INTENT_6_REPHRASE> = <INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2>;
+<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ (presenta | preséntales) mis (fotos | imágenes) (etiquetadas | con etiqueta) <HASHTAG>;
+<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ [el] hashtag <HASHTAG> en [mi] (instagram | insta);
+
+##7) CREATE COLLAGE FROM PHOTOS ON DATE
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ crea una [nueva] publicación en [el] instagram con todas mis fotos tomadas en <LOCATION> (el <DATE_DAY> <DATE_MONTH> | en <DATE_MONTH>) como un collage;
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ compone una [nueva] publicación en [el] instagram con todas mis fotos tomadas en <LOCATION> (el <DATE_DAY> <DATE_MONTH> | en <DATE_MONTH>) como un collage;
+
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ haz una [nueva] publicación en [el] instagram con todas mis fotos tomadas en <LOCATION> (el <DATE_DAY> <DATE_MONTH> | en <DATE_MONTH>) como un collage;
+
+<INTENT_7_REPHRASE> = <INTENT_7_REPHRASE_1> | <INTENT_7_REPHRASE_2>;
+<INTENT_7_REPHRASE_1> = REPHRASE__ verb_pattern_01__ toma fotos de <LOCATION> y crea una publicación de instagram [con ellas];
+<INTENT_7_REPHRASE_2> = REPHRASE__ verb_pattern_02__ compila [mis] fotos de <LOCATION> [en instagram];
+
+##8) SHOW PHOTOS FROM DATE
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ (muestra | muéstrame) (mi publicación | mis publicaciones) [del <DATE_DAY>] de <DATE_MONTH>;
+
+<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ quiero ver (mi publicación | mis publicaciones) [del <DATE_DAY>] de <DATE_MONTH>;
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2> | <INTENT_8_L2TC_3>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ enumera (mi publicación | mis publicaciones) [del <DATE_DAY>] de <DATE_MONTH>;
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ (busca | búscame) (mi publicación | mis publicaciones) [del <DATE_DAY>] de <DATE_MONTH>;
+<INTENT_8_L2TC_3> = L2TC__ verb_pattern_03__ a ver (mi publicación | mis publicaciones) [del <DATE_DAY>] de <DATE_MONTH>;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ qué es lo que hice en instagram el <DATE_DAY> [de <DATE_MONTH>]?;
+
+##9) SEND SELFIE TO INSTAGRAM
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = <INTENT_9_L0TC_1> | <INTENT_9_L0TC_2>;
+<INTENT_9_L0TC_1> = L0TC__ verb_pattern_01__ toma (una foto [de mi] | un selfie) (usando | con) (instagram | insta);
+<INTENT_9_L0TC_2> = L0TC__ verb_pattern_02__ [un] selfie;
+
+<INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ haz (una foto [de mi] | un selfie) (usando | con) (instagram | insta);
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ (manda | envía) (una foto [de mi] | un selfie) (usando | con) (instagram | insta);
+
+<INTENT_9_L2TC> = L2TC__ verb_pattern_01__ crea (una foto [de mi] | un selfie) (usando | con) (instagram | insta);
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero (que me recuerdes | acordarme de) (este momento | cómo me veo | esto);
+
+##10) CREATE POST FROM LATEST GALLERY PICTURE
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ crea una [nueva] publicación en [el] instagram con la última foto de galería [(y una etiqueta <LOCATION> | (y añade | añadiendo) (el filtro <FILTER> | un hashtag <HASHTAG>))];
+
+<INTENT_10_L1TC> = L1TC__ verb_pattern_01__ compone una [nueva] publicación en [el] instagram con la última foto de galería [(y una etiqueta <LOCATION> | (y añade | añadiendo) (el filtro <FILTER> | un hashtag <HASHTAG>))];
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ haz una [nueva] publicación en [el] instagram con la última foto de galería [(y una etiqueta <LOCATION> | (y añade | añadiendo) (el filtro <FILTER> | un hashtag <HASHTAG>))];
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ elige fotos [de mi galería] y añade una etiqueta [de localización] <LOCATION>;
+
 
 #SLOTS
 <HASHTAG> = INSTAGRAM.SLOT.HASHTAG;
