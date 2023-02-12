@@ -19,21 +19,73 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 <WHEN> = when <SENDER> sends me an sms;
 
 #INTENTS
-<INTENT_1> = llama a <NUMBER>;
+##1) CALL NUMBER
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ llama (a | al número) <NUMBER>;
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ marca [el número] <NUMBER>;
 
-<INTENT_2> = llama a (112 | [la] ambulancia | [los] bomberos | [la] policía | emergencias);
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ conéctame con [el número] <NUMBER>;
 
-<INTENT_3> = (verifica | muestra | muéstrame) mi bandeja de entrada de (mensajes | sms);
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ telefonea [al número] <NUMBER>;
 
-<INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;
-<INTENT_4_a> = (manda | envía) un (mensaje | sms) a <TO>;
-<INTENT_4_b> = (sms | mensaje) a <TO>;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ get me <NUMBER> on the phone;
 
-<INTENT_5> = <INTENT_5_a> | <INTENT_5_b>;
-<INTENT_5_a> = (manda | envía) (un mensaje | un sms) a <TO> (diciendo | que diga) <MESSAGE>;
-<INTENT_5_b> = [un] (mensaje | sms) a <TO> (diciendo | que diga) <MESSAGE>;
+##2) EMERGENCY CALL
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ llama a (112 | [la] ambulancia | [los] bomberos | [la] policía | emergencias);
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ marca a (112 | [la] ambulancia | [los] bomberos | [la] policía | emergencias);
 
-<INTENT_6> = llama a <TO>;
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ conéctame con (112 | [la] ambulancia | [los] bomberos | [la] policía | emergencias);
+
+<INTENT_2_L2TC> = L2TC__ verb_pattern_01__ (112 | [la] ambulancia | [los] bomberos | [la] policía | emergencias);
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ [por favor] (necesito ayuda | ayúdame);
+
+##3) CHECK SMS
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ revisa mi bandeja de entrada de (mensajes | sms);
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ (muestra | muéstrame) mi bandeja de entrada de (mensajes | sms);
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ verifica mi bandeja de entrada de (mensajes | sms);
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ (abre | ábreme) mi bandeja de entrada de (mensajes | sms);
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ inicia mi bandeja de entrada de (mensajes | sms);
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero leer mis mensajes;
+
+##4) SEND SMS
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ (manda | envía) un (mensaje | sms) a <TO>;
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ (sms | mensaje) a <TO>;
+
+<INTENT_4_L2TC> = L2TC__ verb_pattern_01__ compone (sms | mensaje) a <TO>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ escribe un mensaje nuevo a <TO>;
+
+##5) SEND SMS WITH CONTENT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ (manda | envía) (un mensaje | un sms) a <TO> (diciendo | que diga) <MESSAGE>;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ [un] (mensaje | sms) a <TO> (diciendo | que diga) <MESSAGE>;
+
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ compone [un] (mensaje | sms) a <TO> (diciendo | que diga) <MESSAGE>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ escribe <MESSAGE> a <TO>;
+
+##6) CALL CONTACT
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ llama a <TO>;
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ marca [el número de] <TO>;
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ conéctame con <TO> [por teléfono];
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ dame <TO> [por teléfono];
 
 <GET> = sms in my phone;
 <GET> = texts i received;
