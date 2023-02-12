@@ -6,19 +6,75 @@ public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | 
 <WHEN_1> = cuando (<PORTAL> (actualice (las noticias | la página principal) | publique (algo nuevo | nuevas noticias | un nuevo artículo | nuevas informaciones)) | aparezcan nuevas noticias en <PORTAL>) | sobre (novedades | nuevas (noticias | publicaciones) | un (nuevo artículo | artículo nuevo)) [en la página principal] de <PORTAL>;
 <WHEN_2> = cuando (la (sección | parte) <SECTION> de <PORTAL> publique un nuevo artículo | aparezca (algo nuevo | un nuevo artículo | un artículo nuevo) (en | de) la (sección | parte) <SECTION> de <PORTAL>) | sobre (novedades | nuevas (noticias | publicaciones) | nuevos artículos | artículos nuevos) de la (sección | parte) <SECTION> de <PORTAL>;
 
-#INTENTS
-<INTENT_1> = <INTENT_1a> | <INTENT_1b> | <INTENT_1c>;
-<INTENT_1a> = [abre | lee | va a] [las (noticias | novedades) | [los] (artículos nuevos | nuevos artículos) de] <PORTAL>;
-<INTENT_1b> = (muestra | muéstrame) ([las] (noticias | novedades) | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
-<INTENT_1c> = (noticias [[más] recientes] | novedades | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
+##1) SHOW NEWS FROM PORTAL
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2> | <INTENT_1_L0TC_3>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ (abre | ábreme) [las (noticias | novedades) | [los] (artículos nuevos | nuevos artículos) de] [la página] <PORTAL>;
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ (lee | léeme) [las (noticias | novedades) | [los] (artículos nuevos | nuevos artículos) de] [la página] <PORTAL>;
+<INTENT_1_L0TC_3> = L0TC__ verb_pattern_03__ ve a [las (noticias | novedades) | [los] (artículos nuevos | nuevos artículos) de] [la página] <PORTAL>;
 
-<INTENT_2> = <INTENT_2a> | <INTENT_2b>;
-<INTENT_2a> = [abre | lee | va a] [las (noticias | novedades) | [los] (artículos nuevos | nuevos artículos | nuevas informaciones) de] la (sección | parte) [de | sobre] <SECTION> de <PORTAL>;
-<INTENT_2b> = [muestra | muéstrame] ([las] (noticias | novedades) | nuevos artículos | artículos nuevos | nuevas informaciones) de la (sección | parte) [de | sobre] <SECTION> de <PORTAL>;
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ (muestra | muéstrame) ([las] (noticias | novedades) | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ (verifica | comprueba) ([las] (noticias | novedades) | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
 
-<INTENT_3> = (notifícame | avísame) <WHEN_1>;
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4> | <INTENT_1_L2TC_5> | <INTENT_1_L2TC_6> | <INTENT_1_L2TC_7> | <INTENT_1_L2TC_8> | <INTENT_1_L2TC_9>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ escucha (las noticias [[más] recientes] | novedades | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ dime (las noticias [[más] recientes] | novedades | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ (busca | búscame) (las noticias [[más] recientes] | novedades | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ (las noticias [[más] recientes] | novedades | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
+<INTENT_1_L2TC_5> = L2TC__ verb_pattern_05__ dame (las noticias [[más] recientes] | novedades | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
+<INTENT_1_L2TC_6> = L2TC__ verb_pattern_06__ baja (las noticias [[más] recientes] | novedades | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
 
-<INTENT_4> = (notifícame | avísame) <WHEN_2>;
+<INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3>;
+<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ qué hay de nuevo en [la página] <PORTAL>;
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ noticias de hoy de [la página] <PORTAL>;
+<INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ titulares de [la página] <PORTAL>;
+
+##2) SHOW NEWS FROM SECTION
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ (abre | ábreme) [las (noticias | novedades) | [los] (artículos nuevos | nuevos artículos | nuevas informaciones) de] la (sección | parte) [de | sobre] <SECTION> de <PORTAL>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_02__ (lee | léeme) [las (noticias | novedades) | [los] (artículos nuevos | nuevos artículos | nuevas informaciones) de] la (sección | parte) [de | sobre] <SECTION> de <PORTAL>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_03__ va a [las (noticias | novedades) | [los] (artículos nuevos | nuevos artículos | nuevas informaciones) de] la (sección | parte) [de | sobre] <SECTION> de <PORTAL>;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ (muestra | muéstrame) ([las] (noticias | novedades) | nuevos artículos | artículos nuevos | nuevas informaciones) de la (sección | parte) [de | sobre] <SECTION> de <PORTAL>;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ (verifica | comprueba) ([las] (noticias | novedades) | nuevos artículos | artículos nuevos | nuevas informaciones) de la (sección | parte) [de | sobre] <SECTION> de <PORTAL>;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ (busca | búscame) (noticias | novedades) de la (sección | parte) [de | sobre] <SECTION> de <PORTAL>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ dime las (noticias | novedades) de la (sección | parte) [de | sobre] <SECTION> de <PORTAL>;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ (escucha | quiero escuchar) las (noticias | novedades) de la (sección | parte) [de | sobre] <SECTION> de <PORTAL>;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ qué hay de nuevo en la (sección | parte) [de | sobre] <SECTION> de <PORTAL>;
+
+##3) NOTIFY ON NEWS
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ notifícame <WHEN_1>;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ dime <WHEN_1>;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_01__ avísame <WHEN_1>;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ infórmame <WHEN_1>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ pónme al día <WHEN_1>;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero saber <WHEN_1>;
+
+##4) NOTIFY ON NEWS IN SECTION
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ notifícame <WHEN_2>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ dime <WHEN_2>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_01__ avísame <WHEN_2>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ infórmame <WHEN_2>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ pónme al día <WHEN_2>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero saber <WHEN_2>;
+
 
 <GET> = articles about <KEYWORD> in <PORTAL> <SECTION> section;
 <GET> = articles in [the] <PORTAL>;
