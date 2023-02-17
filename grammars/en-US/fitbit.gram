@@ -56,22 +56,22 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 ##4) SAVE WEIGHT
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
 <INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
-<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ save my weight on fitbit;
-<INTENT_4_L0TC_2> = L0TC__ verb_pattern_01__ add my weight to fitbit;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ save my (weight | mass) on fitbit;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_01__ add my (weight | mass) to [my] fitbit;
 
 <INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
-<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ record my weight on fitbit;
-<INTENT_4_L1TC_2> = L1TC__ verb_pattern_01__ remember my weight on fitbit;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ record my (weight | mass) on [my] fitbit;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_01__ remember my (weight | mass) on [my] fitbit;
 
 <INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4>;
 <INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ log [my] weight [on fitbit];
 <INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ make [a] note of my weight [on fitbit];
-<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ write [down] my weight on fitbit;
-<INTENT_4_L2TC_4> = L2TC__ verb_pattern_03__ register my weight [on fitbit];
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ write [down] my (weight | mass) on fitbit;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_03__ register my (weight | mass) [on fitbit];
 
 <INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2>;
-<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ is my weight going (down | up);
-<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ help me control [my [current]] weight;
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ is my (weight | mass) going (down | up);
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ help me control [my [current]] (weight | mass);
 
 ##5) NOTIFY ON WEIGHT
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;

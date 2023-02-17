@@ -13,9 +13,9 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 
 <INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>;
 <INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ display (slack | the slack app);
-<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ show (slack | the slack app);
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ show [me] (slack | the slack app);
 
-<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ check [my] slack;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ check [my] slack [for [new] messages];
 
 ##2) CHECK MESSAGES
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
@@ -30,7 +30,7 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 <INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ find ((my | the) [last | latest] slack messages | my (last | latest) messages on slack);
 <INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ search for ((my | the) [last | latest] slack messages | my (last | latest) messages on slack);
 
-<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ has anyone (wrote to | dm) me on slack;
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ has anyone [wrote to | dm] me on slack;
 
 ##3) CHECK USER STATUS
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;

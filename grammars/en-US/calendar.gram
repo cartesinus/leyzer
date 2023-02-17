@@ -21,7 +21,7 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3>;
 <INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ what's on my (agenda | list) [today | tomorrow];
-<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ what i'm suppose to do [today | tomorrow];
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ what i'm suppose to do [today | tomorrow | with myself];
 <INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ [help me] organize my day [today | tomorrow];
 
 ##2) CHECK CALENDAR IN DATE
@@ -44,7 +44,7 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>;
 <INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ did i forget [about] anything [today];
-<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ [give me] information about incoming events;
+<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ [give me] information about [incoming | my] events;
 
 ##3) CHECK CALENDAR EVENT WITH NAME
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
@@ -81,8 +81,8 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ remind me (that | about) <EVENT_NAME>;
 
 <INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2>;
-<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ remember [that | for me] <EVENT_NAME>;
-<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ don't let me forget (that there is | about) <EVENT_NAME>;
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ remember [that | for me | about] <EVENT_NAME>;
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ don't let me forget (that there is | about | of) <EVENT_NAME>;
 
 ##5) ADD EVENT ON DATE
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;

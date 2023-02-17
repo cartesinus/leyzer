@@ -22,13 +22,13 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 ##2) CHECK CALENDAR IN DATE
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
-<INTENT_2_L0TC> = L0TC__ verb_phrase_01__ pokaż [moje] (spotkania | plany | wydarzenia) (na <DATE> | w <DATE_W> | we <DATE_WE>);
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ pokaż [moje] (spotkania | plany | wydarzenia) (na <DATE> | w <DATE_W> | we <DATE_WE>);
 
 <INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
-<INTENT_2_L1TC_1> = L1TC__ verb_phrase_01__ wyświetl [moje] (spotkania | plany | wydarzenia) (na <DATE> | w <DATE_W> | we <DATE_WE>);
-<INTENT_2_L1TC_2> = L1TC__ verb_phrase_02__ sprawdź [moje] (spotkania | plany | wydarzenia) (na <DATE> | w <DATE_W> | we <DATE_WE>);
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [moje] (spotkania | plany | wydarzenia) (na <DATE> | w <DATE_W> | we <DATE_WE>);
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ sprawdź [moje] (spotkania | plany | wydarzenia) (na <DATE> | w <DATE_W> | we <DATE_WE>);
 
-<INTENT_2_L2TC> = L2TC__ verb_phrase_01__ powiedz jakie mam (spotkania | plany | wydarzenia) zaplanowane (na <DATE> | w <DATE_W> | we <DATE_WE>);
+<INTENT_2_L2TC> = L2TC__ verb_pattern_01__ powiedz jakie mam (spotkania | plany | wydarzenia) zaplanowane (na <DATE> | w <DATE_W> | we <DATE_WE>);
 
 <INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>;
 <INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ co jest zaplanowane (na <DATE>| w <DATE_W> | we <DATE_WE>);
@@ -36,13 +36,13 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 ##3) CHECK CALENDAR EVENT WITH NAME
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
-<INTENT_3_L0TC> = L0TC__ verb_phrase_01__ pokaż szczegóły [mojego] (spotkania | wydarzenia) [o nazwie] <EVENT_NAME>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ pokaż szczegóły [mojego] (spotkania | wydarzenia) [o nazwie] <EVENT_NAME>;
 
 <INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
-<INTENT_3_L1TC_1> = L1TC__ verb_phrase_01__ wyświetl (([moje] (spotkanie | plany | wydarzenie)) | (szczegóły mojego (spotkania | planu | wydarzenia))) [o nazwie] <EVENT_NAME>;
-<INTENT_3_L1TC_2> = L1TC__ verb_phrase_02__ sprawdź [szczegóły mojego | moje] (spotkania | wydarzenia) [o nazwie] <EVENT_NAME>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl (([moje] (spotkanie | plany | wydarzenie)) | (szczegóły mojego (spotkania | planu | wydarzenia))) [o nazwie] <EVENT_NAME>;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ sprawdź [szczegóły mojego | moje] (spotkania | wydarzenia) [o nazwie] <EVENT_NAME>;
 
-<INTENT_3_L2TC> = L2TC__ verb_phrase_01__ powiedz mi o [szczegółach] <EVENT_NAME>;
+<INTENT_3_L2TC> = L2TC__ verb_pattern_01__ powiedz mi o [szczegółach] <EVENT_NAME>;
 
 <INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ co (jest zaplanowane | zaplanowałem) w <EVENT_NAME>;
 

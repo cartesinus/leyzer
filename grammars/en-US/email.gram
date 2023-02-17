@@ -18,11 +18,11 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ read [my] [new] emails;
 
 <INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3> | <INTENT_1_REPHRASE_4> | <INTENT_1_REPHRASE_5>;
-<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ did i get any [new] emails;
-<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ do i have any [new] emails;
+<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ did i get [any] [new] emails;
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ do i have [any] [new] emails [from somebody];
 <INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ are there [any] [new] emails [for me];
 <INTENT_1_REPHRASE_4> = REPHRASE__ verb_pattern_04__ have (anyone | somebody) wrote me an email;
-<INTENT_1_REPHRASE_5> = REPHRASE__ verb_pattern_05__ how many emails i have [received];
+<INTENT_1_REPHRASE_5> = REPHRASE__ verb_pattern_05__ how many [new] emails i have [received];
 
 ##2) SHOW EMAIL FROM SENDER
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
@@ -147,7 +147,7 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_9_L2TC_3> = L2TC__ verb_pattern_03__ add [new] email [and send it];
 <INTENT_9_L2TC_4> = L2TC__ verb_pattern_04__ dictate [new] email [and send it];
 
-<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ start (an | new) email;
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ start (an | new) email [message];
 
 ##10) CREATE EMAIL TO
 <INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
@@ -160,12 +160,12 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2> | <INTENT_10_L2TC_3> | <INTENT_10_L2TC_4> | <INTENT_10_L2TC_5> | <INTENT_10_L2TC_6>;
 <INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ compose [an] email and send it to <TO> [using my gmail];
 <INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ compose [an] email to <TO> [using my gmail];
-<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ email to <TO> [using my gmail];
-<INTENT_10_L2TC_4> = L2TC__ verb_pattern_04__ add [new] email to <TO>;
-<INTENT_10_L2TC_5> = L2TC__ verb_pattern_05__ dictate [new] email to <TO>;
-<INTENT_10_L2TC_6> = L2TC__ verb_pattern_05__ draft [new] email to <TO>;
+<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ email to <TO> [using my gmail | with [my] gmail];
+<INTENT_10_L2TC_4> = L2TC__ verb_pattern_04__ add [new] email to [my contact] <TO>;
+<INTENT_10_L2TC_5> = L2TC__ verb_pattern_05__ dictate [new] email to [my contact] <TO>;
+<INTENT_10_L2TC_6> = L2TC__ verb_pattern_05__ draft [new] email to [my contact] <TO>;
 
-<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ start (an | new) email to <TO>;
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ start [an | new] email to <TO>;
 
 ##11) REPLY TO EMAIL
 <INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
@@ -176,11 +176,11 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 <INTENT_11_L1TC_2> = L1TC__ verb_pattern_02__ answer <TO> [email];
 
 <INTENT_11_L2TC> = <INTENT_11_L2TC_1> | <INTENT_11_L2TC_2> | <INTENT_11_L2TC_3>;
-<INTENT_11_L2TC_1> = L2TC__ verb_pattern_01__ write an answer to <TO> email;
-<INTENT_11_L2TC_2> = L2TC__ verb_pattern_02__ respond to <TO> email;
-<INTENT_11_L2TC_3> = L2TC__ verb_pattern_03__ open a reply <TO> email;
+<INTENT_11_L2TC_1> = L2TC__ verb_pattern_01__ write an answer to <TO> (email | mail);
+<INTENT_11_L2TC_2> = L2TC__ verb_pattern_02__ respond to <TO> (email | mail);
+<INTENT_11_L2TC_3> = L2TC__ verb_pattern_03__ open a reply (email | mail) to <TO>;
 
-<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ write an response email to <TO>;
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ write an response (email | mail) to <TO>;
 
 <DO> = send an email with subject <SUBJECT>;
 <DO> = email a picture to <TO>;

@@ -90,7 +90,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ i can't stand this <SONG_NOUN>;
 
 <INTENT_6_REPHRASE> = <INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2> | <INTENT_6_REPHRASE_3> | <INTENT_6_REPHRASE_4> | <INTENT_6_REPHRASE_5>;
-<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ go to next <SONG_NOUN>;
+<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ go to [the] next <SONG_NOUN>;
 <INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ do not play (that | this) <SONG_NOUN>;
 <INTENT_6_REPHRASE_3> = REPHRASE__ verb_pattern_03__ (that | this) <SONG_NOUN> is [very] bad;
 <INTENT_6_REPHRASE_4> = REPHRASE__ verb_pattern_04__ remember i (don't like | hate) this <SONG_NOUN>;
@@ -371,12 +371,12 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 #SLOTS
 <SONG> = SPOTIFY.SLOT.SONG;
 <ARTIST> = SPOTIFY.SLOT.ARTIST;
-<ALBUM> = SPOTIFY.SLOT.ALBUM;
+<ALBUM> = SPOTIFY.SLOT.ALBUM_NAME;
 <PLAYLIST> = SPOTIFY.SLOT.PLAYLIST;
 <SEEK_TIME> = SPOTIFY.SLOT.SEEK_TIME;
 <STATE> = SPOTIFY.SLOT.STATE;
 <GENRES> = SPOTIFY.SLOT.GENRES;
-<ALBUM_TYPE_A> = SPOTIFY.SLOT.ALBUM_TYPE_A;
+<ALBUM_TYPE_A> = SPOTIFY.SLOT.ALBUM_TYPE_1A;
 <ALBUM_TYPE_AN> = SPOTIFY.SLOT.ALBUM_TYPE_AN;
 
 #LANG. COMPONENTS

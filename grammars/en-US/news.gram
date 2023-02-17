@@ -31,8 +31,8 @@ public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | 
 <INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3> | <INTENT_1_REPHRASE_4>;
 <INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ what's new [(according to | on) <PORTAL> [portal]];
 <INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ today's news from <PORTAL> [portal];
-<INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ headlines from <PORTAL> [portal];
-<INTENT_1_REPHRASE_4> = REPHRASE__ verb_pattern_04__ newspaper;
+<INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ headlines from [news] <PORTAL> [portal];
+<INTENT_1_REPHRASE_4> = REPHRASE__ verb_pattern_04__ (newspaper | paper | gazette);
 
 ##2) SHOW NEWS FROM SECTION
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;

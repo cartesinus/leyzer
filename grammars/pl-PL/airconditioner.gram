@@ -51,8 +51,8 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 <INTENT_3_c> = na mojej klimatyzacji | na moim klimatyzatorze;
 
 <INTENT_3_REPHRASE> = <INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2>;
-<INTENT_3_REPHRASE_1> = REPHRASE__ verb_patern_01__ ustaw inną temperaturę na ([moim] termostacie | [mojej] klimatyzacji);
-<INTENT_3_REPHRASE_2> = REPHRASE__ verb_patern_02__ chcę inną temperaturę na ([moim] termostacie | [mojej] klimatyzacji);
+<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ustaw inną temperaturę na ([moim] termostacie | [mojej] klimatyzacji);
+<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ chcę inną temperaturę na ([moim] termostacie | [mojej] klimatyzacji);
 
 ##4) CHANGE TEMPERATURE TO VALUE
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
@@ -67,8 +67,8 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 <INTENT_4_END> = (temperaturę na [moim] termostacie na <VALUE> | mój termostat na <VALUE>);
 
 <INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2>;
-<INTENT_4_REPHRASE_1> = REPHRASE__ verb_patern_01__ chcę <VALUE> na ([moim] termostacie | [mojej] klimatyzacji);
-<INTENT_4_REPHRASE_2> = REPHRASE__ verb_patern_02__ poproszę <VALUE> na ([moim] termostacie | [mojej] klimatyzacji);
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ chcę <VALUE> na ([moim] termostacie | [mojej] klimatyzacji);
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ poproszę <VALUE> na ([moim] termostacie | [mojej] klimatyzacji);
 
 ##5) CHANGE TEMPERATURE TO VALUE ON DEVICE
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
@@ -80,7 +80,7 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 <INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ przełącz (temperaturę na [moim] termostacie w <DEVICE_NAME> na <VALUE> | temperaturę na <VALUE> na [moim] termostacie w <DEVICE_NAME>);
 <INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ nastaw (temperaturę na [moim] termostacie w <DEVICE_NAME> na <VALUE> | temperaturę na <VALUE> na [moim] termostacie w <DEVICE_NAME>);
 
-<INTENT_5_REPHRASE> = REPHRASE__ verb_patern_01__ chcę ustawić temperaturę <VALUE> na ([moim] termostacie | [mojej] klimatyzacji) <DEVICE_NAME>;
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę ustawić temperaturę <VALUE> na ([moim] termostacie | [mojej] klimatyzacji) <DEVICE_NAME>;
 
 ##6) CHANGE TEMPERATURE BETWEEN VALUES
 <INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
@@ -92,7 +92,7 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 <INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ nastaw temperaturę [na [moim] termostacie] pomiędzy <LOW> a <HIGH>;
 <INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ przełącz temperaturę [na [moim] termostacie] pomiędzy <LOW> a <HIGH>;
 
-<INTENT_6_REPHRASE> = REPHRASE__ verb_patern_01__ chcę ustawić temperaturę pomiędzy <LOW> i <HIGH> na ([moim] termostacie | [mojej] klimatyzacji) <DEVICE_NAME>;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę ustawić temperaturę pomiędzy <LOW> i <HIGH> na ([moim] termostacie | [mojej] klimatyzacji) <DEVICE_NAME>;
 
 ##7) CHANGE TEMPERATURE ON DEVICE
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
@@ -102,7 +102,7 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 
 <INTENT_7_L2TC> = L2TC__ verb_pattern_01__ przełącz temperaturę [na [moim] termostacie] w <DEVICE_NAME>;
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_patern_01__ chcę ustawić temperaturę na ([moim] termostacie | [mojej] klimatyzacji) <DEVICE_NAME>;
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę ustawić temperaturę na ([moim] termostacie | [mojej] klimatyzacji) <DEVICE_NAME>;
 
 ##8) CHECK HUMIDITY
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
@@ -116,7 +116,7 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 
 <INTENT_8_L2TC> = L2TC__ verb_pattern_01__ ustal poziom wilgotności;
 
-<INTENT_8_REPHRASE> = REPHRASE__ verb_patern_01__ czy nie jest tu za wilgotno;
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ czy nie jest tu za wilgotno;
 
 ##9) CHECK TEMPERATURE ON DEVICE
 <INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
@@ -131,7 +131,7 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 <INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ co termostat w <DEVICE_NAME> mówi o temperaturze;
 <INTENT_9_L2TC_3> = L2TC__ verb_pattern_03__ ustal temperaturę w <DEVICE_NAME>;
 
-<INTENT_9_REPHRASE> = REPHRASE__ verb_patern_01__ czy w <DEVICE_NAME> nie jest za (ciepło | zimno);
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ czy w <DEVICE_NAME> nie jest za (ciepło | zimno);
 
 ##10) CHECK TEMPERATURE
 <INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
