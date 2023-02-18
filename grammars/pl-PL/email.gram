@@ -20,13 +20,13 @@ public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> 
 ##2) SHOW EMAIL FROM SENDER
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
 <INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
-<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ pokaż [moje] (emaile | maile) ([które (otrzymałem | otrzymałam)] od | które (napisał | napisła) [do mnie]) <SENDER_ADDRESS>;
-<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ wyświetl [moje] (emaile | maile) ([które (otrzymałem | otrzymałam)] od | które (napisał | napisła) [do mnie]) <SENDER_ADDRESS>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ pokaż [moje] (emaile | maile) ([które (otrzymałem | otrzymałam)] od | które (napisał | napisała) [do mnie]) <SENDER_ADDRESS>;
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ wyświetl [moje] (emaile | maile) ([które (otrzymałem | otrzymałam)] od | które (napisał | napisała) [do mnie]) <SENDER_ADDRESS>;
 
 <INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_3_L1TC_3>;
-<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ znajdź [moje] (emaile | maile) ([które (otrzymałem | otrzymałam)] od | które (napisał | napisła) [do mnie]) <SENDER_ADDRESS>;
-<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ zobacz [moje] (emaile | maile) ([które (otrzymałem | otrzymałam)] od | które (napisał | napisła) [do mnie]) <SENDER_ADDRESS>;
-<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ sprawdź [moje] (emaile | maile) ([które (otrzymałem | otrzymałam)] od | które (napisał | napisła) [do mnie]) <SENDER_ADDRESS>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ znajdź [moje] (emaile | maile) ([które (otrzymałem | otrzymałam)] od | które (napisał | napisała) [do mnie]) <SENDER_ADDRESS>;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ zobacz [moje] (emaile | maile) ([które (otrzymałem | otrzymałam)] od | które (napisał | napisała) [do mnie]) <SENDER_ADDRESS>;
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ sprawdź [moje] (emaile | maile) ([które (otrzymałem | otrzymałam)] od | które (napisał | napisała) [do mnie]) <SENDER_ADDRESS>;
 
 <INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
 <INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ pokaż [mi] (maile | emaile) które <SENDER_ADDRESS> (do mnie napisał | napisał do mnie);

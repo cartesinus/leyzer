@@ -10,13 +10,13 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
 <INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
 <INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ (ile zrobiłem kroków | ile kroków zrobiłem);
-<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ powiedz [mi] ((moje kroki | ilośc kroków | liczbę kroków) (na | w) fitbicie | (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków));
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ powiedz [mi] ((moje kroki | ilość kroków | liczbę kroków) (na | w) fitbicie | (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków));
 
 <INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
-<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ pokaż [mi] ((moje kroki | ilośc kroków | liczbę kroków) (na | w) fitbicie | (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków));
-<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl [mi] ((moje kroki | ilośc kroków | liczbę kroków) (na | w) fitbicie | (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków));
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ pokaż [mi] ((moje kroki | ilość kroków | liczbę kroków) (na | w) fitbicie | (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków));
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl [mi] ((moje kroki | ilość kroków | liczbę kroków) (na | w) fitbicie | (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków));
 
-<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ policz [mi] ((moje kroki | ilośc kroków | liczbę kroków) (na | w) fitbicie | (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków));
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ policz [mi] ((moje kroki | ilość kroków | liczbę kroków) (na | w) fitbicie | (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków));
 
 <INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ oblicz dystans który dziś przebyłem w krokach;
 
@@ -24,13 +24,13 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
 <INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
 <INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ (ile zrobiłem kroków | ile kroków zrobiłem) <DATE>;
-<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ powiedz [mi] (((moje kroki | ilośc kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>) | ((liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>));
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ powiedz [mi] (((moje kroki | ilość kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>) | ((liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>));
 
 <INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
-<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ pokaż [mi] (((moje kroki | ilośc kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>) | ((liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>));
-<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl [mi] (((moje kroki | ilośc kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>) | ((liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>));
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ pokaż [mi] (((moje kroki | ilość kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>) | ((liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>));
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl [mi] (((moje kroki | ilość kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>) | ((liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>));
 
-<INTENT_2_L2TC> = L2TC__ verb_pattern_01__ policz [mi] (((moje kroki | ilośc kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>) | ((liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>));
+<INTENT_2_L2TC> = L2TC__ verb_pattern_01__ policz [mi] (((moje kroki | ilość kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>) | ((liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>));
 
 <INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ oblicz dystans który zrobiłem <DATE> w krokach;
 
@@ -76,7 +76,7 @@ public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | S
 <INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ daj mi znać <WHEN_1>;
 <INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ poinformuj mnie <WHEN_1>;
 
-<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ nie chce przekroczyć <WEIGHT>;
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ nie chcę przekroczyć <WEIGHT>;
 
 #SLOTS
 <STEPS> = FITBIT.SLOT.STEPS;

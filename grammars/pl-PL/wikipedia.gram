@@ -73,12 +73,12 @@ public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> 
 ##5) DOWNLOAD PAGE AS PDF
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
 <INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
-<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ ściągnij (tę stronę | ten artukuł) jako pdf;
-<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ pobierz (tę stronę | ten artukuł) jako pdf;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ ściągnij (tę stronę | ten artykuł) jako pdf;
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ pobierz (tę stronę | ten artykuł) jako pdf;
 
-<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ zapisz (tę stronę | ten artukuł) jako pdf;
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ zapisz (tę stronę | ten artykuł) jako pdf;
 
-<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ zachowaj (tę stronę | ten artukuł) jako pdf;
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ zachowaj (tę stronę | ten artykuł) jako pdf;
 
 <INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ wydrukuj tę stronę [do pliku];
 

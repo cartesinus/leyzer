@@ -32,7 +32,7 @@ public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | Unf
 
 ##3) UNFOLLOW GIVEN USER
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
-<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ przestań obserować [aktywność] <USERNAME> na twitterze;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ przestań obserwować [aktywność] <USERNAME> na twitterze;
 
 <INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
 <INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ przestań śledzić [aktywność] <USERNAME> na twitterze;

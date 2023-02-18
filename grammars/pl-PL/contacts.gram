@@ -13,7 +13,7 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 
 <INTENT_1_L2TC> = L2TC__ verb_pattern_01__ sprawdź ([moje] kontakty | [moją] listę kontaktów);
 
-<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż [mi | tę] listę (z numerami telefonów | gdzie zapisałem (numery telefonów | osoby | znajomych));
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż [mi | tę] listę (z numerami telefonów | gdzie (zapisałem | zapisałam) (numery telefonów | osoby | znajomych));
 
 ##2) SHOW MY INFO
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;

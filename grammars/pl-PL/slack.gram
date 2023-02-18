@@ -192,7 +192,7 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 ##13) SEND URL TO CHANNEL
 <INTENT_13> = <INTENT_13_L0TC> | <INTENT_13_L1TC> | <INTENT_13_L2TC> | <INTENT_13_REPHRASE>;
 <INTENT_13_L0TC> = <INTENT_13_L0TC_1> | <INTENT_13_L0TC_2>;
-<INTENT_13_L0TC_1> = L0TC__ verb_pattern_01__ wyślij djęcie z <PICTURE_URL> na [slackowy] kanał <CHANNEL>;
+<INTENT_13_L0TC_1> = L0TC__ verb_pattern_01__ wyślij zdjęcie z <PICTURE_URL> na [slackowy] kanał <CHANNEL>;
 <INTENT_13_L0TC_2> = L0TC__ verb_pattern_02__ prześlij zdjęcie z <PICTURE_URL> na [slackowy] kanał <CHANNEL>;
 
 <INTENT_13_L1TC> = <INTENT_13_L1TC_1> | <INTENT_13_L1TC_2>;

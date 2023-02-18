@@ -7,7 +7,7 @@ public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | P
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
 <INTENT_1_L0TC> = L0TC__ verb_pattern_01__ open [my] facebook [application | app];
 
-<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ lunch [my] facebook [application | app];
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ launch [my] facebook [application | app];
 
 <INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4> | <INTENT_1_L2TC_5> | <INTENT_1_L2TC_6> | <INTENT_1_L2TC_7>;
 <INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ display [my] facebook [application | app];

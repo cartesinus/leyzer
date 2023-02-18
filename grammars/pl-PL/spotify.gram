@@ -19,7 +19,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ użyj [aplikację] spotify;
 <INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ zagraj [mi] [coś];
 
-<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ chce posłuchać muzyki;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę posłuchać muzyki;
 
 ##2) PLAY GIVEN SONG
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
@@ -35,7 +35,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ chcę usłyszeć [piosenkę | utwór | kawałek] <SONG>;
 <INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ zagraj [piosenkę | utwór | kawałek] <SONG> [na spotify];
 
-<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie słyszałem <SONG>;
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie (słyszałem | słyszałam) [piosenki] <SONG>;
 
 ##3) PLAY GIVEN SONG OF GIVEN ARTIST
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
@@ -48,10 +48,10 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ graj (<ARTIST> <SONG> | [piosenkę | utwór | kawałek] <SONG> [od | artysty | w wykonaniu | stworzony przez | nagrany przez] <ARTIST>);
 
 <INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
-<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ chcę usłuszeć [piosenkę | utwór | kawałek] <SONG> [artysty | w wykonaniu | stworzony przez | nagrany przez] <ARTIST> [na spotify];
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ chcę usłyszeć [piosenkę | utwór | kawałek] <SONG> [artysty | w wykonaniu | stworzony przez | nagrany przez] <ARTIST> [na spotify];
 <INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ zagraj (<ARTIST> <SONG> | [piosenkę | utwór | kawałek] <SONG> [od | artysty | w wykonaniu | stworzony przez | nagrany przez] <ARTIST>);
 
-<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie słyszałem <SONG> od <ARTIST>;
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie (słyszałem | słyszałam) [piosenki] <SONG> (od | wykonanej przez) <ARTIST>;
 
 ##4) PLAY GIVEN ALBUM OF GIVEN ARTIST
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
@@ -67,7 +67,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ chcę usłyszeć <ALBUM_TYPE> <ALBUM> [od | wykonawcy] <ARTIST> [na spotify];
 <INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ zagraj <ALBUM_TYPE> <ALBUM> [od | wykonawcy] <ARTIST> [na spotify];
 
-<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie słyszałem albumu <ALBUM> od <ARTIST>;
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie (słyszałem |slyszałam) albumu <ALBUM> od <ARTIST>;
 
 ##5) 'PRESS' PAUSE | RESUME | PLAY | REPEAT BUTTON ON CURRENT SONG
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
@@ -141,7 +141,7 @@ public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlayS
 <INTENT_8_L2TC_4> = L2TC__ verb_pattern_04__ zagraj (utwory | piosenki | kawałki) [z mojej] (listy | playlisty | listy odtwarzania) <PLAYLIST>;
 <INTENT_8_L2TC_5> = L2TC__ verb_pattern_05__ chcę usłyszeć (utwory | piosenki | kawałki) [z mojej] (listy | playlisty | listy odtwarzania) <PLAYLIST>;
 
-<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie słyszałem mojej playlisty <PLAYLIST>;
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie (słyszałem | słyszałam) [mojej] playlisty <PLAYLIST>;
 
 ##9) ADD CURRENT SONG TO GIVEN PLAYLIST
 <INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;

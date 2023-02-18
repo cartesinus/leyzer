@@ -44,7 +44,7 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_3_L2TC> = L2TC__ verb_pattern_01__ powiedz mi o [szczegółach] <EVENT_NAME>;
 
-<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ co (jest zaplanowane | zaplanowałem) w <EVENT_NAME>;
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ co (jest zaplanowane | zaplanowałem | zaplanowałam) w <EVENT_NAME>;
 
 ##4) ADD EVENT
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;

@@ -93,7 +93,7 @@ public <S> = Speaker__ (TurnOnOrOff__ <INTENT_1> | IncreaseVolume__ <INTENT_2> |
 
 ##7) UNMUTE
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
-<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ włącz dzwięk [mojego głosnika| na moim głośniku];
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ włącz dzwięk [mojego głośnika | na moim głośniku];
 
 <INTENT_7_L1TC> = L1TC__ verb_pattern_01__ wznów (dzwięk | odtwarzanie) na [moim] głośniku;
 
