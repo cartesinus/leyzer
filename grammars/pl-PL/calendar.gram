@@ -22,17 +22,17 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 ##2) CHECK CALENDAR IN DATE
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
-<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ pokaż [moje] (spotkania | plany | wydarzenia) (na <DATE> | w <DATE_W> | we <DATE_WE>);
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ pokaż [moje] (spotkania | plany | wydarzenia) (na <DATE_NA> | w <DATE_W> | we <DATE_WE>);
 
 <INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
-<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [moje] (spotkania | plany | wydarzenia) (na <DATE> | w <DATE_W> | we <DATE_WE>);
-<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ sprawdź [moje] (spotkania | plany | wydarzenia) (na <DATE> | w <DATE_W> | we <DATE_WE>);
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [moje] (spotkania | plany | wydarzenia) (na <DATE_NA> | w <DATE_W> | we <DATE_WE>);
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ sprawdź [moje] (spotkania | plany | wydarzenia) (na <DATE_NA> | w <DATE_W> | we <DATE_WE>);
 
-<INTENT_2_L2TC> = L2TC__ verb_pattern_01__ powiedz jakie mam (spotkania | plany | wydarzenia) zaplanowane (na <DATE> | w <DATE_W> | we <DATE_WE>);
+<INTENT_2_L2TC> = L2TC__ verb_pattern_01__ powiedz jakie mam (spotkania | plany | wydarzenia) zaplanowane (na <DATE_NA> | w <DATE_W> | we <DATE_WE>);
 
 <INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>;
-<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ co jest zaplanowane (na <DATE>| w <DATE_W> | we <DATE_WE>);
-<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ (jakie | czy) mam (wydarzenia | spotkania) (na <DATE> | w <DATE_W> | we <DATE_WE>);
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ co jest zaplanowane (na <DATE_NA>| w <DATE_W> | we <DATE_WE>);
+<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ (jakie | czy) mam (wydarzenia | spotkania) (na <DATE_NA> | w <DATE_W> | we <DATE_WE>);
 
 ##3) CHECK CALENDAR EVENT WITH NAME
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
@@ -63,16 +63,16 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 ##5) ADD EVENT ON DATE
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
 <INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
-<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) [do kalendarza] o nazwie <EVENT_NAME> (na <DATE> | w <DATE_W> | we <DATE_WE>);
-<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ <DATE> dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) o nazwie <EVENT_NAME> [do kalendarza];
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) [do kalendarza] o nazwie <EVENT_NAME> (na <DATE_NA> | w <DATE_W> | we <DATE_WE>);
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ <DATE_NA> dodaj [nowe] (wydarzenie | spotkanie | przypomnienie) o nazwie <EVENT_NAME> [do kalendarza];
 
-<INTENT_5_L1TC> = L1TC__ verb_pattern_01__  <DATE> zapisz [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__  <DATE_NA> zapisz [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
 
 <INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
-<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__  <DATE> zanotuj [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
-<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__  <DATE> zaznacz [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__  <DATE_NA> zanotuj [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__  <DATE_NA> zaznacz [w kalendarzu] [[wydarzenie | spotkanie | przypomnienie] o nazwie] <EVENT_NAME>;
 
-<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ wydarzenie <EVENT_NAME> dodaj do [mojego] <CALENDAR_APP_GEN> na <DATE>;
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ wydarzenie <EVENT_NAME> dodaj do [mojego] <CALENDAR_APP_GEN> na <DATE_NA>;
 
 ##6) NOTIFY ON EVENT START
 <INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
@@ -129,8 +129,8 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ <WHEN_3>;
 
 #SLOTS
-<DATE> = CALENDAR.SLOT.DATE;
-<DATE_W> = CALENDAR.SLOT.DATE_W;
+<DATE_NA> = CALENDAR.SLOT.DATE_NA;
+<DATE_W> = CALENDAR.SLOT.DATE_W0;
 <DATE_WE> = CALENDAR.SLOT.DATE_WE;
 <EVENT_NAME> = CALENDAR.SLOT.EVENT_NAME;
 <LOCATION> = CALENDAR.SLOT.LOCATION;

@@ -59,23 +59,23 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 ##4) SEARCH BY CATEGORY
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
 <INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2> | <INTENT_4_L0TC_3>;
-<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ znajdź (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND>;
-<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ wyszukaj (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND>;
-<INTENT_4_L0TC_3> = L0TC__ verb_pattern_03__ pokaż (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ znajdź (restauracje | jedzenie) ((w kategorii | z kategorii) <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ wyszukaj (restauracje | jedzenie) ((w kategorii | z kategorii) <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L0TC_3> = L0TC__ verb_pattern_03__ pokaż (restauracje | jedzenie) ((w kategorii | z kategorii) <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
 
 <INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
-<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ szukaj (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND>;
-<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ szukaj (restauracje | jedzenie) ((w kategorii | z kategorii) <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl (restauracje | jedzenie) ((w kategorii | z kategorii) <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
 
 <INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4> | <INTENT_4_L2TC_5> | <INTENT_4_L2TC_6>;
-<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ wskaż [mi] restauracje [z kategorii] <CATEGORY> <AROUND>;
-<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ poleć [mi] restauracje [z kategorii] <CATEGORY> <AROUND>;
-<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ chcę zobaczyć (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND>;
-<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ chcę pójść do restauracji [z kategorii] <CATEGORY> <AROUND>;
-<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ chcę zjeść w restauracji [z kategorii] <CATEGORY> <AROUND>;
-<INTENT_4_L2TC_6> = L2TC__ verb_pattern_06__ gdzie znajdę restaurację [z kategorii] <CATEGORY> <AROUND>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ wskaż [mi] restauracje (z kategorii <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ poleć [mi] restauracje (z kategorii <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ chcę zobaczyć (restauracje | jedzenie) ((w kategorii | z kategorii) <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ chcę pójść do restauracji (z kategorii <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ chcę zjeść w restauracji (z kategorii <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L2TC_6> = L2TC__ verb_pattern_06__ gdzie znajdę restaurację (z kategorii <CATEGORY_B> | <CATEGORY_A>)<AROUND>;
 
-<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ szukam miejsca z kategorii <CATEGORY> <AROUND>;
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ szukam miejsca z kategorii <CATEGORY_B> <AROUND>;
 
 ##5) FIND OPEN
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
@@ -160,18 +160,18 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 ##10) SEARCH BY CATEGORY IN LOCATION
 <INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
 <INTENT_10_L0TC> = <INTENT_10_L0TC_1> | <INTENT_10_L0TC_2>;
-<INTENT_10_L0TC_1> = L0TC__ verb_pattern_01__ znajdź (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND> <LOCATION>;
-<INTENT_10_L0TC_2> = L0TC__ verb_pattern_02__ pokaż (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND> <LOCATION>;
+<INTENT_10_L0TC_1> = L0TC__ verb_pattern_01__ znajdź (restauracje | jedzenie) ((w kategorii | z kategorii) <CATEGORY_B> | <CATEGORY_A>) <AROUND> <LOCATION>;
+<INTENT_10_L0TC_2> = L0TC__ verb_pattern_02__ pokaż (restauracje | jedzenie) ((w kategorii | z kategorii) <CATEGORY_B> | <CATEGORY_A>) <AROUND> <LOCATION>;
 
 <INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2>;
-<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ wyszukaj (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND> <LOCATION>;
-<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND> <LOCATION>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ wyszukaj (restauracje | jedzenie) ((w kategorii | z kategorii) <CATEGORY_B> | <CATEGORY_A>) <AROUND> <LOCATION>;
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl (restauracje | jedzenie) ((w kategorii | z kategorii) <CATEGORY_B> | <CATEGORY_A>) <AROUND> <LOCATION>;
 
 <INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2>;
-<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ powiedz [mi] gdzie znajdę (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND> <LOCATION>;
-<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ poleć [mi] (restauracje | jedzenie) [w kategorii | z kategorii] <CATEGORY> <AROUND> <LOCATION>;
+<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ powiedz [mi] gdzie znajdę (restauracje | jedzenie) ((w kategorii | z kategorii) <CATEGORY_B> | <CATEGORY_A>) <AROUND> <LOCATION>;
+<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ poleć [mi] (restauracje | jedzenie) ((w kategorii | z kategorii) <CATEGORY_B> | <CATEGORY_A>) <AROUND> <LOCATION>;
 
-<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ szukam miejsca z kategorii <CATEGORY> w <LOCATION>;
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ szukam miejsca z (kategorii <CATEGORY_B> | <CATEGORY_A>) w <LOCATION>;
 
 ##11) SEARCH IN LOCATOIN WITH REVIEW COUNT
 <INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
@@ -210,7 +210,8 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 <QUERY> = YELP.SLOT.QUERY;
 <REVIEW_COUNT> = YELP.SLOT.REVIEW_COUNT;
 <RATING> = YELP.SLOT.RATING;
-<CATEGORY> = YELP.SLOT.CATEGORY;
+<CATEGORY_A> = YELP.SLOT.CATEGORY_A;
+<CATEGORY_B> = YELP.SLOT.CATEGORY_B;
 
 #LANG. COMPONENTS
 <AROUND> = w pobliżu | w okolicy;
