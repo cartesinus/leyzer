@@ -76,7 +76,7 @@ public <S> = Contacts__  (OpenContacts__ <INTENT_1> | OpenMyContact__ <INTENT_2>
 <INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ otwórz;
 
 <INTENT_5_L2TC> = L2TC__ verb_pattern_01__ sprawdź <INTENT_5_END>;
-<INTENT_5_END> = ((informacje | date) kontaktu | [mój] kontakt (o nazwie | nazywający się)) <NAME>;
+<INTENT_5_END> = ((informacje | dane) kontaktu | [mój] kontakt (o nazwie | nazywający się)) <NAME>;
 
 <INTENT_5_REPHRASE> = REPHRASE__ (<INTENT_5_REPHRASE_1> | <INTENT_5_REPHRASE_2>);
 <INTENT_5_REPHRASE_1> = verb_pattern_01__ przypomnij mi (dane | informacje) dla [kontaktu] <NAME>;
