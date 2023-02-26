@@ -104,7 +104,7 @@ public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | P
 <INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3>;
 <INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ pon [la dirección de] [la (foto | imagen)] <PICTURE_URL> a [mi] facebook con el título <CAPTION>;
 <INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ agrega [la dirección de] [la (foto | imagen)] <PICTURE_URL> a [mi] facebook con el título <CAPTION>;
-<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ dale el título <CAPTION a <PICTURE_URL> y compártelo en facebook;
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ dale el título <CAPTION> a <PICTURE_URL> y compártelo en facebook;
 
 <INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ muéstrale [la dirección | el url] <PICTURE_URL> a (todos | mis seguidores de facebook | mi familia | mis amigos) y dale el título <CAPTION>;
 

@@ -31,7 +31,7 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
 <INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ (muestra | muéstrame) [qué [(eventos | citas | encuentros)] (hay | tengo) en] ((mi | la) agenda | (mi | el) calendario) el <DATE>;
-<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ (lee | léeme) ((mi | la) [qué [(eventos | citas | encuentros)] (hay | tengo) en] ((mi | la) agenda | (mi | el) calendario) el <DATE>;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ (lee | léeme) [qué [(eventos | citas | encuentros)] (hay | tengo) en] ((mi | la) agenda | (mi | el) calendario) el <DATE>;
 
 <INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3> | <INTENT_2_L2TC_4> | <INTENT_2_L2TC_5>;
 <INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ dime qué hay en (mi | la) (agenda | lista de (tareas | quehaceres)) el <DATE>;
@@ -59,7 +59,7 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 
 <INTENT_3_REPHRASE> = <INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2>;
 <INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ hay algo del (evento | mítin) <EVENT_NAME> [que necesito recordar];
-<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ [dame] información sobre [el (evento | mítin) <EVENT_NAME>;
+<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ [dame] información sobre [el (evento | mítin)] <EVENT_NAME>;
 
 ##4) ADD EVENT
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
@@ -68,8 +68,8 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ crea (un (evento | encuentro | mítin | recordatorio) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario];
 
 <INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
-<INTENT_4_L0TC_1> = L1TC__ verb_pattern_01__ (guarda | guárdame) (un (evento | encuentro | mítin | recordatorio) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario];
-<INTENT_4_L0TC_2> = L1TC__ verb_pattern_02__ fija (un (evento | encuentro | mítin | recordatorio) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario];
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ (guarda | guárdame) (un (evento | encuentro | mítin | recordatorio) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario];
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ fija (un (evento | encuentro | mítin | recordatorio) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario];
 
 <INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4>;
 <INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ registra un evento (llamado | titulado | con el título) <EVENT_NAME> en mi calendario;

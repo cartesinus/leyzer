@@ -20,14 +20,14 @@ public <S> = Websearch__ (OpenEngine__ <INTENT_1> | SearchTextOnEngine__ <INTENT
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
 <INTENT_2_L0TC> = L0TC__ verb_pattern_01__ (<TXT_QUERY> en <ENGINE> | <ENGINE> <TXT_QUERY>);
 
-<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3>;;
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3>;
 <INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ (busca | búscame) <TXT_QUERY> (en | usando) <ENGINE>;
 <INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ (consulta | consúltame) <TXT_QUERY> (en | usando) <ENGINE>;
 <INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ (encuentra | encuéntrame) <TXT_QUERY> (en | usando) <ENGINE>;
 
 <INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
 <INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ (muestra | muéstrame) [resultados de] <TXT_QUERY> (en | usando) <ENGINE>;
-<INTENT_2_L0TC_2> = L2TC__ verb_pattern_02__ <TXT_QUERY> usando <ENGINE>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ <TXT_QUERY> usando <ENGINE>;
 
 <INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ quiero que <ENGINE> me (de | muestre) información sobre <TXT_QUERY>;
 
@@ -36,7 +36,7 @@ public <S> = Websearch__ (OpenEngine__ <INTENT_1> | SearchTextOnEngine__ <INTENT
 <INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2> | <INTENT_3_L0TC_3>;
 <INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ (busca | búscame) <TXT_QUERY> en (la red | el internet);
 <INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ (consulta | consúltame) <TXT_QUERY> en (la red | el internet);
-<INTENT_2_L0TC_3> = L0TC__ verb_pattern_03__ (guglea | guglear | googlea | googlear) <TXT_QUERY>;
+<INTENT_3_L0TC_3> = L0TC__ verb_pattern_03__ (guglea | guglear | googlea | googlear) <TXT_QUERY>;
 
 <INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
 <INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ (encuentra | encuéntrame) <TXT_QUERY> en (la red | el internet);
@@ -62,7 +62,7 @@ public <S> = Websearch__ (OpenEngine__ <INTENT_1> | SearchTextOnEngine__ <INTENT
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
 <INTENT_5_L0TC> = L0TC__ verb_pattern_01__ [(busca | búscame)] (imágenes | fotos) (con | de) <IMG_QUERY>;
 
-<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ encuentra (imágenes | fotos) (con | de) <IMG_QUERY>;;
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ encuentra (imágenes | fotos) (con | de) <IMG_QUERY>;
 
 <INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
 <INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ (muestra | muéstrame) (imágenes | fotos) (con | de) <IMG_QUERY>;

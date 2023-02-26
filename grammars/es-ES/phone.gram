@@ -27,7 +27,7 @@ public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | Sho
 
 <INTENT_1_L1TC> = L1TC__ verb_pattern_01__ conéctame con [el número] <NUMBER>;
 
-<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ telefonea [al número] <NUMBER>;
+<INTENT_1_L2TC> = L1TC__ verb_pattern_01__ telefonea [al número] <NUMBER>;
 
 <INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ get me <NUMBER> on the phone;
 
