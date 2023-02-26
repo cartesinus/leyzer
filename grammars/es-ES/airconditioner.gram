@@ -63,7 +63,7 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 
 <INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
 <INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ modifica ([la temperatura (en | de)] mi termostato <DEVICE_NAME> a <VALUE> | la temperatura a <VALUE> en mi <DEVICE_NAME> termostato);
-<INTENT_5_L2TC_1> = L2TC__ verb_pattern_02__ ajusta ([la temperatura (en | de)] mi termostato <DEVICE_NAME> a <VALUE> | la temperatura a <VALUE> en mi <DEVICE_NAME> termostato);
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ ajusta ([la temperatura (en | de)] mi termostato <DEVICE_NAME> a <VALUE> | la temperatura a <VALUE> en mi <DEVICE_NAME> termostato);
 
 <INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ haz que <DEVICE_NAME> ponga la temperatura a <VALUE>;
 
@@ -109,9 +109,9 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 
 ##9) CHECK TEMPERATURE ON DEVICE
 <INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
->INTENT_9_L0TC> = <INTENT_9_L0TC_1> | <INTENT_9_L0TC_2>;
+<INTENT_9_L0TC> = <INTENT_9_L0TC_1> | <INTENT_9_L0TC_2>;
 <INTENT_9_L0TC_1> = L0TC__ verb_pattern_01__ verifica (qué (dice | hay en | muestra) el (sensor de la temperatura | termostato) <DEVICE_NAME> | la temperatura del (sensor [de la temperatura] | termostato) <DEVICE_NAME> [en el cuarto]);
-<INTENT_9_L0TC_2> = L0TC__ verb_pattern_02__ la temperatura del (sensor [de la temperatura] | termostato) <DEVICE_NAME> [en el cuarto]);
+<INTENT_9_L0TC_2> = L0TC__ verb_pattern_02__ la temperatura del (sensor [de la temperatura] | termostato) <DEVICE_NAME> [en el cuarto];
 
 <INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2> | <INTENT_9_L1TC_3>;
 <INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ (muestra | muéstrame) lo que (dice | muestra | hay en) el (sensor de temperatura del interior | termostato) <DEVICE_NAME>;
@@ -135,7 +135,7 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 <INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2> | <INTENT_10_L2TC_3>;
 <INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ give me the temperature on my <AV_ALIAS>;
 <INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ cuántos grados (celsius | fahrenheit) (hay | tengo) en (el | mi) <AV_ALIAS>?;
-<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ qué temperatura ((tengo | tenemos | hay) aquí según mi <AV_ALIAS>?;
+<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ qué temperatura ((tengo | tenemos | hay) aquí según mi <AV_ALIAS>?);
 
 <INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ qué temperatura hay?;
 

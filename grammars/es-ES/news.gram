@@ -17,7 +17,7 @@ public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | 
 <INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ (muestra | muéstrame) ([las] (noticias | novedades) | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
 <INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ (verifica | comprueba) ([las] (noticias | novedades) | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
 
-<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4> | <INTENT_1_L2TC_5> | <INTENT_1_L2TC_6> | <INTENT_1_L2TC_7> | <INTENT_1_L2TC_8> | <INTENT_1_L2TC_9>;
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4> | <INTENT_1_L2TC_5> | <INTENT_1_L2TC_6>;
 <INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ escucha (las noticias [[más] recientes] | novedades | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
 <INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ dime (las noticias [[más] recientes] | novedades | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
 <INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ (busca | búscame) (las noticias [[más] recientes] | novedades | la página principal | nuevos artículos | artículos nuevos) de <PORTAL>;
