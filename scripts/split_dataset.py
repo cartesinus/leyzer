@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
 This script split leyzer (both in pattern format and fully expanded) into train and test.
