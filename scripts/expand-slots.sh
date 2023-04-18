@@ -11,9 +11,9 @@ function substitute_slots {
     while IFS= read -r text; do
         if [ "$ADD_BIO" = "true" ]; then
             short_slot=`echo $slot | sed 's/.*\.SLOT\.//g'`
-            sed -ie "0,/$slot/ s/$slot/{$short_slot:$text}/" $INPUT_FILE
+            sed -ie -E "0,/$slot$|$slot / s/$slot$|$slot /{$short_slot:$text} /" $INPUT_FILE
         else
-            sed -ie "0,/$slot/ s/$slot/$text/" $INPUT_FILE
+            sed -ie -E "0,/$slot$|$slot / s/$slot$|$slot /$text /" $INPUT_FILE
         fi
     done < ../slots/$LANG/$slot
 }
@@ -21,10 +21,10 @@ function substitute_slots {
 sed -i 's/__ /__	/g' $INPUT_FILE
 
 for slot in `ls -1 ../slots/${LANG}`; do
-    if grep --quiet "$slot" $INPUT_FILE; then
+    if grep --quiet "$slot$\|$slot " $INPUT_FILE; then
         echo "expanding with phrases from $slot."
         if [ "$REPEAT" = "true" ]; then
-            while grep --quiet "$slot" $INPUT_FILE; do
+            while grep --quiet "$slot$\|$slot " $INPUT_FILE; do
                 substitute_slots $slot
             done
         else
@@ -32,6 +32,8 @@ for slot in `ls -1 ../slots/${LANG}`; do
         fi;
     fi;
 done
+
+sed -i 's/ $//g' $INPUT_FILE
 
 if [ "$ADD_BIO" = "true" ]; then
     echo "Saving patterns expanded with slot values to: $OUTPUT_FILE"
