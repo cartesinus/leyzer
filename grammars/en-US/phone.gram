@@ -1,37 +1,81 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
-public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5>);
-
-#PRECONDITIONS
-<WHEN> = when i receive a sms;
-<WHEN> = when i get a text;
-<WHEN> = when i get at text from somebody;
-<WHEN> = when i receive a sms from somebody;
-<WHEN> = when somebody sends me a text;
-<WHEN> = when somebody texts me;
-<WHEN> = when somebody sms me;
-<WHEN> = when somebody sends me an sms;
-<WHEN> = when i receive a sms from <SENDER>;
-<WHEN> = when i get at text from <SENDER>;
-<WHEN> = when <SENDER> sends me a text;
-<WHEN> = when <SENDER> texts me;
-<WHEN> = when <SENDER> sms me;
-<WHEN> = when <SENDER> sends me an sms;
+#VUI-VERSION: 0.2.0;
+public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5> | CallContact__ <INTENT_6>);
 
 #INTENTS
-<INTENT_1> = (call | dial | phone) [number] <NUMBER>;
+##1) CALL NUMBER
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ call [number] <NUMBER>;
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ dial [number] <NUMBER>;
 
-<INTENT_2> = (call | dial) (911 | ambulance | fire department | police | emergency services);
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ phone [number] <NUMBER>;
 
-<INTENT_3> = (check | show | display | open | launch) my sms inbox | (check | show) my texts;
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ connect me with phone [number] <NUMBER>;
 
-<INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;
-<INTENT_4_a> = (send | compose) (a text | a message | an sms) to <TO>;
-<INTENT_4_b> = (sms | text) <TO>;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ get me <NUMBER> on the phone;
 
-<INTENT_5> = <INTENT_5_a> | <INTENT_5_b>;
-<INTENT_5_a> = (send | compose) (an sms | a text [message]| a message) to <TO> (saying | containing) <MESSAGE>;
-<INTENT_5_b> = (text | sms) <TO> (saying | containing) <MESSAGE>;
+##2) EMERGENCY CALL
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ call (911 | ambulance | fire department | police | emergency services);
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ dial (911 | ambulance | fire department | police | emergency services);
+
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ connect me with (911 | ambulance | fire department | police | emergency services);
+
+<INTENT_2_L2TC> = L2TC__ verb_pattern_01__ (911 | ambulance | fire department | police | emergency services);
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ [please] get help [for me];
+
+##3) CHECK SMS
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ check my (sms [inbox] | texts);
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ show my ([latest] texts | sms inbox);
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ display [my] sms [inbox];
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ open [my] sms [inbox];
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ launch [my] sms [inbox];
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to read [my | latest | new] (texts | sms);
+
+##4) SEND SMS
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ send (a text | a message | an sms) to <TO>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ sms <TO>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ text <TO>;
+
+<INTENT_4_L2TC> = L2TC__ verb_pattern_01__ compose (a text | a message | an sms) to <TO>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ write [a] [new] text to <TO>;
+
+##5) SEND SMS WITH CONTENT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ send (an sms | a text [message]| a message) to <TO> (saying | containing) <MESSAGE>;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ text <TO> (saying | containing) <MESSAGE>;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ sms <TO> (saying | containing) <MESSAGE>;
+
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ compose (an sms | a text [message]| a message) to <TO> (saying | containing) <MESSAGE>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ write <MESSAGE> to <TO>;
+
+##6) CALL CONTACT
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ call [to] <TO>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ dial <TO> [[phone] number];
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ phone [to] <TO>;
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ connect me with phone <TO> [via phone];
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ get me <TO> [on the phone [right now]];
 
 <GET> = sms in my phone;
 <GET> = texts i received;

@@ -1,26 +1,120 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Websearch__ (OpenEngine__ <INTENT_1> | SearchTextOnEngine__ <INTENT_2> | SearchText__ <INTENT_3> | SearchImagesWithTextOnEngine__ <INTENT_4> | SearchImagesOnEngine__ <INTENT_5> | SearchImagesWithTextOnEngineWithWidthAndWithHeight__ <INTENT_6> | SearchImagesWithTextOnEngineWithWidthAndWithHeightAndWithCondition__ <INTENT_7>);
 
 #INTENTS
-<INTENT_1> = ((szukaj | wyszukaj | poszukaj | chcę wyszukać) na <ENGINE>) | <ENGINE> wyszukiwarka | wyszukiwarka;
+##1) SEARCH WITH ENGINE
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ szukaj na <ENGINE>;
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ wyszukaj (na | w) <ENGINE>;
 
-<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c>;
-<INTENT_2_a> = (<TXT_QUERY> (w | na) <ENGINE> | <ENGINE> <TXT_QUERY>);
-<INTENT_2_b> = strony [internetowe | www] (na | w) których (znajdę | odnajdę) <TXT_QUERY> (w | na) <ENGINE>;
-<INTENT_2_c> = (szukaj [mi] | wyszukaj [mi] | znajdź [mi] | pokaż [mi] | chcę wyszukać) na <ENGINE> <TXT_QUERY>;
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ poszukaj na <ENGINE>;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ chcę wyszukać na <ENGINE>;
 
-<INTENT_3> = <INTENT_3_a> | <INTENT_3_b>;
-<INTENT_3_a> = strony [internetowe | www] (na | w) których (znajdę | odnajdę) <TXT_QUERY>;
-<INTENT_3_b> = (szukaj [mi] | wyszukaj [mi] | znajdź [mi] | pokaż [mi] | chcę wyszukać) <TXT_QUERY> [w internecie];
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ <ENGINE> [wyszukiwarka | wyszukiwarka];
 
-<INTENT_4> = [<FIND>] <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> (w | na) <ENGINE>;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ wyszukaj [coś] w internecie;
 
-<INTENT_5> = [<FIND>] <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY>;
+##2) SEARCH TEXT WITH ENGINE
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ <TXT_QUERY> (w | na) <ENGINE>;
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ <ENGINE> <TXT_QUERY>;
 
-<INTENT_6> = [<FIND>] <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> o rozmiarze <WIDTH> na <HEIGHT>;
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3> | <INTENT_2_L1TC_4> | <INTENT_2_L1TC_5>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ szukaj [mi] na <ENGINE> <TXT_QUERY>;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ wyszukaj [mi] na <ENGINE> <TXT_QUERY>;
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ znajdź [mi] na <ENGINE> <TXT_QUERY>;
+<INTENT_2_L1TC_4> = L1TC__ verb_pattern_04__ pokaż [mi] na <ENGINE> <TXT_QUERY>;
+<INTENT_2_L1TC_5> = L1TC__ verb_pattern_05__ chcę wyszukać na <ENGINE> <TXT_QUERY>;
 
-<INTENT_7> = [<FIND>] <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> i <IMG_COND> niż <WIDTH> [na <HEIGHT>];
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ pokaż strony [internetowe | www] (na | w) których (znajdę | odnajdę) <TXT_QUERY> (w | na) <ENGINE>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ wyświetl strony [internetowe | www] (na | w) których (znajdę | odnajdę) <TXT_QUERY> (w | na) <ENGINE>;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ przeszukaj internet w poszukiwaniu <TXT_QUERY> przy użyciu <ENGINE>;
+
+##3) SEARCH TEXT
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2> | <INTENT_3_L0TC_3>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ <TXT_QUERY> [w sieci | w internecie];
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ szukaj <TXT_QUERY> [w sieci | w internecie];
+<INTENT_3_L0TC_3> = L0TC__ verb_pattern_03__ wyszukaj <TXT_QUERY> [w sieci | w internecie];
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2> | <INTENT_3_L1TC_3> | <INTENT_3_L1TC_4> | <INTENT_3_L1TC_5>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ szukaj informacji o <TXT_QUERY> [w sieci | w internecie];
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ wyszukaj [mi] <TXT_QUERY> [w sieci | w internecie];
+<INTENT_3_L1TC_3> = L1TC__ verb_pattern_03__ znajdź [mi] <TXT_QUERY> [w sieci | w internecie];
+<INTENT_3_L1TC_4> = L1TC__ verb_pattern_04__ pokaż [mi] <TXT_QUERY> [w sieci | w internecie];
+<INTENT_3_L1TC_5> = L1TC__ verb_pattern_05__ chcę wyszukać <TXT_QUERY> [w sieci | w internecie];
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ pokaż strony [internetowe | www] (na | w) których (znajdę | odnajdę) <TXT_QUERY>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ wyświetl strony [internetowe | www] (na | w) których (znajdę | odnajdę) <TXT_QUERY>;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ przeszukaj internet w poszukiwaniu <TXT_QUERY>;
+
+##4) SEARCH IMAGE WITH ENGINE
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ wyszukaj <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> (na | w) <ENGINE>;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ szukaj <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> (na | w) <ENGINE>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2> | <INTENT_4_L1TC_3>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ pokaż <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> (na | w) <ENGINE>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> (na | w) <ENGINE>;
+<INTENT_4_L1TC_3> = L1TC__ verb_pattern_03__ znajdź <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> (na | w) <ENGINE>;
+
+<INTENT_4_L2TC> = L2TC__ verb_pattern_01__ chcę zobaczyć <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> (na | w) <ENGINE>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ znajdź podobne obrazy do <IMG_QUERY> (na | w) <ENGINE>;
+
+##5) SEARCH IMAGE
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ wyszukaj <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY>;
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ szukaj <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY>;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2> | <INTENT_5_L1TC_3>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ pokaż <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY>;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY>;
+<INTENT_5_L1TC_3> = L1TC__ verb_pattern_03__ znajdź <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY>;
+
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ chcę zobaczyć <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ znajdź podobne obrazy do <IMG_QUERY>;
+
+##6) SEARCH IMAGE WITH WIDTH AND HEIGHT
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ wyszukaj <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> o rozmiarze <WIDTH> na <HEIGHT>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ szukaj <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> o rozmiarze <WIDTH> na <HEIGHT>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2> | <INTENT_6_L1TC_3>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ pokaż <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> o rozmiarze <WIDTH> na <HEIGHT>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> o rozmiarze <WIDTH> na <HEIGHT>;
+<INTENT_6_L1TC_3> = L1TC__ verb_pattern_03__ znajdź <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> o rozmiarze <WIDTH> na <HEIGHT>;
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ chcę zobaczyć <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> o rozmiarze <WIDTH> na <HEIGHT>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ znajdź podobne obrazy do <IMG_QUERY> o rozmiarze <WIDTH> na <HEIGHT>;
+
+##7) SEARCH IMAGE WITH WIDTH, HEIGHT OR MORE OR LESS
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ wyszukaj <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> i <IMG_COND> niż <WIDTH> [na <HEIGHT>];
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ szukaj <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> i <IMG_COND> niż <WIDTH> [na <HEIGHT>];
+
+<INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2> | <INTENT_7_L1TC_3>;
+<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ pokaż <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> i <IMG_COND> niż <WIDTH> [na <HEIGHT>];
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> i <IMG_COND> niż <WIDTH> [na <HEIGHT>];
+<INTENT_7_L1TC_3> = L1TC__ verb_pattern_03__ znajdź <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> i <IMG_COND> niż <WIDTH> [na <HEIGHT>];
+
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ chcę zobaczyć <IMAGES> [które pasują do | pasujące do | o] <IMG_QUERY> i <IMG_COND> niż <WIDTH> [na <HEIGHT>];
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ znajdź podobne obrazy do <IMG_QUERY> i <IMG_COND> niż <WIDTH> [na <HEIGHT>];
 
 #SLOTS
 <ENGINE> = bing | google | duckduckgo;
@@ -31,5 +125,4 @@ public <S> = Websearch__ (OpenEngine__ <INTENT_1> | SearchTextOnEngine__ <INTENT
 <IMG_COND> = szerszy | większy | węższy | mniejszy;
 
 #LANG. COMPONENTS
-<FIND> = pokaż | wyszukaj | szukaj | wyświetl | znajdź | chcę zobaczyć;
 <IMAGES> = obrazy | obrazki | zdjęcia;

@@ -1,0 +1,150 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageToLanguage__ <INTENT_2> | TranslateText__ <INTENT_3> | TranslateTextToLanguage__ <INTENT_4> | TranslateTextFromLanguageToLanguage__ <INTENT_5> | TranslateTextFromLanguageToLanguageWithEngine__ <INTENT_6> | TranslateToLanguage__ <INTENT_7> | TranslateTextFromLanguage__ <INTENT_8> | DetectLanguage__ <INTENT_9>);
+
+#INTENTS
+#method to set default target lang
+##1) SET DEFAULT LANG
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ ;
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+#method to set default source lang
+##2) SET INPUT LANG
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ ;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+#default target language is set, simply provide text for translation (here default is english)
+##3) TRANSLATE FROM EN
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3> | <INTENT_3_L2TC_4>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_3_L2TC_4> = L2TC__ verb_pattern_04__ ;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+#translate text from english (default) to given lang
+##4) TRANSLATE FROM EN TO LANG
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4> | <INTENT_4_L2TC_5>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ ;
+<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ ;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+#both source and target languages are provided together with text to translate
+##5) TRANSLATE FROM LANG_X to LANG_Y TEXT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+#both source and target languages are provided together with text to translate additinaly translator is provided
+##6) TRANSLATE FROM LANG_X TO LANG_Y TEXT IN TRANSLATOR
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_6_L2TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+#root command for followup action (where text is given)
+##7) TRANSLATE WITHOUTH TEXT (FOR FOLLOWUP)
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_7_REPHRASE> = <INTENT_7_REPHRASE_1> | <INTENT_7_REPHRASE_2>;
+<INTENT_7_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_7_REPHRASE_2> = REPHRASE__ verb_pattern_02__ ;
+
+#default target language is set but source is unknown. text is provided as well
+##8) TRANSLATE TO LANG_Y TEXT
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##9) DETECT LANGUAGE OF TEXT
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+#SLOTS
+<SRC_LANG_GENERAL> = TRANSLATE.SLOT.SRC_LANG_GENERAL;
+<SRC_LANG_EN> = TRANSLATE.SLOT.SRC_LANG_EN;
+<SRC_LANG_PL> = TRANSLATE.SLOT.SRC_LANG_PL;
+<SRC_LANG_DE> = TRANSLATE.SLOT.SRC_LANG_DE;
+<SRC_LANG_ES> = TRANSLATE.SLOT.SRC_LANG_ES;
+<SRC_LANG_IT> = TRANSLATE.SLOT.SRC_LANG_IT;
+<SRC_LANG_FR> = TRANSLATE.SLOT.SRC_LANG_FR;
+<TRG_LANG_GENERAL> = TRANSLATE.SLOT.TRG_LANG_GENERAL;
+<TRG_LANG_EN> = TRANSLATE.SLOT.TRG_LANG_EN;
+<TRG_LANG_PL> = TRANSLATE.SLOT.TRG_LANG_PL;
+<TRG_LANG_DE> = TRANSLATE.SLOT.TRG_LANG_DE;
+<TRG_LANG_ES> = TRANSLATE.SLOT.TRG_LANG_ES;
+<TRG_LANG_IT> = TRANSLATE.SLOT.TRG_LANG_IT;
+<TRG_LANG_FR> = TRANSLATE.SLOT.TRG_LANG_FR;
+<ALL_LANG> = TRANSLATE.SLOT.ALL_LANG;
+<TEXT_EN> = TRANSLATE.SLOT.TEXT_EN;
+<TEXT_DE> = TRANSLATE.SLOT.TEXT_DE;
+<TEXT_PL> = TRANSLATE.SLOT.TEXT_PL;
+<TEXT_ES> = TRANSLATE.SLOT.TEXT_ES;
+<TEXT_IT> = TRANSLATE.SLOT.TEXT_IT;
+<TEXT_FR> = TRANSLATE.SLOT.TEXT_FR;
+<TEXT_MULTI> = TRANSLATE.SLOT.TEXT_MULTI;
+<TRANSLATOR> = TRANSLATE.SLOT.TRANSLATOR;

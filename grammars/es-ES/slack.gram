@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.1.0;
-public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | CheckUserStatus__ <INTENT_3> | CheckMessagesFromUser__ <INTENT_4> | CheckMessagesInChannel__ <INTENT_5> | SendMessageToChannel__ <INTENT_6> | SetPurposeOnChannel__ <INTENT_7> | SetTopicInChannel__ <INTENT_8> | SetStatusAway__ <INTENT_9> | SendMessage__ <INTENT_10> | SendPictureToChannel__ <INTENT_11> | SendPictureToChannelWithCaption__ <INTENT_12> | SendPictureWithUrlToChannel__ <INTENT_13> | CheckChannelHistory__ <INTENT_14>);
+public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | CheckUserStatus__ <INTENT_3> | CheckMessagesFromUser__ <INTENT_4> | CheckMessagesInChannel__ <INTENT_5> | SendMessageToChannel__ <INTENT_6> | SetPurposeOnChannel__ <INTENT_7> | SetTopicInChannel__ <INTENT_8> | SetStatusAway__ <INTENT_9> | SendSlackMessage__ <INTENT_10> | SendPictureToChannel__ <INTENT_11> | SendPictureToChannelWithCaption__ <INTENT_12> | SendPictureWithUrlToChannel__ <INTENT_13> | CheckChannelHistory__ <INTENT_14>);
 
 #INTENTS
 <INTENT_1> = abre slack;
@@ -18,7 +18,7 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 <INTENT_6> = <INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c> | <INTENT_6_d>;
 <INTENT_6_a> = <SEND_VERB> <MESSAGE> a <CHANNEL> en slack;
 <INTENT_6_b> = <SEND_VERB> un mensaje en slack a <CHANNEL> diciendo <MESSAGE>;
-<INTENT_6_c> = mensaje a <CHANNEL> en slack diciendo <MESSAGE>; 
+<INTENT_6_c> = mensaje a <CHANNEL> en slack diciendo <MESSAGE>;
 <INTENT_6_d> = informa a <CHANNEL> que <MESSAGE>;
 
 # channel's purpose is a short description of the channel's intended use

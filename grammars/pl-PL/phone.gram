@@ -1,36 +1,118 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
-public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5>);
+#VUI-VERSION: 0.2.0;
+public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5> | CallContact__ <INTENT_6>);
 
 #INTENTS
-<INTENT_1> = <INTENT_1_a> | <INTENT_1_b> | <INTENT_1_c> | <INTENT_1_d> | <INTENT_1_e>;
-<INTENT_1_a> = <CALL> (na [numer] | do) <NUMBER>;
-<INTENT_1_b> = wybierz [numer] <NUMBER>;
-<INTENT_1_c> = wykonaj telefon (do | na numer) <NUMBER>;
-<INTENT_1_d> = połącz mnie z [numerem] <NUMBER>;
-<INTENT_1_e> = <NUMBER> (dzwoń | zadzwoń | wybierz);
+##1) CALL NUMBER
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ zadzwoń (na [numer] | do) <NUMBER>;
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ dzwoń (na [numer] | do) <NUMBER>;
 
-<INTENT_2> = <CALL> ((na | po) (policję | straż pożarną | pogotowie) | na 112 | po karetkę | na numer alarmowy) | wezwij pomoc;
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2> | <INTENT_1_L1TC_3>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ wybierz [numer] <NUMBER>;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ <NUMBER> (dzwoń | zadzwoń | wybierz);
+<INTENT_1_L1TC_3> = L1TC__ verb_pattern_03__ połącz mnie z [numerem] <NUMBER>;
 
-<INTENT_3> = <INTENT_3_a> | <INTENT_3_b>;
-<INTENT_3_a> = (sprawdź | wyświetl | pokaż | otwórz) (moje [przychodzące] | odebrane) (wiadomości | smsy);
-<INTENT_3_b> = (sprawdź | wyświetl | pokaż | otwórz) (wiadomości | smsy) które (dostałem | do mnie przyszły);
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ wykonaj telefon (do | na numer) <NUMBER>;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ zatelefonuj (na [numer] | do) <NUMBER>;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ telefonuj (na [numer] | do) <NUMBER>;
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ przedzwoń (na [numer] | do) <NUMBER>;
 
-<INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>;
-<INTENT_4_a> = (wyślij | nadaj | napisz | prześlij) (sms | wiadomość [tekstową]) do <TO>;
-<INTENT_4_b> = wiadomość [sms | tekstową] do <TO>;
-<INTENT_4_c> = napisz do <TO> (wiadomość [tekstową] | sms);
-<INTENT_4_d> = sms do <TO>;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ skontaktuj mnie z <NUMBER>;
 
-<INTENT_5> = <INTENT_5_a> | <INTENT_5_b>;
-<INTENT_5_a> = [wyślij | nadaj | napisz | prześlij] (sms | wiadomość [tekstową]) do <TO> o treści <MESSAGE>;
-<INTENT_5_b> = [wyślij | nadaj | napisz | prześlij] (sms | wiadomość [tekstową]) [o treści] <MESSAGE> do <TO>;
+##2) EMERGENCY CALL
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ zadzwoń ((na | po) (policję | straż pożarną | pogotowie) | na 112 | po karetkę | na numer alarmowy);
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ wezwij (pomoc | policję | straż pożarną);
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ dzwoń ((na | po) (policję | straż pożarną | pogotowie) | na 112 | po karetkę | na numer alarmowy);
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ wybierz numer (na (policję | straż pożarną | pogotowie) | na 112);
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3> | <INTENT_2_L2TC_4>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ zatelefonuj ((na | po) (policję | straż pożarną | pogotowie) | na 112 | po karetkę | na numer alarmowy);
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ telefonuj ((na | po) (policję | straż pożarną | pogotowie) | na 112 | po karetkę | na numer alarmowy);
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ przedzwoń ((na | po) (policję | straż pożarną | pogotowie) | na 112 | po karetkę | na numer alarmowy);
+<INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ skontaktuj mnie z (policją | strażą pożarną | pogotowiem | 112);
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ potrzebuję pomocy;
+
+##3) CHECK SMS
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ sprawdź (((moje [przychodzące] | odebrane) (wiadomości | smsy)) | ((wiadomości | smsy) które (dostałem | do mnie przyszły)));
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ pokaż (((moje [przychodzące] | odebrane) (wiadomości | smsy)) | ((wiadomości | smsy) które (dostałem | do mnie przyszły)));
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2> | <INTENT_3_L1TC_3>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl (((moje [przychodzące] | odebrane) (wiadomości | smsy)) | ((wiadomości | smsy) które (dostałem | do mnie przyszły)));
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ otwórz (((moje [przychodzące] | odebrane) (wiadomości | smsy)) | ((wiadomości | smsy) które (dostałem | do mnie przyszły)));
+<INTENT_3_L1TC_3> = L1TC__ verb_pattern_03__ przeczytaj (((moje [przychodzące] | odebrane) (wiadomości | smsy)) | ((wiadomości | smsy) które (dostałem | do mnie przyszły)));
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L1TC__ verb_pattern_01__ powiedz (((moje [przychodzące] | odebrane) (wiadomości | smsy)) | ((wiadomości | smsy) które (dostałem | do mnie przyszły)));
+<INTENT_3_L2TC_2> = L1TC__ verb_pattern_02__ wejdź w (((moje [przychodzące] | odebrane) (wiadomości | smsy)) | ((wiadomości | smsy) które (dostałem | do mnie przyszły)));
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ otwórz skrzynkę odbiorczą [wiadomości];
+
+##4) SEND SMS
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2> | <INTENT_4_L0TC_3>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ wyślij (sms | wiadomość [tekstową]) do <TO>;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ napisz (((sms | wiadomość [tekstową]) do <TO>) | (do <TO> (wiadomość [tekstową] | sms)));
+<INTENT_4_L0TC_3> = L0TC__ verb_pattern_03__ sms do <TO>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ przekaż (sms | wiadomość [tekstową]) do <TO>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ wiadomość [sms | tekstową] do <TO>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ prześlij (sms | wiadomość [tekstową]) do <TO>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ poślij (sms | wiadomość [tekstową]) do <TO>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ nadaj (sms | wiadomość [tekstową]) do <TO>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ powiedz coś do <TO> smsem;
+
+##5) SEND SMS WITH CONTENT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ wyślij (((sms | wiadomość [tekstową]) do <TO> o treści <MESSAGE>) | ((sms | wiadomość [tekstową]) [o treści] <MESSAGE> do <TO>));
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ napisz (((sms | wiadomość [tekstową]) do <TO> o treści <MESSAGE>) | ((sms | wiadomość [tekstową]) [o treści] <MESSAGE> do <TO>));
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ przekaż (((sms | wiadomość [tekstową]) do <TO> o treści <MESSAGE>) | ((sms | wiadomość [tekstową]) [o treści] <MESSAGE> do <TO>));
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ prześlij (((sms | wiadomość [tekstową]) do <TO> o treści <MESSAGE>) | ((sms | wiadomość [tekstową]) [o treści] <MESSAGE> do <TO>));
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ poślij (((sms | wiadomość [tekstową]) do <TO> o treści <MESSAGE>) | ((sms | wiadomość [tekstową]) [o treści] <MESSAGE> do <TO>));
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ nadaj (((sms | wiadomość [tekstową]) do <TO> o treści <MESSAGE>) | ((sms | wiadomość [tekstową]) [o treści] <MESSAGE> do <TO>));
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ powiedz <MESSAGE> do <TO> smsem;
+
+##6) CALL CONTACT
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ zadzwoń do <TO>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ dzwoń do <TO>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2> | <INTENT_6_L1TC_3>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ wybierz [numer] <TO>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ <TO> (dzwoń | zadzwoń | wybierz | przedzwoń);
+<INTENT_6_L1TC_3> = L1TC__ verb_pattern_03__ połącz mnie z <TO>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3> | <INTENT_6_L2TC_4>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ wykonaj telefon do <TO>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ zatelefonuj do <TO>;
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ telefonuj do <TO>;
+<INTENT_6_L2TC_4> = L2TC__ verb_pattern_04__ przedzwoń do <TO>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ skontaktuj mnie z <TO>;
 
 #SLOTS
 <TO> = PHONE.SLOT.TO;
 <MESSAGE> = PHONE.SLOT.MESSAGE;
 <NUMBER> = PHONE.SLOT.PHONE_NUMBER;
 <MODE> = PHONE.SLOT.MODE;
-
-#LANG. COMPONENTS
-<CALL> = dzwoń | zadzwoń | telefonuj | zatelefonuj | przedzwoń;

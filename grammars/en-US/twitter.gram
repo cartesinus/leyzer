@@ -1,61 +1,113 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
-public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | UnfollowUser__ <INTENT_3> | SendMessage__ <INTENT_4> | SendMessageToUser__ <INTENT_5> | ShowTwittsWithHashtag__ <INTENT_6>);
-
-#PRECONDITIONS
-<WHEN> = when someone i follow tweets;
-<WHEN> = when i receive a tweet;
-<WHEN> = when there is a new tweet in my timeline;
-<WHEN> = when somebody i follow on twitter posts;
-<WHEN> = when there is a new post on my twitter timeline;
-<WHEN> = when user <AUTHOR> tweets;
-<WHEN> = when i receive a tweet from <AUTHOR>;
-<WHEN> = when someone i follow replies to user <IN_REPLY_TO> on twitter;
-<WHEN> = when i receive a direct message on twitter;
-<WHEN> = when somebody dms me;
-<WHEN> = when somebody sends me a direct message;
-<WHEN> = when somebody sends me a message on twitter;
-<WHEN> = when somebody messages me on twitter;
-<WHEN> = when i get a message on twitter;
-<WHEN> = when i receive a direct message from <SENDER> on twitter;
-<WHEN> = if i receive a dm on twitter from <SENDER>;
-<WHEN> = when <SENDER> dms me;
-<WHEN> = when <SENDER> sends me a direct message on twitter;
-<WHEN> = when i tweet;
-<WHEN> = when i post something to twitter;
-<WHEN> = when i make a new tweet;
-<WHEN> = when i make a new twitter post;
-<WHEN> = when i reply to <IN_REPLY_TO> on twitter;
-<WHEN> = when i make a new tweet in reply to <IN_REPLY_TO> on twitter;
-<WHEN> = when i mention <IN_REPLY_TO> on twitter;
+#VUI-VERSION: 0.2.0;
+public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | UnfollowUser__ <INTENT_3> | SendTwitterMessage__ <INTENT_4> | SendMessageToUser__ <INTENT_5> | ShowTwittsWithHashtag__ <INTENT_6>);
 
 #INTENTS
 #show user tweets
-<INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
-<INTENT_1_a> = (open | show) [my] twitter;
-<INTENT_1_b> = <SHOW_VERB> (my ([recent] tweets | posts on twitter ) | tweets i made);
+##1) SHOW USER TWEETS
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ open [my] twitter [app | application];
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ launch [my] twitter [app | application];
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ show ([my] twitter | my ([recent] tweets | posts on twitter ) | tweets i made);
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ display (my ([recent] tweets | posts on twitter ) | tweets i made);
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ find (my ([recent] tweets | posts on twitter ) | tweets i made);
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ search for (my ([recent] tweets | posts on twitter ) | tweets i made);
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ run [my] twitter [app | application];
+
+<INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3>;
+<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ check [latest] news on twitter;
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ [can somebody tell me] what's happening on twitter;
+<INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ update [my] twitter [feed];
 
 #follow given user
-<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d> | <INTENT_2_e>;
-<INTENT_2_a> = (subscribe [to] | follow) <USERNAME> on twitter;
-<INTENT_2_b> = become a follower of <USERNAME> on twitter;
-<INTENT_2_c> = become a twitter follower of <USERNAME>;
-<INTENT_2_d> = be a twitter follower of <USERNAME>;
-<INTENT_2_e> = (i want to be up to date with | notify me about [recent] changes on) <USERNAME> twitter;
+##2) FOLLOW GIVEN USER
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ follow <USERNAME> on twitter;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ become a follower of <USERNAME> on twitter;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ become a twitter follower of <USERNAME>;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3> | <INTENT_2_L2TC_4>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ i want to be up to date with <USERNAME> twitter;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ notify me about [recent] changes on <USERNAME> twitter;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ subscribe [to] <USERNAME> on twitter;
+<INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ be a twitter follower of <USERNAME>;
+
+<INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2> | <INTENT_2_REPHRASE_3>;
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ spy on <USERNAME> [on twitter];
+<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ what <USERNAME> (have said | twitted) lately;
+<INTENT_2_REPHRASE_3> = REPHRASE__ verb_pattern_03__ i'd like to (hear from | listen to) <USERNAME>;
 
 #unfollow given user
-<INTENT_3> = (unfollow | stop following | i don't want to see) <USERNAME> on twitter;
+##3) UNFOLLOW GIVEN USER
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ unfollow <USERNAME> on twitter;
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ stop following <USERNAME> on twitter;
+
+<INTENT_3_L2TC> = L2TC__ verb_pattern_01__ i don't want to see <USERNAME> on twitter;
+
+<INTENT_3_REPHRASE> = <INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2> | <INTENT_3_REPHRASE_3>;
+<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ stop spying on <USERNAME> [on twitter];
+<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ <USERNAME> is an idiot;
+<INTENT_3_REPHRASE_3> = REPHRASE__ verb_pattern_03__ remove <USERNAME> from [my] twitter [feed];
 
 #send message to user
-<INTENT_4> = [send a] (message| dm | direct message) on twitter saying <MESSAGE>;
+##4) SEND MESSAGE TO USER
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ send a (message | dm | direct message) on twitter saying <MESSAGE>;
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ write a (message | dm | direct message) on twitter saying <MESSAGE>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ compose a (message | dm | direct message) on twitter saying <MESSAGE>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ upload a (message | dm | direct message) on twitter saying <MESSAGE>;
+
+<INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2> | <INTENT_4_REPHRASE_3>;
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ tell everyone on twitter that <MESSAGE>;
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ share with (everyone | others) on twitter that <MESSAGE>;
+<INTENT_4_REPHRASE_3> = REPHRASE__ verb_pattern_03__ twitter must know that <MESSAGE>;
 
 #send message to user
-<INTENT_5> = [send a] (message| dm | direct message) on twitter to <USERNAME> saying <MESSAGE> | twitt to <USERNAME>;
+##5) SEND MESSAGE TO USER
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ send a (message | dm | direct message) on twitter to <USERNAME> saying <MESSAGE>;
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ twitt <MESSAGE> to <USERNAME>;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ write a (message | dm | direct message) on twitter to <USERNAME> saying <MESSAGE>;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ compose a (message | dm | direct message) on twitter to <USERNAME> saying <MESSAGE>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ upload a (message | dm | direct message) on twitter to <USERNAME> saying <MESSAGE>;
+
+<INTENT_5_REPHRASE> = <INTENT_5_REPHRASE_1> | <INTENT_5_REPHRASE_2>;
+<INTENT_5_REPHRASE_1> = REPHRASE__ verb_pattern_01__ tell <USERNAME> that <MESSAGE>;
+<INTENT_5_REPHRASE_2> = REPHRASE__ verb_pattern_02__ let <USERNAME> know that <MESSAGE>;
 
 #find tweets with hashtags
-<INTENT_6> = [find | show | display] tweets (with hashtag | about) <HASHTAG> [on twitter];
+##6) FIND TWEETS WITH HASHTAGS
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ find tweets (with hashtag | about) <HASHTAG> [on twitter];
 
-<GET> = <SHOW_VERB> tweets matching <TEXT> on twitter;
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ show tweets (with hashtag | about) <HASHTAG> [on twitter];
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ display tweets (with hashtag | about) <HASHTAG> [on twitter];
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ check tweets (with hashtag | about) <HASHTAG> [on twitter];
+
+<INTENT_6_REPHRASE> = <INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2> | <INTENT_6_REPHRASE_3>;
+<INTENT_6_REPHRASE_1> = REPHRASE__ verb_pattern_01__ what has been (written | said) about [hashtag] <HASHTAG>;
+<INTENT_6_REPHRASE_2> = REPHRASE__ verb_pattern_02__ join twitter hashtag <HASHTAG>;
+<INTENT_6_REPHRASE_3> = REPHRASE__ verb_pattern_03__ what's (the fuss about | going on with | the hussle and bustle about) hashtag <HASHTAG>;
+
+<GET> = (show | display | find | search for) tweets matching <TEXT> on twitter;
 <GET> = <TEXT> tweets;
 <GET> = recent tweets about <TEXT>;
 <GET> = recent tweets;
@@ -124,8 +176,5 @@ public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | Unf
 <HASHTAG> = TWITTER.SLOT.HASHTAG;
 <AUTHOR> =;
 <TEXT> ;
-
-#LANG. COMPONENTS
-<SHOW_VERB> = show | display | find | search for;
 
 //automatically retweet anyone i follow

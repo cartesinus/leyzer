@@ -1,31 +1,86 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageToLanguage__ <INTENT_2> | TranslateText__ <INTENT_3> | TranslateTextToLanguage__ <INTENT_4> | TranslateTextFromLanguageToLanguage__ <INTENT_5> | TranslateTextFromLanguageToLanguageWithEngine__ <INTENT_6> | TranslateToLanguage__ <INTENT_7> | TranslateTextFromLanguage__ <INTENT_8> | DetectLanguage__ <INTENT_9>);
 
 #INTENTS
+##1) SET DEFAULT LANG
 #method to set default target lang
-<INTENT_1> = (set | change) [default] [translation | output] language to <ALL_LANG>;
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ set [default] [translation | output] language to <ALL_LANG>;
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ change [default] [translation | output] language to <ALL_LANG>;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ switch [default] [translation | output] language to <ALL_LANG>;
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ save [default] [translation | output] language to <ALL_LANG>;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ remember [default] [translation | output] language to <ALL_LANG>;
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ i want translation [this | that] to <ALL_LANG>;
 
 #method to set default source lang
-<INTENT_2> = (set | change) [default] (input | source) language to <ALL_LANG>;
+##2) SET INPUT LANG
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ set [default] (input | source) language to <ALL_LANG>;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ change [default] (input | source) language to <ALL_LANG>;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ switch [default] (input | source) language to <ALL_LANG>;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ save [default] (input | source) language to <ALL_LANG>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ remember [default] (input | source) language to <ALL_LANG>;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to translate [[this | that] [phrase | sentence]] from <ALL_LANG>;
 
 #default target language is set, simply provide text for translation (here default is english)
-<INTENT_3> = <INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c>;
-<INTENT_3_a> = [what is the | the] translation of <TEXT_EN>;
-<INTENT_3_b> = (translate | [the] translation of) <TEXT_EN>;
-<INTENT_3_c> = how do (i | you) (say | translate) <TEXT_EN>;
+##3) TRANSLATE FROM EN
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ translate <TEXT_EN>;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ show [me] translation of <TEXT_EN>;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ give me translation of <TEXT_EN>;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3> | <INTENT_3_L2TC_4>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ do translation of <TEXT_EN>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ make a translation of <TEXT_EN>;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ [what is the | the] translation of <TEXT_EN>;
+<INTENT_3_L2TC_4> = L2TC__ verb_pattern_04__ how do (i | you) (say | translate) <TEXT_EN>;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ i want <TEXT_EN> in my language;
 
 #translate text from english (default) to given lang
-<INTENT_4> = <INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d> | <INTENT_4_e> | <INTENT_4_f>;
-<INTENT_4_a> = [what is the | the] translation of <TEXT_EN> to <TRG_LANG_GENERAL>;
-<INTENT_4_b> = (translate | [the] translation of) <TEXT_EN> (into | to) <TRG_LANG_GENERAL>;
-<INTENT_4_c> = translate to <TRG_LANG_GENERAL> <TEXT_EN>;
-<INTENT_4_d> = <TEXT_EN> (in | translated (to|into)) <TRG_LANG_GENERAL>;
-<INTENT_4_e> = how do (i | you) (say | translate) <TEXT_EN> in <TRG_LANG_GENERAL>;
-<INTENT_4_f> = say in <TRG_LANG_GENERAL> <TEXT_EN>;
+##4) TRANSLATE FROM EN TO LANG
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ translate <TEXT_EN> (into | to) <TRG_LANG_GENERAL>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ show me [the] translation of <TEXT_EN> (into | to) <TRG_LANG_GENERAL>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ give me [the] translation of <TEXT_EN> (into | to) <TRG_LANG_GENERAL>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4> | <INTENT_4_L2TC_5>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ translate to <TRG_LANG_GENERAL> <TEXT_EN>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ [what is the | the] translation of <TEXT_EN> to <TRG_LANG_GENERAL>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ <TEXT_EN> (in | translated (to|into)) <TRG_LANG_GENERAL>;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ how do (i | you) (say | translate) <TEXT_EN> in <TRG_LANG_GENERAL>;
+<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ say in <TRG_LANG_GENERAL> <TEXT_EN>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ transfer <TEXT_EN> to language <TRG_LANG_GENERAL>;
 
 #both source and target languages are provided together with text to translate
-<INTENT_5> = (translate | [the] translation of) (<INTENT_5_EN> | <INTENT_5_PL> | <INTENT_5_DE> | <INTENT_5_ES> | <INTENT_5_IT> | <INTENT_5_FR>);
+##5) TRANSLATE FROM LANG_X to LANG_Y TEXT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ translate (<INTENT_5_EN> | <INTENT_5_PL> | <INTENT_5_DE> | <INTENT_5_ES> | <INTENT_5_IT> | <INTENT_5_FR>);
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ show me translation of (<INTENT_5_EN> | <INTENT_5_PL> | <INTENT_5_DE> | <INTENT_5_ES> | <INTENT_5_IT> | <INTENT_5_FR>);
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ give me translation of (<INTENT_5_EN> | <INTENT_5_PL> | <INTENT_5_DE> | <INTENT_5_ES> | <INTENT_5_IT> | <INTENT_5_FR>);
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ do translation of (<INTENT_5_EN> | <INTENT_5_PL> | <INTENT_5_DE> | <INTENT_5_ES> | <INTENT_5_IT> | <INTENT_5_FR>);
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ make a translation of (<INTENT_5_EN> | <INTENT_5_PL> | <INTENT_5_DE> | <INTENT_5_ES> | <INTENT_5_IT> | <INTENT_5_FR>);
+
 <INTENT_5_EN> = <TEXT_EN> (from <SRC_LANG_EN> to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_FR>) | to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_FR>) from <SRC_LANG_EN>);
 <INTENT_5_PL> = <TEXT_PL> (from <SRC_LANG_PL> to (<TRG_LANG_EN> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_FR>) | to (<TRG_LANG_EN> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_FR>) from <SRC_LANG_PL>);
 <INTENT_5_DE> = <TEXT_DE> (from <SRC_LANG_DE> to (<TRG_LANG_EN> | <TRG_LANG_PL> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_FR>) | to (<TRG_LANG_EN> | <TRG_LANG_PL> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_FR>) from <SRC_LANG_DE>);
@@ -33,8 +88,21 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_5_IT> = <TEXT_IT> (from <SRC_LANG_IT> to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_EN> | <TRG_LANG_FR>) | to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_EN> | <TRG_LANG_FR>) from <SRC_LANG_IT>);
 <INTENT_5_FR> = <TEXT_FR> (from <SRC_LANG_FR> to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_EN>) | to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_EN>) from <SRC_LANG_FR>);
 
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ what [does] <TEXT_EN> mean [in other languages];
+
 #both source and target languages are provided together with text to translate additinaly translator is provided
-<INTENT_6> = (translate | [the] translation of) (<INTENT_6_EN> | <INTENT_6_PL> | <INTENT_6_DE> | <INTENT_6_ES> | <INTENT_6_IT> | <INTENT_6_FR>) with <TRANSLATOR>;
+##6) TRANSLATE FROM LANG_X TO LANG_Y TEXT IN TRANSLATOR
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ translate (<INTENT_6_EN> | <INTENT_6_PL> | <INTENT_6_DE> | <INTENT_6_ES> | <INTENT_6_IT> | <INTENT_6_FR>) with <TRANSLATOR>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ show me translation of (<INTENT_6_EN> | <INTENT_6_PL> | <INTENT_6_DE> | <INTENT_6_ES> | <INTENT_6_IT> | <INTENT_6_FR>) with <TRANSLATOR>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ give me translation of(<INTENT_6_EN> | <INTENT_6_PL> | <INTENT_6_DE> | <INTENT_6_ES> | <INTENT_6_IT> | <INTENT_6_FR>) with <TRANSLATOR>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ do translation of (<INTENT_6_EN> | <INTENT_6_PL> | <INTENT_6_DE> | <INTENT_6_ES> | <INTENT_6_IT> | <INTENT_6_FR>) with <TRANSLATOR>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ make translation of (<INTENT_6_EN> | <INTENT_6_PL> | <INTENT_6_DE> | <INTENT_6_ES> | <INTENT_6_IT> | <INTENT_6_FR>) with <TRANSLATOR>;
+
 <INTENT_6_EN> = <TEXT_EN> (from <SRC_LANG_EN> to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_FR>) | to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_FR>) from <SRC_LANG_EN>);
 <INTENT_6_PL> = <TEXT_PL> (from <SRC_LANG_PL> to (<TRG_LANG_EN> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_FR>) | to (<TRG_LANG_EN> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_FR>) from <SRC_LANG_PL>);
 <INTENT_6_DE> = <TEXT_DE> (from <SRC_LANG_DE> to (<TRG_LANG_EN> | <TRG_LANG_PL> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_FR>) | to (<TRG_LANG_EN> | <TRG_LANG_PL> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_FR>) from <SRC_LANG_DE>);
@@ -42,11 +110,34 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_6_IT> = <TEXT_IT> (from <SRC_LANG_IT> to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_EN> | <TRG_LANG_FR>) | to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_EN> | <TRG_LANG_FR>) from <SRC_LANG_IT>);
 <INTENT_6_FR> = <TEXT_FR> (from <SRC_LANG_FR> to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_EN>) | to (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_ES> | <TRG_LANG_IT> | <TRG_LANG_EN>) from <SRC_LANG_FR>);
 
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ what english [phrase | text | sentence] <TEXT_EN> means in other languages;
+
 #root command for followup action (where text is given)
-<INTENT_7> = (translate to | a translation to) <TRG_LANG_GENERAL>;
+##7) TRANSLATE WITHOUTH TEXT (FOR FOLLOWUP)
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ translate to <TRG_LANG_GENERAL>;
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ change language of text to <TRG_LANG_GENERAL>;
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ convert text to <TRG_LANG_GENERAL>;
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ localize text to <TRG_LANG_GENERAL>;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ how to say this in <TRG_LANG_GENERAL>;
 
 #default target language is set but source is unknown. text is provided as well
-<INTENT_8> = (translate | [the] translation of) (<INTENT_8_EN> | <INTENT_8_PL> | <INTENT_8_ES> | <INTENT_8_DE> | <INTENT_8_IT> | <INTENT_8_FR>);
+##8) TRANSLATE TO LANG_Y TEXT
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ translate (<INTENT_8_EN> | <INTENT_8_PL> | <INTENT_8_ES> | <INTENT_8_DE> | <INTENT_8_IT> | <INTENT_8_FR>);
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ show me translation of (<INTENT_8_EN> | <INTENT_8_PL> | <INTENT_8_ES> | <INTENT_8_DE> | <INTENT_8_IT> | <INTENT_8_FR>);
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ give me translation of (<INTENT_8_EN> | <INTENT_8_PL> | <INTENT_8_ES> | <INTENT_8_DE> | <INTENT_8_IT> | <INTENT_8_FR>);
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ do translation of (<INTENT_8_EN> | <INTENT_8_PL> | <INTENT_8_ES> | <INTENT_8_DE> | <INTENT_8_IT> | <INTENT_8_FR>);
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ make a translation of (<INTENT_8_EN> | <INTENT_8_PL> | <INTENT_8_ES> | <INTENT_8_DE> | <INTENT_8_IT> | <INTENT_8_FR>);
+
 <INTENT_8_EN> = (<TEXT_EN> from <SRC_LANG_EN> | <SRC_LANG_EN> sentence <TEXT_EN>);
 <INTENT_8_PL> = (<TEXT_PL> from <SRC_LANG_PL> | <SRC_LANG_PL> sentence <TEXT_PL>);
 <INTENT_8_ES> = (<TEXT_ES> from <SRC_LANG_ES> | <SRC_LANG_ES> sentence <TEXT_ES>);
@@ -54,10 +145,22 @@ public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageTo
 <INTENT_8_IT> = (<TEXT_IT> from <SRC_LANG_IT> | <SRC_LANG_IT> sentence <TEXT_IT>);
 <INTENT_8_FR> = (<TEXT_FR> from <SRC_LANG_FR> | <SRC_LANG_FR> sentence <TEXT_FR>);
 
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ what [does] <TEXT_PL> means in english;
+
 #detect language of text
-<INTENT_9> = <INTENT_9_a> | <INTENT_9_b>;
-<INTENT_9_a> = [the] language of <TEXT_MULTI> [is written in];
-<INTENT_9_b> = detect ([the] language of | what language) <TEXT_MULTI> [is written in];
+##9) DETECT LANGUAGE OF TEXT
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ detect ([the] language of | what language) <TEXT_MULTI> [is written in];
+
+<INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ predict ([the] language of | what language) <TEXT_MULTI> [is written in];
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ get ([the] language of | what language) <TEXT_MULTI> [is written in];
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ tell me ([the] language of <TEXT_MULTI> | what language <TEXT_MULTI> [is written in]);
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ determine ([the] language of | what language) <TEXT_MULTI> [is written in];
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ what language is [[this | that] phrase | sentence] <TEXT_MULTI> in;
 
 
 #SLOTS

@@ -1,0 +1,282 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Spotify__ (OpenSpotify__ <INTENT_1> | PlaySong__ <INTENT_2> | PlaySongByArtist__ <INTENT_3> | PlayAlbumOfTypeByArtist__ <INTENT_4> | Pause__ <INTENT_5> | NextSong__ <INTENT_6> | PreviousSong__ <INTENT_7> | PlayPlaylist__ <INTENT_8> | AddSongToPlaylistWithName__ <INTENT_9> | AddSongWithNameToPlaylistWithName__ <INTENT_10> | AddAlbumToPlaylist__ <INTENT_11> | CreatePlaylist__ <INTENT_12> | CreatePlaylistWithName__ <INTENT_13> | AddSongToPlaylist__ <INTENT_14> | SeekByTime__ <INTENT_15> | ShuffleOnOff__ <INTENT_16> | RepeatOnOff__ <INTENT_17> | ShowDanceability__ <INTENT_18>);
+
+#INTENTS
+##1) OPEN SPOTIFY
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2> | <INTENT_1_L1TC_3>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ ;
+<INTENT_1_L1TC_3> = L1TC__ verb_pattern_03__ ;
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ ;
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##2) PLAY GIVEN SONG
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##3) PLAY GIVEN SONG OF GIVEN ARTIST
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2> | <INTENT_3_L1TC_3>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##4) PLAY GIVEN ALBUM OF GIVEN ARTIST
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ dawno nie słyszałem albumu <ALBUM> od <ARTIST>;
+
+##5) 'PRESS' PAUSE | RESUME | PLAY | REPEAT BUTTON ON CURRENT SONG
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2> | <INTENT_5_L1TC_3>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ ;
+<INTENT_5_L1TC_3> = L1TC__ verb_pattern_03__ ;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3> | <INTENT_5_L2TC_4> | <INTENT_5_L2TC_5>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ ;
+<INTENT_5_L2TC_5> = L2TC__ verb_pattern_05__ ;
+
+<INTENT_5_REPHRASE> = <INTENT_5_REPHRASE_1> | <INTENT_5_REPHRASE_2>;
+<INTENT_5_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ;
+<INTENT_5_REPHRASE_2> = REPHRASE__ verb_pattern_02__ ;
+
+##6) NEXT SONG
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę (inną | następną piosenkę);
+
+##7) PREVIOUS SONG
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2>;
+<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##8) PLAY GIVEN PLAYLIST
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_8_L0TC_1> | <INTENT_8_L0TC_2>;
+<INTENT_8_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_8_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2> | <INTENT_8_L1TC_3>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ ;
+<INTENT_8_L1TC_3> = L1TC__ verb_pattern_03__ ;
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2> | <INTENT_8_L2TC_3> | <INTENT_8_L2TC_4> | <INTENT_8_L2TC_5>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_8_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_8_L2TC_4> = L2TC__ verb_pattern_04__ ;
+<INTENT_8_L2TC_5> = L2TC__ verb_pattern_05__ ;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##9) ADD CURRENT SONG TO GIVEN PLAYLIST
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_9_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##10) ADD GIVEN SONG TO GIVEN PLAYLIST
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_10_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##11) ADD CURRENT ALBUM TO PLAYLIST
+<INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
+<INTENT_11_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_11_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_11_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##12) CREATE PLAYLIST ROOT (NO NAME IS GIVEN)
+<INTENT_12> = <INTENT_12_L0TC> | <INTENT_12_L1TC> | <INTENT_12_L2TC> | <INTENT_12_REPHRASE>;
+<INTENT_12_L0TC> = <INTENT_12_L0TC_1> | <INTENT_12_L0TC_2>;
+<INTENT_12_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_12_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_12_L1TC> = <INTENT_12_L1TC_1> | <INTENT_12_L1TC_2>;
+<INTENT_12_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_12_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_12_L2TC> = <INTENT_12_L2TC_1> | <INTENT_12_L2TC_2> | <INTENT_12_L2TC_3>;
+<INTENT_12_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_12_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_12_L2TC_3> = L2TC__ verb_pattern_03__ ;
+
+<INTENT_12_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##13) CREATE PLAYLIST WITH GIVEN NAME
+<INTENT_13> = <INTENT_13_L0TC> | <INTENT_13_L1TC> | <INTENT_13_L2TC> | <INTENT_13_REPHRASE>;
+<INTENT_13_L0TC> = <INTENT_13_L0TC_1> | <INTENT_13_L0TC_2>;
+<INTENT_13_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_13_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_13_L1TC> = <INTENT_13_L1TC_1> | <INTENT_13_L1TC_2>;
+<INTENT_13_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_13_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_13_L2TC> = <INTENT_13_L2TC_1> | <INTENT_13_L2TC_2> | <INTENT_13_L2TC_3>;
+<INTENT_13_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_13_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_13_L2TC_3> = L2TC__ verb_pattern_03__ ;
+
+<INTENT_13_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##14) SAVE SONG (TO DEFAULT PLAYLIST?)
+<INTENT_14> = <INTENT_14_L0TC> | <INTENT_14_L1TC> | <INTENT_14_L2TC> | <INTENT_14_REPHRASE>;
+<INTENT_14_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_14_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_14_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_14_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##15) SEEK BY GIVEN NUMBER OF SECONDS
+<INTENT_15> = <INTENT_15_L0TC> | <INTENT_15_L1TC> | <INTENT_15_L2TC> | <INTENT_15_REPHRASE>;
+<INTENT_15_L0TC_1> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_15_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_15_L2TC> = <INTENT_15_L2TC_1> | <INTENT_15_L2TC_2>;
+<INTENT_15_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_15_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_15_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##16) SHUFFLE ON | OFF
+<INTENT_16> = <INTENT_16_L0TC> | <INTENT_16_L1TC> | <INTENT_16_L2TC> | <INTENT_16_REPHRASE>;
+<INTENT_16_L0TC> = <INTENT_16_L0TC_1> | <INTENT_16_L0TC_2>;
+<INTENT_16_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_16_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_16_L1TC> = <INTENT_16_L1TC_1> | <INTENT_16_L1TC_2> | <INTENT_16_L1TC_3>;
+<INTENT_16_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_16_L1TC_2> = L1TC__ verb_pattern_02__ ;
+<INTENT_16_L1TC_3> = L1TC__ verb_pattern_03__ ;
+
+<INTENT_16_L2TC> = <INTENT_16_L2TC_1> | <INTENT_16_L2TC_2>;
+<INTENT_16_L2TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_16_L2TC_2> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_16_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##17) REPEAT ON | OFF
+<INTENT_17> = <INTENT_17_L0TC> | <INTENT_17_L1TC> | <INTENT_17_L2TC> | <INTENT_17_REPHRASE>;
+<INTENT_17_L0TC> = <INTENT_17_L0TC_1> | <INTENT_17_L0TC_2>;
+<INTENT_17_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_17_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_17_L1TC> = <INTENT_16_L1TC_1> | <INTENT_16_L1TC_2> | <INTENT_16_L1TC_3>;
+<INTENT_17_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_17_L1TC_2> = L1TC__ verb_pattern_02__ ;
+<INTENT_17_L1TC_3> = L1TC__ verb_pattern_03__ ;
+
+<INTENT_17_L2TC> = <INTENT_17_L2TC_1> | <INTENT_17_L2TC_2>;
+<INTENT_17_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_17_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_17_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##18) DENCABILITY OF CURRENT SONG
+<INTENT_18> = <INTENT_18_L0TC> | <INTENT_18_L1TC> | <INTENT_18_L2TC> | <INTENT_18_REPHRASE>;
+<INTENT_18_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_18_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_18_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_18_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+#SLOTS
+<SONG> = SPOTIFY.SLOT.SONG;
+<ARTIST> = SPOTIFY.SLOT.ARTIST;
+<ALBUM> = SPOTIFY.SLOT.ALBUM;
+<PLAYLIST> = SPOTIFY.SLOT.PLAYLIST;
+<SEEK_TIME> = SPOTIFY.SLOT.SEEK_TIME;
+<GENRES> = SPOTIFY.SLOT.GENRES;
+<ALBUM_TYPE> = SPOTIFY.SLOT.ALBUM_TYPE;

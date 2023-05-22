@@ -1,43 +1,131 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | PostPicture__ <INTENT_3> | PostPictureWithCaption__ <INTENT_4> | PostPictureWithUrl__ <INTENT_5> | PostPictureWithUrlAndWithCaption__ <INTENT_6> | ShowAlbumWithName__ <INTENT_7>);
 
-#PRECONDITIONS
-<WHEN> = when I upload a photo to my timeline on facebook;
-<WHEN> = when I upload a photo to album <ALBUM> on facebook;
-<WHEN> = when I post on facebook;
-<GET> = photos on facebook;
-<GET> = photos in album <ALBUM> on facebook;
-<GET> = posts on facebook;
+#INTENTS
+##1) OPEN FACEBOOK
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ open [my] facebook [application | app];
 
-#INETNTS
-<INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
-<INTENT_1_a> = (open | lunch) [my] facebook [application | app];
-<INTENT_1_b> = (post something on facebook | create a new facebook post | update my facebook status | create a new post on facebook);
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ launch [my] facebook [application | app];
 
-<INTENT_2> = <INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>; 
-<INTENT_2_a> = (write | post) a status <STATUS> on facebook;
-<INTENT_2_b> = (write | post) on facebook [saying | that] <STATUS>;
-<INTENT_2_c> = update my facebook (status | wall) saying <STATUS>;
-<INTENT_2_d> = create a new post (that says | containing) <STATUS> on facebook;
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4> | <INTENT_1_L2TC_5> | <INTENT_1_L2TC_6> | <INTENT_1_L2TC_7>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ display [my] facebook [application | app];
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ show [my] facebook [application | app];
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ post [something] on [my] facebook;
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ create a [new] facebook post;
+<INTENT_1_L2TC_5> = L2TC__ verb_pattern_05__ update [my] facebook [status];
+<INTENT_1_L2TC_6> = L2TC__ verb_pattern_06__ create a [new] post on [my] facebook;
+<INTENT_1_L2TC_7> = L2TC__ verb_pattern_07__ do [live] [video] stream on [my] facebook;
 
-<INTENT_3> = <POST_VERB> a picture (on | to) [my] facebook;
+<INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3> | <INTENT_1_REPHRASE_4>;
+<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ [i want to] inform everybody (what's happening [now] | what i'm doing [right now]);
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ [i want to] tell everybody (what's happening [now] | what i'm doing [right now]);
+<INTENT_1_REPHRASE_3> = REPHRASE__ verb_pattern_03__ put (this | that) on [my] facebook;
+<INTENT_1_REPHRASE_4> = REPHRASE__ verb_pattern_04__ share (a | my) (thoughts | wisdom) on [my] facebook;
 
-<INTENT_4> = <INTENT_4_a> | <INTENT_4_b>;  
-<INTENT_4_a> = (post | send) a picture (with caption <CAPTION> on facebook | on facebook with caption <CAPTION>);
-<INTENT_4_b> = upload a picture (on facebook with caption <CAPTION> | with caption <CAPTION> on facebook);
+##2) CREATE POST
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ write [a status | message | post] <STATUS> on facebook;
 
-<INTENT_5> = ((post | send) <PICTURE_URL> on facebook | upload <PICTURE_URL> to facebook | upload to facebook <PICTURE_URL>);
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3> | <INTENT_2_L1TC_4> | <INTENT_2_L1TC_5>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ post [a status | message] <STATUS> on facebook;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ post on facebook [saying | that] <STATUS>;
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ write on facebook [saying | that] <STATUS>;
+<INTENT_2_L1TC_4> = L1TC__ verb_pattern_04__ create a new (status | message | post) (that says | containing | about) <STATUS> on facebook;
+<INTENT_2_L1TC_5> = L1TC__ verb_pattern_05__ share on facebook [that] <STATUS>;
 
-<INTENT_6> = ((post | put) <PICTURE_URL> on [my] facebook with caption <CAPTION>) | caption <PICTURE_URL> as <CAPTION> and (post | upload) it on facebook;
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ update [my] facebook (status | wall) saying <STATUS>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ make a note on facebook (saying | about) <STATUS>;
 
-<INTENT_7> = (show | display | find | search for) [my] photos in (my | the) album <ALBUM> [on facebook];
+<INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2> | <INTENT_2_REPHRASE_3> | <INTENT_2_REPHRASE_4>;
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ tell (my friends | my family | everybody) about <STATUS>;
+<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ notify (my friends | my family | everybody) about <STATUS>;
+<INTENT_2_REPHRASE_3> = REPHRASE__ verb_pattern_03__ to my (facebook | friends) <STATUS>;
+<INTENT_2_REPHRASE_4> = REPHRASE__ verb_pattern_04__ i'm thinking (about | of) <STATUS>;
+
+##3) PUBLISH PHOTO
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ post (a | my) picture (on | to) [my] facebook;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ upload (a | my) picture (on | to) [my] facebook;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ add (a | my) picture (on | to) [my] facebook;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3> | <INTENT_3_L2TC_4>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ put a picture (on | to) [my] facebook;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ publish a picture (on | to) [my] facebook;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ send a picture (on | to) [my] facebook;
+<INTENT_3_L2TC_4> = L2TC__ verb_pattern_04__ disclose (this | that) picture on [my] facebook;
+
+<INTENT_3_REPHRASE> = <INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2> | <INTENT_3_REPHRASE_3>;
+<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ show (my friends | my family | everybody) (this | that) picture;
+<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ i look (great | beautiful | handsome | pretty | good) on that picture so share it [with others];
+<INTENT_3_REPHRASE_3> = REPHRASE__ verb_pattern_03__ everyone was asking me to share (((this | that) (picture | photo)) | (those (pictures | photos)));
+
+##4) PUBLISH PHOTO WITH CAPTION
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ post [a] picture (with caption <CAPTION> on facebook | on facebook with caption <CAPTION>);
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ upload (a | this | that) picture (on facebook with caption <CAPTION> | with caption <CAPTION> on facebook);
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ add (a | this) picture (on facebook with caption <CAPTION> | with caption <CAPTION> on facebook);
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ put (a | this) picture (with caption <CAPTION> on facebook | on facebook with caption <CAPTION>);
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ publish (a | that) picture (with caption <CAPTION> on facebook | on facebook with caption <CAPTION>);
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ send (a | that) picture (with caption <CAPTION> on facebook | on facebook with caption <CAPTION>);
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ show (my friends | my family | everybody) (this | that) picture that i captioned <CAPTION>;
+
+##5) PUBLISH LINK
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ post [link | url] <PICTURE_URL> on facebook;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2> | <INTENT_5_L1TC_3>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ upload [link | url] <PICTURE_URL> to [my] facebook;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ upload [link | url] to facebook <PICTURE_URL>;
+<INTENT_5_L1TC_3> = L1TC__ verb_pattern_03__ send [link | url] <PICTURE_URL> to [my] facebook;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ publish [link | url] <PICTURE_URL> to [my] facebook;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ put a [link | url] <PICTURE_URL> to [my] facebook;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ show (this | that) (link | url) to (everybody | my facebook followers | [my] family | [my] friends);
+
+##6) PUBLISH LINK WITH CAPTION
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ post [picture | link to (picture | photo)] <PICTURE_URL> on [my] facebook with caption <CAPTION>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ upload [picture | link to (picture | photo)] <PICTURE_URL> on [my] facebook with caption <CAPTION>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ send [picture | link to (picture | photo)] <PICTURE_URL> on [my] facebook with caption <CAPTION>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ publish [picture | link to (picture | photo)] <PICTURE_URL> on [my] facebook with caption <CAPTION>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ put [picture | link to (picture | photo)] <PICTURE_URL> on [my] facebook with caption <CAPTION>;
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ caption <PICTURE_URL> as <CAPTION> and (post | upload) it on facebook;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ show <PICTURE_URL> [link | url] to (everybody | my facebook followers | [my] family | [my] friends) and caption it <CAPTION>;
+
+##7) SHOW ALBUM
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ show [my] photos in (my | the) album <ALBUM> [on facebook];
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ display [my] photos in (my | the) album <ALBUM> [on facebook];
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ find [my] photos in (my | the) album <ALBUM> [on facebook];
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ search for [my] photos in (my | the) album <ALBUM> [on facebook];
+
+<INTENT_7_REPHRASE> = <INTENT_7_REPHRASE_1> | <INTENT_7_REPHRASE_2> | <INTENT_7_REPHRASE_3>;
+<INTENT_7_REPHRASE_1> = REPHRASE__ verb_pattern_01__ remind me of my <ALBUM> pictures [from facebook];
+<INTENT_7_REPHRASE_2> = REPHRASE__ verb_pattern_02__ how many (likes | comments) do i have in my <ALBUM> album [on facebook];
+<INTENT_7_REPHRASE_3> = REPHRASE__ verb_pattern_03__ remove [my] album <ALBUM> from facebook;
 
 #SLOTS
 <ALBUM> = FACEBOOK.SLOT.ALBUM;
 <STATUS> = FACEBOOK.SLOT.STATUS;
 <CAPTION> = FACEBOOK.SLOT.CAPTION;
 <PICTURE_URL> = FACEBOOK.SLOT.PICTURE_URL;
-
-#LANG. COMPONENTS
-<POST_VERB> = post | upload | add | put;

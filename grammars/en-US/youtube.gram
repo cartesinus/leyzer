@@ -1,51 +1,183 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
-public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | FindChannelWithQuery__ <INTENT_6> | FindQueryOnChannel__ <INTENT_7> | NotifyOnNewFromFollowing__ <INTENT_8> | NotifyonNewOnChannel__ <INTENT_9>) | NextVideo__ <INTENT_10>;
+#VUI-VERSION: 0.2.0;
+public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | FindChannelWithQuery__ <INTENT_6> | FindQueryOnChannel__ <INTENT_7> | NotifyOnNewFromFollowing__ <INTENT_8> | NotifyOnNewOnChannel__ <INTENT_9> | NextVideo__ <INTENT_10>);
 
 #PRECONDITIONS
 <WHEN_1> = (when | if) there is [a] new video (from youtube channels i follow | on channel i follow);
 <WHEN_2> = (when | if) (there is [a] new video from youtube channel <CHANNEL_ID> | <CHANNEL_ID> [channel] (uploads a video on youtube | posts a new youtube video));
 
 #INTENTS
-<INTENT_1> = (open | launch | go to) (yt | youtube);
+##1) OPEN YOUTUBE
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ open (yt | youtube);
 
-<INTENT_2> = (play | <FIND_VERB>) (<INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>);
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ launch (yt | youtube);
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ go to (yt | youtube);
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ run (yt | youtube);
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ show me [something] on youtube;
+
+##2) FIND QUERY
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ find (<INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>);
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ search for (<INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>);
+
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ play (<INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>);
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ look for (<INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>);
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ show me (<INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>);
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ display (<INTENT_2_a> | <INTENT_2_b> | <INTENT_2_c> | <INTENT_2_d>);
+
 <INTENT_2_a> = <QUERY> [video] on youtube;
 <INTENT_2_b> = a video (matching | with) <QUERY> on youtube;
 <INTENT_2_c> = <QUERY> [video | videos] on youtube;
 <INTENT_2_d> = youtube video [with] <QUERY>;
 
-<INTENT_3> = <INTENT_3_a> | <INTENT_3_b>;
-<INTENT_3_a> = (show | play | go to) (youtube (channel | videos (in | on)) <CHANNEL_ID> | channel <CHANNEL_ID> on youtube);
-<INTENT_3_b> = youtube (videos in | channel) <CHANNEL_ID>;
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to see <QUERY> on youtube;
 
-<INTENT_4> = (show | play | display) (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
+##3) OPEN CHANNEL
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ open (youtube (channel | videos (in | on)) <CHANNEL_ID> | channel <CHANNEL_ID> videos on youtube);
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2> | <INTENT_3_L1TC_3>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ play (youtube (channel | videos (in | on)) <CHANNEL_ID> | channel <CHANNEL_ID> videos on youtube);
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ display (youtube (channel | videos (in | on)) <CHANNEL_ID> | channel <CHANNEL_ID> videos on youtube);
+<INTENT_3_L1TC_3> = L1TC__ verb_pattern_03__ show (youtube (channel | videos (in | on)) <CHANNEL_ID> | channel <CHANNEL_ID> videos on youtube);
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ go to (youtube (channel | videos (in | on)) <CHANNEL_ID> | channel <CHANNEL_ID> videos on youtube);
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ give me (youtube (channel | videos (in | on)) <CHANNEL_ID> | channel <CHANNEL_ID> videos on youtube);
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ find (video | videos) on youtube channel <CHANNEL_ID>;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ show (films | movies | videos) made by <CHANNEL_ID>;
+
+##4) SEARCH FOR CATEGORY
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ search for (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ find (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2> | <INTENT_4_L1TC_3>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ show (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ play (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
+<INTENT_4_L1TC_3> = L1TC__ verb_pattern_03__ display (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ list (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ give me (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ look for (<INTENT_4_a> | <INTENT_4_b> | <INTENT_4_c> | <INTENT_4_d>);
+
 <INTENT_4_a> = channels in category <CATEGORY_ID> on youtube;
 <INTENT_4_b> = youtube channels with category <CATEGORY_ID>;
 <INTENT_4_c> = <CATEGORY_ID> (youtube channels | channels on youtube);
 <INTENT_4_d> = youtube 's <CATEGORY_ID> channels;
 
-<INTENT_5> = (show [me] | go to) channels i (am subscribed to | subscribe | am following | follow) on youtube;
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to see (film | video | movie) about <CATEGORY_ID>;
 
-<INTENT_6> = <FIND_VERB> (<INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>);
+##5) FOLLOW
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ open ((subscribed channels) | (channels i (am subscribed to | subscribe | am following | follow))) on youtube;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ display ((subscribed channels) | (channels i (am subscribed to | subscribe | am following | follow))) on youtube;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ show [me] ((subscribed channels) | (channels i (am subscribed to | subscribe | am following | follow))) on youtube;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3> | <INTENT_5_L2TC_4>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ go to ((subscribed channels) | (channels i (am subscribed to | subscribe | am following | follow))) on youtube;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ give me ((subscribed channels) | (channels i (am subscribed to | subscribe | am following | follow))) on youtube;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ list ((subscribed channels) | (channels i (am subscribed to | subscribe | am following | follow))) on youtube;
+<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ play ((subscribed channels) | (channels i (am subscribed to | subscribe | am following | follow))) on youtube;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to see (films | videos | movies) from channels that i liked;
+
+##6) SEARCH FOR CHANNELS WITH QUERY
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ search for (<INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>);
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ find (<INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>);
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2> | <INTENT_6_L1TC_3>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ show (<INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>);
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ play (<INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>);
+<INTENT_6_L1TC_3> = L1TC__ verb_pattern_03__ display (<INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>);
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ list (<INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>);
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ give me (<INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>);
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ look for (<INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c>);
+
 <INTENT_6_a> = <QUERY> channels on youtube;
 <INTENT_6_b> = channels matching <QUERY> on youtube;
 <INTENT_6_c> = youtube channel <QUERY>;
 
-<INTENT_7> = show [me] (a video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to see <QUERY> (films | videos | movies);
 
-<INTENT_8> = notify me <WHEN_1>;
+##7) SEARCH FOR VIDEO ON SPECIFIC CHANNEL
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ search [me] (a video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ find [me] (a video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
 
-<INTENT_9> = notify me <WHEN_2>;
+<INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2> | <INTENT_7_L1TC_3>;
+<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ show [me] (a video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ play [me] (a video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
+<INTENT_7_L1TC_3> = L1TC__ verb_pattern_03__ display [me] (a video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
 
-<INTENT_10> = ((play | go to) next video | skip (this | that) video);
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2> | <INTENT_7_L2TC_3>;
+<INTENT_7_L2TC_1> = L1TC__ verb_pattern_01__ list (a video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
+<INTENT_7_L2TC_2> = L1TC__ verb_pattern_02__ give me (a video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
+<INTENT_7_L2TC_3> = L1TC__ verb_pattern_03__ look for (a video | videos) (from | published by) <CHANNEL_ID> matching <QUERY> on youtube;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to see <QUERY> (films | videos | movies) from <CHANNEL_ID>;
+
+##8) NOTIFY WHEN NEW VIDEO FROM FOLLOWING
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ tell me <WHEN_1>;
+
+<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ notify me <WHEN_1>;
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2> | <INTENT_8_L2TC_3>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ inform me <WHEN_1>;
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ let me know <WHEN_1>;
+<INTENT_8_L2TC_3> = L2TC__ verb_pattern_03__ update me <WHEN_1>;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to be updated <WHEN_1>;
+
+##9) NOTIFY WHEN NEW VIDEO ON CHANNEL
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ tell me <WHEN_2>;
+
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ notify me <WHEN_2>;
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2> | <INTENT_9_L2TC_3>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ inform me <WHEN_2>;
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ let me know <WHEN_2>;
+<INTENT_9_L2TC_3> = L2TC__ verb_pattern_03__ update me <WHEN_2>;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ i want to be updated <WHEN_2>;
+
+##10) NEXT
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = <INTENT_10_L0TC_1> | <INTENT_10_L0TC_2>;
+<INTENT_10_L0TC_1> = L0TC__ verb_pattern_01__ play next (video | movie);
+<INTENT_10_L0TC_2> = L0TC__ verb_pattern_02__ skip (this | that) video;
+
+<INTENT_10_L1TC> = L1TC__ verb_pattern_01__ go to [the] next (video | movie);
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ show me next (video | movie);
+
+<INTENT_10_REPHRASE> = <INTENT_10_REPHRASE_1> | <INTENT_10_REPHRASE_2>;
+<INTENT_10_REPHRASE_1> = REPHRASE__ verb_pattern_01__ fast forward (this | that) video;
+<INTENT_10_REPHRASE_2> = REPHRASE__ verb_pattern_02__ i don't want (this | that) video;
 
 #SLOTS
 <CHANNEL_ID> = YOUTUBE.SLOT.CHANNEL_ID;
 <CATEGORY_ID> = YOUTUBE.SLOT.CATEGORY;
 <QUERY> = YOUTUBE.SLOT.QUERY;
-
-#LANG. COMPONENTS
-<FIND_VERB> = find | search for | look for;
 
 // "search youtube for videos"

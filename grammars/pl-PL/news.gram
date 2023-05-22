@@ -1,5 +1,5 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
+#VUI-VERSION: 0.2.0;
 public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | NotifyWhenPortalUpdates__ <INTENT_3> | NotifyWhenPortalUpdatesInSection__ <INTENT_4>);
 
 #PRECONDITIONS
@@ -7,15 +7,69 @@ public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | 
 <WHEN_2> = (kiedy | jeśli | jeżeli) <PORTAL> (w sekcji | w części) <SECTION> opublikuje [nowe] (artykuły | wiadomości);
 
 #INTENTS
-<INTENT_1> = <INTENT_1_a> | <INTENT_1_b>;
-<INTENT_1_a> = (otwórz | czytaj | pokaż | wyświetl) <PORTAL>;
-<INTENT_1_b> = (wyświetl | pokaż) [mi] [najnowsze] (wiadomości | informacje | artykuły) z <PORTAL>;
+##1) SHOW NEWS FROM PORTAL
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ pokaż <PORTAL>;
 
-<INTENT_2> = (wyświetl | pokaż | otwórz) [mi] [najnowsze] (artykuły | informacje | wiadomości) (z | w) kategorii <SECTION> (z | w | na) <PORTAL>;
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2> | <INTENT_1_L1TC_3> | <INTENT_1_L1TC_4> | <INTENT_1_L1TC_5>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ otwórz <PORTAL>;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ czytaj <PORTAL>;
+<INTENT_1_L1TC_3> = L1TC__ verb_pattern_03__ wyświetl <PORTAL>;
+<INTENT_1_L1TC_4> = L1TC__ verb_pattern_04__ wyświetl [mi] [najnowsze] (wiadomości | informacje | artykuły) z [portalu] <PORTAL>;
+<INTENT_1_L1TC_5> = L1TC__ verb_pattern_05__ pokaż [mi] [najnowsze] (wiadomości | informacje | artykuły) z [portalu] <PORTAL>;
 
-<INTENT_3> = (powiadom [mnie] | powiedz [mi] | daj znać | poinformuj [mnie]) <WHEN_1>;
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ ściągnij [najnowsze] (wiadomości | informacje | artykuły) z [portalu] <PORTAL>;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ posłuchaj [najnowszych] (wiadomości | informacji | artykułów) z [portalu] <PORTAL>;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ powiedz jakie są [najnowsze] (wiadomości | informacje | artykuły) z <PORTAL>;
 
-<INTENT_4> = (powiadom [mnie] | powiedz [mi] | daj znać | poinformuj [mnie]) <WHEN_2>;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ co nowego na świecie według <PORTAL>;
+
+##2) SHOW NEWS FROM SECTION
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<NN_ARTICLES> = (artykuły | informacje | wiadomości);
+<IN_NN_SECTION> = z (kategorii | sekcji);
+<IN_NN_NN_NEWS> = <NN_ARTICLES> <IN_NN_SECTION>;
+
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ pokaż <IN_NN_NN_NEWS> <SECTION> na <PORTAL>;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3> | <INTENT_2_L1TC_4> | <INTENT_2_L1TC_5>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ otwórz <IN_NN_NN_NEWS> (z | na) <PORTAL>;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ czytaj <IN_NN_NN_NEWS> (z | na) <PORTAL>;
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ wyświetl <IN_NN_NN_NEWS> (z | na) <PORTAL>;
+<INTENT_2_L1TC_4> = L1TC__ verb_pattern_04__ wyświetl [mi] [najnowsze] (wiadomości | informacje | artykuły) z [portalu] <PORTAL> <IN_NN_SECTION>;
+<INTENT_2_L1TC_5> = L1TC__ verb_pattern_05__ pokaż [mi] [najnowsze] (wiadomości | informacje | artykuły) z [portalu] <PORTAL> <IN_NN_SECTION>;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ ściągnij [najnowsze] (wiadomości | informacje | artykuły) z [portalu] <PORTAL> <IN_NN_SECTION>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ posłuchaj [najnowszych] (wiadomości | informacji | artykułów) z [portalu] <PORTAL> <IN_NN_SECTION>;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ powiedz jakie są [najnowsze] (wiadomości | informacje | artykuły) z <PORTAL> <IN_NN_SECTION>;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ co nowego w temacie <SECTION> na świecie według <PORTAL>;
+
+##3) NOTIFY ON NEWS
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ powiadom [mnie] <WHEN_1>;
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ powiedz [mi] <WHEN_1>;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ daj znać <WHEN_1>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ poinformuj [mnie] <WHEN_1>;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę być na bieżąco <WHEN_1>;
+
+##4) NOTIFY ON NEWS IN SECTION
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ powiadom [mnie] <WHEN_2>;
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ powiedz [mi] <WHEN_2>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ daj znać <WHEN_2>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ poinformuj [mnie] <WHEN_2>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ chcę być na bieżąco <WHEN_2>;
 
 #SLOTS
 <SECTION> = NEWS.SLOT.SECTION;

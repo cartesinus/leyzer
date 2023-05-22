@@ -1,0 +1,159 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> | WeatherInLocation__ <INTENT_3> | WeatherTomorrowInLocation__ <INTENT_4> | SunriseInLocation__ <INTENT_5> | SunsetInLocation__ <INTENT_6> | SunriseAndSunsetInLocation__ <INTENT_7> | SunriseAndSunsetInLocationAndOnDate__ <INTENT_8> | MoonphaseInLocation__ <INTENT_9> | MoonphaseInLocationOnDate__ <INTENT_10>);
+
+#INTENTS
+##1) WEATHER FOR TODAY
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##2) WEATHER FOR TOMORROW
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ ;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##3) WEATHER IN LOCATION
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ ;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##4) WEATHER FOR TOMORROW FOR LOCATION
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ ;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##5) SUNRISE
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3> | <INTENT_5_L2TC_4> | <INTENT_5_L2TC_5>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ ;
+<INTENT_5_L2TC_5> = L2TC__ verb_pattern_05__ ;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##6) SUNSET
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ ;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ ;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_6_L2TC_3> | <INTENT_6_L2TC_4> | <INTENT_6_L2TC_5>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ ;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ ;
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ ;
+<INTENT_6_L2TC_4> = L2TC__ verb_pattern_04__ ;
+<INTENT_6_L2TC_5> = L2TC__ verb_pattern_05__ ;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##7) SUNSET AND SUNRISE IN LOCATION
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##8) SUNSET AND SUNRISE IN LOCATION ON DATE
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = <INTENT_8_L0TC_1> | <INTENT_8_L0TC_2>;
+<INTENT_8_L0TC_1> = L0TC__ verb_pattern_01__ ;
+<INTENT_8_L0TC_2> = L0TC__ verb_pattern_02__ ;
+
+<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##9) MOON PHASE IN LOCATION
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_9_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##10) MOON PHASE IN LOCATION FOR DATE
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ ;
+
+<INTENT_10_L1TC> = L1TC__ verb_pattern_01__ ;
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ ;
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+#SLOTS
+<LOCATION> = WEATHER.SLOT.LOCATION;
+<TEMPERATURE> = WEATHER.SLOT.TEMPERATURE;
+<HUMIDITY> = WEATHER.SLOT.HUMIDITY;
+<DATE> = WEATHER.SLOT.DATE;
+<DATE_A> = WEATHER.SLOT.DATE_A;
+<STATUS> = WEATHER.SLOT.STATUS;

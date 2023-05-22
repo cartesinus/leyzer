@@ -1,6 +1,6 @@
 #JSGF V1.0;
-#VUI-VERSION: 0.1.0;
-public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithDate__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8> | CheckCalendarMeeting__ <INTENT_9>);
+#VUI-VERSION: 0.2.0;
+public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTENT_2> | AddEventWithName__ <INTENT_3> | AddEventOnDateWithName__ <INTENT_4> | NotifyOnEventStart__ <INTENT_5> | NotNotifyOnEventStart__ <INTENT_6> | NotifyOnEventInLocation__ <INTENT_7> | NotNotifyOnEventInLocation__ <INTENT_8> | NotifyWhenEventNameStart__ <INTENT_9>);
 
 #PRECONDITIONS
 <WHEN_1> = cuándo empieza (el mítin | el evento | la cita | el encuentro) en mi calendario;
@@ -10,23 +10,66 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <WHEN_3> = ((la fecha | [la fecha y] la hora | el tiempo) (del mítin | del evento | de la cita | del encuentro) | cuándo empieza (el mítin | el evento | la cita | el encuentro)) <EVENT_NAME> en mi calendario;
 
 #INTENTS
-<INTENT_1> = <SHOW_VERB> (mi | el) calendario;
+##1) OPEN CALENDAR
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ abre (mi | el) calendario;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ ábreme (mi | el) calendario;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ muestra (mi | el) calendario;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ muéstrame (mi | el) calendario;
 
-<INTENT_2> = qué (hay | (eventos | citas | encuentros) tengo) en mi agenda <DATE>?;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-<INTENT_3> = (añade | agrega) (un (evento | encuentro | mítin) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario];
+##2) CHECK CALENDAR IN DATE
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ qué (hay | (eventos | citas | encuentros) tengo) en mi agenda <DATE>?;
 
-<INTENT_4> = (añade | agrega) (un (evento | encuentro | mítin) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario] el <DATE>;
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-<INTENT_5> = notifícame <WHEN_1>;
+##3) ADD EVENT
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ añade (un (evento | encuentro | mítin) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario];
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ agrega (un (evento | encuentro | mítin) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario];
 
-<INTENT_6> = no me notifiques <WHEN_1>;
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-<INTENT_7> = notifícame <WHEN_2>;
+##4) ADD EVENT ON DATE
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ añade (un (evento | encuentro | mítin) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario] el <DATE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ agrega (un (evento | encuentro | mítin) (llamado | titulado | con el título) | una cita (llamada | titulada | con el título)) <EVENT_NAME> [(al | a mi) calendario] el <DATE>;
 
-<INTENT_8> = no me notifiques <WHEN_2>;
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
-<INTENT_9> = (dime | comprueba | compruébame) <WHEN_3>;
+##5) NOTIFY ON EVENT START
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ notifícame <WHEN_1>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##6) DONT NOTIFY ON EVENT START
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ no me notifiques <WHEN_1>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##7) NOTIFY ON EVENT START IN LOCATION
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ notifícame <WHEN_2>;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##8) DONT NOTIFY ON EVENT START IN LOCATION
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ no me notifiques <WHEN_2>;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
+
+##9) NOTIFY WHEN EVENT START
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ dime <WHEN_3>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ comprueba <WHEN_3>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ compruébame <WHEN_3>;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ ;
 
 #SLOTS
 <DATE> = CALENDAR.SLOT.DATE;
@@ -34,6 +77,3 @@ public <S> = Calendar__ (OpenCalendar__ <INTENT_1> | CheckCalendarOnDate__ <INTE
 <LOCATION> = CALENDAR.SLOT.LOCATION;
 <ORGANIZER> = CALENDAR.SLOT.ORGANIZER;
 <COUNTRY> = CALENDAR.SLOT.COUNTRY;
-
-#LANG. COMPONENTS
-<SHOW_VERB> = abre | ábreme | muestra | muéstrame;
