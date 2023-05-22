@@ -1,6 +1,6 @@
 # Leyzer: A Dataset for Multilingual Virtual Assistants
 
-Leyzer is a multilingual text corpus designed to study multilingual and cross-lingual natural language understanding (NLU) models and the strategies of localization of virtual assistants. It consists of 20 domains across three languages: English, Spanish and Polish, with 186 intents and a wide range of samples, ranging from 1 to 672 sentences per intent. For more stats please refer to [wiki](https://github.com/cartesinus/leyzer/wiki).
+Leyzer is a multilingual text corpus designed to study multilingual and cross-lingual natural language understanding (NLU) models and the strategies of localization of virtual assistants. It consists of 21 domains across three languages: English, Spanish and Polish, with 194 intents and a wide range of samples, ranging from 1 to 672 sentences per intent. For more stats please refer to [wiki](https://github.com/cartesinus/leyzer/wiki).
 
 Named after [Ludwik Lejzer Zamenhof](https://en.wikipedia.org/wiki/L._L._Zamenhof), the inventor of the international language Esperanto, the most widely used constructed international auxiliary language in the world.
 
@@ -55,6 +55,11 @@ Because some slots (for example EMAIL.MESSAGE) have many values we duplicate som
 ## Experiments
 
 Experiments described in our paper can be replicated with scripts provided in `experiments/`.
+
+## Changelog
+
+- 0.2.0 (current): Added new domain (Console), fixed many issues in grammars, introduced naturalness level and information about verb pattern.
+- 0.1.0: 20 domains, 186 intents. Version described in publication (with some fixes made after publication).
 
 ## Citation
 
