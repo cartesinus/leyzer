@@ -109,14 +109,14 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 
 <INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2>;
 <INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ purpose of [slack] channel <CHANNEL> is <PURPOSE>;
-<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ <CHANNEL> [channel] purpose is <PURPOSE>;
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ <CHANNEL> channel's purpose is <PURPOSE>;
 
 <INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2> | <INTENT_7_L2TC_3>;
 <INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ on slack (change | set) channel purpose of [channel] <CHANNEL> to <PURPOSE>;
-<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ save <PURPOSE> as a [new] channel <CHANNEL> purpose;
-<INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ write <PURPOSE> as a [new] channel <CHANNEL> purpose;
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ save <PURPOSE> as a [new] channel's <CHANNEL> purpose;
+<INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ write <PURPOSE> as a [new] channel's <CHANNEL> purpose;
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ define [slack] channel <CHANNEL> purpose as <PURPOSE>;
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ define [slack] channel's <CHANNEL> purpose as <PURPOSE>;
 
 # channel's topic is a quick way to let people know what members in the channel are working on or important dates like project deadlines
 ##8) CHANGE CHANNEL TOPIC

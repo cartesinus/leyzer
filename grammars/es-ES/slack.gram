@@ -3,48 +3,223 @@
 public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | CheckUserStatus__ <INTENT_3> | CheckMessagesFromUser__ <INTENT_4> | CheckMessagesInChannel__ <INTENT_5> | SendMessageToChannel__ <INTENT_6> | SetPurposeOnChannel__ <INTENT_7> | SetTopicInChannel__ <INTENT_8> | SetStatusAway__ <INTENT_9> | SendSlackMessage__ <INTENT_10> | SendPictureToChannel__ <INTENT_11> | SendPictureToChannelWithCaption__ <INTENT_12> | SendPictureWithUrlToChannel__ <INTENT_13> | CheckChannelHistory__ <INTENT_14>);
 
 #INTENTS
-<INTENT_1> = abre slack;
+##1) OPEN SLACK
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ (abre | ábreme) [la (aplicación | app)] slack;
 
-<INTENT_2> = <CHECK_VERB> (mis | los) mensajes recientes de slack;
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ inicia [la (aplicación | app)] slack;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ lanza [la (aplicación | app)] slack;
 
-<INTENT_3> = (el estado de <USERNAME> | si <USERNAME> está (activo | fuera)) en slack;
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ (muestra | muéstrame) [la (aplicación | app)] slack;
 
-<INTENT_4> = <CHECK_VERB> (mensajes recientes de <SENDER> en slack | mensajes que recibí en slack de <SENDER>);
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ verifica [mi] slack;
 
-<INTENT_5> = <CHECK_VERB> (<INTENT_5_a> | <INTENT_5_b>);
+##2) CHECK MESSAGES
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ revisa (mis | los) mensajes [más] recientes de slack;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ (muestra | muéstrame) (mis | los) mensajes [más] recientes de slack;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ (abre | ábreme) (mis | los) mensajes [más] recientes de slack;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ a ver (mis | los) mensajes [más] recientes de slack;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ (busca | búscame) (mis | los) mensajes [más] recientes de slack;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ quiero ver (mis | los) mensajes [más] recientes de slack;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ me ha escrito alguien en slack?;
+
+##3) CHECK USER STATUS
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ verifica (el estado de <USERNAME> | si <USERNAME> está (activo | fuera)) en slack;
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ cuál es el estado de <USERNAME> en slack?;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ (muestra | muéstrame) (el estado de <USERNAME> | si <USERNAME> está (activo | fuera)) en slack;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ a ver (el estado de <USERNAME> | si <USERNAME> está (activo | fuera)) en slack;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ revela (el estado de <USERNAME> | si <USERNAME> está (activo | fuera)) en slack;
+
+<INTENT_3_REPHRASE> = <INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2>;
+<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ qué estado ha puesto <USERNAME> [en slack]?;
+<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ está <USERNAME> trabajando hoy?;
+
+##4) CHECK MESSAGES FROM USER
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ (muestra | muéstrame) (mensajes recientes de <SENDER> en slack | mensajes que recibí en slack de <SENDER>);
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ verifica (mensajes recientes de <SENDER> en slack | mensajes que recibí en slack de <SENDER>);
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ a ver (mensajes recientes de <SENDER> en slack | mensajes que recibí en slack de <SENDER>);
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ revela (mensajes recientes de <SENDER> en slack | mensajes que recibí en slack de <SENDER>);
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ (busca | búscame) (mensajes recientes de <SENDER> en slack | mensajes que recibí en slack de <SENDER>);
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ quiero ver (mensajes recientes de <SENDER> en slack | mensajes que recibí en slack de <SENDER>);
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ qué mensaje me escribió <USERNAME> [en slack]?;
+
+##5) CHECK CHANNEL
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ comprueba (<INTENT_5_a> | <INTENT_5_b>);
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ (muestra | muéstrame) (<INTENT_5_a> | <INTENT_5_b>);
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ quiero ver (<INTENT_5_a> | <INTENT_5_b>);
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ a ver (<INTENT_5_a> | <INTENT_5_b>);
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ (busca | búscame) (<INTENT_5_a> | <INTENT_5_b>);
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ encuentra (<INTENT_5_a> | <INTENT_5_b>);
+
 <INTENT_5_a> = (mensajes recientes de slack | mensajes que recibí en slack) en <CHANNEL>;
 <INTENT_5_b> = mensajes de slack en <CHANNEL> que recibí durante la última hora;
 
-<INTENT_6> = <INTENT_6_a> | <INTENT_6_b> | <INTENT_6_c> | <INTENT_6_d>;
-<INTENT_6_a> = <SEND_VERB> <MESSAGE> a <CHANNEL> en slack;
-<INTENT_6_b> = <SEND_VERB> un mensaje en slack a <CHANNEL> diciendo <MESSAGE>;
-<INTENT_6_c> = mensaje a <CHANNEL> en slack diciendo <MESSAGE>;
-<INTENT_6_d> = informa a <CHANNEL> que <MESSAGE>;
+<INTENT_5_REPHRASE> = <INTENT_5_REPHRASE_1> | <INTENT_5_REPHRASE_2>;
+<INTENT_5_REPHRASE_1> = REPHRASE__ verb_pattern_01__ qué hay de nuevo en [el canal de slack] <CHANNEL>?;
+<INTENT_5_REPHRASE_2> = REPHRASE__ verb_pattern_02__ pónme al día con el canal <CHANNEL>; 
+
+##6) SEND TO CHANNEL
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ envía [un mensaje] <MESSAGE> (al canal | a) <CHANNEL> en slack;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ mensaje [en [canal]] <CHANNEL> en slack (diciendo | que diga) <MESSAGE>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2> | <INTENT_6_L1TC_3> | <INTENT_6_L1TC_4>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ publica [un mensaje] <MESSAGE> (al canal | a) <CHANNEL> en slack;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ publica [un mensaje] en slack (a | al canal) <CHANNEL> diciendo <MESSAGE>;
+<INTENT_6_L1TC_3> = L1TC__ verb_pattern_03__ envía [un mensaje] en slack (a | al canal) <CHANNEL> diciendo <MESSAGE>;
+<INTENT_6_L1TC_4> = L1TC__ verb_pattern_04__ sube [un mensaje] en slack (a | al canal) <CHANNEL> diciendo <MESSAGE>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ dile al canal (de slack <CHANNEL> | <CHANNEL> de slack) que <MESSAGE>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ añade [el mensaje] <MESSAGE> (a | al canal) <CHANNEL> en slack;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ ponle al día a <CHANNEL> que <MESSAGE>;
 
 # channel's purpose is a short description of the channel's intended use
-<INTENT_7> = establece el propósito del (canal <CHANNEL> a <PURPOSE> en slack | canal de slack <CHANNEL> a <PURPOSE>);
+##7) CHANGE CHANNEL PURPOSE
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ establece [el] propósito del canal <CHANNEL> a <PURPOSE> en slack | el canal (<CHANNEL> de slack | de slack <CHANNEL>) a <PURPOSE>);
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ cambia [el] propósito (en | del) canal <CHANNEL> a <PURPOSE> en slack | el canal (<CHANNEL> de slack | de slack <CHANNEL>) a <PURPOSE>);
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ el propósito del canal [de slack] <CHANNEL> (es | debe ser | será) <PURPOSE>;
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2> | <INTENT_7_L2TC_3>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ en slack (cambia | establece) el propósito del canal <CHANNEL> a <PURPOSE>;
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ guarda <PURPOSE> como [el] propósito del [nuevo] canal <CHANNEL>;
+<INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ pon <PURPOSE> como [el] propósito del [nuevo] canal <CHANNEL>;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ define el propósito del canal <CHANNEL> a <PURPOSE>;
 
 # channel's topic is a quick way to let people know what members in the channel are working on or important dates like project deadlines
-<INTENT_8> = establece el tema (del canal <CHANNEL> a <TOPIC> en slack | del canal de slack <CHANNEL> a <TOPIC>);
+##8) CHANGE CHANNEL TOPIC
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ cambia el tema (del canal <CHANNEL> a <TOPIC> en slack | del canal de slack <CHANNEL> a <TOPIC>);
 
-<INTENT_9> = cambia mi estado como [no] fuera en slack;
+<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ establece el tema (del canal <CHANNEL> a <TOPIC> en slack | del canal de slack <CHANNEL> a <TOPIC>);
 
-<INTENT_10> = <SEND_VERB> [un mensaje] en slack;
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2> | <INTENT_8_L2TC_3>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ en slack cambia el tema (del canal | de) <CHANNEL> a <TOPIC>;
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ en slack establece el tema (del canal | de) <CHANNEL> a <TOPIC>;
+<INTENT_8_L2TC_3> = L2TC__ verb_pattern_03__ guarda el tema (del canal | de) <CHANNEL> como <TOPIC>;
 
-<INTENT_11> = <INTENT_11_a> | <INTENT_11_b> | <INTENT_11_c> | <INTENT_11_d> | <INTENT_11_e>;
-<INTENT_11_a> = <SEND_VERB> una foto en slack a <CHANNEL>;
-<INTENT_11_b> = sube una foto al canal de slack <CHANNEL>;
-<INTENT_11_c> = envía algo al canal de slack <CHANNEL>;
-<INTENT_11_d> = publica en slack <CHANNEL>;
-<INTENT_11_e> = publica en el canal de slack <CHANNEL>;
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ [el canal] <CHANNEL> está [aquí] para discutir [el tema [de]] <TOPIC>;
 
-<INTENT_12> = <SEND_VERB> una imagen (en slack a | a un canal de slack) <CHANNEL> con el título <CAPTION>;
+##9) CHANGE MY STATUS
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ cambia [mi] estado (en | de) slack a (inactivo | fuera | activo);
 
-<INTENT_13> = <INTENT_13_a> | <INTENT_13_b>;
-<INTENT_13_a> = <SEND_VERB> <PICTURE_URL> a <CHANNEL> en slack;
-<INTENT_13_b> = publica <PICTURE_URL> en el canal de slack <CHANNEL>;
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ establece mi estado como (inactivo | fuera | activo) en slack;
 
-<INTENT_14> = <CHECK_VERB> (mi | la) historia del canal de slack;
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ pónme como (inactivo | fuera | activo) en slack;
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ fija mi estado [(en | de) slack] a (inactivo | fuera | activo);
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ no me molestes [porfa | por favor];
+
+##10) SEND MESSAGE
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ envía [un mensaje] en slack;
+
+<INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ escribe ([un] mensaje | mensajes) en slack;
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ compone ([un] mensaje | mensajes) en slack;
+
+<INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2> | <INTENT_10_L2TC_3>;
+<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ publica [un mensaje] en slack;
+<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ sube [un mensaje] en slack;
+<INTENT_10_L2TC_3> = L2TC__ verb_pattern_03__ crea [un mensaje] en slack;
+
+<INTENT_10_REPHRASE> = <INTENT_10_REPHRASE_1> | <INTENT_10_REPHRASE_2>;
+<INTENT_10_REPHRASE_1> = REPHRASE__ verb_pattern_01__ empieza [un nuevo] hilo de slack;
+<INTENT_10_REPHRASE_2> = REPHRASE__ verb_pattern_02__ manda un [nuevo] mensaje privado en slack;
+
+##11) SEND PICTURE TO CHANNEL
+<INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
+<INTENT_11_L0TC> = <INTENT_11_L0TC_1> | <INTENT_11_L0TC_2>;
+<INTENT_11_L0TC_1> = L0TC__ verb_pattern_01__ envía una (imagen | foto) al canal [de slack] <CHANNEL>;
+<INTENT_11_L0TC_2> = L0TC__ verb_pattern_02__ comparte una (imagen | foto) con canal [de slack] <CHANNEL>;
+
+<INTENT_11_L1TC> = <INTENT_11_L1TC_1> | <INTENT_11_L1TC_2>;
+<INTENT_11_L1TC_1> = L1TC__ verb_pattern_01__ sube una (imagen | foto) al canal (<CHANNEL> en slack | de slack <CHANNEL>);
+<INTENT_11_L1TC_2> = L1TC__ verb_pattern_02__ crea una [nueva] publicación con una (imagen | foto) en [canal de] slack <CHANNEL>;
+
+<INTENT_11_L2TC> = <INTENT_11_L2TC_1> | <INTENT_11_L2TC_2> | <INTENT_11_L2TC_3>;
+<INTENT_11_L2TC_1> = L2TC__ verb_pattern_01__ envía (algo | una (imagen | foto)) al canal (de slack <CHANNEL> | <CHANNEL> de slack);
+<INTENT_11_L2TC_2> = L2TC__ verb_pattern_02__ publica una (foto | imagen) en slack a <CHANNEL>;
+<INTENT_11_L2TC_3> = L2TC__ verb_pattern_03__ publica una (foto | imagen) en el canal (de slack <CHANNEL> | <CHANNEL> de slack);
+
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ agrega una (imagen | foto) al canal de slack <CHANNEL>;
+
+##12) SEND PICTURE TO CHANNEL WITH CAPTION
+<INTENT_12> = <INTENT_12_L0TC> | <INTENT_12_L1TC> | <INTENT_12_L2TC> | <INTENT_12_REPHRASE>;
+<INTENT_12_L0TC> = <INTENT_12_L0TC_1> | <INTENT_12_L0TC_2>;
+<INTENT_12_L0TC_1> = L0TC__ verb_pattern_01__ publica una imagen (en slack a | a un canal de slack) <CHANNEL> con el título <CAPTION>;
+<INTENT_12_L0TC_2> = L0TC__ verb_pattern_02__ comparte una imagen (en slack con | con el canal de slack) <CHANNEL> con el título <CAPTION>;
+
+<INTENT_12_L1TC> = <INTENT_12_L1TC_1> | <INTENT_12_L1TC_2>;
+<INTENT_12_L1TC_1> = L1TC__ verb_pattern_01__ sube una imagen (en slack a | a un canal de slack) <CHANNEL> con el título <CAPTION>;
+<INTENT_12_L1TC_2> = L1TC__ verb_pattern_02__ crea una publicación en el canal <CHANNEL> [de slack] con una imagen y el título <CAPTION>;
+
+<INTENT_12_L2TC> = <INTENT_12_L2TC_1> | <INTENT_12_L2TC_2>;
+<INTENT_12_L2TC_1> = L2TC__ verb_pattern_01__ envía una imagen (en slack a | al canal de slack) <CHANNEL> con el título <CAPTION>; 
+<INTENT_12_L2TC_2> = L1TC__ verb_pattern_02__ manda una imagen (en slack a | al canal de slack) <CHANNEL> con el título <CAPTION>; 
+
+<INTENT_12_REPHRASE> = REPHRASE__ verb_pattern_01__ adjunta (imagen | foto) a <CHANNEL> con el título <CAPTION>;
+
+##13) SEND URL TO CHANNEL
+<INTENT_13> = <INTENT_13_L0TC> | <INTENT_13_L1TC> | <INTENT_13_L2TC> | <INTENT_13_REPHRASE>;
+<INTENT_13_L0TC> = <INTENT_13_L0TC_1> | <INTENT_13_L0TC_2>;
+<INTENT_13_L0TC_1> = L0TC__ verb_pattern_01__ publica [un enlace | un url] <PICTURE_URL> a <CHANNEL> en slack;
+<INTENT_13_L0TC_2> = L0TC__ verb_pattern_02__ comparte [un enlace | un url] <PICTURE_URL> a <CHANNEL> en slack;
+
+<INTENT_13_L1TC> = <INTENT_13_L1TC_1> | <INTENT_13_L1TC_2>;
+<INTENT_13_L1TC_1> = L1TC__ verb_pattern_01__ sube [una imagen] <PICTURE_URL> (a | al canal) <CHANNEL> en slack;
+<INTENT_13_L1TC_2> = L1TC__ verb_pattern_02__ crea una publicación con (enlace | url | imagen) <PICTURE_URL> a <CHANNEL> en slack;
+
+<INTENT_13_L2TC> = <INTENT_13_L2TC_1> | <INTENT_13_L2TC_2>;
+<INTENT_13_L2TC_1> = L2TC__ verb_pattern_01__ publica (enlace | url) <PICTURE_URL> a <CHANNEL> en slack;
+<INTENT_13_L2TC_2> = L2TC__ verb_pattern_02__ envía (enlace | url) <PICTURE_URL> al (canal de slack <CHANNEL> | canal <CHANNEL> de slack);
+
+<INTENT_13_REPHRASE> = REPHRASE__ verb_pattern_01__ adjunta (enlace | url) al mensaje en el canal <CHANNEL> [de slack];
+
+##14) CHECK HISTORY
+<INTENT_14> = <INTENT_14_L0TC> | <INTENT_14_L1TC> | <INTENT_14_L2TC> | <INTENT_14_REPHRASE>;
+<INTENT_14_L0TC> = L0TC__ verb_pattern_01__ verifica (mi | la) historia del canal de slack;
+
+<INTENT_14_L1TC> = <INTENT_14_L1TC_1> | <INTENT_14_L1TC_2> | <INTENT_14_L1TC_3>;
+<INTENT_14_L1TC_1> = L1TC__ verb_pattern_01__ dame (mi | la) historia del canal de slack;
+<INTENT_14_L1TC_2> = L1TC__ verb_pattern_02__ a ver (mi | la) historia del canal de slack;
+<INTENT_14_L1TC_3> = L1TC__ verb_pattern_03__ muestra (mi | la) historia del canal de slack;
+
+<INTENT_14_L2TC> = <INTENT_14_L2TC_1> | <INTENT_14_L2TC_2>;
+<INTENT_14_L2TC_1> = L2TC__ verb_pattern_01__ encuentra (mi | la) historia del canal de slack;;
+<INTENT_14_L2TC_2> = L2TC__ verb_pattern_02__ quiero ver (mi | la) historia del canal de slack;;
+
+<INTENT_14_REPHRASE> = REPHRASE__ verb_pattern_01__ qué hay en el canal de slack;
 
 #SLOTS
 <USERNAME> = SLACK.SLOT.USERNAME;
