@@ -1,0 +1,184 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Translate__ (SetDefaultLanguage__ <INTENT_1> | SetDefaultLanguageToLanguage__ <INTENT_2> | TranslateText__ <INTENT_3> | TranslateTextToLanguage__ <INTENT_4> | TranslateTextFromLanguageToLanguage__ <INTENT_5> | TranslateTextFromLanguageToLanguageWithEngine__ <INTENT_6> | TranslateToLanguage__ <INTENT_7> | TranslateTextFromLanguage__ <INTENT_8> | DetectLanguage__ <INTENT_9>);
+
+#INTENTS
+#method to set default target lang
+##1) SET DEFAULT LANG
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ ustaw [domyślny] język [tłumaczenia | docelowy | wyjścia] na <ALL_LANG>;
+
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ przełącz [domyślny] język [tłumaczenia | docelowy | wyjścia] na <ALL_LANG>;
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ nastaw [domyślny] język [tłumaczenia | docelowy | wyjścia] na <ALL_LANG>;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ zapamiętaj [domyślny] język [tłumaczenia | docelowy | wyjścia] na <ALL_LANG>;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ zapisz [domyślny] język [tłumaczenia | docelowy | wyjścia] na <ALL_LANG>;
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ będę tłumaczył na <ALL_LANG>;
+
+#method to set default source lang
+##2) SET INPUT LANG
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ ustaw [domyślny] język (wejściowy | wejścia) na <ALL_LANG>;
+
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ przełącz [domyślny] język (wejściowy | wejścia) na <ALL_LANG>;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ nastaw [domyślny] język (wejściowy | wejścia) na <ALL_LANG>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ zapamiętaj [domyślny] język (wejściowy | wejścia) na <ALL_LANG>;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ zapisz [domyślny] język (wejściowy | wejścia) na <ALL_LANG>;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ będę tłumaczył z <ALL_LANG>;
+
+#default target language is set, simply provide text for translation (here default is english)
+##3) TRANSLATE FROM EN
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ przetłumacz [mi] [[to] zdanie | to] <TEXT_EN>;
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ tłumacz [zdanie | to] <TEXT_EN>;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3> | <INTENT_3_L2TC_4>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ (chcę | muszę) przetłumaczyć [to zdanie | to | zdanie] <TEXT_EN>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ [jakie jest | wykonaj] tłumaczenie [tego zdania] <TEXT_EN>;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ jak [mogę | możesz] przetłumaczyć [mi] [to zdanie | to | zdanie] <TEXT_EN>;
+<INTENT_3_L2TC_4> = L2TC__ verb_pattern_04__ <TEXT_EN> (przetłumacz [mi] to [zdanie] | tłumaczenie);
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ co znaczy zdanie <TEXT_EN>;
+
+#translate text from english (default) to given lang
+##4) TRANSLATE FROM EN TO LANG
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ przetłumacz <TEXT_EN> na <TRG_LANG_GENERAL>;
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ tłumacz <TEXT_EN> na <TRG_LANG_GENERAL>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4> | <INTENT_4_L2TC_5>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ [jakie jest] tłumaczenie na [język] <TRG_LANG_GENERAL> zdania <TEXT_EN>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ tłumaczenie <TEXT_EN> na <TRG_LANG_GENERAL>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ powiedz <TEXT_EN> (po | w języku) <TRG_LANG_GENERAL>;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ <TEXT_EN> (po | w języku) <TRG_LANG_GENERAL>;
+<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ jak (powiem | powiesz | przetłumaczysz) <TEXT_EN> (po | w języku) <TRG_LANG_GENERAL>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ co znaczy <TEXT_EN> po <TRG_LANG_GENERAL>;
+
+#both source and target languages are provided together with text to translate
+##5) TRANSLATE FROM LANG_X to LANG_Y TEXT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ przetłumacz (<INTENT_5_EN> | <INTENT_5_PL> | <INTENT_5_DE> | <INTENT_5_IT> | <INTENT_5_FR> | <INTENT_5_ES>);
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ tłumacz (<INTENT_5_EN> | <INTENT_5_PL> | <INTENT_5_DE> | <INTENT_5_IT> | <INTENT_5_FR> | <INTENT_5_ES>);
+
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ [jakie jest] tłumaczenie (<INTENT_5_EN> | <INTENT_5_PL> | <INTENT_5_DE> | <INTENT_5_IT> | <INTENT_5_FR> | <INTENT_5_ES>);
+
+<INTENT_5_EN> = <TEXT_EN> z <SRC_LANG_EN> na (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_IT> | <TRG_LANG_FR> | <TRG_LANG_ES>);
+<INTENT_5_PL> = <TEXT_PL> z <SRC_LANG_PL> na (<TRG_LANG_EN> | <TRG_LANG_DE> | <TRG_LANG_IT> | <TRG_LANG_FR> | <TRG_LANG_ES>);
+<INTENT_5_DE> = <TEXT_DE> z <SRC_LANG_DE> na (<TRG_LANG_PL> | <TRG_LANG_EN> | <TRG_LANG_IT> | <TRG_LANG_FR> | <TRG_LANG_ES>);
+<INTENT_5_IT> = <TEXT_IT> z <SRC_LANG_IT> na (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_EN> | <TRG_LANG_FR> | <TRG_LANG_ES>);
+<INTENT_5_FR> = <TEXT_FR> z <SRC_LANG_FR> na (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_IT> | <TRG_LANG_EN> | <TRG_LANG_ES>);
+<INTENT_5_ES> = <TEXT_ES> z <SRC_LANG_ES> na (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_IT> | <TRG_LANG_FR> | <TRG_LANG_EN>);
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ co znaczy <TEXT_EN> po <SRC_LANG_EN>;
+
+#both source and target languages are provided together with text to translate additinaly translator is provided
+##6) TRANSLATE FROM LANG_X TO LANG_Y TEXT IN TRANSLATOR
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ przetłumacz (<INTENT_6_EN> | <INTENT_6_PL> | <INTENT_6_DE> | <INTENT_6_IT> | <INTENT_6_FR> | <INTENT_6_ES>) (w | przy użyciu) <TRANSLATOR>;
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ tłumacz (<INTENT_6_EN> | <INTENT_6_PL> | <INTENT_6_DE> | <INTENT_6_IT> | <INTENT_6_FR> | <INTENT_6_ES>) (w | przy użyciu) <TRANSLATOR>;
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ [jakie jest] tłumaczenie (<INTENT_6_EN> | <INTENT_6_PL> | <INTENT_6_DE> | <INTENT_6_IT> | <INTENT_6_FR> | <INTENT_6_ES>) przy użyciu <TRANSLATOR>;
+
+<INTENT_6_EN> = <TEXT_EN> z <SRC_LANG_EN> na (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_IT> | <TRG_LANG_FR> | <TRG_LANG_ES>);
+<INTENT_6_PL> = <TEXT_PL> z <SRC_LANG_PL> na (<TRG_LANG_EN> | <TRG_LANG_DE> | <TRG_LANG_IT> | <TRG_LANG_FR> | <TRG_LANG_ES>);
+<INTENT_6_DE> = <TEXT_DE> z <SRC_LANG_DE> na (<TRG_LANG_PL> | <TRG_LANG_EN> | <TRG_LANG_IT> | <TRG_LANG_FR> | <TRG_LANG_ES>);
+<INTENT_6_IT> = <TEXT_IT> z <SRC_LANG_IT> na (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_EN> | <TRG_LANG_FR> | <TRG_LANG_ES>);
+<INTENT_6_FR> = <TEXT_FR> z <SRC_LANG_FR> na (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_IT> | <TRG_LANG_EN> | <TRG_LANG_ES>);
+<INTENT_6_ES> = <TEXT_ES> z <SRC_LANG_ES> na (<TRG_LANG_PL> | <TRG_LANG_DE> | <TRG_LANG_IT> | <TRG_LANG_FR> | <TRG_LANG_EN>);
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ w <TRANSLATOR> sprawdź co znaczy <TEXT_EN> po <SRC_LANG_EN>;
+
+#root command for followup action (where text is given)
+##7) TRANSLATE WITHOUTH TEXT (FOR FOLLOWUP)
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ tłumacz na [język] <TRG_LANG_GENERAL>;
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ przetłumacz na [język] <TRG_LANG_GENERAL>;
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ [wykonaj] tłumaczenie na [język] <TRG_LANG_GENERAL>;
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ zamień [zdanie | tekst] na [język] <TRG_LANG_GENERAL>;
+
+<INTENT_7_REPHRASE> = <INTENT_7_REPHRASE_1> | <INTENT_7_REPHRASE_2>;
+<INTENT_7_REPHRASE_1> = REPHRASE__ verb_pattern_01__ chcę to [zdanie] w innym języku;
+<INTENT_7_REPHRASE_2> = REPHRASE__ verb_pattern_02__ jak to będzie w innym języku;
+
+#default target language is set but source is unknown. text is provided as well
+##8) TRANSLATE TO LANG_Y TEXT
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ przetłumacz (<INTENT_8_EN_a> | <INTENT_8_PL_a> | <INTENT_8_IT_a> | <INTENT_8_FR_a> | <INTENT_8_DE_a> | <INTENT_8_ES_a>);
+
+<INTENT_8_EN_a> = [zdanie | to] <TEXT_EN> z [języka] <SRC_LANG_EN>;
+<INTENT_8_PL_a> = [zdanie | to] <TEXT_PL> z [języka] <SRC_LANG_PL>;
+<INTENT_8_IT_a> = [zdanie | to] <TEXT_IT> z [języka] <SRC_LANG_IT>;
+<INTENT_8_FR_a> = [zdanie | to] <TEXT_FR> z [języka] <SRC_LANG_FR>;
+<INTENT_8_DE_a> = [zdanie | to] <TEXT_DE> z [języka] <SRC_LANG_DE>;
+<INTENT_8_ES_a> = [zdanie | to] <TEXT_ES> z [języka] <SRC_LANG_ES>;
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ tłumacz (<INTENT_8_EN_b> | <INTENT_8_PL_b> | <INTENT_8_IT_b> | <INTENT_8_FR_b> | <INTENT_8_DE_b> | <INTENT_8_ES_b>);
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ przetłumacz (<INTENT_8_EN_b> | <INTENT_8_PL_b> | <INTENT_8_IT_b> | <INTENT_8_FR_b> | <INTENT_8_DE_b> | <INTENT_8_ES_b>);
+
+<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ [wykonaj] tłumaczenie (<INTENT_8_EN_b> | <INTENT_8_PL_b> | <INTENT_8_IT_b> | <INTENT_8_FR_b> | <INTENT_8_DE_b> | <INTENT_8_ES_b>);
+
+<INTENT_8_EN_b> = z [języka] <SRC_LANG_EN> (zdania | tego zdania | tego) <TEXT_EN>;
+<INTENT_8_PL_b> = z [języka] <SRC_LANG_PL> (zdania | tego zdania | tego) <TEXT_PL>;
+<INTENT_8_IT_b> = z [języka] <SRC_LANG_IT> (zdania | tego zdania | tego) <TEXT_IT>;
+<INTENT_8_FR_b> = z [języka] <SRC_LANG_FR> (zdania | tego zdania | tego) <TEXT_FR>;
+<INTENT_8_DE_b> = z [języka] <SRC_LANG_DE> (zdania | tego zdania | tego) <TEXT_DE>;
+<INTENT_8_ES_b> = z [języka] <SRC_LANG_ES> (zdania | tego zdania | tego) <TEXT_ES>;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ jak z <SRC_LANG_EN> będzie <TEXT_EN>;
+
+##9) DETECT LANGUAGE OF TEXT
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ wykryj (w jakim to języku | jaki to język | co to za język) <TEXT_MULTI>;
+
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ sprawdź (w jakim to języku | jaki to język | co to za język) <TEXT_MULTI>;
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ powiedz [mi] (w jakim to języku | jaki to język | co to za język) <TEXT_MULTI>;
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ ustal (w jakim to języku | jaki to język | co to za język) <TEXT_MULTI>;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ <TEXT_MULTI> (po jakiemu to | co to za język);
+
+#SLOTS
+<SRC_LANG_GENERAL> = TRANSLATE.SLOT.SRC_LANG_GENERAL;
+<SRC_LANG_EN> = TRANSLATE.SLOT.SRC_LANG_EN;
+<SRC_LANG_PL> = TRANSLATE.SLOT.SRC_LANG_PL;
+<SRC_LANG_DE> = TRANSLATE.SLOT.SRC_LANG_DE;
+<SRC_LANG_ES> = TRANSLATE.SLOT.SRC_LANG_ES;
+<SRC_LANG_IT> = TRANSLATE.SLOT.SRC_LANG_IT;
+<SRC_LANG_FR> = TRANSLATE.SLOT.SRC_LANG_FR;
+<TRG_LANG_GENERAL> = TRANSLATE.SLOT.TRG_LANG_GENERAL;
+<TRG_LANG_EN> = TRANSLATE.SLOT.TRG_LANG_EN;
+<TRG_LANG_PL> = TRANSLATE.SLOT.TRG_LANG_PL;
+<TRG_LANG_DE> = TRANSLATE.SLOT.TRG_LANG_DE;
+<TRG_LANG_ES> = TRANSLATE.SLOT.TRG_LANG_ES;
+<TRG_LANG_IT> = TRANSLATE.SLOT.TRG_LANG_IT;
+<TRG_LANG_FR> = TRANSLATE.SLOT.TRG_LANG_FR;
+<ALL_LANG> = TRANSLATE.SLOT.ALL_LANG;
+<TRG_LANG_NO_EN> = polski | niemiecki | hiszpański | tajski | czeski | fiński;
+<TRG_LANG_NO_DE> = polski | hiszpański | tajski | czeski | fiński;
+<TRG_LANG_NO_PL> = niemiecki | hiszpański | tajski | czeski | fiński;
+<TRG_LANG_NO_IT> = polski | niemiecki | hiszpański | tajski | czeski | fiński;
+<TRG_LANG_NO_FR> = polski | niemiecki | hiszpański | tajski | czeski | fiński;
+<TRG_LANG_NO_ES> = polski | niemiecki | tajski | czeski | fiński;
+<TEXT_EN> = TRANSLATE.SLOT.TEXT_EN;
+<TEXT_DE> = TRANSLATE.SLOT.TEXT_DE;
+<TEXT_PL> = TRANSLATE.SLOT.TEXT_PL;
+<TEXT_ES> = TRANSLATE.SLOT.TEXT_ES;
+<TEXT_IT> = TRANSLATE.SLOT.TEXT_IT;
+<TEXT_FR> = TRANSLATE.SLOT.TEXT_FR;
+<TEXT_MULTI> = TRANSLATE.SLOT.TEXT_MULTI;
+<TRANSLATOR> = TRANSLATE.SLOT.TRANSLATOR;

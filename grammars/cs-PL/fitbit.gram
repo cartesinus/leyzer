@@ -1,0 +1,84 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | ShowBMI__ <INTENT_3> | AddWeight__ <INTENT_4> | NotifyOnWeight__ <INTENT_5>);
+
+#PRECONDITION
+<WHEN_1> = kiedy (moja waga (będzie większa niż | przekroczy) | będę (cięższy | cięższa) niż | przytyję powyżej) <WEIGHT>;
+
+#INTENTS
+##1) STEP COUNT
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ (ile zrobiłem kroków | ile kroków zrobiłem);
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ powiedz [mi] ((moje kroki | ilość kroków | liczbę kroków) (na | w) fitbicie | (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków));
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ pokaż [mi] ((moje kroki | ilość kroków | liczbę kroków) (na | w) fitbicie | (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków));
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl [mi] ((moje kroki | ilość kroków | liczbę kroków) (na | w) fitbicie | (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków));
+
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ policz [mi] ((moje kroki | ilość kroków | liczbę kroków) (na | w) fitbicie | (liczbę kroków którą (zrobiłem | przeszedłem) | krokomierz | licznik kroków));
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ oblicz dystans który dziś przebyłem w krokach;
+
+##2) STEP COUNT ON DATE
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ (ile zrobiłem kroków | ile kroków zrobiłem) <DATE>;
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ powiedz [mi] (((moje kroki | ilość kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>) | ((liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>));
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ pokaż [mi] (((moje kroki | ilość kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>) | ((liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>));
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl [mi] (((moje kroki | ilość kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>) | ((liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>));
+
+<INTENT_2_L2TC> = L2TC__ verb_pattern_01__ policz [mi] (((moje kroki | ilość kroków | liczbę kroków) [(na | w) fitbicie] (dla | które (zrobiłem | zrobiłam)) <DATE>) | ((liczbę kroków którą (zrobiłem | zrobiłam | przeszedłem | przeszłam) | krokomierz | licznik kroków) (dla | które (zrobiłem | zrobiłam)) <DATE>));
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ oblicz dystans który zrobiłem <DATE> w krokach;
+
+##3) BMI
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ (jaki (mam | jest mój) bmi | jaka jest moja waga);
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ powiedz [mi] (mój bmi | moją wagę) [(na | w) fitbicie];
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ pokaż [mi] (mój bmi | moją wagę) [(na | w) fitbicie];
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl [mi] (mój bmi | moją wagę) [(na | w) fitbicie];
+
+<INTENT_3_L2TC> = L2TC__ verb_pattern_01__ policz [mi] (mój bmi | moją wagę) [(na | w) fitbicie];
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ czy moje bmi jest w normie;
+
+##4) SAVE WEIGHT
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ zapisz (((na | w) fitbicie (moją wagę | ile ważę)) | ((moją wagę | ile ważę) w fitbicie));
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ dodaj (moją wagę | ilę ważę) do (fitbit | fitbitu);
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ zapamiętaj (((na | w) fitbicie (moją wagę | ile ważę)) | ((moją wagę | ile ważę) w fitbicie));
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ zanotuj (((na | w) fitbicie (moją wagę | ile ważę)) | ((moją wagę | ile ważę) w fitbicie));
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ zachowaj (((na | w) fitbicie (moją wagę | ile ważę)) | ((moją wagę | ile ważę) w fitbicie));
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ przechowuj (((na | w) fitbicie (moją wagę | ile ważę)) | ((moją wagę | ile ważę) w fitbicie));
+
+<INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2>;
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ czy jestem (chudszy | chudsza | grubszy | grubsza);
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ pomóż mi kontrolować (moją wagę | ilę ważę);
+
+##5) NOTIFY ON WEIGHT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ powiadom mnie <WHEN_1>;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ powiedz mi <WHEN_1>;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ pokaż mi <WHEN_1>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ daj mi znać <WHEN_1>;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ poinformuj mnie <WHEN_1>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ nie chcę przekroczyć <WEIGHT>;
+
+#SLOTS
+<STEPS> = FITBIT.SLOT.STEPS;
+<DATE> = FITBIT.SLOT.DATE;
+<WEIGHT> = FITBIT.SLOT.WEIGHT;

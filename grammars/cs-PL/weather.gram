@@ -1,0 +1,159 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Weather__ (OpenWeather__ <INTENT_1> | WeatherTomorrow__ <INTENT_2> | WeatherInLocation__ <INTENT_3> | WeatherTomorrowInLocation__ <INTENT_4> | SunriseInLocation__ <INTENT_5> | SunsetInLocation__ <INTENT_6> | SunriseAndSunsetInLocation__ <INTENT_7> | SunriseAndSunsetInLocationAndOnDate__ <INTENT_8> | MoonphaseInLocation__ <INTENT_9> | MoonphaseInLocationOnDate__ <INTENT_10>);
+
+#INTENTS
+##1) WEATHER FOR TODAY
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ jaka (jest | będzie) [dziś] pogoda;
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ prognoza pogody [na dziś];
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ (pogoda na dziś | prognoza pogody [na dziś]);
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ sprawdź (prognozę pogody | pogodę) [na dziś];
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ powiedz [mi] czy będzie dziś (ciepło | zimno | padało | słońce | wiało | wilgotno);
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ podaj (prognozę pogody | pogodę) [na dziś];
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ jakiej pogody mogę się dziś spodziewać;
+
+##2) WEATHER FOR TOMORROW
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ (jaka będzie jutro pogoda | pogoda na jutro);
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ prognoza pogody na (jutro | następny dzień);
+
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ sprawdź (prognozę pogody | pogodę) na (jutro | następny dzień);
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ powiedz [mi] czy jutro będzie (ciepło | zimno | padało | słońce | wiało | wilgotno);
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ podaj (prognozę pogody | pogodę) na jutro;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ jakiej pogody mogę się spodziewać jutro;
+
+##3) WEATHER IN LOCATION
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ powiedz [mi] jaka jest [obecnie | dziś | teraz] pogoda w <LOCATION>;
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ sprawdź [mi] pogodę w <LOCATION>;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ podaj [mi] [dzisiejszą | obecna] prognozę pogody (dla | w) <LOCATION>;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl [mi] [dzisiejsza | obecna] prognozę pogody (dla | w) <LOCATION>;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ chcę znać pogodę w <LOCATION>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ chcę wiedzieć jaka jest pogoda w <LOCATION>;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ [dzisiejsza | obecna] prognoza pogody (dla | w) <LOCATION>;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ jaka jest pogoda [dziś] w <LOCATION>;
+
+##4) WEATHER FOR TOMORROW FOR LOCATION
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ powiedz [mi] jaka będzie jutro pogoda w <LOCATION>;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ sprawdź [mi] jaka będzie jutro pogoda w <LOCATION>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ podaj [mi] jutrzejszą prognozę pogody (dla | w) <LOCATION>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl [mi] jutrzejszą prognozę pogody (dla | w) <LOCATION>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ chcę znać prognozę w <LOCATION>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ chcę wiedzieć jaka będzie jutro pogoda w <LOCATION>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ [jutrzejsza] prognoza pogody (dla | w) <LOCATION>;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ prognoza pogody (dla | w) <LOCATION> na jutro;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ jaka będzie jutro pogoda w <LOCATION>;
+
+##5) SUNRISE
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ powiedz [mi] kiedy jest wschód słońca (w | dla) <LOCATION>;
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ sprawdź [mi] kiedy jest wschód słońca (w | dla) <LOCATION>;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ podaj [mi] kiedy jest wschód słońca (w | dla) <LOCATION>;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl [mi] kiedy jest wschód słońca (w | dla) <LOCATION>;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3> | <INTENT_5_L2TC_4> | <INTENT_5_L2TC_5>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ (chciałbym | chciałabym) wiedzieć kiedy jest wschód słońca (w | dla) <LOCATION>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ czy (mógłbyś | mogłabyś) [mi] powiedzieć kiedy jest wschód słońca (w | dla) <LOCATION>;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ podaj [mi] czas wschodu słońca (w | dla) <LOCATION>;
+<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ o której jest wschód słońca w <LOCATION>;
+<INTENT_5_L2TC_5> = L2TC__ verb_pattern_05__ (kiedy | o której) wschodzi słońce w <LOCATION>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ (o której | kiedy) kończy się noc w <LOCATION>;
+
+##6) SUNSET
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ powiedz [mi] kiedy jest zachód słońca (w | dla) <LOCATION>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ sprawdź [mi] kiedy jest zachód słońca (w | dla) <LOCATION>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ podaj [mi] kiedy jest zachód słońca (w | dla) <LOCATION>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ wyświetl [mi] kiedy jest zachód słońca (w | dla) <LOCATION>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3> | <INTENT_6_L2TC_4> | <INTENT_6_L2TC_5>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ (chciałbym | chciałabym) wiedzieć kiedy jest zachód słońca (w | dla) <LOCATION>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ czy (mógłbyś | mogłabyś) [mi] kiedy jest zachód słońca (w | dla) <LOCATION>;
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ podaj [mi] czas zachodu słońca (w | dla) <LOCATION>;
+<INTENT_6_L2TC_4> = L2TC__ verb_pattern_04__ (o której jest zachodu słońca w w) <LOCATION>;
+<INTENT_6_L2TC_5> = L2TC__ verb_pattern_05__ (kiedy | o której) zachodzi słońce w <LOCATION>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ (o której | kiedy) zaczyna się noc w <LOCATION>;
+
+##7) SUNSET AND SUNRISE IN LOCATION
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ powiedz [mi] kiedy jest wschód i zachód słońca (w | dla) <LOCATION>;
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ sprawdź [mi] czas wschodu i zachodu słońca (w | dla) <LOCATION>;
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ podaj [mi] czas wschodu i zachodu słońca (w | dla) <LOCATION>;
+
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ (chciałbym | chciałabym) znać czas wschodu i zachodu słońca (w | dla) <LOCATION>;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ (o której | kiedy) (dzień zamienia się w noc | noc zamienia się w dzień) w <LOCATION>;
+
+##8) SUNSET AND SUNRISE IN LOCATION ON DATE
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = <INTENT_8_L0TC_1> | <INTENT_8_L0TC_2>;
+<INTENT_8_L0TC_1> = L0TC__ verb_pattern_01__ powiedz [mi] kiedy jest wschód i zachód słońca (w | dla) <LOCATION> w <DATE_A>;
+<INTENT_8_L0TC_2> = L0TC__ verb_pattern_02__ sprawdź [mi] czas wschodu i zachodu słońca (w | dla) <LOCATION> w <DATE_A>;
+
+<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ podaj [mi] czas wschodu i zachodu słońca (w | dla) <LOCATION> w <DATE_A>;
+
+<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ (chciałbym | chciałabym) znać czas wschodu i zachodu słońca (w | dla) <LOCATION> w <DATE_A>;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ (o której | kiedy) (dzień zamienia się w noc | noc zamienia się w dzień) w <LOCATION> w <DATE_A>;
+
+##9) MOON PHASE IN LOCATION
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ sprawdź fazę księżyca w <LOCATION>;
+
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ [jaka jest] faza księżyca w <LOCATION>;
+
+<INTENT_9_L2TC> = L2TC__ verb_pattern_01__ czy księżyc jest (w pełni | w nowiu) w <LOCATION>;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ jak wygląda księżyc w <LOCATION>;
+
+##10) MOON PHASE IN LOCATION FOR DATE
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ sprawdź fazę księżyca w <LOCATION> w <DATE_A>;
+
+<INTENT_10_L1TC> = L1TC__ verb_pattern_01__ [jaka (jest | będzie)] faza księżyca w <LOCATION> w <DATE_A>;
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ czy księżyc będzie (w pełni | w nowiu) w <DATE_A> w <LOCATION>;
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ jak będzie wyglądał księżyc w <LOCATION> w <DATE_A>;
+
+#SLOTS
+<LOCATION> = WEATHER.SLOT.LOCATION;
+<TEMPERATURE> = WEATHER.SLOT.TEMPERATURE;
+<HUMIDITY> = WEATHER.SLOT.HUMIDITY;
+<DATE> = WEATHER.SLOT.DATE;
+<DATE_A> = WEATHER.SLOT.DATE_A;
+<STATUS> = WEATHER.SLOT.STATUS;

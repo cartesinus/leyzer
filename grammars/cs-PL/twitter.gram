@@ -1,0 +1,113 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Twitter__ (OpenTwitter__ <INTENT_1> | FollowUser__ <INTENT_2> | UnfollowUser__ <INTENT_3> | SendTwitterMessage__ <INTENT_4> | SendMessageToUser__ <INTENT_5> | ShowTwittsWithHashtag__ <INTENT_6>);
+
+#INTENTS
+##1) SHOW USER TWEETS
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ pokaż [moje] (twitty | posty na twitterze | twitty które napisałem);
+
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ wyświetl [moje] (twitty | posty na twitterze | twitty które napisałem);
+
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ (zobacz | chcę zobaczyć) [moje] (twitty | posty na twitterze | twitty które napisałem);
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ otwórz twittera i pokaż (to co napisałem | [moją] historię);
+
+##2) FOLLOW GIVEN USER
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ obserwuj [aktywność] <USERNAME> na twitterze;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3> | <INTENT_2_L1TC_4>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ zacznij śledzić [aktywność] <USERNAME> na twitterze;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ zacznij obserwować [aktywność] <USERNAME> na twitterze;
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ zacznij śledzić co <USERNAME> (pisze | publikuje) na twitterze;
+<INTENT_2_L1TC_4> = L1TC__ verb_pattern_04__ zacznij obserwować co <USERNAME> (pisze | publikuje) na twitterze;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ chcę być na bieżąco z tym co publikuje <USERNAME> na twitterze;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ chcę być na bieżąco z tym co pisze <USERNAME> na twitterze;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ zostań followersem <USERNAME> na twitterze;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ szpieguj <USERNAME>;
+
+##3) UNFOLLOW GIVEN USER
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ przestań obserwować [aktywność] <USERNAME> na twitterze;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ przestań śledzić [aktywność] <USERNAME> na twitterze;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ przestań followować <USERNAME> na twitterze;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ nie chcę [już] obserwować co <USERNAME> (pisze | publikuje) na twitterze;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ nie chcę [już] śledzić co <USERNAME> (pisze | publikuje) na twitterze;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ nie chcę [już] wiedzieć co <USERNAME> (pisze | publikuje) na twitterze;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ przestań szpiegować <USERNAME>;
+
+##4) SEND MESSAGE TO USER
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ wyślij (wiadomość | pw | prywatną wiadomość) na (twitterze | twittera) [o treści] <MESSAGE>;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ napisz (wiadomość | pw | prywatną wiadomość) na (twitterze | twittera) [o treści] <MESSAGE>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ wyślij na (twitterze | twittera) (wiadomość | pw | prywatną wiadomość) [o treści] <MESSAGE>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ napisz na (twitterze | twittera) (wiadomość | pw | prywatną wiadomość) [o treści] <MESSAGE>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4> | <INTENT_4_L2TC_5> | <INTENT_4_L2TC_6>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ prześlij (wiadomość | pw | prywatną wiadomość) na (twitterze | twittera) [o treści] <MESSAGE>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ prześlij na (twitterze | twittera) (wiadomość | pw | prywatną wiadomość) [o treści] <MESSAGE>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ utwórz na (twitterze | twittera) (wiadomość | pw | prywatną wiadomość) [o treści] <MESSAGE>;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ utwórz (wiadomość | pw | prywatną wiadomość) na (twitterze | twittera) [o treści] <MESSAGE>;
+<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ stwórz (wiadomość | pw | prywatną wiadomość) na (twitterze | twittera) [o treści] <MESSAGE>;
+<INTENT_4_L2TC_6> = L2TC__ verb_pattern_06__ ćwierknij (wiadomość | pw | prywatną wiadomość) [o treści] <MESSAGE>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ podziel się <MESSAGE> z ludzmi na twitterze;
+
+##5) SEND MESSAGE TO USER
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ wyślij [wiadomość] <MESSAGE> do <USERNAME> na twitterze;
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ napisz [wiadomość] <MESSAGE> do <USERNAME> na twitterze;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ napisz (na twittera | twitterze) [wiadomość] <MESSAGE> do <USERNAME>;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ prześlij [wiadomość] <MESSAGE> do <USERNAME> na twitterze;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3> | <INTENT_5_L2TC_4> | <INTENT_5_L2TC_5> | <INTENT_5_L2TC_6> | <INTENT_5_L2TC_7> | <INTENT_5_L2TC_8> | <INTENT_5_L2TC_9> | <INTENT_5_L2TC_10> | <INTENT_5_L2TC_11> | <INTENT_5_L2TC_12> | <INTENT_5_L2TC_13>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ na twitterze wyślij [wiadomość | pw | prywatną wiadomość] do <USERNAME> o treści <MESSAGE>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ na twitterze napisz [wiadomość | pw | prywatną wiadomość] do <USERNAME> o treści <MESSAGE>;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ na twitterze utwórz [wiadomość | pw | prywatną wiadomość] do <USERNAME> o treści <MESSAGE>;
+<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ na twitterze prześlij [wiadomość | pw | prywatną wiadomość] do <USERNAME> o treści <MESSAGE>;
+<INTENT_5_L2TC_5> = L2TC__ verb_pattern_05__ na twitterze stwórz [wiadomość | pw | prywatną wiadomość] do <USERNAME> o treści <MESSAGE>;
+<INTENT_5_L2TC_6> = L2TC__ verb_pattern_06__ na twitterze wyślij (wiadomość | pw | prywatną wiadomość) <MESSAGE> do <USERNAME>;
+<INTENT_5_L2TC_7> = L2TC__ verb_pattern_07__ na twitterze napisz (wiadomość | pw | prywatną wiadomość) <MESSAGE> do <USERNAME>;
+<INTENT_5_L2TC_8> = L2TC__ verb_pattern_08__ na twitterze utwórz (wiadomość | pw | prywatną wiadomość) <MESSAGE> do <USERNAME>;
+<INTENT_5_L2TC_9> = L2TC__ verb_pattern_09__ na twitterze prześlij (wiadomość | pw | prywatną wiadomość) <MESSAGE> do <USERNAME>;
+<INTENT_5_L2TC_10> = L2TC__ verb_pattern_10__ na twitterze stwórz (wiadomość | pw | prywatną wiadomość) <MESSAGE> do <USERNAME>;
+<INTENT_5_L2TC_11> = L2TC__ verb_pattern_11__ ćwierknij [wiadomość | pw | prywatną wiadomość] do <USERNAME> o treści <MESSAGE>;
+<INTENT_5_L2TC_12> = L2TC__ verb_pattern_12__ ćwierknij <MESSAGE> do <USERNAME>;
+<INTENT_5_L2TC_13> = L2TC__ verb_pattern_13__ nadaj [wiadomość] <MESSAGE> do <USERNAME> na twitterze;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ podziel się z <USERNAME> twittem <MESSAGE>;
+
+##6) FIND TWEETS WITH HASHTAGS
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ wyszukaj [mi] twitty (z hashtagiem | o hashtagu) <HASHTAG>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ znajdź [mi] twitty (z hashtagiem | o hashtagu) <HASHTAG>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2> | <INTENT_6_L1TC_3>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ odnajdź [mi] twitty (z hashtagiem | o hashtagu) <HASHTAG>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ pokaż [mi] twitty (z hashtagiem | o hashtagu) <HASHTAG>;
+<INTENT_6_L1TC_3> = L1TC__ verb_pattern_03__ wyświetl [mi] twitty (z hashtagiem | o hashtagu) <HASHTAG>;
+
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ twitty (z hashtagiem | o hashtagu) <HASHTAG>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ co napisano na twitterze o <HASHTAG>;
+
+#SLOTS
+<USERNAME> = TWITTER.SLOT.USERNAME;
+<MESSAGE> = TWITTER.SLOT.MESSAGE;
+<HASHTAG> = TWITTER.SLOT.HASHTAG;
