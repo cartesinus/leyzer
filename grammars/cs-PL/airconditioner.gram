@@ -119,12 +119,12 @@ public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | Chan
 <INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ chcã ùstawic temperaturã na ([mòjim] termòstatu | [mòji] klimatyzacji) <DEVICE_NAME>;
 
 ##8) CHECK HUMIDITY
-<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_L3TC> | <INTENT_8_L4TC> | <INTENT_8_REPHRASE>;
-<INTENT_8_L0TC> = <INTENT_8_L0TC_1> | <INTENT_8_L0TC_2>;
-<INTENT_8_L0TC_1> = L0TC__ verb_pattern_01__ jakô je [wilgòtnosc | wilgòta | fùchtnosc | mòknosc | mòknota | mòkrosc | mòkrota] [w ti jizbie | w domù | w dodomù | w tim pòmieszczeniu | w tim pòmieszczenim]; 
-<INTENT_8_L0TC_2> = L0TC__ verb_pattern_02__ sprôwdz [rówiznã | pòzom | niwiznã] [wilgòtnoscë | wilgòtë | fùchtu | fùchtnoscë | mòknoscë | mòknotë | mòkroscë | mòkrotë] [w ti jizbie | w domù | w tim pomieszczeniu];
-<INTENT_8_L0TC_3> = L0TC__ verb_pattern_03__ jaczi je fùcht [w ti jizbie | w domù | w dodomù | w tim pòmieszczeniu | w tim pòmieszczenim];
-<INTENT_8_L0TC_4> = L0TC__ verb_pattern_04__ sprawdzë [rówiznã | pòzom | niwiznã] [wilgòtnoscë | wilgòtë | fùchtu | fùchtnoscë | mòknoscë | mòknotë | mòkroscë | mòkrotë] [w ti jizbie | w domù | w tim pomieszczeniu];
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = <INTENT_8_L0TC_1> | <INTENT_8_L0TC_2> | <INTENT_8_L0TC_3> | <INTENT_8_L0TC_4>;
+<INTENT_8_L0TC_1> = L0TC__ verb_pattern_01__ jakô je (wilgòtnosc | wilgòta | fùchtnosc | mòknosc | mòknota | mòkrosc | mòkrota) [w ti jizbie | w domù | w dodomù | w tim pòmieszczeniu | w tim pòmieszczenim]; 
+<INTENT_8_L0TC_2> = L0TC__ verb_pattern_02__ sprôwdz (rówiznã | pòzom | niwiznã) (wilgòtnoscë | wilgòtë | fùchtu | fùchtnoscë | mòknoscë | mòknotë | mòkroscë | mòkrotë) [w ti jizbie | w domù | w tim pomieszczeniu];
+<INTENT_8_L0TC_3> = L0TC__ verb_pattern_03__ jaczi je fùcht(w ti jizbie | w domù | w dodomù | w tim pòmieszczeniu | w tim pòmieszczenim);
+<INTENT_8_L0TC_4> = L0TC__ verb_pattern_04__ sprawdzë (rówiznã | pòzom | niwiznã) (wilgòtnoscë | wilgòtë | fùchtu | fùchtnoscë | mòknoscë | mòknotë | mòkroscë | mòkrotë) [w ti jizbie | w domù | w tim pomieszczeniu];
 
 <INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2>;
 <INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ [pòkôż | pòkażë] [[mie] jakô je] [rówizna | niwizna] [wilgòtnoscë | wilgòtë | fùchtu | fùchtnoscë | mòkroscë | mòkrotë | mòknoscë | mòknotë];
