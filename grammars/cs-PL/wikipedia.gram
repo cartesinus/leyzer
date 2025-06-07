@@ -5,122 +5,122 @@ public <S> = Wikipedia__ (OpenWikipedia__ <INTENT_1> | SearchQuery__ <INTENT_2> 
 #INTENTS
 ##1) OPEN WIKIPEDIA PAGE
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
-<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ otwórz wikipedię;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ òdemkni wikipediã;
 
 <INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
-<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ poszukaj (tego | informacji o tym) na wikipedii;
-<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ sprawdź to na wikipedii;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ pòszëkôj (tegò | infòrmacji ò tim) na wikipedie;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ sprôwdz to na wikipedie;
 
 <INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4> | <INTENT_1_L2TC_5> | <INTENT_1_L2TC_6> | <INTENT_1_L2TC_7> | <INTENT_1_L2TC_8>;
-<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ otwórz stronę na wikipedii;
-<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ uruchom stronę na wikipedii;
-<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ wyświetl stronę na wikipedii;
-<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ definicja na wikipedii;
-<INTENT_1_L2TC_5> = L2TC__ verb_pattern_05__ sprawdź definicję na wikipedii;
-<INTENT_1_L2TC_6> = L2TC__ verb_pattern_06__ wyszukaj definicję na wikipedii;
-<INTENT_1_L2TC_7> = L2TC__ verb_pattern_07__ uruchom wikipedię;
-<INTENT_1_L2TC_8> = L2TC__ verb_pattern_08__ przejdź na stronę wikipedii;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ òdemkni stronã na wikipedie;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ ùruchòm stronã na wikipedie;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ wëswietl stronã na wikipedie;
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ definicja na wikipedie;
+<INTENT_1_L2TC_5> = L2TC__ verb_pattern_05__ sprôwdz definicjã na wikipedie;
+<INTENT_1_L2TC_6> = L2TC__ verb_pattern_06__ wëszëkôj definicjã na wikipedie;
+<INTENT_1_L2TC_7> = L2TC__ verb_pattern_07__ ùruchòm wikipediã;
+<INTENT_1_L2TC_8> = L2TC__ verb_pattern_08__ przéńdz na stronã wikipedie;
 
-<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ co (mówi | twierdzi) o tym wikipedia;
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ co (mówi | cwierdzy) ò tim wikipedia;
 
 ##2) FIND GIVEN QUERY ON WIKIPEDIA
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
 <INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2> | <INTENT_2_L0TC_3>;
-<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ szukaj <QUERY> na (wiki | wikipedii);
-<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ wyszukaj [mi] <QUERY> na (wiki | wikipedii);
-<INTENT_2_L0TC_3> = L0TC__ verb_pattern_03__ znajdź [mi] <QUERY> na (wiki | wikipedii);
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ szëkôj <QUERY> na (wiki | wikipedie);
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ wëszëkôj [mie] <QUERY> na (wiki | wikipedie);
+<INTENT_2_L0TC_3> = L0TC__ verb_pattern_03__ naléz [mie] <QUERY> na (wiki | wikipedie);
 
 <INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3>;
-<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ <QUERY> na (wiki | wikipedii);
-<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ pokaż [mi] <QUERY> na (wiki | wikipedii);
-<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ wyświetl [mi] <QUERY> na (wiki | wikipedii);
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ <QUERY> na (wiki | wikipedie);
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ pòkôż [mie] <QUERY> na (wiki | wikipedie);
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ wëswietl [mie] <QUERY> na (wiki | wikipedie);
 
 <INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
-<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ strona o <QUERY> na (wiki | wikipedii);
-<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ wpis o <QUERY> na (wiki | wikipedii);
-<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ poszukaj [mi] <QUERY> na (wiki | wikipedii);
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ strona ò <QUERY> na (wiki | wikipedie);
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ wpis ò <QUERY> na (wiki | wikipedie);
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ pòszëkôj [mie] <QUERY> na (wiki | wikipedie);
 
 <INTENT_2_REPHRASE> = REPHRASE__ (<INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>);
-<INTENT_2_REPHRASE_1> = verb_pattern_01__ co wikipedia (mówi | twierdzi) o <QUERY>;
-<INTENT_2_REPHRASE_2> = verb_pattern_02__ jakie informacje ma na temat <QUERY> wikipedia;
+<INTENT_2_REPHRASE_1> = verb_pattern_01__ co wikipedia (mówi | cwierdzy) ò <QUERY>;
+<INTENT_2_REPHRASE_2> = verb_pattern_02__ jaczé infòrmacje mô na témã <QUERY> wikipedia;
 
 ##3) SCROLL DOWN
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
-<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ przewiń stronę (w dół | niżej);
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ przewiń stronã (w dół | niżi);
 
-<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ (strona | stronę) (w dół | niżej);
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ (strona | stronã) (w dół | niżi);
 
 <INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
-<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ scrolluj ([stronę] w dół | kawałek w dół);
-<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ przejdź ([stronę] w dół | kawałek w dół);
-<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ przesuń ([stronę] w dół | kawałek w dół);
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ scrolluj ([stronã] w dół | sztëczk w dół);
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ przéńdz ([stronã] w dół | sztëczk w dół);
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ przesuń ([stronã] w dół | sztëczk w dół);
 
-<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż co jest niżej [na tej stronie];
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż co je niżi [na ti stronie];
 
 ##4) SCROLL UP
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
-<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ przewiń stronę (w górę | do góry | wyżej);
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ przewiń stronã (w górã | do górë | wëżi);
 
-<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ (strona | stronę) (w górę | do góry | wyżej);
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ (strona | stronã) (w górã | do górë | wëżi);
 
 <INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
-<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ scrolluj ([stronę] w górę | [stronę] do góry | kawałek w górę | kawałek do góry);
-<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ przejdź ([stronę] w górę | [stronę] do góry | kawałek w górę | kawałek do góry);
-<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ przesuń ([stronę] w górę | [stronę] do góry | kawałek w górę | kawałek do góry);
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ scrolluj ([stronã] w górã | [stronã] do górë | sztëczk w górã | sztëczk do górë);
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ przéńdz ([stronã] w górã | [stronã] do górë | sztëczk w górã | sztëczk do górë);
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ przesuń ([stronã] w górã | [stronã] do górë | sztëczk w górã | sztëczk do górë);
 
-<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż co jest wyżej [na tej stronie];
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż co je wëżi [na ti stronie];
 
 ##5) DOWNLOAD PAGE AS PDF
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
 <INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
-<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ ściągnij (tę stronę | ten artykuł) jako pdf;
-<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ pobierz (tę stronę | ten artykuł) jako pdf;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ scygnij (tã stronã | ten artikel) jakò pdf;
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ pòbierz (tã stronã | ten artikel) jakò pdf;
 
-<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ zapisz (tę stronę | ten artykuł) jako pdf;
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ zapisz (tã stronã | ten artikel) jakò pdf;
 
-<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ zachowaj (tę stronę | ten artykuł) jako pdf;
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ ùchòwôj (tã stronã | ten artikel) jakò pdf;
 
-<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ wydrukuj tę stronę [do pliku];
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ wëdrëkùj tã stronã [do pliku];
 
 ##6) CHANGE LANGUAGE OF PAGE
 <INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
-<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ zmień język ([tej] strony | [tego] artykułu) na <LANGUAGE_LOCATIVE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ zmień jãzëk ([ti] stronë | [tegò] artikla) na <LANGUAGE_LOCATIVE>;
 
-<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ przełącz język ([tej] strony | [tego] artykułu) na <LANGUAGE_LOCATIVE>;
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ przełącz jãzëk ([ti] stronë | [tegò] artikla) na <LANGUAGE_LOCATIVE>;
 
-<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ pokaż ([ten] artykuł | [tę] stronę) w języku <LANGUAGE_ACCUSATIVE>;
+<INTENT_6_L2TC> = L2TC__ verb_pattern_01__ pòkôż ([ten] artikel | [tã] stronã) w jãzëkù <LANGUAGE_ACCUSATIVE>;
 
-<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ porównaj tę stroną z wersją <LANGUAGE_ACCUSATIVE>;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ pòrównaj tã stroną z wersją <LANGUAGE_ACCUSATIVE>;
 
 ##7) SHOW RANDOM
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
 <INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
-<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ pokaż (losową stronę | losowy artykuł) na (wiki | wikipedii);
-<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ wyświetl (losową stronę | losowy artykuł) na (wiki | wikipedii);
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż (losową stronã | losowi artikel) na (wiki | wikipedie);
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl (losową stronã | losowi artikel) na (wiki | wikipedie);
 
-<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ wylosuj (stronę | artykuł) na (wiki | wikipedii);
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ wëlosuj (stronã | artikel) na (wiki | wikipedie);
 
 <INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
 <INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ (wiki | wikipedia) surfing;
-<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ serfuj po (wiki | wikipedii);
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ serfùj pò (wiki | wikipedie);
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ naucz mnie czegoś nowego;
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ naùcz mie czegos nowégo;
 
 ##8) CONTENT NAVIGATION
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
-<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ przejdź do <ELEMENT> elementu ze spisu treści;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ przéńdz do <ELEMENT> elementu ze spisënkù zamkłosce;
 
 <INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2> | <INTENT_8_L1TC_3>;
-<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ nawiguj do <ELEMENT> elementu ze spisu treści;
-<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ pokaż <ELEMENT> elementu ze spisu treści;
-<INTENT_8_L1TC_3> = L1TC__ verb_pattern_03__ wyświetl <ELEMENT> elementu ze spisu treści;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ nawiguj do <ELEMENT> elementu ze spisënkù zamkłosce;
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ pòkôż <ELEMENT> elementu ze spisënkù zamkłosce;
+<INTENT_8_L1TC_3> = L1TC__ verb_pattern_03__ wëswietl <ELEMENT> elementu ze spisënkù zamkłosce;
 
-<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ skocz do <ELEMENT> elementu ze spisu treści;
+<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ skòcz do <ELEMENT> elementu ze spisënkù zamkłosce;
 
-<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ idź do <ELEMENT> paragrafu;
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ jidz do <ELEMENT> paragrafù;
 
 #SLOTS
 <QUERY> = WIKIPEDIA.SLOT.QUERY;
-<LANGUAGE_ACCUSATIVE> = angielskim | polskim | niemieckim | francuskim | włoskim | hiszpańskim | rosyjskim | chińskim | ukraińskim | arabskim | portugalskim;
-<LANGUAGE_LOCATIVE> = angielski | polski | niemiecki | francuski | włoski | hiszpański | rosyjski | chiński | ukraiński | arabski | portugalski;
-<ELEMENT> = pierwszego | drugiego | trzeciego | czwartego | piątego | szóstego | siódmego | ósmego | dziewiątego | dziesiątego;
+<LANGUAGE_ACCUSATIVE> = anielsczim | pòlsczim | miemiecczim | francësczim | italsczim | szpańsczim | rusczim | chińsczim | ùkrajińsczim | arabsczim | pòrtugalsczim;
+<LANGUAGE_LOCATIVE> = anielsczi | pòlsczi | miemiecczi | francësczi | italsczi | szpańsczi | rusczi | chińsczi | ùkrajińsczi | arabsczi | pòrtugalsczi;
+<ELEMENT> = pierszégò | drëdżégò | trzecégò | czwiôrtégò | piątégò | szóstégò | sódmégò | ósmégò | dzewiątégò | dzesątégò;

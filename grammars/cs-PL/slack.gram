@@ -5,217 +5,217 @@ public <S> = Slack__ (OpenSlack__ <INTENT_1> | CheckLastMessages__ <INTENT_2> | 
 #INTENTS
 ##1) OPEN SLACK
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
-<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ otwórz [aplikację | mojego] slacka;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ òdemkni [aplikacjã | mòjégò] slacka;
 
-<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ uruchom [aplikację | mojego] slacka;
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ ùruchòm [aplikacjã | mòjégò] slacka;
 
 <INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>;
-<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ wyświetl [aplikację | mojego] slacka;
-<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ pokaż [aplikację | mojego] slacka;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ wëswietl [aplikacjã | mòjégò] slacka;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ pòkôż [aplikacjã | mòjégò] slacka;
 
 <INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ slack;
 
 ##2) CHECK MESSAGES
 <INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
 <INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
-<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ sprawdź [mi] [moje] [ostatnie | najnowsze] wiadomości na slacku;
-<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ pokaż [mi] [moje] [ostatnie | najnowsze] wiadomości na slacku;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ sprôwdz [mie] [mòje] [òstatné | nônowszé] wiadła na slackù;
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ pòkôż [mie] [mòje] [òstatné | nônowszé] wiadła na slackù;
 
 <INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
-<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ wyświetl [mi] [moje] [ostatnie | najnowsze] wiadomości na slacku;
-<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ powiedz czy mam [nowe] wiadomości na slacku;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ wëswietl [mie] [mòje] [òstatné | nônowszé] wiadła na slackù;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ pòwiédz czë móm [nowé] wiadła na slackù;
 
 <INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
-<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ otwórz [moje] [ostatnie | najnowsze] wiadomości na slacku;
-<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ odśwież mojego slacka;
-<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ zupdateuj mojego slacka;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ òdemkni [mòje] [òstatné | nônowszé] wiadła na slackù;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ òdswiéż mòjégò slacka;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ zupdateuj mòjégò slacka;
 
-<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ czy coś się wydarzyło na slacku;
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ czë cos sã wëdarzëło na slackù;
 
 ##3) CHECK USER STATUS
 <INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
-<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ sprawdź [mi] status <USERNAME> [na slacku];
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ sprôwdz [mie] status <USERNAME> [na slackù];
 
-<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ jaki status ma <USERNAME> [na slacku];
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ jaczi status mô <USERNAME> [na slackù];
 
-<INTENT_3_L2TC> = L2TC__ verb_pattern_01__ [powiedz [mi]] czy <USERNAME> jest [w tym momencie | w tej chwili] (aktywny | dostępny) [na slacku];
+<INTENT_3_L2TC> = L2TC__ verb_pattern_01__ [pòwiédz [mie]] czë <USERNAME> je [w tim sztóce | w ti chwilë] (aktiwny | dostãpny) [na slackù];
 
-<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ (sprawdź co u <USERNAME> | czy mogę napisać do <USERNAME>);
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ (sprôwdz co kòl <USERNAME> | czë mògã napisac do <USERNAME>);
 
 ##4) CHECK MESSAGES FROM USER
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
 <INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
-<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ pokaż [mi] [ostatnie | najnowsze] wiadomości [które otrzymałem] od <SENDER> na slacku;
-<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ wyświetl [mi] [ostatnie | najnowsze] wiadomości [które otrzymałem] od <SENDER> na slacku;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż [mie] [òstatné | nônowszé] wiadła [jaczé jem òtrzëmôł] òd <SENDER> na slackù;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl [mie] [òstatné | nônowszé] wiadła [jaczé jem òtrzëmôł] òd <SENDER> na slackù;
 
-<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ sprawdź [moje] [ostatnie | najnowsze] wiadomości [które otrzymałem] od <SENDER> na slacku;
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ sprôwdz [mòje] [òstatné | nônowszé] wiadła [jaczé jem òtrzëmôł] òd <SENDER> na slackù;
 
 <INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4>;
-<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ otwórz [ostatnie | najnowsze] wiadomości [które otrzymałem] od <SENDER> na slacku;
-<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ powiedz [ostatnie | najnowsze] wiadomości [które otrzymałem] od <SENDER> na slacku;
-<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ jaką wiadomość dostałem od <SENDER> [na slacku];
-<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ co <SENDER> (napisał | napisała | napisało) na slacku;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ òdemkni [òstatné | nônowszé] wiadła [jaczé jem òtrzëmôł] òd <SENDER> na slackù;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ pòwiédz [òstatné | nônowszé] wiadła [jaczé jem òtrzëmôł] òd <SENDER> na slackù;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ jaczé wiadło jem dostôł òd <SENDER> [na slackù];
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ co <SENDER> (napisôł | napisała | napisało) na slackù;
 
-<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ sprawdź co dostałem od <USERNAME>;
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ sprôwdz co jem dostôł òd <USERNAME>;
 
 ##5) CHECK CHANNEL
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
 <INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
-<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ sprawdź [mi | moje] (<INTENT_5_a> | <INTENT_5_b>);
-<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ pokaż [mi] (<INTENT_5_a> | <INTENT_5_b>);
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ sprôwdz [mie | mòje] (<INTENT_5_a> | <INTENT_5_b>);
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ pòkôż [mie] (<INTENT_5_a> | <INTENT_5_b>);
 
-<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ wyświetl [mi] (<INTENT_5_a> | <INTENT_5_b>);
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ wëswietl [mie] (<INTENT_5_a> | <INTENT_5_b>);
 
 <INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3> | <INTENT_5_L2TC_4>;
-<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ otwórz (<INTENT_5_a> | <INTENT_5_b>);
-<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ powiedz (<INTENT_5_a> | <INTENT_5_b>);
-<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ jakie wiadomości (otrzymałem | otrzymałam | dostałem | dostałam | napisano | napisali) na kanale <CHANNEL>;
-<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ co (otrzymałem | otrzymałam | dostałem | dostałam | napisano | napisali) na kanale <CHANNEL>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ òdemkni (<INTENT_5_a> | <INTENT_5_b>);
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ pòwiédz (<INTENT_5_a> | <INTENT_5_b>);
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ jaczé wiadła (jem òtrzëmôł | jem òtrzëmała | jem dostôł | jem dostała | je napisóné | napiselë) na karnôlu <CHANNEL>;
+<INTENT_5_L2TC_4> = L2TC__ verb_pattern_04__ co (jem òtrzëmôł | jem òtrzëmała | jem dostôł | jem dostała | je napisóné | napiselë) na karnôlu <CHANNEL>;
 
-<INTENT_5_a> = (ostatnie | najnowsze) wiadomości [które (otrzymałem | dostałem)] (w | na) kanale <CHANNEL>;
-<INTENT_5_b> = wiadomości na slackowym kanale <CHANNEL> (w ciągu ostatniej godziny | ostatnio);
+<INTENT_5_a> = (òstatné | nônowszé) wiadła [jaczé (jem òtrzëmôł | jem dostôł)] (w | na) karnôlu <CHANNEL>;
+<INTENT_5_b> = wiadła na slackòwim karnôlu <CHANNEL> (òb czas òstatny gòdzënë | òstatno);
 
 <INTENT_5_REPHRASE> = <INTENT_5_REPHRASE_1> | <INTENT_5_REPHRASE_2>;
-<INTENT_5_REPHRASE_1> = REPHRASE__ verb_pattern_01__ co powiedzieli na <CHANNEL>;
-<INTENT_5_REPHRASE_2> = REPHRASE__ verb_pattern_02__ sprawdź zmiany na <CHANNEL>;
+<INTENT_5_REPHRASE_1> = REPHRASE__ verb_pattern_01__ co rzeklë na <CHANNEL>;
+<INTENT_5_REPHRASE_2> = REPHRASE__ verb_pattern_02__ sprôwdz zmianë na <CHANNEL>;
 
 ##6) SEND TO CHANNEL
 <INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
 
 <INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
-<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ wyślij [wiadomość] <MESSAGE> na ([slackowy] kanał | [slackowym] kanale) <CHANNEL>;
-<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ napisz [wiadomość] <MESSAGE> na ([slackowy] kanał | [slackowym] kanale) <CHANNEL>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ wësli [wiadło] <MESSAGE> na ([slackòwi] karnôl| [slackòwim] karnôlu) <CHANNEL>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ napisz [wiadło] <MESSAGE> na ([slackòwi] karnôl| [slackòwim] karnôlu) <CHANNEL>;
 
 <INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2> | <INTENT_6_L1TC_3>;
-<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ wyślij wiadomość na [[slackowy] kanał | [slackowym] kanale] <CHANNEL> o treści <MESSAGE>;
-<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ napisz wiadomość na [[slackowy] kanał | [slackowym] kanale] <CHANNEL> o treści <MESSAGE>;
-<INTENT_6_L1TC_3> = L1TC__ verb_pattern_03__ napisz na [kanał | kanale] <CHANNEL> że <MESSAGE>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ wësli wiadło na [[slackòwi] karnôl| [slackòwim] karnôlu] <CHANNEL> ò tresce <MESSAGE>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ napisz wiadło na [[slackòwi] karnôl| [slackòwim] karnôlu] <CHANNEL> ò tresce <MESSAGE>;
+<INTENT_6_L1TC_3> = L1TC__ verb_pattern_03__ napisz na [karnôl| karnôlu] <CHANNEL> że <MESSAGE>;
 
 <INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3> | <INTENT_6_L2TC_4> | <INTENT_6_L2TC_5> | <INTENT_6_L2TC_6> | <INTENT_6_L2TC_7> | <INTENT_6_L2TC_8>;
-<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ powiedz na [kanale] <CHANNEL> że <MESSAGE>;
-<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ poinformuj [kanał] <CHANNEL> że <MESSAGE>;
-<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ post na [kanał] <CHANNEL> że <MESSAGE>;
-<INTENT_6_L2TC_4> = L2TC__ verb_pattern_04__ utwórz wiadomość <MESSAGE> na ([slackowy] kanał | [slackowym] kanale) <CHANNEL>;
-<INTENT_6_L2TC_5> = L2TC__ verb_pattern_05__ stwórz wiadomość <MESSAGE> na ([slackowy] kanał | [slackowym] kanale) <CHANNEL>;
-<INTENT_6_L2TC_6> = L2TC__ verb_pattern_06__ prześlij wiadomość na [[slackowy] kanał | [slackowym] kanale] <CHANNEL> o treści <MESSAGE>;
-<INTENT_6_L2TC_7> = L2TC__ verb_pattern_07__ utwórz wiadomość na [[slackowy] kanał | [slackowym] kanale] <CHANNEL> o treści <MESSAGE>;
-<INTENT_6_L2TC_8> = L2TC__ verb_pattern_08__ prześlij <MESSAGE> na ([slackowy] kanał | [slackowym] kanale) <CHANNEL>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ pòwiédz na [karnôlu] <CHANNEL> że <MESSAGE>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ pòinfòrmùj [karnôl] <CHANNEL> że <MESSAGE>;
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ pòst na [karnôl] <CHANNEL> że <MESSAGE>;
+<INTENT_6_L2TC_4> = L2TC__ verb_pattern_04__ ùtwórz wiadło <MESSAGE> na ([slackòwi] karnôl| [slackòwim] karnôlu) <CHANNEL>;
+<INTENT_6_L2TC_5> = L2TC__ verb_pattern_05__ stwórz wiadło <MESSAGE> na ([slackòwi] karnôl| [slackòwim] karnôlu) <CHANNEL>;
+<INTENT_6_L2TC_6> = L2TC__ verb_pattern_06__ przesli wiadło na [[slackòwi] karnôl| [slackòwim] karnôlu] <CHANNEL> ò tresce <MESSAGE>;
+<INTENT_6_L2TC_7> = L2TC__ verb_pattern_07__ ùtwórz wiadło na [[slackòwi] karnôl| [slackòwim] karnôlu] <CHANNEL> ò tresce <MESSAGE>;
+<INTENT_6_L2TC_8> = L2TC__ verb_pattern_08__ przesli <MESSAGE> na ([slackòwi] karnôl| [slackòwim] karnôlu) <CHANNEL>;
 
-<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ (napisz | transkrybuj) <MESSAGE> i prześlij to na kanał <CHANNEL>;
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ (napisz | transkribùj) <MESSAGE> i przesli to na karnôl<CHANNEL>;
 
 ##7) CHANGE CHANNEL PURPOSE
 # channel's purpose is a short description of the channel's intended use
 <INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
 <INTENT_7_L0TC> = <INTENT_7_L0TC_1> | <INTENT_7_L0TC_2>;
-<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ ustaw cel [[slackowego] kanału] <CHANNEL> na <PURPOSE>;
-<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ zmień cel [[slackowego] kanału] <CHANNEL> na <PURPOSE>;
+<INTENT_7_L0TC_1> = L0TC__ verb_pattern_01__ ùstôw cél [[slackowego] karnôlu] <CHANNEL> na <PURPOSE>;
+<INTENT_7_L0TC_2> = L0TC__ verb_pattern_02__ zmień cél [[slackowego] karnôlu] <CHANNEL> na <PURPOSE>;
 
-<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ celem kanału <CHANNEL> jest <PURPOSE>;
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ célã karnôlu <CHANNEL> je <PURPOSE>;
 
-<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ niech <PURPOSE> będzie celem [[slackowego] kanału] <CHANNEL>;
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ niech <PURPOSE> bãdze célã [[slackowego] karnôlu] <CHANNEL>;
 
-<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ (ten kanał ma na celu <PURPOSE> | kanał <CHANNEL> jest o <PURPOSE>);
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ (ten karnôl mô na célu <PURPOSE> | karnôl<CHANNEL> je ò <PURPOSE>);
 
 ##8) CHANGE CHANNEL TOPIC
 # channel's topic is a quick way to let people know what members in the channel are working on or important dates like project deadlines
 <INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
 <INTENT_8_L0TC> = <INTENT_8_L0TC_1> | <INTENT_8_L0TC_2>;
-<INTENT_8_L0TC_1> = L0TC__ verb_pattern_01__ ustaw temat [[slackowego] kanału] <CHANNEL> na <TOPIC>;
-<INTENT_8_L0TC_2> = L0TC__ verb_pattern_02__ zmień temat [[slackowego] kanału] <CHANNEL> na <TOPIC>;
+<INTENT_8_L0TC_1> = L0TC__ verb_pattern_01__ ùstôw témã [[slackowego] karnôlu] <CHANNEL> na <TOPIC>;
+<INTENT_8_L0TC_2> = L0TC__ verb_pattern_02__ zmień témã [[slackowego] karnôlu] <CHANNEL> na <TOPIC>;
 
-<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ tematem kanału <CHANNEL> jest <TOPIC>;
+<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ témą karnôlu <CHANNEL> je <TOPIC>;
 
-<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ niech <TOPIC> będzie tematem [[slackowego] kanału] <CHANNEL>;
+<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ niech <TOPIC> bãdze témą [[slackowego] karnôlu] <CHANNEL>;
 
-<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ (ten kanał jest o <TOPIC> | kanał <CHANNEL> jest o <TOPIC>);
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ (ten karnôl je ò <TOPIC> | karnôl<CHANNEL> je ò <TOPIC>);
 
 ##9) CHANGE MY STATUS
 <INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
 <INTENT_9_L0TC> = <INTENT_9_L0TC_1> | <INTENT_9_L0TC_2>;
-<INTENT_9_L0TC_1> = L0TC__ verb_pattern_01__ ustaw [mój] status na slacku na (niedostępny | niedostępną | nieobecnego | nieobecną);
-<INTENT_9_L0TC_2> = L0TC__ verb_pattern_02__ zmień [mój] status na slacku na (niedostępny | niedostępną | nieobecnego | nieobecną);
+<INTENT_9_L0TC_1> = L0TC__ verb_pattern_01__ ùstôw [mój] status na slackù na (niedostãpny | niedostãpną | niebëtnégò | niebëtną);
+<INTENT_9_L0TC_2> = L0TC__ verb_pattern_02__ zmień [mój] status na slackù na (niedostãpny | niedostãpną | niebëtnégò | niebëtną);
 
-<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ oznacz mnie jako (niedostępnego | niedostępną | nieobecnego | nieobecną) [na slacku];
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ òznôcz mie jakò (niedostãpnégò | niedostãpną | niebëtnégò | niebëtną) [na slackù];
 
 <INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2>;
-<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ przełącz mój stan na slacku na (niedostępny | niedostępna);
-<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ jestem (niedostępny | niedostępna);
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ przełącz mój stón na slackù na (niedostãpny | niedostãpnô);
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ jem (niedostãpny | niedostãpnô);
 
-<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ nie ma mnie [dla nikogo];
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ ni ma mie [dlô nikògò];
 
 ##10) SEND MESSAGE
 <INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
 <INTENT_10_L0TC> = <INTENT_10_L0TC_1> | <INTENT_10_L0TC_2>;
-<INTENT_10_L0TC_1> = L0TC__ verb_pattern_01__ wyślij wiadomość (na slacku | na slacka);
-<INTENT_10_L0TC_2> = L0TC__ verb_pattern_02__ napisz wiadomość (na slacku | na slacka);
+<INTENT_10_L0TC_1> = L0TC__ verb_pattern_01__ wësli wiadło (na slackù | na slacka);
+<INTENT_10_L0TC_2> = L0TC__ verb_pattern_02__ napisz wiadło (na slackù | na slacka);
 
 <INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2> | <INTENT_10_L1TC_3>;
-<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ prześlij wiadomość (na slacku | na slacka);
-<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ utwórz wiadomość (na slacku | na slacka);
-<INTENT_10_L1TC_3> = L1TC__ verb_pattern_03__ stwórz wiadomość (na slacku | na slacka);
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ przesli wiadło (na slackù | na slacka);
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ ùtwórz wiadło (na slackù | na slacka);
+<INTENT_10_L1TC_3> = L1TC__ verb_pattern_03__ stwórz wiadło (na slackù | na slacka);
 
-<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ (na slacku | na slacka) napisz wiadomość;
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ (na slackù | na slacka) napisz wiadło;
 
-<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ powiedz coś innym przez slacka;
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ pòwiédz cos jinym przez slacka;
 
 ##11) SEND PICTURE TO CHANNEL
 <INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
 <INTENT_11_L0TC> = <INTENT_11_L0TC_1> | <INTENT_11_L0TC_2>;
-<INTENT_11_L0TC_1> = L0TC__ verb_pattern_01__ wyślij (zdjęcie | film | filmik | gif | coś) na kanał [na slacku | slackowy] <CHANNEL>;
-<INTENT_11_L0TC_2> = L0TC__ verb_pattern_02__ prześlij (zdjęcie | film | filmik | gif | coś) na kanał [na slacku | slackowy] <CHANNEL>;
+<INTENT_11_L0TC_1> = L0TC__ verb_pattern_01__ wësli (òdjimk | film | filmik | gif | cos) na karnôl[na slackù | slackòwi] <CHANNEL>;
+<INTENT_11_L0TC_2> = L0TC__ verb_pattern_02__ przesli (òdjimk | film | filmik | gif | cos) na karnôl[na slackù | slackòwi] <CHANNEL>;
 
 <INTENT_11_L1TC> = <INTENT_11_L1TC_1> | <INTENT_11_L1TC_2> | <INTENT_11_L1TC_3> | <INTENT_11_L1TC_4>;
-<INTENT_11_L1TC_1> = L1TC__ verb_pattern_01__ udostępnij (zdjęcie | film | filmik | gif | coś) na kanał [na slacku | slackowy] <CHANNEL>;
-<INTENT_11_L1TC_2> = L1TC__ verb_pattern_02__ wyślij na [[slackowy] kanał | [slackowym] kanale] <CHANNEL> (zdjęcie | film | filmik | gif | coś);
-<INTENT_11_L1TC_3> = L1TC__ verb_pattern_03__ prześlij na [[slackowy] kanał | [slackowym] kanale] <CHANNEL> (zdjęcie | film | filmik | gif | coś);
-<INTENT_11_L1TC_4> = L1TC__ verb_pattern_04__ udostępnij na [[slackowy] kanał | [slackowym] kanale] <CHANNEL> (zdjęcie | film | filmik | gif | coś);
+<INTENT_11_L1TC_1> = L1TC__ verb_pattern_01__ ùprzëstãpni (òdjimk | film | filmik | gif | cos) na karnôl[na slackù | slackòwi] <CHANNEL>;
+<INTENT_11_L1TC_2> = L1TC__ verb_pattern_02__ wësli na [[slackòwi] karnôl| [slackòwim] karnôlu] <CHANNEL> (òdjimk | film | filmik | gif | cos);
+<INTENT_11_L1TC_3> = L1TC__ verb_pattern_03__ przesli na [[slackòwi] karnôl| [slackòwim] karnôlu] <CHANNEL> (òdjimk | film | filmik | gif | cos);
+<INTENT_11_L1TC_4> = L1TC__ verb_pattern_04__ ùprzëstãpni na [[slackòwi] karnôl| [slackòwim] karnôlu] <CHANNEL> (òdjimk | film | filmik | gif | cos);
 
-<INTENT_11_L2TC> = L2TC__ verb_pattern_01__ przenieś (zdjęcie | film | filmik | gif | coś) na kanał [na slacku | slackowy] <CHANNEL>;
+<INTENT_11_L2TC> = L2TC__ verb_pattern_01__ przenies (òdjimk | film | filmik | gif | cos) na karnôl[na slackù | slackòwi] <CHANNEL>;
 
-<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ podziel się zdjęciem [z ludzmi] na kanale <CHANNEL>;
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__ pòdzél sã òdjimkã [z lëdzama] na karnôlu <CHANNEL>;
 
 ##12) SEND PICTURE TO CHANNEL WITH CAPTION
 <INTENT_12> = <INTENT_12_L0TC> | <INTENT_12_L1TC> | <INTENT_12_L2TC> | <INTENT_12_REPHRASE>;
 <INTENT_12_L0TC> = <INTENT_12_L0TC_1> | <INTENT_12_L0TC_2>;
-<INTENT_12_L0TC_1> = L0TC__ verb_pattern_01__ wyślij zdjęcie na [slackowy] kanał <CHANNEL> (z podpisem | z opisem) <CAPTION>;
-<INTENT_12_L0TC_2> = L0TC__ verb_pattern_02__ prześlij zdjęcie na [slackowy] kanał <CHANNEL> (z podpisem | z opisem) <CAPTION>;
+<INTENT_12_L0TC_1> = L0TC__ verb_pattern_01__ wësli òdjimk na [slackòwi] karnôl<CHANNEL> (z pòdpisã | z opisã) <CAPTION>;
+<INTENT_12_L0TC_2> = L0TC__ verb_pattern_02__ przesli òdjimk na [slackòwi] karnôl<CHANNEL> (z pòdpisã | z opisã) <CAPTION>;
 
-<INTENT_12_L1TC> = L1TC__ verb_pattern_01__ udostępnij zdjęcie na [slackowy] kanał <CHANNEL> (z podpisem | z opisem) <CAPTION>;
+<INTENT_12_L1TC> = L1TC__ verb_pattern_01__ ùprzëstãpni òdjimk na [slackòwi] karnôl<CHANNEL> (z pòdpisã | z opisã) <CAPTION>;
 
 <INTENT_12_L2TC> = <INTENT_12_L2TC_1> | <INTENT_12_L2TC_2> | <INTENT_12_L2TC_3>;
-<INTENT_12_L2TC_1> = L2TC__ verb_pattern_01__ utwórz wiadomość ze zdjęcie na [slackowy] kanał <CHANNEL> (z podpisem | z opisem) <CAPTION>;
-<INTENT_12_L2TC_2> = L2TC__ verb_pattern_02__ stwórz wiadomość ze zdjęcie na [slackowy] kanał <CHANNEL> (z podpisem | z opisem) <CAPTION>;
-<INTENT_12_L2TC_3> = L2TC__ verb_pattern_03__ napisz wiadomość ze zdjęciem na [slackowy] kanał <CHANNEL> ([i] z podpisem | [i] z opisem) <CAPTION>;
+<INTENT_12_L2TC_1> = L2TC__ verb_pattern_01__ ùtwórz wiadło z òdjimkã na [slackòwi] karnôl<CHANNEL> (z pòdpisã | z opisã) <CAPTION>;
+<INTENT_12_L2TC_2> = L2TC__ verb_pattern_02__ stwórz wiadło z òdjimkã na [slackòwi] karnôl<CHANNEL> (z pòdpisã | z opisã) <CAPTION>;
+<INTENT_12_L2TC_3> = L2TC__ verb_pattern_03__ napisz wiadło z òdjimkã na [slackòwi] karnôl<CHANNEL> ([i] z pòdpisã | [i] z opisã) <CAPTION>;
 
-<INTENT_12_REPHRASE> = REPHRASE__ verb_pattern_01__ podziel się zdjęciem z podpisem <CAPTION> [z ludzmi] na kanale <CHANNEL>;
+<INTENT_12_REPHRASE> = REPHRASE__ verb_pattern_01__ pòdzél sã òdjimkã z pòdpisã <CAPTION> [z lëdzama] na karnôlu <CHANNEL>;
 
 ##13) SEND URL TO CHANNEL
 <INTENT_13> = <INTENT_13_L0TC> | <INTENT_13_L1TC> | <INTENT_13_L2TC> | <INTENT_13_REPHRASE>;
 <INTENT_13_L0TC> = <INTENT_13_L0TC_1> | <INTENT_13_L0TC_2>;
-<INTENT_13_L0TC_1> = L0TC__ verb_pattern_01__ wyślij zdjęcie z <PICTURE_URL> na [slackowy] kanał <CHANNEL>;
-<INTENT_13_L0TC_2> = L0TC__ verb_pattern_02__ prześlij zdjęcie z <PICTURE_URL> na [slackowy] kanał <CHANNEL>;
+<INTENT_13_L0TC_1> = L0TC__ verb_pattern_01__ wësli òdjimk z <PICTURE_URL> na [slackòwi] karnôl<CHANNEL>;
+<INTENT_13_L0TC_2> = L0TC__ verb_pattern_02__ przesli òdjimk z <PICTURE_URL> na [slackòwi] karnôl<CHANNEL>;
 
 <INTENT_13_L1TC> = <INTENT_13_L1TC_1> | <INTENT_13_L1TC_2>;
-<INTENT_13_L1TC_1> = L1TC__ verb_pattern_01__ napisz zdjęcie z <PICTURE_URL> na [slackowy] kanał <CHANNEL>;
-<INTENT_13_L1TC_2> = L1TC__ verb_pattern_02__ utwórz zdjęcie z <PICTURE_URL> na [slackowy] kanał <CHANNEL>;
+<INTENT_13_L1TC_1> = L1TC__ verb_pattern_01__ napisz òdjimk z <PICTURE_URL> na [slackòwi] karnôl<CHANNEL>;
+<INTENT_13_L1TC_2> = L1TC__ verb_pattern_02__ ùtwórz òdjimk z <PICTURE_URL> na [slackòwi] karnôl<CHANNEL>;
 
-<INTENT_13_L2TC> = L2TC__ verb_pattern_01__ umieść <PICTURE_URL> na kanale <CHANNEL>;
+<INTENT_13_L2TC> = L2TC__ verb_pattern_01__ ùmiesc <PICTURE_URL> na karnôlu <CHANNEL>;
 
-<INTENT_13_REPHRASE> = REPHRASE__ verb_pattern_01__ podziel się linkiem przez slacka;
+<INTENT_13_REPHRASE> = REPHRASE__ verb_pattern_01__ pòdzél sã linkã przez slacka;
 
 ##14) CHECK HISTORY
 <INTENT_14> = <INTENT_14_L0TC> | <INTENT_14_L1TC> | <INTENT_14_L2TC> | <INTENT_14_REPHRASE>;
 <INTENT_14_L0TC> = <INTENT_14_L0TC_1> | <INTENT_14_L0TC_2>;
-<INTENT_14_L0TC_1> = L0TC__ verb_pattern_01__ wyświetl historię kanału [na slacku];
-<INTENT_14_L0TC_2> = L0TC__ verb_pattern_02__ pokaż historię kanału [na slacku];
+<INTENT_14_L0TC_1> = L0TC__ verb_pattern_01__ wëswietl historiã karnôlu [na slackù];
+<INTENT_14_L0TC_2> = L0TC__ verb_pattern_02__ pòkôż historiã karnôlu [na slackù];
 
-<INTENT_14_L1TC> = L1TC__ verb_pattern_01__ sprawdź historię kanału [na slacku];
+<INTENT_14_L1TC> = L1TC__ verb_pattern_01__ sprôwdz historiã karnôlu [na slackù];
 
 <INTENT_14_L2TC> = <INTENT_14_L2TC_1> | <INTENT_14_L2TC_2>;
-<INTENT_14_L2TC_1> = L2TC__ verb_pattern_01__ wprowadź mnie w historię kanału [na slacku];
-<INTENT_14_L2TC_2> = L2TC__ verb_pattern_02__ przedstaw mi historię kanału [na slacku];
+<INTENT_14_L2TC_1> = L2TC__ verb_pattern_01__ wprowôdz mie w historiã karnôlu [na slackù];
+<INTENT_14_L2TC_2> = L2TC__ verb_pattern_02__ przedstôw mi historiã karnôlu [na slackù];
 
-<INTENT_14_REPHRASE> = REPHRASE__ verb_pattern_01__ pokaż wszystkie wiadomości z kanału;
+<INTENT_14_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż wszëtczé wiadła z karnôlu;
 
 #SLOTS
 <USERNAME> = SLACK.SLOT.USERNAME;
