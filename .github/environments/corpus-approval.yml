@@ -1,0 +1,7 @@
+name: corpus-approval
+protection_rules:
+  required_reviewers: 1
+  prevent_self_review: true
+reviewers:
+  - type: User
+    id: cartesinus
