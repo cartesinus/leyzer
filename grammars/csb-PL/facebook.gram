@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | pòstStatus__ <INTENT_2> | pòstPicture__ <INTENT_3> | pòstPictureWithCaption__ <INTENT_4> | pòstPictureWithUrl__ <INTENT_5> | pòstPictureWithUrlAndWithCaption__ <INTENT_6> | ShowAlbumWithName__ <INTENT_7>);
+public <S> = Facebook__ (OpenFacebook__ <INTENT_1> | PostStatus__ <INTENT_2> | postPicture__ <INTENT_3> | postPictureWithCaption__ <INTENT_4> | postPictureWithUrl__ <INTENT_5> | postPictureWithUrlAndWithCaption__ <INTENT_6> | ShowAlbumWithName__ <INTENT_7>);
 
 #INTENTS
 ##1) OPEN FACEBOOK

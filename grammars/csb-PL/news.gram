@@ -1,13 +1,13 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | NotifyWhenpòrtalupdates__ <INTENT_3> | NotifyWhenpòrtalupdatesInSection__ <INTENT_4>);
+public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | NotifyWhenportalupdates__ <INTENT_3> | NotifyWhenportalupdatesInSection__ <INTENT_4>);
 
 #PRECONDITIONS
 <WHEN_1> = (czedë | żlë | jeżlë) <PORTAL> (dodô nowé (wiadła | newsë | artikle) | sã zaktualizëje);
-<WHEN_2> = (czedë | żlë | jeżlë) <PORTAL> (w sekcje | w dzélu) <SECTION> òpùblikuje [nowe] (artikle | wiadła);
+<WHEN_2> = (czedë | żlë | jeżlë) <PORTAL> (w sekcje | w dzélu) <SECTION> òpùblikuje [nowé] (artikle | wiadła);
 
 #INTENTS
-##1) SHOW NEWS FROM pòRTAL
+##1) SHOW NEWS FROM PORTAL
 <INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
 <INTENT_1_L0TC> = L0TC__ verb_pattern_01__ pòkôż <PORTAL>;
 

@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> | SearchByRating__ <INTENT_3> | SearchByCategòry__ <INTENT_4> | OpenRestaurants__ <INTENT_5> | SearchByReviewCount__ <INTENT_6> | SearchInLocation__ <INTENT_7> | SearchByQueryInLocation__ <INTENT_8> | SearchByRatingInLocation__ <INTENT_9> | SearchByCategòryInLocation__ <INTENT_10> | SearchByReviewCountInLocation__ <INTENT_11> | OpenRestaurantsInLocation__ <INTENT_12>);
+public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> | SearchByRating__ <INTENT_3> | SearchByCATEGORY__ <INTENT_4> | OpenRestaurants__ <INTENT_5> | SearchByReviewCount__ <INTENT_6> | SearchInLocation__ <INTENT_7> | SearchByQueryInLocation__ <INTENT_8> | SearchByRatingInLocation__ <INTENT_9> | SearchByCATEGORYInLocation__ <INTENT_10> | SearchByReviewCountInLocation__ <INTENT_11> | OpenRestaurantsInLocation__ <INTENT_12>);
 
 #INTENTS
 ##1) FIND RESTAURANT AROUND
@@ -56,26 +56,26 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 
 <INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ szëkóm môlu <AROUND> z <RATING> gwiôzdkama;
 
-##4) SEARCH BY CAtegòRY
+##4) SEARCH BY CATEGORY
 <INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
 <INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2> | <INTENT_4_L0TC_3>;
-<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ naléz (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CAtegòRY_B> | <CAtegòRY_A>) <AROUND>;
-<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ wëszëkôj (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CAtegòRY_B> | <CAtegòRY_A>) <AROUND>;
-<INTENT_4_L0TC_3> = L0TC__ verb_pattern_03__ pòkôż (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CAtegòRY_B> | <CAtegòRY_A>) <AROUND>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ naléz (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ wëszëkôj (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L0TC_3> = L0TC__ verb_pattern_03__ pòkôż (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
 
 <INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
-<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ szëkôj (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CAtegòRY_B> | <CAtegòRY_A>) <AROUND>;
-<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ wëswietl (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CAtegòRY_B> | <CAtegòRY_A>) <AROUND>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ szëkôj (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ wëswietl (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
 
 <INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3> | <INTENT_4_L2TC_4> | <INTENT_4_L2TC_5> | <INTENT_4_L2TC_6>;
-<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ wskôż [mie] restaùracje (z kategòrie <CAtegòRY_B> | <CAtegòRY_A>) <AROUND>;
-<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ pòlec [mie] restaùracje (z kategòrie <CAtegòRY_B> | <CAtegòRY_A>) <AROUND>;
-<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ chcã òbaczëc (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CAtegòRY_B> | <CAtegòRY_A>) <AROUND>;
-<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ chcã pójsc do restaùracje (z kategòrie <CAtegòRY_B> | <CAtegòRY_A>) <AROUND>;
-<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ chcã zjesc w restaùracje (z kategòrie <CAtegòRY_B> | <CAtegòRY_A>) <AROUND>;
-<INTENT_4_L2TC_6> = L2TC__ verb_pattern_06__ gdze nalézã restaùracjã (z kategòrie <CAtegòRY_B> | <CAtegòRY_A>)<AROUND>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ wskôż [mie] restaùracje (z kategòrie <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ pòlec [mie] restaùracje (z kategòrie <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ chcã òbaczëc (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L2TC_4> = L2TC__ verb_pattern_04__ chcã pójsc do restaùracje (z kategòrie <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L2TC_5> = L2TC__ verb_pattern_05__ chcã zjesc w restaùracje (z kategòrie <CATEGORY_B> | <CATEGORY_A>) <AROUND>;
+<INTENT_4_L2TC_6> = L2TC__ verb_pattern_06__ gdze nalézã restaùracjã (z kategòrie <CATEGORY_B> | <CATEGORY_A>)<AROUND>;
 
-<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ szëkóm môlu z kategòrie <CAtegòRY_B> <AROUND>;
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ szëkóm môlu z kategòrie <CATEGORY_B> <AROUND>;
 
 ##5) FIND OPEN
 <INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
@@ -157,21 +157,21 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 
 <INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ szëkóm môlu w <LOCATION> z <RATING> gwiôzdkama;
 
-##10) SEARCH BY CAtegòRY IN LOCATION
+##10) SEARCH BY CATEGORY IN LOCATION
 <INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
 <INTENT_10_L0TC> = <INTENT_10_L0TC_1> | <INTENT_10_L0TC_2>;
-<INTENT_10_L0TC_1> = L0TC__ verb_pattern_01__ naléz (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CAtegòRY_B> | <CAtegòRY_A>) <AROUND> <LOCATION>;
-<INTENT_10_L0TC_2> = L0TC__ verb_pattern_02__ pòkôż (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CAtegòRY_B> | <CAtegòRY_A>) <AROUND> <LOCATION>;
+<INTENT_10_L0TC_1> = L0TC__ verb_pattern_01__ naléz (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CATEGORY_B> | <CATEGORY_A>) <AROUND> <LOCATION>;
+<INTENT_10_L0TC_2> = L0TC__ verb_pattern_02__ pòkôż (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CATEGORY_B> | <CATEGORY_A>) <AROUND> <LOCATION>;
 
 <INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2>;
-<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ wëszëkôj (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CAtegòRY_B> | <CAtegòRY_A>) <AROUND> <LOCATION>;
-<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ wëswietl (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CAtegòRY_B> | <CAtegòRY_A>) <AROUND> <LOCATION>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ wëszëkôj (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CATEGORY_B> | <CATEGORY_A>) <AROUND> <LOCATION>;
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ wëswietl (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CATEGORY_B> | <CATEGORY_A>) <AROUND> <LOCATION>;
 
 <INTENT_10_L2TC> = <INTENT_10_L2TC_1> | <INTENT_10_L2TC_2>;
-<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ pòwiédz [mie] gdze nalézã (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CAtegòRY_B> | <CAtegòRY_A>) <AROUND> <LOCATION>;
-<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ pòlec [mie] (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CAtegòRY_B> | <CAtegòRY_A>) <AROUND> <LOCATION>;
+<INTENT_10_L2TC_1> = L2TC__ verb_pattern_01__ pòwiédz [mie] gdze nalézã (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CATEGORY_B> | <CATEGORY_A>) <AROUND> <LOCATION>;
+<INTENT_10_L2TC_2> = L2TC__ verb_pattern_02__ pòlec [mie] (restaùracje | jestkù) ((w kategòrie | z kategòrie) <CATEGORY_B> | <CATEGORY_A>) <AROUND> <LOCATION>;
 
-<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ szëkóm môlu z (kategòrie <CAtegòRY_B> | <CAtegòRY_A>) w <LOCATION>;
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ szëkóm môlu z (kategòrie <CATEGORY_B> | <CATEGORY_A>) w <LOCATION>;
 
 ##11) SEARCH IN LOCATOIN WITH REVIEW COUNT
 <INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
@@ -210,8 +210,8 @@ public <S> = Yelp__ (SearchRestaurant__ <INTENT_1> | SearchByQuery__ <INTENT_2> 
 <QUERY> = YELP.SLOT.QUERY;
 <REVIEW_COUNT> = YELP.SLOT.REVIEW_COUNT;
 <RATING> = YELP.SLOT.RATING;
-<CAtegòRY_A> = YELP.SLOT.CAtegòRY_A;
-<CAtegòRY_B> = YELP.SLOT.CAtegòRY_B;
+<CATEGORY_A> = YELP.SLOT.CATEGORY_A;
+<CATEGORY_B> = YELP.SLOT.CATEGORY_B;
 
 #LANG. COMPONENTS
 <AROUND> = w pòblëżim | w òkòlim;
