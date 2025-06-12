@@ -1,6 +1,6 @@
 #JSGF V1.0;
 #VUI-VERSION: 0.2.0;
-public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | Showbmi__ <INTENT_3> | AddWeight__ <INTENT_4> | NotifyOnWeight__ <INTENT_5>);
+public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | ShowBMI__ <INTENT_3> | AddWeight__ <INTENT_4> | NotifyOnWeight__ <INTENT_5>);
 
 #PRECONDITION
 <WHEN_1> = czedë (mòja waga (bãdze wiãkszô niż | przekroczi) | bãdã (cãższi | cãższô) niż | przëtëjã wëżi jak) <WEIGHT>;
