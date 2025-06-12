@@ -99,7 +99,7 @@ jobs:
         # Use the config file if it exists, otherwise generate patterns individually
         if [ -f "$config_file" ]; then
           echo "Using config file: $config_file"
-          python scripts/generate_patterns.py -c "$config_file"
+          python scripts/generate_patterns.py -c "$config_file" --split-domains --output-dir "patterns/${{ env.LANGUAGE }}"
         else
           echo "No config file found, generating patterns for each grammar file"
           for grammar_file in grammars/${{ env.LANGUAGE }}/*.gram; do
