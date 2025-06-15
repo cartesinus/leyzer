@@ -49,17 +49,42 @@ function substitute_slots {
        return 0
    fi
 
+   # Count initial occurrences
+   local initial_count=$(grep -o "$slot" "$WORK_FILE" | wc -l)
+   if [ "$initial_count" -eq 0 ]; then
+       return 0
+   fi
+
+   echo "  Processing $initial_count occurrences of $slot"
+
    while IFS= read -r text; do
        # Skip empty lines
        [ -z "$text" ] && continue
 
+       # Check if slot still exists in file before processing
+       if ! grep -q "$slot" "$WORK_FILE"; then
+           break
+       fi
+
        if [ "$ADD_BIO" = "true" ]; then
            short_slot=$(echo "$slot" | sed 's/.*\.SLOT\.//g')
-           # Use temporary file for sed operations
-           sed "0,/$slot/ s|$slot|{$short_slot:$text}|" "$WORK_FILE" > "$WORK_FILE.tmp" && mv "$WORK_FILE.tmp" "$WORK_FILE"
+           # Use more precise sed with line-by-line processing to avoid infinite loops
+           sed "1,/$slot/{s|$slot|{$short_slot:$text}|;}" "$WORK_FILE" > "$WORK_FILE.tmp" && mv "$WORK_FILE.tmp" "$WORK_FILE"
        else
-           sed "0,/$slot/ s|$slot|$text|" "$WORK_FILE" > "$WORK_FILE.tmp" && mv "$WORK_FILE.tmp" "$WORK_FILE"
+           # Use more precise sed with line-by-line processing to avoid infinite loops
+           sed "1,/$slot/{s|$slot|$text|;}" "$WORK_FILE" > "$WORK_FILE.tmp" && mv "$WORK_FILE.tmp" "$WORK_FILE"
        fi
+
+       # Safety check: if we're in repeat mode and nothing changed, break to avoid infinite loop
+       if [ "$REPEAT" = "true" ]; then
+           local current_count=$(grep -o "$slot" "$WORK_FILE" | wc -l)
+           if [ "$current_count" -eq "$initial_count" ]; then
+               echo "  Warning: No progress made on $slot, stopping to avoid infinite loop"
+               break
+           fi
+           initial_count=$current_count
+       fi
+
    done < "$slot_file"
 }
 
@@ -68,15 +93,40 @@ sed -i 's/__ /__\t/g' "$WORK_FILE"
 
 # Process slots if directory exists and has files
 if [ -d "$SLOTS_DIR" ] && [ "$(ls -A "$SLOTS_DIR" 2>/dev/null)" ]; then
-   for slot_file in "$SLOTS_DIR"/*; do
+   # Create a list of slot files sorted by length (longest first) to avoid substring issues
+   slot_files_sorted=$(find "$SLOTS_DIR" -name "*" -type f -exec basename {} \; | awk '{print length, $0}' | sort -nr | cut -d' ' -f2-)
+
+   # Process each slot file
+   for slot in $slot_files_sorted; do
+       slot_file="$SLOTS_DIR/$slot"
        if [ -f "$slot_file" ]; then
-           slot=$(basename "$slot_file")
+           # Check if this slot exists in the work file
            if grep -q "$slot" "$WORK_FILE"; then
                echo "Expanding with phrases from $slot"
+
+               # Track iterations to prevent infinite loops
+               max_iterations=1000
+               iteration=0
+
                if [ "$REPEAT" = "true" ]; then
-                   while grep -q "$slot" "$WORK_FILE"; do
+                   # Keep processing until no more instances of this slot exist
+                   while grep -q "$slot" "$WORK_FILE" && [ $iteration -lt $max_iterations ]; do
+                       before_count=$(grep -o "$slot" "$WORK_FILE" | wc -l)
                        substitute_slots "$slot"
+                       after_count=$(grep -o "$slot" "$WORK_FILE" | wc -l)
+
+                       # If no progress, break to avoid infinite loop
+                       if [ "$after_count" -ge "$before_count" ]; then
+                           echo "  No progress made, stopping expansion of $slot"
+                           break
+                       fi
+
+                       iteration=$((iteration + 1))
                    done
+
+                   if [ $iteration -ge $max_iterations ]; then
+                       echo "  Warning: Maximum iterations reached for $slot"
+                   fi
                else
                    substitute_slots "$slot"
                fi
