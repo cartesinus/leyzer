@@ -1,0 +1,164 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Instagram__ (OpenInstagram__ <INTENT_1> | ShowPictures__ <INTENT_2> | ShowLastNumberPictures__ <INTENT_3> | ShowPicturesWithFilter__ <INTENT_4> | ShowPicturesWithLocation__ <INTENT_5> | ShowPicturesWithHashtag__ <INTENT_6> | pòstWithPicturesFromDateAndWithLocation__ <INTENT_7> | ShowPicturesFromDate__ <INTENT_8> | TakePicture__ <INTENT_9> | pòstWithLastPictureWithLocationAndWithHashtag__ <INTENT_10>);
+
+#INTENTS
+##1) OPEN INSTAGRAM
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ òdemkni [mój] (instagram | insta);
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ pòkôż [mój] (instagram | insta);
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ ùruchòm [mój] (instagram | insta);
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ wëswietl [mój] (instagram | insta);
+
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ włącz [mój] (instagram | insta);
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ chcã òbaczëc mòje òdjimczi na instagramie;
+
+##2) SHOW LATEST
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż [mie] [mòje] [òstatné] òdjimczi (na (instagramie | insta) | z (instagrama | insta));
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl [mie] [mòje] [òstatné] òdjimczi (na (instagramie | insta) | z (instagrama | insta));
+
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ chcã òbaczëc [mòje] [òstatné] òdjimczi (na (instagramie | insta) | z (instagrama | insta));
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ òdemkni [mie] [mòje] [òstatné] òdjimczi (na (instagramie | insta) | z (instagrama | insta));
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ przërëchtuj [mie] [mòje] [òstatné] òdjimczi (na (instagramie | insta) | z (instagrama | insta));
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż [mòje] òstatné wpisë na instagramie;
+
+##3) SHOW LATEST COUNT
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż [mie] [mòje] (òstatné | nônowszé) <COUNT> òdjimków na [mòjim kònce na] (instagramie | insta);
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl [mie] [mòje] (òstatné | nônowszé) <COUNT> òdjimków na [mòjim kònce na] (instagramie | insta);
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ chcã òbaczëc [mòje] (òstatné | nônowszé) <COUNT> òdjimków na [mòjim kònce na] (instagramie | insta);
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ òdemkni [mòje] (òstatné | nônowszé) <COUNT> òdjimków na [mòjim kònce na] (instagramie | insta);
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ przërëchtuj [mòje] (òstatné | nônowszé) <COUNT> òdjimków na [mòjim kònce na] (instagramie | insta);
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż <COUNT> [mòjich] òstatnëch wpisów na instagramie;
+
+##4) SHOW PHOTOS WITH FILTER
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż [mie] [mòje] òdjimczi na instagramie (<INTENT_4_a> | <INTENT_4_b>);
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl [mie] [mòje] òdjimczi na instagramie (<INTENT_4_a> | <INTENT_4_b>);
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ chcã òbaczëc [mòje] òdjimczi na instagramie (<INTENT_4_a> | <INTENT_4_b>);
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ òdemkni [mòje] òdjimczi na instagramie (<INTENT_4_a> | <INTENT_4_b>);
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ przërëchtuj [mie] [mòje] òdjimczi na instagramie (<INTENT_4_a> | <INTENT_4_b>);
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż [mòje] òstatné wpisë na instagramie z filtrã <FILTER>;
+
+<INTENT_4_a> = (z filtrã| jaczé mają filter | jaczé ùżiwają filtra) <FILTER>;
+<INTENT_4_b> = (do jaczich | gdze) (jem dodôł | jem dodała) filter <FILTER>;
+
+##5) SHOW PHOTOS FROM LOCATION
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż [mie] [mòje] òdjimczi na instagramie (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) w <LOCATION>;
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl [mie] [mòje] òdjimczi na instagramie (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) w <LOCATION>;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ chcã òbaczëc [mie] [mòje] òdjimczi na instagramie (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) w <LOCATION>;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ òdemkni [mòje] òdjimczi na instagramie (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) w <LOCATION>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ przërëchtuj [mie] [mòje] òdjimczi na instagramie (<INTENT_5_a> | <INTENT_5_b> | <INTENT_5_c>) w <LOCATION>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż [mòje] òstatné wpisë na instagramie z <LOCATION>;
+
+<INTENT_5_a> = jaczé (jem zrobił [(czej | czedë) jem béł] | jem zrobiła [(czej | czedë) jem bëła]);
+<INTENT_5_b> = òznaczoné (lokalizacją | tagã lokalizacje);
+<INTENT_5_c> = w jaczich (lokalizacja | geolokalizacja | gps) ùstawiony je;
+
+##6) SHOW PHOTOS WITH HASHTAG
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż [mie] [mòje] òdjimczi na instagramie (jaczé mają (hashtag | tag) | z (hashtagã | tagã)) <HASHTAG>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl [mie] [mòje] òdjimczi na instagramie (jaczé mają (hashtag | tag) | z (hashtagã | tagã)) <HASHTAG>;
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ chcã òbaczëc [mòje] òdjimczi na instagramie (jaczé mają (hashtag | tag) | z (hashtagã | tagã)) <HASHTAG>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ òdemkni [mòje] òdjimczi na instagramie (jaczé mają (hashtag | tag) | z (hashtagã | tagã)) <HASHTAG>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ przërëchtuj [mòje] òdjimczi na instagramie (jaczé mają (hashtag | tag) | z (hashtagã | tagã)) <HASHTAG>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż [mòje] òstatné wpisë na instagramie z tagã <HASHTAG>;
+
+##7) CREATE COLLAGE FROM PHOTOS ON DATE
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ zrób [nowi] kòlôż na (instagrama | instagramie | insta) ze [wszëtczima] òdjimkama zrobionyma (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>) w <LOCATION>;
+
+<INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2>;
+<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ stwórz [nowi] kòlôż na (instagrama | instagramie | insta) ze [wszëtczima] òdjimkama zrobionyma (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>) w <LOCATION>;
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ ùtwórz [nowi] kòlôż na (instagrama | instagramie | insta) ze [wszëtczima] òdjimkama zrobionyma (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>) w <LOCATION>;
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ wëkònôj [nowi] kòlôż na (instagrama | instagramie | insta) ze [wszëtczima] òdjimkama zrobionyma (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>) w <LOCATION>;
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ skòmpònuj [nowi] kòlôż na (instagrama | instagramie | insta) ze [wszëtczima] òdjimkama zrobionyma (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>) w <LOCATION>;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ przerób mòje òdjimczi z <DATE_DAY> <DATE_MONTH_A> na kòlôż;
+
+##8) SHOW PHOTOS FROM DATE
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = <INTENT_8_L0TC_1> | <INTENT_8_L0TC_2>;
+<INTENT_8_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż [mie] [mòje] (òdjimczi | pòstë) zrobioné (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>);
+<INTENT_8_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl [mie] [mòje] (òdjimczi | pòstë) zrobioné (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>);
+
+<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ chcã òbaczëc [mòje] (òdjimczi | pòstë) zrobioné (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>);
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ òdemkni [mie] [mòje] (òdjimczi | pòstë) zrobioné (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>);
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ przërëchtuj [mòje] (òdjimczi | pòstë) zrobioné (<DATE_DAY> <DATE_MONTH_A> | w <DATE_MONTH>);
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż [mòje] wpisë na instagramie z <DATE_DAY> <DATE_MONTH_A>;
+
+##9) SEND SELFIE TO INSTAGRAM
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ zrób [mie] (òdjimk | fotkã | selfie | fòtografiã) (na (instagrama | instagram | insta) | przë ùżëcym instagrama);
+
+<INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2> | <INTENT_9_L1TC_3>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ sfòtografùj mie na (instagram | instagrama | insta);
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ zrób fòtografiã na (instagram | instagrama | insta);
+<INTENT_9_L1TC_3> = L1TC__ verb_pattern_03__ selfie na (instagram | instagrama | insta);
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2> | <INTENT_9_L2TC_3> | <INTENT_9_L2TC_4>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ stwórz (òdjimk | fotkã | selfie | fòtografiã) (na (instagrama | instagram | insta) | przë ùżëcym instagrama);
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ ùtwórz (òdjimk | fotkã | selfie | fòtografiã) (na (instagrama | instagram | insta) | przë ùżëcym instagrama);
+<INTENT_9_L2TC_3> = L2TC__ verb_pattern_03__ fotografia na (instagram | instagrama | insta);
+<INTENT_9_L2TC_4> = L2TC__ verb_pattern_04__ pstrikni (òdjimk | fotkã | selfie | fòtografiã) (na (instagrama | instagram | insta) | przë ùżëcym instagrama);
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ zrób mój aùtopòrtret i ùmiesc gò na instagramie;
+
+##10) CREATE pòST FROM LATEST GALLERY PICTURE
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ zrób [nowi] pòst na (instagrama | instagramie) z òstatnégò òdjimkù z galerie [i dodôj (tag lokalizacje | lokalizacjã) w <LOCATION> | i dodôj filter <FILTER> | i dodôj hashtag <HASHTAG>];
+
+<INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ stwórz [nowi] pòst na (instagrama | instagramie) z òstatnégò òdjimkù z galerie [i dodôj (tag lokalizacje | lokalizacjã) w <LOCATION> | i dodôj filter <FILTER> | i dodôj hashtag <HASHTAG>];
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ ùtwórz [nowi] pòst na (instagrama | instagramie) z òstatnégò òdjimkù z galerie [i dodôj (tag lokalizacje | lokalizacjã) w <LOCATION> | i dodôj filter <FILTER> | i dodôj hashtag <HASHTAG>];
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ wëkònôj [nowi] pòst na (instagrama | instagramie) z òstatnégò òdjimkù z galerie [i dodôj (tag lokalizacje | lokalizacjã) w <LOCATION> | i dodôj filter <FILTER> | i dodôj hashtag <HASHTAG>];
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ wësli òstatny òdjimk z galerie na instagram;
+
+#SLOTS
+<HASHTAG> = INSTAGRAM.SLOT.HASHTAG;
+<LOCATION> = INSTAGRAM.SLOT.LOCATION;
+<FILTER> = INSTAGRAM.SLOT.FILTER;
+<COUNT> = INSTAGRAM.SLOT.COUNT;
+<DATE_DAY> = INSTAGRAM.SLOT.DATE_DAY;
+<DATE_MONTH> = INSTAGRAM.SLOT.DATE_MONTH;
+<DATE_MONTH_A> = INSTAGRAM.SLOT.DATE_MONTH_A;
+
+#LANG. COMPONENTS
+<SHOW_VERB> = (pòkôż | wëswietl | òdemkni) [mie];

@@ -1,0 +1,77 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = News__ (ShowNews__ <INTENT_1> | ShowNewsFromSection__ <INTENT_2> | NotifyWhenportalupdates__ <INTENT_3> | NotifyWhenportalupdatesInSection__ <INTENT_4>);
+
+#PRECONDITIONS
+<WHEN_1> = (czedë | żlë | jeżlë) <PORTAL> (dodô nowé (wiadła | newsë | artikle) | sã zaktualizëje);
+<WHEN_2> = (czedë | żlë | jeżlë) <PORTAL> (w sekcje | w dzélu) <SECTION> òpùblikuje [nowé] (artikle | wiadła);
+
+#INTENTS
+##1) SHOW NEWS FROM PORTAL
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ pòkôż <PORTAL>;
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2> | <INTENT_1_L1TC_3> | <INTENT_1_L1TC_4> | <INTENT_1_L1TC_5>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ òdemkni <PORTAL>;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ czëtôj <PORTAL>;
+<INTENT_1_L1TC_3> = L1TC__ verb_pattern_03__ wëswietl <PORTAL>;
+<INTENT_1_L1TC_4> = L1TC__ verb_pattern_04__ wëswietl [mie] [nônowszé] (wiadła | infòrmacje | artikle) z [pòrtalu] <PORTAL>;
+<INTENT_1_L1TC_5> = L1TC__ verb_pattern_05__ pòkôż [mie] [nônowszé] (wiadła | infòrmacje | artikle) z [pòrtalu] <PORTAL>;
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ scygnij [nônowszé] (wiadła | infòrmacje | artikle) z [pòrtalu] <PORTAL>;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ pòsłëchôj [nônowszich] (wiadła | infòrmacji | artiklów) z [pòrtalu] <PORTAL>;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ pòwiédz jaczé są [nônowszé] (wiadła | infòrmacje | artikle) z <PORTAL>;
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ co nowégò na swiece wedle <PORTAL>;
+
+##2) SHOW NEWS FROM SECTION
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<NN_ARTICLES> = (artikle | infòrmacje | wiadła);
+<IN_NN_SECTION> = z (kategòrie | sekcje);
+<IN_NN_NN_NEWS> = <NN_ARTICLES> <IN_NN_SECTION>;
+
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ pòkôż <IN_NN_NN_NEWS> <SECTION> na <PORTAL>;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3> | <INTENT_2_L1TC_4> | <INTENT_2_L1TC_5>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ òdemkni <IN_NN_NN_NEWS> (z | na) <PORTAL>;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ czëtôj <IN_NN_NN_NEWS> (z | na) <PORTAL>;
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ wëswietl <IN_NN_NN_NEWS> (z | na) <PORTAL>;
+<INTENT_2_L1TC_4> = L1TC__ verb_pattern_04__ wëswietl [mie] [nônowszé] (wiadła | infòrmacje | artikle) z [pòrtalu] <PORTAL> <IN_NN_SECTION>;
+<INTENT_2_L1TC_5> = L1TC__ verb_pattern_05__ pòkôż [mie] [nônowszé] (wiadła | infòrmacje | artikle) z [pòrtalu] <PORTAL> <IN_NN_SECTION>;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ scygnij [nônowszé] (wiadła | infòrmacje | artikle) z [pòrtalu] <PORTAL> <IN_NN_SECTION>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ pòsłëchôj [nônowszich] (wiadła | infòrmacji | artiklów) z [pòrtalu] <PORTAL> <IN_NN_SECTION>;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ pòwiédz jaczé są [nônowszé] (wiadła | infòrmacje | artikle) z <PORTAL> <IN_NN_SECTION>;
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ co nowégò w témie <SECTION> na swiece wedle <PORTAL>;
+
+##3) NOTIFY ON NEWS
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ pòwiadóm [mie] <WHEN_1>;
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ pòwiédz [mie] <WHEN_1>;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ dôj znac <WHEN_1>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ pòinfòrmùj [mie] <WHEN_1>;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ chcã bëc na bieżąco <WHEN_1>;
+
+##4) NOTIFY ON NEWS IN SECTION
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ pòwiadóm [mie] <WHEN_2>;
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ pòwiédz [mie] <WHEN_2>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ dôj znac <WHEN_2>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ pòinfòrmùj [mie] <WHEN_2>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ chcã bëc na bieżąco <WHEN_2>;
+
+#SLOTS
+<SECTION> = NEWS.SLOT.SECTION;
+<PORTAL> = NEWS.SLOT.PORTAL;
+<TIME> = NEWS.SLOT.TIME;

@@ -1,0 +1,171 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Airconditioner__ (TurnOn__ <INTENT_1> | TurnOff__ <INTENT_2> | ChangeTemperature__ <INTENT_3> | SetTemperatureToValue__ <INTENT_4> | SetTemperatureToValueOnDevice__ <INTENT_5> | SetTemperatureBetweenValues__ <INTENT_6> | SetTemperatureOnDevice__ <INTENT_7> | GetHumidity__ <INTENT_8> | GetTemperatureFromDevice__ <INTENT_9> | GetTemperature__ <INTENT_10>);
+
+#INTENTS
+##1) TURN ON AC
+#SYNTAX: VB NN
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ włącz <AV_ALIAS>;
+
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ ùruchòm <AV_ALIAS>;
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4> | <INTENT_1_L2TC_5> | <INTENT_1_L2TC_6> | <INTENT_1_L2TC_7> | <INTENT_1_L2TC_8>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ òdpôl <AV_ALIAS>;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ nastôw <AV_ALIAS>;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ załącz <AV_ALIAS>;
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ włãczë <AV_ALIAS>;
+<INTENT_1_L2TC_5> = L2TC__ verb_pattern_05__ włącz <AV_ALIAS>;
+<INTENT_1_L2TC_6> = L2TC__ verb_pattern_06__ ùruchòmi <AV_ALIAS>;
+<INTENT_1_L2TC_7> = L2TC__ verb_pattern_07__ òdpalë <AV_ALIAS>;
+<INTENT_1_L2TC_8> = L2TC__ verb_pattern_08__ nastawi <AV_ALIAS>;
+
+
+<INTENT_1_REPHRASE> = REPHRASE__ (<INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3>);
+#SYNTAX:
+<INTENT_1_REPHRASE_1> = verb_pattern_01__ je za (cepło | zëmno) [dlôte] [temù] [wez] włącz <AV_ALIAS>;
+#SYNTAX: NN VB
+<INTENT_1_REPHRASE_2> = verb_pattern_02__ <AV_ALIAS> włącz;
+<INTENT_1_REPHRASE_3> = verb_pattern_03__ <AV_ALIAS> je (hëc | zyb) [dlôte] [temù] [wez] włącz;
+
+##2) TURN OFF AC
+#SYNTAX: VB NN
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ wëłącz <AV_ALIAS>;
+
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ zatrzëmi <AV_ALIAS>;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ wëgas <AV_ALIAS>;
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ przestóń użëwac <AV_ALIAS>;
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ òdetni <AV_ALIAS>;
+<INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ przestani ùżëwac <AV_ALIAS>;
+<INTENT_2_L2TC_5> = L2TC__ verb_pattern_05__ òprzestóń użëwac <AV_ALIAS>;
+<INTENT_2_L2TC_6> = L2TC__ verb_pattern_06__ òprzestani użëwac <AV_ALIAS>;
+<INTENT_2_L2TC_7> = L2TC__ verb_pattern_07__ zatrzim <AV_ALIAS>;
+<INTENT_2_L2TC_8> = L2TC__ verb_pattern_08__ wëgasë <AV_ALIAS>;
+<INTENT_2_L2TC_9> = L2TC__ verb_pattern_09__ òdetnie <AV_ALIAS>;
+
+
+<INTENT_2_REPHRASE> = REPHRASE__ (<INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>);
+#SYNTAX:
+<INTENT_2_REPHRASE_1> = verb_pattern_01__ je za (cepło | zëmno) [dlôte] [wez] wëłącz <AV_ALIAS>;
+#SYNTAX: NN VB
+<INTENT_2_REPHRASE_2> = verb_pattern_02__ <AV_ALIAS> wëłącz;
+
+##3) CHANGE TEMPERATURE
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ zmień temperaturã (<INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c>);
+
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ przestôw temperaturã (<INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c>);
+
+<INTENT_3_L2TC> = L2TC__ verb_pattern_01__ przełącz temperaturã (<INTENT_3_a> | <INTENT_3_b> | <INTENT_3_c>);
+<INTENT_3_a> = na [mòjim] termòstatu;
+<INTENT_3_b> = (minimalną | maksymalną | minimalną i maksymalną) na [mòjim] termòstatu;
+<INTENT_3_c> = na mòji klimatyzacji | na mòjim klimatyzatorze;
+
+<INTENT_3_REPHRASE> = <INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2>;
+<INTENT_3_REPHRASE_1> = REPHRASE__ verb_pattern_01__ ustôw jiną temperaturã na ([mòjim] termòstatu | [moji] klimatyzacji);
+<INTENT_3_REPHRASE_2> = REPHRASE__ verb_pattern_02__ chcã jiną temperaturã na ([mòjim] termòstatu | [moji] klimatyzacji);
+
+##4) CHANGE TEMPERATURE TO VALUE
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ ustôw <INTENT_4_END>;
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ zmień <INTENT_4_END>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ przełącz <INTENT_4_END>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ przestôw <INTENT_4_END>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ nastôw <INTENT_4_END>;
+<INTENT_4_END> = (temperaturã na [mojim] termòstatu na <VALUE> | mój termòstat na <VALUE>);
+
+<INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2>;
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ chcã <VALUE> na ([mòjim] termòstatu | [moji] klimatyzacji);
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ pòproszã <VALUE> na ([mojim] termòstatu | [moji] klimatyzacji);
+
+##5) CHANGE TEMPERATURE TO VALUE ON DEVICE
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ ustôw (temperaturã na [mojim] termòstatu w <DEVICE_NAME> na <VALUE> | temperaturã na <VALUE> na [mojim] termòstatu w <DEVICE_NAME>);
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ zmień (temperaturã na [mojim] termòstatu w <DEVICE_NAME> na <VALUE> | temperaturã na <VALUE> na [mojim] termòstatu w <DEVICE_NAME>);
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ przełącz (temperaturã na [mòjim] termòstatu w <DEVICE_NAME> na <VALUE> | temperaturã na <VALUE> na [mòjim] termòstatu w <DEVICE_NAME>);
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ nastôw (temperaturã na [mòjim] termòstatu w <DEVICE_NAME> na <VALUE> | temperaturã na <VALUE> na [mòjim] termòstatu w <DEVICE_NAME>);
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ chcã ùstawic temperaturã <VALUE> na ([mòjim] termòstatu | [mòji] klimatyzacji) <DEVICE_NAME>;
+
+##6) CHANGE TEMPERATURE BETWEEN VALUES
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ ùstôw temperaturã [na [mòjim] termòstatu] pòmidzë <LOW> a <HIGH>;
+
+<INTENT_6_L1TC> = L1TC__ verb_pattern_01__ zmień temperaturã [na [mòjim] termòstatu] pòmidzë <LOW> a <HIGH>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ nastôw temperaturã [na [mòjim] termòstatu] pòmidzë <LOW> a <HIGH>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ przełącz temperaturã [na [mòjim] termòstatu] pòmidzë <LOW> a <HIGH>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ chcã ùstawic temperaturã pòmidzë <LOW> i <HIGH> na ([moim] termòstatu | [mòji] klimatyzacji) <DEVICE_NAME>;
+
+##7) CHANGE TEMPERATURE ON DEVICE
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ zmień temperaturã [na [mòjim] termòstatu] w <DEVICE_NAME>;
+
+<INTENT_7_L1TC> = L1TC__ verb_pattern_01__ przestôw temperaturã [na [mòjim] termòstatu] w <DEVICE_NAME>;
+
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ przełącz temperaturã [na [mòjim] termòstatu] w <DEVICE_NAME>;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ chcã ùstawic temperaturã na ([mòjim] termòstatu | [mòji] klimatyzacji) <DEVICE_NAME>;
+
+##8) CHECK HUMIDITY
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = <INTENT_8_L0TC_1> | <INTENT_8_L0TC_2>;
+<INTENT_8_L0TC_1> = L0TC__ verb_pattern_01__ jakô je [wilgòtnosc | wilgòta | fùchtnosc | mòknosc | mòknota | mòkrosc | mòkrota] [w ti jizbie | w domù | w dodomù | w tim pòmieszczeniu | w tim pòmieszczenim];
+<INTENT_8_L0TC_2> = L0TC__ verb_pattern_02__ sprôwdz [rówiznã | pòzom | niwiznã] [wilgòtnoscë | wilgòtë | fùchtu | fùchtnoscë | mòknoscë | mòknotë | mòkroscë | mòkrotë] [w ti jizbie | w domù | w tim pomieszczeniu];
+<INTENT_8_L0TC_3> = L0TC__ verb_pattern_03__ jaczi je fùcht [w ti jizbie | w domù | w dodomù | w tim pòmieszczeniu | w tim pòmieszczenim];
+<INTENT_8_L0TC_4> = L0TC__ verb_pattern_04__ sprawdzë [rówiznã | pòzom | niwiznã] [wilgòtnoscë | wilgòtë | fùchtu | fùchtnoscë | mòknoscë | mòknotë | mòkroscë | mòkrotë] [w ti jizbie | w domù | w tim pomieszczeniu];
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ [pòkôż | pòkażë] [[mie] jakô je] [rówizna | niwizna] [wilgòtnoscë | wilgòtë | fùchtu | fùchtnoscë | mòkroscë | mòkrotë | mòknoscë | mòknotë];
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ [pòwiédz | rzekni | rzeknie | rzeczë] [mie] jakô je [rówizna | niwizna] [wilgòtnoscë | wilgòtë | fùchtu | fùchtnoscë | mòkroscë | mòkrotë | mòknoscë | mòknotë];
+
+<INTENT_8_L2TC> = L2TC__ verb_pattern_01__ [ùstôl | ùstalë] [rówiznã | niwiznã] [wilgòtnoscë | wilgòtë | fùchtu | fùchtnoscë | mòkroscë | mòkrotë | mòknoscë | mòknotë ];
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ czë nie je tu za [wilgòtno | fùchtno | mòkro | mòkno];
+
+##9) CHECK TEMPERATURE ON DEVICE
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ [sprôwdz | sprawdzë] [mie] jakô je temperatura w <DEVICE_NAME>;
+
+<INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ [pòkôż | pòkażë] [mie] jakô je temperatura w <DEVICE_NAME>;
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ [pòwiédz | rzekni | rzeknie | rzeczë] [mie] jakô je temperatura w <DEVICE_NAME>;
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2> | <INTENT_9_L2TC_3>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ jakô je temperatura [wedle [mòjégo] termòstatu | w mòjim termòstatu] w <DEVICE_NAME>;
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ co termòstat w <DEVICE_NAME> gôdô ò temperaturze;
+<INTENT_9_L2TC_3> = L2TC__ verb_pattern_03__ [ùstôl | ùstalë] temperaturã w <DEVICE_NAME>;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ czë w <DEVICE_NAME> nie je za (cepło | zëmno);
+
+##10) CHECK TEMPERATURE
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = <INTENT_10_L0TC_1> | <INTENT_10_L0TC_2>;
+<INTENT_10_L0TC_1> = L0TC__ verb_pattern_01__ [sprôwdz | sprawdzë] [mie] (jakô je temperatura [na głównym termòstatu] | [ile | wiele | kùli] je [stopni | stãpieni | stãpniów | stãpieniów | gradów] [w domù | w dodomù | w chëczë]);
+<INTENT_10_L0TC_2> = L0TC__ verb_pattern_02__ (jakô je temperatura | [ile | wiele | kùli] je stopni) [w domù | w dodomù | w chëczë | na termòstatu];
+
+<INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ [pòkôż | pòkażë] [mie] (jakô je temperatura [na głównym termòstatu] | [ile | wiele | kùli] je stopni [w domù | w dodomù | w chëczë]);
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ [pòwiédz | rzekni | rzeknie | rzeczë] [mie] (jakô je temperatura [na głównym termòstatu] | [ile | wiele | kùli] je [stopni | stãpieni | stãpniów | stãpieniów | gradów] [w domù | w dodomù | w chëczë] [w domù | w dodomù | w chëczë]);
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ podôj [mie] [temperaturã | cepłotã | cepłosc] w (tim pòmieszczeniu | ti jizbie | domù | dodomù | chëczë);
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ co [główny] termòstat gôdô ò [temperaturze | cepłoce | cepłosce] [w ti jizbie | w tim pòmieszczeniu | w domù | w dodomù | w chëczë];
+
+#SLOTS
+<DEVICE_NAME> = AIRCONDITIONER.SLOT.DEVICE_NAME;
+<LOW> = 23 | 24;
+<HIGH> = (28 | 29) stopni;
+<VALUE> = AIRCONDITIONER.SLOT.VALUE;
+<AV_ALIAS> = AIRCONDITIONER.SLOT.AV_ALIAS;

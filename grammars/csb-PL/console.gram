@@ -1,0 +1,190 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Console__ (ConsoleEdit__ <INTENT_1> | ConsoleLS__ <INTENT_2> | ConsoleCD__ <INTENT_3> | ConsoleCP__ <INTENT_4> | ConsoleMV__ <INTENT_5> | ConsoleRM__ <INTENT_6>);
+
+#INTENTS
+##1) EDIT FILE
+##<FILENEME> must be provided
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_p1> | <INTENT_1_L0TC_p2>;
+#SYNTAX: VB NN NN
+<INTENT_1_L0TC_p1> = L0TC__ verb_pattern_01__ òdemkni ([lopk] <FILENAME> | [lopczi] <FILENAMES>);
+<INTENT_1_L0TC_p2> = L0TC__ verb_pattern_02__ edituj ([lopk] <FILENAME> | [lopczi] <FILENAMES>);
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_p1> | <INTENT_1_L1TC_p2>;
+#SYNTAX: VB [PRON] _ NN NN
+<INTENT_1_L1TC_p1> = L1TC__ verb_pattern_01__ wëswietl [mie] (zamkłosc <FILE_PATTERN_1> | lopk <FILENAME> | lopczi <FILENAMES>);
+<INTENT_1_L1TC_p2> = L1TC__ verb_pattern_02__ pòkôż [mie] zamkłosc (<FILE_PATTERN_1> | lopk <FILENAME> | lopczi <FILENAMES>);
+
+<INTENT_1_L2TC> = L2TC__ (<INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>);
+<INTENT_1_L2TC_1> = <INTENT_1_L2TC_1_p1> | <INTENT_1_L2TC_1_p2> | <INTENT_1_L2TC_1_p3> | <INTENT_1_L2TC_1_p4>;
+#SYNTAX: VB [PRON] _ _ _ [IN] NN
+<INTENT_1_L2TC_1_p1> = verb_pattern_01__ czëtôj [mie] (to co je | zamkłosc | dané) [w | z] <FILE_PATTERN_1>;
+<INTENT_1_L2TC_1_p2> = verb_pattern_02__ odczëtôj [mie] (to co je | zamkłosc | dané) [w | z] <FILE_PATTERN_1>;
+<INTENT_1_L2TC_1_p3> = verb_pattern_03__ mòdifikùj [mie] (to co je | zamkłosc | dané) [w | z] <FILE_PATTERN_1>;
+<INTENT_1_L2TC_1_p4> = verb_pattern_04__ dawôj [mie] (to co je | zamkłosc | dané) [w | z] <FILE_PATTERN_1>;
+<INTENT_1_L2TC_2> = <INTENT_1_L2TC_2_p5> | <INTENT_1_L2TC_2_p6> | <INTENT_1_L2TC_2_p7> | <INTENT_1_L2TC_2_p8>;
+#SYNTAX: NN VB (NN | NN | _ _ _ IN NN)
+<INTENT_1_L2TC_2_p5> = verb_pattern_05__ <FILENAME> edituj [zamkłosc | dané | to co je we strzódkù];
+<INTENT_1_L2TC_2_p6> = verb_pattern_06__ <FILENAME> czëtôj [zamkłosc | dané | to co je we strzódkù];
+<INTENT_1_L2TC_2_p7> = verb_pattern_07__ <FILENAME> odczëtôj [zamkłosc | dané | to co je we strzódkù];
+<INTENT_1_L2TC_2_p8> = verb_pattern_08__ <FILENAME> mòdifikùj [zamkłosc | dané | to co je we strzódkù];
+
+<INTENT_1_REPHRASE> = REPHRASE__ (<INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2> | <INTENT_1_REPHRASE_3> | <INTENT_1_REPHRASE_4> | <INTENT_1_REPHRASE_5> | <INTENT_1_REPHRASE_6> | <INTENT_1_REPHRASE_7> | <INTENT_1_REPHRASE_8>);
+<INTENT_1_REPHRASE_1> = <INTENT_1_REPHRASE_1_p1> | <INTENT_1_REPHRASE_1_p2> | <INTENT_1_REPHRASE_1_p3>;
+#SYNTAX: MD VB _ AUX? IN _ NN
+<INTENT_1_REPHRASE_1_p1> = verb_pattern_01__ (jô bë chcôł | mùszã | brëkùjã) òbaczëc co je w (strzódkù <FILE_PATTERN_1> | ([lopkù] <FILENAME> | [lopkach] <FILENAMES>));
+<INTENT_1_REPHRASE_1_p2> = verb_pattern_02__ (jô bë chcôł | mùszã | brëkùjã) dowiedzec sã co je w (strzódkù <FILE_PATTERN_1> | ([lopkù] <FILENAME> | [lopkach] <FILENAMES>));
+<INTENT_1_REPHRASE_1_p3> = verb_pattern_03__ (jô bë chcôł | mùszã | brëkùjã) zazdrzec co je w (strzódkù <FILE_PATTERN_1> | ([lopkù] <FILENAME> | [lopkach] <FILENAMES>));
+#SYNTAX: _ AUX? IN _ NN
+<INTENT_1_REPHRASE_2> = verb_pattern_04__ [a] co je w [strzódkù] <FILE_PATTERN_1>;
+<INTENT_1_REPHRASE_3> = verb_pattern_05__ jakô je zamkłosc <FILE_PATTERN_1>;
+<INTENT_1_REPHRASE_4> = verb_pattern_06__ <FILENAME> co je (we strzódkù | zamkłoscą);
+<INTENT_1_REPHRASE_5> = verb_pattern_07__ (przërëchtuj | przërëchtujesz) [mie | dlô mie] ([lopk] <FILENAME> | [lopczi] <FILENAMES>) do edicje;
+<INTENT_1_REPHRASE_6> = verb_pattern_08__ (jô bë chcôł | chciałabym | mùszã | chcã | brëkùjã) wlezc do <FILE_PATTERN_1>;
+<INTENT_1_REPHRASE_7> = <INTENT_1_REPHRASE_7_p1> | <INTENT_1_REPHRASE_7_p2>;
+<INTENT_1_REPHRASE_7_p1> = verb_pattern_09__ drëkùj na (ekran [zamkłosc] <FILE_PATTERN_1> | ekranie [lopk] <FILENAME> | ekranie [lopczi] <FILENAMES>);
+<INTENT_1_REPHRASE_7_p2> = verb_pattern_10__ wydrëkùj na (ekran [zamkłosc] <FILE_PATTERN_1> | ekranie [lopk] <FILENAME> | ekranie [lopczi] <FILENAMES>);
+<INTENT_1_REPHRASE_8> = verb_pattern_11__ (vim | emacs | gedit | vi | nano) ([lopk] <FILENAME> | [lopczi] <FILENAMES>);
+
+<FILE_PATTERN_1> = ([lopkù] <FILENAME> | [lopków] <FILENAMES>);
+
+##2) LS
+##<PATHNAME> must be provided
+#SYNTAX: VB _ NN _ IN NN
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_p1> | <INTENT_2_L0TC_p2>;
+<INTENT_2_L0TC_p1> = L0TC__ verb_pattern_01__ pòkôż (jaczé lopczi są w | lopczi w | [mie] zamkłosc) [katalogù] <PATHNAME>;
+<INTENT_2_L0TC_p2> = L0TC__ verb_pattern_02__ wëswietl (jaczé lopczi są w | lopczi w | [mie] zamkłosc) [katalogù] <PATHNAME>;
+
+#SYNTAX: VB NN IN NN
+<INTENT_2_L1TC> = L1TC__ verb_pattern_01__ wëpisz (lopczi w | [mie] zamkłosc) [katalogù] <PATHNAME>;
+
+#SYNTAX: VB _ NN _ IN NN
+<INTENT_2_L2TC> = <INTENT_2_L2TC_p1> | <INTENT_2_L2TC_p2>;
+<INTENT_2_L2TC_p1> = L2TC__ verb_pattern_01__ wëlistuj (jaczé lopczi są | [mie] zamkłosc lopków) w <PATHNAME>;
+<INTENT_2_L2TC_p2> = L2TC__ verb_pattern_02__ odczëtôj (jaczé lopczi są | [mie] zamkłosc lopków) w <PATHNAME>;
+
+#SYNTAX:
+<INTENT_2_REPHRASE> = REPHRASE__ (<INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2> | <INTENT_2_REPHRASE_3> | <INTENT_2_REPHRASE_4> | <INTENT_2_REPHRASE_5>);
+<INTENT_2_REPHRASE_1> = verb_pattern_01__ jaczé lopczi nalézã w <PATHNAME>;
+<INTENT_2_REPHRASE_2> = verb_pattern_02__ (drëkùj | wydrëkùj) na (ekran zamkłosc <FILE_PATTERN_1> | ekran lopk <FILENAME> | ekran lopczi <FILENAMES> | ekranie [lopk] <FILENAME> | ekranie [lopczi] <FILENAMES>);
+<INTENT_2_REPHRASE_3> = <INTENT_2_REPHRASE_3_p1> | <INTENT_2_REPHRASE_3_p2> | <INTENT_2_REPHRASE_3_p3>;
+<INTENT_2_REPHRASE_3_p1> = verb_pattern_03__ stwórz lëstã lopków (w | z) [katalogù] <PATHNAME>;
+<INTENT_2_REPHRASE_3_p2> = verb_pattern_04__ wëtórz lëstã lopków (w | z) [katalogù] <PATHNAME>;
+<INTENT_2_REPHRASE_3_p3> = verb_pattern_05__ zaindukùj lëstã lopków (w | z) [katalogù] <PATHNAME>;
+<INTENT_2_REPHRASE_4> = <INTENT_2_REPHRASE_4_p1> | <INTENT_2_REPHRASE_4_p2> | <INTENT_2_REPHRASE_4_p3>;
+<INTENT_2_REPHRASE_4_p1> = verb_pattern_06__ wëcygni lopczi z <PATHNAME> (i stwórz z nich lëstã | i dodôj je do lëstë);
+<INTENT_2_REPHRASE_4_p2> = verb_pattern_07__ wez lopczi z <PATHNAME> (i stwórz z nich lëstã | i dodôj je do lëstë);
+<INTENT_2_REPHRASE_4_p3> = verb_pattern_08__ dodôj [wszystkie] lopczi z <PATHNAME> (i stwórz z nich lëstã | i dodôj je do lëstë);
+<INTENT_2_REPHRASE_5> = <INTENT_2_REPHRASE_5_p1> | <INTENT_2_REPHRASE_5_p2>;
+<INTENT_2_REPHRASE_5_p1> = verb_pattern_09__ z katalogù <PATHNAME> wëcygni lëstã lopków;
+<INTENT_2_REPHRASE_5_p2> = verb_pattern_10__ z katalogù <PATHNAME> stwórz lëstã lopków;
+
+##3) CD
+##<PATHNAME> must be provided
+#SYNTAX: VB IN NN
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ przeńdz do [katalogù] <PATHNAME>;
+
+#SYNTAX: VB NN IN NN
+<INTENT_3_L1TC> = L1TC__ verb_pattern_01__ zmień katalog na <PATHNAME>;
+
+#SYNTAX: VB IN [NN] NN
+<INTENT_3_L2TC> = <INTENT_3_L2TC_p1> | <INTENT_3_L2TC_p2> | <INTENT_3_L2TC_p3> | <INTENT_3_L2TC_p4>;
+<INTENT_3_L2TC_p1> = L2TC__ verb_pattern_01__ przeńdz do [katalogù] <PATHNAME>;
+<INTENT_3_L2TC_p2> = L2TC__ verb_pattern_02__ przeskòcz do [katalogù] <PATHNAME>;
+<INTENT_3_L2TC_p3> = L2TC__ verb_pattern_03__ przenies mie do [katalogù] <PATHNAME>;
+<INTENT_3_L2TC_p4> = L2TC__ verb_pattern_04__ skòcz do [katalogù] <PATHNAME>;
+
+#SYNTAX: VB PRP _ NN IN NN
+#SYNTAX: AUX VB PRP IN NN
+<INTENT_3_REPHRASE> = REPHRASE__ (<INTENT_3_REPHRASE_1> | <INTENT_3_REPHRASE_2>);
+<INTENT_3_REPHRASE_1> = <INTENT_3_REPHRASE_1_p1> | <INTENT_3_REPHRASE_1_p2>;
+<INTENT_3_REPHRASE_1_p1> = verb_pattern_01__ zmień [mie | mòją] terną stëgnã na <PATHNAME>;
+<INTENT_3_REPHRASE_1_p2> = verb_pattern_02__ ustaw [mie | mòją] terną stëgnã na <PATHNAME>;
+<INTENT_3_REPHRASE_2> = <INTENT_3_REPHRASE_2_p1> | <INTENT_3_REPHRASE_2_p2>;
+<INTENT_3_REPHRASE_2_p1> = verb_pattern_03__ (spróbùj | pòstarôj sã) przeniesc (mie | nas) do [stëgnë] <PATHNAME>;
+<INTENT_3_REPHRASE_2_p2> = verb_pattern_04__ (spróbùj | pòstarôj sã) skòczëc do [stëgnë] <PATHNAME>;
+
+##4) CP
+##<FROM> and <TO> must be provided
+#SYNTAX: VB NN IN NN
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_p1> | <INTENT_4_L0TC_p2>;
+<INTENT_4_L0TC_p1> = L0TC__ verb_pattern_01__ kòpiuj [lopk | katalog] [z] <FROM> do [stëgnë] <TO>;
+<INTENT_4_L0TC_p2> = L0TC__ verb_pattern_02__ skòpiuj [mie] [lopk [z [katalogù]] | katalog] <FROM> do [stëgnë] <TO>;
+
+#SYNTAX: VB PRP NN IN NN IN NN
+<INTENT_4_L1TC> = <INTENT_4_L1TC_p1> | <INTENT_4_L1TC_p2> | <INTENT_4_L1TC_p3>;
+<INTENT_4_L1TC_p1> = L1TC__ verb_pattern_01__ zrób [nam | mie] kòpiã [lopkù | katalogù] [z] <FROM> do <TO>;
+<INTENT_4_L1TC_p2> = L1TC__ verb_pattern_02__ stwórz kòpiã [lopkù | katalogù] [z] <FROM> do <TO>;
+<INTENT_4_L1TC_p3> = L1TC__ verb_pattern_03__ wëkònôj [mie | nam] kòpiã [lopkù | katalogù] [z] <FROM> do <TO>;
+
+#SYNTAX: IN NN NN VB NN
+<INTENT_4_L2TC> = L2TC__ (<INTENT_4_L2TC_1> | <INTENT_4_L2TC_2>);
+<INTENT_4_L2TC_1> = <INTENT_4_L2TC_1_p1> | <INTENT_4_L2TC_1_p2> | <INTENT_4_L2TC_1_p3> | <INTENT_4_L2TC_1_p4>;
+<INTENT_4_L2TC_1_p1> = verb_pattern_01__ w (katalogù | stëgnie | môlu) <TO> chcã [miec] kòpiã [lopkù | katalogù] <FROM>;
+<INTENT_4_L2TC_1_p2> = verb_pattern_02__ w (katalogù | stëgnie | môlu) <TO> stwórz kòpiã [lopkù | katalogù] <FROM>;
+<INTENT_4_L2TC_1_p3> = verb_pattern_03__ w (katalogù | stëgnie | môlu) <TO> ùtwórz kòpiã [lopkù | katalogù] <FROM>;
+<INTENT_4_L2TC_1_p4> = verb_pattern_04__ w (katalogù | stëgnie | môlu) <TO> wëkònôj kòpiã [lopkù | katalogù] <FROM>;
+<INTENT_4_L2TC_2> = verb_pattern_05__ ùmiesc <FROM> w katalogù <TO> [jakò kòpiã];
+
+#SYNTAX: NN NN AUX VB NN NN
+<INTENT_4_REPHRASE> = REPHRASE__ (<INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2> | <INTENT_4_REPHRASE_3> | <INTENT_4_REPHRASE_4>);
+<INTENT_4_REPHRASE_1> = <INTENT_4_REPHRASE_1_p1> | <INTENT_4_REPHRASE_1_p2> | <INTENT_4_REPHRASE_1_p3>;
+<INTENT_4_REPHRASE_1_p1> = verb_pattern_01__ (stëgna | katalog) <TO> pòwinna (miec | zamëkac) [téż] [lopk | katalog] <FROM>;
+<INTENT_4_REPHRASE_1_p2> = verb_pattern_02__ (stëgna | katalog) <TO> mô zamëkac [téż] [lopk | katalog] <FROM>;
+<INTENT_4_REPHRASE_1_p3> = verb_pattern_03__ (stëgna | katalog) <TO> mùszi (miec | zamëkac) [téż] [lopk | katalog] <FROM>;
+<INTENT_4_REPHRASE_2> = verb_pattern_04__ (brëkùjã | chcã | jô bë chcôł) żebë <FROM> nalôzł sã [téż] w [stëgnie] <TO>;
+<INTENT_4_REPHRASE_3> = verb_pattern_05__ (brëkùjã | chcã | jô bë chcôł) żebë [identicznô] kòpiô <FROM> [lopkù | katalogù] nalazła sã [téż] w [stëgnie] <TO>;
+<INTENT_4_REPHRASE_4> = verb_pattern_06__ (niech <FROM> naléze | chcã [żebë] <FROM> nalôzł) sã téż w <TO> ale nie przenaszôj [lopkù | katalogù] leno gò skòpiuj;
+
+##5) MV
+##<FROM> and <TO> must be provided
+#SYNTAX: VB [PRP] NN IN NN IN NN
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ przenies [mie] [lopk | katalog] [z] <FROM> do [stëgnë] <TO>;
+
+#SYNTAX: VB _ NN NN IN NN
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ zmień (môl | pòłożenié) [lopkù | katalogù | zasobù] <FROM> (na | do) <TO>;
+
+#SYNTAX: IN NN VB PRP NN
+<INTENT_5_L2TC> = L2TC__ verb_pattern_01__ do <TO> przenies [mie] [lopk | katalog | zasób] <FROM>;
+
+#SYNTAX: RB VB _ VB NN NN IN NN
+<INTENT_5_REPHRASE> = REPHRASE__ <INTENT_5_REPHRASE_1>;
+<INTENT_5_REPHRASE_1> = verb_pattern_01__ nie kòpiuj leno przenies (stëgnã | katalog | lopk | zasób) <TO> (do | na) <FROM>;
+
+##6) RM
+##<FROM> must be provided
+#SYNTAX: VB PRP NN [IN] NN
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = L0TC__ verb_pattern_01__ ùsuń [[mie] lopk |[mie] katalog] [z] <FROM>;
+
+#SYNTAX: VB IN NN NN
+<INTENT_6_L1TC> = L1TC__ (<INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>);
+<INTENT_6_L1TC_1> = verb_pattern_01__ przenies do kòsza <FROM>;
+<INTENT_6_L1TC_2> = verb_pattern_02__ ùmiesc w kòszu <FROM>;
+
+#SYNTAX: VB NN NOU IN NN
+<INTENT_6_L2TC> = L2TC__ (<INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>);
+<INTENT_6_L2TC_1> = verb_pattern_01__ pòzbądz sã [lopkù | katalogù] <FROM> [na (dobré | stałé)];
+<INTENT_6_L2TC_2> = verb_pattern_02__ ùmiesc [lopk | katalog] <FROM> w kòszu;
+
+#SYNTAX: VB NN NN
+#SYNTAX: NN AUX VB
+#SYNTAX: AUX _ NN [NN] VB
+<INTENT_6_REPHRASE> = REPHRASE__ (<INTENT_6_REPHRASE_1> | <INTENT_6_REPHRASE_2> | <INTENT_6_REPHRASE_3> | <INTENT_6_REPHRASE_4>);
+<INTENT_6_REPHRASE_1> = verb_pattern_01__ anihiluj (stëgnã | katalog | lopk | zasób) <FROM>;
+<INTENT_6_REPHRASE_2> = verb_pattern_02__ <FROM> mô zniknąc;
+<INTENT_6_REPHRASE_3> = verb_pattern_03__ (brëkùjã | chcã | nalegam) żebë [lopk | stëgna | katalog] <FROM> zniknął;
+<INTENT_6_REPHRASE_4> = verb_pattern_04__ (brëkùjã | chcã | nalegam) żebë [lopk | stëgna | katalog] <FROM> òstôł ùsëniãti;
+
+
+#SLOTS
+<FILENAME> = CONSOLE.SLOT.FILENAME;
+<FILENAMES> = CONSOLE.SLOT.FILENAMES;
+<PATHNAME> = CONSOLE.SLOT.PATHNAME;
+<FROM> = CONSOLE.SLOT.FROM;
+<TO> = CONSOLE.SLOT.TO;

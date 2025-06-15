@@ -1,0 +1,156 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Youtube__ (OpenYT__ <INTENT_1> | FindQuery__ <INTENT_2> | ShowChannelWithName__ <INTENT_3> | ShowChannelWithCategory__ <INTENT_4> | ShowSubscribedChannels__ <INTENT_5> | FindChannelWithQuery__ <INTENT_6> | FindQueryOnChannel__ <INTENT_7> | NotifyOnNewFromFollowing__ <INTENT_8> | NotifyOnNewOnChannel__ <INTENT_9> | NextVideo__ <INTENT_10>);
+
+#PRECONDITIONS
+<WHEN_1> = (czedë | jeżlë | żlë) pòjawi sã [nowé] (wideo | klip | film) na karnôlu jaczi (sledzã | followùjã | òbserwùjã | òbzéróm);
+<WHEN_2> = (czedë | jeżlë | żlë) na karnôlu <CHANNEL_ID> pòjawi sã ([nowi] klip | [nowi] film | [nowé] wideo);
+
+#INTENTS
+##1) OPEN YOUTUBE
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ òdemkni (yt | youtube);
+
+<INTENT_1_L1TC> = L1TC__ verb_pattern_01__ ùruchòm (yt | youtube);
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ włącz (yt | youtube);
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ wëswietl (yt | youtube);
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż mie (cos | video | film) na (youtube | youtubie);
+
+##2) FIND QUERY
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ naléz (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ szëkôj (<INTENT_2_a> | <INTENT_2_b>);
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3> | <INTENT_2_L1TC_4>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ òdtwórz (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ òdtwarzôj (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ chcã òbaczëc (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_L1TC_4> = L1TC__ verb_pattern_04__ wëszëkôj (<INTENT_2_a> | <INTENT_2_b>);
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ pòkôż (<INTENT_2_a> | <INTENT_2_b>);
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ wëswietl (<INTENT_2_a> | <INTENT_2_b>);
+
+<INTENT_2_a> = <QUERY> na (yt | youtube);
+<INTENT_2_b> = <VIDEO> z <QUERY> [na (yt | youtube)];
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż film ò <QUERY>;
+
+##3) OPEN CHANNEL
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = L0TC__ verb_pattern_01__ pòkôż <VIDEO> (z karnôlu | na karnôlu) <CHANNEL_ID>;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ òdtwórz <VIDEO> (z karnôlu | na karnôlu) <CHANNEL_ID>;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ wëswietl <VIDEO> (z karnôlu | na karnôlu) <CHANNEL_ID>;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ wëszëkôj <VIDEO> (z karnôlu | na karnôlu) <CHANNEL_ID>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ szëkôj <VIDEO> (z karnôlu | na karnôlu) <CHANNEL_ID>;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ naléz <VIDEO> (z karnôlu | na karnôlu) <CHANNEL_ID>;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż film ò <QUERY> z <CHANNEL_ID>;
+
+##4) SEARCH FOR CATEGORY
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = L0TC__ verb_pattern_01__ pòkôż karnôle z kategòrie <CATEGORY_ID> [na (yt | youtube)];
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ wëswietl karnôle z kategòrie <CATEGORY_ID> [na (yt | youtube)];
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ włącz karnôle z kategòrie <CATEGORY_ID> [na (yt | youtube)];
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ wëszëkôj karnôle z kategòrie <CATEGORY_ID> [na (yt | youtube)];
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ szëkôj karnôle z kategòrie <CATEGORY_ID> [na (yt | youtube)];
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż jiné filmë z kategòrie <CATEGORY_ID>;
+
+##5) FOLLOW
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ pòkôż [mie] karnôle jaczé (subskribùjã | sledzã | òbserwùjã | followùjã) [na (yt | youtube)];
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ wëswietl [mie] karnôle jaczé (subskribùjã | sledzã | òbserwùjã | followùjã) [na (yt | youtube)];
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ włącz [mie] karnôle jaczé (subskribùjã | sledzã | òbserwùjã | followùjã) [na (yt | youtube)];
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ wëszëkôj [mie] karnôle jaczé (subskribùjã | sledzã | òbserwùjã | followùjã) [na (yt | youtube)];
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ naléz [mie] karnôle jaczé (subskribùjã | sledzã | òbserwùjã | followùjã) [na (yt | youtube)];
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż rzeczë jaczima sã interesëjã na (youtube | youtubie);
+
+##6) SEARCH FOR CHANNELS WITH QUERY
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2> | <INTENT_6_L0TC_3>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż karnôle z <QUERY> [na (yt | youtube)];
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ szëkôj karnôle z <QUERY> [na (yt | youtube)];
+<INTENT_6_L0TC_3> = L0TC__ verb_pattern_03__ wëswietl karnôle z <QUERY> [na (yt | youtube)];
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ wëszëkôj karnôle z <QUERY> [na (yt | youtube)];
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ naléz karnôle z <QUERY> [na (yt | youtube)];
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ chcã òbaczëc karnôle z <QUERY> [na (yt | youtube)];
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ na jaczich karnôlach na (yt | youtube) nalézã <QUERY>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ pòkôż môle na (youtube | youtubie) gdze nalézã <QUERY>;
+
+##7) SEARCH FOR VIDEO ON SPECIFIC CHANNEL
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ pòkôż [mie] <VIDEO> (z | òpùblikòwóné) [karnôlu] <CHANNEL_ID> (pasëjącé | jaczé pasëją) do <QUERY> [na (yt | youtube)];
+
+<INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2> | <INTENT_7_L1TC_3>;
+<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ wëswietl [mie] <VIDEO> (z | òpùblikòwóné) [karnôlu] <CHANNEL_ID> (pasëjącé | jaczé pasëją) do <QUERY> [na (yt | youtube)];
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ naléz [mie] <VIDEO> (z | òpùblikòwóné) [karnôlu] <CHANNEL_ID> (pasëjącé | jaczé pasëją) do <QUERY> [na (yt | youtube)];
+<INTENT_7_L1TC_3> = L1TC__ verb_pattern_03__ wëszëkôj [mie] <VIDEO> (z | òpùblikòwóné) [karnôlu] <CHANNEL_ID> (pasëjącé | jaczé pasëją) do <QUERY> [na (yt | youtube)];
+
+<INTENT_7_L2TC> = L2TC__ verb_pattern_01__ włącz [mie] <VIDEO> (z | òpùblikòwóné) [karnôlu] <CHANNEL_ID> (pasëjącé | jaczé pasëją) do <QUERY> [na (yt | youtube)];
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ <CHANNEL_ID> (miôł | mô) [cos taczégò] <QUERY>;
+
+##8) NOTIFY WHEN NEW VIDEO FROM FOLLOWING
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ pòwiadóm mie <WHEN_1>;
+
+<INTENT_8_L1TC> = L1TC__ verb_pattern_01__ pòwiédz mie <WHEN_1>;
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ dôj mie znac <WHEN_1>;
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ pòinfòrmùj mie <WHEN_1>;
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ chcã wiedzec <WHEN_1>;
+
+##9) NOTIFY WHEN NEW VIDEO ON CHANNEL
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ pòwiadóm mie <WHEN_2>;
+
+<INTENT_9_L1TC> = L1TC__ verb_pattern_01__ pòwiédz mie <WHEN_2>;
+
+<INTENT_9_L2TC> = <INTENT_9_L2TC_1> | <INTENT_9_L2TC_2>;
+<INTENT_9_L2TC_1> = L2TC__ verb_pattern_01__ dôj mie znac <WHEN_2>;
+<INTENT_9_L2TC_2> = L2TC__ verb_pattern_02__ pòinfòrmùj mie <WHEN_2>;
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ chcã wiedzec <WHEN_2>;
+
+##10) NEXT
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ [włącz] (pòstãpné video | pòstãpny film | kòlejné video | kòlejny film);
+
+<INTENT_10_L1TC> = L1TC__ verb_pattern_01__ przełącz na (pòstãpné video | pòstãpny film | kòlejné video | kòlejny film);
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ pùsc (pòstãpné video | pòstãpny film | kòlejné video | kòlejny film);
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ [(przewiń do kùńca | skùńcz ten) i] pùsc (nowi film | cos jinégo | cos nowégo);
+
+#SLOTS
+<CHANNEL_ID> = YOUTUBE.SLOT.CHANNEL_ID;
+<CATEGORY_ID> = YOUTUBE.SLOT.CATEGORY;
+<QUERY> = YOUTUBE.SLOT.QUERY;
+
+#LANG. COMPONENTS
+<VIDEO> = wideo | klip | film  | filmë | filmiki;
+
+// "search youtube for videos"

@@ -1,0 +1,84 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Fitbit__ (ShowSteps__ <INTENT_1> | ShowStepsOnDate__ <INTENT_2> | ShowBMI__ <INTENT_3> | AddWeight__ <INTENT_4> | NotifyOnWeight__ <INTENT_5>);
+
+#PRECONDITION
+<WHEN_1> = czedë (mòja waga (bãdze wiãkszô niż | przekroczi) | bãdã (cãższi | cãższô) niż | przëtëjã wëżi jak) <WEIGHT>;
+
+#INTENTS
+##1) STEP COUNT
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ (wiele jô zrobił kroków | wiele jem zrobił kroków);
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ pòwiédz [mie] ((mòje kroczi | ilosc kroków | lëczbã kroków) (na | w) fitbitu | (lëczbã kroków jaką (jem zrobił | jem przeszedł) | krokòmierz | licznik kroków));
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ pòkôż [mie] ((mòje kroczi | ilosc kroków | lëczbã kroków) (na | w) fitbitu | (lëczbã kroków jaką (jem zrobił | jem przeszedł) | krokòmierz | licznik kroków));
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ wëswietl [mie] ((mòje kroczi | ilosc kroków | lëczbã kroków) (na | w) fitbitu | (lëczbã kroków jaką (jem zrobił | jem przeszedł) | krokòmierz | licznik kroków));
+
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ pòlicz [mie] ((mòje kroczi | ilosc kroków | lëczbã kroków) (na | w) fitbitu | (lëczbã kroków jaką (jem zrobił | jem przeszedł) | krokòmierz | licznik kroków));
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ òblicz distans jaczi dzys jem zrobił w krokach;
+
+##2) STEP COUNT ON DATE
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ (wiele jô zrobił kroków | wiele jem zrobił kroków) <DATE>;
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ pòwiédz [mie] (((mòje kroczi | ilosc kroków | lëczbã kroków) [(na | w) fitbitu] (dlô | jaczé (jem zrobił | jem zrobiła)) <DATE>) | ((lëczbã kroków jaką (jem zrobił | jem zrobiła | jem przeszedł | przeszłam) | krokòmierz | licznik kroków) (dlô | jaczé (jem zrobił | jem zrobiła)) <DATE>));
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ pòkôż [mie] (((mòje kroczi | ilosc kroków | lëczbã kroków) [(na | w) fitbitu] (dlô | jaczé (jem zrobił | jem zrobiła)) <DATE>) | ((lëczbã kroków jaką (jem zrobił | jem zrobiła | jem przeszedł | przeszłam) | krokòmierz | licznik kroków) (dlô | jaczé (jem zrobił | jem zrobiła)) <DATE>));
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ wëswietl [mie] (((mòje kroczi | ilosc kroków | lëczbã kroków) [(na | w) fitbitu] (dlô | jaczé (jem zrobił | jem zrobiła)) <DATE>) | ((lëczbã kroków jaką (jem zrobił | jem zrobiła | jem przeszedł | przeszłam) | krokòmierz | licznik kroków) (dlô | jaczé (jem zrobił | jem zrobiła)) <DATE>));
+
+<INTENT_2_L2TC> = L2TC__ verb_pattern_01__ pòlicz [mie] (((mòje kroczi | ilosc kroków | lëczbã kroków) [(na | w) fitbitu] (dlô | jaczé (jem zrobił | jem zrobiła)) <DATE>) | ((lëczbã kroków jaką (jem zrobił | jem zrobiła | jem przeszedł | przeszłam) | krokòmierz | licznik kroków) (dlô | jaczé (jem zrobił | jem zrobiła)) <DATE>));
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ òblicz distans jaczi jem zrobił <DATE> w krokach;
+
+##3) bmi
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ (jaczi (móm | jest mój) bmi | jakô je mòja waga);
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ pòwiédz [mie] (mój bmi | moją wagã) [(na | w) fitbitu];
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ pòkôż [mie] (mój bmi | moją wagã) [(na | w) fitbitu];
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ wëswietl [mie] (mój bmi | moją wagã) [(na | w) fitbitu];
+
+<INTENT_3_L2TC> = L2TC__ verb_pattern_01__ pòlicz [mie] (mój bmi | moją wagã) [(na | w) fitbitu];
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ je mòje bmi w normie;
+
+##4) SAVE WEIGHT
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ zapisz (((na | w) fitbitu (moją wagã | wiele ważã)) | ((moją wagã | wiele ważã) w fitbitu));
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ dodaj (moją wagã | wiele ważã) do (fitbit | fitbitu);
+
+<INTENT_4_L1TC> = L1TC__ verb_pattern_01__ zapamieętaj (((na | w) fitbitu (moją wagã | wiele ważã)) | ((moją wagã | wiele ważã) w fitbitu));
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ zanotuj (((na | w) fitbitu (moją wagã | wiele ważã)) | ((moją wagã | wiele ważã) w fitbitu));
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ ùchòwôj (((na | w) fitbitu (moją wagã | wiele ważã)) | ((moją wagã | wiele ważã) w fitbitu));
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ przechòwôj (((na | w) fitbitu (moją wagã | wiele ważã)) | ((moją wagã | wiele ważã) w fitbitu));
+
+<INTENT_4_REPHRASE> = <INTENT_4_REPHRASE_1> | <INTENT_4_REPHRASE_2>;
+<INTENT_4_REPHRASE_1> = REPHRASE__ verb_pattern_01__ jem jô (chùdszi | chùdszô | grëbszi | grëbszô);
+<INTENT_4_REPHRASE_2> = REPHRASE__ verb_pattern_02__ pòmóż mie kòntrolowac (moją wagã | wiele ważã);
+
+##5) NOTIFY ON WEIGHT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = L0TC__ verb_pattern_01__ pòwiadóm mie <WHEN_1>;
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ pòwiédz mie <WHEN_1>;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ pòkôż mie <WHEN_1>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ dôj mie znac <WHEN_1>;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ pòinfòrmùj mie <WHEN_1>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ nie chcã przekroczëc <WEIGHT>;
+
+#SLOTS
+<STEPS> = FITBIT.SLOT.STEPS;
+<DATE> = FITBIT.SLOT.DATE;
+<WEIGHT> = FITBIT.SLOT.WEIGHT;

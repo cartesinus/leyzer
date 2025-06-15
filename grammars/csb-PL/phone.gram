@@ -1,0 +1,118 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Phone__ (CallNumber__ <INTENT_1> | CallEmergency__ <INTENT_2> | ShowSMS__ <INTENT_3> | SMSToContact__ <INTENT_4> | SMSToContactWithMessage__ <INTENT_5> | CallContact__ <INTENT_6>);
+
+#INTENTS
+##1) CALL NUMBER
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = <INTENT_1_L0TC_1> | <INTENT_1_L0TC_2>;
+<INTENT_1_L0TC_1> = L0TC__ verb_pattern_01__ zazwòń (na [numer] | do) <NUMBER>;
+<INTENT_1_L0TC_2> = L0TC__ verb_pattern_02__ zwòń (na [numer] | do) <NUMBER>;
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2> | <INTENT_1_L1TC_3>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ wëbierz [numer] <NUMBER>;
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ <NUMBER> (zwòń | zazwòń | wëbierz);
+<INTENT_1_L1TC_3> = L1TC__ verb_pattern_03__ pòłącz mie z [numerã] <NUMBER>;
+
+<INTENT_1_L2TC> = <INTENT_1_L2TC_1> | <INTENT_1_L2TC_2> | <INTENT_1_L2TC_3> | <INTENT_1_L2TC_4>;
+<INTENT_1_L2TC_1> = L2TC__ verb_pattern_01__ wëkònôj telefón (do | na numer) <NUMBER>;
+<INTENT_1_L2TC_2> = L2TC__ verb_pattern_02__ zatelefònuj (na [numer] | do) <NUMBER>;
+<INTENT_1_L2TC_3> = L2TC__ verb_pattern_03__ telefònuj (na [numer] | do) <NUMBER>;
+<INTENT_1_L2TC_4> = L2TC__ verb_pattern_04__ przezwòń (na [numer] | do) <NUMBER>;
+
+<INTENT_1_REPHRASE> = REPHRASE__ verb_pattern_01__ skòntaktuj mie z <NUMBER>;
+
+##2) EMERGENCY CALL
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = L0TC__ verb_pattern_01__ zazwòń ((na | pò) (pòlicjã | straż pòżarną | pògòtowié) | na 112 | pò karétkã | na alarmòwi numer);
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_2_L1TC_3>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ wezwij (pomoc | pòlicję | straż pòżarną);
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ zwòń ((na | pò) (pòlicjã | straż pòżarną | pògòtowié) | na 112 | pò karétkã | na alarmòwi numer);
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ wëbierz numer (na (pòlicjã | straż pòżarną | pògòtowié) | na 112);
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3> | <INTENT_2_L2TC_4>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ zatelefònuj ((na | pò) (pòlicjã | straż pòżarną | pògòtowié) | na 112 | pò karétkã | na alarmòwi numer);
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ telefònuj ((na | pò) (pòlicjã | straż pòżarną | pògòtowié) | na 112 | pò karétkã | na alarmòwi numer);
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ przezwòń ((na | pò) (pòlicjã | straż pòżarną | pògòtowié) | na 112 | pò karétkã | na alarmòwi numer);
+<INTENT_2_L2TC_4> = L2TC__ verb_pattern_04__ skòntaktuj mie z (pòlicją | ògniową strażą | pògòtowiém | 112);
+
+<INTENT_2_REPHRASE> = REPHRASE__ verb_pattern_01__ brëkùjã pòmòcë;
+
+##3) CHECK SMS
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ sprôwdz (((mòje [przëchôdającé] | òdebróné) (wiadła | smsë)) | ((wiadła | smsë) jaczé (jem dostôł | do mie przëszłë)));
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ pòkôż (((mòje [przëchôdającé] | òdebróné) (wiadła | smsë)) | ((wiadła | smsë) jaczé (jem dostôł | do mie przëszłë)));
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2> | <INTENT_3_L1TC_3>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ wëswietl (((mòje [przëchôdającé] | òdebróné) (wiadła | smsë)) | ((wiadła | smsë) jaczé (jem dostôł | do mie przëszłë)));
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ òdemkni (((mòje [przëchôdającé] | òdebróné) (wiadła | smsë)) | ((wiadła | smsë) jaczé (jem dostôł | do mie przëszłë)));
+<INTENT_3_L1TC_3> = L1TC__ verb_pattern_03__ przeczëtôj (((mòje [przëchôdającé] | òdebróné) (wiadła | smsë)) | ((wiadła | smsë) jaczé (jem dostôł | do mie przëszłë)));
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2>;
+<INTENT_3_L2TC_1> = L1TC__ verb_pattern_01__ pòwiédz (((mòje [przëchôdającé] | òdebróné) (wiadła | smsë)) | ((wiadła | smsë) jaczé (jem dostôł | do mie przëszłë)));
+<INTENT_3_L2TC_2> = L1TC__ verb_pattern_02__ wléz w (((mòje [przëchôdającé] | òdebróné) (wiadła | smsë)) | ((wiadła | smsë) jaczé (jem dostôł | do mie przëszłë)));
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ òdemkni òdbiorczą skrzinkã [wiadła];
+
+##4) SEND SMS
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2> | <INTENT_4_L0TC_3>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ wësli (sms | wiadło [tekstowé]) do <TO>;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ napisz (((sms | wiadło [tekstowé]) do <TO>) | (do <TO> (wiadło [tekstowé] | sms)));
+<INTENT_4_L0TC_3> = L0TC__ verb_pattern_03__ sms do <TO>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ przekôż (sms | wiadło [tekstowé]) do <TO>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ wiadło [sms | tekstowé] do <TO>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ przesli (sms | wiadło [tekstowé]) do <TO>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ pòslij (sms | wiadło [tekstowé]) do <TO>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ nadôj (sms | wiadło [tekstowé]) do <TO>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ pòwiédz cos do <TO> smsem;
+
+##5) SEND SMS WITH CONTENT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ wësli (((sms | wiadło [tekstowé]) do <TO> o tresci <MESSAGE>) | ((sms | wiadło [tekstowé]) [o tresci] <MESSAGE> do <TO>));
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ napisz (((sms | wiadło [tekstowé]) do <TO> o tresci <MESSAGE>) | ((sms | wiadło [tekstowé]) [o tresci] <MESSAGE> do <TO>));
+
+<INTENT_5_L1TC> = L1TC__ verb_pattern_01__ przekôż (((sms | wiadło [tekstowé]) do <TO> o tresci <MESSAGE>) | ((sms | wiadło [tekstowé]) [o tresci] <MESSAGE> do <TO>));
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ przesli (((sms | wiadło [tekstowé]) do <TO> o tresci <MESSAGE>) | ((sms | wiadło [tekstowé]) [o tresci] <MESSAGE> do <TO>));
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ pòslij (((sms | wiadło [tekstowé]) do <TO> o tresci <MESSAGE>) | ((sms | wiadło [tekstowé]) [o tresci] <MESSAGE> do <TO>));
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ nadôj (((sms | wiadło [tekstowé]) do <TO> o tresci <MESSAGE>) | ((sms | wiadło [tekstowé]) [o tresci] <MESSAGE> do <TO>));
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ pòwiédz <MESSAGE> do <TO> smsem;
+
+##6) CALL CONTACT
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ zazwòń do <TO>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ zwòń do <TO>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2> | <INTENT_6_L1TC_3>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ wëbierz [numer] <TO>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ <TO> (zwòń | zazwòń | wëbierz | przezwòń);
+<INTENT_6_L1TC_3> = L1TC__ verb_pattern_03__ pòłącz mie z <TO>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3> | <INTENT_6_L2TC_4>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ wëkònôj telefón do <TO>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ zatelefònuj do <TO>;
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ telefònuj do <TO>;
+<INTENT_6_L2TC_4> = L2TC__ verb_pattern_04__ przezwòń do <TO>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ skòntaktuj mie z <TO>;
+
+#SLOTS
+<TO> = PHONE.SLOT.TO;
+<MESSAGE> = PHONE.SLOT.MESSAGE;
+<NUMBER> = PHONE.SLOT.PHONE_NUMBER;
+<MODE> = PHONE.SLOT.MODE;

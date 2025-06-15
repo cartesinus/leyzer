@@ -1,0 +1,354 @@
+name: Leyzer Corpus Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      language:
+        description: 'Language to build (e.g., cs-CZ)'
+        required: true
+        type: string
+      version:
+        description: 'Corpus version (e.g., 0.3.0)'
+        required: true
+        type: string
+      publish_to_hf:
+        description: 'Publish to HuggingFace after approval'
+        required: false
+        type: boolean
+        default: false
+  pull_request:
+    paths:
+      - 'grammars/**'
+      - 'slots/**'
+      - 'patterns/**'
+      - 'scripts/**'
+
+env:
+  LANGUAGE: ${{ inputs.language || 'csb-PL' }}
+  VERSION: ${{ inputs.version || '0.3.0' }}
+  PYTHON_VERSION: '3.9'
+
+jobs:
+  # Stage 1: Build and Validate
+  build-and-validate:
+    runs-on: ubuntu-latest
+    outputs:
+      validation-passed: ${{ steps.validate.outputs.passed }}
+      corpus-size: ${{ steps.stats.outputs.size }}
+      artifact-name: ${{ steps.upload.outputs.artifact-name }}
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas JSGFToolsLeyzer gitpython
+        # Install any other dependencies from requirements.txt if it exists
+        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+    - name: Make scripts executable
+      run: |
+        chmod +x scripts/*.sh
+        chmod +x scripts/*.py
+
+    - name: Create output directories
+      run: |
+        mkdir -p patterns/${{ env.LANGUAGE }}
+        mkdir -p corpora/${{ env.VERSION }}
+        mkdir -p artifacts/validation
+        mkdir -p artifacts/corpus
+
+    - name: Validate grammar files exist
+      run: |
+        if [ ! -d "grammars/${{ env.LANGUAGE }}" ]; then
+          echo "Error: Grammar directory for ${{ env.LANGUAGE }} does not exist"
+          exit 1
+        fi
+
+        grammar_count=$(find grammars/${{ env.LANGUAGE }} -name "*.gram" | wc -l)
+        echo "Found $grammar_count grammar files"
+
+        if [ $grammar_count -eq 0 ]; then
+          echo "Error: No grammar files found for ${{ env.LANGUAGE }}"
+          exit 1
+        fi
+
+    - name: Validate slot files exist
+      run: |
+        if [ ! -d "slots/${{ env.LANGUAGE }}" ]; then
+          echo "Warning: Slot directory for ${{ env.LANGUAGE }} does not exist"
+          mkdir -p slots/${{ env.LANGUAGE }}
+        fi
+
+        slot_count=$(find slots/${{ env.LANGUAGE }} -type f | wc -l)
+        echo "Found $slot_count slot files"
+
+    - name: Generate patterns from grammars
+      run: |
+        config_file="corpora/${{ env.VERSION }}/leyzer-${{ env.VERSION }}-${{ env.LANGUAGE }}-expansion.conf"
+
+        # Use the config file if it exists, otherwise generate patterns individually
+        if [ -f "$config_file" ]; then
+          echo "Using config file: $config_file"
+          python scripts/generate_patterns.py -c "$config_file" --split-domains --output-dir "patterns/${{ env.LANGUAGE }}"
+        else
+          echo "No config file found, generating patterns for each grammar file"
+          for grammar_file in grammars/${{ env.LANGUAGE }}/*.gram; do
+            domain=$(basename "$grammar_file" .gram)
+            echo "Generating patterns for domain: $domain"
+            python scripts/generate_patterns.py -f "$grammar_file" > "patterns/${{ env.LANGUAGE }}/${domain}.tsv"
+          done
+        fi
+
+    - name: Expand slots to create corpus
+      run: |
+        total_files=0
+        for pattern_file in patterns/${{ env.LANGUAGE }}/*.tsv; do
+          if [ -f "$pattern_file" ]; then
+            domain=$(basename "$pattern_file" .tsv)
+            output_file="corpora/${{ env.VERSION }}/leyzer-${{ env.LANGUAGE }}-${domain}-${{ env.VERSION }}.tsv"
+
+            echo "Expanding slots for domain: $domain"
+            ./scripts/expand-slots.sh ${{ env.LANGUAGE }} "$pattern_file" "$output_file" true true
+
+            if [ -f "$output_file" ]; then
+              total_files=$((total_files + 1))
+              echo "✓ Created corpus file: $output_file"
+            else
+              echo "✗ Failed to create corpus file: $output_file"
+            fi
+          fi
+        done
+
+        echo "Generated $total_files corpus files"
+        echo "corpus_files_count=$total_files" >> $GITHUB_ENV
+
+    - name: Combine corpus files
+      run: |
+        combined_file="corpora/${{ env.VERSION }}/leyzer-combined-${{ env.LANGUAGE }}-${{ env.VERSION }}.tsv"
+
+        # Create header
+        echo -e "domain\tintent\tlevel\tpattern\tutterance\tbio" > "$combined_file"
+
+        # Combine all corpus files
+        for corpus_file in corpora/${{ env.VERSION }}/leyzer-${{ env.LANGUAGE }}-*-${{ env.VERSION }}.tsv; do
+          if [ -f "$corpus_file" ] && [[ "$corpus_file" != *"combined"* ]]; then
+            # Skip header line and append
+            tail -n +2 "$corpus_file" >> "$combined_file"
+          fi
+        done
+
+        echo "Combined corpus file created: $combined_file"
+        echo "combined_corpus_file=$combined_file" >> $GITHUB_ENV
+
+    - name: Validate corpus
+      id: validate
+      run: |
+        validation_script="scripts/validate_corpus.py"
+        reference_config="corpora/${{ env.VERSION }}/leyzer-${{ env.VERSION }}-${{ env.LANGUAGE }}-expansion.conf"
+
+        # Create validation script if it doesn't exist (use our artifact script)
+        python scripts/validate_corpus.py \
+          -l ${{ env.LANGUAGE }} \
+          -c corpora/${{ env.VERSION }}/ \
+          -r "$reference_config" \
+          --verbose > artifacts/validation/validation_report.txt 2>&1
+
+        validation_exit_code=$?
+
+        if [ $validation_exit_code -eq 0 ]; then
+          echo "passed=true" >> $GITHUB_OUTPUT
+          echo "✓ Validation passed"
+        else
+          echo "passed=false" >> $GITHUB_OUTPUT
+          echo "✗ Validation failed"
+          cat artifacts/validation/validation_report.txt
+        fi
+
+    - name: Generate statistics
+      id: stats
+      run: |
+        if [ -f "$combined_corpus_file" ]; then
+          sample_count=$(python scripts/generate_stats.py "$combined_corpus_file" "artifacts/validation")
+          echo "size=$sample_count" >> $GITHUB_OUTPUT
+        else
+          echo "size=0" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Create corpus artifacts
+      run: |
+        # Copy all generated files to artifacts directory
+        cp -r corpora/${{ env.VERSION }}/* artifacts/corpus/ || true
+        cp -r patterns/${{ env.LANGUAGE }}/* artifacts/corpus/ || true
+
+        # Create build summary using script
+        ./scripts/create_build_summary.sh \
+          ${{ env.LANGUAGE }} \
+          ${{ env.VERSION }} \
+          ${{ github.sha }} \
+          ${{ steps.validate.outputs.passed }} \
+          ${{ steps.stats.outputs.size }} \
+          artifacts/corpus
+
+    - name: Upload corpus artifacts
+      id: upload
+      uses: actions/upload-artifact@v4
+      with:
+        name: leyzer-corpus-${{ env.LANGUAGE }}-${{ env.VERSION }}-${{ github.run_id }}
+        path: artifacts/
+        retention-days: 30
+
+    - name: Comment on PR (if applicable)
+      if: github.event_name == 'pull_request'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          const fs = require('fs');
+          const path = 'artifacts/corpus/build_summary.md';
+
+          if (fs.existsSync(path)) {
+            const summary = fs.readFileSync(path, 'utf8');
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: summary
+            });
+          }
+
+  # Stage 2: Manual Approval Gate
+  manual-approval:
+    needs: build-and-validate
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' && needs.build-and-validate.outputs.validation-passed == 'true'
+    environment:
+      name: corpus-approval
+      url: ${{ steps.artifact-url.outputs.url }}
+
+    steps:
+    - name: Get artifact URL
+      id: artifact-url
+      run: |
+        echo "url=https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" >> $GITHUB_OUTPUT
+
+    - name: Manual approval checkpoint
+      run: |
+        echo "🔍 Corpus validation passed!"
+        echo "📊 Generated ${{ needs.build-and-validate.outputs.corpus-size }} samples"
+        echo "📁 Artifact: ${{ needs.build-and-validate.outputs.artifact-name }}"
+        echo ""
+        echo "Please review the generated corpus artifacts before proceeding."
+        echo "The corpus will be released and optionally published to HuggingFace after approval."
+
+  # Stage 3: Release and Publish
+  release-and-publish:
+    needs: [build-and-validate, manual-approval]
+    runs-on: ubuntu-latest
+    if: success()
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Download corpus artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: ${{ needs.build-and-validate.outputs.artifact-name }}
+        path: release-artifacts/
+
+    - name: Create release
+      id: create_release
+      uses: actions/create-release@v1
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      with:
+        tag_name: v${{ env.VERSION }}-${{ env.LANGUAGE }}
+        release_name: Leyzer Corpus ${{ env.VERSION }} - ${{ env.LANGUAGE }}
+        body: |
+          # Leyzer Corpus Release ${{ env.VERSION }} - ${{ env.LANGUAGE }}
+
+          **Language**: ${{ env.LANGUAGE }}
+          **Version**: ${{ env.VERSION }}
+          **Samples**: ${{ needs.build-and-validate.outputs.corpus-size }}
+          **Build**: ${{ github.run_id }}
+
+          ## What's Included
+          - Complete corpus in TSV format
+          - Patterns and expanded utterances
+          - Validation reports and statistics
+          - BIO tagged data for NER tasks
+
+          ## Usage
+          Download the corpus files and use them for training multilingual NLU models.
+
+          Generated from commit: ${{ github.sha }}
+        draft: false
+        prerelease: false
+
+    - name: Upload release assets
+      run: |
+        # Upload main corpus file
+        for file in release-artifacts/corpus/*.tsv; do
+          if [ -f "$file" ]; then
+            echo "Uploading $(basename "$file")"
+            gh release upload v${{ env.VERSION }}-${{ env.LANGUAGE }} "$file" --clobber
+          fi
+        done
+
+        # Upload summary and stats
+        gh release upload v${{ env.VERSION }}-${{ env.LANGUAGE }} release-artifacts/corpus/build_summary.md --clobber
+        gh release upload v${{ env.VERSION }}-${{ env.LANGUAGE }} release-artifacts/validation/corpus_stats.json --clobber
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set up Python for HF upload
+      if: inputs.publish_to_hf
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Install HuggingFace dependencies
+      if: inputs.publish_to_hf
+      run: |
+        pip install huggingface_hub datasets
+
+    - name: Publish to HuggingFace
+      if: inputs.publish_to_hf
+      run: |
+        python scripts/publish_to_hf.py \
+          --language ${{ env.LANGUAGE }} \
+          --version ${{ env.VERSION }} \
+          --corpus-dir release-artifacts/corpus/ \
+          --hf-token ${{ secrets.HF_TOKEN }} \
+          --repo-id ${{ secrets.HF_REPO_ID || 'cartesinus/leyzer' }}
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+
+    - name: Notify completion
+      run: |
+        echo "🎉 Release completed successfully!"
+        echo "📦 Release: https://github.com/${{ github.repository }}/releases/tag/v${{ env.VERSION }}-${{ env.LANGUAGE }}"
+        if [ "${{ inputs.publish_to_hf }}" = "true" ]; then
+          echo "🤗 Published to HuggingFace: https://huggingface.co/datasets/${{ secrets.HF_REPO_ID || 'cartesinus/leyzer' }}"
+        fi
+
+  # Cleanup job (always runs)
+  cleanup:
+    needs: [build-and-validate, manual-approval, release-and-publish]
+    runs-on: ubuntu-latest
+    if: always()
+
+    steps:
+    - name: Cleanup temporary files
+      run: |
+        echo "Cleanup completed - artifacts will be retained for 30 days"

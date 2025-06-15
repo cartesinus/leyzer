@@ -1,0 +1,192 @@
+#JSGF V1.0;
+#VUI-VERSION: 0.2.0;
+public <S> = Email__ (OpenEmail__ <INTENT_1> | ShowEmailFromSender__ <INTENT_2> | ShowEmailWithLabel__ <INTENT_3> | ShowEmailFromTime__ <INTENT_4> | ShowEmailWithSubject__ <INTENT_5> | ShowEmailWithPriority__ <INTENT_6> | SendEmailToAddressWithSubjectAndWithMessage__ <INTENT_7> | SendEmailToAddressWithSubject__ <INTENT_8> | SendEmail__ <INTENT_9> | SendEmailToAddress__ <INTENT_10> | ReplyToEmailFromAddress__ <INTENT_11>);
+
+#INTENTS
+##1) CHECK EMAIL
+<INTENT_1> = <INTENT_1_L0TC> | <INTENT_1_L1TC> | <INTENT_1_L2TC> | <INTENT_1_REPHRASE>;
+<INTENT_1_L0TC> = L0TC__ verb_pattern_01__ sprôwdz ([mòje] [òstatné | nônowszé] (emaile | maile) | czë (jem dostôł | jem dostała) nowé (emaile | maile));
+
+<INTENT_1_L1TC> = <INTENT_1_L1TC_1> | <INTENT_1_L1TC_2>;
+<INTENT_1_L1TC_1> = L1TC__ verb_pattern_01__ òbôcz ([mòje] [òstatné | nônowszé] (emaile | maile) | czë (jem dostôł | jem dostała) nowé (emaile | maile));
+<INTENT_1_L1TC_2> = L1TC__ verb_pattern_02__ pòwiédz [mie] czë (jem dostôł | jem dostała) nowé (emaile | maile);
+
+<INTENT_1_L2TC> = L2TC__ verb_pattern_01__ wëswietl [mòje] [òstatné | nônowszé] (emaile | gmaile | maile);
+
+<INTENT_1_REPHRASE> = <INTENT_1_REPHRASE_1> | <INTENT_1_REPHRASE_2>;
+<INTENT_1_REPHRASE_1> = REPHRASE__ verb_pattern_01__ czë chtos [nie] napisôł do mie (email | maila | elektroniczny lëst);
+<INTENT_1_REPHRASE_2> = REPHRASE__ verb_pattern_02__ sprôwdz skrzinkã;
+
+##2) SHOW EMAIL FROM SENDER
+<INTENT_2> = <INTENT_2_L0TC> | <INTENT_2_L1TC> | <INTENT_2_L2TC> | <INTENT_2_REPHRASE>;
+<INTENT_2_L0TC> = <INTENT_2_L0TC_1> | <INTENT_2_L0TC_2>;
+<INTENT_2_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż [mòje] (emaile | maile) ([chtërné (jem òtrzimôł | jem òtrzimała)] òd | chtërné (napisôł | napisôła) [do mie]) <SENDER_ADDRESS>;
+<INTENT_2_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl [mòje] (emaile | maile) ([chtërné (jem òtrzimôł | jem òtrzimała)] òd | chtërné (napisôł | napisôła) [do mie]) <SENDER_ADDRESS>;
+
+<INTENT_2_L1TC> = <INTENT_2_L1TC_1> | <INTENT_2_L1TC_2> | <INTENT_3_L1TC_3>;
+<INTENT_2_L1TC_1> = L1TC__ verb_pattern_01__ naléz [mòje] (emaile | maile) ([chtërné (jem òtrzimôł | jem òtrzimała)] òd | chtërné (napisôł | napisôła) [do mie]) <SENDER_ADDRESS>;
+<INTENT_2_L1TC_2> = L1TC__ verb_pattern_02__ òbôcz [mòje] (emaile | maile) ([chtërné (jem òtrzimôł | jem òtrzimała)] òd | chtërné (napisôł | napisôła) [do mie]) <SENDER_ADDRESS>;
+<INTENT_2_L1TC_3> = L1TC__ verb_pattern_03__ sprôwdz [mòje] (emaile | maile) ([chtërné (jem òtrzimôł | jem òtrzimała)] òd | chtërné (napisôł | napisôła) [do mie]) <SENDER_ADDRESS>;
+
+<INTENT_2_L2TC> = <INTENT_2_L2TC_1> | <INTENT_2_L2TC_2> | <INTENT_2_L2TC_3>;
+<INTENT_2_L2TC_1> = L2TC__ verb_pattern_01__ pòkôż [mie] (maile | emaile) chtërné <SENDER_ADDRESS> (do mie napisôł | napisôł do mie);
+<INTENT_2_L2TC_2> = L2TC__ verb_pattern_02__ wëswietl (maile | emaile) chtërné <SENDER_ADDRESS> (do mie napisôł | napisôł do mie);
+<INTENT_2_L2TC_3> = L2TC__ verb_pattern_03__ chcã òbôczëc (maile | emaile) chtërné <SENDER_ADDRESS> (do mie napisôł | napisôł do mie);
+
+<INTENT_2_REPHRASE> = <INTENT_2_REPHRASE_1> | <INTENT_2_REPHRASE_2>;
+<INTENT_2_REPHRASE_1> = REPHRASE__ verb_pattern_01__ czë <SENDER_ADDRESS> napisôł do mie (cos lëst elektroniczny);
+<INTENT_2_REPHRASE_2> = REPHRASE__ verb_pattern_02__ sprôwdz czë w skrzince ni ma czegòs òd <SENDER_ADDRESS>;
+
+##3) SHOW EMAIL WITH LABEL
+<INTENT_3> = <INTENT_3_L0TC> | <INTENT_3_L1TC> | <INTENT_3_L2TC> | <INTENT_3_REPHRASE>;
+<INTENT_3_L0TC> = <INTENT_3_L0TC_1> | <INTENT_3_L0TC_2>;
+<INTENT_3_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż [mie] [mòje] (emaile | maile) (z etikétą | zamëkającé etikétã) <LABEL>;
+<INTENT_3_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl [mòje] (emaile | maile) (z etikétą | zamëkającé etikétã) <LABEL>;
+
+<INTENT_3_L1TC> = <INTENT_3_L1TC_1> | <INTENT_3_L1TC_2> | <INTENT_3_L1TC_3>;
+<INTENT_3_L1TC_1> = L1TC__ verb_pattern_01__ naléz [mòje] (emaile | maile) (z etikétą | zamëkającé etikétã) <LABEL>;
+<INTENT_3_L1TC_2> = L1TC__ verb_pattern_02__ òbôcz [mòje] (emaile | maile) (z etikétą | zamëkającé etikétã) <LABEL>;
+<INTENT_3_L1TC_3> = L1TC__ verb_pattern_03__ sprôwdz [mòje] (emaile | maile) (z etikétą | zamëkającé etikétã) <LABEL>;
+
+<INTENT_3_L2TC> = <INTENT_3_L2TC_1> | <INTENT_3_L2TC_2> | <INTENT_3_L2TC_3>;
+<INTENT_3_L2TC_1> = L2TC__ verb_pattern_01__ pòkôż [mòje] (emaile | maile) (z etikétą | zamëkającé etikétã) <LABEL>;
+<INTENT_3_L2TC_2> = L2TC__ verb_pattern_02__ wëswietl [mòje] (emaile | maile) (z etikétą | zamëkającé etikétã) <LABEL>;
+<INTENT_3_L2TC_3> = L2TC__ verb_pattern_03__ chcã òbôczëc [mòje] (emaile | maile) (z etikétą | zamëkającé etikétã) <LABEL>;
+
+<INTENT_3_REPHRASE> = REPHRASE__ verb_pattern_01__ stwórz lëstã (na chtërny są (emaile | maile) | emailów | mailów) z etikétą <LABEL>;
+
+##4) SHOW EMAIL FROM TIME
+<INTENT_4> = <INTENT_4_L0TC> | <INTENT_4_L1TC> | <INTENT_4_L2TC> | <INTENT_4_REPHRASE>;
+<INTENT_4_L0TC> = <INTENT_4_L0TC_1> | <INTENT_4_L0TC_2>;
+<INTENT_4_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż [mie] [mòje] (emaile | maile) chtërné (jem dostôł | jem òtrzimôł | jem òtrzimała) <TIME>;
+<INTENT_4_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl [mòje] (emaile | maile) chtërné (jem dostôł | jem òtrzimôł | jem òtrzimała) <TIME>;
+
+<INTENT_4_L1TC> = <INTENT_4_L1TC_1> | <INTENT_4_L1TC_2> | <INTENT_4_L1TC_3>;
+<INTENT_4_L1TC_1> = L1TC__ verb_pattern_01__ naléz [mòje] (emaile | maile) chtërné (jem dostôł | jem òtrzimôł | jem òtrzimała) <TIME>;
+<INTENT_4_L1TC_2> = L1TC__ verb_pattern_02__ òbôcz [mòje] (emaile | maile) chtërné (jem dostôł | jem òtrzimôł | jem òtrzimała) <TIME>;
+<INTENT_4_L1TC_3> = L1TC__ verb_pattern_03__ sprôwdz [mòje] (emaile | maile) chtërné (jem dostôł | jem òtrzimôł | jem òtrzimała) <TIME>;
+
+<INTENT_4_L2TC> = <INTENT_4_L2TC_1> | <INTENT_4_L2TC_2> | <INTENT_4_L2TC_3>;
+<INTENT_4_L2TC_1> = L2TC__ verb_pattern_01__ pòkôż [mòje] (emaile | maile) chtërné (jem dostôł | jem òtrzimôł | jem òtrzimała) <TIME>;
+<INTENT_4_L2TC_2> = L2TC__ verb_pattern_02__ wëswietl [mòje] (emaile | maile) chtërné (jem dostôł | jem òtrzimôł | jem òtrzimała) <TIME>;
+<INTENT_4_L2TC_3> = L2TC__ verb_pattern_03__ chcã òbôczëc [mòje] (emaile | maile) chtërné (jem dostôł | jem òtrzimôł | jem òtrzimała) <TIME>;
+
+<INTENT_4_REPHRASE> = REPHRASE__ verb_pattern_01__ stwórz lëstã z (emailama | mailama) z <TIME>;
+
+##5) SHOW EMAIL WITH SUBJECT
+<INTENT_5> = <INTENT_5_L0TC> | <INTENT_5_L1TC> | <INTENT_5_L2TC> | <INTENT_5_REPHRASE>;
+<INTENT_5_L0TC> = <INTENT_5_L0TC_1> | <INTENT_5_L0TC_2>;
+<INTENT_5_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż [mie] [mòje] (emaile | maile) (ò témie | z témą) <SUBJECT>;
+<INTENT_5_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl [mòje] (emaile | maile) (ò témie | z témą) <SUBJECT>;
+
+<INTENT_5_L1TC> = <INTENT_5_L1TC_1> | <INTENT_5_L1TC_2> | <INTENT_5_L1TC_3>;
+<INTENT_5_L1TC_1> = L1TC__ verb_pattern_01__ naléz [mòje] (emaile | maile) (ò témie | z témą) <SUBJECT>;
+<INTENT_5_L1TC_2> = L1TC__ verb_pattern_02__ òbôcz [mòje] (emaile | maile) (ò témie | z témą) <SUBJECT>;
+<INTENT_5_L1TC_3> = L1TC__ verb_pattern_03__ sprôwdz [mòje] (emaile | maile) (ò témie | z témą) <SUBJECT>;
+
+<INTENT_5_L2TC> = <INTENT_5_L2TC_1> | <INTENT_5_L2TC_2> | <INTENT_5_L2TC_3>;
+<INTENT_5_L2TC_1> = L2TC__ verb_pattern_01__ pòkôż [mòje] (emaile | maile) (ò témie | z témą) <SUBJECT>;
+<INTENT_5_L2TC_2> = L2TC__ verb_pattern_02__ wëswietl [mòje] (emaile | maile) (ò témie | z témą) <SUBJECT>;
+<INTENT_5_L2TC_3> = L2TC__ verb_pattern_03__ chcã òbôczëc [mòje] (emaile | maile) (ò témie | z témą) <SUBJECT>;
+
+<INTENT_5_REPHRASE> = REPHRASE__ verb_pattern_01__ co (bëło | je) (napisóné | trescą) maila ò titlu <SUBJECT>;
+
+##6) SHOW EMAIL WITH PRIORITY
+<INTENT_6> = <INTENT_6_L0TC> | <INTENT_6_L1TC> | <INTENT_6_L2TC> | <INTENT_6_REPHRASE>;
+<INTENT_6_L0TC> = <INTENT_6_L0TC_1> | <INTENT_6_L0TC_2>;
+<INTENT_6_L0TC_1> = L0TC__ verb_pattern_01__ pòkôż [mòje] (emaile | maile) (o prioritece | z prioritetã) <PRIORITY>;
+<INTENT_6_L0TC_2> = L0TC__ verb_pattern_02__ wëswietl [mòje] (emaile | maile) (o prioritece | z prioritetã) <PRIORITY>;
+
+<INTENT_6_L1TC> = <INTENT_6_L1TC_1> | <INTENT_6_L1TC_2> | <INTENT_6_L1TC_3>;
+<INTENT_6_L1TC_1> = L1TC__ verb_pattern_01__ naléz [mòje] (emaile | maile) (o prioritece | z prioritetã) <PRIORITY>;
+<INTENT_6_L1TC_2> = L1TC__ verb_pattern_02__ òbôcz [mòje] (emaile | maile) (o prioritece | z prioritetã) <PRIORITY>;
+<INTENT_6_L1TC_3> = L1TC__ verb_pattern_03__ sprôwdz [mòje] (emaile | maile) (o prioritece | z prioritetã) <PRIORITY>;
+
+<INTENT_6_L2TC> = <INTENT_6_L2TC_1> | <INTENT_6_L2TC_2> | <INTENT_6_L2TC_3>;
+<INTENT_6_L2TC_1> = L2TC__ verb_pattern_01__ pòkôż [mòje] (emaile | maile) (o prioritece | z prioritetã) <PRIORITY>;
+<INTENT_6_L2TC_2> = L2TC__ verb_pattern_02__ wëswietl [mòje] (emaile | maile) (o prioritece | z prioritetã) <PRIORITY>;
+<INTENT_6_L2TC_3> = L2TC__ verb_pattern_03__ chcã òbôczëc [mòje] (emaile | maile) (o prioritece | z prioritetã) <PRIORITY>;
+
+<INTENT_6_REPHRASE> = REPHRASE__ verb_pattern_01__ co (bëło | je) (napisóné | trescą) maila ò titlu <SUBJECT>;
+
+##7) CREATE FULL EMAIL
+<INTENT_7> = <INTENT_7_L0TC> | <INTENT_7_L1TC> | <INTENT_7_L2TC> | <INTENT_7_REPHRASE>;
+<INTENT_7_L0TC> = L0TC__ verb_pattern_01__ napisz do <TO> o (témie <SUBJECT> ([i] z trescą | w tresce pisząc) <MESSAGE> | tresce <MESSAGE> [i] z témą <SUBJECT>);
+
+<INTENT_7_L1TC> = <INTENT_7_L1TC_1> | <INTENT_7_L1TC_2>;
+<INTENT_7_L1TC_1> = L1TC__ verb_pattern_01__ stwórz (email | mail | maila)do <TO> o (témie <SUBJECT> ([i] z trescą | w tresce pisząc) <MESSAGE> | tresce <MESSAGE> [i] z témą <SUBJECT>);
+<INTENT_7_L1TC_2> = L1TC__ verb_pattern_02__ ùtwórz (email | mail | maila)do <TO> o (témie <SUBJECT> ([i] z trescą | w tresce pisząc) <MESSAGE> | tresce <MESSAGE> [i] z témą <SUBJECT>);
+
+<INTENT_7_L2TC> = <INTENT_7_L2TC_1> | <INTENT_7_L2TC_2> | <INTENT_7_L2TC_3> | <INTENT_7_L2TC_4> | <INTENT_7_L2TC_5>;
+<INTENT_7_L2TC_1> = L2TC__ verb_pattern_01__ wëslij (email | mail | maila)do <TO> o (témie <SUBJECT> ([i] z trescą | w tresce pisząc) <MESSAGE> | tresce <MESSAGE> [i] z témą <SUBJECT>);
+<INTENT_7_L2TC_2> = L2TC__ verb_pattern_02__ napisz <MESSAGE> do <TO> (w témie wpisując | [i] z témą | nazywając go) <SUBJECT>;
+<INTENT_7_L2TC_3> = L2TC__ verb_pattern_03__ wëslij <MESSAGE> do <TO> (w témie wpisując | [i] z témą | nazywając go) <SUBJECT>;
+<INTENT_7_L2TC_4> = L2TC__ verb_pattern_04__ stwórz [wiadło] (email | mail) <MESSAGE> do <TO> ò témie <SUBJECT> i wëslij;
+<INTENT_7_L2TC_5> = L2TC__ verb_pattern_05__ ùtwórz [wiadło] (email | mail) <MESSAGE> do <TO> ò témie <SUBJECT> i wëslij;
+
+<INTENT_7_REPHRASE> = REPHRASE__ verb_pattern_01__ do <TO> napisz wiadło <MESSAGE> i ò titlu <SUBJECT>;
+
+##8) CREATE EMAIL WITH SUBJECT ONLY
+<INTENT_8> = <INTENT_8_L0TC> | <INTENT_8_L1TC> | <INTENT_8_L2TC> | <INTENT_8_REPHRASE>;
+<INTENT_8_L0TC> = L0TC__ verb_pattern_01__ napisz [email | maila] (do <TO> (ò témie | w témie wpisując) <SUBJECT> | (ò témie | w témie wpisując) <SUBJECT> do <TO>);
+
+<INTENT_8_L1TC> = <INTENT_8_L1TC_1> | <INTENT_8_L1TC_2>;
+<INTENT_8_L1TC_1> = L1TC__ verb_pattern_01__ stwórz [email | maila] (do <TO> (ò témie | w témie wpisując) <SUBJECT> | (ò témie | w témie wpisując) <SUBJECT> do <TO>);
+<INTENT_8_L1TC_2> = L1TC__ verb_pattern_02__ ùtwórz [email | maila] (do <TO> (ò témie | w témie wpisując) <SUBJECT> | (ò témie | w témie wpisując) <SUBJECT> do <TO>);
+
+<INTENT_8_L2TC> = <INTENT_8_L2TC_1> | <INTENT_8_L2TC_2>;
+<INTENT_8_L2TC_1> = L2TC__ verb_pattern_01__ wëslij [email | maila] (do <TO> (ò témie | w témie wpisując) <SUBJECT> | (ò témie | w témie wpisując) <SUBJECT> do <TO>);
+<INTENT_8_L2TC_2> = L2TC__ verb_pattern_02__ pisz [email | maila] (do <TO> (ò témie | w témie wpisując) <SUBJECT> | (ò témie | w témie wpisując) <SUBJECT> do <TO>);
+
+<INTENT_8_REPHRASE> = REPHRASE__ verb_pattern_01__ do <TO> napisz wiadło ò titlu <SUBJECT>;
+
+##9) NEW EMAIL
+<INTENT_9> = <INTENT_9_L0TC> | <INTENT_9_L1TC> | <INTENT_9_L2TC> | <INTENT_9_REPHRASE>;
+<INTENT_9_L0TC> = L0TC__ verb_pattern_01__ napisz [[nowi] (email | mail)];
+
+<INTENT_9_L1TC> = <INTENT_9_L1TC_1> | <INTENT_9_L1TC_2>;
+<INTENT_9_L1TC_1> = L1TC__ verb_pattern_01__ ùtwórz [nowi] (email | maila);
+<INTENT_9_L1TC_2> = L1TC__ verb_pattern_02__ stwórz [nowi] (email | maila);
+
+<INTENT_9_L2TC> = L2TC__ verb_pattern_01__ wëslij (email | maila);
+
+<INTENT_9_REPHRASE> = REPHRASE__ verb_pattern_01__ przekôż wiadło przë ùżëcym (maila | emaila | elektroniczny pòcztë);
+
+##10) CREATE EMAIL TO
+<INTENT_10> = <INTENT_10_L0TC> | <INTENT_10_L1TC> | <INTENT_10_L2TC> | <INTENT_10_REPHRASE>;
+<INTENT_10_L0TC> = L0TC__ verb_pattern_01__ napisz [[nowi] (email | mail)] do <TO>;
+
+<INTENT_10_L1TC> = <INTENT_10_L1TC_1> | <INTENT_10_L1TC_2>;
+<INTENT_10_L1TC_1> = L1TC__ verb_pattern_01__ ùtwórz (email | maila) do <TO>;
+<INTENT_10_L1TC_2> = L1TC__ verb_pattern_02__ stwórz (email | maila) do <TO>;
+
+<INTENT_10_L2TC> = L2TC__ verb_pattern_01__ wëslij (email | maila) do <TO>;
+
+<INTENT_10_REPHRASE> = REPHRASE__ verb_pattern_01__ przekôż wiadło do <TO> przë ùżëcym (maila | emaila | elektroniczny pòcztë);
+
+##11) REPLY TO EMAIL
+<INTENT_11> = <INTENT_11_L0TC> | <INTENT_11_L1TC> | <INTENT_11_L2TC> | <INTENT_11_REPHRASE>;
+<INTENT_11_L0TC> = <INTENT_11_L0TC_1> | <INTENT_11_L0TC_2>;
+<INTENT_11_L0TC_1> = L0TC__ verb_pattern_01__ òdpisz [na (maila | emaila | lëst)] <TO>;
+<INTENT_11_L0TC_2> = L0TC__ verb_pattern_02__ òdpòwiédz [na (maila | emaila | lëst)] <TO>;
+
+<INTENT_11_L1TC> = L1TC__ verb_pattern_01__ dôj òdpòwiédz [na (maila | emaila | lëst)] <TO>;
+
+<INTENT_11_L2TC> = L2TC__ verb_pattern_01__ napisz w òdpòwiédzi [na (maila | emaila | lëst)] <TO>;
+
+<INTENT_11_REPHRASE> = REPHRASE__ verb_pattern_01__  w nawiązanim do kòrespòndencje z <TO> òdpisz;
+
+#SLOTS
+<SENDER_ADDRESS> = EMAIL.SLOT.SENDER_ADDRESS;
+<LABEL> = EMAIL.SLOT.LABEL;
+<SUBJECT> = EMAIL.SLOT.SUBJECT;
+<TO> = EMAIL.SLOT.TO;
+<MESSAGE> = EMAIL.SLOT.MESSAGE;
+<PIC_URL> = EMAIL.SLOT.PIC_URL
+<TIME> = EMAIL.SLOT.TIME;
+<PRIORITY> = EMAIL.SLOT.PRIORITY;
+
+#LANG. COMPONENTS
+<CHECK_VERB> = sprôwdz | òbôcz;
+<SEND_EMAIL> = (napisz | wëslij | ùtwórz | stwórz) (emaila | maila | lëst);
+<SHOW_ME> = (pòkôż | wëswietl) [mie] | òbôcz | sprôwdz;
